@@ -7,6 +7,9 @@ jobs:
   update-fork:
     runs-on: ubuntu-latest
     steps:
-      - uses: Shurtu-gal/autoupdate-fork-action@v1.0.1
+      - uses: dabreadman/sync-upstream-repo@v1.0.0.b
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_repo: "https://github.com/speced/bikeshed.git"
+          upstream_branch: main
+          downstream_branch: main
+          token: ${{ secrets.GITHUB_TOKEN }}
