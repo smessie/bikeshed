@@ -385,6 +385,9 @@ class MetadataManager:
             elif statusName == "NOTE-ED":
                 macros["w3c-stylesheet-url"] = "https://www.w3.org/StyleSheets/TR/2021/W3C-ED"
                 macros["w3c-status-url"] = "https://www.w3.org/standards/types/#ED"
+            elif statusName == "STATEMENT":
+                macros["w3c-stylesheet-url"] = "https://www.w3.org/StyleSheets/TR/2021/W3C-STMT"
+                macros["w3c-status-url"] = "https://www.w3.org/standards/types/#STMT"
             else:
                 macros["w3c-stylesheet-url"] = f"https://www.w3.org/StyleSheets/TR/2021/W3C-{statusName}"
                 macros["w3c-status-url"] = f"https://www.w3.org/standards/types/#{statusName}"
@@ -1259,7 +1262,7 @@ def getSpecRepository(doc: t.SpecT) -> repository.Repository | None:
         try:
             with open(os.devnull, "wb") as fnull:
                 remotes = str(
-                    subprocess.check_output(["git", "remote", "-v"], stderr=fnull, cwd=source_dir),  # noqa: S603
+                    subprocess.check_output(["git", "remote", "-v"], stderr=fnull, cwd=source_dir),
                     encoding="utf-8",
                 )
             searches = [

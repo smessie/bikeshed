@@ -2,9 +2,12 @@
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <title>test</title>
+  <title>Dfn Inference (yes CSS)</title>
   <link href="http://example.com/foo" rel="canonical">
   <meta content="dark light" name="color-scheme">
+<style>
+dfn::before { content: "(" attr(data-dfn-type) ") " !important; }
+</style>
 <style>/* Boilerplate: style-autolinks */
 .css.css, .property.property, .descriptor.descriptor {
     color: var(--a-normal-text);
@@ -563,7 +566,7 @@ dfn > a.self-link::before      { content: "#"; }
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"></p>
-   <h1 class="p-name no-ref" id="title">test</h1>
+   <h1 class="p-name no-ref" id="title">Dfn Inference (yes CSS)</h1>
    <p>Living Standard,
     <time class="dt-updated" datetime="1970-01-01">1 January 1970</time></p>
    <div data-fill-with="spec-metadata">
@@ -581,217 +584,118 @@ dfn > a.self-link::before      { content: "#"; }
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>Test of markdown inline link constructs</p>
+   <p>Testing how dfn types are inferred when Infer CSS Dfns is on.</p>
   </div>
   <div data-fill-with="at-risk"></div>
   <nav data-fill-with="table-of-contents" id="toc">
    <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
    <ol class="toc" role="directory">
-    <li><a href="#a"><span class="secno">1</span> <span class="content">Basic Usage</span></a>
-    <li><a href="#b"><span class="secno">2</span> <span class="content">Whitespace</span></a>
-    <li><a href="#c"><span class="secno">3</span> <span class="content">Missing Escapes</span></a>
-    <li><a href="#d"><span class="secno">4</span> <span class="content">Errors</span></a>
-    <li><a href="#e"><span class="secno">5</span> <span class="content">HTML Parsing</span></a>
-    <li><a href="#f"><span class="secno">6</span> <span class="content">HTML Parsing Errors</span></a>
     <li>
      <a href="#index"><span class="secno"></span> <span class="content">Index</span></a>
      <ol class="toc">
-      <li><a href="#index-defined-elsewhere"><span class="secno"></span> <span class="content">Terms defined by reference</span></a>
-     </ol>
-    <li>
-     <a href="#references"><span class="secno"></span> <span class="content">References</span></a>
-     <ol class="toc">
-      <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
+      <li><a href="#index-defined-here"><span class="secno"></span> <span class="content">Terms defined by this specification</span></a>
      </ol>
    </ol>
   </nav>
   <main>
-   <h2 class="heading settled" data-level="1" id="a"><span class="secno">1. </span><span class="content">Basic Usage</span><a class="self-link" href="#a"></a></h2>
+   <p>All the tests from dfn-inference001, which shouldn’t change:</p>
    <ul>
     <li data-md>
-     <p><a href>link</a> missing link and title is fine</p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="no-inference-should-be-dfn">no inference, should be dfn</dfn></p>
     <li data-md>
-     <p><a href="/uri">link</a> this is normal</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-explicit-property">explicit property</dfn></p>
     <li data-md>
-     <p><a href="/url" title="title">link</a> link and title</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-foo">ID property</dfn></p>
     <li data-md>
-     <p><a href title="title">link</a> missing link, only title is OK</p>
+     <p><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-parent-property">parent property</dfn></span></p>
     <li data-md>
-     <p><a href="/url" title="title">link</a> single quotes okay for title</p>
+     <p><span><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-ancestor-property">ancestor property</dfn></span></span></p>
     <li data-md>
-     <p><a href title="title">link</a> single quotes with no link</p>
+     <p><dfn class="propdef dfn-paneled" data-dfn-type="dfn" data-noexport id="failed-class-inference-should-be-dfn">failed class inference, should be dfn</dfn></p>
     <li data-md>
-     <p><a href="/url" title="title">link</a> parens okay in title</p>
+     <p><span class="propdef"><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-parent-class-inference">parent class inference</dfn></span></p>
     <li data-md>
-     <p><a href title="parens">link</a> single quotes with no link</p>
+     <p><span class="propdef"><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-ancestor-class-inference">ancestor class inference</dfn></span></span></p>
     <li data-md>
-     <p><a href="#fragment">link</a> fragment-only url allowed</p>
+     <p><span class="funcdef"><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="interfacedef-foo">property wins</dfn></span> - explicit type on dfn wins over everything</p>
     <li data-md>
-     <p><a href="http://example.com#fragment">link</a> fragment allowed</p>
+     <p><span class="funcdef"><dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="interfacedef-bar"><code>interface wins</code></dfn></span> - ID prefix wins over everything but the above</p>
     <li data-md>
-     <p><a href="http://example.com?foo=3#frag">link</a> query allowed</p>
+     <p><span class="funcdef"><dfn class="dfn-paneled" data-dfn-type="element" data-export id="elementdef-element-wins"><code>element wins</code></dfn></span> - explicit type on ancestor wins over class on same element</p>
     <li data-md>
-     <p><a href="foo%20bä">link</a> URL escapes, html escapes all allowed</p>
-    <li data-md>
-     <p><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)">link</a> - html entities for '(' and ')'</p>
-    <li data-md>
-     <p><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)and(Other)(Tricks)">link</a> - balanced parens</p>
-    <li data-md>
-     <p><a href="/uri">link</a> link surrounded by angle brackets is fine</p>
-    <li data-md>
-     <p><a href="spaces and ) and &quot; and &apos; are fine">link</a> you can put lots of stuff inside &lt;></p>
-    <li data-md>
-     <p><a href="/uri" title="title">link</a> &lt;>-wrapped, with title</p>
+     <p><span><span class="funcdef"><dfn class="dfn-paneled css" data-dfn-type="function" data-export id="funcdef-function-wins">function-wins()</dfn></span></span> - but class on closer ancestor wins over explicit type on further ancestor</p>
    </ul>
-   <h2 class="heading settled" data-level="2" id="b"><span class="secno">2. </span><span class="content">Whitespace</span><a class="self-link" href="#b"></a></h2>
+   <hr>
+   <p>CSS inference looks at the text</p>
    <ul>
     <li data-md>
-     <p><a href="/uri">link</a> Spaces around the url ok</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="at-rule" data-export id="at-ruledef-at-rule">@at-rule</dfn></p>
     <li data-md>
-     <p><a href="/uri" title="title">link</a> and around the title</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="function" data-export id="funcdef-function">function()</dfn></p>
     <li data-md>
-     <p><a href="/url" title="title">link</a> single linebreak between components is ok</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="function" data-export data-lt="function-with-args()" id="funcdef-function-with-args">function-with-args(one, two)</dfn></p>
     <li data-md>
-     <p><a href="/url" title="line 1
-line 2
-line 3">link</a> linebreaks in the title are ok</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="selector" data-export id="selectordef-selector">:selector</dfn></p>
     <li data-md>
-     <p><a href="/url" title="foo">link</a> tabs are ok as whitespace</p>
+     <p><dfn class="dfn-paneled css" data-dfn-for="foo" data-dfn-type="value" data-export id="valdef-foo-value"><a class="css" data-link-type="maybe" href="#valdef-foo-value" id="ref-for-valdef-foo-value">value</a></dfn></p>
+    <li data-md>
+     <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-type"><a class="production css" data-link-type="type" href="#typedef-type" id="ref-for-typedef-type">&lt;type></a></dfn></p>
    </ul>
-   <h2 class="heading settled" data-level="3" id="c"><span class="secno">3. </span><span class="content">Missing Escapes</span><a class="self-link" href="#c"></a></h2>
-   <p>These should work, but will contain extra backslashes</p>
+   <hr>
+   <p>Some type-ish categories should trigger errors in inference (but still become `type`):</p>
    <ul>
     <li data-md>
-     <p><a href="foo\bar">link</a> backslashes followed by a non-punc are just textual</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-bad-at-rule"><u class="production link-error" data-lt="@bad-at-rule" title="LINK ERROR: No &apos;at-rule&apos; refs found for &apos;@bad-at-rule&apos;.">&lt;@bad-at-rule></u></dfn></p>
     <li data-md>
-     <p><a href="foo\\bar">link</a> escaped slash</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-bad-function"><u class="production link-error" data-lt="bad-function()" title="LINK ERROR: No &apos;function&apos; refs found for &apos;bad-function()&apos;.">&lt;bad-function()></u></dfn></p>
     <li data-md>
-     <p><a href="\&quot;foo">link</a> starting escaped " is in the url, not the title</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-bad-property"><u class="production link-error" data-lt="bad-property" title="LINK ERROR: No &apos;property&apos; refs found for &apos;bad-property&apos;.">&lt;'bad-property'></u></dfn></p>
     <li data-md>
-     <p><a href="\&apos;foo">link</a> same for single quote</p>
-    <li data-md>
-     <p><a href title="foo\">link</a>) balanced parens still work, but escaped ones do count</p>
-    <li data-md>
-     <p><a href="/url\.html" title="foo\.bar">link</a> other escaped punc is allowed</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-bad-value"><a class="production css" data-link-type="type" href="#typedef-bad-value" id="ref-for-typedef-bad-value">&lt;''bad-value''></a></dfn></p>
    </ul>
-   <p>These won’t work, the lack of escaping breaks the parsing.</p>
+   <hr>
+   <p>CSS inference should lose to everything else:</p>
    <ul>
     <li data-md>
-     <p>[link](\(foo) same for parens</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-property1">@property1</dfn> - explicit type on dfn</p>
     <li data-md>
-     <p>[link]("foo\"") can escape the " inside a title</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-bar">@property2</dfn> - ID prefix</p>
     <li data-md>
-     <p>[link]('foo'') or the '</p>
+     <p><span class="propdef"><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-property3">@property3</dfn></span> - class on ancestor</p>
     <li data-md>
-     <p>[link](https://en.wikipedia.org/wiki/Sandbox_\(computer_security\)and\(Other\)\(Tricks) - escaped parens</p>
-    <li data-md>
-     <p>
-      [link](
-      <url U0005C>\&lt;>) can escape &lt; and > inside &lt;>-wrapped links</url>
-     </p>
+     <p><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-property4">@property4</dfn></span> - explicit type on ancestor</p>
    </ul>
-   <h2 class="heading settled" data-level="4" id="d"><span class="secno">4. </span><span class="content">Errors</span><a class="self-link" href="#d"></a></h2>
-   <ul>
-    <li data-md>
-     <p>[link] (/uri) not a link, just some weird text</p>
-    <li data-md>
-     <p>[link](https://en.wikipedia.org/wiki/Sandbox_((computer_security)) - unbalanced unescaped parens, not a link</p>
-    <li data-md>
-     <p><a href="/url&quot;title&quot;">link</a> need space between the url and title</p>
-    <li data-md>
-     <p>[link](/url title) no wrapper for the title</p>
-    <li data-md>
-     <p>[link](/url title "foo") still no wrapper</p>
-    <li data-md>
-     <p>
-      [link](
-      <foo bar>) linebreak in &lt;>-wrapped url is not allowed</foo>
-     </p>
-    <li data-md>
-     <p>[link]( title) even if the link is &lt;>-wrapped, still need title wrapper</p>
-    <li data-md>
-     <p>[link]("title") even if the link is &lt;>-wrapped, still need space between it and the title</p>
-    <li data-md>
-     <p>[link](</p>
-     <p>/url "title") blank line <em>not</em> allowed between components</p>
-    <li data-md>
-     <p>[link](/url "line 1</p>
-     <p>line 3") blank line not allowed in title</p>
-    <li data-md>
-     <p>
-      [link](
-      <urlU0003C>) no unescaped &lt; inside of &lt;>-wrapped links</urlU0003C>
-     </p>
-    <li data-md>
-     <p>
-      [link](
-      <urlU0003C>>) not allowed even if it’s balanced</urlU0003C>
-     </p>
-   </ul>
-   <h2 class="heading settled" data-level="5" id="e"><span class="secno">5. </span><span class="content">HTML Parsing</span><a class="self-link" href="#e"></a></h2>
-   <ul>
-    <li data-md>
-     <p><a href="/url">can use <em>markup</em> in here</a></p>
-    <li data-md>
-     <p><a href="/url">markup hides <br title="](/not-url)"> the md markup appropriately</a></p>
-    <li data-md>
-     <p><a href="/url">can use test macros in here</a></p>
-    <li data-md>
-     <p>[can md-escape \] square brackets in here](/url)</p>
-    <li data-md>
-     <p><a href="/url">can html-escape Y square brackets</a></p>
-    <li data-md>
-     <p><a href="/url">embedding another link </a><a href="/bar">foo</a> doesn’t work</p>
-    <li data-md>
-     <p><a href="/url">other shorthands like <span class="css">foo</span> work</a></p>
-    <li data-md>
-     <p><a href="/url">linking shorthands <code></code></a><code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element" id="ref-for-the-div-element">div</a></code> at least parse</p>
-    <li data-md>
-     <p><a href="/url"><code>code</code> spans are ok</a></p>
-    <li data-md>
-     <p><code>[and links aren’t parsed in code](/url)</code></p>
-    <li data-md>
-     <p><code>[code interrupts</code>](/url) link parsing</p>
-    <li data-md>
-     <p><a href="/url">including <code>from inside](/not-url)</code></a></p>
-   </ul>
-   <h2 class="heading settled" data-level="6" id="f"><span class="secno">6. </span><span class="content">HTML Parsing Errors</span><a class="self-link" href="#f"></a></h2>
-   <ul>
-    <li data-md>
-     <p>[using a naked ] inside the link text](/url) cancels the link-parse (contra to CommonMark)</p>
-    <li data-md>
-     <p><em>starting outside <a href="/url">then </a></em><a href="/url"> closing inside</a> is an error</p>
-    <li data-md>
-     <p><a href="/url">not <em>closing</em></a><em> is an error</em></p>
-     <em>
-</em>
-    <li data-md>
-     <p><em><a href="/url">a link-closer </a> is an error</em></p>
-     <em>
-</em>
-   </ul>
-   <em>
-</em>
   </main>
-  <em>
-
-
-</em>
-  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
-  <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
+  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span></h2>
+  <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span></h3>
   <ul class="index">
-   <li>
-    <a data-link-type="biblio">[HTML]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="a7bbaf9f">div</span>
-    </ul>
+   <li><a href="#propdef-ancestor-class-inference">ancestor class inference</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-ancestor-property">ancestor property</a><span>, in § Unnumbered section</span>
+   <li><a href="#at-ruledef-at-rule">@at-rule</a><span>, in § Unnumbered section</span>
+   <li><a href="#typedef-bad-at-rule">&lt;@bad-at-rule></a><span>, in § Unnumbered section</span>
+   <li><a href="#typedef-bad-function">&lt;bad-function()></a><span>, in § Unnumbered section</span>
+   <li><a href="#typedef-bad-property">&lt;'bad-property'></a><span>, in § Unnumbered section</span>
+   <li><a href="#typedef-bad-value">&lt;''bad-value''></a><span>, in § Unnumbered section</span>
+   <li><a href="#elementdef-element-wins">element wins</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-explicit-property">explicit property</a><span>, in § Unnumbered section</span>
+   <li><a href="#failed-class-inference-should-be-dfn">failed class inference, should be dfn</a><span>, in § Unnumbered section</span>
+   <li><a href="#funcdef-function">function()</a><span>, in § Unnumbered section</span>
+   <li><a href="#funcdef-function-wins">function-wins()</a><span>, in § Unnumbered section</span>
+   <li><a href="#funcdef-function-with-args">function-with-args()</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-foo">ID property</a><span>, in § Unnumbered section</span>
+   <li><a href="#interfacedef-bar">interface wins</a><span>, in § Unnumbered section</span>
+   <li><a href="#no-inference-should-be-dfn">no inference, should be dfn</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-parent-class-inference">parent class inference</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-parent-property">parent property</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-property1">@property1</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-bar">@property2</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-property3">@property3</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-property4">@property4</a><span>, in § Unnumbered section</span>
+   <li><a href="#interfacedef-foo">property wins</a><span>, in § Unnumbered section</span>
+   <li><a href="#selectordef-selector">:selector</a><span>, in § Unnumbered section</span>
+   <li><a href="#typedef-type">&lt;type></a><span>, in § Unnumbered section</span>
+   <li><a href="#valdef-foo-value">value</a><span>, in § Unnumbered section</span>
   </ul>
-  <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
-  <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
-  <dl>
-   <dt id="biblio-html">[HTML]
-   <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
-  </dl>
 <script>/* Boilerplate: script-dom-helper */
 "use strict";
 function query(sel) { return document.querySelector(sel); }
@@ -992,7 +896,32 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
-"a7bbaf9f": {"dfnID":"a7bbaf9f","dfnText":"div","external":true,"refSections":[{"refs":[{"id":"ref-for-the-div-element"}],"title":"5. HTML Parsing"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
+"at-ruledef-at-rule": {"dfnID":"at-ruledef-at-rule","dfnText":"@at-rule","external":false,"refSections":[],"url":"#at-ruledef-at-rule"},
+"elementdef-element-wins": {"dfnID":"elementdef-element-wins","dfnText":"element wins","external":false,"refSections":[],"url":"#elementdef-element-wins"},
+"failed-class-inference-should-be-dfn": {"dfnID":"failed-class-inference-should-be-dfn","dfnText":"failed class inference, should be dfn","external":false,"refSections":[],"url":"#failed-class-inference-should-be-dfn"},
+"funcdef-function": {"dfnID":"funcdef-function","dfnText":"function()","external":false,"refSections":[],"url":"#funcdef-function"},
+"funcdef-function-wins": {"dfnID":"funcdef-function-wins","dfnText":"function-wins()","external":false,"refSections":[],"url":"#funcdef-function-wins"},
+"funcdef-function-with-args": {"dfnID":"funcdef-function-with-args","dfnText":"function-with-args(one, two)","external":false,"refSections":[],"url":"#funcdef-function-with-args"},
+"interfacedef-bar": {"dfnID":"interfacedef-bar","dfnText":"interface wins","external":false,"refSections":[],"url":"#interfacedef-bar"},
+"interfacedef-foo": {"dfnID":"interfacedef-foo","dfnText":"property wins","external":false,"refSections":[],"url":"#interfacedef-foo"},
+"no-inference-should-be-dfn": {"dfnID":"no-inference-should-be-dfn","dfnText":"no inference, should be dfn","external":false,"refSections":[],"url":"#no-inference-should-be-dfn"},
+"propdef-ancestor-class-inference": {"dfnID":"propdef-ancestor-class-inference","dfnText":"ancestor class inference","external":false,"refSections":[],"url":"#propdef-ancestor-class-inference"},
+"propdef-ancestor-property": {"dfnID":"propdef-ancestor-property","dfnText":"ancestor property","external":false,"refSections":[],"url":"#propdef-ancestor-property"},
+"propdef-bar": {"dfnID":"propdef-bar","dfnText":"@property2","external":false,"refSections":[],"url":"#propdef-bar"},
+"propdef-explicit-property": {"dfnID":"propdef-explicit-property","dfnText":"explicit property","external":false,"refSections":[],"url":"#propdef-explicit-property"},
+"propdef-foo": {"dfnID":"propdef-foo","dfnText":"ID property","external":false,"refSections":[],"url":"#propdef-foo"},
+"propdef-parent-class-inference": {"dfnID":"propdef-parent-class-inference","dfnText":"parent class inference","external":false,"refSections":[],"url":"#propdef-parent-class-inference"},
+"propdef-parent-property": {"dfnID":"propdef-parent-property","dfnText":"parent property","external":false,"refSections":[],"url":"#propdef-parent-property"},
+"propdef-property1": {"dfnID":"propdef-property1","dfnText":"@property1","external":false,"refSections":[],"url":"#propdef-property1"},
+"propdef-property3": {"dfnID":"propdef-property3","dfnText":"@property3","external":false,"refSections":[],"url":"#propdef-property3"},
+"propdef-property4": {"dfnID":"propdef-property4","dfnText":"@property4","external":false,"refSections":[],"url":"#propdef-property4"},
+"selectordef-selector": {"dfnID":"selectordef-selector","dfnText":":selector","external":false,"refSections":[],"url":"#selectordef-selector"},
+"typedef-bad-at-rule": {"dfnID":"typedef-bad-at-rule","dfnText":"<@bad-at-rule>","external":false,"refSections":[],"url":"#typedef-bad-at-rule"},
+"typedef-bad-function": {"dfnID":"typedef-bad-function","dfnText":"<bad-function()>","external":false,"refSections":[],"url":"#typedef-bad-function"},
+"typedef-bad-property": {"dfnID":"typedef-bad-property","dfnText":"<'bad-property'>","external":false,"refSections":[],"url":"#typedef-bad-property"},
+"typedef-bad-value": {"dfnID":"typedef-bad-value","dfnText":"<''bad-value''>","external":false,"refSections":[{"refs":[{"id":"ref-for-typedef-bad-value"}],"title":"Unnamed section"}],"url":"#typedef-bad-value"},
+"typedef-type": {"dfnID":"typedef-type","dfnText":"<type>","external":false,"refSections":[{"refs":[{"id":"ref-for-typedef-type"}],"title":"Unnamed section"}],"url":"#typedef-type"},
+"valdef-foo-value": {"dfnID":"valdef-foo-value","dfnText":"value","external":false,"refSections":[{"refs":[{"id":"ref-for-valdef-foo-value"}],"title":"Unnamed section"}],"url":"#valdef-foo-value"},
 };
 
 document.addEventListener("DOMContentLoaded", ()=>{
@@ -1381,7 +1310,9 @@ function genLinkingSyntaxes(dfn) {
 "use strict";
 {
 let refsData = {
-"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element": {"displayText":"div","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"div","type":"element","url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
+"#typedef-bad-value": {"displayText":"<''bad-value''>","export":true,"for_":[],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"<''bad-value''>","type":"type","url":"#typedef-bad-value"},
+"#typedef-type": {"displayText":"<type>","export":true,"for_":[],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"<type>","type":"type","url":"#typedef-type"},
+"#valdef-foo-value": {"displayText":"value","export":true,"for_":["foo"],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"value","type":"value","url":"#valdef-foo-value"},
 };
 
 function mkRefHint(link, ref) {

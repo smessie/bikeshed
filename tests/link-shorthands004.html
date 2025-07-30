@@ -2,7 +2,7 @@
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <title>test</title>
+  <title>Foo</title>
   <link href="http://example.com/foo" rel="canonical">
   <meta content="dark light" name="color-scheme">
 <style>/* Boilerplate: style-autolinks */
@@ -563,7 +563,7 @@ dfn > a.self-link::before      { content: "#"; }
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"></p>
-   <h1 class="p-name no-ref" id="title">test</h1>
+   <h1 class="p-name no-ref" id="title">Foo</h1>
    <p>Living Standard,
     <time class="dt-updated" datetime="1970-01-01">1 January 1970</time></p>
    <div data-fill-with="spec-metadata">
@@ -581,217 +581,98 @@ dfn > a.self-link::before      { content: "#"; }
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>Test of markdown inline link constructs</p>
+   <p>Testing that link data is parsed literally but displayed safely, while link text is parsed as html and displayed raw.</p>
   </div>
   <div data-fill-with="at-risk"></div>
   <nav data-fill-with="table-of-contents" id="toc">
    <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
    <ol class="toc" role="directory">
-    <li><a href="#a"><span class="secno">1</span> <span class="content">Basic Usage</span></a>
-    <li><a href="#b"><span class="secno">2</span> <span class="content">Whitespace</span></a>
-    <li><a href="#c"><span class="secno">3</span> <span class="content">Missing Escapes</span></a>
-    <li><a href="#d"><span class="secno">4</span> <span class="content">Errors</span></a>
-    <li><a href="#e"><span class="secno">5</span> <span class="content">HTML Parsing</span></a>
-    <li><a href="#f"><span class="secno">6</span> <span class="content">HTML Parsing Errors</span></a>
     <li>
      <a href="#index"><span class="secno"></span> <span class="content">Index</span></a>
      <ol class="toc">
-      <li><a href="#index-defined-elsewhere"><span class="secno"></span> <span class="content">Terms defined by reference</span></a>
-     </ol>
-    <li>
-     <a href="#references"><span class="secno"></span> <span class="content">References</span></a>
-     <ol class="toc">
-      <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
+      <li><a href="#index-defined-here"><span class="secno"></span> <span class="content">Terms defined by this specification</span></a>
      </ol>
    </ol>
   </nav>
   <main>
-   <h2 class="heading settled" data-level="1" id="a"><span class="secno">1. </span><span class="content">Basic Usage</span><a class="self-link" href="#a"></a></h2>
-   <ul>
-    <li data-md>
-     <p><a href>link</a> missing link and title is fine</p>
-    <li data-md>
-     <p><a href="/uri">link</a> this is normal</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> link and title</p>
-    <li data-md>
-     <p><a href title="title">link</a> missing link, only title is OK</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> single quotes okay for title</p>
-    <li data-md>
-     <p><a href title="title">link</a> single quotes with no link</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> parens okay in title</p>
-    <li data-md>
-     <p><a href title="parens">link</a> single quotes with no link</p>
-    <li data-md>
-     <p><a href="#fragment">link</a> fragment-only url allowed</p>
-    <li data-md>
-     <p><a href="http://example.com#fragment">link</a> fragment allowed</p>
-    <li data-md>
-     <p><a href="http://example.com?foo=3#frag">link</a> query allowed</p>
-    <li data-md>
-     <p><a href="foo%20bä">link</a> URL escapes, html escapes all allowed</p>
-    <li data-md>
-     <p><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)">link</a> - html entities for '(' and ')'</p>
-    <li data-md>
-     <p><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)and(Other)(Tricks)">link</a> - balanced parens</p>
-    <li data-md>
-     <p><a href="/uri">link</a> link surrounded by angle brackets is fine</p>
-    <li data-md>
-     <p><a href="spaces and ) and &quot; and &apos; are fine">link</a> you can put lots of stuff inside &lt;></p>
-    <li data-md>
-     <p><a href="/uri" title="title">link</a> &lt;>-wrapped, with title</p>
-   </ul>
-   <h2 class="heading settled" data-level="2" id="b"><span class="secno">2. </span><span class="content">Whitespace</span><a class="self-link" href="#b"></a></h2>
-   <ul>
-    <li data-md>
-     <p><a href="/uri">link</a> Spaces around the url ok</p>
-    <li data-md>
-     <p><a href="/uri" title="title">link</a> and around the title</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> single linebreak between components is ok</p>
-    <li data-md>
-     <p><a href="/url" title="line 1
-line 2
-line 3">link</a> linebreaks in the title are ok</p>
-    <li data-md>
-     <p><a href="/url" title="foo">link</a> tabs are ok as whitespace</p>
-   </ul>
-   <h2 class="heading settled" data-level="3" id="c"><span class="secno">3. </span><span class="content">Missing Escapes</span><a class="self-link" href="#c"></a></h2>
-   <p>These should work, but will contain extra backslashes</p>
-   <ul>
-    <li data-md>
-     <p><a href="foo\bar">link</a> backslashes followed by a non-punc are just textual</p>
-    <li data-md>
-     <p><a href="foo\\bar">link</a> escaped slash</p>
-    <li data-md>
-     <p><a href="\&quot;foo">link</a> starting escaped " is in the url, not the title</p>
-    <li data-md>
-     <p><a href="\&apos;foo">link</a> same for single quote</p>
-    <li data-md>
-     <p><a href title="foo\">link</a>) balanced parens still work, but escaped ones do count</p>
-    <li data-md>
-     <p><a href="/url\.html" title="foo\.bar">link</a> other escaped punc is allowed</p>
-   </ul>
-   <p>These won’t work, the lack of escaping breaks the parsing.</p>
-   <ul>
-    <li data-md>
-     <p>[link](\(foo) same for parens</p>
-    <li data-md>
-     <p>[link]("foo\"") can escape the " inside a title</p>
-    <li data-md>
-     <p>[link]('foo'') or the '</p>
-    <li data-md>
-     <p>[link](https://en.wikipedia.org/wiki/Sandbox_\(computer_security\)and\(Other\)\(Tricks) - escaped parens</p>
-    <li data-md>
-     <p>
-      [link](
-      <url U0005C>\&lt;>) can escape &lt; and > inside &lt;>-wrapped links</url>
-     </p>
-   </ul>
-   <h2 class="heading settled" data-level="4" id="d"><span class="secno">4. </span><span class="content">Errors</span><a class="self-link" href="#d"></a></h2>
-   <ul>
-    <li data-md>
-     <p>[link] (/uri) not a link, just some weird text</p>
-    <li data-md>
-     <p>[link](https://en.wikipedia.org/wiki/Sandbox_((computer_security)) - unbalanced unescaped parens, not a link</p>
-    <li data-md>
-     <p><a href="/url&quot;title&quot;">link</a> need space between the url and title</p>
-    <li data-md>
-     <p>[link](/url title) no wrapper for the title</p>
-    <li data-md>
-     <p>[link](/url title "foo") still no wrapper</p>
-    <li data-md>
-     <p>
-      [link](
-      <foo bar>) linebreak in &lt;>-wrapped url is not allowed</foo>
-     </p>
-    <li data-md>
-     <p>[link]( title) even if the link is &lt;>-wrapped, still need title wrapper</p>
-    <li data-md>
-     <p>[link]("title") even if the link is &lt;>-wrapped, still need space between it and the title</p>
-    <li data-md>
-     <p>[link](</p>
-     <p>/url "title") blank line <em>not</em> allowed between components</p>
-    <li data-md>
-     <p>[link](/url "line 1</p>
-     <p>line 3") blank line not allowed in title</p>
-    <li data-md>
-     <p>
-      [link](
-      <urlU0003C>) no unescaped &lt; inside of &lt;>-wrapped links</urlU0003C>
-     </p>
-    <li data-md>
-     <p>
-      [link](
-      <urlU0003C>>) not allowed even if it’s balanced</urlU0003C>
-     </p>
-   </ul>
-   <h2 class="heading settled" data-level="5" id="e"><span class="secno">5. </span><span class="content">HTML Parsing</span><a class="self-link" href="#e"></a></h2>
-   <ul>
-    <li data-md>
-     <p><a href="/url">can use <em>markup</em> in here</a></p>
-    <li data-md>
-     <p><a href="/url">markup hides <br title="](/not-url)"> the md markup appropriately</a></p>
-    <li data-md>
-     <p><a href="/url">can use test macros in here</a></p>
-    <li data-md>
-     <p>[can md-escape \] square brackets in here](/url)</p>
-    <li data-md>
-     <p><a href="/url">can html-escape Y square brackets</a></p>
-    <li data-md>
-     <p><a href="/url">embedding another link </a><a href="/bar">foo</a> doesn’t work</p>
-    <li data-md>
-     <p><a href="/url">other shorthands like <span class="css">foo</span> work</a></p>
-    <li data-md>
-     <p><a href="/url">linking shorthands <code></code></a><code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element" id="ref-for-the-div-element">div</a></code> at least parse</p>
-    <li data-md>
-     <p><a href="/url"><code>code</code> spans are ok</a></p>
-    <li data-md>
-     <p><code>[and links aren’t parsed in code](/url)</code></p>
-    <li data-md>
-     <p><code>[code interrupts</code>](/url) link parsing</p>
-    <li data-md>
-     <p><a href="/url">including <code>from inside](/not-url)</code></a></p>
-   </ul>
-   <h2 class="heading settled" data-level="6" id="f"><span class="secno">6. </span><span class="content">HTML Parsing Errors</span><a class="self-link" href="#f"></a></h2>
-   <ul>
-    <li data-md>
-     <p>[using a naked ] inside the link text](/url) cancels the link-parse (contra to CommonMark)</p>
-    <li data-md>
-     <p><em>starting outside <a href="/url">then </a></em><a href="/url"> closing inside</a> is an error</p>
-    <li data-md>
-     <p><a href="/url">not <em>closing</em></a><em> is an error</em></p>
-     <em>
-</em>
-    <li data-md>
-     <p><em><a href="/url">a link-closer </a> is an error</em></p>
-     <em>
-</em>
-   </ul>
-   <em>
-</em>
+   <p>Definitions: <dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-bar">&lt;bar></dfn>, <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="foo-a-bar">foo a &lt;bar></dfn>, <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="iterablefoo"><code>iterable&lt;Foo></code></dfn>, <dfn class="dfn-paneled css" data-dfn-for="foo" data-dfn-type="value" data-export id="valdef-foo-foo-bar">foo &lt;bar></dfn>, <dfn class="dfn-paneled css" data-dfn-for="foo" data-dfn-type="value" data-export id="valdef-foo-bar">&lt;bar></dfn></p>
+   <table>
+    <thead>
+     <tr>
+      <th>Autolink
+      <th>Expected Rendering
+      <th>Details
+
+    <tbody>
+     <tr>
+      <td><a data-link-type="dfn" href="#foo-a-bar" id="ref-for-foo-a-bar">foo a &lt;bar></a> 
+      <td>"foo a &lt;bar>"
+
+     <tr>
+      <td><a data-link-type="dfn" href="#foo-a-bar" id="ref-for-foo-a-bar①">foo a <i>&lt;bar></i></a> 
+      <td>"foo a <i>&lt;bar></i>"
+
+     <tr>
+      <td><code class="idl"><a data-link-type="idl" href="#iterablefoo" id="ref-for-iterablefoo">iterable&lt;Foo></a></code> 
+      <td>"iterable&lt;Foo>"
+
+     <tr>
+      <td><code class="idl"><a data-link-type="idl" href="#iterablefoo" id="ref-for-iterablefoo①">iterable&lt;<i>Foo</i>></a></code> 
+      <td>"iterable&lt;<i>Foo</i>>"
+
+     <tr>
+      <td><a class="css" data-link-type="maybe" href="#typedef-bar" id="ref-for-typedef-bar">&lt;bar></a>
+
+     <tr>
+      <td><a class="css" data-link-type="maybe" href="#valdef-foo-foo-bar" id="ref-for-valdef-foo-foo-bar">foo &lt;bar></a>
+      <td>"foo "
+      <td>Maybe autolinks have to parse markup in their text
+
+     <tr>
+      <td><a class="css" data-link-type="value" href="#valdef-foo-foo-bar" id="ref-for-valdef-foo-foo-bar①">foo &lt;bar></a>
+      <td>"foo &lt;bar>"
+      <td>But if they’re sufficiently convincing as an autolink, they work like other autolinks.
+
+     <tr>
+      <td><a class="css" data-link-type="maybe" href="#valdef-foo-foo-bar" id="ref-for-valdef-foo-foo-bar②">foo &lt;bar></a>
+      <td>"foo &lt;bar>"
+      <td>ditto
+
+     <tr>
+      <td><a class="css" data-link-type="value" href="#valdef-foo-foo-bar" id="ref-for-valdef-foo-foo-bar③">foo &lt;bar></a>
+      <td>"foo &lt;bar>"
+      <td>Manual &lt;a> link, uses the post-parsing text content to autolink, so it succeeds.
+
+     <tr>
+      <td><span class="css">foo &lt;bar></span>
+      <td>"foo &lt;bar>"
+      <td>This one is ambiguous so it’s raw HTML, and doesn’t autolink.
+
+     <tr>
+      <td><span class="css">foo &amp;lt;bar></span>
+      <td>"foo &amp;lt;bar>"
+      <td>ditto. Also triggers the "&amp;lt; in autolink" error.
+
+     <tr>
+      <td><span class="css">foo <a class="production css" data-link-type="type" href="#typedef-bar" id="ref-for-typedef-bar①">&lt;bar></a></span>
+      <td>"foo &lt;bar>"
+      <td>Ambiguous, so it’s raw HTML, and gets the type autolink parsed inside of itself. This automatically renders it not an autolink, since it contains a link.
+
+   </table>
   </main>
-  <em>
-
-
-</em>
-  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
-  <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
+  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span></h2>
+  <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span></h3>
   <ul class="index">
    <li>
-    <a data-link-type="biblio">[HTML]</a> defines the following terms:
+    &lt;bar>
     <ul>
-     <li><span class="dfn-paneled" id="a7bbaf9f">div</span>
+     <li><a href="#typedef-bar">(type)</a><span>, in § Unnumbered section</span>
+     <li><a href="#valdef-foo-bar">value for foo</a><span>, in § Unnumbered section</span>
     </ul>
+   <li><a href="#foo-a-bar">foo a &lt;bar></a><span>, in § Unnumbered section</span>
+   <li><a href="#valdef-foo-foo-bar">foo &lt;bar></a><span>, in § Unnumbered section</span>
+   <li><a href="#iterablefoo">iterable&lt;Foo></a><span>, in § Unnumbered section</span>
   </ul>
-  <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
-  <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
-  <dl>
-   <dt id="biblio-html">[HTML]
-   <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
-  </dl>
 <script>/* Boilerplate: script-dom-helper */
 "use strict";
 function query(sel) { return document.querySelector(sel); }
@@ -992,7 +873,11 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
-"a7bbaf9f": {"dfnID":"a7bbaf9f","dfnText":"div","external":true,"refSections":[{"refs":[{"id":"ref-for-the-div-element"}],"title":"5. HTML Parsing"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
+"foo-a-bar": {"dfnID":"foo-a-bar","dfnText":"foo a <bar>","external":false,"refSections":[{"refs":[{"id":"ref-for-foo-a-bar"},{"id":"ref-for-foo-a-bar\u2460"}],"title":"Unnamed section"}],"url":"#foo-a-bar"},
+"iterablefoo": {"dfnID":"iterablefoo","dfnText":"iterable<Foo>","external":false,"refSections":[{"refs":[{"id":"ref-for-iterablefoo"},{"id":"ref-for-iterablefoo\u2460"}],"title":"Unnamed section"}],"url":"#iterablefoo"},
+"typedef-bar": {"dfnID":"typedef-bar","dfnText":"<bar>","external":false,"refSections":[{"refs":[{"id":"ref-for-typedef-bar"},{"id":"ref-for-typedef-bar\u2460"}],"title":"Unnamed section"}],"url":"#typedef-bar"},
+"valdef-foo-bar": {"dfnID":"valdef-foo-bar","dfnText":"<bar>","external":false,"refSections":[],"url":"#valdef-foo-bar"},
+"valdef-foo-foo-bar": {"dfnID":"valdef-foo-foo-bar","dfnText":"foo <bar>","external":false,"refSections":[{"refs":[{"id":"ref-for-valdef-foo-foo-bar"},{"id":"ref-for-valdef-foo-foo-bar\u2460"},{"id":"ref-for-valdef-foo-foo-bar\u2461"},{"id":"ref-for-valdef-foo-foo-bar\u2462"}],"title":"Unnamed section"}],"url":"#valdef-foo-foo-bar"},
 };
 
 document.addEventListener("DOMContentLoaded", ()=>{
@@ -1381,7 +1266,10 @@ function genLinkingSyntaxes(dfn) {
 "use strict";
 {
 let refsData = {
-"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element": {"displayText":"div","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"div","type":"element","url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
+"#foo-a-bar": {"displayText":"foo a <bar>","export":true,"for_":[],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"foo a <bar>","type":"dfn","url":"#foo-a-bar"},
+"#iterablefoo": {"displayText":"iterable<Foo>","export":true,"for_":[],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"iterable<Foo>","type":"interface","url":"#iterablefoo"},
+"#typedef-bar": {"displayText":"<bar>","export":true,"for_":[],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"<bar>","type":"type","url":"#typedef-bar"},
+"#valdef-foo-foo-bar": {"displayText":"foo <bar>","export":true,"for_":["foo"],"level":"1","normative":true,"shortname":"foo","spec":"foo-1","status":"local","text":"foo <bar>","type":"value","url":"#valdef-foo-foo-bar"},
 };
 
 function mkRefHint(link, ref) {

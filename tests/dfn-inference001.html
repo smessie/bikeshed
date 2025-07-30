@@ -2,9 +2,12 @@
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <title>test</title>
+  <title>Dfn Inference (no CSS)</title>
   <link href="http://example.com/foo" rel="canonical">
   <meta content="dark light" name="color-scheme">
+<style>
+dfn::before { content: "(" attr(data-dfn-type) ") " !important; }
+</style>
 <style>/* Boilerplate: style-autolinks */
 .css.css, .property.property, .descriptor.descriptor {
     color: var(--a-normal-text);
@@ -468,39 +471,6 @@ a[href].issue-return {
     margin-bottom: 0;
 }
 </style>
-<style>/* Boilerplate: style-ref-hints */
-:root {
-    --ref-hint-bg: #ddd;
-    --ref-hint-text: var(--text);
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --ref-hint-bg: #222;
-        --ref-hint-text: var(--text);
-    }
-}
-
-.ref-hint {
-    display: inline-block;
-    position: absolute;
-    z-index: 35;
-    width: 20em;
-    width: 300px;
-    height: auto;
-    max-height: 500px;
-    overflow: auto;
-    padding: 0.5em 0.5em;
-    font: small Helvetica Neue, sans-serif, Droid Sans Fallback;
-    background: var(--ref-hint-bg);
-    color: var(--ref-hint-text);
-    border: outset 0.2em;
-    white-space: normal; /* in case it's moved into a pre */
-}
-
-.ref-hint * { margin: 0; padding: 0; text-indent: 0; }
-
-.ref-hint ul { padding: 0 0 0 1em; list-style: none; }
-</style>
 <style>/* Boilerplate: style-selflinks */
 :root {
     --selflink-text: white;
@@ -563,7 +533,7 @@ dfn > a.self-link::before      { content: "#"; }
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"></p>
-   <h1 class="p-name no-ref" id="title">test</h1>
+   <h1 class="p-name no-ref" id="title">Dfn Inference (no CSS)</h1>
    <p>Living Standard,
     <time class="dt-updated" datetime="1970-01-01">1 January 1970</time></p>
    <div data-fill-with="spec-metadata">
@@ -581,217 +551,103 @@ dfn > a.self-link::before      { content: "#"; }
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>Test of markdown inline link constructs</p>
+   <p>Testing how dfn types are inferred by default.</p>
   </div>
   <div data-fill-with="at-risk"></div>
   <nav data-fill-with="table-of-contents" id="toc">
    <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
    <ol class="toc" role="directory">
-    <li><a href="#a"><span class="secno">1</span> <span class="content">Basic Usage</span></a>
-    <li><a href="#b"><span class="secno">2</span> <span class="content">Whitespace</span></a>
-    <li><a href="#c"><span class="secno">3</span> <span class="content">Missing Escapes</span></a>
-    <li><a href="#d"><span class="secno">4</span> <span class="content">Errors</span></a>
-    <li><a href="#e"><span class="secno">5</span> <span class="content">HTML Parsing</span></a>
-    <li><a href="#f"><span class="secno">6</span> <span class="content">HTML Parsing Errors</span></a>
     <li>
      <a href="#index"><span class="secno"></span> <span class="content">Index</span></a>
      <ol class="toc">
-      <li><a href="#index-defined-elsewhere"><span class="secno"></span> <span class="content">Terms defined by reference</span></a>
-     </ol>
-    <li>
-     <a href="#references"><span class="secno"></span> <span class="content">References</span></a>
-     <ol class="toc">
-      <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
+      <li><a href="#index-defined-here"><span class="secno"></span> <span class="content">Terms defined by this specification</span></a>
      </ol>
    </ol>
   </nav>
   <main>
-   <h2 class="heading settled" data-level="1" id="a"><span class="secno">1. </span><span class="content">Basic Usage</span><a class="self-link" href="#a"></a></h2>
+   <p>With nothing, `type=dfn`:</p>
    <ul>
     <li data-md>
-     <p><a href>link</a> missing link and title is fine</p>
-    <li data-md>
-     <p><a href="/uri">link</a> this is normal</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> link and title</p>
-    <li data-md>
-     <p><a href title="title">link</a> missing link, only title is OK</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> single quotes okay for title</p>
-    <li data-md>
-     <p><a href title="title">link</a> single quotes with no link</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> parens okay in title</p>
-    <li data-md>
-     <p><a href title="parens">link</a> single quotes with no link</p>
-    <li data-md>
-     <p><a href="#fragment">link</a> fragment-only url allowed</p>
-    <li data-md>
-     <p><a href="http://example.com#fragment">link</a> fragment allowed</p>
-    <li data-md>
-     <p><a href="http://example.com?foo=3#frag">link</a> query allowed</p>
-    <li data-md>
-     <p><a href="foo%20bä">link</a> URL escapes, html escapes all allowed</p>
-    <li data-md>
-     <p><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)">link</a> - html entities for '(' and ')'</p>
-    <li data-md>
-     <p><a href="https://en.wikipedia.org/wiki/Sandbox_(computer_security)and(Other)(Tricks)">link</a> - balanced parens</p>
-    <li data-md>
-     <p><a href="/uri">link</a> link surrounded by angle brackets is fine</p>
-    <li data-md>
-     <p><a href="spaces and ) and &quot; and &apos; are fine">link</a> you can put lots of stuff inside &lt;></p>
-    <li data-md>
-     <p><a href="/uri" title="title">link</a> &lt;>-wrapped, with title</p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="no-inference-should-be-dfn">no inference, should be dfn</dfn></p>
    </ul>
-   <h2 class="heading settled" data-level="2" id="b"><span class="secno">2. </span><span class="content">Whitespace</span><a class="self-link" href="#b"></a></h2>
+   <hr>
+   <p>With explicit type, use the type:</p>
    <ul>
     <li data-md>
-     <p><a href="/uri">link</a> Spaces around the url ok</p>
-    <li data-md>
-     <p><a href="/uri" title="title">link</a> and around the title</p>
-    <li data-md>
-     <p><a href="/url" title="title">link</a> single linebreak between components is ok</p>
-    <li data-md>
-     <p><a href="/url" title="line 1
-line 2
-line 3">link</a> linebreaks in the title are ok</p>
-    <li data-md>
-     <p><a href="/url" title="foo">link</a> tabs are ok as whitespace</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-explicit-property">explicit property</dfn></p>
    </ul>
-   <h2 class="heading settled" data-level="3" id="c"><span class="secno">3. </span><span class="content">Missing Escapes</span><a class="self-link" href="#c"></a></h2>
-   <p>These should work, but will contain extra backslashes</p>
+   <hr>
+   <p>ID prefix sets the type:</p>
    <ul>
     <li data-md>
-     <p><a href="foo\bar">link</a> backslashes followed by a non-punc are just textual</p>
-    <li data-md>
-     <p><a href="foo\\bar">link</a> escaped slash</p>
-    <li data-md>
-     <p><a href="\&quot;foo">link</a> starting escaped " is in the url, not the title</p>
-    <li data-md>
-     <p><a href="\&apos;foo">link</a> same for single quote</p>
-    <li data-md>
-     <p><a href title="foo\">link</a>) balanced parens still work, but escaped ones do count</p>
-    <li data-md>
-     <p><a href="/url\.html" title="foo\.bar">link</a> other escaped punc is allowed</p>
+     <p><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-foo">ID property</dfn></p>
    </ul>
-   <p>These won’t work, the lack of escaping breaks the parsing.</p>
+   <hr>
+   <p>Explicit type can be put on ancestors, too, tho requires the real attribute:</p>
    <ul>
     <li data-md>
-     <p>[link](\(foo) same for parens</p>
+     <p><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-parent-property">parent property</dfn></span></p>
     <li data-md>
-     <p>[link]("foo\"") can escape the " inside a title</p>
-    <li data-md>
-     <p>[link]('foo'') or the '</p>
-    <li data-md>
-     <p>[link](https://en.wikipedia.org/wiki/Sandbox_\(computer_security\)and\(Other\)\(Tricks) - escaped parens</p>
-    <li data-md>
-     <p>
-      [link](
-      <url U0005C>\&lt;>) can escape &lt; and > inside &lt;>-wrapped links</url>
-     </p>
+     <p><span><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-ancestor-property">ancestor property</dfn></span></span></p>
    </ul>
-   <h2 class="heading settled" data-level="4" id="d"><span class="secno">4. </span><span class="content">Errors</span><a class="self-link" href="#d"></a></h2>
+   <hr>
+   <p>Classes on ancestors (but not the element itself) can trigger inference as well:</p>
    <ul>
     <li data-md>
-     <p>[link] (/uri) not a link, just some weird text</p>
+     <p><dfn class="propdef dfn-paneled" data-dfn-type="dfn" data-noexport id="failed-class-inference-should-be-dfn">failed class inference, should be dfn</dfn></p>
     <li data-md>
-     <p>[link](https://en.wikipedia.org/wiki/Sandbox_((computer_security)) - unbalanced unescaped parens, not a link</p>
+     <p><span class="propdef"><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-parent-class-inference">parent class inference</dfn></span></p>
     <li data-md>
-     <p><a href="/url&quot;title&quot;">link</a> need space between the url and title</p>
-    <li data-md>
-     <p>[link](/url title) no wrapper for the title</p>
-    <li data-md>
-     <p>[link](/url title "foo") still no wrapper</p>
-    <li data-md>
-     <p>
-      [link](
-      <foo bar>) linebreak in &lt;>-wrapped url is not allowed</foo>
-     </p>
-    <li data-md>
-     <p>[link]( title) even if the link is &lt;>-wrapped, still need title wrapper</p>
-    <li data-md>
-     <p>[link]("title") even if the link is &lt;>-wrapped, still need space between it and the title</p>
-    <li data-md>
-     <p>[link](</p>
-     <p>/url "title") blank line <em>not</em> allowed between components</p>
-    <li data-md>
-     <p>[link](/url "line 1</p>
-     <p>line 3") blank line not allowed in title</p>
-    <li data-md>
-     <p>
-      [link](
-      <urlU0003C>) no unescaped &lt; inside of &lt;>-wrapped links</urlU0003C>
-     </p>
-    <li data-md>
-     <p>
-      [link](
-      <urlU0003C>>) not allowed even if it’s balanced</urlU0003C>
-     </p>
+     <p><span class="propdef"><span><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-ancestor-class-inference">ancestor class inference</dfn></span></span></p>
    </ul>
-   <h2 class="heading settled" data-level="5" id="e"><span class="secno">5. </span><span class="content">HTML Parsing</span><a class="self-link" href="#e"></a></h2>
+   <hr>
+   <p>By default, CSS inference does *not* work (all should be "dfn")</p>
    <ul>
     <li data-md>
-     <p><a href="/url">can use <em>markup</em> in here</a></p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="at-rule">@at-rule</dfn></p>
     <li data-md>
-     <p><a href="/url">markup hides <br title="](/not-url)"> the md markup appropriately</a></p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="function">function()</dfn></p>
     <li data-md>
-     <p><a href="/url">can use test macros in here</a></p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="selector">:selector</dfn></p>
     <li data-md>
-     <p>[can md-escape \] square brackets in here](/url)</p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="value"><span class="css">value</span></dfn></p>
     <li data-md>
-     <p><a href="/url">can html-escape Y square brackets</a></p>
-    <li data-md>
-     <p><a href="/url">embedding another link </a><a href="/bar">foo</a> doesn’t work</p>
-    <li data-md>
-     <p><a href="/url">other shorthands like <span class="css">foo</span> work</a></p>
-    <li data-md>
-     <p><a href="/url">linking shorthands <code></code></a><code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element" id="ref-for-the-div-element">div</a></code> at least parse</p>
-    <li data-md>
-     <p><a href="/url"><code>code</code> spans are ok</a></p>
-    <li data-md>
-     <p><code>[and links aren’t parsed in code](/url)</code></p>
-    <li data-md>
-     <p><code>[code interrupts</code>](/url) link parsing</p>
-    <li data-md>
-     <p><a href="/url">including <code>from inside](/not-url)</code></a></p>
+     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="type"><u class="production link-error" data-lt="<type>" title="LINK ERROR: No &apos;type&apos; refs found for &apos;<type>&apos;.">&lt;type></u></dfn></p>
    </ul>
-   <h2 class="heading settled" data-level="6" id="f"><span class="secno">6. </span><span class="content">HTML Parsing Errors</span><a class="self-link" href="#f"></a></h2>
+   <hr>
+   <p>Testing interactions between categories:</p>
    <ul>
     <li data-md>
-     <p>[using a naked ] inside the link text](/url) cancels the link-parse (contra to CommonMark)</p>
+     <p><span class="funcdef"><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="interfacedef-foo">property wins</dfn></span> - explicit type on dfn wins over everything</p>
     <li data-md>
-     <p><em>starting outside <a href="/url">then </a></em><a href="/url"> closing inside</a> is an error</p>
+     <p><span class="funcdef"><dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="interfacedef-bar"><code>interface wins</code></dfn></span> - ID prefix wins over everything but the above</p>
     <li data-md>
-     <p><a href="/url">not <em>closing</em></a><em> is an error</em></p>
-     <em>
-</em>
+     <p><span class="funcdef"><dfn class="dfn-paneled" data-dfn-type="element" data-export id="elementdef-element-wins"><code>element wins</code></dfn></span> - explicit type on ancestor wins over class on same element</p>
     <li data-md>
-     <p><em><a href="/url">a link-closer </a> is an error</em></p>
-     <em>
-</em>
+     <p><span><span class="funcdef"><dfn class="dfn-paneled css" data-dfn-type="function" data-export id="funcdef-function-wins">function-wins()</dfn></span></span> - but class on closer ancestor wins over explicit type on further ancestor</p>
    </ul>
-   <em>
-</em>
   </main>
-  <em>
-
-
-</em>
-  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
-  <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
+  <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span></h2>
+  <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span></h3>
   <ul class="index">
-   <li>
-    <a data-link-type="biblio">[HTML]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="a7bbaf9f">div</span>
-    </ul>
+   <li><a href="#propdef-ancestor-class-inference">ancestor class inference</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-ancestor-property">ancestor property</a><span>, in § Unnumbered section</span>
+   <li><a href="#at-rule">@at-rule</a><span>, in § Unnumbered section</span>
+   <li><a href="#elementdef-element-wins">element wins</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-explicit-property">explicit property</a><span>, in § Unnumbered section</span>
+   <li><a href="#failed-class-inference-should-be-dfn">failed class inference, should be dfn</a><span>, in § Unnumbered section</span>
+   <li><a href="#function">function()</a><span>, in § Unnumbered section</span>
+   <li><a href="#funcdef-function-wins">function-wins()</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-foo">ID property</a><span>, in § Unnumbered section</span>
+   <li><a href="#interfacedef-bar">interface wins</a><span>, in § Unnumbered section</span>
+   <li><a href="#no-inference-should-be-dfn">no inference, should be dfn</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-parent-class-inference">parent class inference</a><span>, in § Unnumbered section</span>
+   <li><a href="#propdef-parent-property">parent property</a><span>, in § Unnumbered section</span>
+   <li><a href="#interfacedef-foo">property wins</a><span>, in § Unnumbered section</span>
+   <li><a href="#selector">:selector</a><span>, in § Unnumbered section</span>
+   <li><a href="#type">&lt;type></a><span>, in § Unnumbered section</span>
+   <li><a href="#value">value</a><span>, in § Unnumbered section</span>
   </ul>
-  <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
-  <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
-  <dl>
-   <dt id="biblio-html">[HTML]
-   <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
-  </dl>
 <script>/* Boilerplate: script-dom-helper */
 "use strict";
 function query(sel) { return document.querySelector(sel); }
@@ -992,7 +848,23 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
-"a7bbaf9f": {"dfnID":"a7bbaf9f","dfnText":"div","external":true,"refSections":[{"refs":[{"id":"ref-for-the-div-element"}],"title":"5. HTML Parsing"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
+"at-rule": {"dfnID":"at-rule","dfnText":"@at-rule","external":false,"refSections":[],"url":"#at-rule"},
+"elementdef-element-wins": {"dfnID":"elementdef-element-wins","dfnText":"element wins","external":false,"refSections":[],"url":"#elementdef-element-wins"},
+"failed-class-inference-should-be-dfn": {"dfnID":"failed-class-inference-should-be-dfn","dfnText":"failed class inference, should be dfn","external":false,"refSections":[],"url":"#failed-class-inference-should-be-dfn"},
+"funcdef-function-wins": {"dfnID":"funcdef-function-wins","dfnText":"function-wins()","external":false,"refSections":[],"url":"#funcdef-function-wins"},
+"function": {"dfnID":"function","dfnText":"function()","external":false,"refSections":[],"url":"#function"},
+"interfacedef-bar": {"dfnID":"interfacedef-bar","dfnText":"interface wins","external":false,"refSections":[],"url":"#interfacedef-bar"},
+"interfacedef-foo": {"dfnID":"interfacedef-foo","dfnText":"property wins","external":false,"refSections":[],"url":"#interfacedef-foo"},
+"no-inference-should-be-dfn": {"dfnID":"no-inference-should-be-dfn","dfnText":"no inference, should be dfn","external":false,"refSections":[],"url":"#no-inference-should-be-dfn"},
+"propdef-ancestor-class-inference": {"dfnID":"propdef-ancestor-class-inference","dfnText":"ancestor class inference","external":false,"refSections":[],"url":"#propdef-ancestor-class-inference"},
+"propdef-ancestor-property": {"dfnID":"propdef-ancestor-property","dfnText":"ancestor property","external":false,"refSections":[],"url":"#propdef-ancestor-property"},
+"propdef-explicit-property": {"dfnID":"propdef-explicit-property","dfnText":"explicit property","external":false,"refSections":[],"url":"#propdef-explicit-property"},
+"propdef-foo": {"dfnID":"propdef-foo","dfnText":"ID property","external":false,"refSections":[],"url":"#propdef-foo"},
+"propdef-parent-class-inference": {"dfnID":"propdef-parent-class-inference","dfnText":"parent class inference","external":false,"refSections":[],"url":"#propdef-parent-class-inference"},
+"propdef-parent-property": {"dfnID":"propdef-parent-property","dfnText":"parent property","external":false,"refSections":[],"url":"#propdef-parent-property"},
+"selector": {"dfnID":"selector","dfnText":":selector","external":false,"refSections":[],"url":"#selector"},
+"type": {"dfnID":"type","dfnText":"<type>","external":false,"refSections":[],"url":"#type"},
+"value": {"dfnID":"value","dfnText":"value","external":false,"refSections":[],"url":"#value"},
 };
 
 document.addEventListener("DOMContentLoaded", ()=>{
@@ -1375,213 +1247,5 @@ function genLinkingSyntaxes(dfn) {
         )
     ];
 }
-}
-</script>
-<script>/* Boilerplate: script-ref-hints */
-"use strict";
-{
-let refsData = {
-"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element": {"displayText":"div","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"div","type":"element","url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
-};
-
-function mkRefHint(link, ref) {
-    const linkText = link.textContent;
-    let dfnTextElements = '';
-    if (ref.displayText.toLowerCase() != linkText.toLowerCase()) {
-        // Give the original term if it's being displayed in a different way.
-        // But allow casing differences, they're insignificant.
-        dfnTextElements =
-            mk.li({},
-                mk.b({}, "Term: "),
-                mk.span({}, ref.displayText)
-            );
-    }
-    const forList = ref.for_;
-    let forListElements;
-    if(forList.length == 0) {
-        forListElements = [];
-    } else if(forList.length == 1) {
-        forListElements = mk.li({},
-            mk.b({}, "For: "),
-            mk.span({}, forList[0]),
-        );
-    } else {
-        forListElements = mk.li({},
-            mk.b({}, "For: "),
-            mk.ul({},
-                ...forList.map(forItem =>
-                    mk.li({},
-                        mk.span({}, forItem)
-                    ),
-                ),
-            ),
-        );
-    }
-    const url = ref.url;
-    const safeUrl = encodeURIComponent(url);
-    const hintPanel = mk.aside({
-        class: "ref-hint",
-        id: `ref-hint-for-${safeUrl}`,
-        "data-for": url,
-        "aria-labelled-by": `ref-hint-for-${safeUrl}`,
-    },
-        mk.ul({},
-            dfnTextElements,
-            mk.li({},
-                mk.b({}, "URL: "),
-                mk.a({ href: url, class: "ref" }, url),
-            ),
-            mk.li({},
-                mk.b({}, "Type: "),
-                mk.span({}, `${ref.type}`),
-            ),
-            mk.li({},
-                mk.b({}, "Spec: "),
-                mk.span({}, `${ref.spec ? ref.spec : ''}`),
-            ),
-            forListElements
-        ),
-    );
-    hintPanel.forLink = link;
-    setupRefHintEventListeners(link, hintPanel);
-    return hintPanel;
-}
-
-function hideAllRefHints() {
-    queryAll(".ref-hint").forEach(el=>hideRefHint(el));
-}
-
-function hideRefHint(refHint) {
-    const link = refHint.forLink;
-    link.setAttribute("aria-expanded", "false");
-    if(refHint.teardownEventListeners) {
-        refHint.teardownEventListeners();
-    }
-    refHint.remove();
-}
-
-function showRefHint(link) {
-    if(link.classList.contains("dfn-link")) return;
-    const url = link.getAttribute("href");
-    const refHintKey = link.getAttribute("data-refhint-key");
-    let key = url;
-    if(refHintKey) {
-        key = refHintKey + "_" + url;
-    }
-    const ref = refsData[key];
-    if(!ref) return;
-
-    hideAllRefHints(); // Only display one at this time.
-
-    const refHint = mkRefHint(link, ref);
-    append(document.body, refHint);
-    link.setAttribute("aria-expanded", "true");
-    positionRefHint(refHint);
-}
-
-function setupRefHintEventListeners(link, refHint) {
-    if (refHint.teardownEventListeners) return;
-    // Add event handlers to hide the refHint after the user moves away
-    // from both the link and refHint, if not hovering either within one second.
-    let timeout = null;
-    const startHidingRefHint = (event) => {
-        if (timeout) {
-            clearTimeout(timeout);
-        }
-        timeout = setTimeout(() => {
-            hideRefHint(refHint);
-        }, 1000);
-    }
-    const resetHidingRefHint = (event) => {
-        if (timeout) clearTimeout(timeout);
-        timeout = null;
-    };
-    link.addEventListener("mouseleave", startHidingRefHint);
-    link.addEventListener("mouseenter", resetHidingRefHint);
-    link.addEventListener("blur", startHidingRefHint);
-    link.addEventListener("focus", resetHidingRefHint);
-    refHint.addEventListener("mouseleave", startHidingRefHint);
-    refHint.addEventListener("mouseenter", resetHidingRefHint);
-    refHint.addEventListener("blur", startHidingRefHint);
-    refHint.addEventListener("focus", resetHidingRefHint);
-
-    refHint.teardownEventListeners = () => {
-        // remove event listeners
-        resetHidingRefHint();
-        link.removeEventListener("mouseleave", startHidingRefHint);
-        link.removeEventListener("mouseenter", resetHidingRefHint);
-        link.removeEventListener("blur", startHidingRefHint);
-        link.removeEventListener("focus", resetHidingRefHint);
-        refHint.removeEventListener("mouseleave", startHidingRefHint);
-        refHint.removeEventListener("mouseenter", resetHidingRefHint);
-        refHint.removeEventListener("blur", startHidingRefHint);
-        refHint.removeEventListener("focus", resetHidingRefHint);
-    };
-}
-
-function positionRefHint(refHint) {
-    const link = refHint.forLink;
-    const linkPos = getBounds(link);
-    refHint.style.top = linkPos.bottom + "px";
-    refHint.style.left = linkPos.left + "px";
-
-    const panelPos = refHint.getBoundingClientRect();
-    const panelMargin = 8;
-    const maxRight = document.body.parentNode.clientWidth - panelMargin;
-    if (panelPos.right > maxRight) {
-        const overflowAmount = panelPos.right - maxRight;
-        const newLeft = Math.max(panelMargin, linkPos.left - overflowAmount);
-        refHint.style.left = newLeft + "px";
-    }
-}
-
-// TODO: shared util
-// Returns the root-level absolute position {left and top} of element.
-function getBounds(el, relativeTo=document.body) {
-    const relativeRect = relativeTo.getBoundingClientRect();
-    const elRect = el.getBoundingClientRect();
-    const top = elRect.top - relativeRect.top;
-    const left = elRect.left - relativeRect.left;
-    return {
-        top,
-        left,
-        bottom: top + elRect.height,
-        right: left + elRect.width,
-    }
-}
-
-function showRefHintListener(e) {
-    // If the target isn't in a link (or is a link),
-    // just ignore it.
-    let link = e.target.closest("a");
-    if(!link) return;
-
-    // If the target is in a ref-hint panel
-    // (aka a link in the already-open one),
-    // also just ignore it.
-    if(link.closest(".ref-hint")) return;
-
-    // Otherwise, show the panel for the link.
-    showRefHint(link);
-}
-
-function hideAllHintsListener(e) {
-    // If the click is inside a ref-hint panel, ignore it.
-    if(e.target.closest(".ref-hint")) return;
-    // Otherwise, close all the current panels.
-    hideAllRefHints();
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("mousedown", showRefHintListener);
-    document.body.addEventListener("focus", showRefHintListener);
-
-    document.body.addEventListener("click", hideAllHintsListener);
-});
-
-window.addEventListener("resize", () => {
-    // Hide any open ref hint.
-    hideAllRefHints();
-});
 }
 </script>
