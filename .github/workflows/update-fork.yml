@@ -13,10 +13,10 @@ jobs:
           upstream_repo: "https://github.com/speced/bikeshed.git"
           upstream_branch: main
           downstream_branch: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.WORKFLOW_TOKEN }}
       - name: Trigger Docker Publish
         if: steps.sync.outputs.has_new_commits == 'true'
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.WORKFLOW_TOKEN }}
           event-type: trigger-docker-publish
