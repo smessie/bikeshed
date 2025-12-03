@@ -17,7 +17,13 @@ def main() -> None:
     try:
         with open(config.scriptPath("semver.txt"), encoding="utf-8") as fh:
             semver = fh.read().strip()
-            semverText = f"Bikeshed v{semver}: "
+        try:
+            with open(config.scriptPath("semver-dev.txt"), encoding="utf-8") as fh:
+                devSegment = fh.read().strip()
+                semver += "-" + devSegment
+        except FileNotFoundError:
+            pass
+        semverText = f"Bikeshed v{semver}: "
     except FileNotFoundError:
         semver = "???"
         semverText = ""
@@ -120,6 +126,13 @@ def main() -> None:
         dest="debug",
         action="store_true",
         help="Switches on some debugging tools. Don't use for production!",
+    )
+    specParser.add_argument(
+        "--debug-print",
+        dest="debugPrint",
+        choices=["none", "early-parse", "pre-md", "post-md", "boilerplate", "datablocks", "final"],
+        nargs="?",
+        help="Debug tool to print various views of the document at different stages.",
     )
     specParser.add_argument(
         "--gh-token",
@@ -531,6 +544,7 @@ def handleSpec(options: argparse.Namespace, extras: list[str]) -> None:
     doc = Spec(
         inputFilename=options.infile,
         debug=options.debug,
+        debugPrint=options.debugPrint,
         token=options.ghToken,
         lineNumbers=options.lineNumbers,
     )
