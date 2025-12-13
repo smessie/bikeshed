@@ -35,16 +35,16 @@ class HeaderInfo:
     intro: str | None = None
 
 
-def printIssueList(infilename: str | None = None, outfilename: str | None = None) -> None:
+def printIssueList(infilename: str | None = None, outfilename: str | None = None) -> bool:
     if infilename is None:
         infilename = findIssuesFile()
         if infilename is None:
             printHelpMessage()
-            return
+            return False
     if infilename == "-":
         infile = sys.stdin
     else:
-        for suffix in [".txt", "txt", ""]:
+        for suffix in [".txt", ".bsi", ""]:
             try:
                 infile = open(infilename + suffix, encoding="utf-8")  # noqa: SIM115
                 infilename += suffix
@@ -53,18 +53,19 @@ def printIssueList(infilename: str | None = None, outfilename: str | None = None
                 pass
         else:
             m.die("Couldn't read from the infile(s)")
-            return
+            return False
 
     lines = infile.readlines()
+    infile.close()
     headerInfo = extractHeaderInfo(lines, infilename)
     if headerInfo is None:
         m.die("Couldn't parse header info.")
-        return
+        return False
 
     if outfilename is None:
         if infilename == "-":
             outfilename = f"issues-{headerInfo.status}-{headerInfo.cdate}.html".lower()
-        elif infilename.endswith(".txt"):
+        elif infilename.endswith(".txt") or infilename.endswith(".bsi"):
             outfilename = infilename[:-4] + ".html"
         else:
             outfilename = infilename + ".html"
@@ -75,12 +76,12 @@ def printIssueList(infilename: str | None = None, outfilename: str | None = None
             outfile = open(outfilename, "w", encoding="utf-8")  # noqa: SIM115
         except Exception as e:
             m.die(f"Couldn't write to outfile:\n{e}")
-            return
+            return False
 
     printHeader(outfile, headerInfo)
-
     printIssues(outfile, lines)
     printScript(outfile)
+    return True
 
 
 def findIssuesFile() -> str | None:
@@ -231,11 +232,11 @@ def printHeader(outfile: t.TextIO, hi: HeaderInfo) -> None:
   :target {{ box-shadow: 0.25em 0.25em 0.25em;  }}
 </style>
 
-<h1>{hi.title} Disposition of Comments for {hi.date} {hi.status}</h1>
+<h1>{html(hi.title)} Disposition of Comments for {html(hi.date)} {html(hi.status)}</h1>
 
-<p>Review document: <a href="{hi.url}">{hi.url}</a>
+<p>Review document: <a href="{attr(hi.url)}">{html(hi.url)}</a>
 
-<p>Editor's draft: <a href="{hi.ed}">{hi.ed}</a></p>
+<p>Editor's draft: <a href="{attr(hi.ed)}">{html(hi.ed)}</a></p>
 
 {hi.intro or ""}
 
@@ -258,11 +259,19 @@ def printHeader(outfile: t.TextIO, hi: HeaderInfo) -> None:
     )
 
 
+def attr(text: str) -> str:
+    return text.replace("&", "&amp;").replace('"', "&quot;")
+
+
+def html(text: str) -> str:
+    return text.replace("&", "&amp;").replace("<", "&lt;")
+
+
 def printIssues(outfile: t.TextIO, lines: list[str]) -> None:
     text = "".join(lines)
     issues = text.split("----\n")[1:]
     for issue in issues:
-        issue = issue.strip().replace("&", "&amp;").replace("<", "&lt;")
+        issue = html(issue).strip()
         if issue == "":
             continue
         originalText = issue[:]
