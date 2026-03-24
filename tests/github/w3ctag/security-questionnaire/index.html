@@ -302,7 +302,7 @@ pre .property::before, pre .property::after {
 </style>
 <style>/* Boilerplate: style-counters */
 body {
-    counter-reset: example figure issue;
+    counter-reset: example figure issue table;
 }
 .issue {
     counter-increment: issue;
@@ -327,6 +327,13 @@ figcaption {
 }
 figcaption:not(.no-marker)::before {
     content: "Figure " counter(figure) " ";
+}
+
+figure.table figcaption {
+    counter-increment: table;
+}
+figure.table figcaption:not(.no-marker)::before {
+    content: "Table " counter(table) " ";
 }
 </style>
 <style>/* Boilerplate: style-dfn-panel */
@@ -780,7 +787,7 @@ technologies.</p>
      <a href="#references"><span class="secno"></span> <span class="content">References</span></a>
      <ol class="toc">
       <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
-      <li><a href="#informative"><span class="secno"></span> <span class="content">Informative References</span></a>
+      <li><a href="#informative"><span class="secno"></span> <span class="content">Non-Normative References</span></a>
      </ol>
    </ol>
   </nav>
@@ -1983,7 +1990,7 @@ practices before the site prompted for location.</p>
    <dt id="biblio-storage-access">[STORAGE-ACCESS]
    <dd><a href="https://privacycg.github.io/storage-access/"><cite>The Storage Access API</cite></a>. Editor's Draft. URL: <a href="https://privacycg.github.io/storage-access/">https://privacycg.github.io/storage-access/</a>
   </dl>
-  <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
+  <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-adding-permission">[ADDING-PERMISSION]
    <dd>Nick Doty. <a href="https://github.com/w3cping/adding-permissions"><cite>Adding another permission? A guide</cite></a>. URL: <a href="https://github.com/w3cping/adding-permissions">https://github.com/w3cping/adding-permissions</a>

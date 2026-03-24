@@ -301,7 +301,7 @@ pre .property::before, pre .property::after {
 </style>
 <style>/* Boilerplate: style-counters */
 body {
-    counter-reset: example figure issue;
+    counter-reset: example figure issue table;
 }
 .issue {
     counter-increment: issue;
@@ -326,6 +326,13 @@ figcaption {
 }
 figcaption:not(.no-marker)::before {
     content: "Figure " counter(figure) " ";
+}
+
+figure.table figcaption {
+    counter-increment: table;
+}
+figure.table figcaption:not(.no-marker)::before {
+    content: "Table " counter(table) " ";
 }
 </style>
 <style>/* Boilerplate: style-dfn-panel */
@@ -708,7 +715,7 @@ encrypted and authenticated document.</p>
      <a href="#references"><span class="secno"></span> <span class="content">References</span></a>
      <ol class="toc">
       <li><a href="#normative"><span class="secno"></span> <span class="content">Normative References</span></a>
-      <li><a href="#informative"><span class="secno"></span> <span class="content">Informative References</span></a>
+      <li><a href="#informative"><span class="secno"></span> <span class="content">Non-Normative References</span></a>
      </ol>
    </ol>
   </nav>
@@ -1317,7 +1324,7 @@ encrypted and authenticated document.</p>
    <dt id="biblio-xhr">[XHR]
    <dd>Anne van Kesteren. <a href="https://xhr.spec.whatwg.org/"><cite>XMLHttpRequest Standard</cite></a>. Living Standard. URL: <a href="https://xhr.spec.whatwg.org/">https://xhr.spec.whatwg.org/</a>
   </dl>
-  <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
+  <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Elika Etemad; Brad Kemper. <a href="https://drafts.csswg.org/css-backgrounds/"><cite>CSS Backgrounds and Borders Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-backgrounds/">https://drafts.csswg.org/css-backgrounds/</a>

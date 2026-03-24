@@ -13,20 +13,11 @@ import aiohttp
 import kdl
 import requests
 import tenacity
-from result import Err, Ok, Result
 
 from .. import messages as m
 from .. import t
+from ..result import Err, Ok, Result, isErr, isOk
 from .mode import UpdateMode
-
-
-def isOk(x: t.Any) -> t.TypeGuard[Ok]:
-    return isinstance(x, Ok)
-
-
-def isErr(x: t.Any) -> t.TypeGuard[Err]:
-    return isinstance(x, Err)
-
 
 # Manifest creation relies on these data structures.
 # Add to them whenever new types of data files are created.
@@ -51,6 +42,15 @@ knownFolders = [
 ]
 
 ghPrefix = "https://raw.githubusercontent.com/speced/bikeshed-data/main/data/"
+
+
+def dtNow() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def dtZero() -> datetime:
+    return datetime(1970, 1, 1, 0, 0, 0, tzinfo=timezone.utc)
+
 
 # To avoid 'Event loop is closed' RuntimeError due to compatibility issue with aiohttp
 if sys.platform.startswith("win") and sys.version_info >= (3, 8):
@@ -192,8 +192,8 @@ async def updateFiles(localPrefix: str, newPaths: list[str]) -> tuple[list[str],
 
         lastMsgTime = time.time()
         messageDelta = 2
-        goodPaths = []
-        badPaths = []
+        goodPaths: list[str] = []
+        badPaths: list[str] = []
         for future in asyncio.as_completed(tasks):
             result = await future
             if isOk(result):
@@ -278,7 +278,7 @@ if t.TYPE_CHECKING:
 
 @dataclasses.dataclass
 class Manifest:
-    dt: datetime = dataclasses.field(default_factory=lambda: dtNow())
+    dt: datetime = dataclasses.field(default_factory=dtNow)
     entries: dict[ManifestRelPath, ManifestFileHash] = dataclasses.field(default_factory=dict)
     # Bump this version manually whenever you update the datafiles
     version: int = 1
@@ -389,14 +389,6 @@ def getDatafilePaths(basePath: str) -> t.Generator[tuple[str, str], None, None]:
                 continue
             filePath = os.path.join(root, filename)
             yield filePath, os.path.relpath(filePath, basePath)
-
-
-def dtNow() -> datetime:
-    return datetime.now(timezone.utc)
-
-
-def dtZero() -> datetime:
-    return datetime(1970, 1, 1, 0, 0, 0, tzinfo=timezone.utc)
 
 
 def printDt(dt: datetime) -> str:
