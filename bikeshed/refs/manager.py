@@ -133,11 +133,14 @@ class ReferenceManager:
             self.foreignRefs.fors.update(json.loads(self.dataFile.fetch("fors.json", str=True)))
 
         initFors()
-        if doc and doc.inputSource and doc.inputSource.hasDirectory():
-            ldData = self.dataFile.fetch("link-defaults.infotree").read()
-            dummyEl = h.E.pre()
-            datablocks.transformInfo(ldData, dummyEl, doc=doc)
 
+        def initLinkDefaults() -> None:
+            ldData = self.dataFile.fetch("link-defaults.infotree").read()
+            datablocks.transformInfo(ldData, None, doc=doc)
+
+        initLinkDefaults()
+
+        if doc and doc.inputSource and doc.inputSource.hasDirectory():
             # Get local anchor data
             shouldGetLocalAnchorData = doc.md.externalInfotrees["anchors.bsdata"]
             if not shouldGetLocalAnchorData and doc.inputSource.cheaplyExists("anchors.bsdata"):
@@ -154,7 +157,7 @@ class ReferenceManager:
                     if not anchorFile:
                         raise OSError
                     anchorData = anchorFile.read().content
-                    datablocks.transformAnchors(anchorData, dummyEl, doc=doc)
+                    datablocks.transformAnchors(anchorData, None, doc=doc)
                 except OSError:
                     m.warn("anchors.bsdata not found despite being listed in the External Infotrees metadata.")
 
@@ -174,7 +177,7 @@ class ReferenceManager:
                     if not ldFile:
                         raise OSError
                     ldData = ldFile.read().content
-                    datablocks.transformInfo(ldData, dummyEl, doc=doc)
+                    datablocks.transformInfo(ldData, None, doc=doc)
                 except OSError:
                     m.warn("link-defaults.infotree not found despite being listed in the External Infotrees metadata.")
 
