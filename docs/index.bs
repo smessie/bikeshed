@@ -1988,23 +1988,6 @@ and won't be seen in the actual document source.
 		(taken from [=metadata/Status=])
 </ul>
 
-As these are substituted at the text level, not the higher HTML level, you can use them *anywhere*, including in attribute values.
-
-You can mark a macro as "optional" by appending a `?` to its name,
-like `[DATE?]`.
-This will cause Bikeshed to just remove it
-(replace it with the empty string)
-if it can't find a definition,
-rather than throwing an error.
-
-Like most other markup shorthands,
-text macros can be "escaped" by prepending a backslash,
-like `\[TITLE]`.
-When Bikeshed sees this,
-it will remove the slash and leave the text alone.
-This is sometimes necessary when code examples in your doc (such as a regex)
-accidentally look like text macros.
-
 
 Notes, Issues, Assertions, Advisements {#notes-etc}
 -------------------------------------------------
