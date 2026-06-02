@@ -40,6 +40,7 @@ VOID_ELEMENTS = {
     "param",
     "source",
     "track",
+    "wbr",
 }
 
 HEAD_ELEMENTS = {
