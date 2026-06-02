@@ -1,13 +1,11 @@
 LINE 1009:27: Saw an end tag </em>, but there's no open element corresponding to it.
 LINE 1033:55: Obsolete biblio ref: [geolocation-API] is replaced by [geolocation]. Either update the reference, or use [geolocation-API obsolete] if this is an intentionally-obsolete reference.
-[[GEOLOCATION-API]]
 LINE 309:1: Multiple possible 'localStorage' idl refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webstorage.html#dom-localstorage
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:attribute; text:localStorage
 spec:saa-non-cookie-storage; type:attribute; text:localStorage
 spec:saa-non-cookie-storage; type:dict-member; text:localStorage
-{{localStorage}}
 LINE 311:1: Multiple possible 'indexedDB' idl refs.
 Arbitrarily chose https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesshandle-indexeddb
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
@@ -15,4 +13,3 @@ spec:saa-non-cookie-storage; type:attribute; text:indexedDB
 spec:saa-non-cookie-storage; type:dict-member; text:indexedDB
 spec:indexeddb-3; type:attribute; text:indexedDB
 spec:storage-buckets; type:attribute; text:indexedDB
-{{indexedDB}}
