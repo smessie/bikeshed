@@ -6,6 +6,7 @@ import re
 from collections import OrderedDict
 
 import lxml
+import lxml.html
 from lxml import etree
 from lxml.cssselect import CSSSelector
 

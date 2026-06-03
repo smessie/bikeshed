@@ -86,7 +86,6 @@ FATAL ERROR: The [Constructor] extended attribute (on FetchEvent) is deprecated,
 FATAL ERROR: The [Constructor] extended attribute (on ForeignFetchEvent) is deprecated, please switch to a constructor() method.
 FATAL ERROR: The [Constructor] extended attribute (on ExtendableMessageEvent) is deprecated, please switch to a constructor() method.
 LINE 2123:40: Obsolete biblio ref: [rfc5988] is replaced by [rfc8288]. Either update the reference, or use [rfc5988 obsolete] if this is an intentionally-obsolete reference.
-[[!RFC5988]]
 LINE 488:16: 'interface' definitions don't use a 'for' attribute, but this one claims it's for 'ServiceWorker' (perhaps inherited from an ancestor). This is probably a markup error.
 <dfn bs-line-number="488:16" id="service-worker-interface" data-dfn-type="interface">ServiceWorker</dfn>
 LINE 512:164: 'enum' definitions don't use a 'for' attribute, but this one claims it's for 'ServiceWorker' (perhaps inherited from an ancestor). This is probably a markup error.
@@ -160,904 +159,689 @@ LINE 724:14: 'interface' definitions don't use a 'for' attribute, but this one c
 LINE 909:415: 'interface' definitions don't use a 'for' attribute, but this one claims it's for 'ServiceWorkerMessageEvent' (perhaps inherited from an ancestor). This is probably a markup error.
 <dfn bs-line-number="909:415" id="serviceworkermessage-event-interface" data-dfn-type="interface" data-dfn-for="ServiceWorkerMessageEvent" data-lt="ServiceWorkerMessageEvent" data-export="by-default"><code>ServiceWorkerMessageEvent</code></dfn>
 LINE 322:27: No 'dfn' refs found for 'application cache'.
-<a bs-line-number="322:27" data-lt="application cache" data-link-type="dfn">HTML5 Application Cache</a>
 LINE 337:122: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="337:122" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 343:224: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="343:224" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 347:171: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="347:171" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 348:173: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="348:173" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 366:146: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="366:146" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 367:173: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="367:173" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 373:189: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="373:189" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 373:260: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="373:260" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 373:635: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="373:635" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 373:1029: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="373:1029" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 373:1222: Multiple possible 'event loops' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="373:1222" data-link-type="dfn" data-lt="event loops">event loops</a>
 LINE 373:1418: Multiple possible 'event loops' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="373:1418" data-link-type="dfn" data-lt="event loops">event loops</a>
 LINE 392:132: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="392:132" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 394:151: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="394:151" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 396:145: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="396:145" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 406:59: No 'dfn' refs found for 'is local' with spec 'url'.
-<a bs-line-number="406:59" data-lt="is local" data-link-type="dfn">local</a>
 LINE 408:52: No 'dfn' refs found for 'is local' with spec 'url'.
-<a bs-line-number="408:52" data-link-type="dfn" data-lt="is local">is local</a>
 LINE 408:141: No 'dfn' refs found for 'responsible browsing context'.
-<a bs-line-number="408:141" data-link-type="dfn" data-lt="responsible browsing context">responsible browsing context</a>
 LINE 408:182: No 'dfn' refs found for 'nested browsing context'.
-<a bs-line-number="408:182" data-link-type="dfn" data-lt="nested browsing context">nested browsing context</a>
 LINE 408:500: No 'dfn' refs found for 'parent browsing context'.
-<a bs-line-number="408:500" data-link-type="dfn" data-lt="parent browsing context">parent browsing context</a>
 LINE 408:555: No 'dfn' refs found for 'the worker's documents'.
-<a bs-line-number="408:555" data-link-type="dfn" data-lt="the worker’s Documents">the worker’s Documents</a>
 LINE ~467:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 521:67: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="521:67" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 522:117: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="522:117" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 525:68: No 'dfn' refs found for 'the global object's realm'.
-<a bs-line-number="525:68" data-lt="the global object's Realm" data-link-type="dfn">Realm</a>
 LINE 526:122: No 'dfn' refs found for 'the environment settings object's global object'.
-<a bs-line-number="526:122" data-lt="the environment settings object's global object" data-link-type="dfn">global object</a>
 LINE 534:107: No 'dfn' refs found for 'unicode serialisation of an origin'.
-<a bs-line-number="534:107" data-lt="unicode serialisation of an origin" data-link-type="dfn">Unicode serialisation</a>
 LINE 536:237: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="536:237" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 541:18: Multiple possible 'task' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="541:18" data-link-type="dfn" data-lt="task">task</a>
 LINE ~571:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 632:20: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="632:20" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 632:78: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="632:78" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 633:282: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="633:282" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 649:322: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="649:322" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 690:258: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="690:258" data-link-type="dfn" data-lt="context object">context object</a>
 LINE ~696:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 726:245: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="726:245" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 730:330: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="730:330" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 730:536: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="730:536" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 730:716: No 'dfn' refs found for 'responsible document'.
-<a bs-line-number="730:716" data-link-type="dfn" data-lt="responsible document">responsible document</a>
 LINE 738:42: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="738:42" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 752:20: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="752:20" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 752:114: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="752:114" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 753:42: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="753:42" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 772:25: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="772:25" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 775:20: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="775:20" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 790:42: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="790:42" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 793:68: No 'dfn' refs found for 'present'.
-<a bs-line-number="793:68" data-link-type="dfn" data-lt="present">present</a>
 LINE 805:42: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="805:42" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 835:42: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="835:42" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 855:169: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="855:169" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 882:29: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="882:29" data-link-type="dfn" data-lt="context object">context object</a>
 LINE ~1054:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1081:214: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1081:214" data-link-type="dfn" data-lt="context object">context object</a>
 LINE ~1155:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1189:155: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1189:155" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1200:78: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1200:78" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1200:101: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1200:101" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1204:78: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1204:78" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1204:101: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1204:101" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1204:130: Multiple possible 'top-level browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#bc-tlbc
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:top-level browsing context
   https://html.spec.whatwg.org/multipage/document-sequences.html#bc-tlbc
   https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context
-<a bs-line-number="1204:130" data-link-type="dfn" data-lt="top-level browsing context">top-level browsing context</a>
 LINE 1208:78: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1208:78" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1208:101: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1208:101" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1208:130: No 'dfn' refs found for 'nested browsing context'.
-<a bs-line-number="1208:130" data-link-type="dfn" data-lt="nested browsing context">nested browsing context</a>
 LINE 1227:50: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1227:50" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1228:177: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1228:177" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1234:19: Multiple possible 'task' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="1234:19" data-link-type="dfn" data-lt="task">task</a>
 LINE 1238:110: No 'dfn' refs found for 'unicode serialisation of an origin'.
-<a bs-line-number="1238:110" data-lt="unicode serialisation of an origin" data-link-type="dfn">Unicode serialisation</a>
 LINE 1239:276: No 'dfn' refs found for 'the environment settings object's global object'.
-<a bs-line-number="1239:276" data-lt="the environment settings object's global object" data-link-type="dfn">global object</a>
 LINE 1250:185: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1250:185" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1256:169: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1256:169" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1265:38: No 'dfn' refs found for 'triggered by user activation'.
-<a bs-line-number="1265:38" data-link-type="dfn" data-lt="triggered by user activation">triggered by user activation</a>
 LINE 1269:55: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1269:55" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1269:162: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1269:162" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1269:185: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1269:185" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1272:90: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1272:90" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1275:84: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1275:84" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1276:133: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1276:133" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1280:155: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1280:155" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1295:98: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1295:98" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1298:20: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1298:20" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1298:207: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1298:207" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1302:55: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1302:55" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1302:162: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1302:162" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1302:185: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1302:185" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1303:51: No 'dfn' refs found for 'discard a document'.
-<a bs-line-number="1303:51" data-lt="discard a document" data-link-type="dfn">discarded</a>
 LINE 1307:90: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1307:90" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1309:112: No 'dfn' refs found for 'replacement enabled'.
-<a bs-line-number="1309:112" data-link-type="dfn" data-lt="replacement enabled">replacement enabled</a>
 LINE 1309:143: No 'dfn' refs found for 'exceptions enabled flag'.
-<a bs-line-number="1309:143" data-lt="exceptions enabled flag" data-link-type="dfn">exceptions enabled</a>
 LINE 1309:203: No 'dfn' refs found for 'source browsing context'.
-<a bs-line-number="1309:203" data-link-type="dfn" data-lt="source browsing context">source browsing context</a>
 LINE 1311:84: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1311:84" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1312:133: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1312:133" data-link-type="dfn" data-lt="active document">active document</a>
 LINE ~1335:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1378:83: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1378:83" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1378:106: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1378:106" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1383:96: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1383:96" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1384:145: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1384:145" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1439:79: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1439:79" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1439:102: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1439:102" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1445:72: No 'dfn' refs found for 'a browsing context is discarded'.
-<a bs-line-number="1445:72" data-lt="a browsing context is discarded" data-link-type="dfn">discarded</a>
 LINE 1445:150: No 'dfn' refs found for 'responsible document'.
-<a bs-line-number="1445:150" data-link-type="dfn" data-lt="responsible document">responsible document</a>
 LINE 1445:210: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1445:210" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1447:96: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1447:96" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1448:145: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1448:145" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1475:83: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1475:83" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 1475:106: Multiple possible 'browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:browsing context
 spec:html; type:dfn; for:Document; text:browsing context
 spec:html; type:dfn; for:Window; text:browsing context
-<a bs-line-number="1475:106" data-link-type="dfn" data-lt="browsing context">browsing context</a>
 LINE 1481:76: No 'dfn' refs found for 'a browsing context is discarded'.
-<a bs-line-number="1481:76" data-lt="a browsing context is discarded" data-link-type="dfn">discarded</a>
 LINE 1481:154: No 'dfn' refs found for 'responsible document'.
-<a bs-line-number="1481:154" data-link-type="dfn" data-lt="responsible document">responsible document</a>
 LINE 1481:214: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1481:214" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1483:100: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1483:100" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1484:149: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1484:149" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1523:98: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1523:98" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1526:38: No 'dfn' refs found for 'triggered by user activation'.
-<a bs-line-number="1526:38" data-link-type="dfn" data-lt="triggered by user activation">triggered by user activation</a>
 LINE 1530:52: Multiple possible 'top-level browsing context' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#bc-tlbc
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:top-level browsing context
   https://html.spec.whatwg.org/multipage/document-sequences.html#bc-tlbc
   https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context
-<a bs-line-number="1530:52" data-link-type="dfn" data-lt="top-level browsing context">top-level browsing context</a>
 LINE 1536:108: No 'dfn' refs found for 'exceptions enabled flag'.
-<a bs-line-number="1536:108" data-lt="exceptions enabled flag" data-link-type="dfn">exceptions enabled</a>
 LINE 1536:167: No 'dfn' refs found for 'replacement enabled'.
-<a bs-line-number="1536:167" data-link-type="dfn" data-lt="replacement enabled">replacement enabled</a>
 LINE 1538:79: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1538:79" data-link-type="dfn" data-lt="active document">active document</a>
 LINE 1539:128: Multiple possible 'active document' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/document-sequences.html#active-document
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:/; text:active document
 spec:html; type:dfn; for:navigable; text:active document
-<a bs-line-number="1539:128" data-link-type="dfn" data-lt="active document">active document</a>
 LINE ~1593:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1628:237: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="1628:237" data-link-type="dfn" data-lt="global object">global object</a>
 LINE ~1661:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1687:59: No 'dfn' refs found for 'urls' with for='['url']'.
-<a bs-line-number="1687:59" data-link-for="url" data-link-type="dfn" data-lt="URLs">URLs</a>
 LINE 1692:65: No 'dfn' refs found for 'absolute url'.
-<a bs-line-number="1692:65" data-link-type="dfn" data-lt="absolute URL">absolute URL</a>
 LINE 1699:47: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1699:47" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 1700:61: No 'dfn' refs found for 'urls' with for='['url']'.
-<a bs-line-number="1700:61" data-link-for="url" data-link-type="dfn" data-lt="URLs">URLs</a>
 LINE 1703:111: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1703:111" data-link-type="dfn" data-lt="context object">context object</a>
 LINE ~1719:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1756:190: Multiple possible 'event' dfn refs.
 Arbitrarily chose https://dom.spec.whatwg.org/#concept-event
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:dom; type:dfn; text:event
 spec:webdriver-bidi; type:dfn; text:event
 spec:fenced-frame; type:dfn; text:event
-<a bs-line-number="1756:190" data-link-type="dfn" data-lt="event">event</a>
 LINE 1762:190: Multiple possible 'event' dfn refs.
 Arbitrarily chose https://dom.spec.whatwg.org/#concept-event
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:dom; type:dfn; text:event
 spec:webdriver-bidi; type:dfn; text:event
 spec:fenced-frame; type:dfn; text:event
-<a bs-line-number="1762:190" data-link-type="dfn" data-lt="event">event</a>
 LINE 1793:76: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1793:76" data-link-type="dfn" data-lt="context object" data-link-for-hint="FetchEvent">context object</a>
 LINE 1816:204: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1816:204" data-link-type="dfn" data-lt="body" data-link-for-hint="FetchEvent">body</a>
 LINE 1819:141: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1819:141" data-link-type="dfn" data-lt="body" data-link-for-hint="FetchEvent">body</a>
 LINE 1823:167: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1823:167" data-link-type="dfn" data-lt="body" data-link-for-hint="FetchEvent">body</a>
 LINE 1829:139: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1829:139" data-link-type="dfn" data-lt="body" data-link-for-hint="FetchEvent">body</a>
 LINE 1831:68: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1831:68" data-link-type="dfn" data-lt="body" data-link-for-hint="FetchEvent">body</a>
 LINE 1831:89: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1831:89" data-link-type="dfn" data-lt="body" data-link-for-hint="FetchEvent">body</a>
 LINE ~1872:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 1939:76: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="1939:76" data-link-type="dfn" data-lt="context object" data-link-for-hint="ForeignFetchEvent">context object</a>
 LINE 1952:41: Ambiguous for-less link for 'origin', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:service-workers; type:dfn; for:ForeignFetchEvent; text:origin
 for-less references:
 spec:html; type:dfn; for:/; text:origin
-<a bs-line-number="1952:41" data-link-type="dfn" data-lt="origin" data-link-for-hint="ForeignFetchEvent">origin</a>
 LINE 1967:175: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1967:175" data-link-type="dfn" data-lt="body" data-link-for-hint="ForeignFetchEvent">body</a>
 LINE 1971:201: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1971:201" data-link-type="dfn" data-lt="body" data-link-for-hint="ForeignFetchEvent">body</a>
 LINE 1977:173: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1977:173" data-link-type="dfn" data-lt="body" data-link-for-hint="ForeignFetchEvent">body</a>
 LINE 1979:68: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1979:68" data-link-type="dfn" data-lt="body" data-link-for-hint="ForeignFetchEvent">body</a>
 LINE 1979:89: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="1979:89" data-link-type="dfn" data-lt="body" data-link-for-hint="ForeignFetchEvent">body</a>
 LINE ~2235:5: No 'idl-name' refs found for 'void'.
-<a data-link-type="idl-name" data-lt="void">void</a>
 LINE 2404:121: Ambiguous for-less link for 'status', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:status
 for-less references:
 spec:fetch; type:dfn; for:/; text:status
-<a bs-line-number="2404:121" data-link-type="dfn" data-lt="status">status</a>
 LINE 2527:120: Ambiguous for-less link for 'body', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:fetch; type:dfn; for:response; text:body
 for-less references:
 spec:fetch; type:dfn; for:/; text:body
-<a bs-line-number="2527:120" data-link-type="dfn" data-lt="body">body</a>
 LINE 2676:179: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="2676:179" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 2684:70: No 'dfn' refs found for 'present'.
-<a bs-line-number="2684:70" data-link-type="dfn" data-lt="present">present</a>
 LINE 2857:30: No 'idl' refs found for 'importScripts(urls)' with for='['WorkerGlobalScope']'.
-{{WorkerGlobalScope/importScripts(urls)}}
 LINE 2859:403: No 'dfn' refs found for 'perform the fetch'.
-<a bs-line-number="2859:403" data-link-for="fetching scripts" data-link-type="dfn" data-lt="perform the fetch">perform the fetch</a>
 LINE 2862:96: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="2862:96" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 2971:485: Multiple possible 'task' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="2971:485" data-link-type="dfn" data-lt="task">task</a>
 LINE 2988:88: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="2988:88" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 2990:90: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="2990:90" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 2996:56: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="2996:56" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 3019:36: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="3019:36" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 3020:37: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="3020:37" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 3149:37: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="3149:37" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 3152:36: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="3152:36" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 3255:16: No 'dfn' refs found for 'fetch a module worker script tree'.
-<a bs-line-number="3255:16" data-link-type="dfn" data-lt="Fetch a module worker script tree">Fetch a module worker script tree</a>
 LINE 3257:15: No 'dfn' refs found for 'perform the fetch'.
-<a bs-line-number="3257:15" data-link-for="fetching scripts" data-link-type="dfn" data-lt="perform the fetch">perform the fetch</a>
 LINE 3257:120: No 'dfn' refs found for 'is top-level'.
-<a bs-line-number="3257:120" data-link-for="fetching scripts" data-link-type="dfn" data-lt="is top-level">is top-level</a>
 LINE 3395:24: No 'dfn' refs found for 'trusted event'.
-<a bs-line-number="3395:24" data-link-type="dfn" data-lt="trusted event">trusted event</a>
 LINE 3396:114: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3396:114" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3436:28: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="3436:28" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 3470:121: No 'dfn' refs found for 'responsible document'.
-<a bs-line-number="3470:121" data-link-type="dfn" data-lt="responsible document">responsible document</a>
 LINE 3470:158: No 'dfn' refs found for 'application cache'.
-<a bs-line-number="3470:158" data-link-type="dfn" data-lt="application cache">application cache</a>
 LINE 3471:139: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3471:139" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3471:169: No 'dfn' refs found for 'application cache'.
-<a bs-line-number="3471:169" data-link-type="dfn" data-lt="application cache">application cache</a>
 LINE 3485:24: No 'dfn' refs found for 'trusted event'.
-<a bs-line-number="3485:24" data-link-type="dfn" data-lt="trusted event">trusted event</a>
 LINE 3486:110: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3486:110" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3516:61: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3516:61" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 3517:82: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3517:82" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3522:19: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3522:19" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3529:19: No 'dfn' refs found for 'api url character encoding'.
-<a bs-line-number="3529:19" data-link-type="dfn" data-lt="API URL character encoding">API URL character encoding</a>
 LINE 3545:111: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="3545:111" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 3545:397: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3545:397" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 3551:284: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3551:284" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3558:48: No 'dfn' refs found for 'list of active timers'.
-<a bs-line-number="3558:48" data-link-type="dfn" data-lt="list of active timers">list of active timers</a>
 LINE 3573:118: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3573:118" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3575:28: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="3575:28" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 3575:297: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3575:297" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 3575:683: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="3575:683" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 3575:707: Multiple possible 'tasks' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="3575:707" data-link-type="dfn" data-lt="tasks">tasks</a>
 LINE 3575:972: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3575:972" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 3634:24: No 'dfn' refs found for 'trusted event'.
-<a bs-line-number="3634:24" data-link-type="dfn" data-lt="trusted event" data-link-for-hint="FetchEvent">trusted event</a>
 LINE 3638:110: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3638:110" data-link-type="dfn" data-lt="global object" data-link-for-hint="FetchEvent">global object</a>
 LINE 3650:105: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3650:105" data-link-type="dfn" data-lt="event loop" data-link-for-hint="FetchEvent">event loop</a>
 LINE 3715:24: No 'dfn' refs found for 'trusted event'.
-<a bs-line-number="3715:24" data-link-type="dfn" data-lt="trusted event" data-link-for-hint="ForeignFetchEvent">trusted event</a>
 LINE 3717:101: No 'dfn' refs found for 'unicode serialisation of an origin'.
-<a bs-line-number="3717:101" data-lt="Unicode serialisation of an origin" data-link-type="dfn" data-link-for-hint="ForeignFetchEvent">Unicode serialization</a>
 LINE 3718:110: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3718:110" data-link-type="dfn" data-lt="global object" data-link-for-hint="ForeignFetchEvent">global object</a>
 LINE 3724:38: Ambiguous for-less link for 'origin', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:service-workers; type:dfn; for:ForeignFetchEvent; text:origin
 for-less references:
 spec:html; type:dfn; for:/; text:origin
-<a bs-line-number="3724:38" data-link-type="dfn" data-lt="origin" data-link-for-hint="ForeignFetchEvent">origin</a>
 LINE 3731:38: Ambiguous for-less link for 'origin', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:service-workers; type:dfn; for:ForeignFetchEvent; text:origin
 for-less references:
 spec:html; type:dfn; for:/; text:origin
-<a bs-line-number="3731:38" data-link-type="dfn" data-lt="origin" data-link-for-hint="ForeignFetchEvent">origin</a>
 LINE 3731:72: No 'dfn' refs found for 'unicode serialisation of an origin'.
-<a bs-line-number="3731:72" data-lt="Unicode serialisation of an origin" data-link-type="dfn" data-link-for-hint="ForeignFetchEvent">Unicode serialization</a>
 LINE 3745:105: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3745:105" data-link-type="dfn" data-lt="event loop" data-link-for-hint="ForeignFetchEvent">event loop</a>
 LINE 3794:150: Multiple possible 'global object' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-realm-global
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:realm; text:global object
 spec:html; type:dfn; for:environment settings object; text:global object
 spec:html; type:dfn; for:/; text:global object
-<a bs-line-number="3794:150" data-link-type="dfn" data-lt="global object">global object</a>
 LINE 3795:105: Multiple possible 'event loop' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/webappapis.html#concept-agent-event-loop
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:html; type:dfn; for:agent; text:event loop
 spec:html; type:dfn; for:/; text:event loop
-<a bs-line-number="3795:105" data-link-type="dfn" data-lt="event loop">event loop</a>
 LINE 3805:163: No 'dfn' refs found for 'unload a document' with spec 'html'.
-<a bs-line-number="3805:163" data-lt="unload a document" data-link-type="dfn">unloading</a>
 LINE 3889:33: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="3889:33" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 3987:16: Multiple possible 'task' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="3987:16" data-link-type="dfn" data-lt="task">task</a>
 LINE 4036:16: Multiple possible 'task' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="4036:16" data-link-type="dfn" data-lt="task">task</a>
 LINE 4054:12: Multiple possible 'task' dfn refs.
 Arbitrarily chose https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
 The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
 spec:html; type:dfn; for:/; text:task
   https://html.spec.whatwg.org/multipage/interaction.html#toggle-task-task
   https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
-<a bs-line-number="4054:12" data-link-type="dfn" data-lt="task">task</a>
 LINE 4062:37: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="4062:37" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 4086:38: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="4086:38" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 4097:20: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="4097:20" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 4112:33: No 'dfn' refs found for 'url' with for='['url']'.
-<a bs-line-number="4112:33" data-link-for="url" data-link-type="dfn" data-lt="URL">URL</a>
 LINE 4287:138: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="4287:138" data-link-type="dfn" data-lt="context object">context object</a>
 LINE 4336:27: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-<a bs-line-number="4336:27" data-link-type="dfn" data-lt="context object">context object</a>
 WARNING: This specification does not have a 'Privacy Considerations' section. Please consider adding one, see https://w3ctag.github.io/security-questionnaire/.
-LINE 367:103: Unexported dfn that's not referenced locally - did you mean to export it?
-<dfn bs-line-number="367:103" id="dfn-registration-script-url" data-dfn-type="dfn" data-dfn-for="service worker registration" data-lt="registering script url" data-noexport="by-default" class="dfn-paneled">registering script url</dfn>
-LINE 1895:175: Unexported dfn that's not referenced locally - did you mean to export it?
-<dfn bs-line-number="1895:175" data-dfn-type="dfn" data-dfn-for="ForeignFetchEvent" id="foreignfetchevent-origin" data-lt="origin" data-noexport="by-default" class="dfn-paneled">origin</dfn>
-LINE 2118:10: Unexported dfn that's not referenced locally - did you mean to export it?
-<dfn bs-line-number="2118:10" id="dfn-link-type-serviceworker" data-lt="serviceworker link type" data-dfn-type="dfn" data-noexport="by-default" class="dfn-paneled"><code bs-line-number="2118:77">serviceworker</code></dfn>
-LINE 4355:12: Unexported dfn that's not referenced locally - did you mean to export it?
-<dfn bs-line-number="4355:12" data-dfn-type="dfn" id="service-worker" data-lt="Service-Worker" data-noexport="by-default" class="dfn-paneled"><code bs-line-number="4355:17">Service-Worker</code></dfn>
-LINE 4368:12: Unexported dfn that's not referenced locally - did you mean to export it?
-<dfn bs-line-number="4368:12" data-dfn-type="dfn" id="service-worker-allowed" data-lt="Service-Worker-Allowed" data-noexport="by-default" class="dfn-paneled"><code bs-line-number="4368:17">Service-Worker-Allowed</code></dfn>
+LINE 367:103: Unexported dfn for 'registering script url' that's not referenced locally - did you mean to export it?
+LINE 1895:175: Unexported dfn for 'origin' that's not referenced locally - did you mean to export it?
+LINE 2118:10: Unexported dfn for 'serviceworker' that's not referenced locally - did you mean to export it?
+LINE 4355:12: Unexported dfn for 'Service-Worker' that's not referenced locally - did you mean to export it?
+LINE 4368:12: Unexported dfn for 'Service-Worker-Allowed' that's not referenced locally - did you mean to export it?

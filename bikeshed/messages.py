@@ -8,8 +8,6 @@ import os
 import sys
 from collections import Counter
 
-import lxml.html
-
 from . import t
 
 MESSAGE_LEVELS = {
@@ -215,13 +213,7 @@ def die(msg: str, el: t.ElementT | None = None, lineNum: str | int | None = None
 
 def linkerror(msg: str, el: t.ElementT | None = None, lineNum: str | int | None = None) -> None:
     lineNum = getLineNum(lineNum, el)
-    suffix = ""
-    if el is not None:
-        if el.get("bs-autolink-syntax"):
-            suffix = "\n" + t.cast(str, el.get("bs-autolink-syntax"))
-        else:
-            suffix = "\n" + lxml.html.tostring(el, with_tail=False, encoding="unicode")
-    formattedMsg = formatMessage("link", msg + suffix, lineNum=lineNum)
+    formattedMsg = formatMessage("link", msg, lineNum=lineNum)
     if formattedMsg not in state.seenMessages:
         state.record("link-error", formattedMsg)
         if state.shouldPrint("link-error"):
@@ -232,13 +224,7 @@ def linkerror(msg: str, el: t.ElementT | None = None, lineNum: str | int | None 
 
 def lint(msg: str, el: t.ElementT | None = None, lineNum: str | int | None = None) -> None:
     lineNum = getLineNum(lineNum, el)
-    suffix = ""
-    if el is not None:
-        if el.get("bs-autolink-syntax"):
-            suffix = "\n" + t.cast(str, el.get("bs-autolink-syntax"))
-        else:
-            suffix = "\n" + lxml.html.tostring(el, with_tail=False, encoding="unicode")
-    formattedMsg = formatMessage("lint", msg + suffix, lineNum=lineNum)
+    formattedMsg = formatMessage("lint", msg, lineNum=lineNum)
     if formattedMsg not in state.seenMessages:
         state.record("lint", formattedMsg)
         if state.shouldPrint("lint"):
