@@ -149,9 +149,29 @@ def highlightEl(doc: t.SpecT, el: t.ElementT, lang: str) -> None:
     else:
         coloredText = highlightWithPygments(text, lang, el=el)
     if coloredText is not None:
+        coloredText = mergeColors(coloredText)
         readdWhitespacePrefix(text, coloredText)
         mergeHighlighting(el, coloredText)
         h.addClass(doc, el, "highlight")
+
+
+def mergeColors(coloredText: t.Deque[ColoredText]) -> t.Deque[ColoredText]:
+    """
+    Some highlighters gratuitously emit multiple tokens in a row with the same color,
+    which makes other modifications I perform annoying.
+    This does a pass to merge those together.
+    """
+    ret = collections.deque()
+    for token in coloredText:
+        if not ret:
+            ret.append(token)
+            continue
+        if ret[-1].color == token.color:
+            ret[-1].text += token.text
+            continue
+        else:
+            ret.append(token)
+    return ret
 
 
 def readdWhitespacePrefix(rawText: str, coloredText: t.Deque[ColoredText]) -> t.Deque[ColoredText]:

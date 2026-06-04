@@ -2377,7 +2377,6 @@ paper in a telecon on December 14th 2020. The following polls were taken:</p>
    <p>In <strong>[memory.syn]</strong>, remove as follows:</p>
    <blockquote>
 <pre class="highlight"><code><del>
-
 <c- c1>// 20.10.5, pointer safety</c->
 <c- k>enum</c-> <c- k>class</c-> <c- nc>pointer_safety</c-> <c- p>{</c-> <c- n>relaxed</c-><c- p>,</c-> <c- n>preferred</c-><c- p>,</c-> <c- n>strict</c-> <c- p>};</c->
 <c- b>void</c-> <c- nf>declare_reachable</c-><c- p>(</c-><c- b>void</c-><c- o>*</c-> <c- n>p</c-><c- p>);</c->
@@ -2385,7 +2384,8 @@ paper in a telecon on December 14th 2020. The following polls were taken:</p>
 <c- n>T</c-><c- o>*</c-> <c- n>undeclare_reachable</c-><c- p>(</c-><c- n>T</c-><c- o>*</c-> <c- n>p</c-><c- p>);</c->
 <c- b>void</c-> <c- nf>declare_no_pointers</c-><c- p>(</c-><c- b>char</c-><c- o>*</c-> <c- n>p</c-><c- p>,</c-> <c- b>size_t</c-> <c- n>n</c-><c- p>);</c->
 <c- b>void</c-> <c- nf>undeclare_no_pointers</c-><c- p>(</c-><c- b>char</c-><c- o>*</c-> <c- n>p</c-><c- p>,</c-> <c- b>size_t</c-> <c- n>n</c-><c- p>);</c->
-<c- n>pointer_safety</c-> <c- nf>get_pointer_safety</c-><c- p>()</c-> <c- k>noexcept</c-><c- p>;</c-></del></code></pre>
+<c- n>pointer_safety</c-> <c- nf>get_pointer_safety</c-><c- p>()</c-> <c- k>noexcept</c-><c- p>;</c->
+</del></code></pre>
    </blockquote>
    <p>Remove all of <strong>[util.dynamic.safety]</strong>, and associated implementation-defined behavior in the annex.</p>
    <p>In <strong>[cpp.predefined]</strong>, remove as follows:</p>
