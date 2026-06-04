@@ -161,7 +161,7 @@ def mergeColors(coloredText: t.Deque[ColoredText]) -> t.Deque[ColoredText]:
     which makes other modifications I perform annoying.
     This does a pass to merge those together.
     """
-    ret = collections.deque()
+    ret: t.Deque[ColoredText] = collections.deque()
     for token in coloredText:
         if not ret:
             ret.append(token)
