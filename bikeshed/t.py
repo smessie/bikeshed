@@ -21,6 +21,7 @@ if TYPE_CHECKING:
         Awaitable,
         Callable,
         Collection,
+        Container,
         DefaultDict,
         Deque,
         FrozenSet,
