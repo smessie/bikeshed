@@ -21,7 +21,7 @@ from .mode import UpdateMode
 
 # Manifest creation relies on these data structures.
 # Add to them whenever new types of data files are created.
-knownFiles = [
+KNOWN_FILES = [
     "biblio-keys.json",
     "biblio-numeric-suffixes.json",
     "fors.json",
@@ -32,7 +32,7 @@ knownFiles = [
     "specs.json",
     "wpt-tests.txt",
 ]
-knownFolders = [
+KNOWN_FOLDERS = [
     "anchors",
     "biblio",
     "boilerplate",
@@ -65,7 +65,7 @@ if sys.platform.startswith("win") and sys.version_info >= (3, 8):
 
 def createManifest(path: str, dryRun: bool = False) -> Manifest:
     """Generates a manifest file for all the data files."""
-    manifest = Manifest.fromPath(path)
+    manifest = Manifest.fromPath(path, allowedFiles=KNOWN_FILES, allowedFolders=KNOWN_FOLDERS)
     if not dryRun:
         manifest.save(path)
     return manifest
@@ -90,7 +90,7 @@ def updateByManifest(path: str, dryRun: bool = False, updateMode: UpdateMode = U
 
     # Get the actual file data by regenerating the local manifest,
     # to guard against mistakes or shenanigans
-    localManifest = Manifest.fromPath(path)
+    localManifest = Manifest.fromPath(path, allowedFiles=KNOWN_FILES, allowedFolders=KNOWN_FOLDERS)
     if oldManifest:
         localManifest.dt = oldManifest.dt
     else:
@@ -170,7 +170,7 @@ def updateByManifest(path: str, dryRun: bool = False, updateMode: UpdateMode = U
             m.warn(f"Couldn't save new manifest file.\n{e}")
             return None
     if newManifest is None:
-        newManifest = Manifest.fromPath(path)
+        newManifest = Manifest.fromPath(path, allowedFiles=KNOWN_FILES, allowedFolders=KNOWN_FOLDERS)
 
     if not badPaths:
         m.say("Done!")
@@ -325,12 +325,20 @@ class Manifest:
         return Manifest(dt, entries, version)
 
     @staticmethod
-    def fromPath(path: str) -> Manifest:
+    def fromPath(
+        path: str,
+        allowedFiles: t.Container[str] | None = None,
+        allowedFolders: t.Container[str] | None = None,
+    ) -> Manifest:
         manifest = Manifest()
         for absPath, relPath in getDatafilePaths(path):
-            if relPath in knownFiles:
+            if allowedFiles is None and allowedFolders is None:
+                # No filter
                 pass
-            elif relPath.partition("/")[0] in knownFolders:
+                # Otherwise you have to pass at least one filter
+            elif allowedFiles and relPath in allowedFiles:
+                pass
+            elif allowedFolders and relPath.partition("/")[0] in allowedFolders:
                 pass
             else:
                 continue
