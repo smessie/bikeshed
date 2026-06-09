@@ -83,7 +83,7 @@ async def updateFiles(localPrefix: str, newPaths: t.Sequence[str]) -> tuple[list
 
 async def updateFile(localPrefix: str, filePath: str, session: t.Any) -> Result[str, str]:
     remotePath = ghPrefix + "boilerplate-v1/" + filePath
-    localPath = localizePath(localPrefix, "boilerplate/"+filePath)
+    localPath = localizePath(localPrefix, "boilerplate/" + filePath)
     res = await downloadFile(remotePath, session)
     if isOk(res):
         res = await saveFile(localPath, res.ok())
