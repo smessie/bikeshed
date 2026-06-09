@@ -1,0 +1,632 @@
+{
+  "#abstract": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Abstract",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#abstract"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Abstract",
+      "url": "https://www.w3.org/TR/sri-2/#abstract"
+    }
+  },
+  "#acknowledgements": {
+    "current": {
+      "number": "6",
+      "spec": "SRI",
+      "text": "Acknowledgements",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#acknowledgements"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "SRI",
+      "text": "Acknowledgements",
+      "url": "https://www.w3.org/TR/sri-2/#acknowledgements"
+    }
+  },
+  "#agility": {
+    "current": {
+      "number": "3.2.1",
+      "spec": "SRI",
+      "text": "Agility",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#agility"
+    },
+    "snapshot": {
+      "number": "3.2.1",
+      "spec": "SRI",
+      "text": "Agility",
+      "url": "https://www.w3.org/TR/sri-2/#agility"
+    }
+  },
+  "#apply-algorithm-to-response": {
+    "current": {
+      "number": "3.3.1",
+      "spec": "SRI",
+      "text": "Apply algorithm to bytes",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#apply-algorithm-to-response"
+    },
+    "snapshot": {
+      "number": "3.3.1",
+      "spec": "SRI",
+      "text": "Apply algorithm to bytes",
+      "url": "https://www.w3.org/TR/sri-2/#apply-algorithm-to-response"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/sri-2/#toc"
+    }
+  },
+  "#cross-origin-data-leakage": {
+    "current": {
+      "number": "5.3",
+      "spec": "SRI",
+      "text": "Cross-origin data leakage",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#cross-origin-data-leakage"
+    },
+    "snapshot": {
+      "number": "5.3",
+      "spec": "SRI",
+      "text": "Cross-origin data leakage",
+      "url": "https://www.w3.org/TR/sri-2/#cross-origin-data-leakage"
+    }
+  },
+  "#does-response-match-metadatalist": {
+    "current": {
+      "number": "3.3.4",
+      "spec": "SRI",
+      "text": "Do bytes match metadataList?",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#does-response-match-metadatalist"
+    },
+    "snapshot": {
+      "number": "3.3.4",
+      "spec": "SRI",
+      "text": "Do bytes match metadataList?",
+      "url": "https://www.w3.org/TR/sri-2/#does-response-match-metadatalist"
+    }
+  },
+  "#examples": {
+    "current": {
+      "number": "1.2",
+      "spec": "SRI",
+      "text": "Use Cases/Examples",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#examples"
+    },
+    "snapshot": {
+      "number": "1.2",
+      "spec": "SRI",
+      "text": "Use Cases/Examples",
+      "url": "https://www.w3.org/TR/sri-2/#examples"
+    }
+  },
+  "#framework": {
+    "current": {
+      "number": "3",
+      "spec": "SRI",
+      "text": "Framework",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#framework"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "SRI",
+      "text": "Framework",
+      "url": "https://www.w3.org/TR/sri-2/#framework"
+    }
+  },
+  "#get-the-strongest-metadata": {
+    "current": {
+      "number": "3.3.3",
+      "spec": "SRI",
+      "text": "Get the strongest metadata from set",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#get-the-strongest-metadata"
+    },
+    "snapshot": {
+      "number": "3.3.3",
+      "spec": "SRI",
+      "text": "Get the strongest metadata from set",
+      "url": "https://www.w3.org/TR/sri-2/#get-the-strongest-metadata"
+    }
+  },
+  "#goals": {
+    "current": {
+      "number": "1.1",
+      "spec": "SRI",
+      "text": "Goals",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#goals"
+    },
+    "snapshot": {
+      "number": "1.1",
+      "spec": "SRI",
+      "text": "Goals",
+      "url": "https://www.w3.org/TR/sri-2/#goals"
+    }
+  },
+  "#grammar-concepts": {
+    "current": {
+      "number": "2.1",
+      "spec": "SRI",
+      "text": "Grammatical Concepts",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#grammar-concepts"
+    },
+    "snapshot": {
+      "number": "2.1",
+      "spec": "SRI",
+      "text": "Grammatical Concepts",
+      "url": "https://www.w3.org/TR/sri-2/#grammar-concepts"
+    }
+  },
+  "#handling-integrity-violations": {
+    "current": {
+      "number": "3.7",
+      "spec": "SRI",
+      "text": "Handling integrity violations",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#handling-integrity-violations"
+    },
+    "snapshot": {
+      "number": "3.7",
+      "spec": "SRI",
+      "text": "Handling integrity violations",
+      "url": "https://www.w3.org/TR/sri-2/#handling-integrity-violations"
+    }
+  },
+  "#hash-collision-attacks": {
+    "current": {
+      "number": "5.2",
+      "spec": "SRI",
+      "text": "Hash collision attacks",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#hash-collision-attacks"
+    },
+    "snapshot": {
+      "number": "5.2",
+      "spec": "SRI",
+      "text": "Hash collision attacks",
+      "url": "https://www.w3.org/TR/sri-2/#hash-collision-attacks"
+    }
+  },
+  "#hash-functions": {
+    "current": {
+      "number": "3.2",
+      "spec": "SRI",
+      "text": "Cryptographic hash functions",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#hash-functions"
+    },
+    "snapshot": {
+      "number": "3.2",
+      "spec": "SRI",
+      "text": "Cryptographic hash functions",
+      "url": "https://www.w3.org/TR/sri-2/#hash-functions"
+    }
+  },
+  "#idl-index": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "IDL Index",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#idl-index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "IDL Index",
+      "url": "https://www.w3.org/TR/sri-2/#idl-index"
+    }
+  },
+  "#index": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Index",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Index",
+      "url": "https://www.w3.org/TR/sri-2/#index"
+    }
+  },
+  "#index-defined-elsewhere": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Terms defined by reference",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#index-defined-elsewhere"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Terms defined by reference",
+      "url": "https://www.w3.org/TR/sri-2/#index-defined-elsewhere"
+    }
+  },
+  "#index-defined-here": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Terms defined by this specification",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#index-defined-here"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Terms defined by this specification",
+      "url": "https://www.w3.org/TR/sri-2/#index-defined-here"
+    }
+  },
+  "#informative": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Informative References",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#informative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Informative References",
+      "url": "https://www.w3.org/TR/sri-2/#informative"
+    }
+  },
+  "#integrity-metadata-description": {
+    "current": {
+      "number": "3.1",
+      "spec": "SRI",
+      "text": "Integrity metadata",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#integrity-metadata-description"
+    },
+    "snapshot": {
+      "number": "3.1",
+      "spec": "SRI",
+      "text": "Integrity metadata",
+      "url": "https://www.w3.org/TR/sri-2/#integrity-metadata-description"
+    }
+  },
+  "#integrity-policy-section": {
+    "current": {
+      "number": "3.8",
+      "spec": "SRI",
+      "text": "Integrity-Policy",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section"
+    },
+    "snapshot": {
+      "number": "3.8",
+      "spec": "SRI",
+      "text": "Integrity-Policy",
+      "url": "https://www.w3.org/TR/sri-2/#integrity-policy-section"
+    }
+  },
+  "#intro": {
+    "current": {
+      "number": "1",
+      "spec": "SRI",
+      "text": "Introduction",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#intro"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "SRI",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/sri-2/#intro"
+    }
+  },
+  "#non-secure-contexts": {
+    "current": {
+      "number": "5.1",
+      "spec": "SRI",
+      "text": "Non-secure contexts remain non-secure",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#non-secure-contexts"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "SRI",
+      "text": "Non-secure contexts remain non-secure",
+      "url": "https://www.w3.org/TR/sri-2/#non-secure-contexts"
+    }
+  },
+  "#normative": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Normative References",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#normative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Normative References",
+      "url": "https://www.w3.org/TR/sri-2/#normative"
+    }
+  },
+  "#parse-integrity-policy-headers-section": {
+    "current": {
+      "number": "3.8.1",
+      "spec": "SRI",
+      "text": "Parse Integrity-Policy headers",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#parse-integrity-policy-headers-section"
+    },
+    "snapshot": {
+      "number": "3.8.1",
+      "spec": "SRI",
+      "text": "Parse Integrity-Policy headers",
+      "url": "https://www.w3.org/TR/sri-2/#parse-integrity-policy-headers-section"
+    }
+  },
+  "#parse-metadata-section": {
+    "current": {
+      "number": "3.3.2",
+      "spec": "SRI",
+      "text": "Parse metadata",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#parse-metadata-section"
+    },
+    "snapshot": {
+      "number": "3.3.2",
+      "spec": "SRI",
+      "text": "Parse metadata",
+      "url": "https://www.w3.org/TR/sri-2/#parse-metadata-section"
+    }
+  },
+  "#priority": {
+    "current": {
+      "number": "3.2.2",
+      "spec": "SRI",
+      "text": "Priority",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#priority"
+    },
+    "snapshot": {
+      "number": "3.2.2",
+      "spec": "SRI",
+      "text": "Priority",
+      "url": "https://www.w3.org/TR/sri-2/#priority"
+    }
+  },
+  "#proxies": {
+    "current": {
+      "number": "4",
+      "spec": "SRI",
+      "text": "Proxies",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#proxies"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "SRI",
+      "text": "Proxies",
+      "url": "https://www.w3.org/TR/sri-2/#proxies"
+    }
+  },
+  "#references": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "References",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#references"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "References",
+      "url": "https://www.w3.org/TR/sri-2/#references"
+    }
+  },
+  "#report-violations": {
+    "current": {
+      "number": "3.8.3",
+      "spec": "SRI",
+      "text": "Report violations",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#report-violations"
+    },
+    "snapshot": {
+      "number": "3.8.3",
+      "spec": "SRI",
+      "text": "Report violations",
+      "url": "https://www.w3.org/TR/sri-2/#report-violations"
+    }
+  },
+  "#resource-integrity": {
+    "current": {
+      "number": "1.2.1",
+      "spec": "SRI",
+      "text": "Resource Integrity",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#resource-integrity"
+    },
+    "snapshot": {
+      "number": "1.2.1",
+      "spec": "SRI",
+      "text": "Resource Integrity",
+      "url": "https://www.w3.org/TR/sri-2/#resource-integrity"
+    }
+  },
+  "#security-considerations": {
+    "current": {
+      "number": "5",
+      "spec": "SRI",
+      "text": "Security and Privacy Considerations",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#security-considerations"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "SRI",
+      "text": "Security and Privacy Considerations",
+      "url": "https://www.w3.org/TR/sri-2/#security-considerations"
+    }
+  },
+  "#should-request-be-blocked-by-integrity-policy-section": {
+    "current": {
+      "number": "3.8.2",
+      "spec": "SRI",
+      "text": "Should request be blocked by Integrity Policy",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#should-request-be-blocked-by-integrity-policy-section"
+    },
+    "snapshot": {
+      "number": "3.8.2",
+      "spec": "SRI",
+      "text": "Should request be blocked by Integrity Policy",
+      "url": "https://www.w3.org/TR/sri-2/#should-request-be-blocked-by-integrity-policy-section"
+    }
+  },
+  "#sotd": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Status of this document",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#sotd"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Status of this document",
+      "url": "https://www.w3.org/TR/sri-2/#sotd"
+    }
+  },
+  "#terms": {
+    "current": {
+      "number": "2",
+      "spec": "SRI",
+      "text": "Key Concepts and Terminology",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#terms"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "SRI",
+      "text": "Key Concepts and Terminology",
+      "url": "https://www.w3.org/TR/sri-2/#terms"
+    }
+  },
+  "#the-integrity-attribute": {
+    "current": {
+      "number": "3.5",
+      "spec": "SRI",
+      "text": "The integrity attribute",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute"
+    },
+    "snapshot": {
+      "number": "3.5",
+      "spec": "SRI",
+      "text": "The integrity attribute",
+      "url": "https://www.w3.org/TR/sri-2/#the-integrity-attribute"
+    }
+  },
+  "#the-integrity-link-processing-option": {
+    "current": {
+      "number": "3.6",
+      "spec": "SRI",
+      "text": "The integrity link processing option",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-link-processing-option"
+    },
+    "snapshot": {
+      "number": "3.6",
+      "spec": "SRI",
+      "text": "The integrity link processing option",
+      "url": "https://www.w3.org/TR/sri-2/#the-integrity-link-processing-option"
+    }
+  },
+  "#title": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Subresource Integrity",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#title"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Subresource Integrity",
+      "url": "https://www.w3.org/TR/sri-2/#title"
+    }
+  },
+  "#toc": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/sri-2/#toc"
+    }
+  },
+  "#verification-algorithms": {
+    "current": {
+      "number": "3.3",
+      "spec": "SRI",
+      "text": "Response verification algorithms",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#verification-algorithms"
+    },
+    "snapshot": {
+      "number": "3.3",
+      "spec": "SRI",
+      "text": "Response verification algorithms",
+      "url": "https://www.w3.org/TR/sri-2/#verification-algorithms"
+    }
+  },
+  "#verification-of-html-document-subresources": {
+    "current": {
+      "number": "3.4",
+      "spec": "SRI",
+      "text": "Verification of HTML document subresources",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#verification-of-html-document-subresources"
+    },
+    "snapshot": {
+      "number": "3.4",
+      "spec": "SRI",
+      "text": "Verification of HTML document subresources",
+      "url": "https://www.w3.org/TR/sri-2/#verification-of-html-document-subresources"
+    }
+  },
+  "#w3c-conformance": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#w3c-conformance"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/sri-2/#w3c-conformance"
+    }
+  },
+  "#w3c-conformant-algorithms": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Conformant Algorithms",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#w3c-conformant-algorithms"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Conformant Algorithms",
+      "url": "https://www.w3.org/TR/sri-2/#w3c-conformant-algorithms"
+    }
+  },
+  "#w3c-conventions": {
+    "current": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Document conventions",
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/#w3c-conventions"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "SRI",
+      "text": "Document conventions",
+      "url": "https://www.w3.org/TR/sri-2/#w3c-conventions"
+    }
+  }
+}

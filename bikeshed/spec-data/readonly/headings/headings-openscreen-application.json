@@ -1,0 +1,870 @@
+{
+  "#abstract": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Abstract",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#abstract"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Abstract",
+      "url": "https://www.w3.org/TR/openscreen-application/#abstract"
+    }
+  },
+  "#appendix-a": {
+    "current": {
+      "number": "A",
+      "spec": "Open Screen Application Protocol",
+      "text": "Messages",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#appendix-a"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "Open Screen Application Protocol",
+      "text": "Messages",
+      "url": "https://www.w3.org/TR/openscreen-application/#appendix-a"
+    }
+  },
+  "#appendix-b": {
+    "current": {
+      "number": "B",
+      "spec": "Open Screen Application Protocol",
+      "text": "Message Type Key Ranges",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#appendix-b"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "Open Screen Application Protocol",
+      "text": "Message Type Key Ranges",
+      "url": "https://www.w3.org/TR/openscreen-application/#appendix-b"
+    }
+  },
+  "#appendix-c": {
+    "current": {
+      "number": "C",
+      "spec": "Open Screen Application Protocol",
+      "text": "Media Time Conversions",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#appendix-c"
+    },
+    "snapshot": {
+      "number": "C",
+      "spec": "Open Screen Application Protocol",
+      "text": "Media Time Conversions",
+      "url": "https://www.w3.org/TR/openscreen-application/#appendix-c"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/openscreen-application/#toc"
+    }
+  },
+  "#cross-origin-state": {
+    "current": {
+      "number": "11.2.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Cross Origin State Considerations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#cross-origin-state"
+    },
+    "snapshot": {
+      "number": "11.2.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Cross Origin State Considerations",
+      "url": "https://www.w3.org/TR/openscreen-application/#cross-origin-state"
+    }
+  },
+  "#index": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Index",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Index",
+      "url": "https://www.w3.org/TR/openscreen-application/#index"
+    }
+  },
+  "#index-defined-elsewhere": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Terms defined by reference",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#index-defined-elsewhere"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Terms defined by reference",
+      "url": "https://www.w3.org/TR/openscreen-application/#index-defined-elsewhere"
+    }
+  },
+  "#index-defined-here": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Terms defined by this specification",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#index-defined-here"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Terms defined by this specification",
+      "url": "https://www.w3.org/TR/openscreen-application/#index-defined-here"
+    }
+  },
+  "#informative": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Informative References",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#informative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Informative References",
+      "url": "https://www.w3.org/TR/openscreen-application/#informative"
+    }
+  },
+  "#instance-names": {
+    "current": {
+      "number": "11.6.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Instance and Display Names",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#instance-names"
+    },
+    "snapshot": {
+      "number": "11.6.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Instance and Display Names",
+      "url": "https://www.w3.org/TR/openscreen-application/#instance-names"
+    }
+  },
+  "#introduction": {
+    "current": {
+      "number": "1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Introduction",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#introduction"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/openscreen-application/#introduction"
+    }
+  },
+  "#issues-index": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Issues Index",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#issues-index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Issues Index",
+      "url": "https://www.w3.org/TR/openscreen-application/#issues-index"
+    }
+  },
+  "#malicious-input-mitigations": {
+    "current": {
+      "number": "11.5.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Malicious input",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#malicious-input-mitigations"
+    },
+    "snapshot": {
+      "number": "11.5.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Malicious input",
+      "url": "https://www.w3.org/TR/openscreen-application/#malicious-input-mitigations"
+    }
+  },
+  "#message-compatibility": {
+    "current": {
+      "number": "4.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Type Key Backwards Compatibility",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#message-compatibility"
+    },
+    "snapshot": {
+      "number": "4.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Type Key Backwards Compatibility",
+      "url": "https://www.w3.org/TR/openscreen-application/#message-compatibility"
+    }
+  },
+  "#messages": {
+    "current": {
+      "number": "4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Message delivery using CBOR",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#messages"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Message delivery using CBOR",
+      "url": "https://www.w3.org/TR/openscreen-application/#messages"
+    }
+  },
+  "#metadata": {
+    "current": {
+      "number": "3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Metadata Discovery",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#metadata"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Metadata Discovery",
+      "url": "https://www.w3.org/TR/openscreen-application/#metadata"
+    }
+  },
+  "#normative": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Normative References",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#normative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Normative References",
+      "url": "https://www.w3.org/TR/openscreen-application/#normative"
+    }
+  },
+  "#origin-access-devices": {
+    "current": {
+      "number": "11.2.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Origin Access to Other Devices",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#origin-access-devices"
+    },
+    "snapshot": {
+      "number": "11.2.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Origin Access to Other Devices",
+      "url": "https://www.w3.org/TR/openscreen-application/#origin-access-devices"
+    }
+  },
+  "#other-considerations": {
+    "current": {
+      "number": "11.2.6",
+      "spec": "Open Screen Application Protocol",
+      "text": "Other Considerations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#other-considerations"
+    },
+    "snapshot": {
+      "number": "11.2.6",
+      "spec": "Open Screen Application Protocol",
+      "text": "Other Considerations",
+      "url": "https://www.w3.org/TR/openscreen-application/#other-considerations"
+    }
+  },
+  "#persistent-state": {
+    "current": {
+      "number": "11.2.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Persistent State",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#persistent-state"
+    },
+    "snapshot": {
+      "number": "11.2.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Persistent State",
+      "url": "https://www.w3.org/TR/openscreen-application/#persistent-state"
+    }
+  },
+  "#personally-identifiable-information": {
+    "current": {
+      "number": "11.2.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Personally Identifiable Information & High-Value Data",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#personally-identifiable-information"
+    },
+    "snapshot": {
+      "number": "11.2.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Personally Identifiable Information & High-Value Data",
+      "url": "https://www.w3.org/TR/openscreen-application/#personally-identifiable-information"
+    }
+  },
+  "#presentation-api": {
+    "current": {
+      "number": "5.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation API",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#presentation-api"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation API",
+      "url": "https://www.w3.org/TR/openscreen-application/#presentation-api"
+    }
+  },
+  "#presentation-api-considerations": {
+    "current": {
+      "number": "11.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation API Considerations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#presentation-api-considerations"
+    },
+    "snapshot": {
+      "number": "11.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation API Considerations",
+      "url": "https://www.w3.org/TR/openscreen-application/#presentation-api-considerations"
+    }
+  },
+  "#presentation-protocol": {
+    "current": {
+      "number": "5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation Protocol",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#presentation-protocol"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation Protocol",
+      "url": "https://www.w3.org/TR/openscreen-application/#presentation-protocol"
+    }
+  },
+  "#private-browsing-mode": {
+    "current": {
+      "number": "11.2.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Private Browsing Mode",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#private-browsing-mode"
+    },
+    "snapshot": {
+      "number": "11.2.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Private Browsing Mode",
+      "url": "https://www.w3.org/TR/openscreen-application/#private-browsing-mode"
+    }
+  },
+  "#protocol-extension-fields": {
+    "current": {
+      "number": "10.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Protocol Extension Fields",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#protocol-extension-fields"
+    },
+    "snapshot": {
+      "number": "10.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Protocol Extension Fields",
+      "url": "https://www.w3.org/TR/openscreen-application/#protocol-extension-fields"
+    }
+  },
+  "#protocol-extensions": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "10. Protocol Extensions",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#protocol-extensions"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "10. Protocol Extensions",
+      "url": "https://www.w3.org/TR/openscreen-application/#protocol-extensions"
+    }
+  },
+  "#references": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "References",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#references"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "References",
+      "url": "https://www.w3.org/TR/openscreen-application/#references"
+    }
+  },
+  "#remote-playback-api": {
+    "current": {
+      "number": "7.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback API",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#remote-playback-api"
+    },
+    "snapshot": {
+      "number": "7.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback API",
+      "url": "https://www.w3.org/TR/openscreen-application/#remote-playback-api"
+    }
+  },
+  "#remote-playback-considerations": {
+    "current": {
+      "number": "11.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback API Considerations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#remote-playback-considerations"
+    },
+    "snapshot": {
+      "number": "11.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback API Considerations",
+      "url": "https://www.w3.org/TR/openscreen-application/#remote-playback-considerations"
+    }
+  },
+  "#remote-playback-protocol": {
+    "current": {
+      "number": "7",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback Protocol",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#remote-playback-protocol"
+    },
+    "snapshot": {
+      "number": "7",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback Protocol",
+      "url": "https://www.w3.org/TR/openscreen-application/#remote-playback-protocol"
+    }
+  },
+  "#remote-playback-state-and-controls": {
+    "current": {
+      "number": "7.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback State and Controls",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#remote-playback-state-and-controls"
+    },
+    "snapshot": {
+      "number": "7.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback State and Controls",
+      "url": "https://www.w3.org/TR/openscreen-application/#remote-playback-state-and-controls"
+    }
+  },
+  "#requests-responses-watches": {
+    "current": {
+      "number": "9",
+      "spec": "Open Screen Application Protocol",
+      "text": "Requests, Responses, and Watches",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requests-responses-watches"
+    },
+    "snapshot": {
+      "number": "9",
+      "spec": "Open Screen Application Protocol",
+      "text": "Requests, Responses, and Watches",
+      "url": "https://www.w3.org/TR/openscreen-application/#requests-responses-watches"
+    }
+  },
+  "#requirements": {
+    "current": {
+      "number": "2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Requirements",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requirements"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Requirements",
+      "url": "https://www.w3.org/TR/openscreen-application/#requirements"
+    }
+  },
+  "#requirements-discovery": {
+    "current": {
+      "number": "2.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Agent Discovery Requirements",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requirements-discovery"
+    },
+    "snapshot": {
+      "number": "2.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Agent Discovery Requirements",
+      "url": "https://www.w3.org/TR/openscreen-application/#requirements-discovery"
+    }
+  },
+  "#requirements-non-functional": {
+    "current": {
+      "number": "2.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Non-Functional Requirements",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requirements-non-functional"
+    },
+    "snapshot": {
+      "number": "2.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Non-Functional Requirements",
+      "url": "https://www.w3.org/TR/openscreen-application/#requirements-non-functional"
+    }
+  },
+  "#requirements-presentation-api": {
+    "current": {
+      "number": "2.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation API Requirements",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requirements-presentation-api"
+    },
+    "snapshot": {
+      "number": "2.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Presentation API Requirements",
+      "url": "https://www.w3.org/TR/openscreen-application/#requirements-presentation-api"
+    }
+  },
+  "#requirements-remote-playback": {
+    "current": {
+      "number": "2.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback API Requirements",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requirements-remote-playback"
+    },
+    "snapshot": {
+      "number": "2.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Remote Playback API Requirements",
+      "url": "https://www.w3.org/TR/openscreen-application/#requirements-remote-playback"
+    }
+  },
+  "#requirements-transport": {
+    "current": {
+      "number": "2.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Transport Layer Requirements",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#requirements-transport"
+    },
+    "snapshot": {
+      "number": "2.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Transport Layer Requirements",
+      "url": "https://www.w3.org/TR/openscreen-application/#requirements-transport"
+    }
+  },
+  "#same-origin-policy-violations": {
+    "current": {
+      "number": "11.1.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Same-Origin Policy Violations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#same-origin-policy-violations"
+    },
+    "snapshot": {
+      "number": "11.1.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Same-Origin Policy Violations",
+      "url": "https://www.w3.org/TR/openscreen-application/#same-origin-policy-violations"
+    }
+  },
+  "#security-mitigations": {
+    "current": {
+      "number": "11.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Mitigation Strategies",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#security-mitigations"
+    },
+    "snapshot": {
+      "number": "11.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Mitigation Strategies",
+      "url": "https://www.w3.org/TR/openscreen-application/#security-mitigations"
+    }
+  },
+  "#security-privacy": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "11. Security and Privacy",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#security-privacy"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "11. Security and Privacy",
+      "url": "https://www.w3.org/TR/openscreen-application/#security-privacy"
+    }
+  },
+  "#security-privacy-questions": {
+    "current": {
+      "number": "11.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Open Screen Application Protocol Security and Privacy Considerations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#security-privacy-questions"
+    },
+    "snapshot": {
+      "number": "11.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Open Screen Application Protocol Security and Privacy Considerations",
+      "url": "https://www.w3.org/TR/openscreen-application/#security-privacy-questions"
+    }
+  },
+  "#security-ui": {
+    "current": {
+      "number": "11.6",
+      "spec": "Open Screen Application Protocol",
+      "text": "User Interface Considerations",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#security-ui"
+    },
+    "snapshot": {
+      "number": "11.6",
+      "spec": "Open Screen Application Protocol",
+      "text": "User Interface Considerations",
+      "url": "https://www.w3.org/TR/openscreen-application/#security-ui"
+    }
+  },
+  "#sotd": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Status of this document",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#sotd"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Status of this document",
+      "url": "https://www.w3.org/TR/openscreen-application/#sotd"
+    }
+  },
+  "#streaming-audio": {
+    "current": {
+      "number": "8.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Audio",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-audio"
+    },
+    "snapshot": {
+      "number": "8.3",
+      "spec": "Open Screen Application Protocol",
+      "text": "Audio",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-audio"
+    }
+  },
+  "#streaming-data": {
+    "current": {
+      "number": "8.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Data",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-data"
+    },
+    "snapshot": {
+      "number": "8.5",
+      "spec": "Open Screen Application Protocol",
+      "text": "Data",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-data"
+    }
+  },
+  "#streaming-feedback": {
+    "current": {
+      "number": "8.6",
+      "spec": "Open Screen Application Protocol",
+      "text": "Feedback",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-feedback"
+    },
+    "snapshot": {
+      "number": "8.6",
+      "spec": "Open Screen Application Protocol",
+      "text": "Feedback",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-feedback"
+    }
+  },
+  "#streaming-protocol": {
+    "current": {
+      "number": "8",
+      "spec": "Open Screen Application Protocol",
+      "text": "Streaming Protocol",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-protocol"
+    },
+    "snapshot": {
+      "number": "8",
+      "spec": "Open Screen Application Protocol",
+      "text": "Streaming Protocol",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-protocol"
+    }
+  },
+  "#streaming-protocol-capabilities": {
+    "current": {
+      "number": "8.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Streaming Protocol Capabilities",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-protocol-capabilities"
+    },
+    "snapshot": {
+      "number": "8.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Streaming Protocol Capabilities",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-protocol-capabilities"
+    }
+  },
+  "#streaming-sessions": {
+    "current": {
+      "number": "8.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Sessions",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-sessions"
+    },
+    "snapshot": {
+      "number": "8.2",
+      "spec": "Open Screen Application Protocol",
+      "text": "Sessions",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-sessions"
+    }
+  },
+  "#streaming-stats": {
+    "current": {
+      "number": "8.7",
+      "spec": "Open Screen Application Protocol",
+      "text": "Stats",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-stats"
+    },
+    "snapshot": {
+      "number": "8.7",
+      "spec": "Open Screen Application Protocol",
+      "text": "Stats",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-stats"
+    }
+  },
+  "#streaming-video": {
+    "current": {
+      "number": "8.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Video",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#streaming-video"
+    },
+    "snapshot": {
+      "number": "8.4",
+      "spec": "Open Screen Application Protocol",
+      "text": "Video",
+      "url": "https://www.w3.org/TR/openscreen-application/#streaming-video"
+    }
+  },
+  "#terminology": {
+    "current": {
+      "number": "1.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Terminology",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#terminology"
+    },
+    "snapshot": {
+      "number": "1.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Terminology",
+      "url": "https://www.w3.org/TR/openscreen-application/#terminology"
+    }
+  },
+  "#threat-models": {
+    "current": {
+      "number": "11.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Threat Models",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#threat-models"
+    },
+    "snapshot": {
+      "number": "11.1",
+      "spec": "Open Screen Application Protocol",
+      "text": "Threat Models",
+      "url": "https://www.w3.org/TR/openscreen-application/#threat-models"
+    }
+  },
+  "#time-representation": {
+    "current": {
+      "number": "6",
+      "spec": "Open Screen Application Protocol",
+      "text": "Representation Of Time",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#time-representation"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "Open Screen Application Protocol",
+      "text": "Representation Of Time",
+      "url": "https://www.w3.org/TR/openscreen-application/#time-representation"
+    }
+  },
+  "#title": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Open Screen Application Protocol",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#title"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Open Screen Application Protocol",
+      "url": "https://www.w3.org/TR/openscreen-application/#title"
+    }
+  },
+  "#toc": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/openscreen-application/#toc"
+    }
+  },
+  "#w3c-conformance": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#w3c-conformance"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/openscreen-application/#w3c-conformance"
+    }
+  },
+  "#w3c-conformant-algorithms": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Conformant Algorithms",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#w3c-conformant-algorithms"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Conformant Algorithms",
+      "url": "https://www.w3.org/TR/openscreen-application/#w3c-conformant-algorithms"
+    }
+  },
+  "#w3c-conventions": {
+    "current": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Document conventions",
+      "url": "https://w3c.github.io/openscreenprotocol/application.html#w3c-conventions"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Open Screen Application Protocol",
+      "text": "Document conventions",
+      "url": "https://www.w3.org/TR/openscreen-application/#w3c-conventions"
+    }
+  }
+}

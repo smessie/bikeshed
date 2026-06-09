@@ -1,0 +1,4076 @@
+{
+  "#a-1-mylampthing-example-with-coap-protocol-binding": {
+    "current": {
+      "number": "A.1",
+      "spec": "WoT 2.0",
+      "text": "MyLampThing Example with CoAP Protocol Binding",
+      "url": "https://w3c.github.io/wot-thing-description/#myLampThing-example-coap"
+    },
+    "snapshot": {
+      "number": "A.1",
+      "spec": "WoT 2.0",
+      "text": "MyLampThing Example with CoAP Protocol Binding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#myLampThing-example-coap"
+    }
+  },
+  "#a-2-myilluminancesensor-example-with-mqtt-protocol-binding": {
+    "current": {
+      "number": "A.2",
+      "spec": "WoT 2.0",
+      "text": "MyIlluminanceSensor Example with MQTT Protocol Binding",
+      "url": "https://w3c.github.io/wot-thing-description/#myLightSensor-example-mqtt"
+    },
+    "snapshot": {
+      "number": "A.2",
+      "spec": "WoT 2.0",
+      "text": "MyIlluminanceSensor Example with MQTT Protocol Binding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#myLightSensor-example-mqtt"
+    }
+  },
+  "#a-3-webhook-event-example": {
+    "current": {
+      "number": "A.3",
+      "spec": "WoT 2.0",
+      "text": "Webhook Event Example",
+      "url": "https://w3c.github.io/wot-thing-description/#sensor-example-webhook"
+    },
+    "snapshot": {
+      "number": "A.3",
+      "spec": "WoT 2.0",
+      "text": "Webhook Event Example",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sensor-example-webhook"
+    }
+  },
+  "#a-4-lamp-thing-with-http-coap-and-mqtt-protocol-bindings": {
+    "current": {
+      "number": "A.4",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#lamp-example-multiprotocol-simple"
+    },
+    "snapshot": {
+      "number": "A.4",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#lamp-example-multiprotocol-simple"
+    }
+  },
+  "#a-5-lamp-thing-with-mixture-of-http-coap-and-mqtt-protocol-bindings": {
+    "current": {
+      "number": "A.5",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with mixture of HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#lamp-example-multiprotocol-complex"
+    },
+    "snapshot": {
+      "number": "A.5",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with mixture of HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#lamp-example-multiprotocol-complex"
+    }
+  },
+  "#a-example-thing-description-instances-with-protocol-bindings": {
+    "current": {
+      "number": "A",
+      "spec": "WoT 2.0",
+      "text": "Example Thing Description Instances with Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#example-tds-bindings"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "WoT 2.0",
+      "text": "Example Thing Description Instances with Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#example-tds-bindings"
+    }
+  },
+  "#acknowledgements": {
+    "current": {
+      "number": "G",
+      "spec": "WoT 2.0",
+      "text": "Acknowledgements",
+      "url": "https://w3c.github.io/wot-thing-description/#acknowledgements"
+    },
+    "snapshot": {
+      "number": "G",
+      "spec": "WoT 2.0",
+      "text": "Acknowledgements",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#acknowledgements"
+    }
+  },
+  "#action-serialization-json": {
+    "current": {
+      "number": "6.3.6",
+      "spec": "WoT 2.0",
+      "text": "actions",
+      "url": "https://w3c.github.io/wot-thing-description/#action-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.6",
+      "spec": "WoT 2.0",
+      "text": "actions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#action-serialization-json"
+    }
+  },
+  "#actionaffordance": {
+    "current": {
+      "number": "5.3.1.4",
+      "spec": "WoT 2.0",
+      "text": "ActionAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#actionaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.4",
+      "spec": "WoT 2.0",
+      "text": "ActionAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#actionaffordance"
+    }
+  },
+  "#adding-bindings": {
+    "current": {
+      "number": "7.2",
+      "spec": "WoT 2.0",
+      "text": "Adding Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#adding-bindings"
+    },
+    "snapshot": {
+      "number": "7.2",
+      "spec": "WoT 2.0",
+      "text": "Adding Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#adding-bindings"
+    }
+  },
+  "#adding-security-schemes": {
+    "current": {
+      "number": "7.3",
+      "spec": "WoT 2.0",
+      "text": "Adding Security Schemes",
+      "url": "https://w3c.github.io/wot-thing-description/#adding-security-schemes"
+    },
+    "snapshot": {
+      "number": "7.3",
+      "spec": "WoT 2.0",
+      "text": "Adding Security Schemes",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#adding-security-schemes"
+    }
+  },
+  "#additionalexpectedresponse": {
+    "current": {
+      "number": "5.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "AdditionalExpectedResponse",
+      "url": "https://w3c.github.io/wot-thing-description/#additionalexpectedresponse"
+    },
+    "snapshot": {
+      "number": "5.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "AdditionalExpectedResponse",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#additionalexpectedresponse"
+    }
+  },
+  "#apikeysecurityscheme": {
+    "current": {
+      "number": "5.3.3.7",
+      "spec": "WoT 2.0",
+      "text": "APIKeySecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#apikeysecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.7",
+      "spec": "WoT 2.0",
+      "text": "APIKeySecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#apikeysecurityscheme"
+    }
+  },
+  "#arrayschema": {
+    "current": {
+      "number": "5.3.2.2",
+      "spec": "WoT 2.0",
+      "text": "ArraySchema",
+      "url": "https://w3c.github.io/wot-thing-description/#arrayschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.2",
+      "spec": "WoT 2.0",
+      "text": "ArraySchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#arrayschema"
+    }
+  },
+  "#autosecurityscheme": {
+    "current": {
+      "number": "5.3.3.3",
+      "spec": "WoT 2.0",
+      "text": "AutoSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#autosecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.3",
+      "spec": "WoT 2.0",
+      "text": "AutoSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#autosecurityscheme"
+    }
+  },
+  "#b-json-schema-for-td-instance-validation": {
+    "current": {
+      "number": "B",
+      "spec": "WoT 2.0",
+      "text": "JSON Schema for TD Instance Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#json-schema-for-validation"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "WoT 2.0",
+      "text": "JSON Schema for TD Instance Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#json-schema-for-validation"
+    }
+  },
+  "#basic-validation-serialization-json": {
+    "current": {
+      "number": "6.5.2",
+      "spec": "WoT 2.0",
+      "text": "Basic Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#basic-validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5.2",
+      "spec": "WoT 2.0",
+      "text": "Basic Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#basic-validation-serialization-json"
+    }
+  },
+  "#basicsecurityscheme": {
+    "current": {
+      "number": "5.3.3.5",
+      "spec": "WoT 2.0",
+      "text": "BasicSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#basicsecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.5",
+      "spec": "WoT 2.0",
+      "text": "BasicSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#basicsecurityscheme"
+    }
+  },
+  "#bearersecurityscheme": {
+    "current": {
+      "number": "5.3.3.8",
+      "spec": "WoT 2.0",
+      "text": "BearerSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#bearersecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.8",
+      "spec": "WoT 2.0",
+      "text": "BearerSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#bearersecurityscheme"
+    }
+  },
+  "#behavior": {
+    "current": {
+      "number": "9",
+      "spec": "WoT 2.0",
+      "text": "Behavioral Assertions",
+      "url": "https://w3c.github.io/wot-thing-description/#behavior"
+    },
+    "snapshot": {
+      "number": "9",
+      "spec": "WoT 2.0",
+      "text": "Behavioral Assertions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#behavior"
+    }
+  },
+  "#behavior-data": {
+    "current": {
+      "number": "9.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#behavior-data"
+    },
+    "snapshot": {
+      "number": "9.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#behavior-data"
+    }
+  },
+  "#behavior-security": {
+    "current": {
+      "number": "9.1",
+      "spec": "WoT 2.0",
+      "text": "Security Configurations",
+      "url": "https://w3c.github.io/wot-thing-description/#behavior-security"
+    },
+    "snapshot": {
+      "number": "9.1",
+      "spec": "WoT 2.0",
+      "text": "Security Configurations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#behavior-security"
+    }
+  },
+  "#binding-mechanisms": {
+    "current": {
+      "number": "8.1",
+      "spec": "WoT 2.0",
+      "text": "Binding Mechanisms",
+      "url": "https://w3c.github.io/wot-thing-description/#binding-mechanisms"
+    },
+    "snapshot": {
+      "number": "8.1",
+      "spec": "WoT 2.0",
+      "text": "Binding Mechanisms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#binding-mechanisms"
+    }
+  },
+  "#bindings": {
+    "current": {
+      "number": "8",
+      "spec": "WoT 2.0",
+      "text": "Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#bindings"
+    },
+    "snapshot": {
+      "number": "8",
+      "spec": "WoT 2.0",
+      "text": "Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#bindings"
+    }
+  },
+  "#bindings-combinations": {
+    "current": {
+      "number": "8.1.3",
+      "spec": "WoT 2.0",
+      "text": "Protocol and Payload Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#bindings-combinations"
+    },
+    "snapshot": {
+      "number": "8.1.3",
+      "spec": "WoT 2.0",
+      "text": "Protocol and Payload Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#bindings-combinations"
+    }
+  },
+  "#booleanschema": {
+    "current": {
+      "number": "5.3.2.3",
+      "spec": "WoT 2.0",
+      "text": "BooleanSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#booleanschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.3",
+      "spec": "WoT 2.0",
+      "text": "BooleanSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#booleanschema"
+    }
+  },
+  "#c-contenttype-usage-in-thing-descriptions": {
+    "current": {
+      "number": "C",
+      "spec": "WoT 2.0",
+      "text": "contentType usage in Thing Descriptions",
+      "url": "https://w3c.github.io/wot-thing-description/#contentType-usage"
+    },
+    "snapshot": {
+      "number": "C",
+      "spec": "WoT 2.0",
+      "text": "contentType usage in Thing Descriptions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#contentType-usage"
+    }
+  },
+  "#changes": {
+    "current": {
+      "number": "F",
+      "spec": "WoT 2.0",
+      "text": "Recent Specification Changes",
+      "url": "https://w3c.github.io/wot-thing-description/#changes"
+    },
+    "snapshot": {
+      "number": "F",
+      "spec": "WoT 2.0",
+      "text": "Recent Specification Changes",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#changes"
+    }
+  },
+  "#changes-from-rec-2023": {
+    "current": {
+      "number": "F.1",
+      "spec": "WoT 2.0",
+      "text": "Changes from the Recommendation 05 December 2023",
+      "url": "https://w3c.github.io/wot-thing-description/#changes-from-the-recommendation-05-december-2023"
+    },
+    "snapshot": {
+      "number": "F.1",
+      "spec": "WoT 2.0",
+      "text": "Changes from the Recommendation 05 December 2023",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#changes-from-the-recommendation-05-december-2023"
+    }
+  },
+  "#changes-from-the-recommendation-05-december-2023": {
+    "current": {
+      "number": "F.1",
+      "spec": "WoT 2.0",
+      "text": "Changes from the Recommendation 05 December 2023",
+      "url": "https://w3c.github.io/wot-thing-description/#changes-from-the-recommendation-05-december-2023"
+    },
+    "snapshot": {
+      "number": "F.1",
+      "spec": "WoT 2.0",
+      "text": "Changes from the Recommendation 05 December 2023",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#changes-from-the-recommendation-05-december-2023"
+    }
+  },
+  "#class-definitions": {
+    "current": {
+      "number": "5.3",
+      "spec": "WoT 2.0",
+      "text": "Class Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#class-definitions"
+    },
+    "snapshot": {
+      "number": "5.3",
+      "spec": "WoT 2.0",
+      "text": "Class Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#class-definitions"
+    }
+  },
+  "#combosecurityscheme": {
+    "current": {
+      "number": "5.3.3.4",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#combosecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.4",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#combosecurityscheme"
+    }
+  },
+  "#conformance": {
+    "current": {
+      "number": "2",
+      "spec": "WoT 2.0",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/wot-thing-description/#conformance"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "WoT 2.0",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#conformance"
+    }
+  },
+  "#content-format-section": {
+    "current": {
+      "number": "13.3",
+      "spec": "WoT 2.0",
+      "text": "CoAP Content-Format Registration",
+      "url": "https://w3c.github.io/wot-thing-description/#content-format-section"
+    },
+    "snapshot": {
+      "number": "13.3",
+      "spec": "WoT 2.0",
+      "text": "CoAP Content-Format Registration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#content-format-section"
+    }
+  },
+  "#contentType-usage": {
+    "current": {
+      "number": "C",
+      "spec": "WoT 2.0",
+      "text": "contentType usage in Thing Descriptions",
+      "url": "https://w3c.github.io/wot-thing-description/#contentType-usage"
+    },
+    "snapshot": {
+      "number": "C",
+      "spec": "WoT 2.0",
+      "text": "contentType usage in Thing Descriptions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#contentType-usage"
+    }
+  },
+  "#d-json-ld-context-usage": {
+    "current": {
+      "number": "D",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Context Usage",
+      "url": "https://w3c.github.io/wot-thing-description/#json-ld-ctx-usage"
+    },
+    "snapshot": {
+      "number": "D",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Context Usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#json-ld-ctx-usage"
+    }
+  },
+  "#data-schema-serialization-json": {
+    "current": {
+      "number": "6.3.10",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#data-schema-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.10",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#data-schema-serialization-json"
+    }
+  },
+  "#dataschema": {
+    "current": {
+      "number": "5.3.2.1",
+      "spec": "WoT 2.0",
+      "text": "DataSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#dataschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.1",
+      "spec": "WoT 2.0",
+      "text": "DataSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#dataschema"
+    }
+  },
+  "#digestsecurityscheme": {
+    "current": {
+      "number": "5.3.3.6",
+      "spec": "WoT 2.0",
+      "text": "DigestSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#digestsecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.6",
+      "spec": "WoT 2.0",
+      "text": "DigestSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#digestsecurityscheme"
+    }
+  },
+  "#e-examples-of-payloads-and-data-schemas-from-iot-platforms-and-standards": {
+    "current": {
+      "number": "E",
+      "spec": "WoT 2.0",
+      "text": "Examples of Payloads and Data Schemas from IoT Platforms and Standards",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-payload-examples"
+    },
+    "snapshot": {
+      "number": "E",
+      "spec": "WoT 2.0",
+      "text": "Examples of Payloads and Data Schemas from IoT Platforms and Standards",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-payload-examples"
+    }
+  },
+  "#event-serialization-json": {
+    "current": {
+      "number": "6.3.7",
+      "spec": "WoT 2.0",
+      "text": "events",
+      "url": "https://w3c.github.io/wot-thing-description/#event-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.7",
+      "spec": "WoT 2.0",
+      "text": "events",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#event-serialization-json"
+    }
+  },
+  "#eventaffordance": {
+    "current": {
+      "number": "5.3.1.5",
+      "spec": "WoT 2.0",
+      "text": "EventAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#eventaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.5",
+      "spec": "WoT 2.0",
+      "text": "EventAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#eventaffordance"
+    }
+  },
+  "#example-tds-bindings": {
+    "current": {
+      "number": "A",
+      "spec": "WoT 2.0",
+      "text": "Example Thing Description Instances with Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#example-tds-bindings"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "WoT 2.0",
+      "text": "Example Thing Description Instances with Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#example-tds-bindings"
+    }
+  },
+  "#expectedresponse": {
+    "current": {
+      "number": "5.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ExpectedResponse",
+      "url": "https://w3c.github.io/wot-thing-description/#expectedresponse"
+    },
+    "snapshot": {
+      "number": "5.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ExpectedResponse",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#expectedresponse"
+    }
+  },
+  "#f-recent-specification-changes": {
+    "current": {
+      "number": "F",
+      "spec": "WoT 2.0",
+      "text": "Recent Specification Changes",
+      "url": "https://w3c.github.io/wot-thing-description/#changes"
+    },
+    "snapshot": {
+      "number": "F",
+      "spec": "WoT 2.0",
+      "text": "Recent Specification Changes",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#changes"
+    }
+  },
+  "#form": {
+    "current": {
+      "number": "5.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "Form",
+      "url": "https://w3c.github.io/wot-thing-description/#form"
+    },
+    "snapshot": {
+      "number": "5.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "Form",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form"
+    }
+  },
+  "#form-additionalResponses": {
+    "current": {
+      "number": "6.3.9.4",
+      "spec": "WoT 2.0",
+      "text": "additionalResponses",
+      "url": "https://w3c.github.io/wot-thing-description/#form-additionalResponses"
+    },
+    "snapshot": {
+      "number": "6.3.9.4",
+      "spec": "WoT 2.0",
+      "text": "additionalResponses",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-additionalResponses"
+    }
+  },
+  "#form-contentMediaType-contentEncoding": {
+    "current": {
+      "number": "6.3.9.5",
+      "spec": "WoT 2.0",
+      "text": "contentMediaType and contentEncoding",
+      "url": "https://w3c.github.io/wot-thing-description/#form-contentMediaType-contentEncoding"
+    },
+    "snapshot": {
+      "number": "6.3.9.5",
+      "spec": "WoT 2.0",
+      "text": "contentMediaType and contentEncoding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-contentMediaType-contentEncoding"
+    }
+  },
+  "#form-contentType": {
+    "current": {
+      "number": "6.3.9.2",
+      "spec": "WoT 2.0",
+      "text": "contentType",
+      "url": "https://w3c.github.io/wot-thing-description/#form-contentType"
+    },
+    "snapshot": {
+      "number": "6.3.9.2",
+      "spec": "WoT 2.0",
+      "text": "contentType",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-contentType"
+    }
+  },
+  "#form-response": {
+    "current": {
+      "number": "6.3.9.3",
+      "spec": "WoT 2.0",
+      "text": "response",
+      "url": "https://w3c.github.io/wot-thing-description/#form-response"
+    },
+    "snapshot": {
+      "number": "6.3.9.3",
+      "spec": "WoT 2.0",
+      "text": "response",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-response"
+    }
+  },
+  "#form-serialization-json": {
+    "current": {
+      "number": "6.3.9",
+      "spec": "WoT 2.0",
+      "text": "forms",
+      "url": "https://w3c.github.io/wot-thing-description/#form-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.9",
+      "spec": "WoT 2.0",
+      "text": "forms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-serialization-json"
+    }
+  },
+  "#form-top-level": {
+    "current": {
+      "number": "6.3.9.6",
+      "spec": "WoT 2.0",
+      "text": "Top level forms",
+      "url": "https://w3c.github.io/wot-thing-description/#form-top-level"
+    },
+    "snapshot": {
+      "number": "6.3.9.6",
+      "spec": "WoT 2.0",
+      "text": "Top level forms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-top-level"
+    }
+  },
+  "#form-uriVariables": {
+    "current": {
+      "number": "6.3.9.1",
+      "spec": "WoT 2.0",
+      "text": "uriVariables",
+      "url": "https://w3c.github.io/wot-thing-description/#form-uriVariables"
+    },
+    "snapshot": {
+      "number": "6.3.9.1",
+      "spec": "WoT 2.0",
+      "text": "uriVariables",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-uriVariables"
+    }
+  },
+  "#full-validation-serialization-json": {
+    "current": {
+      "number": "6.5.3",
+      "spec": "WoT 2.0",
+      "text": "Full Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#full-validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5.3",
+      "spec": "WoT 2.0",
+      "text": "Full Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#full-validation-serialization-json"
+    }
+  },
+  "#g-acknowledgements": {
+    "current": {
+      "number": "G",
+      "spec": "WoT 2.0",
+      "text": "Acknowledgements",
+      "url": "https://w3c.github.io/wot-thing-description/#acknowledgements"
+    },
+    "snapshot": {
+      "number": "G",
+      "spec": "WoT 2.0",
+      "text": "Acknowledgements",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#acknowledgements"
+    }
+  },
+  "#h-1-normative-references": {
+    "current": {
+      "number": "H.1",
+      "spec": "WoT 2.0",
+      "text": "Normative references",
+      "url": "https://w3c.github.io/wot-thing-description/#normative-references"
+    },
+    "snapshot": {
+      "number": "H.1",
+      "spec": "WoT 2.0",
+      "text": "Normative references",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#normative-references"
+    }
+  },
+  "#h-2-informative-references": {
+    "current": {
+      "number": "H.2",
+      "spec": "WoT 2.0",
+      "text": "Informative references",
+      "url": "https://w3c.github.io/wot-thing-description/#informative-references"
+    },
+    "snapshot": {
+      "number": "H.2",
+      "spec": "WoT 2.0",
+      "text": "Informative references",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#informative-references"
+    }
+  },
+  "#h-references": {
+    "current": {
+      "number": "H",
+      "spec": "WoT 2.0",
+      "text": "References",
+      "url": "https://w3c.github.io/wot-thing-description/#references"
+    },
+    "snapshot": {
+      "number": "H",
+      "spec": "WoT 2.0",
+      "text": "References",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#references"
+    }
+  },
+  "#iana-section": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "13. IANA Considerations",
+      "url": "https://w3c.github.io/wot-thing-description/#iana-section"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "13. IANA Considerations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#iana-section"
+    }
+  },
+  "#identification-serialization-json": {
+    "current": {
+      "number": "6.4",
+      "spec": "WoT 2.0",
+      "text": "Identification",
+      "url": "https://w3c.github.io/wot-thing-description/#identification-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.4",
+      "spec": "WoT 2.0",
+      "text": "Identification",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#identification-serialization-json"
+    }
+  },
+  "#informative-references": {
+    "current": {
+      "number": "H.2",
+      "spec": "WoT 2.0",
+      "text": "Informative references",
+      "url": "https://w3c.github.io/wot-thing-description/#informative-references"
+    },
+    "snapshot": {
+      "number": "H.2",
+      "spec": "WoT 2.0",
+      "text": "Informative references",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#informative-references"
+    }
+  },
+  "#integerschema": {
+    "current": {
+      "number": "5.3.2.5",
+      "spec": "WoT 2.0",
+      "text": "IntegerSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#integerschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.5",
+      "spec": "WoT 2.0",
+      "text": "IntegerSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#integerschema"
+    }
+  },
+  "#interactionaffordance": {
+    "current": {
+      "number": "5.3.1.2",
+      "spec": "WoT 2.0",
+      "text": "InteractionAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#interactionaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.2",
+      "spec": "WoT 2.0",
+      "text": "InteractionAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#interactionaffordance"
+    }
+  },
+  "#introduction": {
+    "current": {
+      "number": "1",
+      "spec": "WoT 2.0",
+      "text": "Introduction",
+      "url": "https://w3c.github.io/wot-thing-description/#introduction"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "WoT 2.0",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#introduction"
+    }
+  },
+  "#introduction-td": {
+    "current": {
+      "number": "1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Description",
+      "url": "https://w3c.github.io/wot-thing-description/#introduction-td"
+    },
+    "snapshot": {
+      "number": "1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Description",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#introduction-td"
+    }
+  },
+  "#introduction-tm": {
+    "current": {
+      "number": "1.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model",
+      "url": "https://w3c.github.io/wot-thing-description/#introduction-tm"
+    },
+    "snapshot": {
+      "number": "1.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#introduction-tm"
+    }
+  },
+  "#json-ld-ctx-usage": {
+    "current": {
+      "number": "D",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Context Usage",
+      "url": "https://w3c.github.io/wot-thing-description/#json-ld-ctx-usage"
+    },
+    "snapshot": {
+      "number": "D",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Context Usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#json-ld-ctx-usage"
+    }
+  },
+  "#json-schema-for-validation": {
+    "current": {
+      "number": "B",
+      "spec": "WoT 2.0",
+      "text": "JSON Schema for TD Instance Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#json-schema-for-validation"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "WoT 2.0",
+      "text": "JSON Schema for TD Instance Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#json-schema-for-validation"
+    }
+  },
+  "#lamp-example-multiprotocol-complex": {
+    "current": {
+      "number": "A.5",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with mixture of HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#lamp-example-multiprotocol-complex"
+    },
+    "snapshot": {
+      "number": "A.5",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with mixture of HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#lamp-example-multiprotocol-complex"
+    }
+  },
+  "#lamp-example-multiprotocol-simple": {
+    "current": {
+      "number": "A.4",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#lamp-example-multiprotocol-simple"
+    },
+    "snapshot": {
+      "number": "A.4",
+      "spec": "WoT 2.0",
+      "text": "Lamp Thing with HTTP, CoAP, and MQTT Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#lamp-example-multiprotocol-simple"
+    }
+  },
+  "#link": {
+    "current": {
+      "number": "5.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Link",
+      "url": "https://w3c.github.io/wot-thing-description/#link"
+    },
+    "snapshot": {
+      "number": "5.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Link",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#link"
+    }
+  },
+  "#link-serialization-json": {
+    "current": {
+      "number": "6.3.8",
+      "spec": "WoT 2.0",
+      "text": "links",
+      "url": "https://w3c.github.io/wot-thing-description/#link-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.8",
+      "spec": "WoT 2.0",
+      "text": "links",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#link-serialization-json"
+    }
+  },
+  "#media-type-section": {
+    "current": {
+      "number": "13.1",
+      "spec": "WoT 2.0",
+      "text": "application/td+json Media Type Registration",
+      "url": "https://w3c.github.io/wot-thing-description/#media-type-section"
+    },
+    "snapshot": {
+      "number": "13.1",
+      "spec": "WoT 2.0",
+      "text": "application/td+json Media Type Registration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#media-type-section"
+    }
+  },
+  "#media-type-section-tm": {
+    "current": {
+      "number": "13.2",
+      "spec": "WoT 2.0",
+      "text": "application/tm+json Media Type Registration",
+      "url": "https://w3c.github.io/wot-thing-description/#media-type-section-tm"
+    },
+    "snapshot": {
+      "number": "13.2",
+      "spec": "WoT 2.0",
+      "text": "application/tm+json Media Type Registration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#media-type-section-tm"
+    }
+  },
+  "#minimal-validation-serialization-json": {
+    "current": {
+      "number": "6.5.1",
+      "spec": "WoT 2.0",
+      "text": "Minimal Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#minimal-validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5.1",
+      "spec": "WoT 2.0",
+      "text": "Minimal Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#minimal-validation-serialization-json"
+    }
+  },
+  "#multilanguage": {
+    "current": {
+      "number": "5.3.1.7",
+      "spec": "WoT 2.0",
+      "text": "MultiLanguage",
+      "url": "https://w3c.github.io/wot-thing-description/#multilanguage"
+    },
+    "snapshot": {
+      "number": "5.3.1.7",
+      "spec": "WoT 2.0",
+      "text": "MultiLanguage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#multilanguage"
+    }
+  },
+  "#myLampThing-example-coap": {
+    "current": {
+      "number": "A.1",
+      "spec": "WoT 2.0",
+      "text": "MyLampThing Example with CoAP Protocol Binding",
+      "url": "https://w3c.github.io/wot-thing-description/#myLampThing-example-coap"
+    },
+    "snapshot": {
+      "number": "A.1",
+      "spec": "WoT 2.0",
+      "text": "MyLampThing Example with CoAP Protocol Binding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#myLampThing-example-coap"
+    }
+  },
+  "#myLightSensor-example-mqtt": {
+    "current": {
+      "number": "A.2",
+      "spec": "WoT 2.0",
+      "text": "MyIlluminanceSensor Example with MQTT Protocol Binding",
+      "url": "https://w3c.github.io/wot-thing-description/#myLightSensor-example-mqtt"
+    },
+    "snapshot": {
+      "number": "A.2",
+      "spec": "WoT 2.0",
+      "text": "MyIlluminanceSensor Example with MQTT Protocol Binding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#myLightSensor-example-mqtt"
+    }
+  },
+  "#namespaces": {
+    "current": {
+      "number": "4",
+      "spec": "WoT 2.0",
+      "text": "Namespaces",
+      "url": "https://w3c.github.io/wot-thing-description/#namespaces"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "WoT 2.0",
+      "text": "Namespaces",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#namespaces"
+    }
+  },
+  "#normative-references": {
+    "current": {
+      "number": "H.1",
+      "spec": "WoT 2.0",
+      "text": "Normative references",
+      "url": "https://w3c.github.io/wot-thing-description/#normative-references"
+    },
+    "snapshot": {
+      "number": "H.1",
+      "spec": "WoT 2.0",
+      "text": "Normative references",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#normative-references"
+    }
+  },
+  "#nosecurityscheme": {
+    "current": {
+      "number": "5.3.3.2",
+      "spec": "WoT 2.0",
+      "text": "NoSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#nosecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.2",
+      "spec": "WoT 2.0",
+      "text": "NoSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#nosecurityscheme"
+    }
+  },
+  "#nullschema": {
+    "current": {
+      "number": "5.3.2.8",
+      "spec": "WoT 2.0",
+      "text": "NullSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#nullschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.8",
+      "spec": "WoT 2.0",
+      "text": "NullSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#nullschema"
+    }
+  },
+  "#numberschema": {
+    "current": {
+      "number": "5.3.2.4",
+      "spec": "WoT 2.0",
+      "text": "NumberSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#numberschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.4",
+      "spec": "WoT 2.0",
+      "text": "NumberSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#numberschema"
+    }
+  },
+  "#oauth2securityscheme": {
+    "current": {
+      "number": "5.3.3.10",
+      "spec": "WoT 2.0",
+      "text": "OAuth2SecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#oauth2securityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.10",
+      "spec": "WoT 2.0",
+      "text": "OAuth2SecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#oauth2securityscheme"
+    }
+  },
+  "#objectschema": {
+    "current": {
+      "number": "5.3.2.6",
+      "spec": "WoT 2.0",
+      "text": "ObjectSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#objectschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.6",
+      "spec": "WoT 2.0",
+      "text": "ObjectSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#objectschema"
+    }
+  },
+  "#omitting-default-values": {
+    "current": {
+      "number": "6.2",
+      "spec": "WoT 2.0",
+      "text": "Omitting Default Values",
+      "url": "https://w3c.github.io/wot-thing-description/#omitting-default-values"
+    },
+    "snapshot": {
+      "number": "6.2",
+      "spec": "WoT 2.0",
+      "text": "Omitting Default Values",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#omitting-default-values"
+    }
+  },
+  "#overview": {
+    "current": {
+      "number": "5.1",
+      "spec": "WoT 2.0",
+      "text": "Overview",
+      "url": "https://w3c.github.io/wot-thing-description/#overview"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "WoT 2.0",
+      "text": "Overview",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#overview"
+    }
+  },
+  "#payload-bindings": {
+    "current": {
+      "number": "8.1.2",
+      "spec": "WoT 2.0",
+      "text": "Payload Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#payload-bindings"
+    },
+    "snapshot": {
+      "number": "8.1.2",
+      "spec": "WoT 2.0",
+      "text": "Payload Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#payload-bindings"
+    }
+  },
+  "#payload-bindings-contentType": {
+    "current": {
+      "number": "8.1.2.1",
+      "spec": "WoT 2.0",
+      "text": "Content Types",
+      "url": "https://w3c.github.io/wot-thing-description/#payload-bindings-contentType"
+    },
+    "snapshot": {
+      "number": "8.1.2.1",
+      "spec": "WoT 2.0",
+      "text": "Content Types",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#payload-bindings-contentType"
+    }
+  },
+  "#payload-bindings-dataschema": {
+    "current": {
+      "number": "8.1.2.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#payload-bindings-dataschema"
+    },
+    "snapshot": {
+      "number": "8.1.2.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#payload-bindings-dataschema"
+    }
+  },
+  "#preliminary-definitions": {
+    "current": {
+      "number": "5.2",
+      "spec": "WoT 2.0",
+      "text": "Preliminaries",
+      "url": "https://w3c.github.io/wot-thing-description/#preliminary-definitions"
+    },
+    "snapshot": {
+      "number": "5.2",
+      "spec": "WoT 2.0",
+      "text": "Preliminaries",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#preliminary-definitions"
+    }
+  },
+  "#profile-relationship": {
+    "current": {
+      "number": "8.2",
+      "spec": "WoT 2.0",
+      "text": "Relationship to Profiles",
+      "url": "https://w3c.github.io/wot-thing-description/#profile-relationship"
+    },
+    "snapshot": {
+      "number": "8.2",
+      "spec": "WoT 2.0",
+      "text": "Relationship to Profiles",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#profile-relationship"
+    }
+  },
+  "#property-serialization-json": {
+    "current": {
+      "number": "6.3.5",
+      "spec": "WoT 2.0",
+      "text": "properties",
+      "url": "https://w3c.github.io/wot-thing-description/#property-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.5",
+      "spec": "WoT 2.0",
+      "text": "properties",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#property-serialization-json"
+    }
+  },
+  "#propertyaffordance": {
+    "current": {
+      "number": "5.3.1.3",
+      "spec": "WoT 2.0",
+      "text": "PropertyAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#propertyaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.3",
+      "spec": "WoT 2.0",
+      "text": "PropertyAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#propertyaffordance"
+    }
+  },
+  "#protocol-bindings": {
+    "current": {
+      "number": "8.1.1",
+      "spec": "WoT 2.0",
+      "text": "Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#protocol-bindings"
+    },
+    "snapshot": {
+      "number": "8.1.1",
+      "spec": "WoT 2.0",
+      "text": "Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#protocol-bindings"
+    }
+  },
+  "#psksecurityscheme": {
+    "current": {
+      "number": "5.3.3.9",
+      "spec": "WoT 2.0",
+      "text": "PSKSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#psksecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.9",
+      "spec": "WoT 2.0",
+      "text": "PSKSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#psksecurityscheme"
+    }
+  },
+  "#references": {
+    "current": {
+      "number": "H",
+      "spec": "WoT 2.0",
+      "text": "References",
+      "url": "https://w3c.github.io/wot-thing-description/#references"
+    },
+    "snapshot": {
+      "number": "H",
+      "spec": "WoT 2.0",
+      "text": "References",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#references"
+    }
+  },
+  "#sec-context-extensions": {
+    "current": {
+      "number": "7",
+      "spec": "WoT 2.0",
+      "text": "TD Context Extensions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-context-extensions"
+    },
+    "snapshot": {
+      "number": "7",
+      "spec": "WoT 2.0",
+      "text": "TD Context Extensions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-context-extensions"
+    }
+  },
+  "#sec-core-vocabulary-definition": {
+    "current": {
+      "number": "5.3.1",
+      "spec": "WoT 2.0",
+      "text": "Core Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-core-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.1",
+      "spec": "WoT 2.0",
+      "text": "Core Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-core-vocabulary-definition"
+    }
+  },
+  "#sec-data-schema-vocabulary-definition": {
+    "current": {
+      "number": "5.3.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schema Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-data-schema-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schema Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-data-schema-vocabulary-definition"
+    }
+  },
+  "#sec-default-values": {
+    "current": {
+      "number": "5.4",
+      "spec": "WoT 2.0",
+      "text": "Default Value Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-default-values"
+    },
+    "snapshot": {
+      "number": "5.4",
+      "spec": "WoT 2.0",
+      "text": "Default Value Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-default-values"
+    }
+  },
+  "#sec-hypermedia-vocabulary-definition": {
+    "current": {
+      "number": "5.3.4",
+      "spec": "WoT 2.0",
+      "text": "Hypermedia Controls Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-hypermedia-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.4",
+      "spec": "WoT 2.0",
+      "text": "Hypermedia Controls Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-hypermedia-vocabulary-definition"
+    }
+  },
+  "#sec-op-data-schema-mapping": {
+    "current": {
+      "number": "5.3.4.2.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping op Values to Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-op-data-schema-mapping"
+    },
+    "snapshot": {
+      "number": "5.3.4.2.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping op Values to Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-op-data-schema-mapping"
+    }
+  },
+  "#sec-payload-examples": {
+    "current": {
+      "number": "E",
+      "spec": "WoT 2.0",
+      "text": "Examples of Payloads and Data Schemas from IoT Platforms and Standards",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-payload-examples"
+    },
+    "snapshot": {
+      "number": "E",
+      "spec": "WoT 2.0",
+      "text": "Examples of Payloads and Data Schemas from IoT Platforms and Standards",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-payload-examples"
+    }
+  },
+  "#sec-privacy-consideration": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "12. Privacy Considerations",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "12. Privacy Considerations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration"
+    }
+  },
+  "#sec-privacy-consideration-context": {
+    "current": {
+      "number": "12.1",
+      "spec": "WoT 2.0",
+      "text": "Context Fetching",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-context"
+    },
+    "snapshot": {
+      "number": "12.1",
+      "spec": "WoT 2.0",
+      "text": "Context Fetching",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-context"
+    }
+  },
+  "#sec-privacy-consideration-fingerprint": {
+    "current": {
+      "number": "12.3",
+      "spec": "WoT 2.0",
+      "text": "Fingerprinting",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-fingerprint"
+    },
+    "snapshot": {
+      "number": "12.3",
+      "spec": "WoT 2.0",
+      "text": "Fingerprinting",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-fingerprint"
+    }
+  },
+  "#sec-privacy-consideration-global-id-risk": {
+    "current": {
+      "number": "12.5",
+      "spec": "WoT 2.0",
+      "text": "Globally Unique Identifiers",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-global-id-risk"
+    },
+    "snapshot": {
+      "number": "12.5",
+      "spec": "WoT 2.0",
+      "text": "Globally Unique Identifiers",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-global-id-risk"
+    }
+  },
+  "#sec-privacy-consideration-id": {
+    "current": {
+      "number": "12.2",
+      "spec": "WoT 2.0",
+      "text": "Immutable Identifiers",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-id"
+    },
+    "snapshot": {
+      "number": "12.2",
+      "spec": "WoT 2.0",
+      "text": "Immutable Identifiers",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-id"
+    }
+  },
+  "#sec-privacy-consideration-id-metadata": {
+    "current": {
+      "number": "12.4",
+      "spec": "WoT 2.0",
+      "text": "ID Metadata",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-id-metadata"
+    },
+    "snapshot": {
+      "number": "12.4",
+      "spec": "WoT 2.0",
+      "text": "ID Metadata",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-id-metadata"
+    }
+  },
+  "#sec-privacy-consideration-inferencing": {
+    "current": {
+      "number": "12.6",
+      "spec": "WoT 2.0",
+      "text": "Inferencing of Personally Identifiable Information",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-inferencing"
+    },
+    "snapshot": {
+      "number": "12.6",
+      "spec": "WoT 2.0",
+      "text": "Inferencing of Personally Identifiable Information",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-inferencing"
+    }
+  },
+  "#sec-response-usage": {
+    "current": {
+      "number": "5.3.4.2.2",
+      "spec": "WoT 2.0",
+      "text": "Response-related Terms Usage",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-response-usage"
+    },
+    "snapshot": {
+      "number": "5.3.4.2.2",
+      "spec": "WoT 2.0",
+      "text": "Response-related Terms Usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-response-usage"
+    }
+  },
+  "#sec-security-consideration": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "11. Security Considerations",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "11. Security Considerations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration"
+    }
+  },
+  "#sec-security-consideration-TD-tampering": {
+    "current": {
+      "number": "11.1",
+      "spec": "WoT 2.0",
+      "text": "TD Interception and Tampering",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-TD-tampering"
+    },
+    "snapshot": {
+      "number": "11.1",
+      "spec": "WoT 2.0",
+      "text": "TD Interception and Tampering",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-TD-tampering"
+    }
+  },
+  "#sec-security-consideration-context-tampering": {
+    "current": {
+      "number": "11.2",
+      "spec": "WoT 2.0",
+      "text": "Context Interception and Tampering",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-context-tampering"
+    },
+    "snapshot": {
+      "number": "11.2",
+      "spec": "WoT 2.0",
+      "text": "Context Interception and Tampering",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-context-tampering"
+    }
+  },
+  "#sec-security-consideration-execution": {
+    "current": {
+      "number": "11.6",
+      "spec": "WoT 2.0",
+      "text": "JSON Parsing",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-execution"
+    },
+    "snapshot": {
+      "number": "11.6",
+      "spec": "WoT 2.0",
+      "text": "JSON Parsing",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-execution"
+    }
+  },
+  "#sec-security-consideration-jsonld-expansion": {
+    "current": {
+      "number": "11.7",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Expansion",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-jsonld-expansion"
+    },
+    "snapshot": {
+      "number": "11.7",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Expansion",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-jsonld-expansion"
+    }
+  },
+  "#sec-security-consideration-script-injection": {
+    "current": {
+      "number": "11.5",
+      "spec": "WoT 2.0",
+      "text": "Script Injection",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-script-injection"
+    },
+    "snapshot": {
+      "number": "11.5",
+      "spec": "WoT 2.0",
+      "text": "Script Injection",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-script-injection"
+    }
+  },
+  "#sec-security-consideration-vulnerability-auditing": {
+    "current": {
+      "number": "11.4",
+      "spec": "WoT 2.0",
+      "text": "Vulnerability Auditing",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-vulnerability-auditing"
+    },
+    "snapshot": {
+      "number": "11.4",
+      "spec": "WoT 2.0",
+      "text": "Vulnerability Auditing",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-vulnerability-auditing"
+    }
+  },
+  "#sec-security-vocabulary-definition": {
+    "current": {
+      "number": "5.3.3",
+      "spec": "WoT 2.0",
+      "text": "Security Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.3",
+      "spec": "WoT 2.0",
+      "text": "Security Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-vocabulary-definition"
+    }
+  },
+  "#sec-td-serialization": {
+    "current": {
+      "number": "6",
+      "spec": "WoT 2.0",
+      "text": "TD Representation Format",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-td-serialization"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "WoT 2.0",
+      "text": "TD Representation Format",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-td-serialization"
+    }
+  },
+  "#sec-thing-as-a-whole-json": {
+    "current": {
+      "number": "6.3.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Root Object",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-thing-as-a-whole-json"
+    },
+    "snapshot": {
+      "number": "6.3.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Root Object",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-thing-as-a-whole-json"
+    }
+  },
+  "#sec-vocabulary-definition": {
+    "current": {
+      "number": "5",
+      "spec": "WoT 2.0",
+      "text": "TD Information Model",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "WoT 2.0",
+      "text": "TD Information Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-vocabulary-definition"
+    }
+  },
+  "#security-apikey": {
+    "current": {
+      "number": "6.3.4.5",
+      "spec": "WoT 2.0",
+      "text": "API key usage",
+      "url": "https://w3c.github.io/wot-thing-description/#security-apikey"
+    },
+    "snapshot": {
+      "number": "6.3.4.5",
+      "spec": "WoT 2.0",
+      "text": "API key usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-apikey"
+    }
+  },
+  "#security-comboSecurityScheme": {
+    "current": {
+      "number": "6.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#security-comboSecurityScheme"
+    },
+    "snapshot": {
+      "number": "6.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-comboSecurityScheme"
+    }
+  },
+  "#security-consideration-access-duration": {
+    "current": {
+      "number": "11.3",
+      "spec": "WoT 2.0",
+      "text": "Limited Duration Accesses",
+      "url": "https://w3c.github.io/wot-thing-description/#security-consideration-access-duration"
+    },
+    "snapshot": {
+      "number": "11.3",
+      "spec": "WoT 2.0",
+      "text": "Limited Duration Accesses",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-consideration-access-duration"
+    }
+  },
+  "#security-multiple": {
+    "current": {
+      "number": "6.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Multiple Security Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#security-multiple"
+    },
+    "snapshot": {
+      "number": "6.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Multiple Security Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-multiple"
+    }
+  },
+  "#security-oauth2": {
+    "current": {
+      "number": "6.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "OAuth 2.0 usage",
+      "url": "https://w3c.github.io/wot-thing-description/#security-oauth2"
+    },
+    "snapshot": {
+      "number": "6.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "OAuth 2.0 usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-oauth2"
+    }
+  },
+  "#security-security-forms": {
+    "current": {
+      "number": "6.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "security in Forms",
+      "url": "https://w3c.github.io/wot-thing-description/#security-security-forms"
+    },
+    "snapshot": {
+      "number": "6.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "security in Forms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-security-forms"
+    }
+  },
+  "#security-serialization-json": {
+    "current": {
+      "number": "6.3.4",
+      "spec": "WoT 2.0",
+      "text": "securityDefinitions and security",
+      "url": "https://w3c.github.io/wot-thing-description/#security-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.4",
+      "spec": "WoT 2.0",
+      "text": "securityDefinitions and security",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-serialization-json"
+    }
+  },
+  "#securityscheme": {
+    "current": {
+      "number": "5.3.3.1",
+      "spec": "WoT 2.0",
+      "text": "SecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#securityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.1",
+      "spec": "WoT 2.0",
+      "text": "SecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#securityscheme"
+    }
+  },
+  "#semantic-annotations": {
+    "current": {
+      "number": "7.1",
+      "spec": "WoT 2.0",
+      "text": "Semantic Annotations",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations"
+    },
+    "snapshot": {
+      "number": "7.1",
+      "spec": "WoT 2.0",
+      "text": "Semantic Annotations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations"
+    }
+  },
+  "#semantic-annotations-example-geoloc": {
+    "current": {
+      "number": "7.1.3",
+      "spec": "WoT 2.0",
+      "text": "Example III: Geolocation Annotations",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations-example-geoloc"
+    },
+    "snapshot": {
+      "number": "7.1.3",
+      "spec": "WoT 2.0",
+      "text": "Example III: Geolocation Annotations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations-example-geoloc"
+    }
+  },
+  "#semantic-annotations-example-state": {
+    "current": {
+      "number": "7.1.2",
+      "spec": "WoT 2.0",
+      "text": "Example II: State Annotations",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations-example-state"
+    },
+    "snapshot": {
+      "number": "7.1.2",
+      "spec": "WoT 2.0",
+      "text": "Example II: State Annotations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations-example-state"
+    }
+  },
+  "#semantic-annotations-example-version-units": {
+    "current": {
+      "number": "7.1.1",
+      "spec": "WoT 2.0",
+      "text": "Example I: Additional Basic Metadata",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations-example-version-units"
+    },
+    "snapshot": {
+      "number": "7.1.1",
+      "spec": "WoT 2.0",
+      "text": "Example I: Additional Basic Metadata",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations-example-version-units"
+    }
+  },
+  "#sensor-example-webhook": {
+    "current": {
+      "number": "A.3",
+      "spec": "WoT 2.0",
+      "text": "Webhook Event Example",
+      "url": "https://w3c.github.io/wot-thing-description/#sensor-example-webhook"
+    },
+    "snapshot": {
+      "number": "A.3",
+      "spec": "WoT 2.0",
+      "text": "Webhook Event Example",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sensor-example-webhook"
+    }
+  },
+  "#stringschema": {
+    "current": {
+      "number": "5.3.2.7",
+      "spec": "WoT 2.0",
+      "text": "StringSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#stringschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.7",
+      "spec": "WoT 2.0",
+      "text": "StringSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#stringschema"
+    }
+  },
+  "#subprotocols": {
+    "current": {
+      "number": "8.1.1.1",
+      "spec": "WoT 2.0",
+      "text": "Subprotocols",
+      "url": "https://w3c.github.io/wot-thing-description/#subprotocols"
+    },
+    "snapshot": {
+      "number": "8.1.1.1",
+      "spec": "WoT 2.0",
+      "text": "Subprotocols",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#subprotocols"
+    }
+  },
+  "#table-of-contents": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/wot-thing-description/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#toc"
+    }
+  },
+  "#td-basic-types-mapping": {
+    "current": {
+      "number": "6.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping to JSON Types",
+      "url": "https://w3c.github.io/wot-thing-description/#td-basic-types-mapping"
+    },
+    "snapshot": {
+      "number": "6.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping to JSON Types",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#td-basic-types-mapping"
+    }
+  },
+  "#td-class-serialization": {
+    "current": {
+      "number": "6.3",
+      "spec": "WoT 2.0",
+      "text": "Information Model Serialization",
+      "url": "https://w3c.github.io/wot-thing-description/#td-class-serialization"
+    },
+    "snapshot": {
+      "number": "6.3",
+      "spec": "WoT 2.0",
+      "text": "Information Model Serialization",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#td-class-serialization"
+    }
+  },
+  "#terminology": {
+    "current": {
+      "number": "3",
+      "spec": "WoT 2.0",
+      "text": "Terminology",
+      "url": "https://w3c.github.io/wot-thing-description/#terminology"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "WoT 2.0",
+      "text": "Terminology",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#terminology"
+    }
+  },
+  "#thing": {
+    "current": {
+      "number": "5.3.1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing",
+      "url": "https://w3c.github.io/wot-thing-description/#thing"
+    },
+    "snapshot": {
+      "number": "5.3.1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing"
+    }
+  },
+  "#thing-model": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "10. Thing Model",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "10. Thing Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model"
+    }
+  },
+  "#thing-model-composition": {
+    "current": {
+      "number": "10.3.3",
+      "spec": "WoT 2.0",
+      "text": "Composition",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-composition"
+    },
+    "snapshot": {
+      "number": "10.3.3",
+      "spec": "WoT 2.0",
+      "text": "Composition",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-composition"
+    }
+  },
+  "#thing-model-concept": {
+    "current": {
+      "number": "10.1",
+      "spec": "WoT 2.0",
+      "text": "Basic Concept",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-concept"
+    },
+    "snapshot": {
+      "number": "10.1",
+      "spec": "WoT 2.0",
+      "text": "Basic Concept",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-concept"
+    }
+  },
+  "#thing-model-declaration": {
+    "current": {
+      "number": "10.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model Declaration",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-declaration"
+    },
+    "snapshot": {
+      "number": "10.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model Declaration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-declaration"
+    }
+  },
+  "#thing-model-extension-import": {
+    "current": {
+      "number": "10.3.2",
+      "spec": "WoT 2.0",
+      "text": "Extension and Import",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-extension-import"
+    },
+    "snapshot": {
+      "number": "10.3.2",
+      "spec": "WoT 2.0",
+      "text": "Extension and Import",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-extension-import"
+    }
+  },
+  "#thing-model-td-generation": {
+    "current": {
+      "number": "10.4",
+      "spec": "WoT 2.0",
+      "text": "Derivation of Thing Description Instances",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-generation"
+    },
+    "snapshot": {
+      "number": "10.4",
+      "spec": "WoT 2.0",
+      "text": "Derivation of Thing Description Instances",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-generation"
+    }
+  },
+  "#thing-model-td-generation-examples": {
+    "current": {
+      "number": "10.5",
+      "spec": "WoT 2.0",
+      "text": "Examples",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-generation-examples"
+    },
+    "snapshot": {
+      "number": "10.5",
+      "spec": "WoT 2.0",
+      "text": "Examples",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-generation-examples"
+    }
+  },
+  "#thing-model-td-optional": {
+    "current": {
+      "number": "10.3.4",
+      "spec": "WoT 2.0",
+      "text": "tm:optional",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-optional"
+    },
+    "snapshot": {
+      "number": "10.3.4",
+      "spec": "WoT 2.0",
+      "text": "tm:optional",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-optional"
+    }
+  },
+  "#thing-model-td-placeholder": {
+    "current": {
+      "number": "10.3.5",
+      "spec": "WoT 2.0",
+      "text": "Placeholder",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-placeholder"
+    },
+    "snapshot": {
+      "number": "10.3.5",
+      "spec": "WoT 2.0",
+      "text": "Placeholder",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-placeholder"
+    }
+  },
+  "#thing-model-tools": {
+    "current": {
+      "number": "10.3",
+      "spec": "WoT 2.0",
+      "text": "Modeling Tools",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-tools"
+    },
+    "snapshot": {
+      "number": "10.3",
+      "spec": "WoT 2.0",
+      "text": "Modeling Tools",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-tools"
+    }
+  },
+  "#thing-model-versioning": {
+    "current": {
+      "number": "10.3.1",
+      "spec": "WoT 2.0",
+      "text": "Versioning",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-versioning"
+    },
+    "snapshot": {
+      "number": "10.3.1",
+      "spec": "WoT 2.0",
+      "text": "Versioning",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-versioning"
+    }
+  },
+  "#title": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "Web of Things (WoT) Thing Description 2.0",
+      "url": "https://w3c.github.io/wot-thing-description/#title"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "Web of Things (WoT) Thing Description 2.0",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#title"
+    }
+  },
+  "#titles-descriptions-serialization-json": {
+    "current": {
+      "number": "6.3.2",
+      "spec": "WoT 2.0",
+      "text": "Human-Readable Metadata",
+      "url": "https://w3c.github.io/wot-thing-description/#titles-descriptions-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.2",
+      "spec": "WoT 2.0",
+      "text": "Human-Readable Metadata",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#titles-descriptions-serialization-json"
+    }
+  },
+  "#toc": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/wot-thing-description/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#toc"
+    }
+  },
+  "#using-a-thing-description-with-a-protocol-binding": {
+    "current": {
+      "number": "8.1.1.2",
+      "spec": "WoT 2.0",
+      "text": "Using a Thing Description with a Protocol Binding",
+      "url": "https://w3c.github.io/wot-thing-description/#using-a-thing-description-with-a-protocol-binding"
+    },
+    "snapshot": {
+      "number": "8.1.1.2",
+      "spec": "WoT 2.0",
+      "text": "Using a Thing Description with a Protocol Binding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#using-a-thing-description-with-a-protocol-binding"
+    }
+  },
+  "#validation-serialization-json": {
+    "current": {
+      "number": "6.5",
+      "spec": "WoT 2.0",
+      "text": "Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5",
+      "spec": "WoT 2.0",
+      "text": "Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#validation-serialization-json"
+    }
+  },
+  "#version-serialization-json": {
+    "current": {
+      "number": "6.3.3",
+      "spec": "WoT 2.0",
+      "text": "version",
+      "url": "https://w3c.github.io/wot-thing-description/#version-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.3",
+      "spec": "WoT 2.0",
+      "text": "version",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#version-serialization-json"
+    }
+  },
+  "#versioninfo": {
+    "current": {
+      "number": "5.3.1.6",
+      "spec": "WoT 2.0",
+      "text": "VersionInfo",
+      "url": "https://w3c.github.io/wot-thing-description/#versioninfo"
+    },
+    "snapshot": {
+      "number": "5.3.1.6",
+      "spec": "WoT 2.0",
+      "text": "VersionInfo",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#versioninfo"
+    }
+  },
+  "#wot-thing-description": {
+    "current": {
+      "number": "13.3.1",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Description",
+      "url": "https://w3c.github.io/wot-thing-description/#wot-thing-description"
+    },
+    "snapshot": {
+      "number": "13.3.1",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Description",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#wot-thing-description"
+    }
+  },
+  "#wot-thing-model": {
+    "current": {
+      "number": "13.3.2",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Model",
+      "url": "https://w3c.github.io/wot-thing-description/#wot-thing-model"
+    },
+    "snapshot": {
+      "number": "13.3.2",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#wot-thing-model"
+    }
+  },
+  "#x1-1-thing-description": {
+    "current": {
+      "number": "1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Description",
+      "url": "https://w3c.github.io/wot-thing-description/#introduction-td"
+    },
+    "snapshot": {
+      "number": "1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Description",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#introduction-td"
+    }
+  },
+  "#x1-2-thing-model": {
+    "current": {
+      "number": "1.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model",
+      "url": "https://w3c.github.io/wot-thing-description/#introduction-tm"
+    },
+    "snapshot": {
+      "number": "1.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#introduction-tm"
+    }
+  },
+  "#x1-introduction": {
+    "current": {
+      "number": "1",
+      "spec": "WoT 2.0",
+      "text": "Introduction",
+      "url": "https://w3c.github.io/wot-thing-description/#introduction"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "WoT 2.0",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#introduction"
+    }
+  },
+  "#x10-1-basic-concept": {
+    "current": {
+      "number": "10.1",
+      "spec": "WoT 2.0",
+      "text": "Basic Concept",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-concept"
+    },
+    "snapshot": {
+      "number": "10.1",
+      "spec": "WoT 2.0",
+      "text": "Basic Concept",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-concept"
+    }
+  },
+  "#x10-2-thing-model-declaration": {
+    "current": {
+      "number": "10.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model Declaration",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-declaration"
+    },
+    "snapshot": {
+      "number": "10.2",
+      "spec": "WoT 2.0",
+      "text": "Thing Model Declaration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-declaration"
+    }
+  },
+  "#x10-3-1-versioning": {
+    "current": {
+      "number": "10.3.1",
+      "spec": "WoT 2.0",
+      "text": "Versioning",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-versioning"
+    },
+    "snapshot": {
+      "number": "10.3.1",
+      "spec": "WoT 2.0",
+      "text": "Versioning",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-versioning"
+    }
+  },
+  "#x10-3-2-extension-and-import": {
+    "current": {
+      "number": "10.3.2",
+      "spec": "WoT 2.0",
+      "text": "Extension and Import",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-extension-import"
+    },
+    "snapshot": {
+      "number": "10.3.2",
+      "spec": "WoT 2.0",
+      "text": "Extension and Import",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-extension-import"
+    }
+  },
+  "#x10-3-3-composition": {
+    "current": {
+      "number": "10.3.3",
+      "spec": "WoT 2.0",
+      "text": "Composition",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-composition"
+    },
+    "snapshot": {
+      "number": "10.3.3",
+      "spec": "WoT 2.0",
+      "text": "Composition",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-composition"
+    }
+  },
+  "#x10-3-4-tm-optional": {
+    "current": {
+      "number": "10.3.4",
+      "spec": "WoT 2.0",
+      "text": "tm:optional",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-optional"
+    },
+    "snapshot": {
+      "number": "10.3.4",
+      "spec": "WoT 2.0",
+      "text": "tm:optional",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-optional"
+    }
+  },
+  "#x10-3-5-placeholder": {
+    "current": {
+      "number": "10.3.5",
+      "spec": "WoT 2.0",
+      "text": "Placeholder",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-placeholder"
+    },
+    "snapshot": {
+      "number": "10.3.5",
+      "spec": "WoT 2.0",
+      "text": "Placeholder",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-placeholder"
+    }
+  },
+  "#x10-3-modeling-tools": {
+    "current": {
+      "number": "10.3",
+      "spec": "WoT 2.0",
+      "text": "Modeling Tools",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-tools"
+    },
+    "snapshot": {
+      "number": "10.3",
+      "spec": "WoT 2.0",
+      "text": "Modeling Tools",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-tools"
+    }
+  },
+  "#x10-4-derivation-of-thing-description-instances": {
+    "current": {
+      "number": "10.4",
+      "spec": "WoT 2.0",
+      "text": "Derivation of Thing Description Instances",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-generation"
+    },
+    "snapshot": {
+      "number": "10.4",
+      "spec": "WoT 2.0",
+      "text": "Derivation of Thing Description Instances",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-generation"
+    }
+  },
+  "#x10-5-examples": {
+    "current": {
+      "number": "10.5",
+      "spec": "WoT 2.0",
+      "text": "Examples",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model-td-generation-examples"
+    },
+    "snapshot": {
+      "number": "10.5",
+      "spec": "WoT 2.0",
+      "text": "Examples",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model-td-generation-examples"
+    }
+  },
+  "#x10-thing-model": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "10. Thing Model",
+      "url": "https://w3c.github.io/wot-thing-description/#thing-model"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "10. Thing Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing-model"
+    }
+  },
+  "#x11-1-td-interception-and-tampering": {
+    "current": {
+      "number": "11.1",
+      "spec": "WoT 2.0",
+      "text": "TD Interception and Tampering",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-TD-tampering"
+    },
+    "snapshot": {
+      "number": "11.1",
+      "spec": "WoT 2.0",
+      "text": "TD Interception and Tampering",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-TD-tampering"
+    }
+  },
+  "#x11-2-context-interception-and-tampering": {
+    "current": {
+      "number": "11.2",
+      "spec": "WoT 2.0",
+      "text": "Context Interception and Tampering",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-context-tampering"
+    },
+    "snapshot": {
+      "number": "11.2",
+      "spec": "WoT 2.0",
+      "text": "Context Interception and Tampering",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-context-tampering"
+    }
+  },
+  "#x11-3-limited-duration-accesses": {
+    "current": {
+      "number": "11.3",
+      "spec": "WoT 2.0",
+      "text": "Limited Duration Accesses",
+      "url": "https://w3c.github.io/wot-thing-description/#security-consideration-access-duration"
+    },
+    "snapshot": {
+      "number": "11.3",
+      "spec": "WoT 2.0",
+      "text": "Limited Duration Accesses",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-consideration-access-duration"
+    }
+  },
+  "#x11-4-vulnerability-auditing": {
+    "current": {
+      "number": "11.4",
+      "spec": "WoT 2.0",
+      "text": "Vulnerability Auditing",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-vulnerability-auditing"
+    },
+    "snapshot": {
+      "number": "11.4",
+      "spec": "WoT 2.0",
+      "text": "Vulnerability Auditing",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-vulnerability-auditing"
+    }
+  },
+  "#x11-5-script-injection": {
+    "current": {
+      "number": "11.5",
+      "spec": "WoT 2.0",
+      "text": "Script Injection",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-script-injection"
+    },
+    "snapshot": {
+      "number": "11.5",
+      "spec": "WoT 2.0",
+      "text": "Script Injection",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-script-injection"
+    }
+  },
+  "#x11-6-json-parsing": {
+    "current": {
+      "number": "11.6",
+      "spec": "WoT 2.0",
+      "text": "JSON Parsing",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-execution"
+    },
+    "snapshot": {
+      "number": "11.6",
+      "spec": "WoT 2.0",
+      "text": "JSON Parsing",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-execution"
+    }
+  },
+  "#x11-7-json-ld-expansion": {
+    "current": {
+      "number": "11.7",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Expansion",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration-jsonld-expansion"
+    },
+    "snapshot": {
+      "number": "11.7",
+      "spec": "WoT 2.0",
+      "text": "JSON-LD Expansion",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration-jsonld-expansion"
+    }
+  },
+  "#x11-security-considerations": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "11. Security Considerations",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-consideration"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "11. Security Considerations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-consideration"
+    }
+  },
+  "#x12-1-context-fetching": {
+    "current": {
+      "number": "12.1",
+      "spec": "WoT 2.0",
+      "text": "Context Fetching",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-context"
+    },
+    "snapshot": {
+      "number": "12.1",
+      "spec": "WoT 2.0",
+      "text": "Context Fetching",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-context"
+    }
+  },
+  "#x12-2-immutable-identifiers": {
+    "current": {
+      "number": "12.2",
+      "spec": "WoT 2.0",
+      "text": "Immutable Identifiers",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-id"
+    },
+    "snapshot": {
+      "number": "12.2",
+      "spec": "WoT 2.0",
+      "text": "Immutable Identifiers",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-id"
+    }
+  },
+  "#x12-3-fingerprinting": {
+    "current": {
+      "number": "12.3",
+      "spec": "WoT 2.0",
+      "text": "Fingerprinting",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-fingerprint"
+    },
+    "snapshot": {
+      "number": "12.3",
+      "spec": "WoT 2.0",
+      "text": "Fingerprinting",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-fingerprint"
+    }
+  },
+  "#x12-4-id-metadata": {
+    "current": {
+      "number": "12.4",
+      "spec": "WoT 2.0",
+      "text": "ID Metadata",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-id-metadata"
+    },
+    "snapshot": {
+      "number": "12.4",
+      "spec": "WoT 2.0",
+      "text": "ID Metadata",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-id-metadata"
+    }
+  },
+  "#x12-5-globally-unique-identifiers": {
+    "current": {
+      "number": "12.5",
+      "spec": "WoT 2.0",
+      "text": "Globally Unique Identifiers",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-global-id-risk"
+    },
+    "snapshot": {
+      "number": "12.5",
+      "spec": "WoT 2.0",
+      "text": "Globally Unique Identifiers",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-global-id-risk"
+    }
+  },
+  "#x12-6-inferencing-of-personally-identifiable-information": {
+    "current": {
+      "number": "12.6",
+      "spec": "WoT 2.0",
+      "text": "Inferencing of Personally Identifiable Information",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration-inferencing"
+    },
+    "snapshot": {
+      "number": "12.6",
+      "spec": "WoT 2.0",
+      "text": "Inferencing of Personally Identifiable Information",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration-inferencing"
+    }
+  },
+  "#x12-privacy-considerations": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "12. Privacy Considerations",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-privacy-consideration"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "12. Privacy Considerations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-privacy-consideration"
+    }
+  },
+  "#x13-1-application-td-json-media-type-registration": {
+    "current": {
+      "number": "13.1",
+      "spec": "WoT 2.0",
+      "text": "application/td+json Media Type Registration",
+      "url": "https://w3c.github.io/wot-thing-description/#media-type-section"
+    },
+    "snapshot": {
+      "number": "13.1",
+      "spec": "WoT 2.0",
+      "text": "application/td+json Media Type Registration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#media-type-section"
+    }
+  },
+  "#x13-2-application-tm-json-media-type-registration": {
+    "current": {
+      "number": "13.2",
+      "spec": "WoT 2.0",
+      "text": "application/tm+json Media Type Registration",
+      "url": "https://w3c.github.io/wot-thing-description/#media-type-section-tm"
+    },
+    "snapshot": {
+      "number": "13.2",
+      "spec": "WoT 2.0",
+      "text": "application/tm+json Media Type Registration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#media-type-section-tm"
+    }
+  },
+  "#x13-3-1-wot-thing-description": {
+    "current": {
+      "number": "13.3.1",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Description",
+      "url": "https://w3c.github.io/wot-thing-description/#wot-thing-description"
+    },
+    "snapshot": {
+      "number": "13.3.1",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Description",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#wot-thing-description"
+    }
+  },
+  "#x13-3-2-wot-thing-model": {
+    "current": {
+      "number": "13.3.2",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Model",
+      "url": "https://w3c.github.io/wot-thing-description/#wot-thing-model"
+    },
+    "snapshot": {
+      "number": "13.3.2",
+      "spec": "WoT 2.0",
+      "text": "WoT Thing Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#wot-thing-model"
+    }
+  },
+  "#x13-3-coap-content-format-registration": {
+    "current": {
+      "number": "13.3",
+      "spec": "WoT 2.0",
+      "text": "CoAP Content-Format Registration",
+      "url": "https://w3c.github.io/wot-thing-description/#content-format-section"
+    },
+    "snapshot": {
+      "number": "13.3",
+      "spec": "WoT 2.0",
+      "text": "CoAP Content-Format Registration",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#content-format-section"
+    }
+  },
+  "#x13-iana-considerations": {
+    "current": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "13. IANA Considerations",
+      "url": "https://w3c.github.io/wot-thing-description/#iana-section"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WoT 2.0",
+      "text": "13. IANA Considerations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#iana-section"
+    }
+  },
+  "#x2-conformance": {
+    "current": {
+      "number": "2",
+      "spec": "WoT 2.0",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/wot-thing-description/#conformance"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "WoT 2.0",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#conformance"
+    }
+  },
+  "#x3-terminology": {
+    "current": {
+      "number": "3",
+      "spec": "WoT 2.0",
+      "text": "Terminology",
+      "url": "https://w3c.github.io/wot-thing-description/#terminology"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "WoT 2.0",
+      "text": "Terminology",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#terminology"
+    }
+  },
+  "#x4-namespaces": {
+    "current": {
+      "number": "4",
+      "spec": "WoT 2.0",
+      "text": "Namespaces",
+      "url": "https://w3c.github.io/wot-thing-description/#namespaces"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "WoT 2.0",
+      "text": "Namespaces",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#namespaces"
+    }
+  },
+  "#x5-1-overview": {
+    "current": {
+      "number": "5.1",
+      "spec": "WoT 2.0",
+      "text": "Overview",
+      "url": "https://w3c.github.io/wot-thing-description/#overview"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "WoT 2.0",
+      "text": "Overview",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#overview"
+    }
+  },
+  "#x5-2-preliminaries": {
+    "current": {
+      "number": "5.2",
+      "spec": "WoT 2.0",
+      "text": "Preliminaries",
+      "url": "https://w3c.github.io/wot-thing-description/#preliminary-definitions"
+    },
+    "snapshot": {
+      "number": "5.2",
+      "spec": "WoT 2.0",
+      "text": "Preliminaries",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#preliminary-definitions"
+    }
+  },
+  "#x5-3-1-1-thing": {
+    "current": {
+      "number": "5.3.1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing",
+      "url": "https://w3c.github.io/wot-thing-description/#thing"
+    },
+    "snapshot": {
+      "number": "5.3.1.1",
+      "spec": "WoT 2.0",
+      "text": "Thing",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#thing"
+    }
+  },
+  "#x5-3-1-2-interactionaffordance": {
+    "current": {
+      "number": "5.3.1.2",
+      "spec": "WoT 2.0",
+      "text": "InteractionAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#interactionaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.2",
+      "spec": "WoT 2.0",
+      "text": "InteractionAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#interactionaffordance"
+    }
+  },
+  "#x5-3-1-3-propertyaffordance": {
+    "current": {
+      "number": "5.3.1.3",
+      "spec": "WoT 2.0",
+      "text": "PropertyAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#propertyaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.3",
+      "spec": "WoT 2.0",
+      "text": "PropertyAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#propertyaffordance"
+    }
+  },
+  "#x5-3-1-4-actionaffordance": {
+    "current": {
+      "number": "5.3.1.4",
+      "spec": "WoT 2.0",
+      "text": "ActionAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#actionaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.4",
+      "spec": "WoT 2.0",
+      "text": "ActionAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#actionaffordance"
+    }
+  },
+  "#x5-3-1-5-eventaffordance": {
+    "current": {
+      "number": "5.3.1.5",
+      "spec": "WoT 2.0",
+      "text": "EventAffordance",
+      "url": "https://w3c.github.io/wot-thing-description/#eventaffordance"
+    },
+    "snapshot": {
+      "number": "5.3.1.5",
+      "spec": "WoT 2.0",
+      "text": "EventAffordance",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#eventaffordance"
+    }
+  },
+  "#x5-3-1-6-versioninfo": {
+    "current": {
+      "number": "5.3.1.6",
+      "spec": "WoT 2.0",
+      "text": "VersionInfo",
+      "url": "https://w3c.github.io/wot-thing-description/#versioninfo"
+    },
+    "snapshot": {
+      "number": "5.3.1.6",
+      "spec": "WoT 2.0",
+      "text": "VersionInfo",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#versioninfo"
+    }
+  },
+  "#x5-3-1-7-multilanguage": {
+    "current": {
+      "number": "5.3.1.7",
+      "spec": "WoT 2.0",
+      "text": "MultiLanguage",
+      "url": "https://w3c.github.io/wot-thing-description/#multilanguage"
+    },
+    "snapshot": {
+      "number": "5.3.1.7",
+      "spec": "WoT 2.0",
+      "text": "MultiLanguage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#multilanguage"
+    }
+  },
+  "#x5-3-1-core-vocabulary-definitions": {
+    "current": {
+      "number": "5.3.1",
+      "spec": "WoT 2.0",
+      "text": "Core Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-core-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.1",
+      "spec": "WoT 2.0",
+      "text": "Core Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-core-vocabulary-definition"
+    }
+  },
+  "#x5-3-2-1-dataschema": {
+    "current": {
+      "number": "5.3.2.1",
+      "spec": "WoT 2.0",
+      "text": "DataSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#dataschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.1",
+      "spec": "WoT 2.0",
+      "text": "DataSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#dataschema"
+    }
+  },
+  "#x5-3-2-2-arrayschema": {
+    "current": {
+      "number": "5.3.2.2",
+      "spec": "WoT 2.0",
+      "text": "ArraySchema",
+      "url": "https://w3c.github.io/wot-thing-description/#arrayschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.2",
+      "spec": "WoT 2.0",
+      "text": "ArraySchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#arrayschema"
+    }
+  },
+  "#x5-3-2-3-booleanschema": {
+    "current": {
+      "number": "5.3.2.3",
+      "spec": "WoT 2.0",
+      "text": "BooleanSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#booleanschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.3",
+      "spec": "WoT 2.0",
+      "text": "BooleanSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#booleanschema"
+    }
+  },
+  "#x5-3-2-4-numberschema": {
+    "current": {
+      "number": "5.3.2.4",
+      "spec": "WoT 2.0",
+      "text": "NumberSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#numberschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.4",
+      "spec": "WoT 2.0",
+      "text": "NumberSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#numberschema"
+    }
+  },
+  "#x5-3-2-5-integerschema": {
+    "current": {
+      "number": "5.3.2.5",
+      "spec": "WoT 2.0",
+      "text": "IntegerSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#integerschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.5",
+      "spec": "WoT 2.0",
+      "text": "IntegerSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#integerschema"
+    }
+  },
+  "#x5-3-2-6-objectschema": {
+    "current": {
+      "number": "5.3.2.6",
+      "spec": "WoT 2.0",
+      "text": "ObjectSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#objectschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.6",
+      "spec": "WoT 2.0",
+      "text": "ObjectSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#objectschema"
+    }
+  },
+  "#x5-3-2-7-stringschema": {
+    "current": {
+      "number": "5.3.2.7",
+      "spec": "WoT 2.0",
+      "text": "StringSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#stringschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.7",
+      "spec": "WoT 2.0",
+      "text": "StringSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#stringschema"
+    }
+  },
+  "#x5-3-2-8-nullschema": {
+    "current": {
+      "number": "5.3.2.8",
+      "spec": "WoT 2.0",
+      "text": "NullSchema",
+      "url": "https://w3c.github.io/wot-thing-description/#nullschema"
+    },
+    "snapshot": {
+      "number": "5.3.2.8",
+      "spec": "WoT 2.0",
+      "text": "NullSchema",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#nullschema"
+    }
+  },
+  "#x5-3-2-data-schema-vocabulary-definitions": {
+    "current": {
+      "number": "5.3.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schema Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-data-schema-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schema Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-data-schema-vocabulary-definition"
+    }
+  },
+  "#x5-3-3-1-securityscheme": {
+    "current": {
+      "number": "5.3.3.1",
+      "spec": "WoT 2.0",
+      "text": "SecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#securityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.1",
+      "spec": "WoT 2.0",
+      "text": "SecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#securityscheme"
+    }
+  },
+  "#x5-3-3-10-oauth2securityscheme": {
+    "current": {
+      "number": "5.3.3.10",
+      "spec": "WoT 2.0",
+      "text": "OAuth2SecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#oauth2securityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.10",
+      "spec": "WoT 2.0",
+      "text": "OAuth2SecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#oauth2securityscheme"
+    }
+  },
+  "#x5-3-3-2-nosecurityscheme": {
+    "current": {
+      "number": "5.3.3.2",
+      "spec": "WoT 2.0",
+      "text": "NoSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#nosecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.2",
+      "spec": "WoT 2.0",
+      "text": "NoSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#nosecurityscheme"
+    }
+  },
+  "#x5-3-3-3-autosecurityscheme": {
+    "current": {
+      "number": "5.3.3.3",
+      "spec": "WoT 2.0",
+      "text": "AutoSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#autosecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.3",
+      "spec": "WoT 2.0",
+      "text": "AutoSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#autosecurityscheme"
+    }
+  },
+  "#x5-3-3-4-combosecurityscheme": {
+    "current": {
+      "number": "5.3.3.4",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#combosecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.4",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#combosecurityscheme"
+    }
+  },
+  "#x5-3-3-5-basicsecurityscheme": {
+    "current": {
+      "number": "5.3.3.5",
+      "spec": "WoT 2.0",
+      "text": "BasicSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#basicsecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.5",
+      "spec": "WoT 2.0",
+      "text": "BasicSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#basicsecurityscheme"
+    }
+  },
+  "#x5-3-3-6-digestsecurityscheme": {
+    "current": {
+      "number": "5.3.3.6",
+      "spec": "WoT 2.0",
+      "text": "DigestSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#digestsecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.6",
+      "spec": "WoT 2.0",
+      "text": "DigestSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#digestsecurityscheme"
+    }
+  },
+  "#x5-3-3-7-apikeysecurityscheme": {
+    "current": {
+      "number": "5.3.3.7",
+      "spec": "WoT 2.0",
+      "text": "APIKeySecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#apikeysecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.7",
+      "spec": "WoT 2.0",
+      "text": "APIKeySecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#apikeysecurityscheme"
+    }
+  },
+  "#x5-3-3-8-bearersecurityscheme": {
+    "current": {
+      "number": "5.3.3.8",
+      "spec": "WoT 2.0",
+      "text": "BearerSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#bearersecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.8",
+      "spec": "WoT 2.0",
+      "text": "BearerSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#bearersecurityscheme"
+    }
+  },
+  "#x5-3-3-9-psksecurityscheme": {
+    "current": {
+      "number": "5.3.3.9",
+      "spec": "WoT 2.0",
+      "text": "PSKSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#psksecurityscheme"
+    },
+    "snapshot": {
+      "number": "5.3.3.9",
+      "spec": "WoT 2.0",
+      "text": "PSKSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#psksecurityscheme"
+    }
+  },
+  "#x5-3-3-security-vocabulary-definitions": {
+    "current": {
+      "number": "5.3.3",
+      "spec": "WoT 2.0",
+      "text": "Security Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-security-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.3",
+      "spec": "WoT 2.0",
+      "text": "Security Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-security-vocabulary-definition"
+    }
+  },
+  "#x5-3-4-1-link": {
+    "current": {
+      "number": "5.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Link",
+      "url": "https://w3c.github.io/wot-thing-description/#link"
+    },
+    "snapshot": {
+      "number": "5.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Link",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#link"
+    }
+  },
+  "#x5-3-4-2-1-mapping-op-values-to-data-schemas": {
+    "current": {
+      "number": "5.3.4.2.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping op Values to Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-op-data-schema-mapping"
+    },
+    "snapshot": {
+      "number": "5.3.4.2.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping op Values to Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-op-data-schema-mapping"
+    }
+  },
+  "#x5-3-4-2-2-response-related-terms-usage": {
+    "current": {
+      "number": "5.3.4.2.2",
+      "spec": "WoT 2.0",
+      "text": "Response-related Terms Usage",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-response-usage"
+    },
+    "snapshot": {
+      "number": "5.3.4.2.2",
+      "spec": "WoT 2.0",
+      "text": "Response-related Terms Usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-response-usage"
+    }
+  },
+  "#x5-3-4-2-form": {
+    "current": {
+      "number": "5.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "Form",
+      "url": "https://w3c.github.io/wot-thing-description/#form"
+    },
+    "snapshot": {
+      "number": "5.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "Form",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form"
+    }
+  },
+  "#x5-3-4-3-expectedresponse": {
+    "current": {
+      "number": "5.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ExpectedResponse",
+      "url": "https://w3c.github.io/wot-thing-description/#expectedresponse"
+    },
+    "snapshot": {
+      "number": "5.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ExpectedResponse",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#expectedresponse"
+    }
+  },
+  "#x5-3-4-4-additionalexpectedresponse": {
+    "current": {
+      "number": "5.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "AdditionalExpectedResponse",
+      "url": "https://w3c.github.io/wot-thing-description/#additionalexpectedresponse"
+    },
+    "snapshot": {
+      "number": "5.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "AdditionalExpectedResponse",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#additionalexpectedresponse"
+    }
+  },
+  "#x5-3-4-hypermedia-controls-vocabulary-definitions": {
+    "current": {
+      "number": "5.3.4",
+      "spec": "WoT 2.0",
+      "text": "Hypermedia Controls Vocabulary Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-hypermedia-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5.3.4",
+      "spec": "WoT 2.0",
+      "text": "Hypermedia Controls Vocabulary Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-hypermedia-vocabulary-definition"
+    }
+  },
+  "#x5-3-class-definitions": {
+    "current": {
+      "number": "5.3",
+      "spec": "WoT 2.0",
+      "text": "Class Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#class-definitions"
+    },
+    "snapshot": {
+      "number": "5.3",
+      "spec": "WoT 2.0",
+      "text": "Class Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#class-definitions"
+    }
+  },
+  "#x5-4-default-value-definitions": {
+    "current": {
+      "number": "5.4",
+      "spec": "WoT 2.0",
+      "text": "Default Value Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-default-values"
+    },
+    "snapshot": {
+      "number": "5.4",
+      "spec": "WoT 2.0",
+      "text": "Default Value Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-default-values"
+    }
+  },
+  "#x5-td-information-model": {
+    "current": {
+      "number": "5",
+      "spec": "WoT 2.0",
+      "text": "TD Information Model",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-vocabulary-definition"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "WoT 2.0",
+      "text": "TD Information Model",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-vocabulary-definition"
+    }
+  },
+  "#x6-1-mapping-to-json-types": {
+    "current": {
+      "number": "6.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping to JSON Types",
+      "url": "https://w3c.github.io/wot-thing-description/#td-basic-types-mapping"
+    },
+    "snapshot": {
+      "number": "6.1",
+      "spec": "WoT 2.0",
+      "text": "Mapping to JSON Types",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#td-basic-types-mapping"
+    }
+  },
+  "#x6-2-omitting-default-values": {
+    "current": {
+      "number": "6.2",
+      "spec": "WoT 2.0",
+      "text": "Omitting Default Values",
+      "url": "https://w3c.github.io/wot-thing-description/#omitting-default-values"
+    },
+    "snapshot": {
+      "number": "6.2",
+      "spec": "WoT 2.0",
+      "text": "Omitting Default Values",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#omitting-default-values"
+    }
+  },
+  "#x6-3-1-thing-root-object": {
+    "current": {
+      "number": "6.3.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Root Object",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-thing-as-a-whole-json"
+    },
+    "snapshot": {
+      "number": "6.3.1",
+      "spec": "WoT 2.0",
+      "text": "Thing Root Object",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-thing-as-a-whole-json"
+    }
+  },
+  "#x6-3-10-data-schemas": {
+    "current": {
+      "number": "6.3.10",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#data-schema-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.10",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#data-schema-serialization-json"
+    }
+  },
+  "#x6-3-2-human-readable-metadata": {
+    "current": {
+      "number": "6.3.2",
+      "spec": "WoT 2.0",
+      "text": "Human-Readable Metadata",
+      "url": "https://w3c.github.io/wot-thing-description/#titles-descriptions-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.2",
+      "spec": "WoT 2.0",
+      "text": "Human-Readable Metadata",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#titles-descriptions-serialization-json"
+    }
+  },
+  "#x6-3-3-version": {
+    "current": {
+      "number": "6.3.3",
+      "spec": "WoT 2.0",
+      "text": "version",
+      "url": "https://w3c.github.io/wot-thing-description/#version-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.3",
+      "spec": "WoT 2.0",
+      "text": "version",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#version-serialization-json"
+    }
+  },
+  "#x6-3-4-1-multiple-security-definitions": {
+    "current": {
+      "number": "6.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Multiple Security Definitions",
+      "url": "https://w3c.github.io/wot-thing-description/#security-multiple"
+    },
+    "snapshot": {
+      "number": "6.3.4.1",
+      "spec": "WoT 2.0",
+      "text": "Multiple Security Definitions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-multiple"
+    }
+  },
+  "#x6-3-4-2-security-in-forms": {
+    "current": {
+      "number": "6.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "security in Forms",
+      "url": "https://w3c.github.io/wot-thing-description/#security-security-forms"
+    },
+    "snapshot": {
+      "number": "6.3.4.2",
+      "spec": "WoT 2.0",
+      "text": "security in Forms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-security-forms"
+    }
+  },
+  "#x6-3-4-3-combosecurityscheme": {
+    "current": {
+      "number": "6.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://w3c.github.io/wot-thing-description/#security-comboSecurityScheme"
+    },
+    "snapshot": {
+      "number": "6.3.4.3",
+      "spec": "WoT 2.0",
+      "text": "ComboSecurityScheme",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-comboSecurityScheme"
+    }
+  },
+  "#x6-3-4-4-oauth-2-0-usage": {
+    "current": {
+      "number": "6.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "OAuth 2.0 usage",
+      "url": "https://w3c.github.io/wot-thing-description/#security-oauth2"
+    },
+    "snapshot": {
+      "number": "6.3.4.4",
+      "spec": "WoT 2.0",
+      "text": "OAuth 2.0 usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-oauth2"
+    }
+  },
+  "#x6-3-4-5-api-key-usage": {
+    "current": {
+      "number": "6.3.4.5",
+      "spec": "WoT 2.0",
+      "text": "API key usage",
+      "url": "https://w3c.github.io/wot-thing-description/#security-apikey"
+    },
+    "snapshot": {
+      "number": "6.3.4.5",
+      "spec": "WoT 2.0",
+      "text": "API key usage",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-apikey"
+    }
+  },
+  "#x6-3-4-securitydefinitions-and-security": {
+    "current": {
+      "number": "6.3.4",
+      "spec": "WoT 2.0",
+      "text": "securityDefinitions and security",
+      "url": "https://w3c.github.io/wot-thing-description/#security-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.4",
+      "spec": "WoT 2.0",
+      "text": "securityDefinitions and security",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#security-serialization-json"
+    }
+  },
+  "#x6-3-5-properties": {
+    "current": {
+      "number": "6.3.5",
+      "spec": "WoT 2.0",
+      "text": "properties",
+      "url": "https://w3c.github.io/wot-thing-description/#property-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.5",
+      "spec": "WoT 2.0",
+      "text": "properties",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#property-serialization-json"
+    }
+  },
+  "#x6-3-6-actions": {
+    "current": {
+      "number": "6.3.6",
+      "spec": "WoT 2.0",
+      "text": "actions",
+      "url": "https://w3c.github.io/wot-thing-description/#action-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.6",
+      "spec": "WoT 2.0",
+      "text": "actions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#action-serialization-json"
+    }
+  },
+  "#x6-3-7-events": {
+    "current": {
+      "number": "6.3.7",
+      "spec": "WoT 2.0",
+      "text": "events",
+      "url": "https://w3c.github.io/wot-thing-description/#event-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.7",
+      "spec": "WoT 2.0",
+      "text": "events",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#event-serialization-json"
+    }
+  },
+  "#x6-3-8-links": {
+    "current": {
+      "number": "6.3.8",
+      "spec": "WoT 2.0",
+      "text": "links",
+      "url": "https://w3c.github.io/wot-thing-description/#link-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.8",
+      "spec": "WoT 2.0",
+      "text": "links",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#link-serialization-json"
+    }
+  },
+  "#x6-3-9-1-urivariables": {
+    "current": {
+      "number": "6.3.9.1",
+      "spec": "WoT 2.0",
+      "text": "uriVariables",
+      "url": "https://w3c.github.io/wot-thing-description/#form-uriVariables"
+    },
+    "snapshot": {
+      "number": "6.3.9.1",
+      "spec": "WoT 2.0",
+      "text": "uriVariables",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-uriVariables"
+    }
+  },
+  "#x6-3-9-2-contenttype": {
+    "current": {
+      "number": "6.3.9.2",
+      "spec": "WoT 2.0",
+      "text": "contentType",
+      "url": "https://w3c.github.io/wot-thing-description/#form-contentType"
+    },
+    "snapshot": {
+      "number": "6.3.9.2",
+      "spec": "WoT 2.0",
+      "text": "contentType",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-contentType"
+    }
+  },
+  "#x6-3-9-3-response": {
+    "current": {
+      "number": "6.3.9.3",
+      "spec": "WoT 2.0",
+      "text": "response",
+      "url": "https://w3c.github.io/wot-thing-description/#form-response"
+    },
+    "snapshot": {
+      "number": "6.3.9.3",
+      "spec": "WoT 2.0",
+      "text": "response",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-response"
+    }
+  },
+  "#x6-3-9-4-additionalresponses": {
+    "current": {
+      "number": "6.3.9.4",
+      "spec": "WoT 2.0",
+      "text": "additionalResponses",
+      "url": "https://w3c.github.io/wot-thing-description/#form-additionalResponses"
+    },
+    "snapshot": {
+      "number": "6.3.9.4",
+      "spec": "WoT 2.0",
+      "text": "additionalResponses",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-additionalResponses"
+    }
+  },
+  "#x6-3-9-5-contentmediatype-and-contentencoding": {
+    "current": {
+      "number": "6.3.9.5",
+      "spec": "WoT 2.0",
+      "text": "contentMediaType and contentEncoding",
+      "url": "https://w3c.github.io/wot-thing-description/#form-contentMediaType-contentEncoding"
+    },
+    "snapshot": {
+      "number": "6.3.9.5",
+      "spec": "WoT 2.0",
+      "text": "contentMediaType and contentEncoding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-contentMediaType-contentEncoding"
+    }
+  },
+  "#x6-3-9-6-top-level-forms": {
+    "current": {
+      "number": "6.3.9.6",
+      "spec": "WoT 2.0",
+      "text": "Top level forms",
+      "url": "https://w3c.github.io/wot-thing-description/#form-top-level"
+    },
+    "snapshot": {
+      "number": "6.3.9.6",
+      "spec": "WoT 2.0",
+      "text": "Top level forms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-top-level"
+    }
+  },
+  "#x6-3-9-forms": {
+    "current": {
+      "number": "6.3.9",
+      "spec": "WoT 2.0",
+      "text": "forms",
+      "url": "https://w3c.github.io/wot-thing-description/#form-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.3.9",
+      "spec": "WoT 2.0",
+      "text": "forms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#form-serialization-json"
+    }
+  },
+  "#x6-3-information-model-serialization": {
+    "current": {
+      "number": "6.3",
+      "spec": "WoT 2.0",
+      "text": "Information Model Serialization",
+      "url": "https://w3c.github.io/wot-thing-description/#td-class-serialization"
+    },
+    "snapshot": {
+      "number": "6.3",
+      "spec": "WoT 2.0",
+      "text": "Information Model Serialization",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#td-class-serialization"
+    }
+  },
+  "#x6-4-identification": {
+    "current": {
+      "number": "6.4",
+      "spec": "WoT 2.0",
+      "text": "Identification",
+      "url": "https://w3c.github.io/wot-thing-description/#identification-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.4",
+      "spec": "WoT 2.0",
+      "text": "Identification",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#identification-serialization-json"
+    }
+  },
+  "#x6-5-1-minimal-validation": {
+    "current": {
+      "number": "6.5.1",
+      "spec": "WoT 2.0",
+      "text": "Minimal Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#minimal-validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5.1",
+      "spec": "WoT 2.0",
+      "text": "Minimal Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#minimal-validation-serialization-json"
+    }
+  },
+  "#x6-5-2-basic-validation": {
+    "current": {
+      "number": "6.5.2",
+      "spec": "WoT 2.0",
+      "text": "Basic Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#basic-validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5.2",
+      "spec": "WoT 2.0",
+      "text": "Basic Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#basic-validation-serialization-json"
+    }
+  },
+  "#x6-5-3-full-validation": {
+    "current": {
+      "number": "6.5.3",
+      "spec": "WoT 2.0",
+      "text": "Full Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#full-validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5.3",
+      "spec": "WoT 2.0",
+      "text": "Full Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#full-validation-serialization-json"
+    }
+  },
+  "#x6-5-validation": {
+    "current": {
+      "number": "6.5",
+      "spec": "WoT 2.0",
+      "text": "Validation",
+      "url": "https://w3c.github.io/wot-thing-description/#validation-serialization-json"
+    },
+    "snapshot": {
+      "number": "6.5",
+      "spec": "WoT 2.0",
+      "text": "Validation",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#validation-serialization-json"
+    }
+  },
+  "#x6-td-representation-format": {
+    "current": {
+      "number": "6",
+      "spec": "WoT 2.0",
+      "text": "TD Representation Format",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-td-serialization"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "WoT 2.0",
+      "text": "TD Representation Format",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-td-serialization"
+    }
+  },
+  "#x7-1-1-example-i-additional-basic-metadata": {
+    "current": {
+      "number": "7.1.1",
+      "spec": "WoT 2.0",
+      "text": "Example I: Additional Basic Metadata",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations-example-version-units"
+    },
+    "snapshot": {
+      "number": "7.1.1",
+      "spec": "WoT 2.0",
+      "text": "Example I: Additional Basic Metadata",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations-example-version-units"
+    }
+  },
+  "#x7-1-2-example-ii-state-annotations": {
+    "current": {
+      "number": "7.1.2",
+      "spec": "WoT 2.0",
+      "text": "Example II: State Annotations",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations-example-state"
+    },
+    "snapshot": {
+      "number": "7.1.2",
+      "spec": "WoT 2.0",
+      "text": "Example II: State Annotations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations-example-state"
+    }
+  },
+  "#x7-1-3-example-iii-geolocation-annotations": {
+    "current": {
+      "number": "7.1.3",
+      "spec": "WoT 2.0",
+      "text": "Example III: Geolocation Annotations",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations-example-geoloc"
+    },
+    "snapshot": {
+      "number": "7.1.3",
+      "spec": "WoT 2.0",
+      "text": "Example III: Geolocation Annotations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations-example-geoloc"
+    }
+  },
+  "#x7-1-semantic-annotations": {
+    "current": {
+      "number": "7.1",
+      "spec": "WoT 2.0",
+      "text": "Semantic Annotations",
+      "url": "https://w3c.github.io/wot-thing-description/#semantic-annotations"
+    },
+    "snapshot": {
+      "number": "7.1",
+      "spec": "WoT 2.0",
+      "text": "Semantic Annotations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#semantic-annotations"
+    }
+  },
+  "#x7-2-adding-bindings": {
+    "current": {
+      "number": "7.2",
+      "spec": "WoT 2.0",
+      "text": "Adding Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#adding-bindings"
+    },
+    "snapshot": {
+      "number": "7.2",
+      "spec": "WoT 2.0",
+      "text": "Adding Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#adding-bindings"
+    }
+  },
+  "#x7-3-adding-security-schemes": {
+    "current": {
+      "number": "7.3",
+      "spec": "WoT 2.0",
+      "text": "Adding Security Schemes",
+      "url": "https://w3c.github.io/wot-thing-description/#adding-security-schemes"
+    },
+    "snapshot": {
+      "number": "7.3",
+      "spec": "WoT 2.0",
+      "text": "Adding Security Schemes",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#adding-security-schemes"
+    }
+  },
+  "#x7-td-context-extensions": {
+    "current": {
+      "number": "7",
+      "spec": "WoT 2.0",
+      "text": "TD Context Extensions",
+      "url": "https://w3c.github.io/wot-thing-description/#sec-context-extensions"
+    },
+    "snapshot": {
+      "number": "7",
+      "spec": "WoT 2.0",
+      "text": "TD Context Extensions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#sec-context-extensions"
+    }
+  },
+  "#x8-1-1-1-subprotocols": {
+    "current": {
+      "number": "8.1.1.1",
+      "spec": "WoT 2.0",
+      "text": "Subprotocols",
+      "url": "https://w3c.github.io/wot-thing-description/#subprotocols"
+    },
+    "snapshot": {
+      "number": "8.1.1.1",
+      "spec": "WoT 2.0",
+      "text": "Subprotocols",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#subprotocols"
+    }
+  },
+  "#x8-1-1-2-using-a-thing-description-with-a-protocol-binding": {
+    "current": {
+      "number": "8.1.1.2",
+      "spec": "WoT 2.0",
+      "text": "Using a Thing Description with a Protocol Binding",
+      "url": "https://w3c.github.io/wot-thing-description/#using-a-thing-description-with-a-protocol-binding"
+    },
+    "snapshot": {
+      "number": "8.1.1.2",
+      "spec": "WoT 2.0",
+      "text": "Using a Thing Description with a Protocol Binding",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#using-a-thing-description-with-a-protocol-binding"
+    }
+  },
+  "#x8-1-1-protocol-bindings": {
+    "current": {
+      "number": "8.1.1",
+      "spec": "WoT 2.0",
+      "text": "Protocol Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#protocol-bindings"
+    },
+    "snapshot": {
+      "number": "8.1.1",
+      "spec": "WoT 2.0",
+      "text": "Protocol Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#protocol-bindings"
+    }
+  },
+  "#x8-1-2-1-content-types": {
+    "current": {
+      "number": "8.1.2.1",
+      "spec": "WoT 2.0",
+      "text": "Content Types",
+      "url": "https://w3c.github.io/wot-thing-description/#payload-bindings-contentType"
+    },
+    "snapshot": {
+      "number": "8.1.2.1",
+      "spec": "WoT 2.0",
+      "text": "Content Types",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#payload-bindings-contentType"
+    }
+  },
+  "#x8-1-2-2-data-schemas": {
+    "current": {
+      "number": "8.1.2.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#payload-bindings-dataschema"
+    },
+    "snapshot": {
+      "number": "8.1.2.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#payload-bindings-dataschema"
+    }
+  },
+  "#x8-1-2-payload-bindings": {
+    "current": {
+      "number": "8.1.2",
+      "spec": "WoT 2.0",
+      "text": "Payload Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#payload-bindings"
+    },
+    "snapshot": {
+      "number": "8.1.2",
+      "spec": "WoT 2.0",
+      "text": "Payload Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#payload-bindings"
+    }
+  },
+  "#x8-1-3-protocol-and-payload-bindings": {
+    "current": {
+      "number": "8.1.3",
+      "spec": "WoT 2.0",
+      "text": "Protocol and Payload Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#bindings-combinations"
+    },
+    "snapshot": {
+      "number": "8.1.3",
+      "spec": "WoT 2.0",
+      "text": "Protocol and Payload Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#bindings-combinations"
+    }
+  },
+  "#x8-1-binding-mechanisms": {
+    "current": {
+      "number": "8.1",
+      "spec": "WoT 2.0",
+      "text": "Binding Mechanisms",
+      "url": "https://w3c.github.io/wot-thing-description/#binding-mechanisms"
+    },
+    "snapshot": {
+      "number": "8.1",
+      "spec": "WoT 2.0",
+      "text": "Binding Mechanisms",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#binding-mechanisms"
+    }
+  },
+  "#x8-2-relationship-to-profiles": {
+    "current": {
+      "number": "8.2",
+      "spec": "WoT 2.0",
+      "text": "Relationship to Profiles",
+      "url": "https://w3c.github.io/wot-thing-description/#profile-relationship"
+    },
+    "snapshot": {
+      "number": "8.2",
+      "spec": "WoT 2.0",
+      "text": "Relationship to Profiles",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#profile-relationship"
+    }
+  },
+  "#x8-bindings": {
+    "current": {
+      "number": "8",
+      "spec": "WoT 2.0",
+      "text": "Bindings",
+      "url": "https://w3c.github.io/wot-thing-description/#bindings"
+    },
+    "snapshot": {
+      "number": "8",
+      "spec": "WoT 2.0",
+      "text": "Bindings",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#bindings"
+    }
+  },
+  "#x9-1-security-configurations": {
+    "current": {
+      "number": "9.1",
+      "spec": "WoT 2.0",
+      "text": "Security Configurations",
+      "url": "https://w3c.github.io/wot-thing-description/#behavior-security"
+    },
+    "snapshot": {
+      "number": "9.1",
+      "spec": "WoT 2.0",
+      "text": "Security Configurations",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#behavior-security"
+    }
+  },
+  "#x9-2-data-schemas": {
+    "current": {
+      "number": "9.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://w3c.github.io/wot-thing-description/#behavior-data"
+    },
+    "snapshot": {
+      "number": "9.2",
+      "spec": "WoT 2.0",
+      "text": "Data Schemas",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#behavior-data"
+    }
+  },
+  "#x9-behavioral-assertions": {
+    "current": {
+      "number": "9",
+      "spec": "WoT 2.0",
+      "text": "Behavioral Assertions",
+      "url": "https://w3c.github.io/wot-thing-description/#behavior"
+    },
+    "snapshot": {
+      "number": "9",
+      "spec": "WoT 2.0",
+      "text": "Behavioral Assertions",
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/#behavior"
+    }
+  }
+}
