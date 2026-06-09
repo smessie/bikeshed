@@ -1,3 +1,39 @@
+"bigint"
+"bigint"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptbigintvalue-type-bigint
+
+1
+script.BigIntValue/type
+-
+"bigint"
+"bigint"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptbigintvalue-type-bigint
+
+1
+script.BigIntValue/type
+-
+"bitness"
+"bitness"
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-bitness
+1
+1
+userAgentClientHints.ClientHintsMetadata
+-
 %BigInt%
 %BigInt%
 interface
@@ -45,9 +81,9 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-object
 'bitmap' media group
 'bitmap' media group
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#bitmap-media-group
 
@@ -58,20 +94,9 @@ https://drafts.csswg.org/css2/#bitmap-media-group
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/media.html#bitmap-media-group
-1
-1
--
-'bitmap' media group
-'bitmap' media group
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/media.html#bitmap-media-group
+https://www.w3.org/TR/CSS2/media.html#bitmap-media-group
 1
 1
 -
@@ -108,6 +133,17 @@ https://w3c.github.io/webdriver-bidi/#bidi-flag
 
 1
 -
+bidi flag
+BiDi flag
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#bidi-flag
+
+1
+-
 bidi session
 BiDi session
 dfn
@@ -116,6 +152,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#bidi-session
+1
+1
+-
+bidi session
+BiDi session
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#bidi-session
 1
 1
 -
@@ -140,17 +187,6 @@ snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-bicameral
 1
 
--
-BiddingBrowserSignals
-BiddingBrowserSignals
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-biddingbrowsersignals
-1
-1
 -
 bidi isolation
 bidi isolation
@@ -251,8 +287,8 @@ https://encoding.spec.whatwg.org/#big5-encoder
 1
 1
 -
-big5 lead
-big5 lead
+big5 leading
+big5 leading
 dfn
 encoding
 encoding
@@ -330,26 +366,37 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-bigi
 1
 1
 -
+bigintliteralsuffix
+BigIntLiteralSuffix
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-BigIntLiteralSuffix
+
+1
+-
 BigInteger
 BigInteger
 typedef
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-BigInteger
 1
 1
 -
-biginteger
 BigInteger
-dfn
-webcryptoapi
-webcryptoapi
-1
+BigInteger
+typedef
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-BigInteger
-
+https://www.w3.org/TR/webcrypto-2/#dfn-BigInteger
+1
 1
 -
 BigUint64Array
@@ -372,6 +419,28 @@ webusb
 current
 https://wicg.github.io/webusb/#binary-object-store
 
+1
+-
+binary search gamut map with local minde
+Binary Search Gamut Map with Local MINDE
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#binary-search-gamut-map-with-local-minde
+1
+1
+-
+binary search gamut map with local minde
+Binary Search Gamut Map with Local MINDE
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#binary-search-gamut-map-with-local-minde
+1
 1
 -
 BinaryAnd
@@ -405,6 +474,39 @@ css-font-loading
 snapshot
 https://www.w3.org/TR/css-font-loading-3/#typedefdef-binarydata
 1
+1
+-
+binarydigit
+BinaryDigit
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-BinaryDigit
+
+1
+-
+binarydigits
+BinaryDigits
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-BinaryDigits
+
+1
+-
+binaryintegerliteral
+BinaryIntegerLiteral
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-BinaryIntegerLiteral
+
 1
 -
 BinaryOr
@@ -462,8 +564,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-bina
 1
 1
 -
-BindThisValue(V)
-BindThisValue(V)
+BindThisValue
+BindThisValue
 abstract-op
 ecmascript
 ecmascript
@@ -472,7 +574,39 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-bindthisvalue
 1
 1
-Function Environment Records
+-
+BindThisValue(envRecord, value)
+BindThisValue(envRecord, value)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-bindthisvalue
+1
+1
+-
+binding
+binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-binding
+
+1
+-
+binding
+binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-binding
+
+1
 -
 binding edge
 Binding Edge
@@ -496,6 +630,83 @@ https://www.w3.org/TR/css-page-3/#binding-edge
 1
 1
 -
+binding implementation
+Binding Implementation
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-binding-implementation
+
+1
+-
+binding implementation
+Binding Implementation
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-binding-implementation
+
+1
+-
+binding instance
+Binding Instance
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-binding-instance
+
+1
+-
+binding instance
+Binding Instance
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-binding-instance
+
+
+-
+binding instance
+Binding Instance
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-binding-instance
+
+
+-
+binding instance
+Binding Instance
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-binding-instance
+
+1
+-
+binding instance
+Binding Instance
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-binding-instance
+
+
+-
 binding resource type
 Binding Resource Type
 dfn
@@ -517,6 +728,105 @@ snapshot
 https://www.w3.org/TR/webgpu/#binding-resource-type
 
 1
+-
+binding specification
+Binding Specification
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-binding-specification
+
+
+-
+binding specification
+Binding Specification
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-binding-specification
+
+
+-
+binding specification
+Binding Specification
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-binding-specification
+
+
+-
+binding summary
+Binding Summary
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-binding-summary
+
+1
+-
+binding summary
+Binding Summary
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-binding-summary
+
+1
+-
+binding template
+Binding Template
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-binding-template
+
+1
+-
+binding template
+Binding Template
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-binding-template
+
+1
+-
+binding templates
+Binding Templates
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-wot-binding-templates
+
+
+-
+binding templates
+Binding Templates
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-binding-templates
+
+
 -
 binding member
 binding member
@@ -584,6 +894,116 @@ https://www.w3.org/TR/webgpu/#binding-usage
 
 1
 -
+bindingelement
+BindingElement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingElement
+
+1
+-
+bindingelementlist
+BindingElementList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingElementList
+
+1
+-
+bindingelisionelement
+BindingElisionElement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingElisionElement
+
+1
+-
+bindingidentifier
+BindingIdentifier
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BindingIdentifier
+
+1
+-
+bindinglist
+BindingList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingList
+
+1
+-
+bindingpattern
+BindingPattern
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingPattern
+
+1
+-
+bindingproperty
+BindingProperty
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingProperty
+
+1
+-
+bindingpropertylist
+BindingPropertyList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingPropertyList
+
+1
+-
+bindingrestelement
+BindingRestElement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingRestElement
+
+1
+-
+bindingrestproperty
+BindingRestProperty
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-BindingRestProperty
+
+1
+-
 biometric authenticator
 Biometric Authenticator
 dfn
@@ -628,10 +1048,32 @@ https://www.w3.org/TR/webauthn-3/#biometric-recognition
 
 1
 -
+biometricimageconfidence
+BiometricImageConfidence
+dfn
+vc-confidence-method
+vc-confidence-method
+1
+current
+https://w3c.github.io/vc-confidence-method/#dfn-biometricimageconfidence
+
+1
+-
+biometricimageconfidence
+BiometricImageConfidence
+dfn
+vc-confidence-method
+vc-confidence-method
+1
+snapshot
+https://www.w3.org/TR/vc-confidence-method/#dfn-biometricimageconfidence
+
+1
+-
 BiquadFilterNode
 BiquadFilterNode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -642,18 +1084,40 @@ https://webaudio.github.io/web-audio-api/#BiquadFilterNode
 BiquadFilterNode
 BiquadFilterNode
 interface
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#BiquadFilterNode
+1
+1
+-
+BiquadFilterNode
+BiquadFilterNode
+interface
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#biquadfilternode
+https://www.w3.org/TR/webaudio-1.0/#biquadfilternode
+1
+1
+-
+BiquadFilterNode
+BiquadFilterNode
+interface
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#BiquadFilterNode
 1
 1
 -
 BiquadFilterNode(context)
 BiquadFilterNode(context)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -665,11 +1129,35 @@ BiquadFilterNode
 BiquadFilterNode(context)
 BiquadFilterNode(context)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-biquadfilternode
+1
+1
+BiquadFilterNode
+-
+BiquadFilterNode(context)
+BiquadFilterNode(context)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-biquadfilternode
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-biquadfilternode
+1
+1
+BiquadFilterNode
+-
+BiquadFilterNode(context)
+BiquadFilterNode(context)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-biquadfilternode
 1
 1
 BiquadFilterNode
@@ -677,7 +1165,19 @@ BiquadFilterNode
 BiquadFilterNode(context, options)
 BiquadFilterNode(context, options)
 constructor
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-biquadfilternode
+1
+1
+BiquadFilterNode
+-
+BiquadFilterNode(context, options)
+BiquadFilterNode(context, options)
+constructor
+webaudio-1.1
 webaudio
 1
 current
@@ -689,7 +1189,19 @@ BiquadFilterNode
 BiquadFilterNode(context, options)
 BiquadFilterNode(context, options)
 method
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-biquadfilternode-context-options
+1
+1
+BiquadFilterNode
+-
+BiquadFilterNode(context, options)
+BiquadFilterNode(context, options)
+method
+webaudio-1.1
 webaudio
 1
 current
@@ -701,11 +1213,11 @@ BiquadFilterNode
 BiquadFilterNode(context, options)
 BiquadFilterNode(context, options)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-biquadfilternode
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-biquadfilternode
 1
 1
 BiquadFilterNode
@@ -713,11 +1225,35 @@ BiquadFilterNode
 BiquadFilterNode(context, options)
 BiquadFilterNode(context, options)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-biquadfilternode-context-options
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-biquadfilternode-context-options
+1
+1
+BiquadFilterNode
+-
+BiquadFilterNode(context, options)
+BiquadFilterNode(context, options)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-biquadfilternode
+1
+1
+BiquadFilterNode
+-
+BiquadFilterNode(context, options)
+BiquadFilterNode(context, options)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-biquadfilternode-context-options
 1
 1
 BiquadFilterNode
@@ -725,7 +1261,7 @@ BiquadFilterNode
 BiquadFilterOptions
 BiquadFilterOptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -736,18 +1272,40 @@ https://webaudio.github.io/web-audio-api/#BiquadFilterOptions
 BiquadFilterOptions
 BiquadFilterOptions
 dictionary
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#BiquadFilterOptions
+1
+1
+-
+BiquadFilterOptions
+BiquadFilterOptions
+dictionary
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dictdef-biquadfilteroptions
+https://www.w3.org/TR/webaudio-1.0/#dictdef-biquadfilteroptions
+1
+1
+-
+BiquadFilterOptions
+BiquadFilterOptions
+dictionary
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#BiquadFilterOptions
 1
 1
 -
 BiquadFilterType
 BiquadFilterType
 enum
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -758,11 +1316,33 @@ https://webaudio.github.io/web-audio-api/#enumdef-biquadfiltertype
 BiquadFilterType
 BiquadFilterType
 enum
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#enumdef-biquadfiltertype
+1
+1
+-
+BiquadFilterType
+BiquadFilterType
+enum
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#enumdef-biquadfiltertype
+https://www.w3.org/TR/webaudio-1.0/#enumdef-biquadfiltertype
+1
+1
+-
+BiquadFilterType
+BiquadFilterType
+enum
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#enumdef-biquadfiltertype
 1
 1
 -
@@ -786,6 +1366,39 @@ mediastream-recording
 snapshot
 https://www.w3.org/TR/mediastream-recording/#enumdef-bitratemode
 1
+1
+-
+bitwiseandexpression
+BitwiseANDExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseANDExpression
+
+1
+-
+bitwiseorexpression
+BitwiseORExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseORExpression
+
+1
+-
+bitwisexorexpression
+BitwiseXORExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-BitwiseXORExpression
+
 1
 -
 [[bindGroupLayouts]]
@@ -931,7 +1544,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-bias
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-bias
 1
 1
 SVGFEConvolveMatrixElement
@@ -943,7 +1556,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-bias
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-bias
 1
 1
 feConvolveMatrix
@@ -1424,422 +2037,6 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-biased-fragment-depth
 1
 1
 -
-bid
-bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#decoded-additional-bid-bid
-
-1
-decoded additional bid
--
-bid
-bid
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-bid
-1
-1
-GenerateBidOutput
--
-bid
-bid
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-bid
-1
-1
-ReportingBrowserSignals
--
-bid
-bid
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoreadoutput-bid
-1
-1
-ScoreAdOutput
--
-bid
-bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-bid
-
-1
-generated bid
--
-bid
-bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-bid
-
-1
-server auction response
--
-bid ad
-bid ad
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-bid-ad
-
-1
-generated bid
--
-bid count
-bid count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-browser-signals-bid-count
-
-1
-server auction browser signals
--
-bid counts
-bid counts
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-bid-counts
-
-1
-interest group
--
-bid debug reporting info
-bid debug reporting info
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-debug-reporting-info
-
-1
--
-bid duration
-bid duration
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-bid-duration
-
-1
-generated bid
--
-bid identifier
-bid identifier
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#reporting-bid-key-bid-identifier
-
-1
-reporting bid key
--
-bid in seller currency
-bid in seller currency
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-bid-in-seller-currency
-
-1
-generated bid
--
-bid with currency
-bid with currency
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-with-currency
-
-1
--
-bid-reject-reason
-bid-reject-reason
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#signal-base-value-bid-reject-reason
-
-1
-signal base value
--
-bidCount
-bidCount
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-bidcount
-1
-1
-BiddingBrowserSignals
--
-bidCount
-bidCount
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-storageinterestgroup-bidcount
-1
-1
-StorageInterestGroup
--
-bidCurrency
-bidCurrency
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-bidcurrency
-1
-1
-GenerateBidOutput
--
-bidCurrency
-bidCurrency
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-bidcurrency
-1
-1
-ReportingBrowserSignals
--
-bidCurrency
-bidCurrency
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoreadoutput-bidcurrency
-1
-1
-ScoreAdOutput
--
-bidCurrency
-bidCurrency
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoringbrowsersignals-bidcurrency
-1
-1
-ScoringBrowserSignals
--
-bidder debug loss report url
-bidder debug loss report url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-debug-reporting-info-bidder-debug-loss-report-url
-
-1
-bid debug reporting info
--
-bidder debug win report url
-bidder debug win report url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-debug-reporting-info-bidder-debug-win-report-url
-
-1
-bid debug reporting info
--
-bidder origin
-bidder origin
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#reporting-bid-key-bidder-origin
-
-1
-reporting bid key
--
-bidding data version
-bidding data version
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-bidding-data-version
-
-1
-leading bid info
--
-bidding groups
-bidding groups
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-bidding-groups
-
-1
-server auction response
--
-bidding script failure bucket
-bidding script failure bucket
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bidding-script-failure-bucket
-
-1
--
-bidding signals keys
-bidding signals keys
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-interest-group-bidding-signals-keys
-
-1
-server auction interest group
--
-bidding signals per interest group data
-bidding signals per interest group data
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bidding-signals-per-interest-group-data
-
-1
--
-bidding url
-bidding url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-bidding-url
-
-1
-interest group
--
-bidding wasm helper url
-bidding wasm helper url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-bidding-wasm-helper-url
-
-1
-interest group
--
-bidding-and-auction-services
-bidding-and-auction-services
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#reporting-bid-source-bidding-and-auction-services
-
-1
-reporting bid source
--
-biddingDurationMsec
-biddingDurationMsec
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoringbrowsersignals-biddingdurationmsec
-1
-1
-ScoringBrowserSignals
--
-biddingLogicURL
-biddingLogicURL
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-biddinglogicurl
-1
-1
-GenerateBidInterestGroup
--
-biddingWasmHelperURL
-biddingWasmHelperURL
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-biddingwasmhelperurl
-1
-1
-GenerateBidInterestGroup
--
 bidi
 bidi
 dfn
@@ -2175,9 +2372,9 @@ unicode-bidi
 bidi-override
 bidi-override
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-unicode-bidi-bidi-override
 1
@@ -2279,9 +2476,9 @@ https://drafts.csswg.org/css-writing-modes-4/#bidirectionality
 bidirectionality
 bidirectionality
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#bidirectionality-bidi
 
@@ -2312,9 +2509,9 @@ https://www.w3.org/TR/css-writing-modes-4/#bidirectionality
 bidirectionality (bidi)
 bidirectionality (bidi)
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#bidirectionality-bidi
 
@@ -2325,20 +2522,9 @@ bidirectionality (bidi)
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#x45
-1
-1
--
-bidirectionality (bidi)
-bidirectionality (bidi)
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#x45
+https://www.w3.org/TR/CSS2/visuren.html#x45
 1
 1
 -
@@ -2386,18 +2572,6 @@ https://www.w3.org/TR/webnn/#bidirectionally-broadcasting
 
 1
 -
-bids
-bids
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interestgroupbiddingscriptrunnerglobalscope-bids
-
-1
-InterestGroupBiddingScriptRunnerGlobalScope
--
 big
 big
 element
@@ -2421,6 +2595,29 @@ https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browser
 1
 String
 -
+bigfloat
+bigfloat
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+bigint
+bigint
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptbigintvalue-type-bigint
+
+1
+script.BigIntValue/type
+-
 bigint
 bigint
 interface
@@ -2429,6 +2626,51 @@ webidl
 1
 current
 https://webidl.spec.whatwg.org/#idl-bigint
+1
+1
+-
+bigint
+bigint
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+bigint
+bigint
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptbigintvalue-type-bigint
+
+1
+script.BigIntValue/type
+-
+bignint
+bignint
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+biguint
+biguint
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
 1
 1
 -
@@ -2711,6 +2953,28 @@ https://www.w3.org/TR/WGSL/#syntax-binary_xor_expression
 1
 syntax
 -
+bind a key pair
+bind a key pair
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#bind-a-key-pair
+
+1
+-
+bind a key pair
+bind a key pair
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#bind-a-key-pair
+
+1
+-
 bind(thisArg, ...args)
 bind(thisArg, ...args)
 method
@@ -2834,6 +3098,28 @@ attribute
 binding
 binding
 dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-binding
+
+1
+-
+binding
+binding
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-binding
+
+1
+-
+binding
+binding
+dfn
 wgsl
 wgsl
 1
@@ -2842,6 +3128,28 @@ https://www.w3.org/TR/WGSL/#attribute-binding
 
 1
 attribute
+-
+binding
+binding
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-binding
+
+1
+-
+binding
+binding
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-binding
+
+1
 -
 binding
 binding
@@ -2891,11 +3199,35 @@ https://www.w3.org/TR/WGSL/#syntax-binding_attr
 1
 syntax
 -
+bindings
+bindings
+dfn
+webxrlayers-1
+webxrlayers
+1
+current
+https://immersive-web.github.io/layers/#xrsession-bindings
+
+1
+XRSession
+-
+bindings
+bindings
+dfn
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#xrsession-bindings
+
+1
+XRSession
+-
 bioenroll
 bioEnroll
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-bioenroll
@@ -2903,25 +3235,59 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 getInfo
 -
+bioenroll
+bioEnroll
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-bioenroll
+
+1
+getInfo
+-
+biometric
+biometric
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-biometric
+
+1
+-
+biometric
+biometric
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-biometric
+
+1
+-
 biquadfilternode
 biquadfilternode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#BiquadFilterNode
+https://www.w3.org/TR/webaudio-1.0/#BiquadFilterNode
 1
 1
 -
 biquadfilteroptions
 biquadfilteroptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#BiquadFilterOptions
+https://www.w3.org/TR/webaudio-1.0/#BiquadFilterOptions
 1
 1
 -
@@ -2973,28 +3339,6 @@ https://www.w3.org/TR/css-color-4/#valdef-color-bisque
 <color>
 <named-color>
 -
-bit debit
-bit debit
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#bit-debit
-
-1
--
-bit pack
-bit pack
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bit-pack
-
-1
--
 bit_depth
 bit_depth
 dfn
@@ -3018,17 +3362,6 @@ https://html.spec.whatwg.org/multipage/canvas.html#offscreencanvas-bitmap
 
 1
 -
-bitmap
-bitmap
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/canvas.html#offscreencontext2d-bitmap
-
-1
--
 bitmap data
 bitmap data
 dfn
@@ -3048,6 +3381,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/canvas.html#concept-imagebitmaprenderingcontext-bitmap-mode
+
+1
+-
+bitmap task source
+bitmap task source
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#bitmap-task-source
 
 1
 -
@@ -3097,6 +3441,18 @@ https://html.spec.whatwg.org/multipage/canvas.html#offscreencanvas-context-bitma
 -
 bitness
 bitness
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-bitness
+1
+1
+userAgentClientHints.ClientHintsMetadata
+-
+bitness
+bitness
 dict-member
 ua-client-hints
 ua-client-hints
@@ -3106,6 +3462,18 @@ https://wicg.github.io/ua-client-hints/#dom-uadatavalues-bitness
 1
 1
 UADataValues
+-
+bitness
+bitness
+dfn
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#user-agent-client-hints-bitness
+1
+1
+user agent client hints
 -
 bitrate
 bitrate
@@ -3250,18 +3618,6 @@ https://www.w3.org/TR/webcodecs/#dom-videoencoderconfig-bitratemode
 1
 1
 VideoEncoderConfig
--
-bits
-bits
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#bit-debit-bits
-
-1
-bit debit
 -
 bitsPerSecond
 bitsPerSecond

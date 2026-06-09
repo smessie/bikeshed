@@ -133,11 +133,11 @@ XRReferenceSpaceType
 "local"
 "local"
 enum-value
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#dom-ipaddressspace-local
+https://wicg.github.io/local-network-access/#dom-ipaddressspace-local
 1
 1
 IPAddressSpace
@@ -190,6 +190,100 @@ https://wicg.github.io/local-font-access/#dom-permissionpolicy-local-fonts
 1
 PermissionPolicy
 -
+"local-network"
+"local-network"
+permission
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#permissiondef-local-network
+1
+1
+-
+"local-network-access"
+"local-network-access"
+permission
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#permissiondef-local-network-access
+1
+
+-
+"localName"
+"localName"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptnodeproperties-localname
+
+1
+script.NodeProperties
+-
+"localName"
+"localName"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptnodeproperties-localname
+
+1
+script.NodeProperties
+-
+"locale"
+"locale"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetlocaleoverrideparameters-locale
+
+1
+emulation.SetLocaleOverrideParameters
+-
+"locale"
+"locale"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationsetlocaleoverrideparameters-locale
+
+1
+emulation.SetLocaleOverrideParameters
+-
+"locator"
+"locator"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-locator
+
+1
+browsingContext.LocateNodesParameters
+-
+"locator"
+"locator"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-locator
+
+1
+browsingContext.LocateNodesParameters
+-
 "locked"
 "locked"
 enum-value
@@ -201,6 +295,42 @@ https://wicg.github.io/idle-detection/#dom-screenidlestate-locked
 1
 1
 ScreenIdleState
+-
+"log.entryAdded"
+"log.entryAdded"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-logentryadded-method-logentryadded
+
+1
+log.EntryAdded/method
+-
+"log.entryAdded"
+"log.entryAdded"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-logentryadded-method-logentryadded
+
+1
+log.EntryAdded/method
+-
+"logged-in"
+"logged-in"
+enum-value
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#dom-loginstatus-logged-in
+1
+1
+LoginStatus
 -
 "logged-in"
 "logged-in"
@@ -217,6 +347,18 @@ LoginStatus
 "logged-out"
 "logged-out"
 enum-value
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#dom-loginstatus-logged-out
+1
+1
+LoginStatus
+-
+"logged-out"
+"logged-out"
+enum-value
 fedcm-1
 fedcm
 1
@@ -225,6 +367,89 @@ https://www.w3.org/TR/fedcm-1/#dom-loginstatus-logged-out
 1
 1
 LoginStatus
+-
+"long"
+"long"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizerlength-long
+1
+1
+SummarizerLength
+-
+"long"
+"long"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writerlength-long
+1
+1
+WriterLength
+-
+"longer"
+"longer"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriterlength-longer
+1
+1
+RewriterLength
+-
+"longitude"
+"longitude"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-longitude
+
+1
+emulation.GeolocationCoordinates
+-
+"longitude"
+"longitude"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-longitude
+
+1
+emulation.GeolocationCoordinates
+-
+"loopback"
+"loopback"
+enum-value
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#dom-ipaddressspace-loopback
+1
+1
+IPAddressSpace
+-
+"loopback-network"
+"loopback-network"
+permission
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#permissiondef-loopback-network
+1
+1
 -
 "low"
 "low"
@@ -241,14 +466,14 @@ RequestPriority
 "low"
 "low"
 enum-value
-webxr-meshing
-webxr-meshing
-1
+navigation-timing-2
+navigation-timing
+2
 current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrmeshquality-low
+https://w3c.github.io/navigation-timing/#dom-performancetimingconfidencevalue-low
 1
 1
-XRMeshQuality
+PerformanceTimingConfidenceValue
 -
 "low"
 "low"
@@ -261,6 +486,18 @@ https://w3c.github.io/webrtc-priority/#dom-rtcprioritytype-low
 1
 1
 RTCPriorityType
+-
+"low"
+"low"
+enum-value
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#dom-performancetimingconfidencevalue-low
+1
+1
+PerformanceTimingConfidenceValue
 -
 "low"
 "low"
@@ -373,7 +610,7 @@ OpusApplication
 "lowpass"
 "lowpass"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -385,11 +622,35 @@ BiquadFilterType
 "lowpass"
 "lowpass"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-lowpass
+1
+1
+BiquadFilterType
+-
+"lowpass"
+"lowpass"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-lowpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-lowpass
+1
+1
+BiquadFilterType
+-
+"lowpass"
+"lowpass"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-lowpass
 1
 1
 BiquadFilterType
@@ -397,7 +658,7 @@ BiquadFilterType
 "lowshelf"
 "lowshelf"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -409,11 +670,35 @@ BiquadFilterType
 "lowshelf"
 "lowshelf"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-lowshelf
+1
+1
+BiquadFilterType
+-
+"lowshelf"
+"lowshelf"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-lowshelf
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-lowshelf
+1
+1
+BiquadFilterType
+-
+"lowshelf"
+"lowshelf"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-lowshelf
 1
 1
 BiquadFilterType
@@ -445,17 +730,6 @@ manifest
 :local-link
 :local-link
 selector
-selectors-4
-selectors
-4
-current
-https://drafts.csswg.org/selectors-4/#local-link-pseudo
-1
-1
--
-:local-link
-:local-link
-selector
 selectors-5
 selectors
 5
@@ -467,11 +741,33 @@ https://drafts.csswg.org/selectors-5/#local-link-pseudo
 :local-link
 :local-link
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 snapshot
-https://www.w3.org/TR/selectors-4/#local-link-pseudo
+https://www.w3.org/TR/selectors-5/#local-link-pseudo
+1
+1
+-
+:low-value
+:low-value
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-low-value
+1
+1
+-
+:low-value
+:low-value
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-low-value
 1
 1
 -
@@ -747,6 +1043,18 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 Cyclic Module Records
 -
+LoadRequestedModules(hostDefined)
+LoadRequestedModules(hostDefined)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-smr-LoadRequestedModules
+1
+1
+Synthetic Module Records
+-
 loaded
 loaded
 dfn
@@ -761,13 +1069,26 @@ https://html.spec.whatwg.org/multipage/media.html#text-track-loaded
 loadedmodulerequest record
 LoadedModuleRequest Record
 dfn
-tc39-import-attributes
-tc39-import-attributes
+ecmascript
+ecmascript
 1
 current
-https://tc39.es/proposal-import-attributes/#loadedmodulerequest-record
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#loadedmodulerequest-record
 1
 1
+ECMAScript
+-
+loadedmodulerequest records
+LoadedModuleRequest Records
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#loadedmodulerequest-record
+1
+1
+ECMAScript
 -
 loading
 loading
@@ -788,17 +1109,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/document-lifecycle.html#read-xml
-
-1
--
-loading a document for inline content that doesn't have a dom
-Loading a document for inline content that doesn't have a DOM
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/document-lifecycle.html#read-ua-inline
 
 1
 -
@@ -836,6 +1146,17 @@ https://webbluetoothcg.github.io/web-bluetooth/#local-name-data-type
 
 1
 -
+local network access check
+Local Network Access check
+dfn
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#local-network-access-check
+1
+1
+-
 local end
 local end
 dfn
@@ -855,6 +1176,39 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-local-ends
+1
+1
+-
+Local end definition
+Local end definition
+cddl-module
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-module-local-end-definition
+
+1
+-
+Local end definition
+Local end definition
+cddl-module
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-module-local-end-definition
+1
+1
+-
+Local end definition
+Local end definition
+cddl-module
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-module-local-end-definition
 1
 1
 -
@@ -880,8 +1234,8 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-localtime
 1
 1
 -
-LocalTime(t)
-LocalTime(t)
+LocalTime(tv)
+LocalTime(tv)
 abstract-op
 ecmascript
 ecmascript
@@ -1309,6 +1663,28 @@ https://www.w3.org/TR/web-locks/#dictdef-lockoptions
 1
 1
 -
+LogEvent
+LogEvent
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-logevent
+
+1
+-
+LogEvent
+LogEvent
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-logevent
+
+1
+-
 Logger
 Logger
 abstract-op
@@ -1410,6 +1786,39 @@ https://www.w3.org/TR/i18n-glossary/#dfn-logical-order
 1
 
 -
+logicalandexpression
+LogicalANDExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalANDExpression
+
+1
+-
+logicalorexpression
+LogicalORExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LogicalORExpression
+
+1
+-
+login status map
+Login Status map
+dfn
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#login-status-map
+
+1
+-
 login status map
 Login Status map
 dfn
@@ -1424,12 +1833,34 @@ https://www.w3.org/TR/fedcm-1/#login-status-map
 LoginStatus
 LoginStatus
 enum
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#enumdef-loginstatus
+1
+1
+-
+LoginStatus
+LoginStatus
+enum
 fedcm-1
 fedcm
 1
 snapshot
 https://www.w3.org/TR/fedcm-1/#enumdef-loginstatus
 1
+1
+-
+loneunicodepropertynameorvalue
+LoneUnicodePropertyNameOrValue
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-LoneUnicodePropertyNameOrValue
+
 1
 -
 long attribute values
@@ -1465,6 +1896,30 @@ https://www.w3.org/TR/longtasks-1/#long-task
 1
 1
 -
+lookback
+lookback
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#validated-conversion-options-lookback
+
+1
+validated conversion options
+-
+lookback
+lookback
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-lookback
+
+1
+validated conversion options
+-
 lookup race response
 Lookup Race Response
 dfn
@@ -1473,6 +1928,17 @@ service-workers
 1
 current
 https://w3c.github.io/ServiceWorker/#lookup-race-response
+1
+1
+-
+lookup race response
+Lookup Race Response
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#lookup-race-response
 1
 1
 -
@@ -1507,6 +1973,17 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-loopcontinues
 1
+1
+-
+low
+low
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-fetchpriority-low-state
+
 1
 -
 [[LoadedFonts]]
@@ -1604,6 +2081,30 @@ https://www.w3.org/TR/webrtc/#dfn-local
 
 1
 RTCIceCandidatePair
+-
+[[lost]]
+[[lost]]
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcontext-lost-slot
+1
+1
+MLContext
+-
+[[lost]]
+[[lost]]
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcontext-lost-slot
+1
+1
+MLContext
 -
 load
 load
@@ -1782,11 +2283,33 @@ Document
 load value
 load value
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
 https://webaudio.github.io/web-audio-api/#load-value
+
+1
+-
+load value
+load value
+dfn
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#load-value
+
+1
+-
+load value
+load value
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#load-value
 
 1
 -
@@ -1922,8 +2445,8 @@ https://www.w3.org/TR/encrypted-media-2/#dom-mediakeysession-load
 1
 MediaKeySession
 -
-load(typedArray, index)
-load(typedArray, index)
+load(ta, index)
+load(ta, index)
 method
 ecmascript
 ecmascript
@@ -1958,6 +2481,30 @@ https://w3c.github.io/navigation-timing/#dom-performancetiming-loadeventend
 1
 PerformanceTiming
 -
+loadeventend
+loadEventEnd
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancenavigationtiming-loadeventend
+1
+1
+PerformanceNavigationTiming
+-
+loadeventend
+loadEventEnd
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancetiming-loadeventend
+1
+1
+PerformanceTiming
+-
 loadEventEnd
 loadEventEnd
 attribute
@@ -1978,6 +2525,30 @@ navigation-timing
 2
 snapshot
 https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-loadeventend
+1
+1
+PerformanceTiming
+-
+loadeventend
+loadEventEnd
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancenavigationtiming-loadeventend
+1
+1
+PerformanceNavigationTiming
+-
+loadeventend
+loadEventEnd
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetiming-loadeventend
 1
 1
 PerformanceTiming
@@ -2006,6 +2577,30 @@ https://w3c.github.io/navigation-timing/#dom-performancetiming-loadeventstart
 1
 PerformanceTiming
 -
+loadeventstart
+loadEventStart
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancenavigationtiming-loadeventstart
+1
+1
+PerformanceNavigationTiming
+-
+loadeventstart
+loadEventStart
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancetiming-loadeventstart
+1
+1
+PerformanceTiming
+-
 loadEventStart
 loadEventStart
 attribute
@@ -2026,6 +2621,30 @@ navigation-timing
 2
 snapshot
 https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-loadeventstart
+1
+1
+PerformanceTiming
+-
+loadeventstart
+loadEventStart
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancenavigationtiming-loadeventstart
+1
+1
+PerformanceNavigationTiming
+-
+loadeventstart
+loadEventStart
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetiming-loadeventstart
 1
 1
 PerformanceTiming
@@ -2057,6 +2676,18 @@ GPURenderPassColorAttachment
 loadTime
 loadTime
 attribute
+element-timing
+element-timing
+1
+current
+https://w3c.github.io/element-timing/#dom-performanceelementtiming-loadtime
+1
+1
+PerformanceElementTiming
+-
+loadTime
+loadTime
+attribute
 largest-contentful-paint
 largest-contentful-paint
 1
@@ -2065,6 +2696,18 @@ https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-loadt
 1
 1
 LargestContentfulPaint
+-
+loadtime
+loadTime
+dfn
+largest-contentful-paint
+largest-contentful-paint
+1
+current
+https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-candidate-loadtime
+
+1
+largest contentful paint candidate
 -
 loadtime
 loadTime
@@ -2093,18 +2736,6 @@ pending image record
 loadTime
 loadTime
 attribute
-element-timing
-element-timing
-1
-current
-https://wicg.github.io/element-timing/#dom-performanceelementtiming-loadtime
-1
-1
-PerformanceElementTiming
--
-loadTime
-loadTime
-attribute
 largest-contentful-paint
 largest-contentful-paint
 1
@@ -2113,6 +2744,18 @@ https://www.w3.org/TR/largest-contentful-paint/#dom-largestcontentfulpaint-loadt
 1
 1
 LargestContentfulPaint
+-
+loadtime
+loadTime
+dfn
+largest-contentful-paint
+largest-contentful-paint
+1
+snapshot
+https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-candidate-loadtime
+
+1
+largest contentful paint candidate
 -
 loadtime
 loadTime
@@ -2329,6 +2972,31 @@ https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-iframe-loadi
 1
 1
 HTMLIFrameElement
+-
+loading
+loading
+element-attr
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/media.html#attr-media-loading
+1
+1
+audio
+video
+-
+loading
+loading
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/media.html#dom-media-loading
+1
+1
+HTMLMediaElement
 -
 loading
 loading
@@ -2568,6 +3236,30 @@ background-attachment
 -
 local
 local
+value
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#valdef-background-attachment-local
+1
+1
+background-attachment
+-
+local
+local
+dfn
+css-shadow-1
+css-shadow
+1
+current
+https://drafts.csswg.org/css-shadow-1/#tree-scoped-name-local
+1
+1
+tree-scoped name
+-
+local
+local
 enum-value
 webxr
 webxr
@@ -2604,11 +3296,11 @@ RTCIceCandidatePair
 local
 local
 dfn
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#ip-address-space-local
+https://wicg.github.io/local-network-access/#ip-address-space-local
 1
 1
 IP address space
@@ -2621,6 +3313,18 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-background-attachment-local
+1
+1
+background-attachment
+-
+local
+local
+value
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#valdef-background-attachment-local
 1
 1
 background-attachment
@@ -2663,11 +3367,11 @@ XRReferenceSpaceType
 local address
 local address
 dfn
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#local-address
+https://wicg.github.io/local-network-access/#local-address
 
 1
 -
@@ -2715,16 +3419,27 @@ https://www.w3.org/TR/css-overscroll-1/#local-boundary-default-action
 
 1
 -
-local context
-local context
+local containing block
+local containing block
 dfn
-json-ld11
-json-ld
-1
+css-position-4
+css-position
+4
 current
-https://w3c.github.io/json-ld-syntax/#dfn-local-context
-
-
+https://drafts.csswg.org/css-position-4/#local-containing-block
+1
+1
+-
+local containing block
+local containing block
+dfn
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#local-containing-block
+1
+1
 -
 local context
 local context
@@ -2816,23 +3531,34 @@ https://w3c.github.io/at-driver/#local-end
 -
 local end definition
 local end definition
-dfn
+cddl-module
 at-driver
 at-driver
 1
 current
-https://w3c.github.io/at-driver/#local-end-definition
+https://w3c.github.io/at-driver/#cddl-module-local-end-definition
 
 1
 -
 local end definition
 local end definition
-dfn
+cddl-module
 webdriver-bidi
 webdriver-bidi
 1
 current
-https://w3c.github.io/webdriver-bidi/#local-end-definition
+https://w3c.github.io/webdriver-bidi/#cddl-module-local-end-definition
+1
+1
+-
+local end definition
+local end definition
+cddl-module
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-module-local-end-definition
 1
 1
 -
@@ -2980,6 +3706,83 @@ html
 current
 https://html.spec.whatwg.org/multipage/parsing.html#concept-mock-local-name
 
+1
+-
+local name
+local name
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-local-names
+
+1
+-
+local name
+local name
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-local-names
+
+1
+-
+local name resolution
+local name resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-local-name-resolution
+
+1
+-
+local name resolution
+local name resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+snapshot
+https://www.w3.org/TR/shacl12-ui/#dfn-local-name-resolution
+
+1
+-
+local names
+local names
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-local-names
+
+1
+-
+local names
+local names
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-local-names
+
+1
+-
+local network request
+local network request
+dfn
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#local-network-request
+1
 1
 -
 local playback device
@@ -3187,7 +3990,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-local-type
+https://w3c-cg.github.io/web-nfc/#dfn-local-type
 
 
 -
@@ -3198,7 +4001,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-local-type-name
+https://w3c-cg.github.io/web-nfc/#dfn-local-type-name
 
 1
 -
@@ -3250,16 +4053,51 @@ https://www.w3.org/TR/css-values-4/#url-local-url-flag
 1
 <url>
 -
-local variable
-local variable
+local variables
+local variables
 dfn
 css-mixins-1
 css-mixins
 1
 current
-https://drafts.csswg.org/css-mixins-1/#local-variable
+https://drafts.csswg.org/css-mixins-1/#local-variables
 
 1
+-
+local variables
+local variables
+dfn
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#local-variables
+
+1
+-
+local( <font-family-name> )
+local( <font-family-name> )
+value
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#local()
+1
+1
+@font-face/src
+-
+local( <font-family-name> )
+local( <font-family-name> )
+value
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#local()
+1
+1
+@font-face/src
 -
 local-urls-only flag
 local-URLs-only flag
@@ -3295,6 +4133,39 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcstatstype-local-candidate
 1
 1
 RTCStatsType
+-
+local-cddl
+local-cddl
+cddl-module
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-module-local-end-definition
+
+1
+-
+local-cddl
+local-cddl
+cddl-module
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-module-local-end-definition
+1
+1
+-
+local-cddl
+local-cddl
+cddl-module
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-module-local-end-definition
+1
+1
 -
 local-floor
 local-floor
@@ -3691,6 +4562,30 @@ https://w3c.github.io/DOM-Parsing/#dfn-localname
 
 1
 -
+localName
+localName
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptnodeproperties-localname
+
+1
+script.NodeProperties
+-
+localName
+localName
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptnodeproperties-localname
+
+1
+script.NodeProperties
+-
 localPort
 localPort
 dict-member
@@ -3758,7 +4653,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-localservice
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisvoice-localservice
 1
 1
 SpeechSynthesisVoice
@@ -3933,6 +4828,18 @@ SecurePaymentConfirmationRequest
 -
 locale
 locale
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetlocaleoverrideparameters-locale
+
+1
+emulation.SetLocaleOverrideParameters
+-
+locale
+locale
 dfn
 scroll-to-text-fragment
 scroll-to-text-fragment
@@ -3953,6 +4860,18 @@ https://www.w3.org/TR/secure-payment-confirmation/#dom-securepaymentconfirmation
 1
 1
 SecurePaymentConfirmationRequest
+-
+locale
+locale
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationsetlocaleoverrideparameters-locale
+
+1
+emulation.SetLocaleOverrideParameters
 -
 locale neutral
 locale neutral
@@ -3975,6 +4894,28 @@ snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-locale-neutral
 1
 
+-
+locale overrides map
+locale overrides map
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#locale-overrides-map
+
+1
+-
+locale overrides map
+locale overrides map
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#locale-overrides-map
+
+1
 -
 localeCompare(that, reserved1, reserved2)
 localeCompare(that, reserved1, reserved2)
@@ -4197,39 +5138,6 @@ https://www.w3.org/TR/appmanifest/#dfn-localized-value
 
 1
 -
-locally substitute a var()
-locally substitute a var()
-dfn
-css-mixins-1
-css-mixins
-1
-current
-https://drafts.csswg.org/css-mixins-1/#locally-substitute-a-var
-
-1
--
-localtestingmode
-localtestingmode
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#localtestingmode
-
-1
--
-localtestingmode
-localtestingmode
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#localtestingmode
-
-1
--
 locate a namespace
 locate a namespace
 dfn
@@ -4263,6 +5171,17 @@ https://w3c.github.io/webdriver-bidi/#locate-nodes-using-css
 
 1
 -
+locate nodes using css
+locate nodes using CSS
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#locate-nodes-using-css
+
+1
+-
 locate nodes using xpath
 locate nodes using XPath
 dfn
@@ -4271,6 +5190,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#locate-nodes-using-xpath
+
+1
+-
+locate nodes using xpath
+locate nodes using XPath
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#locate-nodes-using-xpath
 
 1
 -
@@ -4285,6 +5215,17 @@ https://w3c.github.io/webdriver-bidi/#locate-nodes-using-accessibility-attribute
 
 1
 -
+locate nodes using accessibility attributes
+locate nodes using accessibility attributes
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#locate-nodes-using-accessibility-attributes
+
+1
+-
 locate nodes using inner text
 locate nodes using inner text
 dfn
@@ -4293,6 +5234,39 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#locate-nodes-using-inner-text
+
+1
+-
+locate nodes using inner text
+locate nodes using inner text
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#locate-nodes-using-inner-text
+
+1
+-
+locate the container element
+locate the container element
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#locate-the-container-element
+
+1
+-
+locate the container element
+locate the container element
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#locate-the-container-element
 
 1
 -
@@ -4585,6 +5559,30 @@ https://fs.spec.whatwg.org/#filesystemhandle-locator
 1
 1
 FileSystemHandle
+-
+locator
+locator
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-locator
+
+1
+browsingContext.LocateNodesParameters
+-
+locator
+locator
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-locator
+
+1
+browsingContext.LocateNodesParameters
 -
 lock
 lock
@@ -4957,28 +5955,6 @@ WritableStream
 locked
 locked
 dfn
-screen-orientation
-screen-orientation
-1
-current
-https://w3c.github.io/screen-orientation/#dfn-lock-the-screen-orientation
-
-1
--
-locked
-locked
-dfn
-screen-orientation
-screen-orientation
-1
-snapshot
-https://www.w3.org/TR/screen-orientation/#dfn-lock-the-screen-orientation
-
-1
--
-locked
-locked
-dfn
 webgpu
 webgpu
 1
@@ -4988,14 +5964,14 @@ https://www.w3.org/TR/webgpu/#encoder-state-locked
 1
 encoder state
 -
-locked for focus
-locked for focus
+locked embedded icb size
+locked embedded ICB size
 dfn
-html
-html
-1
+css-sizing-4
+css-sizing
+4
 current
-https://html.spec.whatwg.org/multipage/interaction.html#locked-for-focus
+https://drafts.csswg.org/css-sizing-4/#locked-embedded-icb-size
 
 1
 -
@@ -5029,39 +6005,6 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#lock
-
-1
--
-locking the screen orientation
-locking the screen orientation
-dfn
-screen-orientation
-screen-orientation
-1
-current
-https://w3c.github.io/screen-orientation/#dfn-lock-the-screen-orientation
-
-1
--
-locking the screen orientation
-locking the screen orientation
-dfn
-screen-orientation
-screen-orientation
-1
-snapshot
-https://www.w3.org/TR/screen-orientation/#dfn-lock-the-screen-orientation
-
-1
--
-lockout period
-lockout period
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#lockout-period
 
 1
 -
@@ -5209,6 +6152,18 @@ MLOpSupportLimits
 -
 log
 log
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#modules-log
+1
+1
+modules
+-
+log
+log
 dict-member
 webnn
 webnn
@@ -5227,6 +6182,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#log-event-buffer
+
+1
+-
+log event buffer
+log event buffer
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#log-event-buffer
 
 1
 -
@@ -5336,6 +6302,184 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.log
 1
 Math
 -
+log.BaseLogEntry
+log.BaseLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-logbaselogentry
+
+1
+-
+log.BaseLogEntry
+log.BaseLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-logbaselogentry
+
+1
+-
+log.ConsoleLogEntry
+log.ConsoleLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-logconsolelogentry
+
+1
+-
+log.ConsoleLogEntry
+log.ConsoleLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-logconsolelogentry
+
+1
+-
+log.Entry
+log.Entry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-logentry
+
+1
+-
+log.Entry
+log.Entry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-logentry
+
+1
+-
+log.EntryAdded
+log.EntryAdded
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-logentryadded
+
+1
+-
+log.EntryAdded
+log.EntryAdded
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-logentryadded
+
+1
+-
+log.GenericLogEntry
+log.GenericLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-loggenericlogentry
+
+1
+-
+log.GenericLogEntry
+log.GenericLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-loggenericlogentry
+
+1
+-
+log.JavascriptLogEntry
+log.JavascriptLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-logjavascriptlogentry
+
+1
+-
+log.JavascriptLogEntry
+log.JavascriptLogEntry
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-logjavascriptlogentry
+
+1
+-
+log.Level
+log.Level
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-loglevel
+
+1
+-
+log.Level
+log.Level
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-loglevel
+
+1
+-
+log.entryAdded
+log.entryAdded
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-logentryadded-method-logentryadded
+
+1
+log.EntryAdded/method
+-
+log.entryAdded
+log.entryAdded
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-logentryadded-method-logentryadded
+
+1
+log.EntryAdded/method
+-
 log10(x)
 log10(x)
 method
@@ -5375,11 +6519,33 @@ Math
 logged-in
 logged-in
 dfn
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#logged-in
+
+1
+-
+logged-in
+logged-in
+dfn
 fedcm-1
 fedcm
 1
 snapshot
 https://www.w3.org/TR/fedcm-1/#logged-in
+
+1
+-
+logged-out
+logged-out
+dfn
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#logged-out
 
 1
 -
@@ -5448,6 +6614,17 @@ https://drafts.csswg.org/selectors-4/#logical-combination-pseudo-classes
 
 1
 -
+logical combination pseudo-classes
+logical combination pseudo-classes
+dfn
+selectors-4
+selectors
+4
+snapshot
+https://www.w3.org/TR/selectors-4/#logical-combination-pseudo-classes
+
+1
+-
 logical display surface
 logical display surface
 dfn
@@ -5469,28 +6646,6 @@ snapshot
 https://www.w3.org/TR/screen-capture/#dfn-logical-display-surface
 1
 1
--
-logical expression
-logical expression
-dfn
-rdf12-concepts
-rdf-concepts
-1
-current
-https://w3c.github.io/rdf-concepts/spec/#dfn-logical-expression
-1
-
--
-logical expression
-logical expression
-dfn
-rdf12-concepts
-rdf-concepts
-1
-snapshot
-https://www.w3.org/TR/rdf12-concepts/#dfn-logical-expression
-1
-
 -
 logical height
 logical height
@@ -5534,6 +6689,50 @@ css-writing-modes
 snapshot
 https://www.w3.org/TR/css-writing-modes-4/#logical-height
 1
+1
+-
+logical maximum
+logical maximum
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-logical-maximum
+
+1
+-
+logical maximum
+logical maximum
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-logical-maximum
+
+1
+-
+logical minimum
+logical minimum
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-logical-minimum
+
+1
+-
+logical minimum
+logical minimum
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-logical-minimum
+
 1
 -
 logical miplevel-specific texture extent
@@ -5602,6 +6801,28 @@ https://www.w3.org/TR/WGSL/#logical-texel-address
 
 1
 -
+logical value
+logical value
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-logical-value
+
+1
+-
+logical value
+logical value
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-logical-value
+
+1
+-
 logical width
 logical width
 dfn
@@ -5645,6 +6866,78 @@ snapshot
 https://www.w3.org/TR/css-writing-modes-4/#logical-width
 1
 1
+-
+logicalAnd
+logicalAnd
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-logicaland
+1
+1
+MLOpSupportLimits
+-
+logicalAnd
+logicalAnd
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-logicaland
+1
+1
+MLOpSupportLimits
+-
+logicalAnd(a, b)
+logicalAnd(a, b)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-logicaland
+1
+1
+MLGraphBuilder
+-
+logicalAnd(a, b)
+logicalAnd(a, b)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicaland
+1
+1
+MLGraphBuilder
+-
+logicalAnd(a, b, options)
+logicalAnd(a, b, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-logicaland
+1
+1
+MLGraphBuilder
+-
+logicalAnd(a, b, options)
+logicalAnd(a, b, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicaland
+1
+1
+MLGraphBuilder
 -
 logicalMaximum
 logicalMaximum
@@ -5738,6 +7031,78 @@ webnn
 1
 snapshot
 https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicalnot
+1
+1
+MLGraphBuilder
+-
+logicalOr
+logicalOr
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-logicalor
+1
+1
+MLOpSupportLimits
+-
+logicalOr
+logicalOr
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-logicalor
+1
+1
+MLOpSupportLimits
+-
+logicalOr(a, b)
+logicalOr(a, b)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-logicalor
+1
+1
+MLGraphBuilder
+-
+logicalOr(a, b)
+logicalOr(a, b)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicalor
+1
+1
+MLGraphBuilder
+-
+logicalOr(a, b, options)
+logicalOr(a, b, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-logicalor
+1
+1
+MLGraphBuilder
+-
+logicalOr(a, b, options)
+logicalOr(a, b, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicalor
 1
 1
 MLGraphBuilder
@@ -5860,6 +7225,78 @@ https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-logical
 1
 MediaTrackSupportedConstraints
 -
+logicalXor
+logicalXor
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-logicalxor
+1
+1
+MLOpSupportLimits
+-
+logicalXor
+logicalXor
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-logicalxor
+1
+1
+MLOpSupportLimits
+-
+logicalXor(a, b)
+logicalXor(a, b)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-logicalxor
+1
+1
+MLGraphBuilder
+-
+logicalXor(a, b)
+logicalXor(a, b)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicalxor
+1
+1
+MLGraphBuilder
+-
+logicalXor(a, b, options)
+logicalXor(a, b, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-logicalxor
+1
+1
+MLGraphBuilder
+-
+logicalXor(a, b, options)
+logicalXor(a, b, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicalxor
+1
+1
+MLGraphBuilder
+-
 logically connected
 logically connected
 dfn
@@ -5870,6 +7307,18 @@ current
 https://wicg.github.io/serial/#dfn-logically-connected
 
 1
+-
+login
+login
+attribute
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#dom-navigator-login
+1
+1
+Navigator
 -
 login
 login
@@ -5949,6 +7398,18 @@ dict-member
 fedcm-1
 fedcm
 1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identityproviderwellknown-login_url
+1
+1
+IdentityProviderWellKnown
+-
+login_url
+login_url
+dict-member
+fedcm-1
+fedcm
+1
 snapshot
 https://www.w3.org/TR/fedcm-1/#dom-identityproviderapiconfig-login_url
 1
@@ -5977,6 +7438,30 @@ https://webidl.spec.whatwg.org/#idl-long
 1
 1
 -
+long
+long
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizerlength-long
+1
+1
+SummarizerLength
+-
+long
+long
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writerlength-long
+1
+1
+WriterLength
+-
 long animation frame
 long animation frame
 dfn
@@ -5988,26 +7473,15 @@ https://w3c.github.io/long-animation-frames/#long-animation-frame
 1
 1
 -
-long cooldown period
-long cooldown period
+long animation frame
+long animation frame
 dfn
-turtledove
-turtledove
+long-animation-frames
+long-animation-frames
 1
-current
-https://wicg.github.io/turtledove/#long-cooldown-period
-
+snapshot
+https://www.w3.org/TR/long-animation-frames/#long-animation-frame
 1
--
-long cooldown rate
-long cooldown rate
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#long-cooldown-rate
-
 1
 -
 long long
@@ -6019,6 +7493,28 @@ webidl
 current
 https://webidl.spec.whatwg.org/#idl-long-long
 1
+1
+-
+long-form text content
+long-form text content
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-long-form-text-content
+
+1
+-
+long-form text content
+long-form text content
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-long-form-text-content
+
 1
 -
 longDesc
@@ -6057,6 +7553,18 @@ https://html.spec.whatwg.org/multipage/obsolete.html#dom-img-longdesc
 1
 HTMLImageElement
 -
+longtouchforreset
+longTouchForReset
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-longtouchforreset
+
+1
+getInfo
+-
 longdesc
 longdesc
 element-attr
@@ -6091,6 +7599,18 @@ current
 https://drafts.csswg.org/css-color-4/#longer
 1
 1
+-
+longer
+longer
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriterlength-longer
+1
+1
+RewriterLength
 -
 longer
 longer
@@ -6238,30 +7758,6 @@ https://www.w3.org/TR/css-cascade-5/#longhand
 longitude
 longitude
 attribute
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-longitude
-1
-1
-GeolocationSensor
--
-longitude
-longitude
-dict-member
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensorreading-longitude
-1
-1
-GeolocationSensorReading
--
-longitude
-longitude
-attribute
 geolocation
 geolocation
 1
@@ -6273,27 +7769,27 @@ GeolocationCoordinates
 -
 longitude
 longitude
-attribute
-geolocation-sensor
-geolocation-sensor
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-longitude
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-longitude
+
 1
-1
-GeolocationSensor
+emulation.GeolocationCoordinates
 -
 longitude
 longitude
-dict-member
-geolocation-sensor
-geolocation-sensor
+attribute
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensorreading-longitude
+current
+https://w3c.github.io/webdriver-bidi/#dom-geolocation-override-longitude
 1
 1
-GeolocationSensorReading
+geolocation override
 -
 longitude
 longitude
@@ -6307,6 +7803,30 @@ https://www.w3.org/TR/geolocation/#dom-geolocationcoordinates-longitude
 1
 GeolocationCoordinates
 -
+longitude
+longitude
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-longitude
+
+1
+emulation.GeolocationCoordinates
+-
+longitude
+longitude
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-geolocation-override-longitude
+1
+1
+geolocation override
+-
 look up a custom element definition
 look up a custom element definition
 dfn
@@ -6318,6 +7838,17 @@ https://html.spec.whatwg.org/multipage/custom-elements.html#look-up-a-custom-ele
 1
 1
 -
+look up a custom element registry
+look up a custom element registry
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/custom-elements.html#look-up-a-custom-element-registry
+1
+1
+-
 look up penultimate redemption
 look up penultimate redemption
 dfn
@@ -6326,28 +7857,6 @@ trust-token-api
 1
 current
 https://wicg.github.io/trust-token-api/#look-up-penultimate-redemption
-
-1
--
-look up per-buyer currency
-look up per-buyer currency
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#look-up-per-buyer-currency
-
-1
--
-look up per-buyer multi-bid limit
-look up per-buyer multi-bid limit
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#look-up-per-buyer-multi-bid-limit
 
 1
 -
@@ -6373,28 +7882,53 @@ https://wicg.github.io/trust-token-api/#look-up-the-latest-keys
 
 1
 -
-look up the server encryption key
-look up the server encryption key
+lookback-days
+lookback-days
 dfn
-turtledove
-turtledove
+attribution
+attribution
 1
 current
-https://wicg.github.io/turtledove/#look-up-the-server-encryption-key
+https://w3c.github.io/attribution/#measure-conversion-lookback-days
 
 1
+measure-conversion
 -
-lookback window
-lookback window
+lookback-days
+lookback-days
 dfn
-attribution-reporting-api
-attribution-reporting-api
+attribution
+attribution
 1
-current
-https://wicg.github.io/attribution-reporting-api/#filter-config-lookback-window
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-lookback-days
 
 1
-filter config
+measure-conversion
+-
+lookbackDays
+lookbackDays
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-lookbackdays
+1
+1
+AttributionConversionOptions
+-
+lookbackDays
+lookbackDays
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-lookbackdays
+1
+1
+AttributionConversionOptions
 -
 looking up
 looking up
@@ -6544,7 +8078,19 @@ model
 loop
 loop
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-loop
+1
+1
+AudioBufferSourceNode
+-
+loop
+loop
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -6556,7 +8102,19 @@ AudioBufferSourceNode
 loop
 loop
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourceoptions-loop
+1
+1
+AudioBufferSourceOptions
+-
+loop
+loop
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -6592,11 +8150,11 @@ syntax_kw
 loop
 loop
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-loop
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-loop
 1
 1
 AudioBufferSourceNode
@@ -6604,11 +8162,35 @@ AudioBufferSourceNode
 loop
 loop
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourceoptions-loop
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourceoptions-loop
+1
+1
+AudioBufferSourceOptions
+-
+loop
+loop
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-loop
+1
+1
+AudioBufferSourceNode
+-
+loop
+loop
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourceoptions-loop
 1
 1
 AudioBufferSourceOptions
@@ -6638,7 +8220,19 @@ https://www.w3.org/TR/WGSL/#loop-body
 loopEnd
 loopEnd
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-loopend
+1
+1
+AudioBufferSourceNode
+-
+loopEnd
+loopEnd
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -6650,7 +8244,19 @@ AudioBufferSourceNode
 loopEnd
 loopEnd
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourceoptions-loopend
+1
+1
+AudioBufferSourceOptions
+-
+loopEnd
+loopEnd
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -6662,11 +8268,11 @@ AudioBufferSourceOptions
 loopEnd
 loopEnd
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-loopend
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-loopend
 1
 1
 AudioBufferSourceNode
@@ -6674,11 +8280,35 @@ AudioBufferSourceNode
 loopEnd
 loopEnd
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourceoptions-loopend
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourceoptions-loopend
+1
+1
+AudioBufferSourceOptions
+-
+loopEnd
+loopEnd
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-loopend
+1
+1
+AudioBufferSourceNode
+-
+loopEnd
+loopEnd
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourceoptions-loopend
 1
 1
 AudioBufferSourceOptions
@@ -6686,7 +8316,19 @@ AudioBufferSourceOptions
 loopStart
 loopStart
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-loopstart
+1
+1
+AudioBufferSourceNode
+-
+loopStart
+loopStart
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -6698,7 +8340,19 @@ AudioBufferSourceNode
 loopStart
 loopStart
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourceoptions-loopstart
+1
+1
+AudioBufferSourceOptions
+-
+loopStart
+loopStart
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -6710,11 +8364,11 @@ AudioBufferSourceOptions
 loopStart
 loopStart
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-loopstart
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-loopstart
 1
 1
 AudioBufferSourceNode
@@ -6722,11 +8376,35 @@ AudioBufferSourceNode
 loopStart
 loopStart
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourceoptions-loopstart
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourceoptions-loopstart
+1
+1
+AudioBufferSourceOptions
+-
+loopStart
+loopStart
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-loopstart
+1
+1
+AudioBufferSourceNode
+-
+loopStart
+loopStart
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourceoptions-loopstart
 1
 1
 AudioBufferSourceOptions
@@ -6754,6 +8432,29 @@ https://www.w3.org/TR/WGSL/#syntax-loop_statement
 
 1
 syntax
+-
+loopback
+loopback
+dfn
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#ip-address-space-loopback
+1
+1
+IP address space
+-
+loopback address
+loopback address
+dfn
+local-network-access
+local-network-access
+1
+current
+https://wicg.github.io/local-network-access/#loopback-address
+
+1
 -
 loose
 loose
@@ -6814,6 +8515,19 @@ https://w3c.github.io/editing/docs/execCommand/#loosely-equivalent-values
 
 
 -
+loosely matched
+loosely matched
+dfn
+css-shadow-1
+css-shadow
+1
+current
+https://drafts.csswg.org/css-shadow-1/#tree-scoped-name-loosely-matched
+1
+1
+tree-scoped name
+tree-scoped reference
+-
 loosely sorted by offset
 loosely sorted by offset
 dfn
@@ -6835,6 +8549,43 @@ snapshot
 https://www.w3.org/TR/web-animations-1/#loosely-sorted-by-offset
 
 1
+-
+loosely-matched
+loosely-matched
+dfn
+css-shadow-1
+css-shadow
+1
+current
+https://drafts.csswg.org/css-shadow-1/#tree-scoped-name-loosely-matched
+1
+1
+tree-scoped name
+tree-scoped reference
+-
+lose
+lose
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#mlcontext-lose
+
+1
+MLContext
+-
+lose
+lose
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mlcontext-lose
+
+1
+MLContext
 -
 lose the device
 lose the device
@@ -6895,6 +8646,18 @@ GPUDevice
 lost
 lost
 attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcontext-lost
+1
+1
+MLContext
+-
+lost
+lost
+attribute
 webgpu
 webgpu
 1
@@ -6903,6 +8666,18 @@ https://www.w3.org/TR/webgpu/#dom-gpudevice-lost
 1
 1
 GPUDevice
+-
+lost
+lost
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcontext-lost
+1
+1
+MLContext
 -
 lostOutgoing
 lostOutgoing
@@ -6931,11 +8706,22 @@ WebTransportDatagramStats
 lostpointercapture
 lostpointercapture
 event
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-lostpointercapture
+1
+1
+-
+lostpointercapture
+lostpointercapture
+event
 pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-lostpointercapture
+https://www.w3.org/TR/pointerevents3/#dfn-lostpointercapture
 1
 1
 GlobalEventHandlers
@@ -6951,6 +8737,17 @@ https://www.w3.org/TR/pointerevents3/#dfn-lostpointercapture
 1
 1
 GlobalEventHandlers
+-
+lostpointercapture
+lostpointercapture
+event
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-lostpointercapture
+1
+1
 -
 loud
 loud
@@ -7065,13 +8862,14 @@ link/fetchpriority
 low
 low
 dfn
-html
-html
-1
+navigation-timing-2
+navigation-timing
+2
 current
-https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-fetchpriority-low-state
-
+https://w3c.github.io/navigation-timing/#performancetimingconfidencevalue-low
 1
+1
+PerformanceTimingConfidenceValue
 -
 low
 low
@@ -7108,6 +8906,18 @@ https://www.w3.org/TR/css-speech-1/#valdef-voice-range-low
 1
 1
 voice-range
+-
+low
+low
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetimingconfidencevalue-low
+1
+1
+PerformanceTimingConfidenceValue
 -
 low
 low
@@ -7424,6 +9234,28 @@ https://www.w3.org/TR/IndexedDB-3/#key-range-lower-open-flag
 1
 key range
 -
+lower secondary education level
+lower secondary education level
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-lower-secondary-education-level
+
+
+-
+lower secondary education level
+lower secondary education level
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-lower-secondary-education-level
+
+
+-
 lower-alpha
 lower-alpha
 value
@@ -7439,14 +9271,25 @@ https://drafts.csswg.org/css-counter-styles-3/#lower-alpha
 lower-alpha
 lower-alpha
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#velue-def-lower-alpha
 1
 1
 list-style-type
+-
+lower-alpha
+lower-alpha
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#lower-alpha
+1
+1
 -
 lower-alpha
 lower-alpha
@@ -7470,6 +9313,17 @@ https://www.w3.org/TR/css-counter-styles-3/#lower-alpha
 1
 1
 <counter-style-name>
+-
+lower-alphanum
+lower-alphanum
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#lower-alphanum
+1
+1
 -
 lower-armenian
 lower-armenian
@@ -7510,9 +9364,9 @@ https://drafts.csswg.org/css-counter-styles-3/#lower-greek
 lower-greek
 lower-greek
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-lower-greek
 1
@@ -7524,20 +9378,9 @@ lower-greek
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-lower-greek
-1
-1
--
-lower-greek
-lower-greek
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-lower-greek
+https://www.w3.org/TR/CSS2/generate.html#value-def-lower-greek
 1
 1
 -
@@ -7568,9 +9411,9 @@ https://drafts.csswg.org/css-counter-styles-3/#lower-latin
 lower-latin
 lower-latin
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-lower-latin
 1
@@ -7582,20 +9425,9 @@ lower-latin
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-lower-latin
-1
-1
--
-lower-latin
-lower-latin
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-lower-latin
+https://www.w3.org/TR/CSS2/generate.html#value-def-lower-latin
 1
 1
 -
@@ -7626,9 +9458,9 @@ https://drafts.csswg.org/css-counter-styles-3/#lower-roman
 lower-roman
 lower-roman
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-lower-roman
 1
@@ -7651,20 +9483,9 @@ lower-roman
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-lower-roman
-1
-1
--
-lower-roman
-lower-roman
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-lower-roman
+https://www.w3.org/TR/CSS2/generate.html#value-def-lower-roman
 1
 1
 -
@@ -7923,9 +9744,9 @@ text-transform
 lowercase
 lowercase
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-text-transform-lowercase
 1
@@ -7981,7 +9802,7 @@ https://www.w3.org/TR/css-syntax-3/#lowercase-letter
 lowpass
 lowpass
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7993,11 +9814,35 @@ BiquadFilterType
 lowpass
 lowpass
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-lowpass
+1
+1
+BiquadFilterType
+-
+lowpass
+lowpass
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-lowpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-lowpass
+1
+1
+BiquadFilterType
+-
+lowpass
+lowpass
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-lowpass
 1
 1
 BiquadFilterType
@@ -8005,7 +9850,7 @@ BiquadFilterType
 lowshelf
 lowshelf
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8017,11 +9862,35 @@ BiquadFilterType
 lowshelf
 lowshelf
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-lowshelf
+1
+1
+BiquadFilterType
+-
+lowshelf
+lowshelf
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-lowshelf
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-lowshelf
+1
+1
+BiquadFilterType
+-
+lowshelf
+lowshelf
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-lowshelf
 1
 1
 BiquadFilterType

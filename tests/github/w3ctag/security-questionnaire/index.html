@@ -881,7 +881,7 @@ If so, how?</p>
    <p>See also</p>
    <ul>
     <li data-md>
-     <p><a href="https://w3ctag.github.io/design-principles/#priority-of-constituencies">Web Platform Design Principles § priority-of-constituencies</a></p>
+     <p><a href="https://w3ctag.github.io/design-principles/#priority-of-constituencies"><cite>Web Platform Design Principles</cite> § 1.1 Put user needs first (Priority of Constituencies)</a></p>
    </ul>
    <h3 class="heading question settled" data-level="2.2" id="minimum-data"><span class="secno">2.2. </span><span class="content">
   Do features in your specification expose the minimum amount of information
@@ -959,7 +959,7 @@ without a separate permissions prompt.
     <li data-md>
      <p><a href="#user-mediation">§ 4.3 Explicit user mediation</a></p>
     <li data-md>
-     <p><a href="https://w3ctag.github.io/design-principles/#consent">Web Platform Design Principles § consent</a></p>
+     <p><span spec-section="#consent"></span></p>
    </ul>
    <h3 class="heading question settled" data-level="2.4" id="sensitive-data"><span class="secno">2.4. </span><span class="content">
   How do the features in your specification deal with sensitive information?
@@ -1034,7 +1034,7 @@ instead of exposing the user’s precise location.</p>
    <p>See also</p>
    <ul>
     <li data-md>
-     <p><a href="https://w3ctag.github.io/design-principles/#do-not-expose-use-of-assistive-tech">Web Platform Design Principles § do-not-expose-use-of-assistive-tech</a></p>
+     <p><a href="https://w3ctag.github.io/design-principles/#do-not-expose-use-of-assistive-tech"><cite>Web Platform Design Principles</cite> § 2.11 Don’t reveal that assistive technologies are being used</a></p>
    </ul>
    <h3 class="heading question settled" data-level="2.5" id="persistent-origin-specific-state"><span class="secno">2.5. </span><span class="content">
   Do the features in your specification introduce new state for an origin
@@ -1097,11 +1097,11 @@ which enables sites
 to continue to function when the browser goes offline.
 Because of this,
 a maliciously-injected service worker
-could compromise the user (as documented in <a href="https://w3c.github.io/ServiceWorker/#security-considerations"><cite>Service Workers</cite> § 6 Security Considerations</a>).</p>
+could compromise the user (as documented in <a href="https://w3c.github.io/ServiceWorker/#security-considerations"><cite>Service Workers Nightly</cite> § 6 Security Considerations</a>).</p>
     <p>The spec mitigates the risks
 an <a data-link-type="dfn" href="#active-network-attacker" id="ref-for-active-network-attacker">active network attacker</a> or <a data-link-type="dfn" href="#cross-site-scripting-attacks" id="ref-for-cross-site-scripting-attacks①">XSS</a> vulnerability present
 by limiting service worker registration to <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#secure-context" id="ref-for-secure-context">secure contexts</a>.
-<a data-link-type="biblio" href="#biblio-service-workers" title="Service Workers">[SERVICE-WORKERS]</a></p>
+<a data-link-type="biblio" href="#biblio-service-workers" title="Service Workers Nightly">[SERVICE-WORKERS]</a></p>
    </div>
    <p class="example" id="example-32a45432"><a class="self-link" href="#example-32a45432"></a>
 Platform-specific DRM implementations
@@ -1161,7 +1161,7 @@ See <a href="#mitigations">§ 4 Mitigation Strategies</a> for more.</p>
 and does not define adequate mitigations,
 you should ensure that such information
 is not revealed to origins
-without <a href="https://w3ctag.github.io/design-principles/#consent">meaningful user consent</a>,
+without <span spec-section="#consent">meaningful user consent</span>,
 and
 you should clearly describe this
 in your specificaiton’s Security and Privacy Considerations sections.</p>
@@ -1458,7 +1458,7 @@ and whether or not the User Agent believes they are <a href="https://w3ctag.gith
 and are widely deployed in implementations.
 For instance, the Fullscreen API is a <a data-link-type="dfn" href="https://w3c.github.io/webappsec-permissions-policy/#policy-controlled-feature" id="ref-for-policy-controlled-feature">policy-controlled feature</a>,
 which enables sites to disable the API in <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element①">iframe</a></code>s.
-<a href="https://fullscreen.spec.whatwg.org/#security-and-privacy-considerations"><cite>Fullscreen API</cite> § 7 Security and Privacy Considerations</a> encourages implementations
+<a href="https://fullscreen.spec.whatwg.org/#security-and-privacy-considerations"><cite>Fullscreen API</cite> § 8 Security and Privacy Considerations</a> encourages implementations
 to display an overlay which informs the user that they have entered fullscreen,
 and to advertise a simple mechanism to exit fullscreen (typically the <code>Esc</code> key).</p>
    </div>
@@ -1977,7 +1977,7 @@ practices before the site prompted for location.</p>
    <dt id="biblio-csp">[CSP]
    <dd>Mike West; Antonio Sartori. <a href="https://w3c.github.io/webappsec-csp/"><cite>Content Security Policy Level 3</cite></a>. URL: <a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a>
    <dt id="biblio-design-principles">[DESIGN-PRINCIPLES]
-   <dd>Lea Verou. <a href="https://w3ctag.github.io/design-principles/"><cite>Web Platform Design Principles</cite></a>. URL: <a href="https://w3ctag.github.io/design-principles/">https://w3ctag.github.io/design-principles/</a>
+   <dd>Martin Thomson; Jeffrey Yasskin. <a href="https://w3ctag.github.io/design-principles/"><cite>Web Platform Design Principles</cite></a>. URL: <a href="https://w3ctag.github.io/design-principles/">https://w3ctag.github.io/design-principles/</a>
    <dt id="biblio-ecmascript">[ECMASCRIPT]
    <dd><a href="https://tc39.es/ecma262/multipage/"><cite>ECMAScript Language Specification</cite></a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    <dt id="biblio-html">[HTML]
@@ -2012,7 +2012,7 @@ practices before the site prompted for location.</p>
    <dt id="biblio-encrypted-media">[ENCRYPTED-MEDIA]
    <dd>Joey Parrish; Greg Freedman. <a href="https://w3c.github.io/encrypted-media/"><cite>Encrypted Media Extensions</cite></a>. URL: <a href="https://w3c.github.io/encrypted-media/">https://w3c.github.io/encrypted-media/</a>
    <dt id="biblio-fingerprinting-guidance">[FINGERPRINTING-GUIDANCE]
-   <dd>Nick Doty. <a href="https://w3c.github.io/fingerprinting-guidance/"><cite>Mitigating Browser Fingerprinting in Web Specifications</cite></a>. URL: <a href="https://w3c.github.io/fingerprinting-guidance/">https://w3c.github.io/fingerprinting-guidance/</a>
+   <dd>Nick Doty; Tom Ritter. <a href="https://w3c.github.io/fingerprinting-guidance/"><cite>Mitigating Browser Fingerprinting in Web Specifications</cite></a>. URL: <a href="https://w3c.github.io/fingerprinting-guidance/">https://w3c.github.io/fingerprinting-guidance/</a>
    <dt id="biblio-fullscreen">[FULLSCREEN]
    <dd>Philip Jägenstedt. <a href="https://fullscreen.spec.whatwg.org/"><cite>Fullscreen API Standard</cite></a>. Living Standard. URL: <a href="https://fullscreen.spec.whatwg.org/">https://fullscreen.spec.whatwg.org/</a>
    <dt id="biblio-gamepad">[GAMEPAD]
@@ -2048,7 +2048,7 @@ practices before the site prompted for location.</p>
    <dt id="biblio-rivera">[RIVERA]
    <dd>David Rivera. <a href="https://gist.github.com/jherax/a81c8c132d09cc354a0e2cb911841ff1"><cite>Detect if a browser is in Private Browsing mode</cite></a>. URL: <a href="https://gist.github.com/jherax/a81c8c132d09cc354a0e2cb911841ff1">https://gist.github.com/jherax/a81c8c132d09cc354a0e2cb911841ff1</a>
    <dt id="biblio-service-workers">[SERVICE-WORKERS]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers Nightly</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
    <dt id="biblio-timing">[TIMING]
    <dd>Paul Stone. <a href="http://www.contextis.com/documents/2/Browser_Timing_Attacks.pdf"><cite>Pixel Perfect Timing Attacks with HTML5</cite></a>. URL: <a href="http://www.contextis.com/documents/2/Browser_Timing_Attacks.pdf">http://www.contextis.com/documents/2/Browser_Timing_Attacks.pdf</a>
    <dt id="biblio-verizon">[VERIZON]
@@ -2058,7 +2058,7 @@ practices before the site prompted for location.</p>
    <dt id="biblio-webauthn">[WEBAUTHN]
    <dd>Dirk Balfanz; et al. <a href="https://w3c.github.io/webauthn/"><cite>Web Authentication:An API for accessing Public Key Credentials Level 1</cite></a>. URL: <a href="https://w3c.github.io/webauthn/">https://w3c.github.io/webauthn/</a>
    <dt id="biblio-webusb">[WEBUSB]
-   <dd><a href="https://wicg.github.io/webusb/"><cite>WebUSB API</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/webusb/">https://wicg.github.io/webusb/</a>
+   <dd><a href="https://wicg.github.io/webusb/"><cite>WebUSB API</cite></a>. Draft Community Group Report. URL: <a href="https://wicg.github.io/webusb/">https://wicg.github.io/webusb/</a>
    <dt id="biblio-wu-private-browsing">[WU-PRIVATE-BROWSING]
    <dd>Yuxi Wu; et al. <a href="https://dl.acm.org/citation.cfm?id=3186088"><cite>Your Secrets Are Safe: How Browsers' Explanations Impact Misconceptions About Private Browsing Mode</cite></a>. URL: <a href="https://dl.acm.org/citation.cfm?id=3186088">https://dl.acm.org/citation.cfm?id=3186088</a>
    <dt id="biblio-xhr">[XHR]

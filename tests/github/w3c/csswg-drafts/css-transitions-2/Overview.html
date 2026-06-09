@@ -1240,7 +1240,7 @@ Non-experimental implementations</span></a>
   <main>
    <h2 class="heading settled" data-level="1" id="delta"><span class="secno">1. </span><span class="content">Delta specification</span><a class="self-link" href="#delta"></a></h2>
    <p>This is a delta specification, meaning that it currently contains
-	only the differences from CSS Transitions Level 1 <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions">[CSS3-TRANSITIONS]</a>.
+	only the differences from CSS Transitions Level 1 <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions Module Level 1">[CSS3-TRANSITIONS]</a>.
 	Once the Level 1 specification is closer to complete, it will be merged
 	with the additions here into a complete level 2 specification.</p>
    <h2 class="heading settled" data-level="2" id="transitions"><span class="secno">2. </span><span class="content">Transitions</span><a class="self-link" href="#transitions"></a></h2>
@@ -1370,7 +1370,7 @@ are applied to the ‘Animation declarations’ level of the cascade.
    <h2 class="heading settled" data-level="5" id="transition-events"><span class="secno">5. </span><span class="content">Transition Events</span><a class="self-link" href="#transition-events"></a></h2>
    <h3 class="heading settled" data-level="5.1" id="event-dispatch"><span class="secno">5.1. </span><span class="content">Event dispatch</span><a class="self-link" href="#event-dispatch"></a></h3>
    <p class="note" role="note"><span class="marker">Note,</span> this is a more general description of event dispatch than that of CSS
-Transitions Level 1 <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions">[CSS3-TRANSITIONS]</a> since it must account for the
+Transitions Level 1 <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions Module Level 1">[CSS3-TRANSITIONS]</a> since it must account for the
 possibility of animations being seeked or reversed using the Web Animations API
 <a data-link-type="biblio" href="#biblio-web-animations" title="Web Animations">[WEB-ANIMATIONS]</a>. Furthermore, it is possible using the Web Animations API
 to substitute the transition effect with an entirely different effect with
@@ -1566,7 +1566,7 @@ recalculating the computed value of the <span class="property" id="ref-for-propd
 subsequently accessing the <code>opacity</code> property of the result will
 cause the user agent to recompute the value of opacity.</p>
     <p>After the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-opacity" id="ref-for-propdef-opacity②">opacity</a> property is updated a second time, the
-<code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations" id="ref-for-dom-animatable-getanimations">getAnimations()</a></code> method is called on <code>elem</code>.
+<code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations" id="ref-for-dom-animatable-getanimations">getAnimations()</a></code> method is called on <code>elem</code>.
 This method is specified by Web Animations and can return <code class="idl"><a data-link-type="idl" href="#csstransition" id="ref-for-csstransition①">CSSTransition</a></code>
 objects as defined in this specification.
 Hence, as result of the requirements in this section, the user agent must apply
@@ -1850,6 +1850,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="2ba3c642">current iteration</span>
      <li><span class="dfn-paneled" id="6e716cfa">current time</span>
      <li><span class="dfn-paneled" id="50122ec8">fill mode</span>
+     <li><span class="dfn-paneled" id="f2a0cd35">getAnimations()</span>
      <li><span class="dfn-paneled" id="7aed2fe1">global animation list</span>
      <li><span class="dfn-paneled" id="2b97b6de">idle play state</span>
      <li><span class="dfn-paneled" id="5f1a75d3">iteration duration</span>
@@ -1861,11 +1862,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="ec657208">target effect end</span>
      <li><span class="dfn-paneled" id="c35d7b6e">transformed progress</span>
      <li><span class="dfn-paneled" id="9be3bced">unresolved</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[WEB-ANIMATIONS-2]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="2fe418bd">getAnimations()</span>
     </ul>
    <li>
     <a data-link-type="biblio">[WEBIDL]</a> defines the following terms:
@@ -1883,7 +1879,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-easing-2">[CSS-EASING-2]
    <dd><a href="https://drafts.csswg.org/css-easing/"><cite>CSS Easing Functions Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-easing/">https://drafts.csswg.org/css-easing/</a>
    <dt id="biblio-css3-transitions">[CSS3-TRANSITIONS]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
    <dt id="biblio-cssom-1">[CSSOM-1]
    <dd>Daniel Glazman; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom/"><cite>CSS Object Model (CSSOM)</cite></a>. URL: <a href="https://drafts.csswg.org/cssom/">https://drafts.csswg.org/cssom/</a>
    <dt id="biblio-dom">[DOM]
@@ -1900,9 +1896,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
-   <dt id="biblio-web-animations-2">[WEB-ANIMATIONS-2]
-   <dd>Brian Birtles; Robert Flack. <a href="https://drafts.csswg.org/web-animations-2/"><cite>Web Animations Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-2/">https://drafts.csswg.org/web-animations-2/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="def highlight idl">[<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
@@ -2192,7 +2186,6 @@ let dfnPanelData = {
 "2b97b6de": {"dfnID":"2b97b6de","dfnText":"idle play state","external":true,"refSections":[{"refs":[{"id":"ref-for-idle-play-state"},{"id":"ref-for-idle-play-state\u2460"},{"id":"ref-for-idle-play-state\u2461"}],"title":"4.1. Animation composite order"}],"url":"https://drafts.csswg.org/web-animations/#idle-play-state"},
 "2ba3c642": {"dfnID":"2ba3c642","dfnText":"current iteration","external":true,"refSections":[{"refs":[{"id":"ref-for-current-iteration"}],"title":"5.1. Event dispatch"}],"url":"https://drafts.csswg.org/web-animations/#current-iteration"},
 "2eff47ba": {"dfnID":"2eff47ba","dfnText":"TransitionEvent","external":true,"refSections":[{"refs":[{"id":"ref-for-transitionevent"}],"title":"5.1. Event dispatch"}],"url":"https://drafts.csswg.org/css-transitions-1/#transitionevent"},
-"2fe418bd": {"dfnID":"2fe418bd","dfnText":"getAnimations()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animatable-getanimations"}],"title":"6.2. Requirements on pending style changes"}],"url":"https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations"},
 "328d4c84": {"dfnID":"328d4c84","dfnText":"elapsedTime","external":true,"refSections":[{"refs":[{"id":"ref-for-Events-TransitionEvent-elapsedTime"},{"id":"ref-for-Events-TransitionEvent-elapsedTime\u2460"}],"title":"5.1. Event dispatch"}],"url":"https://drafts.csswg.org/css-transitions-1/#Events-TransitionEvent-elapsedTime"},
 "337088c4": {"dfnID":"337088c4","dfnText":"running transition","external":true,"refSections":[{"refs":[{"id":"ref-for-running-transition"},{"id":"ref-for-running-transition\u2460"}],"title":"3. Starting of transitions"}],"url":"https://drafts.csswg.org/css-transitions-1/#running-transition"},
 "36fce97a": {"dfnID":"36fce97a","dfnText":"active time","external":true,"refSections":[{"refs":[{"id":"ref-for-active-time"}],"title":"5.1. Event dispatch"}],"url":"https://drafts.csswg.org/web-animations/#active-time"},
@@ -2235,6 +2228,7 @@ let dfnPanelData = {
 "elapsed-time": {"dfnID":"elapsed-time","dfnText":"Elapsed time","external":false,"refSections":[{"refs":[{"id":"ref-for-elapsed-time"}],"title":"5.1. Event dispatch"}],"url":"#elapsed-time"},
 "expanded-transition-property-name": {"dfnID":"expanded-transition-property-name","dfnText":"expanded transition property\nname","external":false,"refSections":[{"refs":[{"id":"ref-for-expanded-transition-property-name"}],"title":"4.1. Animation composite order"},{"refs":[{"id":"ref-for-expanded-transition-property-name\u2460"}],"title":"6.1. The CSSTransition interface"}],"url":"#expanded-transition-property-name"},
 "f12240f8": {"dfnID":"f12240f8","dfnText":"all","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-transition-property-all"}],"title":"2.1. The transition-property Property"}],"url":"https://drafts.csswg.org/css-transitions-1/#valdef-transition-property-all"},
+"f2a0cd35": {"dfnID":"f2a0cd35","dfnText":"getAnimations()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animatable-getanimations"}],"title":"6.2. Requirements on pending style changes"}],"url":"https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations"},
 "f4e8783b": {"dfnID":"f4e8783b","dfnText":"Animation","external":true,"refSections":[{"refs":[{"id":"ref-for-animation"}],"title":"4.1. Animation composite order"},{"refs":[{"id":"ref-for-animation\u2460"}],"title":"6.1. The CSSTransition interface"}],"url":"https://drafts.csswg.org/web-animations/#animation"},
 "f6d1b137": {"dfnID":"f6d1b137","dfnText":"style change event","external":true,"refSections":[{"refs":[{"id":"ref-for-style-change-event"}],"title":"3.2. The current transition generation"}],"url":"https://drafts.csswg.org/css-transitions-1/#style-change-event"},
 "fd037081": {"dfnID":"fd037081","dfnText":"completed transition","external":true,"refSections":[{"refs":[{"id":"ref-for-completed-transition"}],"title":"3. Starting of transitions"}],"url":"https://drafts.csswg.org/css-transitions-1/#completed-transition"},
@@ -2724,9 +2718,9 @@ let refsData = {
 "https://drafts.csswg.org/css-transitions-1/#valdef-transition-property-all": {"displayText":"all","export":true,"for_":["transition-property"],"level":"1","normative":true,"shortname":"css-transitions","spec":"css-transitions-1","status":"current","text":"all","type":"value","url":"https://drafts.csswg.org/css-transitions-1/#valdef-transition-property-all"},
 "https://drafts.csswg.org/cssom-1/#cssomstring": {"displayText":"CSSOMString","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSOMString","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle": {"displayText":"getComputedStyle(elt)","export":true,"for_":["Window"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"getComputedStyle(elt)","type":"method","url":"https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle"},
+"https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations": {"displayText":"getAnimations()","export":true,"for_":["Animatable"],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"getAnimations()","type":"method","url":"https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations"},
 "https://drafts.csswg.org/web-animations-1/#dom-animation-cancel": {"displayText":"cancel()","export":true,"for_":["Animation"],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"cancel()","type":"method","url":"https://drafts.csswg.org/web-animations-1/#dom-animation-cancel"},
 "https://drafts.csswg.org/web-animations-1/#transformed-progress": {"displayText":"transformed progress","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"transformed progress","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#transformed-progress"},
-"https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations": {"displayText":"getAnimations()","export":true,"for_":["Animatable"],"level":"2","normative":true,"shortname":"web-animations","spec":"web-animations-2","status":"current","text":"getAnimations()","type":"method","url":"https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations"},
 "https://drafts.csswg.org/web-animations/#active-duration": {"displayText":"active duration","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"active duration","type":"dfn","url":"https://drafts.csswg.org/web-animations/#active-duration"},
 "https://drafts.csswg.org/web-animations/#active-time": {"displayText":"active time","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"active time","type":"dfn","url":"https://drafts.csswg.org/web-animations/#active-time"},
 "https://drafts.csswg.org/web-animations/#animation": {"displayText":"animation","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"animation","type":"dfn","url":"https://drafts.csswg.org/web-animations/#animation"},

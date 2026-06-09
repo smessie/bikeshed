@@ -1250,7 +1250,7 @@ are only available within a <a data-link-type="dfn" href="https://html.spec.what
    <h4 class="heading settled" data-level="4.2.2" id="permissions-policy"><span class="secno">4.2.2. </span><span class="bs-old-id" id="feature-policy"></span><span class="bs-old-id" id="browsing-context"></span><span class="content">Permissions Policy</span><a class="self-link" href="#permissions-policy"></a></h4>
    <p>To avoid the privacy risk of sharing <a data-link-type="dfn" href="#sensor-reading" id="ref-for-sensor-reading⑦">sensor readings</a> with contexts unfamiliar
 to the user, <a data-link-type="dfn" href="#sensor-reading" id="ref-for-sensor-reading⑧">sensor readings</a> are only available for the
-<a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">documents</a> which are <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#allowed-to-use" id="ref-for-allowed-to-use">allowed to use</a> the <a data-link-type="dfn" href="https://w3c.github.io/webappsec-permissions-policy/#policy-controlled-feature" id="ref-for-policy-controlled-feature">policy-controlled features</a> for
+<a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">documents</a> which are <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#allowed-to-use" id="ref-for-allowed-to-use">allowed to use</a> the <a data-link-type="dfn" href="https://w3c.github.io/webappsec-permissions-policy/#policy-controlled-feature" id="ref-for-policy-controlled-feature">policy-controlled features</a> for
 the given <a data-link-type="dfn" href="#sensor-type" id="ref-for-sensor-type①">sensor type</a>. See <a data-link-type="biblio" href="#biblio-permissions-policy" title="Permissions Policy">[PERMISSIONS-POLICY]</a> for more details.</p>
    <h4 class="heading settled" data-level="4.2.3" id="focused-area"><span class="secno">4.2.3. </span><span class="bs-old-id" id="losing-focus"></span><span class="content">Focused Area</span><a class="self-link" href="#focused-area"></a></h4>
    <p><a data-link-type="dfn" href="#sensor-reading" id="ref-for-sensor-reading⑨">Sensor readings</a> are only available for <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document" id="ref-for-nav-document">active documents</a> whose
@@ -2790,7 +2790,7 @@ For example, the <code>Thermometer</code> interface should hold
 the <a data-link-type="dfn" href="#sensor-reading" id="ref-for-sensor-reading⑤②">sensor reading</a>’s value in
 a <code>temperature</code> attribute (and not a <code>value</code> or <code>temp</code> attribute).
 A good starting point for naming are the
-Quantities, Units, Dimensions and Data Types Ontologies <a data-link-type="biblio" href="#biblio-qudt" title="QUDT - Quantities, Units, Dimensions and Data Types Ontologies">[QUDT]</a>.</p>
+Quantities, Units, Dimensions and Data Types Ontologies <a data-link-type="biblio" href="#biblio-qudt" title="Quantities, Units, Dimensions and Types (QUDT)">[QUDT]</a>.</p>
    <h3 class="heading settled" data-level="10.3" id="unit"><span class="secno">10.3. </span><span class="content">Unit</span><a class="self-link" href="#unit"></a></h3>
    <p><a data-link-type="dfn" href="#extension-specification" id="ref-for-extension-specification①⓪">Extension specifications</a> must specify the unit of <a data-link-type="dfn" href="#sensor-reading" id="ref-for-sensor-reading⑤③">sensor readings</a>.</p>
    <p>As per the Technical Architecture Group’s (TAG) API Design Principles <a data-link-type="biblio" href="#biblio-api-design-principles" title="Web Platform Design Principles">[API-DESIGN-PRINCIPLES]</a>,
@@ -3381,7 +3381,7 @@ for their editorial input.</p>
      <li><span class="dfn-paneled" id="129bdae8">Event</span>
      <li><span class="dfn-paneled" id="44a7708c">EventInit</span>
      <li><span class="dfn-paneled" id="2bc0cdf4">EventTarget</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="805e780b">event</span>
      <li><span class="dfn-paneled" id="47cc5c96">event listener</span>
      <li><span class="dfn-paneled" id="5fd23811">fire an event</span>
@@ -3571,7 +3571,7 @@ for their editorial input.</p>
    <dt id="biblio-permissions-policy">[PERMISSIONS-POLICY]
    <dd>Ian Clelland. <a href="https://w3c.github.io/webappsec-permissions-policy/"><cite>Permissions Policy</cite></a>. URL: <a href="https://w3c.github.io/webappsec-permissions-policy/">https://w3c.github.io/webappsec-permissions-policy/</a>
    <dt id="biblio-permissions-request">[PERMISSIONS-REQUEST]
-   <dd><a href="https://wicg.github.io/permissions-request/"><cite>Requesting Permissions</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/permissions-request/">https://wicg.github.io/permissions-request/</a>
+   <dd><a href="https://wicg.github.io/permissions-request/"><cite>Requesting Permissions</cite></a>. Draft Community Group Report. URL: <a href="https://wicg.github.io/permissions-request/">https://wicg.github.io/permissions-request/</a>
    <dt id="biblio-proximity">[PROXIMITY]
    <dd>Anssi Kostiainen; Rijubrata Bhaumik. <a href="https://w3c.github.io/proximity/"><cite>Proximity Sensor</cite></a>. URL: <a href="https://w3c.github.io/proximity/">https://w3c.github.io/proximity/</a>
    <dt id="biblio-rfc2119">[RFC2119]
@@ -3586,7 +3586,7 @@ for their editorial input.</p>
    <dt id="biblio-accelprint">[ACCELPRINT]
    <dd>Dey, Sanorita, et al.. <a href="http://synrg.csl.illinois.edu/papers/AccelPrint_NDSS14.pdf"><cite>AccelPrint: Imperfections of Accelerometers Make Smartphones Trackable</cite></a>. 2014. Informational. URL: <a href="http://synrg.csl.illinois.edu/papers/AccelPrint_NDSS14.pdf">http://synrg.csl.illinois.edu/papers/AccelPrint_NDSS14.pdf</a>
    <dt id="biblio-api-design-principles">[API-DESIGN-PRINCIPLES]
-   <dd>Lea Verou. <a href="https://w3ctag.github.io/design-principles/"><cite>Web Platform Design Principles</cite></a>. URL: <a href="https://w3ctag.github.io/design-principles/">https://w3ctag.github.io/design-principles/</a>
+   <dd>Martin Thomson; Jeffrey Yasskin. <a href="https://w3ctag.github.io/design-principles/"><cite>Web Platform Design Principles</cite></a>. URL: <a href="https://w3ctag.github.io/design-principles/">https://w3ctag.github.io/design-principles/</a>
    <dt id="biblio-coordinates-transformation">[COORDINATES-TRANSFORMATION]
    <dd>George W. Collins, II. <a href="http://ads.harvard.edu/books/1989fcm..book/Chapter2.pdf"><cite>The Foundations of Celestial Mechanics</cite></a>. 2004. Informational. URL: <a href="http://ads.harvard.edu/books/1989fcm..book/Chapter2.pdf">http://ads.harvard.edu/books/1989fcm..book/Chapter2.pdf</a>
    <dt id="biblio-extennnnsible">[EXTENNNNSIBLE]
@@ -3606,11 +3606,11 @@ for their editorial input.</p>
    <dt id="biblio-powerful-features">[POWERFUL-FEATURES]
    <dd>Mike West. <a href="https://w3c.github.io/webappsec-secure-contexts/"><cite>Secure Contexts</cite></a>. URL: <a href="https://w3c.github.io/webappsec-secure-contexts/">https://w3c.github.io/webappsec-secure-contexts/</a>
    <dt id="biblio-qudt">[QUDT]
-   <dd>Ralph Hodgson; et al. <a href="http://www.qudt.org/"><cite>QUDT - Quantities, Units, Dimensions and Data Types Ontologies</cite></a>. 18 March 2014. URL: <a href="http://www.qudt.org/">http://www.qudt.org/</a>
+   <dd><a href="https://doi.org/10.25504/FAIRsharing.d3pqw7"><cite>Quantities, Units, Dimensions and Types (QUDT)</cite></a>. 2011. URL: <a href="https://doi.org/10.25504/FAIRsharing.d3pqw7">https://doi.org/10.25504/FAIRsharing.d3pqw7</a>
    <dt id="biblio-rfc6454">[RFC6454]
    <dd>A. Barth. <a href="https://www.rfc-editor.org/rfc/rfc6454"><cite>The Web Origin Concept</cite></a>. December 2011. Proposed Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc6454">https://www.rfc-editor.org/rfc/rfc6454</a>
    <dt id="biblio-security-privacy-questionnaire">[SECURITY-PRIVACY-QUESTIONNAIRE]
-   <dd>Theresa O'Connor; Peter Snyder. <a href="https://w3ctag.github.io/security-questionnaire/"><cite>Self-Review Questionnaire: Security and Privacy</cite></a>. URL: <a href="https://w3ctag.github.io/security-questionnaire/">https://w3ctag.github.io/security-questionnaire/</a>
+   <dd>Theresa O'Connor; Peter Snyder; Simone Onofri. <a href="https://w3c.github.io/security-questionnaire/"><cite>Self-Review Questionnaire: Security and Privacy</cite></a>. URL: <a href="https://w3c.github.io/security-questionnaire/">https://w3c.github.io/security-questionnaire/</a>
    <dt id="biblio-si">[SI]
    <dd><a href="http://www.bipm.org/en/publications/si-brochure/"><cite>SI Brochure: The International System of Units (SI), 8th edition</cite></a>. 2014. 8th Edition. URL: <a href="http://www.bipm.org/en/publications/si-brochure/">http://www.bipm.org/en/publications/si-brochure/</a>
    <dt id="biblio-stealingpinsviasensors">[STEALINGPINSVIASENSORS]
@@ -3945,7 +3945,7 @@ let dfnPanelData = {
 "a1894061": {"dfnID":"a1894061","dfnText":"no such window","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-no-such-window"}],"title":"9.2.1. Create mock sensor"},{"refs":[{"id":"ref-for-dfn-no-such-window\u2460"}],"title":"9.2.2. Get mock sensor"},{"refs":[{"id":"ref-for-dfn-no-such-window\u2461"}],"title":"9.2.3. Update mock sensor reading"},{"refs":[{"id":"ref-for-dfn-no-such-window\u2462"}],"title":"9.2.4. Delete mock sensor"}],"url":"https://w3c.github.io/webdriver/#dfn-no-such-window"},
 "a3b18719": {"dfnID":"a3b18719","dfnText":"append","external":true,"refSections":[{"refs":[{"id":"ref-for-set-append"}],"title":"8.4. Activate a sensor object"}],"url":"https://infra.spec.whatwg.org/#set-append"},
 "a72449dd": {"dfnID":"a72449dd","dfnText":"in parallel","external":true,"refSections":[{"refs":[{"id":"ref-for-in-parallel"}],"title":"7.1.7. Sensor.start()"},{"refs":[{"id":"ref-for-in-parallel\u2460"}],"title":"7.1.8. Sensor.stop()"},{"refs":[{"id":"ref-for-in-parallel\u2461"}],"title":"8.8. Update latest reading"},{"refs":[{"id":"ref-for-in-parallel\u2462"}],"title":"8.15. Request sensor access"},{"refs":[{"id":"ref-for-in-parallel\u2463"}],"title":"9.2.1. Create mock sensor"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"}],"title":"4.2.2. Permissions Policy"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"}],"title":"4.2.2. Permissions Policy"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "activate-a-sensor-object": {"dfnID":"activate-a-sensor-object","dfnText":"8.4. Activate a sensor object","external":false,"refSections":[{"refs":[{"id":"ref-for-activate-a-sensor-object"}],"title":"7.1.7. Sensor.start()"},{"refs":[{"id":"ref-for-activate-a-sensor-object"}],"title":"8.4. Activate a sensor object"}],"url":"#activate-a-sensor-object"},
 "activated-sensor-objects": {"dfnID":"activated-sensor-objects","dfnText":"activated sensor objects","external":false,"refSections":[{"refs":[{"id":"ref-for-activated-sensor-objects"},{"id":"ref-for-activated-sensor-objects\u2460"},{"id":"ref-for-activated-sensor-objects\u2461"},{"id":"ref-for-activated-sensor-objects\u2462"},{"id":"ref-for-activated-sensor-objects\u2463"}],"title":"6.2. Sensor"},{"refs":[{"id":"ref-for-activated-sensor-objects\u2464"}],"title":"8.4. Activate a sensor object"},{"refs":[{"id":"ref-for-activated-sensor-objects\u2465"},{"id":"ref-for-activated-sensor-objects\u2466"}],"title":"8.5. Deactivate a sensor object"},{"refs":[{"id":"ref-for-activated-sensor-objects\u2467"}],"title":"8.6. Revoke sensor permission"},{"refs":[{"id":"ref-for-activated-sensor-objects\u2468"}],"title":"8.7. Set sensor settings"},{"refs":[{"id":"ref-for-activated-sensor-objects\u2460\u24ea"}],"title":"8.8. Update latest reading"}],"url":"#activated-sensor-objects"},
 "ae8def21": {"dfnID":"ae8def21","dfnText":"contain","external":true,"refSections":[{"refs":[{"id":"ref-for-list-contain"}],"title":"6.1. Sensor Type"},{"refs":[{"id":"ref-for-list-contain\u2460"}],"title":"8.1. Initialize a sensor object"},{"refs":[{"id":"ref-for-list-contain\u2461"}],"title":"8.5. Deactivate a sensor object"},{"refs":[{"id":"ref-for-list-contain\u2462"}],"title":"9.2.4. Delete mock sensor"},{"refs":[{"id":"ref-for-list-contain\u2463"}],"title":"10.6. Definition Requirements"}],"url":"https://infra.spec.whatwg.org/#list-contain"},
@@ -4567,7 +4567,7 @@ let refsData = {
 "#update-latest-reading": {"displayText":"update latest reading","export":true,"for_":[],"level":"","normative":true,"shortname":"generic-sensor","spec":"generic-sensor","status":"local","text":"update latest reading","type":"dfn","url":"#update-latest-reading"},
 "https://dom.spec.whatwg.org#concept-event": {"displayText":"event","export":true,"for_":[],"level":"","normative":true,"shortname":"dom","spec":"dom","status":"anchor-block","text":"event","type":"dfn","url":"https://dom.spec.whatwg.org#concept-event"},
 "https://dom.spec.whatwg.org#concept-event-listener": {"displayText":"event listener","export":true,"for_":[],"level":"","normative":true,"shortname":"dom","spec":"dom","status":"anchor-block","text":"event listener","type":"dfn","url":"https://dom.spec.whatwg.org#concept-event-listener"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-event-fire": {"displayText":"fire an event","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"fire an event","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-event-fire"},
 "https://dom.spec.whatwg.org/#dictdef-eventinit": {"displayText":"EventInit","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"EventInit","type":"dictionary","url":"https://dom.spec.whatwg.org/#dictdef-eventinit"},
 "https://dom.spec.whatwg.org/#event": {"displayText":"Event","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Event","type":"interface","url":"https://dom.spec.whatwg.org/#event"},

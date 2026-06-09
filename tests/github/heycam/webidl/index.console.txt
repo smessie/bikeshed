@@ -28,6 +28,11 @@ Local references:
 spec:ecma-262; type:interface; for:ECMAScript; text:%Object.prototype%
 for-less references:
 spec:ecmascript; type:interface; for:/; text:%Object.prototype%
+LINE 5301:44: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 6951:10: Ambiguous for-less link for '%Array.prototype%', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:ecma-262; type:interface; for:ECMAScript; text:%Array.prototype%

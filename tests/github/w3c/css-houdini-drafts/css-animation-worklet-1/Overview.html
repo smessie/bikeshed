@@ -1056,7 +1056,7 @@ animation logic. It consists of:</p>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="stateful-animator-definition">stateful animator definition</dfn> is an <a data-link-type="dfn" href="#animator-definition" id="ref-for-animator-definition">animator definition</a> whose
 <a data-link-type="dfn" href="#animator-definition-stateful-flag" id="ref-for-animator-definition-stateful-flag">stateful flag</a> is <b>true</b>.</p>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="document-animator-definition">document animator definition</dfn> is a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#struct" id="ref-for-struct①">struct</a> which describes the information needed by
-the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> about the author defined custom animation. It consists of:</p>
+the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> about the author defined custom animation. It consists of:</p>
    <ul>
     <li data-md>
      <dl>
@@ -1067,7 +1067,7 @@ the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document"
    </ul>
    <h3 class="heading settled" data-level="3.4" id="registering-animator-definition"><span class="secno">3.4. </span><span class="content">Registering an Animator Definition</span><a class="self-link" href="#registering-animator-definition"></a></h3>
    
-The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a> has a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map">map</a> of <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="document-animator-definitions">document animator definitions</dfn>. The map gets populated
+The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a> has a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map">map</a> of <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="document-animator-definitions">document animator definitions</dfn>. The map gets populated
 when <code class="idl"><a data-link-type="idl" href="#dom-animationworkletglobalscope-registeranimator" id="ref-for-dom-animationworkletglobalscope-registeranimator①">registerAnimator(name, animatorCtor)</a></code> is called.
 
 
@@ -1126,7 +1126,7 @@ otherwise set <var>stateful</var> to be <b>true</b> and <var>stateFunc</var> to 
       <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task">Queue a task</a> to run the following steps:</p>
       <ol>
        <li data-md>
-        <p>Let <var>documentAnimatorDefinitions</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document②">document’s</a>
+        <p>Let <var>documentAnimatorDefinitions</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document②">document’s</a>
 <a data-link-type="dfn" href="#document-animator-definitions" id="ref-for-document-animator-definitions">document animator definitions</a> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map③">map</a>.</p>
        <li data-md>
         <p>Let <var>documentDefinition</var> be a new <a data-link-type="dfn" href="#document-animator-definition" id="ref-for-document-animator-definition">document animator definition</a> with:</p>
@@ -1520,7 +1520,7 @@ correspondence changes.</p>
     <p>Creates a new <code class="idl"><a data-link-type="idl" href="#workletanimation" id="ref-for-workletanimation②">WorkletAnimation</a></code> object using the following procedure:</p>
     <ol>
      <li data-md>
-      <p>Let <var>documentAnimatorDefinitions</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document③">document’s</a> <a data-link-type="dfn" href="#document-animator-definitions" id="ref-for-document-animator-definitions①">document animator
+      <p>Let <var>documentAnimatorDefinitions</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">document’s</a> <a data-link-type="dfn" href="#document-animator-definitions" id="ref-for-document-animator-definitions①">document animator
 definitions</a> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map④">map</a>.</p>
      <li data-md>
       <p>If <var>documentAnimatorDefinitions</var>[<var>animatorName</var>] does not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#map-exists" id="ref-for-map-exists②">exists</a>, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw③">throw</a> an
@@ -2313,7 +2313,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="85394472">Document</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -2369,7 +2369,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-css-transitions-1">[CSS-TRANSITIONS-1]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-cssom-1">[CSSOM-1]
@@ -2385,7 +2385,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-web-animations-1">[WEB-ANIMATIONS-1]
    <dd>Brian Birtles; et al. <a href="https://drafts.csswg.org/web-animations-1/"><cite>Web Animations</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-1/">https://drafts.csswg.org/web-animations-1/</a>
    <dt id="biblio-web-animations-2">[WEB-ANIMATIONS-2]
-   <dd>Brian Birtles; Robert Flack. <a href="https://drafts.csswg.org/web-animations-2/"><cite>Web Animations Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-2/">https://drafts.csswg.org/web-animations-2/</a>
+   <dd>Brian Birtles; Robert Flack. <a href="https://drafts.csswg.org/web-animations-2/"><cite>Web Animations Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-2/">https://drafts.csswg.org/web-animations-2/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
   </dl>
@@ -2714,7 +2714,7 @@ let dfnPanelData = {
 "a43c62be": {"dfnID":"a43c62be","dfnText":"CSS","external":true,"refSections":[{"refs":[{"id":"ref-for-namespacedef-css"}],"title":"2. Animation Worklet"}],"url":"https://drafts.csswg.org/cssom-1/#namespacedef-css"},
 "a4f1c52f": {"dfnID":"a4f1c52f","dfnText":"paused","external":true,"refSections":[{"refs":[{"id":"ref-for-paused"},{"id":"ref-for-paused\u2460"}],"title":"5.4. Web Animations Overrides"}],"url":"https://drafts.csswg.org/web-animations#paused"},
 "a5c91173": {"dfnID":"a5c91173","dfnText":"SameObject","external":true,"refSections":[{"refs":[{"id":"ref-for-SameObject"}],"title":"2. Animation Worklet"}],"url":"https://webidl.spec.whatwg.org/#SameObject"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"}],"title":"3.3. Animator Definition"},{"refs":[{"id":"ref-for-concept-document\u2460"},{"id":"ref-for-concept-document\u2461"}],"title":"3.4. Registering an Animator Definition"},{"refs":[{"id":"ref-for-concept-document\u2462"}],"title":"5.2. Creating a Worklet Animation"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"}],"title":"3.3. Animator Definition"},{"refs":[{"id":"ref-for-clone-a-node-document\u2460"},{"id":"ref-for-clone-a-node-document\u2461"}],"title":"3.4. Registering an Animator Definition"},{"refs":[{"id":"ref-for-clone-a-node-document\u2462"}],"title":"5.2. Creating a Worklet Animation"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "ac129361": {"dfnID":"ac129361","dfnText":"target property","external":true,"refSections":[{"refs":[{"id":"ref-for-target-property"}],"title":"5.3. Worklet Animation Timing and Sync Model"}],"url":"https://drafts.csswg.org/web-animations#target-property"},
 "animate-function": {"dfnID":"animate-function","dfnText":"animate function","external":false,"refSections":[{"refs":[{"id":"ref-for-animate-function"}],"title":"3.4. Registering an Animator Definition"},{"refs":[{"id":"ref-for-animate-function\u2460"}],"title":"4.2. Running Animators"}],"url":"#animate-function"},
 "animation-animator-name": {"dfnID":"animation-animator-name","dfnText":"animation animator name","external":false,"refSections":[{"refs":[{"id":"ref-for-animation-animator-name"}],"title":"5.2. Creating a Worklet Animation"},{"refs":[{"id":"ref-for-animation-animator-name\u2460"}],"title":"5.4. Web Animations Overrides"}],"url":"#animation-animator-name"},
@@ -3236,7 +3236,7 @@ let refsData = {
 "#workletgroupeffect": {"displayText":"WorkletGroupEffect","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-animation-worklet","spec":"css-animation-worklet-1","status":"local","text":"WorkletGroupEffect","type":"interface","url":"#workletgroupeffect"},
 "http://w3c.github.io/html/infrastructure.html#structureddeserialize": {"displayText":"structureddeserialize","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-animation-worklet","spec":"","status":"anchor-block","text":"structureddeserialize","type":"dfn","url":"http://w3c.github.io/html/infrastructure.html#structureddeserialize"},
 "http://w3c.github.io/html/infrastructure.html#structuredserialize": {"displayText":"structuredserialize","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-animation-worklet","spec":"","status":"anchor-block","text":"structuredserialize","type":"dfn","url":"http://w3c.github.io/html/infrastructure.html#structuredserialize"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#document": {"displayText":"Document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Document","type":"interface","url":"https://dom.spec.whatwg.org/#document"},
 "https://drafts.csswg.org/css-transitions-1/#transition-start-time": {"displayText":"start time","export":true,"for_":["transition"],"level":"1","normative":true,"shortname":"css-transitions","spec":"css-transitions-1","status":"current","text":"start time","type":"dfn","url":"https://drafts.csswg.org/css-transitions-1/#transition-start-time"},
 "https://drafts.csswg.org/css-values-4/#typedef-ident": {"displayText":"<ident>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<ident>","type":"type","url":"https://drafts.csswg.org/css-values-4/#typedef-ident"},

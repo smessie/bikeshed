@@ -23,6 +23,18 @@ https://w3c.github.io/mediacapture-main/#dfn-video
 -
 "video"
 "video"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-video
+
+1
+browsingContext.StartScreencastParameters
+-
+"video"
+"video"
 enum-value
 content-index
 content-index
@@ -43,6 +55,18 @@ snapshot
 https://www.w3.org/TR/mediacapture-streams/#dfn-video
 
 1
+-
+"video"
+"video"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-video
+
+1
+browsingContext.StartScreencastParameters
 -
 "videos"
 "videos"
@@ -79,6 +103,78 @@ https://www.w3.org/TR/webxr/#dom-xrreferencespacetype-viewer
 1
 1
 XRReferenceSpaceType
+-
+"viewport"
+"viewport"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextsetviewportparameters-viewport
+
+1
+browsingContext.SetViewportParameters
+-
+"viewport"
+"viewport"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextcapturescreenshotparameters-origin-viewport
+
+1
+browsingContext.CaptureScreenshotParameters/origin
+-
+"viewport"
+"viewport"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputorigin-viewport
+
+1
+input.Origin
+-
+"viewport"
+"viewport"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextsetviewportparameters-viewport
+
+1
+browsingContext.SetViewportParameters
+-
+"viewport"
+"viewport"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextcapturescreenshotparameters-origin-viewport
+
+1
+browsingContext.CaptureScreenshotParameters/origin
+-
+"viewport"
+"viewport"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputorigin-viewport
+
+1
+input.Origin
 -
 "viewport-capture"
 "viewport-capture"
@@ -177,9 +273,9 @@ XRVisibilityState
 'visual' media group
 'visual' media group
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#visual-media-group
 
@@ -190,20 +286,9 @@ https://drafts.csswg.org/css2/#visual-media-group
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/media.html#visual-media-group
-1
-1
--
-'visual' media group
-'visual' media group
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/media.html#visual-media-group
+https://www.w3.org/TR/CSS2/media.html#visual-media-group
 1
 1
 -
@@ -215,6 +300,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#selectordef-view-transition
+1
+1
+-
+::view-transition
+::view-transition
+selector
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#selectordef-view-transition
 1
 1
 -
@@ -243,11 +339,33 @@ https://drafts.csswg.org/css-view-transitions-1/#selectordef-view-transition-gro
 ::view-transition-group()
 ::view-transition-group()
 selector
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#selectordef-view-transition-group
+1
+1
+-
+::view-transition-group()
+::view-transition-group()
+selector
 css-view-transitions-1
 css-view-transitions
 1
 snapshot
 https://www.w3.org/TR/css-view-transitions-1/#selectordef-view-transition-group
+1
+1
+-
+::view-transition-group-children()
+::view-transition-group-children()
+selector
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#selectordef-view-transition-group-children
 1
 1
 -
@@ -259,6 +377,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#selectordef-view-transition-image-pair
+1
+1
+-
+::view-transition-image-pair()
+::view-transition-image-pair()
+selector
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#selectordef-view-transition-image-pair
 1
 1
 -
@@ -287,6 +416,17 @@ https://drafts.csswg.org/css-view-transitions-1/#selectordef-view-transition-new
 ::view-transition-new()
 ::view-transition-new()
 selector
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#selectordef-view-transition-new
+1
+1
+-
+::view-transition-new()
+::view-transition-new()
+selector
 css-view-transitions-1
 css-view-transitions
 1
@@ -309,6 +449,17 @@ https://drafts.csswg.org/css-view-transitions-1/#selectordef-view-transition-old
 ::view-transition-old()
 ::view-transition-old()
 selector
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#selectordef-view-transition-old
+1
+1
+-
+::view-transition-old()
+::view-transition-old()
+selector
 css-view-transitions-1
 css-view-transitions
 1
@@ -320,9 +471,9 @@ https://www.w3.org/TR/css-view-transitions-1/#selectordef-view-transition-old
 :visited
 :visited
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-visited
 1
@@ -366,20 +517,9 @@ https://html.spec.whatwg.org/multipage/semantics-other.html#selector-visited
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x29
-1
-1
--
-:visited
-:visited
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x29
+https://www.w3.org/TR/CSS2/selector.html#x29
 1
 1
 -
@@ -471,18 +611,6 @@ https://www.w3.org/TR/css-view-transitions-2/#at-view-transition-rule
 1
 1
 -
-VIEW_TRANSITION_RULE
-VIEW_TRANSITION_RULE
-const
-css-view-transitions-2
-css-view-transitions
-2
-snapshot
-https://www.w3.org/TR/css-view-transitions-2/#dom-cssrule-view_transition_rule
-1
-1
-CSSRule
--
 VibratePattern
 VibratePattern
 typedef
@@ -491,6 +619,17 @@ vibration
 1
 current
 https://w3c.github.io/vibration/#dom-vibratepattern
+1
+1
+-
+VibratePattern
+VibratePattern
+typedef
+vibration
+vibration
+1
+snapshot
+https://www.w3.org/TR/vibration/#dom-vibratepattern
 1
 1
 -
@@ -1553,22 +1692,22 @@ https://drafts.csswg.org/css-view-transitions-1/#viewtransition
 ViewTransition
 ViewTransition
 interface
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#viewtransition
+1
+1
+-
+ViewTransition
+ViewTransition
+interface
 css-view-transitions-1
 css-view-transitions
 1
 snapshot
 https://www.w3.org/TR/css-view-transitions-1/#viewtransition
-1
-1
--
-ViewTransitionNavigation
-ViewTransitionNavigation
-enum
-css-view-transitions-2
-css-view-transitions
-2
-snapshot
-https://www.w3.org/TR/css-view-transitions-2/#enumdef-viewtransitionnavigation
 1
 1
 -
@@ -1605,6 +1744,17 @@ https://drafts.csswg.org/css-view-transitions-1/#callbackdef-viewtransitionupdat
 1
 1
 -
+ViewTransitionUpdateCallback
+ViewTransitionUpdateCallback
+callback
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#callbackdef-viewtransitionupdatecallback
+1
+1
+-
 Viewport
 Viewport
 interface
@@ -1612,7 +1762,7 @@ css-viewport-1
 css-viewport
 1
 current
-https://drafts.csswg.org/css-viewport/#viewport%E2%91%A0
+https://drafts.csswg.org/css-viewport/#viewport
 1
 1
 -
@@ -1704,6 +1854,28 @@ https://www.w3.org/TR/webauthn-3/#virtual-authenticators
 
 1
 -
+virtual thing
+Virtual Thing
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-virtual-thing
+
+
+-
+virtual thing
+Virtual Thing
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-virtual-thing
+
+
+-
 VirtualKeyboard
 VirtualKeyboard
 interface
@@ -1762,7 +1934,7 @@ https://html.spec.whatwg.org/multipage/interaction.html#visibilitystateentry
 visit
 visit
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1773,11 +1945,33 @@ https://webaudio.github.io/web-audio-api/#visit
 visit
 visit
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#visit
+
+1
+-
+visit
+visit
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#visit
+https://www.w3.org/TR/webaudio-1.0/#visit
+
+1
+-
+visit
+visit
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#visit
 
 1
 -
@@ -1826,6 +2020,17 @@ cssom-view
 1
 current
 https://drafts.csswg.org/cssom-view-1/#visualviewport
+1
+1
+-
+VisualViewport
+VisualViewport
+interface
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#visualviewport
 1
 1
 -
@@ -2159,6 +2364,18 @@ https://w3c.github.io/vibration/#dom-navigator-vibrate
 1
 Navigator
 -
+vibrate()
+vibrate()
+method
+vibration
+vibration
+1
+snapshot
+https://www.w3.org/TR/vibration/#dom-navigator-vibrate
+1
+1
+Navigator
+-
 vibrate(pattern)
 vibrate(pattern)
 method
@@ -2170,6 +2387,40 @@ https://w3c.github.io/vibration/#dom-navigator-vibrate
 1
 1
 Navigator
+-
+vibrate(pattern)
+vibrate(pattern)
+method
+vibration
+vibration
+1
+snapshot
+https://www.w3.org/TR/vibration/#dom-navigator-vibrate
+1
+1
+Navigator
+-
+vibration actuator
+vibration actuator
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-vibration-actuator
+
+1
+-
+vibration actuator
+vibration actuator
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-vibration-actuator
+
+1
 -
 vibration pattern
 vibration pattern
@@ -2191,6 +2442,17 @@ vibration
 1
 current
 https://w3c.github.io/vibration/#dfn-vibration-pattern
+
+1
+-
+vibration pattern
+vibration pattern
+dfn
+vibration
+vibration
+1
+snapshot
+https://www.w3.org/TR/vibration/#dfn-vibration-pattern
 
 1
 -
@@ -2217,6 +2479,17 @@ https://www.w3.org/TR/gamepad/#dom-gamepad-vibrationactuator
 1
 1
 Gamepad
+-
+video
+video
+dfn
+css-image-animation-1
+css-image-animation
+1
+current
+https://drafts.csswg.org/css-image-animation-1/#video
+
+1
 -
 video
 video
@@ -2329,6 +2602,62 @@ DisplayMediaStreamOptions
 -
 video
 video
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-video
+
+
+-
+video
+video
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-video
+
+1
+-
+video
+video
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-video
+
+1
+browsingContext.StartScreencastParameters
+-
+video
+video
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-video
+
+
+-
+video
+video
+dfn
+css-image-animation-1
+css-image-animation
+1
+snapshot
+https://www.w3.org/TR/css-image-animation-1/#video
+
+1
+-
+video
+video
 dict-member
 media-capabilities
 media-capabilities
@@ -2374,6 +2703,29 @@ https://www.w3.org/TR/screen-capture/#dom-displaymediastreamoptions-video
 1
 1
 DisplayMediaStreamOptions
+-
+video
+video
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-video
+
+1
+-
+video
+video
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-video
+
+1
+browsingContext.StartScreencastParameters
 -
 video
 video
@@ -2424,6 +2776,30 @@ current
 https://wicg.github.io/video-rvfc/#video-frame-request-callback-identifier
 
 1
+-
+video track
+video track
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#screencast-stream-video-track
+
+1
+screencast stream
+-
+video track
+video track
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#screencast-stream-video-track
+
+1
+screencast stream
 -
 video-capture
 video-capture
@@ -2487,46 +2863,68 @@ https://www.w3.org/TR/mediaqueries-5/#descdef-media-video-dynamic-range
 video-encoding-offer
 video-encoding-offer
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#video-encoding-offer
+https://w3c.github.io/openscreenprotocol/application.html#video-encoding-offer
 
 1
 -
 video-encoding-offer
 video-encoding-offer
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#video-encoding-offer
+https://www.w3.org/TR/openscreen-application/#video-encoding-offer
 
 1
 -
 video-frame
 video-frame
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#video-frame
+https://w3c.github.io/openscreenprotocol/application.html#video-frame
 
 1
 -
 video-frame
 video-frame
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#video-frame
+https://www.w3.org/TR/openscreen-application/#video-frame
 
 1
+-
+video-only
+video-only
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-video-only
+
+
+-
+video-only
+video-only
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-video-only
+
+
 -
 video/mpeg
 video/mpeg
@@ -2920,7 +3318,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/linking.html#elementdef-view
+https://w3c.github.io/svgwg/svg2-draft/linking.html#elementdef-view
 1
 1
 -
@@ -2963,6 +3361,17 @@ https://w3c.github.io/uievents/#dom-uieventinit-view
 1
 1
 UIEventInit
+-
+view
+view
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-view
+
+1
 -
 view
 view
@@ -3014,6 +3423,17 @@ https://www.w3.org/TR/uievents/#dom-uieventinit-view
 1
 1
 UIEventInit
+-
+view
+view
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-view
+
+1
 -
 view
 view
@@ -3122,14 +3542,25 @@ https://streams.spec.whatwg.org/#pull-into-descriptor-view-constructor
 1
 pull-into descriptor
 -
-view offset
-view offset
+view geometry
+view geometry
 dfn
 webxr
 webxr
 1
 current
-https://immersive-web.github.io/webxr/#view-offset
+https://immersive-web.github.io/webxr/#view-geometry
+
+1
+-
+view geometry
+view geometry
+dfn
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#view-geometry
 
 1
 -
@@ -3139,10 +3570,23 @@ dfn
 webxr
 webxr
 1
-snapshot
-https://www.w3.org/TR/webxr/#view-offset
+current
+https://immersive-web.github.io/webxr/#view-geometry-view-offset
 
 1
+view geometry
+-
+view offset
+view offset
+dfn
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#view-geometry-view-offset
+
+1
+view geometry
 -
 view progress subject
 view progress subject
@@ -3202,6 +3646,17 @@ https://drafts.csswg.org/css-view-transitions-1/#view-transition-layer
 view transition layer
 view transition layer
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-layer
+
+1
+-
+view transition layer
+view transition layer
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -3224,6 +3679,17 @@ https://drafts.csswg.org/css-view-transitions-1/#view-transition-name
 view transition name
 view transition name
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-name
+
+1
+-
+view transition name
+view transition name
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -3240,6 +3706,28 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#view-transition-page-visibility-change-steps
+1
+1
+-
+view transition page-visibility change steps
+view transition page-visibility change steps
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-page-visibility-change-steps
+1
+1
+-
+view transition page-visibility change steps
+view transition page-visibility change steps
+dfn
+css-view-transitions-1
+css-view-transitions
+1
+snapshot
+https://www.w3.org/TR/css-view-transitions-1/#view-transition-page-visibility-change-steps
 1
 1
 -
@@ -3279,6 +3767,17 @@ https://drafts.csswg.org/css-view-transitions-1/#view-transition-pseudo-elements
 view transition pseudo-elements
 view transition pseudo-elements
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-pseudo-elements
+
+1
+-
+view transition pseudo-elements
+view transition pseudo-elements
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -3286,6 +3785,18 @@ snapshot
 https://www.w3.org/TR/css-view-transitions-1/#view-transition-pseudo-elements
 
 1
+-
+view transition scoping
+view transition scoping
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-scope-view-transition-scoping
+
+1
+view-transition-scope
 -
 view transition tree
 view transition tree
@@ -3295,6 +3806,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#view-transition-tree
+
+1
+-
+view transition tree
+view transition tree
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-tree
 
 1
 -
@@ -3317,6 +3839,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#view-transitions
+1
+1
+-
+view transitions
+view transitions
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transitions
 1
 1
 -
@@ -3384,23 +3917,11 @@ https://drafts.csswg.org/css-box-4/#valdef-box-view-box
 view-box
 view-box
 value
-css-transforms-1
-css-transforms
-1
-current
-https://drafts.csswg.org/css-transforms-1/#valdef-transform-box-view-box
-1
-1
-transform-box
--
-view-box
-view-box
-value
 css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-view-box
+https://drafts.csswg.org/css-masking-1/#valdef-clip-path-view-box
 1
 1
 clip-path
@@ -3412,7 +3933,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-view-box
+https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-view-box
 1
 1
 mask-clip
@@ -3424,10 +3945,22 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-view-box
+https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-view-box
 1
 1
 mask-origin
+-
+view-box
+view-box
+value
+css-transforms-1
+css-transforms
+1
+current
+https://drafts.csswg.org/css-transforms-1/#valdef-transform-box-view-box
+1
+1
+transform-box
 -
 view-box
 view-box
@@ -3626,6 +4159,17 @@ https://drafts.csswg.org/css-view-transitions-2/#propdef-view-transition-group
 1
 1
 -
+view-transition-group
+view-transition-group
+property
+css-view-transitions-2
+css-view-transitions
+2
+snapshot
+https://www.w3.org/TR/css-view-transitions-2/#propdef-view-transition-group
+1
+1
+-
 view-transition-name
 view-transition-name
 property
@@ -3640,11 +4184,33 @@ https://drafts.csswg.org/css-view-transitions-1/#propdef-view-transition-name
 view-transition-name
 view-transition-name
 property
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#propdef-view-transition-name
+1
+1
+-
+view-transition-name
+view-transition-name
+property
 css-view-transitions-1
 css-view-transitions
 1
 snapshot
 https://www.w3.org/TR/css-view-transitions-1/#propdef-view-transition-name
+1
+1
+-
+view-transition-scope
+view-transition-scope
+property
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#propdef-view-transition-scope
 1
 1
 -
@@ -3684,32 +4250,6 @@ KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg, cancelableArg, viewArg)
 KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg, cancelableArg)
 KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg)
 KeyboardEvent/initKeyboardEvent(typeArg)
--
-viewArg
-viewArg
-argument
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-viewarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
 -
 viewArg
 viewArg
@@ -3771,32 +4311,6 @@ uievents
 uievents
 1
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-viewarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-viewArg
-viewArg
-argument
-uievents
-uievents
-1
-snapshot
 https://www.w3.org/TR/uievents/#dom-uievent-inituievent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-viewarg
 1
 1
@@ -3813,7 +4327,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TermViewBox
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermViewBox
 1
 1
 svg
@@ -3825,7 +4339,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox
 1
 1
 SVGFitToViewBox
@@ -4131,9 +4645,9 @@ Window
 viewport
 viewport
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#viewport%E2%91%A0
 
@@ -4165,35 +4679,105 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-viewport
 viewport
 viewport
 dfn
-css2
-css
+epub-34
+epub
 1
 current
-https://www.w3.org/TR/CSS21/visuren.html#x1
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-viewport
 1
 1
+-
+viewport
+viewport
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-viewport
+
+
+-
+viewport
+viewport
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-viewport
+
+1
+-
+viewport
+viewport
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextsetviewportparameters-viewport
+
+1
+browsingContext.SetViewportParameters
+-
+viewport
+viewport
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextcapturescreenshotparameters-origin-viewport
+
+1
+browsingContext.CaptureScreenshotParameters/origin
+-
+viewport
+viewport
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputorigin-viewport
+
+1
+input.Origin
+-
+viewport
+viewport
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#viewport-configuration-viewport
+
+1
+viewport-configuration
 -
 viewport
 viewport
 dfn
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#x1
+https://www.w3.org/TR/CSS2/visuren.html#x1
 1
 1
 -
 viewport
 viewport
 dfn
-cssom-view-1
-cssom-view
+wcag22
+wcag
 1
 snapshot
-https://www.w3.org/TR/cssom-view-1/#viewport
+https://www.w3.org/TR/WCAG22/#dfn-viewport
 
-1
+
 -
 viewport
 viewport
@@ -4205,6 +4789,76 @@ snapshot
 https://www.w3.org/TR/epub-33/#dfn-viewport
 1
 1
+-
+viewport
+viewport
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-viewport
+1
+1
+-
+viewport
+viewport
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-viewport
+
+1
+-
+viewport
+viewport
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextsetviewportparameters-viewport
+
+1
+browsingContext.SetViewportParameters
+-
+viewport
+viewport
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextcapturescreenshotparameters-origin-viewport
+
+1
+browsingContext.CaptureScreenshotParameters/origin
+-
+viewport
+viewport
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputorigin-viewport
+
+1
+input.Origin
+-
+viewport
+viewport
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#viewport-configuration-viewport
+
+1
+viewport-configuration
 -
 viewport
 viewport
@@ -4229,6 +4883,28 @@ https://wicg.github.io/layout-instability/#viewport-base-distance
 1
 1
 -
+viewport configuration
+viewport configuration
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#viewport-configuration
+
+1
+-
+viewport configuration
+viewport configuration
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#viewport-configuration
+
+1
+-
 viewport coordinate system
 viewport coordinate system
 dfn
@@ -4236,7 +4912,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TermViewportCoordinateSystem
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermViewportCoordinateSystem
 1
 1
 -
@@ -4249,6 +4925,28 @@ svg
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#TermViewportCoordinateSystem
 1
+1
+-
+viewport dimensions
+viewport dimensions
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#viewport-dimensions
+
+1
+-
+viewport dimensions
+viewport dimensions
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#viewport-dimensions
+
 1
 -
 viewport modifiable
@@ -4275,6 +4973,28 @@ https://www.w3.org/TR/webxr/#view-viewport-modifiable
 1
 view
 -
+viewport overrides map
+viewport overrides map
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#viewport-overrides-map
+
+1
+-
+viewport overrides map
+viewport overrides map
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#viewport-overrides-map
+
+1
+-
 viewport-based selection
 viewport-based selection
 dfn
@@ -4288,15 +5008,14 @@ https://html.spec.whatwg.org/multipage/images.html#viewport-based-selection
 -
 viewport-fit
 viewport-fit
-descriptor
+dfn
 css-round-display-1
 css-round-display
 1
 current
-https://drafts.csswg.org/css-round-display-1/#descdef-viewport-viewport-fit
+https://drafts.csswg.org/css-round-display-1/#viewport-fit
 1
 1
-@viewport
 -
 viewport-fit
 viewport-fit
@@ -4366,6 +5085,18 @@ https://drafts.csswg.org/css-env-1/#valdef-env-viewport-segment-bottom
 1
 env()
 -
+viewport-segment-bottom
+viewport-segment-bottom
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-viewport-segment-bottom
+1
+1
+env()
+-
 viewport-segment-height
 viewport-segment-height
 value
@@ -4374,6 +5105,18 @@ css-env
 1
 current
 https://drafts.csswg.org/css-env-1/#valdef-env-viewport-segment-height
+1
+1
+env()
+-
+viewport-segment-height
+viewport-segment-height
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-viewport-segment-height
 1
 1
 env()
@@ -4390,6 +5133,18 @@ https://drafts.csswg.org/css-env-1/#valdef-env-viewport-segment-left
 1
 env()
 -
+viewport-segment-left
+viewport-segment-left
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-viewport-segment-left
+1
+1
+env()
+-
 viewport-segment-right
 viewport-segment-right
 value
@@ -4398,6 +5153,18 @@ css-env
 1
 current
 https://drafts.csswg.org/css-env-1/#valdef-env-viewport-segment-right
+1
+1
+env()
+-
+viewport-segment-right
+viewport-segment-right
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-viewport-segment-right
 1
 1
 env()
@@ -4414,6 +5181,18 @@ https://drafts.csswg.org/css-env-1/#valdef-env-viewport-segment-top
 1
 env()
 -
+viewport-segment-top
+viewport-segment-top
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-viewport-segment-top
+1
+1
+env()
+-
 viewport-segment-width
 viewport-segment-width
 value
@@ -4422,6 +5201,18 @@ css-env
 1
 current
 https://drafts.csswg.org/css-env-1/#valdef-env-viewport-segment-width
+1
+1
+env()
+-
+viewport-segment-width
+viewport-segment-width
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-viewport-segment-width
 1
 1
 env()
@@ -4481,7 +5272,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__viewportElement
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGElement__viewportElement
 1
 1
 SVGElement
@@ -4521,6 +5312,28 @@ https://immersive-web.github.io/webxr/#dom-xrviewerpose-views
 1
 1
 XRViewerPose
+-
+views
+views
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-view
+
+1
+-
+views
+views
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-view
+
+1
 -
 views
 views
@@ -4799,25 +5612,25 @@ https://www.w3.org/TR/css-text-4/#virtual-expandable-separator
 
 1
 -
-virtual masonry item
-virtual masonry item
+virtual grid item
+virtual grid item
 dfn
 css-grid-3
 css-grid
 3
 current
-https://drafts.csswg.org/css-grid-3/#virtual-masonry-item
+https://drafts.csswg.org/css-grid-3/#virtual-grid-item
 
 1
 -
-virtual masonry item
-virtual masonry item
+virtual grid item
+virtual grid item
 dfn
 css-grid-3
 css-grid
 3
 snapshot
-https://www.w3.org/TR/css-grid-3/#virtual-masonry-item
+https://www.w3.org/TR/css-grid-3/#virtual-grid-item
 
 1
 -
@@ -5048,9 +5861,9 @@ https://drafts.csswg.org/css-display-4/#propdef-visibility
 visibility
 visibility
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-visibility
 1
@@ -5192,31 +6005,9 @@ visibility
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visufx.html#propdef-visibility
-1
-1
--
-visibility
-visibility
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visufx.html#propdef-visibility
-1
-1
--
-visibility
-visibility
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visufx.html#propdef-visibility
+https://www.w3.org/TR/CSS2/visufx.html#propdef-visibility
 1
 1
 -
@@ -5228,6 +6019,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#propdef-visibility
+1
+1
+-
+visibility
+visibility
+property
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#propdef-visibility
 1
 1
 -
@@ -5324,6 +6126,18 @@ https://drafts.csswg.org/cssom-view-1/#dom-checkvisibilityoptions-visibilityprop
 1
 CheckVisibilityOptions
 -
+visibilityProperty
+visibilityProperty
+dict-member
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-checkvisibilityoptions-visibilityproperty
+1
+1
+CheckVisibilityOptions
+-
 visibilityState
 visibilityState
 attribute
@@ -5384,6 +6198,18 @@ https://www.w3.org/TR/webxr/#dom-xrsession-visibilitystate
 1
 XRSession
 -
+visibility_state
+visibility_state
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportbody-visibility_state
+
+1
+CrashReportBody
+-
 visibilitychange
 visibilitychange
 event
@@ -5416,6 +6242,30 @@ webxr
 1
 snapshot
 https://www.w3.org/TR/webxr/#eventdef-xrsession-visibilitychange
+1
+1
+XRSession
+-
+visibilitymaskchange
+visibilitymaskchange
+event
+webxr
+webxr
+1
+current
+https://immersive-web.github.io/webxr/#eventdef-xrsession-visibilitymaskchange
+1
+1
+XRSession
+-
+visibilitymaskchange
+visibilitymaskchange
+event
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#eventdef-xrsession-visibilitymaskchange
 1
 1
 XRSession
@@ -5473,9 +6323,9 @@ overflow-y
 visible
 visible
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-overflow-visible
 1
@@ -5485,9 +6335,9 @@ overflow
 visible
 visible
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-visibility-visible
 1
@@ -5585,6 +6435,18 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-visibility-visible
+1
+1
+visibility
+-
+visible
+visible
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-visibility-visible
 1
 1
 visibility
@@ -5815,21 +6677,32 @@ visited (pseudo-class)
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x29
+2
+snapshot
+https://www.w3.org/TR/CSS2/selector.html#x29
 1
 1
 -
-visited (pseudo-class)
-visited (pseudo-class)
+visual aids
+visual aids
 dfn
-css2
-css
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-visual-aids
+
+1
+-
+visual aids
+visual aids
+dfn
+wcag-3.0
+wcag
 1
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x29
-1
+https://www.w3.org/TR/wcag-3.0/#dfn-visual-aids
+
 1
 -
 visual angle unit
@@ -5879,9 +6752,9 @@ https://www.w3.org/TR/css-values-4/#visual-angle-unit
 visual formatting model
 visual formatting model
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#visual-formatting-model
 
@@ -5892,20 +6765,9 @@ visual formatting model
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#x0
-1
-1
--
-visual formatting model
-visual formatting model
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#x0
+https://www.w3.org/TR/CSS2/visuren.html#x0
 1
 1
 -
@@ -5931,6 +6793,17 @@ https://drafts.csswg.org/cssom-view-1/#visual-viewport
 
 1
 -
+visual viewport
+visual viewport
+dfn
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#visual-viewport
+
+1
+-
 visualViewport
 visualViewport
 attribute
@@ -5942,4 +6815,60 @@ https://drafts.csswg.org/cssom-view-1/#dom-window-visualviewport
 1
 1
 Window
+-
+visualViewport
+visualViewport
+attribute
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-window-visualviewport
+1
+1
+Window
+-
+visually collocated with
+visually collocated with
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-visually-collocated-with
+
+1
+-
+visually collocated with
+visually collocated with
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-visually-collocated-with
+
+1
+-
+visually customized
+visually customized
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-visually-customized
+
+
+-
+visually customized
+visually customized
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-visually-customized
+
+
 -

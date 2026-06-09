@@ -1,3 +1,51 @@
+"light"
+"light"
+enum-value
+css-color-adjust-1
+css-color-adjust
+1
+current
+https://drafts.csswg.org/css-color-adjust-1/#dom-forcedcolorsmodeautomationtheme-light
+1
+1
+ForcedColorsModeAutomationTheme
+-
+"light"
+"light"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationforcedcolorsmodetheme-light
+
+1
+emulation.ForcedColorsModeTheme
+-
+"light"
+"light"
+enum-value
+css-color-adjust-1
+css-color-adjust
+1
+snapshot
+https://www.w3.org/TR/css-color-adjust-1/#dom-forcedcolorsmodeautomationtheme-light
+1
+1
+ForcedColorsModeAutomationTheme
+-
+"light"
+"light"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationforcedcolorsmodetheme-light
+
+1
+emulation.ForcedColorsModeTheme
+-
 "line"
 "line"
 enum-value
@@ -118,6 +166,78 @@ https://www.w3.org/TR/webgpu/#dom-gpuprimitivetopology-line-strip
 1
 GPUPrimitiveTopology
 -
+"lineNumber"
+"lineNumber"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkinitiator-linenumber
+
+1
+network.Initiator
+-
+"lineNumber"
+"lineNumber"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptexceptiondetails-linenumber
+
+1
+script.ExceptionDetails
+-
+"lineNumber"
+"lineNumber"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptstackframe-linenumber
+
+1
+script.StackFrame
+-
+"lineNumber"
+"lineNumber"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkinitiator-linenumber
+
+1
+network.Initiator
+-
+"lineNumber"
+"lineNumber"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptexceptiondetails-linenumber
+
+1
+script.ExceptionDetails
+-
+"lineNumber"
+"lineNumber"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptstackframe-linenumber
+
+1
+script.StackFrame
+-
 "linear"
 "linear"
 enum-value
@@ -157,7 +277,19 @@ VideoTransferCharacteristics
 "linear"
 "linear"
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-distancemodeltype-linear
+1
+1
+DistanceModelType
+-
+"linear"
+"linear"
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -181,11 +313,23 @@ MLInterpolationMode
 "linear"
 "linear"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-distancemodeltype-linear
+https://www.w3.org/TR/webaudio-1.0/#dom-distancemodeltype-linear
+1
+1
+DistanceModelType
+-
+"linear"
+"linear"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-distancemodeltype-linear
 1
 1
 DistanceModelType
@@ -241,9 +385,9 @@ MLInterpolationMode
 :link
 :link
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-link
 1
@@ -287,20 +431,9 @@ https://html.spec.whatwg.org/multipage/semantics-other.html#selector-link
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x26
-1
-1
--
-:link
-:link
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x26
+https://www.w3.org/TR/CSS2/selector.html#x26
 1
 1
 -
@@ -326,6 +459,61 @@ https://www.w3.org/TR/selectors-4/#link-pseudo
 1
 1
 -
+:link-to()
+:link-to()
+selector
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#link-to-pseudo
+1
+1
+-
+<light-dark-color>
+<light-dark-color>
+type
+css-color-5
+css-color
+5
+current
+https://drafts.csswg.org/css-color-5/#typedef-light-dark-color
+1
+1
+-
+<light-dark-color>
+<light-dark-color>
+type
+css-color-5
+css-color
+5
+snapshot
+https://www.w3.org/TR/css-color-5/#typedef-light-dark-color
+1
+1
+-
+<light-dark-image>
+<light-dark-image>
+type
+css-color-5
+css-color
+5
+current
+https://drafts.csswg.org/css-color-5/#typedef-light-dark-image
+1
+1
+-
+<light-dark-image>
+<light-dark-image>
+type
+css-color-5
+css-color
+5
+snapshot
+https://www.w3.org/TR/css-color-5/#typedef-light-dark-image
+1
+1
+-
 <limit/>
 <limit/>
 dfn
@@ -348,14 +536,70 @@ https://www.w3.org/TR/mathml4/#contm_limit
 
 1
 -
+<line-color-list>
+<line-color-list>
+type
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#typedef-line-color-list
+1
+1
+-
+<line-color-list>
+<line-color-list>
+type
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#typedef-line-color-list
+1
+1
+-
+<line-color-or-repeat>
+<line-color-or-repeat>
+type
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#typedef-line-color-or-repeat
+1
+1
+-
+<line-color-or-repeat>
+<line-color-or-repeat>
+type
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#typedef-line-color-or-repeat
+1
+1
+-
 <line-command>
 <line-command>
 type
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#typedef-shape-line-command
+https://drafts.csswg.org/css-shapes-1/#typedef-shape-line-command
+1
+1
+shape()
+-
+<line-command>
+<line-command>
+type
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#typedef-shape-line-command
 1
 1
 shape()
@@ -426,6 +670,50 @@ https://www.w3.org/TR/css-grid-2/#typedef-line-names
 1
 1
 -
+<line-style-list>
+<line-style-list>
+type
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list
+1
+1
+-
+<line-style-list>
+<line-style-list>
+type
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#typedef-line-style-list
+1
+1
+-
+<line-style-or-repeat>
+<line-style-or-repeat>
+type
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#typedef-line-style-or-repeat
+1
+1
+-
+<line-style-or-repeat>
+<line-style-or-repeat>
+type
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#typedef-line-style-or-repeat
+1
+1
+-
 <line-style>
 <line-style>
 type
@@ -440,11 +728,77 @@ https://drafts.csswg.org/css-backgrounds-3/#typedef-line-style
 <line-style>
 <line-style>
 type
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#typedef-line-style
+1
+1
+-
+<line-style>
+<line-style>
+type
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#typedef-line-style
+1
+1
+-
+<line-style>
+<line-style>
+type
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#typedef-line-style
+1
+1
+-
+<line-width-list>
+<line-width-list>
+type
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list
+1
+1
+-
+<line-width-list>
+<line-width-list>
+type
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#typedef-line-width-list
+1
+1
+-
+<line-width-or-repeat>
+<line-width-or-repeat>
+type
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#typedef-line-width-or-repeat
+1
+1
+-
+<line-width-or-repeat>
+<line-width-or-repeat>
+type
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#typedef-line-width-or-repeat
 1
 1
 -
@@ -462,11 +816,33 @@ https://drafts.csswg.org/css-backgrounds-3/#typedef-line-width
 <line-width>
 <line-width>
 type
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#typedef-line-width
+1
+1
+-
+<line-width>
+<line-width>
+type
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#typedef-line-width
+1
+1
+-
+<line-width>
+<line-width>
+type
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#typedef-line-width
 1
 1
 -
@@ -613,6 +989,17 @@ https://www.w3.org/TR/css-images-3/#typedef-linear-gradient-syntax
 1
 1
 -
+<linear-gradient-syntax>
+<linear-gradient-syntax>
+type
+css-images-4
+css-images
+4
+snapshot
+https://www.w3.org/TR/css-images-4/#typedef-linear-gradient-syntax
+1
+1
+-
 <linear-stop-length>
 <linear-stop-length>
 type
@@ -645,29 +1032,6 @@ snapshot
 https://www.w3.org/TR/css-easing-2/#typedef-linear-stop
 1
 1
--
-<link-param>
-<link-param>
-type
-css-link-params-1
-css-link-params
-1
-current
-https://drafts.csswg.org/css-link-params-1/#typedef-link-param
-1
-1
--
-<link-param>+
-<link-param>+
-value
-css-link-params-1
-css-link-params
-1
-current
-https://drafts.csswg.org/css-link-params-1/#valdef-none-link-param
-1
-1
-none
 -
 <list>
 <list>
@@ -720,7 +1084,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#licensing-commitment
+https://www.w3.org/policies/patent-policy/#licensing-commitment
 
 1
 -
@@ -769,6 +1133,30 @@ snapshot
 https://www.w3.org/TR/miniapp-lifecycle/#dom-lifecycleerror
 1
 
+-
+lifetime
+lifetime
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-lifetime
+
+1
+impression
+-
+lifetime
+lifetime
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-lifetime
+
+1
+impression
 -
 limit maximum sampling frequency
 limit maximum sampling frequency
@@ -902,6 +1290,39 @@ https://www.w3.org/TR/webvtt1/#typedefdef-lineandpositionsetting
 1
 1
 -
+linecontinuation
+LineContinuation
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-LineContinuation
+
+1
+-
+lineterminator
+LineTerminator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-LineTerminator
+
+1
+-
+lineterminatorsequence
+LineTerminatorSequence
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-LineTerminatorSequence
+
+1
+-
 linear acceleration sensor
 Linear Acceleration Sensor
 dfn
@@ -921,6 +1342,50 @@ accelerometer
 1
 snapshot
 https://www.w3.org/TR/accelerometer/#linear-acceleration-sensor-sensor-type
+
+1
+-
+linear white-space
+Linear White-Space
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-linear-white-space
+
+1
+-
+linear white-space
+Linear White-Space
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-linear-white-space
+
+1
+-
+linear white-space
+Linear White-Space
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-linear-white-space
+
+1
+-
+linear white-space
+Linear White-Space
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-linear-white-space
 
 1
 -
@@ -1060,6 +1525,18 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 1
 Cyclic Module Records
+-
+Link()
+Link()
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-smr-Link
+1
+1
+Synthetic Module Records
 -
 LinkError
 LinkError
@@ -1209,6 +1686,17 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-list
 1
 ECMAScript
 -
+list of error codes
+List of Error Codes
+dfn
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#list-of-error-codes
+
+1
+-
 list of webvtt node objects
 List of WebVTT Node Objects
 dfn
@@ -1276,6 +1764,17 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-list
 1
 ECMAScript
 -
+literal
+literal
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Literal
+
+1
+-
 literal term equality
 literal term equality
 dfn
@@ -1295,6 +1794,17 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-literal-term-equality
+
+1
+-
+literalpropertyname
+LiteralPropertyName
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LiteralPropertyName
 
 1
 -
@@ -1318,17 +1828,6 @@ wai-aria
 current
 https://w3c.github.io/aria/#dfn-live-region
 1
-
--
-live region
-Live Region
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-live-region
-
 
 -
 live region
@@ -1491,7 +1990,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#liaison
+https://www.w3.org/policies/process/#liaison
 1
 1
 -
@@ -1782,29 +2281,53 @@ https://www.w3.org/TR/FileAPI/#lifeTime
 1
 blob url
 -
-lifetimeMs
-lifetimeMs
-dict-member
-turtledove
-turtledove
+lifetime-days
+lifetime-days
+dfn
+attribution
+attribution
 1
 current
-https://wicg.github.io/turtledove/#dom-auctionadinterestgroup-lifetimems
+https://w3c.github.io/attribution/#save-impression-lifetime-days
+
 1
-1
-AuctionAdInterestGroup
+save-impression
 -
-lifetimeRemainingMs
-lifetimeRemainingMs
+lifetime-days
+lifetime-days
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#save-impression-lifetime-days
+
+1
+save-impression
+-
+lifetimeDays
+lifetimeDays
 dict-member
-turtledove
-turtledove
+attribution
+attribution
 1
 current
-https://wicg.github.io/turtledove/#dom-storageinterestgroup-lifetimeremainingms
+https://w3c.github.io/attribution/#dom-attributionimpressionoptions-lifetimedays
 1
 1
-StorageInterestGroup
+AttributionImpressionOptions
+-
+lifetimeDays
+lifetimeDays
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionimpressionoptions-lifetimedays
+1
+1
+AttributionImpressionOptions
 -
 light
 light
@@ -1856,6 +2379,18 @@ https://drafts.csswg.org/mediaqueries-5/#valdef-media-prefers-color-scheme-light
 -
 light
 light
+value
+mediaqueries-5
+mediaqueries
+5
+current
+https://drafts.csswg.org/mediaqueries-5/#valdef-media-ua-color-scheme-light
+1
+1
+@media/ua-color-scheme
+-
+light
+light
 dfn
 miniapp-manifest
 miniapp-manifest
@@ -1877,6 +2412,18 @@ https://w3c.github.io/miniapp-manifest/#dfn-light-0
 
 1
 background text style values
+-
+light
+light
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationforcedcolorsmodetheme-light
+
+1
+emulation.ForcedColorsModeTheme
 -
 light
 light
@@ -1950,6 +2497,18 @@ https://www.w3.org/TR/miniapp-manifest/#dfn-light-0
 1
 background text style values
 -
+light
+light
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationforcedcolorsmodetheme-light
+
+1
+emulation.ForcedColorsModeTheme
+-
 light color scheme
 light color scheme
 dfn
@@ -1972,6 +2531,17 @@ https://www.w3.org/TR/css-color-adjust-1/#light-color-scheme
 1
 1
 -
+light dismiss open dialogs
+light dismiss open dialogs
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#light-dismiss-open-dialogs
+
+1
+-
 light dismiss open popovers
 light dismiss open popovers
 dfn
@@ -1990,7 +2560,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#light-source
+https://drafts.csswg.org/filter-effects-1/#light-source
 
 1
 -
@@ -2261,7 +2831,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#valdef-blend-mode-lighten
+https://drafts.csswg.org/compositing-1/#valdef-blend-mode-lighten
 1
 1
 <blend-mode>
@@ -2273,7 +2843,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-lighten
+https://drafts.csswg.org/compositing-2/#valdef-blend-mode-lighten
 1
 1
 <blend-mode>
@@ -2292,6 +2862,17 @@ https://www.w3.org/TR/compositing-1/#valdef-blend-mode-lighten
 -
 lighter
 lighter
+dfn
+compositing-2
+compositing
+2
+current
+https://drafts.csswg.org/compositing-2/#lighter
+
+1
+-
+lighter
+lighter
 value
 css-fonts-4
 css-fonts
@@ -2305,9 +2886,9 @@ font-weight
 lighter
 lighter
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-font-weight-lighter
 1
@@ -2316,23 +2897,12 @@ font-weight
 -
 lighter
 lighter
-dfn
-compositing-2
-compositing
-2
-current
-https://drafts.fxtf.org/compositing-2/#lighter
-
-1
--
-lighter
-lighter
 attr-value
 filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-fecomposite-operator-lighter
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-fecomposite-operator-lighter
 1
 1
 feComposite/operator
@@ -2560,7 +3130,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#propdef-lighting-color
+https://drafts.csswg.org/filter-effects-1/#propdef-lighting-color
 1
 1
 -
@@ -2986,9 +3556,9 @@ https://drafts.csswg.org/css-color-4/#valdef-color-lime
 lime
 lime
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-color-lime
 1
@@ -3081,30 +3651,6 @@ https://gpuweb.github.io/gpuweb/#limit
 limit
 limit
 dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-scopes-limit
-
-1
-attribution scopes
--
-limit
-limit
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-limit
-
-1
-source-registration JSON key
--
-limit
-limit
-dfn
 webgpu
 webgpu
 1
@@ -3132,6 +3678,28 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#limit-class
+
+1
+-
+limit expression
+limit expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-limit-expression
+
+1
+-
+limit expression
+limit expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-limit-expression
 
 1
 -
@@ -3330,7 +3898,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfespotlightelement-limitingconeangle
+https://drafts.csswg.org/filter-effects-1/#dom-svgfespotlightelement-limitingconeangle
 1
 1
 SVGFESpotLightElement
@@ -3342,7 +3910,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fespotlight-limitingconeangle
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespotlight-limitingconeangle
 1
 1
 feSpotLight
@@ -3434,11 +4002,11 @@ footnote-policy
 line
 line
 value
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#valdef-shape-line
+https://drafts.csswg.org/css-shapes-1/#valdef-shape-line
 1
 1
 shape()
@@ -3463,7 +4031,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/shapes.html#elementdef-line
+https://w3c.github.io/svgwg/svg2-draft/shapes.html#elementdef-line
 1
 1
 -
@@ -3529,6 +4097,18 @@ BreakType
 line
 line
 value
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#valdef-shape-line
+1
+1
+shape()
+-
+line
+line
+value
 css-text-4
 css-text
 4
@@ -3565,9 +4145,9 @@ https://drafts.csswg.org/css-inline-3/#line-box
 line box
 line box
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#line-box
 
@@ -3580,7 +4160,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermLineBox
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermLineBox
 
 1
 -
@@ -3589,20 +4169,9 @@ line box
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#line-box
-1
-1
--
-line box
-line box
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#line-box
+https://www.w3.org/TR/CSS2/visuren.html#line-box
 1
 1
 -
@@ -3822,7 +4391,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#line-join-shape
+https://drafts.csswg.org/fill-stroke-3/#line-join-shape
 1
 1
 -
@@ -3844,7 +4413,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#TermLineJoinShape
+https://w3c.github.io/svgwg/svg2-draft/painting.html#TermLineJoinShape
 1
 1
 -
@@ -4005,6 +4574,18 @@ https://www.w3.org/TR/CSP3/#violation-line-number
 1
 violation
 -
+line number
+line number
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#stackframe-line-number
+
+1
+stackframe
+-
 line orientation
 line orientation
 dfn
@@ -4082,6 +4663,17 @@ https://www.w3.org/TR/mathml-core/#dfn-line-ascent
 
 1
 -
+line-based clamp point
+line-based clamp point
+dfn
+css-overflow-4
+css-overflow
+4
+current
+https://drafts.csswg.org/css-overflow-4/#line-based-clamp-point
+
+1
+-
 line-break
 line-break
 property
@@ -4145,6 +4737,17 @@ css-overflow
 4
 snapshot
 https://www.w3.org/TR/css-overflow-4/#propdef-line-clamp
+1
+1
+-
+line-clamp container
+line-clamp container
+dfn
+css-overflow-4
+css-overflow
+4
+current
+https://drafts.csswg.org/css-overflow-4/#line-clamp-container
 1
 1
 -
@@ -4252,6 +4855,18 @@ https://drafts.csswg.org/css-fonts-5/#descdef-font-face-line-gap-override
 -
 line-gap-override
 line-gap-override
+attribute
+css-fonts-5
+css-fonts
+5
+current
+https://drafts.csswg.org/css-fonts-5/#dom-cssfontfacedescriptors-line-gap-override
+1
+1
+CSSFontFaceDescriptors
+-
+line-gap-override
+line-gap-override
 descriptor
 css-fonts-4
 css-fonts
@@ -4264,6 +4879,18 @@ https://www.w3.org/TR/css-fonts-4/#descdef-font-face-line-gap-override
 -
 line-gap-override
 line-gap-override
+attribute
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#dom-cssfontfacedescriptors-line-gap-override
+1
+1
+CSSFontFaceDescriptors
+-
+line-gap-override
+line-gap-override
 descriptor
 css-fonts-5
 css-fonts
@@ -4273,6 +4900,18 @@ https://www.w3.org/TR/css-fonts-5/#descdef-font-face-line-gap-override
 1
 1
 @font-face
+-
+line-gap-override
+line-gap-override
+attribute
+css-fonts-5
+css-fonts
+5
+snapshot
+https://www.w3.org/TR/css-fonts-5/#dom-cssfontfacedescriptors-line-gap-override
+1
+1
+CSSFontFaceDescriptors
 -
 line-grid
 line-grid
@@ -4310,9 +4949,9 @@ https://drafts.csswg.org/css-inline-3/#propdef-line-height
 line-height
 line-height
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-line-height
 1
@@ -4323,31 +4962,9 @@ line-height
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height
-1
-1
--
-line-height
-line-height
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height
-1
-1
--
-line-height
-line-height
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visudet.html#propdef-line-height
+https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height
 1
 1
 -
@@ -4427,18 +5044,6 @@ snapshot
 https://www.w3.org/TR/css-writing-modes-4/#line-left
 1
 1
--
-line-left
-line-left
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-positionalignsetting-line-left
-1
-1
-PositionAlignSetting
 -
 line-left offset
 line-left offset
@@ -4682,18 +5287,6 @@ https://www.w3.org/TR/css-writing-modes-4/#line-right
 1
 1
 -
-line-right
-line-right
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-positionalignsetting-line-right
-1
-1
-PositionAlignSetting
--
 line-snap
 line-snap
 property
@@ -4743,9 +5336,9 @@ text-decoration-line
 line-through
 line-through
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-text-decoration-line-through
 1
@@ -4819,6 +5412,18 @@ snapshot
 https://www.w3.org/TR/css-writing-modes-4/#line-under
 1
 1
+-
+line-width
+line-width
+value
+css-values-4
+css-values
+4
+current
+https://drafts.csswg.org/css-values-4/#valdef-rounding-strategy-line-width
+1
+1
+<rounding-strategy>
 -
 lineAlign
 lineAlign
@@ -4907,6 +5512,18 @@ CSSFontFaceDescriptors
 lineGapOverride
 lineGapOverride
 attribute
+css-fonts-5
+css-fonts
+5
+current
+https://drafts.csswg.org/css-fonts-5/#dom-cssfontfacedescriptors-linegapoverride
+1
+1
+CSSFontFaceDescriptors
+-
+lineGapOverride
+lineGapOverride
+attribute
 css-font-loading-3
 css-font-loading
 3
@@ -4927,6 +5544,30 @@ https://www.w3.org/TR/css-font-loading-3/#dom-fontfacedescriptors-linegapoverrid
 1
 1
 FontFaceDescriptors
+-
+lineGapOverride
+lineGapOverride
+attribute
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#dom-cssfontfacedescriptors-linegapoverride
+1
+1
+CSSFontFaceDescriptors
+-
+lineGapOverride
+lineGapOverride
+attribute
+css-fonts-5
+css-fonts
+5
+snapshot
+https://www.w3.org/TR/css-fonts-5/#dom-cssfontfacedescriptors-linegapoverride
+1
+1
+CSSFontFaceDescriptors
 -
 lineJoin
 lineJoin
@@ -4966,7 +5607,7 @@ GPUCompilationMessage
 -
 lineNumber
 lineNumber
-attribute
+dict-member
 csp3
 csp
 3
@@ -5024,6 +5665,42 @@ https://w3c.github.io/webappsec-permissions-policy/#permissionspolicyviolationre
 1
 PermissionsPolicyViolationReportBody
 -
+lineNumber
+lineNumber
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkinitiator-linenumber
+
+1
+network.Initiator
+-
+lineNumber
+lineNumber
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptexceptiondetails-linenumber
+
+1
+script.ExceptionDetails
+-
+lineNumber
+lineNumber
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptstackframe-linenumber
+
+1
+script.StackFrame
+-
 linenumber
 lineNumber
 dfn
@@ -5074,7 +5751,7 @@ InterventionReportBody
 -
 lineNumber
 lineNumber
-attribute
+dict-member
 csp3
 csp
 3
@@ -5131,6 +5808,42 @@ https://www.w3.org/TR/permissions-policy-1/#permissionspolicyviolationreportbody
 
 1
 PermissionsPolicyViolationReportBody
+-
+lineNumber
+lineNumber
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkinitiator-linenumber
+
+1
+network.Initiator
+-
+lineNumber
+lineNumber
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptexceptiondetails-linenumber
+
+1
+script.ExceptionDetails
+-
+lineNumber
+lineNumber
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptstackframe-linenumber
+
+1
+script.StackFrame
 -
 linePos
 linePos
@@ -5199,7 +5912,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-type-linear
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-type-linear
 1
 1
 type
@@ -5231,7 +5944,7 @@ VideoTransferCharacteristics
 linear
 linear
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5239,6 +5952,30 @@ https://webaudio.github.io/web-audio-api/#dom-distancemodeltype-linear
 1
 1
 DistanceModelType
+-
+linear
+linear
+enum-value
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-distancemodeltype-linear
+1
+1
+DistanceModelType
+-
+linear
+linear
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlinterpolationmode-linear
+1
+1
+MLInterpolationMode
 -
 linear
 linear
@@ -5303,11 +6040,23 @@ type
 linear
 linear
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-distancemodeltype-linear
+https://www.w3.org/TR/webaudio-1.0/#dom-distancemodeltype-linear
+1
+1
+DistanceModelType
+-
+linear
+linear
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-distancemodeltype-linear
 1
 1
 DistanceModelType
@@ -5326,6 +6075,18 @@ VideoTransferCharacteristics
 -
 linear
 linear
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlinterpolationmode-linear
+1
+1
+MLInterpolationMode
+-
+linear
+linear
 dict-member
 webnn
 webnn
@@ -5339,7 +6100,7 @@ MLOpSupportLimits
 linear pcm
 linear PCM
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5350,11 +6111,33 @@ https://webaudio.github.io/web-audio-api/#linear-pcm
 linear pcm
 linear PCM
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#linear-pcm
+
+1
+-
+linear pcm
+linear PCM
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#linear-pcm
+https://www.w3.org/TR/webaudio-1.0/#linear-pcm
+
+1
+-
+linear pcm
+linear PCM
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#linear-pcm
 
 1
 -
@@ -5427,7 +6210,7 @@ https://www.w3.org/TR/css-easing-2/#linear-easing-point
 linear gain unit to decibel
 linear gain unit to decibel
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5438,11 +6221,33 @@ https://webaudio.github.io/web-audio-api/#linear-to-decibel
 linear gain unit to decibel
 linear gain unit to decibel
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#linear-to-decibel
+
+1
+-
+linear gain unit to decibel
+linear gain unit to decibel
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#linear-to-decibel
+https://www.w3.org/TR/webaudio-1.0/#linear-to-decibel
+
+1
+-
+linear gain unit to decibel
+linear gain unit to decibel
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#linear-to-decibel
 
 1
 -
@@ -5582,17 +6387,6 @@ https://www.w3.org/TR/css-images-3/#funcdef-linear-gradient
 1
 1
 -
-linear-gradient()
-linear-gradient()
-function
-css-images-4
-css-images
-4
-snapshot
-https://www.w3.org/TR/css-images-4/#funcdef-linear-gradient
-1
-1
--
 linearAcceleration
 linearAcceleration
 attribute
@@ -5612,7 +6406,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/pservers.html#elementdef-linearGradient
+https://w3c.github.io/svgwg/svg2-draft/pservers.html#elementdef-linearGradient
 1
 1
 -
@@ -5634,7 +6428,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#valdef-color-interpolation-filters-linearrgb
+https://drafts.csswg.org/filter-effects-1/#valdef-color-interpolation-filters-linearrgb
 1
 1
 color-interpolation-filters
@@ -5654,7 +6448,7 @@ color-interpolation-filters
 linearRampToValueAtTime(value, endTime)
 linearRampToValueAtTime(value, endTime)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5666,11 +6460,35 @@ AudioParam
 linearRampToValueAtTime(value, endTime)
 linearRampToValueAtTime(value, endTime)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime
+1
+1
+AudioParam
+-
+linearRampToValueAtTime(value, endTime)
+linearRampToValueAtTime(value, endTime)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-linearramptovalueattime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-linearramptovalueattime
+1
+1
+AudioParam
+-
+linearRampToValueAtTime(value, endTime)
+linearRampToValueAtTime(value, endTime)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-linearramptovalueattime
 1
 1
 AudioParam
@@ -5710,6 +6528,30 @@ https://www.w3.org/TR/webxr/#dom-xrpose-linearvelocity
 1
 1
 XRPose
+-
+linear_indexing
+linear_indexing
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#language_extension-linear_indexing
+
+1
+language_extension
+-
+linear_indexing
+linear_indexing
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#language_extension-linear_indexing
+
+1
+language_extension
 -
 linen
 linen
@@ -5926,22 +6768,33 @@ https://html.spec.whatwg.org/multipage/semantics.html#the-link-element
 link
 link
 element
-svg2
-svg
-2
+epub-33
+epub
+1
 current
-https://svgwg.org/svg2-draft/styling.html#LinkElement
+https://w3c.github.io/epub-specs/epub33/core/#dfn-link
 1
 1
 -
 link
 link
 element
-epub-33
+epub-34
 epub
 1
 current
-https://w3c.github.io/epub-specs/epub33/core/#dfn-link
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-link
+1
+1
+-
+link
+link
+element
+svg2
+svg
+2
+current
+https://w3c.github.io/svgwg/svg2-draft/styling.html#LinkElement
 1
 1
 -
@@ -5979,14 +6832,14 @@ https://www.w3.org/TR/epub-33/#dfn-link
 1
 1
 -
-link (pseudo-class)
-link (pseudo-class)
-dfn
-css2
-css
+link
+link
+element
+epub-34
+epub
 1
-current
-https://www.w3.org/TR/CSS21/selector.html#x26
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-link
 1
 1
 -
@@ -5995,9 +6848,9 @@ link (pseudo-class)
 dfn
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x26
+https://www.w3.org/TR/CSS2/selector.html#x26
 1
 1
 -
@@ -6011,6 +6864,28 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-processing-options
 
 1
+-
+link purpose
+link purpose
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-purpose-of-each-link
+
+
+-
+link purpose
+link purpose
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-purpose-of-each-link
+
+
 -
 link text selector
 link text selector
@@ -6094,11 +6969,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-linked-resource
 linked resource
 linked resource
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-linked-resource
+1
+1
+-
+linked resource
+linked resource
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-linked-resource
+1
+1
+-
+linked resource
+linked resource
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-linked-resource
 1
 1
 -
@@ -6137,6 +7034,29 @@ https://www.w3.org/TR/pub-manifest/#dfn-linkedresources
 -
 links
 links
+dfn
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#links
+
+1
+-
+links
+links
+value
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#valdef-scroll-marker-group-links
+1
+1
+scroll-marker-group
+-
+links
+links
 attribute
 html
 html
@@ -6161,11 +7081,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-links
 links
 links
 element
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-links
+1
+1
+-
+links
+links
+element
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-links
+1
+1
+-
+links
+links
+element
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-links
 1
 1
 -
@@ -6261,6 +7203,28 @@ https://www.w3.org/TR/pub-manifest/#dfn-list-element
 
 1
 -
+list expression
+list expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-list-expression
+
+1
+-
+list expression
+list expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-list-expression
+
+1
+-
 list interfaces
 list interfaces
 dfn
@@ -6268,7 +7232,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#TermListInterface
+https://w3c.github.io/svgwg/svg2-draft/types.html#TermListInterface
 1
 1
 -
@@ -6311,17 +7275,6 @@ dfn
 json-ld11
 json-ld
 1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-list-object
-
-
--
-list object
-list object
-dfn
-json-ld11
-json-ld
-1
 snapshot
 https://www.w3.org/TR/json-ld11/#dfn-list-object
 
@@ -6335,6 +7288,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#list-of-websocket-resources
+
+1
+-
+list of websocket resources
+list of WebSocket resources
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#list-of-websocket-resources
 
 1
 -
@@ -6993,18 +7957,6 @@ https://html.spec.whatwg.org/multipage/form-elements.html#concept-select-option-
 
 1
 -
-list of pending external speculation rule resources
-list of pending external speculation rule resources
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#document-list-of-pending-external-speculation-rule-resources
-1
-1
-document
--
 list of pending fullscreen events
 list of pending fullscreen events
 dfn
@@ -7037,6 +7989,17 @@ current
 https://html.spec.whatwg.org/multipage/media.html#list-of-pending-text-tracks
 
 1
+-
+list of recognized fields
+list of recognized fields
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#list-of-recognized-fields
+
+
 -
 list of records
 list of records
@@ -7093,7 +8056,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-list-of-registered-performance-observer-objects
+https://w3c.github.io/performance-timeline/#list-of-registered-performance-observer-objects
 
 1
 -
@@ -7149,6 +8112,18 @@ service-workers
 1
 current
 https://w3c.github.io/ServiceWorker/#service-worker-list-of-router-rules
+
+1
+service worker
+-
+list of router rules
+list of router rules
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#service-worker-list-of-router-rules
 
 1
 service worker
@@ -7241,18 +8216,6 @@ https://www.w3.org/TR/selectors-4/#list-of-simple-selectors
 1
 1
 -
-list of speculation rule sets
-list of speculation rule sets
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#document-list-of-speculation-rule-sets
-1
-1
-document
--
 list of speculative fetch urls
 list of speculative fetch URLs
 dfn
@@ -7272,6 +8235,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#list-of-stack-frames
+
+1
+-
+list of stack frames
+list of stack frames
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#list-of-stack-frames
 
 1
 -
@@ -7316,6 +8290,28 @@ background-sync
 1
 current
 https://wicg.github.io/background-sync/spec/#list-of-sync-registrations
+
+1
+-
+list of synchronously exposed codec identifiers
+list of synchronously exposed codec identifiers
+dfn
+mediastream-recording
+mediastream-recording
+1
+current
+https://w3c.github.io/mediacapture-record/#list-of-synchronously-exposed-codec-identifiers
+
+1
+-
+list of synchronously exposed codec identifiers
+list of synchronously exposed codec identifiers
+dfn
+mediastream-recording
+mediastream-recording
+1
+snapshot
+https://www.w3.org/TR/mediastream-recording/#list-of-synchronously-exposed-codec-identifiers
 
 1
 -
@@ -7398,12 +8394,56 @@ https://html.spec.whatwg.org/multipage/grouping-content.html#list-owner
 
 1
 -
+list parameter function
+list parameter function
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-list-parameter-function
+
+1
+-
+list parameter function
+list parameter function
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-list-parameter-function
+
+1
+-
+list parameter property
+list parameter property
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-list-parameter-property
+
+1
+-
+list parameter property
+list parameter property
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-list-parameter-property
+
+1
+-
 list properties
 list properties
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#list-properties
 
@@ -7414,20 +8454,9 @@ list properties
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#x30
-1
-1
--
-list properties
-list properties
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#x30
+https://www.w3.org/TR/CSS2/generate.html#x30
 1
 1
 -
@@ -7488,9 +8517,9 @@ counters()
 list-item
 list-item
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-list-item
 1
@@ -7502,20 +8531,9 @@ list-item
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#value-def-list-item
-1
-1
--
-list-item
-list-item
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#value-def-list-item
+https://www.w3.org/TR/CSS2/visuren.html#value-def-list-item
 1
 1
 -
@@ -7531,6 +8549,19 @@ https://www.w3.org/TR/css-display-3/#valdef-display-list-item
 1
 display
 <display-listitem>
+-
+list-item
+list-item
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-list-item
+1
+1
+display
+<display-list-item>
 -
 list-item
 list-item
@@ -7562,9 +8593,9 @@ https://drafts.csswg.org/css-lists-3/#propdef-list-style
 list-style
 list-style
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-list-style
 1
@@ -7575,31 +8606,9 @@ list-style
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style
-1
-1
--
-list-style
-list-style
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style
-1
-1
--
-list-style
-list-style
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/generate.html#propdef-list-style
+https://www.w3.org/TR/CSS2/generate.html#propdef-list-style
 1
 1
 -
@@ -7628,9 +8637,9 @@ https://drafts.csswg.org/css-lists-3/#propdef-list-style-image
 list-style-image
 list-style-image
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-list-style-image
 1
@@ -7641,31 +8650,9 @@ list-style-image
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style-image
-1
-1
--
-list-style-image
-list-style-image
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style-image
-1
-1
--
-list-style-image
-list-style-image
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/generate.html#propdef-list-style-image
+https://www.w3.org/TR/CSS2/generate.html#propdef-list-style-image
 1
 1
 -
@@ -7694,9 +8681,9 @@ https://drafts.csswg.org/css-lists-3/#propdef-list-style-position
 list-style-position
 list-style-position
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-list-style-position
 1
@@ -7707,31 +8694,9 @@ list-style-position
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style-position
-1
-1
--
-list-style-position
-list-style-position
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style-position
-1
-1
--
-list-style-position
-list-style-position
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/generate.html#propdef-list-style-position
+https://www.w3.org/TR/CSS2/generate.html#propdef-list-style-position
 1
 1
 -
@@ -7760,9 +8725,9 @@ https://drafts.csswg.org/css-lists-3/#propdef-list-style-type
 list-style-type
 list-style-type
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-list-style-type
 1
@@ -7773,31 +8738,9 @@ list-style-type
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style-type
-1
-1
--
-list-style-type
-list-style-type
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#propdef-list-style-type
-1
-1
--
-list-style-type
-list-style-type
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/generate.html#propdef-list-style-type
+https://www.w3.org/TR/CSS2/generate.html#propdef-list-style-type
 1
 1
 -
@@ -7810,6 +8753,50 @@ css-lists
 snapshot
 https://www.w3.org/TR/css-lists-3/#propdef-list-style-type
 1
+1
+-
+list-taking
+list-taking
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-list-taking
+
+1
+-
+list-taking
+list-taking
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-list-taking
+
+1
+-
+list-taking constraint parameters
+list-taking constraint parameters
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-list-taking
+
+1
+-
+list-taking constraint parameters
+list-taking constraint parameters
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-list-taking
+
 1
 -
 list-valued properties
@@ -7909,7 +8896,7 @@ event handler
 listener
 listener
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7920,36 +8907,36 @@ BaseAudioContext
 -
 listener
 listener
-argument
-cssom-view-1
-cssom-view
+attribute
+webaudio-1.1
+webaudio
 1
-snapshot
-https://www.w3.org/TR/cssom-view-1/#dom-mediaquerylist-addlistener-listener-listener
-1
-1
-MediaQueryList/addListener(listener)
--
-listener
-listener
-argument
-cssom-view-1
-cssom-view
-1
-snapshot
-https://www.w3.org/TR/cssom-view-1/#dom-mediaquerylist-removelistener-listener-listener
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-listener
 1
 1
-MediaQueryList/removeListener(listener)
+BaseAudioContext
 -
 listener
 listener
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-listener
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-listener
+1
+1
+BaseAudioContext
+-
+listener
+listener
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-listener
 1
 1
 BaseAudioContext
@@ -7957,22 +8944,22 @@ BaseAudioContext
 listening agent
 listening agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#listening-agent
+https://w3c.github.io/openscreenprotocol/network.html#listening-agent
 
 1
 -
 listening agent
 listening agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#listening-agent
+https://www.w3.org/TR/openscreen-network/#listening-agent
 
 1
 -
@@ -8041,7 +9028,7 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-literal
-
+1
 1
 -
 literal
@@ -8098,6 +9085,50 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-literal
+1
+1
+-
+literal expression
+literal expression
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-literal-expression
+
+1
+-
+literal expression
+literal expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-literal-expression
+
+1
+-
+literal expression
+literal expression
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-literal-expression
+
+1
+-
+literal expression
+literal expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-literal-expression
 
 1
 -
@@ -8109,7 +9140,7 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-literal-value
-
+1
 1
 -
 literal value
@@ -8120,7 +9151,7 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-literal-value
-
+1
 1
 -
 literal-punctuation
@@ -8197,6 +9228,28 @@ MediaStreamTrackState
 live
 live
 dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-live
+
+
+-
+live
+live
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-live
+
+1
+-
+live
+live
+dfn
 indexeddb-3
 indexeddb
 3
@@ -8205,6 +9258,17 @@ https://www.w3.org/TR/IndexedDB-3/#transaction-live
 
 1
 transaction
+-
+live
+live
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-live
+
+
 -
 live
 live
@@ -8218,6 +9282,17 @@ https://www.w3.org/TR/mediacapture-streams/#idl-def-MediaStreamTrackState.live
 1
 MediaStreamTrackState
 -
+live
+live
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-live
+
+1
+-
 live collection
 live collection
 dfn
@@ -8229,6 +9304,39 @@ https://dom.spec.whatwg.org/#concept-collection-live
 1
 1
 collection
+-
+live object
+live object
+dfn
+design-principles
+design-principles
+1
+current
+https://w3ctag.github.io/design-principles/#live-object
+1
+1
+-
+live object
+live object
+dfn
+design-principles
+design-principles
+1
+snapshot
+https://www.w3.org/TR/design-principles/#live-object
+1
+1
+-
+live range pre-remove steps
+live range pre-remove steps
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#live-range-pre-remove-steps
+
+1
 -
 live ranges
 live ranges
@@ -8244,33 +9352,11 @@ https://dom.spec.whatwg.org/#concept-live-range
 live region
 live region
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-live-region
-
-
--
-live region
-live region
-dfn
 wai-aria-1.2
 wai-aria
 1
 snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-live-region
-
-
--
-live regions
-live regions
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-live-region
 
 
 -

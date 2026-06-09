@@ -1885,7 +1885,7 @@ Changes since the May 6 2014 Last Call Working Draft</span><a class="self-link" 
     <li data-md>
      <p>Link to DOM’s definition of "case-sensitive".</p>
     <li data-md>
-     <p>Added example of using variables with <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#selectordef-lang" id="ref-for-selectordef-lang">:lang()</a> to do simple i18n.</p>
+     <p>Added example of using variables with <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/selectors-4/#lang-pseudo" id="ref-for-lang-pseudo">:lang()</a> to do simple i18n.</p>
     <li data-md>
      <p>Clarified that usage of <a class="css" data-link-type="maybe" href="#funcdef-var" id="ref-for-funcdef-var④⑥">var()</a> in a custom property must be valid per the <span class="css" id="ref-for-funcdef-var④⑦">var()</span> grammar.</p>
    </ul>
@@ -2138,11 +2138,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="e8ff0bb4">em</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="222f0f3c">:lang()</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[CSSOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="b4632a2b">case-sensitive flag</span>
@@ -2159,6 +2154,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <ul>
      <li><span class="dfn-paneled" id="7f9469b5">ASCII case-insensitive</span>
     </ul>
+   <li>
+    <a data-link-type="biblio">[SELECTORS-4]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="9e6793fe">:lang()</span>
+    </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
@@ -2172,7 +2172,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-conditional-3">[CSS-CONDITIONAL-3]
    <dd>Chris Lilley; David Baron; Elika Etemad. <a href="https://drafts.csswg.org/css-conditional-3/"><cite>CSS Conditional Rules Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-conditional-3/">https://drafts.csswg.org/css-conditional-3/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-properties-values-api-1">[CSS-PROPERTIES-VALUES-API-1]
    <dd>Tab Atkins Jr.; Alan Stearns; Greg Whitworth. <a href="https://drafts.css-houdini.org/css-properties-values-api-1/"><cite>CSS Properties and Values API Level 1</cite></a>. URL: <a href="https://drafts.css-houdini.org/css-properties-values-api-1/">https://drafts.css-houdini.org/css-properties-values-api-1/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
@@ -2183,8 +2183,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-cssom">[CSSOM]
    <dd>Daniel Glazman; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom/"><cite>CSS Object Model (CSSOM)</cite></a>. URL: <a href="https://drafts.csswg.org/cssom/">https://drafts.csswg.org/cssom/</a>
    <dt id="biblio-i18n-glossary">[I18N-GLOSSARY]
@@ -2193,6 +2191,8 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
+   <dt id="biblio-selectors-4">[SELECTORS-4]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -2201,7 +2201,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-box-4">[CSS-BOX-4]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-box-4/"><cite>CSS Box Model Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-box-4/">https://drafts.csswg.org/css-box-4/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-extensions">[CSS-EXTENSIONS]
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-extensions/"><cite>CSS Extensions</cite></a>. ED. URL: <a href="https://drafts.csswg.org/css-extensions/">https://drafts.csswg.org/css-extensions/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
@@ -2468,7 +2468,6 @@ function parseHTML(markup) {
 let dfnPanelData = {
 "00140718": {"dfnID":"00140718","dfnText":"margin-top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-top"},{"id":"ref-for-propdef-margin-top\u2460"},{"id":"ref-for-propdef-margin-top\u2461"},{"id":"ref-for-propdef-margin-top\u2462"}],"title":"3. \nUsing Cascading Variables: the var() notation"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-top"},
 "11fb4d5b": {"dfnID":"11fb4d5b","dfnText":"background-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-color"}],"title":"2. \nDefining Custom Properties: the --* family of properties"},{"refs":[{"id":"ref-for-propdef-background-color\u2460"},{"id":"ref-for-propdef-background-color\u2461"}],"title":"3. \nUsing Cascading Variables: the var() notation"},{"refs":[{"id":"ref-for-propdef-background-color\u2462"},{"id":"ref-for-propdef-background-color\u2463"},{"id":"ref-for-propdef-background-color\u2464"}],"title":"3.1. \nInvalid Variables"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color"},
-"222f0f3c": {"dfnID":"222f0f3c","dfnText":":lang()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-lang"}],"title":"5.2. \nChanges since the May 6 2014 Last Call Working Draft"}],"url":"https://drafts.csswg.org/css2/#selectordef-lang"},
 "313bb160": {"dfnID":"313bb160","dfnText":"transparent","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-color-transparent"}],"title":"3. \nUsing Cascading Variables: the var() notation"}],"url":"https://drafts.csswg.org/css-color-4/#valdef-color-transparent"},
 "31ccd1a9": {"dfnID":"31ccd1a9","dfnText":"longhand property","external":true,"refSections":[{"refs":[{"id":"ref-for-longhand"}],"title":"3.2. \nVariables in Shorthand Properties"}],"url":"https://drafts.csswg.org/css-cascade-5/#longhand"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.1. \nValue Definitions"},{"refs":[{"id":"ref-for-css-wide-keywords\u2460"}],"title":"2. \nDefining Custom Properties: the --* family of properties"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
@@ -2487,6 +2486,7 @@ let dfnPanelData = {
 "8a427103": {"dfnID":"8a427103","dfnText":"<dashed-ident>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-dashed-ident"}],"title":"2. \nDefining Custom Properties: the --* family of properties"}],"url":"https://drafts.csswg.org/css-values-4/#typedef-dashed-ident"},
 "8ca0c013": {"dfnID":"8ca0c013","dfnText":"shorthand property","external":true,"refSections":[{"refs":[{"id":"ref-for-shorthand-property"}],"title":"3.2. \nVariables in Shorthand Properties"}],"url":"https://drafts.csswg.org/css-cascade-5/#shorthand-property"},
 "9e004c39": {"dfnID":"9e004c39","dfnText":"unset","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-all-unset"}],"title":"3.1. \nInvalid Variables"}],"url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-unset"},
+"9e6793fe": {"dfnID":"9e6793fe","dfnText":":lang()","external":true,"refSections":[{"refs":[{"id":"ref-for-lang-pseudo"}],"title":"5.2. \nChanges since the May 6 2014 Last Call Working Draft"}],"url":"https://drafts.csswg.org/selectors-4/#lang-pseudo"},
 "9ee4a8b2": {"dfnID":"9ee4a8b2","dfnText":"contents","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-contents"}],"title":"3. \nUsing Cascading Variables: the var() notation"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-contents"},
 "9f9120ff": {"dfnID":"9f9120ff","dfnText":",","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-comma"}],"title":"3. \nUsing Cascading Variables: the var() notation"}],"url":"https://drafts.csswg.org/css-values-4/#comb-comma"},
 "aa917269": {"dfnID":"aa917269","dfnText":"<semicolon-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-semicolon-token"}],"title":"2.1. \nCustom Property Value Syntax"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-semicolon-token"},
@@ -2998,10 +2998,10 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#funcdef-calc": {"displayText":"calc()","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"calc()","type":"function","url":"https://drafts.csswg.org/css-values-4/#funcdef-calc"},
 "https://drafts.csswg.org/css-values-4/#mult-opt": {"displayText":"?","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"?","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
 "https://drafts.csswg.org/css-values-4/#typedef-dashed-ident": {"displayText":"<dashed-ident>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<dashed-ident>","type":"type","url":"https://drafts.csswg.org/css-values-4/#typedef-dashed-ident"},
-"https://drafts.csswg.org/css2/#selectordef-lang": {"displayText":":lang()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":":lang()","type":"selector","url":"https://drafts.csswg.org/css2/#selectordef-lang"},
-"https://drafts.csswg.org/cssom-1/#css-declaration-case-sensitive-flag": {"displayText":"case-sensitive flag","export":false,"for_":["CSS declaration"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"case-sensitive flag","type":"dfn","url":"https://drafts.csswg.org/cssom-1/#css-declaration-case-sensitive-flag"},
+"https://drafts.csswg.org/cssom-1/#css-declaration-case-sensitive-flag": {"displayText":"case-sensitive flag","export":true,"for_":["CSS declaration"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"case-sensitive flag","type":"dfn","url":"https://drafts.csswg.org/cssom-1/#css-declaration-case-sensitive-flag"},
 "https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations": {"displayText":"declarations","export":true,"for_":["CSSStyleDeclaration"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"declarations","type":"dfn","url":"https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations"},
 "https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-getpropertyvalue": {"displayText":"getPropertyValue(property)","export":true,"for_":["CSSStyleDeclaration"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"getPropertyValue(property)","type":"method","url":"https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-getpropertyvalue"},
+"https://drafts.csswg.org/selectors-4/#lang-pseudo": {"displayText":":lang()","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":":lang()","type":"selector","url":"https://drafts.csswg.org/selectors-4/#lang-pseudo"},
 "https://infra.spec.whatwg.org/#ascii-case-insensitive": {"displayText":"ASCII case-insensitive","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"ascii case-insensitive","type":"dfn","url":"https://infra.spec.whatwg.org/#ascii-case-insensitive"},
 "https://w3c.github.io/i18n-glossary/#dfn-case-sensitive": {"displayText":"case-sensitive","export":true,"for_":[],"level":"1","normative":false,"shortname":"i18n-glossary","spec":"i18n-glossary","status":"current","text":"case-sensitive","type":"dfn","url":"https://w3c.github.io/i18n-glossary/#dfn-case-sensitive"},
 };

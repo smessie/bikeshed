@@ -169,9 +169,57 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-mime-0
+https://w3c-cg.github.io/web-nfc/#dfn-mime-0
 
 1
+-
+"mimeType"
+"mimeType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-mimetype
+
+1
+browsingContext.StartScreencastParameters
+-
+"mimeType"
+"mimeType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkresponsedata-mimetype
+
+1
+network.ResponseData
+-
+"mimeType"
+"mimeType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-mimetype
+
+1
+browsingContext.StartScreencastParameters
+-
+"mimeType"
+"mimeType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkresponsedata-mimetype
+
+1
+network.ResponseData
 -
 "min"
 "min"
@@ -221,6 +269,54 @@ https://www.w3.org/TR/webgpu/#dom-gpublendoperation-min
 1
 GPUBlendOperation
 -
+"minimized"
+"minimized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-minimized
+
+1
+browser.ClientWindowInfo/state
+-
+"minimized"
+"minimized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-minimized
+
+1
+browser.ClientWindowNamedState/state
+-
+"minimized"
+"minimized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-minimized
+
+1
+browser.ClientWindowInfo/state
+-
+"minimized"
+"minimized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-minimized
+
+1
+browser.ClientWindowNamedState/state
+-
 "mirror-repeat"
 "mirror-repeat"
 enum-value
@@ -244,6 +340,28 @@ https://www.w3.org/TR/webgpu/#dom-gpuaddressmode-mirror-repeat
 1
 1
 GPUAddressMode
+-
+:minute
+:minute
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-minute
+
+1
+-
+:minutes
+:minutes
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-minutes
+
+1
 -
 <min/>
 <min/>
@@ -321,19 +439,19 @@ type
 css-values-5
 css-values
 5
-current
-https://drafts.csswg.org/css-values-5/#typedef-mix
+snapshot
+https://www.w3.org/TR/css-values-5/#typedef-mix
 1
 1
 -
-<mix()>
-<mix()>
-type
-css-values-5
-css-values
-5
-snapshot
-https://www.w3.org/TR/css-values-5/#typedef-mix
+@mixin
+@mixin
+at-rule
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#at-ruledef-mixin
 1
 1
 -
@@ -784,7 +902,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-mifare-standard
+https://w3c-cg.github.io/web-nfc/#dfn-mifare-standard
 
 
 -
@@ -829,7 +947,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-mime-type-record
+https://w3c-cg.github.io/web-nfc/#dfn-mime-type-record
 
 
 -
@@ -968,17 +1086,6 @@ https://html.spec.whatwg.org/multipage/system-state.html#mimetypearray
 1
 1
 -
-min report window
-min report window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#min-report-window
-
-1
--
 MinFromTime
 MinFromTime
 abstract-op
@@ -990,8 +1097,8 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-minfromtime
 1
 1
 -
-MinFromTime(t)
-MinFromTime(t)
+MinFromTime(tv)
+MinFromTime(tv)
 abstract-op
 ecmascript
 ecmascript
@@ -1947,17 +2054,6 @@ https://www.w3.org/TR/webdriver2/#dfn-minimized-window-state
 
 1
 -
-minimum report delay
-minimum report delay
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#minimum-report-delay
-
-1
--
 minority opinion
 Minority Opinion
 dfn
@@ -1965,7 +2061,18 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#minority-opinion
+https://www.w3.org/policies/process/#minority-opinion
+
+1
+-
+minutesecond
+MinuteSecond
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/numbers-and-dates.html#prod-MinuteSecond
 
 1
 -
@@ -2019,17 +2126,6 @@ dfn
 fedcm-1
 fedcm
 1
-current
-https://w3c-fedid.github.io/FedCM/#mismatch-dialog-step
-
-1
--
-mismatch dialog step
-mismatch dialog step
-dfn
-fedcm-1
-fedcm
-1
 snapshot
 https://www.w3.org/TR/fedcm-1/#mismatch-dialog-step
 
@@ -2057,6 +2153,28 @@ https://www.w3.org/TR/encrypted-media-2/#dfn-mixed-content-limitations
 
 1
 -
+mixing instruction
+Mixing Instruction
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-mixing-instruction
+
+1
+-
+mixing instruction
+Mixing Instruction
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-mixing-instruction
+
+1
+-
 [[Mid]]
 [[Mid]]
 attribute
@@ -2080,6 +2198,42 @@ https://www.w3.org/TR/webrtc/#dfn-mid
 
 1
 RTCRtpTransceiver
+-
+[[minimum latency]]
+[[minimum latency]]
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-minimum-latency-slot
+1
+1
+AudioPlaybackStats
+-
+[[minimum latency]]
+[[minimum latency]]
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-minimum-latency-slot
+1
+1
+AudioPlaybackStats
+-
+[[minimum latency]]
+[[minimum latency]]
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dfn-minimum-latency
+1
+
+AudioPlayoutStats
 -
 mi
 mi
@@ -2123,6 +2277,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/microdata.html#microdata-error
+
+1
+-
+microepsilon
+microepsilon
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#microepsilon
+
+1
+-
+microepsilon
+microepsilon
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#microepsilon
 
 1
 -
@@ -2260,30 +2436,18 @@ css-inline-3
 css-inline
 3
 current
-https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-middle
-1
-1
-alignment-baseline
-vertical-align
--
-middle
-middle
-value
-css-inline-3
-css-inline
-3
-current
 https://drafts.csswg.org/css-inline-3/#valdef-dominant-baseline-middle
 1
 1
 dominant-baseline
+<<baseline-metric>>
 -
 middle
 middle
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-vertical-align-middle
 1
@@ -2393,7 +2557,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#MidPointOnPath
+https://w3c.github.io/svgwg/svg2-draft/text.html#MidPointOnPath
 1
 1
 -
@@ -2430,6 +2594,30 @@ https://www.w3.org/TR/css-animation-worklet-1/#migrate-an-animator-instance
 
 1
 -
+migrate_from
+migrate_from
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-migrate_from
+1
+1
+manifest
+-
+migrate_to
+migrate_to
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-migrate_to
+1
+1
+manifest
+-
 milliseconds
 milliseconds
 argument
@@ -2460,7 +2648,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-mime
+https://w3c-cg.github.io/web-nfc/#dfn-mime
 
 1
 -
@@ -2511,6 +2699,17 @@ https://html.spec.whatwg.org/multipage/system-state.html#mime-types-array
 
 1
 -
+mime-message
+mime-message
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
 mimeType
 mimeType
 attribute
@@ -2537,15 +2736,27 @@ MediaRecorderOptions
 -
 mimeType
 mimeType
-dict-member
-webrtc-encoded-transform
-webrtc-encoded-transform
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-mimetype
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-mimetype
+
 1
+browsingContext.StartScreencastParameters
+-
+mimeType
+mimeType
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-RTCEncodedAudioFrameMetadata
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkresponsedata-mimetype
+
+1
+network.ResponseData
 -
 mimeType
 mimeType
@@ -2554,10 +2765,10 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-mimetype
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-mimetype
 1
 1
-RTCEncodedVideoFrameMetadata
+RTCEncodedFrameMetadata
 -
 mimeType
 mimeType
@@ -2609,15 +2820,27 @@ MediaRecorderOptions
 -
 mimeType
 mimeType
-dict-member
-webrtc-encoded-transform
-webrtc-encoded-transform
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-mimetype
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextstartscreencastparameters-mimetype
+
 1
+browsingContext.StartScreencastParameters
+-
+mimeType
+mimeType
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-RTCEncodedAudioFrameMetadata
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkresponsedata-mimetype
+
+1
+network.ResponseData
 -
 mimeType
 mimeType
@@ -2626,10 +2849,10 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-mimetype
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedframemetadata-mimetype
 1
 1
-RTCEncodedVideoFrameMetadata
+RTCEncodedFrameMetadata
 -
 mimeType
 mimeType
@@ -2801,6 +3024,18 @@ MLOpSupportLimits
 min
 min
 dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlrankrange-min
+1
+1
+MLRankRange
+-
+min
+min
+dict-member
 image-capture
 image-capture
 1
@@ -2857,6 +3092,18 @@ https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-min
 1
 MLOpSupportLimits
 -
+min
+min
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlrankrange-min
+1
+1
+MLRankRange
+-
 min cross size
 min cross size
 dfn
@@ -2865,6 +3112,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#min-cross-size
+1
+1
+-
+min cross size
+min cross size
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#min-cross-size
 1
 1
 -
@@ -2893,12 +3151,45 @@ https://drafts.csswg.org/css-flexbox-1/#min-cross-size-property
 min cross size property
 min cross size property
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#min-cross-size-property
+1
+1
+-
+min cross size property
+min cross size property
+dfn
 css-flexbox-1
 css-flexbox
 1
 snapshot
 https://www.w3.org/TR/css-flexbox-1/#min-cross-size-property
 1
+1
+-
+min expression
+min expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-min-expression
+
+1
+-
+min expression
+min expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-min-expression
+
 1
 -
 min height
@@ -2981,6 +3272,17 @@ https://drafts.csswg.org/css-flexbox-1/#min-main-size
 min main size
 min main size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#min-main-size
+1
+1
+-
+min main size
+min main size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -2997,6 +3299,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#min-main-size-property
+1
+1
+-
+min main size property
+min main size property
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#min-main-size-property
 1
 1
 -
@@ -3561,6 +3874,17 @@ https://www.w3.org/TR/css-sizing-3/#min-content-contribution
 1
 1
 -
+min-content page-margin width
+min-content page-margin width
+dfn
+css-page-3
+css-page
+3
+current
+https://drafts.csswg.org/css-page-3/#min-content-width
+1
+1
+-
 min-content size
 min-content size
 dfn
@@ -3613,7 +3937,7 @@ css-page
 3
 current
 https://drafts.csswg.org/css-page-3/#min-content-width
-
+1
 1
 -
 min-content width
@@ -3649,50 +3973,6 @@ https://www.w3.org/TR/css-tables-3/#min-content-width-of-a-column
 
 1
 -
-min-content width of a column based on cells of span up to 1
-min-content width of a column based on cells of span up to 1
-dfn
-css-tables-3
-css-tables
-3
-current
-https://drafts.csswg.org/css-tables-3/#min-content-width-of-a-column-based-on-cells-of-span-up-to-1
-
-1
--
-min-content width of a column based on cells of span up to 1
-min-content width of a column based on cells of span up to 1
-dfn
-css-tables-3
-css-tables
-3
-snapshot
-https://www.w3.org/TR/css-tables-3/#min-content-width-of-a-column-based-on-cells-of-span-up-to-1
-
-1
--
-min-content width of a column based on cells of span up to n (n > 1)
-min-content width of a column based on cells of span up to N (N > 1)
-dfn
-css-tables-3
-css-tables
-3
-current
-https://drafts.csswg.org/css-tables-3/#min-content-width-of-a-column-based-on-cells-of-span-up-to-n-n--1
-
-1
--
-min-content width of a column based on cells of span up to n (n > 1)
-min-content width of a column based on cells of span up to N (N > 1)
-dfn
-css-tables-3
-css-tables
-3
-snapshot
-https://www.w3.org/TR/css-tables-3/#min-content-width-of-a-column-based-on-cells-of-span-up-to-n-n--1
-
-1
--
 min-content width of a table
 min-content width of a table
 dfn
@@ -3701,7 +3981,7 @@ css-tables
 3
 current
 https://drafts.csswg.org/css-tables-3/#min-content-width-of-a-table
-
+1
 1
 -
 min-content width of a table
@@ -3712,7 +3992,7 @@ css-tables
 3
 snapshot
 https://www.w3.org/TR/css-tables-3/#min-content-width-of-a-table
-
+1
 1
 -
 min-content-percentage sizing-guess
@@ -3785,9 +4065,9 @@ https://drafts.csswg.org/css-sizing-3/#propdef-min-height
 min-height
 min-height
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-min-height
 1
@@ -3798,31 +4078,9 @@ min-height
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visudet.html#propdef-min-height
-1
-1
--
-min-height
-min-height
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visudet.html#propdef-min-height
-1
-1
--
-min-height
-min-height
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visudet.html#propdef-min-height
+https://www.w3.org/TR/CSS2/visudet.html#propdef-min-height
 1
 1
 -
@@ -3943,9 +4201,9 @@ https://drafts.csswg.org/css-sizing-3/#propdef-min-width
 min-width
 min-width
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-min-width
 1
@@ -3956,31 +4214,9 @@ min-width
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width
-1
-1
--
-min-width
-min-width
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width
-1
-1
--
-min-width
-min-width
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visudet.html#propdef-min-width
+https://www.w3.org/TR/CSS2/visudet.html#propdef-min-width
 1
 1
 -
@@ -4106,7 +4342,19 @@ IntrinsicSizesResultOptions
 minDecibels
 minDecibels
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-mindecibels
+1
+1
+AnalyserNode
+-
+minDecibels
+minDecibels
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -4118,7 +4366,19 @@ AnalyserNode
 minDecibels
 minDecibels
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analyseroptions-mindecibels
+1
+1
+AnalyserOptions
+-
+minDecibels
+minDecibels
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -4130,11 +4390,11 @@ AnalyserOptions
 minDecibels
 minDecibels
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-mindecibels
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-mindecibels
 1
 1
 AnalyserNode
@@ -4142,11 +4402,35 @@ AnalyserNode
 minDecibels
 minDecibels
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analyseroptions-mindecibels
+https://www.w3.org/TR/webaudio-1.0/#dom-analyseroptions-mindecibels
+1
+1
+AnalyserOptions
+-
+minDecibels
+minDecibels
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-mindecibels
+1
+1
+AnalyserNode
+-
+minDecibels
+minDecibels
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analyseroptions-mindecibels
 1
 1
 AnalyserOptions
@@ -4310,8 +4594,8 @@ HTMLInputElement
 minpinlength
 minPINLength
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-minpinlength
@@ -4319,11 +4603,23 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 getInfo
 -
+minpinlength
+minPINLength
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-minpinlength
+
+1
+getInfo
+-
 minPinLength
 minPinLength
 dict-member
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#dom-authenticationextensionsclientinputs-minpinlength
@@ -4331,14 +4627,38 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 AuthenticationExtensionsClientInputs
 -
+minPinLength
+minPinLength
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientinputs-minpinlength
+1
+1
+AuthenticationExtensionsClientInputs
+-
 minpinlengthrpids
 minPinLengthRPIDs
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#authconfig-minpinlengthrpids
+
+1
+authConfig
+-
+minpinlengthrpids
+minPinLengthRPIDs
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#authconfig-minpinlengthrpids
 
 1
 authConfig
@@ -4466,7 +4786,19 @@ supported limits
 minValue
 minValue
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-minvalue
+1
+1
+AudioParam
+-
+minValue
+minValue
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -4478,7 +4810,19 @@ AudioParam
 minValue
 minValue
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparamdescriptor-minvalue
+1
+1
+AudioParamDescriptor
+-
+minValue
+minValue
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -4502,11 +4846,11 @@ MLClampOptions
 minValue
 minValue
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-minvalue
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-minvalue
 1
 1
 AudioParam
@@ -4514,11 +4858,35 @@ AudioParam
 minValue
 minValue
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparamdescriptor-minvalue
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparamdescriptor-minvalue
+1
+1
+AudioParamDescriptor
+-
+minValue
+minValue
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-minvalue
+1
+1
+AudioParam
+-
+minValue
+minValue
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparamdescriptor-minvalue
 1
 1
 AudioParamDescriptor
@@ -4610,23 +4978,11 @@ MiniApp widget resource
 min_version
 min_version
 dfn
-appmanifest
-appmanifest
+manifest-incubations
+manifest-incubations
 1
 current
-https://w3c.github.io/manifest/#dfn-min_version
-
-1
-external application resource
--
-min_version
-min_version
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-min_version
+https://wicg.github.io/manifest-incubations/#dfn-min_version
 
 1
 external application resource
@@ -4652,6 +5008,18 @@ snapshot
 https://www.w3.org/TR/longtasks-1/#minimal-culprit-attribution
 
 
+-
+minimal quota
+minimal quota
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#reserved-deferred-fetch-quota-minimal-quota
+
+1
+reserved deferred-fetch quota
 -
 minimal-ui
 minimal-ui
@@ -4691,15 +5059,15 @@ display mode
 -
 minimal-ui
 minimal-ui
-dfn
+value
 mediaqueries-5
 mediaqueries
 5
 snapshot
-https://www.w3.org/TR/mediaqueries-5/#display-mode-minimal-ui
+https://www.w3.org/TR/mediaqueries-5/#valdef-media-display-mode-minimal-ui
 1
 1
-display mode
+@media/display-mode
 -
 minimize a supported mime type
 minimize a supported MIME type
@@ -4723,6 +5091,17 @@ https://w3c.github.io/webdriver-bidi/#minimize-client-window-is-supported
 
 1
 -
+minimize client window is supported
+minimize client window is supported
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#minimize-client-window-is-supported
+
+1
+-
 minimize the client window
 minimize the client window
 dfn
@@ -4733,6 +5112,65 @@ current
 https://w3c.github.io/webdriver-bidi/#minimize-the-client-window
 
 1
+-
+minimize the client window
+minimize the client window
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#minimize-the-client-window
+
+1
+-
+minimized
+minimized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-minimized
+
+1
+browser.ClientWindowInfo/state
+-
+minimized
+minimized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-minimized
+
+1
+browser.ClientWindowNamedState/state
+-
+minimized
+minimized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-minimized
+
+1
+browser.ClientWindowInfo/state
+-
+minimized
+minimized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-minimized
+
+1
+browser.ClientWindowNamedState/state
 -
 minimum
 minimum
@@ -4802,6 +5240,18 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#minimum-
 
 1
 -
+minimum availability
+minimum availability
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#availability-minimum-availability
+1
+1
+Availability
+-
 minimum block text size
 minimum block text size
 dfn
@@ -4810,6 +5260,50 @@ css-size-adjust
 1
 current
 https://drafts.csswg.org/css-size-adjust-1/#minimum-block-text-size
+1
+1
+-
+minimum bounding box
+minimum bounding box
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-bounding-boxes
+
+
+-
+minimum bounding box
+minimum bounding box
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-minimum-bounding-box
+
+1
+-
+minimum bounding box
+minimum bounding box
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes
+
+
+-
+minimum bounding box
+minimum bounding box
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-minimum-bounding-box
 
 1
 -
@@ -4890,6 +5384,17 @@ https://streams.spec.whatwg.org/#pull-into-descriptor-minimum-fill
 
 1
 pull-into descriptor
+-
+minimum flex line count
+minimum flex line count
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#minimum-flex-line-count
+
+1
 -
 minimum height
 minimum height
@@ -4999,7 +5504,7 @@ css-size-adjust
 1
 current
 https://drafts.csswg.org/css-size-adjust-1/#minimum-readable-text-size
-
+1
 1
 -
 minimum role
@@ -5173,6 +5678,42 @@ https://www.w3.org/TR/css-sizing-3/#min-width
 1
 1
 -
+minimumLatency
+minimumLatency
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-minimumlatency
+1
+1
+AudioPlaybackStats
+-
+minimumLatency
+minimumLatency
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-minimumlatency
+1
+1
+AudioPlaybackStats
+-
+minimumLatency
+minimumLatency
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dom-audioplayoutstats-minimumlatency
+1
+
+AudioPlayoutStats
+-
 minimumValue
 minimumValue
 attribute
@@ -5262,12 +5803,12 @@ grid-template-rows
 -
 minmax()
 minmax()
-value
+function
 css-grid-1
 css-grid
 1
 snapshot
-https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-minmax
+https://www.w3.org/TR/css-grid-1/#funcdef-grid-template-columns-minmax
 1
 1
 grid-template-columns
@@ -5275,16 +5816,27 @@ grid-template-rows
 -
 minmax()
 minmax()
-value
+function
 css-grid-2
 css-grid
 2
 snapshot
-https://www.w3.org/TR/css-grid-2/#valdef-grid-template-columns-minmax
+https://www.w3.org/TR/css-grid-2/#funcdef-grid-template-columns-minmax
 1
 1
 grid-template-columns
 grid-template-rows
+-
+minor changes
+minor changes
+dfn
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#minor-changes
+
+1
 -
 minorversion
 minorVersion
@@ -5472,7 +6024,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#minutes
+https://www.w3.org/policies/process/#minutes
 
 1
 -
@@ -5507,10 +6059,10 @@ webgpu
 webgpu
 1
 current
-https://gpuweb.github.io/gpuweb/#dom-gpuimagecopytexture-miplevel
+https://gpuweb.github.io/gpuweb/#dom-gputexelcopytextureinfo-miplevel
 1
 1
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 -
 mipLevel
 mipLevel
@@ -5519,10 +6071,10 @@ webgpu
 webgpu
 1
 snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuimagecopytexture-miplevel
+https://www.w3.org/TR/webgpu/#dom-gputexelcopytextureinfo-miplevel
 1
 1
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 -
 mipLevelCount
 mipLevelCount
@@ -5697,10 +6249,32 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-feguassianblur-edgemode-mirror
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-feguassianblur-edgemode-mirror
 1
 1
 feGuassianBlur/edgeMode
+-
+missing
+missing
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#missing-color-component
+1
+1
+-
+missing
+missing
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#missing-color-component
+1
+1
 -
 missing color component
 missing color component
@@ -5715,6 +6289,28 @@ https://drafts.csswg.org/css-color-4/#missing-color-component
 -
 missing color component
 missing color component
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#missing-color-component
+1
+1
+-
+missing component
+missing component
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#missing-color-component
+1
+1
+-
+missing component
+missing component
 dfn
 css-color-4
 css-color
@@ -5944,7 +6540,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linejoin-miter
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linejoin-miter
 1
 1
 stroke-linejoin
@@ -5991,20 +6587,20 @@ dfn
 css-values-5
 css-values
 5
-current
-https://drafts.csswg.org/css-values-5/#mix-end-value
+snapshot
+https://www.w3.org/TR/css-values-5/#mix-end-value
 
 1
 -
-mix end value
-mix end value
+mix item
+mix item
 dfn
 css-values-5
 css-values
 5
-snapshot
-https://www.w3.org/TR/css-values-5/#mix-end-value
-
+current
+https://drafts.csswg.org/css-values-5/#mix-item
+1
 1
 -
 mix notations
@@ -6015,7 +6611,7 @@ css-values
 5
 current
 https://drafts.csswg.org/css-values-5/#mix-notations
-
+1
 1
 -
 mix notations
@@ -6026,17 +6622,6 @@ css-values
 5
 snapshot
 https://www.w3.org/TR/css-values-5/#mix-notations
-
-1
--
-mix progress value
-mix progress value
-dfn
-css-values-5
-css-values
-5
-current
-https://drafts.csswg.org/css-values-5/#mix-progress-value
 
 1
 -
@@ -6057,31 +6642,9 @@ dfn
 css-values-5
 css-values
 5
-current
-https://drafts.csswg.org/css-values-5/#mix-start-value
-
-1
--
-mix start value
-mix start value
-dfn
-css-values-5
-css-values
-5
 snapshot
 https://www.w3.org/TR/css-values-5/#mix-start-value
 
-1
--
-mix()
-mix()
-function
-css-values-5
-css-values
-5
-current
-https://drafts.csswg.org/css-values-5/#funcdef-mix
-1
 1
 -
 mix()
@@ -6102,7 +6665,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#propdef-mix-blend-mode
+https://drafts.csswg.org/compositing-1/#propdef-mix-blend-mode
 1
 1
 -
@@ -6113,7 +6676,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#propdef-mix-blend-mode
+https://drafts.csswg.org/compositing-2/#propdef-mix-blend-mode
 1
 1
 -
@@ -6232,10 +6795,54 @@ https://www.w3.org/TR/mixed-content/#mixed-download
 1
 1
 -
+mixin
+mixin
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#mixin
+
+1
+-
+mixin body
+mixin body
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#mixin-body
+1
+1
+-
+mixin parameter
+mixin parameter
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#mixin-args
+1
+1
+-
+mixin result
+mixin result
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#mixin-result
+1
+1
+-
 mixing rules
 mixing rules
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6246,11 +6853,33 @@ https://webaudio.github.io/web-audio-api/#mixing-rules
 mixing rules
 mixing rules
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#mixing-rules
+
+1
+-
+mixing rules
+mixing rules
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#mixing-rules
+https://www.w3.org/TR/webaudio-1.0/#mixing-rules
+
+1
+-
+mixing rules
+mixing rules
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#mixing-rules
 
 1
 -

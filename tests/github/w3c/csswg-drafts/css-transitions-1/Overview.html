@@ -1281,15 +1281,15 @@ Non-experimental implementations</span></a>
         Normally when the value of a CSS property changes, the rendered result is instantly updated, with the affected elements immediately changing from the old property value to the new property value. This section describes a way to specify transitions using new CSS properties. These properties are used to animate smoothly from the old state to the new state over time.
       </p>
    <p>
-        For example, suppose that transitions of one second have been defined on the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-left" id="ref-for-propdef-left">left</a> and
-        <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/colors.html#propdef-background-color" id="ref-for-propdef-background-color">background-color</a> properties. The following diagram illustrates the effect of updating those properties on an element, in this case moving it to the right and changing the background from red to blue. This assumes other transition parameters still have their default values.
+        For example, suppose that transitions of one second have been defined on the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-left" id="ref-for-propdef-left">left</a> and
+        <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-background-color" id="ref-for-propdef-background-color">background-color</a> properties. The following diagram illustrates the effect of updating those properties on an element, in this case moving it to the right and changing the background from red to blue. This assumes other transition parameters still have their default values.
       </p>
    <figure>
     
         <img alt="Example showing the initial, intermediate, and final states of a box whose color and position is interpolated" src="transition-example.svg" width="518">
         
     <figcaption>
-          Transitions of <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-left" id="ref-for-propdef-left①">left</a> and <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/colors.html#propdef-background-color" id="ref-for-propdef-background-color①">background-color</a>.
+          Transitions of <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-left" id="ref-for-propdef-left①">left</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-background-color" id="ref-for-propdef-background-color①">background-color</a>.
         </figcaption>
    </figure>
    <p>
@@ -1359,9 +1359,9 @@ Non-experimental implementations</span></a>
 }
 </pre>
     The above example defines a transition on the <u class="link-error property" data-lt="opacity" title="LINK ERROR: No &apos;property&apos; refs found for &apos;opacity&apos; with spec &apos;css-color-3&apos;.">opacity</u> property of 2 seconds duration, a
-      transition on the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-left" id="ref-for-propdef-left②">left</a> property of 1
-      second duration, a transition on the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-top" id="ref-for-propdef-top">top</a> property of 2 seconds duration and a
-      transition on the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-width" id="ref-for-propdef-width">width</a> property of 1
+      transition on the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-left" id="ref-for-propdef-left②">left</a> property of 1
+      second duration, a transition on the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-top" id="ref-for-propdef-top">top</a> property of 2 seconds duration and a
+      transition on the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-width" id="ref-for-propdef-width">width</a> property of 1
       second duration.
 
       
@@ -1646,6 +1646,7 @@ Non-experimental implementations</span></a>
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:complete
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:complete
 spec:webdriver-bidi; type:dfn; for:/; text:complete">complete</u>
         or when implementations are required to <dfn class="dfn-paneled" data-dfn-for="transition" data-dfn-type="dfn" data-export id="transition-cancel">cancel</dfn> them.
         <span class="note">
@@ -1671,6 +1672,7 @@ spec:webdriver-bidi; type:dfn; for:/; text:complete">complete</u>
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> any <a data-link-type="dfn" href="#running-transition" id="ref-for-running-transition②">running transitions</a>
         on it and remove transitions on it from the
         <a data-link-type="dfn" href="#completed-transition" id="ref-for-completed-transition①">completed transitions</a>.
@@ -1935,6 +1937,7 @@ spec:performance-timeline; type:dfn; for:/; text:end time">end time</u> is
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="ref-for-running-transition⑤">running transition</span>
         or remove the <span id="ref-for-completed-transition①⓪">completed transition</span> from the set of
         <span id="ref-for-completed-transition①①">completed transitions</span>.
@@ -1959,6 +1962,7 @@ spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="re
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="ref-for-running-transition⑨">running transition</span>.
           
       <li>
@@ -1973,6 +1977,7 @@ spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="re
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="ref-for-running-transition①①">running transition</span>.
           
       <li>
@@ -1988,6 +1993,7 @@ spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="re
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <span id="ref-for-running-transition①③">running transition</span> and
             start a new transition whose:
             
@@ -2071,6 +2077,7 @@ spec:performance-timeline; type:dfn; for:/; text:end time">end time</u> is
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">cancel</u> the <a data-link-type="dfn" href="#running-transition" id="ref-for-running-transition①⑥">running transition</a>
             and start a new transition whose:
             
@@ -2157,7 +2164,7 @@ li:hover {
      <p>
             When a list item with these style rules enters the :hover
             state, the computed <a class="css property" data-link-type="property" href="#propdef-transition-duration" id="ref-for-propdef-transition-duration⑦">transition-duration</a> at the time that
-            <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/colors.html#propdef-background-color" id="ref-for-propdef-background-color②">background-color</a> would have its new value (<span class="css">green</span>) is <span class="css">2s</span>,
+            <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-background-color" id="ref-for-propdef-background-color②">background-color</a> would have its new value (<span class="css">green</span>) is <span class="css">2s</span>,
             so the transition from <span class="css">blue</span> to <span class="css">green</span> takes 2 seconds.
             However, when the list item leaves the :hover state, the
             transition from <span class="css">green</span> to <span class="css">blue</span> takes 1 second.
@@ -2428,6 +2435,7 @@ is an <a data-link-type="dfn" href="http://w3c.github.io/dom/#constructing-event
 Local references:
 spec:css-transitions-1; type:dfn; for:transition; text:cancel
 for-less references:
+spec:webdriver-bidi; type:dfn; for:/; text:canceled
 spec:webdriver-bidi; type:dfn; for:/; text:canceled">canceled</u>.
 
 
@@ -2859,10 +2867,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="67fd880f">background-color</span>
-     <li><span class="dfn-paneled" id="49a17925">left</span>
-     <li><span class="dfn-paneled" id="4726eb39">top</span>
-     <li><span class="dfn-paneled" id="1b010cf3">width</span>
+     <li><span class="dfn-paneled" id="dba80762">background-color</span>
+     <li><span class="dfn-paneled" id="683eac52">left</span>
+     <li><span class="dfn-paneled" id="f5f2965c">top</span>
+     <li><span class="dfn-paneled" id="8d60da93">width</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3-ANIMATIONS]</a> defines the following terms:
@@ -3489,11 +3497,8 @@ let dfnPanelData = {
 "07cd5a09": {"dfnID":"07cd5a09","dfnText":"Document","external":true,"refSections":[{"refs":[{"id":"ref-for-document"}],"title":"6.3. Event handlers on elements, Document objects, and Window objects"}],"url":"https://html.spec.whatwg.org/#document"},
 "129bdae8": {"dfnID":"129bdae8","dfnText":"Event","external":true,"refSections":[{"refs":[{"id":"ref-for-event"}],"title":"6.1.1. IDL Definition"}],"url":"https://dom.spec.whatwg.org/#event"},
 "12ac1140": {"dfnID":"12ac1140","dfnText":"animation type","external":true,"refSections":[{"refs":[{"id":"ref-for-animation-type"},{"id":"ref-for-animation-type\u2460"},{"id":"ref-for-animation-type\u2461"},{"id":"ref-for-animation-type\u2462"}],"title":"3. Starting of transitions"},{"refs":[{"id":"ref-for-animation-type\u2463"}],"title":"4. Application of transitions"}],"url":"https://drafts.csswg.org/web-animations-1/#animation-type"},
-"1b010cf3": {"dfnID":"1b010cf3","dfnText":"width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-width"}],"title":"2. Transitions"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-width"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.1. Value Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "44a7708c": {"dfnID":"44a7708c","dfnText":"EventInit","external":true,"refSections":[{"refs":[{"id":"ref-for-dictdef-eventinit"}],"title":"6.1.1. IDL Definition"}],"url":"https://dom.spec.whatwg.org/#dictdef-eventinit"},
-"4726eb39": {"dfnID":"4726eb39","dfnText":"top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-top"}],"title":"2. Transitions"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-top"},
-"49a17925": {"dfnID":"49a17925","dfnText":"left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-left"},{"id":"ref-for-propdef-left\u2460"},{"id":"ref-for-propdef-left\u2461"}],"title":"2. Transitions"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-left"},
 "49a64d88": {"dfnID":"49a64d88","dfnText":"HTML elements","external":true,"refSections":[{"refs":[{"id":"ref-for-html-elements"}],"title":"6.3. Event handlers on elements, Document objects, and Window objects"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#html-elements"},
 "4d7d3dcd": {"dfnID":"4d7d3dcd","dfnText":"initial","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-all-initial"}],"title":"2.1. The transition-property Property"}],"url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-initial"},
 "5074dc0c": {"dfnID":"5074dc0c","dfnText":"inset","external":true,"refSections":[{"refs":[{"id":"ref-for-shadow-inset"}],"title":"3. Starting of transitions"}],"url":"https://www.w3.org/TR/css3-background/#shadow-inset"},
@@ -3501,7 +3506,7 @@ let dfnPanelData = {
 "5d7209e9": {"dfnID":"5d7209e9","dfnText":"Window","external":true,"refSections":[{"refs":[{"id":"ref-for-window"}],"title":"6.3. Event handlers on elements, Document objects, and Window objects"}],"url":"https://html.spec.whatwg.org/multipage/nav-history-apis.html#window"},
 "5fced98b": {"dfnID":"5fced98b","dfnText":"CSSOMString","external":true,"refSections":[{"refs":[{"id":"ref-for-cssomstring"},{"id":"ref-for-cssomstring\u2460"},{"id":"ref-for-cssomstring\u2461"},{"id":"ref-for-cssomstring\u2462"},{"id":"ref-for-cssomstring\u2463"}],"title":"6.1.1. IDL Definition"},{"refs":[{"id":"ref-for-cssomstring\u2464"},{"id":"ref-for-cssomstring\u2465"}],"title":"6.1.2. Attributes"}],"url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "621c7c7e": {"dfnID":"621c7c7e","dfnText":"<time>","external":true,"refSections":[{"refs":[{"id":"ref-for-time-value"}],"title":"2.2. The transition-duration Property"},{"refs":[{"id":"ref-for-time-value\u2460"}],"title":"2.4. The transition-delay Property"},{"refs":[{"id":"ref-for-time-value\u2461"},{"id":"ref-for-time-value\u2462"}],"title":"2.5. The transition Shorthand Property"}],"url":"https://drafts.csswg.org/css-values-3/#time-value"},
-"67fd880f": {"dfnID":"67fd880f","dfnText":"background-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-color"},{"id":"ref-for-propdef-background-color\u2460"}],"title":"2. Transitions"},{"refs":[{"id":"ref-for-propdef-background-color\u2461"}],"title":"3. Starting of transitions"}],"url":"https://www.w3.org/TR/CSS21/colors.html#propdef-background-color"},
+"683eac52": {"dfnID":"683eac52","dfnText":"left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-left"},{"id":"ref-for-propdef-left\u2460"},{"id":"ref-for-propdef-left\u2461"}],"title":"2. Transitions"}],"url":"https://drafts.csswg.org/css2/#propdef-left"},
 "68487d22": {"dfnID":"68487d22","dfnText":"#","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-comma"}],"title":"2.1. The transition-property Property"},{"refs":[{"id":"ref-for-mult-comma\u2460"}],"title":"2.2. The transition-duration Property"},{"refs":[{"id":"ref-for-mult-comma\u2461"}],"title":"2.3. The transition-timing-function Property"},{"refs":[{"id":"ref-for-mult-comma\u2462"}],"title":"2.4. The transition-delay Property"},{"refs":[{"id":"ref-for-mult-comma\u2463"}],"title":"2.5. The transition Shorthand Property"}],"url":"https://drafts.csswg.org/css-values-4/#mult-comma"},
 "6916104d": {"dfnID":"6916104d","dfnText":"box-shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-box-shadow"}],"title":"3. Starting of transitions"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"},{"id":"ref-for-comb-one\u2460"}],"title":"2.1. The transition-property Property"},{"refs":[{"id":"ref-for-comb-one\u2461"}],"title":"2.5. The transition Shorthand Property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
@@ -3513,6 +3518,7 @@ let dfnPanelData = {
 "889e932f": {"dfnID":"889e932f","dfnText":"Exposed","external":true,"refSections":[{"refs":[{"id":"ref-for-Exposed"}],"title":"6.1.1. IDL Definition"}],"url":"https://webidl.spec.whatwg.org/#Exposed"},
 "8a82fda1": {"dfnID":"8a82fda1","dfnText":"||","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-any"},{"id":"ref-for-comb-any\u2460"},{"id":"ref-for-comb-any\u2461"}],"title":"2.5. The transition Shorthand Property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-any"},
 "8c800cdf": {"dfnID":"8c800cdf","dfnText":"double","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-double"},{"id":"ref-for-idl-double\u2460"}],"title":"6.1.1. IDL Definition"},{"refs":[{"id":"ref-for-idl-double\u2461"}],"title":"6.1.2. Attributes"}],"url":"https://webidl.spec.whatwg.org/#idl-double"},
+"8d60da93": {"dfnID":"8d60da93","dfnText":"width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-width"}],"title":"2. Transitions"}],"url":"https://drafts.csswg.org/css2/#propdef-width"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"},{"id":"ref-for-computed-value\u2460"}],"title":"2. Transitions"},{"refs":[{"id":"ref-for-computed-value\u2461"},{"id":"ref-for-computed-value\u2462"},{"id":"ref-for-computed-value\u2463"},{"id":"ref-for-computed-value\u2464"},{"id":"ref-for-computed-value\u2465"},{"id":"ref-for-computed-value\u2466"},{"id":"ref-for-computed-value\u2467"},{"id":"ref-for-computed-value\u2468"},{"id":"ref-for-computed-value\u2460\u24ea"},{"id":"ref-for-computed-value\u2460\u2460"},{"id":"ref-for-computed-value\u2460\u2461"}],"title":"3. Starting of transitions"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "9d386f55": {"dfnID":"9d386f55","dfnText":"event handler event type","external":true,"refSections":[{"refs":[{"id":"ref-for-event-handler-event-type"},{"id":"ref-for-event-handler-event-type\u2460"}],"title":"6.3. Event handlers on elements, Document objects, and Window objects"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-event-type"},
 "Events-TransitionEvent-elapsedTime": {"dfnID":"Events-TransitionEvent-elapsedTime","dfnText":"elapsedTime","external":false,"refSections":[{"refs":[{"id":"ref-for-Events-TransitionEvent-elapsedTime"}],"title":"6.1.1. IDL Definition"},{"refs":[{"id":"ref-for-Events-TransitionEvent-elapsedTime\u2460"},{"id":"ref-for-Events-TransitionEvent-elapsedTime\u2461"},{"id":"ref-for-Events-TransitionEvent-elapsedTime\u2462"},{"id":"ref-for-Events-TransitionEvent-elapsedTime\u2463"}],"title":"6.2. Types of TransitionEvent"}],"url":"#Events-TransitionEvent-elapsedTime"},
@@ -3530,6 +3536,7 @@ let dfnPanelData = {
 "d4689c67": {"dfnID":"d4689c67","dfnText":"event handler IDL attributes","external":true,"refSections":[{"refs":[{"id":"ref-for-event-handler-idl-attributes"},{"id":"ref-for-event-handler-idl-attributes\u2460"}],"title":"6.3. Event handlers on elements, Document objects, and Window objects"},{"refs":[{"id":"ref-for-event-handler-idl-attributes\u2461"}],"title":"7. DOM Interfaces"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-idl-attributes"},
 "d8586311": {"dfnID":"d8586311","dfnText":"interpolate","external":true,"refSections":[{"refs":[{"id":"ref-for-interpolation"}],"title":"2.3. The transition-timing-function Property"},{"refs":[{"id":"ref-for-interpolation\u2460"},{"id":"ref-for-interpolation\u2461"}],"title":"4. Application of transitions"}],"url":"https://drafts.csswg.org/css-values-4/#interpolation"},
 "d95397a7": {"dfnID":"d95397a7","dfnText":"all","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-all"}],"title":"2.1. The transition-property Property"}],"url":"https://drafts.csswg.org/css-cascade-5/#propdef-all"},
+"dba80762": {"dfnID":"dba80762","dfnText":"background-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-color"},{"id":"ref-for-propdef-background-color\u2460"}],"title":"2. Transitions"},{"refs":[{"id":"ref-for-propdef-background-color\u2461"}],"title":"3. Starting of transitions"}],"url":"https://drafts.csswg.org/css2/#propdef-background-color"},
 "de6d76c2": {"dfnID":"de6d76c2","dfnText":"cascade","external":true,"refSections":[{"refs":[{"id":"ref-for-cascade"}],"title":"10.2. Cascade"}],"url":"https://drafts.csswg.org/css-cascade-6/#cascade"},
 "dfn-complete": {"dfnID":"dfn-complete","dfnText":"complete","external":false,"refSections":[],"url":"#dfn-complete"},
 "dictdef-transitioneventinit": {"dfnID":"dictdef-transitioneventinit","dfnText":"TransitionEventInit","external":false,"refSections":[{"refs":[{"id":"ref-for-dictdef-transitioneventinit"}],"title":"6.1.1. IDL Definition"}],"url":"#dictdef-transitioneventinit"},
@@ -3548,6 +3555,7 @@ let dfnPanelData = {
 "e3ec4d32": {"dfnID":"e3ec4d32","dfnText":"discrete","external":true,"refSections":[{"refs":[{"id":"ref-for-discrete"},{"id":"ref-for-discrete\u2460"},{"id":"ref-for-discrete\u2461"},{"id":"ref-for-discrete\u2462"}],"title":"3. Starting of transitions"}],"url":"https://drafts.csswg.org/web-animations-1/#discrete"},
 "e9189aba": {"dfnID":"e9189aba","dfnText":"event handlers","external":true,"refSections":[{"refs":[{"id":"ref-for-event-handlers"},{"id":"ref-for-event-handlers\u2460"}],"title":"6.3. Event handlers on elements, Document objects, and Window objects"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers"},
 "f0951476": {"dfnID":"f0951476","dfnText":"EventHandler","external":true,"refSections":[{"refs":[{"id":"ref-for-eventhandler"},{"id":"ref-for-eventhandler\u2460"},{"id":"ref-for-eventhandler\u2461"},{"id":"ref-for-eventhandler\u2462"}],"title":"7.1. IDL Definition"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler"},
+"f5f2965c": {"dfnID":"f5f2965c","dfnText":"top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-top"}],"title":"2. Transitions"}],"url":"https://drafts.csswg.org/css2/#propdef-top"},
 "f831c141": {"dfnID":"f831c141","dfnText":"background-image","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-image"}],"title":"2. Transitions"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image"},
 "f87fb171": {"dfnID":"f87fb171","dfnText":"dispatch","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-event-dispatch"}],"title":"6. Transition Events"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#concept-event-dispatch"},
 "matching-transition-delay": {"dfnID":"matching-transition-delay","dfnText":"matching transition delay","external":false,"refSections":[{"refs":[{"id":"ref-for-matching-transition-delay"},{"id":"ref-for-matching-transition-delay\u2460"},{"id":"ref-for-matching-transition-delay\u2461"},{"id":"ref-for-matching-transition-delay\u2462"},{"id":"ref-for-matching-transition-delay\u2463"},{"id":"ref-for-matching-transition-delay\u2464"},{"id":"ref-for-matching-transition-delay\u2465"}],"title":"3. Starting of transitions"}],"url":"#matching-transition-delay"},
@@ -4104,6 +4112,10 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#identifier-value": {"displayText":"<custom-ident>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<custom-ident>","type":"type","url":"https://drafts.csswg.org/css-values-4/#identifier-value"},
 "https://drafts.csswg.org/css-values-4/#interpolation": {"displayText":"interpolate","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"interpolate","type":"dfn","url":"https://drafts.csswg.org/css-values-4/#interpolation"},
 "https://drafts.csswg.org/css-values-4/#mult-comma": {"displayText":"#","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"#","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-comma"},
+"https://drafts.csswg.org/css2/#propdef-background-color": {"displayText":"background-color","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"background-color","type":"property","url":"https://drafts.csswg.org/css2/#propdef-background-color"},
+"https://drafts.csswg.org/css2/#propdef-left": {"displayText":"left","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"left","type":"property","url":"https://drafts.csswg.org/css2/#propdef-left"},
+"https://drafts.csswg.org/css2/#propdef-top": {"displayText":"top","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"top","type":"property","url":"https://drafts.csswg.org/css2/#propdef-top"},
+"https://drafts.csswg.org/css2/#propdef-width": {"displayText":"width","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"width","type":"property","url":"https://drafts.csswg.org/css2/#propdef-width"},
 "https://drafts.csswg.org/cssom-1/#cssomstring": {"displayText":"CSSOMString","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSOMString","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "https://drafts.csswg.org/web-animations-1/#animation-type": {"displayText":"animation type","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"animation type","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#animation-type"},
 "https://drafts.csswg.org/web-animations-1/#combining-shadow-lists": {"displayText":"combining shadow lists","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"combining shadow lists","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#combining-shadow-lists"},
@@ -4121,10 +4133,6 @@ let refsData = {
 "https://html.spec.whatwg.org/multipage/webappapis.html#globaleventhandlers": {"displayText":"GlobalEventHandlers","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"GlobalEventHandlers","type":"interface","url":"https://html.spec.whatwg.org/multipage/webappapis.html#globaleventhandlers"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
 "https://webidl.spec.whatwg.org/#idl-double": {"displayText":"double","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"double","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-double"},
-"https://www.w3.org/TR/CSS21/colors.html#propdef-background-color": {"displayText":"background-color","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"background-color","type":"property","url":"https://www.w3.org/TR/CSS21/colors.html#propdef-background-color"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-width": {"displayText":"width","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"width","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-width"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-left": {"displayText":"left","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"left","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-left"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-top": {"displayText":"top","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"top","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-top"},
 "https://www.w3.org/TR/css3-background/#shadow-inset": {"displayText":"inset","export":true,"for_":["shadow"],"level":"1","normative":true,"shortname":"css-transitions","spec":"","status":"anchor-block","text":"inset","type":"value","url":"https://www.w3.org/TR/css3-background/#shadow-inset"},
 };
 

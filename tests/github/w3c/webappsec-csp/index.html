@@ -3008,7 +3008,7 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
              <dd data-md>
               <p><var>violation</var>’s <a data-link-type="dfn" href="#violation-global-object" id="ref-for-violation-global-object⑥">global object</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object">relevant settings
   object</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin" id="ref-for-concept-settings-object-origin①">origin</a></p>
-             <dt data-md><a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-window" id="ref-for-concept-request-window">window</a>
+             <dt data-md><u class="link-error" data-lt="window" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;window&apos; with for=&apos;[&apos;request&apos;]&apos;.">window</u>
              <dd data-md>
               <p>"<code>no-window</code>"</p>
              <dt data-md><a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client①④">client</a>
@@ -4616,19 +4616,19 @@ directive-value = <a data-link-type="grammar" href="#grammardef-ancestor-source-
   integration with the <u class="link-error" data-lt="process a navigate response" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;process a navigate response&apos;.">process a navigate response</u> algorithm. <a href="https://github.com/whatwg/html/issues/1230">[whatwg/html Issue #1230]</a></p>
     <h4 class="heading settled" data-level="6.3.3" id="directive-navigate-to"><span class="secno">6.3.3. </span><span class="content"><code>navigate-to</code></span><a class="self-link" href="#directive-navigate-to"></a></h4>
     <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="navigate-to">navigate-to</dfn> directive restricts the <code class="idl"><a data-link-type="idl" href="https://url.spec.whatwg.org/#url" id="ref-for-url⑧">URL</a></code>s to which
-  a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> can initiate navigations by any means (<code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element①">a</a></code>, <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/forms.html#the-form-element" id="ref-for-the-form-element">form</a></code>, <code>window.location</code>,
-  <code>window.open</code>, etc.). This is an enforcement on what navigations this <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a>
-  initiates <code>not</code> on what this <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document②">document</a> is allowed to navigate to.
+  a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> can initiate navigations by any means (<code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element①">a</a></code>, <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/forms.html#the-form-element" id="ref-for-the-form-element">form</a></code>, <code>window.location</code>,
+  <code>window.open</code>, etc.). This is an enforcement on what navigations this <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a>
+  initiates <code>not</code> on what this <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document②">document</a> is allowed to navigate to.
   If the <a data-link-type="dfn" href="#form-action" id="ref-for-form-action">form-action</a> directive is present, the <a data-link-type="dfn" href="#navigate-to" id="ref-for-navigate-to②">navigate-to</a> directive
   will not act on navigations that are form submissions.</p>
     <div class="example" id="example-118c27cf">
      <a class="self-link" href="#example-118c27cf"></a>
-    A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document③">document</a> <var>initiator</var> has the following <code>Content-Security-Policy</code>:
+    A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">document</a> <var>initiator</var> has the following <code>Content-Security-Policy</code>:
     
 <pre><a data-link-type="http-header" href="#header-content-security-policy" id="ref-for-header-content-security-policy①⑦">Content-Security-Policy</a>: navigate-to example.com
 </pre>
      
-    A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document④">document</a> <var>target</var> has the following <code>Content-Security-Policy</code>:
+    A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document④">document</a> <var>target</var> has the following <code>Content-Security-Policy</code>:
     
 <pre><a data-link-type="http-header" href="#header-content-security-policy" id="ref-for-header-content-security-policy①⑧">Content-Security-Policy</a>: navigate-to not-example.com
 </pre>
@@ -4788,7 +4788,7 @@ directive-value = <a data-link-type="grammar" href="https://tools.ietf.org/html/
         <ol>
          <li data-md>
           <p>Let <var>integrity sources</var> be the result of executing the algorithm
-  defined in <a href="https://www.w3.org/TR/SRI/#parse-metadata"><cite>SRI</cite> § 3.3.3 Parse metadata.</a> on <var>request</var>’s
+  defined in <span spec-section="#parse-metadata"></span> on <var>request</var>’s
   <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-integrity-metadata" id="ref-for-concept-request-integrity-metadata">integrity metadata</a>. <a data-link-type="biblio" href="#biblio-sri" title="Subresource Integrity">[SRI]</a></p>
          <li data-md>
           <p>If <var>integrity sources</var> is "<code>no metadata</code>" or an empty set, skip
@@ -6469,7 +6469,7 @@ rest of Google’s CSP Cabal.</p>
      <li><span class="dfn-paneled" id="0c0ceb78">bubbles</span>
      <li><span class="dfn-paneled" id="8b547cc7">composed</span>
      <li><span class="dfn-paneled" id="9638f92b">connected</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="5fd23811">fire an event</span>
      <li><span class="dfn-paneled" id="c62cd7cf">origin</span>
      <li><span class="dfn-paneled" id="ea2049db">shadow-including root</span>
@@ -6524,7 +6524,6 @@ rest of Google’s CSP Cabal.</p>
      <li><span class="dfn-paneled" id="5e345b1c">target browsing context</span>
      <li><span class="dfn-paneled" id="dc1cd39b">URL <small>(for request)</small></span>
      <li><span class="dfn-paneled" id="3268a8eb">URL <small>(for response)</small></span>
-     <li><span class="dfn-paneled" id="1ab127d6">window</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -6725,7 +6724,7 @@ rest of Google’s CSP Cabal.</p>
    <dt id="biblio-reporting">[REPORTING]
    <dd>Ilya Gregorik; Mike West. <a href="https://wicg.github.io/reporting/"><cite>Reporting API</cite></a>. URL: <a href="https://wicg.github.io/reporting/">https://wicg.github.io/reporting/</a>
    <dt id="biblio-reporting-1">[REPORTING-1]
-   <dd>Douglas Creager; Ian Clelland; Mike West. <a href="https://www.w3.org/TR/reporting-1/"><cite>Reporting API</cite></a>. 13 August 2024. WD. URL: <a href="https://www.w3.org/TR/reporting-1/">https://www.w3.org/TR/reporting-1/</a>
+   <dd>Douglas Creager; Ian Clelland; Mike West. <a href="https://www.w3.org/TR/reporting-1/"><cite>Reporting API</cite></a>. 11 June 2025. WD. URL: <a href="https://www.w3.org/TR/reporting-1/">https://www.w3.org/TR/reporting-1/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-rfc3492">[RFC3492]
@@ -6749,9 +6748,9 @@ rest of Google’s CSP Cabal.</p>
    <dt id="biblio-rfc8288">[RFC8288]
    <dd>M. Nottingham. <a href="https://httpwg.org/specs/rfc8288.html"><cite>Web Linking</cite></a>. October 2017. Proposed Standard. URL: <a href="https://httpwg.org/specs/rfc8288.html">https://httpwg.org/specs/rfc8288.html</a>
    <dt id="biblio-service-workers">[SERVICE-WORKERS]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://www.w3.org/TR/service-workers/"><cite>Service Workers</cite></a>. 12 July 2022. CR. URL: <a href="https://www.w3.org/TR/service-workers/">https://www.w3.org/TR/service-workers/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://www.w3.org/TR/service-workers/"><cite>Service Workers Nightly</cite></a>. 26 May 2026. CRD. URL: <a href="https://www.w3.org/TR/service-workers/">https://www.w3.org/TR/service-workers/</a>
    <dt id="biblio-sri">[SRI]
-   <dd>Devdatta Akhawe; et al. <a href="https://www.w3.org/TR/SRI/"><cite>Subresource Integrity</cite></a>. 23 June 2016. REC. URL: <a href="https://www.w3.org/TR/SRI/">https://www.w3.org/TR/SRI/</a>
+   <dd>Frederik Braun. <a href="https://www.w3.org/TR/sri-2/"><cite>Subresource Integrity</cite></a>. 20 March 2026. WD. URL: <a href="https://www.w3.org/TR/sri-2/">https://www.w3.org/TR/sri-2/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/"><cite>URL Standard</cite></a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
    <dt id="biblio-webidl">[WEBIDL]
@@ -6760,9 +6759,9 @@ rest of Google’s CSP Cabal.</p>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-appmanifest">[APPMANIFEST]
-   <dd>Marcos Caceres; et al. <a href="https://www.w3.org/TR/appmanifest/"><cite>Web Application Manifest</cite></a>. 11 October 2024. WD. URL: <a href="https://www.w3.org/TR/appmanifest/">https://www.w3.org/TR/appmanifest/</a>
+   <dd>Marcos Caceres; Daniel Murphy; Christian Liebel. <a href="https://www.w3.org/TR/appmanifest/"><cite>Web Application Manifest</cite></a>. 7 May 2026. WD. URL: <a href="https://www.w3.org/TR/appmanifest/">https://www.w3.org/TR/appmanifest/</a>
    <dt id="biblio-beacon">[BEACON]
-   <dd>Ilya Grigorik; Alois Reitbauer. <a href="https://www.w3.org/TR/beacon/"><cite>Beacon</cite></a>. 3 August 2022. CR. URL: <a href="https://www.w3.org/TR/beacon/">https://www.w3.org/TR/beacon/</a>
+   <dd>Ilya Grigorik; Alois Reitbauer. <a href="https://www.w3.org/TR/beacon/"><cite>Beacon</cite></a>. 3 August 2022. CRD. URL: <a href="https://www.w3.org/TR/beacon/">https://www.w3.org/TR/beacon/</a>
    <dt id="biblio-csp2">[CSP2]
    <dd>Mike West; Adam Barth; Daniel Veditz. <a href="https://www.w3.org/TR/CSP2/"><cite>Content Security Policy Level 2</cite></a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/CSP2/">https://www.w3.org/TR/CSP2/</a>
    <dt id="biblio-css-abuse">[CSS-ABUSE]
@@ -6776,7 +6775,7 @@ rest of Google’s CSP Cabal.</p>
    <dt id="biblio-html-design">[HTML-DESIGN]
    <dd>Anne Van Kesteren; Maciej Stachowiak. <a href="https://www.w3.org/TR/html-design-principles/"><cite>HTML Design Principles</cite></a>. URL: <a href="https://www.w3.org/TR/html-design-principles/">https://www.w3.org/TR/html-design-principles/</a>
    <dt id="biblio-mix">[MIX]
-   <dd>Emily Stark; Mike West; Carlos IbarraLopez. <a href="https://www.w3.org/TR/mixed-content/"><cite>Mixed Content</cite></a>. 23 February 2023. CR. URL: <a href="https://www.w3.org/TR/mixed-content/">https://www.w3.org/TR/mixed-content/</a>
+   <dd>Emily Stark; Mike West; Carlos IbarraLopez. <a href="https://www.w3.org/TR/mixed-content/"><cite>Mixed Content</cite></a>. 23 February 2023. CRD. URL: <a href="https://www.w3.org/TR/mixed-content/">https://www.w3.org/TR/mixed-content/</a>
    <dt id="biblio-timing">[TIMING]
    <dd>Paul Stone. <a href="https://www.contextis.com/media/downloads/Pixel_Perfect_Timing_Attacks_with_HTML5_Whitepaper.pdf"><cite>Pixel Perfect Timing Attacks with HTML5</cite></a>. URL: <a href="https://www.contextis.com/media/downloads/Pixel_Perfect_Timing_Attacks_with_HTML5_Whitepaper.pdf">https://www.contextis.com/media/downloads/Pixel_Perfect_Timing_Attacks_with_HTML5_Whitepaper.pdf</a>
    <dt id="biblio-uisecurity">[UISECURITY]
@@ -7095,7 +7094,6 @@ let dfnPanelData = {
 "165b73c9": {"dfnID":"165b73c9","dfnText":"SharedWorkerGlobalScope","external":true,"refSections":[{"refs":[{"id":"ref-for-sharedworkerglobalscope"}],"title":"4.2.2. \n    Initialize a global object\u2019s CSP list\n  "}],"url":"https://html.spec.whatwg.org/multipage/workers.html#sharedworkerglobalscope"},
 "16d07e10": {"dfnID":"16d07e10","dfnText":"for each","external":true,"refSections":[{"refs":[{"id":"ref-for-list-iterate"}],"title":"2.2.2. \n    Parse a serialized CSP list\n  "}],"url":"https://infra.spec.whatwg.org/#list-iterate"},
 "17bd86ff": {"dfnID":"17bd86ff","dfnText":"port (for URL)","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-url-port"},{"id":"ref-for-dom-url-port\u2460"}],"title":"6.6.2.6. \n    Does url match expression in origin with redirect count?\n  "}],"url":"https://url.spec.whatwg.org/#dom-url-port"},
-"1ab127d6": {"dfnID":"1ab127d6","dfnText":"window","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-window"}],"title":"5.3. \n    Report a violation\n  "}],"url":"https://fetch.spec.whatwg.org/#concept-request-window"},
 "23cac254": {"dfnID":"23cac254","dfnText":"split a string on ASCII whitespace","external":true,"refSections":[{"refs":[{"id":"ref-for-split-on-ascii-whitespace"}],"title":"2.2.1. \n    Parse a serialized CSP\n  "},{"refs":[{"id":"ref-for-split-on-ascii-whitespace\u2460"}],"title":"5.3. \n    Report a violation\n  "}],"url":"https://infra.spec.whatwg.org/#split-on-ascii-whitespace"},
 "296f3551": {"dfnID":"296f3551","dfnText":"Element","external":true,"refSections":[{"refs":[{"id":"ref-for-element"}],"title":"2.3. Directives"},{"refs":[{"id":"ref-for-element\u2460"}],"title":"4.2.4. \n    Should element\u2019s inline type behavior be blocked by Content Security Policy?\n  "},{"refs":[{"id":"ref-for-element\u2461"}],"title":"6.1.3.3. \n    default-src Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2462"}],"title":"6.1.11.3. \n    script-src Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2463"}],"title":"6.1.12.3. \n    script-src-elem Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2464"}],"title":"6.1.13.1. \n    script-src-attr Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2465"}],"title":"6.1.14.3. \n    style-src Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2466"}],"title":"6.1.15.3. \n    style-src-elem Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2467"}],"title":"6.1.16.1. \n    style-src-attr Inline Check\n  "},{"refs":[{"id":"ref-for-element\u2468"}],"title":"6.6.3.1. \n    Is element nonceable?\n  "},{"refs":[{"id":"ref-for-element\u2460\u24ea"}],"title":"6.6.3.3. \n    Does element match source list for type and source?\n  "}],"url":"https://dom.spec.whatwg.org/#element"},
 "2aaa2f42": {"dfnID":"2aaa2f42","dfnText":"HTTP fetch","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-http-fetch"},{"id":"ref-for-concept-http-fetch\u2460"}],"title":"4.1. \n    Integration with Fetch\n  "}],"url":"https://fetch.spec.whatwg.org/#concept-http-fetch"},
@@ -7202,8 +7200,8 @@ let dfnPanelData = {
 "a33db89a": {"dfnID":"a33db89a","dfnText":"fetch","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-fetch"}],"title":"5.3. \n    Report a violation\n  "}],"url":"https://fetch.spec.whatwg.org/#concept-fetch"},
 "a37f05fd": {"dfnID":"a37f05fd","dfnText":"strip leading and trailing ASCII whitespace","external":true,"refSections":[{"refs":[{"id":"ref-for-strip-leading-and-trailing-ascii-whitespace"}],"title":"2.2.1. \n    Parse a serialized CSP\n  "}],"url":"https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace"},
 "a3b18719": {"dfnID":"a3b18719","dfnText":"append (for set)","external":true,"refSections":[{"refs":[{"id":"ref-for-set-append"}],"title":"2.2.1. \n    Parse a serialized CSP\n  "}],"url":"https://infra.spec.whatwg.org/#set-append"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"},{"id":"ref-for-clone-a-node-document\u2461"},{"id":"ref-for-clone-a-node-document\u2462"},{"id":"ref-for-clone-a-node-document\u2463"}],"title":"6.3.3. navigate-to"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "a8b25997": {"dfnID":"a8b25997","dfnText":"redirect status","external":true,"refSections":[{"refs":[{"id":"ref-for-redirect-status"}],"title":"6.3.3.2. \n    navigate-to Navigation Response Check\n  "}],"url":"https://fetch.spec.whatwg.org/#redirect-status"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"},{"id":"ref-for-concept-document\u2461"},{"id":"ref-for-concept-document\u2462"},{"id":"ref-for-concept-document\u2463"}],"title":"6.3.3. navigate-to"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
 "abstract-opdef-parse-a-serialized-csp": {"dfnID":"abstract-opdef-parse-a-serialized-csp","dfnText":"parse a serialized CSP","external":false,"refSections":[{"refs":[{"id":"ref-for-abstract-opdef-parse-a-serialized-csp"}],"title":"2.2.2. Parse a serialized CSP list"},{"refs":[{"id":"ref-for-abstract-opdef-parse-a-serialized-csp\u2460"}],"title":"3.1. The Content-Security-Policy HTTP Response Header Field"},{"refs":[{"id":"ref-for-abstract-opdef-parse-a-serialized-csp\u2461"}],"title":"3.2. The Content-Security-Policy-Report-Only HTTP Response Header Field"},{"refs":[{"id":"ref-for-abstract-opdef-parse-a-serialized-csp\u2462"}],"title":"4.1. Integration with Fetch"}],"url":"#abstract-opdef-parse-a-serialized-csp"},
 "abstract-opdef-parse-a-serialized-csp-list": {"dfnID":"abstract-opdef-parse-a-serialized-csp-list","dfnText":"parse a serialized CSP list","external":false,"refSections":[{"refs":[{"id":"ref-for-abstract-opdef-parse-a-serialized-csp-list"},{"id":"ref-for-abstract-opdef-parse-a-serialized-csp-list\u2460"}],"title":"4.1.1. Set response\u2019s CSP list"}],"url":"#abstract-opdef-parse-a-serialized-csp-list"},
 "ae2a6342": {"dfnID":"ae2a6342","dfnText":"top-level browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-top-level-browsing-context"}],"title":"6.1.9. object-src"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context"},
@@ -7953,7 +7951,7 @@ let refsData = {
 "4e439ee3_https://tools.ietf.org/html/rfc7231#section-3": {"displayText":"representation","export":true,"for_":[],"level":"","normative":true,"shortname":"rfc7231","spec":"rfc7231","status":"anchor-block","text":"representation","type":"dfn","url":"https://tools.ietf.org/html/rfc7231#section-3"},
 "6a5840b7_https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf#": {"displayText":"SHA-512","export":true,"for_":[],"level":"","normative":true,"shortname":"sha2","spec":"sha2","status":"anchor-block","text":"sha-512","type":"dfn","url":"https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf#"},
 "fe0b17c4_https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf#": {"displayText":"SHA-384","export":true,"for_":[],"level":"","normative":true,"shortname":"sha2","spec":"sha2","status":"anchor-block","text":"sha-384","type":"dfn","url":"https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf#"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-document-origin": {"displayText":"origin","export":true,"for_":["Document"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"origin","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-origin"},
 "https://dom.spec.whatwg.org/#concept-event-fire": {"displayText":"fire an event","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"fire an event","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-event-fire"},
 "https://dom.spec.whatwg.org/#concept-shadow-including-root": {"displayText":"shadow-including root","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"shadow-including root","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-shadow-including-root"},
@@ -7989,7 +7987,6 @@ let refsData = {
 "https://fetch.spec.whatwg.org/#concept-request-redirect-mode": {"displayText":"redirect mode","export":true,"for_":["request"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"redirect mode","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request-redirect-mode"},
 "https://fetch.spec.whatwg.org/#concept-request-target-browsing-context": {"displayText":"target browsing context","export":true,"for_":["request"],"level":"","normative":true,"shortname":"fetch","spec":"fetch","status":"anchor-block","text":"target browsing context","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request-target-browsing-context"},
 "https://fetch.spec.whatwg.org/#concept-request-url": {"displayText":"URL","export":true,"for_":["request"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"url","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request-url"},
-"https://fetch.spec.whatwg.org/#concept-request-window": {"displayText":"window","export":true,"for_":["request"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"window","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request-window"},
 "https://fetch.spec.whatwg.org/#concept-response": {"displayText":"response","export":true,"for_":[],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"response","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-response"},
 "https://fetch.spec.whatwg.org/#concept-response-header-list": {"displayText":"header list","export":true,"for_":["response"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"header list","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-response-header-list"},
 "https://fetch.spec.whatwg.org/#concept-response-status": {"displayText":"status","export":true,"for_":["response"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"status","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-response-status"},
@@ -8125,7 +8122,7 @@ let refsData = {
 "https://www.w3.org/TR/cssom-1/#parse-a-css-declaration-block": {"displayText":"parse a CSS declaration block","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"snapshot","text":"parse a css declaration block","type":"dfn","url":"https://www.w3.org/TR/cssom-1/#parse-a-css-declaration-block"},
 "https://www.w3.org/TR/cssom-1/#parse-a-css-rule": {"displayText":"parse a CSS rule","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"snapshot","text":"parse a css rule","type":"dfn","url":"https://www.w3.org/TR/cssom-1/#parse-a-css-rule"},
 "https://www.w3.org/TR/cssom-1/#parse-a-group-of-selectors": {"displayText":"parse a group of selectors","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"snapshot","text":"parse a group of selectors","type":"dfn","url":"https://www.w3.org/TR/cssom-1/#parse-a-group-of-selectors"},
-"https://www.w3.org/TR/reporting-1/#reportbody": {"displayText":"ReportBody","export":true,"for_":[],"level":"1","normative":true,"shortname":"reporting","spec":"reporting-1","status":"snapshot","text":"ReportBody","type":"interface","url":"https://www.w3.org/TR/reporting-1/#reportbody"},
+"https://www.w3.org/TR/reporting-1/#reportbody": {"displayText":"ReportBody","export":true,"for_":[],"level":"1","normative":true,"shortname":"reporting","spec":"reporting-1","status":"snapshot","text":"ReportBody","type":"dictionary","url":"https://www.w3.org/TR/reporting-1/#reportbody"},
 "https://www.w3.org/TR/service-workers/#serviceworker": {"displayText":"ServiceWorker","export":true,"for_":[],"level":"1","normative":true,"shortname":"service-workers","spec":"service-workers","status":"snapshot","text":"ServiceWorker","type":"interface","url":"https://www.w3.org/TR/service-workers/#serviceworker"},
 "https://www.w3.org/TR/service-workers/#serviceworkerglobalscope": {"displayText":"ServiceWorkerGlobalScope","export":true,"for_":[],"level":"1","normative":true,"shortname":"service-workers","spec":"service-workers","status":"snapshot","text":"ServiceWorkerGlobalScope","type":"interface","url":"https://www.w3.org/TR/service-workers/#serviceworkerglobalscope"},
 };

@@ -37,17 +37,6 @@ authData/flags
 ed
 ED
 dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#editors-draft
-1
-1
--
-ed
-ED
-dfn
 webauthn-3
 webauthn
 3
@@ -56,6 +45,17 @@ https://www.w3.org/TR/webauthn-3/#authdata-flags-ed
 
 1
 authData/flags
+-
+ed
+ED
+dfn
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#editors-draft
+1
+1
 -
 Ed448Params
 Ed448Params
@@ -67,6 +67,28 @@ current
 https://wicg.github.io/webcrypto-secure-curves/#dfn-Ed448Params
 1
 1
+-
+edge device
+Edge Device
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-edge-device
+
+
+-
+edge device
+Edge Device
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-edge-device
+
+
 -
 EditContext
 EditContext
@@ -101,6 +123,17 @@ https://w3c.github.io/edit-context/#dfn-editcontext-editing-host
 1
 1
 -
+editcontext editing host
+EditContext editing host
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-editcontext-editing-host
+1
+1
+-
 editcontext-handled inputtype
 EditContext-handled inputType
 dfn
@@ -109,6 +142,17 @@ edit-context
 1
 current
 https://w3c.github.io/edit-context/#dfn-editcontext-handled-inputtype
+
+1
+-
+editcontext-handled inputtype
+EditContext-handled inputType
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-editcontext-handled-inputtype
 
 1
 -
@@ -156,14 +200,14 @@ https://www.w3.org/TR/webdriver2/#dfn-editable
 
 1
 -
-editing host
-editing host
+edited recommendation
+Edited Recommendation
 dfn
-contenteditable
-contenteditable
+w3c-process
+w3c-process
 1
 current
-https://w3c.github.io/contentEditable/#dfn-editing-host
+https://www.w3.org/policies/process/#edited-recommendation
 
 1
 -
@@ -174,7 +218,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#editors-draft
+https://www.w3.org/policies/process/#editors-draft
 1
 1
 -
@@ -203,11 +247,33 @@ https://drafts.csswg.org/css-2023/#editors-draft
 editor's draft
 Editor's Draft
 dfn
-w3c-process
-w3c-process
-1
+css-2024
+css
+2024
 current
-https://www.w3.org/Consortium/Process/#editors-draft
+https://drafts.csswg.org/css-2024/#editors-draft
+1
+1
+-
+editor's draft
+Editor's Draft
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#editors-draft
+1
+1
+-
+editor's draft
+Editor's Draft
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#editors-draft
 1
 1
 -
@@ -230,6 +296,50 @@ css
 2023
 snapshot
 https://www.w3.org/TR/css-2023/#editors-draft
+1
+1
+-
+editor's draft
+Editor's Draft
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#editors-draft
+1
+1
+-
+editor's draft
+Editor's Draft
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#editors-draft
+1
+1
+-
+editor's draft
+Editor's Draft
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#editors-draft
+1
+1
+-
+editor's draft
+Editor's Draft
+dfn
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#editors-draft
 1
 1
 -
@@ -281,6 +391,17 @@ https://www.w3.org/TR/css-box-4/#box-box-edge
 1
 box
 -
+edge segment endpoint
+edge segment endpoint
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#edge-segment-endpoint
+
+1
+-
 edgeMode
 edgeMode
 attribute
@@ -288,7 +409,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-edgemode
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-edgemode
 1
 1
 SVGFEConvolveMatrixElement
@@ -300,7 +421,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfegaussianblurelement-edgemode
+https://drafts.csswg.org/filter-effects-1/#dom-svgfegaussianblurelement-edgemode
 1
 1
 SVGFEGaussianBlurElement
@@ -312,7 +433,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-edgemode
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-edgemode
 1
 1
 feConvolveMatrix
@@ -324,7 +445,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fegaussianblur-edgemode
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fegaussianblur-edgemode
 1
 1
 feGaussianBlur
@@ -396,10 +517,10 @@ edit-context
 edit-context
 1
 snapshot
-https://www.w3.org/TR/edit-context/#dom-element-editcontext
+https://www.w3.org/TR/edit-context/#dom-htmlelement-editcontext
 1
 1
-Element
+HTMLElement
 -
 editable
 editable
@@ -485,7 +606,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#editorial-change
+https://www.w3.org/policies/process/#editorial-change
 
 1
 -

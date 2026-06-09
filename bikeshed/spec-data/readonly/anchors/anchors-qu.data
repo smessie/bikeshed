@@ -12,6 +12,18 @@ LatencyMode
 -
 "quality"
 "quality"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextimageformat-quality
+
+1
+browsingContext.ImageFormat
+-
+"quality"
+"quality"
 enum-value
 webcodecs
 webcodecs
@@ -21,6 +33,18 @@ https://www.w3.org/TR/webcodecs/#dom-latencymode-quality
 1
 1
 LatencyMode
+-
+"quality"
+"quality"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextimageformat-quality
+
+1
+browsingContext.ImageFormat
 -
 "quantizer"
 "quantizer"
@@ -226,6 +250,40 @@ https://webidl.spec.whatwg.org/#dom-domexception-quota_exceeded_err
 1
 DOMException
 -
+quantifiableassertion
+QuantifiableAssertion
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-QuantifiableAssertion
+
+1
+Web browsers
+-
+quantifier
+quantifier
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-Quantifier
+
+1
+-
+quantifierprefix
+QuantifierPrefix
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-QuantifierPrefix
+
+1
+-
 quantization
 quantization
 dfn
@@ -245,6 +303,28 @@ webxr
 1
 snapshot
 https://www.w3.org/TR/webxr/#quantization
+
+1
+-
+query
+query
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-query
+
+1
+-
+query
+query
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-query
 
 1
 -
@@ -415,7 +495,7 @@ https://w3c.github.io/encrypted-media/#dfn-quotaexceedederror
 -
 QuotaExceededError
 QuotaExceededError
-exception
+interface
 webidl
 webidl
 1
@@ -433,6 +513,53 @@ encrypted-media
 snapshot
 https://www.w3.org/TR/encrypted-media-2/#dfn-quotaexceedederror
 
+1
+-
+QuotaExceededError()
+QuotaExceededError()
+constructor
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quotaexceedederror
+1
+1
+QuotaExceededError
+-
+QuotaExceededError(message)
+QuotaExceededError(message)
+constructor
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quotaexceedederror
+1
+1
+QuotaExceededError
+-
+QuotaExceededError(message, options)
+QuotaExceededError(message, options)
+constructor
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quotaexceedederror
+1
+1
+QuotaExceededError
+-
+QuotaExceededErrorOptions
+QuotaExceededErrorOptions
+dictionary
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dictdef-quotaexceedederroroptions
+1
 1
 -
 QuoteJSONString
@@ -717,15 +844,26 @@ https://www.w3.org/TR/rdf12-concepts/#dfn-quad
 
 
 -
-quad width
-quad width
+quad invocation id
+quad invocation ID
 dfn
-css2
-css
+wgsl
+wgsl
 1
 current
-https://www.w3.org/TR/CSS21/syndata.html#em-width
+https://gpuweb.github.io/gpuweb/wgsl/#quad-invocation-id
+
 1
+-
+quad invocation id
+quad invocation ID
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#quad-invocation-id
+
 1
 -
 quad width
@@ -733,9 +871,9 @@ quad width
 dfn
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/syndata.html#em-width
+https://www.w3.org/TR/CSS2/syndata.html#em-width
 1
 1
 -
@@ -758,7 +896,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#quadrilateral
+https://drafts.csswg.org/geometry-1/#quadrilateral
 1
 1
 -
@@ -833,6 +971,18 @@ https://w3c.github.io/DOM-Parsing/#dfn-qualified-name
 qualified name
 qualified name
 dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#builtin-set-qualified-name
+
+1
+builtin-set
+-
+qualified name
+qualified name
+dfn
 webidl
 webidl
 1
@@ -840,6 +990,18 @@ current
 https://webidl.spec.whatwg.org/#qualified-name
 
 1
+-
+qualified name
+qualified name
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#builtin-set-qualified-name
+
+1
+builtin-set
 -
 qualified rule
 qualified rule
@@ -914,18 +1076,6 @@ https://dom.spec.whatwg.org/#dom-domimplementation-createdocument-namespace-qual
 1
 DOMImplementation/createDocument(namespace, qualifiedName, doctype)
 DOMImplementation/createDocument(namespace, qualifiedName)
--
-qualifiedName
-qualifiedName
-argument
-dom
-dom
-1
-current
-https://dom.spec.whatwg.org/#dom-domimplementation-createdocumenttype-qualifiedname-publicid-systemid-qualifiedname
-1
-1
-DOMImplementation/createDocumentType(qualifiedName, publicId, systemId)
 -
 qualifiedName
 qualifiedName
@@ -1084,54 +1234,6 @@ XRCompositionLayer
 -
 quality
 quality
-dict-member
-webxr-meshing
-webxr-meshing
-1
-current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrnearmeshfeature-quality
-1
-1
-XRNearMeshFeature
--
-quality
-quality
-attribute
-webxr-meshing
-webxr-meshing
-1
-current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrnearmeshfeature-quality-quality
-1
-1
-XRNearMeshFeature/quality
--
-quality
-quality
-dict-member
-webxr-meshing
-webxr-meshing
-1
-current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrworldmeshfeature-quality
-1
-1
-XRWorldMeshFeature
--
-quality
-quality
-attribute
-webxr-meshing
-webxr-meshing
-1
-current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrworldmeshfeature-quality-quality
-1
-1
-XRWorldMeshFeature/quality
--
-quality
-quality
 enum-value
 webcodecs
 webcodecs
@@ -1144,6 +1246,30 @@ LatencyMode
 -
 quality
 quality
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextimageformat-quality
+
+1
+browsingContext.ImageFormat
+-
+quality
+quality
+dict-member
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-quality
+1
+1
+SpeechRecognitionOptions
+-
+quality
+quality
 enum-value
 webcodecs
 webcodecs
@@ -1153,6 +1279,18 @@ https://www.w3.org/TR/webcodecs/#dom-latencymode-quality
 1
 1
 LatencyMode
+-
+quality
+quality
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextimageformat-quality
+
+1
+browsingContext.ImageFormat
 -
 quality
 quality
@@ -1237,6 +1375,78 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-qualitylimitat
 1
 1
 RTCOutboundRtpStreamStats
+-
+quantizeLinear
+quantizeLinear
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-quantizelinear
+1
+1
+MLOpSupportLimits
+-
+quantizeLinear
+quantizeLinear
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-quantizelinear
+1
+1
+MLOpSupportLimits
+-
+quantizeLinear(input, scale, zeroPoint)
+quantizeLinear(input, scale, zeroPoint)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-quantizelinear
+1
+1
+MLGraphBuilder
+-
+quantizeLinear(input, scale, zeroPoint)
+quantizeLinear(input, scale, zeroPoint)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-quantizelinear
+1
+1
+MLGraphBuilder
+-
+quantizeLinear(input, scale, zeroPoint, options)
+quantizeLinear(input, scale, zeroPoint, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-quantizelinear
+1
+1
+MLGraphBuilder
+-
+quantizeLinear(input, scale, zeroPoint, options)
+quantizeLinear(input, scale, zeroPoint, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-quantizelinear
+1
+1
+MLGraphBuilder
 -
 quantizer
 quantizer
@@ -1384,6 +1594,18 @@ OrientationSensor
 -
 query
 query
+dict-member
+css-conditional-5
+css-conditional
+5
+current
+https://drafts.csswg.org/css-conditional-5/#dom-csscontainercondition-query
+1
+1
+CSSContainerCondition
+-
+query
+query
 argument
 cssom-view-1
 cssom-view
@@ -1393,6 +1615,18 @@ https://drafts.csswg.org/cssom-view-1/#dom-window-matchmedia-query-query
 1
 1
 Window/matchMedia(query)
+-
+query
+query
+attribute
+mediaqueries-5
+mediaqueries
+5
+current
+https://drafts.csswg.org/mediaqueries-5/#dom-csscustommediarule-query
+1
+1
+CSSCustomMediaRule
 -
 query
 query
@@ -1419,6 +1653,18 @@ url
 -
 query
 query
+dict-member
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbgetalloptions-query
+1
+1
+IDBGetAllOptions
+-
+query
+query
 argument
 indexeddb-3
 indexeddb
@@ -1441,34 +1687,6 @@ https://w3c.github.io/IndexedDB/#dom-idbindex-get-query-query
 1
 1
 IDBIndex/get(query)
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-current
-https://w3c.github.io/IndexedDB/#dom-idbindex-getall-query-count-query
-1
-1
-IDBIndex/getAll(query, count)
-IDBIndex/getAll(query)
-IDBIndex/getAll()
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-current
-https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys-query-count-query
-1
-1
-IDBIndex/getAllKeys(query, count)
-IDBIndex/getAllKeys(query)
-IDBIndex/getAllKeys()
 -
 query
 query
@@ -1554,34 +1772,6 @@ indexeddb-3
 indexeddb
 3
 current
-https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall-query-count-query
-1
-1
-IDBObjectStore/getAll(query, count)
-IDBObjectStore/getAll(query)
-IDBObjectStore/getAll()
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-current
-https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys-query-count-query
-1
-1
-IDBObjectStore/getAllKeys(query, count)
-IDBObjectStore/getAllKeys(query)
-IDBObjectStore/getAllKeys()
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getkey-query-query
 1
 1
@@ -1617,6 +1807,18 @@ IDBObjectStore/openKeyCursor()
 -
 query
 query
+dict-member
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbgetalloptions-query
+1
+1
+IDBGetAllOptions
+-
+query
+query
 argument
 indexeddb-3
 indexeddb
@@ -1639,34 +1841,6 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-get-query-query
 1
 1
 IDBIndex/get(query)
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-snapshot
-https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall-query-count-query
-1
-1
-IDBIndex/getAll(query, count)
-IDBIndex/getAll(query)
-IDBIndex/getAll()
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-snapshot
-https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys-query-count-query
-1
-1
-IDBIndex/getAllKeys(query, count)
-IDBIndex/getAllKeys(query)
-IDBIndex/getAllKeys()
 -
 query
 query
@@ -1752,34 +1926,6 @@ indexeddb-3
 indexeddb
 3
 snapshot
-https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall-query-count-query
-1
-1
-IDBObjectStore/getAll(query, count)
-IDBObjectStore/getAll(query)
-IDBObjectStore/getAll()
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-snapshot
-https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys-query-count-query
-1
-1
-IDBObjectStore/getAllKeys(query, count)
-IDBObjectStore/getAllKeys(query)
-IDBObjectStore/getAllKeys()
--
-query
-query
-argument
-indexeddb-3
-indexeddb
-3
-snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getkey-query-query
 1
 1
@@ -1824,6 +1970,18 @@ https://www.w3.org/TR/cssom-view-1/#dom-window-matchmedia-query-query
 1
 1
 Window/matchMedia(query)
+-
+query
+query
+attribute
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#dom-csscustommediarule-query
+1
+1
+CSSCustomMediaRule
 -
 query a permission
 query a permission
@@ -1928,11 +2086,11 @@ https://www.w3.org/TR/css-contain-3/#query-container-name
 query cookies
 query cookies
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#query-cookies
+https://cookiestore.spec.whatwg.org/#query-cookies
 
 1
 -
@@ -1946,51 +2104,6 @@ current
 https://wicg.github.io/file-system-access/#querying-file-system-permission
 
 1
--
-query generated bid k-anonymity count
-query generated bid k-anonymity count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#query-generated-bid-k-anonymity-count
-
-1
--
-query k-anonymity cache
-query k-anonymity cache
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#query-k-anonymity-cache
-
-1
--
-query k-anonymity count
-query k-anonymity count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#query-k-anonymity-count
-
-1
--
-query name
-query name
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#saved-query-map-query-name
-1
-1
-saved query map
 -
 query object
 query object
@@ -2012,17 +2125,6 @@ url
 1
 current
 https://url.spec.whatwg.org/#query-percent-encode-set
-
-1
--
-query reporting id k-anonymity count
-query reporting ID k-anonymity count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#query-reporting-id-k-anonymity-count
 
 1
 -
@@ -2211,18 +2313,6 @@ https://www.w3.org/TR/webgpu/#dom-gpucommandencoder-resolvequeryset-queryset-fir
 1
 GPUCommandEncoder/resolveQuerySet(querySet, firstQuery, queryCount, destination, destinationOffset)
 -
-queryFeatureSupport(feature)
-queryFeatureSupport(feature)
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-protectedaudience-queryfeaturesupport
-1
-1
-ProtectedAudience
--
 queryHandwritingRecognizer(constraint)
 queryHandwritingRecognizer(constraint)
 method
@@ -2293,6 +2383,118 @@ https://wicg.github.io/local-font-access/#dom-window-querylocalfonts
 1
 1
 Window
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbindex-getall-queryoroptions-count-queryoroptions
+1
+1
+IDBIndex/getAll(queryOrOptions, count)
+IDBIndex/getAll(queryOrOptions)
+IDBIndex/getAll()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys-queryoroptions-count-queryoroptions
+1
+1
+IDBIndex/getAllKeys(queryOrOptions, count)
+IDBIndex/getAllKeys(queryOrOptions)
+IDBIndex/getAllKeys()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall-queryoroptions-count-queryoroptions
+1
+1
+IDBObjectStore/getAll(queryOrOptions, count)
+IDBObjectStore/getAll(queryOrOptions)
+IDBObjectStore/getAll()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys-queryoroptions-count-queryoroptions
+1
+1
+IDBObjectStore/getAllKeys(queryOrOptions, count)
+IDBObjectStore/getAllKeys(queryOrOptions)
+IDBObjectStore/getAllKeys()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall-queryoroptions-count-queryoroptions
+1
+1
+IDBIndex/getAll(queryOrOptions, count)
+IDBIndex/getAll(queryOrOptions)
+IDBIndex/getAll()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys-queryoroptions-count-queryoroptions
+1
+1
+IDBIndex/getAllKeys(queryOrOptions, count)
+IDBIndex/getAllKeys(queryOrOptions)
+IDBIndex/getAllKeys()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall-queryoroptions-count-queryoroptions
+1
+1
+IDBObjectStore/getAll(queryOrOptions, count)
+IDBObjectStore/getAll(queryOrOptions)
+IDBObjectStore/getAll()
+-
+queryOrOptions
+queryOrOptions
+argument
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys-queryoroptions-count-queryoroptions
+1
+1
+IDBObjectStore/getAllKeys(queryOrOptions, count)
+IDBObjectStore/getAllKeys(queryOrOptions)
+IDBObjectStore/getAllKeys()
 -
 queryPermission()
 queryPermission()
@@ -2574,7 +2776,7 @@ https://www.w3.org/TR/contact-picker/#queue-a-contact-picker-task
 queue a control message
 queue a control message
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2585,11 +2787,33 @@ https://webaudio.github.io/web-audio-api/#queuing
 queue a control message
 queue a control message
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#queuing
+
+1
+-
+queue a control message
+queue a control message
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#queuing
+https://www.w3.org/TR/webaudio-1.0/#queuing
+
+1
+-
+queue a control message
+queue a control message
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#queuing
 
 1
 -
@@ -2615,6 +2839,39 @@ https://html.spec.whatwg.org/multipage/browsers.html#queue-a-cross-origin-embedd
 
 1
 -
+queue a database task
+queue a database task
+dfn
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#queue-a-database-task
+
+1
+-
+queue a database task
+queue a database task
+dfn
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#queue-a-database-task
+
+1
+-
+queue a deferred fetch
+queue a deferred fetch
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#queue-a-deferred-fetch
+
+1
+-
 queue a details toggle event task
 queue a details toggle event task
 dfn
@@ -2623,6 +2880,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#queue-a-details-toggle-event-task
+
+1
+-
+queue a dialog toggle event task
+queue a dialog toggle event task
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#queue-a-dialog-toggle-event-task
+
+1
+-
+queue a document isolation policy corp violation report
+queue a document isolation policy CORP violation report
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#queue-a-document-isolation-policy-corp-violation-report
 
 1
 -
@@ -2667,6 +2946,28 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#abstract-opdef-queue-a-global-task-for-gpudevice
+1
+1
+-
+queue a long animation frame entry
+queue a long animation frame entry
+dfn
+long-animation-frames
+long-animation-frames
+1
+current
+https://w3c.github.io/long-animation-frames/#queue-a-long-animation-frame-entry
+1
+1
+-
+queue a long animation frame entry
+queue a long animation frame entry
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#queue-a-long-animation-frame-entry
 1
 1
 -
@@ -3057,17 +3358,6 @@ https://www.w3.org/TR/intersection-observer/#queue-an-intersection-observer-task
 
 1
 -
-queue reports for delivery
-queue reports for delivery
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#queue-reports-for-delivery
-
-1
--
 queue the performanceobserver task
 queue the PerformanceObserver task
 dfn
@@ -3097,7 +3387,7 @@ navigation-timing-2
 navigation-timing
 2
 current
-https://w3c.github.io/navigation-timing/#dfn-queue-the-navigation-timing-entry
+https://w3c.github.io/navigation-timing/#queue-the-navigation-timing-entry
 1
 1
 -
@@ -3108,7 +3398,7 @@ navigation-timing-2
 navigation-timing
 2
 snapshot
-https://www.w3.org/TR/navigation-timing-2/#dfn-queue-the-navigation-timing-entry
+https://www.w3.org/TR/navigation-timing-2/#queue-the-navigation-timing-entry
 1
 1
 -
@@ -3131,6 +3421,17 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#queue-timeline-property
+
+1
+-
+queue to reject
+queue to reject
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#queue-to-reject
 
 1
 -
@@ -3157,17 +3458,16 @@ https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-queuemic
 1
 WindowOrWorkerGlobalScope
 -
-queued
-queued
+queues a handwriting recognition api task
+queues a Handwriting Recognition API task
 dfn
-private-aggregation-api
-private-aggregation-api
+handwriting-recognition
+handwriting-recognition
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#aggregatable-report-queued
-
+https://wicg.github.io/handwriting-recognition/#queues-a-handwriting-recognition-api-task
 1
-aggregatable report
+1
 -
 queues a presentation api task
 queues a Presentation API task
@@ -3251,6 +3551,54 @@ storage endpoint
 -
 quota
 quota
+attribute
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quota
+1
+1
+QuotaExceededError
+-
+quota
+quota
+dict-member
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dom-quotaexceedederroroptions-quota
+1
+1
+QuotaExceededErrorOptions
+-
+quota
+quota
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#quotaexceedederror-quota
+1
+1
+QuotaExceededError
+-
+quota
+quota
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#quota-exceeded-error-information-quota
+1
+1
+quota exceeded error information
+-
+quota
+quota
 dict-member
 storage-buckets
 storage-buckets
@@ -3260,6 +3608,52 @@ https://wicg.github.io/storage-buckets/#dom-storagebucketoptions-quota
 1
 1
 StorageBucketOptions
+-
+quota exceeded
+quota exceeded
+dfn
+service-workers
+service-workers
+1
+current
+https://w3c.github.io/ServiceWorker/#dfn-dfn-count-router-condition-result-quota-exceeded
+
+1
+count router condition result
+-
+quota exceeded
+quota exceeded
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dfn-dfn-count-router-condition-result-quota-exceeded
+
+1
+count router condition result
+-
+quota exceeded error information
+quota exceeded error information
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#quota-exceeded-error-information
+1
+1
+-
+quota reserved for deferred-fetch-minimal
+quota reserved for deferred-fetch-minimal
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#quota-reserved-for-deferred-fetch-minimal
+
+1
 -
 quota value
 quota value
@@ -3273,6 +3667,18 @@ https://wicg.github.io/storage-buckets/#storagebucket-quota-value
 1
 StorageBucket
 -
+quotaoverflow
+quotaoverflow
+event
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#eventdef-languagemodel-quotaoverflow
+1
+1
+LanguageModel
+-
 quotation mark system
 quotation mark system
 dfn
@@ -3284,6 +3690,17 @@ https://drafts.csswg.org/css-content-3/#quotation-mark-system
 
 1
 -
+quotation mark system
+quotation mark system
+dfn
+css-content-3
+css-content
+3
+snapshot
+https://www.w3.org/TR/css-content-3/#quotation-mark-system
+
+1
+-
 quote depth
 quote depth
 dfn
@@ -3292,6 +3709,17 @@ css-content
 3
 current
 https://drafts.csswg.org/css-content-3/#quote-depth
+
+1
+-
+quote depth
+quote depth
+dfn
+css-content-3
+css-content
+3
+snapshot
+https://www.w3.org/TR/css-content-3/#quote-depth
 
 1
 -
@@ -3309,9 +3737,9 @@ https://drafts.csswg.org/css-content-3/#propdef-quotes
 quotes
 quotes
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-quotes
 1
@@ -3322,31 +3750,9 @@ quotes
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#propdef-quotes
-1
-1
--
-quotes
-quotes
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#propdef-quotes
-1
-1
--
-quotes
-quotes
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/generate.html#propdef-quotes
+https://www.w3.org/TR/CSS2/generate.html#propdef-quotes
 1
 1
 -

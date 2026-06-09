@@ -55,6 +55,20 @@
       "url": "https://www.w3.org/TR/trusted-types/#content-security-policy-hdr"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Trusted Types",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/trusted-types/dist/spec/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Trusted Types",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/trusted-types/#toc"
+    }
+  },
   "#create-a-trusted-type-algorithm": {
     "current": {
       "number": "3.2",
@@ -127,13 +141,13 @@
   },
   "#does-sink-require-trusted-types": {
     "current": {
-      "number": "4.3.3",
+      "number": "4.2.3",
       "spec": "Trusted Types",
       "text": "Does sink type require trusted types?",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#does-sink-require-trusted-types"
     },
     "snapshot": {
-      "number": "4.3.3",
+      "number": "4.2.3",
       "spec": "Trusted Types",
       "text": "Does sink type require trusted types?",
       "url": "https://www.w3.org/TR/trusted-types/#does-sink-require-trusted-types"
@@ -225,13 +239,13 @@
   },
   "#get-trusted-type-data-for-attribute": {
     "current": {
-      "number": "3.7",
+      "number": "3.8",
       "spec": "Trusted Types",
       "text": "Get Trusted Type data for attribute",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-data-for-attribute"
     },
     "snapshot": {
-      "number": "3.7",
+      "number": "3.8",
       "spec": "Trusted Types",
       "text": "Get Trusted Type data for attribute",
       "url": "https://www.w3.org/TR/trusted-types/#get-trusted-type-data-for-attribute"
@@ -351,30 +365,16 @@
   },
   "#integration-with-content-security-policy": {
     "current": {
-      "number": "4.3",
+      "number": "4.2",
       "spec": "Trusted Types",
       "text": "Integration with Content Security Policy",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#integration-with-content-security-policy"
     },
     "snapshot": {
-      "number": "4.3",
+      "number": "4.2",
       "spec": "Trusted Types",
       "text": "Integration with Content Security Policy",
       "url": "https://www.w3.org/TR/trusted-types/#integration-with-content-security-policy"
-    }
-  },
-  "#integration-with-dom": {
-    "current": {
-      "number": "4.2",
-      "spec": "Trusted Types",
-      "text": "Integration with DOM",
-      "url": "https://w3c.github.io/trusted-types/dist/spec/#integration-with-dom"
-    },
-    "snapshot": {
-      "number": "4.2",
-      "spec": "Trusted Types",
-      "text": "Integration with DOM",
-      "url": "https://www.w3.org/TR/trusted-types/#integration-with-dom"
     }
   },
   "#integration-with-html": {
@@ -475,6 +475,20 @@
       "url": "https://www.w3.org/TR/trusted-types/#policies-hdr"
     }
   },
+  "#prepare-script-text": {
+    "current": {
+      "number": "3.6",
+      "spec": "Trusted Types",
+      "text": "Prepare the script text",
+      "url": "https://w3c.github.io/trusted-types/dist/spec/#prepare-script-text"
+    },
+    "snapshot": {
+      "number": "3.6",
+      "spec": "Trusted Types",
+      "text": "Prepare the script text",
+      "url": "https://www.w3.org/TR/trusted-types/#prepare-script-text"
+    }
+  },
   "#privacy-considerations": {
     "current": {
       "number": "6",
@@ -519,13 +533,13 @@
   },
   "#require-trusted-types-for-csp-directive": {
     "current": {
-      "number": "4.3.1",
+      "number": "4.2.1",
       "spec": "Trusted Types",
       "text": "require-trusted-types-for directive",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive"
     },
     "snapshot": {
-      "number": "4.3.1",
+      "number": "4.2.1",
       "spec": "Trusted Types",
       "text": "require-trusted-types-for directive",
       "url": "https://www.w3.org/TR/trusted-types/#require-trusted-types-for-csp-directive"
@@ -533,30 +547,16 @@
   },
   "#require-trusted-types-for-pre-navigation-check": {
     "current": {
-      "number": "4.3.1.1",
+      "number": "4.2.1.1",
       "spec": "Trusted Types",
       "text": "require-trusted-types-for Pre-Navigation check",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-pre-navigation-check"
     },
     "snapshot": {
-      "number": "4.3.1.1",
+      "number": "4.2.1.1",
       "spec": "Trusted Types",
       "text": "require-trusted-types-for Pre-Navigation check",
       "url": "https://www.w3.org/TR/trusted-types/#require-trusted-types-for-pre-navigation-check"
-    }
-  },
-  "#script-children-changed-steps": {
-    "current": {
-      "number": "4.1.2.6",
-      "spec": "Trusted Types",
-      "text": "Script children changed steps",
-      "url": "https://w3c.github.io/trusted-types/dist/spec/#script-children-changed-steps"
-    },
-    "snapshot": {
-      "number": "4.1.2.6",
-      "spec": "Trusted Types",
-      "text": "Script children changed steps",
-      "url": "https://www.w3.org/TR/trusted-types/#script-children-changed-steps"
     }
   },
   "#script-gadgets": {
@@ -587,15 +587,29 @@
       "url": "https://www.w3.org/TR/trusted-types/#security-considerations"
     }
   },
+  "#setting-slot-values-from-parser": {
+    "current": {
+      "number": "4.1.2.6",
+      "spec": "Trusted Types",
+      "text": "Setting slot values from parser",
+      "url": "https://w3c.github.io/trusted-types/dist/spec/#setting-slot-values-from-parser"
+    },
+    "snapshot": {
+      "number": "4.1.2.6",
+      "spec": "Trusted Types",
+      "text": "Setting slot values from parser",
+      "url": "https://www.w3.org/TR/trusted-types/#setting-slot-values-from-parser"
+    }
+  },
   "#should-block-create-policy": {
     "current": {
-      "number": "4.3.5",
+      "number": "4.2.5",
       "spec": "Trusted Types",
       "text": "Should Trusted Type policy creation be blocked by Content Security Policy?",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#should-block-create-policy"
     },
     "snapshot": {
-      "number": "4.3.5",
+      "number": "4.2.5",
       "spec": "Trusted Types",
       "text": "Should Trusted Type policy creation be blocked by Content Security Policy?",
       "url": "https://www.w3.org/TR/trusted-types/#should-block-create-policy"
@@ -603,13 +617,13 @@
   },
   "#should-block-sink-type-mismatch": {
     "current": {
-      "number": "4.3.4",
+      "number": "4.2.4",
       "spec": "Trusted Types",
       "text": "Should sink type mismatch violation be blocked by Content Security Policy?",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#should-block-sink-type-mismatch"
     },
     "snapshot": {
-      "number": "4.3.4",
+      "number": "4.2.4",
       "spec": "Trusted Types",
       "text": "Should sink type mismatch violation be blocked by Content Security Policy?",
       "url": "https://www.w3.org/TR/trusted-types/#should-block-sink-type-mismatch"
@@ -841,13 +855,13 @@
   },
   "#trusted-types-csp-directive": {
     "current": {
-      "number": "4.3.2",
+      "number": "4.2.2",
       "spec": "Trusted Types",
       "text": "trusted-types directive",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive"
     },
     "snapshot": {
-      "number": "4.3.2",
+      "number": "4.2.2",
       "spec": "Trusted Types",
       "text": "trusted-types directive",
       "url": "https://www.w3.org/TR/trusted-types/#trusted-types-csp-directive"
@@ -869,15 +883,15 @@
   },
   "#validate-attribute-mutation": {
     "current": {
-      "number": "3.6",
+      "number": "3.7",
       "spec": "Trusted Types",
-      "text": "Get Trusted Types-compliant attribute value",
+      "text": "Get Trusted Type compliant attribute value",
       "url": "https://w3c.github.io/trusted-types/dist/spec/#validate-attribute-mutation"
     },
     "snapshot": {
-      "number": "3.6",
+      "number": "3.7",
       "spec": "Trusted Types",
-      "text": "Get Trusted Types-compliant attribute value",
+      "text": "Get Trusted Type compliant attribute value",
       "url": "https://www.w3.org/TR/trusted-types/#validate-attribute-mutation"
     }
   },

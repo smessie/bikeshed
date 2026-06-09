@@ -1617,10 +1617,10 @@ keyframe specifying each property.</p>
 }
 </pre>
     <p>If these two animations are applied to the same element, normally only
-  one animation would apply, but by specifying <a class="css" data-link-type="maybe" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-add" id="ref-for-valdef-mask-composite-add">add</a> as the
+  one animation would apply, but by specifying <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add" id="ref-for-valdef-mask-composite-add">add</a> as the
   <a class="css property" data-link-type="property" href="#propdef-animation-composition" id="ref-for-propdef-animation-composition④">animation-composition</a> on the second animation, the result of the two
   animations will be combined.</p>
-    <p>Since CSS Transitions <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions">[CSS3-TRANSITIONS]</a> have a lower composite
+    <p>Since CSS Transitions <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions Module Level 1">[CSS3-TRANSITIONS]</a> have a lower composite
   order, it is possible to use <a class="css property" data-link-type="property" href="#propdef-animation-composition" id="ref-for-propdef-animation-composition⑤">animation-composition</a> to combine CSS
   Animations with underlying transitions as in the following example.</p>
 <pre>.icon {
@@ -1650,7 +1650,7 @@ keyframe specifying each property.</p>
 animation.</p>
    <p class="note" role="note"><span class="marker">Note:</span> This specification does not introduce any syntax to specify animation
 timelines but instead it is up to others specifications such as Scroll-linked
-Animations <a data-link-type="biblio" href="#biblio-scroll-animations" title="Scroll-linked Animations">[SCROLL-ANIMATIONS]</a> to do so.</p>
+Animations <a data-link-type="biblio" href="#biblio-scroll-animations" title="Scroll-driven Animations">[SCROLL-ANIMATIONS]</a> to do so.</p>
    <table class="def propdef" data-link-for-hint="animation-timeline">
     <tbody>
      <tr>
@@ -1870,7 +1870,7 @@ As an example, in the following code fragment, when the specified style of
 the computed value of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-animations-1/#propdef-animation" id="ref-for-propdef-animation②">animation</a> property.
 
 
-    <p>However, the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations" id="ref-for-dom-animatable-getanimations">getAnimations()</a></code> method called on <code>elem</code>
+    <p>However, the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations" id="ref-for-dom-animatable-getanimations">getAnimations()</a></code> method called on <code>elem</code>
 is specified by Web Animations and can return <code class="idl"><a data-link-type="idl" href="#cssanimation" id="ref-for-cssanimation①⓪">CSSAnimation</a></code> objects as
 defined in this specification.
 Hence, as result of the requirements in this section, the user agent must
@@ -2068,7 +2068,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-MASKING-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="65d2348f">add</span>
+     <li><span class="dfn-paneled" id="9409b0a0">add</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-TRANSFORMS-2]</a> defines the following terms:
@@ -2147,6 +2147,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="26b9f468">default document timeline</span>
      <li><span class="dfn-paneled" id="1f7bca82">effect</span>
      <li><span class="dfn-paneled" id="a5b996d7">fill mode</span>
+     <li><span class="dfn-paneled" id="f2a0cd35">getAnimations()</span>
      <li><span class="dfn-paneled" id="8c052c1e">global animation list</span>
      <li><span class="dfn-paneled" id="a9ee4e92">idle phase</span>
      <li><span class="dfn-paneled" id="6c215671">idle play state</span>
@@ -2178,7 +2179,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[WEB-ANIMATIONS-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="2fe418bd">getAnimations()</span>
      <li><span class="dfn-paneled" id="e98bd90f">startTime</span>
     </ul>
    <li>
@@ -2211,20 +2211,20 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-web-animations">[WEB-ANIMATIONS]
    <dd>Brian Birtles; et al. <a href="https://drafts.csswg.org/web-animations-1/"><cite>Web Animations</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-1/">https://drafts.csswg.org/web-animations-1/</a>
    <dt id="biblio-web-animations-2">[WEB-ANIMATIONS-2]
-   <dd>Brian Birtles; Robert Flack. <a href="https://drafts.csswg.org/web-animations-2/"><cite>Web Animations Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-2/">https://drafts.csswg.org/web-animations-2/</a>
+   <dd>Brian Birtles; Robert Flack. <a href="https://drafts.csswg.org/web-animations-2/"><cite>Web Animations Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-2/">https://drafts.csswg.org/web-animations-2/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css-masking-1">[CSS-MASKING-1]
-   <dd>Dirk Schulze; Brian Birtles; Tab Atkins Jr.. <a href="https://drafts.fxtf.org/css-masking-1/"><cite>CSS Masking Module Level 1</cite></a>. URL: <a href="https://drafts.fxtf.org/css-masking-1/">https://drafts.fxtf.org/css-masking-1/</a>
+   <dd>Dirk Schulze; Brian Birtles; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-masking-1/"><cite>CSS Masking Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-masking-1/">https://drafts.csswg.org/css-masking-1/</a>
    <dt id="biblio-css-transforms-2">[CSS-TRANSFORMS-2]
    <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-transforms-2/"><cite>CSS Transforms Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-transforms-2/">https://drafts.csswg.org/css-transforms-2/</a>
    <dt id="biblio-css3-transitions">[CSS3-TRANSITIONS]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
    <dt id="biblio-scroll-animations">[SCROLL-ANIMATIONS]
-   <dd><a href="https://wicg.github.io/scroll-animations/"><cite>Scroll-linked Animations</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/scroll-animations/">https://wicg.github.io/scroll-animations/</a>
+   <dd>Brian Birtles; et al. <a href="https://drafts.csswg.org/scroll-animations-1/"><cite>Scroll-driven Animations</cite></a>. URL: <a href="https://drafts.csswg.org/scroll-animations-1/">https://drafts.csswg.org/scroll-animations-1/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <div class="big-element-wrapper">
@@ -2567,7 +2567,6 @@ let dfnPanelData = {
 "26b9f468": {"dfnID":"26b9f468","dfnText":"default document timeline","external":true,"refSections":[{"refs":[{"id":"ref-for-default-document-timeline"}],"title":"3.9. The animation-timeline property"}],"url":"https://drafts.csswg.org/web-animations-1/#default-document-timeline"},
 "2a319ac5": {"dfnID":"2a319ac5","dfnText":"animation","external":true,"refSections":[{"refs":[{"id":"ref-for-animation"}],"title":"2.2. Animation composite order"},{"refs":[{"id":"ref-for-animation\u2460"}],"title":"3.9. The animation-timeline property"},{"refs":[{"id":"ref-for-animation\u2461"}],"title":"5.1. The CSSAnimation interface"}],"url":"https://drafts.csswg.org/web-animations-1/#animation"},
 "2d1d585c": {"dfnID":"2d1d585c","dfnText":"animationstart","external":true,"refSections":[{"refs":[{"id":"ref-for-eventdef-globaleventhandlers-animationstart"},{"id":"ref-for-eventdef-globaleventhandlers-animationstart\u2460"},{"id":"ref-for-eventdef-globaleventhandlers-animationstart\u2461"},{"id":"ref-for-eventdef-globaleventhandlers-animationstart\u2462"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/css-animations-1/#eventdef-globaleventhandlers-animationstart"},
-"2fe418bd": {"dfnID":"2fe418bd","dfnText":"getAnimations()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animatable-getanimations"}],"title":"5.2. Requirements on pending style changes"}],"url":"https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations"},
 "409ef463": {"dfnID":"409ef463","dfnText":"paused","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-animation-play-state-paused"}],"title":"3.5. The animation-play-state property"}],"url":"https://drafts.csswg.org/css-animations-1/#valdef-animation-play-state-paused"},
 "433ecf04": {"dfnID":"433ecf04","dfnText":"reverse()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animation-reverse"},{"id":"ref-for-dom-animation-reverse\u2460"}],"title":"2. Animations"}],"url":"https://drafts.csswg.org/web-animations-1/#dom-animation-reverse"},
 "44d712bb": {"dfnID":"44d712bb","dfnText":"animationcancel","external":true,"refSections":[{"refs":[{"id":"ref-for-eventdef-globaleventhandlers-animationcancel"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/css-animations-1/#eventdef-globaleventhandlers-animationcancel"},
@@ -2583,7 +2582,6 @@ let dfnPanelData = {
 "5e871285": {"dfnID":"5e871285","dfnText":"sampling","external":true,"refSections":[{"refs":[{"id":"ref-for-sampling"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/web-animations-1/#sampling"},
 "5fced98b": {"dfnID":"5fced98b","dfnText":"CSSOMString","external":true,"refSections":[{"refs":[{"id":"ref-for-cssomstring"},{"id":"ref-for-cssomstring\u2460"}],"title":"5.1. The CSSAnimation interface"}],"url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "6295808f": {"dfnID":"6295808f","dfnText":"equivalent physical property","external":true,"refSections":[{"refs":[{"id":"ref-for-logical-to-physical"}],"title":"3. Keyframes"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#logical-to-physical"},
-"65d2348f": {"dfnID":"65d2348f","dfnText":"add","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-mask-composite-add"}],"title":"3.8. The animation-composition property"}],"url":"https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-add"},
 "68487d22": {"dfnID":"68487d22","dfnText":"#","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-comma"}],"title":"3.8. The animation-composition property"},{"refs":[{"id":"ref-for-mult-comma\u2460"}],"title":"3.9. The animation-timeline property"}],"url":"https://drafts.csswg.org/css-values-4/#mult-comma"},
 "6aa0dd52": {"dfnID":"6aa0dd52","dfnText":"pause()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animation-pause"}],"title":"2. Animations"}],"url":"https://drafts.csswg.org/web-animations-1/#dom-animation-pause"},
 "6c215671": {"dfnID":"6c215671","dfnText":"idle play state","external":true,"refSections":[{"refs":[{"id":"ref-for-idle-play-state"},{"id":"ref-for-idle-play-state\u2460"},{"id":"ref-for-idle-play-state\u2461"}],"title":"2.2. Animation composite order"}],"url":"https://drafts.csswg.org/web-animations-1/#idle-play-state"},
@@ -2601,6 +2599,7 @@ let dfnPanelData = {
 "8c052c1e": {"dfnID":"8c052c1e","dfnText":"global animation list","external":true,"refSections":[{"refs":[{"id":"ref-for-global-animation-list"},{"id":"ref-for-global-animation-list\u2460"},{"id":"ref-for-global-animation-list\u2461"}],"title":"2.2. Animation composite order"}],"url":"https://drafts.csswg.org/web-animations-1/#global-animation-list"},
 "8f8e9b1e": {"dfnID":"8f8e9b1e","dfnText":"current iteration","external":true,"refSections":[{"refs":[{"id":"ref-for-current-iteration"},{"id":"ref-for-current-iteration\u2460"},{"id":"ref-for-current-iteration\u2461"},{"id":"ref-for-current-iteration\u2462"},{"id":"ref-for-current-iteration\u2463"},{"id":"ref-for-current-iteration\u2464"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/web-animations-1/#current-iteration"},
 "9054eaa4": {"dfnID":"9054eaa4","dfnText":"composite operation","external":true,"refSections":[{"refs":[{"id":"ref-for-composite-operation"},{"id":"ref-for-composite-operation\u2460"}],"title":"3.8. The animation-composition property"}],"url":"https://drafts.csswg.org/web-animations-1/#composite-operation"},
+"9409b0a0": {"dfnID":"9409b0a0","dfnText":"add","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-mask-composite-add"}],"title":"3.8. The animation-composition property"}],"url":"https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add"},
 "94b809f0": {"dfnID":"94b809f0","dfnText":"animationiteration","external":true,"refSections":[{"refs":[{"id":"ref-for-eventdef-globaleventhandlers-animationiteration"},{"id":"ref-for-eventdef-globaleventhandlers-animationiteration\u2460"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/css-animations-1/#eventdef-globaleventhandlers-animationiteration"},
 "96812fae": {"dfnID":"96812fae","dfnText":"after phase","external":true,"refSections":[{"refs":[{"id":"ref-for-after-phase"},{"id":"ref-for-after-phase\u2460"},{"id":"ref-for-after-phase\u2461"},{"id":"ref-for-after-phase\u2462"},{"id":"ref-for-after-phase\u2463"},{"id":"ref-for-after-phase\u2464"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/web-animations-1/#after-phase"},
 "977d3003": {"dfnID":"977d3003","dfnText":"<string>","external":true,"refSections":[{"refs":[{"id":"ref-for-string-value"}],"title":"3.9. The animation-timeline property"}],"url":"https://drafts.csswg.org/css-values-4/#string-value"},
@@ -2642,6 +2641,7 @@ let dfnPanelData = {
 "ef3a10d3": {"dfnID":"ef3a10d3","dfnText":"<single-animation-iteration-count>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-single-animation-iteration-count"}],"title":"3.10. The animation shorthand property"}],"url":"https://drafts.csswg.org/css-animations-1/#typedef-single-animation-iteration-count"},
 "ef66e85c": {"dfnID":"ef66e85c","dfnText":"before phase","external":true,"refSections":[{"refs":[{"id":"ref-for-before-phase"},{"id":"ref-for-before-phase\u2460"},{"id":"ref-for-before-phase\u2461"},{"id":"ref-for-before-phase\u2462"},{"id":"ref-for-before-phase\u2463"},{"id":"ref-for-before-phase\u2464"},{"id":"ref-for-before-phase\u2465"}],"title":"4.1. Event dispatch"}],"url":"https://drafts.csswg.org/web-animations-1/#before-phase"},
 "elapsed-time": {"dfnID":"elapsed-time","dfnText":"Elapsed time","external":false,"refSections":[{"refs":[{"id":"ref-for-elapsed-time"},{"id":"ref-for-elapsed-time\u2460"},{"id":"ref-for-elapsed-time\u2461"}],"title":"4.1. Event dispatch"}],"url":"#elapsed-time"},
+"f2a0cd35": {"dfnID":"f2a0cd35","dfnText":"getAnimations()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animatable-getanimations"}],"title":"5.2. Requirements on pending style changes"}],"url":"https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations"},
 "f305d4bb": {"dfnID":"f305d4bb","dfnText":"timing","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-animationeffect-updatetiming-timing-timing"}],"title":"2. Animations"}],"url":"https://drafts.csswg.org/web-animations-1/#dom-animationeffect-updatetiming-timing-timing"},
 "fa19c68e": {"dfnID":"fa19c68e","dfnText":"@keyframes","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-keyframes"},{"id":"ref-for-at-ruledef-keyframes\u2460"},{"id":"ref-for-at-ruledef-keyframes\u2461"},{"id":"ref-for-at-ruledef-keyframes\u2462"}],"title":"2. Animations"},{"refs":[{"id":"ref-for-at-ruledef-keyframes\u2463"},{"id":"ref-for-at-ruledef-keyframes\u2464"},{"id":"ref-for-at-ruledef-keyframes\u2465"}],"title":"3. Keyframes"}],"url":"https://drafts.csswg.org/css-animations-1/#at-ruledef-keyframes"},
 "interval-end": {"dfnID":"interval-end","dfnText":"interval end","external":false,"refSections":[{"refs":[{"id":"ref-for-interval-end"},{"id":"ref-for-interval-end\u2460"},{"id":"ref-for-interval-end\u2461"},{"id":"ref-for-interval-end\u2462"}],"title":"4.1. Event dispatch"}],"url":"#interval-end"},
@@ -3161,6 +3161,7 @@ let refsData = {
 "https://drafts.csswg.org/css-easing-2/#easing-function": {"displayText":"timing function","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-easing","spec":"css-easing-2","status":"current","text":"timing function","type":"dfn","url":"https://drafts.csswg.org/css-easing-2/#easing-function"},
 "https://drafts.csswg.org/css-easing-2/#typedef-easing-function": {"displayText":"<easing-function>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-easing","spec":"css-easing-2","status":"current","text":"<easing-function>","type":"type","url":"https://drafts.csswg.org/css-easing-2/#typedef-easing-function"},
 "https://drafts.csswg.org/css-easing-2/#valdef-step-easing-function-step-end": {"displayText":"step-end","export":true,"for_":["<step-easing-function>","steps()"],"level":"2","normative":true,"shortname":"css-easing","spec":"css-easing-2","status":"current","text":"step-end","type":"value","url":"https://drafts.csswg.org/css-easing-2/#valdef-step-easing-function-step-end"},
+"https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add": {"displayText":"add","export":true,"for_":["mask-composite"],"level":"1","normative":true,"shortname":"css-masking","spec":"css-masking-1","status":"current","text":"add","type":"value","url":"https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add"},
 "https://drafts.csswg.org/css-transforms-2/#propdef-scale": {"displayText":"scale","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-transforms","spec":"css-transforms-2","status":"current","text":"scale","type":"property","url":"https://drafts.csswg.org/css-transforms-2/#propdef-scale"},
 "https://drafts.csswg.org/css-values-4/#css-identifier": {"displayText":"css identifier","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"anchor-block","text":"css identifier","type":"dfn","url":"https://drafts.csswg.org/css-values-4/#css-identifier"},
 "https://drafts.csswg.org/css-values-4/#identifier-value": {"displayText":"<custom-ident>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<custom-ident>","type":"type","url":"https://drafts.csswg.org/css-values-4/#identifier-value"},
@@ -3185,6 +3186,7 @@ let refsData = {
 "https://drafts.csswg.org/web-animations-1/#current-time": {"displayText":"current time","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"current time","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#current-time"},
 "https://drafts.csswg.org/web-animations-1/#default-document-timeline": {"displayText":"default document timeline","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"default document timeline","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#default-document-timeline"},
 "https://drafts.csswg.org/web-animations-1/#documenttimeline": {"displayText":"DocumentTimeline","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"DocumentTimeline","type":"interface","url":"https://drafts.csswg.org/web-animations-1/#documenttimeline"},
+"https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations": {"displayText":"getAnimations()","export":true,"for_":["Animatable"],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"getAnimations()","type":"method","url":"https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations"},
 "https://drafts.csswg.org/web-animations-1/#dom-animation-effect": {"displayText":"effect","export":true,"for_":["Animation"],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"effect","type":"attribute","url":"https://drafts.csswg.org/web-animations-1/#dom-animation-effect"},
 "https://drafts.csswg.org/web-animations-1/#dom-animation-pause": {"displayText":"pause()","export":true,"for_":["Animation"],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"pause()","type":"method","url":"https://drafts.csswg.org/web-animations-1/#dom-animation-pause"},
 "https://drafts.csswg.org/web-animations-1/#dom-animation-play": {"displayText":"play()","export":true,"for_":["Animation"],"level":"1","normative":true,"shortname":"web-animations","spec":"web-animations-1","status":"current","text":"play()","type":"method","url":"https://drafts.csswg.org/web-animations-1/#dom-animation-play"},
@@ -3215,9 +3217,7 @@ let refsData = {
 "https://drafts.csswg.org/web-animations-1/#target-element": {"displayText":"target element","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"target element","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#target-element"},
 "https://drafts.csswg.org/web-animations-1/#timeline": {"displayText":"timeline","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"timeline","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#timeline"},
 "https://drafts.csswg.org/web-animations-1/#unresolved": {"displayText":"unresolved","export":true,"for_":[],"level":"","normative":true,"shortname":"web-animations","spec":"web-animations","status":"anchor-block","text":"unresolved","type":"dfn","url":"https://drafts.csswg.org/web-animations-1/#unresolved"},
-"https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations": {"displayText":"getAnimations()","export":true,"for_":["Animatable"],"level":"2","normative":true,"shortname":"web-animations","spec":"web-animations-2","status":"current","text":"getAnimations()","type":"method","url":"https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations"},
 "https://drafts.csswg.org/web-animations-2/#dom-animation-starttime": {"displayText":"startTime","export":true,"for_":["Animation"],"level":"2","normative":true,"shortname":"web-animations","spec":"web-animations-2","status":"current","text":"startTime","type":"attribute","url":"https://drafts.csswg.org/web-animations-2/#dom-animation-starttime"},
-"https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-add": {"displayText":"add","export":true,"for_":["mask-composite"],"level":"1","normative":true,"shortname":"css-masking","spec":"css-masking-1","status":"current","text":"add","type":"value","url":"https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-add"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
 };
 

@@ -279,6 +279,20 @@
       "url": "https://www.w3.org/TR/clipboard-apis/#clipboard-permissions"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/clipboard-apis/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/clipboard-apis/#toc"
+    }
+  },
   "#copy-action": {
     "current": {
       "number": "8.1",
@@ -317,7 +331,7 @@
     "snapshot": {
       "number": "7.3.1",
       "spec": "Clipboard API and events",
-      "text": "read()",
+      "text": "read(formats)",
       "url": "https://www.w3.org/TR/clipboard-apis/#dom-clipboard-read"
     }
   },
@@ -397,6 +411,12 @@
       "spec": "Clipboard API and events",
       "text": "supports(type)",
       "url": "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-supports"
+    },
+    "snapshot": {
+      "number": "7.2.4",
+      "spec": "Clipboard API and events",
+      "text": "supports(type)",
+      "url": "https://www.w3.org/TR/clipboard-apis/#dom-clipboarditem-supports"
     }
   },
   "#dom-clipboarditem-types": {
@@ -427,6 +447,20 @@
       "url": "https://www.w3.org/TR/clipboard-apis/#general-security-policies"
     }
   },
+  "#h-changeid-generation": {
+    "current": {
+      "number": "5.2.1.4",
+      "spec": "Clipboard API and events",
+      "text": "ChangeId Generation",
+      "url": "https://w3c.github.io/clipboard-apis/#h-changeid-generation"
+    },
+    "snapshot": {
+      "number": "5.2.1.4",
+      "spec": "Clipboard API and events",
+      "text": "ChangeId Generation",
+      "url": "https://www.w3.org/TR/clipboard-apis/#h-changeid-generation"
+    }
+  },
   "#h-clipboard-read-permission": {
     "current": {
       "number": "9.1.1",
@@ -453,6 +487,48 @@
       "spec": "Clipboard API and events",
       "text": "check clipboard write permission",
       "url": "https://www.w3.org/TR/clipboard-apis/#h-clipboard-write-permission"
+    }
+  },
+  "#h-clipboardchange-event-steps": {
+    "current": {
+      "number": "5.2.1.3",
+      "spec": "Clipboard API and events",
+      "text": "ClipboardChangeEvent constructor steps",
+      "url": "https://w3c.github.io/clipboard-apis/#h-clipboardchange-event-steps"
+    },
+    "snapshot": {
+      "number": "5.2.1.3",
+      "spec": "Clipboard API and events",
+      "text": "ClipboardChangeEvent constructor steps",
+      "url": "https://www.w3.org/TR/clipboard-apis/#h-clipboardchange-event-steps"
+    }
+  },
+  "#h-document-focus-steps": {
+    "current": {
+      "number": "5.2.1.2",
+      "spec": "Clipboard API and events",
+      "text": "Document focus steps",
+      "url": "https://w3c.github.io/clipboard-apis/#h-document-focus-steps"
+    },
+    "snapshot": {
+      "number": "5.2.1.2",
+      "spec": "Clipboard API and events",
+      "text": "Document focus steps",
+      "url": "https://www.w3.org/TR/clipboard-apis/#h-document-focus-steps"
+    }
+  },
+  "#h-fire-clipboardchange-event": {
+    "current": {
+      "number": "5.2.1.1",
+      "spec": "Clipboard API and events",
+      "text": "To fire a clipboardchange event",
+      "url": "https://w3c.github.io/clipboard-apis/#h-fire-clipboardchange-event"
+    },
+    "snapshot": {
+      "number": "5.2.1.1",
+      "spec": "Clipboard API and events",
+      "text": "To fire a clipboardchange event",
+      "url": "https://www.w3.org/TR/clipboard-apis/#h-fire-clipboardchange-event"
     }
   },
   "#h-navigator-clipboard": {
@@ -671,6 +747,12 @@
       "spec": "Clipboard API and events",
       "text": "Optional data types",
       "url": "https://w3c.github.io/clipboard-apis/#optional-data-types-x"
+    },
+    "snapshot": {
+      "number": "6.5",
+      "spec": "Clipboard API and events",
+      "text": "Optional data types",
+      "url": "https://www.w3.org/TR/clipboard-apis/#optional-data-types-x"
     }
   },
   "#otherevents": {
@@ -973,6 +1055,12 @@
       "spec": "Clipboard API and events",
       "text": "os specific custom map name",
       "url": "https://w3c.github.io/clipboard-apis/#to-os-specific-custom-map-name"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "os specific custom map name",
+      "url": "https://www.w3.org/TR/clipboard-apis/#to-os-specific-custom-map-name"
     }
   },
   "#to-os-specific-custom-name": {
@@ -981,6 +1069,12 @@
       "spec": "Clipboard API and events",
       "text": "os specific custom name",
       "url": "https://w3c.github.io/clipboard-apis/#to-os-specific-custom-name"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "os specific custom name",
+      "url": "https://www.w3.org/TR/clipboard-apis/#to-os-specific-custom-name"
     }
   },
   "#to-os-specific-well-known-format": {
@@ -1017,6 +1111,12 @@
       "spec": "Clipboard API and events",
       "text": "read web custom format",
       "url": "https://w3c.github.io/clipboard-apis/#to-read-web-custom-format"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "read web custom format",
+      "url": "https://www.w3.org/TR/clipboard-apis/#to-read-web-custom-format"
     }
   },
   "#to-well-known-mime-type-from-os-specific-format": {
@@ -1025,6 +1125,12 @@
       "spec": "Clipboard API and events",
       "text": "well-known mime type from os specific format",
       "url": "https://w3c.github.io/clipboard-apis/#to-well-known-mime-type-from-os-specific-format"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "well-known mime type from os specific format",
+      "url": "https://www.w3.org/TR/clipboard-apis/#to-well-known-mime-type-from-os-specific-format"
     }
   },
   "#to-write-blobs-to-clipboard": {
@@ -1061,6 +1167,12 @@
       "spec": "Clipboard API and events",
       "text": "write web custom formats",
       "url": "https://w3c.github.io/clipboard-apis/#to-write-web-custom-formats"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Clipboard API and events",
+      "text": "write web custom formats",
+      "url": "https://www.w3.org/TR/clipboard-apis/#to-write-web-custom-formats"
     }
   },
   "#toc": {
@@ -1097,6 +1209,12 @@
       "spec": "Clipboard API and events",
       "text": "Unsanitized data types",
       "url": "https://w3c.github.io/clipboard-apis/#unsanitized-data-types-x"
+    },
+    "snapshot": {
+      "number": "6.6",
+      "spec": "Clipboard API and events",
+      "text": "Unsanitized data types",
+      "url": "https://www.w3.org/TR/clipboard-apis/#unsanitized-data-types-x"
     }
   },
   "#w3c-conformance": {

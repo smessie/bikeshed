@@ -756,7 +756,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="heading no-num no-ref no-toc settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>This document contains a set of design principles to be used when designing Web Platform technologies. These principles have been collected during the Technical Architecture Group’s discussions in <a href="https://github.com/w3ctag/design-reviews/">reviewing</a> developing specifications, and build upon the Ethical Web Principles <a data-link-type="biblio" href="#biblio-ethical-web" title="W3C TAG Ethical Web Principles">[ETHICAL-WEB]</a>. We encourage specification designers to read this document and use it as a resource when making design decisions.</p>
+   <p>This document contains a set of design principles to be used when designing Web Platform technologies. These principles have been collected during the Technical Architecture Group’s discussions in <a href="https://github.com/w3ctag/design-reviews/">reviewing</a> developing specifications, and build upon the Ethical Web Principles <a data-link-type="biblio" href="#biblio-ethical-web" title="Ethical Web Principles">[ETHICAL-WEB]</a>. We encourage specification designers to read this document and use it as a resource when making design decisions.</p>
   </div>
   <h2 class="heading no-num no-ref no-toc settled" id="sotd"><span class="content">Status of this document</span></h2>
   <div data-fill-with="status">
@@ -924,7 +924,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <main>
    <h2 class="heading settled" data-level="1" id="basic-principles"><span class="secno">1. </span><span class="content">Principles behind design of Web APIs</span><a class="self-link" href="#basic-principles"></a></h2>
    <p>The Design Principles are directly informed by the ethical framework
-set out in the Ethical Web Principles <a data-link-type="biblio" href="#biblio-ethical-web" title="W3C TAG Ethical Web Principles">[ETHICAL-WEB]</a>.
+set out in the Ethical Web Principles <a data-link-type="biblio" href="#biblio-ethical-web" title="Ethical Web Principles">[ETHICAL-WEB]</a>.
 These principles provide concrete practical advice
 in response to the higher level ethical responsibilities
 that come with developing the web platform.</p>
@@ -1432,8 +1432,8 @@ which is returned from the <code class="idl"><a data-link-type="idl" href="https
 </div>
    <div class="example" id="example-324ea8f7">
     <a class="self-link" href="#example-324ea8f7"></a>
-For example, the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height">line-height</a> property may accept a <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#number-value" id="ref-for-number-value">&lt;number></a> value,
-such as <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height①">line-height: 1.4</a>.
+For example, the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a> property may accept a <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#number-value" id="ref-for-number-value">&lt;number></a> value,
+such as <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height①">line-height: 1.4</a>.
 This value represents a multiple of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size③">font-size</a>,
 so if the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size④">font-size</a> is <span class="css">20px</span>,
 the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#actual-value" id="ref-for-actual-value">actual value</a> for the line height is <span class="css">28px</span>.
@@ -1442,12 +1442,12 @@ the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#actual
     <p>However, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value②">computed value</a> in this case is the <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#number-value" id="ref-for-number-value①">&lt;number></a> <span class="css">1.4</span>,
 not the <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#length-value" id="ref-for-length-value">&lt;length></a> <span class="css">28px</span>.
 (The <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value①">used value</a> is <span class="css">28px</span>.)</p>
-    <p>The <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> property can be inherited
+    <p>The <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> property can be inherited
 into elements that have a different <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑤">font-size</a>,
-and any property on those elements which depends on <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height③">line-height</a>
+and any property on those elements which depends on <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height③">line-height</a>
 must take the relevant <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑥">font-size</a> into account,
 rather than the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑦">font-size</a> for the element from which
-the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height④">line-height</a> value was inherited.</p>
+the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height④">line-height</a> value was inherited.</p>
 <pre class="highlight"><c- p>&lt;</c-><c- f>body</c-> <c- e>style</c-><c- o>=</c-><c- s>"font-size: 20px; line-height: 1.4"</c-><c- p>></c->
 
   <c- p>&lt;</c-><c- f>p</c-><c- p>></c->This body text has a line height of 28px.<c- p>&lt;/</c-><c- f>p</c-><c- p>></c->
@@ -1459,7 +1459,7 @@ the <a class="css property" data-link-type="property" href="https://www.w3.org/T
   <c- p>&lt;/</c-><c- f>h2</c-><c- p>></c->
 <c- p>&lt;/</c-><c- f>body</c-><c- p>></c->
 </pre>
-    <p>These number values are generally the preferred values to use for <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height⑤">line-height</a>
+    <p>These number values are generally the preferred values to use for <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height⑤">line-height</a>
 because they inherit better than length values.</p>
    </div>
    <p>See also:</p>
@@ -2450,7 +2450,7 @@ using a floating point value,
 not as an integer value of a smaller time unit like nanoseconds.</p>
    <h3 class="heading settled" data-level="7.4" id="times-and-dates"><span class="secno">7.4. </span><span class="content">Use the appropriate type to represent times and dates</span><a class="self-link" href="#times-and-dates"></a></h3>
    <p>When representing date-times on the platform, use the <code class="idl"><u class="link-error" data-lt="DOMTimeStamp" title="LINK ERROR: No &apos;idl&apos; refs found for &apos;DOMTimeStamp&apos;.">DOMTimeStamp</u></code> type.
-Use <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp">DOMHighResTimeStamp</a></code> if authors
+Use <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp">DOMHighResTimeStamp</a></code> if authors
 must always be able to compare timestamps,
 regardless of the user’s time settings.</p>
    <p>Don’t use the JavaScript <code class="idl"><a data-link-type="idl" href="https://tc39.github.io/ecma262/#sec-date-objects" id="ref-for-sec-date-objects①">Date</a></code> class for representing
@@ -2485,7 +2485,7 @@ Also, if two <code class="idl"><u class="link-error" data-lt="DOMTimeStamp" titl
 there’s no way to know which was created earlier.</p>
    <p>So, if a date-time is only used to compare timing of events,
 and not to show a formatted date-time value to the user,
-consider using <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp①">DOMHighResTimeStamp</a></code> instead.
+consider using <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp①">DOMHighResTimeStamp</a></code> instead.
 See <a data-link-type="biblio" href="#biblio-highres-time" title="High Resolution Time">[HIGHRES-TIME]</a> for more details.</p>
    <h3 class="heading settled" data-level="7.5" id="error-types"><span class="secno">7.5. </span><span class="content">Use Error or DOMException for errors</span><a class="self-link" href="#error-types"></a></h3>
    <p>Represent errors in web APIs as ECMAScript error objects (e.g., <code class="idl"><a data-link-type="idl" href="https://tc39.github.io/ecma262/#sec-error-objects" id="ref-for-sec-error-objects">Error</a></code>)
@@ -2642,7 +2642,7 @@ please rigorously <strong>define the order</strong> in which devices will be lis
 This can reduce interoperability issues,
 and helps to mitigate fingerprinting.
 (Sort order could reveal other information:
-see <span spec-section="#a_standardized_profile"></span> for more.)</p>
+see <a href="https://w3c.github.io/fingerprinting-guidance/#standardization"><cite>Mitigating Browser Fingerprinting in Web Specifications</cite> § 6.2 Standardization</a> for more.)</p>
    <p class="note" role="note"><span class="marker">Note:</span> While APIs should not
 expose a full list of devices in an <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#implementation-defined" id="ref-for-implementation-defined">implementation-defined</a> order,
 they may need to for web compatibility reasons.</p>
@@ -3341,9 +3341,9 @@ so they can correct this omission.</p>
      <li><span class="dfn-paneled" id="16310992">&lt;number></span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="f601a423">line-height</span>
+     <li><span class="dfn-paneled" id="ac54fbff">line-height</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSSOM-1]</a> defines the following terms:
@@ -3408,7 +3408,7 @@ so they can correct this omission.</p>
    <li>
     <a data-link-type="biblio">[HIGHRES-TIME]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="0e9f636b">DOMHighResTimeStamp</span>
+     <li><span class="dfn-paneled" id="00c8c5e6">DOMHighResTimeStamp</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -3478,7 +3478,7 @@ so they can correct this omission.</p>
      <li><span class="dfn-paneled" id="ab86e0f1">show()</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[POINTEREVENTS3]</a> defines the following terms:
+    <a data-link-type="biblio">[POINTEREVENTS4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="d6aab74b">pointerId</span>
     </ul>
@@ -3506,7 +3506,7 @@ so they can correct this omission.</p>
      <li><span class="dfn-paneled" id="dcffbccd">URL</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WebCryptoAPI]</a> defines the following terms:
+    <a data-link-type="biblio">[WEBCRYPTO-2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="529179ea">Crypto</span>
     </ul>
@@ -3564,18 +3564,20 @@ so they can correct this omission.</p>
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-ecmascript">[ECMASCRIPT]
    <dd><a href="https://tc39.es/ecma262/multipage/"><cite>ECMAScript Language Specification</cite></a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
+   <dt id="biblio-fingerprinting-guidance">[FINGERPRINTING-GUIDANCE]
+   <dd>Nick Doty; Tom Ritter. <a href="https://w3c.github.io/fingerprinting-guidance/"><cite>Mitigating Browser Fingerprinting in Web Specifications</cite></a>. URL: <a href="https://w3c.github.io/fingerprinting-guidance/">https://w3c.github.io/fingerprinting-guidance/</a>
    <dt id="biblio-highres-time">[HIGHRES-TIME]
    <dd>Yoav Weiss. <a href="https://w3c.github.io/hr-time/"><cite>High Resolution Time</cite></a>. URL: <a href="https://w3c.github.io/hr-time/">https://w3c.github.io/hr-time/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-indexeddb-3">[IndexedDB-3]
-   <dd>Joshua Bell. <a href="https://w3c.github.io/IndexedDB/"><cite>Indexed Database API 3.0</cite></a>. URL: <a href="https://w3c.github.io/IndexedDB/">https://w3c.github.io/IndexedDB/</a>
+   <dd>Steven Becker. <a href="https://w3c.github.io/IndexedDB/"><cite>Indexed Database API 3.0</cite></a>. URL: <a href="https://w3c.github.io/IndexedDB/">https://w3c.github.io/IndexedDB/</a>
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-payment-request">[PAYMENT-REQUEST]
-   <dd>Marcos Caceres; Rouslan Solomakhin; Ian Jacobs. <a href="https://w3c.github.io/payment-request/"><cite>Payment Request API</cite></a>. URL: <a href="https://w3c.github.io/payment-request/">https://w3c.github.io/payment-request/</a>
+   <dd>Marcos Caceres; Ian Jacobs; Stephen McGruer. <a href="https://w3c.github.io/payment-request/"><cite>Payment Request API</cite></a>. URL: <a href="https://w3c.github.io/payment-request/">https://w3c.github.io/payment-request/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-url">[URL]
@@ -3588,7 +3590,7 @@ so they can correct this omission.</p>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-appmanifest">[APPMANIFEST]
-   <dd>Marcos Caceres; et al. <a href="https://w3c.github.io/manifest/"><cite>Web Application Manifest</cite></a>. URL: <a href="https://w3c.github.io/manifest/">https://w3c.github.io/manifest/</a>
+   <dd>Marcos Caceres; Daniel Murphy; Christian Liebel. <a href="https://w3c.github.io/manifest/"><cite>Web Application Manifest</cite></a>. URL: <a href="https://w3c.github.io/manifest/">https://w3c.github.io/manifest/</a>
    <dt id="biblio-credential-management-1">[CREDENTIAL-MANAGEMENT-1]
    <dd>Nina Satragno; Marcos Caceres. <a href="https://w3c.github.io/webappsec-credential-management/"><cite>Credential Management Level 1</cite></a>. URL: <a href="https://w3c.github.io/webappsec-credential-management/">https://w3c.github.io/webappsec-credential-management/</a>
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
@@ -3599,25 +3601,23 @@ so they can correct this omission.</p>
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-inline-3/"><cite>CSS Inline Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-inline-3/">https://drafts.csswg.org/css-inline-3/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
-   <dt id="biblio-css21">[CSS21]
+   <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-cssom-1">[CSSOM-1]
    <dd>Daniel Glazman; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom/"><cite>CSS Object Model (CSSOM)</cite></a>. URL: <a href="https://drafts.csswg.org/cssom/">https://drafts.csswg.org/cssom/</a>
    <dt id="biblio-cssom-view-1">[CSSOM-VIEW-1]
-   <dd>Simon Pieters. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
+   <dd>Simon Fraser; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
    <dt id="biblio-dom-parsing">[DOM-Parsing]
    <dd>Travis Leithead. <a href="https://w3c.github.io/DOM-Parsing/"><cite>DOM Parsing and Serialization</cite></a>. URL: <a href="https://w3c.github.io/DOM-Parsing/">https://w3c.github.io/DOM-Parsing/</a>
    <dt id="biblio-ethical-web">[ETHICAL-WEB]
-   <dd>Daniel Appelquist; Hadley Beeman. <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/"><cite>W3C TAG Ethical Web Principles</cite></a>. 27 October 2020. TAG Finding. URL: <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">https://www.w3.org/2001/tag/doc/ethical-web-principles/</a>
+   <dd>Daniel Appelquist; Hadley Beeman; Amy Guy. <a href="https://w3ctag.github.io/ethical-web-principles/"><cite>Ethical Web Principles</cite></a>. URL: <a href="https://w3ctag.github.io/ethical-web-principles/">https://w3ctag.github.io/ethical-web-principles/</a>
    <dt id="biblio-fetch">[FETCH]
    <dd>Anne van Kesteren. <a href="https://fetch.spec.whatwg.org/"><cite>Fetch Standard</cite></a>. Living Standard. URL: <a href="https://fetch.spec.whatwg.org/">https://fetch.spec.whatwg.org/</a>
-   <dt id="biblio-fingerprinting-guidance">[FINGERPRINTING-GUIDANCE]
-   <dd>Nick Doty. <a href="https://w3c.github.io/fingerprinting-guidance/"><cite>Mitigating Browser Fingerprinting in Web Specifications</cite></a>. URL: <a href="https://w3c.github.io/fingerprinting-guidance/">https://w3c.github.io/fingerprinting-guidance/</a>
    <dt id="biblio-intersection-observer">[INTERSECTION-OBSERVER]
    <dd>Stefan Zager; Emilio Cobos Álvarez; Traian Captan. <a href="https://w3c.github.io/IntersectionObserver/"><cite>Intersection Observer</cite></a>. URL: <a href="https://w3c.github.io/IntersectionObserver/">https://w3c.github.io/IntersectionObserver/</a>
    <dt id="biblio-least-power">[LEAST-POWER]
    <dd>Tim Berners-Lee; Noah Mendelsohn. <a href="https://www.w3.org/2001/tag/doc/leastPower"><cite>The Rule of Least Power</cite></a>. 23 February 2006. TAG Finding. URL: <a href="https://www.w3.org/2001/tag/doc/leastPower">https://www.w3.org/2001/tag/doc/leastPower</a>
-   <dt id="biblio-pointerevents3">[POINTEREVENTS3]
+   <dt id="biblio-pointerevents4">[POINTEREVENTS4]
    <dd>Patrick Lauke; Robert Flack. <a href="https://w3c.github.io/pointerevents/"><cite>Pointer Events</cite></a>. URL: <a href="https://w3c.github.io/pointerevents/">https://w3c.github.io/pointerevents/</a>
    <dt id="biblio-referrer-policy">[REFERRER-POLICY]
    <dd>Jochen Eisinger; Emily Stark. <a href="https://w3c.github.io/webappsec-referrer-policy/"><cite>Referrer Policy</cite></a>. URL: <a href="https://w3c.github.io/webappsec-referrer-policy/">https://w3c.github.io/webappsec-referrer-policy/</a>
@@ -3626,11 +3626,11 @@ so they can correct this omission.</p>
    <dt id="biblio-rfc8890">[RFC8890]
    <dd>M. Nottingham. <a href="https://www.rfc-editor.org/rfc/rfc8890"><cite>The Internet is for End Users</cite></a>. August 2020. Informational. URL: <a href="https://www.rfc-editor.org/rfc/rfc8890">https://www.rfc-editor.org/rfc/rfc8890</a>
    <dt id="biblio-uievents">[UIEVENTS]
-   <dd>Gary Kacmarcik; Travis Leithead. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
+   <dd>Xiaoqian Wu. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
    <dt id="biblio-unsanctioned-tracking">[UNSANCTIONED-TRACKING]
    <dd>Mark Nottingham. <a href="http://www.w3.org/2001/tag/doc/unsanctioned-tracking/"><cite>Unsanctioned Web Tracking</cite></a>. 17 July 2015. TAG Finding. URL: <a href="http://www.w3.org/2001/tag/doc/unsanctioned-tracking/">http://www.w3.org/2001/tag/doc/unsanctioned-tracking/</a>
-   <dt id="biblio-webcryptoapi">[WebCryptoAPI]
-   <dd>Mark Watson. <a href="https://w3c.github.io/webcrypto/"><cite>Web Cryptography API</cite></a>. URL: <a href="https://w3c.github.io/webcrypto/">https://w3c.github.io/webcrypto/</a>
+   <dt id="biblio-webcrypto-2">[WEBCRYPTO-2]
+   <dd>Daniel Huigens. <a href="https://w3c.github.io/webcrypto/"><cite>Web Cryptography Level 2</cite></a>. URL: <a href="https://w3c.github.io/webcrypto/">https://w3c.github.io/webcrypto/</a>
    <dt id="biblio-webrtc">[WEBRTC]
    <dd>Cullen Jennings; et al. <a href="https://w3c.github.io/webrtc-pc/"><cite>WebRTC: Real-Time Communication in Browsers</cite></a>. URL: <a href="https://w3c.github.io/webrtc-pc/">https://w3c.github.io/webrtc-pc/</a>
   </dl>
@@ -3840,11 +3840,11 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
+"00c8c5e6": {"dfnID":"00c8c5e6","dfnText":"DOMHighResTimeStamp","external":true,"refSections":[{"refs":[{"id":"ref-for-typedefdef-domhighrestimestamp"},{"id":"ref-for-typedefdef-domhighrestimestamp\u2460"}],"title":"7.4. Use the appropriate type to represent times and dates"}],"url":"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"},
 "03675365": {"dfnID":"03675365","dfnText":"event handler IDL attribute","external":true,"refSections":[{"refs":[{"id":"ref-for-event-handler-idl-attributes"},{"id":"ref-for-event-handler-idl-attributes\u2460"},{"id":"ref-for-event-handler-idl-attributes\u2461"}],"title":"6.4. Always add event handler attributes"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-idl-attributes"},
 "0698d556": {"dfnID":"0698d556","dfnText":"string","external":true,"refSections":[{"refs":[{"id":"ref-for-string"}],"title":"7.2. Represent strings appropriately"}],"url":"https://infra.spec.whatwg.org/#string"},
 "0699bcce": {"dfnID":"0699bcce","dfnText":"Number","external":true,"refSections":[{"refs":[{"id":"ref-for-sec-number-objects"},{"id":"ref-for-sec-number-objects\u2460"},{"id":"ref-for-sec-number-objects\u2461"}],"title":"7.1. Use numeric types appropriately"}],"url":"https://tc39.github.io/ecma262/#sec-number-objects"},
 "0e202d66": {"dfnID":"0e202d66","dfnText":"RemotePlayback","external":true,"refSections":[{"refs":[{"id":"ref-for-remoteplayback-interface"}],"title":"8.2. Use care when exposing APIs for selecting or enumerating devices"}],"url":"https://w3c.github.io/remote-playback/#remoteplayback-interface"},
-"0e9f636b": {"dfnID":"0e9f636b","dfnText":"DOMHighResTimeStamp","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-domhighrestimestamp"},{"id":"ref-for-dom-domhighrestimestamp\u2460"}],"title":"7.4. Use the appropriate type to represent times and dates"}],"url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
 "11289557": {"dfnID":"11289557","dfnText":"figcaption","external":true,"refSections":[{"refs":[{"id":"ref-for-the-figcaption-element"}],"title":"Use casing rules consistent with existing APIs"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-figcaption-element"},
 "11e0b87f": {"dfnID":"11e0b87f","dfnText":"unrestricted double","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-unrestricted-double"}],"title":"7.1. Use numeric types appropriately"}],"url":"https://webidl.spec.whatwg.org/#idl-unrestricted-double"},
 "129bdae8": {"dfnID":"129bdae8","dfnText":"Event","external":true,"refSections":[{"refs":[{"id":"ref-for-event"},{"id":"ref-for-event\u2460"}],"title":"5.6. Classes should have constructors when possible"},{"refs":[{"id":"ref-for-event\u2461"}],"title":"6.6. Guard against potential recursion"},{"refs":[{"id":"ref-for-event\u2462"},{"id":"ref-for-event\u2463"},{"id":"ref-for-event\u2464"}],"title":"6.7. State and Event subclasses"},{"refs":[{"id":"ref-for-event\u2465"}],"title":"6.8. How to decide between Events and Observers"}],"url":"https://dom.spec.whatwg.org/#event"},
@@ -3918,6 +3918,7 @@ let dfnPanelData = {
 "a4eb3c57": {"dfnID":"a4eb3c57","dfnText":"used value","external":true,"refSections":[{"refs":[{"id":"ref-for-used-value"},{"id":"ref-for-used-value\u2460"}],"title":"3.3. Choose the computed value type based on how the property should inherit"}],"url":"https://drafts.csswg.org/css-cascade-5/#used-value"},
 "aaa103c9": {"dfnID":"aaa103c9","dfnText":"compatMode","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-document-compatmode"}],"title":"Use casing rules consistent with existing APIs"}],"url":"https://dom.spec.whatwg.org/#dom-document-compatmode"},
 "ab86e0f1": {"dfnID":"ab86e0f1","dfnText":"show()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-paymentrequest-show"}],"title":"6.6. Guard against potential recursion"}],"url":"https://w3c.github.io/payment-request/#dom-paymentrequest-show"},
+"ac54fbff": {"dfnID":"ac54fbff","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"},{"id":"ref-for-propdef-line-height\u2460"},{"id":"ref-for-propdef-line-height\u2461"},{"id":"ref-for-propdef-line-height\u2462"},{"id":"ref-for-propdef-line-height\u2463"},{"id":"ref-for-propdef-line-height\u2464"}],"title":"3.3. Choose the computed value type based on how the property should inherit"}],"url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "adfe3014": {"dfnID":"adfe3014","dfnText":"URLSearchParams","external":true,"refSections":[{"refs":[{"id":"ref-for-urlsearchparams"}],"title":"Static objects"}],"url":"https://url.spec.whatwg.org/#urlsearchparams"},
 "af98590b": {"dfnID":"af98590b","dfnText":"onLine","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-navigator-online"}],"title":"4.2. Preserve run-to-completion semantics"}],"url":"https://html.spec.whatwg.org/multipage/offline.html#dom-navigator-online"},
 "b0d7f3c3": {"dfnID":"b0d7f3c3","dfnText":"USVString","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-USVString"},{"id":"ref-for-idl-USVString\u2460"},{"id":"ref-for-idl-USVString\u2461"},{"id":"ref-for-idl-USVString\u2462"}],"title":"7.2. Represent strings appropriately"}],"url":"https://webidl.spec.whatwg.org/#idl-USVString"},
@@ -3964,7 +3965,6 @@ let dfnPanelData = {
 "f14b47b8": {"dfnID":"f14b47b8","dfnText":"unsigned long long","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-unsigned-long-long"}],"title":"7.1. Use numeric types appropriately"}],"url":"https://webidl.spec.whatwg.org/#idl-unsigned-long-long"},
 "f449d4f8": {"dfnID":"f449d4f8","dfnText":"open(url, target, features)","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-open"}],"title":"5.6. Classes should have constructors when possible"}],"url":"https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-open"},
 "f4813f78": {"dfnID":"f4813f78","dfnText":"byte","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-byte"}],"title":"7.2. Represent strings appropriately"}],"url":"https://webidl.spec.whatwg.org/#idl-byte"},
-"f601a423": {"dfnID":"f601a423","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"},{"id":"ref-for-propdef-line-height\u2460"},{"id":"ref-for-propdef-line-height\u2461"},{"id":"ref-for-propdef-line-height\u2462"},{"id":"ref-for-propdef-line-height\u2463"},{"id":"ref-for-propdef-line-height\u2464"}],"title":"3.3. Choose the computed value type based on how the property should inherit"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "f679a0bc": {"dfnID":"f679a0bc","dfnText":"PaymentRequest","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-paymentrequest"}],"title":"6.6. Guard against potential recursion"}],"url":"https://w3c.github.io/payment-request/#dom-paymentrequest"},
 "f831c141": {"dfnID":"f831c141","dfnText":"background-image","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-image"},{"id":"ref-for-propdef-background-image\u2460"}],"title":"3.2. Make appropriate choices for whether CSS properties are inherited"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image"},
 "f89c7d0d": {"dfnID":"f89c7d0d","dfnText":"Clamp","external":true,"refSections":[{"refs":[{"id":"ref-for-Clamp"}],"title":"7.1. Use numeric types appropriately"}],"url":"https://webidl.spec.whatwg.org/#Clamp"},
@@ -4415,6 +4415,7 @@ let refsData = {
 "https://drafts.csswg.org/css-inline-3/#propdef-initial-letter-align": {"displayText":"initial-letter-align","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"initial-letter-align","type":"property","url":"https://drafts.csswg.org/css-inline-3/#propdef-initial-letter-align"},
 "https://drafts.csswg.org/css-values-4/#length-value": {"displayText":"<length>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<length>","type":"type","url":"https://drafts.csswg.org/css-values-4/#length-value"},
 "https://drafts.csswg.org/css-values-4/#number-value": {"displayText":"<number>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<number>","type":"type","url":"https://drafts.csswg.org/css-values-4/#number-value"},
+"https://drafts.csswg.org/css2/#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle": {"displayText":"getComputedStyle(elt)","export":true,"for_":["Window"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"getComputedStyle(elt)","type":"method","url":"https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle"},
 "https://drafts.csswg.org/cssom-1/#resolved-value": {"displayText":"resolved value","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"resolved value","type":"dfn","url":"https://drafts.csswg.org/cssom-1/#resolved-value"},
 "https://drafts.csswg.org/cssom-view-1/#dom-element-getboundingclientrect": {"displayText":"getBoundingClientRect()","export":true,"for_":["Element"],"level":"1","normative":true,"shortname":"cssom-view","spec":"cssom-view-1","status":"current","text":"getBoundingClientRect()","type":"method","url":"https://drafts.csswg.org/cssom-view-1/#dom-element-getboundingclientrect"},
@@ -4471,17 +4472,17 @@ let refsData = {
 "https://w3c.github.io/DOM-Parsing/#dom-innerhtml-innerhtml": {"displayText":"innerHTML","export":true,"for_":["Element"],"level":"","normative":true,"shortname":"dom-parsing","spec":"dom-parsing","status":"anchor-block","text":"innerHTML","type":"attribute","url":"https://w3c.github.io/DOM-Parsing/#dom-innerhtml-innerhtml"},
 "https://w3c.github.io/IndexedDB/#idbdatabase": {"displayText":"IDBDatabase","export":true,"for_":[],"level":"3","normative":true,"shortname":"indexeddb","spec":"indexeddb-3","status":"current","text":"IDBDatabase","type":"interface","url":"https://w3c.github.io/IndexedDB/#idbdatabase"},
 "https://w3c.github.io/IntersectionObserver/#intersectionobserver": {"displayText":"IntersectionObserver","export":true,"for_":[],"level":"1","normative":true,"shortname":"intersection-observer","spec":"intersection-observer","status":"current","text":"IntersectionObserver","type":"interface","url":"https://w3c.github.io/IntersectionObserver/#intersectionobserver"},
-"https://w3c.github.io/hr-time/#dom-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
+"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"},
 "https://w3c.github.io/manifest/#dfn-short_name": {"displayText":"short_name","export":true,"for_":["manifest"],"level":"1","normative":true,"shortname":"appmanifest","spec":"appmanifest","status":"current","text":"short_name","type":"dfn","url":"https://w3c.github.io/manifest/#dfn-short_name"},
 "https://w3c.github.io/payment-request/#dom-paymentrequest": {"displayText":"PaymentRequest","export":true,"for_":[],"level":"1","normative":true,"shortname":"payment-request","spec":"payment-request","status":"current","text":"PaymentRequest","type":"interface","url":"https://w3c.github.io/payment-request/#dom-paymentrequest"},
 "https://w3c.github.io/payment-request/#dom-paymentrequest-show": {"displayText":"show()","export":true,"for_":["PaymentRequest"],"level":"1","normative":true,"shortname":"payment-request","spec":"payment-request","status":"current","text":"show()","type":"method","url":"https://w3c.github.io/payment-request/#dom-paymentrequest-show"},
-"https://w3c.github.io/pointerevents/#dom-pointerevent-pointerid": {"displayText":"pointerId","export":true,"for_":["PointerEvent"],"level":"3","normative":true,"shortname":"pointerevents","spec":"pointerevents3","status":"current","text":"pointerId","type":"attribute","url":"https://w3c.github.io/pointerevents/#dom-pointerevent-pointerid"},
+"https://w3c.github.io/pointerevents/#dom-pointerevent-pointerid": {"displayText":"pointerId","export":true,"for_":["PointerEvent"],"level":"4","normative":true,"shortname":"pointerevents","spec":"pointerevents4","status":"current","text":"pointerId","type":"attribute","url":"https://w3c.github.io/pointerevents/#dom-pointerevent-pointerid"},
 "https://w3c.github.io/remote-playback/#dfn-remote-playback-devices": {"displayText":"remote playback device","export":true,"for_":[],"level":"","normative":true,"shortname":"remote-playback","spec":"remote-playback","status":"anchor-block","text":"remote playback device","type":"dfn","url":"https://w3c.github.io/remote-playback/#dfn-remote-playback-devices"},
 "https://w3c.github.io/remote-playback/#remoteplayback-interface": {"displayText":"RemotePlayback","export":true,"for_":[],"level":"","normative":true,"shortname":"remote-playback","spec":"remote-playback","status":"anchor-block","text":"RemotePlayback","type":"interface","url":"https://w3c.github.io/remote-playback/#remoteplayback-interface"},
 "https://w3c.github.io/uievents/#keyboardevent": {"displayText":"KeyboardEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"KeyboardEvent","type":"interface","url":"https://w3c.github.io/uievents/#keyboardevent"},
 "https://w3c.github.io/webappsec-credential-management/#dom-credential-id": {"displayText":"id","export":true,"for_":["Credential"],"level":"1","normative":true,"shortname":"credential-management","spec":"credential-management-1","status":"current","text":"id","type":"attribute","url":"https://w3c.github.io/webappsec-credential-management/#dom-credential-id"},
 "https://w3c.github.io/webappsec-referrer-policy/#dom-referrerpolicy-no-referrer-when-downgrade": {"displayText":"\"no-referrer-when-downgrade\"","export":true,"for_":["ReferrerPolicy"],"level":"1","normative":true,"shortname":"referrer-policy","spec":"referrer-policy","status":"current","text":"\"no-referrer-when-downgrade\"","type":"enum-value","url":"https://w3c.github.io/webappsec-referrer-policy/#dom-referrerpolicy-no-referrer-when-downgrade"},
-"https://w3c.github.io/webcrypto/#dfn-Crypto": {"displayText":"Crypto","export":true,"for_":[],"level":"1","normative":true,"shortname":"webcryptoapi","spec":"webcryptoapi","status":"current","text":"Crypto","type":"interface","url":"https://w3c.github.io/webcrypto/#dfn-Crypto"},
+"https://w3c.github.io/webcrypto/#dfn-Crypto": {"displayText":"Crypto","export":true,"for_":[],"level":"2","normative":true,"shortname":"webcrypto","spec":"webcrypto-2","status":"current","text":"Crypto","type":"interface","url":"https://w3c.github.io/webcrypto/#dfn-Crypto"},
 "https://w3c.github.io/webrtc-pc/#dom-rtcdtmfsender": {"displayText":"RTCDTMFSender","export":true,"for_":[],"level":"1","normative":true,"shortname":"webrtc","spec":"webrtc","status":"current","text":"RTCDTMFSender","type":"interface","url":"https://w3c.github.io/webrtc-pc/#dom-rtcdtmfsender"},
 "https://webidl.spec.whatwg.org/#Clamp": {"displayText":"Clamp","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Clamp","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Clamp"},
 "https://webidl.spec.whatwg.org/#EnforceRange": {"displayText":"EnforceRange","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"EnforceRange","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#EnforceRange"},
@@ -4507,7 +4508,6 @@ let refsData = {
 "https://webidl.spec.whatwg.org/#idl-unrestricted-double": {"displayText":"unrestricted double","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"unrestricted double","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-unrestricted-double"},
 "https://webidl.spec.whatwg.org/#idl-unsigned-long-long": {"displayText":"unsigned long long","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"unsigned long long","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-unsigned-long-long"},
 "https://webidl.spec.whatwg.org/#sequence-type": {"displayText":"sequence type","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"sequence type","type":"dfn","url":"https://webidl.spec.whatwg.org/#sequence-type"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "https://www.w3.org/TR/payment-request/#dfn-state": {"displayText":"[[state]]","export":true,"for_":[],"level":"","normative":true,"shortname":"payment-request","spec":"payment-request","status":"anchor-block","text":"[[state]]","type":"dfn","url":"https://www.w3.org/TR/payment-request/#dfn-state"},
 "https://xhr.spec.whatwg.org/#dom-progressevent-loaded": {"displayText":"loaded","export":true,"for_":["ProgressEvent"],"level":"1","normative":true,"shortname":"xhr","spec":"xhr","status":"current","text":"loaded","type":"attribute","url":"https://xhr.spec.whatwg.org/#dom-progressevent-loaded"},
 "https://xhr.spec.whatwg.org/#dom-progressevent-total": {"displayText":"total","export":true,"for_":["ProgressEvent"],"level":"1","normative":true,"shortname":"xhr","spec":"xhr","status":"current","text":"total","type":"attribute","url":"https://xhr.spec.whatwg.org/#dom-progressevent-total"},

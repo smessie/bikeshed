@@ -2421,8 +2421,8 @@ must also define when a <a data-link-type="dfn" href="#css-style-sheet" id="ref-
    <h4 class="heading settled" data-level="6.3.4" id="requirements-on-user-agents-implementing-the-xml-stylesheet-processing-instruction"><span class="secno">6.3.4. </span><span class="content">Requirements on user agents Implementing the xml-stylesheet processing instruction</span><a class="self-link" href="#requirements-on-user-agents-implementing-the-xml-stylesheet-processing-instruction"></a></h4>
 <pre class="def highlight idl"><a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#processinginstruction" id="ref-for-processinginstruction①"><c- n>ProcessingInstruction</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#linkstyle" id="ref-for-linkstyle③"><c- n>LinkStyle</c-></a>;</pre>
    <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="prolog">prolog</dfn> refers to <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node" id="ref-for-concept-node">nodes</a> that are children of the
-<a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> and are not <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-tree-following" id="ref-for-concept-tree-following">following</a> the
-<code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element①">Element</a></code> child of the <span id="ref-for-concept-document①">document</span>, if any.</p>
+<a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> and are not <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-tree-following" id="ref-for-concept-tree-following">following</a> the
+<code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element①">Element</a></code> child of the <span id="ref-for-clone-a-node-document①">document</span>, if any.</p>
    <p>When a <code>ProcessingInstruction</code> <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#boundary-point-node" id="ref-for-boundary-point-node">node</a> <var>node</var> becomes part of the
 <a data-link-type="dfn" href="#prolog" id="ref-for-prolog">prolog</a>, is no longer part of the <span id="ref-for-prolog①">prolog</span>, or has its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-cd-data" id="ref-for-concept-cd-data">data</a> changed, these steps
 must be run:</p>
@@ -2771,7 +2771,7 @@ with other state in accordance with its <a data-link-type="dfn" href="#concept-c
       <li>The result of performing <a data-link-type="dfn" href="#serialize-a-css-rule" id="ref-for-serialize-a-css-rule">serialize a CSS rule</a> on each rule in the rule’s <code class="idl"><a data-link-type="idl" href="#dom-cssgroupingrule-cssrules" id="ref-for-dom-cssgroupingrule-cssrules">cssRules</a></code> list, separated by a newline and indented by two spaces.
       <li>A newline, followed by the string "}", i.e., RIGHT CURLY BRACKET (U+007D)
      </ol>
-    <dt><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-4/#cssfontfacerule" id="ref-for-cssfontfacerule">CSSFontFaceRule</a></code>
+    <dt><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-5/#cssfontfacerule" id="ref-for-cssfontfacerule">CSSFontFaceRule</a></code>
  
     <dd>
      
@@ -2821,7 +2821,7 @@ with other state in accordance with its <a data-link-type="dfn" href="#concept-c
    "<code>;</code>", i.e., SEMICOLON (U+003B).
       <li>A single SPACE (U+0020), followed by the string "}", i.e., RIGHT CURLY BRACKET (U+007D).
      </ol>
-     <p class="issue" id="issue-f92cf3b3"><a class="self-link" href="#issue-f92cf3b3"></a> Need to define how the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-4/#cssfontfacerule" id="ref-for-cssfontfacerule①">CSSFontFaceRule</a></code> descriptors' values are serialized.</p>
+     <p class="issue" id="issue-f92cf3b3"><a class="self-link" href="#issue-f92cf3b3"></a> Need to define how the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-5/#cssfontfacerule" id="ref-for-cssfontfacerule①">CSSFontFaceRule</a></code> descriptors' values are serialized.</p>
     <dt><code class="idl"><a data-link-type="idl" href="#csspagerule" id="ref-for-csspagerule">CSSPageRule</a></code>
  
     <dd>
@@ -2986,7 +2986,7 @@ It must return an integer, as follows:</p>
  
     <dd>Return 4.
  
-    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-4/#cssfontfacerule" id="ref-for-cssfontfacerule②">CSSFontFaceRule</a></code>
+    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-5/#cssfontfacerule" id="ref-for-cssfontfacerule②">CSSFontFaceRule</a></code>
  
     <dd>Return 5.
  
@@ -3662,7 +3662,7 @@ use different algorithms as long as the constraints above hold.</p>
       
          <li>Let <var>needs append</var> be true.
       
-         <li><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#iteration-break" id="ref-for-iteration-break">Break</a>.
+         <li><a data-link-type="dfn" href="https://drafts.csswg.org/css-break-4/#break" id="ref-for-break">Break</a>.
      
         </ol>
        <li>
@@ -3948,10 +3948,10 @@ depends on the component, as follows:</p>
  
     <dd>
      
- If &lt;color> is a component of a resolved value, see <a href="https://drafts.csswg.org/css-color-4/#resolving-color-values"><cite>CSS Color 4</cite> §  14. Resolving &lt;color> Values</a>.
+ If &lt;color> is a component of a resolved value, see <a href="https://drafts.csswg.org/css-color-4/#resolving-color-values"><cite>CSS Color 4</cite> §  15. Resolving &lt;color> Values</a>.
 
 
-     <p>If &lt;color> is a component of a computed value, see <a href="https://drafts.csswg.org/css-color-4/#serializing-color-values"><cite>CSS Color 4</cite> §  15. Serializing &lt;color> Values</a>.</p>
+     <p>If &lt;color> is a component of a computed value, see <a href="https://drafts.csswg.org/css-color-4/#serializing-color-values"><cite>CSS Color 4</cite> §  16. Serializing &lt;color> Values</a>.</p>
      <p>If <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-color-5/#typedef-color" id="ref-for-typedef-color①">&lt;color></a> is a component of a specified value, then
  return the color as follows:</p>
      <ol>
@@ -4090,7 +4090,7 @@ depends on the component, as follows:</p>
      </ol>
     <dt><a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#string-value" id="ref-for-string-value">&lt;string></a>
  
-    <dt><a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-fonts-4/#family-name-value" id="ref-for-family-name-value">&lt;family-name></a>
+    <dt><a class="css production" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-family-name" id="ref-for-value-def-family-name">&lt;family-name></a>
  
     <dt><u class="link-error production" data-lt="<specific-voice>" title="LINK ERROR: No &apos;type&apos; refs found for &apos;<specific-voice>&apos;.">&lt;specific-voice></u>
  
@@ -4207,7 +4207,7 @@ whose <a data-link-type="dfn" href="#cssstyledeclaration-owner-node" id="ref-for
 <pre class="def highlight idl"><a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/dom.html#htmlelement" id="ref-for-htmlelement"><c- n>HTMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle①"><c- n>ElementCSSInlineStyle</c-></a>;
 </pre>
    <p>If the user agent supports SVG, the following IDL applies: <a data-link-type="biblio" href="#biblio-svg11" title="Scalable Vector Graphics (SVG) 1.1 (Second Edition)">[SVG11]</a></p>
-<pre class="def highlight idl"><a data-link-type="idl-name" href="https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement" id="ref-for-InterfaceSVGElement"><c- n>SVGElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle②"><c- n>ElementCSSInlineStyle</c-></a>;
+<pre class="def highlight idl"><a data-link-type="idl-name" href="https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement" id="ref-for-InterfaceSVGElement"><c- n>SVGElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle②"><c- n>ElementCSSInlineStyle</c-></a>;
 </pre>
    <p>If the user agent supports MathML, the following IDL applies: <a data-link-type="biblio" href="#biblio-mathml-core" title="MathML Core">[MathML-Core]</a></p>
 <pre class="def highlight idl"><a data-link-type="idl-name" href="https://w3c.github.io/mathml-core/#dom-mathmlelement" id="ref-for-dom-mathmlelement"><c- n>MathMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle③"><c- n>ElementCSSInlineStyle</c-></a>;
@@ -4230,7 +4230,7 @@ steps:</p>
      <ol>
       <li><a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar①">Parse</a> <var>pseudoElt</var> as a <a class="css production" data-link-type="type" href="https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector" id="ref-for-typedef-pseudo-element-selector">&lt;pseudo-element-selector></a>, and let <var>type</var> be the result.
     
-      <li>If <var>type</var> is failure, or is an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-scoping-1/#selectordef-slotted" id="ref-for-selectordef-slotted">::slotted()</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part" id="ref-for-selectordef-part">::part()</a> pseudo-element, <a data-link-type="dfn" href="http://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw①③">throw</a> a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#exceptiondef-typeerror" id="ref-for-exceptiondef-typeerror">TypeError</a></code> exception.
+      <li>If <var>type</var> is failure, or is an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-1/#selectordef-slotted" id="ref-for-selectordef-slotted">::slotted()</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-1/#selectordef-part" id="ref-for-selectordef-part">::part()</a> pseudo-element, <a data-link-type="dfn" href="http://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw①③">throw</a> a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#exceptiondef-typeerror" id="ref-for-exceptiondef-typeerror">TypeError</a></code> exception.
     
       <li>Otherwise let <var>obj</var> be the given pseudo-element of <var>elt</var>.
   
@@ -4241,7 +4241,7 @@ steps:</p>
     <li>Let <var>decls</var> be an empty list of <a data-link-type="dfn" href="#css-declaration" id="ref-for-css-declaration②⑨">CSS declarations</a>.
  
     <li>
-     If <var>elt</var> is <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>, part of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>,
+     If <var>elt</var> is <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>, part of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>,
   and its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-including-root" id="ref-for-concept-shadow-including-root">shadow-including root</a> has a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context" id="ref-for-browsing-context">browsing context</a> which either
   doesn’t have a <u class="link-error" data-lt="browsing context container" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
   (Possible specs this could be from: longtasks-1)">browsing context container</u>, or whose
@@ -4364,7 +4364,7 @@ as follows:</p>
     <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value②">resolved value</a> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value">used value</a>.
 
  
-    <dt><a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>
+    <dt><a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>
  
     <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value③">resolved value</a> is <u class="link-error property" data-lt="normal" title="LINK ERROR: No &apos;property&apos; refs found for &apos;normal&apos;.">normal</u> if the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value①">computed value</a> is <u class="link-error property" data-lt="normal" title="LINK ERROR: No &apos;property&apos; refs found for &apos;normal&apos;.">normal</u>, or the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value①">used value</a> otherwise.
 
@@ -5082,6 +5082,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="49a5f65f">padding-top</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[CSS-BREAK-4]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="ef21c66f">break</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[CSS-CASCADE-5]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="9cd25054">computed value</span>
@@ -5112,8 +5117,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-FONTS-4]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="ba80b0b1">&lt;family-name></span>
-     <li><span class="dfn-paneled" id="d4091055">CSSFontFaceRule</span>
      <li><span class="dfn-paneled" id="e383a138">CSSFontFeatureValuesRule</span>
      <li><span class="dfn-paneled" id="00d808eb">font-feature-settings</span>
      <li><span class="dfn-paneled" id="fdf6efd5">font-size</span>
@@ -5121,6 +5124,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="d45afbab">font-style</span>
      <li><span class="dfn-paneled" id="fb7153bd">font-variant</span>
      <li><span class="dfn-paneled" id="a8fe91d7">font-weight</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[CSS-FONTS-5]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="3ca20be2">CSSFontFaceRule</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-LISTS-3]</a> defines the following terms:
@@ -5167,15 +5175,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="e1483d91">top</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-SCOPING-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-SHADOW-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="c90d9be6">::slotted()</span>
-     <li><span class="dfn-paneled" id="22109b0e">flat tree</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS-SHADOW-PARTS-1]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="2988c385">::part()</span>
+     <li><span class="dfn-paneled" id="361a646a">::part()</span>
+     <li><span class="dfn-paneled" id="905d9a5a">::slotted()</span>
+     <li><span class="dfn-paneled" id="4cb3439f">flat tree</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-SIZING-3]</a> defines the following terms:
@@ -5219,13 +5223,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS21]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="f601a423">line-height</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
-    <ul>
+     <li><span class="dfn-paneled" id="cf2581ff">&lt;family-name></span>
      <li><span class="dfn-paneled" id="fe1e6dc9">&lt;identifier></span>
      <li><span class="dfn-paneled" id="3f47ca4a">&lt;shape></span>
+     <li><span class="dfn-paneled" id="ac54fbff">line-height</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3-CONDITIONAL]</a> defines the following terms:
@@ -5253,7 +5254,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="c095490e">ProcessingInstruction</span>
      <li><span class="dfn-paneled" id="d1a6c008">attribute change steps</span>
      <li><span class="dfn-paneled" id="9638f92b">connected</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="8d984e64">encoding</span>
      <li><span class="dfn-paneled" id="a50a11ab">in a document tree</span>
      <li><span class="dfn-paneled" id="d462b34f">node</span>
@@ -5266,7 +5267,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="9ac2aadf①">DocumentOrShadowRoot</span>
      <li><span class="dfn-paneled" id="296f3551①">Element</span>
      <li><span class="dfn-paneled" id="212ee1f7">data</span>
-     <li><span class="dfn-paneled" id="a973e0fe①">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9①">document</span>
      <li><span class="dfn-paneled" id="6fba6744">following</span>
      <li><span class="dfn-paneled" id="9bcac82c">get an attribute by namespace and local name</span>
      <li><span class="dfn-paneled" id="2ef14d2e">nodes</span>
@@ -5294,7 +5295,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <ul>
      <li><span class="dfn-paneled" id="6f2dfa22">ASCII lowercase</span>
      <li><span class="dfn-paneled" id="a527e9ca">ASCII uppercase</span>
-     <li><span class="dfn-paneled" id="7b0d918d">break</span>
      <li><span class="dfn-paneled" id="59912c93">code unit</span>
      <li><span class="dfn-paneled" id="f937b7b6">continue</span>
      <li><span class="dfn-paneled" id="16d07e10">for each</span>
@@ -5340,7 +5340,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="93b034d7">SVGElement</span>
+     <li><span class="dfn-paneled" id="9c09cfc6">SVGElement</span>
     </ul>
    <li>
     <a data-link-type="biblio">[URL]</a> defines the following terms:
@@ -5379,39 +5379,39 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Elika Etemad; Brad Kemper. <a href="https://drafts.csswg.org/css-backgrounds/"><cite>CSS Backgrounds and Borders Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-backgrounds/">https://drafts.csswg.org/css-backgrounds/</a>
    <dt id="biblio-css-borders-4">[CSS-BORDERS-4]
-   <dd><a href="https://drafts.csswg.org/css-borders-4/"><cite>CSS Borders and Box Decorations Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-borders-4/">https://drafts.csswg.org/css-borders-4/</a>
+   <dd>Elika Etemad; et al. <a href="https://drafts.csswg.org/css-borders-4/"><cite>CSS Borders and Box Decorations Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-borders-4/">https://drafts.csswg.org/css-borders-4/</a>
    <dt id="biblio-css-box-4">[CSS-BOX-4]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-box-4/"><cite>CSS Box Model Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-box-4/">https://drafts.csswg.org/css-box-4/</a>
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-counter-styles-3">[CSS-COUNTER-STYLES-3]
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-counter-styles/"><cite>CSS Counter Styles Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-counter-styles/">https://drafts.csswg.org/css-counter-styles/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
    <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-4/"><cite>CSS Fonts Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-4/">https://drafts.csswg.org/css-fonts-4/</a>
+   <dt id="biblio-css-fonts-5">[CSS-FONTS-5]
+   <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-5/"><cite>CSS Fonts Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-5/">https://drafts.csswg.org/css-fonts-5/</a>
    <dt id="biblio-css-lists-3">[CSS-LISTS-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-lists-3/"><cite>CSS Lists and Counters Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-lists-3/">https://drafts.csswg.org/css-lists-3/</a>
    <dt id="biblio-css-logical-1">[CSS-LOGICAL-1]
-   <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-logical-1/"><cite>CSS Logical Properties and Values Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-logical-1/">https://drafts.csswg.org/css-logical-1/</a>
+   <dd>Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-logical-1/"><cite>CSS Logical Properties and Values Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-logical-1/">https://drafts.csswg.org/css-logical-1/</a>
    <dt id="biblio-css-namespaces-3">[CSS-NAMESPACES-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-namespaces/"><cite>CSS Namespaces Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-namespaces/">https://drafts.csswg.org/css-namespaces/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
    <dd>Elika Etemad; Florian Rivoal. <a href="https://drafts.csswg.org/css-overflow-3/"><cite>CSS Overflow Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-3/">https://drafts.csswg.org/css-overflow-3/</a>
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
-   <dt id="biblio-css-scoping-1">[CSS-SCOPING-1]
-   <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-scoping/"><cite>CSS Scoping Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-scoping/">https://drafts.csswg.org/css-scoping/</a>
-   <dt id="biblio-css-shadow-parts-1">[CSS-SHADOW-PARTS-1]
-   <dd>Tab Atkins Jr.; Fergal Daly. <a href="https://drafts.csswg.org/css-shadow-parts/"><cite>CSS Shadow Parts</cite></a>. URL: <a href="https://drafts.csswg.org/css-shadow-parts/">https://drafts.csswg.org/css-shadow-parts/</a>
+   <dt id="biblio-css-shadow-1">[CSS-SHADOW-1]
+   <dd><a href="https://drafts.csswg.org/css-shadow-1/"><cite>CSS Shadow Module Level 1</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-shadow-1/">https://drafts.csswg.org/css-shadow-1/</a>
    <dt id="biblio-css-sizing-3">[CSS-SIZING-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-sizing-3/"><cite>CSS Box Sizing Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-sizing-3/">https://drafts.csswg.org/css-sizing-3/</a>
    <dt id="biblio-css-ui-4">[CSS-UI-4]
-   <dd>Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-css-variables-1">[CSS-VARIABLES-1]
@@ -5420,8 +5420,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd><a href="https://drafts.csswg.org/css-variables-2/"><cite>CSS Custom Properties for Cascading Variables Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-variables-2/">https://drafts.csswg.org/css-variables-2/</a>
    <dt id="biblio-css21">[CSS21]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3-conditional">[CSS3-CONDITIONAL]
    <dd>Chris Lilley; David Baron; Elika Etemad. <a href="https://drafts.csswg.org/css-conditional-3/"><cite>CSS Conditional Rules Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-conditional-3/">https://drafts.csswg.org/css-conditional-3/</a>
    <dt id="biblio-css3cascade">[CSS3CASCADE]
@@ -5445,9 +5443,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-mathml-core">[MathML-Core]
    <dd>David Carlisle; Frédéric Wang. <a href="https://w3c.github.io/mathml-core/"><cite>MathML Core</cite></a>. URL: <a href="https://w3c.github.io/mathml-core/">https://w3c.github.io/mathml-core/</a>
    <dt id="biblio-mediaqueries">[MEDIAQUERIES]
-   <dd>Florian Rivoal; Tab Atkins Jr.. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-selectors-3">[SELECTORS-3]
@@ -5455,7 +5453,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-selectors-4">[SELECTORS-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/"><cite>URL Standard</cite></a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
    <dt id="biblio-webidl">[WEBIDL]
@@ -5469,6 +5467,8 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <dl>
    <dt id="biblio-compat">[COMPAT]
    <dd>Mike Taylor. <a href="https://compat.spec.whatwg.org/"><cite>Compatibility Standard</cite></a>. Living Standard. URL: <a href="https://compat.spec.whatwg.org/">https://compat.spec.whatwg.org/</a>
+   <dt id="biblio-css-break-4">[CSS-BREAK-4]
+   <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-break-4/"><cite>CSS Fragmentation Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-break-4/">https://drafts.csswg.org/css-break-4/</a>
    <dt id="biblio-svg11">[SVG11]
    <dd>Erik Dahlström; et al. <a href="https://www.w3.org/TR/SVG11/"><cite>Scalable Vector Graphics (SVG) 1.1 (Second Edition)</cite></a>. 16 August 2011. REC. URL: <a href="https://www.w3.org/TR/SVG11/">https://www.w3.org/TR/SVG11/</a>
   </dl>
@@ -5603,7 +5603,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
 
 <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/dom.html#htmlelement"><c- n>HTMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
 
-<a data-link-type="idl-name" href="https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"><c- n>SVGElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
+<a data-link-type="idl-name" href="https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement"><c- n>SVGElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
 
 <a data-link-type="idl-name" href="https://w3c.github.io/mathml-core/#dom-mathmlelement"><c- n>MathMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
 
@@ -5625,7 +5625,7 @@ values after all. <a class="issue-return" href="#issue-41128eee" title="Jump to 
    <div class="issue"> Be more specific <a class="issue-return" href="#issue-d4a93110" title="Jump to section">↵</a></div>
    <div class="issue"> Is there a document at this point? <a class="issue-return" href="#issue-af048285" title="Jump to section">↵</a></div>
    <div class="issue"> What if the HTML parser hasn’t decided on quirks/non-quirks yet? <a class="issue-return" href="#issue-45012e41" title="Jump to section">↵</a></div>
-   <div class="issue"> Need to define how the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-4/#cssfontfacerule">CSSFontFaceRule</a></code> descriptors' values are serialized. <a class="issue-return" href="#issue-f92cf3b3" title="Jump to section">↵</a></div>
+   <div class="issue"> Need to define how the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-5/#cssfontfacerule">CSSFontFaceRule</a></code> descriptors' values are serialized. <a class="issue-return" href="#issue-f92cf3b3" title="Jump to section">↵</a></div>
    <div class="issue"> Need to define how <code class="idl"><a data-link-type="idl" href="#csspagerule">CSSPageRule</a></code> is serialized. <a class="issue-return" href="#issue-be6dc86c" title="Jump to section">↵</a></div>
    <div class="issue"> The "indented by two spaces" bit matches browsers, but needs work, see <a href="https://github.com/w3c/csswg-drafts/issues/5494">#5494</a> <a class="issue-return" href="#issue-ca02cb3b" title="Jump to section">↵</a></div>
    <div class="issue"> Need to define the rules for
@@ -6954,13 +6954,11 @@ let dfnPanelData = {
 "1fb62f09": {"dfnID":"1fb62f09","dfnText":"media feature","external":true,"refSections":[{"refs":[{"id":"ref-for-media-feature"},{"id":"ref-for-media-feature\u2460"},{"id":"ref-for-media-feature\u2461"},{"id":"ref-for-media-feature\u2462"}],"title":"4.2. Serializing Media Queries"}],"url":"https://drafts.csswg.org/mediaqueries-5/#media-feature"},
 "212ee1f7": {"dfnID":"212ee1f7","dfnText":"data","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-cd-data"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://dom.spec.whatwg.org/#concept-cd-data"},
 "21ecf38f": {"dfnID":"21ecf38f","dfnText":"PutForwards","external":true,"refSections":[{"refs":[{"id":"ref-for-PutForwards"}],"title":"6.1.1. The StyleSheet Interface"},{"refs":[{"id":"ref-for-PutForwards\u2460"}],"title":"6.4.3. The CSSStyleRule Interface"},{"refs":[{"id":"ref-for-PutForwards\u2461"}],"title":"6.4.4. The CSSImportRule Interface"},{"refs":[{"id":"ref-for-PutForwards\u2462"}],"title":"6.4.7. The CSSPageRule Interface"},{"refs":[{"id":"ref-for-PutForwards\u2463"}],"title":"6.4.8. The CSSMarginRule Interface"},{"refs":[{"id":"ref-for-PutForwards\u2464"}],"title":"7.1. \nThe ElementCSSInlineStyle Mixin"}],"url":"https://webidl.spec.whatwg.org/#PutForwards"},
-"22109b0e": {"dfnID":"22109b0e","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
 "22ece843": {"dfnID":"22ece843","dfnText":"absolute-URL string","external":true,"refSections":[{"refs":[{"id":"ref-for-absolute-url-string"}],"title":"6.1. CSS Style Sheets"},{"refs":[{"id":"ref-for-absolute-url-string\u2460"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://url.spec.whatwg.org/#absolute-url-string"},
 "2309227f": {"dfnID":"2309227f","dfnText":"portrait","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-media-orientation-portrait"}],"title":"4.2.1. Serializing Media Feature Values"}],"url":"https://drafts.csswg.org/mediaqueries-4/#valdef-media-orientation-portrait"},
 "24408a11": {"dfnID":"24408a11","dfnText":"compound selector","external":true,"refSections":[{"refs":[{"id":"ref-for-compound"},{"id":"ref-for-compound\u2460"}],"title":"5.2. Serializing Selectors"}],"url":"https://drafts.csswg.org/selectors-4/#compound"},
 "26b72b18": {"dfnID":"26b72b18","dfnText":"border-block-end-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-block-end-color"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-borders-4/#propdef-border-block-end-color"},
 "296f3551": {"dfnID":"296f3551","dfnText":"Element","external":true,"refSections":[{"refs":[{"id":"ref-for-element"}],"title":"6.1.1. The StyleSheet Interface"},{"refs":[{"id":"ref-for-element\u2460"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"},{"refs":[{"id":"ref-for-element\u2461"}],"title":"6.6. CSS Declaration Blocks"},{"refs":[{"id":"ref-for-element\u2462"}],"title":"7.2. Extensions to the Window Interface"},{"refs":[{"id":"ref-for-element\u2463"},{"id":"ref-for-element\u2464"}],"title":"11.1. Changes From 5 December 2013"}],"url":"https://dom.spec.whatwg.org/#element"},
-"2988c385": {"dfnID":"2988c385","dfnText":"::part()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-part"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part"},
 "29a4aea4": {"dfnID":"29a4aea4","dfnText":"<frequency>","external":true,"refSections":[{"refs":[{"id":"ref-for-frequency-value"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-values-4/#frequency-value"},
 "2c4af168": {"dfnID":"2c4af168","dfnText":"LegacyNullToEmptyString","external":true,"refSections":[{"refs":[{"id":"ref-for-LegacyNullToEmptyString"}],"title":"4.4. The MediaList Interface"},{"refs":[{"id":"ref-for-LegacyNullToEmptyString\u2460"},{"id":"ref-for-LegacyNullToEmptyString\u2461"},{"id":"ref-for-LegacyNullToEmptyString\u2462"},{"id":"ref-for-LegacyNullToEmptyString\u2463"},{"id":"ref-for-LegacyNullToEmptyString\u2464"},{"id":"ref-for-LegacyNullToEmptyString\u2465"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://webidl.spec.whatwg.org/#LegacyNullToEmptyString"},
 "2de81520": {"dfnID":"2de81520","dfnText":"<ratio>","external":true,"refSections":[{"refs":[{"id":"ref-for-ratio-value"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-values-4/#ratio-value"},
@@ -6972,8 +6970,10 @@ let dfnPanelData = {
 "3349d69f": {"dfnID":"3349d69f","dfnText":"associated Document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document-window"}],"title":"8.1. The CSS.escape() Method"}],"url":"https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-document-window"},
 "3559c926": {"dfnID":"3559c926","dfnText":"<angle>","external":true,"refSections":[{"refs":[{"id":"ref-for-angle-value"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-values-4/#angle-value"},
 "358f1dbd": {"dfnID":"358f1dbd","dfnText":"referrer","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-referrer"}],"title":"6.3.1. Fetching CSS style sheets"}],"url":"https://fetch.spec.whatwg.org/#concept-request-referrer"},
+"361a646a": {"dfnID":"361a646a","dfnText":"::part()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-part"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-shadow-1/#selectordef-part"},
 "37c6bd4e": {"dfnID":"37c6bd4e","dfnText":"padding-right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-padding-right"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-padding-right"},
 "3bdfd276": {"dfnID":"3bdfd276","dfnText":"padding-block-end","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-padding-block-end"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-logical-1/#propdef-padding-block-end"},
+"3ca20be2": {"dfnID":"3ca20be2","dfnText":"CSSFontFaceRule","external":true,"refSections":[{"refs":[{"id":"ref-for-cssfontfacerule"},{"id":"ref-for-cssfontfacerule\u2460"}],"title":"6.4. CSS Rules"},{"refs":[{"id":"ref-for-cssfontfacerule\u2461"}],"title":"6.4.2. The CSSRule Interface"}],"url":"https://drafts.csswg.org/css-fonts-5/#cssfontfacerule"},
 "3f47ca4a": {"dfnID":"3f47ca4a","dfnText":"<shape>","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-shape"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css2/#value-def-shape"},
 "402ed79d": {"dfnID":"402ed79d","dfnText":"CEReactions","external":true,"refSections":[{"refs":[{"id":"ref-for-cereactions"},{"id":"ref-for-cereactions\u2460"},{"id":"ref-for-cereactions\u2461"},{"id":"ref-for-cereactions\u2462"},{"id":"ref-for-cereactions\u2463"},{"id":"ref-for-cereactions\u2464"},{"id":"ref-for-cereactions\u2465"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://html.spec.whatwg.org/multipage/custom-elements.html#cereactions"},
 "450958f7": {"dfnID":"450958f7","dfnText":"unsigned short","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-unsigned-short"},{"id":"ref-for-idl-unsigned-short\u2460"},{"id":"ref-for-idl-unsigned-short\u2461"},{"id":"ref-for-idl-unsigned-short\u2462"},{"id":"ref-for-idl-unsigned-short\u2463"},{"id":"ref-for-idl-unsigned-short\u2464"},{"id":"ref-for-idl-unsigned-short\u2465"},{"id":"ref-for-idl-unsigned-short\u2466"},{"id":"ref-for-idl-unsigned-short\u2467"}],"title":"6.4.2. The CSSRule Interface"}],"url":"https://webidl.spec.whatwg.org/#idl-unsigned-short"},
@@ -6982,6 +6982,7 @@ let dfnPanelData = {
 "4733bae2": {"dfnID":"4733bae2","dfnText":"HierarchyRequestError","external":true,"refSections":[{"refs":[{"id":"ref-for-hierarchyrequesterror"}],"title":"6.4. CSS Rules"}],"url":"https://webidl.spec.whatwg.org/#hierarchyrequesterror"},
 "49a5f65f": {"dfnID":"49a5f65f","dfnText":"padding-top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-padding-top"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-padding-top"},
 "49a64d88": {"dfnID":"49a64d88","dfnText":"html elements","external":true,"refSections":[{"refs":[{"id":"ref-for-html-elements"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#html-elements"},
+"4cb3439f": {"dfnID":"4cb3439f","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
 "4fdfba4e": {"dfnID":"4fdfba4e","dfnText":"get an encoding","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-encoding-get"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://encoding.spec.whatwg.org/#concept-encoding-get"},
 "500f2c1d": {"dfnID":"500f2c1d","dfnText":"border-top-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-top-color"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color"},
 "5216e1a0": {"dfnID":"5216e1a0","dfnText":"node document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-node-document"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"},{"refs":[{"id":"ref-for-concept-node-document\u2460"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://dom.spec.whatwg.org/#concept-node-document"},
@@ -7016,7 +7017,6 @@ let dfnPanelData = {
 "76207212": {"dfnID":"76207212","dfnText":"padding-left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-padding-left"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-padding-left"},
 "76c4403d": {"dfnID":"76c4403d","dfnText":"parse","external":true,"refSections":[{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar"}],"title":"6.7.2. Serializing CSS Values"},{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2460"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar"},
 "797018a7": {"dfnID":"797018a7","dfnText":"InvalidStateError","external":true,"refSections":[{"refs":[{"id":"ref-for-invalidstateerror"},{"id":"ref-for-invalidstateerror\u2460"}],"title":"6.4. CSS Rules"}],"url":"https://webidl.spec.whatwg.org/#invalidstateerror"},
-"7b0d918d": {"dfnID":"7b0d918d","dfnText":"break","external":true,"refSections":[{"refs":[{"id":"ref-for-iteration-break"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://infra.spec.whatwg.org/#iteration-break"},
 "7b5a0ddb": {"dfnID":"7b5a0ddb","dfnText":"border-block-start-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-block-start-color"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-borders-4/#propdef-border-block-start-color"},
 "7e4aa58b": {"dfnID":"7e4aa58b","dfnText":"environment encoding","external":true,"refSections":[{"refs":[{"id":"ref-for-environment-encoding"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://drafts.csswg.org/css-syntax-3/#environment-encoding"},
 "82ca3efc": {"dfnID":"82ca3efc","dfnText":"TypeError","external":true,"refSections":[{"refs":[{"id":"ref-for-exceptiondef-typeerror"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://webidl.spec.whatwg.org/#exceptiondef-typeerror"},
@@ -7036,8 +7036,8 @@ let dfnPanelData = {
 "8ca0e73e": {"dfnID":"8ca0e73e","dfnText":"mapping logic","external":true,"refSections":[{"refs":[{"id":"ref-for-mapping-logic"}],"title":"6.6. CSS Declaration Blocks"},{"refs":[{"id":"ref-for-mapping-logic\u2460"},{"id":"ref-for-mapping-logic\u2461"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://drafts.csswg.org/css-logical-1/#mapping-logic"},
 "8d984e64": {"dfnID":"8d984e64","dfnText":"encoding","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document-encoding"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://dom.spec.whatwg.org/#concept-document-encoding"},
 "8e0f26cc": {"dfnID":"8e0f26cc","dfnText":"caret-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-caret-color"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-ui-4/#propdef-caret-color"},
+"905d9a5a": {"dfnID":"905d9a5a","dfnText":"::slotted()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-slotted"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-shadow-1/#selectordef-slotted"},
 "9112c920": {"dfnID":"9112c920","dfnText":"border-left-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-left-color"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-color"},
-"93b034d7": {"dfnID":"93b034d7","dfnText":"SVGElement","external":true,"refSections":[{"refs":[{"id":"ref-for-InterfaceSVGElement"}],"title":"7.1. \nThe ElementCSSInlineStyle Mixin"}],"url":"https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"},
 "9638f92b": {"dfnID":"9638f92b","dfnText":"connected","external":true,"refSections":[{"refs":[{"id":"ref-for-connected"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://dom.spec.whatwg.org/#connected"},
 "975ace19": {"dfnID":"975ace19","dfnText":"CSSCounterStyleRule","external":true,"refSections":[{"refs":[{"id":"ref-for-csscounterstylerule"}],"title":"6.4.2. The CSSRule Interface"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#csscounterstylerule"},
 "977d3003": {"dfnID":"977d3003","dfnText":"<string>","external":true,"refSections":[{"refs":[{"id":"ref-for-string-value"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-values-4/#string-value"},
@@ -7046,6 +7046,7 @@ let dfnPanelData = {
 "9af0059d": {"dfnID":"9af0059d","dfnText":"cssRules","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-csskeyframesrule-cssrules"}],"title":"6.4. CSS Rules"}],"url":"https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-cssrules"},
 "9bcac82c": {"dfnID":"9bcac82c","dfnText":"get an attribute by namespace and local name","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-element-attributes-get-by-namespace"}],"title":"6.6. CSS Declaration Blocks"}],"url":"https://dom.spec.whatwg.org/#concept-element-attributes-get-by-namespace"},
 "9bf5ff7b": {"dfnID":"9bf5ff7b","dfnText":"parse a rule","external":true,"refSections":[{"refs":[{"id":"ref-for-parse-a-rule"}],"title":"6.4. CSS Rules"}],"url":"https://drafts.csswg.org/css-syntax-3/#parse-a-rule"},
+"9c09cfc6": {"dfnID":"9c09cfc6","dfnText":"SVGElement","external":true,"refSections":[{"refs":[{"id":"ref-for-InterfaceSVGElement"}],"title":"7.1. \nThe ElementCSSInlineStyle Mixin"}],"url":"https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"}],"title":"7.2. Extensions to the Window Interface"},{"refs":[{"id":"ref-for-computed-value\u2460"},{"id":"ref-for-computed-value\u2461"},{"id":"ref-for-computed-value\u2462"},{"id":"ref-for-computed-value\u2463"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "9d7987cb": {"dfnID":"9d7987cb","dfnText":"border-right-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-right-color"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-color"},
 "9ddea951": {"dfnID":"9ddea951","dfnText":"px","external":true,"refSections":[{"refs":[{"id":"ref-for-px"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-values-4/#px"},
@@ -7061,10 +7062,11 @@ let dfnPanelData = {
 "a58a3cd8": {"dfnID":"a58a3cd8","dfnText":"bottom","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-bottom"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-bottom"},
 "a5c91173": {"dfnID":"a5c91173","dfnText":"SameObject","external":true,"refSections":[{"refs":[{"id":"ref-for-SameObject"}],"title":"6.1.1. The StyleSheet Interface"},{"refs":[{"id":"ref-for-SameObject\u2460"}],"title":"6.1.2. The CSSStyleSheet Interface"},{"refs":[{"id":"ref-for-SameObject\u2461"}],"title":"6.1.2.1. Deprecated CSSStyleSheet members"},{"refs":[{"id":"ref-for-SameObject\u2462"}],"title":"6.2.3. Extensions to the DocumentOrShadowRoot Interface Mixin"},{"refs":[{"id":"ref-for-SameObject\u2463"}],"title":"6.4.3. The CSSStyleRule Interface"},{"refs":[{"id":"ref-for-SameObject\u2464"},{"id":"ref-for-SameObject\u2465"}],"title":"6.4.4. The CSSImportRule Interface"},{"refs":[{"id":"ref-for-SameObject\u2466"}],"title":"6.4.5. The CSSGroupingRule Interface"},{"refs":[{"id":"ref-for-SameObject\u2467"}],"title":"6.4.7. The CSSPageRule Interface"},{"refs":[{"id":"ref-for-SameObject\u2468"}],"title":"6.4.8. The CSSMarginRule Interface"},{"refs":[{"id":"ref-for-SameObject\u2460\u24ea"}],"title":"7.1. \nThe ElementCSSInlineStyle Mixin"}],"url":"https://webidl.spec.whatwg.org/#SameObject"},
 "a6e20c61": {"dfnID":"a6e20c61","dfnText":"margin-inline-start","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-inline-start"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-logical-1/#propdef-margin-inline-start"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "a8fe91d7": {"dfnID":"a8fe91d7","dfnText":"font-weight","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-weight"},{"id":"ref-for-propdef-font-weight\u2460"}],"title":"6.4. CSS Rules"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-weight"},
 "a942934d": {"dfnID":"a942934d","dfnText":"<whitespace-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-whitespace-token"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-whitespace-token"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
 "aaf6abed": {"dfnID":"aaf6abed","dfnText":"margin-left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-left"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-left"},
+"ac54fbff": {"dfnID":"ac54fbff","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "ad065a5c": {"dfnID":"ad065a5c","dfnText":"margin-right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-right"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-right"},
 "ad337600": {"dfnID":"ad337600","dfnText":"<pseudo-element-selector>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-pseudo-element-selector"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector"},
 "ad49d317": {"dfnID":"ad49d317","dfnText":"inset-block-start","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-inset-block-start"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-inset-block-start"},
@@ -7074,7 +7076,6 @@ let dfnPanelData = {
 "b0b8d8c0": {"dfnID":"b0b8d8c0","dfnText":"right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-right"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-right"},
 "b0d7f3c3": {"dfnID":"b0d7f3c3","dfnText":"USVString","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-USVString"},{"id":"ref-for-idl-USVString\u2460"},{"id":"ref-for-idl-USVString\u2461"}],"title":"3. CSSOMString"},{"refs":[{"id":"ref-for-idl-USVString\u2462"}],"title":"6.1.1. The StyleSheet Interface"},{"refs":[{"id":"ref-for-idl-USVString\u2463"}],"title":"6.4.4. The CSSImportRule Interface"}],"url":"https://webidl.spec.whatwg.org/#idl-USVString"},
 "b5447e8b": {"dfnID":"b5447e8b","dfnText":"custom property","external":true,"refSections":[{"refs":[{"id":"ref-for-custom-property"}],"title":"2. Terminology"},{"refs":[{"id":"ref-for-custom-property\u2460"},{"id":"ref-for-custom-property\u2461"},{"id":"ref-for-custom-property\u2462"},{"id":"ref-for-custom-property\u2463"}],"title":"6.6.1. The CSSStyleDeclaration Interface"},{"refs":[{"id":"ref-for-custom-property\u2464"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-variables-1/#custom-property"},
-"ba80b0b1": {"dfnID":"ba80b0b1","dfnText":"<family-name>","external":true,"refSections":[{"refs":[{"id":"ref-for-family-name-value"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css-fonts-4/#family-name-value"},
 "ba920583": {"dfnID":"ba920583","dfnText":"style","external":true,"refSections":[{"refs":[{"id":"ref-for-the-style-element"},{"id":"ref-for-the-style-element\u2460"}],"title":"6.3.2. The LinkStyle Interface"}],"url":"https://html.spec.whatwg.org/multipage/semantics.html#the-style-element"},
 "bd3d9ccd": {"dfnID":"bd3d9ccd","dfnText":"media query","external":true,"refSections":[{"refs":[{"id":"ref-for-media-query"},{"id":"ref-for-media-query\u2460"}],"title":"4. Media Queries"},{"refs":[{"id":"ref-for-media-query\u2461"},{"id":"ref-for-media-query\u2462"},{"id":"ref-for-media-query\u2463"}],"title":"4.2. Serializing Media Queries"}],"url":"https://drafts.csswg.org/mediaqueries-5/#media-query"},
 "bdad9fe9": {"dfnID":"bdad9fe9","dfnText":"::before","external":true,"refSections":[{"refs":[{"id":"ref-for-sel-before"}],"title":"2. Terminology"}],"url":"https://drafts.csswg.org/selectors-3/#sel-before"},
@@ -7084,7 +7085,6 @@ let dfnPanelData = {
 "c3e881ef": {"dfnID":"c3e881ef","dfnText":"SecurityError","external":true,"refSections":[{"refs":[{"id":"ref-for-securityerror"},{"id":"ref-for-securityerror\u2460"},{"id":"ref-for-securityerror\u2461"}],"title":"6.1.2. The CSSStyleSheet Interface"}],"url":"https://webidl.spec.whatwg.org/#securityerror"},
 "c6d19e56": {"dfnID":"c6d19e56","dfnText":"event loop","external":true,"refSections":[{"refs":[{"id":"ref-for-event-loop"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-loop"},
 "c807e273": {"dfnID":"c807e273","dfnText":"NewObject","external":true,"refSections":[{"refs":[{"id":"ref-for-NewObject"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://webidl.spec.whatwg.org/#NewObject"},
-"c90d9be6": {"dfnID":"c90d9be6","dfnText":"::slotted()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-slotted"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-scoping-1/#selectordef-slotted"},
 "c93b716b": {"dfnID":"c93b716b","dfnText":"media type","external":true,"refSections":[{"refs":[{"id":"ref-for-media-type"}],"title":"4.2. Serializing Media Queries"}],"url":"https://drafts.csswg.org/mediaqueries-5/#media-type"},
 "c9dac9f9": {"dfnID":"c9dac9f9","dfnText":"IndexSizeError","external":true,"refSections":[{"refs":[{"id":"ref-for-indexsizeerror"},{"id":"ref-for-indexsizeerror\u2460"}],"title":"6.4. CSS Rules"}],"url":"https://webidl.spec.whatwg.org/#indexsizeerror"},
 "ca3ca4ae": {"dfnID":"ca3ca4ae","dfnText":"URL parser","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-parser"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"},{"refs":[{"id":"ref-for-concept-url-parser\u2460"}],"title":"6.3.5. Requirements on user agents Implementing the HTTP Link Header"}],"url":"https://url.spec.whatwg.org/#concept-url-parser"},
@@ -7094,6 +7094,7 @@ let dfnPanelData = {
 "cd31890e": {"dfnID":"cd31890e","dfnText":"media query list","external":true,"refSections":[{"refs":[{"id":"ref-for-media-query-list"}],"title":"4.1. Parsing Media Queries"},{"refs":[{"id":"ref-for-media-query-list\u2460"},{"id":"ref-for-media-query-list\u2461"}],"title":"4.2. Serializing Media Queries"}],"url":"https://drafts.csswg.org/mediaqueries-5/#media-query-list"},
 "ce3d2bbb": {"dfnID":"ce3d2bbb","dfnText":"current global object","external":true,"refSections":[{"refs":[{"id":"ref-for-current-global-object"}],"title":"8.1. The CSS.escape() Method"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#current-global-object"},
 "cea6420e": {"dfnID":"cea6420e","dfnText":"a style sheet that is blocking scripts","external":true,"refSections":[{"refs":[{"id":"ref-for-a-style-sheet-that-is-blocking-scripts"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"},{"refs":[{"id":"ref-for-a-style-sheet-that-is-blocking-scripts\u2460"}],"title":"6.3.5. Requirements on user agents Implementing the HTTP Link Header"}],"url":"https://html.spec.whatwg.org/multipage/semantics.html#a-style-sheet-that-is-blocking-scripts"},
+"cf2581ff": {"dfnID":"cf2581ff","dfnText":"<family-name>","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-family-name"}],"title":"6.7.2. Serializing CSS Values"}],"url":"https://drafts.csswg.org/css2/#value-def-family-name"},
 "change-the-preferred-css-style-sheet-set-name": {"dfnID":"change-the-preferred-css-style-sheet-set-name","dfnText":"change the preferred CSS style sheet set name","external":false,"refSections":[{"refs":[{"id":"ref-for-change-the-preferred-css-style-sheet-set-name"}],"title":"6.2. CSS Style Sheet Collections"},{"refs":[{"id":"ref-for-change-the-preferred-css-style-sheet-set-name\u2460"}],"title":"6.2.1. The HTTP Default-Style Header"}],"url":"#change-the-preferred-css-style-sheet-set-name"},
 "compare-media-queries": {"dfnID":"compare-media-queries","dfnText":"compare media queries","external":false,"refSections":[{"refs":[{"id":"ref-for-compare-media-queries"},{"id":"ref-for-compare-media-queries\u2460"}],"title":"4.4. The MediaList Interface"}],"url":"#compare-media-queries"},
 "concept-css-rule-child-css-rules": {"dfnID":"concept-css-rule-child-css-rules","dfnText":"child CSS rules","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-css-rule-child-css-rules"},{"id":"ref-for-concept-css-rule-child-css-rules\u2460"},{"id":"ref-for-concept-css-rule-child-css-rules\u2461"}],"title":"6.4.5. The CSSGroupingRule Interface"}],"url":"#concept-css-rule-child-css-rules"},
@@ -7145,7 +7146,6 @@ let dfnPanelData = {
 "cssstylesheet": {"dfnID":"cssstylesheet","dfnText":"CSSStyleSheet","external":false,"refSections":[{"refs":[{"id":"ref-for-cssstylesheet"}],"title":"6.1. CSS Style Sheets"},{"refs":[{"id":"ref-for-cssstylesheet\u2460"}],"title":"6.1.1. The StyleSheet Interface"},{"refs":[{"id":"ref-for-cssstylesheet\u2461"},{"id":"ref-for-cssstylesheet\u2462"}],"title":"6.1.2. The CSSStyleSheet Interface"},{"refs":[{"id":"ref-for-cssstylesheet\u2463"},{"id":"ref-for-cssstylesheet\u2464"}],"title":"6.1.2.1. Deprecated CSSStyleSheet members"},{"refs":[{"id":"ref-for-cssstylesheet\u2465"}],"title":"6.2.2. The StyleSheetList Interface"},{"refs":[{"id":"ref-for-cssstylesheet\u2466"}],"title":"6.3.2. The LinkStyle Interface"},{"refs":[{"id":"ref-for-cssstylesheet\u2467"}],"title":"6.4.2. The CSSRule Interface"},{"refs":[{"id":"ref-for-cssstylesheet\u2468"}],"title":"6.4.4. The CSSImportRule Interface"}],"url":"#cssstylesheet"},
 "d1a6c008": {"dfnID":"d1a6c008","dfnText":"attribute change steps","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-element-attributes-change-ext"}],"title":"6.6. CSS Declaration Blocks"}],"url":"https://dom.spec.whatwg.org/#concept-element-attributes-change-ext"},
 "d1fe35a8": {"dfnID":"d1fe35a8","dfnText":"tree order","external":true,"refSections":[{"refs":[{"id":"ref-for-tree-order"}],"title":"6.2. CSS Style Sheet Collections"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#tree-order"},
-"d4091055": {"dfnID":"d4091055","dfnText":"CSSFontFaceRule","external":true,"refSections":[{"refs":[{"id":"ref-for-cssfontfacerule"},{"id":"ref-for-cssfontfacerule\u2460"}],"title":"6.4. CSS Rules"},{"refs":[{"id":"ref-for-cssfontfacerule\u2461"}],"title":"6.4.2. The CSSRule Interface"}],"url":"https://drafts.csswg.org/css-fonts-4/#cssfontfacerule"},
 "d45afbab": {"dfnID":"d45afbab","dfnText":"font-style","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-style"},{"id":"ref-for-propdef-font-style\u2460"}],"title":"6.4. CSS Rules"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-style"},
 "d462b34f": {"dfnID":"d462b34f","dfnText":"node","external":true,"refSections":[{"refs":[{"id":"ref-for-boundary-point-node"},{"id":"ref-for-boundary-point-node\u2460"}],"title":"6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction"}],"url":"https://dom.spec.whatwg.org/#boundary-point-node"},
 "dc1cd39b": {"dfnID":"dc1cd39b","dfnText":"url (for request)","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-url"}],"title":"6.3.1. Fetching CSS style sheets"}],"url":"https://fetch.spec.whatwg.org/#concept-request-url"},
@@ -7260,13 +7260,13 @@ let dfnPanelData = {
 "eb1b1af3": {"dfnID":"eb1b1af3","dfnText":"network error","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-network-error"}],"title":"6.3.1. Fetching CSS style sheets"}],"url":"https://fetch.spec.whatwg.org/#concept-network-error"},
 "eb3aa672": {"dfnID":"eb3aa672","dfnText":"logical property group","external":true,"refSections":[{"refs":[{"id":"ref-for-logical-property-group"}],"title":"6.6. CSS Declaration Blocks"},{"refs":[{"id":"ref-for-logical-property-group\u2460"},{"id":"ref-for-logical-property-group\u2461"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://drafts.csswg.org/css-logical-1/#logical-property-group"},
 "eb7e3851": {"dfnID":"eb7e3851","dfnText":"guaranteed-invalid value","external":true,"refSections":[{"refs":[{"id":"ref-for-guaranteed-invalid-value"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value"},
+"ef21c66f": {"dfnID":"ef21c66f","dfnText":"break","external":true,"refSections":[{"refs":[{"id":"ref-for-break"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://drafts.csswg.org/css-break-4/#break"},
 "elementcssinlinestyle": {"dfnID":"elementcssinlinestyle","dfnText":"ElementCSSInlineStyle","external":false,"refSections":[{"refs":[{"id":"ref-for-elementcssinlinestyle"},{"id":"ref-for-elementcssinlinestyle\u2460"},{"id":"ref-for-elementcssinlinestyle\u2461"},{"id":"ref-for-elementcssinlinestyle\u2462"}],"title":"7.1. The ElementCSSInlineStyle Mixin"}],"url":"#elementcssinlinestyle"},
 "enable-a-css-style-sheet-set": {"dfnID":"enable-a-css-style-sheet-set","dfnText":"enable a CSS style sheet set","external":false,"refSections":[{"refs":[{"id":"ref-for-enable-a-css-style-sheet-set"},{"id":"ref-for-enable-a-css-style-sheet-set\u2460"}],"title":"6.2. CSS Style Sheet Collections"}],"url":"#enable-a-css-style-sheet-set"},
 "enabled-css-style-sheet-set": {"dfnID":"enabled-css-style-sheet-set","dfnText":"enabled CSS style sheet set","external":false,"refSections":[{"refs":[{"id":"ref-for-enabled-css-style-sheet-set"}],"title":"6.2.1. The HTTP Default-Style Header"}],"url":"#enabled-css-style-sheet-set"},
 "escape-a-character": {"dfnID":"escape-a-character","dfnText":"escape a character","external":false,"refSections":[{"refs":[{"id":"ref-for-escape-a-character"},{"id":"ref-for-escape-a-character\u2460"},{"id":"ref-for-escape-a-character\u2461"}],"title":"2.1. Common Serializing Idioms"}],"url":"#escape-a-character"},
 "escape-a-character-as-code-point": {"dfnID":"escape-a-character-as-code-point","dfnText":"escape a character as code point","external":false,"refSections":[{"refs":[{"id":"ref-for-escape-a-character-as-code-point"},{"id":"ref-for-escape-a-character-as-code-point\u2460"},{"id":"ref-for-escape-a-character-as-code-point\u2461"},{"id":"ref-for-escape-a-character-as-code-point\u2462"}],"title":"2.1. Common Serializing Idioms"}],"url":"#escape-a-character-as-code-point"},
 "f0c46389": {"dfnID":"f0c46389","dfnText":"block-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-block-size"}],"title":"9. Resolved Values"}],"url":"https://drafts.csswg.org/css-logical-1/#propdef-block-size"},
-"f601a423": {"dfnID":"f601a423","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"9. Resolved Values"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "f78d5b5c": {"dfnID":"f78d5b5c","dfnText":"origin","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-origin"}],"title":"6.3.1. Fetching CSS style sheets"}],"url":"https://fetch.spec.whatwg.org/#concept-request-origin"},
 "f8434dee": {"dfnID":"f8434dee","dfnText":"being rendered","external":true,"refSections":[{"refs":[{"id":"ref-for-being-rendered"}],"title":"7.2. Extensions to the Window Interface"}],"url":"https://html.spec.whatwg.org/multipage/rendering.html#being-rendered"},
 "f937b7b6": {"dfnID":"f937b7b6","dfnText":"continue","external":true,"refSections":[{"refs":[{"id":"ref-for-iteration-continue"},{"id":"ref-for-iteration-continue\u2460"},{"id":"ref-for-iteration-continue\u2461"}],"title":"6.6.1. The CSSStyleDeclaration Interface"}],"url":"https://infra.spec.whatwg.org/#iteration-continue"},
@@ -7962,8 +7962,8 @@ let refsData = {
 "http://heycam.github.io/webidl/#idl-long": {"displayText":"long","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"long","type":"interface","url":"http://heycam.github.io/webidl/#idl-long"},
 "https://compat.spec.whatwg.org/#propdef--webkit-transform": {"displayText":"-webkit-transform","export":true,"for_":[],"level":"1","normative":true,"shortname":"compat","spec":"compat","status":"current","text":"-webkit-transform","type":"property","url":"https://compat.spec.whatwg.org/#propdef--webkit-transform"},
 "https://dom.spec.whatwg.org/#boundary-point-node": {"displayText":"node","export":true,"for_":["boundary point"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"node","type":"dfn","url":"https://dom.spec.whatwg.org/#boundary-point-node"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-cd-data": {"displayText":"data","export":true,"for_":["CharacterData"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"data","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-cd-data"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
 "https://dom.spec.whatwg.org/#concept-document-encoding": {"displayText":"encoding","export":true,"for_":["Document"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"encoding","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-encoding"},
 "https://dom.spec.whatwg.org/#concept-document-quirks": {"displayText":"quirks mode","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"quirks mode","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-quirks"},
 "https://dom.spec.whatwg.org/#concept-document-url": {"displayText":"document url","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"document url","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-url"},
@@ -8003,6 +8003,7 @@ let refsData = {
 "https://drafts.csswg.org/css-box-4/#propdef-padding-left": {"displayText":"padding-left","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"padding-left","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-padding-left"},
 "https://drafts.csswg.org/css-box-4/#propdef-padding-right": {"displayText":"padding-right","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"padding-right","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-padding-right"},
 "https://drafts.csswg.org/css-box-4/#propdef-padding-top": {"displayText":"padding-top","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"padding-top","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-padding-top"},
+"https://drafts.csswg.org/css-break-4/#break": {"displayText":"break","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-break","spec":"css-break-4","status":"current","text":"break","type":"dfn","url":"https://drafts.csswg.org/css-break-4/#break"},
 "https://drafts.csswg.org/css-cascade-5/#computed-value": {"displayText":"computed value","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"computed value","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "https://drafts.csswg.org/css-cascade-5/#used-value": {"displayText":"used value","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"used value","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#used-value"},
 "https://drafts.csswg.org/css-color-4/#propdef-color": {"displayText":"color","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-color","spec":"css-color-4","status":"current","text":"color","type":"property","url":"https://drafts.csswg.org/css-color-4/#propdef-color"},
@@ -8013,15 +8014,14 @@ let refsData = {
 "https://drafts.csswg.org/css-display-4/#propdef-display": {"displayText":"display","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"display","type":"property","url":"https://drafts.csswg.org/css-display-4/#propdef-display"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-contents": {"displayText":"contents","export":true,"for_":["display","<display-box>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"contents","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-contents"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-none": {"displayText":"none","export":true,"for_":["display","<display-box>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"none","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-none"},
-"https://drafts.csswg.org/css-fonts-4/#cssfontfacerule": {"displayText":"CSSFontFaceRule","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"CSSFontFaceRule","type":"interface","url":"https://drafts.csswg.org/css-fonts-4/#cssfontfacerule"},
 "https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule": {"displayText":"CSSFontFeatureValuesRule","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"CSSFontFeatureValuesRule","type":"interface","url":"https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule"},
-"https://drafts.csswg.org/css-fonts-4/#family-name-value": {"displayText":"<family-name>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"<family-name>","type":"type","url":"https://drafts.csswg.org/css-fonts-4/#family-name-value"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-feature-settings": {"displayText":"font-feature-settings","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-feature-settings","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-feature-settings"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-size": {"displayText":"font-size","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-size","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-size"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-stretch": {"displayText":"font-stretch","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-stretch","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-stretch"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-style": {"displayText":"font-style","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-style","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-style"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant": {"displayText":"font-variant","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-variant","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-variant"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-weight": {"displayText":"font-weight","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-weight","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-weight"},
+"https://drafts.csswg.org/css-fonts-5/#cssfontfacerule": {"displayText":"CSSFontFaceRule","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-fonts","spec":"css-fonts-5","status":"current","text":"CSSFontFaceRule","type":"interface","url":"https://drafts.csswg.org/css-fonts-5/#cssfontfacerule"},
 "https://drafts.csswg.org/css-lists-3/#typedef-counter": {"displayText":"<counter>","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"<counter>","type":"type","url":"https://drafts.csswg.org/css-lists-3/#typedef-counter"},
 "https://drafts.csswg.org/css-logical-1/#logical-property-group": {"displayText":"logical property group","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-logical","spec":"css-logical-1","status":"current","text":"logical property group","type":"dfn","url":"https://drafts.csswg.org/css-logical-1/#logical-property-group"},
 "https://drafts.csswg.org/css-logical-1/#mapping-logic": {"displayText":"mapping logic","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-logical","spec":"css-logical-1","status":"current","text":"mapping logic","type":"dfn","url":"https://drafts.csswg.org/css-logical-1/#mapping-logic"},
@@ -8046,9 +8046,9 @@ let refsData = {
 "https://drafts.csswg.org/css-position-3/#propdef-left": {"displayText":"left","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-position","spec":"css-position-3","status":"current","text":"left","type":"property","url":"https://drafts.csswg.org/css-position-3/#propdef-left"},
 "https://drafts.csswg.org/css-position-3/#propdef-right": {"displayText":"right","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-position","spec":"css-position-3","status":"current","text":"right","type":"property","url":"https://drafts.csswg.org/css-position-3/#propdef-right"},
 "https://drafts.csswg.org/css-position-3/#propdef-top": {"displayText":"top","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-position","spec":"css-position-3","status":"current","text":"top","type":"property","url":"https://drafts.csswg.org/css-position-3/#propdef-top"},
-"https://drafts.csswg.org/css-scoping-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
-"https://drafts.csswg.org/css-scoping-1/#selectordef-slotted": {"displayText":"::slotted()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"::slotted()","type":"selector","url":"https://drafts.csswg.org/css-scoping-1/#selectordef-slotted"},
-"https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part": {"displayText":"::part()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow-parts","spec":"css-shadow-parts-1","status":"current","text":"::part()","type":"selector","url":"https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part"},
+"https://drafts.csswg.org/css-shadow-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
+"https://drafts.csswg.org/css-shadow-1/#selectordef-part": {"displayText":"::part()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"::part()","type":"selector","url":"https://drafts.csswg.org/css-shadow-1/#selectordef-part"},
+"https://drafts.csswg.org/css-shadow-1/#selectordef-slotted": {"displayText":"::slotted()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"::slotted()","type":"selector","url":"https://drafts.csswg.org/css-shadow-1/#selectordef-slotted"},
 "https://drafts.csswg.org/css-sizing-3/#propdef-height": {"displayText":"height","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"height","type":"property","url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
 "https://drafts.csswg.org/css-sizing-3/#propdef-width": {"displayText":"width","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"width","type":"property","url":"https://drafts.csswg.org/css-sizing-3/#propdef-width"},
 "https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar": {"displayText":"parse","export":true,"for_":["CSS"],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"parse","type":"dfn","url":"https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar"},
@@ -8074,8 +8074,10 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#url-value": {"displayText":"<url>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<url>","type":"type","url":"https://drafts.csswg.org/css-values-4/#url-value"},
 "https://drafts.csswg.org/css-variables-1/#custom-property": {"displayText":"custom property","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-variables","spec":"css-variables-1","status":"current","text":"custom property","type":"dfn","url":"https://drafts.csswg.org/css-variables-1/#custom-property"},
 "https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value": {"displayText":"guaranteed-invalid value","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"guaranteed-invalid value","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value"},
-"https://drafts.csswg.org/css2/#value-def-identifier": {"displayText":"<identifier>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"<identifier>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-identifier"},
-"https://drafts.csswg.org/css2/#value-def-shape": {"displayText":"<shape>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"<shape>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-shape"},
+"https://drafts.csswg.org/css2/#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-line-height"},
+"https://drafts.csswg.org/css2/#value-def-family-name": {"displayText":"<family-name>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<family-name>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-family-name"},
+"https://drafts.csswg.org/css2/#value-def-identifier": {"displayText":"<identifier>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<identifier>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-identifier"},
+"https://drafts.csswg.org/css2/#value-def-shape": {"displayText":"<shape>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<shape>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-shape"},
 "https://drafts.csswg.org/mediaqueries-4/#descdef-media-color": {"displayText":"color","export":true,"for_":["@media"],"level":"4","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-4","status":"current","text":"color","type":"descriptor","url":"https://drafts.csswg.org/mediaqueries-4/#descdef-media-color"},
 "https://drafts.csswg.org/mediaqueries-4/#valdef-media-orientation-landscape": {"displayText":"landscape","export":true,"for_":["@media/orientation"],"level":"4","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-4","status":"current","text":"landscape","type":"value","url":"https://drafts.csswg.org/mediaqueries-4/#valdef-media-orientation-landscape"},
 "https://drafts.csswg.org/mediaqueries-4/#valdef-media-orientation-portrait": {"displayText":"portrait","export":true,"for_":["@media/orientation"],"level":"4","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-4","status":"current","text":"portrait","type":"value","url":"https://drafts.csswg.org/mediaqueries-4/#valdef-media-orientation-portrait"},
@@ -8119,17 +8121,16 @@ let refsData = {
 "https://infra.spec.whatwg.org/#ascii-lowercase": {"displayText":"ASCII lowercase","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"ascii lowercase","type":"dfn","url":"https://infra.spec.whatwg.org/#ascii-lowercase"},
 "https://infra.spec.whatwg.org/#ascii-uppercase": {"displayText":"ASCII uppercase","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"ascii uppercase","type":"dfn","url":"https://infra.spec.whatwg.org/#ascii-uppercase"},
 "https://infra.spec.whatwg.org/#code-unit": {"displayText":"code unit","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"code unit","type":"dfn","url":"https://infra.spec.whatwg.org/#code-unit"},
-"https://infra.spec.whatwg.org/#iteration-break": {"displayText":"break","export":true,"for_":["iteration"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"break","type":"dfn","url":"https://infra.spec.whatwg.org/#iteration-break"},
 "https://infra.spec.whatwg.org/#iteration-continue": {"displayText":"continue","export":true,"for_":["iteration"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"continue","type":"dfn","url":"https://infra.spec.whatwg.org/#iteration-continue"},
 "https://infra.spec.whatwg.org/#list": {"displayText":"list","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"list","type":"dfn","url":"https://infra.spec.whatwg.org/#list"},
 "https://infra.spec.whatwg.org/#list-iterate": {"displayText":"for each","export":true,"for_":["list","set"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"for each","type":"dfn","url":"https://infra.spec.whatwg.org/#list-iterate"},
 "https://infra.spec.whatwg.org/#surrogate": {"displayText":"surrogate","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"surrogate","type":"dfn","url":"https://infra.spec.whatwg.org/#surrogate"},
-"https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement": {"displayText":"SVGElement","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"SVGElement","type":"interface","url":"https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"},
 "https://url.spec.whatwg.org/#absolute-url-string": {"displayText":"absolute-URL string","export":true,"for_":[],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"absolute-url string","type":"dfn","url":"https://url.spec.whatwg.org/#absolute-url-string"},
 "https://url.spec.whatwg.org/#concept-url": {"displayText":"URL","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"url","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url"},
 "https://url.spec.whatwg.org/#concept-url-parser": {"displayText":"URL parser","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"url parser","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-parser"},
 "https://url.spec.whatwg.org/#concept-url-serializer": {"displayText":"URL serializer","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"url serializer","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-serializer"},
 "https://w3c.github.io/mathml-core/#dom-mathmlelement": {"displayText":"MathMLElement","export":true,"for_":[],"level":"1","normative":true,"shortname":"mathml-core","spec":"mathml-core","status":"current","text":"MathMLElement","type":"interface","url":"https://w3c.github.io/mathml-core/#dom-mathmlelement"},
+"https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement": {"displayText":"SVGElement","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"SVGElement","type":"interface","url":"https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
 "https://webidl.spec.whatwg.org/#LegacyNullToEmptyString": {"displayText":"LegacyNullToEmptyString","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"LegacyNullToEmptyString","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#LegacyNullToEmptyString"},
 "https://webidl.spec.whatwg.org/#NewObject": {"displayText":"NewObject","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"NewObject","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#NewObject"},
@@ -8149,7 +8150,6 @@ let refsData = {
 "https://webidl.spec.whatwg.org/#notfounderror": {"displayText":"NotFoundError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"NotFoundError","type":"exception","url":"https://webidl.spec.whatwg.org/#notfounderror"},
 "https://webidl.spec.whatwg.org/#securityerror": {"displayText":"SecurityError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"SecurityError","type":"exception","url":"https://webidl.spec.whatwg.org/#securityerror"},
 "https://webidl.spec.whatwg.org/#syntaxerror": {"displayText":"SyntaxError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"SyntaxError","type":"exception","url":"https://webidl.spec.whatwg.org/#syntaxerror"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "https://www.w3.org/TR/css-syntax-3/#parse-a-list-of-declarations": {"displayText":"parse a list of declarations","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"snapshot","text":"parse a list of declarations","type":"dfn","url":"https://www.w3.org/TR/css-syntax-3/#parse-a-list-of-declarations"},
 "https://www.w3.org/TR/xml-stylesheet/#dt-pseudo-attribute": {"displayText":"pseudo-attribute","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"pseudo-attribute","type":"dfn","url":"https://www.w3.org/TR/xml-stylesheet/#dt-pseudo-attribute"},
 "https://www.w3.org/TR/xml-stylesheet/#dt-xml-stylesheet-processing-instruction": {"displayText":"xml-stylesheet processing instruction","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"","status":"anchor-block","text":"xml-stylesheet processing instruction","type":"dfn","url":"https://www.w3.org/TR/xml-stylesheet/#dt-xml-stylesheet-processing-instruction"},

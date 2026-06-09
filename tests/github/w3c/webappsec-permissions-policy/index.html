@@ -1484,7 +1484,7 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
 
      <p>In this representation, a <a data-link-type="dfn" href="#policy-directive" id="ref-for-policy-directive⑥">policy directive</a> is represented by a
     Dictionary.</p>
-     <p>Each Dictionary Member associates a <a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-powerful-feature" id="ref-for-dfn-powerful-feature">feature</a> with an <a data-link-type="dfn" href="#allowlist" id="ref-for-allowlist⑦">allowlist</a>.
+     <p>Each Dictionary Member associates a <a data-link-type="dfn" href="https://w3c.github.io/user-timing/#feature" id="ref-for-feature">feature</a> with an <a data-link-type="dfn" href="#allowlist" id="ref-for-allowlist⑦">allowlist</a>.
     The Member Names must be Tokens. If a token does not name a supported
     feature, then the Dictionary Member will be ignored by the processing steps.</p>
      <p>The Member Values represent <a data-link-type="dfn" href="#allowlist" id="ref-for-allowlist⑧">allowlists</a>, and must be one of:</p>
@@ -1877,7 +1877,7 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
    <section>
     <h2 class="heading settled" data-level="8" id="reporting"><span class="secno">8. </span><span class="content">Reporting</span><a class="self-link" href="#reporting"></a></h2>
     <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="permissions-policy-violation-reports">Permissions policy violation reports</dfn> indicate that some behavior
-  of the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">Document</a> has <a data-link-type="dfn" href="#violate" id="ref-for-violate">violated</a> a permissions policy. It is up to
+  of the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">Document</a> has <a data-link-type="dfn" href="#violate" id="ref-for-violate">violated</a> a permissions policy. It is up to
   the specification of each individual policy-controlled feature to define what
   it means to <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="violate|violation|violated" data-noexport id="violate">violate</dfn> that
   policy, and how to determine when such a violation has occurred.</p>
@@ -2339,7 +2339,7 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
 
       <ol>
        <li data-md>
-        <p>Set <var>window</var> to <var>request</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-window" id="ref-for-concept-request-window">window</a>.</p>
+        <p>Set <var>window</var> to <var>request</var>’s <u class="link-error" data-lt="window" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;window&apos; with for=&apos;[&apos;request&apos;]&apos;.">window</u>.</p>
        <li data-md>
         <p>If <var>window</var> is not a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#window" id="ref-for-window">Window</a></code>, return <code>false</code>.</p>
         <div class="issue" id="issue-154a63d1"><a class="self-link" href="#issue-154a63d1"></a>Permissions Policy within non-Window contexts
@@ -2673,7 +2673,7 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
      <li><span class="dfn-paneled" id="85394472">Document</span>
      <li><span class="dfn-paneled" id="296f3551">Element</span>
      <li><span class="dfn-paneled" id="96c16e60">Node</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="5216e1a0">node document</span>
     </ul>
    <li>
@@ -2683,7 +2683,6 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
      <li><span class="dfn-paneled" id="f78d5b5c">origin</span>
      <li><span class="dfn-paneled" id="55213b5b">request</span>
      <li><span class="dfn-paneled" id="e3201629">response</span>
-     <li><span class="dfn-paneled" id="1ab127d6">window</span>
     </ul>
    <li>
     <a data-link-type="biblio">[FULLSCREEN]</a> defines the following terms:
@@ -2726,11 +2725,6 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
      <li><span class="dfn-paneled" id="e5fc5b88">strictly split</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[PERMISSIONS]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="ef20e900">feature</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[REPORTING-1]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="188c6617">ReportBody</span>
@@ -2743,6 +2737,11 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
     <a data-link-type="biblio">[URL]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="ca3ca4ae">URL parser</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[USER-TIMING]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="522307d7">feature</span>
     </ul>
    <li>
     <a data-link-type="biblio">[WEBIDL]</a> defines the following terms:
@@ -2772,8 +2771,6 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
-   <dt id="biblio-permissions">[PERMISSIONS]
-   <dd>Marcos Caceres; Mike Taylor. <a href="https://w3c.github.io/permissions/"><cite>Permissions</cite></a>. URL: <a href="https://w3c.github.io/permissions/">https://w3c.github.io/permissions/</a>
    <dt id="biblio-reporting-1">[REPORTING-1]
    <dd>Douglas Creager; Ian Clelland; Mike West. <a href="https://w3c.github.io/reporting/"><cite>Reporting API</cite></a>. URL: <a href="https://w3c.github.io/reporting/">https://w3c.github.io/reporting/</a>
    <dt id="biblio-rfc2119">[RFC2119]
@@ -2782,6 +2779,8 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
    <dd>G. Klyne; M. Nottingham; J. Mogul. <a href="https://www.rfc-editor.org/rfc/rfc3864"><cite>Registration Procedures for Message Header Fields</cite></a>. September 2004. Best Current Practice. URL: <a href="https://www.rfc-editor.org/rfc/rfc3864">https://www.rfc-editor.org/rfc/rfc3864</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/"><cite>URL Standard</cite></a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
+   <dt id="biblio-user-timing">[USER-TIMING]
+   <dd>Nicolas Pena Moreno. <a href="https://w3c.github.io/user-timing/"><cite>User Timing</cite></a>. URL: <a href="https://w3c.github.io/user-timing/">https://w3c.github.io/user-timing/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
   </dl>
@@ -2790,7 +2789,7 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
    <dt id="biblio-csp2">[CSP2]
    <dd>Mike West; Adam Barth; Daniel Veditz. <a href="https://w3c.github.io/webappsec-csp/"><cite>Content Security Policy Level 2</cite></a>. URL: <a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a>
    <dt id="biblio-html5">[HTML5]
-   <dd>Ian Hickson; et al. <a href="https://www.w3.org/html/wg/drafts/html/master/"><cite>HTML5</cite></a>. URL: <a href="https://www.w3.org/html/wg/drafts/html/master/">https://www.w3.org/html/wg/drafts/html/master/</a>
+   <dd>Ian Hickson; et al. <a href="https://www.w3.org/TR/html5/"><cite>HTML5</cite></a>. 27 March 2018. REC. URL: <a href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="def highlight idl">[<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
@@ -3067,7 +3066,6 @@ let dfnPanelData = {
 "0d0390b4": {"dfnID":"0d0390b4","dfnText":"browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-browsing-context"}],"title":"9.5. Create a Permissions Policy for a browsing context"},{"refs":[{"id":"ref-for-browsing-context\u2460"}],"title":"9.6. Create a Permissions Policy for a browsing context from response"},{"refs":[{"id":"ref-for-browsing-context\u2461"}],"title":"9.7. Define an inherited policy for feature in browsing context"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context"},
 "10e25f42": {"dfnID":"10e25f42","dfnText":"HTMLIFrameElement","external":true,"refSections":[{"refs":[{"id":"ref-for-htmliframeelement"}],"title":"7.2. The permissionsPolicy object"}],"url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmliframeelement"},
 "188c6617": {"dfnID":"188c6617","dfnText":"ReportBody","external":true,"refSections":[{"refs":[{"id":"ref-for-reportbody"}],"title":"8. Reporting"}],"url":"https://w3c.github.io/reporting/#reportbody"},
-"1ab127d6": {"dfnID":"1ab127d6","dfnText":"window","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-window"}],"title":"9.11. Should request be allowed to use feature?"}],"url":"https://fetch.spec.whatwg.org/#concept-request-window"},
 "296f3551": {"dfnID":"296f3551","dfnText":"Element","external":true,"refSections":[{"refs":[{"id":"ref-for-element"},{"id":"ref-for-element\u2460"}],"title":"7.2. The permissionsPolicy object"}],"url":"https://dom.spec.whatwg.org/#element"},
 "3349d69f": {"dfnID":"3349d69f","dfnText":"associated Document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document-window"}],"title":"9.11. Should request be allowed to use feature?"}],"url":"https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-document-window"},
 "3c4b330a": {"dfnID":"3c4b330a","dfnText":"visible to reportingobservers","external":true,"refSections":[{"refs":[{"id":"ref-for-visible-to-reportingobservers"}],"title":"8. Reporting"}],"url":"https://w3c.github.io/reporting/#visible-to-reportingobservers"},
@@ -3075,6 +3073,7 @@ let dfnPanelData = {
 "4d5cebba": {"dfnID":"4d5cebba","dfnText":"report type","external":true,"refSections":[{"refs":[{"id":"ref-for-report-type"}],"title":"8. Reporting"}],"url":"https://w3c.github.io/reporting/#report-type"},
 "5216e1a0": {"dfnID":"5216e1a0","dfnText":"node document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-node-document"},{"id":"ref-for-concept-node-document\u2460"},{"id":"ref-for-concept-node-document\u2461"},{"id":"ref-for-concept-node-document\u2462"}],"title":"7.2. The permissionsPolicy object"},{"refs":[{"id":"ref-for-concept-node-document\u2463"},{"id":"ref-for-concept-node-document\u2464"}],"title":"9.8. Define an inherited policy for feature in container at origin"}],"url":"https://dom.spec.whatwg.org/#concept-node-document"},
 "521818b9": {"dfnID":"521818b9","dfnText":"same origin-domain","external":true,"refSections":[{"refs":[{"id":"ref-for-same-origin-domain"}],"title":"4.8. Allowlists"}],"url":"https://html.spec.whatwg.org/multipage/browsers.html#same-origin-domain"},
+"522307d7": {"dfnID":"522307d7","dfnText":"feature","external":true,"refSections":[{"refs":[{"id":"ref-for-feature"}],"title":"5.2. Structured header serialization"}],"url":"https://w3c.github.io/user-timing/#feature"},
 "5372cca8": {"dfnID":"5372cca8","dfnText":"boolean","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-boolean"}],"title":"7.2. The permissionsPolicy object"}],"url":"https://webidl.spec.whatwg.org/#idl-boolean"},
 "55213b5b": {"dfnID":"55213b5b","dfnText":"request","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request"}],"title":"9.11. Should request be allowed to use feature?"}],"url":"https://fetch.spec.whatwg.org/#concept-request"},
 "5c35dd47": {"dfnID":"5c35dd47","dfnText":"sandbox","external":true,"refSections":[{"refs":[{"id":"ref-for-attr-iframe-sandbox"}],"title":"3. Other and related mechanisms"},{"refs":[{"id":"ref-for-attr-iframe-sandbox\u2460"}],"title":"7.2. The permissionsPolicy object"},{"refs":[{"id":"ref-for-attr-iframe-sandbox\u2461"}],"title":"11. Privacy and Security"}],"url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox"},
@@ -3096,7 +3095,7 @@ let dfnPanelData = {
 "9fe8836b": {"dfnID":"9fe8836b","dfnText":"report","external":true,"refSections":[{"refs":[{"id":"ref-for-report"}],"title":"9.10. Generate report for violation of permissions policy on settings"}],"url":"https://w3c.github.io/reporting/#report"},
 "a5c91173": {"dfnID":"a5c91173","dfnText":"SameObject","external":true,"refSections":[{"refs":[{"id":"ref-for-SameObject"},{"id":"ref-for-SameObject\u2460"}],"title":"7.2. The permissionsPolicy object"}],"url":"https://webidl.spec.whatwg.org/#SameObject"},
 "a682cc44": {"dfnID":"a682cc44","dfnText":"split on ASCII whitespace","external":true,"refSections":[{"refs":[{"id":"ref-for-split-on-ascii-whitespace"}],"title":"9.3. Parse policy directive"}],"url":"https://infra.spec.whatwg.org/#split-on-ascii-whitespace"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"}],"title":"8. Reporting"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"}],"title":"8. Reporting"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "ae2a6342": {"dfnID":"ae2a6342","dfnText":"top-level browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-top-level-browsing-context"}],"title":"4.3. Inherited policies"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context"},
 "allow-list": {"dfnID":"allow-list","dfnText":"allow-list","external":false,"refSections":[{"refs":[{"id":"ref-for-allow-list"}],"title":"5.1. HTML attribute serialization"}],"url":"#allow-list"},
 "allow-list-value": {"dfnID":"allow-list-value","dfnText":"allow-list-value","external":false,"refSections":[{"refs":[{"id":"ref-for-allow-list-value"},{"id":"ref-for-allow-list-value\u2460"}],"title":"5.1. HTML attribute serialization"}],"url":"#allow-list-value"},
@@ -3135,7 +3134,6 @@ let dfnPanelData = {
 "dom-permissionspolicyviolationreportbody-sourcefile": {"dfnID":"dom-permissionspolicyviolationreportbody-sourcefile","dfnText":"sourceFile","external":false,"refSections":[],"url":"#dom-permissionspolicyviolationreportbody-sourcefile"},
 "e3201629": {"dfnID":"e3201629","dfnText":"response","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-response-response"}],"title":"6.1. Permissions-Policy HTTP Header\n    Field"},{"refs":[{"id":"ref-for-concept-response-response\u2460"}],"title":"9.1. Process response policy"},{"refs":[{"id":"ref-for-concept-response-response\u2461"}],"title":"9.6. Create a Permissions Policy for a browsing context from response"}],"url":"https://fetch.spec.whatwg.org/#concept-response-response"},
 "e5fc5b88": {"dfnID":"e5fc5b88","dfnText":"strictly split","external":true,"refSections":[{"refs":[{"id":"ref-for-strictly-split"}],"title":"9.3. Parse policy directive"}],"url":"https://infra.spec.whatwg.org/#strictly-split"},
-"ef20e900": {"dfnID":"ef20e900","dfnText":"feature","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-powerful-feature"}],"title":"5.2. Structured header serialization"}],"url":"https://w3c.github.io/permissions/#dfn-powerful-feature"},
 "empty-permissions-policy": {"dfnID":"empty-permissions-policy","dfnText":"empty permissions policy","external":false,"refSections":[],"url":"#empty-permissions-policy"},
 "f78d5b5c": {"dfnID":"f78d5b5c","dfnText":"origin","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-origin"}],"title":"9.11. Should request be allowed to use feature?"}],"url":"https://fetch.spec.whatwg.org/#concept-request-origin"},
 "f8de33a3": {"dfnID":"f8de33a3","dfnText":"long","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-long"},{"id":"ref-for-idl-long\u2460"}],"title":"8. Reporting"}],"url":"https://webidl.spec.whatwg.org/#idl-long"},
@@ -3659,7 +3657,7 @@ let refsData = {
 "#supported-features": {"displayText":"supported features","export":true,"for_":[],"level":"1","normative":true,"shortname":"permissions-policy","spec":"permissions-policy-1","status":"local","text":"supported features","type":"dfn","url":"#supported-features"},
 "#the-special-value": {"displayText":"the special value *","export":true,"for_":[],"level":"1","normative":true,"shortname":"permissions-policy","spec":"permissions-policy-1","status":"local","text":"the special value *","type":"dfn","url":"#the-special-value"},
 "#violate": {"displayText":"violated","export":true,"for_":[],"level":"1","normative":true,"shortname":"permissions-policy","spec":"permissions-policy-1","status":"local","text":"violated","type":"dfn","url":"#violate"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-node-document": {"displayText":"node document","export":true,"for_":["Node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"node document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-node-document"},
 "https://dom.spec.whatwg.org/#document": {"displayText":"Document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Document","type":"interface","url":"https://dom.spec.whatwg.org/#document"},
 "https://dom.spec.whatwg.org/#element": {"displayText":"Element","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Element","type":"interface","url":"https://dom.spec.whatwg.org/#element"},
@@ -3667,7 +3665,6 @@ let refsData = {
 "https://fetch.spec.whatwg.org/#concept-header-list-get-structured-header": {"displayText":"get a structured field value","export":true,"for_":["header list"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"get a structured field value","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-header-list-get-structured-header"},
 "https://fetch.spec.whatwg.org/#concept-request": {"displayText":"request","export":true,"for_":[],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"request","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request"},
 "https://fetch.spec.whatwg.org/#concept-request-origin": {"displayText":"origin","export":true,"for_":["request"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"origin","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request-origin"},
-"https://fetch.spec.whatwg.org/#concept-request-window": {"displayText":"window","export":true,"for_":["request"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"window","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-request-window"},
 "https://fetch.spec.whatwg.org/#concept-response-response": {"displayText":"response","export":true,"for_":["Response"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"response","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-response-response"},
 "https://fullscreen.spec.whatwg.org/#dom-element-requestfullscreen": {"displayText":"requestFullscreen()","export":true,"for_":["Element"],"level":"1","normative":true,"shortname":"fullscreen","spec":"fullscreen","status":"current","text":"requestFullscreen()","type":"method","url":"https://fullscreen.spec.whatwg.org/#dom-element-requestfullscreen"},
 "https://html.spec.whatwg.org/multipage/browsers.html#ascii-serialisation-of-an-origin": {"displayText":"serialization of an origin","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"serialization of an origin","type":"dfn","url":"https://html.spec.whatwg.org/multipage/browsers.html#ascii-serialisation-of-an-origin"},
@@ -3694,12 +3691,12 @@ let refsData = {
 "https://infra.spec.whatwg.org/#split-on-ascii-whitespace": {"displayText":"split on ASCII whitespace","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"split on ascii whitespace","type":"dfn","url":"https://infra.spec.whatwg.org/#split-on-ascii-whitespace"},
 "https://infra.spec.whatwg.org/#strictly-split": {"displayText":"strictly split","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"strictly split","type":"dfn","url":"https://infra.spec.whatwg.org/#strictly-split"},
 "https://url.spec.whatwg.org/#concept-url-parser": {"displayText":"URL parser","export":true,"for_":[],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"url parser","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-parser"},
-"https://w3c.github.io/permissions/#dfn-powerful-feature": {"displayText":"feature","export":true,"for_":[],"level":"1","normative":true,"shortname":"permissions","spec":"permissions","status":"current","text":"feature","type":"dfn","url":"https://w3c.github.io/permissions/#dfn-powerful-feature"},
 "https://w3c.github.io/reporting/#report": {"displayText":"report","export":true,"for_":[],"level":"1","normative":true,"shortname":"reporting","spec":"reporting-1","status":"current","text":"report","type":"dfn","url":"https://w3c.github.io/reporting/#report"},
 "https://w3c.github.io/reporting/#report-body": {"displayText":"body","export":true,"for_":["report"],"level":"1","normative":true,"shortname":"reporting","spec":"reporting-1","status":"current","text":"body","type":"dfn","url":"https://w3c.github.io/reporting/#report-body"},
 "https://w3c.github.io/reporting/#report-type": {"displayText":"report type","export":true,"for_":[],"level":"","normative":true,"shortname":"reporting","spec":"reporting","status":"anchor-block","text":"report type","type":"dfn","url":"https://w3c.github.io/reporting/#report-type"},
-"https://w3c.github.io/reporting/#reportbody": {"displayText":"ReportBody","export":true,"for_":[],"level":"1","normative":true,"shortname":"reporting","spec":"reporting-1","status":"current","text":"ReportBody","type":"interface","url":"https://w3c.github.io/reporting/#reportbody"},
+"https://w3c.github.io/reporting/#reportbody": {"displayText":"ReportBody","export":true,"for_":[],"level":"1","normative":true,"shortname":"reporting","spec":"reporting-1","status":"current","text":"ReportBody","type":"dictionary","url":"https://w3c.github.io/reporting/#reportbody"},
 "https://w3c.github.io/reporting/#visible-to-reportingobservers": {"displayText":"visible to reportingobservers","export":true,"for_":[],"level":"","normative":true,"shortname":"reporting","spec":"reporting","status":"anchor-block","text":"visible to reportingobservers","type":"dfn","url":"https://w3c.github.io/reporting/#visible-to-reportingobservers"},
+"https://w3c.github.io/user-timing/#feature": {"displayText":"feature","export":true,"for_":[],"level":"1","normative":true,"shortname":"user-timing","spec":"user-timing","status":"current","text":"feature","type":"dfn","url":"https://w3c.github.io/user-timing/#feature"},
 "https://w3c.github.io/webappsec-csp/#sandbox": {"displayText":"sandbox","export":true,"for_":[],"level":"3","normative":true,"shortname":"csp","spec":"csp3","status":"current","text":"sandbox","type":"dfn","url":"https://w3c.github.io/webappsec-csp/#sandbox"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
 "https://webidl.spec.whatwg.org/#SameObject": {"displayText":"SameObject","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"SameObject","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#SameObject"},

@@ -1406,8 +1406,8 @@ contexts. This allows developers to detect support for the Layout Instability AP
 <pre class="def highlight idl">[<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="layoutshiftattribution"><code class="highlight"><c- g>LayoutShiftAttribution</c-></code></dfn> {
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node" id="ref-for-node①⑤"><c- n>Node</c-></a>? <dfn class="dfn-paneled idl-code" data-dfn-for="LayoutShiftAttribution" data-dfn-type="attribute" data-export data-readonly data-type="Node?" id="dom-layoutshiftattribution-node"><code class="highlight"><c- g>node</c-></code></dfn>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-previousrect" id="ref-for-dom-layoutshiftattribution-previousrect"><c- g>previousRect</c-></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly①"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-currentrect" id="ref-for-dom-layoutshiftattribution-currentrect"><c- g>currentRect</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-previousrect" id="ref-for-dom-layoutshiftattribution-previousrect"><c- g>previousRect</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly①"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-currentrect" id="ref-for-dom-layoutshiftattribution-currentrect"><c- g>currentRect</c-></a>;
 };
 </pre>
    <p>Each <code class="idl"><a data-link-type="idl" href="#layoutshiftattribution" id="ref-for-layoutshiftattribution②">LayoutShiftAttribution</a></code> is associated with a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#node" id="ref-for-node①⑥">Node</a></code> (its
@@ -1707,7 +1707,7 @@ to cooperate to share instability scores.</p>
      <li><span class="dfn-paneled" id="5eff29c1">flow-relative</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="f37d4bc5">initial containing block</span>
      <li><span class="dfn-paneled" id="e421a890">visibility</span>
@@ -1734,7 +1734,7 @@ to cooperate to share instability scores.</p>
    <li>
     <a data-link-type="biblio">[GEOMETRY-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="fdd2dd4e">DOMRectReadOnly</span>
+     <li><span class="dfn-paneled" id="956a2c19">DOMRectReadOnly</span>
      <li><span class="dfn-paneled" id="f8357697">Rectangle</span>
     </ul>
    <li>
@@ -1798,7 +1798,7 @@ to cooperate to share instability scores.</p>
    <dt id="biblio-css-color-3">[CSS-COLOR-3]
    <dd>Tantek Çelik; Chris Lilley; David Baron. <a href="https://drafts.csswg.org/css-color-3/"><cite>CSS Color Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-3/">https://drafts.csswg.org/css-color-3/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
    <dd>Elika Etemad; Florian Rivoal. <a href="https://drafts.csswg.org/css-overflow-3/"><cite>CSS Overflow Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-3/">https://drafts.csswg.org/css-overflow-3/</a>
    <dt id="biblio-css-text-3">[CSS-TEXT-3]
@@ -1809,16 +1809,16 @@ to cooperate to share instability scores.</p>
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-css-writing-modes-4">[CSS-WRITING-MODES-4]
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-writing-modes-4/"><cite>CSS Writing Modes Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-writing-modes-4/">https://drafts.csswg.org/css-writing-modes-4/</a>
-   <dt id="biblio-css21">[CSS21]
+   <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-cssom-view-1">[CSSOM-VIEW-1]
-   <dd>Simon Pieters. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
+   <dd>Simon Fraser; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-element-timing">[ELEMENT-TIMING]
-   <dd><a href="https://wicg.github.io/element-timing/"><cite>Element Timing API</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/element-timing/">https://wicg.github.io/element-timing/</a>
+   <dd><a href="https://w3c.github.io/element-timing/"><cite>Element Timing API</cite></a>. Editor's Draft. URL: <a href="https://w3c.github.io/element-timing/">https://w3c.github.io/element-timing/</a>
    <dt id="biblio-geometry-1">[GEOMETRY-1]
-   <dd>Simon Pieters; Chris Harrelson. <a href="https://drafts.fxtf.org/geometry/"><cite>Geometry Interfaces Module Level 1</cite></a>. URL: <a href="https://drafts.fxtf.org/geometry/">https://drafts.fxtf.org/geometry/</a>
+   <dd>Sebastian Zartner; Yehonatan Daniv. <a href="https://drafts.csswg.org/geometry/"><cite>Geometry Interfaces Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/geometry/">https://drafts.csswg.org/geometry/</a>
    <dt id="biblio-hr-time-2">[HR-TIME-2]
    <dd>Ilya Grigorik. <a href="https://w3c.github.io/hr-time/"><cite>High Resolution Time Level 2</cite></a>. URL: <a href="https://w3c.github.io/hr-time/">https://w3c.github.io/hr-time/</a>
    <dt id="biblio-html">[HTML]
@@ -1849,8 +1849,8 @@ to cooperate to share instability scores.</p>
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <a href="#layoutshiftattribution"><code class="highlight"><c- g>LayoutShiftAttribution</c-></code></a> {
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node"><c- n>Node</c-></a>? <a data-readonly data-type="Node?" href="#dom-layoutshiftattribution-node"><code class="highlight"><c- g>node</c-></code></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-previousrect"><c- g>previousRect</c-></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-currentrect"><c- g>currentRect</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-previousrect"><c- g>previousRect</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMRectReadOnly" href="#dom-layoutshiftattribution-currentrect"><c- g>currentRect</c-></a>;
 };
 
 </pre>
@@ -2237,6 +2237,7 @@ let dfnPanelData = {
 "889e932f": {"dfnID":"889e932f","dfnText":"Exposed","external":true,"refSections":[{"refs":[{"id":"ref-for-Exposed"}],"title":"3. LayoutShift interface"},{"refs":[{"id":"ref-for-Exposed\u2460"}],"title":"4. LayoutShiftAttribution interface"}],"url":"https://webidl.spec.whatwg.org/#Exposed"},
 "8a524bdc": {"dfnID":"8a524bdc","dfnText":"transformed element","external":true,"refSections":[{"refs":[{"id":"ref-for-transformed-element"}],"title":"2.1. Basic Concepts"}],"url":"https://drafts.csswg.org/css-transforms-1/#transformed-element"},
 "8c800cdf": {"dfnID":"8c800cdf","dfnText":"double","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-double"}],"title":"3. LayoutShift interface"}],"url":"https://webidl.spec.whatwg.org/#idl-double"},
+"956a2c19": {"dfnID":"956a2c19","dfnText":"DOMRectReadOnly","external":true,"refSections":[{"refs":[{"id":"ref-for-domrectreadonly"},{"id":"ref-for-domrectreadonly\u2460"}],"title":"4. LayoutShiftAttribution interface"}],"url":"https://drafts.csswg.org/geometry-1/#domrectreadonly"},
 "96c16e60": {"dfnID":"96c16e60","dfnText":"Node","external":true,"refSections":[{"refs":[{"id":"ref-for-node"},{"id":"ref-for-node\u2460"},{"id":"ref-for-node\u2461"},{"id":"ref-for-node\u2462"},{"id":"ref-for-node\u2463"},{"id":"ref-for-node\u2464"}],"title":"2.1. Basic Concepts"},{"refs":[{"id":"ref-for-node\u2465"},{"id":"ref-for-node\u2466"},{"id":"ref-for-node\u2467"},{"id":"ref-for-node\u2468"}],"title":"2.2. Unstable Nodes"},{"refs":[{"id":"ref-for-node\u2460\u24ea"},{"id":"ref-for-node\u2460\u2460"},{"id":"ref-for-node\u2460\u2461"},{"id":"ref-for-node\u2460\u2462"},{"id":"ref-for-node\u2460\u2463"}],"title":"2.3. Layout Shift Value"},{"refs":[{"id":"ref-for-node\u2460\u2464"},{"id":"ref-for-node\u2460\u2465"},{"id":"ref-for-node\u2460\u2466"}],"title":"4. LayoutShiftAttribution interface"},{"refs":[{"id":"ref-for-node\u2460\u2467"},{"id":"ref-for-node\u2460\u2468"}],"title":"5.2. Report the layout shift sources"}],"url":"https://dom.spec.whatwg.org/#node"},
 "9bdefa58": {"dfnID":"9bdefa58","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-fragment"},{"id":"ref-for-fragment\u2460"}],"title":"2.1. Basic Concepts"}],"url":"https://drafts.csswg.org/css-break-4/#fragment"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"},{"id":"ref-for-computed-value\u2460"}],"title":"2.2. Unstable Nodes"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
@@ -2278,7 +2279,6 @@ let dfnPanelData = {
 "f6f130f8": {"dfnID":"f6f130f8","dfnText":"line box","external":true,"refSections":[{"refs":[{"id":"ref-for-line-breaking"},{"id":"ref-for-line-breaking\u2460"}],"title":"2.1. Basic Concepts"}],"url":"https://www.w3.org/TR/css-text-3/#line-breaking"},
 "f8357697": {"dfnID":"f8357697","dfnText":"Rectangle","external":true,"refSections":[{"refs":[{"id":"ref-for-rectangle"},{"id":"ref-for-rectangle\u2460"}],"title":"5.2. Report the layout shift sources"}],"url":"https://www.w3.org/TR/geometry-1/#rectangle"},
 "fabd3046": {"dfnID":"fabd3046","dfnText":"duration","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-performanceentry-duration"}],"title":"5.1. Report the layout shift"}],"url":"https://w3c.github.io/performance-timeline/#dom-performanceentry-duration"},
-"fdd2dd4e": {"dfnID":"fdd2dd4e","dfnText":"DOMRectReadOnly","external":true,"refSections":[{"refs":[{"id":"ref-for-domrectreadonly"},{"id":"ref-for-domrectreadonly\u2460"}],"title":"4. LayoutShiftAttribution interface"}],"url":"https://drafts.fxtf.org/geometry-1/#domrectreadonly"},
 "fe1e1c08": {"dfnID":"fe1e1c08","dfnText":"shadow-including descendants","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-shadow-including-descendant"}],"title":"2.2. Unstable Nodes"}],"url":"https://dom.spec.whatwg.org/#concept-shadow-including-descendant"},
 "ff342481": {"dfnID":"ff342481","dfnText":"get an element","external":true,"refSections":[{"refs":[{"id":"ref-for-get-an-element"},{"id":"ref-for-get-an-element\u2460"},{"id":"ref-for-get-an-element\u2461"},{"id":"ref-for-get-an-element\u2462"}],"title":"4. LayoutShiftAttribution interface"}],"url":"https://wicg.github.io/element-timing/#get-an-element"},
 "has-not-shifted": {"dfnID":"has-not-shifted","dfnText":"has not shifted","external":false,"refSections":[{"refs":[{"id":"ref-for-has-not-shifted"}],"title":"2.2. Unstable Nodes"}],"url":"#has-not-shifted"},
@@ -2805,7 +2805,7 @@ let refsData = {
 "https://drafts.csswg.org/css-transforms-1/#transformed-element": {"displayText":"transformed element","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-transforms","spec":"css-transforms-1","status":"current","text":"transformed element","type":"dfn","url":"https://drafts.csswg.org/css-transforms-1/#transformed-element"},
 "https://drafts.csswg.org/css-writing-modes-4/#block-axis": {"displayText":"block axis","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"block axis","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#block-axis"},
 "https://drafts.csswg.org/css-writing-modes-4/#flow-relative": {"displayText":"flow-relative","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"flow-relative","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#flow-relative"},
-"https://drafts.fxtf.org/geometry-1/#domrectreadonly": {"displayText":"DOMRectReadOnly","export":true,"for_":[],"level":"1","normative":true,"shortname":"geometry","spec":"geometry-1","status":"current","text":"DOMRectReadOnly","type":"interface","url":"https://drafts.fxtf.org/geometry-1/#domrectreadonly"},
+"https://drafts.csswg.org/geometry-1/#domrectreadonly": {"displayText":"DOMRectReadOnly","export":true,"for_":[],"level":"1","normative":true,"shortname":"geometry","spec":"geometry-1","status":"current","text":"DOMRectReadOnly","type":"interface","url":"https://drafts.csswg.org/geometry-1/#domrectreadonly"},
 "https://html.spec.whatwg.org/multipage#event-change": {"displayText":"change event","export":true,"for_":[],"level":"1","normative":true,"shortname":"layout-instability","spec":"","status":"anchor-block","text":"change event","type":"dfn","url":"https://html.spec.whatwg.org/multipage#event-change"},
 "https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context": {"displayText":"top-level browsing context","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"top-level browsing context","type":"dfn","url":"https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context"},
 "https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global": {"displayText":"relevant global object","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"relevant global object","type":"dfn","url":"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global"},

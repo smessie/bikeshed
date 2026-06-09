@@ -1,3 +1,15 @@
+"knownServiceUuids"
+"knownServiceUuids"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatepreconnectedperipheralparameters-knownserviceuuids
+
+1
+bluetooth.SimulatePreconnectedPeripheralParameters
+-
 known
 known
 dfn
@@ -45,7 +57,19 @@ https://www.w3.org/TR/encrypted-media-2/#dfn-known
 knee
 knee
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-knee
+1
+1
+DynamicsCompressorNode
+-
+knee
+knee
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -57,7 +81,19 @@ DynamicsCompressorNode
 knee
 knee
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-dynamicscompressoroptions-knee
+1
+1
+DynamicsCompressorOptions
+-
+knee
+knee
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -69,11 +105,11 @@ DynamicsCompressorOptions
 knee
 knee
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-dynamicscompressornode-knee
+https://www.w3.org/TR/webaudio-1.0/#dom-dynamicscompressornode-knee
 1
 1
 DynamicsCompressorNode
@@ -81,11 +117,35 @@ DynamicsCompressorNode
 knee
 knee
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-dynamicscompressoroptions-knee
+https://www.w3.org/TR/webaudio-1.0/#dom-dynamicscompressoroptions-knee
+1
+1
+DynamicsCompressorOptions
+-
+knee
+knee
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-dynamicscompressornode-knee
+1
+1
+DynamicsCompressorNode
+-
+knee
+knee
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-dynamicscompressoroptions-knee
 1
 1
 DynamicsCompressorOptions
@@ -138,50 +198,6 @@ https://www.w3.org/TR/css-text-4/#writing-system-known
 1
 writing-system
 -
-known attributes
-known attributes
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#known-attributes
-
-1
--
-known concept
-known concept
-dfn
-mathml4
-mathml
-4
-current
-https://w3c.github.io/mathml/#intent_known_concept
-
-1
--
-known concept
-known concept
-dfn
-mathml4
-mathml
-4
-snapshot
-https://www.w3.org/TR/mathml4/#intent_known_concept
-
-1
--
-known elements
-known elements
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#known-elements
-
-1
--
 known prompt handlers
 known prompt handlers
 dfn
@@ -203,6 +219,42 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-known-prompt-handlers
 
 1
+-
+known subscription ids
+known subscription ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#event-known-subscription-ids
+
+1
+event
+-
+known subscription ids
+known subscription ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#event-known-subscription-ids
+
+1
+event
+-
+knownServiceUuids
+knownServiceUuids
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatepreconnectedperipheralparameters-knownserviceuuids
+
+1
+bluetooth.SimulatePreconnectedPeripheralParameters
 -
 knownSources
 knownSources

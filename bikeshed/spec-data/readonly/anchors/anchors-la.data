@@ -1,3 +1,99 @@
+"landscape"
+"landscape"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextprintparameters-orientation-landscape
+
+1
+browsingContext.PrintParameters/orientation
+-
+"landscape"
+"landscape"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationscreenorientationnatural-landscape
+
+1
+emulation.ScreenOrientationNatural
+-
+"landscape"
+"landscape"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextprintparameters-orientation-landscape
+
+1
+browsingContext.PrintParameters/orientation
+-
+"landscape"
+"landscape"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationscreenorientationnatural-landscape
+
+1
+emulation.ScreenOrientationNatural
+-
+"landscape-primary"
+"landscape-primary"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-primary
+
+1
+emulation.ScreenOrientationType
+-
+"landscape-primary"
+"landscape-primary"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-primary
+
+1
+emulation.ScreenOrientationType
+-
+"landscape-secondary"
+"landscape-secondary"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-secondary
+
+1
+emulation.ScreenOrientationType
+-
+"landscape-secondary"
+"landscape-secondary"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-secondary
+
+1
+emulation.ScreenOrientationType
+-
 "language-not-supported"
 "language-not-supported"
 enum-value
@@ -5,7 +101,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechrecognitionerrorcode-language-not-supported
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionerrorcode-language-not-supported
 1
 1
 SpeechRecognitionErrorCode
@@ -17,29 +113,77 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesiserrorcode-language-unavailable
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesiserrorcode-language-unavailable
 1
 1
 SpeechSynthesisErrorCode
 -
+"latitude"
+"latitude"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-latitude
+
+1
+emulation.GeolocationCoordinates
+-
+"latitude"
+"latitude"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-latitude
+
+1
+emulation.GeolocationCoordinates
+-
 "lax"
 "lax"
 enum-value
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#dom-cookiesamesite-lax
+https://cookiestore.spec.whatwg.org/#dom-cookiesamesite-lax
 1
 1
 CookieSameSite
 -
+"lax"
+"lax"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networksamesite-lax
+
+1
+network.SameSite
+-
+"lax"
+"lax"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networksamesite-lax
+
+1
+network.SameSite
+-
 :lang
 :lang
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-lang
 1
@@ -61,20 +205,9 @@ https://drafts.csswg.org/selectors-3/#sel-lang
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x41
-1
-1
--
-:lang
-:lang
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x41
+https://www.w3.org/TR/CSS2/selector.html#x41
 1
 1
 -
@@ -92,9 +225,9 @@ https://www.w3.org/TR/selectors-3/#sel-lang
 :lang()
 :lang()
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-lang
 1
@@ -388,6 +521,61 @@ https://html.spec.whatwg.org/multipage/interactive-elements.html#command-facet-l
 
 1
 -
+label resolution
+Label Resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-label-resolution
+
+
+-
+label resolution
+Label Resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+snapshot
+https://www.w3.org/TR/shacl12-ui/#dfn-label-resolution
+
+
+-
+labelidentifier
+LabelIdentifier
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-LabelIdentifier
+
+1
+-
+labelleditem
+LabelledItem
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-LabelledItem
+
+1
+-
+labelledstatement
+LabelledStatement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-LabelledStatement
+
+1
+-
 landmark
 landmark
 dfn
@@ -407,17 +595,6 @@ wai-aria
 1
 current
 https://w3c.github.io/aria/#dfn-landmark
-
-
--
-landmark
-landmark
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-landmark
 
 
 -
@@ -497,6 +674,28 @@ current
 https://tc39.es/ecma402/#language-priority-list
 1
 1
+-
+language resolution
+Language Resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-language-resolution
+
+
+-
+language resolution
+Language Resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+snapshot
+https://www.w3.org/TR/shacl12-ui/#dfn-language-resolution
+
+
 -
 language metadata
 language metadata
@@ -652,6 +851,259 @@ https://www.w3.org/TR/i18n-glossary/#dfn-language-tag-extension
 1
 
 -
+language tags
+language tags
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-language-tag
+
+1
+-
+language tags
+language tags
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-language-tag
+
+1
+-
+LanguageDetectionResult
+LanguageDetectionResult
+dictionary
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dictdef-languagedetectionresult
+1
+1
+-
+LanguageDetector
+LanguageDetector
+interface
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#languagedetector
+1
+1
+-
+LanguageDetectorCreateCoreOptions
+LanguageDetectorCreateCoreOptions
+dictionary
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dictdef-languagedetectorcreatecoreoptions
+1
+1
+-
+LanguageDetectorCreateOptions
+LanguageDetectorCreateOptions
+dictionary
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dictdef-languagedetectorcreateoptions
+1
+1
+-
+LanguageDetectorDetectOptions
+LanguageDetectorDetectOptions
+dictionary
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dictdef-languagedetectordetectoptions
+1
+1
+-
+LanguageModel
+LanguageModel
+interface
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#languagemodel
+1
+1
+-
+LanguageModelAppendOptions
+LanguageModelAppendOptions
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelappendoptions
+1
+1
+-
+LanguageModelCloneOptions
+LanguageModelCloneOptions
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelcloneoptions
+1
+1
+-
+LanguageModelCreateCoreOptions
+LanguageModelCreateCoreOptions
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelcreatecoreoptions
+1
+1
+-
+LanguageModelCreateOptions
+LanguageModelCreateOptions
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelcreateoptions
+1
+1
+-
+LanguageModelExpected
+LanguageModelExpected
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelexpected
+1
+1
+-
+LanguageModelMessage
+LanguageModelMessage
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelmessage
+1
+1
+-
+LanguageModelMessageContent
+LanguageModelMessageContent
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelmessagecontent
+1
+1
+-
+LanguageModelMessageRole
+LanguageModelMessageRole
+enum
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#enumdef-languagemodelmessagerole
+1
+1
+-
+LanguageModelMessageType
+LanguageModelMessageType
+enum
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#enumdef-languagemodelmessagetype
+1
+1
+-
+LanguageModelMessageValue
+LanguageModelMessageValue
+typedef
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#typedefdef-languagemodelmessagevalue
+1
+1
+-
+LanguageModelParams
+LanguageModelParams
+interface
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#languagemodelparams
+1
+1
+-
+LanguageModelPrompt
+LanguageModelPrompt
+typedef
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#typedefdef-languagemodelprompt
+1
+1
+-
+LanguageModelPromptOptions
+LanguageModelPromptOptions
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodelpromptoptions
+1
+1
+-
+LanguageModelTool
+LanguageModelTool
+dictionary
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dictdef-languagemodeltool
+1
+1
+-
+LanguageModelToolFunction
+LanguageModelToolFunction
+callback
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#callbackdef-languagemodeltoolfunction
+1
+1
+-
 LargeBlobSupport
 LargeBlobSupport
 enum
@@ -696,6 +1148,17 @@ https://www.w3.org/TR/largest-contentful-paint/#largestcontentfulpaint
 1
 1
 -
+last call
+Last Call
+dfn
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#last-call
+
+1
+-
 last call for review of proposed additions
 Last Call for Review of Proposed Additions
 dfn
@@ -703,7 +1166,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#last-call-for-review-of-proposed-additions
+https://www.w3.org/policies/process/#last-call-for-review-of-proposed-additions
 
 1
 -
@@ -714,7 +1177,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#last-call-review
+https://www.w3.org/policies/process/#last-call-review
 
 1
 -
@@ -725,7 +1188,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#last-call-for-review-of-proposed-corrections
+https://www.w3.org/policies/process/#last-call-for-review-of-proposed-corrections
 
 1
 -
@@ -736,7 +1199,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#last-call-for-review-of-proposed-corrections-and-additions
+https://www.w3.org/policies/process/#last-call-for-review-of-proposed-corrections-and-additions
 
 1
 -
@@ -1210,6 +1673,30 @@ https://www.w3.org/TR/webrtc/#dfn-lastcreatedoffer
 1
 RTCPeerConnection
 -
+[[LastNotifiedInvalidReason]]
+[[LastNotifiedInvalidReason]]
+attribute
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#dom-activationblockersmixin-lastnotifiedinvalidreason-slot
+1
+1
+ActivationBlockersMixin
+-
+[[LastNotifiedValidState]]
+[[LastNotifiedValidState]]
+attribute
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#dom-activationblockersmixin-lastnotifiedvalidstate-slot
+1
+1
+ActivationBlockersMixin
+-
 [[LastRecordMap]]
 [[LastRecordMap]]
 attribute
@@ -1354,6 +1841,18 @@ https://www.w3.org/TR/webrtc/#dfn-laststablestatereceivertransport
 1
 RTCRtpReceiver
 -
+[[LastStableStateSctpTransport]]
+[[LastStableStateSctpTransport]]
+attribute
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-laststablestatesctptransport
+1
+1
+RTCPeerConnection
+-
 [[LastStableStateSenderTransport]]
 [[LastStableStateSenderTransport]]
 attribute
@@ -1377,6 +1876,30 @@ https://www.w3.org/TR/webrtc/#dfn-laststablestatesendertransport
 
 1
 RTCRtpSender
+-
+[[lastEnqueuedFrameCounter]]
+[[lastEnqueuedFrameCounter]]
+attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-lastenqueuedframecounter-slot
+1
+1
+RTCRtpScriptTransformer
+-
+[[lastEnqueuedFrameCounter]]
+[[lastEnqueuedFrameCounter]]
+attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-lastenqueuedframecounter-slot
+1
+1
+RTCRtpScriptTransformer
 -
 [[lastEventFiredAt]]
 [[lastEventFiredAt]]
@@ -1425,6 +1948,66 @@ https://www.w3.org/TR/webgpu/#dom-gpucanvascontext-lastpresentedimage-slot
 1
 1
 GPUCanvasContext
+-
+[[lastReceivedFrameCounter]]
+[[lastReceivedFrameCounter]]
+attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-lastreceivedframecounter-slot
+1
+1
+RTCRtpScriptTransformer
+-
+[[lastReceivedFrameCounter]]
+[[lastReceivedFrameCounter]]
+attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-lastreceivedframecounter-slot
+1
+1
+RTCRtpScriptTransformer
+-
+[[latency reset time]]
+[[latency reset time]]
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-latency-reset-time-slot
+1
+1
+AudioPlaybackStats
+-
+[[latency reset time]]
+[[latency reset time]]
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-latency-reset-time-slot
+1
+1
+AudioPlaybackStats
+-
+[[latency reset time]]
+[[latency reset time]]
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dfn-latency-reset-time
+1
+
+AudioPlayoutStats
 -
 [[layoutChildMap]]
 [[layoutChildMap]]
@@ -2026,9 +2609,43 @@ PaymentShippingOption
 label
 label
 dict-member
-webcryptoapi
-webcryptoapi
+secure-payment-confirmation
+secure-payment-confirmation
 1
+current
+https://w3c.github.io/secure-payment-confirmation/#dom-paymententitylogo-label
+1
+1
+PaymentEntityLogo
+-
+label
+label
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-labels
+
+
+-
+label
+label
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-label
+
+1
+-
+label
+label
+dict-member
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-RsaOaepParams-label
 1
@@ -2058,6 +2675,18 @@ https://w3c.github.io/webrtc-stats/#dom-rtcdatachannelstats-label
 1
 1
 RTCDataChannelStats
+-
+label
+label
+argument
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial-label-context-outputlength-label
+1
+1
+WebTransport/exportKeyingMaterial(label, context, outputLength)
 -
 label
 label
@@ -2110,25 +2739,13 @@ operator
 label
 label
 dfn
-prefetch
-prefetch
-1
-current
-https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-label
-1
-1
-prefetch record
--
-label
-label
-dfn
-webcryptoapi
-webcryptoapi
+wcag22
+wcag
 1
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaOaepParams-label
+https://www.w3.org/TR/WCAG22/#dfn-labels
 
-1
+
 -
 label
 label
@@ -2227,6 +2844,41 @@ PaymentShippingOption
 -
 label
 label
+dict-member
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#dom-paymententitylogo-label
+1
+1
+PaymentEntityLogo
+-
+label
+label
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-label
+
+1
+-
+label
+label
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-RsaOaepParams-label
+1
+1
+RsaOaepParams
+-
+label
+label
 attribute
 webgpu
 webgpu
@@ -2299,6 +2951,19 @@ RTCDataChannel
 -
 label
 label
+argument
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransport-exportkeyingmaterial-label-context-label
+1
+1
+WebTransport/exportKeyingMaterial(label, context)
+WebTransport/exportKeyingMaterial(label)
+-
+label
+label
 attribute
 window-management
 window-management
@@ -2320,6 +2985,84 @@ https://www.w3.org/TR/window-management/#screen-label
 
 1
 screen
+-
+label resolution
+label resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-label-resolution
+
+
+-
+label resolution
+label resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+snapshot
+https://www.w3.org/TR/shacl12-ui/#dfn-label-resolution
+
+
+-
+label template
+label template
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-label-template
+
+1
+-
+label template
+label template
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-label-template
+
+1
+-
+label templates
+label templates
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-label-template
+
+1
+-
+label templates
+label templates
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-label-template
+
+1
+-
+label_hints
+label_hints
+dict-member
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identityprovideraccount-label_hints
+1
+1
+IdentityProviderAccount
 -
 labelable elements
 labelable elements
@@ -2373,6 +3116,50 @@ HTMLOutputElement
 HTMLProgressElement
 HTMLMeterElement
 -
+labels
+labels
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-labels
+
+
+-
+labels
+labels
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-labels
+
+
+-
+labor
+labor
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-labor
+1
+
+-
+labor
+labor
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-labor
+
+
+-
 landing page
 landing page
 dfn
@@ -2387,33 +3174,11 @@ https://wicg.github.io/webusb/#landing-page
 landmark
 landmark
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-landmark
-
-
--
-landmark
-landmark
-dfn
 wai-aria-1.2
 wai-aria
 1
 snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-landmark
-
-
--
-landmarks
-landmarks
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-landmark
 
 
 -
@@ -2513,6 +3278,30 @@ OrientationLockType
 -
 landscape
 landscape
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextprintparameters-orientation-landscape
+
+1
+browsingContext.PrintParameters/orientation
+-
+landscape
+landscape
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationscreenorientationnatural-landscape
+
+1
+emulation.ScreenOrientationNatural
+-
+landscape
+landscape
 value
 css-conditional-5
 css-conditional
@@ -2594,6 +3383,30 @@ https://www.w3.org/TR/screen-orientation/#dom-orientationlocktype-landscape
 1
 OrientationLockType
 -
+landscape
+landscape
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextprintparameters-orientation-landscape
+
+1
+browsingContext.PrintParameters/orientation
+-
+landscape
+landscape
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationscreenorientationnatural-landscape
+
+1
+emulation.ScreenOrientationNatural
+-
 landscape orientation
 landscape orientation
 dfn
@@ -2614,17 +3427,6 @@ css-page
 snapshot
 https://www.w3.org/TR/css-page-3/#landscape
 1
-1
--
-landscape-primary
-landscape-primary
-dfn
-screen-orientation
-screen-orientation
-1
-current
-https://w3c.github.io/screen-orientation/#dfn-primary
-
 1
 -
 landscape-primary
@@ -2653,14 +3455,15 @@ OrientationType
 -
 landscape-primary
 landscape-primary
-dfn
-screen-orientation
-screen-orientation
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/screen-orientation/#dfn-primary
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-primary
 
 1
+emulation.ScreenOrientationType
 -
 landscape-primary
 landscape-primary
@@ -2686,16 +3489,17 @@ https://www.w3.org/TR/screen-orientation/#dom-orientationtype-landscape-primary
 1
 OrientationType
 -
-landscape-secondary
-landscape-secondary
-dfn
-screen-orientation
-screen-orientation
+landscape-primary
+landscape-primary
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://w3c.github.io/screen-orientation/#dfn-secondary
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-primary
 
 1
+emulation.ScreenOrientationType
 -
 landscape-secondary
 landscape-secondary
@@ -2723,14 +3527,15 @@ OrientationType
 -
 landscape-secondary
 landscape-secondary
-dfn
-screen-orientation
-screen-orientation
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/screen-orientation/#dfn-secondary
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-secondary
 
 1
+emulation.ScreenOrientationType
 -
 landscape-secondary
 landscape-secondary
@@ -2755,6 +3560,30 @@ https://www.w3.org/TR/screen-orientation/#dom-orientationtype-landscape-secondar
 1
 1
 OrientationType
+-
+landscape-secondary
+landscape-secondary
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationscreenorientationtype-landscape-secondary
+
+1
+emulation.ScreenOrientationType
+-
+lang
+lang
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-lang
+1
+1
+CanvasTextDrawingStyles
 -
 lang
 lang
@@ -2817,15 +3646,27 @@ NotificationOptions
 -
 lang
 lang
-element-attr
-svg2
-svg
-2
+attribute
+web-nfc
+web-nfc
+1
 current
-https://svgwg.org/svg2-draft/struct.html#LangAttribute
+https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-lang
 1
 1
-core-attributes
+NDEFRecord
+-
+lang
+lang
+dict-member
+web-nfc
+web-nfc
+1
+current
+https://w3c-cg.github.io/web-nfc/#dom-ndefrecordinit-lang
+1
+1
+NDEFRecordInit
 -
 lang
 lang
@@ -2888,27 +3729,15 @@ https://w3c.github.io/miniapp-manifest/#dfn-lang
 -
 lang
 lang
-attribute
-web-nfc
-web-nfc
-1
+element-attr
+svg2
+svg
+2
 current
-https://w3c.github.io/web-nfc/#dom-ndefrecord-lang
+https://w3c.github.io/svgwg/svg2-draft/struct.html#LangAttribute
 1
 1
-NDEFRecord
--
-lang
-lang
-dict-member
-web-nfc
-web-nfc
-1
-current
-https://w3c.github.io/web-nfc/#dom-ndefrecordinit-lang
-1
-1
-NDEFRecordInit
+core-attributes
 -
 lang
 lang
@@ -2917,7 +3746,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechrecognition-lang
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-lang
 1
 1
 SpeechRecognition
@@ -2929,7 +3758,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-lang
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisutterance-lang
 1
 1
 SpeechSynthesisUtterance
@@ -2941,7 +3770,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-lang
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisvoice-lang
 1
 1
 SpeechSynthesisVoice
@@ -3022,21 +3851,33 @@ lang (pseudo-class)
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x41
+2
+snapshot
+https://www.w3.org/TR/CSS2/selector.html#x41
 1
 1
 -
-lang (pseudo-class)
-lang (pseudo-class)
+langs
+langs
+dict-member
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-langs
+1
+1
+SpeechRecognitionOptions
+-
+language
+language
 dfn
-css2
-css
+html
+html
 1
-snapshot
-https://www.w3.org/TR/CSS21/selector.html#x41
-1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#concept-canvastextdrawingstyles-language
+
 1
 -
 language
@@ -3187,6 +4028,39 @@ https://www.w3.org/TR/pub-manifest/#dfn-language
 
 1
 -
+language arc
+language arc
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#language-arc
+
+1
+-
+language availabilities partition
+language availabilities partition
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#language-availabilities-partition
+
+1
+-
+language availabilities triple
+language availabilities triple
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#language-availabilities-triple
+
+1
+-
 language extension
 language extension
 dfn
@@ -3208,17 +4082,6 @@ snapshot
 https://www.w3.org/TR/WGSL/#language-extension
 
 1
--
-language map
-language map
-dfn
-json-ld11
-json-ld
-1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-language-map
-
-
 -
 language map
 language map
@@ -3275,6 +4138,28 @@ https://www.w3.org/TR/json-ld11-api/#dfn-language-mapping
 
 1
 -
+language model content type availability
+language model content type availability
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#language-model-content-type-availability
+
+1
+-
+language model non-options availability
+language model non-options availability
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#language-model-non-options-availability
+
+1
+-
 language range
 language range
 dfn
@@ -3297,6 +4182,50 @@ https://www.w3.org/TR/selectors-4/#language-range
 
 1
 -
+language resolution
+language resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-language-resolution
+
+
+-
+language resolution
+language resolution
+dfn
+shacl12-ui
+shacl-ui
+1
+snapshot
+https://www.w3.org/TR/shacl12-ui/#dfn-language-resolution
+
+
+-
+language tag
+language tag
+dfn
+web-nfc
+web-nfc
+1
+current
+https://w3c-cg.github.io/web-nfc/#dfn-language-tag
+
+1
+-
+language tag
+language tag
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-language-tag
+
+1
+-
 language tag
 language tag
 dfn
@@ -3316,18 +4245,7 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-language-tag
-
 1
--
-language tag
-language tag
-dfn
-web-nfc
-web-nfc
-1
-current
-https://w3c.github.io/web-nfc/#dfn-language-tag
-
 1
 -
 language tag
@@ -3349,7 +4267,51 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-language-tag
+1
+1
+-
+language tag
+language tag
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-language-tag
 
+1
+-
+language tag set completeness rules
+language tag set completeness rules
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#language-tag-set-completeness-rules
+
+1
+-
+language-detector
+language-detector
+permission
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#permissiondef-language-detector
+1
+1
+-
+language-model
+language-model
+permission
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#permissiondef-language-model
+1
 1
 -
 language-range
@@ -3382,7 +4344,7 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-language-tagged-string
-
+1
 1
 -
 language-tagged string
@@ -3393,8 +4355,56 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-language-tagged-string
+1
+1
+-
+language_extension_list
+language_extension_list
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#syntax-language_extension_list
 
 1
+syntax
+-
+language_extension_list
+language_extension_list
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#syntax-language_extension_list
+
+1
+syntax
+-
+language_extension_name
+language_extension_name
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#syntax-language_extension_name
+
+1
+syntax
+-
+language_extension_name
+language_extension_name
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#syntax-language_extension_name
+
+1
+syntax
 -
 languagechange
 languagechange
@@ -3424,6 +4434,18 @@ NavigatorLanguage
 languages
 languages
 dict-member
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelexpected-languages
+1
+1
+LanguageModelExpected
+-
+languages
+languages
+dict-member
 handwriting-recognition
 handwriting-recognition
 1
@@ -3432,6 +4454,30 @@ https://wicg.github.io/handwriting-recognition/#dom-handwritingmodelconstraint-l
 1
 1
 HandwritingModelConstraint
+-
+languages
+languages
+dict-member
+text-detection-api
+text-detection-api
+1
+current
+https://wicg.github.io/shape-detection-api/text.html#dom-textdetectorcreateoptions-languages
+1
+1
+TextDetectorCreateOptions
+-
+languages
+languages
+dict-member
+text-detection-api
+text-detection-api
+1
+current
+https://wicg.github.io/shape-detection-api/text.html#dom-textdetectoroptions-languages
+1
+1
+TextDetectorOptions
 -
 lao
 lao
@@ -3460,11 +4506,11 @@ https://www.w3.org/TR/css-counter-styles-3/#valdef-counter-style-name-lao
 large
 large
 value
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#valdef-shape-large
+https://drafts.csswg.org/css-shapes-1/#valdef-shape-large
 1
 1
 shape()
@@ -3473,14 +4519,49 @@ arc
 large
 large
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-font-size-large
 1
 1
 font-size
+-
+large
+large
+value
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#valdef-shape-large
+1
+1
+shape()
+arc
+-
+large scale
+large scale
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-large-scale
+
+
+-
+large scale
+large scale
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-large-scale
+
+
 -
 large viewport size
 large viewport size
@@ -3529,24 +4610,68 @@ https://www.w3.org/TR/css-values-4/#large-viewport-percentage-units
 large-blob array
 large-blob array
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#large-blob-array
 
 1
 -
+large-blob array
+large-blob array
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#large-blob-array
+
+1
+-
 large-blob map
 large-blob map
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#large-blob-map
 
 1
+-
+large-blob map
+large-blob map
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#large-blob-map
+
+1
+-
+large-scale
+large-scale
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-large-scale
+
+
+-
+large-scale
+large-scale
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-large-scale
+
+
 -
 largeBlob
 largeBlob
@@ -3567,10 +4692,34 @@ webauthn-3
 webauthn
 3
 current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientinputsjson-largeblob
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+largeBlob
+largeBlob
+dict-member
+webauthn-3
+webauthn
+3
+current
 https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputs-largeblob
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+largeBlob
+largeBlob
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputsjson-largeblob
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 largeblob
 largeBlob
@@ -3602,10 +4751,34 @@ webauthn-3
 webauthn
 3
 snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputsjson-largeblob
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+largeBlob
+largeBlob
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
 https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-largeblob
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+largeBlob
+largeBlob
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputsjson-largeblob
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 largeblob
 largeBlob
@@ -3621,33 +4794,67 @@ https://www.w3.org/TR/webauthn-3/#largeblob
 largeblobkey
 largeBlobKey
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#largeblobkey
 
 1
 -
+largeblobkey
+largeBlobKey
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#largeblobkey
+
+1
+-
 largeblobmapconform
 largeBlobMapConform
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#largeblobmapconform
 
 1
 -
+largeblobmapconform
+largeBlobMapConform
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#largeblobmapconform
+
+1
+-
 largeblobs
 largeBlobs
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-largeblobs
+
+1
+getInfo
+-
+largeblobs
+largeBlobs
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-largeblobs
 
 1
 getInfo
@@ -3700,6 +4907,30 @@ https://www.w3.org/TR/mathml-core/#dfn-largeop-0
 1
 mo
 -
+largest contentful paint
+largest contentful paint
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontentfulpaint-largest-contentful-paint
+
+1
+InteractionContentfulPaint
+-
+largest contentful paint
+largest contentful paint
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-largest-contentful-paint
+
+1
+InteractionContext
+-
 largest contentful paint candidate
 largest contentful paint candidate
 dfn
@@ -3719,6 +4950,28 @@ largest-contentful-paint
 1
 snapshot
 https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-candidate
+
+1
+-
+largest contentful paint height
+largest contentful paint height
+dfn
+largest-contentful-paint
+largest-contentful-paint
+1
+current
+https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-height
+
+1
+-
+largest contentful paint height
+largest contentful paint height
+dfn
+largest-contentful-paint
+largest-contentful-paint
+1
+snapshot
+https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-height
 
 1
 -
@@ -3743,6 +4996,40 @@ snapshot
 https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-size
 
 1
+-
+largest contentful paint width
+largest contentful paint width
+dfn
+largest-contentful-paint
+largest-contentful-paint
+1
+current
+https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-width
+
+1
+-
+largest contentful paint width
+largest contentful paint width
+dfn
+largest-contentful-paint
+largest-contentful-paint
+1
+snapshot
+https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-width
+
+1
+-
+largestContentfulPaint
+largestContentfulPaint
+attribute
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-largestcontentfulpaint
+1
+1
+InteractionContentfulPaint
 -
 last
 last
@@ -3910,6 +5197,18 @@ https://www.w3.org/TR/cssom-1/#last-css-style-sheet-set-name
 1
 1
 -
+last url value
+last URL value
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-last-url-value
+
+1
+InteractionContext
+-
 last activation timestamp
 last activation timestamp
 dfn
@@ -3999,6 +5298,28 @@ https://www.w3.org/TR/css-align-3/#last-baseline-set
 1
 1
 -
+last browsing history clear
+last browsing history clear
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#last-browsing-history-clear
+
+1
+-
+last browsing history clear
+last browsing history clear
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#last-browsing-history-clear
+
+1
+-
 last child
 last child
 dfn
@@ -4019,6 +5340,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#cross-axis-baseline
+1
+1
+-
+last cross-axis baseline set
+last cross-axis baseline set
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-axis-baseline
 1
 1
 -
@@ -4121,18 +5453,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#last-idle-period-start-ti
 
 1
 -
-last interaction task id
-last interaction task id
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#document-last-interaction-task-id
-
-1
-document
--
 last line
 last line
 dfn
@@ -4152,6 +5472,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#main-axis-baseline
+1
+1
+-
+last main-axis baseline set
+last main-axis baseline set
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-axis-baseline
 1
 1
 -
@@ -4191,44 +5522,44 @@ https://www.w3.org/TR/pub-manifest/#dfn-last-modification-date
 last mouse dom path
 last mouse DOM path
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#last-mouse-dom-path
+https://w3c.github.io/pointerevents/#dfn-last-mouse-dom-path
 
 1
 -
 last mouse dom path
 last mouse DOM path
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#last-mouse-dom-path
+https://www.w3.org/TR/pointerevents4/#dfn-last-mouse-dom-path
 
 1
 -
 last mouse element
 last mouse element
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#last-mouse-element
+https://w3c.github.io/pointerevents/#dfn-last-mouse-element
 
 1
 -
 last mouse element
 last mouse element
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#last-mouse-element
+https://www.w3.org/TR/pointerevents4/#dfn-last-mouse-element
 
 1
 -
@@ -4261,7 +5592,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-last-performance-entry-id
+https://w3c.github.io/performance-timeline/#last-performance-entry-id
 
 1
 -
@@ -4421,30 +5752,6 @@ https://www.w3.org/TR/service-workers/#dfn-last-update-check-time
 1
 service worker registration
 -
-last updated
-last updated
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#value-struct-last-updated
-
-1
-value struct
--
-last updated
-last updated
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-last-updated
-
-1
-interest group
--
 last usable css region
 last usable CSS region
 dfn
@@ -4490,18 +5797,6 @@ https://wicg.github.io/observable/#dom-observable-last
 1
 1
 Observable
--
-last-access-time
-last-access-time
-dfn
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#cookie-last-access-time
-
-1
-cookie
 -
 last-baseline
 last-baseline
@@ -4647,7 +5942,7 @@ webxr-plane-detection
 webxr-plane-detection
 1
 current
-https://immersive-web.github.io/real-world-geometry/plane-detection.html#dom-xrplane-lastchangedtime
+https://immersive-web.github.io/plane-detection/#dom-xrplane-lastchangedtime
 1
 1
 XRPlane
@@ -4928,6 +6223,30 @@ https://www.w3.org/TR/FileAPI/#dfn-lastModified
 1
 File
 -
+lastnewpaintedareaelement
+lastNewPaintedAreaElement
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#container-timing-record-lastnewpaintedareaelement
+
+1
+Container Timing Record
+-
+lastnewpaintedareapainttiminginfo
+lastNewPaintedAreaPaintTimingInfo
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#container-timing-record-lastnewpaintedareapainttiminginfo
+
+1
+Container Timing Record
+-
 lastPacketReceivedTimestamp
 lastPacketReceivedTimestamp
 dict-member
@@ -4999,6 +6318,30 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcicecandidatepairstats-lastpacketsentt
 1
 1
 RTCIceCandidatePairStats
+-
+lastpaintedelement
+lastPaintedElement
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#containertiming-lastpaintedelement
+
+1
+ContainerTiming
+-
+lastPaintedElement
+lastPaintedElement
+attribute
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#dom-performancecontainertiming-lastpaintedelement
+1
+1
+PerformanceContainerTiming
 -
 lastReportedSizes
 lastReportedSizes
@@ -5154,22 +6497,10 @@ https://www.w3.org/TR/mediacapture-streams/#dom-mediatracksupportedconstraints-l
 1
 MediaTrackSupportedConstraints
 -
-latency threshold
-latency threshold
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#real-time-reporting-contribution-latency-threshold
-
-1
-real time reporting contribution
--
 latencyHint
 latencyHint
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5181,11 +6512,35 @@ AudioContextOptions
 latencyHint
 latencyHint
 dict-member
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontextoptions-latencyhint
+1
+1
+AudioContextOptions
+-
+latencyHint
+latencyHint
+dict-member
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontextoptions-latencyhint
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontextoptions-latencyhint
+1
+1
+AudioContextOptions
+-
+latencyHint
+latencyHint
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontextoptions-latencyhint
 1
 1
 AudioContextOptions
@@ -5214,18 +6569,6 @@ https://www.w3.org/TR/webcodecs/#dom-videoencoderconfig-latencymode
 1
 VideoEncoderConfig
 -
-latencyThreshold
-latencyThreshold
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-realtimecontribution-latencythreshold
-1
-1
-RealTimeContribution
--
 latest entry
 latest entry
 dfn
@@ -5234,28 +6577,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#latest-entry
-
-1
--
-latest geolocation reading
-latest geolocation reading
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#latest-geolocation-reading
-
-1
--
-latest geolocation reading
-latest geolocation reading
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#latest-geolocation-reading
 
 1
 -
@@ -5308,30 +6629,6 @@ pressure source
 latitude
 latitude
 attribute
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-latitude
-1
-1
-GeolocationSensor
--
-latitude
-latitude
-dict-member
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensorreading-latitude
-1
-1
-GeolocationSensorReading
--
-latitude
-latitude
-attribute
 geolocation
 geolocation
 1
@@ -5343,27 +6640,27 @@ GeolocationCoordinates
 -
 latitude
 latitude
-attribute
-geolocation-sensor
-geolocation-sensor
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-latitude
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-latitude
+
 1
-1
-GeolocationSensor
+emulation.GeolocationCoordinates
 -
 latitude
 latitude
-dict-member
-geolocation-sensor
-geolocation-sensor
+attribute
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensorreading-latitude
+current
+https://w3c.github.io/webdriver-bidi/#dom-geolocation-override-latitude
 1
 1
-GeolocationSensorReading
+geolocation override
 -
 latitude
 latitude
@@ -5376,6 +6673,30 @@ https://www.w3.org/TR/geolocation/#dom-geolocationcoordinates-latitude
 1
 1
 GeolocationCoordinates
+-
+latitude
+latitude
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-latitude
+
+1
+emulation.GeolocationCoordinates
+-
+latitude
+latitude
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-geolocation-override-latitude
+1
+1
+geolocation override
 -
 launch a web application
 launch a web application
@@ -5740,6 +7061,30 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lawngreen
 <color>
 <named-color>
 -
+lax
+lax
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networksamesite-lax
+
+1
+network.SameSite
+-
+lax
+lax
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networksamesite-lax
+
+1
+network.SameSite
+-
 layer
 layer
 attribute
@@ -5788,6 +7133,28 @@ https://immersive-web.github.io/layers/#dom-xrwebglbinding-getviewsubimage-layer
 1
 1
 XRWebGLBinding/getViewSubImage(layer, view)
+-
+layer
+layer
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-stratification-layer
+
+1
+-
+layer
+layer
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-stratification-layer
+
+1
 -
 layer
 layer
@@ -5989,11 +7356,11 @@ MLGraphBuilder
 layerX
 layerX
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#dom-mouseevent-layerx
+https://w3c.github.io/pointerevents/#dom-mouseevent-layerx
 1
 1
 MouseEvent
@@ -6001,11 +7368,11 @@ MouseEvent
 layerX
 layerX
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-layerx
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-layerx
 1
 1
 MouseEvent
@@ -6013,11 +7380,11 @@ MouseEvent
 layerY
 layerY
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#dom-mouseevent-layery
+https://w3c.github.io/pointerevents/#dom-mouseevent-layery
 1
 1
 MouseEvent
@@ -6025,11 +7392,11 @@ MouseEvent
 layerY
 layerY
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-layery
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-layery
 1
 1
 MouseEvent
@@ -6042,6 +7409,50 @@ av1-avif
 1
 current
 https://aomediacodec.github.io/av1-avif/#layer_size
+
+1
+-
+layered box properties
+layered box properties
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+snapshot
+https://www.w3.org/TR/css-view-transitions-2/#layered-box-properties
+
+1
+-
+layered capture geometry
+layered capture geometry
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+snapshot
+https://www.w3.org/TR/css-view-transitions-2/#layered-capture-geometry
+
+1
+-
+layered capture properties
+layered capture properties
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+snapshot
+https://www.w3.org/TR/css-view-transitions-2/#layered-capture-properties
+
+1
+-
+layered capture style
+layered capture style
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+snapshot
+https://www.w3.org/TR/css-view-transitions-2/#layered-capture-style
 
 1
 -
@@ -6622,17 +8033,6 @@ https://www.w3.org/TR/css-inline-3/#layout-bounds
 
 1
 -
-layout box
-layout box
-dfn
-cssom-view-1
-cssom-view
-1
-snapshot
-https://www.w3.org/TR/cssom-view-1/#layout-box
-
-1
--
 layout child
 layout child
 dfn
@@ -6930,11 +8330,33 @@ https://www.w3.org/TR/css-layout-api-1/#layout-valid-flag
 layout viewport
 layout viewport
 dfn
+css-viewport-1
+css-viewport
+1
+current
+https://drafts.csswg.org/css-viewport/#layout-viewport
+
+1
+-
+layout viewport
+layout viewport
+dfn
 cssom-view-1
 cssom-view
 1
 current
 https://drafts.csswg.org/cssom-view-1/#layout-viewport
+1
+1
+-
+layout viewport
+layout viewport
+dfn
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#layout-viewport
 1
 1
 -
@@ -6992,6 +8414,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#layout-internal
+1
+1
+-
+layout-internal
+layout-internal
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#layout-internal
 1
 1
 -
@@ -7123,6 +8556,8 @@ https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-loading-lazy
 1
 1
 img/loading
+audio/loading
+video/loading
 iframe/loading
 -
 lazy load intersection observer

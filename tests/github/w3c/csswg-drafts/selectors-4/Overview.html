@@ -2326,7 +2326,8 @@ Structure and Terminology</span><a class="self-link" href="#structure"></a></h3>
 Local references:
 spec:selectors-4; type:dfn; for:selector; text:subject
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:subjects
+spec:vc-data-model-2.1; type:dfn; for:/; text:subjects
+spec:vc-data-model-2.1; type:dfn; for:/; text:subjects
 spec:vc-data-model-2.0; type:dfn; for:/; text:subjects">subjects</u> of a <a data-link-type="dfn" href="#complex" id="ref-for-complex③">complex selector</a> are always
 	a subset of the elements represented by its last <span id="ref-for-compound①⑦">compound selector</span>.</p>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="list of simple selectors|list of compound selectors|list of complex selectors" id="list-of-simple-selectors">list of simple/compound/complex selectors</dfn>
@@ -2373,7 +2374,7 @@ Data Model</span><a class="self-link" href="#data-model"></a></h3>
 	it must do so while ignoring the default namespace. <a data-link-type="biblio" href="#biblio-css3namespace" title="CSS Namespaces Module Level 3">[CSS3NAMESPACE]</a></p>
    <div class="example" id="example-76c361e3"><a class="self-link" href="#example-76c361e3"></a>
 		For example, the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#element-shadow-host" id="ref-for-element-shadow-host">shadow host</a> in a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-tree" id="ref-for-concept-shadow-tree">shadow tree</a> is <a data-link-type="dfn" href="#featureless" id="ref-for-featureless②">featureless</a>,
-		and can’t be matched by <em>any</em> <a data-link-type="dfn" href="#pseudo-class" id="ref-for-pseudo-class①">pseudo-class</a> except for <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-scoping-1/#selectordef-host" id="ref-for-selectordef-host">:host</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-scoping-1/#selectordef-host-context" id="ref-for-selectordef-host-context">:host-context()</a>.)
+		and can’t be matched by <em>any</em> <a data-link-type="dfn" href="#pseudo-class" id="ref-for-pseudo-class①">pseudo-class</a> except for <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-1/#selectordef-host" id="ref-for-selectordef-host">:host</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-1/#selectordef-host-context" id="ref-for-selectordef-host-context">:host-context()</a>.)
 	</div>
    <p>Many of the selectors depend on the semantics of the <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="document-language">document language</dfn>
 	(i.e. the language and semantics of the document tree)
@@ -2603,7 +2604,7 @@ Internal Structure</span><a class="self-link" href="#pseudo-element-structure"><
 	are otherwise invalid.</p>
    <div class="example" id="example-ed91d05b"><a class="self-link" href="#example-ed91d05b"></a>
 		For example, <span class="css">::first-letter + span</span> and <span class="css">::first-letter em</span> are invalid selectors.
-		However, since <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css-scoping-1/#selectordef-shadow" id="ref-for-selectordef-shadow">::shadow</a> is defined to have internal structure,
+		However, since <span class="css">::shadow</span> is defined to have internal structure,
 		<span class="css">::shadow > p</span> is a valid selector.
 	</div>
    <p class="note" role="note"><span class="marker">Note:</span> A future specification may expand the capabilities of existing pseudo-elements,
@@ -2614,7 +2615,7 @@ Internal Structure</span><a class="self-link" href="#pseudo-element-structure"><
    <div class="example" id="example-5dddce2e">
     <a class="self-link" href="#example-5dddce2e"></a>
 		For example,
-		the <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css-scoping-1/#selectordef-content" id="ref-for-selectordef-content">::content</a> pseudo-element treats elements distributed to it as its children.
+		the <span class="css">::content</span> pseudo-element treats elements distributed to it as its children.
 		This means that, given the following fragment:
 
 		
@@ -2770,7 +2771,10 @@ The Matches-Any Pseudo-class: <a class="css" data-link-type="maybe" href="#match
 Local references:
 spec:selectors-4; type:dfn; for:selector; text:subject
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
 spec:vc-data-model-2.0; type:dfn; for:/; text:subject">subject</u> of any selector
 	within a <a class="css" data-link-type="maybe" href="#matches-pseudo" id="ref-for-matches-pseudo⑥">:is()</a> pseudo-class,
 	unless that compound selector contains
@@ -2826,7 +2830,10 @@ The Negation (Matches-None) Pseudo-class: <a class="css" data-link-type="maybe" 
 Local references:
 spec:selectors-4; type:dfn; for:selector; text:subject
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
 spec:vc-data-model-2.0; type:dfn; for:/; text:subject">subject</u> of any selector
 	within a <a class="css" data-link-type="maybe" href="#negation-pseudo" id="ref-for-negation-pseudo⑤">:not()</a> pseudo-class,
 	unless that compound selector contains
@@ -3662,7 +3669,7 @@ The Target Pseudo-class: <a class="css" data-link-type="maybe" href="#target-pse
 The Target Container Pseudo-class: <a class="css" data-link-type="maybe" href="#target-within-pseudo" id="ref-for-target-within-pseudo①">:target-within</a></span><a class="self-link" href="#the-target-within-pseudo"></a></h3>
    <p>The <dfn class="css dfn-paneled" data-dfn-type="selector" data-export id="target-within-pseudo">:target-within</dfn> pseudo-class
 	applies to elements for which the <a class="css" data-link-type="maybe" href="#target-pseudo" id="ref-for-target-pseudo③">:target</a> pseudo class applies
-	as well as to an element whose descendant in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>
+	as well as to an element whose descendant in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>
 	(including non-element nodes, such as text nodes)
 	matches the conditions for matching <a class="css" data-link-type="maybe" href="#target-within-pseudo" id="ref-for-target-within-pseudo②">:target-within</a>.</p>
    <h3 class="heading settled" data-level="8.6" id="the-scope-pseudo"><span class="secno">8.6. </span><span class="content">
@@ -3721,7 +3728,7 @@ The Pointer Hover Pseudo-class: <a class="css" data-link-type="maybe" href="#hov
 	are still conforming;
 	the selector will simply never match in such a UA.</p>
    <p>An element also matches <a class="css" data-link-type="maybe" href="#hover-pseudo" id="ref-for-hover-pseudo②">:hover</a>
-	if one of its descendants in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree①">flat tree</a>
+	if one of its descendants in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree①">flat tree</a>
 	(including non-element nodes, such as text nodes)
 	matches the above conditions.</p>
    <p>Document languages may define additional ways in which an element can match <a class="css" data-link-type="maybe" href="#hover-pseudo" id="ref-for-hover-pseudo③">:hover</a>.
@@ -3744,7 +3751,7 @@ The Activation Pseudo-class: <a class="css" data-link-type="maybe" href="#active
 	which elements can become <a class="css" data-link-type="maybe" href="#active-pseudo" id="ref-for-active-pseudo②">:active</a>.
 	For example, <a data-link-type="biblio" href="#biblio-html5" title="HTML5">[HTML5]</a> defines a <a href="https://html.spec.whatwg.org/multipage/semantics-other.html#selector-active">list of activatable elements</a>.</p>
    <p>An element also matches <a class="css" data-link-type="maybe" href="#active-pseudo" id="ref-for-active-pseudo③">:active</a>
-	if one of its descendants in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree②">flat tree</a>
+	if one of its descendants in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree②">flat tree</a>
 	(including non-element nodes, such as text nodes)
 	matches the above conditions.</p>
    <p>Document languages may define additional ways in which an element can match <a class="css" data-link-type="maybe" href="#active-pseudo" id="ref-for-active-pseudo④">:active</a>.</p>
@@ -3851,7 +3858,7 @@ the default <a class="css" data-link-type="maybe" href="#focus-pseudo" id="ref-f
 The Focus Container Pseudo-class: <a class="css" data-link-type="maybe" href="#focus-within-pseudo" id="ref-for-focus-within-pseudo①">:focus-within</a></span><a class="self-link" href="#the-focus-within-pseudo"></a></h3>
    <p>The <dfn class="css dfn-paneled" data-dfn-type="selector" data-export id="focus-within-pseudo">:focus-within</dfn> pseudo-class
 	applies to any element for which the <a class="css" data-link-type="maybe" href="#focus-pseudo" id="ref-for-focus-pseudo①⓪">:focus</a> pseudo class applies
-	as well as to an element whose descendant in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree③">flat tree</a>
+	as well as to an element whose descendant in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree③">flat tree</a>
 	(including non-element nodes, such as text nodes)
 	matches the conditions for matching <span class="css" id="ref-for-focus-pseudo①①">:focus</span>.</p>
    <h2 class="heading settled" data-level="10" id="time-pseudos"><span class="secno">10. </span><span class="content">
@@ -4817,7 +4824,7 @@ of a <a class="css production" data-link-type="type" href="#typedef-pseudo-eleme
 	but these are specified on a case-by-case basis.
 	(For example, the <a data-link-type="dfn" href="#user-action-pseudo-class" id="ref-for-user-action-pseudo-class">user action pseudo-classes</a> are allowed after any <a data-link-type="dfn" href="#pseudo-element" id="ref-for-pseudo-element②⑤">pseudo-element</a>,
 	and the <a data-link-type="dfn" href="https://drafts.csswg.org/css-pseudo-4/#tree-abiding" id="ref-for-tree-abiding">tree-abiding pseudo-elements</a>
-	are allowed after the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-scoping-1/#selectordef-slotted" id="ref-for-selectordef-slotted">::slotted()</a> pseudo-element.)</p>
+	are allowed after the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-1/#selectordef-slotted" id="ref-for-selectordef-slotted">::slotted()</a> pseudo-element.)</p>
    <h3 class="heading settled" data-level="17.1" id="forgiving-selector"><span class="secno">17.1. </span><span class="content">
 <a class="css production" data-link-type="type" href="#typedef-forgiving-selector-list" id="ref-for-typedef-forgiving-selector-list①">&lt;forgiving-selector-list></a> and <a class="css production" data-link-type="type" href="#typedef-forgiving-relative-selector-list" id="ref-for-typedef-forgiving-relative-selector-list①">&lt;forgiving-relative-selector-list></a></span><a class="self-link" href="#forgiving-selector"></a></h3>
    <p>For legacy reasons,
@@ -5331,7 +5338,7 @@ Changes since the 2 May 2013 Working Draft</span><a class="self-link" href="#cha
 		    (See <a href="https://www.w3.org/mid/CADhPm3v+WfeGQfBwwx8QBuiOjn2k38V_DcKW17Cm81VgZb1nbQ@mail.gmail.com">Discussion</a>)
 		
     <li>Renamed <span class="css">:nth-column()</span>/<span class="css">:nth-last-column()</span> to <a class="css" data-link-type="maybe" href="#nth-col-pseudo" id="ref-for-nth-col-pseudo②">:nth-col()</a>/<a class="css" data-link-type="maybe" href="#nth-last-col-pseudo" id="ref-for-nth-last-col-pseudo②">:nth-last-col()</a>
-			to avoid naming confusion with a potential <span class="css">::column</span> pseudo-class.
+			to avoid naming confusion with a potential <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-2/#selectordef-column" id="ref-for-selectordef-column">::column</a> pseudo-class.
 		
     <li>Changed the non-functional form of the <span class="css">:local-link</span> pseudo-class to account for fragment URLs.
 		
@@ -5766,23 +5773,26 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="12f8fb07">visibility</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[CSS-MULTICOL-2]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="e515eec3">::column</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[CSS-PSEUDO-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="fd0c9e35">::after</span>
      <li><span class="dfn-paneled" id="5869f885">::before</span>
      <li><span class="dfn-paneled" id="a1addf6c">::first-letter</span>
      <li><span class="dfn-paneled" id="75bfa627">::first-line</span>
-     <li><span class="dfn-paneled" id="bf38e0ae">tree-abiding pseudo-element</span>
+     <li><span class="dfn-paneled" id="16a52cab">tree-abiding pseudo-elements</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-SCOPING-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-SHADOW-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="677e6f41">::content</span>
-     <li><span class="dfn-paneled" id="a658d30c">::shadow</span>
-     <li><span class="dfn-paneled" id="c90d9be6">::slotted()</span>
-     <li><span class="dfn-paneled" id="b8e482b4">:host</span>
-     <li><span class="dfn-paneled" id="6f539384">:host-context()</span>
-     <li><span class="dfn-paneled" id="22109b0e">flat tree</span>
+     <li><span class="dfn-paneled" id="905d9a5a">::slotted()</span>
+     <li><span class="dfn-paneled" id="5561253e">:host</span>
+     <li><span class="dfn-paneled" id="37487143">:host-context()</span>
+     <li><span class="dfn-paneled" id="4cb3439f">flat tree</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-TEXT-4]</a> defines the following terms:
@@ -5895,11 +5905,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dt id="biblio-css-multicol-2">[CSS-MULTICOL-2]
+   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol-2/"><cite>CSS Multi-column Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol-2/">https://drafts.csswg.org/css-multicol-2/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
-   <dt id="biblio-css-scoping-1">[CSS-SCOPING-1]
-   <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-scoping/"><cite>CSS Scoping Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-scoping/">https://drafts.csswg.org/css-scoping/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dt id="biblio-css-shadow-1">[CSS-SHADOW-1]
+   <dd><a href="https://drafts.csswg.org/css-shadow-1/"><cite>CSS Shadow Module Level 1</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-shadow-1/">https://drafts.csswg.org/css-shadow-1/</a>
    <dt id="biblio-css-text-4">[CSS-TEXT-4]
    <dd>Elika Etemad; et al. <a href="https://drafts.csswg.org/css-text-4/"><cite>CSS Text Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-4/">https://drafts.csswg.org/css-text-4/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
@@ -5930,7 +5942,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-bcp47">[BCP47]
    <dd>A. Phillips, Ed.; M. Davis, Ed.. <a href="https://www.rfc-editor.org/rfc/rfc5646"><cite>Tags for Identifying Languages</cite></a>. September 2009. Best Current Practice. URL: <a href="https://www.rfc-editor.org/rfc/rfc5646">https://www.rfc-editor.org/rfc/rfc5646</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display/"><cite>CSS Display Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-display/">https://drafts.csswg.org/css-display/</a>
    <dt id="biblio-css3ui">[CSS3UI]
@@ -5938,7 +5950,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-cssstyleattr">[CSSSTYLEATTR]
    <dd>Tantek Çelik; Elika Etemad. <a href="https://drafts.csswg.org/css-style-attr/"><cite>CSS Style Attributes</cite></a>. URL: <a href="https://drafts.csswg.org/css-style-attr/">https://drafts.csswg.org/css-style-attr/</a>
    <dt id="biblio-html5">[HTML5]
-   <dd>Ian Hickson; et al. <a href="https://www.w3.org/html/wg/drafts/html/master/"><cite>HTML5</cite></a>. URL: <a href="https://www.w3.org/html/wg/drafts/html/master/">https://www.w3.org/html/wg/drafts/html/master/</a>
+   <dd>Ian Hickson; et al. <a href="https://www.w3.org/TR/html5/"><cite>HTML5</cite></a>. 27 March 2018. REC. URL: <a href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</a>
    <dt id="biblio-its20">[ITS20]
    <dd>David Filip; et al. <a href="https://www.w3.org/TR/its20/"><cite>Internationalization Tag Set (ITS) Version 2.0</cite></a>. 29 October 2013. REC. URL: <a href="https://www.w3.org/TR/its20/">https://www.w3.org/TR/its20/</a>
    <dt id="biblio-mathml">[MATHML]
@@ -7163,13 +7175,16 @@ let dfnPanelData = {
 "08eba280": {"dfnID":"08eba280","dfnText":"!","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-req"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-values-4/#mult-req"},
 "0e9419b9": {"dfnID":"0e9419b9","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"}],"title":"12.1.1. \nThe :enabled and :disabled Pseudo-classes"}],"url":"https://drafts.csswg.org/css-display-3/#propdef-display"},
 "12f8fb07": {"dfnID":"12f8fb07","dfnText":"visibility","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-visibility"}],"title":"12.1.1. \nThe :enabled and :disabled Pseudo-classes"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-visibility"},
+"16a52cab": {"dfnID":"16a52cab","dfnText":"tree-abiding pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-tree-abiding"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-pseudo-4/#tree-abiding"},
 "19f9e9df": {"dfnID":"19f9e9df","dfnText":"shadow tree","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-shadow-tree"}],"title":"3.2. \nData Model"}],"url":"https://dom.spec.whatwg.org/#concept-shadow-tree"},
-"22109b0e": {"dfnID":"22109b0e","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"}],"title":"8.5. \nThe Target Container Pseudo-class: :target-within"},{"refs":[{"id":"ref-for-flat-tree\u2460"}],"title":"9.1. \nThe Pointer Hover Pseudo-class: :hover"},{"refs":[{"id":"ref-for-flat-tree\u2461"}],"title":"9.2. \nThe Activation Pseudo-class: :active"},{"refs":[{"id":"ref-for-flat-tree\u2462"}],"title":"9.5. \nThe Focus Container Pseudo-class: :focus-within"}],"url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
 "22a0e026": {"dfnID":"22a0e026","dfnText":"pre","external":true,"refSections":[{"refs":[{"id":"ref-for-the-pre-element"}],"title":"14.4. \nSubsequent-sibling combinator (~)"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element"},
+"37487143": {"dfnID":"37487143","dfnText":":host-context()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-host-context"}],"title":"3.2. \nData Model"}],"url":"https://drafts.csswg.org/css-shadow-1/#selectordef-host-context"},
 "3a098985": {"dfnID":"3a098985","dfnText":"<an+b>","external":true,"refSections":[{"refs":[{"id":"ref-for-anb-production"}],"title":"19.3. \nChanges since the 2 May 2013 Working Draft"},{"refs":[{"id":"ref-for-anb-production\u2460"}],"title":"19.4. \nChanges since the 23 August 2012 Working Draft"}],"url":"https://drafts.csswg.org/css-syntax-3/#anb-production"},
 "49a2843d": {"dfnID":"49a2843d","dfnText":"DocumentFragment","external":true,"refSections":[{"refs":[{"id":"ref-for-documentfragment"}],"title":"3.3. \nScoped Selectors"}],"url":"https://dom.spec.whatwg.org/#documentfragment"},
+"4cb3439f": {"dfnID":"4cb3439f","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"}],"title":"8.5. \nThe Target Container Pseudo-class: :target-within"},{"refs":[{"id":"ref-for-flat-tree\u2460"}],"title":"9.1. \nThe Pointer Hover Pseudo-class: :hover"},{"refs":[{"id":"ref-for-flat-tree\u2461"}],"title":"9.2. \nThe Activation Pseudo-class: :active"},{"refs":[{"id":"ref-for-flat-tree\u2462"}],"title":"9.5. \nThe Focus Container Pseudo-class: :focus-within"}],"url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
 "537cf076": {"dfnID":"537cf076","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"},{"id":"ref-for-mult-opt\u2460"},{"id":"ref-for-mult-opt\u2461"},{"id":"ref-for-mult-opt\u2462"},{"id":"ref-for-mult-opt\u2463"},{"id":"ref-for-mult-opt\u2464"},{"id":"ref-for-mult-opt\u2465"},{"id":"ref-for-mult-opt\u2466"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
 "53a193f1": {"dfnID":"53a193f1","dfnText":"*","external":true,"refSections":[{"refs":[{"id":"ref-for-x"}],"title":"3.6.2. \nBinding to the Document Tree"}],"url":"https://drafts.csswg.org/selectors-3/#x"},
+"5561253e": {"dfnID":"5561253e","dfnText":":host","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-host"}],"title":"3.2. \nData Model"}],"url":"https://drafts.csswg.org/css-shadow-1/#selectordef-host"},
 "5869f885": {"dfnID":"5869f885","dfnText":"::before","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-before"}],"title":"3.6. Pseudo-elements"},{"refs":[{"id":"ref-for-selectordef-before\u2460"}],"title":"3.6.1. \nSyntax"},{"refs":[{"id":"ref-for-selectordef-before\u2461"}],"title":"3.6.2. \nBinding to the Document Tree"},{"refs":[{"id":"ref-for-selectordef-before\u2462"}],"title":"17. \nGrammar"},{"refs":[{"id":"ref-for-selectordef-before\u2463"}],"title":"18.5. \nMatch a Selector Against a Tree"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
 "5879b11d": {"dfnID":"5879b11d","dfnText":"content language","external":true,"refSections":[{"refs":[{"id":"ref-for-content-language"},{"id":"ref-for-content-language\u2460"},{"id":"ref-for-content-language\u2461"},{"id":"ref-for-content-language\u2462"},{"id":"ref-for-content-language\u2463"},{"id":"ref-for-content-language\u2464"}],"title":"7.2. \nThe Language Pseudo-class: :lang()"}],"url":"https://drafts.csswg.org/css-text-4/#content-language"},
 "58a8f724": {"dfnID":"58a8f724","dfnText":"shadow host","external":true,"refSections":[{"refs":[{"id":"ref-for-element-shadow-host"}],"title":"3.2. \nData Model"}],"url":"https://dom.spec.whatwg.org/#element-shadow-host"},
@@ -7177,12 +7192,10 @@ let dfnPanelData = {
 "5f4f7d1c": {"dfnID":"5f4f7d1c","dfnText":"math","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-math"}],"title":"14.3. \nNext-sibling combinator (+)"}],"url":"https://w3c.github.io/mathml-core/#dfn-math"},
 "6158d44a": {"dfnID":"6158d44a","dfnText":"<string-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-string-token"}],"title":"6.1. \nAttribute presence and value selectors"},{"refs":[{"id":"ref-for-typedef-string-token\u2460"}],"title":"6.2. \nSubstring matching attribute selectors"},{"refs":[{"id":"ref-for-typedef-string-token\u2461"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-string-token"},
 "64b89595": {"dfnID":"64b89595","dfnText":"meta","external":true,"refSections":[{"refs":[{"id":"ref-for-meta"}],"title":"7.2. \nThe Language Pseudo-class: :lang()"}],"url":"https://html.spec.whatwg.org/multipage/semantics.html#meta"},
-"677e6f41": {"dfnID":"677e6f41","dfnText":"::content","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-content"}],"title":"3.6.4. \nInternal Structure"}],"url":"https://www.w3.org/TR/css-scoping-1/#selectordef-content"},
 "68150e76": {"dfnID":"68150e76","dfnText":"*","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-zero-plus"},{"id":"ref-for-mult-zero-plus\u2460"},{"id":"ref-for-mult-zero-plus\u2461"},{"id":"ref-for-mult-zero-plus\u2462"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-values-4/#mult-zero-plus"},
 "68487d22": {"dfnID":"68487d22","dfnText":"#","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-comma"},{"id":"ref-for-mult-comma\u2460"},{"id":"ref-for-mult-comma\u2461"},{"id":"ref-for-mult-comma\u2462"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-values-4/#mult-comma"},
 "68bf3d31": {"dfnID":"68bf3d31","dfnText":"a","external":true,"refSections":[{"refs":[{"id":"ref-for-the-a-element"},{"id":"ref-for-the-a-element\u2460"}],"title":"3.3. \nScoped Selectors"},{"refs":[{"id":"ref-for-the-a-element\u2461"},{"id":"ref-for-the-a-element\u2462"},{"id":"ref-for-the-a-element\u2463"},{"id":"ref-for-the-a-element\u2464"},{"id":"ref-for-the-a-element\u2465"}],"title":"6.1. \nAttribute presence and value selectors"},{"refs":[{"id":"ref-for-the-a-element\u2466"}],"title":"6.2. \nSubstring matching attribute selectors"},{"refs":[{"id":"ref-for-the-a-element\u2467"}],"title":"8.1. \nThe Hyperlink Pseudo-class: :any-link"},{"refs":[{"id":"ref-for-the-a-element\u2468"}],"title":"9. \nUser Action Pseudo-classes"}],"url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"},{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"},{"id":"ref-for-comb-one\u2462"},{"id":"ref-for-comb-one\u2463"},{"id":"ref-for-comb-one\u2464"},{"id":"ref-for-comb-one\u2465"},{"id":"ref-for-comb-one\u2466"},{"id":"ref-for-comb-one\u2467"},{"id":"ref-for-comb-one\u2468"},{"id":"ref-for-comb-one\u2460\u24ea"},{"id":"ref-for-comb-one\u2460\u2460"},{"id":"ref-for-comb-one\u2460\u2461"},{"id":"ref-for-comb-one\u2460\u2462"},{"id":"ref-for-comb-one\u2460\u2463"},{"id":"ref-for-comb-one\u2460\u2464"},{"id":"ref-for-comb-one\u2460\u2465"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
-"6f539384": {"dfnID":"6f539384","dfnText":":host-context()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-host-context"}],"title":"3.2. \nData Model"}],"url":"https://drafts.csswg.org/css-scoping-1/#selectordef-host-context"},
 "7486f2c8": {"dfnID":"7486f2c8","dfnText":"li","external":true,"refSections":[{"refs":[{"id":"ref-for-the-li-element"},{"id":"ref-for-the-li-element\u2460"}],"title":"14.2. \nChild combinator (>)"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element"},
 "75bfa627": {"dfnID":"75bfa627","dfnText":"::first-line","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-first-line"},{"id":"ref-for-selectordef-first-line\u2460"}],"title":"3.2. \nData Model"},{"refs":[{"id":"ref-for-selectordef-first-line\u2461"},{"id":"ref-for-selectordef-first-line\u2462"}],"title":"3.6. Pseudo-elements"},{"refs":[{"id":"ref-for-selectordef-first-line\u2463"}],"title":"3.6.1. \nSyntax"},{"refs":[{"id":"ref-for-selectordef-first-line\u2464"},{"id":"ref-for-selectordef-first-line\u2465"}],"title":"3.6.2. \nBinding to the Document Tree"},{"refs":[{"id":"ref-for-selectordef-first-line\u2466"},{"id":"ref-for-selectordef-first-line\u2467"}],"title":"3.6.3. \nPseudo-classing Pseudo-elements"},{"refs":[{"id":"ref-for-selectordef-first-line\u2468"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line"},
 "76c4403d": {"dfnID":"76c4403d","dfnText":"parse","external":true,"refSections":[{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar"}],"title":"17. \nGrammar"},{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2460"}],"title":"18.1. \nParse A Selector"},{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2461"}],"title":"18.2. \nParse A Relative Selector"}],"url":"https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar"},
@@ -7194,6 +7207,7 @@ let dfnPanelData = {
 "85394472": {"dfnID":"85394472","dfnText":"Document","external":true,"refSections":[{"refs":[{"id":"ref-for-document"}],"title":"13.1. \n:root pseudo-class"}],"url":"https://dom.spec.whatwg.org/#document"},
 "8716d04f": {"dfnID":"8716d04f","dfnText":"<any-value>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-any-value"}],"title":"17. \nGrammar"},{"refs":[{"id":"ref-for-typedef-any-value\u2460"}],"title":"17.1. \n<forgiving-selector-list> and <forgiving-relative-selector-list>"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-any-value"},
 "8bc6d766": {"dfnID":"8bc6d766","dfnText":"inclusive sibling","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-tree-inclusive-sibling"}],"title":"13.3. \nChild-indexed Pseudo-classes"},{"refs":[{"id":"ref-for-concept-tree-inclusive-sibling\u2460"}],"title":"13.3.1. \n:nth-child() pseudo-class"},{"refs":[{"id":"ref-for-concept-tree-inclusive-sibling\u2461"}],"title":"13.3.2. \n:nth-last-child() pseudo-class"},{"refs":[{"id":"ref-for-concept-tree-inclusive-sibling\u2462"}],"title":"13.3.3. \n:first-child pseudo-class"},{"refs":[{"id":"ref-for-concept-tree-inclusive-sibling\u2463"}],"title":"13.3.4. \n:last-child pseudo-class"}],"url":"https://dom.spec.whatwg.org/#concept-tree-inclusive-sibling"},
+"905d9a5a": {"dfnID":"905d9a5a","dfnText":"::slotted()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-slotted"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-shadow-1/#selectordef-slotted"},
 "91c016b5": {"dfnID":"91c016b5","dfnText":"identical to","external":true,"refSections":[{"refs":[{"id":"ref-for-string-is"}],"title":"2. \nSelectors Overview"},{"refs":[{"id":"ref-for-string-is\u2460"},{"id":"ref-for-string-is\u2461"}],"title":"6.3. \nCase-sensitivity"},{"refs":[{"id":"ref-for-string-is\u2462"}],"title":"6.6. \nClass selectors"},{"refs":[{"id":"ref-for-string-is\u2463"}],"title":"6.7. \nID selectors"}],"url":"https://infra.spec.whatwg.org/#string-is"},
 "9213678e": {"dfnID":"9213678e","dfnText":"<ident>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-ident"}],"title":"7.2. \nThe Language Pseudo-class: :lang()"}],"url":"https://drafts.csswg.org/css-values-4/#typedef-ident"},
 "977d3003": {"dfnID":"977d3003","dfnText":"<string>","external":true,"refSections":[{"refs":[{"id":"ref-for-string-value"}],"title":"7.2. \nThe Language Pseudo-class: :lang()"}],"url":"https://drafts.csswg.org/css-values-4/#string-value"},
@@ -7202,7 +7216,6 @@ let dfnPanelData = {
 "9ffb0043": {"dfnID":"9ffb0043","dfnText":"a","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-lab-a"}],"title":"3.6.2. \nBinding to the Document Tree"}],"url":"https://drafts.csswg.org/css-color-5/#valdef-lab-a"},
 "a1a807e5": {"dfnID":"a1a807e5","dfnText":"area","external":true,"refSections":[{"refs":[{"id":"ref-for-the-area-element"}],"title":"8.1. \nThe Hyperlink Pseudo-class: :any-link"}],"url":"https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element"},
 "a1addf6c": {"dfnID":"a1addf6c","dfnText":"::first-letter","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-first-letter"}],"title":"3.6. Pseudo-elements"},{"refs":[{"id":"ref-for-selectordef-first-letter\u2460"}],"title":"3.6.1. \nSyntax"},{"refs":[{"id":"ref-for-selectordef-first-letter\u2461"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter"},
-"a658d30c": {"dfnID":"a658d30c","dfnText":"::shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-shadow"}],"title":"3.6.4. \nInternal Structure"}],"url":"https://www.w3.org/TR/css-scoping-1/#selectordef-shadow"},
 "a7bbaf9f": {"dfnID":"a7bbaf9f","dfnText":"div","external":true,"refSections":[{"refs":[{"id":"ref-for-the-div-element"}],"title":"6.6. \nClass selectors"},{"refs":[{"id":"ref-for-the-div-element\u2460"}],"title":"13.3.3. \n:first-child pseudo-class"},{"refs":[{"id":"ref-for-the-div-element\u2461"}],"title":"14.1. \nDescendant combinator ( )"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"},
 "a963f9ba": {"dfnID":"a963f9ba","dfnText":"document white space characters","external":true,"refSections":[{"refs":[{"id":"ref-for-white-space"}],"title":"13.2. \n:empty pseudo-class"}],"url":"https://drafts.csswg.org/css-text-4/#white-space"},
 "absolutize": {"dfnID":"absolutize","dfnText":"absolutize a relative selector","external":false,"refSections":[{"refs":[{"id":"ref-for-absolutize"}],"title":"3.4. Relative Selectors"},{"refs":[{"id":"ref-for-absolutize"}],"title":"4.5. The Relational Pseudo-class: :has()"}],"url":"#absolutize"},
@@ -7216,14 +7229,11 @@ let dfnPanelData = {
 "b32b852a": {"dfnID":"b32b852a","dfnText":"span","external":true,"refSections":[{"refs":[{"id":"ref-for-the-span-element"},{"id":"ref-for-the-span-element\u2460"}],"title":"6.1. \nAttribute presence and value selectors"},{"refs":[{"id":"ref-for-the-span-element\u2461"}],"title":"6.6. \nClass selectors"}],"url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element"},
 "b6fb7a51": {"dfnID":"b6fb7a51","dfnText":"custom element","external":true,"refSections":[{"refs":[{"id":"ref-for-custom-element"}],"title":"5.4. \nThe Defined Pseudo-class: :defined"}],"url":"https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element"},
 "b80d76a2": {"dfnID":"b80d76a2","dfnText":"p","external":true,"refSections":[{"refs":[{"id":"ref-for-the-p-element"}],"title":"6.6. \nClass selectors"},{"refs":[{"id":"ref-for-the-p-element\u2460"}],"title":"8.4. \nThe Target Pseudo-class: :target"},{"refs":[{"id":"ref-for-the-p-element\u2461"}],"title":"12.3.2. \nThe Validity Pseudo-classes: :valid and :invalid"},{"refs":[{"id":"ref-for-the-p-element\u2462"}],"title":"13.2. \n:empty pseudo-class"},{"refs":[{"id":"ref-for-the-p-element\u2463"}],"title":"13.3.3. \n:first-child pseudo-class"},{"refs":[{"id":"ref-for-the-p-element\u2464"}],"title":"14.1. \nDescendant combinator ( )"},{"refs":[{"id":"ref-for-the-p-element\u2465"},{"id":"ref-for-the-p-element\u2466"}],"title":"14.2. \nChild combinator (>)"},{"refs":[{"id":"ref-for-the-p-element\u2467"}],"title":"14.3. \nNext-sibling combinator (+)"}],"url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element"},
-"b8e482b4": {"dfnID":"b8e482b4","dfnText":":host","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-host"}],"title":"3.2. \nData Model"}],"url":"https://drafts.csswg.org/css-scoping-1/#selectordef-host"},
 "b9a05383": {"dfnID":"b9a05383","dfnText":"placeholder","external":true,"refSections":[{"refs":[{"id":"ref-for-attr-input-placeholder"}],"title":"12.1.3. \nThe Placeholder-shown Pseudo-class: :placeholder-shown"}],"url":"https://html.spec.whatwg.org/multipage/input.html#attr-input-placeholder"},
 "bf0e8186": {"dfnID":"bf0e8186","dfnText":"@namespace","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-namespace"}],"title":"3.8. \nDeclaring Namespace Prefixes"},{"refs":[{"id":"ref-for-at-ruledef-namespace\u2460"}],"title":"5.3. \nNamespaces in Elemental Selectors"}],"url":"https://drafts.csswg.org/css-namespaces-3/#at-ruledef-namespace"},
-"bf38e0ae": {"dfnID":"bf38e0ae","dfnText":"tree-abiding pseudo-element","external":true,"refSections":[{"refs":[{"id":"ref-for-tree-abiding"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-pseudo-4/#tree-abiding"},
 "bfff6250": {"dfnID":"bfff6250","dfnText":"button","external":true,"refSections":[{"refs":[{"id":"ref-for-the-button-element"}],"title":"4.3. \nThe Negation (Matches-None) Pseudo-class: :not()"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element"},
 "blank-pseudo": {"dfnID":"blank-pseudo","dfnText":":blank","external":false,"refSections":[{"refs":[{"id":"ref-for-blank-pseudo"},{"id":"ref-for-blank-pseudo\u2460"}],"title":"12.3.1. The Empty-Value Pseudo-class: :blank"},{"refs":[{"id":"ref-for-blank-pseudo\u2461"}],"title":"19.2. Changes since the 2 February 2018 Working Draft"},{"refs":[{"id":"ref-for-blank-pseudo\u2462"}],"title":"19.6. Changes Since Level 3"}],"url":"#blank-pseudo"},
 "c3dd181e": {"dfnID":"c3dd181e","dfnText":"html","external":true,"refSections":[{"refs":[{"id":"ref-for-the-html-element"}],"title":"13.1. \n:root pseudo-class"}],"url":"https://html.spec.whatwg.org/multipage/semantics.html#the-html-element"},
-"c90d9be6": {"dfnID":"c90d9be6","dfnText":"::slotted()","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-slotted"}],"title":"17. \nGrammar"}],"url":"https://drafts.csswg.org/css-scoping-1/#selectordef-slotted"},
 "ca0abe12": {"dfnID":"ca0abe12","dfnText":"parse a list","external":true,"refSections":[{"refs":[{"id":"ref-for-css-parse-a-comma-separated-list-according-to-a-css-grammar"}],"title":"17.1. \n<forgiving-selector-list> and <forgiving-relative-selector-list>"}],"url":"https://drafts.csswg.org/css-syntax-3/#css-parse-a-comma-separated-list-according-to-a-css-grammar"},
 "checked-pseudo": {"dfnID":"checked-pseudo","dfnText":":checked","external":false,"refSections":[{"refs":[{"id":"ref-for-checked-pseudo"},{"id":"ref-for-checked-pseudo\u2460"},{"id":"ref-for-checked-pseudo\u2461"}],"title":"12.2.1. The Selected-option Pseudo-class: :checked"},{"refs":[{"id":"ref-for-checked-pseudo\u2462"}],"title":"12.2.2. The Indeterminate-value Pseudo-class: :indeterminate"}],"url":"#checked-pseudo"},
 "child-combinator": {"dfnID":"child-combinator","dfnText":"child combinator","external":false,"refSections":[{"refs":[{"id":"ref-for-child-combinator"}],"title":"3.1. Structure and Terminology"}],"url":"#child-combinator"},
@@ -7243,6 +7253,7 @@ let dfnPanelData = {
 "dir-pseudo": {"dfnID":"dir-pseudo","dfnText":":dir()","external":false,"refSections":[{"refs":[{"id":"ref-for-dir-pseudo"},{"id":"ref-for-dir-pseudo\u2460"},{"id":"ref-for-dir-pseudo\u2461"}],"title":"7.1. The Directionality Pseudo-class: :dir()"},{"refs":[{"id":"ref-for-dir-pseudo\u2462"}],"title":"19.6. Changes Since Level 3"}],"url":"#dir-pseudo"},
 "disabled-pseudo": {"dfnID":"disabled-pseudo","dfnText":":disabled","external":false,"refSections":[{"refs":[{"id":"ref-for-disabled-pseudo"},{"id":"ref-for-disabled-pseudo\u2460"},{"id":"ref-for-disabled-pseudo\u2461"},{"id":"ref-for-disabled-pseudo\u2462"}],"title":"12.1.1. The :enabled and :disabled Pseudo-classes"}],"url":"#disabled-pseudo"},
 "document-language": {"dfnID":"document-language","dfnText":"document language","external":false,"refSections":[{"refs":[{"id":"ref-for-document-language"}],"title":"3.1. Structure and Terminology"},{"refs":[{"id":"ref-for-document-language\u2460"}],"title":"3.2. Data Model"},{"refs":[{"id":"ref-for-document-language\u2461"}],"title":"7.1. The Directionality Pseudo-class: :dir()"}],"url":"#document-language"},
+"e515eec3": {"dfnID":"e515eec3","dfnText":"::column","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-column"}],"title":"19.3. \nChanges since the 2 May 2013 Working Draft"}],"url":"https://drafts.csswg.org/css-multicol-2/#selectordef-column"},
 "e6cc3311": {"dfnID":"e6cc3311","dfnText":"tree","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-tree"}],"title":"18.5. \nMatch a Selector Against a Tree"}],"url":"https://dom.spec.whatwg.org/#concept-tree"},
 "ed948033": {"dfnID":"ed948033","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-fragment"}],"title":"8.4. \nThe Target Pseudo-class: :target"}],"url":"https://url.spec.whatwg.org/#concept-url-fragment"},
 "ee301461": {"dfnID":"ee301461","dfnText":"CSS qualified name","external":true,"refSections":[{"refs":[{"id":"ref-for-css-qualified-name"}],"title":"5.1. \nType (tag name) selector"},{"refs":[{"id":"ref-for-css-qualified-name\u2460"}],"title":"5.2. \nUniversal selector "},{"refs":[{"id":"ref-for-css-qualified-name\u2461"}],"title":"6.4. \nAttribute selectors and namespaces"}],"url":"https://drafts.csswg.org/css-namespaces-3/#css-qualified-name"},
@@ -7951,6 +7962,7 @@ let refsData = {
 "https://drafts.csswg.org/css-display-3/#propdef-display": {"displayText":"display","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-display","spec":"css-display-3","status":"current","text":"display","type":"property","url":"https://drafts.csswg.org/css-display-3/#propdef-display"},
 "https://drafts.csswg.org/css-display-4/#box-tree": {"displayText":"box tree","export":true,"for_":["CSS"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"box tree","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#box-tree"},
 "https://drafts.csswg.org/css-display-4/#propdef-visibility": {"displayText":"visibility","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"visibility","type":"property","url":"https://drafts.csswg.org/css-display-4/#propdef-visibility"},
+"https://drafts.csswg.org/css-multicol-2/#selectordef-column": {"displayText":"::column","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"::column","type":"selector","url":"https://drafts.csswg.org/css-multicol-2/#selectordef-column"},
 "https://drafts.csswg.org/css-namespaces-3/#at-ruledef-namespace": {"displayText":"@namespace","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-namespaces","spec":"css-namespaces-3","status":"current","text":"@namespace","type":"at-rule","url":"https://drafts.csswg.org/css-namespaces-3/#at-ruledef-namespace"},
 "https://drafts.csswg.org/css-namespaces-3/#css-qualified-name": {"displayText":"CSS qualified name","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-namespaces","spec":"css-namespaces-3","status":"current","text":"css qualified name","type":"dfn","url":"https://drafts.csswg.org/css-namespaces-3/#css-qualified-name"},
 "https://drafts.csswg.org/css-namespaces-3/#default-namespace": {"displayText":"default namespace","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-namespaces","spec":"css-namespaces-3","status":"current","text":"default namespace","type":"dfn","url":"https://drafts.csswg.org/css-namespaces-3/#default-namespace"},
@@ -7958,11 +7970,11 @@ let refsData = {
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-before": {"displayText":"::before","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::before","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter": {"displayText":"::first-letter","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::first-letter","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line": {"displayText":"::first-line","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::first-line","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line"},
-"https://drafts.csswg.org/css-pseudo-4/#tree-abiding": {"displayText":"tree-abiding pseudo-element","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"tree-abiding pseudo-element","type":"dfn","url":"https://drafts.csswg.org/css-pseudo-4/#tree-abiding"},
-"https://drafts.csswg.org/css-scoping-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
-"https://drafts.csswg.org/css-scoping-1/#selectordef-host": {"displayText":":host","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":":host","type":"selector","url":"https://drafts.csswg.org/css-scoping-1/#selectordef-host"},
-"https://drafts.csswg.org/css-scoping-1/#selectordef-host-context": {"displayText":":host-context()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":":host-context()","type":"selector","url":"https://drafts.csswg.org/css-scoping-1/#selectordef-host-context"},
-"https://drafts.csswg.org/css-scoping-1/#selectordef-slotted": {"displayText":"::slotted()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"::slotted()","type":"selector","url":"https://drafts.csswg.org/css-scoping-1/#selectordef-slotted"},
+"https://drafts.csswg.org/css-pseudo-4/#tree-abiding": {"displayText":"tree-abiding pseudo-elements","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"tree-abiding pseudo-elements","type":"dfn","url":"https://drafts.csswg.org/css-pseudo-4/#tree-abiding"},
+"https://drafts.csswg.org/css-shadow-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
+"https://drafts.csswg.org/css-shadow-1/#selectordef-host": {"displayText":":host","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":":host","type":"selector","url":"https://drafts.csswg.org/css-shadow-1/#selectordef-host"},
+"https://drafts.csswg.org/css-shadow-1/#selectordef-host-context": {"displayText":":host-context()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":":host-context()","type":"selector","url":"https://drafts.csswg.org/css-shadow-1/#selectordef-host-context"},
+"https://drafts.csswg.org/css-shadow-1/#selectordef-slotted": {"displayText":"::slotted()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"::slotted()","type":"selector","url":"https://drafts.csswg.org/css-shadow-1/#selectordef-slotted"},
 "https://drafts.csswg.org/css-syntax-3/#anb-production": {"displayText":"<an+b>","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"<an+b>","type":"type","url":"https://drafts.csswg.org/css-syntax-3/#anb-production"},
 "https://drafts.csswg.org/css-syntax-3/#css-parse-a-comma-separated-list-according-to-a-css-grammar": {"displayText":"parse a list","export":true,"for_":["CSS"],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"parse a list","type":"dfn","url":"https://drafts.csswg.org/css-syntax-3/#css-parse-a-comma-separated-list-according-to-a-css-grammar"},
 "https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar": {"displayText":"parse","export":true,"for_":["CSS"],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"parse","type":"dfn","url":"https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar"},
@@ -8012,8 +8024,6 @@ let refsData = {
 "https://infra.spec.whatwg.org/#string-is": {"displayText":"identical to","export":true,"for_":["string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"identical to","type":"dfn","url":"https://infra.spec.whatwg.org/#string-is"},
 "https://url.spec.whatwg.org/#concept-url-fragment": {"displayText":"fragment","export":true,"for_":["url"],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"fragment","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-fragment"},
 "https://w3c.github.io/mathml-core/#dfn-math": {"displayText":"math","export":true,"for_":[],"level":"1","normative":true,"shortname":"mathml-core","spec":"mathml-core","status":"current","text":"math","type":"element","url":"https://w3c.github.io/mathml-core/#dfn-math"},
-"https://www.w3.org/TR/css-scoping-1/#selectordef-content": {"displayText":"::content","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"snapshot","text":"::content","type":"selector","url":"https://www.w3.org/TR/css-scoping-1/#selectordef-content"},
-"https://www.w3.org/TR/css-scoping-1/#selectordef-shadow": {"displayText":"::shadow","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"snapshot","text":"::shadow","type":"selector","url":"https://www.w3.org/TR/css-scoping-1/#selectordef-shadow"},
 };
 
 function mkRefHint(link, ref) {

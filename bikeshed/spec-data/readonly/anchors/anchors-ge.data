@@ -1,3 +1,27 @@
+"generator"
+"generator"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptgeneratorremotevalue-type-generator
+
+1
+script.GeneratorRemoteValue/type
+-
+"generator"
+"generator"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptgeneratorremotevalue-type-generator
+
+1
+script.GeneratorRemoteValue/type
+-
 "geolocation"
 "geolocation"
 permission
@@ -100,6 +124,61 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 %GeneratorPrototype%.throw ( exception )
 -
+:generaldatetimedescription
+:GeneralDateTimeDescription
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-generaldatetimedescription
+
+1
+-
+:generaldurationdescription
+:GeneralDurationDescription
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-generaldurationdescription
+
+1
+-
+:generalday
+:generalDay
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-generalday
+
+1
+-
+:generalmonth
+:generalMonth
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-generalmonth
+
+1
+-
+:generalyear
+:generalYear
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-generalyear
+
+1
+-
 <gender>
 <gender>
 type
@@ -168,69 +247,102 @@ https://www.w3.org/TR/mediaqueries-5/#typedef-general-enclosed
 1
 1
 -
-<generic-complete>
-<generic-complete>
-type
-css-fonts-4
-css-fonts
-4
-current
-https://drafts.csswg.org/css-fonts-4/#typedef-generic-complete
-1
-1
--
 <generic-family>
 <generic-family>
 type
-css-fonts-4
-css-fonts
-4
-current
-https://drafts.csswg.org/css-fonts-4/#typedef-generic-family
-1
-1
--
-<generic-family>
-<generic-family>
-type
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-generic-family
 1
 1
 -
-<generic-family>
-<generic-family>
+<generic-font-complete>
+<generic-font-complete>
+type
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-complete
+1
+1
+-
+<generic-font-complete>
+<generic-font-complete>
 type
 css-fonts-4
 css-fonts
 4
 snapshot
-https://www.w3.org/TR/css-fonts-4/#generic-family-value
+https://www.w3.org/TR/css-fonts-4/#typedef-generic-font-complete
 1
 1
 -
-<generic-incomplete>
-<generic-incomplete>
+<generic-font-family>
+<generic-font-family>
 type
 css-fonts-4
 css-fonts
 4
 current
-https://drafts.csswg.org/css-fonts-4/#typedef-generic-incomplete
+https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-family
 1
 1
 -
-<generic-script-specific>
-<generic-script-specific>
+<generic-font-family>
+<generic-font-family>
+type
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#typedef-generic-font-family
+1
+1
+-
+<generic-font-incomplete>
+<generic-font-incomplete>
 type
 css-fonts-4
 css-fonts
 4
 current
-https://drafts.csswg.org/css-fonts-4/#typedef-generic-script-specific
+https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-incomplete
+1
+1
+-
+<generic-font-incomplete>
+<generic-font-incomplete>
+type
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#typedef-generic-font-incomplete
+1
+1
+-
+<generic-font-script-specific>
+<generic-font-script-specific>
+type
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-script-specific
+1
+1
+-
+<generic-font-script-specific>
+<generic-font-script-specific>
+type
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#typedef-generic-font-script-specific
 1
 1
 -
@@ -250,20 +362,9 @@ https://drafts.csswg.org/css-speech-1/#typedef-generic-voice
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#value-def-generic-voice
-1
-1
--
-<generic-voice>
-<generic-voice>
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#value-def-generic-voice
+https://www.w3.org/TR/CSS2/aural.html#value-def-generic-voice
 1
 1
 -
@@ -285,7 +386,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-geometry-box
+https://drafts.csswg.org/css-masking-1/#typedef-geometry-box
 1
 1
 -
@@ -333,6 +434,50 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-
 
 1
 -
+general category
+General Category
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#unicode-general-category
+1
+1
+-
+general category
+General Category
+dfn
+css-text-4
+css-text
+4
+current
+https://drafts.csswg.org/css-text-4/#unicode-general-category
+1
+1
+-
+general category
+General Category
+dfn
+css-text-3
+css-text
+3
+snapshot
+https://www.w3.org/TR/css-text-3/#unicode-general-category
+1
+1
+-
+general category
+General Category
+dfn
+css-text-4
+css-text
+4
+snapshot
+https://www.w3.org/TR/css-text-4/#unicode-general-category
+1
+1
+-
 general discovery procedure
 General Discovery Procedure
 dfn
@@ -347,7 +492,7 @@ https://webbluetoothcg.github.io/web-bluetooth/#general-discovery-procedure
 general json-ld processing
 General JSON-LD processing
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -361,8 +506,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-general-json-ld-processing
+
+
+-
+general json-ld processing
+General JSON-LD processing
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-general-json-ld-processing
+
+
+-
+general json-ld processing
+General JSON-LD processing
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-general-json-ld-processing
 
 
 -
@@ -388,6 +555,17 @@ https://www.w3.org/TR/i18n-glossary/#dfn-general-category
 
 
 -
+general rule
+general rule
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-general-rule
+
+1
+-
 generate test report
 Generate Test Report
 dfn
@@ -407,6 +585,17 @@ reporting
 1
 snapshot
 https://www.w3.org/TR/reporting-1/#generate-test-report
+1
+1
+-
+generate a network error report
+generate a network error report
+dfn
+network-error-logging
+network-error-logging
+1
+snapshot
+https://www.w3.org/TR/network-error-logging/#generate-a-network-error-report
 1
 1
 -
@@ -482,6 +671,17 @@ abstract-op
 permissions-policy-1
 permissions-policy
 1
+current
+https://w3c.github.io/webappsec-permissions-policy/#report-potential-permissions-policy-violation
+1
+1
+-
+Generate report for potential violation of permissions policy on settings
+Generate report for potential violation of permissions policy on settings
+abstract-op
+permissions-policy-1
+permissions-policy
+1
 snapshot
 https://www.w3.org/TR/permissions-policy-1/#report-potential-permissions-policy-violation
 1
@@ -509,6 +709,28 @@ https://www.w3.org/TR/permissions-policy-1/#report-permissions-policy-violation
 1
 1
 -
+generate report of type with data
+generate report of type with data
+dfn
+reporting-1
+reporting
+1
+current
+https://w3c.github.io/reporting/#generate-report
+1
+1
+-
+generate report of type with data
+generate report of type with data
+dfn
+reporting-1
+reporting
+1
+snapshot
+https://www.w3.org/TR/reporting-1/#generate-report
+1
+1
+-
 GenerateAssertionCallback
 GenerateAssertionCallback
 callback
@@ -531,28 +753,6 @@ https://www.w3.org/TR/webrtc-identity/#dom-generateassertioncallback
 
 1
 -
-GenerateBidInterestGroup
-GenerateBidInterestGroup
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-generatebidinterestgroup
-1
-1
--
-GenerateBidOutput
-GenerateBidOutput
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-generatebidoutput
-1
-1
--
 GenerateTestReportParameters
 GenerateTestReportParameters
 dictionary
@@ -573,17 +773,6 @@ reporting
 snapshot
 https://www.w3.org/TR/reporting-1/#dictdef-generatetestreportparameters
 1
-1
--
-generated code
-Generated Code
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#generated-code
-
 1
 -
 generating authenticator
@@ -664,6 +853,39 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#ta
 1
 Generator Execution Contexts
 -
+generatorbody
+GeneratorBody
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-GeneratorBody
+
+1
+-
+generatordeclaration
+GeneratorDeclaration
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-GeneratorDeclaration
+
+1
+-
+generatorexpression
+GeneratorExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-GeneratorExpression
+
+1
+-
 GeneratorFunction
 GeneratorFunction
 interface
@@ -675,8 +897,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 1
 -
-GeneratorFunction(...parameterArgs, bodyArg)
-GeneratorFunction(...parameterArgs, bodyArg)
+GeneratorFunction(...paramArgs, bodyArg)
+GeneratorFunction(...paramArgs, bodyArg)
 constructor
 ecmascript
 ecmascript
@@ -686,6 +908,17 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 1
 GeneratorFunction
+-
+generatormethod
+GeneratorMethod
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-GeneratorMethod
+
+1
 -
 GeneratorResume
 GeneratorResume
@@ -698,8 +931,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 1
 -
-GeneratorResume(generator, value, generatorBrand)
-GeneratorResume(generator, value, generatorBrand)
+GeneratorResume(gen, value, genBrand)
+GeneratorResume(gen, value, genBrand)
 abstract-op
 ecmascript
 ecmascript
@@ -720,8 +953,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 1
 -
-GeneratorResumeAbrupt(generator, abruptCompletion, generatorBrand)
-GeneratorResumeAbrupt(generator, abruptCompletion, generatorBrand)
+GeneratorResumeAbrupt(gen, abruptCompletion, genBrand)
+GeneratorResumeAbrupt(gen, abruptCompletion, genBrand)
 abstract-op
 ecmascript
 ecmascript
@@ -742,8 +975,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 1
 -
-GeneratorStart(generator, generatorBody)
-GeneratorStart(generator, generatorBody)
+GeneratorStart(gen, genBody)
+GeneratorStart(gen, genBody)
 abstract-op
 ecmascript
 ecmascript
@@ -764,8 +997,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 1
 -
-GeneratorValidate(generator, generatorBrand)
-GeneratorValidate(generator, generatorBrand)
+GeneratorValidate(gen, genBrand)
+GeneratorValidate(gen, genBrand)
 abstract-op
 ecmascript
 ecmascript
@@ -863,50 +1096,6 @@ https://www.w3.org/TR/geolocation/#dom-geolocation
 1
 1
 -
-geolocation sensor
-Geolocation Sensor
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#geolocation-sensor
-
-1
--
-geolocation sensor
-Geolocation Sensor
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#geolocation-sensor
-
-1
--
-geolocation reading parsing algorithm
-geolocation reading parsing algorithm
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#geolocation-reading-parsing-algorithm
-
-1
--
-geolocation reading parsing algorithm
-geolocation reading parsing algorithm
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#geolocation-reading-parsing-algorithm
-
-1
--
 GeolocationCoordinates
 GeolocationCoordinates
 interface
@@ -970,120 +1159,6 @@ geolocation
 1
 snapshot
 https://www.w3.org/TR/geolocation/#dom-geolocationpositionerror
-1
-1
--
-GeolocationSensor
-GeolocationSensor
-interface
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#geolocationsensor
-1
-1
--
-GeolocationSensor
-GeolocationSensor
-interface
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#geolocationsensor
-1
-1
--
-GeolocationSensor()
-GeolocationSensor()
-constructor
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-geolocationsensor
-1
-1
-GeolocationSensor
--
-GeolocationSensor()
-GeolocationSensor()
-constructor
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-geolocationsensor
-1
-1
-GeolocationSensor
--
-GeolocationSensor(options)
-GeolocationSensor(options)
-constructor
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-geolocationsensor
-1
-1
-GeolocationSensor
--
-GeolocationSensor(options)
-GeolocationSensor(options)
-constructor
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-geolocationsensor
-1
-1
-GeolocationSensor
--
-GeolocationSensorOptions
-GeolocationSensorOptions
-dictionary
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dictdef-geolocationsensoroptions
-1
-1
--
-GeolocationSensorOptions
-GeolocationSensorOptions
-dictionary
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dictdef-geolocationsensoroptions
-1
-1
--
-GeolocationSensorReading
-GeolocationSensorReading
-dictionary
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dictdef-geolocationsensorreading
-1
-1
--
-GeolocationSensorReading
-GeolocationSensorReading
-dictionary
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dictdef-geolocationsensorreading
 1
 1
 -
@@ -1551,6 +1626,28 @@ https://www.w3.org/TR/service-workers/#get-frame-type
 
 1
 -
+get global privacy control
+Get Global Privacy Control
+dfn
+gpc
+gpc
+1
+current
+https://w3c.github.io/gpc/#dfn-get-global-privacy-control
+1
+1
+-
+get global privacy control
+Get Global Privacy Control
+dfn
+gpc
+gpc
+1
+snapshot
+https://www.w3.org/TR/gpc/#dfn-get-global-privacy-control
+1
+1
+-
 get named cookie
 Get Named Cookie
 dfn
@@ -1674,6 +1771,17 @@ https://w3c.github.io/ServiceWorker/#get-router-source
 
 1
 -
+get router source
+Get Router Source
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#get-router-source
+
+1
+-
 get supported capabilities for audio/video type
 Get Supported Capabilities for Audio/Video Type
 dfn
@@ -1782,72 +1890,6 @@ webdriver
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-get-title
 
-1
--
-Get Trusted Type compliant string
-Get Trusted Type compliant string
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-get-trusted-type-compliant-string
-1
-1
--
-Get Trusted Type compliant string
-Get Trusted Type compliant string
-abstract-op
-trusted-types
-trusted-types
-1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-get-trusted-type-compliant-string
-1
-1
--
-Get Trusted Type data for attribute
-Get Trusted Type data for attribute
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-get-trusted-type-data-for-attribute
-1
-1
--
-Get Trusted Type data for attribute
-Get Trusted Type data for attribute
-abstract-op
-trusted-types
-trusted-types
-1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-get-trusted-type-data-for-attribute
-1
-1
--
-Get Trusted Type policy value
-Get Trusted Type policy value
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-get-trusted-type-policy-value
-1
-1
--
-Get Trusted Type policy value
-Get Trusted Type policy value
-abstract-op
-trusted-types
-trusted-types
-1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-get-trusted-type-policy-value
-1
 1
 -
 get url
@@ -2004,8 +2046,8 @@ https://www.w3.org/TR/generic-sensor/#get-value-from-latest-reading
 1
 1
 -
-Get(O, P)
-Get(O, P)
+Get(obj, propertyKey)
+Get(obj, propertyKey)
 abstract-op
 ecmascript
 ecmascript
@@ -2081,8 +2123,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-getarraybuffermaxbyte
 1
 1
 -
-GetBindingValue(N, S)
-GetBindingValue(N, S)
+GetBindingValue(name, strict)
+GetBindingValue(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -2093,8 +2135,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Declarative Environment Records
 -
-GetBindingValue(N, S)
-GetBindingValue(N, S)
+GetBindingValue(name, strict)
+GetBindingValue(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -2105,8 +2147,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Global Environment Records
 -
-GetBindingValue(N, S)
-GetBindingValue(N, S)
+GetBindingValue(name, strict)
+GetBindingValue(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -2117,8 +2159,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Module Environment Records
 -
-GetBindingValue(N, S)
-GetBindingValue(N, S)
+GetBindingValue(name, strict)
+GetBindingValue(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -2163,6 +2205,18 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 Source Text Module Records
 -
+GetExportedNames(exportStarSet)
+GetExportedNames(exportStarSet)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-smr-getexportednames
+1
+1
+Synthetic Module Records
+-
 GetFunctionRealm
 GetFunctionRealm
 abstract-op
@@ -2174,8 +2228,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-getfunctionrealm
 1
 1
 -
-GetFunctionRealm(obj)
-GetFunctionRealm(obj)
+GetFunctionRealm(func)
+GetFunctionRealm(func)
 abstract-op
 ecmascript
 ecmascript
@@ -2284,8 +2338,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 1
 -
-GetIdentifierReference(env, name, strict)
-GetIdentifierReference(env, name, strict)
+GetIdentifierReference(envRecord, name, strict)
+GetIdentifierReference(envRecord, name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -2306,8 +2360,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 1
 -
-GetImportedModule(referrer, specifier)
-GetImportedModule(referrer, specifier)
+GetImportedModule(referrer, request)
+GetImportedModule(referrer, request)
 abstract-op
 ecmascript
 ecmascript
@@ -2416,8 +2470,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-getmatchindexpair
 1
 1
 -
-GetMatchIndexPair(S, match)
-GetMatchIndexPair(S, match)
+GetMatchIndexPair(string, match)
+GetMatchIndexPair(string, match)
 abstract-op
 ecmascript
 ecmascript
@@ -2438,8 +2492,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-getmatchstring
 1
 1
 -
-GetMatchString(S, match)
-GetMatchString(S, match)
+GetMatchString(string, match)
+GetMatchString(string, match)
 abstract-op
 ecmascript
 ecmascript
@@ -2460,8 +2514,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-getmethod
 1
 1
 -
-GetMethod(V, P)
-GetMethod(V, P)
+GetMethod(value, propertyKey)
+GetMethod(value, propertyKey)
 abstract-op
 ecmascript
 ecmascript
@@ -2592,6 +2646,28 @@ https://notifications.spec.whatwg.org/#dictdef-getnotificationoptions
 1
 1
 -
+GetOptionsObject
+GetOptionsObject
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-getoptionsobject
+1
+1
+-
+GetOptionsObject(options)
+GetOptionsObject(options)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-getoptionsobject
+1
+1
+-
 getownproperty
 GetOwnProperty
 dfn
@@ -2615,8 +2691,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-getownpropertykey
 1
 1
 -
-GetOwnPropertyKeys(O, type)
-GetOwnPropertyKeys(O, type)
+GetOwnPropertyKeys(value, type)
+GetOwnPropertyKeys(value, type)
 abstract-op
 ecmascript
 ecmascript
@@ -2637,8 +2713,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-getpromis
 1
 1
 -
-GetPromiseResolve(promiseConstructor)
-GetPromiseResolve(promiseConstructor)
+GetPromiseResolve(promiseCtor)
+GetPromiseResolve(promiseCtor)
 abstract-op
 ecmascript
 ecmascript
@@ -2659,8 +2735,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-GetPrototypeFromConstructor(constructor, intrinsicDefaultProto)
-GetPrototypeFromConstructor(constructor, intrinsicDefaultProto)
+GetPrototypeFromConstructor(ctor, intrinsicDefaultProto)
+GetPrototypeFromConstructor(ctor, intrinsicDefaultProto)
 abstract-op
 ecmascript
 ecmascript
@@ -2710,7 +2786,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#InterfaceGetSVGDocument
+https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceGetSVGDocument
 1
 1
 -
@@ -2758,8 +2834,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-getstringindex
 1
 1
 -
-GetStringIndex(S, codePointIndex)
-GetStringIndex(S, codePointIndex)
+GetStringIndex(string, codePointIndex)
+GetStringIndex(string, codePointIndex)
 abstract-op
 ecmascript
 ecmascript
@@ -2780,8 +2856,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-getsubstitution
 1
 1
 -
-GetSubstitution(matched, str, position, captures, namedCaptures, replacementTemplate)
-GetSubstitution(matched, str, position, captures, namedCaptures, replacementTemplate)
+GetSubstitution(matched, string, position, captures, namedCaptures, replacementTemplate)
+GetSubstitution(matched, string, position, captures, namedCaptures, replacementTemplate)
 abstract-op
 ecmascript
 ecmascript
@@ -2791,8 +2867,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-getsubstitution
 1
 1
 -
-GetSuperBase()
-GetSuperBase()
+GetSuperBase
+GetSuperBase
 abstract-op
 ecmascript
 ecmascript
@@ -2801,7 +2877,17 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-getsuperbase
 1
 1
-Function Environment Records
+-
+GetSuperBase(envRecord)
+GetSuperBase(envRecord)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-getsuperbase
+1
+1
 -
 GetSuperConstructor
 GetSuperConstructor
@@ -2846,6 +2932,18 @@ current
 https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-gettemplateobject
 1
 1
+-
+GetThisBinding()
+GetThisBinding()
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-declarative-environment-records-getthisbinding
+1
+1
+Declarative Environment Records
 -
 GetThisBinding()
 GetThisBinding()
@@ -2883,6 +2981,18 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Module Environment Records
 -
+GetThisBinding()
+GetThisBinding()
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-object-environment-records-getthisbinding
+1
+1
+Object Environment Records
+-
 GetThisEnvironment
 GetThisEnvironment
 abstract-op
@@ -2916,8 +3026,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-gett
 1
 1
 -
-GetThisValue(V)
-GetThisValue(V)
+GetThisValue(refRecord)
+GetThisValue(refRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -2946,6 +3056,28 @@ ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-getutcepochnanoseconds
+1
+1
+-
+GetUint8ArrayBytes
+GetUint8ArrayBytes
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-getuint8arraybytes
+1
+1
+-
+GetUint8ArrayBytes(ta)
+GetUint8ArrayBytes(ta)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-getuint8arraybytes
 1
 1
 -
@@ -2960,8 +3092,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-getv
 1
 1
 -
-GetV(V, P)
-GetV(V, P)
+GetV(value, propertyKey)
+GetV(value, propertyKey)
 abstract-op
 ecmascript
 ecmascript
@@ -2982,8 +3114,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-getv
 1
 1
 -
-GetValue(V)
-GetValue(V)
+GetValue(refRecord)
+GetValue(refRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -3079,6 +3211,72 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/structured-data.html#sec-getwaiterlist
 1
+1
+-
+[[getownproperty]] internal method of an exported gc object
+[[GetOwnProperty]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#getownproperty-internal-method-of-an-exported-gc-object
+
+1
+-
+[[getownproperty]] internal method of an exported gc object
+[[GetOwnProperty]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#getownproperty-internal-method-of-an-exported-gc-object
+
+1
+-
+[[getprototypeof]] internal method of an exported gc object
+[[GetPrototypeOf]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#getprototypeof-internal-method-of-an-exported-gc-object
+
+1
+-
+[[getprototypeof]] internal method of an exported gc object
+[[GetPrototypeOf]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#getprototypeof-internal-method-of-an-exported-gc-object
+
+1
+-
+[[get]] internal method of an exported gc object
+[[Get]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#get-internal-method-of-an-exported-gc-object
+
+1
+-
+[[get]] internal method of an exported gc object
+[[Get]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#get-internal-method-of-an-exported-gc-object
+
 1
 -
 [[generate timestamps flag]]
@@ -3307,6 +3505,50 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-gender-identity
 
 1
 -
+general flash and red flash thresholds
+general flash and red flash thresholds
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-general-flash-and-red-flash-thresholds
+
+
+-
+general flash and red flash thresholds
+general flash and red flash thresholds
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-general-flash-and-red-flash-thresholds
+
+1
+-
+general flash and red flash thresholds
+general flash and red flash thresholds
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-general-flash-and-red-flash-thresholds
+
+
+-
+general flash and red flash thresholds
+general flash and red flash thresholds
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-general-flash-and-red-flash-thresholds
+
+1
+-
 generalized rdf (rdfs) closure
 generalized RDF (RDFS) closure
 dfn
@@ -3395,6 +3637,61 @@ https://www.w3.org/TR/rdf12-concepts/#dfn-generalized-rdf-triple
 1
 
 -
+generate
+generate
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#generate
+
+1
+-
+generate a css selector
+generate a CSS selector
+dfn
+event-timing
+event-timing
+1
+current
+https://w3c.github.io/event-timing/#generate-a-css-selector
+1
+1
+-
+generate a css selector
+generate a CSS selector
+dfn
+event-timing
+event-timing
+1
+snapshot
+https://www.w3.org/TR/event-timing/#generate-a-css-selector
+1
+1
+-
+generate a browser bound signature
+generate a browser bound signature
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#generate-a-browser-bound-signature
+
+1
+-
+generate a browser bound signature
+generate a browser bound signature
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#generate-a-browser-bound-signature
+
+1
+-
 generate a change password url
 generate a change password url
 dfn
@@ -3415,6 +3712,28 @@ change-password-url
 snapshot
 https://www.w3.org/TR/change-password-url/#generate-a-change-password-url
 1
+1
+-
+generate a changeid
+generate a changeId
+dfn
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#generate-a-changeid
+
+1
+-
+generate a changeid
+generate a changeId
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#generate-a-changeid
+
 1
 -
 generate a counter
@@ -3563,12 +3882,34 @@ https://w3c.github.io/DOM-Parsing/#dfn-generating-a-prefix
 generate a random uuid
 generate a random UUID
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-generate-a-random-uuid
 1
+1
+-
+generate a random uuid
+generate a random UUID
+dfn
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-generate-a-random-uuid
+1
+1
+-
+generate a random integer
+generate a random integer
+dfn
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#generate-a-random-integer
+
 1
 -
 generate a regular expression and name list
@@ -3601,17 +3942,6 @@ reporting
 1
 snapshot
 https://www.w3.org/TR/reporting-1/#generate-a-report
-
-1
--
-generate a report url
-generate a report URL
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#generate-a-report-url
 
 1
 -
@@ -3659,17 +3989,6 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-generate-a-validation-error
 1
 1
 -
-generate a verbose debug report url
-generate a verbose debug report URL
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#generate-a-verbose-debug-report-url
-
-1
--
 generate all implied end tags thoroughly
 generate all implied end tags thoroughly
 dfn
@@ -3678,17 +3997,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/parsing.html#generate-all-implied-end-tags-thoroughly
-
-1
--
-generate an aggregatable debug report url
-generate an aggregatable debug report URL
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#generate-an-aggregatable-debug-report-url
 
 1
 -
@@ -3703,17 +4011,6 @@ https://privacycg.github.io/private-click-measurement/#generate-an-attribution-r
 
 1
 -
-generate an attribution report url
-generate an attribution report URL
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#generate-an-attribution-report-url
-
-1
--
 generate an id
 generate an id
 dfn
@@ -3721,7 +4018,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-generate-an-id
+https://w3c.github.io/performance-timeline/#generate-an-id
 1
 1
 -
@@ -3802,17 +4099,6 @@ https://www.w3.org/TR/reporting-1/#generate-and-queue-a-report
 1
 1
 -
-generate and score bids
-generate and score bids
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generate-and-score-bids
-
-1
--
 generate baselines
 generate baselines
 dfn
@@ -3879,28 +4165,6 @@ https://wicg.github.io/trust-token-api/#generate-masked-tokens
 
 1
 -
-generate null attribution reports
-generate null attribution reports
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#generate-null-attribution-reports
-
-1
--
-generate potentially multiple bids
-generate potentially multiple bids
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generate-potentially-multiple-bids
-
-1
--
 generate the internal representation
 generate the internal representation
 dfn
@@ -3922,30 +4186,6 @@ snapshot
 https://www.w3.org/TR/pub-manifest/#dfn-processing-algorithm
 
 1
--
-generate-bid
-generate-bid
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#worklet-function-generate-bid
-
-1
-worklet function
--
-generate-bid
-generate-bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#reporting-bid-source-generate-bid
-
-1
-reporting bid source
 -
 generateAssertion
 generateAssertion
@@ -4019,23 +4259,36 @@ https://www.w3.org/TR/webrtc/#dom-rtcpeerconnection-generatecertificate
 1
 RTCPeerConnection
 -
-generatekey
-generateKey
-dfn
-webcryptoapi
-webcryptoapi
+generateKey()
+generateKey()
+method
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-generateKey
 1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-generateKey
-
 1
+SubtleCrypto
 -
 generateKey()
 generateKey()
 method
-webcryptoapi
-webcryptoapi
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-generateKey
 1
+1
+SubtleCrypto
+-
+generateKey(algorithm, extractable, keyUsages)
+generateKey(algorithm, extractable, keyUsages)
+method
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-generateKey
 1
@@ -4045,11 +4298,11 @@ SubtleCrypto
 generateKey(algorithm, extractable, keyUsages)
 generateKey(algorithm, extractable, keyUsages)
 method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-generateKey
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-generateKey
 1
 1
 SubtleCrypto
@@ -4072,47 +4325,11 @@ method
 webrtc-encoded-transform
 webrtc-encoded-transform
 1
-current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpsender-generatekeyframe
-1
-1
-RTCRtpSender
--
-generateKeyFrame()
-generateKeyFrame()
-method
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
 snapshot
 https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-generatekeyframe
 1
 1
 RTCRtpScriptTransformer
--
-generateKeyFrame()
-generateKeyFrame()
-method
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpsender-generatekeyframe
-1
-1
-RTCRtpSender
--
-generateKeyFrame(rid)
-generateKeyFrame(rid)
-method
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransform-generatekeyframe
-1
-1
-RTCRtpScriptTransform
 -
 generateKeyFrame(rid)
 generateKeyFrame(rid)
@@ -4133,46 +4350,10 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-generatekeyframe
-1
-1
-RTCRtpScriptTransform
--
-generateKeyFrame(rid)
-generateKeyFrame(rid)
-method
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-snapshot
 https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-generatekeyframe
 1
 1
 RTCRtpScriptTransformer
--
-generateKeyFrame(rids)
-generateKeyFrame(rids)
-method
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpsender-generatekeyframe
-1
-1
-RTCRtpSender
--
-generateKeyFrame(rids)
-generateKeyFrame(rids)
-method
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpsender-generatekeyframe
-1
-1
-RTCRtpSender
 -
 generateRequest()
 generateRequest()
@@ -4244,23 +4425,23 @@ https://www.w3.org/TR/css-page-3/#generated
 
 1
 -
-generated bid
-generated bid
+generated code
+generated code
 dfn
-turtledove
-turtledove
+ecma-426
+ecma-426
 1
 current
-https://wicg.github.io/turtledove/#generated-bid
-
+https://tc39.es/ecma426/#sec-terms-and-definitions-generated-code
+1
 1
 -
 generated content
 generated content
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#generated-content
 
@@ -4271,20 +4452,9 @@ generated content
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#x0
-1
-1
--
-generated content
-generated content
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#x0
+https://www.w3.org/TR/CSS2/generate.html#x0
 1
 1
 -
@@ -4298,30 +4468,6 @@ current
 https://w3c.github.io/DOM-Parsing/#dfn-generated-namespace-prefix-index
 
 1
--
-generatedcolumn
-generatedColumn
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#decoded-mapping-generatedcolumn
-
-1
-decoded mapping
--
-generatedline
-generatedLine
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#decoded-mapping-generatedline
-
-1
-decoded mapping
 -
 generates an anonymous <mrow> box
 generates an anonymous <mrow> box
@@ -4434,6 +4580,30 @@ https://html.spec.whatwg.org/multipage/semantics.html#meta-generator
 1
 meta/name
 -
+generator
+generator
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptgeneratorremotevalue-type-generator
+
+1
+script.GeneratorRemoteValue/type
+-
+generator
+generator
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptgeneratorremotevalue-type-generator
+
+1
+script.GeneratorRemoteValue/type
+-
 generator-unable-to-provide-required-alt
 generator-unable-to-provide-required-alt
 dfn
@@ -4489,7 +4659,7 @@ https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-fangsong
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 generic(fangsong)
 generic(fangsong)
@@ -4502,7 +4672,7 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-family-generic-fangsong
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 generic(kai)
 generic(kai)
@@ -4515,7 +4685,7 @@ https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-kai
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 generic(kai)
 generic(kai)
@@ -4528,7 +4698,33 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-family-generic-kai
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
+-
+generic(khmer-mul)
+generic(khmer-mul)
+value
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-khmer-mul
+1
+1
+font-family
+<generic-font-family>
+-
+generic(khmer-mul)
+generic(khmer-mul)
+value
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#valdef-font-family-generic-khmer-mul
+1
+1
+font-family
+<generic-font-family>
 -
 generic(nastaliq)
 generic(nastaliq)
@@ -4541,7 +4737,7 @@ https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-nastaliq
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 generic(nastaliq)
 generic(nastaliq)
@@ -4554,7 +4750,7 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-family-generic-nastaliq
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 geo
 geo
@@ -4580,17 +4776,6 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vevent-geo
 -
 geolocation
 geolocation
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#geolocation
-
-1
--
-geolocation
-geolocation
 attribute
 geolocation
 geolocation
@@ -4603,13 +4788,13 @@ Navigator
 -
 geolocation
 geolocation
-dfn
-geolocation-sensor
-geolocation-sensor
+element
+geolocation-element
+geolocation-element
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#geolocation
-
+current
+https://wicg.github.io/PEPC/geolocation-element.html#elementdef-geolocation
+1
 1
 -
 geolocation
@@ -4623,6 +4808,50 @@ https://www.w3.org/TR/geolocation/#dom-navigator-geolocation
 1
 1
 Navigator
+-
+geolocation override
+geolocation override
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#geolocation-override
+
+1
+-
+geolocation override
+geolocation override
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#geolocation-override
+
+1
+-
+geolocation override configuration
+geolocation override configuration
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#geolocation-override-configuration
+
+1
+-
+geolocation override configuration
+geolocation override configuration
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#geolocation-override-configuration
+
+1
 -
 geolocation task source
 geolocation task source
@@ -4646,28 +4875,6 @@ https://www.w3.org/TR/geolocation/#dfn-geolocation-task-source
 
 1
 -
-geolocation virtual sensor type
-geolocation virtual sensor type
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#geolocation-virtual-sensor-type
-
-1
--
-geolocation virtual sensor type
-geolocation virtual sensor type
-dfn
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#geolocation-virtual-sensor-type
-
-1
--
 geometricPrecision
 geometricPrecision
 enum-value
@@ -4687,7 +4894,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/geometry.html#geometry-properties
+https://w3c.github.io/svgwg/svg2-draft/geometry.html#geometry-properties
 1
 1
 -
@@ -4717,9 +4924,9 @@ https://drafts.csswg.org/css-counter-styles-3/#georgian
 georgian
 georgian
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-georgian
 1
@@ -4731,20 +4938,9 @@ georgian
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-georgian
-1
-1
--
-georgian
-georgian
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-georgian
+https://www.w3.org/TR/CSS2/generate.html#value-def-georgian
 1
 1
 -
@@ -4759,6 +4955,28 @@ https://www.w3.org/TR/css-counter-styles-3/#georgian
 1
 1
 <counter-style-name>
+-
+gesture
+gesture
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-gesture
+
+1
+-
+gesture
+gesture
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-gesture
+
+1
 -
 get
 get
@@ -4798,18 +5016,6 @@ https://infra.spec.whatwg.org/#map-get
 1
 map
 -
-get
-get
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#sanitizer-get
-1
-1
-Sanitizer
--
 get %TypedArray%.prototype [ %Symbol.toStringTag% ]
 get %TypedArray%.prototype [ %Symbol.toStringTag% ]
 attribute
@@ -4833,6 +5039,17 @@ https://w3c.github.io/webdriver-bidi/#get-element-from-inputelementorigin-steps
 
 1
 -
+get element from input.elementorigin steps
+get Element from input.ElementOrigin steps
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-element-from-inputelementorigin-steps
+
+1
+-
 get Iterator.prototype [ %Symbol.toStringTag% ]
 get Iterator.prototype [ %Symbol.toStringTag% ]
 attribute
@@ -4845,37 +5062,48 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-itera
 1
 Iterator.prototype [ %Symbol.toStringTag% ]
 -
-get os registrations from a header value
-get OS registrations from a header value
+get trusted type data for attribute
+get Trusted Type data for attribute
 dfn
-attribution-reporting-api
-attribution-reporting-api
+trusted-types
+trusted-types
 1
 current
-https://wicg.github.io/attribution-reporting-api/#get-os-registrations-from-a-header-value
+https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-data-for-attribute%E2%91%A0
 
 1
 -
-get Trusted Types-compliant attribute value
-get Trusted Types-compliant attribute value
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-get-trusted-types-compliant-attribute-value
-1
-1
--
-get Trusted Types-compliant attribute value
-get Trusted Types-compliant attribute value
-abstract-op
+get trusted type data for attribute
+get Trusted Type data for attribute
+dfn
 trusted-types
 trusted-types
 1
 snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-get-trusted-types-compliant-attribute-value
+https://www.w3.org/TR/trusted-types/#get-trusted-type-data-for-attribute%E2%91%A0
+
 1
+-
+get webdriver configuration value
+get WebDriver configuration value
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-webdriver-configuration-value
+
+1
+-
+get webdriver configuration value
+get WebDriver configuration value
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-webdriver-configuration-value
+
 1
 -
 get a backgroundfetchregistration instance
@@ -4922,6 +5150,28 @@ https://www.w3.org/TR/webdriver2/#dfn-get-a-webelement-origin
 
 1
 -
+get a browser bound public key
+get a browser bound public key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#get-a-browser-bound-public-key
+
+1
+-
+get a browser bound public key
+get a browser bound public key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#get-a-browser-bound-public-key
+
+1
+-
 get a copy of the buffer source
 get a copy of the buffer source
 dfn
@@ -4963,17 +5213,6 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#abstract-opdef-get-a-copy-of-the-image-contents-of-a-context
-1
-1
--
-get a debug details
-get a debug details
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#get-a-debug-details
 1
 1
 -
@@ -5029,6 +5268,17 @@ js-self-profiling
 1
 current
 https://wicg.github.io/js-self-profiling/#dfn-get-a-frame-id
+
+1
+-
+get a glyph
+get a glyph
+dfn
+mathml-core
+mathml-core
+1
+current
+https://w3c.github.io/mathml-core/#dfn-get-a-glyph
 
 1
 -
@@ -5150,6 +5400,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-a-navigable
+1
+1
+-
+get a navigable
+get a navigable
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-a-navigable
 1
 1
 -
@@ -5286,6 +5547,17 @@ https://w3c.github.io/webdriver-bidi/#get-a-realm
 
 1
 -
+get a realm
+get a realm
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-a-realm
+
+1
+-
 get a realm from a navigable
 get a realm from a navigable
 dfn
@@ -5297,6 +5569,17 @@ https://w3c.github.io/webdriver-bidi/#get-a-realm-from-a-navigable
 
 1
 -
+get a realm from a navigable
+get a realm from a navigable
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-a-realm-from-a-navigable
+
+1
+-
 get a realm from a target
 get a realm from a target
 dfn
@@ -5305,6 +5588,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-a-realm-from-a-target
+
+1
+-
+get a realm from a target
+get a realm from a target
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-a-realm-from-a-target
 
 1
 -
@@ -5341,17 +5635,38 @@ https://w3c.github.io/webdriver-bidi/#get-a-sandbox-name
 
 1
 -
-get a sanitizer config from options
-get a sanitizer config from options
+get a sandbox name
+get a sandbox name
 dfn
-sanitizer-api
-sanitizer-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/sanitizer-api/#sanitizerconfig-get-a-sanitizer-config-from-options
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-a-sandbox-name
 
 1
-SanitizerConfig
+-
+get a sanitizer instance from options
+get a sanitizer instance from options
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#get-a-sanitizer-instance-from-options
+
+1
+-
+get a select's enabled selectedcontent
+get a select's enabled selectedcontent
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#select-enabled-selectedcontent
+
+1
 -
 get a session id for a websocket resource
 get a session ID for a WebSocket resource
@@ -5364,6 +5679,17 @@ https://w3c.github.io/webdriver-bidi/#get-a-session-id-for-a-websocket-resource
 
 1
 -
+get a session id for a websocket resource
+get a session ID for a WebSocket resource
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-a-session-id-for-a-websocket-resource
+
+1
+-
 get a stack id
 get a stack ID
 dfn
@@ -5373,6 +5699,17 @@ js-self-profiling
 current
 https://wicg.github.io/js-self-profiling/#dfn-get-a-stack-id
 
+1
+-
+get a streaming ai model result
+get a streaming AI model result
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#get-a-streaming-ai-model-result
+1
 1
 -
 get a structured field value
@@ -5509,6 +5846,28 @@ https://html.spec.whatwg.org/multipage/parsing.html#concept-get-xml-encoding-whe
 
 1
 -
+get an aggregated ai model result
+get an aggregated AI model result
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#get-an-aggregated-ai-model-result
+1
+1
+-
+get an async iterator next value
+get an async iterator next value
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#async-iterator-get-next-value
+1
+1
+-
 get an attribute
 get an attribute
 dfn
@@ -5564,6 +5923,28 @@ https://wicg.github.io/js-self-profiling/#dfn-get-an-element-id
 
 1
 -
+get an element's computed heading level
+get an element's computed heading level
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/sections.html#get-an-element's-computed-heading-level
+
+1
+-
+get an element's computed heading offset
+get an element's computed heading offset
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/sections.html#get-an-element's-computed-heading-offset
+
+1
+-
 get an element's noopener
 get an element's noopener
 dfn
@@ -5583,17 +5964,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/semantics.html#get-an-element's-target
-
-1
--
-get an eligibility from attributionreportingrequestoptions
-get an eligibility from AttributionReportingRequestOptions
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#get-an-eligibility-from-attributionreportingrequestoptions
 
 1
 -
@@ -5641,6 +6011,17 @@ https://www.w3.org/TR/webdriver2/#dfn-get-an-input-source
 
 1
 -
+get an optgroup element's label
+get an optgroup element's label
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#concept-optgroup-label
+
+1
+-
 get an output encoding
 get an output encoding
 dfn
@@ -5652,17 +6033,49 @@ https://encoding.spec.whatwg.org/#get-an-output-encoding
 1
 1
 -
-get batching scope steps
-get batching scope steps
-dfn
-private-aggregation-api
-private-aggregation-api
+get as buffer binding
+get as buffer binding
+abstract-op
+webgpu
+webgpu
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#scoping-details-get-batching-scope-steps
-
+https://gpuweb.github.io/gpuweb/#abstract-opdef-get-as-buffer-binding
 1
-scoping details
+1
+-
+get as buffer binding
+get as buffer binding
+abstract-op
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#abstract-opdef-get-as-buffer-binding
+1
+1
+-
+get as texture view
+get as texture view
+abstract-op
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#abstract-opdef-get-as-texture-view
+1
+1
+-
+get as texture view
+get as texture view
+abstract-op
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#abstract-opdef-get-as-texture-view
+1
+1
 -
 get boundary point at index
 get boundary point at index
@@ -5687,6 +6100,28 @@ https://w3c.github.io/mediacapture-automation/#get-capture-prompt-result
 1
 extension commands
 -
+get collected data
+get collected data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-collected-data
+
+1
+-
+get collected data
+get collected data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-collected-data
+
+1
+-
 get coordinates relative to an origin
 get coordinates relative to an origin
 dfn
@@ -5707,39 +6142,6 @@ webdriver
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-get-coordinates-relative-to-an-origin
 
-1
--
-get current interaction data
-get current interaction data
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#get-current-interaction-data
-
-1
--
-get current task
-get current task
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#get-current-task
-1
-1
--
-get current task id
-get current task id
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#get-current-task-id
-1
 1
 -
 get deadline time
@@ -5764,60 +6166,26 @@ https://www.w3.org/TR/requestidlecallback/#dfn-get-deadline-time
 
 1
 -
-get debug scope steps
-get debug scope steps
+get download behavior
+get download behavior
 dfn
-private-aggregation-api
-private-aggregation-api
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#scoping-details-get-debug-scope-steps
-
+https://w3c.github.io/webdriver-bidi/#get-download-behavior
 1
-scoping details
--
-get descendant topics
-get descendant topics
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#get-descendant-topics
-
 1
 -
-get direct from seller signals
-get direct from seller signals
+get download behavior
+get download behavior
 dfn
-turtledove
-turtledove
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/turtledove/#get-direct-from-seller-signals
-
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-download-behavior
 1
--
-get direct from seller signals for a buyer
-get direct from seller signals for a buyer
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#get-direct-from-seller-signals-for-a-buyer
-
-1
--
-get direct from seller signals for a seller
-get direct from seller signals for a seller
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#get-direct-from-seller-signals-for-a-seller
-
 1
 -
 get element origin
@@ -5842,6 +6210,83 @@ https://www.w3.org/TR/webdriver2/#dfn-get-element-origin
 
 1
 -
+get emulated forced colors theme data
+get emulated forced colors theme data
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+current
+https://drafts.csswg.org/css-color-adjust-1/#get-emulated-forced-colors-theme-data
+
+1
+-
+get emulated forced colors theme data
+get emulated forced colors theme data
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+snapshot
+https://www.w3.org/TR/css-color-adjust-1/#get-emulated-forced-colors-theme-data
+
+1
+-
+get emulated network conditions
+get emulated network conditions
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-emulated-network-conditions
+
+1
+-
+get emulated network conditions
+get emulated network conditions
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-emulated-network-conditions
+
+1
+-
+get emulated position data
+get emulated position data
+dfn
+geolocation
+geolocation
+1
+current
+https://w3c.github.io/geolocation/#dfn-get-emulated-position-data
+
+1
+-
+get emulated position data
+get emulated position data
+dfn
+geolocation
+geolocation
+1
+snapshot
+https://www.w3.org/TR/geolocation/#dfn-get-emulated-position-data
+
+1
+-
+get enabled state
+get enabled state
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#close-watcher-get-enabled-state
+
+1
+-
 get exception details
 get exception details
 dfn
@@ -5853,6 +6298,17 @@ https://w3c.github.io/webdriver-bidi/#get-exception-details
 
 1
 -
+get exception details
+get exception details
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-exception-details
+
+1
+-
 get matching cookies
 get matching cookies
 dfn
@@ -5861,6 +6317,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-matching-cookies
+
+1
+-
+get matching cookies
+get matching cookies
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-matching-cookies
 
 1
 -
@@ -5876,14 +6343,102 @@ https://w3c.github.io/mediacapture-automation/#get-mock-capture-devices
 1
 extension commands
 -
-get or create a batching scope
-get or create a batching scope
+get navigable for request
+get navigable for request
 dfn
-private-aggregation-api
-private-aggregation-api
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#get-or-create-a-batching-scope
+https://w3c.github.io/webdriver-bidi/#get-navigable-for-request
+
+1
+-
+get navigable for request
+get navigable for request
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-navigable-for-request
+
+1
+-
+get navigable's user prompt handler
+get navigable's user prompt handler
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-navigables-user-prompt-handler
+
+1
+-
+get navigable's user prompt handler
+get navigable's user prompt handler
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-navigables-user-prompt-handler
+
+1
+-
+get navigables by ids
+get navigables by ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-navigables-by-ids
+
+1
+-
+get navigables by ids
+get navigables by ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-navigables-by-ids
+
+1
+-
+get noopener for window open
+get noopener for window open
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#get-noopener-for-window-open
+
+1
+-
+get or create a browser bound key
+get or create a browser bound key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#get-or-create-a-browser-bound-key
+
+1
+-
+get or create a browser bound key
+get or create a browser bound key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#get-or-create-a-browser-bound-key
 
 1
 -
@@ -5917,6 +6472,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-or-create-a-sandbox-realm
+
+1
+-
+get or create a sandbox realm
+get or create a sandbox realm
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-or-create-a-sandbox-realm
 
 1
 -
@@ -5997,14 +6563,14 @@ https://wicg.github.io/storage-buckets/#get-or-expire-a-bucket
 
 1
 -
-get registration info from a header list
-get registration info from a header list
+get related navigables
+get related navigables
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#get-registration-info-from-a-header-list
+https://w3c.github.io/webdriver-bidi/#get-related-navigables
 
 1
 -
@@ -6014,8 +6580,8 @@ dfn
 webdriver-bidi
 webdriver-bidi
 1
-current
-https://w3c.github.io/webdriver-bidi/#get-related-navigables
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-related-navigables
 
 1
 -
@@ -6063,25 +6629,14 @@ https://w3c.github.io/webdriver-bidi/#get-shared-id-for-a-node
 
 1
 -
-get sources to delete for the unexpired destination limit
-get sources to delete for the unexpired destination limit
+get shared id for a node
+get shared id for a node
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/attribution-reporting-api/#get-sources-to-delete-for-the-unexpired-destination-limit
-
-1
--
-get storage interest groups for owner
-get storage interest groups for owner
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#get-storage-interest-groups-for-owner
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-shared-id-for-a-node
 
 1
 -
@@ -6108,17 +6663,6 @@ https://www.w3.org/TR/FileAPI/#blob-get-stream
 1
 1
 Blob
--
-get supported registrars
-get supported registrars
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#get-supported-registrars
-1
-1
 -
 get text content
 get text content
@@ -6173,6 +6717,28 @@ web-bluetooth
 current
 https://webbluetoothcg.github.io/web-bluetooth/#get-the-bluetoothdevice-representing
 1
+1
+-
+get the javascript exception tag
+get the JavaScript exception tag
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#get-the-javascript-exception-tag
+
+1
+-
+get the javascript exception tag
+get the JavaScript exception tag
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#get-the-javascript-exception-tag
+
 1
 -
 get the mime type
@@ -6235,17 +6801,6 @@ https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#attr-associate
 Element
 ElementInternals
 -
-get the automatic beacon data mapping to use
-get the automatic beacon data mapping to use
-dfn
-fenced-frame
-fenced-frame
-1
-current
-https://wicg.github.io/fenced-frame/#get-the-automatic-beacon-data-mapping-to-use
-
-1
--
 get the bounding box
 get the bounding box
 dfn
@@ -6258,14 +6813,37 @@ https://drafts.csswg.org/cssom-view-1/#element-get-the-bounding-box
 1
 Element
 -
-get the canonical url string if valid
-get the canonical URL string if valid
+get the bounding box
+get the bounding box
 dfn
-shared-storage
-shared-storage
+cssom-view-1
+cssom-view
 1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#element-get-the-bounding-box
+1
+1
+Element
+-
+get the builtins for a builtin set
+get the builtins for a builtin set
+dfn
+wasm-js-api-2
+wasm-js-api
+2
 current
-https://wicg.github.io/shared-storage/#get-the-canonical-url-string-if-valid
+https://webassembly.github.io/spec/js-api/#get-the-builtins-for-a-builtin-set
+
+1
+-
+get the builtins for a builtin set
+get the builtins for a builtin set
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#get-the-builtins-for-a-builtin-set
 
 1
 -
@@ -6280,6 +6858,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-child-navigables
 
 1
 -
+get the child navigables
+get the child navigables
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-child-navigables
+
+1
+-
 get the client window info
 get the client window info
 dfn
@@ -6288,6 +6877,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-client-window-info
+
+1
+-
+get the client window info
+get the client window info
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-client-window-info
 
 1
 -
@@ -6302,6 +6902,28 @@ https://w3c.github.io/webdriver-bidi/#get-the-client-window-state
 
 1
 -
+get the client window state
+get the client window state
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-client-window-state
+
+1
+-
+get the container root element
+get the container root element
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#get-the-container-root-element
+
+1
+-
 get the content attribute
 get the content attribute
 dfn
@@ -6313,6 +6935,28 @@ https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#get-the-conten
 
 1
 -
+get the context for an interaction
+get the context for an interaction
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#get-the-context-for-an-interaction
+
+1
+-
+get the continuation state value
+get the continuation state value
+dfn
+scheduling-apis
+scheduling-apis
+1
+current
+https://wicg.github.io/scheduling-apis/#get-the-continuation-state-value
+
+1
+-
 get the cookie store
 get the cookie store
 dfn
@@ -6321,6 +6965,50 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-cookie-store
+
+1
+-
+get the cookie store
+get the cookie store
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-cookie-store
+
+1
+-
+get the current epoch
+get the current epoch
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#get-the-current-epoch
+
+1
+-
+get the current epoch
+get the current epoch
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#get-the-current-epoch
+
+1
+-
+get the current interaction context
+get the current interaction context
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#get-the-current-interaction-context
 
 1
 -
@@ -6338,12 +7026,35 @@ https://w3c.github.io/permissions/#dfn-getting-the-current-permission-state
 get the current permission state
 get the current permission state
 dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#powerfulfeatureobserver-get-the-current-permission-state
+
+1
+PowerfulFeatureObserver
+-
+get the current permission state
+get the current permission state
+dfn
 permissions
 permissions
 1
 snapshot
 https://www.w3.org/TR/permissions/#dfn-getting-the-current-permission-state
 1
+1
+-
+get the current scheduling state
+get the current scheduling state
+dfn
+scheduling-apis
+scheduling-apis
+1
+current
+https://wicg.github.io/scheduling-apis/#get-the-current-scheduling-state
+
 1
 -
 get the current value of the event handler
@@ -6354,17 +7065,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/webappapis.html#getting-the-current-value-of-the-event-handler
-
-1
--
-get the default selecturl index
-get the default selectURL index
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#get-the-default-selecturl-index
 
 1
 -
@@ -6412,6 +7112,17 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-get-the-entry-point
 1
 1
 -
+get the expected content types
+get the expected content types
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#get-the-expected-content-types
+
+1
+-
 get the fetch timings
 get the fetch timings
 dfn
@@ -6420,6 +7131,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-fetch-timings
+
+1
+-
+get the fetch timings
+get the fetch timings
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-fetch-timings
 
 1
 -
@@ -6467,17 +7189,6 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#getting-the-history
 
 1
 -
-get the index for a saved query
-get the index for a saved query
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#get-the-index-for-a-saved-query
-
-1
--
 get the indices
 get the indices
 dfn
@@ -6501,6 +7212,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-initiator
+
+1
+-
+get the initiator
+get the initiator
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-initiator
 
 1
 -
@@ -6549,6 +7271,17 @@ https://infra.spec.whatwg.org/#map-getting-the-keys
 1
 map
 -
+get the language availabilities partition
+get the language availabilities partition
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#get-the-language-availabilities-partition
+1
+1
+-
 get the legacy windows version number
 get the legacy Windows version number
 dfn
@@ -6585,6 +7318,17 @@ https://www.w3.org/TR/web-locks/#get-the-lock-request-queue
 get the login status
 get the login status
 dfn
+login-status
+login-status
+1
+current
+https://w3c-fedid.github.io/login-status/#get-the-login-status
+
+1
+-
+get the login status
+get the login status
+dfn
 fedcm-1
 fedcm
 1
@@ -6604,6 +7348,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-navigable
 
 1
 -
+get the navigable
+get the navigable
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-navigable
+
+1
+-
 get the navigable info
 get the navigable info
 dfn
@@ -6612,6 +7367,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-navigable-info
+
+1
+-
+get the navigable info
+get the navigable info
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-navigable-info
 
 1
 -
@@ -6637,6 +7403,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-navigation-info
 
 1
 -
+get the navigation info
+get the navigation info
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-navigation-info
+
+1
+-
 get the network intercepts
 get the network intercepts
 dfn
@@ -6645,6 +7422,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-network-intercepts
+
+1
+-
+get the network intercepts
+get the network intercepts
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-network-intercepts
 
 1
 -
@@ -6659,14 +7447,14 @@ https://urlpattern.spec.whatwg.org/#get-the-next-code-point
 
 1
 -
-get the next internal id
-get the next internal ID
+get the next interactionid
+get the next interactionId
 dfn
-attribution-reporting-api
-attribution-reporting-api
+soft-navigations
+soft-navigations
 1
 current
-https://wicg.github.io/attribution-reporting-api/#get-the-next-internal-id
+https://wicg.github.io/soft-navigations/#get-the-next-interactionid
 
 1
 -
@@ -6681,18 +7469,6 @@ https://webidl.spec.whatwg.org/#dfn-get-the-next-iteration-result
 1
 1
 -
-get the next iteration result
-get the next iteration result
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorageiterator-get-the-next-iteration-result
-
-1
-SharedStorageIterator
--
 get the notifications permission state
 get the notifications permission state
 dfn
@@ -6701,17 +7477,6 @@ notifications
 1
 current
 https://notifications.spec.whatwg.org/#get-the-notifications-permission-state
-
-1
--
-get the number of distinct versions in epochs
-get the number of distinct versions in epochs
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#get-the-number-of-distinct-versions-in-epochs
 
 1
 -
@@ -6737,6 +7502,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-origin-rectangle
 
 1
 -
+get the origin rectangle
+get the origin rectangle
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-origin-rectangle
+
+1
+-
 get the parent
 get the parent
 dfn
@@ -6748,14 +7524,14 @@ https://dom.spec.whatwg.org/#get-the-parent
 1
 1
 -
-get the parent navigable
-get the parent navigable
+get the parent container root element
+get the parent container root element
 dfn
-webdriver-bidi
-webdriver-bidi
+container-timing
+container-timing
 1
 current
-https://w3c.github.io/webdriver-bidi/#get-the-parent-navigable
+https://wicg.github.io/container-timing/#get-the-parent-container-root-element
 
 1
 -
@@ -6770,15 +7546,15 @@ https://wicg.github.io/ua-client-hints/#get-the-platform-version
 
 1
 -
-get the privateaggregation
-get the privateAggregation
+get the popover stack position
+get the popover stack position
 dfn
-private-aggregation-api
-private-aggregation-api
+html
+html
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#get-the-privateaggregation
-1
+https://html.spec.whatwg.org/multipage/popover.html#get-the-popover-stack-position
+
 1
 -
 get the prompt handler
@@ -6814,6 +7590,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-protocol
 
 1
 -
+get the protocol
+get the protocol
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-protocol
+
+1
+-
 get the realm info
 get the realm info
 dfn
@@ -6825,14 +7612,14 @@ https://w3c.github.io/webdriver-bidi/#get-the-realm-info
 
 1
 -
-get the registration platform
-get the registration platform
+get the realm info
+get the realm info
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/attribution-reporting-api/#get-the-registration-platform
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-realm-info
 
 1
 -
@@ -6847,6 +7634,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-request-data
 
 1
 -
+get the request data
+get the request data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-request-data
+
+1
+-
 get the response content info
 get the response content info
 dfn
@@ -6855,6 +7653,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#get-the-response-content-info
+
+1
+-
+get the response content info
+get the response content info
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-response-content-info
 
 1
 -
@@ -6869,6 +7678,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-response-data
 
 1
 -
+get the response data
+get the response data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-response-data
+
+1
+-
 get the runnable task queues
 get the runnable task queues
 dfn
@@ -6877,17 +7697,6 @@ scheduling-apis
 1
 current
 https://wicg.github.io/scheduling-apis/#get-the-runnable-task-queues
-
-1
--
-get the select-url result index
-get the select-url result index
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#get-the-select-url-result-index
 
 1
 -
@@ -6946,14 +7755,47 @@ https://w3c.github.io/webdriver-bidi/#get-the-source
 
 1
 -
-get the string value
-get the string value
+get the source
+get the source
 dfn
-shared-storage
-shared-storage
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-source
+
+1
+-
+get the starting epoch for attribution
+get the starting epoch for attribution
+dfn
+attribution
+attribution
 1
 current
-https://wicg.github.io/shared-storage/#get-the-string-value
+https://w3c.github.io/attribution/#get-the-starting-epoch-for-attribution
+
+1
+-
+get the starting epoch for attribution
+get the starting epoch for attribution
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#get-the-starting-epoch-for-attribution
+
+1
+-
+get the suggested filename
+get the suggested filename
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/links.html#getting-the-suggested-filename
 
 1
 -
@@ -7036,6 +7878,17 @@ https://w3c.github.io/webdriver-bidi/#get-the-workers-owners
 
 1
 -
+get the worker's owners
+get the worker's owners
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-the-workers-owners
+
+1
+-
 get time origin timestamp
 get time origin timestamp
 dfn
@@ -7043,7 +7896,7 @@ hr-time-3
 hr-time
 3
 current
-https://w3c.github.io/hr-time/#dfn-get-time-origin-timestamp
+https://w3c.github.io/hr-time/#get-time-origin-timestamp
 
 1
 -
@@ -7054,7 +7907,95 @@ hr-time-3
 hr-time
 3
 snapshot
-https://www.w3.org/TR/hr-time-3/#dfn-get-time-origin-timestamp
+https://www.w3.org/TR/hr-time-3/#get-time-origin-timestamp
+
+1
+-
+get top-level traversables
+get top-level traversables
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-top-level-traversables
+
+1
+-
+get top-level traversables
+get top-level traversables
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-top-level-traversables
+
+1
+-
+get trusted type compliant attribute value
+get trusted type compliant attribute value
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-attribute-value
+1
+1
+-
+get trusted type compliant attribute value
+get trusted type compliant attribute value
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#get-trusted-type-compliant-attribute-value
+1
+1
+-
+get trusted type compliant string
+get trusted type compliant string
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string
+1
+1
+-
+get trusted type compliant string
+get trusted type compliant string
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#get-trusted-type-compliant-string
+1
+1
+-
+get trusted type policy value
+get trusted type policy value
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-policy-value
+
+1
+-
+get trusted type policy value
+get trusted type policy value
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#get-trusted-type-policy-value
 
 1
 -
@@ -7091,15 +8032,81 @@ https://w3c.github.io/webdriver-bidi/#get-user-context
 1
 1
 -
-get uuid from string
-get uuid from string
+get user context
+get user context
 dfn
-turtledove
-turtledove
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-user-context
+1
+1
+-
+get valid navigables by ids
+get valid navigables by ids
+dfn
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#get-uuid-from-string
+https://w3c.github.io/webdriver-bidi/#get-valid-navigables-by-ids
 
+1
+-
+get valid navigables by ids
+get valid navigables by ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-valid-navigables-by-ids
+
+1
+-
+get valid top-level traversables by ids
+get valid top-level traversables by ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-valid-top-level-traversables-by-ids
+
+1
+-
+get valid top-level traversables by ids
+get valid top-level traversables by ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-valid-top-level-traversables-by-ids
+
+1
+-
+get valid user contexts
+get valid user contexts
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#get-valid-user-contexts
+1
+1
+-
+get valid user contexts
+get valid user contexts
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#get-valid-user-contexts
+1
 1
 -
 get valid values for colorscheme
@@ -7116,11 +8123,11 @@ https://drafts.csswg.org/mediaqueries-5/#get-valid-values-for-colorscheme
 get valid values for colorscheme
 get valid values for colorScheme
 dfn
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#get-valid-values-for-colorscheme
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#get-valid-values-for-colorscheme
 
 1
 -
@@ -7138,11 +8145,11 @@ https://drafts.csswg.org/mediaqueries-5/#get-valid-values-for-contrast
 get valid values for contrast
 get valid values for contrast
 dfn
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#get-valid-values-for-contrast
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#get-valid-values-for-contrast
 
 1
 -
@@ -7160,11 +8167,11 @@ https://drafts.csswg.org/mediaqueries-5/#get-valid-values-for-reduceddata
 get valid values for reduceddata
 get valid values for reducedData
 dfn
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#get-valid-values-for-reduceddata
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#get-valid-values-for-reduceddata
 
 1
 -
@@ -7182,11 +8189,11 @@ https://drafts.csswg.org/mediaqueries-5/#get-valid-values-for-reducedmotion
 get valid values for reducedmotion
 get valid values for reducedMotion
 dfn
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#get-valid-values-for-reducedmotion
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#get-valid-values-for-reducedmotion
 
 1
 -
@@ -7204,13 +8211,25 @@ https://drafts.csswg.org/mediaqueries-5/#get-valid-values-for-reducedtransparenc
 get valid values for reducedtransparency
 get valid values for reducedTransparency
 dfn
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#get-valid-values-for-reducedtransparency
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#get-valid-values-for-reducedtransparency
 
 1
+-
+get()
+get()
+method
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-get-options
+1
+1
+CookieStore
 -
 get()
 get()
@@ -7223,6 +8242,18 @@ https://drafts.csswg.org/css-regions-1/#dom-namedflowmap-get
 1
 1
 NamedFlowMap
+-
+get()
+get()
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizer-get
+1
+1
+Sanitizer
 -
 get()
 get()
@@ -7247,30 +8278,6 @@ https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-
 1
 1
 CredentialsContainer
--
-get()
-get()
-method
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-get-options
-1
-1
-CookieStore
--
-get()
-get()
-method
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-sanitizer-get
-1
-1
-Sanitizer
 -
 get()
 get()
@@ -7371,6 +8378,18 @@ Table
 get(jointName)
 get(jointName)
 method
+body-tracking
+body-tracking
+1
+current
+https://immersive-web.github.io/body-tracking/#dom-xrbody-get-jointname
+1
+1
+XRBody
+-
+get(jointName)
+get(jointName)
+method
 webxr-hand-input-1
 webxr-hand-input
 1
@@ -7391,6 +8410,18 @@ https://www.w3.org/TR/webxr-hand-input-1/#dom-xrhand-get-jointname
 1
 1
 XRHand
+-
+get(key)
+get(key)
+method
+body-tracking
+body-tracking
+1
+current
+https://immersive-web.github.io/body-tracking/#dom-xrbody-get
+1
+1
+XRBody
 -
 get(key)
 get(key)
@@ -7431,18 +8462,6 @@ WeakMap
 get(key)
 get(key)
 method
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-get
-1
-1
-SharedStorage
--
-get(key)
-get(key)
-method
 webxr-hand-input-1
 webxr-hand-input
 1
@@ -7475,6 +8494,18 @@ https://www.w3.org/TR/encrypted-media-2/#dom-mediakeystatusmap-get
 1
 1
 MediaKeyStatusMap
+-
+get(name)
+get(name)
+method
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-get
+1
+1
+CookieStore
 -
 get(name)
 get(name)
@@ -7515,18 +8546,6 @@ URLSearchParams
 get(name)
 get(name)
 method
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-get
-1
-1
-CookieStore
--
-get(name)
-get(name)
-method
 xhr
 xhr
 1
@@ -7539,6 +8558,18 @@ FormData
 get(options)
 get(options)
 method
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-get-options
+1
+1
+CookieStore
+-
+get(options)
+get(options)
+method
 credential-management-1
 credential-management
 1
@@ -7547,18 +8578,6 @@ https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-
 1
 1
 CredentialsContainer
--
-get(options)
-get(options)
-method
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-get-options
-1
-1
-CookieStore
 -
 get(options)
 get(options)
@@ -7646,8 +8665,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-get
 1
 IDBObjectStore
 -
-get(target, propertyKey, receiver)
-get(target, propertyKey, receiver)
+get(target, key, receiver)
+get(target, key, receiver)
 method
 ecmascript
 ecmascript
@@ -7696,6 +8715,18 @@ https://wicg.github.io/document-policy/#get-policy-value
 getAll()
 getAll()
 method
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-getall-options
+1
+1
+CookieStore
+-
+getAll()
+getAll()
+method
 indexeddb-3
 indexeddb
 3
@@ -7732,18 +8763,6 @@ ContentIndex
 getAll()
 getAll()
 method
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-getall-options
-1
-1
-CookieStore
--
-getAll()
-getAll()
-method
 indexeddb-3
 indexeddb
 3
@@ -7768,6 +8787,18 @@ IDBObjectStore
 getAll(name)
 getAll(name)
 method
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-getall
+1
+1
+CookieStore
+-
+getAll(name)
+getAll(name)
+method
 url
 url
 1
@@ -7776,18 +8807,6 @@ https://url.spec.whatwg.org/#dom-urlsearchparams-getall
 1
 1
 URLSearchParams
--
-getAll(name)
-getAll(name)
-method
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-getall
-1
-1
-CookieStore
 -
 getAll(name)
 getAll(name)
@@ -7804,11 +8823,11 @@ FormData
 getAll(options)
 getAll(options)
 method
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#dom-cookiestore-getall-options
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-getall-options
 1
 1
 CookieStore
@@ -7839,8 +8858,8 @@ https://www.w3.org/TR/css-typed-om-1/#dom-stylepropertymapreadonly-getall
 StylePropertyMapReadOnly
 StylePropertyMap
 -
-getAll(query)
-getAll(query)
+getAll(queryOrOptions)
+getAll(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -7851,8 +8870,8 @@ https://w3c.github.io/IndexedDB/#dom-idbindex-getall
 1
 IDBIndex
 -
-getAll(query)
-getAll(query)
+getAll(queryOrOptions)
+getAll(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -7863,8 +8882,8 @@ https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall
 1
 IDBObjectStore
 -
-getAll(query)
-getAll(query)
+getAll(queryOrOptions)
+getAll(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -7875,8 +8894,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall
 1
 IDBIndex
 -
-getAll(query)
-getAll(query)
+getAll(queryOrOptions)
+getAll(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -7887,8 +8906,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall
 1
 IDBObjectStore
 -
-getAll(query, count)
-getAll(query, count)
+getAll(queryOrOptions, count)
+getAll(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -7899,8 +8918,8 @@ https://w3c.github.io/IndexedDB/#dom-idbindex-getall
 1
 IDBIndex
 -
-getAll(query, count)
-getAll(query, count)
+getAll(queryOrOptions, count)
+getAll(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -7911,8 +8930,8 @@ https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall
 1
 IDBObjectStore
 -
-getAll(query, count)
-getAll(query, count)
+getAll(queryOrOptions, count)
+getAll(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -7923,8 +8942,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall
 1
 IDBIndex
 -
-getAll(query, count)
-getAll(query, count)
+getAll(queryOrOptions, count)
+getAll(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -7983,8 +9002,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys
 1
 IDBObjectStore
 -
-getAllKeys(query)
-getAllKeys(query)
+getAllKeys(queryOrOptions)
+getAllKeys(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -7995,8 +9014,8 @@ https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys
 1
 IDBIndex
 -
-getAllKeys(query)
-getAllKeys(query)
+getAllKeys(queryOrOptions)
+getAllKeys(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -8007,8 +9026,8 @@ https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys
 1
 IDBObjectStore
 -
-getAllKeys(query)
-getAllKeys(query)
+getAllKeys(queryOrOptions)
+getAllKeys(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -8019,8 +9038,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys
 1
 IDBIndex
 -
-getAllKeys(query)
-getAllKeys(query)
+getAllKeys(queryOrOptions)
+getAllKeys(queryOrOptions)
 method
 indexeddb-3
 indexeddb
@@ -8031,8 +9050,8 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys
 1
 IDBObjectStore
 -
-getAllKeys(query, count)
-getAllKeys(query, count)
+getAllKeys(queryOrOptions, count)
+getAllKeys(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -8043,8 +9062,8 @@ https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys
 1
 IDBIndex
 -
-getAllKeys(query, count)
-getAllKeys(query, count)
+getAllKeys(queryOrOptions, count)
+getAllKeys(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -8055,8 +9074,8 @@ https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys
 1
 IDBObjectStore
 -
-getAllKeys(query, count)
-getAllKeys(query, count)
+getAllKeys(queryOrOptions, count)
+getAllKeys(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
@@ -8067,14 +9086,110 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys
 1
 IDBIndex
 -
-getAllKeys(query, count)
-getAllKeys(query, count)
+getAllKeys(queryOrOptions, count)
+getAllKeys(queryOrOptions, count)
 method
 indexeddb-3
 indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys
+1
+1
+IDBObjectStore
+-
+getAllRecords()
+getAllRecords()
+method
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbindex-getallrecords
+1
+1
+IDBIndex
+-
+getAllRecords()
+getAllRecords()
+method
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallrecords
+1
+1
+IDBObjectStore
+-
+getAllRecords()
+getAllRecords()
+method
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallrecords
+1
+1
+IDBIndex
+-
+getAllRecords()
+getAllRecords()
+method
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallrecords
+1
+1
+IDBObjectStore
+-
+getAllRecords(options)
+getAllRecords(options)
+method
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbindex-getallrecords
+1
+1
+IDBIndex
+-
+getAllRecords(options)
+getAllRecords(options)
+method
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallrecords
+1
+1
+IDBObjectStore
+-
+getAllRecords(options)
+getAllRecords(options)
+method
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallrecords
+1
+1
+IDBIndex
+-
+getAllRecords(options)
+getAllRecords(options)
+method
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallrecords
 1
 1
 IDBObjectStore
@@ -8142,18 +9257,6 @@ DocumentOrShadowRoot
 getAnimations()
 getAnimations()
 method
-web-animations-2
-web-animations
-2
-current
-https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations
-1
-1
-Animatable
--
-getAnimations()
-getAnimations()
-method
 web-animations-1
 web-animations
 1
@@ -8175,18 +9278,6 @@ https://www.w3.org/TR/web-animations-1/#dom-documentorshadowroot-getanimations
 1
 DocumentOrShadowRoot
 -
-getAnimations()
-getAnimations()
-method
-web-animations-2
-web-animations
-2
-snapshot
-https://www.w3.org/TR/web-animations-2/#dom-animatable-getanimations
-1
-1
-Animatable
--
 getAnimations(options)
 getAnimations(options)
 method
@@ -8202,11 +9293,35 @@ Animatable
 getAnimations(options)
 getAnimations(options)
 method
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animatable-getanimations
+1
+1
+Animatable
+-
+getAnimations(options)
+getAnimations(options)
+method
 web-animations-1
 web-animations
 1
 snapshot
 https://www.w3.org/TR/web-animations-1/#dom-animatable-getanimations
+1
+1
+Animatable
+-
+getAnimations(options)
+getAnimations(options)
+method
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animatable-getanimations
 1
 1
 Animatable
@@ -8234,6 +9349,54 @@ https://wicg.github.io/WebApiDevice/device_attributes/#dom-navigatormanageddata-
 1
 1
 NavigatorManagedData
+-
+getArg(exceptionTag, index)
+getArg(exceptionTag, index)
+method
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-getarg
+1
+1
+Exception
+-
+getArg(exceptionTag, index)
+getArg(exceptionTag, index)
+method
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-getarg
+1
+1
+Exception
+-
+getArguments()
+getArguments()
+method
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#dom-cssapplyblockrule-getarguments
+1
+1
+CSSApplyBlockRule
+-
+getArguments()
+getArguments()
+method
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#dom-cssapplystatementrule-getarguments
+1
+1
+CSSApplyStatementRule
 -
 getAsFile()
 getAsFile()
@@ -8270,18 +9433,6 @@ https://html.spec.whatwg.org/multipage/dnd.html#dom-datatransferitem-getasstring
 1
 1
 DataTransferItem
--
-getAttribute()
-getAttribute()
-method
-web-smart-card
-web-smart-card
-1
-current
-https://wicg.github.io/web-smart-card/#dom-smartcardconnection-getattribute
-1
-1
-SmartCardConnection
 -
 getAttribute(qualifiedName)
 getAttribute(qualifiedName)
@@ -8590,7 +9741,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox
 1
 1
 SVGGraphicsElement
@@ -8734,7 +9885,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-domquad-getbounds
+https://drafts.csswg.org/geometry-1/#dom-domquad-getbounds
 1
 1
 DOMQuad
@@ -8802,7 +9953,7 @@ GeometryUtils
 getByteFrequencyData(array)
 getByteFrequencyData(array)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8814,11 +9965,35 @@ AnalyserNode
 getByteFrequencyData(array)
 getByteFrequencyData(array)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-getbytefrequencydata
+1
+1
+AnalyserNode
+-
+getByteFrequencyData(array)
+getByteFrequencyData(array)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-getbytefrequencydata
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-getbytefrequencydata
+1
+1
+AnalyserNode
+-
+getByteFrequencyData(array)
+getByteFrequencyData(array)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-getbytefrequencydata
 1
 1
 AnalyserNode
@@ -8826,7 +10001,7 @@ AnalyserNode
 getByteTimeDomainData(array)
 getByteTimeDomainData(array)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8838,11 +10013,35 @@ AnalyserNode
 getByteTimeDomainData(array)
 getByteTimeDomainData(array)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-getbytetimedomaindata
+1
+1
+AnalyserNode
+-
+getByteTimeDomainData(array)
+getByteTimeDomainData(array)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-getbytetimedomaindata
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-getbytetimedomaindata
+1
+1
+AnalyserNode
+-
+getByteTimeDomainData(array)
+getByteTimeDomainData(array)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-getbytetimedomaindata
 1
 1
 AnalyserNode
@@ -8854,7 +10053,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getCTM
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__getCTM
 1
 1
 SVGGraphicsElement
@@ -9078,7 +10277,7 @@ MediaStreamTrack
 getChannelData(channel)
 getChannelData(channel)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -9090,11 +10289,35 @@ AudioBuffer
 getChannelData(channel)
 getChannelData(channel)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-getchanneldata
+1
+1
+AudioBuffer
+-
+getChannelData(channel)
+getChannelData(channel)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-getchanneldata
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-getchanneldata
+1
+1
+AudioBuffer
+-
+getChannelData(channel)
+getChannelData(channel)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-getchanneldata
 1
 1
 AudioBuffer
@@ -9106,7 +10329,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getCharNumAtPosition
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getCharNumAtPosition
 1
 1
 SVGTextContentElement
@@ -9203,6 +10426,18 @@ webauthn
 3
 current
 https://w3c.github.io/webauthn/#dom-publickeycredential-getclientcapabilities
+1
+1
+PublicKeyCredential
+-
+getClientCapabilities()
+getClientCapabilities()
+method
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-getclientcapabilities
 1
 1
 PublicKeyCredential
@@ -9306,9 +10541,9 @@ Range
 getCoalescedEvents()
 getCoalescedEvents()
 method
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointerevent-getcoalescedevents
 1
@@ -9321,8 +10556,32 @@ method
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointerevent-getcoalescedevents
+1
+1
+PointerEvent
+-
+getCoalescedEvents()
+getCoalescedEvents()
+method
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointerevent-getcoalescedevents
+1
+1
+PointerEvent
+-
+getCoalescedEvents()
+getCoalescedEvents()
+method
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointerevent-getcoalescedevents
 1
 1
 PointerEvent
@@ -9454,7 +10713,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getComputedTextLength
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getComputedTextLength
 1
 1
 SVGTextContentElement
@@ -9709,7 +10968,7 @@ current
 https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-canvas-getcontextattributes
 1
 1
-CanvasRenderingContext2D
+CanvasSettings
 -
 getContributingSources()
 getContributingSources()
@@ -9738,14 +10997,38 @@ RTCRtpReceiver
 getCredBlob
 getCredBlob
 dict-member
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#dom-authenticationextensionsclientinputs-getcredblob
 1
 1
 AuthenticationExtensionsClientInputs
+-
+getCredBlob
+getCredBlob
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientinputs-getcredblob
+1
+1
+AuthenticationExtensionsClientInputs
+-
+getCredBlob
+getCredBlob
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientoutputs-getcredblob
+1
+1
+AuthenticationExtensionsClientOutputs
 -
 getCueAsHTML()
 getCueAsHTML()
@@ -10389,7 +11672,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getElementById
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__getElementById
 1
 1
 SVGSVGElement
@@ -10502,6 +11785,17 @@ https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens
 1
 Element
 -
+getenabledstate
+getEnabledState
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#create-close-watcher-getenabledstate
+
+1
+-
 getEnclosureList
 getEnclosureList
 method
@@ -10509,7 +11803,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getEnclosureList
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__getEnclosureList
 1
 1
 SVGSVGElement
@@ -10533,7 +11827,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getEndPositionOfChar
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getEndPositionOfChar
 1
 1
 SVGTextContentElement
@@ -10604,30 +11898,6 @@ method
 performance-timeline
 performance-timeline
 1
-current
-https://w3c.github.io/performance-timeline/#dom-performance-getentriesbyname
-1
-1
-Performance
--
-getEntriesByName()
-getEntriesByName()
-method
-performance-timeline
-performance-timeline
-1
-current
-https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-getentriesbyname
-1
-1
-PerformanceObserverEntryList
--
-getEntriesByName()
-getEntriesByName()
-method
-performance-timeline
-performance-timeline
-1
 snapshot
 https://www.w3.org/TR/performance-timeline/#dom-performance-getentriesbyname
 1
@@ -10738,30 +12008,6 @@ performance-timeline
 1
 snapshot
 https://www.w3.org/TR/performance-timeline/#dom-performanceobserverentrylist-getentriesbyname
-1
-1
-PerformanceObserverEntryList
--
-getEntriesByType()
-getEntriesByType()
-method
-performance-timeline
-performance-timeline
-1
-current
-https://w3c.github.io/performance-timeline/#dom-performance-getentriesbytype
-1
-1
-Performance
--
-getEntriesByType()
-getEntriesByType()
-method
-performance-timeline
-performance-timeline
-1
-current
-https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-getentriesbytype
 1
 1
 PerformanceObserverEntryList
@@ -10845,7 +12091,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getExtentOfChar
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getExtentOfChar
 1
 1
 SVGTextContentElement
@@ -11006,6 +12252,18 @@ https://www.w3.org/TR/webrtc/#dom-rtccertificate-getfingerprints
 1
 RTCCertificate
 -
+getFloat16(byteOffset, littleEndian)
+getFloat16(byteOffset, littleEndian)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.getfloat16
+1
+1
+DataView
+-
 getFloat32(byteOffset, littleEndian)
 getFloat32(byteOffset, littleEndian)
 method
@@ -11033,7 +12291,7 @@ DataView
 getFloatFrequencyData(array)
 getFloatFrequencyData(array)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -11045,11 +12303,35 @@ AnalyserNode
 getFloatFrequencyData(array)
 getFloatFrequencyData(array)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-getfloatfrequencydata
+1
+1
+AnalyserNode
+-
+getFloatFrequencyData(array)
+getFloatFrequencyData(array)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-getfloatfrequencydata
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-getfloatfrequencydata
+1
+1
+AnalyserNode
+-
+getFloatFrequencyData(array)
+getFloatFrequencyData(array)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-getfloatfrequencydata
 1
 1
 AnalyserNode
@@ -11057,7 +12339,7 @@ AnalyserNode
 getFloatTimeDomainData(array)
 getFloatTimeDomainData(array)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -11069,11 +12351,35 @@ AnalyserNode
 getFloatTimeDomainData(array)
 getFloatTimeDomainData(array)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-getfloattimedomaindata
+1
+1
+AnalyserNode
+-
+getFloatTimeDomainData(array)
+getFloatTimeDomainData(array)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-getfloattimedomaindata
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-getfloattimedomaindata
+1
+1
+AnalyserNode
+-
+getFloatTimeDomainData(array)
+getFloatTimeDomainData(array)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-getfloattimedomaindata
 1
 1
 AnalyserNode
@@ -11081,7 +12387,7 @@ AnalyserNode
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -11093,7 +12399,19 @@ BiquadFilterNode
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-getfrequencyresponse
+1
+1
+BiquadFilterNode
+-
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+method
+webaudio-1.0
 webaudio
 1
 current
@@ -11105,11 +12423,23 @@ IIRFilterNode
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilternode-getfrequencyresponse
+1
+1
+IIRFilterNode
+-
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-getfrequencyresponse
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-getfrequencyresponse
 1
 1
 BiquadFilterNode
@@ -11117,11 +12447,35 @@ BiquadFilterNode
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilternode-getfrequencyresponse
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilternode-getfrequencyresponse
+1
+1
+IIRFilterNode
+-
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-getfrequencyresponse
+1
+1
+BiquadFilterNode
+-
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilternode-getfrequencyresponse
 1
 1
 IIRFilterNode
@@ -11426,30 +12780,6 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.ge
 1
 DataView
 -
-getInterestGroupAdAuctionData(config)
-getInterestGroupAdAuctionData(config)
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-getinterestgroupadauctiondata
-1
-1
-Navigator
--
-getInterestGroupAdAuctionData(configIDL)
-getInterestGroupAdAuctionData(configIDL)
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-getinterestgroupadauctiondata-configidl
-1
-1
-Navigator
--
 getIntersectionList
 getIntersectionList
 method
@@ -11457,7 +12787,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getIntersectionList
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__getIntersectionList
 1
 1
 SVGSVGElement
@@ -11629,6 +12959,18 @@ https://www.w3.org/TR/web-animations-1/#dom-keyframeeffect-getkeyframes
 1
 1
 KeyframeEffect
+-
+getLargestInteractionContentfulPaint()
+getLargestInteractionContentfulPaint()
+method
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-getlargestinteractioncontentfulpaint
+1
+1
+PerformanceSoftNavigation
 -
 getLayoutMap()
 getLayoutMap()
@@ -11897,6 +13239,18 @@ Date
 getModifierState()
 getModifierState()
 method
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-getmodifierstate
+1
+1
+MouseEvent
+-
+getModifierState()
+getModifierState()
+method
 touch-events
 touch-events
 1
@@ -11905,6 +13259,41 @@ https://w3c.github.io/touch-events/#dom-touchevent-getmodifierstate
 1
 1
 TouchEvent
+-
+getModifierState()
+getModifierState()
+method
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-getmodifierstate
+1
+1
+MouseEvent
+-
+getmodifierstate(keyarg)
+getModifierState(keyArg)
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-getmodifierstate-keyarg
+
+1
+-
+getModifierState(keyArg)
+getModifierState(keyArg)
+method
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-getmodifierstate
+1
+1
+MouseEvent
 -
 getModifierState(keyArg)
 getModifierState(keyArg)
@@ -11930,14 +13319,25 @@ https://w3c.github.io/uievents/#dom-keyboardevent-getmodifierstate
 1
 KeyboardEvent
 -
+getmodifierstate(keyarg)
+getModifierState(keyArg)
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-getmodifierstate-keyarg
+
+1
+-
 getModifierState(keyArg)
 getModifierState(keyArg)
 method
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-getmodifierstate
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-getmodifierstate
 1
 1
 MouseEvent
@@ -11953,18 +13353,6 @@ https://www.w3.org/TR/uievents/#dom-keyboardevent-getmodifierstate
 1
 1
 KeyboardEvent
--
-getModifierState(keyArg)
-getModifierState(keyArg)
-method
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-getmodifierstate
-1
-1
-MouseEvent
 -
 getMonth()
 getMonth()
@@ -12081,7 +13469,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getNumberOfChars
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getNumberOfChars
 1
 1
 SVGTextContentElement
@@ -12122,10 +13510,58 @@ https://www.w3.org/TR/webxr/#dom-xrreferencespace-getoffsetreferencespace
 1
 XRReferenceSpace
 -
+getOrInsert(key, value)
+getOrInsert(key, value)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsert
+1
+1
+Map
+-
+getOrInsert(key, value)
+getOrInsert(key, value)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsert
+1
+1
+WeakMap
+-
+getOrInsertComputed(key, callback)
+getOrInsertComputed(key, callback)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsertcomputed
+1
+1
+Map
+-
+getOrInsertComputed(key, callback)
+getOrInsertComputed(key, callback)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsertcomputed
+1
+1
+WeakMap
+-
 getOutputTimestamp()
 getOutputTimestamp()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -12137,17 +13573,41 @@ AudioContext
 getOutputTimestamp()
 getOutputTimestamp()
 method
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-getoutputtimestamp
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-getoutputtimestamp
 1
 1
 AudioContext
 -
-getOwnPropertyDescriptor(O, P)
-getOwnPropertyDescriptor(O, P)
+getOutputTimestamp()
+getOutputTimestamp()
+method
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-getoutputtimestamp
+1
+1
+AudioContext
+-
+getOutputTimestamp()
+getOutputTimestamp()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-getoutputtimestamp
+1
+1
+AudioContext
+-
+getOwnPropertyDescriptor(obj, key)
+getOwnPropertyDescriptor(obj, key)
 method
 ecmascript
 ecmascript
@@ -12158,8 +13618,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownprop
 1
 Object
 -
-getOwnPropertyDescriptor(target, propertyKey)
-getOwnPropertyDescriptor(target, propertyKey)
+getOwnPropertyDescriptor(target, key)
+getOwnPropertyDescriptor(target, key)
 method
 ecmascript
 ecmascript
@@ -12170,8 +13630,8 @@ https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.getownpropertydesc
 1
 Reflect
 -
-getOwnPropertyDescriptors(O)
-getOwnPropertyDescriptors(O)
+getOwnPropertyDescriptors(obj)
+getOwnPropertyDescriptors(obj)
 method
 ecmascript
 ecmascript
@@ -12182,8 +13642,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownprop
 1
 Object
 -
-getOwnPropertyNames(O)
-getOwnPropertyNames(O)
+getOwnPropertyNames(obj)
+getOwnPropertyNames(obj)
 method
 ecmascript
 ecmascript
@@ -12194,8 +13654,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.getownprop
 1
 Object
 -
-getOwnPropertySymbols(O)
-getOwnPropertySymbols(O)
+getOwnPropertySymbols(obj)
+getOwnPropertySymbols(obj)
 method
 ecmascript
 ecmascript
@@ -12217,6 +13677,42 @@ https://dom.spec.whatwg.org/#dom-xsltprocessor-getparameter
 1
 1
 XSLTProcessor
+-
+getParameter(pname)
+getParameter(pname)
+method
+webgl1
+webgl1
+1
+current
+https://registry.khronos.org/webgl/specs/latest/1.0/#GETPARAMETER
+1
+1
+WebGLRenderingContextBase
+-
+getParameters()
+getParameters()
+method
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#dom-cssfunctionrule-getparameters
+1
+1
+CSSFunctionRule
+-
+getParameters()
+getParameters()
+method
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#dom-cssmixinrule-getparameters
+1
+1
+CSSMixinRule
 -
 getParameters()
 getParameters()
@@ -12241,6 +13737,18 @@ https://w3c.github.io/webrtc-pc/#dom-rtcrtpsender-getparameters
 1
 1
 RTCRtpSender
+-
+getParameters()
+getParameters()
+method
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#dom-cssfunctionrule-getparameters
+1
+1
+CSSFunctionRule
 -
 getParameters()
 getParameters()
@@ -12357,7 +13865,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getPointAtLength
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__getPointAtLength
 1
 1
 SVGGeometryElement
@@ -12449,9 +13957,9 @@ XRFrame
 getPredictedEvents()
 getPredictedEvents()
 method
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointerevent-getpredictedevents
 1
@@ -12464,8 +13972,32 @@ method
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointerevent-getpredictedevents
+1
+1
+PointerEvent
+-
+getPredictedEvents()
+getPredictedEvents()
+method
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointerevent-getpredictedevents
+1
+1
+PointerEvent
+-
+getPredictedEvents()
+getPredictedEvents()
+method
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointerevent-getpredictedevents
 1
 1
 PointerEvent
@@ -12541,28 +14073,6 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattserver-ge
 1
 1
 BluetoothRemoteGATTServer
--
-getprioritizedhashfunction
-getPrioritizedHashFunction
-dfn
-sri
-sri
-1
-snapshot
-https://www.w3.org/TR/SRI/#dfn-getprioritizedhashfunction
-
-
--
-getprioritizedhashfunction(a, b)
-getPrioritizedHashFunction(a, b)
-dfn
-sri
-sri
-1
-snapshot
-https://www.w3.org/TR/SRI/#dfn-getprioritizedhashfunction-a-b
-
-1
 -
 getProperties()
 getProperties()
@@ -12684,8 +14194,8 @@ https://www.w3.org/TR/cssom-1/#dom-cssstyledeclaration-getpropertyvalue
 1
 CSSStyleDeclaration
 -
-getPrototypeOf(O)
-getPrototypeOf(O)
+getPrototypeOf(obj)
+getPrototypeOf(obj)
 method
 ecmascript
 ecmascript
@@ -12711,11 +14221,23 @@ Reflect
 getpublickey
 getPublicKey
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-getpublickey
+
+1
+pinUvAuthProtocol
+-
+getpublickey
+getPublicKey
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-getpublickey
 
 1
 pinUvAuthProtocol
@@ -12735,6 +14257,18 @@ AuthenticatorAttestationResponse
 getPublicKey()
 getPublicKey()
 method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-getPublicKey
+1
+1
+SubtleCrypto
+-
+getPublicKey()
+getPublicKey()
+method
 webauthn-3
 webauthn
 3
@@ -12743,6 +14277,30 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponse-getpublic
 1
 1
 AuthenticatorAttestationResponse
+-
+getPublicKey(key, keyUsages)
+getPublicKey(key, keyUsages)
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-getPublicKey
+1
+1
+SubtleCrypto
+-
+getPublicKey(key, usages)
+getPublicKey(key, usages)
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-getPublicKey
+1
+1
+SubtleCrypto
 -
 getPublicKeyAlgorithm()
 getPublicKeyAlgorithm()
@@ -12768,23 +14326,36 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponse-getpublic
 1
 AuthenticatorAttestationResponse
 -
-getrandomvalues
-getRandomValues
-dfn
-webcryptoapi
-webcryptoapi
+getRandomValues()
+getRandomValues()
+method
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-Crypto-method-getRandomValues
 1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-Crypto-method-getRandomValues
-
 1
+Crypto
 -
 getRandomValues()
 getRandomValues()
 method
-webcryptoapi
-webcryptoapi
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-Crypto-method-getRandomValues
 1
+1
+Crypto
+-
+getRandomValues(array)
+getRandomValues(array)
+method
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-Crypto-method-getRandomValues
 1
@@ -12794,11 +14365,11 @@ Crypto
 getRandomValues(array)
 getRandomValues(array)
 method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-Crypto-method-getRandomValues
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-Crypto-method-getRandomValues
 1
 1
 Crypto
@@ -13194,7 +14765,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getRotationOfChar
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getRotationOfChar
 1
 1
 SVGTextContentElement
@@ -13218,7 +14789,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__GetSVGDocument__getSVGDocument
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__GetSVGDocument__getSVGDocument
 1
 1
 GetSVGDocument
@@ -13256,7 +14827,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getScreenCTM
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGraphicsElement__getScreenCTM
 1
 1
 SVGGraphicsElement
@@ -13308,6 +14879,30 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.gets
 1
 1
 Date
+-
+getSecurePaymentConfirmationCapabilities()
+getSecurePaymentConfirmationCapabilities()
+method
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#dom-paymentrequest-getsecurepaymentconfirmationcapabilities
+1
+1
+PaymentRequest
+-
+getSecurePaymentConfirmationCapabilities()
+getSecurePaymentConfirmationCapabilities()
+method
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#dom-paymentrequest-getsecurepaymentconfirmationcapabilities
+1
+1
+PaymentRequest
 -
 getSelectedCandidatePair()
 getSelectedCandidatePair()
@@ -13556,7 +15151,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getStartPositionOfChar
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getStartPositionOfChar
 1
 1
 SVGTextContentElement
@@ -13575,7 +15170,7 @@ SVGTextContentElement
 -
 getState()
 getState()
-attribute
+method
 html
 html
 1
@@ -13813,18 +15408,6 @@ https://www.w3.org/TR/webrtc/#widl-RTCPeerConnection-getStats-Promise-RTCStatsRe
 1
 RTCPeerConnection
 -
-getStatusChange()
-getStatusChange()
-method
-web-smart-card
-web-smart-card
-1
-current
-https://wicg.github.io/web-smart-card/#dom-smartcardcontext-getstatuschange
-1
-1
-SmartCardContext
--
 getStatusChange(readerStates)
 getStatusChange(readerStates)
 method
@@ -13964,7 +15547,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getSubStringLength
+https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextContentElement__getSubStringLength
 1
 1
 SVGTextContentElement
@@ -14008,11 +15591,11 @@ PushManager
 getSubscriptions()
 getSubscriptions()
 method
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#dom-cookiestoremanager-getsubscriptions
+https://cookiestore.spec.whatwg.org/#dom-cookiestoremanager-getsubscriptions
 1
 1
 CookieStoreManager
@@ -14064,6 +15647,18 @@ https://wicg.github.io/shape-detection-api/#dom-barcodedetector-getsupportedform
 1
 1
 BarcodeDetector
+-
+getSupportedZoomLevels()
+getSupportedZoomLevels()
+method
+mediacapture-surface-control
+mediacapture-surface-control
+1
+current
+https://w3c.github.io/mediacapture-surface-control/#dom-capturecontroller-getsupportedzoomlevels
+1
+1
+CaptureController
 -
 getSynchronizationSources()
 getSynchronizationSources()
@@ -14240,7 +15835,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getTotalLength
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__getTotalLength
 1
 1
 SVGGeometryElement
@@ -14581,30 +16176,6 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-dataview.prototype.ge
 1
 DataView
 -
-getunsafe
-getUnsafe
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#sanitizer-getunsafe
-1
-1
-Sanitizer
--
-getUnsafe()
-getUnsafe()
-method
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-sanitizer-getunsafe
-1
-1
-Sanitizer
--
 getUserData()
 getUserData()
 method
@@ -14706,7 +16277,7 @@ mediacapture-streams
 1
 current
 https://w3c.github.io/mediacapture-main/#dom-navigator-getusermedia
-1
+
 
 Navigator
 -
@@ -14766,7 +16337,7 @@ mediacapture-streams
 1
 current
 https://w3c.github.io/mediacapture-main/#dom-navigator-getusermedia
-1
+
 
 Navigator
 -
@@ -14785,8 +16356,8 @@ Navigator
 getuserpresentflagvalue
 getUserPresentFlagValue
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-getuserpresentflagvalue
@@ -14794,14 +16365,38 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 pinUvAuthProtocol
 -
+getuserpresentflagvalue
+getUserPresentFlagValue
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-getuserpresentflagvalue
+
+1
+pinUvAuthProtocol
+-
 getuserverifiedflagvalue
 getUserVerifiedFlagValue
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-getuserverifiedflagvalue
+
+1
+pinUvAuthProtocol
+-
+getuserverifiedflagvalue
+getUserVerifiedFlagValue
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-getuserverifiedflagvalue
 
 1
 pinUvAuthProtocol
@@ -14969,7 +16564,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesis-getvoices
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesis-getvoices
 1
 1
 SpeechSynthesis

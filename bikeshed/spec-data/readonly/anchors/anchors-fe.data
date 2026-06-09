@@ -22,9 +22,45 @@ https://w3c.github.io/ServiceWorker/#dom-routersourceenum-fetch-event
 1
 RouterSourceEnum
 -
+"fetch-event"
+"fetch-event"
+enum-value
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dom-routersourceenum-fetch-event
+1
+1
+RouterSourceEnum
+-
+"fetchStart"
+"fetchStart"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkfetchtiminginfo-fetchstart
+
+1
+network.FetchTimingInfo
+-
+"fetchStart"
+"fetchStart"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkfetchtiminginfo-fetchstart
+
+1
+network.FetchTimingInfo
+-
 <feature-tag-value>
 <feature-tag-value>
-value
+type
 css-fonts-4
 css-fonts
 4
@@ -36,7 +72,7 @@ font-feature-settings
 -
 <feature-tag-value>
 <feature-tag-value>
-value
+type
 css-fonts-4
 css-fonts
 4
@@ -45,28 +81,6 @@ https://www.w3.org/TR/css-fonts-4/#feature-tag-value
 1
 1
 font-feature-settings
--
-<feature-value-name>
-<feature-value-name>
-type
-css-fonts-4
-css-fonts
-4
-current
-https://drafts.csswg.org/css-fonts-4/#feature-value-name-value
-1
-1
--
-<feature-value-name>
-<feature-value-name>
-type
-css-fonts-4
-css-fonts
-4
-snapshot
-https://www.w3.org/TR/css-fonts-4/#feature-value-name-value
-1
-1
 -
 featural syllabary
 featural syllabary
@@ -90,6 +104,72 @@ https://www.w3.org/TR/i18n-glossary/#dfn-featural-syllabary
 1
 
 -
+feature
+feature
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-feature
+
+1
+-
+feature
+feature
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-feature
+
+1
+-
+feature
+feature
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-feature
+
+1
+-
+feature
+feature
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-feature
+
+1
+-
+feature detection
+Feature Detection
+dfn
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#feature-detection
+
+1
+-
+feature detection
+Feature Detection
+dfn
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#feature-detection
+
+1
+-
 feature map
 Feature Map
 dfn
@@ -111,6 +191,18 @@ snapshot
 https://www.w3.org/TR/IFT/#feature-map
 
 1
+-
+feature query
+Feature Query
+dfn
+handwriting-recognition
+handwriting-recognition
+1
+current
+https://wicg.github.io/handwriting-recognition/#api-query
+
+1
+Navigator
 -
 feature tag
 feature tag
@@ -321,17 +413,6 @@ dfn
 fedcm-1
 fedcm
 1
-current
-https://w3c-fedid.github.io/FedCM/#fetch-accounts-step
-
-1
--
-fetch accounts step
-fetch accounts step
-dfn
-fedcm-1
-fedcm
-1
 snapshot
 https://www.w3.org/TR/fedcm-1/#fetch-accounts-step
 
@@ -439,6 +520,29 @@ https://www.w3.org/TR/service-workers/#dictdef-fetcheventinit
 1
 1
 -
+FetchLaterResult
+FetchLaterResult
+interface
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#fetchlaterresult
+1
+1
+-
+[[Features]]
+[[Features]]
+attribute
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#dom-powerfulfeatureobserver-features-slot
+1
+1
+PowerfulFeatureObserver
+-
 [[features]]
 [[features]]
 attribute
@@ -494,7 +598,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-feblend
+https://drafts.csswg.org/filter-effects-1/#elementdef-feblend
 1
 1
 -
@@ -516,7 +620,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fecolormatrix
+https://drafts.csswg.org/filter-effects-1/#elementdef-fecolormatrix
 1
 1
 -
@@ -538,7 +642,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fecomponenttransfer
+https://drafts.csswg.org/filter-effects-1/#elementdef-fecomponenttransfer
 1
 1
 -
@@ -560,7 +664,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fecomposite
+https://drafts.csswg.org/filter-effects-1/#elementdef-fecomposite
 1
 1
 -
@@ -582,7 +686,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-feconvolvematrix
+https://drafts.csswg.org/filter-effects-1/#elementdef-feconvolvematrix
 1
 1
 -
@@ -604,7 +708,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fediffuselighting
+https://drafts.csswg.org/filter-effects-1/#elementdef-fediffuselighting
 1
 1
 -
@@ -626,7 +730,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fedisplacementmap
+https://drafts.csswg.org/filter-effects-1/#elementdef-fedisplacementmap
 1
 1
 -
@@ -648,7 +752,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fedistantlight
+https://drafts.csswg.org/filter-effects-1/#elementdef-fedistantlight
 1
 1
 -
@@ -670,7 +774,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fedropshadow
+https://drafts.csswg.org/filter-effects-1/#elementdef-fedropshadow
 1
 1
 -
@@ -692,7 +796,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-feflood
+https://drafts.csswg.org/filter-effects-1/#elementdef-feflood
 1
 1
 -
@@ -714,7 +818,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fefunca
+https://drafts.csswg.org/filter-effects-1/#elementdef-fefunca
 1
 1
 -
@@ -736,7 +840,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fefuncb
+https://drafts.csswg.org/filter-effects-1/#elementdef-fefuncb
 1
 1
 -
@@ -758,7 +862,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fefuncg
+https://drafts.csswg.org/filter-effects-1/#elementdef-fefuncg
 1
 1
 -
@@ -780,7 +884,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fefuncr
+https://drafts.csswg.org/filter-effects-1/#elementdef-fefuncr
 1
 1
 -
@@ -802,7 +906,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fegaussianblur
+https://drafts.csswg.org/filter-effects-1/#elementdef-fegaussianblur
 1
 1
 -
@@ -824,7 +928,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-feimage
+https://drafts.csswg.org/filter-effects-1/#elementdef-feimage
 1
 1
 -
@@ -846,7 +950,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-femerge
+https://drafts.csswg.org/filter-effects-1/#elementdef-femerge
 1
 1
 -
@@ -868,7 +972,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-femergenode
+https://drafts.csswg.org/filter-effects-1/#elementdef-femergenode
 1
 1
 -
@@ -890,7 +994,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-femorphology
+https://drafts.csswg.org/filter-effects-1/#elementdef-femorphology
 1
 1
 -
@@ -912,7 +1016,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-feoffset
+https://drafts.csswg.org/filter-effects-1/#elementdef-feoffset
 1
 1
 -
@@ -934,7 +1038,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fepointlight
+https://drafts.csswg.org/filter-effects-1/#elementdef-fepointlight
 1
 1
 -
@@ -956,7 +1060,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fespecularlighting
+https://drafts.csswg.org/filter-effects-1/#elementdef-fespecularlighting
 1
 1
 -
@@ -978,7 +1082,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fespotlight
+https://drafts.csswg.org/filter-effects-1/#elementdef-fespotlight
 1
 1
 -
@@ -1000,7 +1104,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-fetile
+https://drafts.csswg.org/filter-effects-1/#elementdef-fetile
 1
 1
 -
@@ -1022,7 +1126,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-feturbulence
+https://drafts.csswg.org/filter-effects-1/#elementdef-feturbulence
 1
 1
 -
@@ -1073,22 +1177,11 @@ https://gpuweb.github.io/gpuweb/#feature
 feature
 feature
 dfn
-permissions
-permissions
-1
-current
-https://w3c.github.io/permissions/#dfn-powerful-feature
-1
-1
--
-feature
-feature
-dfn
 user-timing
 user-timing
 1
 current
-https://w3c.github.io/user-timing/#dfn-feature
+https://w3c.github.io/user-timing/#feature
 1
 1
 -
@@ -1120,18 +1213,6 @@ PermissionsPolicy/getAllowlistForFeature(feature)
 feature
 feature
 argument
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-protectedaudience-queryfeaturesupport-feature-feature
-1
-1
-ProtectedAudience/queryFeatureSupport(feature)
--
-feature
-feature
-argument
 permissions-policy-1
 permissions-policy
 1
@@ -1153,17 +1234,6 @@ https://www.w3.org/TR/permissions-policy-1/#dom-permissionspolicy-getallowlistfo
 1
 1
 PermissionsPolicy/getAllowlistForFeature(feature)
--
-feature
-feature
-dfn
-permissions
-permissions
-1
-snapshot
-https://www.w3.org/TR/permissions/#dfn-powerful-feature
-1
-1
 -
 feature
 feature
@@ -1209,6 +1279,28 @@ https://www.w3.org/TR/webxr/#feature-descriptor
 
 1
 -
+feature level string
+feature level string
+dfn
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#feature-level-string
+
+1
+-
+feature level string
+feature level string
+dfn
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#feature-level-string
+
+1
+-
 feature requirements
 feature requirements
 dfn
@@ -1240,6 +1332,28 @@ html
 current
 https://html.spec.whatwg.org/multipage/nav-history-apis.html#feature-separator
 
+1
+-
+feature value block
+feature value block
+dfn
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#font-feature-value-block
+1
+1
+-
+feature value block
+feature value block
+dfn
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#font-feature-value-block
+1
 1
 -
 feature-identifier
@@ -1368,6 +1482,18 @@ ift
 1
 current
 https://w3c.github.io/IFT/Overview.html#format-1-patch-map-featuremapoffset
+
+1
+Format 1 Patch Map
+-
+featuremapoffset
+featureMapOffset
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#format-1-patch-map-featuremapoffset
 
 1
 Format 1 Patch Map
@@ -1646,6 +1772,78 @@ https://www.w3.org/TR/permissions-policy-1/#dom-permissionspolicy-features
 1
 PermissionsPolicy
 -
+features-aat
+features-aat
+value
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-aat
+1
+1
+<font-features-tech>
+-
+features-aat
+features-aat
+value
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#valdef-font-features-tech-features-aat
+1
+1
+<font-features-tech>
+-
+features-graphite
+features-graphite
+value
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-graphite
+1
+1
+<font-features-tech>
+-
+features-graphite
+features-graphite
+value
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#valdef-font-features-tech-features-graphite
+1
+1
+<font-features-tech>
+-
+features-opentype
+features-opentype
+value
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-opentype
+1
+1
+<font-features-tech>
+-
+features-opentype
+features-opentype
+value
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#valdef-font-features-tech-features-opentype
+1
+1
+<font-features-tech>
+-
 fecBytesReceived
 fecBytesReceived
 dict-member
@@ -1817,7 +2015,7 @@ FederatedCredential
 feedback
 feedback
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1829,7 +2027,31 @@ BaseAudioContext/createIIRFilter()
 feedback
 feedback
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createiirfilter-feedback
+1
+1
+BaseAudioContext/createIIRFilter()
+-
+feedback
+feedback
+argument
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedback
+1
+1
+BaseAudioContext/createIIRFilter(feedforward, feedback)
+-
+feedback
+feedback
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -1841,7 +2063,19 @@ BaseAudioContext/createIIRFilter(feedforward, feedback)
 feedback
 feedback
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilteroptions-feedback
+1
+1
+IIRFilterOptions
+-
+feedback
+feedback
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -1853,11 +2087,11 @@ IIRFilterOptions
 feedback
 feedback
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createiirfilter-feedback
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createiirfilter-feedback
 1
 1
 BaseAudioContext/createIIRFilter()
@@ -1865,11 +2099,11 @@ BaseAudioContext/createIIRFilter()
 feedback
 feedback
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedback
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedback
 1
 1
 BaseAudioContext/createIIRFilter(feedforward, feedback)
@@ -1877,11 +2111,47 @@ BaseAudioContext/createIIRFilter(feedforward, feedback)
 feedback
 feedback
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilteroptions-feedback
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilteroptions-feedback
+1
+1
+IIRFilterOptions
+-
+feedback
+feedback
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createiirfilter-feedback
+1
+1
+BaseAudioContext/createIIRFilter()
+-
+feedback
+feedback
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedback
+1
+1
+BaseAudioContext/createIIRFilter(feedforward, feedback)
+-
+feedback
+feedback
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilteroptions-feedback
 1
 1
 IIRFilterOptions
@@ -1889,7 +2159,7 @@ IIRFilterOptions
 feedforward
 feedforward
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1901,7 +2171,31 @@ BaseAudioContext/createIIRFilter()
 feedforward
 feedforward
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createiirfilter-feedforward
+1
+1
+BaseAudioContext/createIIRFilter()
+-
+feedforward
+feedforward
+argument
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedforward
+1
+1
+BaseAudioContext/createIIRFilter(feedforward, feedback)
+-
+feedforward
+feedforward
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -1913,7 +2207,19 @@ BaseAudioContext/createIIRFilter(feedforward, feedback)
 feedforward
 feedforward
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilteroptions-feedforward
+1
+1
+IIRFilterOptions
+-
+feedforward
+feedforward
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -1925,11 +2231,11 @@ IIRFilterOptions
 feedforward
 feedforward
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createiirfilter-feedforward
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createiirfilter-feedforward
 1
 1
 BaseAudioContext/createIIRFilter()
@@ -1937,11 +2243,11 @@ BaseAudioContext/createIIRFilter()
 feedforward
 feedforward
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedforward
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedforward
 1
 1
 BaseAudioContext/createIIRFilter(feedforward, feedback)
@@ -1949,11 +2255,47 @@ BaseAudioContext/createIIRFilter(feedforward, feedback)
 feedforward
 feedforward
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilteroptions-feedforward
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilteroptions-feedforward
+1
+1
+IIRFilterOptions
+-
+feedforward
+feedforward
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createiirfilter-feedforward
+1
+1
+BaseAudioContext/createIIRFilter()
+-
+feedforward
+feedforward
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createiirfilter-feedforward-feedback-feedforward
+1
+1
+BaseAudioContext/createIIRFilter(feedforward, feedback)
+-
+feedforward
+feedforward
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilteroptions-feedforward
 1
 1
 IIRFilterOptions
@@ -2030,29 +2372,16 @@ https://www.w3.org/TR/mathml-core/#dfn-fence
 1
 mo
 -
-fenced
-fenced
+fenced frame allowed permissions
+fenced frame allowed permissions
 dfn
-attribution-reporting-api
-attribution-reporting-api
+fenced-frame
+fenced-frame
 1
 current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-fenced
+https://wicg.github.io/fenced-frame/#fenced-frame-allowed-permissions
 
 1
-attribution source
--
-fenced
-fenced
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-trigger-fenced
-
-1
-attribution trigger
 -
 fenced frame config
 fenced frame config
@@ -2323,18 +2652,6 @@ ServiceWorkerGlobalScope
 -
 fetch
 fetch
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#pending-external-speculation-rule-resource-fetch
-
-1
-pending external speculation rule resource
--
-fetch
-fetch
 event
 service-workers
 service-workers
@@ -2344,17 +2661,6 @@ https://www.w3.org/TR/service-workers/#service-worker-global-scope-fetch-event
 1
 1
 ServiceWorkerGlobalScope
--
-fetch webassembly
-fetch WebAssembly
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#fetch-webassembly
-
-1
 -
 fetch a css style sheet
 fetch a CSS style sheet
@@ -2419,7 +2725,7 @@ css-fonts
 4
 current
 https://drafts.csswg.org/css-fonts-4/#fetch-a-font
-
+1
 1
 -
 fetch a font
@@ -2430,6 +2736,28 @@ css-fonts
 4
 snapshot
 https://www.w3.org/TR/css-fonts-4/#fetch-a-font
+1
+1
+-
+fetch a manifest image resource
+fetch a manifest image resource
+dfn
+appmanifest
+appmanifest
+1
+current
+https://w3c.github.io/manifest/#dfn-fetch-a-manifest-image-resource
+
+1
+-
+fetch a manifest image resource
+fetch a manifest image resource
+dfn
+appmanifest
+appmanifest
+1
+snapshot
+https://www.w3.org/TR/appmanifest/#dfn-fetch-a-manifest-image-resource
 
 1
 -
@@ -2521,6 +2849,18 @@ https://html.spec.whatwg.org/multipage/webappapis.html#fetch-a-worklet%2Fmodule-
 
 1
 -
+fetch accounts
+fetch accounts
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#create-identity-credential-fetch-accounts
+
+1
+create identity credential
+-
 fetch an @import
 fetch an @import
 dfn
@@ -2584,7 +2924,7 @@ css-images
 4
 snapshot
 https://www.w3.org/TR/css-images-4/#fetch-an-external-image-for-a-stylesheet
-
+1
 1
 -
 fetch an external module script graph
@@ -2606,7 +2946,7 @@ css-shapes
 2
 current
 https://drafts.csswg.org/css-shapes-2/#fetch-an-external-resource-for-a-shape
-
+1
 1
 -
 fetch an identity assertion
@@ -2639,17 +2979,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/webappapis.html#fetch-an-inline-module-script-graph
-
-1
--
-fetch and decode trusted scoring signals
-fetch and decode trusted scoring signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#fetch-and-decode-trusted-scoring-signals
 
 1
 -
@@ -2696,6 +3025,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-fetch-controller
 
 1
+navigation params
 -
 fetch controller
 fetch controller
@@ -2764,9 +3094,20 @@ fetch
 1
 current
 https://fetch.spec.whatwg.org/#concept-fetch-group
+
 1
-1
+-
+fetch group
+fetch group
+dfn
 fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#environment-settings-object-fetch-group
+
+1
+environment settings object
 -
 fetch image algorithm
 fetch image algorithm
@@ -2811,6 +3152,18 @@ snapshot
 https://www.w3.org/TR/webgpu/#abstract-opdef-fetch-index
 1
 1
+-
+fetch location
+fetch location
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#htmlgeolocationelement-fetch-location
+
+1
+HTMLGeolocationElement
 -
 fetch metadata headers
 fetch metadata headers
@@ -2877,6 +3230,7 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-options-fetch-priority
 
 1
+link processing options
 -
 fetch priority
 fetch priority
@@ -2907,8 +3261,19 @@ fetch
 fetch
 1
 current
-https://fetch.spec.whatwg.org/#concept-fetch-record
+https://fetch.spec.whatwg.org/#fetch-record
 1
+1
+-
+fetch records
+fetch records
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#concept-fetch-record
+
 1
 fetch group
 -
@@ -2954,17 +3319,6 @@ fetch
 current
 https://fetch.spec.whatwg.org/#fetch-scheme
 1
-1
--
-fetch script
-fetch script
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#fetch-script
-
 1
 -
 fetch steps
@@ -3031,7 +3385,7 @@ fedcm
 current
 https://w3c-fedid.github.io/FedCM/#fetch-the-client-metadata
 
-1
+
 -
 fetch the client metadata
 fetch the client metadata
@@ -3066,14 +3420,14 @@ https://www.w3.org/TR/fedcm-1/#fetch-the-config-file
 
 1
 -
-fetch the current outstanding trusted signals batch
-fetch the current outstanding trusted signals batch
+fetch the config file and show an idp login dialog
+fetch the config file and show an IDP login dialog
 dfn
-turtledove
-turtledove
+fedcm-1
+fedcm
 1
 current
-https://wicg.github.io/turtledove/#fetch-the-current-outstanding-trusted-signals-batch
+https://w3c-fedid.github.io/FedCM/#fetch-the-config-file-and-show-an-idp-login-dialog
 
 1
 -
@@ -3121,28 +3475,6 @@ https://fetch.spec.whatwg.org/#fetch-timing-info
 1
 1
 -
-fetch trusted scoring signals with batching
-fetch trusted scoring signals with batching
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#fetch-trusted-scoring-signals-with-batching
-
-1
--
-fetch trusted signals
-fetch trusted signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#fetch-trusted-signals
-
-1
--
 fetch(id, requests)
 fetch(id, requests)
 method
@@ -3190,6 +3522,30 @@ https://fetch.spec.whatwg.org/#dom-global-fetch
 1
 1
 WindowOrWorkerGlobalScope
+-
+fetchLater(input)
+fetchLater(input)
+method
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#dom-window-fetchlater
+1
+1
+Window
+-
+fetchLater(input, init)
+fetchLater(input, init)
+method
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#dom-window-fetchlater
+1
+1
+Window
 -
 fetchPriority
 fetchPriority
@@ -3239,6 +3595,18 @@ https://w3c.github.io/navigation-timing/#dom-performancetiming-fetchstart
 1
 PerformanceTiming
 -
+fetchstart
+fetchStart
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancetiming-fetchstart
+1
+1
+PerformanceTiming
+-
 fetchStart
 fetchStart
 attribute
@@ -3251,6 +3619,30 @@ https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-fetchstart
 1
 PerformanceResourceTiming
 -
+fetchstart
+fetchStart
+dfn
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#performanceresourcetiming-fetchstart
+1
+1
+PerformanceResourceTiming
+-
+fetchStart
+fetchStart
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkfetchtiminginfo-fetchstart
+
+1
+network.FetchTimingInfo
+-
 fetchStart
 fetchStart
 attribute
@@ -3259,6 +3651,18 @@ navigation-timing
 2
 snapshot
 https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-fetchstart
+1
+1
+PerformanceTiming
+-
+fetchstart
+fetchStart
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetiming-fetchstart
 1
 1
 PerformanceTiming
@@ -3274,6 +3678,30 @@ https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-fetchstart
 1
 1
 PerformanceResourceTiming
+-
+fetchstart
+fetchStart
+dfn
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#performanceresourcetiming-fetchstart
+1
+1
+PerformanceResourceTiming
+-
+fetchStart
+fetchStart
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkfetchtiminginfo-fetchstart
+
+1
+network.FetchTimingInfo
 -
 fetching an image resource
 fetching an image resource

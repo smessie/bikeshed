@@ -22,6 +22,28 @@ https://www.w3.org/TR/mediasession/#dom-mediasessionaction-skipad
 1
 MediaSessionAction
 -
+SkipAsciiWhitespace
+SkipAsciiWhitespace
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-skipasciiwhitespace
+1
+1
+-
+SkipAsciiWhitespace(string, index)
+SkipAsciiWhitespace(string, index)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-skipasciiwhitespace
+1
+1
+-
 skolem iri
 Skolem IRI
 dfn
@@ -165,7 +187,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-skewx
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-skewx
 1
 1
 DOMMatrixReadOnly
@@ -201,7 +223,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-skewx
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-skewx
 1
 1
 DOMMatrixReadOnly
@@ -225,7 +247,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-skewxself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-skewxself
 1
 1
 DOMMatrix
@@ -249,7 +271,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-skewxself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-skewxself
 1
 1
 DOMMatrix
@@ -285,7 +307,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-skewy
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-skewy
 1
 1
 DOMMatrixReadOnly
@@ -321,7 +343,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-skewy
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-skewy
 1
 1
 DOMMatrixReadOnly
@@ -345,7 +367,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-skewyself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-skewyself
 1
 1
 DOMMatrix
@@ -369,7 +391,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-skewyself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-skewyself
 1
 1
 DOMMatrix
@@ -438,6 +460,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#skip-the-view-transition
+
+1
+-
+skip the view transition
+skip the view transition
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#skip-the-view-transition
 
 1
 -
@@ -535,18 +568,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#skip-when-determining-inc
 
 1
 -
-skipObservation
-skipObservation
-dict-member
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#dom-browsingtopicsoptions-skipobservation
-1
-1
-BrowsingTopicsOptions
--
 skipRendering
 skipRendering
 attribute
@@ -579,6 +600,18 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#dom-viewtransition-skiptransition
+1
+1
+ViewTransition
+-
+skipTransition()
+skipTransition()
+method
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-skiptransition
 1
 1
 ViewTransition

@@ -1,16 +1,30 @@
 {
   "#KeyFrame-algorithms": {
     "current": {
-      "number": "4.10",
+      "number": "6.5",
       "spec": "WebRTC Encoded Transform",
       "text": "KeyFrame Algorithms",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#KeyFrame-algorithms"
     },
     "snapshot": {
-      "number": "4.10",
+      "number": "6.5",
       "spec": "WebRTC Encoded Transform",
       "text": "KeyFrame Algorithms",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#KeyFrame-algorithms"
+    }
+  },
+  "#RTCEncodedAudioFrame-constructor": {
+    "current": {
+      "number": "4.5.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Constructor",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedAudioFrame-constructor"
+    },
+    "snapshot": {
+      "number": "4.5.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Constructor",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-constructor"
     }
   },
   "#RTCEncodedAudioFrame-interface": {
@@ -29,30 +43,16 @@
   },
   "#RTCEncodedAudioFrame-members": {
     "current": {
-      "number": "4.5.1",
+      "number": "4.5.2",
       "spec": "WebRTC Encoded Transform",
-      "text": "Constructor",
+      "text": "Members",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedAudioFrame-members"
     },
     "snapshot": {
-      "number": "4.5.1",
+      "number": "4.5.2",
       "spec": "WebRTC Encoded Transform",
-      "text": "Constructor",
+      "text": "Members",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members"
-    }
-  },
-  "#RTCEncodedAudioFrame-members%E2%91%A0": {
-    "current": {
-      "number": "4.5.2",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Members",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedAudioFrame-members%E2%91%A0"
-    },
-    "snapshot": {
-      "number": "4.5.2",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Members",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members%E2%91%A0"
     }
   },
   "#RTCEncodedAudioFrame-methods": {
@@ -111,6 +111,48 @@
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members"
     }
   },
+  "#RTCEncodedFrameMetadata": {
+    "current": {
+      "number": "4.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "RTCEncodedFrameMetadata dictionary",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedFrameMetadata"
+    },
+    "snapshot": {
+      "number": "4.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "RTCEncodedFrameMetadata dictionary",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedFrameMetadata"
+    }
+  },
+  "#RTCEncodedFrameMetadata-members": {
+    "current": {
+      "number": "4.1.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Members",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedFrameMetadata-members"
+    },
+    "snapshot": {
+      "number": "4.1.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Members",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedFrameMetadata-members"
+    }
+  },
+  "#RTCEncodedVideoFrame-constructor": {
+    "current": {
+      "number": "4.3.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Constructor",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedVideoFrame-constructor"
+    },
+    "snapshot": {
+      "number": "4.3.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Constructor",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-constructor"
+    }
+  },
   "#RTCEncodedVideoFrame-interface": {
     "current": {
       "number": "4.3",
@@ -127,30 +169,16 @@
   },
   "#RTCEncodedVideoFrame-members": {
     "current": {
-      "number": "4.3.1",
+      "number": "4.3.2",
       "spec": "WebRTC Encoded Transform",
-      "text": "Constructor",
+      "text": "Members",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedVideoFrame-members"
     },
     "snapshot": {
-      "number": "4.3.1",
+      "number": "4.3.2",
       "spec": "WebRTC Encoded Transform",
-      "text": "Constructor",
+      "text": "Members",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members"
-    }
-  },
-  "#RTCEncodedVideoFrame-members%E2%91%A0": {
-    "current": {
-      "number": "4.3.2",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Members",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedVideoFrame-members%E2%91%A0"
-    },
-    "snapshot": {
-      "number": "4.3.2",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Members",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members%E2%91%A0"
     }
   },
   "#RTCEncodedVideoFrame-methods": {
@@ -209,43 +237,71 @@
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members"
     }
   },
-  "#RTCEncodedVideoFrameType": {
+  "#RTCRtpScriptTransform-algorithms": {
     "current": {
-      "number": "4.1",
+      "number": "5.3",
       "spec": "WebRTC Encoded Transform",
-      "text": "RTCEncodedVideoFrameType dictionary",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCEncodedVideoFrameType"
+      "text": "Algorithms",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransform-algorithms"
     },
     "snapshot": {
-      "number": "4.1",
+      "number": "5.3",
       "spec": "WebRTC Encoded Transform",
-      "text": "RTCEncodedVideoFrameType dictionary",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType"
+      "text": "Algorithms",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-algorithms"
     }
   },
-  "#RTCRtpScriptTransform-operations": {
+  "#RTCRtpScriptTransform-constructor": {
     "current": {
-      "number": "4.7",
+      "number": "5.2",
       "spec": "WebRTC Encoded Transform",
-      "text": "Operations",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransform-operations"
+      "text": "Constructor",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransform-constructor"
     },
     "snapshot": {
-      "number": "4.7",
+      "number": "5.2",
       "spec": "WebRTC Encoded Transform",
-      "text": "Operations",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-operations"
+      "text": "Constructor",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-constructor"
+    }
+  },
+  "#RTCRtpScriptTransform-interface": {
+    "current": {
+      "number": "5",
+      "spec": "WebRTC Encoded Transform",
+      "text": "RTCRtpScriptTransform interface",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransform-interface"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "WebRTC Encoded Transform",
+      "text": "RTCRtpScriptTransform interface",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-interface"
+    }
+  },
+  "#RTCRtpScriptTransform-internal-slots": {
+    "current": {
+      "number": "5.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Internal slots",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransform-internal-slots"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Internal slots",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-internal-slots"
     }
   },
   "#RTCRtpScriptTransformer-attributes": {
     "current": {
-      "number": "4.8",
+      "number": "6.3",
       "spec": "WebRTC Encoded Transform",
       "text": "Attributes",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes"
     },
     "snapshot": {
-      "number": "4.8",
+      "number": "6.3",
       "spec": "WebRTC Encoded Transform",
       "text": "Attributes",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes"
@@ -253,30 +309,58 @@
   },
   "#RTCRtpScriptTransformer-events": {
     "current": {
-      "number": "4.9",
+      "number": "6.4",
       "spec": "WebRTC Encoded Transform",
       "text": "Events",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransformer-events"
     },
     "snapshot": {
-      "number": "4.9",
+      "number": "6.4",
       "spec": "WebRTC Encoded Transform",
       "text": "Events",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-events"
     }
   },
-  "#RTCRtpScriptTransformer-interfaces": {
+  "#RTCRtpScriptTransformer-interface": {
     "current": {
-      "number": "4.6",
+      "number": "6",
       "spec": "WebRTC Encoded Transform",
-      "text": "Interfaces",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces"
+      "text": "RTCRtpScriptTransformer interface",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransformer-interface"
     },
     "snapshot": {
-      "number": "4.6",
+      "number": "6",
       "spec": "WebRTC Encoded Transform",
-      "text": "Interfaces",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces"
+      "text": "RTCRtpScriptTransformer interface",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interface"
+    }
+  },
+  "#RTCRtpScriptTransformer-internal-slots": {
+    "current": {
+      "number": "6.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Internal slots",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransformer-internal-slots"
+    },
+    "snapshot": {
+      "number": "6.1",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Internal slots",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-internal-slots"
+    }
+  },
+  "#RTCRtpScriptTransformer-methods": {
+    "current": {
+      "number": "6.2",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Methods",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#RTCRtpScriptTransformer-methods"
+    },
+    "snapshot": {
+      "number": "6.2",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Methods",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-methods"
     }
   },
   "#abstract": {
@@ -307,15 +391,29 @@
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#attribute"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WebRTC Encoded Transform",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#toc"
+    }
+  },
   "#examples": {
     "current": {
-      "number": "7",
+      "number": "8",
       "spec": "WebRTC Encoded Transform",
       "text": "Examples",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#examples"
     },
     "snapshot": {
-      "number": "7",
+      "number": "8",
       "spec": "WebRTC Encoded Transform",
       "text": "Examples",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#examples"
@@ -381,13 +479,13 @@
     "current": {
       "number": "",
       "spec": "WebRTC Encoded Transform",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#informative"
     },
     "snapshot": {
       "number": "",
       "spec": "WebRTC Encoded Transform",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#informative"
     }
   },
@@ -435,13 +533,13 @@
   },
   "#privacy": {
     "current": {
-      "number": "6",
+      "number": "7",
       "spec": "WebRTC Encoded Transform",
       "text": "Privacy and security considerations",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#privacy"
     },
     "snapshot": {
-      "number": "6",
+      "number": "7",
       "spec": "WebRTC Encoded Transform",
       "text": "Privacy and security considerations",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#privacy"
@@ -461,74 +559,46 @@
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#references"
     }
   },
-  "#rtcrtpsender-extension": {
-    "current": {
-      "number": "5",
-      "spec": "WebRTC Encoded Transform",
-      "text": "RTCRtpSender extension",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#rtcrtpsender-extension"
-    },
-    "snapshot": {
-      "number": "5",
-      "spec": "WebRTC Encoded Transform",
-      "text": "RTCRtpSender extension",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcrtpsender-extension"
-    }
-  },
   "#scriptTransform": {
     "current": {
       "number": "4",
       "spec": "WebRTC Encoded Transform",
-      "text": "RTCRtpScriptTransform",
+      "text": "Script Transform",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#scriptTransform"
     },
     "snapshot": {
       "number": "4",
       "spec": "WebRTC Encoded Transform",
-      "text": "RTCRtpScriptTransform",
+      "text": "Script Transform",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#scriptTransform"
-    }
-  },
-  "#sender-operation": {
-    "current": {
-      "number": "5.1",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Extension operation",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#sender-operation"
-    },
-    "snapshot": {
-      "number": "5.1",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Extension operation",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#sender-operation"
     }
   },
   "#sframe": {
     "current": {
       "number": "3",
       "spec": "WebRTC Encoded Transform",
-      "text": "SFrameTransform",
+      "text": "SFrame transforms",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#sframe"
     },
     "snapshot": {
       "number": "3",
       "spec": "WebRTC Encoded Transform",
-      "text": "SFrameTransform",
+      "text": "SFrame transforms",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe"
     }
   },
-  "#sframe-transform-algorithm": {
+  "#sframe-algorithms": {
     "current": {
       "number": "3.1",
       "spec": "WebRTC Encoded Transform",
-      "text": "Algorithm",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#sframe-transform-algorithm"
+      "text": "Algorithms",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#sframe-algorithms"
     },
     "snapshot": {
       "number": "3.1",
       "spec": "WebRTC Encoded Transform",
-      "text": "Algorithm",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe-transform-algorithm"
+      "text": "Algorithms",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe-algorithms"
     }
   },
   "#sframe-transform-methods": {
@@ -573,29 +643,15 @@
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#specification"
     }
   },
-  "#stream-creation": {
-    "current": {
-      "number": "2.1.1",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Stream creation",
-      "url": "https://w3c.github.io/webrtc-encoded-transform/#stream-creation"
-    },
-    "snapshot": {
-      "number": "2.1.1",
-      "spec": "WebRTC Encoded Transform",
-      "text": "Stream creation",
-      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#stream-creation"
-    }
-  },
   "#stream-processing": {
     "current": {
-      "number": "2.1.2",
+      "number": "2.1.1",
       "spec": "WebRTC Encoded Transform",
       "text": "Stream processing",
       "url": "https://w3c.github.io/webrtc-encoded-transform/#stream-processing"
     },
     "snapshot": {
-      "number": "2.1.2",
+      "number": "2.1.1",
       "spec": "WebRTC Encoded Transform",
       "text": "Stream processing",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#stream-processing"
@@ -627,6 +683,20 @@
       "spec": "WebRTC Encoded Transform",
       "text": "Table of Contents",
       "url": "https://www.w3.org/TR/webrtc-encoded-transform/#toc"
+    }
+  },
+  "#transform-processing": {
+    "current": {
+      "number": "2.1.2",
+      "spec": "WebRTC Encoded Transform",
+      "text": "RTCRtpTransform common processing",
+      "url": "https://w3c.github.io/webrtc-encoded-transform/#transform-processing"
+    },
+    "snapshot": {
+      "number": "2.1.2",
+      "spec": "WebRTC Encoded Transform",
+      "text": "RTCRtpTransform common processing",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/#transform-processing"
     }
   },
   "#w3c-conformance": {

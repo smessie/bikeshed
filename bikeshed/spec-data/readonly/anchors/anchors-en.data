@@ -1,26 +1,26 @@
-"encrypt"
-"encrypt"
-enum-value
-webrtc-encoded-transform
-webrtc-encoded-transform
+"enabled"
+"enabled"
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransformrole-encrypt
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-enabled
+
 1
-1
-SFrameTransformRole
+emulation.SetScriptingEnabledParameters
 -
-"encrypt"
-"encrypt"
-enum-value
-webrtc-encoded-transform
-webrtc-encoded-transform
+"enabled"
+"enabled"
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframetransformrole-encrypt
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-enabled
+
 1
-1
-SFrameTransformRole
+emulation.SetScriptingEnabledParameters
 -
 "end"
 "end"
@@ -117,6 +117,18 @@ https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventdisposition
 1
 1
 SecurityPolicyViolationEventDisposition
+-
+"enforce"
+"enforce"
+enum-value
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#dom-connectionallowlistdisposition-enforce
+1
+1
+ConnectionAllowlistDisposition
 -
 "enforce"
 "enforce"
@@ -279,6 +291,17 @@ https://www.w3.org/TR/selectors-4/#enabled-pseudo
 1
 1
 -
+<env-args>
+<env-args>
+type
+css-env-1
+css-env
+1
+current
+https://drafts.csswg.org/css-env-1/#typedef-env-args
+1
+1
+-
 END_TO_END
 END_TO_END
 const
@@ -327,6 +350,28 @@ https://dom.spec.whatwg.org/#dom-node-entity_reference_node
 1
 Node
 -
+EncapsulatedBits
+EncapsulatedBits
+dictionary
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-EncapsulatedBits
+1
+1
+-
+EncapsulatedKey
+EncapsulatedKey
+dictionary
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-EncapsulatedKey
+1
+1
+-
 Encode
 Encode
 abstract-op
@@ -346,6 +391,28 @@ ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/global-object.html#sec-encode
+1
+1
+-
+EncodeForRegExpEscape
+EncodeForRegExpEscape
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#sec-encodeforregexpescape
+1
+1
+-
+EncodeForRegExpEscape(codePoint)
+EncodeForRegExpEscape(codePoint)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#sec-encodeforregexpescape
 1
 1
 -
@@ -697,11 +764,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-encrypteddata
 encrypteddata
 EncryptedData
 element
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-encrypteddata
+1
+1
+-
+encrypteddata
+EncryptedData
+element
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-encrypteddata
+1
+1
+-
+encrypteddata
+EncryptedData
+element
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-encrypteddata
 1
 1
 -
@@ -719,12 +808,56 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-encryptedkey
 encryptedkey
 EncryptedKey
 element
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-encryptedkey
+1
+1
+-
+encryptedkey
+EncryptedKey
+element
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-encryptedkey
 1
+1
+-
+encryptedkey
+EncryptedKey
+element
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-encryptedkey
+1
+1
+-
+end
+end
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-end
+
+1
+-
+end
+end
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-end
+
 1
 -
 end collection tag
@@ -845,7 +978,7 @@ webdriver
 2
 current
 https://w3c.github.io/webdriver/#dfn-endpoint-node
-
+1
 1
 -
 endpoint node
@@ -856,7 +989,7 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-endpoint-node
-
+1
 1
 -
 EnforceRange
@@ -947,8 +1080,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-enqueueatomicswaitasy
 1
 1
 -
-EnqueueAtomicsWaitAsyncTimeoutJob(WL, waiterRecord)
-EnqueueAtomicsWaitAsyncTimeoutJob(WL, waiterRecord)
+EnqueueAtomicsWaitAsyncTimeoutJob(waiterList, waiterRecord)
+EnqueueAtomicsWaitAsyncTimeoutJob(waiterList, waiterRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -988,7 +1121,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#enqueue-value-with-size
-1
+
 1
 -
 enqueues a control message
@@ -1012,6 +1145,50 @@ snapshot
 https://www.w3.org/TR/webcodecs/#enqueues-a-control-message
 
 1
+-
+enriched td
+Enriched TD
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-wot-enriched-thing-description
+
+
+-
+enriched td
+Enriched TD
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-wot-enriched-thing-description
+
+
+-
+enriched td
+Enriched TD
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-enriched-thing-description
+
+
+-
+enriched td
+Enriched TD
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-wot-enriched-thing-description
+
+
 -
 ensurecspdoesnotblockstringcompilation(realm, parameterstrings, bodystring, codestring, compilationtype, parameterargs, bodyarg)
 EnsureCSPDoesNotBlockStringCompilation(realm, parameterStrings, bodyString, codeString, compilationType, parameterArgs, bodyArg)
@@ -1101,8 +1278,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-entercriticalsection
 1
 1
 -
-EnterCriticalSection(WL)
-EnterCriticalSection(WL)
+EnterCriticalSection(waiterList)
+EnterCriticalSection(waiterList)
 abstract-op
 ecmascript
 ecmascript
@@ -1233,8 +1410,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-enumerableownprop
 1
 1
 -
-EnumerableOwnProperties(O, kind)
-EnumerableOwnProperties(O, kind)
+EnumerableOwnProperties(obj, kind)
+EnumerableOwnProperties(obj, kind)
 abstract-op
 ecmascript
 ecmascript
@@ -1255,8 +1432,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declaration
 1
 1
 -
-EnumerateObjectProperties(O)
-EnumerateObjectProperties(O)
+EnumerateObjectProperties(obj)
+EnumerateObjectProperties(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -1292,7 +1469,7 @@ ECMAScript
 envelopefollower
 EnvelopeFollower
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1303,11 +1480,33 @@ https://webaudio.github.io/web-audio-api/#envelopefollower
 envelopefollower
 EnvelopeFollower
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#envelopefollower
+
+1
+-
+envelopefollower
+EnvelopeFollower
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#envelopefollower
+https://www.w3.org/TR/webaudio-1.0/#envelopefollower
+
+1
+-
+envelopefollower
+EnvelopeFollower
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#envelopefollower
 
 1
 -
@@ -1597,17 +1796,16 @@ https://www.w3.org/TR/cssom-1/#enable-a-css-style-sheet-set
 1
 1
 -
-enable bidding signals prioritization
-enable bidding signals prioritization
+enable close watcher for request close
+enable close watcher for request close
 dfn
-turtledove
-turtledove
+html
+html
 1
 current
-https://wicg.github.io/turtledove/#interest-group-enable-bidding-signals-prioritization
+https://html.spec.whatwg.org/multipage/interactive-elements.html#enable-close-watcher-for-requestclose()
 
 1
-interest group
 -
 enable directive
 enable directive
@@ -1689,50 +1887,14 @@ https://www.w3.org/TR/WGSL/#enable-extension
 
 1
 -
-enableBiddingSignalsPrioritization
-enableBiddingSignalsPrioritization
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-enablebiddingsignalsprioritization
-1
-1
-GenerateBidInterestGroup
--
-enableDebugMode()
-enableDebugMode()
-method
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-privateaggregation-enabledebugmode
-1
-1
-PrivateAggregation
--
-enableDebugMode(options)
-enableDebugMode(options)
-method
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-privateaggregation-enabledebugmode
-1
-1
-PrivateAggregation
--
 enableDelegations()
 enableDelegations()
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 current
-https://w3c.github.io/payment-handler/#dom-paymentmanager-enabledelegations
+https://w3c.github.io/web-based-payment-handler/#dom-paymentmanager-enabledelegations
 1
 1
 PaymentManager
@@ -1740,11 +1902,11 @@ PaymentManager
 enableDelegations()
 enableDelegations()
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentmanager-enabledelegations
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentmanager-enabledelegations
 1
 1
 PaymentManager
@@ -1752,11 +1914,11 @@ PaymentManager
 enableDelegations(delegations)
 enableDelegations(delegations)
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 current
-https://w3c.github.io/payment-handler/#dom-paymentmanager-enabledelegations
+https://w3c.github.io/web-based-payment-handler/#dom-paymentmanager-enabledelegations
 1
 1
 PaymentManager
@@ -1764,11 +1926,11 @@ PaymentManager
 enableDelegations(delegations)
 enableDelegations(delegations)
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentmanager-enabledelegations
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentmanager-enabledelegations
 1
 1
 PaymentManager
@@ -1917,30 +2079,6 @@ AudioTrack
 -
 enabled
 enabled
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#debug-details-enabled
-
-1
-debug details
--
-enabled
-enabled
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-auctionreportbuyerdebugmodeconfig-enabled
-1
-1
-AuctionReportBuyerDebugModeConfig
--
-enabled
-enabled
 dict-member
 service-workers
 service-workers
@@ -2012,14 +2150,38 @@ AuthenticationExtensionsPRFOutputs
 enabled
 enabled
 dict-member
-turtledove
-turtledove
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsprfoutputsjson-enabled
+1
+1
+AuthenticationExtensionsPRFOutputsJSON
+-
+enabled
+enabled
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#dom-auctionreportbuyerdebugmodeconfig-enabled
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-enabled
+
+1
+emulation.SetScriptingEnabledParameters
+-
+enabled
+enabled
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#untrusted-network-status-enabled
 1
 1
-AuctionReportBuyerDebugModeConfig
+untrusted network status
 -
 enabled
 enabled
@@ -2080,6 +2242,30 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfoutputs-enabled
 1
 1
 AuthenticationExtensionsPRFOutputs
+-
+enabled
+enabled
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfoutputsjson-enabled
+1
+1
+AuthenticationExtensionsPRFOutputsJSON
+-
+enabled
+enabled
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationsetscriptingenabledparameters-enabled
+
+1
+emulation.SetScriptingEnabledParameters
 -
 enabled css style sheet set
 enabled CSS style sheet set
@@ -2161,17 +2347,125 @@ https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetype-enabledplu
 1
 MimeType
 -
+encidentifier
+encIdentifier
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-encidentifier
+
+1
+getInfo
+-
 encapsulate
 encapsulate
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-encapsulate
 
 1
 pinUvAuthProtocol
+-
+encapsulate
+encapsulate
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-encapsulate
+
+1
+pinUvAuthProtocol
+-
+encapsulateBits
+encapsulateBits
+enum-value
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-keyusage-encapsulatebits
+1
+1
+KeyUsage
+-
+encapsulateBits()
+encapsulateBits()
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-encapsulateBits
+1
+1
+SubtleCrypto
+-
+encapsulateBits(encapsulationAlgorithm, encapsulationKey)
+encapsulateBits(encapsulationAlgorithm, encapsulationKey)
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-encapsulateBits
+1
+1
+SubtleCrypto
+-
+encapsulateKey
+encapsulateKey
+enum-value
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-keyusage-encapsulatekey
+1
+1
+KeyUsage
+-
+encapsulateKey()
+encapsulateKey()
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-encapsulateKey
+1
+1
+SubtleCrypto
+-
+encapsulateKey(encapsulationAlgorithm, encapsulationKey, sharedKeyAlgorithm, extractable, keyUsages)
+encapsulateKey(encapsulationAlgorithm, encapsulationKey, sharedKeyAlgorithm, extractable, keyUsages)
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-encapsulateKey
+1
+1
+SubtleCrypto
+-
+encapsulateKey(encapsulationAlgorithm, encapsulationKey, sharedKeyAlgorithm, extractable, usages)
+encapsulateKey(encapsulationAlgorithm, encapsulationKey, sharedKeyAlgorithm, extractable, usages)
+method
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-SubtleCrypto-method-encapsulateKey
+1
+1
+SubtleCrypto
 -
 encapsulation contexts
 encapsulation contexts
@@ -2261,6 +2555,17 @@ https://w3c.github.io/webdriver-bidi/#encode-a-canvas-as-base64
 
 1
 -
+encode a canvas as base64
+encode a canvas as Base64
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#encode-a-canvas-as-base64
+
+1
+-
 encode a canvas as base64 a canvas element
 encode a canvas as Base64 a canvas element
 dfn
@@ -2280,28 +2585,6 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-encoding-a-canvas-as-base64
-
-1
--
-encode an integer for the payload
-encode an integer for the payload
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#encode-an-integer-for-the-payload
-
-1
--
-encode an unsigned k-byte integer
-encode an unsigned k-byte integer
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#encode-an-unsigned-k-byte-integer
 
 1
 -
@@ -2336,17 +2619,6 @@ encoding
 current
 https://encoding.spec.whatwg.org/#encode-or-fail
 1
-1
--
-encode trusted signals keys
-encode trusted signals keys
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#encode-trusted-signals-keys
-
 1
 -
 encode()
@@ -2529,6 +2801,28 @@ https://tc39.es/ecma262/multipage/global-object.html#sec-encodeuricomponent-uric
 1
 globalThis
 -
+encoded frames
+encoded frames
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#encoded-frames
+
+1
+-
+encoded frames
+encoded frames
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#encoded-frames
+
+1
+-
 encoded size
 encoded size
 dfn
@@ -2540,6 +2834,17 @@ https://fetch.spec.whatwg.org/#fetch-timing-info-encoded-body-size
 1
 1
 response body info
+-
+encoded-cbor
+encoded-cbor
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
 -
 encodedBodySize
 encodedBodySize
@@ -2553,6 +2858,18 @@ https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-encodedbody
 1
 PerformanceResourceTiming
 -
+encodedbodysize
+encodedBodySize
+dfn
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#performanceresourcetiming-encodedbodysize
+1
+1
+PerformanceResourceTiming
+-
 encodedBodySize
 encodedBodySize
 attribute
@@ -2561,6 +2878,18 @@ resource-timing
 1
 snapshot
 https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-encodedbodysize
+1
+1
+PerformanceResourceTiming
+-
+encodedbodysize
+encodedBodySize
+dfn
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#performanceresourcetiming-encodedbodysize
 1
 1
 PerformanceResourceTiming
@@ -2587,6 +2916,28 @@ https://encoding.spec.whatwg.org/#textencoderstream-encoder
 
 1
 TextEncoderStream
+-
+encoder
+encoder
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#encoder
+
+1
+-
+encoder
+encoder
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#encoder
+
+1
 -
 encoder state
 encoder state
@@ -2707,6 +3058,30 @@ HTMLFormElement
 -
 encoding
 encoding
+attribute
+web-nfc
+web-nfc
+1
+current
+https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-encoding
+1
+1
+NDEFRecord
+-
+encoding
+encoding
+dict-member
+web-nfc
+web-nfc
+1
+current
+https://w3c-cg.github.io/web-nfc/#dom-ndefrecordinit-encoding
+1
+1
+NDEFRecordInit
+-
+encoding
+encoding
 argument
 fileapi
 fileapi
@@ -2743,30 +3118,6 @@ https://w3c.github.io/mathml-core/#dfn-encoding
 1
 annotation
 annotation-xml
--
-encoding
-encoding
-attribute
-web-nfc
-web-nfc
-1
-current
-https://w3c.github.io/web-nfc/#dom-ndefrecord-encoding
-1
-1
-NDEFRecord
--
-encoding
-encoding
-dict-member
-web-nfc
-web-nfc
-1
-current
-https://w3c.github.io/web-nfc/#dom-ndefrecordinit-encoding
-1
-1
-NDEFRecordInit
 -
 encoding
 encoding
@@ -2885,6 +3236,30 @@ https://html.spec.whatwg.org/multipage/urls-and-fetching.html#encoding-parsing-a
 
 1
 -
+encodingIndex
+encodingIndex
+dict-member
+webrtc-stats
+webrtc-stats
+1
+current
+https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-encodingindex
+1
+1
+RTCOutboundRtpStreamStats
+-
+encodingIndex
+encodingIndex
+dict-member
+webrtc-stats
+webrtc-stats
+1
+snapshot
+https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-encodingindex
+1
+1
+RTCOutboundRtpStreamStats
+-
 encodingInfo(configuration)
 encodingInfo(configuration)
 method
@@ -2936,8 +3311,8 @@ RTCRtpSendParameters
 encrypt
 encrypt
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-encrypt
@@ -2947,10 +3322,22 @@ pinUvAuthProtocol
 -
 encrypt
 encrypt
-enum-value
-webcryptoapi
-webcryptoapi
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
 1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-encrypt
+
+1
+pinUvAuthProtocol
+-
+encrypt
+encrypt
+enum-value
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keyusage-encrypt
 1
@@ -2959,32 +3346,58 @@ KeyUsage
 -
 encrypt
 encrypt
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-encrypt
-
-1
--
-encrypt the payload
-encrypt the payload
-dfn
-private-aggregation-api
-private-aggregation-api
+enum-value
+webcrypto-modern-algos
+webcrypto-modern-algos
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#encrypt-the-payload
-
+https://wicg.github.io/webcrypto-modern-algos/#dom-keyusage-encrypt
 1
+1
+KeyUsage
+-
+encrypt
+encrypt
+enum-value
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keyusage-encrypt
+1
+1
+KeyUsage
 -
 encrypt()
 encrypt()
 method
-webcryptoapi
-webcryptoapi
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-encrypt
 1
+1
+SubtleCrypto
+-
+encrypt()
+encrypt()
+method
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-encrypt
+1
+1
+SubtleCrypto
+-
+encrypt(algorithm, key, data)
+encrypt(algorithm, key, data)
+method
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-encrypt
 1
@@ -2994,11 +3407,11 @@ SubtleCrypto
 encrypt(algorithm, key, data)
 encrypt(algorithm, key, data)
 method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-encrypt
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-encrypt
 1
 1
 SubtleCrypto
@@ -3085,6 +3498,17 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-encryption
 encryption
 encryption
 element
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-encryption
+1
+1
+-
+encryption
+encryption
+element
 epub-33
 epub
 1
@@ -3093,29 +3517,16 @@ https://www.w3.org/TR/epub-33/#dfn-encryption
 1
 1
 -
-encryption key
-encryption key
-dfn
-turtledove
-turtledove
+encryption
+encryption
+element
+epub-34
+epub
 1
-current
-https://wicg.github.io/turtledove/#auction-data-config-encryption-key
-
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-encryption
 1
-auction data config
--
-encryption key id
-encryption key id
-dfn
-turtledove
-turtledove
 1
-current
-https://wicg.github.io/turtledove/#auction-data-config-encryption-key-id
-
-1
-auction data config
 -
 encryptionScheme
 encryptionScheme
@@ -3266,6 +3677,18 @@ https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-end
 1
 position-area
 <position-area>
+-
+end
+end
+value
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#valdef-position-area-query-end
+1
+1
+<position-area-query>
 -
 end
 end
@@ -3438,6 +3861,17 @@ SelectionMode
 -
 end
 end
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/media.html#timeranges-range-end
+
+1
+-
+end
+end
 event
 webxr
 webxr
@@ -3514,26 +3948,38 @@ PerformanceMeasureOptions
 end
 end
 dfn
-attribution-reporting-api
-attribution-reporting-api
+user-timing
+user-timing
 1
 current
-https://wicg.github.io/attribution-reporting-api/#report-window-end
+https://w3c.github.io/user-timing/#performancemeasureoptions-end
 
 1
-report window
+PerformanceMeasureOptions
 -
 end
 end
-dfn
-attribution-reporting-api
-attribution-reporting-api
+event
+speech-api
+speech-api
 1
 current
-https://wicg.github.io/attribution-reporting-api/#summary-bucket-end
-
+https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-end
 1
-summary bucket
+1
+SpeechRecognition
+-
+end
+end
+event
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-end
+1
+1
+SpeechSynthesisUtterance
 -
 end
 end
@@ -3546,30 +3992,6 @@ https://wicg.github.io/scroll-to-text-fragment/#text-directive-end
 
 1
 text directive
--
-end
-end
-event
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#eventdef-speechrecognition-end
-1
-1
-SpeechRecognition
--
-end
-end
-event
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-end
-1
-1
-SpeechSynthesisUtterance
 -
 end
 end
@@ -3639,6 +4061,18 @@ https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-end
 1
 position-area
 <position-area>
+-
+end
+end
+value
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#valdef-position-area-query-end
+1
+1
+<position-area-query>
 -
 end
 end
@@ -3798,30 +4232,6 @@ PerformanceMeasureOptions
 -
 end
 end
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-alignsetting-end
-1
-1
-AlignSetting
--
-end
-end
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-linealignsetting-end
-1
-1
-LineAlignSetting
--
-end
-end
 event
 webxr
 webxr
@@ -3839,9 +4249,10 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-end-any-settled-transaction
-
+https://wicg.github.io/web-smart-card/#smartcardconnection-end-any-settled-transaction
 1
+1
+SmartCardConnection
 -
 end condition
 end condition
@@ -3934,6 +4345,28 @@ https://www.w3.org/TR/css-page-3/#end-page-value
 
 1
 -
+end segment endpoint
+end segment endpoint
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#end-segment-endpoint
+
+1
+-
+end segment endpoint
+end segment endpoint
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#end-segment-endpoint
+
+1
+-
 end the session
 end the session
 dfn
@@ -3945,6 +4378,17 @@ https://w3c.github.io/webdriver-bidi/#end-the-session
 
 1
 -
+end the session
+end the session
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#end-the-session
+
+1
+-
 end the transaction
 end the transaction
 dfn
@@ -3952,9 +4396,10 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-end-the-transaction
-
+https://wicg.github.io/web-smart-card/#smartcardconnection-end-the-transaction
 1
+1
+SmartCardConnection
 -
 end time
 end time
@@ -4034,7 +4479,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-end-time
+https://w3c.github.io/performance-timeline/#end-time
 1
 1
 -
@@ -4049,6 +4494,30 @@ https://www.w3.org/TR/css-transitions-1/#transition-end-time
 1
 1
 transition
+-
+end time
+end time
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#frame-timing-info-end-time
+
+1
+frame timing info
+-
+end time
+end time
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#script-timing-info-end-time
+
+1
+script timing info
 -
 end time
 end time
@@ -4345,6 +4814,20 @@ https://wicg.github.io/handwriting-recognition/#dom-handwritingsegment-endindex
 1
 HandwritingSegment
 -
+endMark
+endMark
+argument
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#dom-performance-measure-measurename-startormeasureoptions-endmark-endmark
+1
+1
+Performance/measure(measureName, startOrMeasureOptions, endMark)
+Performance/measure(measureName, startOrMeasureOptions)
+Performance/measure(measureName)
+-
 endOcclusionQuery()
 endOcclusionQuery()
 method
@@ -4577,7 +5060,7 @@ VTTCue/constructor(startTime, endTime, text)
 endTime
 endTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4589,7 +5072,19 @@ AudioParam/exponentialRampToValueAtTime()
 endTime
 endTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime-endtime
+1
+1
+AudioParam/exponentialRampToValueAtTime()
+-
+endTime
+endTime
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -4601,7 +5096,19 @@ AudioParam/exponentialRampToValueAtTime(value, endTime)
 endTime
 endTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime-value-endtime-endtime
+1
+1
+AudioParam/exponentialRampToValueAtTime(value, endTime)
+-
+endTime
+endTime
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -4613,7 +5120,31 @@ AudioParam/linearRampToValueAtTime()
 endTime
 endTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime-endtime
+1
+1
+AudioParam/linearRampToValueAtTime()
+-
+endTime
+endTime
+argument
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime-value-endtime-endtime
+1
+1
+AudioParam/linearRampToValueAtTime(value, endTime)
+-
+endTime
+endTime
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -4664,11 +5195,11 @@ ComputedEffectTiming
 endTime
 endTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-exponentialramptovalueattime-endtime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-exponentialramptovalueattime-endtime
 1
 1
 AudioParam/exponentialRampToValueAtTime()
@@ -4676,11 +5207,11 @@ AudioParam/exponentialRampToValueAtTime()
 endTime
 endTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-exponentialramptovalueattime-value-endtime-endtime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-exponentialramptovalueattime-value-endtime-endtime
 1
 1
 AudioParam/exponentialRampToValueAtTime(value, endTime)
@@ -4688,11 +5219,11 @@ AudioParam/exponentialRampToValueAtTime(value, endTime)
 endTime
 endTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-linearramptovalueattime-endtime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-linearramptovalueattime-endtime
 1
 1
 AudioParam/linearRampToValueAtTime()
@@ -4700,11 +5231,59 @@ AudioParam/linearRampToValueAtTime()
 endTime
 endTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-linearramptovalueattime-value-endtime-endtime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-linearramptovalueattime-value-endtime-endtime
+1
+1
+AudioParam/linearRampToValueAtTime(value, endTime)
+-
+endTime
+endTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-exponentialramptovalueattime-endtime
+1
+1
+AudioParam/exponentialRampToValueAtTime()
+-
+endTime
+endTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-exponentialramptovalueattime-value-endtime-endtime
+1
+1
+AudioParam/exponentialRampToValueAtTime(value, endTime)
+-
+endTime
+endTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-linearramptovalueattime-endtime
+1
+1
+AudioParam/linearRampToValueAtTime()
+-
+endTime
+endTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-linearramptovalueattime-value-endtime-endtime
 1
 1
 AudioParam/linearRampToValueAtTime(value, endTime)
@@ -4720,18 +5299,7 @@ https://www.w3.org/TR/webvtt1/#dom-vttcue-vttcue-starttime-endtime-text-endtime
 1
 1
 VTTCue/VTTCue(startTime, endTime, text)
--
-end_times
-end_times
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-end_times
-
-1
-source-registration JSON key
+VTTCue/constructor(startTime, endTime, text)
 -
 ended
 ended
@@ -4776,9 +5344,10 @@ webxr
 webxr
 1
 current
-https://immersive-web.github.io/webxr/#ended
+https://immersive-web.github.io/webxr/#xrsession-ended
 
 1
+XRSession
 -
 ended
 ended
@@ -4800,7 +5369,7 @@ mediacapture-streams
 1
 current
 https://w3c.github.io/mediacapture-main/#event-mediastreamtrack-ended
-1
+
 
 -
 ended
@@ -4830,7 +5399,19 @@ MediaStreamTrack
 ended
 ended
 event
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#eventdef-audioscheduledsourcenode-ended
+1
+1
+AudioScheduledSourceNode
+-
+ended
+ended
+event
+webaudio-1.1
 webaudio
 1
 current
@@ -4888,6 +5469,18 @@ MediaStreamTrack
 -
 ended
 ended
+event
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#eventdef-audioscheduledsourcenode-ended
+1
+1
+AudioScheduledSourceNode
+-
+ended
+ended
 dfn
 webgpu
 webgpu
@@ -4905,9 +5498,10 @@ webxr
 webxr
 1
 snapshot
-https://www.w3.org/TR/webxr/#ended
+https://www.w3.org/TR/webxr/#xrsession-ended
 
 1
+XRSession
 -
 ended playback
 ended playback
@@ -5206,6 +5800,17 @@ https://w3c.github.io/reporting/network-reporting.html#dom-client-endpoint-group
 1
 client
 -
+endpoint-inclusive active interval
+endpoint-inclusive active interval
+dfn
+web-animations-1
+web-animations
+1
+current
+https://drafts.csswg.org/web-animations-1/#endpoint-inclusive-active-interval
+
+1
+-
 endpoint-on-the-path
 endpoint-on-the-path
 dfn
@@ -5213,7 +5818,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#EndPointOnPath
+https://w3c.github.io/svgwg/svg2-draft/text.html#EndPointOnPath
 1
 1
 -
@@ -5364,6 +5969,17 @@ network_reporting_endpoints
 endpoints
 endpoints
 dfn
+sri-2
+sri
+2
+current
+https://w3c.github.io/webappsec-subresource-integrity/#endpoints
+
+1
+-
+endpoints
+endpoints
+dfn
 webdriver2
 webdriver
 2
@@ -5395,6 +6011,17 @@ https://www.w3.org/TR/reporting-1/#windoworworkerglobalscope-endpoints
 1
 1
 WindowOrWorkerGlobalScope
+-
+endpoints
+endpoints
+dfn
+sri-2
+sri
+2
+snapshot
+https://www.w3.org/TR/sri-2/#endpoints
+
+1
 -
 endpoints
 endpoints
@@ -5486,6 +6113,18 @@ https://www.w3.org/TR/media-source-2/#dfn-endstreaming
 1
 1
 -
+enforce
+enforce
+grammar
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#grammardef-connection-allowlist-disposition-enforce
+1
+1
+Connection Allowlist/disposition
+-
 enforce a response's opener policy
 enforce a response's opener policy
 dfn
@@ -5500,11 +6139,23 @@ https://html.spec.whatwg.org/multipage/browsers.html#coop-enforce
 enforceCredentialProtectionPolicy
 enforceCredentialProtectionPolicy
 dict-member
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#dom-authenticationextensionsclientinputs-enforcecredentialprotectionpolicy
+1
+1
+AuthenticationExtensionsClientInputs
+-
+enforceCredentialProtectionPolicy
+enforceCredentialProtectionPolicy
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientinputs-enforcecredentialprotectionpolicy
 1
 1
 AuthenticationExtensionsClientInputs
@@ -5820,17 +6471,16 @@ https://html.spec.whatwg.org/multipage/interactive-elements.html#ensure-details-
 
 1
 -
-ensure pre-insertion validity
-ensure pre-insertion validity
+ensure pre-insert validity
+ensure pre-insert validity
 dfn
 dom
 dom
 1
 current
 https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+
 1
-1
-Node
 -
 ensure there is a subpath
 ensure there is a subpath
@@ -5934,6 +6584,30 @@ https://wicg.github.io/document-picture-in-picture/#eventdef-documentpictureinpi
 1
 DocumentPictureInPicture
 -
+enter action
+enter action
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#event-trigger-enter-action
+1
+1
+event trigger
+-
+enter event
+enter event
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#event-trigger-enter-event
+
+1
+event trigger
+-
 enterKeyHint
 enterKeyHint
 attribute
@@ -5945,6 +6619,30 @@ https://html.spec.whatwg.org/multipage/interaction.html#dom-enterkeyhint
 1
 1
 ElementContentEditable
+-
+enterPictureInPictureReason
+enterPictureInPictureReason
+dict-member
+mediasession
+mediasession
+1
+current
+https://w3c.github.io/mediasession/#dom-mediasessionactiondetails-enterpictureinpicturereason
+1
+1
+MediaSessionActionDetails
+-
+enterPictureInPictureReason
+enterPictureInPictureReason
+dict-member
+mediasession
+mediasession
+1
+snapshot
+https://www.w3.org/TR/mediasession/#dom-mediasessionactiondetails-enterpictureinpicturereason
+1
+1
+MediaSessionActionDetails
 -
 enterkeyhint
 enterkeyhint
@@ -6009,11 +6707,22 @@ HTMLVideoElement
 enterprise
 enterprise
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#enterprise
+
+1
+-
+enterprise
+enterprise
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#enterprise
 
 1
 -
@@ -6044,55 +6753,111 @@ AttestationConveyancePreference
 enterprise attestation capable
 enterprise attestation capable
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#enterprise-attestation-capable
 
 1
 -
+enterprise attestation capable
+enterprise attestation capable
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#enterprise-attestation-capable
+
+1
+-
 enterprise attestation is disabled
 enterprise attestation is disabled
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#enterprise-attestation-is-disabled
 
 1
 -
+enterprise attestation is disabled
+enterprise attestation is disabled
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#enterprise-attestation-is-disabled
+
+1
+-
 enterprise attestation is enabled
 enterprise attestation is enabled
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#enterprise-attestation-is-enabled
 
 1
 -
+enterprise attestation is enabled
+enterprise attestation is enabled
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#enterprise-attestation-is-enabled
+
+1
+-
 enterprise context
 enterprise context
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#enterprise-context
 
 1
 -
+enterprise context
+enterprise context
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#enterprise-context
+
+1
+-
 enterpriseattestation
 enterpriseAttestation
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-enterpriseattestation
+
+1
+makeCred
+-
+enterpriseattestation
+enterpriseAttestation
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-enterpriseattestation
 
 1
 makeCred
@@ -6112,11 +6877,44 @@ DocumentType
 entities
 entities
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-entities
+
+1
+-
+entities
+entities
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-entities
+
+
+-
+entities
+entities
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-entities
+
+1
+-
+entities
+entities
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-entities
 
 1
 -
@@ -6131,6 +6929,72 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-entities
 
 1
 -
+entities
+entities
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-entities
+
+1
+-
+entities
+entities
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-entities
+
+
+-
+entities
+entities
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-entities
+
+1
+-
+entity
+entity
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-entities
+
+1
+-
+entity
+entity
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-entities
+
+
+-
+entity
+entity
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-entities
+
+1
+-
 entity
 entity
 dfn
@@ -6138,7 +7002,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-entities
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-entities
 
 1
 -
@@ -6153,17 +7017,38 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-entities
 
 1
 -
-entity id
-entity ID
+entity
+entity
 dfn
-attribution-reporting-api
-attribution-reporting-api
+vc-data-model-2.1
+vc-data-model
 1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-rate-limit-record-entity-id
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-entities
 
 1
-attribution rate-limit record
+-
+entity
+entity
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-entities
+
+
+-
+entity
+entity
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-entities
+
+1
 -
 entity types
 entity types
@@ -6216,11 +7101,44 @@ XRTransientInputHitTestSource
 entity's
 entity's
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-entities
+
+1
+-
+entity's
+entity's
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-entities
+
+
+-
+entity's
+entity's
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-entities
+
+1
+-
+entity's
+entity's
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-entities
 
 1
 -
@@ -6234,6 +7152,51 @@ snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-entities
 
 1
+-
+entity's
+entity's
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-entities
+
+1
+-
+entity's
+entity's
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-entities
+
+
+-
+entity's
+entity's
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-entities
+
+1
+-
+entityTransform
+entityTransform
+attribute
+model-element
+model-element
+1
+current
+https://immersive-web.github.io/model-element/#dom-htmlmodelelement-entitytransform
+1
+1
+HTMLModelElement
 -
 entityTypes
 entityTypes
@@ -6354,6 +7317,18 @@ https://w3c.github.io/IntersectionObserver/#dom-intersectionobservercallback-ent
 1
 1
 IntersectionObserverCallback
+-
+entries
+entries
+argument
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#dom-performanceobservercallback-entries
+1
+1
+PerformanceObserverCallback
 -
 entries
 entries
@@ -6521,8 +7496,8 @@ https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.entri
 1
 Set
 -
-entries(O)
-entries(O)
+entries(obj)
+entries(obj)
 method
 ecmascript
 ecmascript
@@ -6594,17 +7569,6 @@ map
 -
 entry
 entry
-dfn
-permissions
-permissions
-1
-current
-https://w3c.github.io/permissions/#dfn-permission-store-entry
-1
-1
--
-entry
-entry
 argument
 entries-api
 entries-api
@@ -6640,29 +7604,6 @@ FileSystemDirectoryReader
 -
 entry
 entry
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-database-entry
-
-1
-shared storage database
--
-entry
-entry
-dfn
-permissions
-permissions
-1
-snapshot
-https://www.w3.org/TR/permissions/#dfn-permission-store-entry
-1
-1
--
-entry
-entry
 value
 scroll-animations-1
 scroll-animations
@@ -6672,6 +7613,18 @@ https://www.w3.org/TR/scroll-animations-1/#valdef-animation-timeline-range-entry
 1
 1
 animation-timeline-range
+-
+entry action
+entry action
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#timeline-trigger-entry-action
+1
+1
+timeline trigger
 -
 entry construction algorithm
 entry construction algorithm
@@ -6747,7 +7700,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-entry-list
+https://w3c.github.io/performance-timeline/#entry-list
 
 1
 -
@@ -6897,18 +7850,6 @@ https://w3c.github.io/IFT/Overview.html#format-2-patch-map-entrycount
 
 1
 Format 2 Patch Map
--
-entrycount
-entryCount
-dfn
-ift
-ift
-1
-snapshot
-https://www.w3.org/TR/IFT/#format-1-patch-map-entrycount
-
-1
-Format 1 Patch Map
 -
 entrycount
 entryCount
@@ -7114,16 +8055,17 @@ https://www.w3.org/TR/webgpu/#dom-gpushadermodulecompilationhint-entrypoint
 1
 GPUShaderModuleCompilationHint
 -
-entrytype
 entryType
-dfn
+entryType
+attribute
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/interaction.html#visibilitystateentry-entrytype
-
 1
+1
+VisibilityStateEntry
 -
 entryType
 entryType
@@ -7188,6 +8130,30 @@ PerformanceEntry
 entryType
 entryType
 attribute
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-entrytype
+1
+1
+PerformanceLongAnimationFrameTiming
+-
+entryType
+entryType
+attribute
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-entrytype
+1
+1
+PerformanceScriptTiming
+-
+entryType
+entryType
+attribute
 longtasks-1
 longtasks
 1
@@ -7229,6 +8195,18 @@ performance-timeline
 1
 current
 https://w3c.github.io/performance-timeline/#dom-performanceobserverinit-entrytypes
+1
+1
+PerformanceObserverInit
+-
+entrytypes
+entryTypes
+dfn
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#performanceobserverinit-entrytypes
 1
 1
 PerformanceObserverInit
@@ -7405,11 +8383,45 @@ https://webidl.spec.whatwg.org/#dfn-enumeration-value
 env()
 env()
 function
+css-conditional-5
+css-conditional
+5
+current
+https://drafts.csswg.org/css-conditional-5/#funcdef-supports-env
+1
+1
+@supports
+-
+env()
+env()
+function
 css-env-1
 css-env
 1
 current
 https://drafts.csswg.org/css-env-1/#funcdef-env
+1
+1
+-
+env()
+env()
+function
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#funcdef-env
+1
+1
+-
+enveloping proof
+enveloping proof
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-enveloping-proof
 1
 1
 -
@@ -7420,7 +8432,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-enveloping-proof
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-enveloping-proof
 1
 1
 -
@@ -7435,6 +8447,17 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-enveloping-proof
 1
 1
 -
+enveloping proof
+enveloping proof
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-enveloping-proof
+1
+1
+-
 environment
 environment
 dfn
@@ -7445,6 +8468,7 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-options-environment
 
 1
+link processing options
 -
 environment
 environment
@@ -7527,6 +8551,17 @@ https://www.w3.org/TR/mediacapture-streams/#dom-videofacingmodeenum-environment
 1
 VideoFacingModeEnum
 -
+environment default `user-agent` value
+environment default `User-Agent` value
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#environment-default-user-agent-value
+1
+1
+-
 environment discarding steps
 environment discarding steps
 dfn
@@ -7595,6 +8630,18 @@ https://drafts.csswg.org/css-env-1/#css-environment-variable
 1
 CSS
 -
+environment variable
+environment variable
+dfn
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#css-environment-variable
+1
+1
+CSS
+-
 environment-blending
 environment-blending
 descriptor
@@ -7642,4 +8689,28 @@ https://www.w3.org/TR/webxr-ar-module-1/#dom-xrsession-environmentblendmode
 1
 1
 XRSession
+-
+environmentMap
+environmentMap
+attribute
+model-element
+model-element
+1
+current
+https://immersive-web.github.io/model-element/#dom-htmlmodelelement-environmentmap
+1
+1
+HTMLModelElement
+-
+environmentMapReady
+environmentMapReady
+attribute
+model-element
+model-element
+1
+current
+https://immersive-web.github.io/model-element/#dom-htmlmodelelement-environmentmapready
+1
+1
+HTMLModelElement
 -

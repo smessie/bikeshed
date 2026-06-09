@@ -1,3 +1,14 @@
+d:audio-context-playout-stats
+AUDIO-CONTEXT-PLAYOUT-STATS
+
+Unofficial Proposal Draft
+Playout Statistics API for WebAudio
+https://wicg.github.io/audio-context-playout-stats/
+
+
+
+
+-
 d:audio-eq-cookbook
 audio-eq-cookbook
 8 June 2021
@@ -24,22 +35,21 @@ Raymond Toy
 -
 d:audio-output
 audio-output
-31 August 2023
-CR
+9 October 2025
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/audio-output/
 https://w3c.github.io/mediacapture-output/
 
 
 
-Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
 d:audio-output-20150210
 audio-output-20150210
 10 February 2015
-WD
+FPWD
 Audio Output Devices API
 https://www.w3.org/TR/2015/WD-audio-output-20150210/
 https://www.w3.org/TR/2015/WD-audio-output-20150210/
@@ -59,7 +69,6 @@ https://www.w3.org/TR/2016/WD-audio-output-20160601/
 
 
 
-Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
@@ -73,7 +82,6 @@ https://www.w3.org/TR/2016/WD-audio-output-20160714/
 
 
 
-Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
@@ -87,7 +95,6 @@ https://www.w3.org/TR/2016/WD-audio-output-20161014/
 
 
 
-Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
@@ -101,7 +108,6 @@ https://www.w3.org/TR/2016/WD-audio-output-20161031/
 
 
 
-Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
@@ -115,7 +121,6 @@ https://www.w3.org/TR/2016/WD-audio-output-20161102/
 
 
 
-Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
@@ -148,7 +153,7 @@ Guido Urdaneta
 d:audio-output-20201127
 audio-output-20201127
 27 November 2020
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2020/CRD-audio-output-20201127/
 https://www.w3.org/TR/2020/CRD-audio-output-20201127/
@@ -161,7 +166,7 @@ Guido Urdaneta
 d:audio-output-20210107
 audio-output-20210107
 7 January 2021
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2021/CRD-audio-output-20210107/
 https://www.w3.org/TR/2021/CRD-audio-output-20210107/
@@ -175,7 +180,7 @@ youenn fablet
 d:audio-output-20210119
 audio-output-20210119
 19 January 2021
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2021/CRD-audio-output-20210119/
 https://www.w3.org/TR/2021/CRD-audio-output-20210119/
@@ -189,7 +194,7 @@ youenn fablet
 d:audio-output-20210215
 audio-output-20210215
 15 February 2021
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2021/CRD-audio-output-20210215/
 https://www.w3.org/TR/2021/CRD-audio-output-20210215/
@@ -203,7 +208,7 @@ youenn fablet
 d:audio-output-20210706
 audio-output-20210706
 6 July 2021
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2021/CRD-audio-output-20210706/
 https://www.w3.org/TR/2021/CRD-audio-output-20210706/
@@ -217,7 +222,7 @@ youenn fablet
 d:audio-output-20211115
 audio-output-20211115
 15 November 2021
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2021/CRD-audio-output-20211115/
 https://www.w3.org/TR/2021/CRD-audio-output-20211115/
@@ -231,7 +236,7 @@ youenn fablet
 d:audio-output-20220210
 audio-output-20220210
 10 February 2022
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2022/CRD-audio-output-20220210/
 https://www.w3.org/TR/2022/CRD-audio-output-20220210/
@@ -245,7 +250,7 @@ youenn fablet
 d:audio-output-20230203
 audio-output-20230203
 3 February 2023
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2023/CRD-audio-output-20230203/
 https://www.w3.org/TR/2023/CRD-audio-output-20230203/
@@ -259,7 +264,7 @@ youenn fablet
 d:audio-output-20230504
 audio-output-20230504
 4 May 2023
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2023/CRD-audio-output-20230504/
 https://www.w3.org/TR/2023/CRD-audio-output-20230504/
@@ -273,7 +278,7 @@ youenn fablet
 d:audio-output-20230831
 audio-output-20230831
 31 August 2023
-CR
+CRD
 Audio Output Devices API
 https://www.w3.org/TR/2023/CRD-audio-output-20230831/
 https://www.w3.org/TR/2023/CRD-audio-output-20230831/
@@ -284,16 +289,83 @@ Justin Uberti
 Guido Urdaneta
 youenn fablet
 -
-d:audio-session
-AUDIO-SESSION
+d:audio-output-20250417
+audio-output-20250417
+17 April 2025
+CRD
+Audio Output Devices API
+https://www.w3.org/TR/2025/CRD-audio-output-20250417/
+https://www.w3.org/TR/2025/CRD-audio-output-20250417/
 
-Editor's Draft
+
+
+Guido Urdaneta
+youenn fablet
+-
+d:audio-output-20251009
+audio-output-20251009
+9 October 2025
+CRD
+Audio Output Devices API
+https://www.w3.org/TR/2025/CRD-audio-output-20251009/
+https://www.w3.org/TR/2025/CRD-audio-output-20251009/
+
+
+
+Guido Urdaneta
+youenn fablet
+-
+d:audio-session
+audio-session
+13 November 2024
+WD
 Audio Session
+https://www.w3.org/TR/audio-session/
 https://w3c.github.io/audio-session/
 
 
 
+youenn fablet
+Alastor Wu
+-
+d:audio-session-20241107
+audio-session-20241107
+7 November 2024
+FPWD
+Audio Session
+https://www.w3.org/TR/2024/WD-audio-session-20241107/
+https://www.w3.org/TR/2024/WD-audio-session-20241107/
 
+
+
+Alastor Wu
+youenn fablet
+-
+d:audio-session-20241112
+audio-session-20241112
+12 November 2024
+WD
+Audio Session
+https://www.w3.org/TR/2024/WD-audio-session-20241112/
+https://www.w3.org/TR/2024/WD-audio-session-20241112/
+
+
+
+youenn fablet
+Alastor Wu
+-
+d:audio-session-20241113
+audio-session-20241113
+13 November 2024
+WD
+Audio Session
+https://www.w3.org/TR/2024/WD-audio-session-20241113/
+https://www.w3.org/TR/2024/WD-audio-session-20241113/
+
+
+
+youenn fablet
+Alastor Wu
 -
 d:audiobooks
 audiobooks
@@ -311,7 +383,7 @@ Matt Garrish
 d:audiobooks-20190620
 audiobooks-20190620
 20 June 2019
-WD
+FPWD
 Audiobook Profile for Web Publications
 https://www.w3.org/TR/2019/WD-audiobooks-20190620/
 https://www.w3.org/TR/2019/WD-audiobooks-20190620/
@@ -463,7 +535,7 @@ Matt Garrish
 -
 d:audioproc
 audioproc
-15 December 2011
+27 May 2025
 WD
 Audio Processing API
 https://www.w3.org/TR/audioproc/
@@ -471,8 +543,7 @@ https://www.w3.org/TR/audioproc/
 
 
 
-Robert O'Callahan
-Chris Rogers
+Chris Lilley
 -
 d:audioproc-20111215
 audioproc-20111215
@@ -487,31 +558,56 @@ https://www.w3.org/TR/2011/WD-audioproc-20111215/
 Robert O'Callahan
 Chris Rogers
 -
+d:audioproc-20250527
+audioproc-20250527
+27 May 2025
+WD
+Audio Processing API
+https://www.w3.org/TR/2025/DISC-audioproc-20250527/
+https://www.w3.org/TR/2025/DISC-audioproc-20250527/
+
+
+
+Chris Lilley
+-
 d:authentform
 authentform
 3 February 1999
 NOTE
-User Agent Authentication Form Elements
+User Agent Authentication Forms
 https://www.w3.org/TR/NOTE-authentform
 
 
 
 
+Scott Lawrence
 -
 d:authentform-19990203
 authentform-19990203
 3 February 1999
 NOTE
-User Agent Authentication Form Elements
+User Agent Authentication Forms
 https://www.w3.org/TR/1999/NOTE-authentform-19990203
 https://www.w3.org/TR/1999/NOTE-authentform-19990203
+
+
+
+Scott Lawrence
+-
+d:autofill-event
+AUTOFILL-EVENT
+
+Draft Community Group Report
+Autofill Event
+https://wicg.github.io/autofill-event/
+
 
 
 
 -
 d:autoplay-detection
 autoplay-detection
-4 July 2024
+4 September 2025
 WD
 Autoplay Policy Detection
 https://www.w3.org/TR/autoplay-detection/
@@ -524,14 +620,14 @@ Alastor Wu
 d:autoplay-detection-20220315
 autoplay-detection-20220315
 15 March 2022
-WD
+FPWD
 Autoplay Policy Detection
 https://www.w3.org/TR/2022/WD-autoplay-detection-20220315/
 https://www.w3.org/TR/2022/WD-autoplay-detection-20220315/
 
 
 
-ALASTOR WU
+Alastor Wu
 -
 d:autoplay-detection-20220407
 autoplay-detection-20220407
@@ -543,7 +639,7 @@ https://www.w3.org/TR/2022/WD-autoplay-detection-20220407/
 
 
 
-ALASTOR WU
+Alastor Wu
 -
 d:autoplay-detection-20220915
 autoplay-detection-20220915
@@ -555,7 +651,7 @@ https://www.w3.org/TR/2022/WD-autoplay-detection-20220915/
 
 
 
-ALASTOR WU
+Alastor Wu
 -
 d:autoplay-detection-20230127
 autoplay-detection-20230127
@@ -588,6 +684,30 @@ WD
 Autoplay Policy Detection
 https://www.w3.org/TR/2024/WD-autoplay-detection-20240704/
 https://www.w3.org/TR/2024/WD-autoplay-detection-20240704/
+
+
+
+Alastor Wu
+-
+d:autoplay-detection-20241216
+autoplay-detection-20241216
+16 December 2024
+WD
+Autoplay Policy Detection
+https://www.w3.org/TR/2024/WD-autoplay-detection-20241216/
+https://www.w3.org/TR/2024/WD-autoplay-detection-20241216/
+
+
+
+Alastor Wu
+-
+d:autoplay-detection-20250904
+autoplay-detection-20250904
+4 September 2025
+WD
+Autoplay Policy Detection
+https://www.w3.org/TR/2025/WD-autoplay-detection-20250904/
+https://www.w3.org/TR/2025/WD-autoplay-detection-20250904/
 
 
 

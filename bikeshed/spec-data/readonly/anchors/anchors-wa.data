@@ -1,3 +1,99 @@
+"wait"
+"wait"
+cddl-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-value-digitalcredentials-virtualwalletaction-wait
+1
+1
+digitalCredentials.VirtualWalletAction
+-
+"wait"
+"wait"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextnavigateparameters-wait
+
+1
+browsingContext.NavigateParameters
+-
+"wait"
+"wait"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextreloadparameters-wait
+
+1
+browsingContext.ReloadParameters
+-
+"wait"
+"wait"
+cddl-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-value-digitalcredentials-virtualwalletaction-wait
+1
+1
+digitalCredentials.VirtualWalletAction
+-
+"wait"
+"wait"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextnavigateparameters-wait
+
+1
+browsingContext.NavigateParameters
+-
+"wait"
+"wait"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextreloadparameters-wait
+
+1
+browsingContext.ReloadParameters
+-
+"warn"
+"warn"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-loglevel-warn
+
+1
+log.Level
+-
+"warn"
+"warn"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-loglevel-warn
+
+1
+log.Level
+-
 "warning"
 "warning"
 enum-value
@@ -31,17 +127,6 @@ csp
 current
 https://w3c.github.io/webappsec-csp/#grammardef-wasm-unsafe-eval
 1
-1
--
-'wasm-unsafe-eval'
-'wasm-unsafe-eval'
-grammar
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#grammardef-wasm-unsafe-eval
-
 1
 -
 'wasm-unsafe-eval'
@@ -98,6 +183,18 @@ snapshot
 https://www.w3.org/TR/encrypted-media-2/#dfn-wait-for-key
 
 1
+-
+wait for user step
+wait for user step
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#create-identity-credential-wait-for-user-step
+
+1
+create identity credential
 -
 waiter record
 Waiter Record
@@ -264,7 +361,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-warning-user-during-nfc-operations
+https://w3c-cg.github.io/web-nfc/#dfn-warning-user-during-nfc-operations
 
 
 -
@@ -282,7 +379,7 @@ https://webbluetoothcg.github.io/web-bluetooth/#dictdef-watchadvertisementsoptio
 WaveShaperNode
 WaveShaperNode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -293,18 +390,40 @@ https://webaudio.github.io/web-audio-api/#WaveShaperNode
 WaveShaperNode
 WaveShaperNode
 interface
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#WaveShaperNode
+1
+1
+-
+WaveShaperNode
+WaveShaperNode
+interface
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#waveshapernode
+https://www.w3.org/TR/webaudio-1.0/#waveshapernode
+1
+1
+-
+WaveShaperNode
+WaveShaperNode
+interface
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#WaveShaperNode
 1
 1
 -
 WaveShaperNode(context)
 WaveShaperNode(context)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -316,11 +435,35 @@ WaveShaperNode
 WaveShaperNode(context)
 WaveShaperNode(context)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshapernode-waveshapernode
+1
+1
+WaveShaperNode
+-
+WaveShaperNode(context)
+WaveShaperNode(context)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshapernode-waveshapernode
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshapernode-waveshapernode
+1
+1
+WaveShaperNode
+-
+WaveShaperNode(context)
+WaveShaperNode(context)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshapernode-waveshapernode
 1
 1
 WaveShaperNode
@@ -328,7 +471,7 @@ WaveShaperNode
 WaveShaperNode(context, options)
 WaveShaperNode(context, options)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -340,11 +483,35 @@ WaveShaperNode
 WaveShaperNode(context, options)
 WaveShaperNode(context, options)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshapernode-waveshapernode
+1
+1
+WaveShaperNode
+-
+WaveShaperNode(context, options)
+WaveShaperNode(context, options)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshapernode-waveshapernode
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshapernode-waveshapernode
+1
+1
+WaveShaperNode
+-
+WaveShaperNode(context, options)
+WaveShaperNode(context, options)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshapernode-waveshapernode
 1
 1
 WaveShaperNode
@@ -352,7 +519,7 @@ WaveShaperNode
 WaveShaperOptions
 WaveShaperOptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -363,11 +530,33 @@ https://webaudio.github.io/web-audio-api/#WaveShaperOptions
 WaveShaperOptions
 WaveShaperOptions
 dictionary
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#WaveShaperOptions
+1
+1
+-
+WaveShaperOptions
+WaveShaperOptions
+dictionary
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dictdef-waveshaperoptions
+https://www.w3.org/TR/webaudio-1.0/#dictdef-waveshaperoptions
+1
+1
+-
+WaveShaperOptions
+WaveShaperOptions
+dictionary
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#WaveShaperOptions
 1
 1
 -
@@ -422,6 +611,18 @@ Geolocation
 [[watchIDs]]
 [[watchIDs]]
 attribute
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#dom-htmlgeolocationelement-watchids-slot
+1
+1
+HTMLGeolocationElement
+-
+[[watchIDs]]
+[[watchIDs]]
+attribute
 geolocation
 geolocation
 1
@@ -458,14 +659,38 @@ cursor
 wait
 wait
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-cursor-wait
 1
 1
 cursor
+-
+wait
+wait
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextnavigateparameters-wait
+
+1
+browsingContext.NavigateParameters
+-
+wait
+wait
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextreloadparameters-wait
+
+1
+browsingContext.ReloadParameters
 -
 wait
 wait
@@ -491,6 +716,30 @@ https://www.w3.org/TR/css-ui-4/#valdef-cursor-wait
 1
 cursor
 -
+wait
+wait
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextnavigateparameters-wait
+
+1
+browsingContext.NavigateParameters
+-
+wait
+wait
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextreloadparameters-wait
+
+1
+browsingContext.ReloadParameters
+-
 wait and queue a report for
 wait and queue a report for
 dfn
@@ -513,14 +762,14 @@ https://wicg.github.io/nav-speculation/prefetch.html#wait-for-a-matching-prefetc
 1
 1
 -
-wait for a matching prerendering record
-wait for a matching prerendering record
+wait for a matching prerendered prefetch record
+wait for a matching prerendered prefetch record
 dfn
 prerendering-revamped
 prerendering-revamped
 1
 current
-https://wicg.github.io/nav-speculation/prerendering.html#wait-for-a-matching-prerendering-record
+https://wicg.github.io/nav-speculation/prerendering.html#wait-for-a-matching-prerendered-prefetch-record
 
 1
 -
@@ -535,14 +784,25 @@ https://webidl.spec.whatwg.org/#wait-for-all
 1
 1
 -
-wait for cross origin trusted scoring signals authorization from a fetcher
-wait for cross origin trusted scoring signals authorization from a fetcher
+wait for an action queue token
+wait for an action queue token
 dfn
-turtledove
-turtledove
-1
+webdriver2
+webdriver
+2
 current
-https://wicg.github.io/turtledove/#wait-for-cross-origin-trusted-scoring-signals-authorization-from-a-fetcher
+https://w3c.github.io/webdriver/#dfn-wait-for-an-action-queue-token
+
+1
+-
+wait for an action queue token
+wait for an action queue token
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-wait-for-an-action-queue-token
 
 1
 -
@@ -568,14 +828,14 @@ https://www.w3.org/TR/webdriver2/#dfn-wait-for-navigation-to-complete
 
 1
 -
-wait for script body from a fetcher
-wait for script body from a fetcher
+wait queue
+wait queue
 dfn
-turtledove
-turtledove
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#wait-for-script-body-from-a-fetcher
+https://w3c.github.io/webdriver-bidi/#wait-queue
 
 1
 -
@@ -585,8 +845,8 @@ dfn
 webdriver-bidi
 webdriver-bidi
 1
-current
-https://w3c.github.io/webdriver-bidi/#wait-queue
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#wait-queue
 
 1
 -
@@ -614,30 +874,20 @@ https://www.w3.org/TR/service-workers/#fetchevent-wait-to-respond-flag
 1
 FetchEvent
 -
-wait until configuration input promises resolve
-wait until configuration input promises resolve
+wait until promise count
+wait until promise count
 dfn
-turtledove
-turtledove
-1
+css-view-transitions-2
+css-view-transitions
+2
 current
-https://wicg.github.io/turtledove/#wait-until-configuration-input-promises-resolve
-
+https://drafts.csswg.org/css-view-transitions-2/#document-wait-until-promise-count
 1
+1
+document
 -
-wait until server response promise resolves
-wait until server response promise resolves
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#wait-until-server-response-promise-resolves
-
-1
--
-wait(typedArray, index, value, timeout)
-wait(typedArray, index, value, timeout)
+wait(ta, index, value, timeout)
+wait(ta, index, value, timeout)
 method
 ecmascript
 ecmascript
@@ -648,8 +898,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.wait
 1
 Atomics
 -
-waitAsync(typedArray, index, value, timeout)
-waitAsync(typedArray, index, value, timeout)
+waitAsync(ta, index, value, timeout)
+waitAsync(ta, index, value, timeout)
 method
 ecmascript
 ecmascript
@@ -683,6 +933,18 @@ https://www.w3.org/TR/service-workers/#dom-extendableevent-waituntil
 1
 1
 ExtendableEvent
+-
+waitUntil(promise)
+waitUntil(promise)
+method
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil
+1
+1
+ViewTransition
 -
 waitUntilAvailable
 waitUntilAvailable
@@ -928,6 +1190,52 @@ https://www.w3.org/TR/hr-time-3/#dfn-wall-clock
 1
 1
 -
+ward
+ward
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-ward
+1
+
+-
+ward
+ward
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-ward
+
+
+-
+warn
+warn
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-loglevel-warn
+
+1
+log.Level
+-
+warn
+warn
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-loglevel-warn
+
+1
+log.Level
+-
 warn()
 warn()
 method
@@ -979,7 +1287,7 @@ severity
 warnings
 warnings
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -991,7 +1299,7 @@ verification result
 warnings
 warnings
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -999,6 +1307,42 @@ https://w3c.github.io/vc-data-integrity/#dfn-warnings-0
 
 1
 context validation result
+-
+warnings
+warnings
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-warnings
+
+1
+verification result
+-
+warnings
+warnings
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-warnings-0
+
+1
+context validation result
+-
+warnings
+warnings
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-warnings
+
+1
+verification result
 -
 warnings
 warnings
@@ -1011,6 +1355,18 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-warnings
 
 1
 verification result
+-
+warnings
+warnings
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-warnings-0
+
+1
+context validation result
 -
 warnings
 warnings
@@ -1083,17 +1439,29 @@ https://wicg.github.io/page-lifecycle/#dom-document-wasdiscarded
 1
 Document
 -
-wasmHelper
-wasmHelper
-dict-member
-turtledove
-turtledove
+watch
+watch
+attribute
+geolocation-element
+geolocation-element
 1
 current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-wasmhelper
+https://wicg.github.io/PEPC/geolocation-element.html#dom-htmlgeolocationelement-watch
 1
 1
-BiddingBrowserSignals
+HTMLGeolocationElement
+-
+watch
+watch
+element-attr
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#element-attrdef-geolocation-watch
+1
+1
+geolocation
 -
 watch advertisements manager
 watch advertisements manager
@@ -1289,22 +1657,22 @@ BluetoothDevice
 waveshapernode
 waveshapernode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#WaveShaperNode
+https://www.w3.org/TR/webaudio-1.0/#WaveShaperNode
 1
 1
 -
 waveshaperoptions
 waveshaperoptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#WaveShaperOptions
+https://www.w3.org/TR/webaudio-1.0/#WaveShaperOptions
 1
 1
 -
@@ -1343,4 +1711,16 @@ https://www.w3.org/TR/css-text-decor-4/#valdef-text-decoration-style-wavy
 1
 1
 text-decoration-style
+-
+wavy
+wavy
+enum-value
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dom-underlinestyle-wavy
+1
+1
+UnderlineStyle
 -

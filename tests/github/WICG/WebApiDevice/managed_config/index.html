@@ -912,7 +912,7 @@ A client can subscribe to the managed configuration updates by subscribiting to 
      <p>For each instance <var>data</var> of <code class="idl"><a data-link-type="idl" href="#navigatormanageddata" id="ref-for-navigatormanageddata③">NavigatorManagedData</a></code>:</p>
      <ol>
       <li data-md>
-       <p>Let <var>document</var> be <var>data</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global②">relevant global object</a>’s associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">Document</a>.</p>
+       <p>Let <var>document</var> be <var>data</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global②">relevant global object</a>’s associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">Document</a>.</p>
       <li data-md>
        <p>If <var>document</var> is <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active">fully active</a> and <var>document</var>’s <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-origin" id="ref-for-concept-url-origin④">origin</a> is equal to <var>origin</var>, <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-event-fire" id="ref-for-concept-event-fire">fire an event</a> named <a data-link-type="dfn" href="#managedconfigurationchange" id="ref-for-managedconfigurationchange①">managedconfigurationchange</a> at <var>data</var> with no value associated with it.</p>
      </ol>
@@ -979,7 +979,7 @@ A client can subscribe to the managed configuration updates by subscribiting to 
     <ul>
      <li><span class="dfn-paneled" id="85394472">Document</span>
      <li><span class="dfn-paneled" id="2bc0cdf4">EventTarget</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="5fd23811">fire an event</span>
     </ul>
    <li>
@@ -1267,7 +1267,7 @@ let dfnPanelData = {
 "959ad97b": {"dfnID":"959ad97b","dfnText":"origin","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-origin"}],"title":"1.3. Data model"},{"refs":[{"id":"ref-for-concept-url-origin\u2460"},{"id":"ref-for-concept-url-origin\u2461"}],"title":"3.1. getManagedConfiguration() method"},{"refs":[{"id":"ref-for-concept-url-origin\u2462"},{"id":"ref-for-concept-url-origin\u2463"}],"title":"3.2. onmanagedconfigurationchange attribute"}],"url":"https://url.spec.whatwg.org/#concept-url-origin"},
 "9cce47fd": {"dfnID":"9cce47fd","dfnText":"sequence","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-sequence"}],"title":"3. NavigatorManagedData interface"}],"url":"https://webidl.spec.whatwg.org/#idl-sequence"},
 "a5c91173": {"dfnID":"a5c91173","dfnText":"SameObject","external":true,"refSections":[{"refs":[{"id":"ref-for-SameObject"}],"title":"2. Extensions to the Navigator interface"}],"url":"https://webidl.spec.whatwg.org/#SameObject"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"}],"title":"3.2. onmanagedconfigurationchange attribute"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"}],"title":"3.2. onmanagedconfigurationchange attribute"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "b75bb3bd": {"dfnID":"b75bb3bd","dfnText":"SecureContext","external":true,"refSections":[{"refs":[{"id":"ref-for-SecureContext"},{"id":"ref-for-SecureContext\u2460"}],"title":"2. Extensions to the Navigator interface"},{"refs":[{"id":"ref-for-SecureContext\u2461"}],"title":"3. NavigatorManagedData interface"}],"url":"https://webidl.spec.whatwg.org/#SecureContext"},
 "ba556545": {"dfnID":"ba556545","dfnText":"NotAllowedError","external":true,"refSections":[{"refs":[{"id":"ref-for-notallowederror"}],"title":"3.1. getManagedConfiguration() method"}],"url":"https://webidl.spec.whatwg.org/#notallowederror"},
 "bdbd19d1": {"dfnID":"bdbd19d1","dfnText":"Promise","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-promise"}],"title":"3. NavigatorManagedData interface"}],"url":"https://webidl.spec.whatwg.org/#idl-promise"},
@@ -1680,7 +1680,7 @@ let refsData = {
 "#managed-data-task-source": {"displayText":"managed data task source","export":true,"for_":[],"level":"1","normative":true,"shortname":"managed-configuration","spec":"managed-configuration-1","status":"local","text":"managed data task source","type":"dfn","url":"#managed-data-task-source"},
 "#managedconfigurationchange": {"displayText":"managedconfigurationchange","export":true,"for_":[],"level":"1","normative":true,"shortname":"managed-configuration","spec":"managed-configuration-1","status":"local","text":"managedconfigurationchange","type":"dfn","url":"#managedconfigurationchange"},
 "#navigatormanageddata": {"displayText":"NavigatorManagedData","export":true,"for_":[],"level":"1","normative":true,"shortname":"managed-configuration","spec":"managed-configuration-1","status":"local","text":"NavigatorManagedData","type":"interface","url":"#navigatormanageddata"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-event-fire": {"displayText":"fire an event","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"fire an event","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-event-fire"},
 "https://dom.spec.whatwg.org/#document": {"displayText":"Document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Document","type":"interface","url":"https://dom.spec.whatwg.org/#document"},
 "https://dom.spec.whatwg.org/#eventtarget": {"displayText":"EventTarget","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"EventTarget","type":"interface","url":"https://dom.spec.whatwg.org/#eventtarget"},

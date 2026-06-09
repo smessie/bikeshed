@@ -1,10 +1,578 @@
 {
-  "#rfcnum": {
+  "#abstract": {
     "current": {
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
-      "text": "RFC 8878",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#rfcnum"
+      "text": "Abstract",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-abstract"
+    }
+  },
+  "#contact-us": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Contact Us",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#contact-us"
+    }
+  },
+  "#in-this-section": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "In this section",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#in-this-section"
+    }
+  },
+  "#name-acknowledgments": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Acknowledgments",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.c"
+    }
+  },
+  "#name-authors-addresses": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Authors' Addresses",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.d"
+    }
+  },
+  "#name-block_content-and-block_max": {
+    "current": {
+      "number": "3.1.1.2.4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Block_Content and Block_Maximum_Size",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.4"
+    }
+  },
+  "#name-block_size": {
+    "current": {
+      "number": "3.1.1.2.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Block_Size",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.3"
+    }
+  },
+  "#name-block_type": {
+    "current": {
+      "number": "3.1.1.2.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Block_Type",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.2"
+    }
+  },
+  "#name-blocks": {
+    "current": {
+      "number": "3.1.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Blocks",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2"
+    }
+  },
+  "#name-changes-since-rfc-8478": {
+    "current": {
+      "number": "B",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Changes since RFC 8478",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.b"
+    }
+  },
+  "#name-compressed-blocks": {
+    "current": {
+      "number": "3.1.1.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Compressed Blocks",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3"
+    }
+  },
+  "#name-compressed_literals_block-a": {
+    "current": {
+      "number": "3.1.1.3.1.4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Compressed_Literals_Block and Treeless_Literals_Block",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.4"
+    }
+  },
+  "#name-compression-algorithm": {
+    "current": {
+      "number": "3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Compression Algorithm",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3"
+    }
+  },
+  "#name-content-encoding": {
+    "current": {
+      "number": "7.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Content Encoding",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.2"
+    }
+  },
+  "#name-content_checksum_flag": {
+    "current": {
+      "number": "3.1.1.1.1.5",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Content_Checksum_Flag",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.5"
+    }
+  },
+  "#name-conversion-from-weights-to-": {
+    "current": {
+      "number": "4.2.1.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Conversion from Weights to Huffman Prefix Codes",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1.3"
+    }
+  },
+  "#name-copyright-notice": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Copyright Notice",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-boilerplate.2"
+    }
+  },
+  "#name-decoding-sequences": {
+    "current": {
+      "number": "3.1.1.3.2.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Decoding Sequences",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.1.2"
+    }
+  },
+  "#name-decoding-tables-for-predefi": {
+    "current": {
+      "number": "A",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Decoding Tables for Predefined Codes",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.a"
+    }
+  },
+  "#name-default-distributions": {
+    "current": {
+      "number": "3.1.1.3.2.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Default Distributions",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2"
+    }
+  },
+  "#name-definitions": {
+    "current": {
+      "number": "2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Definitions",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-2"
+    }
+  },
+  "#name-dictionaries": {
+    "current": {
+      "number": "7.4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Dictionaries",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.4"
+    }
+  },
+  "#name-dictionary-format": {
+    "current": {
+      "number": "5",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Dictionary Format",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-5"
+    }
+  },
+  "#name-dictionary_id": {
+    "current": {
+      "number": "3.1.1.1.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Dictionary_ID",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.3"
+    }
+  },
+  "#name-dictionary_id_flag": {
+    "current": {
+      "number": "3.1.1.1.1.6",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Dictionary_ID_Flag",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.6"
+    }
+  },
+  "#name-entropy-encoding": {
+    "current": {
+      "number": "4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Entropy Encoding",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4"
+    }
+  },
+  "#name-frame-header": {
+    "current": {
+      "number": "3.1.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Frame Header",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1"
+    }
+  },
+  "#name-frame_content_size": {
+    "current": {
+      "number": "3.1.1.1.4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Frame_Content_Size",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.4"
+    }
+  },
+  "#name-frame_content_size_flag": {
+    "current": {
+      "number": "3.1.1.1.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Frame_Content_Size_Flag",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.1"
+    }
+  },
+  "#name-frame_header_descriptor": {
+    "current": {
+      "number": "3.1.1.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Frame_Header_Descriptor",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1"
+    }
+  },
+  "#name-frames": {
+    "current": {
+      "number": "3.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Frames",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1"
+    }
+  },
+  "#name-fse": {
+    "current": {
+      "number": "4.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "FSE",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.1"
+    }
+  },
+  "#name-fse-compression-of-huffman-": {
+    "current": {
+      "number": "4.2.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "FSE Compression of Huffman Weights",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1.2"
+    }
+  },
+  "#name-fse-table-description": {
+    "current": {
+      "number": "4.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "FSE Table Description",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.1.1"
+    }
+  },
+  "#name-huffman-coded-streams": {
+    "current": {
+      "number": "4.2.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Huffman-Coded Streams",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.2"
+    }
+  },
+  "#name-huffman-coding": {
+    "current": {
+      "number": "4.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Huffman Coding",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2"
+    }
+  },
+  "#name-huffman-tree-description": {
+    "current": {
+      "number": "4.2.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Huffman Tree Description",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1"
+    }
+  },
+  "#name-huffman-tree-header": {
+    "current": {
+      "number": "4.2.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Huffman Tree Header",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1.1"
+    }
+  },
+  "#name-huffman_tree_description": {
+    "current": {
+      "number": "3.1.1.3.1.5",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Huffman_Tree_Description",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.5"
+    }
+  },
+  "#name-iana-considerations": {
+    "current": {
+      "number": "7",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "IANA Considerations",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7"
+    }
+  },
+  "#name-informative-references": {
+    "current": {
+      "number": "9.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Informative References",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-9.2"
+    }
+  },
+  "#name-introduction": {
+    "current": {
+      "number": "1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Introduction",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-1"
+    }
+  },
+  "#name-jump_table": {
+    "current": {
+      "number": "3.1.1.3.1.6",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Jump_Table",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.6"
+    }
+  },
+  "#name-last_block": {
+    "current": {
+      "number": "3.1.1.2.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Last_Block",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.1"
+    }
+  },
+  "#name-literals-length-code-table": {
+    "current": {
+      "number": "A.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Literals Length Code Table",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-a.1"
+    }
+  },
+  "#name-literals-length-codes-2": {
+    "current": {
+      "number": "3.1.1.3.2.2.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Literals Length Codes",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2.1"
+    }
+  },
+  "#name-literals_section_header": {
+    "current": {
+      "number": "3.1.1.3.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Literals_Section_Header",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1"
+    }
+  },
+  "#name-literals_section_header-2": {
+    "current": {
+      "number": "3.1.1.3.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Literals_Section_Header",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.1"
+    }
+  },
+  "#name-match-length-code-table": {
+    "current": {
+      "number": "A.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Match Length Code Table",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-a.2"
+    }
+  },
+  "#name-match-length-codes-2": {
+    "current": {
+      "number": "3.1.1.3.2.2.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Match Length Codes",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2.2"
+    }
+  },
+  "#name-normative-references": {
+    "current": {
+      "number": "9.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Normative References",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-9.1"
+    }
+  },
+  "#name-offset-code-table": {
+    "current": {
+      "number": "A.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Offset Code Table",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-a.3"
+    }
+  },
+  "#name-offset-codes": {
+    "current": {
+      "number": "3.1.1.3.2.2.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Offset Codes",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2.3"
+    }
+  },
+  "#name-raw_literals_block": {
+    "current": {
+      "number": "3.1.1.3.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Raw_Literals_Block",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.2"
+    }
+  },
+  "#name-references": {
+    "current": {
+      "number": "9",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "References",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-9"
+    }
+  },
+  "#name-repeat-offsets": {
+    "current": {
+      "number": "3.1.1.5",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Repeat Offsets",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.5"
+    }
+  },
+  "#name-reserved-bit": {
+    "current": {
+      "number": "3.1.1.1.1.4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Reserved Bit",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.4"
+    }
+  },
+  "#name-rle_literals_block": {
+    "current": {
+      "number": "3.1.1.3.1.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "RLE_Literals_Block",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.3"
+    }
+  },
+  "#name-security-considerations": {
+    "current": {
+      "number": "8",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Security Considerations",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-8"
+    }
+  },
+  "#name-sequence-codes-for-lengths-": {
+    "current": {
+      "number": "3.1.1.3.2.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Sequence Codes for Lengths and Offsets",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.1.1"
+    }
+  },
+  "#name-sequence-execution": {
+    "current": {
+      "number": "3.1.1.4",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Sequence Execution",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.4"
+    }
+  },
+  "#name-sequences_section": {
+    "current": {
+      "number": "3.1.1.3.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Sequences_Section",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2"
+    }
+  },
+  "#name-sequences_section_header": {
+    "current": {
+      "number": "3.1.1.3.2.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Sequences_Section_Header",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.1"
+    }
+  },
+  "#name-single_segment_flag": {
+    "current": {
+      "number": "3.1.1.1.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Single_Segment_Flag",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.2"
+    }
+  },
+  "#name-skippable-frames": {
+    "current": {
+      "number": "3.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Skippable Frames",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.2"
+    }
+  },
+  "#name-status-of-this-memo": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Status of This Memo",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-boilerplate.1"
+    }
+  },
+  "#name-structured-syntax-suffix": {
+    "current": {
+      "number": "7.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Structured Syntax Suffix",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.3"
+    }
+  },
+  "#name-the-application-zstd-media-": {
+    "current": {
+      "number": "7.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "The 'application/zstd' Media Type",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.1"
+    }
+  },
+  "#name-unused-bit": {
+    "current": {
+      "number": "3.1.1.1.1.3",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Unused Bit",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.3"
+    }
+  },
+  "#name-use-of-dictionaries": {
+    "current": {
+      "number": "6",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Use of Dictionaries",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-6"
+    }
+  },
+  "#name-window-descriptor": {
+    "current": {
+      "number": "3.1.1.1.2",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Window Descriptor",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.2"
+    }
+  },
+  "#name-zstandard-frames": {
+    "current": {
+      "number": "3.1.1",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "Zstandard Frames",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1"
     }
   },
   "#section-1": {
@@ -12,7 +580,7 @@
       "number": "1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Introduction",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-1"
     }
   },
   "#section-2": {
@@ -20,7 +588,7 @@
       "number": "2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Definitions",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-2"
     }
   },
   "#section-3": {
@@ -28,7 +596,7 @@
       "number": "3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Compression Algorithm",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3"
     }
   },
   "#section-3.1": {
@@ -36,7 +604,7 @@
       "number": "3.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Frames",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1"
     }
   },
   "#section-3.1.1": {
@@ -44,7 +612,7 @@
       "number": "3.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Zstandard Frames",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1"
     }
   },
   "#section-3.1.1.1": {
@@ -52,7 +620,7 @@
       "number": "3.1.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Frame Header",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1"
     }
   },
   "#section-3.1.1.1.1": {
@@ -60,7 +628,7 @@
       "number": "3.1.1.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Frame_Header_Descriptor",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1"
     }
   },
   "#section-3.1.1.1.1.1": {
@@ -68,7 +636,7 @@
       "number": "3.1.1.1.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Frame_Content_Size_Flag",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.1"
     }
   },
   "#section-3.1.1.1.1.2": {
@@ -76,7 +644,7 @@
       "number": "3.1.1.1.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Single_Segment_Flag",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.2"
     }
   },
   "#section-3.1.1.1.1.3": {
@@ -84,7 +652,7 @@
       "number": "3.1.1.1.1.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Unused Bit",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.3"
     }
   },
   "#section-3.1.1.1.1.4": {
@@ -92,7 +660,7 @@
       "number": "3.1.1.1.1.4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Reserved Bit",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1.4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.4"
     }
   },
   "#section-3.1.1.1.1.5": {
@@ -100,7 +668,7 @@
       "number": "3.1.1.1.1.5",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Content_Checksum_Flag",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1.5"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.5"
     }
   },
   "#section-3.1.1.1.1.6": {
@@ -108,7 +676,7 @@
       "number": "3.1.1.1.1.6",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Dictionary_ID_Flag",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.1.6"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.1.6"
     }
   },
   "#section-3.1.1.1.2": {
@@ -116,7 +684,7 @@
       "number": "3.1.1.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Window Descriptor",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.2"
     }
   },
   "#section-3.1.1.1.3": {
@@ -124,7 +692,7 @@
       "number": "3.1.1.1.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Dictionary_ID",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.3"
     }
   },
   "#section-3.1.1.1.4": {
@@ -132,7 +700,7 @@
       "number": "3.1.1.1.4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Frame_Content_Size",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.1.4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.1.4"
     }
   },
   "#section-3.1.1.2": {
@@ -140,7 +708,7 @@
       "number": "3.1.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Blocks",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2"
     }
   },
   "#section-3.1.1.2.1": {
@@ -148,7 +716,7 @@
       "number": "3.1.1.2.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Last_Block",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.2.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.1"
     }
   },
   "#section-3.1.1.2.2": {
@@ -156,7 +724,7 @@
       "number": "3.1.1.2.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Block_Type",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.2.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.2"
     }
   },
   "#section-3.1.1.2.3": {
@@ -164,7 +732,7 @@
       "number": "3.1.1.2.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Block_Size",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.2.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.3"
     }
   },
   "#section-3.1.1.2.4": {
@@ -172,7 +740,7 @@
       "number": "3.1.1.2.4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Block_Content and Block_Maximum_Size",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.2.4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.2.4"
     }
   },
   "#section-3.1.1.3": {
@@ -180,7 +748,7 @@
       "number": "3.1.1.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Compressed Blocks",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3"
     }
   },
   "#section-3.1.1.3.1": {
@@ -188,7 +756,7 @@
       "number": "3.1.1.3.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Literals_Section_Header",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1"
     }
   },
   "#section-3.1.1.3.1.1": {
@@ -196,7 +764,7 @@
       "number": "3.1.1.3.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Literals_Section_Header",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.1"
     }
   },
   "#section-3.1.1.3.1.2": {
@@ -204,7 +772,7 @@
       "number": "3.1.1.3.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Raw_Literals_Block",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.2"
     }
   },
   "#section-3.1.1.3.1.3": {
@@ -212,7 +780,7 @@
       "number": "3.1.1.3.1.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "RLE_Literals_Block",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.3"
     }
   },
   "#section-3.1.1.3.1.4": {
@@ -220,7 +788,7 @@
       "number": "3.1.1.3.1.4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Compressed_Literals_Block and Treeless_Literals_Block",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1.4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.4"
     }
   },
   "#section-3.1.1.3.1.5": {
@@ -228,7 +796,7 @@
       "number": "3.1.1.3.1.5",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Huffman_Tree_Description",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1.5"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.5"
     }
   },
   "#section-3.1.1.3.1.6": {
@@ -236,7 +804,7 @@
       "number": "3.1.1.3.1.6",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Jump_Table",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.1.6"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.1.6"
     }
   },
   "#section-3.1.1.3.2": {
@@ -244,7 +812,7 @@
       "number": "3.1.1.3.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Sequences_Section",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2"
     }
   },
   "#section-3.1.1.3.2.1": {
@@ -252,7 +820,7 @@
       "number": "3.1.1.3.2.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Sequences_Section_Header",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.1"
     }
   },
   "#section-3.1.1.3.2.1.1": {
@@ -260,7 +828,7 @@
       "number": "3.1.1.3.2.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Sequence Codes for Lengths and Offsets",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.1.1"
     }
   },
   "#section-3.1.1.3.2.1.2": {
@@ -268,7 +836,7 @@
       "number": "3.1.1.3.2.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Decoding Sequences",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.1.2"
     }
   },
   "#section-3.1.1.3.2.2": {
@@ -276,7 +844,7 @@
       "number": "3.1.1.3.2.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Default Distributions",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2"
     }
   },
   "#section-3.1.1.3.2.2.1": {
@@ -284,7 +852,7 @@
       "number": "3.1.1.3.2.2.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Literals Length Codes",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.2.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2.1"
     }
   },
   "#section-3.1.1.3.2.2.2": {
@@ -292,7 +860,7 @@
       "number": "3.1.1.3.2.2.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Match Length Codes",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.2.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2.2"
     }
   },
   "#section-3.1.1.3.2.2.3": {
@@ -300,7 +868,7 @@
       "number": "3.1.1.3.2.2.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Offset Codes",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.3.2.2.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.3.2.2.3"
     }
   },
   "#section-3.1.1.4": {
@@ -308,7 +876,7 @@
       "number": "3.1.1.4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Sequence Execution",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.4"
     }
   },
   "#section-3.1.1.5": {
@@ -316,7 +884,7 @@
       "number": "3.1.1.5",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Repeat Offsets",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.1.5"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.1.5"
     }
   },
   "#section-3.1.2": {
@@ -324,7 +892,7 @@
       "number": "3.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Skippable Frames",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-3.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-3.1.2"
     }
   },
   "#section-4": {
@@ -332,7 +900,7 @@
       "number": "4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Entropy Encoding",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4"
     }
   },
   "#section-4.1": {
@@ -340,7 +908,7 @@
       "number": "4.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "FSE",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.1"
     }
   },
   "#section-4.1.1": {
@@ -348,7 +916,7 @@
       "number": "4.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "FSE Table Description",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.1.1"
     }
   },
   "#section-4.2": {
@@ -356,7 +924,7 @@
       "number": "4.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Huffman Coding",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2"
     }
   },
   "#section-4.2.1": {
@@ -364,7 +932,7 @@
       "number": "4.2.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Huffman Tree Description",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.2.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1"
     }
   },
   "#section-4.2.1.1": {
@@ -372,7 +940,7 @@
       "number": "4.2.1.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Huffman Tree Header",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.2.1.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1.1"
     }
   },
   "#section-4.2.1.2": {
@@ -380,7 +948,7 @@
       "number": "4.2.1.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "FSE Compression of Huffman Weights",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.2.1.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1.2"
     }
   },
   "#section-4.2.1.3": {
@@ -388,7 +956,7 @@
       "number": "4.2.1.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Conversion from Weights to Huffman Prefix Codes",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.2.1.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.1.3"
     }
   },
   "#section-4.2.2": {
@@ -396,7 +964,7 @@
       "number": "4.2.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Huffman-Coded Streams",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-4.2.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-4.2.2"
     }
   },
   "#section-5": {
@@ -404,7 +972,7 @@
       "number": "5",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Dictionary Format",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-5"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-5"
     }
   },
   "#section-6": {
@@ -412,7 +980,7 @@
       "number": "6",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Use of Dictionaries",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-6"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-6"
     }
   },
   "#section-7": {
@@ -420,7 +988,7 @@
       "number": "7",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "IANA Considerations",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-7"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7"
     }
   },
   "#section-7.1": {
@@ -428,7 +996,7 @@
       "number": "7.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "The 'application/zstd' Media Type",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-7.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.1"
     }
   },
   "#section-7.2": {
@@ -436,7 +1004,7 @@
       "number": "7.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Content Encoding",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-7.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.2"
     }
   },
   "#section-7.3": {
@@ -444,7 +1012,7 @@
       "number": "7.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Structured Syntax Suffix",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-7.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.3"
     }
   },
   "#section-7.4": {
@@ -452,7 +1020,7 @@
       "number": "7.4",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Dictionaries",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-7.4"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-7.4"
     }
   },
   "#section-8": {
@@ -460,7 +1028,7 @@
       "number": "8",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Security Considerations",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-8"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-8"
     }
   },
   "#section-9": {
@@ -468,7 +1036,7 @@
       "number": "9",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "References",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-9"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-9"
     }
   },
   "#section-9.1": {
@@ -476,7 +1044,7 @@
       "number": "9.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Normative References",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-9.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-9.1"
     }
   },
   "#section-9.2": {
@@ -484,7 +1052,7 @@
       "number": "9.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Informative References",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-9.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-9.2"
     }
   },
   "#section-a.1": {
@@ -492,7 +1060,7 @@
       "number": "A.1",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Literals Length Code Table",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-a.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-a.1"
     }
   },
   "#section-a.2": {
@@ -500,7 +1068,7 @@
       "number": "A.2",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Match Length Code Table",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-a.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-a.2"
     }
   },
   "#section-a.3": {
@@ -508,7 +1076,7 @@
       "number": "A.3",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Offset Code Table",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-a.3"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-a.3"
     }
   },
   "#section-abstract": {
@@ -516,7 +1084,7 @@
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Abstract",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-abstract"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-abstract"
     }
   },
   "#section-appendix.a": {
@@ -524,7 +1092,7 @@
       "number": "A",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Decoding Tables for Predefined Codes",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-appendix.a"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.a"
     }
   },
   "#section-appendix.b": {
@@ -532,7 +1100,7 @@
       "number": "B",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Changes since RFC 8478",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-appendix.b"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.b"
     }
   },
   "#section-appendix.c": {
@@ -540,7 +1108,7 @@
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Acknowledgments",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-appendix.c"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.c"
     }
   },
   "#section-appendix.d": {
@@ -548,7 +1116,7 @@
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Authors' Addresses",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-appendix.d"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-appendix.d"
     }
   },
   "#section-boilerplate.1": {
@@ -556,7 +1124,7 @@
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Status of This Memo",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-boilerplate.1"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-boilerplate.1"
     }
   },
   "#section-boilerplate.2": {
@@ -564,23 +1132,31 @@
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
       "text": "Copyright Notice",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-boilerplate.2"
+      "url": "https://www.rfc-editor.org/info/rfc8878/#section-boilerplate.2"
     }
   },
-  "#section-toc.1": {
+  "#this-rfc-was-updated": {
     "current": {
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
-      "text": "Table of Contents",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#section-toc.1"
+      "text": "This RFC was updated",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#this-rfc-was-updated"
     }
   },
-  "#title": {
+  "#useful-links": {
     "current": {
       "number": "",
       "spec": "Zstandard Compression and the 'application/zstd' Media Type",
-      "text": "Zstandard Compression and the 'application/zstd' Media Type",
-      "url": "https://www.rfc-editor.org/rfc/rfc8878#title"
+      "text": "Useful links",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#useful-links"
+    }
+  },
+  "#zstandard-compression-and-the-applicationzstd-media-type": {
+    "current": {
+      "number": "",
+      "spec": "Zstandard Compression and the 'application/zstd' Media Type",
+      "text": "RFC 8878: Zstandard Compression and the 'application/zstd' Media Type",
+      "url": "https://www.rfc-editor.org/info/rfc8878/#zstandard-compression-and-the-applicationzstd-media-type"
     }
   }
 }

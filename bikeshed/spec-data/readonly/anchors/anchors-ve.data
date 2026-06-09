@@ -21,6 +21,18 @@ https://wicg.github.io/webhid/#dfn-vendor-defined
 
 1
 -
+"version"
+"version"
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsbrandversion-version
+1
+1
+userAgentClientHints.BrandVersion
+-
 "versionchange"
 "versionchange"
 enum-value
@@ -76,7 +88,7 @@ webxr-plane-detection
 webxr-plane-detection
 1
 current
-https://immersive-web.github.io/real-world-geometry/plane-detection.html#dom-xrplaneorientation-vertical
+https://immersive-web.github.io/plane-detection/#dom-xrplaneorientation-vertical
 1
 1
 XRPlaneOrientation
@@ -173,6 +185,30 @@ https://www.w3.org/TR/mathml4/#contm_vectorproduct
 
 1
 -
+<vertical-line-command>
+<vertical-line-command>
+type
+css-shapes-1
+css-shapes
+1
+current
+https://drafts.csswg.org/css-shapes-1/#typedef-shape-vertical-line-command
+1
+1
+shape()
+-
+<vertical-line-command>
+<vertical-line-command>
+type
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#typedef-shape-vertical-line-command
+1
+1
+shape()
+-
 VERTEX
 VERTEX
 const
@@ -224,29 +260,29 @@ GPUShaderStage
 vendor-facilitated enterprise attestation
 vendor-facilitated enterprise attestation
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#vendor-facilitated-enterprise-attestation
 
 1
 -
-verbose debug report
-verbose debug report
+vendor-facilitated enterprise attestation
+vendor-facilitated enterprise attestation
 dfn
-attribution-reporting-api
-attribution-reporting-api
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
 1
 current
-https://wicg.github.io/attribution-reporting-api/#verbose-debug-report
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#vendor-facilitated-enterprise-attestation
 
 1
 -
 verifiablecredentialgraph
 VerifiableCredentialGraph
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -260,8 +296,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiablecredentialgraph
+1
+1
+-
+verifiablecredentialgraph
+VerifiableCredentialGraph
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiablecredentialgraph
+1
+1
+-
+verifiablecredentialgraph
+VerifiableCredentialGraph
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiablecredentialgraph
 1
 1
 -
@@ -284,6 +342,28 @@ webauthn
 3
 snapshot
 https://www.w3.org/TR/webauthn-3/#verification-procedure
+
+1
+-
+verificationconfidence
+VerificationConfidence
+dfn
+vc-confidence-method
+vc-confidence-method
+1
+current
+https://w3c.github.io/vc-confidence-method/#dfn-verificationconfidence
+
+1
+-
+verificationconfidence
+VerificationConfidence
+dfn
+vc-confidence-method
+vc-confidence-method
+1
+snapshot
+https://www.w3.org/TR/vc-confidence-method/#dfn-verificationconfidence
 
 1
 -
@@ -319,6 +399,17 @@ service-workers
 1
 current
 https://w3c.github.io/ServiceWorker/#verify-router-condition
+
+1
+-
+verify router condition
+Verify Router Condition
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#verify-router-condition
 
 1
 -
@@ -374,6 +465,50 @@ webidl
 1
 current
 https://webidl.spec.whatwg.org/#versionerror
+1
+1
+-
+vertical orientation
+Vertical Orientation
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#unicode-vertical-orientation
+1
+1
+-
+vertical orientation
+Vertical Orientation
+dfn
+css-text-4
+css-text
+4
+current
+https://drafts.csswg.org/css-text-4/#unicode-vertical-orientation
+1
+1
+-
+vertical orientation
+Vertical Orientation
+dfn
+css-text-3
+css-text
+3
+snapshot
+https://www.w3.org/TR/css-text-3/#unicode-vertical-orientation
+1
+1
+-
+vertical orientation
+Vertical Orientation
+dfn
+css-text-4
+css-text
+4
+snapshot
+https://www.w3.org/TR/css-text-4/#unicode-vertical-orientation
 1
 1
 -
@@ -723,6 +858,17 @@ https://www.w3.org/TR/WGSL/#vector
 
 1
 -
+vector between two points
+vector between two points
+dfn
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#vector-between-two-points
+
+1
+-
 vector-effect
 vector-effect
 property
@@ -730,7 +876,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty
+https://w3c.github.io/svgwg/svg2-draft/coords.html#VectorEffectProperty
 1
 1
 -
@@ -828,6 +974,39 @@ https://drafts.csswg.org/css-2023/#vendor-prefix
 vendor prefix
 vendor prefix
 dfn
+css-2024
+css
+2024
+current
+https://drafts.csswg.org/css-2024/#vendor-prefix
+1
+1
+-
+vendor prefix
+vendor prefix
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#vendor-prefix
+1
+1
+-
+vendor prefix
+vendor prefix
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#vendor-prefix
+1
+1
+-
+vendor prefix
+vendor prefix
+dfn
 css-2022
 css
 2022
@@ -844,6 +1023,39 @@ css
 2023
 snapshot
 https://www.w3.org/TR/css-2023/#vendor-prefix
+1
+1
+-
+vendor prefix
+vendor prefix
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#vendor-prefix
+1
+1
+-
+vendor prefix
+vendor prefix
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#vendor-prefix
+1
+1
+-
+vendor prefix
+vendor prefix
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#vendor-prefix
 1
 1
 -
@@ -884,6 +1096,39 @@ https://drafts.csswg.org/css-2023/#vendor-prefix
 vendor-prefixed
 vendor-prefixed
 dfn
+css-2024
+css
+2024
+current
+https://drafts.csswg.org/css-2024/#vendor-prefix
+1
+1
+-
+vendor-prefixed
+vendor-prefixed
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#vendor-prefix
+1
+1
+-
+vendor-prefixed
+vendor-prefixed
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#vendor-prefix
+1
+1
+-
+vendor-prefixed
+vendor-prefixed
+dfn
 css-2022
 css
 2022
@@ -903,6 +1148,39 @@ https://www.w3.org/TR/css-2023/#vendor-prefix
 1
 1
 -
+vendor-prefixed
+vendor-prefixed
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#vendor-prefix
+1
+1
+-
+vendor-prefixed
+vendor-prefixed
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#vendor-prefix
+1
+1
+-
+vendor-prefixed
+vendor-prefixed
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#vendor-prefix
+1
+1
+-
 vendor-specific commands
 vendor-specific commands
 dfn
@@ -917,11 +1195,23 @@ https://w3c.github.io/editing/docs/execCommand/#vendor-specific-command
 vendorcommandid
 vendorCommandId
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#authconfig-vendorcommandid
+
+1
+authConfig
+-
+vendorcommandid
+vendorCommandId
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#authconfig-vendorcommandid
 
 1
 authConfig
@@ -989,11 +1279,23 @@ USBDeviceFilter
 vendorprototypeconfigcommands
 vendorPrototypeConfigCommands
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-vendorprototypeconfigcommands
+
+1
+getInfo
+-
+vendorprototypeconfigcommands
+vendorPrototypeConfigCommands
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-vendorprototypeconfigcommands
 
 1
 getInfo
@@ -1010,14 +1312,36 @@ https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-vendorsub
 1
 NavigatorID
 -
-verbose debug data
-verbose debug data
+verifiability
+verifiability
 dfn
-attribution-reporting-api
-attribution-reporting-api
+vc-data-model-2.1
+vc-data-model
 1
 current
-https://wicg.github.io/attribution-reporting-api/#verbose-debug-data
+https://w3c.github.io/vc-data-model/#dfn-verify
+1
+1
+-
+verifiability
+verifiability
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verify
+
+
+-
+verifiability
+verifiability
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verify
 
 1
 -
@@ -1028,7 +1352,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verify
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
@@ -1043,10 +1367,43 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
+verifiability
+verifiability
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verify
+1
+1
+-
+verifiability
+verifiability
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verify
+
+
+-
+verifiability
+verifiability
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verify
+
+1
+-
 verifiable
 verifiable
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -1057,6 +1414,39 @@ https://w3c.github.io/vc-data-model/#dfn-verify
 verifiable
 verifiable
 dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verify
+
+
+-
+verifiable
+verifiable
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verify
+
+1
+-
+verifiable
+verifiable
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
+1
+1
+-
+verifiable
+verifiable
+dfn
 vc-data-model-2.0
 vc-data-model
 1
@@ -1065,14 +1455,91 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
+verifiable
+verifiable
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verify
+1
+1
+-
+verifiable
+verifiable
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verify
+
+
+-
+verifiable
+verifiable
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verify
+
+1
+-
 verifiable credential
 verifiable credential
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verifiable-credential
+1
+1
+-
+verifiable credential
+verifiable credential
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+current
+https://w3c.github.io/vc-jose-cose/#dfn-verifiable-credentials
+
+1
+-
+verifiable credential
+verifiable credential
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-credential
+
+
+-
+verifiable credential
+verifiable credential
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifiable-credential
+
+1
+-
+verifiable credential
+verifiable credential
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-credential
 1
 1
 -
@@ -1087,6 +1554,61 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-credential
 1
 1
 -
+verifiable credential
+verifiable credential
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiable-credential
+1
+1
+-
+verifiable credential
+verifiable credential
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+snapshot
+https://www.w3.org/TR/vc-jose-cose/#dfn-verifiable-credentials
+
+1
+-
+verifiable credential
+verifiable credential
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-credential
+
+
+-
+verifiable credential
+verifiable credential
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifiable-credential
+
+1
+-
+verifiable credential graph
+verifiable credential graph
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verifiable-credential-graph
+1
+1
+-
 verifiable credential graph
 verifiable credential graph
 dfn
@@ -1094,7 +1616,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verifiable-credential-graph
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-credential-graph
 1
 1
 -
@@ -1109,6 +1631,182 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-credential-graph
 1
 1
 -
+verifiable credential graph
+verifiable credential graph
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiable-credential-graph
+1
+1
+-
+verifiable credential schema
+verifiable credential schema
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+verifiable credential schema
+verifiable credential schema
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+verifiable credential schemas
+verifiable credential schemas
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+verifiable credential schemas
+verifiable credential schemas
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+verifiable credentials
+verifiable credentials
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+current
+https://w3c.github.io/vc-jose-cose/#dfn-verifiable-credentials
+
+1
+-
+verifiable credentials
+verifiable credentials
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-credential
+
+
+-
+verifiable credentials
+verifiable credentials
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifiable-credential
+
+1
+-
+verifiable credentials
+verifiable credentials
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+snapshot
+https://www.w3.org/TR/vc-jose-cose/#dfn-verifiable-credentials
+
+1
+-
+verifiable credentials
+verifiable credentials
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-credential
+
+
+-
+verifiable credentials
+verifiable credentials
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifiable-credential
+
+1
+-
+verifiable data registries
+verifiable data registries
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-verifiable-data-registry
+1
+
+-
+verifiable data registries
+verifiable data registries
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verifiable-data-registries
+1
+1
+-
+verifiable data registries
+verifiable data registries
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-data-registries
+
+
+-
+verifiable data registries
+verifiable data registries
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifiable-data-registries
+
+1
+-
+verifiable data registries
+verifiable data registries
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-verifiable-data-registry
+1
+
+-
 verifiable data registries
 verifiable data registries
 dfn
@@ -1116,7 +1814,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verifiable-data-registries
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-data-registries
 1
 1
 -
@@ -1131,6 +1829,94 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-data-registries
 1
 1
 -
+verifiable data registries
+verifiable data registries
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiable-data-registries
+1
+1
+-
+verifiable data registries
+verifiable data registries
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-data-registries
+
+
+-
+verifiable data registries
+verifiable data registries
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifiable-data-registries
+
+1
+-
+verifiable data registry
+verifiable data registry
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-verifiable-data-registry
+1
+
+-
+verifiable data registry
+verifiable data registry
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verifiable-data-registries
+1
+1
+-
+verifiable data registry
+verifiable data registry
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-data-registries
+
+
+-
+verifiable data registry
+verifiable data registry
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifiable-data-registries
+
+1
+-
+verifiable data registry
+verifiable data registry
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-verifiable-data-registry
+1
+
+-
 verifiable data registry
 verifiable data registry
 dfn
@@ -1138,7 +1924,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verifiable-data-registries
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-data-registries
 1
 1
 -
@@ -1153,14 +1939,80 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-data-registries
 1
 1
 -
+verifiable data registry
+verifiable data registry
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiable-data-registries
+1
+1
+-
+verifiable data registry
+verifiable data registry
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-data-registries
+
+
+-
+verifiable data registry
+verifiable data registry
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifiable-data-registries
+
+1
+-
 verifiable presentation
 verifiable presentation
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verifiable-presentation
+1
+1
+-
+verifiable presentation
+verifiable presentation
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-presentation
+
+
+-
+verifiable presentation
+verifiable presentation
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifiable-presentation
+
+1
+-
+verifiable presentation
+verifiable presentation
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-presentation
 1
 1
 -
@@ -1175,6 +2027,50 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-presentation
 1
 1
 -
+verifiable presentation
+verifiable presentation
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiable-presentation
+1
+1
+-
+verifiable presentation
+verifiable presentation
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-presentation
+
+
+-
+verifiable presentation
+verifiable presentation
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifiable-presentation
+
+1
+-
+verifiable presentation graph
+verifiable presentation graph
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verifiable-presentation-graph
+
+1
+-
 verifiable presentation graph
 verifiable presentation graph
 dfn
@@ -1182,7 +2078,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verifiable-presentation-graph
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-presentation-graph
 
 1
 -
@@ -1197,6 +2093,127 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-presentation-graph
 
 1
 -
+verifiable presentation graph
+verifiable presentation graph
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifiable-presentation-graph
+
+1
+-
+verifiable presentations
+verifiable presentations
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-presentation
+
+
+-
+verifiable presentations
+verifiable presentations
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifiable-presentation
+
+1
+-
+verifiable presentations
+verifiable presentations
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-presentation
+
+
+-
+verifiable presentations
+verifiable presentations
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifiable-presentation
+
+1
+-
+verifiable recognition credential
+verifiable recognition credential
+dfn
+vc-recognized-entities-1.0
+vc-recognized-entities
+1
+snapshot
+https://www.w3.org/TR/vc-recognized-entities-1.0/#dfn-recognition-credential
+
+1
+-
+verifiable timestamp
+verifiable timestamp
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-verifiable-timestamp
+
+
+-
+verifiable timestamp
+verifiable timestamp
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-verifiable-timestamp
+
+
+-
+verification
+verification
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verify
+1
+1
+-
+verification
+verification
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verify
+
+
+-
+verification
+verification
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verify
+
+1
+-
 verification
 verification
 dfn
@@ -1204,7 +2221,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verify
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
@@ -1219,6 +2236,61 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
+verification
+verification
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verify
+1
+1
+-
+verification
+verification
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verify
+
+
+-
+verification
+verification
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verify
+
+1
+-
+verification material
+verification material
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verification-material
+
+1
+-
+verification material
+verification material
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verification-material
+
+1
+-
 verification material
 verification material
 dfn
@@ -1226,7 +2298,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verification-material
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verification-material
 
 1
 -
@@ -1241,6 +2313,50 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verification-material
 
 1
 -
+verification material
+verification material
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verification-material
+
+1
+-
+verification material
+verification material
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verification-material
+
+1
+-
+verification method
+verification method
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-verification-method
+1
+
+-
+verification method
+verification method
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-verification-method
+1
+
+-
 verification method
 verification method
 dfn
@@ -1248,7 +2364,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-verification-method
+https://www.w3.org/TR/vc-data-integrity/#dfn-verification-method
 1
 
 -
@@ -1262,6 +2378,50 @@ snapshot
 https://www.w3.org/TR/vc-data-integrity/#dfn-verification-method
 1
 
+-
+verification method definition
+verification method definition
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-verification-method-definition
+
+1
+-
+verification method definition
+verification method definition
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-verification-method-definition
+
+1
+-
+verification method identifier
+verification method identifier
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-verification-method-identifier
+
+1
+-
+verification method identifier
+verification method identifier
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-verification-method-identifier
+
+1
 -
 verification procedure inputs
 verification procedure inputs
@@ -1285,6 +2445,94 @@ https://www.w3.org/TR/webauthn-3/#verification-procedure-inputs
 
 1
 -
+verification relationship
+verification relationship
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-verification-relationship
+1
+
+-
+verification relationship
+verification relationship
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-verification-relationship
+1
+
+-
+verification requirements for sri
+verification requirements for SRI
+dfn
+signature-based-sri
+signature-based-sri
+1
+current
+https://wicg.github.io/signature-based-sri/#verification-requirements-for-sri
+
+1
+-
+verification result
+verification result
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+current
+https://w3c.github.io/vc-data-integrity/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-bbs
+vc-di-bbs
+1
+current
+https://w3c.github.io/vc-di-bbs/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-ecdsa-1.1
+vc-di-ecdsa
+1
+current
+https://w3c.github.io/vc-di-ecdsa/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-eddsa-1.1
+vc-di-eddsa
+1
+current
+https://w3c.github.io/vc-di-eddsa/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-verification-result
+
+1
+-
 verification result
 verification result
 dfn
@@ -1292,7 +2540,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-verification-result
+https://www.w3.org/TR/vc-data-integrity/#dfn-verification-result
 
 1
 -
@@ -1307,10 +2555,109 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-verification-result
 
 1
 -
+verification result
+verification result
+dfn
+vc-di-bbs
+vc-di-bbs
+1
+snapshot
+https://www.w3.org/TR/vc-di-bbs/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-ecdsa-1.1
+vc-di-ecdsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-ecdsa-1.1/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-ecdsa
+vc-di-ecdsa
+1
+current
+https://www.w3.org/TR/vc-di-ecdsa/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-ecdsa
+vc-di-ecdsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-ecdsa/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-eddsa-1.1
+vc-di-eddsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-eddsa-1.1/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-eddsa
+vc-di-eddsa
+1
+current
+https://www.w3.org/TR/vc-di-eddsa/#dfn-verification-result
+
+1
+-
+verification result
+verification result
+dfn
+vc-di-eddsa
+vc-di-eddsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-eddsa/#dfn-verification-result
+
+1
+-
+verificationmethod
+verificationMethod
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-verificationmethod
+
+1
+-
+verificationmethod
+verificationMethod
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-verificationmethod
+
+1
+-
 verified
 verified
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -1321,7 +2668,7 @@ https://w3c.github.io/vc-data-integrity/#dfn-verified
 verified
 verified
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -1333,12 +2680,104 @@ verification result
 verified
 verified
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verify
 1
+1
+-
+verified
+verified
+dfn
+vc-di-bbs
+vc-di-bbs
+1
+current
+https://w3c.github.io/vc-di-bbs/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-ecdsa-1.1
+vc-di-ecdsa
+1
+current
+https://w3c.github.io/vc-di-ecdsa/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-eddsa-1.1
+vc-di-eddsa
+1
+current
+https://w3c.github.io/vc-di-eddsa/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verify
+
+
+-
+verified
+verified
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verify
+
+1
+-
+verified
+verified
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-verified
+
+1
+-
+verified
+verified
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-verified-0
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verified
+
 1
 -
 verified
@@ -1358,6 +2797,18 @@ dfn
 vc-data-integrity
 vc-data-integrity
 1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verified-0
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-data-integrity
+vc-data-integrity
+1
 snapshot
 https://www.w3.org/TR/vc-data-integrity/#dfn-verified-0
 
@@ -1370,37 +2821,187 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
+1
+1
+-
+verified
+verified
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
-verified display name
-verified display name
+verified
+verified
 dfn
-openscreenprotocol
-openscreenprotocol
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verify
+1
+1
+-
+verified
+verified
+dfn
+vc-di-bbs
+vc-di-bbs
+1
+snapshot
+https://www.w3.org/TR/vc-di-bbs/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-ecdsa-1.1
+vc-di-ecdsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-ecdsa-1.1/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-ecdsa
+vc-di-ecdsa
 1
 current
-https://w3c.github.io/openscreenprotocol/#verified-display-name
+https://www.w3.org/TR/vc-di-ecdsa/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-ecdsa
+vc-di-ecdsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-ecdsa/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-eddsa-1.1
+vc-di-eddsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-eddsa-1.1/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-eddsa
+vc-di-eddsa
+1
+current
+https://www.w3.org/TR/vc-di-eddsa/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-di-eddsa
+vc-di-eddsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-eddsa/#dfn-verified
+
+1
+verification result
+-
+verified
+verified
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verify
+
+
+-
+verified
+verified
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verify
 
 1
 -
 verified display name
 verified display name
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
+1
+current
+https://w3c.github.io/openscreenprotocol/application.html#verified-display-name
+
+1
+-
+verified display name
+verified display name
+dfn
+openscreen-network
+openscreen-network
+1
+current
+https://w3c.github.io/openscreenprotocol/network.html#verified-display-name
+
+1
+-
+verified display name
+verified display name
+dfn
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#verified-display-name
+https://www.w3.org/TR/openscreen-application/#verified-display-name
+
+1
+-
+verified display name
+verified display name
+dfn
+openscreen-network
+openscreen-network
+1
+snapshot
+https://www.w3.org/TR/openscreen-network/#verified-display-name
 
 1
 -
 verifieddocument
 verifiedDocument
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -1411,7 +3012,7 @@ https://w3c.github.io/vc-data-integrity/#dfn-verifieddocument
 verifieddocument
 verifiedDocument
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -1419,6 +3020,76 @@ https://w3c.github.io/vc-data-integrity/#dfn-verifieddocument-0
 
 1
 verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-bbs
+vc-di-bbs
+1
+current
+https://w3c.github.io/vc-di-bbs/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-ecdsa-1.1
+vc-di-ecdsa
+1
+current
+https://w3c.github.io/vc-di-ecdsa/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-eddsa-1.1
+vc-di-eddsa
+1
+current
+https://w3c.github.io/vc-di-eddsa/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-verifieddocument
+
+1
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-verifieddocument-0
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verifieddocument
+
+1
 -
 verifieddocument
 verifiedDocument
@@ -1437,8 +3108,104 @@ dfn
 vc-data-integrity
 vc-data-integrity
 1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verifieddocument-0
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-data-integrity
+vc-data-integrity
+1
 snapshot
 https://www.w3.org/TR/vc-data-integrity/#dfn-verifieddocument-0
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-bbs
+vc-di-bbs
+1
+snapshot
+https://www.w3.org/TR/vc-di-bbs/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-ecdsa-1.1
+vc-di-ecdsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-ecdsa-1.1/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-ecdsa
+vc-di-ecdsa
+1
+current
+https://www.w3.org/TR/vc-di-ecdsa/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-ecdsa
+vc-di-ecdsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-ecdsa/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-eddsa-1.1
+vc-di-eddsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-eddsa-1.1/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-eddsa
+vc-di-eddsa
+1
+current
+https://www.w3.org/TR/vc-di-eddsa/#dfn-verifieddocument
+
+1
+verification result
+-
+verifieddocument
+verifiedDocument
+dfn
+vc-di-eddsa
+vc-di-eddsa
+1
+snapshot
+https://www.w3.org/TR/vc-di-eddsa/#dfn-verifieddocument
 
 1
 verification result
@@ -1446,24 +3213,46 @@ verification result
 verifier
 verifier
 dfn
-vc-data-integrity
-vc-data-integrity
-1
-current
-https://w3c.github.io/vc-data-integrity/#dfn-verifier
-
-
--
-verifier
-verifier
-dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verifier
 1
 1
+-
+verifier
+verifier
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifier
+
+
+-
+verifier
+verifier
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifier
+
+1
+-
+verifier
+verifier
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verifier
+
+
 -
 verifier
 verifier
@@ -1482,32 +3271,98 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
+1
+1
+-
+verifier
+verifier
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
 1
 1
 -
-verifier's
-verifier's
+verifier
+verifier
 dfn
-vc-data-integrity
-vc-data-integrity
+vc-data-model-2.1
+vc-data-model
 1
-current
-https://w3c.github.io/vc-data-integrity/#dfn-verifier
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifier
+1
+1
+-
+verifier
+verifier
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifier
 
 
+-
+verifier
+verifier
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifier
+
+1
 -
 verifier's
 verifier's
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verifier
 1
 1
+-
+verifier's
+verifier's
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifier
+
+
+-
+verifier's
+verifier's
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifier
+
+1
+-
+verifier's
+verifier's
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verifier
+
+
 -
 verifier's
 verifier's
@@ -1526,32 +3381,98 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
+1
+1
+-
+verifier's
+verifier's
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
 1
 1
 -
-verifiers
-verifiers
+verifier's
+verifier's
 dfn
-vc-data-integrity
-vc-data-integrity
+vc-data-model-2.1
+vc-data-model
 1
-current
-https://w3c.github.io/vc-data-integrity/#dfn-verifier
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifier
+1
+1
+-
+verifier's
+verifier's
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifier
 
 
+-
+verifier's
+verifier's
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifier
+
+1
 -
 verifiers
 verifiers
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verifier
 1
 1
+-
+verifiers
+verifiers
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifier
+
+
+-
+verifiers
+verifiers
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifier
+
+1
+-
+verifiers
+verifiers
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-verifier
+
+
 -
 verifiers
 verifiers
@@ -1570,16 +3491,60 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
+1
+1
+-
+verifiers
+verifiers
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
 1
+1
+-
+verifiers
+verifiers
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifier
+1
+1
+-
+verifiers
+verifiers
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifier
+
+
+-
+verifiers
+verifiers
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifier
+
 1
 -
 verify
 verify
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-verify
@@ -1590,7 +3555,19 @@ pinUvAuthProtocol
 verify
 verify
 dfn
-vc-data-model-2.0
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-verify
+
+1
+pinUvAuthProtocol
+-
+verify
+verify
+dfn
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -1600,10 +3577,32 @@ https://w3c.github.io/vc-data-model/#dfn-verify
 -
 verify
 verify
-enum-value
-webcryptoapi
-webcryptoapi
+dfn
+vc-json-schema
+vc-json-schema
 1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verify
+
+
+-
+verify
+verify
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verify
+
+1
+-
+verify
+verify
+enum-value
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keyusage-verify
 1
@@ -1612,13 +3611,25 @@ KeyUsage
 -
 verify
 verify
-dfn
-webcryptoapi
-webcryptoapi
+enum-value
+webcrypto-modern-algos
+webcrypto-modern-algos
 1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-verify
-
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-keyusage-verify
+1
+1
+KeyUsage
+-
+verify
+verify
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
+1
 1
 -
 verify
@@ -1629,6 +3640,73 @@ vc-data-model
 1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
+1
+1
+-
+verify
+verify
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verify
+1
+1
+-
+verify
+verify
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verify
+
+
+-
+verify
+verify
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verify
+
+1
+-
+verify
+verify
+enum-value
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keyusage-verify
+1
+1
+KeyUsage
+-
+verify SRI Message Signature assertions
+verify SRI Message Signature assertions
+abstract-op
+signature-based-sri
+signature-based-sri
+1
+current
+https://wicg.github.io/signature-based-sri/#abstract-opdef-verify-sri-message-signature-assertions
+1
+1
+-
+verify Unencoded-Digest assertions
+verify Unencoded-Digest assertions
+abstract-op
+signature-based-sri
+signature-based-sri
+1
+current
+https://wicg.github.io/signature-based-sri/#abstract-opdef-verify-unencoded-digest-assertions
 1
 1
 -
@@ -1662,7 +3740,7 @@ webtransport
 1
 current
 https://w3c.github.io/webtransport/#verify-a-certificate-hash
-
+1
 1
 -
 verify a certificate hash
@@ -1673,7 +3751,7 @@ webtransport
 1
 snapshot
 https://www.w3.org/TR/webtransport/#verify-a-certificate-hash
-
+1
 1
 -
 verify a media response
@@ -1745,9 +3823,33 @@ https://www.w3.org/TR/pub-manifest/#dfn-verify-value-category
 verify()
 verify()
 method
-webcryptoapi
-webcryptoapi
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-verify
 1
+1
+SubtleCrypto
+-
+verify()
+verify()
+method
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-verify
+1
+1
+SubtleCrypto
+-
+verify(algorithm, key, signature, data)
+verify(algorithm, key, signature, data)
+method
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-verify
 1
@@ -1757,14 +3859,36 @@ SubtleCrypto
 verify(algorithm, key, signature, data)
 verify(algorithm, key, signature, data)
 method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-verify
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-verify
 1
 1
 SubtleCrypto
+-
+verifyproof
+verifyProof
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+current
+https://w3c.github.io/vc-data-integrity/#dfn-verifyproof
+
+1
+-
+verifyproof
+verifyProof
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-verifyproof
+
+1
 -
 verifyproof
 verifyProof
@@ -1773,7 +3897,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-verifyproof
+https://www.w3.org/TR/vc-data-integrity/#dfn-verifyproof
 
 1
 -
@@ -1791,11 +3915,44 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-verifyproof
 verifying
 verifying
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-verify
+1
+1
+-
+verifying
+verifying
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verify
+
+
+-
+verifying
+verifying
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verify
+
+1
+-
+verifying
+verifying
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
 1
 -
@@ -1808,6 +3965,39 @@ vc-data-model
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verify
 1
+1
+-
+verifying
+verifying
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verify
+1
+1
+-
+verifying
+verifying
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verify
+
+
+-
+verifying
+verifying
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verify
+
 1
 -
 verifying a miniapp zip container
@@ -1878,42 +4068,6 @@ https://html.spec.whatwg.org/multipage/obsolete.html#dom-html-version
 1
 1
 HTMLHtmlElement
--
-version
-version
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-version
-
-1
-browsing topics types
--
-version
-version
-dict-member
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#dom-browsingtopic-version
-1
-1
-BrowsingTopic
--
-version
-version
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#json-version
-
-1
-json
 -
 version
 version
@@ -2037,6 +4191,30 @@ PrivateToken
 -
 version
 version
+dfn
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#brand-version-version
+1
+1
+brand version
+-
+version
+version
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsbrandversion-version
+1
+1
+userAgentClientHints.BrandVersion
+-
+version
+version
 dict-member
 ua-client-hints
 ua-client-hints
@@ -2046,6 +4224,18 @@ https://wicg.github.io/ua-client-hints/#dom-navigatoruabrandversion-version
 1
 1
 NavigatorUABrandVersion
+-
+version
+version
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-Argon2Params-version
+1
+1
+Argon2Params
 -
 version
 version
@@ -2131,6 +4321,61 @@ https://www.w3.org/TR/webmidi/#dom-midiport-version
 1
 MIDIPort
 -
+version field
+version field
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#json-version
+1
+1
+-
+version label
+version label
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-version-label
+
+1
+-
+version label
+version label
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-version-label
+1
+1
+-
+version label
+version label
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-version-label
+1
+1
+-
+version label
+version label
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-version-label
+
+1
+-
 version resource
 version resource
 dfn
@@ -2150,6 +4395,28 @@ miniapp-manifest
 1
 snapshot
 https://www.w3.org/TR/miniapp-manifest/#dfn-version-resource
+
+1
+-
+versionid
+versionId
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-versionid
+
+1
+-
+versionid
+versionId
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-versionid
 
 1
 -
@@ -2180,11 +4447,23 @@ IDBDatabase
 versions
 versions
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-versions
+
+1
+getInfo
+-
+versions
+versions
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-versions
 
 1
 getInfo
@@ -2386,7 +4665,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#TermVertexMarker
+https://w3c.github.io/svgwg/svg2-draft/painting.html#TermVertexMarker
 1
 1
 -
@@ -2711,6 +4990,18 @@ https://www.w3.org/TR/css-backgrounds-3/#box-shadow-vertical-offset
 1
 box-shadow
 -
+vertical offset
+vertical offset
+value
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#valdef-box-shadow-offset-vertical-offset
+1
+1
+box-shadow-offset
+-
 vertical script
 vertical script
 dfn
@@ -2846,9 +5137,9 @@ https://drafts.csswg.org/css-inline-3/#propdef-vertical-align
 vertical-align
 vertical-align
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-vertical-align
 1
@@ -2859,31 +5150,9 @@ vertical-align
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visudet.html#propdef-vertical-align
-1
-1
--
-vertical-align
-vertical-align
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visudet.html#propdef-vertical-align
-1
-1
--
-vertical-align
-vertical-align
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visudet.html#propdef-vertical-align
+https://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align
 1
 1
 -
@@ -2895,6 +5164,28 @@ css-inline
 3
 snapshot
 https://www.w3.org/TR/css-inline-3/#propdef-vertical-align
+1
+1
+-
+vertical-axis
+vertical-axis
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#y-axis
+1
+1
+-
+vertical-axis
+vertical-axis
+dfn
+css-writing-modes-4
+css-writing-modes
+4
+current
+https://drafts.csswg.org/css-writing-modes-4/#y-axis
 1
 1
 -
@@ -3112,18 +5403,6 @@ https://www.w3.org/TR/mediaqueries-5/#descdef-media-vertical-viewport-segments
 -
 vertices
 vertices
-dict-member
-webxr-meshing
-webxr-meshing
-1
-current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrmeshblock-vertices
-1
-1
-XRMeshBlock
--
-vertices
-vertices
 attribute
 real-world-meshing
 real-world-meshing
@@ -3133,6 +5412,54 @@ https://immersive-web.github.io/real-world-meshing/#dom-xrmesh-vertices
 1
 1
 XRMesh
+-
+vertices
+vertices
+attribute
+webxr
+webxr
+1
+current
+https://immersive-web.github.io/webxr/#dom-xrvisibilitymaskchangeevent-vertices
+1
+1
+XRVisibilityMaskChangeEvent
+-
+vertices
+vertices
+dict-member
+webxr
+webxr
+1
+current
+https://immersive-web.github.io/webxr/#dom-xrvisibilitymaskchangeeventinit-vertices
+1
+1
+XRVisibilityMaskChangeEventInit
+-
+vertices
+vertices
+attribute
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#dom-xrvisibilitymaskchangeevent-vertices
+1
+1
+XRVisibilityMaskChangeEvent
+-
+vertices
+vertices
+dict-member
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#dom-xrvisibilitymaskchangeeventinit-vertices
+1
+1
+XRVisibilityMaskChangeEventInit
 -
 very-low
 very-low

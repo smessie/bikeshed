@@ -10,6 +10,66 @@ https://w3c.github.io/ServiceWorker/#dom-routersourceenum-cache
 1
 RouterSourceEnum
 -
+"cache"
+"cache"
+enum-value
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dom-routersourceenum-cache
+1
+1
+RouterSourceEnum
+-
+"cacheBehavior"
+"cacheBehavior"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networksetcachebehaviorparameters-cachebehavior
+
+1
+network.SetCacheBehaviorParameters
+-
+"cacheBehavior"
+"cacheBehavior"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networksetcachebehaviorparameters-cachebehavior
+
+1
+network.SetCacheBehaviorParameters
+-
+"callFrames"
+"callFrames"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptstacktrace-callframes
+
+1
+script.StackTrace
+-
+"callFrames"
+"callFrames"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptstacktrace-callframes
+
+1
+script.StackTrace
+-
 "camera"
 "camera"
 permission
@@ -32,6 +92,42 @@ https://www.w3.org/TR/mediacapture-streams/#dfn-camera
 1
 1
 -
+"cancel"
+"cancel"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkcontinuewithauthnocredentials-action-cancel
+
+1
+network.ContinueWithAuthNoCredentials/action
+-
+"cancel"
+"cancel"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkcontinuewithauthnocredentials-action-cancel
+
+1
+network.ContinueWithAuthNoCredentials/action
+-
+"canceled"
+"canceled"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextdownloadcanceledparams-status-canceled
+
+1
+browsingContext.DownloadCanceledParams/status
+-
 "canceled"
 "canceled"
 enum-value
@@ -39,10 +135,129 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesiserrorcode-canceled
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesiserrorcode-canceled
 1
 1
 SpeechSynthesisErrorCode
+-
+"canceled"
+"canceled"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextdownloadcanceledparams-status-canceled
+
+1
+browsingContext.DownloadCanceledParams/status
+-
+"capabilities"
+"capabilities"
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-sessionnewcommand-params-capabilities
+
+1
+SessionNewCommand/params
+-
+"capabilities"
+"capabilities"
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-capabilities
+
+1
+SessionNewResult
+-
+"capabilities"
+"capabilities"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionnewparameters-capabilities
+
+1
+session.NewParameters
+-
+"capabilities"
+"capabilities"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionnewresult-capabilities
+
+1
+session.NewResult
+-
+"capabilities"
+"capabilities"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionnewparameters-capabilities
+
+1
+session.NewParameters
+-
+"capabilities"
+"capabilities"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionnewresult-capabilities
+
+1
+session.NewResult
+-
+"capability"
+"capability"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-performancepreference-capability
+1
+1
+PerformancePreference
+-
+"captured-surface-control"
+"captured-surface-control"
+permission
+mediacapture-surface-control
+mediacapture-surface-control
+1
+current
+https://w3c.github.io/mediacapture-surface-control/#dfn-captured-surface-control
+1
+1
+-
+"casual"
+"casual"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writertone-casual
+1
+1
+WriterTone
 -
 <calc-keyword>
 <calc-keyword>
@@ -63,17 +278,6 @@ css-values
 4
 snapshot
 https://www.w3.org/TR/css-values-4/#typedef-calc-keyword
-1
-1
--
-<calc-mix()>
-<calc-mix()>
-type
-css-values-5
-css-values
-5
-current
-https://drafts.csswg.org/css-values-5/#typedef-calc-mix
 1
 1
 -
@@ -352,6 +556,28 @@ https://www.w3.org/TR/mathml4/#contm_cartesianproduct
 
 1
 -
+captcha
+CAPTCHA
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-captcha
+
+
+-
+captcha
+CAPTCHA
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-captcha
+
+
+-
 CAPTURING_PHASE
 CAPTURING_PHASE
 const
@@ -470,7 +696,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#call-for-exclusion
+https://www.w3.org/policies/patent-policy/#call-for-exclusion
 1
 1
 -
@@ -481,12 +707,12 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#reviewform
+https://www.w3.org/policies/process/#reviewform
 
 1
 -
-Call(F, V, argumentsList)
-Call(F, V, argumentsList)
+Call(func, thisValue, argList)
+Call(func, thisValue, argList)
 abstract-op
 ecmascript
 ecmascript
@@ -494,6 +720,28 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/abstract-operations.html#sec-call
 1
+1
+-
+callexpression
+CallExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CallExpression
+
+1
+-
+callmemberexpression
+CallMemberExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-CallMemberExpression
+
 1
 -
 callsitenorestriction
@@ -584,41 +832,41 @@ https://www.w3.org/TR/mediacapture-streams/#dom-cameradevicepermissiondescriptor
 1
 1
 -
-can attribution rate-limit record be removed
-can attribution rate-limit record be removed
-dfn
-attribution-reporting-api
-attribution-reporting-api
+CanBeHeldWeakly
+CanBeHeldWeakly
+abstract-op
+ecmascript
+ecmascript
 1
 current
-https://wicg.github.io/attribution-reporting-api/#can-attribution-rate-limit-record-be-removed
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-canbeheldweakly
+1
+1
+-
+CanBeHeldWeakly(arg)
+CanBeHeldWeakly(arg)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-canbeheldweakly
+1
+1
+-
+CanCopyDataBlockBytes
+CanCopyDataBlockBytes
+abstract-op
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#abstract-opdef-cancopydatablockbytes
 
 1
 -
-CanBeHeldWeakly
-CanBeHeldWeakly
-abstract-op
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-canbeheldweakly
-1
-1
--
-CanBeHeldWeakly(v)
-CanBeHeldWeakly(v)
-abstract-op
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-canbeheldweakly
-1
-1
--
-CanDeclareGlobalFunction(N)
-CanDeclareGlobalFunction(N)
+CanDeclareGlobalFunction
+CanDeclareGlobalFunction
 abstract-op
 ecmascript
 ecmascript
@@ -627,10 +875,20 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-candeclareglobalfunction
 1
 1
-Global Environment Records
 -
-CanDeclareGlobalVar(N)
-CanDeclareGlobalVar(N)
+CanDeclareGlobalFunction(envRecord, name)
+CanDeclareGlobalFunction(envRecord, name)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-candeclareglobalfunction
+1
+1
+-
+CanDeclareGlobalVar
+CanDeclareGlobalVar
 abstract-op
 ecmascript
 ecmascript
@@ -639,27 +897,37 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-candeclareglobalvar
 1
 1
-Global Environment Records
 -
-CanMakePaymentEvent
-CanMakePaymentEvent
-interface
-payment-handler
-payment-handler
+CanDeclareGlobalVar(envRecord, name)
+CanDeclareGlobalVar(envRecord, name)
+abstract-op
+ecmascript
+ecmascript
 1
 current
-https://w3c.github.io/payment-handler/#dom-canmakepaymentevent
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-candeclareglobalvar
 1
 1
 -
 CanMakePaymentEvent
 CanMakePaymentEvent
 interface
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
+1
+current
+https://w3c.github.io/web-based-payment-handler/#dom-canmakepaymentevent
+1
+1
+-
+CanMakePaymentEvent
+CanMakePaymentEvent
+interface
+web-based-payment-handler
+web-based-payment-handler
 1
 snapshot
-https://www.w3.org/TR/payment-handler/#dom-canmakepaymentevent
+https://www.w3.org/TR/web-based-payment-handler/#dom-canmakepaymentevent
 1
 1
 -
@@ -682,7 +950,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#can-transfer-array-buffer
-1
+
 1
 -
 candidate recommendation
@@ -692,7 +960,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#RecsCR
+https://www.w3.org/policies/process/#RecsCR
 1
 1
 -
@@ -703,7 +971,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-recommendation-draft
+https://www.w3.org/policies/process/#candidate-recommendation-draft
 1
 1
 -
@@ -714,7 +982,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-recommendation-snapshot
+https://www.w3.org/policies/process/#candidate-recommendation-snapshot
 1
 1
 -
@@ -725,7 +993,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-recommendation-review-period
+https://www.w3.org/policies/process/#candidate-recommendation-review-period
 
 1
 -
@@ -736,7 +1004,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-registry
+https://www.w3.org/policies/process/#candidate-registry
 1
 1
 -
@@ -747,7 +1015,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-registry-draft
+https://www.w3.org/policies/process/#candidate-registry-draft
 1
 1
 -
@@ -758,7 +1026,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-registry-snapshot
+https://www.w3.org/policies/process/#candidate-registry-snapshot
 1
 1
 -
@@ -839,8 +1107,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-canonicalnumerici
 1
 1
 -
-CanonicalNumericIndexString(argument)
-CanonicalNumericIndexString(argument)
+CanonicalNumericIndexString(arg)
+CanonicalNumericIndexString(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -861,8 +1129,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-runtime-semantics-can
 1
 1
 -
-Canonicalize(rer, ch)
-Canonicalize(rer, ch)
+Canonicalize(regexpRecord, char)
+Canonicalize(regexpRecord, char)
 abstract-op
 ecmascript
 ecmascript
@@ -920,17 +1188,6 @@ https://www.w3.org/TR/css-color-4/#valdef-color-canvas
 <color>
 <system-color>
 -
-canvas pixel arraybuffer
-Canvas Pixel ArrayBuffer
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/canvas.html#canvas-pixel-arraybuffer
-
-1
--
 CanvasCaptureMediaStreamTrack
 CanvasCaptureMediaStreamTrack
 interface
@@ -950,6 +1207,17 @@ mediacapture-fromelement
 1
 snapshot
 https://www.w3.org/TR/mediacapture-fromelement/#dom-canvascapturemediastreamtrack
+1
+1
+-
+CanvasColorType
+CanvasColorType
+enum
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#canvascolortype
 1
 1
 -
@@ -1195,6 +1463,17 @@ https://html.spec.whatwg.org/multipage/canvas.html#canvasrenderingcontext2dsetti
 1
 1
 -
+CanvasSettings
+CanvasSettings
+interface
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#canvassettings
+1
+1
+-
 CanvasShadowStyles
 CanvasShadowStyles
 interface
@@ -1351,6 +1630,28 @@ mediacapture-streams
 snapshot
 https://www.w3.org/TR/mediacapture-streams/#dom-capabilities
 1
+1
+-
+CapabilitiesRequest
+CapabilitiesRequest
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-capabilitiesrequest
+
+1
+-
+CapabilitiesRequestParameters
+CapabilitiesRequestParameters
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-capabilitiesrequestparameters
+
 1
 -
 capability
@@ -1645,26 +1946,15 @@ https://drafts.csswg.org/cssom-view-1/#dictdef-caretpositionfrompointoptions
 1
 1
 -
-cascaded independently
-Cascaded Independently
-dfn
-css-fonts-4
-css-fonts
-4
-current
-https://drafts.csswg.org/css-fonts-4/#cascaded-independently
-
+CaretPositionFromPointOptions
+CaretPositionFromPointOptions
+dictionary
+cssom-view-1
+cssom-view
 1
--
-cascaded independently
-Cascaded Independently
-dfn
-css-fonts-4
-css-fonts
-4
 snapshot
-https://www.w3.org/TR/css-fonts-4/#cascaded-independently
-
+https://www.w3.org/TR/cssom-view-1/#dictdef-caretpositionfrompointoptions
+1
 1
 -
 cascading style sheets
@@ -1692,6 +1982,39 @@ https://drafts.csswg.org/css-2023/#css
 cascading style sheets
 Cascading Style Sheets
 dfn
+css-2024
+css
+2024
+current
+https://drafts.csswg.org/css-2024/#css
+1
+1
+-
+cascading style sheets
+Cascading Style Sheets
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#css
+1
+1
+-
+cascading style sheets
+Cascading Style Sheets
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#css
+1
+1
+-
+cascading style sheets
+Cascading Style Sheets
+dfn
 css-2022
 css
 2022
@@ -1708,6 +2031,39 @@ css
 2023
 snapshot
 https://www.w3.org/TR/css-2023/#css
+1
+1
+-
+cascading style sheets
+Cascading Style Sheets
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#css
+1
+1
+-
+cascading style sheets
+Cascading Style Sheets
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#css
+1
+1
+-
+cascading style sheets
+Cascading Style Sheets
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#css
 1
 1
 -
@@ -1736,6 +2092,39 @@ https://drafts.csswg.org/css-2023/#cascading-style-sheets-css
 cascading style sheets (css)
 Cascading Style Sheets (CSS)
 dfn
+css-2024
+css
+2024
+current
+https://drafts.csswg.org/css-2024/#cascading-style-sheets-css
+1
+1
+-
+cascading style sheets (css)
+Cascading Style Sheets (CSS)
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#cascading-style-sheets-css
+1
+1
+-
+cascading style sheets (css)
+Cascading Style Sheets (CSS)
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#cascading-style-sheets-css
+1
+1
+-
+cascading style sheets (css)
+Cascading Style Sheets (CSS)
+dfn
 css-2022
 css
 2022
@@ -1752,6 +2141,39 @@ css
 2023
 snapshot
 https://www.w3.org/TR/css-2023/#cascading-style-sheets-css
+1
+1
+-
+cascading style sheets (css)
+Cascading Style Sheets (CSS)
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#cascading-style-sheets-css
+1
+1
+-
+cascading style sheets (css)
+Cascading Style Sheets (CSS)
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#cascading-style-sheets-css
+1
+1
+-
+cascading style sheets (css)
+Cascading Style Sheets (CSS)
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#cascading-style-sheets-css
 1
 1
 -
@@ -1821,6 +2243,28 @@ https://www.w3.org/TR/i18n-glossary/#dfn-case-sensitive
 1
 
 -
+caseblock
+CaseBlock
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-CaseBlock
+
+1
+-
+caseclause
+CaseClause
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-CaseClause
+
+1
+-
 CaseClauseIsSelected
 CaseClauseIsSelected
 abstract-op
@@ -1832,8 +2276,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declaration
 1
 1
 -
-CaseClauseIsSelected(C, input)
-CaseClauseIsSelected(C, input)
+CaseClauseIsSelected(caseClauseNode, input)
+CaseClauseIsSelected(caseClauseNode, input)
 abstract-op
 ecmascript
 ecmascript
@@ -1841,6 +2285,28 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-runtime-semantics-caseclauseisselected
 1
+1
+-
+caseclauses
+CaseClauses
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-CaseClauses
+
+1
+-
+catch
+catch
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-Catch
+
 1
 -
 CatchCallback
@@ -1852,6 +2318,17 @@ observable
 current
 https://wicg.github.io/observable/#callbackdef-catchcallback
 1
+1
+-
+catchparameter
+CatchParameter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-CatchParameter
+
 1
 -
 categories
@@ -1897,7 +2374,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#abstract-opdef-readablestreamcontroller-cancelsteps
-1
+
 1
 ReadableStreamController
 -
@@ -1909,7 +2386,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#rbs-controller-private-cancel
-1
+
 1
 ReadableByteStreamController
 -
@@ -1921,7 +2398,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#rs-default-controller-private-cancel
-1
+
 1
 ReadableStreamDefaultController
 -
@@ -1976,7 +2453,7 @@ Geolocation
 [[callable process]]
 [[callable process]]
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1988,11 +2465,35 @@ AudioWorkletProcessor
 [[callable process]]
 [[callable process]]
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletprocessor-callable-process-slot
+1
+1
+AudioWorkletProcessor
+-
+[[callable process]]
+[[callable process]]
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletprocessor-callable-process-slot
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletprocessor-callable-process-slot
+1
+1
+AudioWorkletProcessor
+-
+[[callable process]]
+[[callable process]]
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletprocessor-callable-process-slot
 1
 1
 AudioWorkletProcessor
@@ -2222,13 +2723,26 @@ request
 cache mode
 cache mode
 dfn
+storage-access-headers
+storage-access-headers
+1
+current
+https://privacycg.github.io/storage-access-headers/#request-cache-mode
+
+1
+request
+-
+cache mode
+cache mode
+dfn
 resource-timing
 resource-timing
 1
 current
-https://w3c.github.io/resource-timing/#dfn-cache-mode
+https://w3c.github.io/resource-timing/#performanceresourcetiming-cache-mode
 
 1
+PerformanceResourceTiming
 -
 cache mode
 cache mode
@@ -2237,9 +2751,10 @@ resource-timing
 resource-timing
 1
 snapshot
-https://www.w3.org/TR/resource-timing/#dfn-cache-mode
+https://www.w3.org/TR/resource-timing/#performanceresourcetiming-cache-mode
 
 1
+PerformanceResourceTiming
 -
 cache state
 cache state
@@ -2252,6 +2767,30 @@ https://fetch.spec.whatwg.org/#concept-response-cache-state
 1
 1
 response
+-
+cacheBehavior
+cacheBehavior
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networksetcachebehaviorparameters-cachebehavior
+
+1
+network.SetCacheBehaviorParameters
+-
+cacheBehavior
+cacheBehavior
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networksetcachebehaviorparameters-cachebehavior
+
+1
+network.SetCacheBehaviorParameters
 -
 cacheName
 cacheName
@@ -2361,6 +2900,18 @@ https://www.w3.org/TR/service-workers/#dom-multicachequeryoptions-cachename
 1
 MultiCacheQueryOptions
 -
+cacheName
+cacheName
+dict-member
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dom-routersourcedict-cachename
+1
+1
+RouterSourceDict
+-
 cacheable
 cacheable
 dfn
@@ -2375,9 +2926,9 @@ https://httpwg.org/specs/rfc7231.html#cacheable
 cached ecmascript object
 cached ECMAScript object
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#concept-cached-object
 
@@ -2386,11 +2937,11 @@ https://w3c.github.io/webcrypto/#concept-cached-object
 cached ecmascript object
 cached ECMAScript object
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#concept-cached-object
+https://www.w3.org/TR/webcrypto-2/#concept-cached-object
 
 1
 -
@@ -2413,6 +2964,41 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#cached-attr-associated-elements-object
+
+1
+-
+cached challenge
+cached challenge
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#device-bound-session-cached-challenge
+
+1
+device bound session
+-
+cached challenge
+cached challenge
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#device-bound-session-cached-challenge
+
+1
+device bound session
+-
+cached nearest ancestor select element
+cached nearest ancestor select element
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#cached-nearest-ancestor-select-element
 
 1
 -
@@ -2568,6 +3154,17 @@ https://www.w3.org/TR/css-values-4/#funcdef-calc
 1
 1
 -
+calc-interpolate()
+calc-interpolate()
+function
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#funcdef-calc-interpolate
+1
+1
+-
 calc-mix()
 calc-mix()
 function
@@ -2720,48 +3317,48 @@ https://svgwg.org/specs/animations/#CalcModeAttribute
 
 1
 -
-calculate dom path
-calculate DOM path
+calculate mouseevent button attribute
+calculate MouseEvent button attribute
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#calculate-dom-path
-
-1
--
-calculate dom path
-calculate DOM path
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#calculate-dom-path
+https://w3c.github.io/pointerevents/#dfn-calculate-mouseevent-button-attribute
 
 1
 -
 calculate mouseevent button attribute
 calculate MouseEvent button attribute
 dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#calculate-mouseevent-button-attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-calculate-mouseevent-button-attribute
 
 1
 -
-calculate mouseevent button attribute
-calculate MouseEvent button attribute
+calculate a color-mix()
+calculate a color-mix()
 dfn
-uievents
-uievents
+css-color-5
+css-color
+5
+current
+https://drafts.csswg.org/css-color-5/#calculate-a-color-mix
 1
+1
+-
+calculate a color-mix()
+calculate a color-mix()
+dfn
+css-color-5
+css-color
+5
 snapshot
-https://www.w3.org/TR/uievents/#calculate-mouseevent-button-attribute
-
+https://www.w3.org/TR/css-color-5/#calculate-a-color-mix
+1
 1
 -
 calculate a progress function
@@ -2772,6 +3369,17 @@ css-values
 5
 current
 https://drafts.csswg.org/css-values-5/#calculate-a-progress-function
+
+1
+-
+calculate a progress function
+calculate a progress function
+dfn
+css-values-5
+css-values
+5
+snapshot
+https://www.w3.org/TR/css-values-5/#calculate-a-progress-function
 1
 1
 -
@@ -2869,30 +3477,6 @@ https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-convtranspose-output-size
 1
 MLGraphBuilder
 -
-calculate convtranspose2d output sizes
-calculate convtranspose2d output sizes
-dfn
-webnn
-webnn
-1
-current
-https://webmachinelearning.github.io/webnn/#mlgraphbuilder-calculate-convtranspose2d-output-sizes
-
-1
-MLGraphBuilder
--
-calculate convtranspose2d output sizes
-calculate convtranspose2d output sizes
-dfn
-webnn
-webnn
-1
-snapshot
-https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-convtranspose2d-output-sizes
-
-1
-MLGraphBuilder
--
 calculate cubic bezier easing output progress
 calculate cubic Bezier easing output progress
 dfn
@@ -2959,78 +3543,6 @@ https://www.w3.org/TR/css-easing-2/#calculate-linear-easing-output-progress
 1
 1
 -
-calculate matmul output sizes
-calculate matmul output sizes
-dfn
-webnn
-webnn
-1
-current
-https://webmachinelearning.github.io/webnn/#mlgraphbuilder-calculate-matmul-output-sizes
-
-1
-MLGraphBuilder
--
-calculate matmul output sizes
-calculate matmul output sizes
-dfn
-webnn
-webnn
-1
-snapshot
-https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-matmul-output-sizes
-
-1
-MLGraphBuilder
--
-calculate padding output sizes
-calculate padding output sizes
-dfn
-webnn
-webnn
-1
-current
-https://webmachinelearning.github.io/webnn/#mlgraphbuilder-calculate-padding-output-sizes
-
-1
-MLGraphBuilder
--
-calculate padding output sizes
-calculate padding output sizes
-dfn
-webnn
-webnn
-1
-snapshot
-https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-padding-output-sizes
-
-1
-MLGraphBuilder
--
-calculate pool2d output sizes
-calculate pool2d output sizes
-dfn
-webnn
-webnn
-1
-current
-https://webmachinelearning.github.io/webnn/#mlgraphbuilder-calculate-pool2d-output-sizes
-
-1
-MLGraphBuilder
--
-calculate pool2d output sizes
-calculate pool2d output sizes
-dfn
-webnn
-webnn
-1
-snapshot
-https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-pool2d-output-sizes
-
-1
-MLGraphBuilder
--
 calculate reduction output sizes
 calculate reduction output sizes
 dfn
@@ -3051,30 +3563,6 @@ webnn
 1
 snapshot
 https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-reduction-output-sizes
-
-1
-MLGraphBuilder
--
-calculate resample output sizes
-calculate resample output sizes
-dfn
-webnn
-webnn
-1
-current
-https://webmachinelearning.github.io/webnn/#mlgraphbuilder-calculate-resample-output-sizes
-
-1
-MLGraphBuilder
--
-calculate resample output sizes
-calculate resample output sizes
-dfn
-webnn
-webnn
-1
-snapshot
-https://www.w3.org/TR/webnn/#mlgraphbuilder-calculate-resample-output-sizes
 
 1
 MLGraphBuilder
@@ -3109,17 +3597,6 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-calculate-the-absolute-position
-
-1
--
-calculate the ad slot size query param
-calculate the ad slot size query param
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#calculate-the-ad-slot-size-query-param
 
 1
 -
@@ -3167,47 +3644,14 @@ https://www.w3.org/TR/device-posture/#dfn-calculate-the-device-posture-informati
 
 1
 -
-calculate the epochs for caller
-calculate the epochs for caller
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#calculate-the-epochs-for-caller
-
-1
--
 calculate the part element map
 calculate the part element map
 dfn
-css-shadow-parts-1
-css-shadow-parts
+css-shadow-1
+css-shadow
 1
 current
-https://drafts.csswg.org/css-shadow-parts-1/#calculate-the-part-element-map
-
-1
--
-calculate the topics for caller
-calculate the topics for caller
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#calculate-the-topics-for-caller
-
-1
--
-calculate user topics
-calculate user topics
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#calculate-user-topics
+https://drafts.csswg.org/css-shadow-1/#calculate-the-part-element-map
 
 1
 -
@@ -3219,6 +3663,18 @@ web-animations
 2
 current
 https://drafts.csswg.org/web-animations-2/#animation-calculating-an-auto-aligned-start-time
+1
+1
+animation
+-
+calculating an auto-aligned start time
+calculating an auto-aligned start time
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#animation-calculating-an-auto-aligned-start-time
 1
 1
 animation
@@ -3246,6 +3702,17 @@ https://www.w3.org/TR/css-values-4/#calc-calculation
 1
 1
 calc()
+-
+calculation contexts
+calculation contexts
+dfn
+css-values-4
+css-values
+4
+current
+https://drafts.csswg.org/css-values-4/#calculation-contexts
+1
+1
 -
 calculation tree
 calculation tree
@@ -3448,6 +3915,17 @@ https://drafts.csswg.org/css-view-transitions-1/#call-the-update-callback
 call the update callback
 call the update callback
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#call-the-update-callback
+
+1
+-
+call the update callback
+call the update callback
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -3467,6 +3945,30 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototyp
 1
 1
 Function
+-
+callFrames
+callFrames
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptstacktrace-callframes
+
+1
+script.StackTrace
+-
+callFrames
+callFrames
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptstacktrace-callframes
+
+1
+script.StackTrace
 -
 call_expression
 call_expression
@@ -3491,6 +3993,30 @@ https://www.w3.org/TR/WGSL/#syntax-call_expression
 
 1
 syntax
+-
+call_expression.post.ident
+call_expression.post.ident
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-call_expressionpostident
+
+1
+recursive descent syntax
+-
+call_expression.post.ident
+call_expression.post.ident
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#recursive-descent-syntax-call_expressionpostident
+
+1
+recursive descent syntax
 -
 call_phrase
 call_phrase
@@ -3658,6 +4184,19 @@ IntersectionObserver/constructor(callback)
 callback
 callback
 argument
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#dom-performanceobserver-performanceobserver-callback-callback
+1
+1
+PerformanceObserver/PerformanceObserver(callback)
+PerformanceObserver/constructor(callback)
+-
+callback
+callback
+argument
 reporting-1
 reporting
 1
@@ -3717,6 +4256,18 @@ https://w3c.github.io/web-locks/#lock-request-callback
 
 1
 lock request
+-
+callback
+callback
+argument
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-modelcontextclient-requestuserinteraction-callback-callback
+1
+1
+ModelContextClient/requestUserInteraction(callback)
 -
 callback
 callback
@@ -3792,6 +4343,30 @@ https://wicg.github.io/video-rvfc/#dom-htmlvideoelement-requestvideoframecallbac
 1
 1
 HTMLVideoElement/requestVideoFrameCallback(callback)
+-
+callback
+callback
+argument
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-mediaquerylist-addlistener-callback-callback
+1
+1
+MediaQueryList/addListener(callback)
+-
+callback
+callback
+argument
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-mediaquerylist-removelistener-callback-callback
+1
+1
+MediaQueryList/removeListener(callback)
 -
 callback
 callback
@@ -3992,6 +4567,19 @@ argument
 css-view-transitions-2
 css-view-transitions
 2
+current
+https://drafts.csswg.org/css-view-transitions-2/#dom-element-startviewtransition-callbackoptions-callbackoptions
+1
+1
+Element/startViewTransition(callbackOptions)
+Element/startViewTransition()
+-
+callbackOptions
+callbackOptions
+argument
+css-view-transitions-2
+css-view-transitions
+2
 snapshot
 https://www.w3.org/TR/css-view-transitions-2/#dom-document-startviewtransition-callbackoptions-callbackoptions
 1
@@ -4065,29 +4653,27 @@ https://www.w3.org/TR/WGSL/#caller
 
 1
 -
-caller domain
-caller domain
+calling context
+calling context
 dfn
-topics
-topics
+css-mixins-1
+css-mixins
 1
 current
-https://patcg-individual-drafts.github.io/topics/#topics-caller-context-caller-domain
+https://drafts.csswg.org/css-mixins-1/#calling-context
 
 1
-topics caller context
 -
-caller domains
-caller domains
+calling context
+calling context
 dfn
-topics
-topics
+css-mixins-1
+css-mixins
 1
-current
-https://patcg-individual-drafts.github.io/topics/#topic-with-caller-domains-caller-domains
+snapshot
+https://www.w3.org/TR/css-mixins-1/#calling-context
 
 1
-topic with caller domains
 -
 calling function
 calling function
@@ -4154,10 +4740,10 @@ cssom-1
 cssom
 1
 current
-https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-camel-cased-attribute
+https://drafts.csswg.org/cssom-1/#dom-cssstyleproperties-camel-cased-attribute
 1
 1
-CSSStyleDeclaration
+CSSStyleProperties
 -
 camel-cased attribute
 camel-cased attribute
@@ -4274,6 +4860,7 @@ current
 https://w3c.github.io/resource-timing/#dfn-can-add-resource-timing-entry
 
 1
+Performance
 -
 can add resource timing entry
 can add resource timing entry
@@ -4285,6 +4872,7 @@ snapshot
 https://www.w3.org/TR/resource-timing/#dfn-can-add-resource-timing-entry
 
 1
+Performance
 -
 can autoplay flag
 can autoplay flag
@@ -4319,6 +4907,18 @@ https://www.w3.org/TR/css-color-4/#can-be-displayed
 1
 1
 -
+can be fulfilled by the identity translation
+can be fulfilled by the identity translation
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#language-arc-can-be-fulfilled-by-the-identity-translation
+
+1
+language arc
+-
 can be manually scrolled
 can be manually scrolled
 dfn
@@ -4362,6 +4962,30 @@ snapshot
 https://www.w3.org/TR/css-nav-1/#can-be-manually-scrolled
 
 1
+-
+can build
+can build
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#mlgraphbuilder-can-build
+
+1
+MLGraphBuilder
+-
+can build
+can build
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mlgraphbuilder-can-build
+
+1
+MLGraphBuilder
 -
 can expose sensor readings
 can expose sensor readings
@@ -4404,7 +5028,7 @@ css-view-transitions
 2
 current
 https://drafts.csswg.org/css-view-transitions-2/#document-can-initiate-outbound-view-transition
-
+1
 1
 document
 -
@@ -4453,6 +5077,30 @@ https://www.w3.org/TR/payment-request/#dfn-can-make-payment-algorithm
 
 1
 -
+can not build
+can not build
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#mlgraphbuilder-can-build
+
+1
+MLGraphBuilder
+-
+can not build
+can not build
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mlgraphbuilder-can-build
+
+1
+MLGraphBuilder
+-
 can provide readings flag
 can provide readings flag
 dfn
@@ -4500,6 +5148,18 @@ https://www.w3.org/TR/compute-pressure/#dfn-can-provide-samples
 
 1
 virtual pressure source
+-
+can support
+can support
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#model-availability-currently-supports
+1
+1
+model availability
 -
 can't be displayed
 can't be displayed
@@ -4629,18 +5289,6 @@ https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateeventin
 1
 1
 NavigateEventInit
--
-canLoadAdAuctionFencedFrame()
-canLoadAdAuctionFencedFrame()
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-canloadadauctionfencedframe
-1
-1
-Navigator
 -
 canMakePayment()
 canMakePayment()
@@ -4849,6 +5497,18 @@ ReadableStreamDefaultReader
 -
 cancel
 cancel
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkcontinuewithauthnocredentials-action-cancel
+
+1
+network.ContinueWithAuthNoCredentials/action
+-
+cancel
+cancel
 dfn
 webtransport
 webtransport
@@ -4866,9 +5526,10 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-cancel
-
+https://wicg.github.io/web-smart-card/#smartcardconnection-cancel
 1
+1
+SmartCardConnection
 -
 cancel
 cancel
@@ -4881,6 +5542,18 @@ https://www.w3.org/TR/css-transitions-1/#transition-cancel
 1
 1
 transition
+-
+cancel
+cancel
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkcontinuewithauthnocredentials-action-cancel
+
+1
+network.ContinueWithAuthNoCredentials/action
 -
 cancel
 cancel
@@ -4994,18 +5667,6 @@ https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-cancel-and-
 1
 prefetch record
 -
-cancel and discard
-cancel and discard
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#pending-external-speculation-rule-resource-cancel-and-discard
-
-1
-pending external speculation rule resource
--
 cancel event
 cancel event
 dfn
@@ -5035,8 +5696,8 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-cancel-the-outstanding-getstatuschange
-
+https://wicg.github.io/web-smart-card/#cancel-the-outstanding-getstatuschange
+1
 1
 -
 cancel()
@@ -5106,7 +5767,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesis-cancel
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesis-cancel
 1
 1
 SpeechSynthesis
@@ -5221,7 +5882,7 @@ TransformStream/set up
 cancelAndHoldAtTime(cancelTime)
 cancelAndHoldAtTime(cancelTime)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5233,11 +5894,35 @@ AudioParam
 cancelAndHoldAtTime(cancelTime)
 cancelAndHoldAtTime(cancelTime)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelandholdattime
+1
+1
+AudioParam
+-
+cancelAndHoldAtTime(cancelTime)
+cancelAndHoldAtTime(cancelTime)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-cancelandholdattime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-cancelandholdattime
+1
+1
+AudioParam
+-
+cancelAndHoldAtTime(cancelTime)
+cancelAndHoldAtTime(cancelTime)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-cancelandholdattime
 1
 1
 AudioParam
@@ -5341,7 +6026,7 @@ Window
 cancelScheduledValues(cancelTime)
 cancelScheduledValues(cancelTime)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5353,11 +6038,35 @@ AudioParam
 cancelScheduledValues(cancelTime)
 cancelScheduledValues(cancelTime)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelscheduledvalues
+1
+1
+AudioParam
+-
+cancelScheduledValues(cancelTime)
+cancelScheduledValues(cancelTime)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-cancelscheduledvalues
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-cancelscheduledvalues
+1
+1
+AudioParam
+-
+cancelScheduledValues(cancelTime)
+cancelScheduledValues(cancelTime)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-cancelscheduledvalues
 1
 1
 AudioParam
@@ -5365,7 +6074,7 @@ AudioParam
 cancelTime
 cancelTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5377,7 +6086,19 @@ AudioParam/cancelAndHoldAtTime()
 cancelTime
 cancelTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelandholdattime-canceltime
+1
+1
+AudioParam/cancelAndHoldAtTime()
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5389,7 +6110,19 @@ AudioParam/cancelAndHoldAtTime(cancelTime)
 cancelTime
 cancelTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelandholdattime-canceltime-canceltime
+1
+1
+AudioParam/cancelAndHoldAtTime(cancelTime)
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5401,7 +6134,19 @@ AudioParam/cancelScheduledValues()
 cancelTime
 cancelTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelscheduledvalues-canceltime
+1
+1
+AudioParam/cancelScheduledValues()
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5413,11 +6158,23 @@ AudioParam/cancelScheduledValues(cancelTime)
 cancelTime
 cancelTime
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelscheduledvalues-canceltime-canceltime
+1
+1
+AudioParam/cancelScheduledValues(cancelTime)
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-cancelandholdattime-canceltime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-cancelandholdattime-canceltime
 1
 1
 AudioParam/cancelAndHoldAtTime()
@@ -5425,11 +6182,11 @@ AudioParam/cancelAndHoldAtTime()
 cancelTime
 cancelTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-cancelandholdattime-canceltime-canceltime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-cancelandholdattime-canceltime-canceltime
 1
 1
 AudioParam/cancelAndHoldAtTime(cancelTime)
@@ -5437,11 +6194,11 @@ AudioParam/cancelAndHoldAtTime(cancelTime)
 cancelTime
 cancelTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-cancelscheduledvalues-canceltime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-cancelscheduledvalues-canceltime
 1
 1
 AudioParam/cancelScheduledValues()
@@ -5449,11 +6206,59 @@ AudioParam/cancelScheduledValues()
 cancelTime
 cancelTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-cancelscheduledvalues-canceltime-canceltime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-cancelscheduledvalues-canceltime-canceltime
+1
+1
+AudioParam/cancelScheduledValues(cancelTime)
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-cancelandholdattime-canceltime
+1
+1
+AudioParam/cancelAndHoldAtTime()
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-cancelandholdattime-canceltime-canceltime
+1
+1
+AudioParam/cancelAndHoldAtTime(cancelTime)
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-cancelscheduledvalues-canceltime
+1
+1
+AudioParam/cancelScheduledValues()
+-
+cancelTime
+cancelTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-cancelscheduledvalues-canceltime-canceltime
 1
 1
 AudioParam/cancelScheduledValues(cancelTime)
@@ -5671,32 +6476,6 @@ uievents
 uievents
 1
 current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-cancelablearg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-cancelableArg
-cancelableArg
-argument
-uievents
-uievents
-1
-current
 https://w3c.github.io/uievents/#dom-uievent-inituievent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-cancelablearg
 1
 1
@@ -5750,32 +6529,6 @@ uievents
 uievents
 1
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-cancelablearg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-cancelableArg
-cancelableArg
-argument
-uievents
-uievents
-1
-snapshot
 https://www.w3.org/TR/uievents/#dom-uievent-inituievent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-cancelablearg
 1
 1
@@ -5799,6 +6552,18 @@ fetch params
 -
 canceled
 canceled
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextdownloadcanceledparams-status-canceled
+
+1
+browsingContext.DownloadCanceledParams/status
+-
+canceled
+canceled
 dfn
 webdriver-bidi
 webdriver-bidi
@@ -5819,16 +6584,28 @@ https://wicg.github.io/video-rvfc/#canceled
 
 1
 -
-canceled event
-canceled event
+canceled
+canceled
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextdownloadcanceledparams-status-canceled
+
+1
+browsingContext.DownloadCanceledParams/status
+-
+canceled
+canceled
 dfn
-pointerevents3
-pointerevents
-3
-current
-https://w3c.github.io/pointerevents/#dfn-canceled-event
-
-
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#navigation-status-canceled
+1
+1
 -
 canceled event
 canceled event
@@ -5840,6 +6617,17 @@ current
 https://w3c.github.io/touch-events/#dfn-canceled-event
 
 1
+-
+canceled event
+canceled event
+dfn
+pointerevents3
+pointerevents
+3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-canceled-event
+
+
 -
 canceled event
 canceled event
@@ -6013,7 +6801,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-addition
+https://www.w3.org/policies/process/#candidate-addition
 
 1
 -
@@ -6024,7 +6812,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-amendment
+https://www.w3.org/policies/process/#candidate-amendment
 
 1
 -
@@ -6059,7 +6847,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-correction
+https://www.w3.org/policies/process/#candidate-correction
 
 1
 -
@@ -6337,42 +7125,6 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-canonical
 1
 link/rel
 -
-canonical
-canonical
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#sanitizerconfig-canonical
-
-1
-SanitizerConfig
--
-canonical
-canonical
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#sanitizernamelist-canonical
-
-1
-SanitizerNameList
--
-canonical
-canonical
-dfn
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#sanitizernamewithattributeslist-canonical
-
-1
-SanitizerNameWithAttributesList
--
 canonical paymentcurrencyamount
 canonical PaymentCurrencyAmount
 dfn
@@ -6381,6 +7133,28 @@ digital-goods
 1
 current
 https://wicg.github.io/digital-goods/#canonical-paymentcurrencyamount
+
+1
+-
+canonical url
+canonical URL
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-canonical-url
+
+1
+-
+canonical url
+canonical URL
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-canonical-url
 
 1
 -
@@ -6694,6 +7468,28 @@ https://www.w3.org/TR/css-values-4/#canonical-unit
 1
 1
 -
+canonicalid
+canonicalId
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-canonicalid
+
+1
+-
+canonicalid
+canonicalId
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-canonicalid
+
+1
+-
 canonicalUUID(alias)
 canonicalUUID(alias)
 method
@@ -6750,14 +7546,14 @@ https://www.w3.org/TR/rdf-canon/#dfn-canonicalization-state
 
 1
 -
-canonicalize a configuration
-canonicalize a configuration
+canonicalize
+canonicalize
 dfn
-sanitizer-api
-sanitizer-api
+html
+html
 1
 current
-https://wicg.github.io/sanitizer-api/#canonicalize-a-configuration
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-element-with-attributes
 
 1
 -
@@ -6827,6 +7623,28 @@ https://urlpattern.spec.whatwg.org/#canonicalize-a-port
 
 1
 -
+canonicalize a processing instruction
+canonicalize a processing instruction
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-processing-instruction
+
+1
+-
+canonicalize a processing instruction list
+canonicalize a processing instruction list
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-processing-instruction-list
+
+1
+-
 canonicalize a protocol
 canonicalize a protocol
 dfn
@@ -6838,25 +7656,47 @@ https://urlpattern.spec.whatwg.org/#canonicalize-a-protocol
 
 1
 -
+canonicalize a sanitizer element
+canonicalize a sanitizer element
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-element
+
+1
+-
 canonicalize a sanitizer element list
 canonicalize a sanitizer element list
 dfn
-sanitizer-api
-sanitizer-api
+html
+html
 1
 current
-https://wicg.github.io/sanitizer-api/#canonicalize-a-sanitizer-element-list
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-element-list
+
+1
+-
+canonicalize a sanitizer list
+canonicalize a sanitizer list
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-list
 
 1
 -
 canonicalize a sanitizer name
 canonicalize a sanitizer name
 dfn
-sanitizer-api
-sanitizer-api
+html
+html
 1
 current
-https://wicg.github.io/sanitizer-api/#canonicalize-a-sanitizer-name
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-name
 
 1
 -
@@ -6928,6 +7768,17 @@ https://www.w3.org/TR/css-values-5/#calc-size-canonicalize-for-interpolation
 1
 calc-size()
 -
+canonicalize the configuration
+canonicalize the configuration
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-the-configuration
+
+1
+-
 canonicalize whitespace
 canonicalize whitespace
 dfn
@@ -6958,6 +7809,17 @@ rdf-canon
 1
 snapshot
 https://www.w3.org/TR/rdf-canon/#dfn-canonicalized-dataset
+
+1
+-
+canonicalized intersection
+canonicalized intersection
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-canonicalized-intersection
 
 1
 -
@@ -7012,9 +7874,9 @@ HTMLMediaElement
 canvas
 canvas
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#canvas
 
@@ -7081,14 +7943,15 @@ OffscreenCanvas
 -
 canvas
 canvas
-dfn
-svg2
-svg
-2
+attribute
+webgl1
+webgl1
+1
 current
-https://svgwg.org/svg2-draft/coords.html#TermCanvas
+https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-canvas
 1
 1
+WebGLRenderingContextBase
 -
 canvas
 canvas
@@ -7116,11 +7979,11 @@ https://w3c.github.io/png/#dfn-canvas
 canvas
 canvas
 dfn
-css2
-css
-1
+svg2
+svg
+2
 current
-https://www.w3.org/TR/CSS21/intro.html#canvas
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermCanvas
 1
 1
 -
@@ -7129,9 +7992,9 @@ canvas
 dfn
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/intro.html#canvas
+https://www.w3.org/TR/CSS2/intro.html#canvas
 1
 1
 -
@@ -7195,11 +8058,33 @@ https://drafts.csswg.org/css-backgrounds-3/#canvas-background
 canvas background
 canvas background
 dfn
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#canvas-background
+1
+1
+-
+canvas background
+canvas background
+dfn
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#canvas-background
+1
+1
+-
+canvas background
+canvas background
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#canvas-background
 1
 1
 -
@@ -7239,11 +8124,33 @@ https://drafts.csswg.org/css-backgrounds-3/#canvas-surface
 canvas surface
 canvas surface
 dfn
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#canvas-surface
+1
+1
+-
+canvas surface
+canvas surface
+dfn
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#canvas-surface
+1
+1
+-
+canvas surface
+canvas surface
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#canvas-surface
 1
 1
 -
@@ -7297,6 +8204,17 @@ https://www.w3.org/TR/css-values-4/#cap
 1
 <length>
 -
+cap segment endpoint
+cap segment endpoint
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#cap-segment-endpoint
+
+1
+-
 cap shapes
 cap shapes
 dfn
@@ -7304,7 +8222,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#cap-shapes
+https://drafts.csswg.org/fill-stroke-3/#cap-shapes
 1
 1
 -
@@ -7326,7 +8244,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#TermCapShape
+https://w3c.github.io/svgwg/svg2-draft/painting.html#TermCapShape
 1
 1
 -
@@ -7458,6 +8376,30 @@ https://gpuweb.github.io/gpuweb/#capabilities
 -
 capabilities
 capabilities
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-sessionnewcommand-params-capabilities
+
+1
+SessionNewCommand/params
+-
+capabilities
+capabilities
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-capabilities
+
+1
+SessionNewResult
+-
+capabilities
+capabilities
 dfn
 mediacapture-streams
 mediacapture-streams
@@ -7466,6 +8408,30 @@ current
 https://w3c.github.io/mediacapture-main/#dfn-capabilities
 
 1
+-
+capabilities
+capabilities
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionnewparameters-capabilities
+
+1
+session.NewParameters
+-
+capabilities
+capabilities
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionnewresult-capabilities
+
+1
+session.NewResult
 -
 capabilities
 capabilities
@@ -7488,6 +8454,30 @@ snapshot
 https://www.w3.org/TR/mediacapture-streams/#dfn-capabilities
 
 1
+-
+capabilities
+capabilities
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionnewparameters-capabilities
+
+1
+session.NewParameters
+-
+capabilities
+capabilities
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionnewresult-capabilities
+
+1
+session.NewResult
 -
 capabilities
 capabilities
@@ -7533,6 +8523,18 @@ https://www.w3.org/TR/webdriver2/#dfn-capabilities-processing
 
 1
 -
+capability
+capability
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-performancepreference-capability
+1
+1
+PerformancePreference
+-
 capability name
 capability name
 dfn
@@ -7558,11 +8560,33 @@ https://www.w3.org/TR/webdriver2/#dfn-capability-name
 capabilitydelegation
 capabilityDelegation
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-capabilitydelegation
+
+1
+-
+capabilitydelegation
+capabilityDelegation
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-capabilitydelegation
+
+1
+-
+capabilitydelegation
+capabilityDelegation
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-capabilitydelegation
 
 1
 -
@@ -7580,11 +8604,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-capabilitydelegation
 capabilityinvocation
 capabilityInvocation
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-capabilityinvocation
+
+1
+-
+capabilityinvocation
+capabilityInvocation
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-capabilityinvocation
+
+1
+-
+capabilityinvocation
+capabilityInvocation
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-capabilityinvocation
 
 1
 -
@@ -7648,9 +8694,9 @@ text-transform
 capitalize
 capitalize
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-text-transform-capitalize
 1
@@ -7696,9 +8742,9 @@ font
 caption
 caption
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-font-caption
 1
@@ -7776,9 +8822,9 @@ https://drafts.csswg.org/css-tables-3/#propdef-caption-side
 caption-side
 caption-side
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-caption-side
 1
@@ -7789,31 +8835,9 @@ caption-side
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#propdef-caption-side
-1
-1
--
-caption-side
-caption-side
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#propdef-caption-side
-1
-1
--
-caption-side
-caption-side
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/tables.html#propdef-caption-side
+https://www.w3.org/TR/CSS2/tables.html#propdef-caption-side
 1
 1
 -
@@ -7859,6 +8883,50 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/media.html#value-track-kind-caption
+
+1
+-
+captions
+captions
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-captions
+
+
+-
+captions
+captions
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-captions
+
+1
+-
+captions
+captions
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-captions
+
+
+-
+captions
+captions
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-captions
 
 1
 -
@@ -7970,6 +9038,17 @@ https://drafts.csswg.org/css-view-transitions-1/#capture-rendering-characteristi
 capture rendering characteristics
 capture rendering characteristics
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#capture-rendering-characteristics
+
+1
+-
+capture rendering characteristics
+capture rendering characteristics
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -7986,6 +9065,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#capture-the-image
+
+1
+-
+capture the image
+capture the image
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#capture-the-image
 
 1
 -
@@ -8014,6 +9104,17 @@ https://drafts.csswg.org/css-view-transitions-1/#capture-the-new-state
 capture the new state
 capture the new state
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#capture-the-new-state
+
+1
+-
+capture the new state
+capture the new state
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -8036,6 +9137,17 @@ https://drafts.csswg.org/css-view-transitions-1/#capture-the-old-state
 capture the old state
 capture the old state
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#capture-the-old-state
+
+1
+-
+capture the old state
+capture the old state
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -8043,18 +9155,6 @@ snapshot
 https://www.w3.org/TR/css-view-transitions-1/#capture-the-old-state
 
 1
--
-capture-ad-auction-headers
-capture-ad-auction-headers
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#request-capture-ad-auction-headers
-
-1
-request
 -
 capture-session
 capture-session
@@ -8177,6 +9277,18 @@ HTMLCanvasElement
 captureTime
 captureTime
 dict-member
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-capturetime
+1
+1
+RTCEncodedFrameMetadata
+-
+captureTime
+captureTime
+dict-member
 video-rvfc
 video-rvfc
 1
@@ -8186,52 +9298,17 @@ https://wicg.github.io/video-rvfc/#dom-videoframecallbackmetadata-capturetime
 1
 VideoFrameCallbackMetadata
 -
-captured ad auction additional bids headers
-captured ad auction additional bids headers
-dfn
-turtledove
-turtledove
+captureTime
+captureTime
+dict-member
+webrtc-encoded-transform
+webrtc-encoded-transform
 1
-current
-https://wicg.github.io/turtledove/#traversable-navigable-captured-ad-auction-additional-bids-headers
-
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedframemetadata-capturetime
 1
-traversable navigable
--
-captured ad auction result headers
-captured ad auction result headers
-dfn
-turtledove
-turtledove
 1
-current
-https://wicg.github.io/turtledove/#traversable-navigable-captured-ad-auction-result-headers
-
-1
-traversable navigable
--
-captured ad auction signals headers
-captured ad auction signals headers
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#traversable-navigable-captured-ad-auction-signals-headers
-
-1
-traversable navigable
--
-captured additional bids headers
-captured additional bids headers
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#captured-additional-bids-headers
-
-1
+RTCEncodedFrameMetadata
 -
 captured element
 captured element
@@ -8241,6 +9318,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#captured-element
+
+1
+-
+captured element
+captured element
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#captured-element
 
 1
 -
@@ -8263,6 +9351,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#captured-in-a-view-transition
+1
+1
+-
+captured in a view transition
+captured in a view transition
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#captured-in-a-view-transition
 1
 1
 -
@@ -8348,11 +9447,33 @@ https://drafts.csswg.org/css-view-transitions-1/#capture-the-image
 capturing the image
 capturing the image
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#capture-the-image
+
+1
+-
+capturing the image
+capturing the image
+dfn
 css-view-transitions-1
 css-view-transitions
 1
 snapshot
 https://www.w3.org/TR/css-view-transitions-1/#capture-the-image
+
+1
+-
+caret
+caret
+dfn
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#insertion-caret
 
 1
 -
@@ -8365,6 +9486,17 @@ css-ui
 current
 https://drafts.csswg.org/css-ui-4/#propdef-caret
 1
+1
+-
+caret
+caret
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#insertion-caret
+
 1
 -
 caret
@@ -8444,17 +9576,6 @@ https://www.w3.org/TR/cssom-view-1/#caret-position
 
 1
 -
-caret range
-caret range
-dfn
-cssom-view-1
-cssom-view
-1
-snapshot
-https://www.w3.org/TR/cssom-view-1/#caret-range
-
-1
--
 caret-animation
 caret-animation
 property
@@ -8463,6 +9584,17 @@ css-ui
 4
 current
 https://drafts.csswg.org/css-ui-4/#propdef-caret-animation
+1
+1
+-
+caret-animation
+caret-animation
+property
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#propdef-caret-animation
 1
 1
 -
@@ -8568,6 +9700,18 @@ https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint
 1
 Document
 -
+caretPositionFromPoint(x, y, options)
+caretPositionFromPoint(x, y, options)
+method
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-document-caretpositionfrompoint
+1
+1
+Document
+-
 carried forward
 carried forward
 dfn
@@ -8576,6 +9720,17 @@ css-color
 4
 current
 https://drafts.csswg.org/css-color-4/#carried-forward
+1
+1
+-
+carried forward
+carried forward
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#carried-forward
 1
 1
 -
@@ -8626,9 +9781,9 @@ https://drafts.csswg.org/css-cascade-6/#cascade
 cascade
 cascade
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#cascade%E2%91%A0
 
@@ -8639,20 +9794,9 @@ cascade
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/cascade.html#x12
-1
-1
--
-cascade
-cascade
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/cascade.html#x12
+https://www.w3.org/TR/CSS2/cascade.html#x12
 1
 1
 -
@@ -8969,11 +10113,11 @@ https://www.w3.org/TR/i18n-glossary/#dfn-case-folded
 case-insensitive
 case-insensitive
 dfn
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#case-insensitive
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#case-insensitive
 
 1
 -
@@ -8991,22 +10135,11 @@ https://w3c.github.io/i18n-glossary/#dfn-case-sensitive
 case-sensitive
 case-sensitive
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#case-sensitive
-
-1
--
-case-sensitive
-case-sensitive
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#case-sensitive
 
 1
 -
@@ -9021,6 +10154,17 @@ https://www.w3.org/TR/i18n-glossary/#dfn-case-sensitive
 1
 
 -
+case-sensitive
+case-sensitive
+dfn
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#case-sensitive
+
+1
+-
 case-sensitive flag
 case-sensitive flag
 dfn
@@ -9029,7 +10173,7 @@ cssom
 1
 current
 https://drafts.csswg.org/cssom-1/#css-declaration-case-sensitive-flag
-
+1
 1
 CSS declaration
 -
@@ -9187,8 +10331,30 @@ https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-cast
 1
 MLOpSupportLimits
 -
-cast(input, type)
-cast(input, type)
+cast a ray
+cast a ray
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#cast-a-ray
+1
+1
+-
+cast a ray
+cast a ray
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#cast-a-ray
+1
+1
+-
+cast(input, dataType)
+cast(input, dataType)
 method
 webnn
 webnn
@@ -9199,8 +10365,8 @@ https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cast
 1
 MLGraphBuilder
 -
-cast(input, type)
-cast(input, type)
+cast(input, dataType)
+cast(input, dataType)
 method
 webnn
 webnn
@@ -9211,8 +10377,8 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cast
 1
 MLGraphBuilder
 -
-cast(input, type, options)
-cast(input, type, options)
+cast(input, dataType, options)
+cast(input, dataType, options)
 method
 webnn
 webnn
@@ -9223,8 +10389,8 @@ https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cast
 1
 MLGraphBuilder
 -
-cast(input, type, options)
-cast(input, type, options)
+cast(input, dataType, options)
+cast(input, dataType, options)
 method
 webnn
 webnn
@@ -9234,6 +10400,18 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cast
 1
 1
 MLGraphBuilder
+-
+casual
+casual
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writertone-casual
+1
+1
+WriterTone
 -
 catch(callback)
 catch(callback)

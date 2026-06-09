@@ -1,7 +1,23 @@
 {
+  "#a-acknowledgments": {
+    "snapshot": {
+      "number": "A",
+      "spec": "User Timing",
+      "text": "Acknowledgments",
+      "url": "https://www.w3.org/TR/user-timing/#acknowledgments"
+    }
+  },
+  "#abstract": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Abstract",
+      "url": "https://w3c.github.io/user-timing/#abstract"
+    }
+  },
   "#acknowledgments": {
     "current": {
-      "number": "A",
+      "number": "",
       "spec": "User Timing",
       "text": "Acknowledgments",
       "url": "https://w3c.github.io/user-timing/#acknowledgments"
@@ -13,9 +29,33 @@
       "url": "https://www.w3.org/TR/user-timing/#acknowledgments"
     }
   },
+  "#b-1-normative-references": {
+    "snapshot": {
+      "number": "B.1",
+      "spec": "User Timing",
+      "text": "Normative references",
+      "url": "https://www.w3.org/TR/user-timing/#normative-references"
+    }
+  },
+  "#b-2-informative-references": {
+    "snapshot": {
+      "number": "B.2",
+      "spec": "User Timing",
+      "text": "Informative references",
+      "url": "https://www.w3.org/TR/user-timing/#informative-references"
+    }
+  },
+  "#b-references": {
+    "snapshot": {
+      "number": "B",
+      "spec": "User Timing",
+      "text": "References",
+      "url": "https://www.w3.org/TR/user-timing/#references"
+    }
+  },
   "#clearmarks-method": {
     "current": {
-      "number": "3.1.2",
+      "number": "2.1.2",
       "spec": "User Timing",
       "text": "clearMarks() method",
       "url": "https://w3c.github.io/user-timing/#clearmarks-method"
@@ -29,7 +69,7 @@
   },
   "#clearmeasures-method": {
     "current": {
-      "number": "3.1.4",
+      "number": "2.1.4",
       "spec": "User Timing",
       "text": "clearMeasures() method",
       "url": "https://w3c.github.io/user-timing/#clearmeasures-method"
@@ -42,12 +82,6 @@
     }
   },
   "#conformance": {
-    "current": {
-      "number": "2",
-      "spec": "User Timing",
-      "text": "Conformance",
-      "url": "https://w3c.github.io/user-timing/#conformance"
-    },
     "snapshot": {
       "number": "2",
       "spec": "User Timing",
@@ -55,13 +89,15 @@
       "url": "https://www.w3.org/TR/user-timing/#conformance"
     }
   },
-  "#convert-a-mark-to-a-timestamp": {
+  "#contents": {
     "current": {
-      "number": "4.1",
+      "number": "",
       "spec": "User Timing",
-      "text": "Convert a mark to a timestamp",
-      "url": "https://w3c.github.io/user-timing/#convert-a-mark-to-a-timestamp"
-    },
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/user-timing/#toc"
+    }
+  },
+  "#convert-a-mark-to-a-timestamp": {
     "snapshot": {
       "number": "4.1",
       "spec": "User Timing",
@@ -70,12 +106,6 @@
     }
   },
   "#convert-a-name-to-a-timestamp": {
-    "current": {
-      "number": "4.2",
-      "spec": "User Timing",
-      "text": "Convert a name to a timestamp",
-      "url": "https://w3c.github.io/user-timing/#convert-a-name-to-a-timestamp"
-    },
     "snapshot": {
       "number": "4.2",
       "spec": "User Timing",
@@ -83,9 +113,25 @@
       "url": "https://www.w3.org/TR/user-timing/#convert-a-name-to-a-timestamp"
     }
   },
-  "#extensions-performance-interface": {
+  "#convert-mark-to-timestamp": {
     "current": {
       "number": "3.1",
+      "spec": "User Timing",
+      "text": "Convert a mark to a timestamp",
+      "url": "https://w3c.github.io/user-timing/#convert-mark-to-timestamp"
+    }
+  },
+  "#convert-name-to-timestamp": {
+    "current": {
+      "number": "3.2",
+      "spec": "User Timing",
+      "text": "Convert a name to a timestamp",
+      "url": "https://w3c.github.io/user-timing/#convert-name-to-timestamp"
+    }
+  },
+  "#extensions-performance-interface": {
+    "current": {
+      "number": "2.1",
       "spec": "User Timing",
       "text": "Extensions to the Performance interface",
       "url": "https://w3c.github.io/user-timing/#extensions-performance-interface"
@@ -97,13 +143,47 @@
       "url": "https://www.w3.org/TR/user-timing/#extensions-performance-interface"
     }
   },
-  "#informative-references": {
+  "#idl-index": {
     "current": {
-      "number": "B.2",
+      "number": "",
       "spec": "User Timing",
-      "text": "Informative references",
-      "url": "https://w3c.github.io/user-timing/#informative-references"
-    },
+      "text": "IDL Index",
+      "url": "https://w3c.github.io/user-timing/#idl-index"
+    }
+  },
+  "#index": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Index",
+      "url": "https://w3c.github.io/user-timing/#index"
+    }
+  },
+  "#index-defined-elsewhere": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Terms defined by reference",
+      "url": "https://w3c.github.io/user-timing/#index-defined-elsewhere"
+    }
+  },
+  "#index-defined-here": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Terms defined by this specification",
+      "url": "https://w3c.github.io/user-timing/#index-defined-here"
+    }
+  },
+  "#informative": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Non-Normative References",
+      "url": "https://w3c.github.io/user-timing/#informative"
+    }
+  },
+  "#informative-references": {
     "snapshot": {
       "number": "B.2",
       "spec": "User Timing",
@@ -127,7 +207,7 @@
   },
   "#mark-method": {
     "current": {
-      "number": "3.1.1",
+      "number": "2.1.1",
       "spec": "User Timing",
       "text": "mark() method",
       "url": "https://w3c.github.io/user-timing/#mark-method"
@@ -141,7 +221,7 @@
   },
   "#measure-method": {
     "current": {
-      "number": "3.1.3",
+      "number": "2.1.3",
       "spec": "User Timing",
       "text": "measure() method",
       "url": "https://w3c.github.io/user-timing/#measure-method"
@@ -153,13 +233,15 @@
       "url": "https://www.w3.org/TR/user-timing/#measure-method"
     }
   },
-  "#normative-references": {
+  "#normative": {
     "current": {
-      "number": "B.1",
+      "number": "",
       "spec": "User Timing",
-      "text": "Normative references",
-      "url": "https://w3c.github.io/user-timing/#normative-references"
-    },
+      "text": "Normative References",
+      "url": "https://w3c.github.io/user-timing/#normative"
+    }
+  },
+  "#normative-references": {
     "snapshot": {
       "number": "B.1",
       "spec": "User Timing",
@@ -168,12 +250,6 @@
     }
   },
   "#performancemark": {
-    "current": {
-      "number": "3.2",
-      "spec": "User Timing",
-      "text": "The PerformanceMark Interface",
-      "url": "https://w3c.github.io/user-timing/#performancemark"
-    },
     "snapshot": {
       "number": "3.2",
       "spec": "User Timing",
@@ -183,7 +259,7 @@
   },
   "#performancemarkoptions-dictionary": {
     "current": {
-      "number": "3.1.1.1",
+      "number": "2.1.1.1",
       "spec": "User Timing",
       "text": "PerformanceMarkOptions dictionary",
       "url": "https://w3c.github.io/user-timing/#performancemarkoptions-dictionary"
@@ -196,12 +272,6 @@
     }
   },
   "#performancemeasure": {
-    "current": {
-      "number": "3.3",
-      "spec": "User Timing",
-      "text": "The PerformanceMeasure Interface",
-      "url": "https://w3c.github.io/user-timing/#performancemeasure"
-    },
     "snapshot": {
       "number": "3.3",
       "spec": "User Timing",
@@ -211,7 +281,7 @@
   },
   "#performancemeasureoptions-dictionary": {
     "current": {
-      "number": "3.1.3.1",
+      "number": "2.1.3.1",
       "spec": "User Timing",
       "text": "PerformanceMeasureOptions dictionary",
       "url": "https://w3c.github.io/user-timing/#performancemeasureoptions-dictionary"
@@ -225,7 +295,7 @@
   },
   "#privacy-security": {
     "current": {
-      "number": "6",
+      "number": "5",
       "spec": "User Timing",
       "text": "Privacy and Security",
       "url": "https://w3c.github.io/user-timing/#privacy-security"
@@ -239,7 +309,7 @@
   },
   "#processing": {
     "current": {
-      "number": "4",
+      "number": "3",
       "spec": "User Timing",
       "text": "Processing",
       "url": "https://w3c.github.io/user-timing/#processing"
@@ -253,7 +323,7 @@
   },
   "#recommended-mark-names": {
     "current": {
-      "number": "5",
+      "number": "4",
       "spec": "User Timing",
       "text": "Recommended mark names",
       "url": "https://w3c.github.io/user-timing/#recommended-mark-names"
@@ -267,7 +337,7 @@
   },
   "#references": {
     "current": {
-      "number": "B",
+      "number": "",
       "spec": "User Timing",
       "text": "References",
       "url": "https://w3c.github.io/user-timing/#references"
@@ -279,9 +349,25 @@
       "url": "https://www.w3.org/TR/user-timing/#references"
     }
   },
+  "#sotd": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Status of this document",
+      "url": "https://w3c.github.io/user-timing/#sotd"
+    }
+  },
+  "#table-of-contents": {
+    "snapshot": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/user-timing/#toc"
+    }
+  },
   "#the-performancemark-constructor": {
     "current": {
-      "number": "3.2.1",
+      "number": "2.2.1",
       "spec": "User Timing",
       "text": "The PerformanceMark Constructor",
       "url": "https://w3c.github.io/user-timing/#the-performancemark-constructor"
@@ -291,6 +377,22 @@
       "spec": "User Timing",
       "text": "The PerformanceMark Constructor",
       "url": "https://www.w3.org/TR/user-timing/#the-performancemark-constructor"
+    }
+  },
+  "#the-performancemark-interface": {
+    "current": {
+      "number": "2.2",
+      "spec": "User Timing",
+      "text": "The PerformanceMark Interface",
+      "url": "https://w3c.github.io/user-timing/#the-performancemark-interface"
+    }
+  },
+  "#the-performancemeasure-interface": {
+    "current": {
+      "number": "2.3",
+      "spec": "User Timing",
+      "text": "The PerformanceMeasure Interface",
+      "url": "https://w3c.github.io/user-timing/#the-performancemeasure-interface"
     }
   },
   "#title": {
@@ -303,7 +405,7 @@
     "snapshot": {
       "number": "",
       "spec": "User Timing",
-      "text": "User Timing Level 3",
+      "text": "User Timing",
       "url": "https://www.w3.org/TR/user-timing/#title"
     }
   },
@@ -323,7 +425,7 @@
   },
   "#user-timing": {
     "current": {
-      "number": "3",
+      "number": "2",
       "spec": "User Timing",
       "text": "User Timing",
       "url": "https://w3c.github.io/user-timing/#user-timing"
@@ -333,6 +435,174 @@
       "spec": "User Timing",
       "text": "User Timing",
       "url": "https://www.w3.org/TR/user-timing/#user-timing"
+    }
+  },
+  "#w3c-conformance": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/user-timing/#w3c-conformance"
+    }
+  },
+  "#w3c-conformant-algorithms": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Conformant Algorithms",
+      "url": "https://w3c.github.io/user-timing/#w3c-conformant-algorithms"
+    }
+  },
+  "#w3c-conventions": {
+    "current": {
+      "number": "",
+      "spec": "User Timing",
+      "text": "Document conventions",
+      "url": "https://w3c.github.io/user-timing/#w3c-conventions"
+    }
+  },
+  "#x1-introduction": {
+    "snapshot": {
+      "number": "1",
+      "spec": "User Timing",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/user-timing/#introduction"
+    }
+  },
+  "#x2-conformance": {
+    "snapshot": {
+      "number": "2",
+      "spec": "User Timing",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/user-timing/#conformance"
+    }
+  },
+  "#x3-1-1-1-performancemarkoptions-dictionary": {
+    "snapshot": {
+      "number": "3.1.1.1",
+      "spec": "User Timing",
+      "text": "PerformanceMarkOptions dictionary",
+      "url": "https://www.w3.org/TR/user-timing/#performancemarkoptions-dictionary"
+    }
+  },
+  "#x3-1-1-mark-method": {
+    "snapshot": {
+      "number": "3.1.1",
+      "spec": "User Timing",
+      "text": "mark() method",
+      "url": "https://www.w3.org/TR/user-timing/#mark-method"
+    }
+  },
+  "#x3-1-2-clearmarks-method": {
+    "snapshot": {
+      "number": "3.1.2",
+      "spec": "User Timing",
+      "text": "clearMarks() method",
+      "url": "https://www.w3.org/TR/user-timing/#clearmarks-method"
+    }
+  },
+  "#x3-1-3-1-performancemeasureoptions-dictionary": {
+    "snapshot": {
+      "number": "3.1.3.1",
+      "spec": "User Timing",
+      "text": "PerformanceMeasureOptions dictionary",
+      "url": "https://www.w3.org/TR/user-timing/#performancemeasureoptions-dictionary"
+    }
+  },
+  "#x3-1-3-measure-method": {
+    "snapshot": {
+      "number": "3.1.3",
+      "spec": "User Timing",
+      "text": "measure() method",
+      "url": "https://www.w3.org/TR/user-timing/#measure-method"
+    }
+  },
+  "#x3-1-4-clearmeasures-method": {
+    "snapshot": {
+      "number": "3.1.4",
+      "spec": "User Timing",
+      "text": "clearMeasures() method",
+      "url": "https://www.w3.org/TR/user-timing/#clearmeasures-method"
+    }
+  },
+  "#x3-1-extensions-to-the-performance-interface": {
+    "snapshot": {
+      "number": "3.1",
+      "spec": "User Timing",
+      "text": "Extensions to the Performance interface",
+      "url": "https://www.w3.org/TR/user-timing/#extensions-performance-interface"
+    }
+  },
+  "#x3-2-1-the-performancemark-constructor": {
+    "snapshot": {
+      "number": "3.2.1",
+      "spec": "User Timing",
+      "text": "The PerformanceMark Constructor",
+      "url": "https://www.w3.org/TR/user-timing/#the-performancemark-constructor"
+    }
+  },
+  "#x3-2-the-performancemark-interface": {
+    "snapshot": {
+      "number": "3.2",
+      "spec": "User Timing",
+      "text": "The PerformanceMark Interface",
+      "url": "https://www.w3.org/TR/user-timing/#performancemark"
+    }
+  },
+  "#x3-3-the-performancemeasure-interface": {
+    "snapshot": {
+      "number": "3.3",
+      "spec": "User Timing",
+      "text": "The PerformanceMeasure Interface",
+      "url": "https://www.w3.org/TR/user-timing/#performancemeasure"
+    }
+  },
+  "#x3-user-timing": {
+    "snapshot": {
+      "number": "3",
+      "spec": "User Timing",
+      "text": "User Timing",
+      "url": "https://www.w3.org/TR/user-timing/#user-timing"
+    }
+  },
+  "#x4-1-convert-a-mark-to-a-timestamp": {
+    "snapshot": {
+      "number": "4.1",
+      "spec": "User Timing",
+      "text": "Convert a mark to a timestamp",
+      "url": "https://www.w3.org/TR/user-timing/#convert-a-mark-to-a-timestamp"
+    }
+  },
+  "#x4-2-convert-a-name-to-a-timestamp": {
+    "snapshot": {
+      "number": "4.2",
+      "spec": "User Timing",
+      "text": "Convert a name to a timestamp",
+      "url": "https://www.w3.org/TR/user-timing/#convert-a-name-to-a-timestamp"
+    }
+  },
+  "#x4-processing": {
+    "snapshot": {
+      "number": "4",
+      "spec": "User Timing",
+      "text": "Processing",
+      "url": "https://www.w3.org/TR/user-timing/#processing"
+    }
+  },
+  "#x5-recommended-mark-names": {
+    "snapshot": {
+      "number": "5",
+      "spec": "User Timing",
+      "text": "Recommended mark names",
+      "url": "https://www.w3.org/TR/user-timing/#recommended-mark-names"
+    }
+  },
+  "#x6-privacy-and-security": {
+    "snapshot": {
+      "number": "6",
+      "spec": "User Timing",
+      "text": "Privacy and Security",
+      "url": "https://www.w3.org/TR/user-timing/#privacy-security"
     }
   }
 }

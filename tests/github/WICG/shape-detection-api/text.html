@@ -857,13 +857,13 @@ Example implementations of Text code detection are e.g. <a href="https://develop
    </dl>
    <h4 class="heading settled" data-level="2.2.1" id="detectedtext-section"><span class="secno">2.2.1. </span><span class="content"><code class="idl"><a data-link-type="idl" href="#dictdef-detectedtext" id="ref-for-dictdef-detectedtext②">DetectedText</a></code></span><a class="self-link" href="#detectedtext-section"></a></h4>
 <pre class="def highlight idl"><c- b>dictionary</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-detectedtext"><code><c- g>DetectedText</c-></code></dfn> {
-  <c- b>required</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMRectReadOnly" href="#dom-detectedtext-boundingbox" id="ref-for-dom-detectedtext-boundingbox①"><c- g>boundingBox</c-></a>;
+  <c- b>required</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMRectReadOnly" href="#dom-detectedtext-boundingbox" id="ref-for-dom-detectedtext-boundingbox①"><c- g>boundingBox</c-></a>;
   <c- b>required</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString"><c- b>DOMString</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMString" href="#dom-detectedtext-rawvalue" id="ref-for-dom-detectedtext-rawvalue①"><c- g>rawValue</c-></a>;
   <c- b>required</c-> <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array"><c- b>FrozenArray</c-></a>&lt;<a data-link-type="idl-name" href="https://w3c.github.io/mediacapture-image/#Point2D" id="ref-for-Point2D①"><c- n>Point2D</c-></a>> <a class="idl-code" data-link-type="dict-member" data-type="FrozenArray<Point2D>" href="#dom-detectedtext-cornerpoints" id="ref-for-dom-detectedtext-cornerpoints"><c- g>cornerPoints</c-></a>;
 };
 </pre>
    <dl class="domintro">
-    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="DetectedText" data-dfn-type="dict-member" data-export id="dom-detectedtext-boundingbox"><code>boundingBox</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly①">DOMRectReadOnly</a></span>
+    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="DetectedText" data-dfn-type="dict-member" data-export id="dom-detectedtext-boundingbox"><code>boundingBox</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly①">DOMRectReadOnly</a></span>
     <dd>A rectangle indicating the position and extent of a detected feature aligned to the image
     <dt><dfn class="dfn-paneled idl-code" data-dfn-for="DetectedText" data-dfn-type="dict-member" data-export id="dom-detectedtext-rawvalue"><code>rawValue</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a></span>
     <dd>Raw string detected from the image, where characters are drawn from <a data-link-type="biblio" href="#biblio-iso8859-1" title="Information technology -- 8-bit single-byte coded graphic character sets -- Part 1: Latin alphabet No. 1">[iso8859-1]</a>.
@@ -973,7 +973,7 @@ textDetector<c- p>.</c->detect<c- p>(</c->theImage<c- p>)</c->
    <li>
     <a data-link-type="biblio">[GEOMETRY-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="fdd2dd4e">DOMRectReadOnly</span>
+     <li><span class="dfn-paneled" id="956a2c19">DOMRectReadOnly</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -995,13 +995,13 @@ textDetector<c- p>.</c->detect<c- p>(</c->theImage<c- p>)</c->
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-geometry-1">[GEOMETRY-1]
-   <dd>Simon Pieters; Chris Harrelson. <a href="https://drafts.fxtf.org/geometry/"><cite>Geometry Interfaces Module Level 1</cite></a>. URL: <a href="https://drafts.fxtf.org/geometry/">https://drafts.fxtf.org/geometry/</a>
+   <dd>Sebastian Zartner; Yehonatan Daniv. <a href="https://drafts.csswg.org/geometry/"><cite>Geometry Interfaces Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/geometry/">https://drafts.csswg.org/geometry/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-shape-detection-api">[SHAPE-DETECTION-API]
-   <dd><a href="https://wicg.github.io/shape-detection-api/"><cite>Accelerated Shape Detection in Images</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/shape-detection-api/">https://wicg.github.io/shape-detection-api/</a>
+   <dd><a href="https://wicg.github.io/shape-detection-api/"><cite>Accelerated Shape Detection in Images</cite></a>. Draft Community Group Report. URL: <a href="https://wicg.github.io/shape-detection-api/">https://wicg.github.io/shape-detection-api/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
   </dl>
@@ -1020,7 +1020,7 @@ textDetector<c- p>.</c->detect<c- p>(</c->theImage<c- p>)</c->
 };
 
 <c- b>dictionary</c-> <a href="#dictdef-detectedtext"><code><c- g>DetectedText</c-></code></a> {
-  <c- b>required</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMRectReadOnly" href="#dom-detectedtext-boundingbox"><c- g>boundingBox</c-></a>;
+  <c- b>required</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMRectReadOnly" href="#dom-detectedtext-boundingbox"><c- g>boundingBox</c-></a>;
   <c- b>required</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-DOMString"><c- b>DOMString</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMString" href="#dom-detectedtext-rawvalue"><c- g>rawValue</c-></a>;
   <c- b>required</c-> <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array"><c- b>FrozenArray</c-></a>&lt;<a data-link-type="idl-name" href="https://w3c.github.io/mediacapture-image/#Point2D"><c- n>Point2D</c-></a>> <a class="idl-code" data-link-type="dict-member" data-type="FrozenArray<Point2D>" href="#dom-detectedtext-cornerpoints"><c- g>cornerPoints</c-></a>;
 };
@@ -1228,6 +1228,7 @@ function parseHTML(markup) {
 let dfnPanelData = {
 "889e932f": {"dfnID":"889e932f","dfnText":"Exposed","external":true,"refSections":[{"refs":[{"id":"ref-for-Exposed"}],"title":"2.2. Text Detection API"}],"url":"https://webidl.spec.whatwg.org/#Exposed"},
 "899cfb35": {"dfnID":"899cfb35","dfnText":"Point2D","external":true,"refSections":[{"refs":[{"id":"ref-for-Point2D"}],"title":"2.2. Text Detection API"},{"refs":[{"id":"ref-for-Point2D\u2460"},{"id":"ref-for-Point2D\u2461"}],"title":"2.2.1. DetectedText"}],"url":"https://w3c.github.io/mediacapture-image/#Point2D"},
+"956a2c19": {"dfnID":"956a2c19","dfnText":"DOMRectReadOnly","external":true,"refSections":[{"refs":[{"id":"ref-for-domrectreadonly"},{"id":"ref-for-domrectreadonly\u2460"}],"title":"2.2.1. DetectedText"}],"url":"https://drafts.csswg.org/geometry-1/#domrectreadonly"},
 "9cce47fd": {"dfnID":"9cce47fd","dfnText":"sequence","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-sequence"}],"title":"2.2. Text Detection API"},{"refs":[{"id":"ref-for-idl-sequence\u2460"}],"title":"2.2.1. DetectedText"}],"url":"https://webidl.spec.whatwg.org/#idl-sequence"},
 "aeb8d5fd": {"dfnID":"aeb8d5fd","dfnText":"ImageBitmapSource","external":true,"refSections":[{"refs":[{"id":"ref-for-imagebitmapsource"},{"id":"ref-for-imagebitmapsource\u2460"},{"id":"ref-for-imagebitmapsource\u2461"}],"title":"2.2. Text Detection API"}],"url":"https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagebitmapsource"},
 "b75bb3bd": {"dfnID":"b75bb3bd","dfnText":"SecureContext","external":true,"refSections":[{"refs":[{"id":"ref-for-SecureContext"}],"title":"2.2. Text Detection API"}],"url":"https://webidl.spec.whatwg.org/#SecureContext"},
@@ -1241,7 +1242,6 @@ let dfnPanelData = {
 "dom-textdetector-detect": {"dfnID":"dom-textdetector-detect","dfnText":"detect(ImageBitmapSource image)","external":false,"refSections":[{"refs":[{"id":"ref-for-dom-textdetector-detect"},{"id":"ref-for-dom-textdetector-detect\u2460"}],"title":"2.2. Text Detection API"}],"url":"#dom-textdetector-detect"},
 "dom-textdetector-detect-image-image": {"dfnID":"dom-textdetector-detect-image-image","dfnText":"image","external":false,"refSections":[],"url":"#dom-textdetector-detect-image-image"},
 "dom-textdetector-textdetector": {"dfnID":"dom-textdetector-textdetector","dfnText":"TextDetector()","external":false,"refSections":[{"refs":[{"id":"ref-for-dom-textdetector-textdetector"}],"title":"2.2. Text Detection API"}],"url":"#dom-textdetector-textdetector"},
-"fdd2dd4e": {"dfnID":"fdd2dd4e","dfnText":"DOMRectReadOnly","external":true,"refSections":[{"refs":[{"id":"ref-for-domrectreadonly"},{"id":"ref-for-domrectreadonly\u2460"}],"title":"2.2.1. DetectedText"}],"url":"https://drafts.fxtf.org/geometry-1/#domrectreadonly"},
 "textdetector": {"dfnID":"textdetector","dfnText":"TextDetector","external":false,"refSections":[{"refs":[{"id":"ref-for-textdetector"},{"id":"ref-for-textdetector\u2460"}],"title":"2.2. Text Detection API"}],"url":"#textdetector"},
 };
 
@@ -1638,7 +1638,7 @@ let refsData = {
 "#dom-textdetector-detect": {"displayText":"detect(image)","export":true,"for_":["TextDetector"],"level":"1","normative":true,"shortname":"text-detection-api","spec":"text-detection-api-1","status":"local","text":"detect(image)","type":"method","url":"#dom-textdetector-detect"},
 "#dom-textdetector-textdetector": {"displayText":"TextDetector()","export":true,"for_":["TextDetector"],"level":"1","normative":true,"shortname":"text-detection-api","spec":"text-detection-api-1","status":"local","text":"TextDetector()","type":"constructor","url":"#dom-textdetector-textdetector"},
 "#textdetector": {"displayText":"TextDetector","export":true,"for_":[],"level":"1","normative":true,"shortname":"text-detection-api","spec":"text-detection-api-1","status":"local","text":"TextDetector","type":"interface","url":"#textdetector"},
-"https://drafts.fxtf.org/geometry-1/#domrectreadonly": {"displayText":"DOMRectReadOnly","export":true,"for_":[],"level":"1","normative":true,"shortname":"geometry","spec":"geometry-1","status":"current","text":"DOMRectReadOnly","type":"interface","url":"https://drafts.fxtf.org/geometry-1/#domrectreadonly"},
+"https://drafts.csswg.org/geometry-1/#domrectreadonly": {"displayText":"DOMRectReadOnly","export":true,"for_":[],"level":"1","normative":true,"shortname":"geometry","spec":"geometry-1","status":"current","text":"DOMRectReadOnly","type":"interface","url":"https://drafts.csswg.org/geometry-1/#domrectreadonly"},
 "https://heycam.github.io/webidl/#idl-DOMString": {"displayText":"DOMString","export":true,"for_":[],"level":"","normative":true,"shortname":"webidl","spec":"webidl","status":"anchor-block","text":"DOMString","type":"interface","url":"https://heycam.github.io/webidl/#idl-DOMString"},
 "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagebitmapsource": {"displayText":"ImageBitmapSource","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"ImageBitmapSource","type":"typedef","url":"https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagebitmapsource"},
 "https://w3c.github.io/mediacapture-image/#Point2D": {"displayText":"Point2D","export":true,"for_":[],"level":"1","normative":true,"shortname":"text-detection-api","spec":"","status":"anchor-block","text":"Point2D","type":"interface","url":"https://w3c.github.io/mediacapture-image/#Point2D"},

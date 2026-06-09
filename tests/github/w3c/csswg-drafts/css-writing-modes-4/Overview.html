@@ -2632,14 +2632,14 @@ Baseline Alignment</span><a class="self-link" href="#baseline-alignment"></a></h
     
     <li>
      <strong>Aligning a child inline-level box within its parent.</strong>
-      For the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-inline-3/#propdef-vertical-align" id="ref-for-propdef-vertical-align③">vertical-align</a> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline" id="ref-for-valdef-alignment-baseline-baseline">baseline</a>, child is aligned to
+      For the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-inline-3/#propdef-vertical-align" id="ref-for-propdef-vertical-align③">vertical-align</a> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-vertical-align-baseline" id="ref-for-valdef-vertical-align-baseline">baseline</a>, child is aligned to
       the parent by matching the parent’s dominant baseline to the same
       baseline in the child. (E.g. if the parent’s dominant baseline is
       alphabetic, then the child’s alphabetic baseline is matched to the
       parent’s alphabetic baseline, even if the child’s dominant baseline
       is something else.)
       For values of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-sub" id="ref-for-valdef-baseline-shift-sub">sub</a>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-super" id="ref-for-valdef-baseline-shift-super">super</a>, <span class="css">&lt;length></span>, and
-      <span class="css">&lt;percentage></span>, the baselines are aligned as for <span class="css" id="ref-for-valdef-alignment-baseline-baseline①">baseline</span>,
+      <span class="css">&lt;percentage></span>, the baselines are aligned as for <span class="css" id="ref-for-valdef-vertical-align-baseline①">baseline</span>,
       but the child is shifted according to the offset given by its
       <span class="property" id="ref-for-propdef-vertical-align④">vertical-align</span> value.
       
@@ -3498,13 +3498,13 @@ Dimensional Mapping</span><a class="self-link" href="#dimension-mapping"></a></h
       necessarily the horizontal and vertical spacing respectively.
       <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
     
-    <li>The <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height">line-height</a> property always refers to the logical
+    <li>The <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a> property always refers to the logical
       height. <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
   
    </ul>
-   <p>The height properties (<a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-sizing-3/#propdef-height" id="ref-for-propdef-height">height</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-min-height" id="ref-for-propdef-min-height">min-height</a>, and <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height" id="ref-for-propdef-max-height">max-height</a>)
+   <p>The height properties (<a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-sizing-3/#propdef-height" id="ref-for-propdef-height">height</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-min-height" id="ref-for-propdef-min-height">min-height</a>, and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-max-height" id="ref-for-propdef-max-height">max-height</a>)
     refer to the physical height, and the width properties (<a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-sizing-3/#propdef-width" id="ref-for-propdef-width">width</a>,
-    <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width" id="ref-for-propdef-min-width">min-width</a>, and <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width" id="ref-for-propdef-max-width">max-width</a>) refer to the physical width. However,
+    <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-min-width" id="ref-for-propdef-min-width">min-width</a>, and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-max-width" id="ref-for-propdef-max-width">max-width</a>) refer to the physical width. However,
     the rules used to calculate box dimensions and positions are logical.
 
   </p>
@@ -3672,11 +3672,11 @@ Auto-sizing Block Containers in Orthogonal Flows</span><a class="self-link" href
   </p>
    <ol>
     <li>
-     <strong>Calculate the used <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width">column-width</a>:</strong>
+     <strong>Calculate the used <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width">column-width</a>:</strong>
     
      <ul>
       <li>
-       If <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count">column-count</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width①">column-width</a> are both <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-1/#valdef-column-width-auto" id="ref-for-valdef-column-width-auto">auto</a>,
+       If <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count">column-count</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width①">column-width</a> are both <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-2/#valdef-column-width-auto" id="ref-for-valdef-column-width-auto">auto</a>,
       use the shrink-to-fit formula
       <code>min(<var>max-content</var>, max(<var>min-content</var>, <var>constraint</var>))</code>,
       where:
@@ -3722,19 +3722,19 @@ Auto-sizing Block Containers in Orthogonal Flows</span><a class="self-link" href
         This is so that overflowing content, instead of continuing off the side of the containing block,
         is wrapped into columns in the flow direction of the containing block,
         thus avoiding T-shaped documents.
-        Authors can control the <a data-link-type="dfn" href="#inline-size" id="ref-for-inline-size①②">inline size</a> of these columns by setting <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width②">column-width</a>,
+        Authors can control the <a data-link-type="dfn" href="#inline-size" id="ref-for-inline-size①②">inline size</a> of these columns by setting <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width②">column-width</a>,
         or disable this behavior by setting the <span id="ref-for-inline-size①③">inline size</span> property
         to a non-<a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-sizing-3/#valdef-width-auto" id="ref-for-valdef-width-auto②">auto</a> value such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-sizing-3/#valdef-width-max-content" id="ref-for-valdef-width-max-content">max-content</a>.
         <br style="clear:both;">
       
        </div>
-      <li>If <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count①">column-count</a> is not <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-1/#valdef-column-count-auto" id="ref-for-valdef-column-count-auto">auto</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width③">column-width</a> is <span class="css" id="ref-for-valdef-column-count-auto①">auto</span>,
+      <li>If <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count①">column-count</a> is not <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-2/#valdef-column-count-auto" id="ref-for-valdef-column-count-auto">auto</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width③">column-width</a> is <span class="css" id="ref-for-valdef-column-count-auto①">auto</span>,
       calculate the used <span class="property" id="ref-for-propdef-column-width④">column-width</span> with the same formula,
       except replace <var>constraint</var> with
-      <var>constraint</var> − (<span class="property" id="ref-for-propdef-column-count②">column-count</span> − 1) × <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-align-3/#propdef-column-gap" id="ref-for-propdef-column-gap">column-gap</a>.
+      <var>constraint</var> − (<span class="property" id="ref-for-propdef-column-count②">column-count</span> − 1) × <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-gaps-1/#propdef-column-gap" id="ref-for-propdef-column-gap">column-gap</a>.
 
       
-      <li>If <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count③">column-count</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width⑤">column-width</a> are both non-<a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-1/#valdef-column-count-auto" id="ref-for-valdef-column-count-auto②">auto</a>,
+      <li>If <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count③">column-count</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width⑤">column-width</a> are both non-<a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-2/#valdef-column-count-auto" id="ref-for-valdef-column-count-auto②">auto</a>,
       the used <span class="property" id="ref-for-propdef-column-width⑥">column-width</span> is the computed <span class="property" id="ref-for-propdef-column-width⑦">column-width</span>.
       (This is not recommended as it can cause overflow;
       instead it is better to set the <span class="property" id="ref-for-propdef-column-width⑧">column-width</span> and a max-block-size.)
@@ -3743,7 +3743,7 @@ Auto-sizing Block Containers in Orthogonal Flows</span><a class="self-link" href
     <li>
      <strong>Calculate the used column length:</strong>
       If the computed <a data-link-type="dfn" href="#block-size" id="ref-for-block-size⑧">block size</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-sizing-3/#valdef-width-auto" id="ref-for-valdef-width-auto③">auto</a>
-      and the specified value of at least one of <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count④">column-count</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width⑨">column-width</a> was <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-1/#valdef-column-width-auto" id="ref-for-valdef-column-width-auto①">auto</a>,
+      and the specified value of at least one of <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count④">column-count</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width⑨">column-width</a> was <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-2/#valdef-column-width-auto" id="ref-for-valdef-column-width-auto①">auto</a>,
       use the box’s <span id="ref-for-block-size⑨">block size</span> (if that is <a data-link-type="dfn" href="https://drafts.csswg.org/css-sizing-3/#definite" id="ref-for-definite">definite</a>),
       else the <a data-link-type="dfn" href="https://drafts.csswg.org/css-sizing-3/#stretch-fit-block-size" id="ref-for-stretch-fit-block-size">stretch-fit block size</a> of the box (if that is <span id="ref-for-definite①">definite</span>),
       else the box’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-sizing-3/#max-content-block-size" id="ref-for-max-content-block-size">max-content block size</a>.
@@ -3755,8 +3755,8 @@ Auto-sizing Block Containers in Orthogonal Flows</span><a class="self-link" href
         but cause the box to overflow the containing block?
 
     </p>
-    <li><strong>Calculate the used <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count⑤">column-count</a>:</strong>
-      If the computed <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count⑥">column-count</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-1/#valdef-column-count-auto" id="ref-for-valdef-column-count-auto③">auto</a>, then
+    <li><strong>Calculate the used <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count⑤">column-count</a>:</strong>
+      If the computed <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count⑥">column-count</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-multicol-2/#valdef-column-count-auto" id="ref-for-valdef-column-count-auto③">auto</a>, then
       the used <span class="property" id="ref-for-propdef-column-count⑦">column-count</span> follows from filling the resulting multi-column layout
       with the box’s content.
   
@@ -3770,7 +3770,7 @@ Auto-sizing Block Containers in Orthogonal Flows</span><a class="self-link" href
         This criteria gives the shrink-to-fit behavior for short orthogonal flow contents
         without making a large blank space.
       
-    <li>Otherwise it is calculated from the used <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-width" id="ref-for-propdef-column-width①⓪">column-width</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-count" id="ref-for-propdef-column-count⑧">column-count</a>, and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-align-3/#propdef-column-gap" id="ref-for-propdef-column-gap①">column-gap</a>.
+    <li>Otherwise it is calculated from the used <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-width" id="ref-for-propdef-column-width①⓪">column-width</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-multicol-2/#propdef-column-count" id="ref-for-propdef-column-count⑧">column-count</a>, and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-gaps-1/#propdef-column-gap" id="ref-for-propdef-column-gap①">column-gap</a>.
     
    </ol>
    <p>
@@ -3808,11 +3808,11 @@ Auto-sizing Other Orthogonal Flow Roots</span><a class="self-link" href="#orthog
     <a class="self-link" href="#example-e2cd91dc"></a>
     
     <p>For example,
-      a table or <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container">flex container</a> establishing an <a data-link-type="dfn" href="#establish-an-orthogonal-flow" id="ref-for-establish-an-orthogonal-flow⑦">orthogonal flow</a>
+      a table or <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container" id="ref-for-flex-container">flex container</a> establishing an <a data-link-type="dfn" href="#establish-an-orthogonal-flow" id="ref-for-establish-an-orthogonal-flow⑦">orthogonal flow</a>
       is laid out into its given <a data-link-type="dfn" href="https://drafts.csswg.org/css-sizing-3/#available" id="ref-for-available①①">available space</a>.
       If its <span id="ref-for-available①②">available inline space</span> is infinite,
       this effectively lays the box out at its <a data-link-type="dfn" href="https://drafts.csswg.org/css-sizing-3/#max-content" id="ref-for-max-content②">max-content size</a>.
-      However, any of its table cells or <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-item" id="ref-for-flex-item">flex items</a> that are <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-container" id="ref-for-block-container③">block containers</a>
+      However, any of its table cells or <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-item" id="ref-for-flex-item">flex items</a> that are <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-container" id="ref-for-block-container③">block containers</a>
       are laid out assuming infinite <span id="ref-for-available①③">available inline space</span>
       and so behave accordingly.
   </p>
@@ -3850,7 +3850,7 @@ Flow-Relative Mappings</span><a class="self-link" href="#logical-direction-layou
     box and used to abstract layout rules related to the
     box properties (margins, borders, padding) and any properties
     related to positioning the box within its containing block
-    (<a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float">float</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-clear" id="ref-for-propdef-clear">clear</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-top" id="ref-for-propdef-top">top</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-bottom" id="ref-for-propdef-bottom">bottom</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-left" id="ref-for-propdef-left">left</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-right" id="ref-for-propdef-right">right</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-caption-side" id="ref-for-propdef-caption-side">caption-side</a>).
+    (<a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float">float</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-clear" id="ref-for-propdef-clear">clear</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-top" id="ref-for-propdef-top">top</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-bottom" id="ref-for-propdef-bottom">bottom</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-left" id="ref-for-propdef-left">left</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-right" id="ref-for-propdef-right">right</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-caption-side" id="ref-for-propdef-caption-side">caption-side</a>).
     For inline-level boxes, the writing mode of the <em>parent
     box</em> is used instead.
     (The left/right/top/bottom-named properties and values themselves are still mapped physically;
@@ -3920,9 +3920,9 @@ Line-Relative Mappings</span><a class="self-link" href="#line-mappings"></a></h3
     and <span class="css">right</span> values of the following properties:
   </p>
    <ul>
-    <li>the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float①">float</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
+    <li>the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float①">float</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
     
-    <li>the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-clear" id="ref-for-propdef-clear①">clear</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
+    <li>the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-clear" id="ref-for-propdef-clear①">clear</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
     
     <li>the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-caption-side" id="ref-for-propdef-caption-side②">caption-side</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
   
@@ -3956,7 +3956,7 @@ Purely Physical Mappings</span><a class="self-link" href="#physical-only"></a></
 
   </p>
    <ul>
-    <li>the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-rect" id="ref-for-funcdef-basic-shape-rect">rect()</a> notation of the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visufx.html#propdef-clip" id="ref-for-propdef-clip">clip</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
+    <li>the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-masking-1/#funcdef-clip-rect" id="ref-for-funcdef-clip-rect">rect()</a> notation of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-clip" id="ref-for-propdef-clip">clip</a> property <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
     
     <li>the background properties <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a> <a data-link-type="biblio" href="#biblio-css3bg" title="CSS Backgrounds and Borders Module Level 3">[CSS3BG]</a>
     
@@ -4213,7 +4213,7 @@ Layout Rules</span><a class="self-link" href="#text-combine-layout"></a></h4>
     (ignoring <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-text-3/#propdef-letter-spacing" id="ref-for-propdef-letter-spacing">letter-spacing</a> and any forced line breaks,
     but using the specified font settings),
     similar to the contents of an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-4/#valdef-display-inline-block" id="ref-for-valdef-display-inline-block①">inline-block</a> box
-    with a <a data-link-type="dfn" href="#horizontal-writing-mode" id="ref-for-horizontal-writing-mode①">horizontal writing mode</a> and a <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height①">line-height</a> of <span class="css">1em</span>.
+    with a <a data-link-type="dfn" href="#horizontal-writing-mode" id="ref-for-horizontal-writing-mode①">horizontal writing mode</a> and a <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height①">line-height</a> of <span class="css">1em</span>.
     Any <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#white-space" id="ref-for-white-space">document white space</a> included at the start/end of the combined text
     <em>is</em> <a href="https://drafts.csswg.org/css-text-3/#white-space-processing">processed</a> <a data-link-type="biblio" href="#biblio-css-text-3" title="CSS Text Module Level 3">[CSS-TEXT-3]</a>
     as at the start/end of such an inline block.
@@ -4340,7 +4340,7 @@ Changes since the <a href="https://www.w3.org/TR/2019/CR-css-writing-modes-4-201
       (since certain effects like <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-display-4/#propdef-display" id="ref-for-propdef-display⑧">display: contents</a> can strip the box itself).
     
     <li>
-      Clarified that the <a data-link-type="dfn" href="#central-baseline" id="ref-for-central-baseline①">central baseline</a> is the <u class="link-error" data-lt="ideographic central baseline" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;ideographic central baseline&apos;.">ideographic central baseline</u>.
+      Clarified that the <a data-link-type="dfn" href="#central-baseline" id="ref-for-central-baseline①">central baseline</a> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-inline-3/#central-baseline" id="ref-for-central-baseline②">ideographic central baseline</a>.
       (<a href="https://github.com/w3c/csswg-drafts/issues/5177">Issue 5177</a>)
   
    </ul>
@@ -4372,7 +4372,7 @@ Changes since the <a href="https://www.w3.org/TR/2018/CR-css-writing-modes-4-201
         (ignoring <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-text-3/#propdef-letter-spacing" id="ref-for-propdef-letter-spacing①">letter-spacing</a> and any forced line breaks,
         but using the specified font settings),
         similar to the contents of an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-4/#valdef-display-inline-block" id="ref-for-valdef-display-inline-block②">inline-block</a> box
-        with a <a data-link-type="dfn" href="#horizontal-writing-mode" id="ref-for-horizontal-writing-mode②">horizontal writing mode</a> and a <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> of <span class="css">1em</span>.
+        with a <a data-link-type="dfn" href="#horizontal-writing-mode" id="ref-for-horizontal-writing-mode②">horizontal writing mode</a> and a <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> of <span class="css">1em</span>.
         
        <ins>Any <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#white-space" id="ref-for-white-space①">document white space</a> included at the start/end of the combined text
         <em>is</em> <a href="https://drafts.csswg.org/css-text-3/#white-space-processing">processed</a> <a data-link-type="biblio" href="#biblio-css-text-3" title="CSS Text Module Level 3">[CSS-TEXT-3]</a>
@@ -4808,11 +4808,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
-    <a data-link-type="biblio">[CSS-ALIGN-3]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="07cc8d20">column-gap</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[CSS-BOX-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="cbfeec00">margin-bottom</span>
@@ -4857,16 +4852,21 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="a8485ff4">replaced element</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-FLEXBOX-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-FLEXBOX-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="24285d87">flex container</span>
-     <li><span class="dfn-paneled" id="66c521a7">flex item</span>
+     <li><span class="dfn-paneled" id="128905d4">flex container</span>
+     <li><span class="dfn-paneled" id="da77a765">flex item</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-FONTS-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="00d808eb">font-feature-settings</span>
      <li><span class="dfn-paneled" id="fb7153bd">font-variant</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[CSS-GAPS-1]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="ddb539d9">column-gap</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-IMAGES-3]</a> defines the following terms:
@@ -4876,21 +4876,29 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-INLINE-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="9aae076b">baseline</span>
+     <li><span class="dfn-paneled" id="e0cfebcd">ideographic central baseline</span>
      <li><span class="dfn-paneled" id="6f7798a0">root inline box</span>
      <li><span class="dfn-paneled" id="4380f2e5">sub</span>
      <li><span class="dfn-paneled" id="788d1715">super</span>
      <li><span class="dfn-paneled" id="e0b6ed58">vertical-align</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[CSS-MASKING-1]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="34cc9c7c">rect()</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[CSS-MULTICOL-2]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="5d801fe3">auto <small>(for column-count)</small></span>
+     <li><span class="dfn-paneled" id="af2181ab">auto <small>(for column-width)</small></span>
+     <li><span class="dfn-paneled" id="d593ce34">column-count</span>
+     <li><span class="dfn-paneled" id="f8cff8d7">column-width</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[CSS-OVERFLOW-3]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="60bbf126">scrollport</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS-SHAPES-1]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="106b3021">rect()</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-SPEECH-1]</a> defines the following terms:
@@ -4931,26 +4939,23 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="1ebe67be">bottom</span>
-     <li><span class="dfn-paneled" id="ac2ecdf7">clear</span>
-     <li><span class="dfn-paneled" id="03234c68">clip</span>
-     <li><span class="dfn-paneled" id="cdd73959">float</span>
-     <li><span class="dfn-paneled" id="49a17925">left</span>
-     <li><span class="dfn-paneled" id="f601a423">line-height</span>
-     <li><span class="dfn-paneled" id="f80bfcde">max-height</span>
-     <li><span class="dfn-paneled" id="a7502998">max-width</span>
-     <li><span class="dfn-paneled" id="3ca3de51">min-height</span>
-     <li><span class="dfn-paneled" id="e5185638">min-width</span>
-     <li><span class="dfn-paneled" id="0475c554">right</span>
-     <li><span class="dfn-paneled" id="4726eb39">top</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
-    <ul>
+     <li><span class="dfn-paneled" id="4f622e85">baseline</span>
      <li><span class="dfn-paneled" id="85129b88">border-spacing</span>
-     <li><span class="dfn-paneled" id="3e6545d2">bottom</span>
+     <li><span class="dfn-paneled" id="c55b0f34">bottom</span>
+     <li><span class="dfn-paneled" id="3e6545d2">bottom <small>(for caption-side)</small></span>
      <li><span class="dfn-paneled" id="6d39e00f">caption-side</span>
-     <li><span class="dfn-paneled" id="ea8fc05c">top</span>
+     <li><span class="dfn-paneled" id="9436e460">clear</span>
+     <li><span class="dfn-paneled" id="89823325">clip</span>
+     <li><span class="dfn-paneled" id="0570259e">float</span>
+     <li><span class="dfn-paneled" id="683eac52">left</span>
+     <li><span class="dfn-paneled" id="ac54fbff">line-height</span>
+     <li><span class="dfn-paneled" id="dd1ccb1e">max-height</span>
+     <li><span class="dfn-paneled" id="688eb8fe">max-width</span>
+     <li><span class="dfn-paneled" id="db91c914">min-height</span>
+     <li><span class="dfn-paneled" id="d4858c02">min-width</span>
+     <li><span class="dfn-paneled" id="5e477387">right</span>
+     <li><span class="dfn-paneled" id="f5f2965c">top</span>
+     <li><span class="dfn-paneled" id="ea8fc05c">top <small>(for caption-side)</small></span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3-SIZING]</a> defines the following terms:
@@ -4986,14 +4991,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="6916104d">box-shadow</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS3COL]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="d53f141e">auto <small>(for column-count)</small></span>
-     <li><span class="dfn-paneled" id="081f0d7c">auto <small>(for column-width)</small></span>
-     <li><span class="dfn-paneled" id="19b4459e">column-count</span>
-     <li><span class="dfn-paneled" id="b0b312d1">column-width</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[CSS3PAGE]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="46080d3b">page progression</span>
@@ -5012,8 +5009,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
-   <dt id="biblio-css-align-3">[CSS-ALIGN-3]
-   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-align/"><cite>CSS Box Alignment Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-align/">https://drafts.csswg.org/css-align/</a>
    <dt id="biblio-css-box-4">[CSS-BOX-4]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-box-4/"><cite>CSS Box Model Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-box-4/">https://drafts.csswg.org/css-box-4/</a>
    <dt id="biblio-css-break-3">[CSS-BREAK-3]
@@ -5025,15 +5020,19 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display/"><cite>CSS Display Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-display/">https://drafts.csswg.org/css-display/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dt id="biblio-css-gaps-1">[CSS-GAPS-1]
+   <dd>Kevin Babbitt. <a href="https://drafts.csswg.org/css-gaps-1/"><cite>CSS Gap Decorations Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-gaps-1/">https://drafts.csswg.org/css-gaps-1/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
    <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-3/"><cite>CSS Images Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-3/">https://drafts.csswg.org/css-images-3/</a>
    <dt id="biblio-css-inline-3">[CSS-INLINE-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-inline-3/"><cite>CSS Inline Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-inline-3/">https://drafts.csswg.org/css-inline-3/</a>
+   <dt id="biblio-css-masking-1">[CSS-MASKING-1]
+   <dd>Dirk Schulze; Brian Birtles; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-masking-1/"><cite>CSS Masking Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-masking-1/">https://drafts.csswg.org/css-masking-1/</a>
+   <dt id="biblio-css-multicol-2">[CSS-MULTICOL-2]
+   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol-2/"><cite>CSS Multi-column Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol-2/">https://drafts.csswg.org/css-multicol-2/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
    <dd>Elika Etemad; Florian Rivoal. <a href="https://drafts.csswg.org/css-overflow-3/"><cite>CSS Overflow Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-3/">https://drafts.csswg.org/css-overflow-3/</a>
-   <dt id="biblio-css-shapes-1">[CSS-SHAPES-1]
-   <dd>Rossen Atanassov; Alan Stearns. <a href="https://drafts.csswg.org/css-shapes/"><cite>CSS Shapes Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-shapes/">https://drafts.csswg.org/css-shapes/</a>
    <dt id="biblio-css-speech-1">[CSS-SPEECH-1]
    <dd>Léonie Watson; Elika Etemad. <a href="https://drafts.csswg.org/css-speech-1/"><cite>CSS Speech Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-speech-1/">https://drafts.csswg.org/css-speech-1/</a>
    <dt id="biblio-css-text-3">[CSS-TEXT-3]
@@ -5048,8 +5047,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3-sizing">[CSS3-SIZING]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-sizing-3/"><cite>CSS Box Sizing Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-sizing-3/">https://drafts.csswg.org/css-sizing-3/</a>
    <dt id="biblio-css3-text-decor">[CSS3-TEXT-DECOR]
@@ -5063,7 +5060,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-rfc6919">[RFC6919]
@@ -5071,13 +5068,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-svg11">[SVG11]
    <dd>Erik Dahlström; et al. <a href="https://www.w3.org/TR/SVG11/"><cite>Scalable Vector Graphics (SVG) 1.1 (Second Edition)</cite></a>. 16 August 2011. REC. URL: <a href="https://www.w3.org/TR/SVG11/">https://www.w3.org/TR/SVG11/</a>
    <dt id="biblio-uax11">[UAX11]
-   <dd>Ken Lunde 小林劍󠄁. <a href="https://www.unicode.org/reports/tr11/tr11-43.html"><cite>East Asian Width</cite></a>. 31 July 2024. Unicode Standard Annex #11. URL: <a href="https://www.unicode.org/reports/tr11/tr11-43.html">https://www.unicode.org/reports/tr11/tr11-43.html</a>
+   <dd>Ken Lunde 小林剣. <a href="https://www.unicode.org/reports/tr11/tr11-44.html"><cite>East Asian Width</cite></a>. 24 July 2025. Unicode Standard Annex #11. URL: <a href="https://www.unicode.org/reports/tr11/tr11-44.html">https://www.unicode.org/reports/tr11/tr11-44.html</a>
    <dt id="biblio-uax24">[UAX24]
-   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr24/tr24-38.html"><cite>Unicode Script Property</cite></a>. 31 July 2024. Unicode Standard Annex #24. URL: <a href="https://www.unicode.org/reports/tr24/tr24-38.html">https://www.unicode.org/reports/tr24/tr24-38.html</a>
+   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr24/tr24-39.html"><cite>Unicode Script Property</cite></a>. 31 July 2025. Unicode Standard Annex #24. URL: <a href="https://www.unicode.org/reports/tr24/tr24-39.html">https://www.unicode.org/reports/tr24/tr24-39.html</a>
    <dt id="biblio-uax50">[UAX50]
-   <dd>Ken Lunde 小林劍󠄁; Koji Ishii 石井宏治. <a href="https://www.unicode.org/reports/tr50/tr50-31.html"><cite>Unicode Vertical Text Layout</cite></a>. 31 July 2024. Unicode Standard Annex #50. URL: <a href="https://www.unicode.org/reports/tr50/tr50-31.html">https://www.unicode.org/reports/tr50/tr50-31.html</a>
+   <dd>Ken Lunde 小林剣; Koji Ishii 石井宏治. <a href="https://www.unicode.org/reports/tr50/tr50-33.html"><cite>Unicode Vertical Text Layout</cite></a>. 24 July 2025. Unicode Standard Annex #50. URL: <a href="https://www.unicode.org/reports/tr50/tr50-33.html">https://www.unicode.org/reports/tr50/tr50-33.html</a>
    <dt id="biblio-uax9">[UAX9]
-   <dd>Manish Goregaokar मनीष गोरेगांवकर; Robin Leroy. <a href="https://www.unicode.org/reports/tr9/tr9-50.html"><cite>Unicode Bidirectional Algorithm</cite></a>. 2 September 2024. Unicode Standard Annex #9. URL: <a href="https://www.unicode.org/reports/tr9/tr9-50.html">https://www.unicode.org/reports/tr9/tr9-50.html</a>
+   <dd>Manish Goregaokar मनीष गोरेगांवकर; Robin Leroy. <a href="https://www.unicode.org/reports/tr9/tr9-51.html"><cite>Unicode Bidirectional Algorithm</cite></a>. 13 August 2025. Unicode Standard Annex #9. URL: <a href="https://www.unicode.org/reports/tr9/tr9-51.html">https://www.unicode.org/reports/tr9/tr9-51.html</a>
    <dt id="biblio-unicode">[UNICODE]
    <dd><a href="https://www.unicode.org/versions/latest/"><cite>The Unicode Standard</cite></a>. URL: <a href="https://www.unicode.org/versions/latest/">https://www.unicode.org/versions/latest/</a>
   </dl>
@@ -5086,11 +5083,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-4">[CSS-CASCADE-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-4/"><cite>CSS Cascading and Inheritance Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-4/">https://drafts.csswg.org/css-cascade-4/</a>
    <dt id="biblio-css-flexbox-1">[CSS-FLEXBOX-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-flexbox-1/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox-1/">https://drafts.csswg.org/css-flexbox-1/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.; Rossen Atanassov. <a href="https://drafts.csswg.org/css-flexbox/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox/">https://drafts.csswg.org/css-flexbox/</a>
+   <dt id="biblio-css-flexbox-2">[CSS-FLEXBOX-2]
+   <dd><a href="https://drafts.csswg.org/css-flexbox-2/"><cite>CSS Flexible Box Layout Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-flexbox-2/">https://drafts.csswg.org/css-flexbox-2/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
    <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-4/"><cite>CSS Fonts Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-4/">https://drafts.csswg.org/css-fonts-4/</a>
    <dt id="biblio-css-logical-1">[CSS-LOGICAL-1]
-   <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-logical-1/"><cite>CSS Logical Properties and Values Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-logical-1/">https://drafts.csswg.org/css-logical-1/</a>
+   <dd>Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-logical-1/"><cite>CSS Logical Properties and Values Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-logical-1/">https://drafts.csswg.org/css-logical-1/</a>
    <dt id="biblio-css3-fonts">[CSS3-FONTS]
    <dd>John Daggett; Myles Maxfield; Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-3/"><cite>CSS Fonts Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-3/">https://drafts.csswg.org/css-fonts-3/</a>
    <dt id="biblio-html401">[HTML401]
@@ -5506,46 +5505,42 @@ function parseHTML(markup) {
 let dfnPanelData = {
 "00140718": {"dfnID":"00140718","dfnText":"margin-top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-top"}],"title":"7.1. \nPrinciples of Layout in Vertical Writing Modes"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-top"},
 "00d808eb": {"dfnID":"00d808eb","dfnText":"font-feature-settings","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-feature-settings"}],"title":"9.1.3.1. \nFull-width Characters"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-feature-settings"},
-"03234c68": {"dfnID":"03234c68","dfnText":"clip","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-clip"}],"title":"7.6. \nPurely Physical Mappings"}],"url":"https://www.w3.org/TR/CSS21/visufx.html#propdef-clip"},
-"0475c554": {"dfnID":"0475c554","dfnText":"right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-right"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-right"},
-"07cc8d20": {"dfnID":"07cc8d20","dfnText":"column-gap","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-column-gap"},{"id":"ref-for-propdef-column-gap\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-align-3/#propdef-column-gap"},
-"081f0d7c": {"dfnID":"081f0d7c","dfnText":"auto (for column-width)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-column-width-auto"},{"id":"ref-for-valdef-column-width-auto\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-1/#valdef-column-width-auto"},
+"0570259e": {"dfnID":"0570259e","dfnText":"float","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-float"}],"title":"7.4. \nFlow-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-float\u2460"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-float"},
 "083ffe5f": {"dfnID":"083ffe5f","dfnText":"inline box","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-box"}],"title":"2.4.5. \nReordering-induced Box Fragmentation"},{"refs":[{"id":"ref-for-inline-box\u2460"},{"id":"ref-for-inline-box\u2461"},{"id":"ref-for-inline-box\u2462"},{"id":"ref-for-inline-box\u2463"},{"id":"ref-for-inline-box\u2464"}],"title":"2.4.5.1. \nConditions of Reordering-induced Box Fragmentation"},{"refs":[{"id":"ref-for-inline-box\u2465"}],"title":"9.1. \nHorizontal-in-Vertical Composition: the text-combine-upright property"}],"url":"https://drafts.csswg.org/css-display-4/#inline-box"},
 "0cab481d": {"dfnID":"0cab481d","dfnText":"box-decoration-break","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-box-decoration-break"}],"title":"2.4.5.2. \nBox Model of Reordering-induced Box Fragments"}],"url":"https://drafts.csswg.org/css-break-4/#propdef-box-decoration-break"},
 "0e5cedd7": {"dfnID":"0e5cedd7","dfnText":"auto","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-width-auto"}],"title":"7.3.1. \nAvailable Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-valdef-width-auto\u2460"},{"id":"ref-for-valdef-width-auto\u2461"},{"id":"ref-for-valdef-width-auto\u2462"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#valdef-width-auto"},
 "0eb9789d": {"dfnID":"0eb9789d","dfnText":"character","external":true,"refSections":[{"refs":[{"id":"ref-for-character"}],"title":"5.1.1. \nVertical Typesetting and Font Features"}],"url":"https://drafts.csswg.org/css-text-3/#character"},
-"106b3021": {"dfnID":"106b3021","dfnText":"rect()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-basic-shape-rect"}],"title":"7.6. \nPurely Physical Mappings"}],"url":"https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-rect"},
 "11ee6625": {"dfnID":"11ee6625","dfnText":"available space","external":true,"refSections":[{"refs":[{"id":"ref-for-available"},{"id":"ref-for-available\u2460"},{"id":"ref-for-available\u2461"},{"id":"ref-for-available\u2462"},{"id":"ref-for-available\u2463"},{"id":"ref-for-available\u2464"}],"title":"7.3.1. \nAvailable Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-available\u2465"},{"id":"ref-for-available\u2466"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"},{"refs":[{"id":"ref-for-available\u2467"},{"id":"ref-for-available\u2468"},{"id":"ref-for-available\u2460\u24ea"},{"id":"ref-for-available\u2460\u2460"},{"id":"ref-for-available\u2460\u2461"},{"id":"ref-for-available\u2460\u2462"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-sizing-3/#available"},
+"128905d4": {"dfnID":"128905d4","dfnText":"flex container","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-container"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-container"},
 "18d57a4b": {"dfnID":"18d57a4b","dfnText":"max-content","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-width-max-content"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#valdef-width-max-content"},
-"19b4459e": {"dfnID":"19b4459e","dfnText":"column-count","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-column-count"},{"id":"ref-for-propdef-column-count\u2460"},{"id":"ref-for-propdef-column-count\u2461"},{"id":"ref-for-propdef-column-count\u2462"},{"id":"ref-for-propdef-column-count\u2463"},{"id":"ref-for-propdef-column-count\u2464"},{"id":"ref-for-propdef-column-count\u2465"},{"id":"ref-for-propdef-column-count\u2466"},{"id":"ref-for-propdef-column-count\u2467"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-1/#propdef-column-count"},
 "1d60d958": {"dfnID":"1d60d958","dfnText":"max-content block size","external":true,"refSections":[{"refs":[{"id":"ref-for-max-content-block-size"},{"id":"ref-for-max-content-block-size\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#max-content-block-size"},
-"1ebe67be": {"dfnID":"1ebe67be","dfnText":"bottom","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-bottom"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-bottom"},
 "20fff200": {"dfnID":"20fff200","dfnText":"inheritance","external":true,"refSections":[{"refs":[{"id":"ref-for-css-inheritance"}],"title":"8. \nThe Principal Writing Mode"}],"url":"https://drafts.csswg.org/css-cascade-5/#css-inheritance"},
 "237b3136": {"dfnID":"237b3136","dfnText":"typographic character unit","external":true,"refSections":[{"refs":[{"id":"ref-for-typographic-character-unit"},{"id":"ref-for-typographic-character-unit\u2460"},{"id":"ref-for-typographic-character-unit\u2461"},{"id":"ref-for-typographic-character-unit\u2462"}],"title":"5.1. \nOrienting Text: the text-orientation property"},{"refs":[{"id":"ref-for-typographic-character-unit\u2463"},{"id":"ref-for-typographic-character-unit\u2464"},{"id":"ref-for-typographic-character-unit\u2465"}],"title":"5.1.1. \nVertical Typesetting and Font Features"},{"refs":[{"id":"ref-for-typographic-character-unit\u2466"}],"title":"5.1.2. \nMixed Vertical Orientations"},{"refs":[{"id":"ref-for-typographic-character-unit\u2467"},{"id":"ref-for-typographic-character-unit\u2468"},{"id":"ref-for-typographic-character-unit\u2460\u24ea"},{"id":"ref-for-typographic-character-unit\u2460\u2460"},{"id":"ref-for-typographic-character-unit\u2460\u2461"}],"title":"9.1. \nHorizontal-in-Vertical Composition: the text-combine-upright property"},{"refs":[{"id":"ref-for-typographic-character-unit\u2460\u2462"},{"id":"ref-for-typographic-character-unit\u2460\u2463"}],"title":"9.1.1. \nText Run Rules"},{"refs":[{"id":"ref-for-typographic-character-unit\u2460\u2464"}],"title":"9.1.2. \nLayout Rules"},{"refs":[{"id":"ref-for-typographic-character-unit\u2460\u2465"},{"id":"ref-for-typographic-character-unit\u2460\u2466"},{"id":"ref-for-typographic-character-unit\u2460\u2467"},{"id":"ref-for-typographic-character-unit\u2460\u2468"},{"id":"ref-for-typographic-character-unit\u2461\u24ea"},{"id":"ref-for-typographic-character-unit\u2461\u2460"}],"title":"9.1.3. \nCompression Rules"},{"refs":[{"id":"ref-for-typographic-character-unit\u2461\u2461"},{"id":"ref-for-typographic-character-unit\u2461\u2462"},{"id":"ref-for-typographic-character-unit\u2461\u2463"},{"id":"ref-for-typographic-character-unit\u2461\u2464"}],"title":"9.1.3.1. \nFull-width Characters"}],"url":"https://drafts.csswg.org/css-text-4/#typographic-character-unit"},
-"24285d87": {"dfnID":"24285d87","dfnText":"flex container","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-container"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-container"},
 "25ccffa4": {"dfnID":"25ccffa4","dfnText":"min-content inline size","external":true,"refSections":[{"refs":[{"id":"ref-for-min-content-inline-size"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#min-content-inline-size"},
 "26a40c98": {"dfnID":"26a40c98","dfnText":"max-content size","external":true,"refSections":[{"refs":[{"id":"ref-for-max-content"}],"title":"7.3. \nOrthogonal Flows"},{"refs":[{"id":"ref-for-max-content\u2460"},{"id":"ref-for-max-content\u2461"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-sizing-3/#max-content"},
 "2bceefb2": {"dfnID":"2bceefb2","dfnText":"default object size","external":true,"refSections":[{"refs":[{"id":"ref-for-default-object-size"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-images-3/#default-object-size"},
 "2e4528d6": {"dfnID":"2e4528d6","dfnText":"max-content inline size","external":true,"refSections":[{"refs":[{"id":"ref-for-max-content-inline-size"},{"id":"ref-for-max-content-inline-size\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#max-content-inline-size"},
 "2f0492ac": {"dfnID":"2f0492ac","dfnText":"body","external":true,"refSections":[{"refs":[{"id":"ref-for-the-body-element"}],"title":"8. \nThe Principal Writing Mode"},{"refs":[{"id":"ref-for-the-body-element\u2460"}],"title":"\nChanges since the July\n2019 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://html.spec.whatwg.org/multipage/sections.html#the-body-element"},
+"34cc9c7c": {"dfnID":"34cc9c7c","dfnText":"rect()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-clip-rect"}],"title":"7.6. \nPurely Physical Mappings"}],"url":"https://drafts.csswg.org/css-masking-1/#funcdef-clip-rect"},
 "3559c926": {"dfnID":"3559c926","dfnText":"<angle>","external":true,"refSections":[{"refs":[{"id":"ref-for-angle-value"}],"title":"5.1.3. \nObsolete: the SVG1.1 glyph-orientation-vertical property"}],"url":"https://drafts.csswg.org/css-values-4/#angle-value"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.2. \nValue Definitions and Terminology"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "35d9f24e": {"dfnID":"35d9f24e","dfnText":"font-relative lengths","external":true,"refSections":[{"refs":[{"id":"ref-for-font-relative-length"}],"title":"1.1. \nModule Interactions"}],"url":"https://drafts.csswg.org/css-values-4/#font-relative-length"},
-"3ca3de51": {"dfnID":"3ca3de51","dfnText":"min-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-min-height"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-min-height"},
-"3e6545d2": {"dfnID":"3e6545d2","dfnText":"bottom","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-caption-side-bottom"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#valdef-caption-side-bottom"},
+"3e6545d2": {"dfnID":"3e6545d2","dfnText":"bottom (for caption-side)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-caption-side-bottom"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#valdef-caption-side-bottom"},
 "3f0db204": {"dfnID":"3f0db204","dfnText":"min-content size","external":true,"refSections":[{"refs":[{"id":"ref-for-min-content"}],"title":"7.3. \nOrthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#min-content"},
 "4356bfe3": {"dfnID":"4356bfe3","dfnText":"text-align","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-align"}],"title":"6.3. \nLine-relative Directions"},{"refs":[{"id":"ref-for-propdef-text-align\u2460"}],"title":"7.1. \nPrinciples of Layout in Vertical Writing Modes"},{"refs":[{"id":"ref-for-propdef-text-align\u2461"}],"title":"7.4. \nFlow-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-text-align\u2462"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://drafts.csswg.org/css-text-3/#propdef-text-align"},
 "4380f2e5": {"dfnID":"4380f2e5","dfnText":"sub","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-baseline-shift-sub"}],"title":"4.4. \nBaseline Alignment"}],"url":"https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-sub"},
 "46080d3b": {"dfnID":"46080d3b","dfnText":"page progression","external":true,"refSections":[{"refs":[{"id":"ref-for-page-progression"}],"title":"8. \nThe Principal Writing Mode"},{"refs":[{"id":"ref-for-page-progression\u2460"},{"id":"ref-for-page-progression\u2461"}],"title":"8.2. \nPage Flow: the page progression direction"}],"url":"https://drafts.csswg.org/css-page-3/#page-progression"},
-"4726eb39": {"dfnID":"4726eb39","dfnText":"top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-top"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-top"},
-"49a17925": {"dfnID":"49a17925","dfnText":"left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-left"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-left"},
+"4f622e85": {"dfnID":"4f622e85","dfnText":"baseline","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-vertical-align-baseline"},{"id":"ref-for-valdef-vertical-align-baseline\u2460"}],"title":"4.4. \nBaseline Alignment"}],"url":"https://drafts.csswg.org/css2/#valdef-vertical-align-baseline"},
 "537cf076": {"dfnID":"537cf076","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"}],"title":"9.1. \nHorizontal-in-Vertical Composition: the text-combine-upright property"}],"url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
+"5d801fe3": {"dfnID":"5d801fe3","dfnText":"auto (for column-count)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-column-count-auto"},{"id":"ref-for-valdef-column-count-auto\u2460"},{"id":"ref-for-valdef-column-count-auto\u2461"},{"id":"ref-for-valdef-column-count-auto\u2462"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-2/#valdef-column-count-auto"},
 "5e3e8101": {"dfnID":"5e3e8101","dfnText":"inner display type","external":true,"refSections":[{"refs":[{"id":"ref-for-inner-display-type"},{"id":"ref-for-inner-display-type\u2460"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-display-4/#inner-display-type"},
+"5e477387": {"dfnID":"5e477387","dfnText":"right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-right"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-right"},
 "607244fc": {"dfnID":"607244fc","dfnText":"flow-root","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-flow-root"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-flow-root"},
 "60bbf126": {"dfnID":"60bbf126","dfnText":"scrollport","external":true,"refSections":[{"refs":[{"id":"ref-for-scrollport"}],"title":"7.3.1. \nAvailable Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-scrollport\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-overflow-3/#scrollport"},
 "65a738ee": {"dfnID":"65a738ee","dfnText":"definite","external":true,"refSections":[{"refs":[{"id":"ref-for-definite"},{"id":"ref-for-definite\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#definite"},
-"66c521a7": {"dfnID":"66c521a7","dfnText":"flex item","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-item"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-item"},
 "68019d7a": {"dfnID":"68019d7a","dfnText":"height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-height"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
+"683eac52": {"dfnID":"683eac52","dfnText":"left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-left"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-left"},
+"688eb8fe": {"dfnID":"688eb8fe","dfnText":"max-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-max-width"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://drafts.csswg.org/css2/#propdef-max-width"},
 "6916104d": {"dfnID":"6916104d","dfnText":"box-shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-box-shadow"}],"title":"7.6. \nPurely Physical Mappings"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow"},
 "6d39e00f": {"dfnID":"6d39e00f","dfnText":"caption-side","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-caption-side"},{"id":"ref-for-propdef-caption-side\u2460"}],"title":"7.4. \nFlow-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-caption-side\u2461"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-caption-side"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"}],"title":"2.1. \nSpecifying Directionality: the direction property"},{"refs":[{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"},{"id":"ref-for-comb-one\u2462"},{"id":"ref-for-comb-one\u2463"},{"id":"ref-for-comb-one\u2464"}],"title":"2.2. \nEmbeddings and Overrides: the unicode-bidi property"},{"refs":[{"id":"ref-for-comb-one\u2465"},{"id":"ref-for-comb-one\u2466"},{"id":"ref-for-comb-one\u2467"},{"id":"ref-for-comb-one\u2468"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"},{"refs":[{"id":"ref-for-comb-one\u2460\u24ea"},{"id":"ref-for-comb-one\u2460\u2460"}],"title":"5.1. \nOrienting Text: the text-orientation property"},{"refs":[{"id":"ref-for-comb-one\u2460\u2461"},{"id":"ref-for-comb-one\u2460\u2462"},{"id":"ref-for-comb-one\u2460\u2463"},{"id":"ref-for-comb-one\u2460\u2464"}],"title":"5.1.3. \nObsolete: the SVG1.1 glyph-orientation-vertical property"},{"refs":[{"id":"ref-for-comb-one\u2460\u2465"},{"id":"ref-for-comb-one\u2460\u2466"}],"title":"9.1. \nHorizontal-in-Vertical Composition: the text-combine-upright property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
@@ -5560,24 +5555,24 @@ let dfnPanelData = {
 "881a21fe": {"dfnID":"881a21fe","dfnText":"min size","external":true,"refSections":[{"refs":[{"id":"ref-for-min-width"},{"id":"ref-for-min-width\u2460"}],"title":"7.3.1. \nAvailable Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-min-width\u2461"},{"id":"ref-for-min-width\u2462"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#min-width"},
 "8831f13c": {"dfnID":"8831f13c","dfnText":"text-indent","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-indent"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css-text-4/#propdef-text-indent"},
 "88643fe0": {"dfnID":"88643fe0","dfnText":"width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-width"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://drafts.csswg.org/css-sizing-3/#propdef-width"},
+"89823325": {"dfnID":"89823325","dfnText":"clip","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-clip"}],"title":"7.6. \nPurely Physical Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-clip"},
 "8ce2e266": {"dfnID":"8ce2e266","dfnText":"stretch-fit block size","external":true,"refSections":[{"refs":[{"id":"ref-for-stretch-fit-block-size"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#stretch-fit-block-size"},
 "8d0ede2c": {"dfnID":"8d0ede2c","dfnText":"initial containing block","external":true,"refSections":[{"refs":[{"id":"ref-for-initial-containing-block"}],"title":"8.1. \nPropagation to the Initial Containing Block"}],"url":"https://drafts.csswg.org/css-display-4/#initial-containing-block"},
+"9436e460": {"dfnID":"9436e460","dfnText":"clear","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-clear"}],"title":"7.4. \nFlow-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-clear\u2460"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-clear"},
 "9729fd44": {"dfnID":"9729fd44","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-fragment"}],"title":"2.4.5.1. \nConditions of Reordering-induced Box Fragmentation"}],"url":"https://drafts.csswg.org/css-break-3/#fragment"},
 "99cabd32": {"dfnID":"99cabd32","dfnText":"in-flow","external":true,"refSections":[{"refs":[{"id":"ref-for-in-flow"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-display-4/#in-flow"},
-"9aae076b": {"dfnID":"9aae076b","dfnText":"baseline","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-alignment-baseline-baseline"},{"id":"ref-for-valdef-alignment-baseline-baseline\u2460"}],"title":"4.4. \nBaseline Alignment"}],"url":"https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"}],"title":"1.1. \nModule Interactions"},{"refs":[{"id":"ref-for-computed-value\u2460"}],"title":"5.1. \nOrienting Text: the text-orientation property"},{"refs":[{"id":"ref-for-computed-value\u2461"}],"title":"8. \nThe Principal Writing Mode"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "9f3d4f17": {"dfnID":"9f3d4f17","dfnText":"block container","external":true,"refSections":[{"refs":[{"id":"ref-for-block-container"},{"id":"ref-for-block-container\u2460"}],"title":"2.2. \nEmbeddings and Overrides: the unicode-bidi property"},{"refs":[{"id":"ref-for-block-container\u2461"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"},{"refs":[{"id":"ref-for-block-container\u2462"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-display-4/#block-container"},
 "9f49bc74": {"dfnID":"9f49bc74","dfnText":"min-content block size","external":true,"refSections":[{"refs":[{"id":"ref-for-min-content-block-size"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#min-content-block-size"},
 "a4eb3c57": {"dfnID":"a4eb3c57","dfnText":"used value","external":true,"refSections":[{"refs":[{"id":"ref-for-used-value"},{"id":"ref-for-used-value\u2460"}],"title":"5.1. \nOrienting Text: the text-orientation property"},{"refs":[{"id":"ref-for-used-value\u2461"}],"title":"6.4. \nAbstract-to-Physical Mappings"},{"refs":[{"id":"ref-for-used-value\u2462"},{"id":"ref-for-used-value\u2463"}],"title":"8. \nThe Principal Writing Mode"}],"url":"https://drafts.csswg.org/css-cascade-5/#used-value"},
 "a533883f": {"dfnID":"a533883f","dfnText":"available block space","external":true,"refSections":[{"refs":[{"id":"ref-for-available"},{"id":"ref-for-available\u2460"},{"id":"ref-for-available\u2461"},{"id":"ref-for-available\u2462"},{"id":"ref-for-available\u2463"},{"id":"ref-for-available\u2464"}],"title":"7.3.1. \nAvailable Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-available\u2465"},{"id":"ref-for-available\u2466"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"},{"refs":[{"id":"ref-for-available\u2467"},{"id":"ref-for-available\u2468"},{"id":"ref-for-available\u2460\u24ea"},{"id":"ref-for-available\u2460\u2460"},{"id":"ref-for-available\u2460\u2461"},{"id":"ref-for-available\u2460\u2462"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-sizing-3/#available"},
-"a7502998": {"dfnID":"a7502998","dfnText":"max-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-max-width"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width"},
 "a8485ff4": {"dfnID":"a8485ff4","dfnText":"replaced element","external":true,"refSections":[{"refs":[{"id":"ref-for-replaced-element"}],"title":"2.4.3. \nBidi Treatment of Atomic Inlines"},{"refs":[{"id":"ref-for-replaced-element\u2460"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-display-4/#replaced-element"},
 "aaf6abed": {"dfnID":"aaf6abed","dfnText":"margin-left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-left"},{"id":"ref-for-propdef-margin-left\u2460"}],"title":"7.1. \nPrinciples of Layout in Vertical Writing Modes"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-left"},
 "abstract-dimensions": {"dfnID":"abstract-dimensions","dfnText":"abstract dimensions","external":false,"refSections":[],"url":"#abstract-dimensions"},
-"ac2ecdf7": {"dfnID":"ac2ecdf7","dfnText":"clear","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-clear"}],"title":"7.4. \nFlow-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-clear\u2460"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-clear"},
+"ac54fbff": {"dfnID":"ac54fbff","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"7.2. \nDimensional Mapping"},{"refs":[{"id":"ref-for-propdef-line-height\u2460"}],"title":"9.1.2. \nLayout Rules"},{"refs":[{"id":"ref-for-propdef-line-height\u2461"}],"title":"\nChanges since the May\n2018 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "ad065a5c": {"dfnID":"ad065a5c","dfnText":"margin-right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-right"}],"title":"7.1. \nPrinciples of Layout in Vertical Writing Modes"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-right"},
+"af2181ab": {"dfnID":"af2181ab","dfnText":"auto (for column-width)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-column-width-auto"},{"id":"ref-for-valdef-column-width-auto\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-2/#valdef-column-width-auto"},
 "alphabetic-baseline": {"dfnID":"alphabetic-baseline","dfnText":"alphabetic baseline","external":false,"refSections":[{"refs":[{"id":"ref-for-alphabetic-baseline"}],"title":"4.2. Text Baselines"}],"url":"#alphabetic-baseline"},
-"b0b312d1": {"dfnID":"b0b312d1","dfnText":"column-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-column-width"},{"id":"ref-for-propdef-column-width\u2460"},{"id":"ref-for-propdef-column-width\u2461"},{"id":"ref-for-propdef-column-width\u2462"},{"id":"ref-for-propdef-column-width\u2463"},{"id":"ref-for-propdef-column-width\u2464"},{"id":"ref-for-propdef-column-width\u2465"},{"id":"ref-for-propdef-column-width\u2466"},{"id":"ref-for-propdef-column-width\u2467"},{"id":"ref-for-propdef-column-width\u2468"},{"id":"ref-for-propdef-column-width\u2460\u24ea"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-1/#propdef-column-width"},
 "baseline": {"dfnID":"baseline","dfnText":"baseline","external":false,"refSections":[],"url":"#baseline"},
 "baseline-table": {"dfnID":"baseline-table","dfnText":"baseline table","external":false,"refSections":[],"url":"#baseline-table"},
 "bb16e9a6": {"dfnID":"bb16e9a6","dfnText":"max size","external":true,"refSections":[{"refs":[{"id":"ref-for-max-width"},{"id":"ref-for-max-width\u2460"}],"title":"7.3.1. \nAvailable Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-max-width\u2461"},{"id":"ref-for-max-width\u2462"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#max-width"},
@@ -5596,31 +5591,36 @@ let dfnPanelData = {
 "c1f9d7c8": {"dfnID":"c1f9d7c8","dfnText":"tracking","external":true,"refSections":[{"refs":[{"id":"ref-for-tracking"}],"title":"2.4.5.1. \nConditions of Reordering-induced Box Fragmentation"}],"url":"https://drafts.csswg.org/css-text-4/#tracking"},
 "c388d253": {"dfnID":"c388d253","dfnText":"inherit","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-all-inherit"}],"title":"2.2. \nEmbeddings and Overrides: the unicode-bidi property"}],"url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit"},
 "c3bd6e1d": {"dfnID":"c3bd6e1d","dfnText":"box fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-box-fragment"},{"id":"ref-for-box-fragment\u2460"},{"id":"ref-for-box-fragment\u2461"},{"id":"ref-for-box-fragment\u2462"},{"id":"ref-for-box-fragment\u2463"},{"id":"ref-for-box-fragment\u2464"},{"id":"ref-for-box-fragment\u2465"}],"title":"2.4.5.1. \nConditions of Reordering-induced Box Fragmentation"}],"url":"https://drafts.csswg.org/css-break-4/#box-fragment"},
+"c55b0f34": {"dfnID":"c55b0f34","dfnText":"bottom","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-bottom"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-bottom"},
 "c5e97f7c": {"dfnID":"c5e97f7c","dfnText":"letter-spacing","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-letter-spacing"}],"title":"9.1.2. \nLayout Rules"},{"refs":[{"id":"ref-for-propdef-letter-spacing\u2460"}],"title":"\nChanges since the May\n2018 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-text-3/#propdef-letter-spacing"},
 "ca960d4f": {"dfnID":"ca960d4f","dfnText":"block formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-block-formatting-context"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-display-4/#block-formatting-context"},
 "cbc54f93": {"dfnID":"cbc54f93","dfnText":"text-transform","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-transform"},{"id":"ref-for-propdef-text-transform\u2460"},{"id":"ref-for-propdef-text-transform\u2461"}],"title":"9.1.3.1. \nFull-width Characters"}],"url":"https://drafts.csswg.org/css-text-4/#propdef-text-transform"},
 "cbfeec00": {"dfnID":"cbfeec00","dfnText":"margin-bottom","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-bottom"},{"id":"ref-for-propdef-margin-bottom\u2460"}],"title":"7.1. \nPrinciples of Layout in Vertical Writing Modes"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-bottom"},
-"cdd73959": {"dfnID":"cdd73959","dfnText":"float","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-float"}],"title":"7.4. \nFlow-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-float\u2460"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-float"},
 "ce9e274e": {"dfnID":"ce9e274e","dfnText":"digits","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-speak-as-digits"}],"title":"9.1. \nHorizontal-in-Vertical Composition: the text-combine-upright property"},{"refs":[{"id":"ref-for-valdef-speak-as-digits\u2460"}],"title":"9.1.1. \nText Run Rules"},{"refs":[{"id":"ref-for-valdef-speak-as-digits\u2461"}],"title":"\nNew in Level 4"}],"url":"https://drafts.csswg.org/css-speech-1/#valdef-speak-as-digits"},
 "central-baseline": {"dfnID":"central-baseline","dfnText":"central baseline","external":false,"refSections":[{"refs":[{"id":"ref-for-central-baseline"}],"title":"4.2. Text Baselines"},{"refs":[{"id":"ref-for-central-baseline\u2460"}],"title":"Changes since the July 2019 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"#central-baseline"},
 "css-end": {"dfnID":"css-end","dfnText":"end","external":false,"refSections":[{"refs":[{"id":"ref-for-css-end"}],"title":"2.4.5.2. Box Model of Reordering-induced Box Fragments"},{"refs":[{"id":"ref-for-css-end\u2460"}],"title":"6. Abstract Box Terminology"},{"refs":[{"id":"ref-for-css-end\u2461"}],"title":"7.1. Principles of Layout in Vertical Writing Modes"}],"url":"#css-end"},
 "css-start": {"dfnID":"css-start","dfnText":"start","external":false,"refSections":[{"refs":[{"id":"ref-for-css-start"},{"id":"ref-for-css-start\u2460"}],"title":"2.4.5.2. Box Model of Reordering-induced Box Fragments"},{"refs":[{"id":"ref-for-css-start\u2461"}],"title":"6. Abstract Box Terminology"},{"refs":[{"id":"ref-for-css-start\u2462"}],"title":"6.2. Flow-relative Directions"},{"refs":[{"id":"ref-for-css-start\u2463"}],"title":"7.1. Principles of Layout in Vertical Writing Modes"},{"refs":[{"id":"ref-for-css-start\u2464"},{"id":"ref-for-css-start\u2465"}],"title":"7.4. Flow-Relative Mappings"}],"url":"#css-start"},
 "d2ac383e": {"dfnID":"d2ac383e","dfnText":"document white space","external":true,"refSections":[{"refs":[{"id":"ref-for-white-space"}],"title":"9.1.2. \nLayout Rules"},{"refs":[{"id":"ref-for-white-space\u2460"}],"title":"\nChanges since the May\n2018 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-text-4/#white-space"},
+"d4858c02": {"dfnID":"d4858c02","dfnText":"min-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-min-width"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://drafts.csswg.org/css2/#propdef-min-width"},
 "d4fd6ce1": {"dfnID":"d4fd6ce1","dfnText":"flow","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-flow"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-flow"},
-"d53f141e": {"dfnID":"d53f141e","dfnText":"auto (for column-count)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-column-count-auto"},{"id":"ref-for-valdef-column-count-auto\u2460"},{"id":"ref-for-valdef-column-count-auto\u2461"},{"id":"ref-for-valdef-column-count-auto\u2462"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-1/#valdef-column-count-auto"},
+"d593ce34": {"dfnID":"d593ce34","dfnText":"column-count","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-column-count"},{"id":"ref-for-propdef-column-count\u2460"},{"id":"ref-for-propdef-column-count\u2461"},{"id":"ref-for-propdef-column-count\u2462"},{"id":"ref-for-propdef-column-count\u2463"},{"id":"ref-for-propdef-column-count\u2464"},{"id":"ref-for-propdef-column-count\u2465"},{"id":"ref-for-propdef-column-count\u2466"},{"id":"ref-for-propdef-column-count\u2467"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-2/#propdef-column-count"},
+"da77a765": {"dfnID":"da77a765","dfnText":"flex item","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-item"}],"title":"7.3.3. \nAuto-sizing Other Orthogonal Flow Roots"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-item"},
+"db91c914": {"dfnID":"db91c914","dfnText":"min-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-min-height"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://drafts.csswg.org/css2/#propdef-min-height"},
+"dd1ccb1e": {"dfnID":"dd1ccb1e","dfnText":"max-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-max-height"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://drafts.csswg.org/css2/#propdef-max-height"},
+"ddb539d9": {"dfnID":"ddb539d9","dfnText":"column-gap","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-column-gap"},{"id":"ref-for-propdef-column-gap\u2460"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-gaps-1/#propdef-column-gap"},
 "directional-embedding": {"dfnID":"directional-embedding","dfnText":"directional embedding","external":false,"refSections":[{"refs":[{"id":"ref-for-directional-embedding"}],"title":"2.2. Embeddings and Overrides: the unicode-bidi property"}],"url":"#directional-embedding"},
 "directional-override": {"dfnID":"directional-override","dfnText":"directional override","external":false,"refSections":[{"refs":[{"id":"ref-for-directional-override"},{"id":"ref-for-directional-override\u2460"}],"title":"2.2. Embeddings and Overrides: the unicode-bidi property"}],"url":"#directional-override"},
 "dominant-baseline": {"dfnID":"dominant-baseline","dfnText":"dominant baseline","external":false,"refSections":[],"url":"#dominant-baseline"},
 "e0b6ed58": {"dfnID":"e0b6ed58","dfnText":"vertical-align","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-vertical-align"},{"id":"ref-for-propdef-vertical-align\u2460"}],"title":"4. \nInline-level Alignment"},{"refs":[{"id":"ref-for-propdef-vertical-align\u2461"}],"title":"4.3. \nAtomic Inline Baselines"},{"refs":[{"id":"ref-for-propdef-vertical-align\u2462"},{"id":"ref-for-propdef-vertical-align\u2463"},{"id":"ref-for-propdef-vertical-align\u2464"}],"title":"4.4. \nBaseline Alignment"},{"refs":[{"id":"ref-for-propdef-vertical-align\u2465"}],"title":"7.1. \nPrinciples of Layout in Vertical Writing Modes"},{"refs":[{"id":"ref-for-propdef-vertical-align\u2466"}],"title":"7.5. \nLine-Relative Mappings"},{"refs":[{"id":"ref-for-propdef-vertical-align\u2467"}],"title":"9.1.2. \nLayout Rules"}],"url":"https://drafts.csswg.org/css-inline-3/#propdef-vertical-align"},
+"e0cfebcd": {"dfnID":"e0cfebcd","dfnText":"ideographic central baseline","external":true,"refSections":[{"refs":[{"id":"ref-for-central-baseline\u2461"}],"title":"\nChanges since the July\n2019 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-inline-3/#central-baseline"},
 "e33664cd": {"dfnID":"e33664cd","dfnText":"inline-block","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-inline-block"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"},{"refs":[{"id":"ref-for-valdef-display-inline-block\u2460"}],"title":"9.1.2. \nLayout Rules"},{"refs":[{"id":"ref-for-valdef-display-inline-block\u2461"}],"title":"\nChanges since the May\n2018 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-inline-block"},
 "e3bdfa96": {"dfnID":"e3bdfa96","dfnText":"stretch fit","external":true,"refSections":[{"refs":[{"id":"ref-for-stretch-fit"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-sizing-3/#stretch-fit"},
-"e5185638": {"dfnID":"e5185638","dfnText":"min-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-min-width"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width"},
 "e7f0dd6c": {"dfnID":"e7f0dd6c","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"},{"id":"ref-for-propdef-display\u2460"}],"title":"2.2. \nEmbeddings and Overrides: the unicode-bidi property"},{"refs":[{"id":"ref-for-propdef-display\u2461"}],"title":"2.4.3. \nBidi Treatment of Atomic Inlines"},{"refs":[{"id":"ref-for-propdef-display\u2462"},{"id":"ref-for-propdef-display\u2463"},{"id":"ref-for-propdef-display\u2464"}],"title":"3.2. \nBlock Flow Direction: the writing-mode property"},{"refs":[{"id":"ref-for-propdef-display\u2465"}],"title":"8. \nThe Principal Writing Mode"},{"refs":[{"id":"ref-for-propdef-display\u2466"},{"id":"ref-for-propdef-display\u2467"}],"title":"\nChanges since the July\n2019 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-display"},
-"ea8fc05c": {"dfnID":"ea8fc05c","dfnText":"top","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-caption-side-top"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#valdef-caption-side-top"},
+"ea8fc05c": {"dfnID":"ea8fc05c","dfnText":"top (for caption-side)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-caption-side-top"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#valdef-caption-side-top"},
 "establish-an-orthogonal-flow": {"dfnID":"establish-an-orthogonal-flow","dfnText":"orthogonal flow","external":false,"refSections":[{"refs":[{"id":"ref-for-establish-an-orthogonal-flow"},{"id":"ref-for-establish-an-orthogonal-flow\u2460"},{"id":"ref-for-establish-an-orthogonal-flow\u2461"}],"title":"7.3. Orthogonal Flows"},{"refs":[{"id":"ref-for-establish-an-orthogonal-flow\u2462"}],"title":"7.3.1. Available Space in Orthogonal Flows"},{"refs":[{"id":"ref-for-establish-an-orthogonal-flow\u2463"}],"title":"7.3.2. Auto-sizing Block Containers in Orthogonal Flows"},{"refs":[{"id":"ref-for-establish-an-orthogonal-flow\u2464"},{"id":"ref-for-establish-an-orthogonal-flow\u2465"},{"id":"ref-for-establish-an-orthogonal-flow\u2466"}],"title":"7.3.3. Auto-sizing Other Orthogonal Flow Roots"}],"url":"#establish-an-orthogonal-flow"},
 "f338a9f0": {"dfnID":"f338a9f0","dfnText":"text-shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-shadow"}],"title":"7.6. \nPurely Physical Mappings"}],"url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-shadow"},
-"f601a423": {"dfnID":"f601a423","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"7.2. \nDimensional Mapping"},{"refs":[{"id":"ref-for-propdef-line-height\u2460"}],"title":"9.1.2. \nLayout Rules"},{"refs":[{"id":"ref-for-propdef-line-height\u2461"}],"title":"\nChanges since the May\n2018 CSS Writing Modes Module Level 4 Candidate Recommendation"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
-"f80bfcde": {"dfnID":"f80bfcde","dfnText":"max-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-max-height"}],"title":"7.2. \nDimensional Mapping"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height"},
+"f5f2965c": {"dfnID":"f5f2965c","dfnText":"top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-top"}],"title":"7.4. \nFlow-Relative Mappings"}],"url":"https://drafts.csswg.org/css2/#propdef-top"},
+"f8cff8d7": {"dfnID":"f8cff8d7","dfnText":"column-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-column-width"},{"id":"ref-for-propdef-column-width\u2460"},{"id":"ref-for-propdef-column-width\u2461"},{"id":"ref-for-propdef-column-width\u2462"},{"id":"ref-for-propdef-column-width\u2463"},{"id":"ref-for-propdef-column-width\u2464"},{"id":"ref-for-propdef-column-width\u2465"},{"id":"ref-for-propdef-column-width\u2466"},{"id":"ref-for-propdef-column-width\u2467"},{"id":"ref-for-propdef-column-width\u2468"},{"id":"ref-for-propdef-column-width\u2460\u24ea"}],"title":"7.3.2. \nAuto-sizing Block Containers in Orthogonal Flows"}],"url":"https://drafts.csswg.org/css-multicol-2/#propdef-column-width"},
 "fb7153bd": {"dfnID":"fb7153bd","dfnText":"font-variant","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-variant"}],"title":"9.1.3.1. \nFull-width Characters"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-variant"},
 "ffc192db": {"dfnID":"ffc192db","dfnText":"text-decoration","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-decoration"}],"title":"7.5. \nLine-Relative Mappings"}],"url":"https://drafts.csswg.org/css-text-decor-3/#propdef-text-decoration"},
 "flow-relative": {"dfnID":"flow-relative","dfnText":"flow-relative","external":false,"refSections":[],"url":"#flow-relative"},
@@ -6228,7 +6228,6 @@ let refsData = {
 "#writing-mode": {"displayText":"writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"local","text":"writing mode","type":"dfn","url":"#writing-mode"},
 "#x-axis": {"displayText":"horizontal axis","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"local","text":"horizontal axis","type":"dfn","url":"#x-axis"},
 "#y-axis": {"displayText":"vertical axis","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"local","text":"vertical axis","type":"dfn","url":"#y-axis"},
-"https://drafts.csswg.org/css-align-3/#propdef-column-gap": {"displayText":"column-gap","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-align","spec":"css-align-3","status":"current","text":"column-gap","type":"property","url":"https://drafts.csswg.org/css-align-3/#propdef-column-gap"},
 "https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow": {"displayText":"box-shadow","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-backgrounds","spec":"css-backgrounds-3","status":"current","text":"box-shadow","type":"property","url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow"},
 "https://drafts.csswg.org/css-box-4/#propdef-margin-bottom": {"displayText":"margin-bottom","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"margin-bottom","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-margin-bottom"},
 "https://drafts.csswg.org/css-box-4/#propdef-margin-left": {"displayText":"margin-left","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"margin-left","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-margin-left"},
@@ -6254,23 +6253,24 @@ let refsData = {
 "https://drafts.csswg.org/css-display-4/#valdef-display-flow-root": {"displayText":"flow-root","export":true,"for_":["display","<display-inside>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"flow-root","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-flow-root"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-inline": {"displayText":"inline","export":true,"for_":["display","<display-outside>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"inline","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-inline"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-inline-block": {"displayText":"inline-block","export":true,"for_":["display","<display-legacy>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"inline-block","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-inline-block"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-container": {"displayText":"flex container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex container","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-container"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-item": {"displayText":"flex item","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex item","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-item"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-container": {"displayText":"flex container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex container","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-container"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-item": {"displayText":"flex item","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex item","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-item"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-feature-settings": {"displayText":"font-feature-settings","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-feature-settings","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-feature-settings"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant": {"displayText":"font-variant","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-variant","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-variant"},
+"https://drafts.csswg.org/css-gaps-1/#propdef-column-gap": {"displayText":"column-gap","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-gaps","spec":"css-gaps-1","status":"current","text":"column-gap","type":"property","url":"https://drafts.csswg.org/css-gaps-1/#propdef-column-gap"},
 "https://drafts.csswg.org/css-images-3/#default-object-size": {"displayText":"default object size","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-images","spec":"css-images-3","status":"current","text":"default object size","type":"dfn","url":"https://drafts.csswg.org/css-images-3/#default-object-size"},
+"https://drafts.csswg.org/css-inline-3/#central-baseline": {"displayText":"ideographic central baseline","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"ideographic central baseline","type":"dfn","url":"https://drafts.csswg.org/css-inline-3/#central-baseline"},
 "https://drafts.csswg.org/css-inline-3/#propdef-vertical-align": {"displayText":"vertical-align","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"vertical-align","type":"property","url":"https://drafts.csswg.org/css-inline-3/#propdef-vertical-align"},
 "https://drafts.csswg.org/css-inline-3/#root-inline-box": {"displayText":"root inline box","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"root inline box","type":"dfn","url":"https://drafts.csswg.org/css-inline-3/#root-inline-box"},
-"https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline": {"displayText":"baseline","export":true,"for_":["alignment-baseline","vertical-align"],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"baseline","type":"value","url":"https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline"},
 "https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-sub": {"displayText":"sub","export":true,"for_":["baseline-shift","vertical-align"],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"sub","type":"value","url":"https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-sub"},
 "https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-super": {"displayText":"super","export":true,"for_":["baseline-shift","vertical-align"],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"super","type":"value","url":"https://drafts.csswg.org/css-inline-3/#valdef-baseline-shift-super"},
-"https://drafts.csswg.org/css-multicol-1/#propdef-column-count": {"displayText":"column-count","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"column-count","type":"property","url":"https://drafts.csswg.org/css-multicol-1/#propdef-column-count"},
-"https://drafts.csswg.org/css-multicol-1/#propdef-column-width": {"displayText":"column-width","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"column-width","type":"property","url":"https://drafts.csswg.org/css-multicol-1/#propdef-column-width"},
-"https://drafts.csswg.org/css-multicol-1/#valdef-column-count-auto": {"displayText":"auto","export":true,"for_":["column-count"],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/css-multicol-1/#valdef-column-count-auto"},
-"https://drafts.csswg.org/css-multicol-1/#valdef-column-width-auto": {"displayText":"auto","export":true,"for_":["column-width"],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/css-multicol-1/#valdef-column-width-auto"},
+"https://drafts.csswg.org/css-masking-1/#funcdef-clip-rect": {"displayText":"rect()","export":true,"for_":["clip"],"level":"1","normative":true,"shortname":"css-masking","spec":"css-masking-1","status":"current","text":"rect()","type":"function","url":"https://drafts.csswg.org/css-masking-1/#funcdef-clip-rect"},
+"https://drafts.csswg.org/css-multicol-2/#propdef-column-count": {"displayText":"column-count","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"column-count","type":"property","url":"https://drafts.csswg.org/css-multicol-2/#propdef-column-count"},
+"https://drafts.csswg.org/css-multicol-2/#propdef-column-width": {"displayText":"column-width","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"column-width","type":"property","url":"https://drafts.csswg.org/css-multicol-2/#propdef-column-width"},
+"https://drafts.csswg.org/css-multicol-2/#valdef-column-count-auto": {"displayText":"auto","export":true,"for_":["column-count"],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/css-multicol-2/#valdef-column-count-auto"},
+"https://drafts.csswg.org/css-multicol-2/#valdef-column-width-auto": {"displayText":"auto","export":true,"for_":["column-width"],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/css-multicol-2/#valdef-column-width-auto"},
 "https://drafts.csswg.org/css-overflow-3/#scrollport": {"displayText":"scrollport","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-overflow","spec":"css-overflow-3","status":"current","text":"scrollport","type":"dfn","url":"https://drafts.csswg.org/css-overflow-3/#scrollport"},
 "https://drafts.csswg.org/css-page-3/#page-progression": {"displayText":"page progression","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-page","spec":"css-page-3","status":"current","text":"page progression","type":"dfn","url":"https://drafts.csswg.org/css-page-3/#page-progression"},
-"https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-rect": {"displayText":"rect()","export":true,"for_":["<basic-shape>"],"level":"1","normative":true,"shortname":"css-shapes","spec":"css-shapes-1","status":"current","text":"rect()","type":"function","url":"https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-rect"},
 "https://drafts.csswg.org/css-sizing-3/#available": {"displayText":"available inline space","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"available inline space","type":"dfn","url":"https://drafts.csswg.org/css-sizing-3/#available"},
 "https://drafts.csswg.org/css-sizing-3/#definite": {"displayText":"definite","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"definite","type":"dfn","url":"https://drafts.csswg.org/css-sizing-3/#definite"},
 "https://drafts.csswg.org/css-sizing-3/#fallback": {"displayText":"fallback","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"fallback","type":"dfn","url":"https://drafts.csswg.org/css-sizing-3/#fallback"},
@@ -6305,24 +6305,25 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#font-relative-length": {"displayText":"font-relative lengths","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"font-relative lengths","type":"dfn","url":"https://drafts.csswg.org/css-values-4/#font-relative-length"},
 "https://drafts.csswg.org/css-values-4/#integer-value": {"displayText":"<integer>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<integer>","type":"type","url":"https://drafts.csswg.org/css-values-4/#integer-value"},
 "https://drafts.csswg.org/css-values-4/#mult-opt": {"displayText":"?","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"?","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
-"https://drafts.csswg.org/css2/#propdef-border-spacing": {"displayText":"border-spacing","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"border-spacing","type":"property","url":"https://drafts.csswg.org/css2/#propdef-border-spacing"},
-"https://drafts.csswg.org/css2/#propdef-caption-side": {"displayText":"caption-side","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"caption-side","type":"property","url":"https://drafts.csswg.org/css2/#propdef-caption-side"},
-"https://drafts.csswg.org/css2/#valdef-caption-side-bottom": {"displayText":"bottom","export":true,"for_":["caption-side"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"bottom","type":"value","url":"https://drafts.csswg.org/css2/#valdef-caption-side-bottom"},
-"https://drafts.csswg.org/css2/#valdef-caption-side-top": {"displayText":"top","export":true,"for_":["caption-side"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"top","type":"value","url":"https://drafts.csswg.org/css2/#valdef-caption-side-top"},
+"https://drafts.csswg.org/css2/#propdef-border-spacing": {"displayText":"border-spacing","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"border-spacing","type":"property","url":"https://drafts.csswg.org/css2/#propdef-border-spacing"},
+"https://drafts.csswg.org/css2/#propdef-bottom": {"displayText":"bottom","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"bottom","type":"property","url":"https://drafts.csswg.org/css2/#propdef-bottom"},
+"https://drafts.csswg.org/css2/#propdef-caption-side": {"displayText":"caption-side","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"caption-side","type":"property","url":"https://drafts.csswg.org/css2/#propdef-caption-side"},
+"https://drafts.csswg.org/css2/#propdef-clear": {"displayText":"clear","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"clear","type":"property","url":"https://drafts.csswg.org/css2/#propdef-clear"},
+"https://drafts.csswg.org/css2/#propdef-clip": {"displayText":"clip","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"clip","type":"property","url":"https://drafts.csswg.org/css2/#propdef-clip"},
+"https://drafts.csswg.org/css2/#propdef-float": {"displayText":"float","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"float","type":"property","url":"https://drafts.csswg.org/css2/#propdef-float"},
+"https://drafts.csswg.org/css2/#propdef-left": {"displayText":"left","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"left","type":"property","url":"https://drafts.csswg.org/css2/#propdef-left"},
+"https://drafts.csswg.org/css2/#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-line-height"},
+"https://drafts.csswg.org/css2/#propdef-max-height": {"displayText":"max-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"max-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-max-height"},
+"https://drafts.csswg.org/css2/#propdef-max-width": {"displayText":"max-width","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"max-width","type":"property","url":"https://drafts.csswg.org/css2/#propdef-max-width"},
+"https://drafts.csswg.org/css2/#propdef-min-height": {"displayText":"min-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"min-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-min-height"},
+"https://drafts.csswg.org/css2/#propdef-min-width": {"displayText":"min-width","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"min-width","type":"property","url":"https://drafts.csswg.org/css2/#propdef-min-width"},
+"https://drafts.csswg.org/css2/#propdef-right": {"displayText":"right","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"right","type":"property","url":"https://drafts.csswg.org/css2/#propdef-right"},
+"https://drafts.csswg.org/css2/#propdef-top": {"displayText":"top","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"top","type":"property","url":"https://drafts.csswg.org/css2/#propdef-top"},
+"https://drafts.csswg.org/css2/#valdef-caption-side-bottom": {"displayText":"bottom","export":true,"for_":["caption-side"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"bottom","type":"value","url":"https://drafts.csswg.org/css2/#valdef-caption-side-bottom"},
+"https://drafts.csswg.org/css2/#valdef-caption-side-top": {"displayText":"top","export":true,"for_":["caption-side"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"top","type":"value","url":"https://drafts.csswg.org/css2/#valdef-caption-side-top"},
+"https://drafts.csswg.org/css2/#valdef-vertical-align-baseline": {"displayText":"baseline","export":true,"for_":["vertical-align"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"baseline","type":"value","url":"https://drafts.csswg.org/css2/#valdef-vertical-align-baseline"},
 "https://drafts.csswg.org/mediaqueries-5/#paged-media": {"displayText":"paged media","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"paged media","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#paged-media"},
 "https://html.spec.whatwg.org/multipage/sections.html#the-body-element": {"displayText":"body","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"body","type":"element","url":"https://html.spec.whatwg.org/multipage/sections.html#the-body-element"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height": {"displayText":"max-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"max-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width": {"displayText":"max-width","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"max-width","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-min-height": {"displayText":"min-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"min-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-min-height"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width": {"displayText":"min-width","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"min-width","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-min-width"},
-"https://www.w3.org/TR/CSS21/visufx.html#propdef-clip": {"displayText":"clip","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"clip","type":"property","url":"https://www.w3.org/TR/CSS21/visufx.html#propdef-clip"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-bottom": {"displayText":"bottom","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"bottom","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-bottom"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-clear": {"displayText":"clear","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"clear","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-clear"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-float": {"displayText":"float","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"float","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-float"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-left": {"displayText":"left","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"left","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-left"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-right": {"displayText":"right","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"right","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-right"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-top": {"displayText":"top","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"top","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-top"},
 };
 
 function mkRefHint(link, ref) {

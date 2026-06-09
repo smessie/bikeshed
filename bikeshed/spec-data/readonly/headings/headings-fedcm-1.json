@@ -85,7 +85,7 @@
   },
   "#browser-api-credential-request-options": {
     "current": {
-      "number": "2.2.2",
+      "number": "2.4",
       "spec": "Federated Credential Management API",
       "text": "The CredentialRequestOptions",
       "url": "https://w3c-fedid.github.io/FedCM/#browser-api-credential-request-options"
@@ -111,6 +111,14 @@
       "url": "https://www.w3.org/TR/fedcm-1/#browser-api-identity-credential-disconnect"
     }
   },
+  "#browser-api-identity-credential-error-interface": {
+    "current": {
+      "number": "2.3",
+      "spec": "Federated Credential Management API",
+      "text": "The IdentityCredentialError Interface",
+      "url": "https://w3c-fedid.github.io/FedCM/#browser-api-identity-credential-error-interface"
+    }
+  },
   "#browser-api-identity-credential-interface": {
     "current": {
       "number": "2.2",
@@ -127,7 +135,7 @@
   },
   "#browser-api-identity-provider-interface": {
     "current": {
-      "number": "2.3",
+      "number": "2.6",
       "spec": "Federated Credential Management API",
       "text": "The IdentityProvider Interface",
       "url": "https://w3c-fedid.github.io/FedCM/#browser-api-identity-provider-interface"
@@ -149,7 +157,7 @@
   },
   "#browser-api-rp-sign-in": {
     "current": {
-      "number": "2.2.3",
+      "number": "2.5",
       "spec": "Federated Credential Management API",
       "text": "The [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) internal method",
       "url": "https://w3c-fedid.github.io/FedCM/#browser-api-rp-sign-in"
@@ -177,7 +185,7 @@
   },
   "#browser-surface-impersonation": {
     "current": {
-      "number": "6.4",
+      "number": "6.6",
       "spec": "Federated Credential Management API",
       "text": "Browser Surface Impersonation",
       "url": "https://w3c-fedid.github.io/FedCM/#browser-surface-impersonation"
@@ -189,13 +197,23 @@
       "url": "https://www.w3.org/TR/fedcm-1/#browser-surface-impersonation"
     }
   },
-  "#content-security-policy": {
+  "#clickbait": {
     "current": {
-      "number": "6.1",
+      "number": "6.8",
       "spec": "Federated Credential Management API",
-      "text": "Content Security Policy",
-      "url": "https://w3c-fedid.github.io/FedCM/#content-security-policy"
-    },
+      "text": "Clickbait",
+      "url": "https://w3c-fedid.github.io/FedCM/#clickbait"
+    }
+  },
+  "#clickjacking": {
+    "current": {
+      "number": "6.9",
+      "spec": "Federated Credential Management API",
+      "text": "Clickjacking",
+      "url": "https://w3c-fedid.github.io/FedCM/#clickjacking"
+    }
+  },
+  "#content-security-policy": {
     "snapshot": {
       "number": "6.1",
       "spec": "Federated Credential Management API",
@@ -203,9 +221,23 @@
       "url": "https://www.w3.org/TR/fedcm-1/#content-security-policy"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Federated Credential Management API",
+      "text": "Table of Contents",
+      "url": "https://w3c-fedid.github.io/FedCM/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Federated Credential Management API",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/fedcm-1/#toc"
+    }
+  },
   "#create-identity-credential": {
     "current": {
-      "number": "2.2.4",
+      "number": "2.5.1",
       "spec": "Federated Credential Management API",
       "text": "Create an IdentityCredential",
       "url": "https://w3c-fedid.github.io/FedCM/#create-identity-credential"
@@ -215,6 +247,14 @@
       "spec": "Federated Credential Management API",
       "text": "Create an IdentityCredential",
       "url": "https://www.w3.org/TR/fedcm-1/#create-identity-credential"
+    }
+  },
+  "#cross-site-scripting": {
+    "current": {
+      "number": "6.3",
+      "spec": "Federated Credential Management API",
+      "text": "Cross-Site Scripting",
+      "url": "https://w3c-fedid.github.io/FedCM/#cross-site-scripting"
     }
   },
   "#disconnect-request": {
@@ -247,7 +287,7 @@
   },
   "#fetch-accounts": {
     "current": {
-      "number": "2.2.6",
+      "number": "2.5.3",
       "spec": "Federated Credential Management API",
       "text": "Fetch the accounts",
       "url": "https://w3c-fedid.github.io/FedCM/#fetch-accounts"
@@ -261,7 +301,7 @@
   },
   "#fetch-config-file": {
     "current": {
-      "number": "2.2.5",
+      "number": "2.5.2",
       "spec": "Federated Credential Management API",
       "text": "Fetch the config file",
       "url": "https://w3c-fedid.github.io/FedCM/#fetch-config-file"
@@ -275,7 +315,7 @@
   },
   "#fetch-identity-assertion": {
     "current": {
-      "number": "2.2.7",
+      "number": "2.5.4",
       "spec": "Federated Credential Management API",
       "text": "Fetch an identity assertion",
       "url": "https://w3c-fedid.github.io/FedCM/#fetch-identity-assertion"
@@ -297,7 +337,7 @@
   },
   "#helper-algorithms": {
     "current": {
-      "number": "2.2.9",
+      "number": "2.5.6",
       "spec": "Federated Credential Management API",
       "text": "Helper algorithms",
       "url": "https://w3c-fedid.github.io/FedCM/#helper-algorithms"
@@ -321,6 +361,14 @@
       "spec": "Federated Credential Management API",
       "text": "IDL Index",
       "url": "https://www.w3.org/TR/fedcm-1/#idl-index"
+    }
+  },
+  "#idp-and-rp-integrity": {
+    "current": {
+      "number": "6.1.4",
+      "spec": "Federated Credential Management API",
+      "text": "IDP and RP Integrity",
+      "url": "https://w3c-fedid.github.io/FedCM/#idp-and-rp-integrity"
     }
   },
   "#idp-api": {
@@ -355,7 +403,7 @@
     "current": {
       "number": "3.4",
       "spec": "Federated Credential Management API",
-      "text": "Client Metadata",
+      "text": "Extension: Client Metadata",
       "url": "https://w3c-fedid.github.io/FedCM/#idp-api-client-id-metadata-endpoint"
     },
     "snapshot": {
@@ -421,6 +469,14 @@
       "url": "https://www.w3.org/TR/fedcm-1/#idp-api-well-known"
     }
   },
+  "#idp-impersonation": {
+    "current": {
+      "number": "6.7",
+      "spec": "Federated Credential Management API",
+      "text": "IDP Impersonation",
+      "url": "https://w3c-fedid.github.io/FedCM/#idp-impersonation"
+    }
+  },
   "#idp-intrusion": {
     "current": {
       "number": "7.3.3",
@@ -481,7 +537,7 @@
     "current": {
       "number": "",
       "spec": "Federated Credential Management API",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://w3c-fedid.github.io/FedCM/#informative"
     },
     "snapshot": {
@@ -625,7 +681,7 @@
     "current": {
       "number": "7",
       "spec": "Federated Credential Management API",
-      "text": "Privacy",
+      "text": "Privacy Considerations",
       "url": "https://w3c-fedid.github.io/FedCM/#privacy"
     },
     "snapshot": {
@@ -649,6 +705,14 @@
       "url": "https://www.w3.org/TR/fedcm-1/#privacy-principals"
     }
   },
+  "#proper-implementation-headers": {
+    "current": {
+      "number": "6.1.3",
+      "spec": "Federated Credential Management API",
+      "text": "Proper Implementation of Security Headers",
+      "url": "https://w3c-fedid.github.io/FedCM/#proper-implementation-headers"
+    }
+  },
   "#references": {
     "current": {
       "number": "",
@@ -665,9 +729,9 @@
   },
   "#request-permission-signup": {
     "current": {
-      "number": "2.2.8",
+      "number": "2.5.5",
       "spec": "Federated Credential Management API",
-      "text": "Request permission to sign-up",
+      "text": "Extension: Request permission to sign-up",
       "url": "https://w3c-fedid.github.io/FedCM/#request-permission-signup"
     },
     "snapshot": {
@@ -693,9 +757,9 @@
   },
   "#sec-cors-header": {
     "current": {
-      "number": "6.3",
+      "number": "6.5",
       "spec": "Federated Credential Management API",
-      "text": "CORS Header",
+      "text": "Sensitive Data Access",
       "url": "https://w3c-fedid.github.io/FedCM/#sec-cors-header"
     },
     "snapshot": {
@@ -706,12 +770,6 @@
     }
   },
   "#sec-fetch-dest-header": {
-    "current": {
-      "number": "6.2",
-      "spec": "Federated Credential Management API",
-      "text": "Sec-Fetch-Dest Header",
-      "url": "https://w3c-fedid.github.io/FedCM/#sec-fetch-dest-header"
-    },
     "snapshot": {
       "number": "6.2",
       "spec": "Federated Credential Management API",
@@ -733,11 +791,19 @@
       "url": "https://www.w3.org/TR/fedcm-1/#secondary-use"
     }
   },
+  "#secure-network-transport": {
+    "current": {
+      "number": "6.1.2",
+      "spec": "Federated Credential Management API",
+      "text": "Secure Network and Transport",
+      "url": "https://w3c-fedid.github.io/FedCM/#secure-network-transport"
+    }
+  },
   "#security": {
     "current": {
       "number": "6",
       "spec": "Federated Credential Management API",
-      "text": "Security",
+      "text": "Security Considerations",
       "url": "https://w3c-fedid.github.io/FedCM/#security"
     },
     "snapshot": {
@@ -745,6 +811,22 @@
       "spec": "Federated Credential Management API",
       "text": "Security",
       "url": "https://www.w3.org/TR/fedcm-1/#security"
+    }
+  },
+  "#security-assumptions": {
+    "current": {
+      "number": "6.1",
+      "spec": "Federated Credential Management API",
+      "text": "Security Assumptions",
+      "url": "https://w3c-fedid.github.io/FedCM/#security-assumptions"
+    }
+  },
+  "#security-threats-aattacks": {
+    "current": {
+      "number": "6.2",
+      "spec": "Federated Credential Management API",
+      "text": "Threats and Attacks",
+      "url": "https://w3c-fedid.github.io/FedCM/#security-threats-aattacks"
     }
   },
   "#sotd": {
@@ -803,6 +885,30 @@
       "url": "https://www.w3.org/TR/fedcm-1/#toc"
     }
   },
+  "#token-content-privacy": {
+    "current": {
+      "number": "7.3.8",
+      "spec": "Federated Credential Management API",
+      "text": "Token Content Privacy",
+      "url": "https://w3c-fedid.github.io/FedCM/#token-content-privacy"
+    }
+  },
+  "#token-format-validation": {
+    "current": {
+      "number": "6.1.5",
+      "spec": "Federated Credential Management API",
+      "text": "Token Format and Validation",
+      "url": "https://w3c-fedid.github.io/FedCM/#token-format-validation"
+    }
+  },
+  "#trusted-user-agent": {
+    "current": {
+      "number": "6.1.1",
+      "spec": "Federated Credential Management API",
+      "text": "Trusted User Agent",
+      "url": "https://w3c-fedid.github.io/FedCM/#trusted-user-agent"
+    }
+  },
   "#unauthorized-data-usage": {
     "current": {
       "number": "7.3.5",
@@ -815,6 +921,14 @@
       "spec": "Federated Credential Management API",
       "text": "Unauthorized Data Usage",
       "url": "https://www.w3.org/TR/fedcm-1/#unauthorized-data-usage"
+    }
+  },
+  "#unauthorized-fetching": {
+    "current": {
+      "number": "6.4",
+      "spec": "Federated Credential Management API",
+      "text": "Unauthorized Fetching",
+      "url": "https://w3c-fedid.github.io/FedCM/#unauthorized-fetching"
     }
   },
   "#w3c-conformance": {

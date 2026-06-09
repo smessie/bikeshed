@@ -10,6 +10,30 @@ https://wicg.github.io/csp-next/scripting-policy.html#dom-scriptingpolicyviolati
 1
 ScriptingPolicyViolationType
 -
+"event"
+"event"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-event-type-event
+
+1
+Event/type
+-
+"event"
+"event"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-event-type-event
+
+1
+Event/type
+-
 "event-listener"
 "event-listener"
 enum-value
@@ -21,6 +45,66 @@ https://w3c.github.io/long-animation-frames/#dom-scriptinvokertype-event-listene
 1
 1
 ScriptInvokerType
+-
+"event-listener"
+"event-listener"
+enum-value
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-scriptinvokertype-event-listener
+1
+1
+ScriptInvokerType
+-
+"events"
+"events"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionsubscribeparameters-events
+
+1
+session.SubscribeParameters
+-
+"events"
+"events"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionunsubscribebyattributesrequest-events
+
+1
+session.UnsubscribeByAttributesRequest
+-
+"events"
+"events"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionsubscribeparameters-events
+
+1
+session.SubscribeParameters
+-
+"events"
+"events"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionunsubscribebyattributesrequest-events
+
+1
+session.UnsubscribeByAttributesRequest
 -
 %EvalError%
 %EvalError%
@@ -56,6 +140,29 @@ https://tc39.es/ecma262/multipage/global-object.html#sec-eval-x
 1
 globalThis
 -
+<event-trigger-event>
+<event-trigger-event>
+type
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#typedef-event-trigger-event
+1
+1
+-
+<event-trigger-event>+ [ / <event-trigger-event>+ ]?
+<event-trigger-event>+ [ / <event-trigger-event>+ ]?
+value
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#valdef-event-trigger-source-event-trigger-event--event-trigger-event
+1
+1
+event-trigger-source
+-
 eval code
 eval code
 dfn
@@ -79,8 +186,8 @@ https://tc39.es/ecma262/multipage/global-object.html#sec-evaldeclarationinstanti
 1
 1
 -
-EvalDeclarationInstantiation(body, varEnv, lexEnv, privateEnv, strict)
-EvalDeclarationInstantiation(body, varEnv, lexEnv, privateEnv, strict)
+EvalDeclarationInstantiation(body, variableEnv, lexicalEnv, privateEnv, strict)
+EvalDeclarationInstantiation(body, variableEnv, lexicalEnv, privateEnv, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -124,6 +231,18 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 Cyclic Module Records
 -
+Evaluate()
+Evaluate()
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-smr-Evaluate
+1
+1
+Synthetic Module Records
+-
 EvaluateCall
 EvaluateCall
 abstract-op
@@ -135,14 +254,58 @@ https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evalu
 1
 1
 -
-EvaluateCall(func, ref, arguments, tailPosition)
-EvaluateCall(func, ref, arguments, tailPosition)
+EvaluateCall(func, thisValueRef, argumentListNode, tailPosition)
+EvaluateCall(func, thisValueRef, argumentListNode, tailPosition)
 abstract-op
 ecmascript
 ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evaluatecall
+1
+1
+-
+EvaluateImportCall
+EvaluateImportCall
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evaluate-import-call
+1
+1
+-
+EvaluateImportCall(specifierExpr, optionsExpr)
+EvaluateImportCall(specifierExpr, optionsExpr)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evaluate-import-call
+1
+1
+-
+EvaluateModuleSync
+EvaluateModuleSync
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-EvaluateModuleSync
+1
+1
+-
+EvaluateModuleSync(module)
+EvaluateModuleSync(module)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-EvaluateModuleSync
 1
 1
 -
@@ -157,8 +320,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evalu
 1
 1
 -
-EvaluateNew(constructExpr, arguments)
-EvaluateNew(constructExpr, arguments)
+EvaluateNew(constructExpr, argumentsNode)
+EvaluateNew(constructExpr, argumentsNode)
 abstract-op
 ecmascript
 ecmascript
@@ -179,8 +342,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evalu
 1
 1
 -
-EvaluatePropertyAccessWithExpressionKey(baseValue, expression, strict)
-EvaluatePropertyAccessWithExpressionKey(baseValue, expression, strict)
+EvaluatePropertyAccessWithExpressionKey(baseValue, expr, strict)
+EvaluatePropertyAccessWithExpressionKey(baseValue, expr, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -232,6 +395,28 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-evaluatestringornumericbinaryexpression
 1
+1
+-
+evaluation graph
+evaluation graph
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-evaluation-graph
+
+1
+-
+evaluation graph
+evaluation graph
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-evaluation-graph
+
 1
 -
 Event
@@ -267,14 +452,91 @@ https://w3c.github.io/aria/#dfn-event
 
 
 -
+Event
+Event
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-event
+
+1
+-
+Event
+Event
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-event
+
+1
+-
 event
 event
 dfn
-svg-aam-1.0
-svg-aam
+wot-architecture11
+wot-architecture
 1
 current
-https://w3c.github.io/svg-aam/#dfn-event
+https://w3c.github.io/wot-architecture/#dfn-event
+
+
+-
+event
+event
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-event
+
+1
+-
+event
+event
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-event
+
+
+-
+event
+event
+dfn
+wot-profile
+wot-profile
+1
+current
+https://w3c.github.io/wot-profile/#dfn-event
+
+1
+-
+event
+event
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-event
+
+
+-
+event
+event
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-event
 
 
 -
@@ -300,6 +562,83 @@ https://www.w3.org/TR/wai-aria-1.3/#dfn-event
 
 
 -
+Event
+Event
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-event
+
+1
+-
+event
+event
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-event
+
+
+-
+event
+event
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-event
+
+1
+-
+event
+event
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-event
+
+
+-
+event
+event
+dfn
+wot-profile
+wot-profile
+1
+snapshot
+https://www.w3.org/TR/wot-profile/#dfn-event
+
+1
+-
+event
+event
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-event
+
+
+-
+event
+event
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-event
+
+
+-
 Event(type)
 Event(type)
 constructor
@@ -323,28 +662,6 @@ https://dom.spec.whatwg.org/#dom-event-event
 1
 1
 Event
--
-event-level report
-event-level report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-report
-
-1
--
-event-level trigger configuration
-event-level trigger configuration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-trigger-configuration
-
-1
 -
 EventCounts
 EventCounts
@@ -366,6 +683,39 @@ event-timing
 snapshot
 https://www.w3.org/TR/event-timing/#eventcounts
 1
+1
+-
+EventData
+EventData
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-eventdata
+
+1
+-
+EventData
+EventData
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-eventdata
+
+1
+-
+EventData
+EventData
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-eventdata
+
 1
 -
 EventHandler
@@ -527,11 +877,22 @@ EventTarget
 evidence of user interaction
 evidence of user interaction
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#evidence-of-user-interaction
+
+1
+-
+evidence of user interaction
+evidence of user interaction
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#evidence-of-user-interaction
 
 1
 -
@@ -546,6 +907,18 @@ https://w3c.github.io/webauthn/#dom-authenticationextensionsprfinputs-eval
 1
 1
 AuthenticationExtensionsPRFInputs
+-
+eval
+eval
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsprfinputsjson-eval
+1
+1
+AuthenticationExtensionsPRFInputsJSON
 -
 eval
 eval
@@ -583,8 +956,20 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfinputs-eval
 1
 AuthenticationExtensionsPRFInputs
 -
-eval(x)
-eval(x)
+eval
+eval
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfinputsjson-eval
+1
+1
+AuthenticationExtensionsPRFInputsJSON
+-
+eval(source)
+eval(source)
 method
 ecmascript
 ecmascript
@@ -613,20 +998,55 @@ dict-member
 webauthn-3
 webauthn
 3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsprfinputsjson-evalbycredential
+1
+1
+AuthenticationExtensionsPRFInputsJSON
+-
+evalByCredential
+evalByCredential
+dict-member
+webauthn-3
+webauthn
+3
 snapshot
 https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfinputs-evalbycredential
 1
 1
 AuthenticationExtensionsPRFInputs
 -
-evaluate a bidding script
-evaluate a bidding script
-dfn
-turtledove
-turtledove
+evalByCredential
+evalByCredential
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfinputsjson-evalbycredential
 1
+1
+AuthenticationExtensionsPRFInputsJSON
+-
+evaluate a <style-range>
+evaluate a <style-range>
+dfn
+css-conditional-5
+css-conditional
+5
 current
-https://wicg.github.io/turtledove/#evaluate-a-bidding-script
+https://drafts.csswg.org/css-conditional-5/#evaluate-a-style-range
+
+1
+-
+evaluate a <style-range>
+evaluate a <style-range>
+dfn
+css-conditional-5
+css-conditional
+5
+snapshot
+https://www.w3.org/TR/css-conditional-5/#evaluate-a-style-range
 
 1
 -
@@ -638,6 +1058,17 @@ css-mixins
 1
 current
 https://drafts.csswg.org/css-mixins-1/#evaluate-a-custom-function
+
+1
+-
+evaluate a custom function
+evaluate a custom function
+dfn
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#evaluate-a-custom-function
 
 1
 -
@@ -685,39 +1116,6 @@ https://wicg.github.io/entries-api/#evaluate-a-path
 
 1
 -
-evaluate a reporting script
-evaluate a reporting script
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#evaluate-a-reporting-script
-
-1
--
-evaluate a scoring script
-evaluate a scoring script
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#evaluate-a-scoring-script
-
-1
--
-evaluate a script
-evaluate a script
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#evaluate-a-script
-
-1
--
 evaluate function body
 evaluate function body
 dfn
@@ -726,6 +1124,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#evaluate-function-body
+
+1
+-
+evaluate function body
+evaluate function body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#evaluate-function-body
 
 1
 -
@@ -748,6 +1157,17 @@ cssom-view
 1
 snapshot
 https://www.w3.org/TR/cssom-view-1/#evaluate-media-queries-and-report-changes
+1
+1
+-
+evaluate soft navigation emission
+evaluate soft navigation emission
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#evaluate-soft-navigation-emission
 
 1
 -
@@ -857,6 +1277,72 @@ https://www.w3.org/TR/selectors-4/#evaluating-selectors
 
 1
 -
+evaluation
+evaluation
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-evaluation
+
+1
+-
+evaluation
+evaluation
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-evaluation
+
+1
+-
+evaluation
+evaluation
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-evaluation
+
+1
+-
+evaluation
+evaluation
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-evaluation
+
+1
+-
+evaluation failure
+evaluation failure
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-evaluation-failure
+
+1
+-
+evaluation failure
+evaluation failure
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-evaluation-failure
+
+1
+-
 even
 even
 enum-value
@@ -876,7 +1362,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-clip-rule-evenodd
+https://drafts.csswg.org/css-masking-1/#valdef-clip-rule-evenodd
 1
 1
 clip-rule
@@ -888,7 +1374,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-fill-rule-evenodd
+https://drafts.csswg.org/fill-stroke-3/#valdef-fill-rule-evenodd
 1
 1
 fill-rule
@@ -978,6 +1464,17 @@ Window
 -
 event
 event
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-navigationprecommitcontroller-event
+
+1
+-
+event
+event
 element-attr
 html
 html
@@ -1002,18 +1499,6 @@ HTMLScriptElement
 -
 event
 event
-argument
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-privateaggregation-contributetohistogramonevent-event-contribution-event
-1
-1
-PrivateAggregation/contributeToHistogramOnEvent(event, contribution)
--
-event
-event
 dfn
 at-driver
 at-driver
@@ -1025,14 +1510,15 @@ https://w3c.github.io/at-driver/#event
 -
 event
 event
-dfn
-svg-aam-1.0
-svg-aam
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/svg-aam/#dfn-event
+https://w3c.github.io/webdriver-bidi/#cddl-value-event-type-event
 
-
+1
+Event/type
 -
 event
 event
@@ -1044,18 +1530,6 @@ current
 https://w3c.github.io/webdriver-bidi/#event
 1
 1
--
-event
-event
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-type-event
-
-1
-source type
 -
 event
 event
@@ -1144,17 +1618,6 @@ https://www.w3.org/TR/graphics-aria-1.0/#dfn-event
 event
 event
 dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-event
-
-1
--
-event
-event
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -1162,6 +1625,29 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-event
 
 
+-
+event
+event
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-event-type-event
+
+1
+Event/type
+-
+event
+event
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#event
+1
+1
 -
 event
 event
@@ -1174,30 +1660,6 @@ https://www.w3.org/TR/webrtc-identity/#dfn-event
 
 1
 -
-event id
-event ID
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-event-id
-
-1
-attribution source
--
-event id
-event ID
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-report-event-id
-
-1
-event-level report
--
 event attribute
 event attribute
 dfn
@@ -1205,7 +1667,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/interact.html#TermEventAttribute
+https://w3c.github.io/svgwg/svg2-draft/interact.html#TermEventAttribute
 1
 1
 -
@@ -1229,17 +1691,6 @@ dom
 current
 https://dom.spec.whatwg.org/#concept-event-constructor-ext
 1
-1
--
-event enabled navigables
-event enabled navigables
-dfn
-webdriver-bidi
-webdriver-bidi
-1
-current
-https://w3c.github.io/webdriver-bidi/#event-enabled-navigables
-
 1
 -
 event focus
@@ -1331,6 +1782,17 @@ https://w3c.github.io/webdriver-bidi/#event-is-enabled
 1
 1
 -
+event is enabled
+event is enabled
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#event-is-enabled
+1
+1
+-
 event listener
 event listener
 dfn
@@ -1411,6 +1873,42 @@ https://w3c.github.io/webdriver-bidi/#event-event-name
 1
 event
 -
+event name
+event name
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#event-event-name
+1
+1
+event
+-
+event names
+event names
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#subscription-event-names
+
+1
+subscription
+-
+event names
+event names
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#subscription-event-names
+
+1
+subscription
+-
 event parameters
 event parameters
 dfn
@@ -1422,14 +1920,26 @@ https://w3c.github.io/at-driver/#event-parameters
 
 1
 -
-event parameters.
-event parameters.
+event parameters
+event parameters
 dfn
 webdriver-bidi
 webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#event-event-parameters
+1
+1
+event
+-
+event parameters
+event parameters
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#event-event-parameters
 1
 1
 event
@@ -1468,6 +1978,18 @@ https://w3c.github.io/long-animation-frames/#script-timing-info-event-target-ele
 1
 script timing info
 -
+event target element id
+event target element id
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#script-timing-info-event-target-element-id
+
+1
+script timing info
+-
 event target element src attribute
 event target element src attribute
 dfn
@@ -1479,6 +2001,29 @@ https://w3c.github.io/long-animation-frames/#script-timing-info-event-target-ele
 
 1
 script timing info
+-
+event target element src attribute
+event target element src attribute
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#script-timing-info-event-target-element-src-attribute
+
+1
+script timing info
+-
+event trigger
+event trigger
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#event-trigger
+1
+1
 -
 event type
 event type
@@ -1529,6 +2074,18 @@ event
 event type
 event type
 dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#script-timing-info-event-type
+
+1
+script timing info
+-
+event type
+event type
+dfn
 uievents
 uievents
 1
@@ -1537,123 +2094,50 @@ https://www.w3.org/TR/uievents/#event-type
 
 1
 -
-event-attribution
-event-attribution
+event type
+event type
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/attribution-reporting-api/#rate-limit-scope-event-attribution
-
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#event-event-type
 1
-rate-limit scope
+1
+event
 -
-event-level attributable
-event-level attributable
-dfn
-attribution-reporting-api
-attribution-reporting-api
+event-trigger
+event-trigger
+property
+animation-triggers-1
+animation-triggers
 1
 current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-event-level-attributable
-
+https://drafts.csswg.org/animation-triggers-1/#propdef-event-trigger
 1
-attribution source
--
-event-level epsilon
-event-level epsilon
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-event-level-epsilon
-
-1
-attribution source
--
-event-level report cache
-event-level report cache
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-report-cache
-
 1
 -
-event-level report windows
-event-level report windows
-dfn
-attribution-reporting-api
-attribution-reporting-api
+event-trigger-name
+event-trigger-name
+property
+animation-triggers-1
+animation-triggers
 1
 current
-https://wicg.github.io/attribution-reporting-api/#trigger-spec-event-level-report-windows
-
+https://drafts.csswg.org/animation-triggers-1/#propdef-event-trigger-name
 1
-trigger spec
--
-event-level trigger configurations
-event-level trigger configurations
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-trigger-event-level-trigger-configurations
-
-1
-attribution trigger
--
-event-level-report-replacement result
-event-level-report-replacement result
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-report-replacement-result
-
 1
 -
-event-source
-event-source
-dfn
-attribution-reporting-api
-attribution-reporting-api
+event-trigger-source
+event-trigger-source
+property
+animation-triggers-1
+animation-triggers
 1
 current
-https://wicg.github.io/attribution-reporting-api/#eligibility-event-source
-
+https://drafts.csswg.org/animation-triggers-1/#propdef-event-trigger-source
 1
-eligibility
--
-event-source
-event-source
-dfn
-attribution-reporting-api
-attribution-reporting-api
 1
-current
-https://wicg.github.io/attribution-reporting-api/#eligible-key-event-source
-
-1
-eligible key
--
-event-source-or-trigger
-event-source-or-trigger
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#eligibility-event-source-or-trigger
-
-1
-eligibility
 -
 eventCount
 eventCount
@@ -1738,6 +2222,36 @@ https://wicg.github.io/fenced-frame/#dom-fenceevent-eventdata
 1
 1
 FenceEvent
+-
+eventInitDict
+eventInitDict
+argument
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiechangeevent-cookiechangeevent-type-eventinitdict-eventinitdict
+1
+1
+CookieChangeEvent/CookieChangeEvent(type, eventInitDict)
+CookieChangeEvent/constructor(type, eventInitDict)
+CookieChangeEvent/CookieChangeEvent(type)
+CookieChangeEvent/constructor(type)
+-
+eventInitDict
+eventInitDict
+argument
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-extendablecookiechangeevent-type-eventinitdict-eventinitdict
+1
+1
+ExtendableCookieChangeEvent/ExtendableCookieChangeEvent(type, eventInitDict)
+ExtendableCookieChangeEvent/constructor(type, eventInitDict)
+ExtendableCookieChangeEvent/ExtendableCookieChangeEvent(type)
+ExtendableCookieChangeEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -1942,6 +2456,19 @@ XRSessionEvent/constructor(type, eventInitDict)
 eventInitDict
 eventInitDict
 argument
+webxr
+webxr
+1
+current
+https://immersive-web.github.io/webxr/#dom-xrvisibilitymaskchangeevent-xrvisibilitymaskchangeevent-type-eventinitdict-eventinitdict
+1
+1
+XRVisibilityMaskChangeEvent/XRVisibilityMaskChangeEvent(type, eventInitDict)
+XRVisibilityMaskChangeEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
 notifications
 notifications
 1
@@ -2024,6 +2551,21 @@ InstallEvent/InstallEvent(type, eventInitDict)
 InstallEvent/constructor(type, eventInitDict)
 InstallEvent/InstallEvent(type)
 InstallEvent/constructor(type)
+-
+eventInitDict
+eventInitDict
+argument
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent-type-eventinitdict-eventinitdict
+1
+1
+ClipboardChangeEvent/ClipboardChangeEvent(type, eventInitDict)
+ClipboardChangeEvent/constructor(type, eventInitDict)
+ClipboardChangeEvent/ClipboardChangeEvent(type)
+ClipboardChangeEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -2163,21 +2705,6 @@ uievents
 uievents
 1
 current
-https://w3c.github.io/uievents/#dom-mouseevent-mouseevent-type-eventinitdict-eventinitdict
-1
-1
-MouseEvent/MouseEvent(type, eventInitDict)
-MouseEvent/constructor(type, eventInitDict)
-MouseEvent/MouseEvent(type)
-MouseEvent/constructor(type)
--
-eventInitDict
-eventInitDict
-argument
-uievents
-uievents
-1
-current
 https://w3c.github.io/uievents/#dom-uievent-uievent-type-eventinitdict-eventinitdict
 1
 1
@@ -2185,21 +2712,6 @@ UIEvent/UIEvent(type, eventInitDict)
 UIEvent/constructor(type, eventInitDict)
 UIEvent/UIEvent(type)
 UIEvent/constructor(type)
--
-eventInitDict
-eventInitDict
-argument
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-wheelevent-wheelevent-type-eventinitdict-eventinitdict
-1
-1
-WheelEvent/WheelEvent(type, eventInitDict)
-WheelEvent/constructor(type, eventInitDict)
-WheelEvent/WheelEvent(type)
-WheelEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -2232,7 +2744,7 @@ SFrameTransformErrorEvent/constructor(type, eventInitDict)
 eventInitDict
 eventInitDict
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2245,22 +2757,20 @@ AudioProcessingEvent/constructor(type, eventInitDict)
 eventInitDict
 eventInitDict
 argument
-webaudio
+webaudio-1.1
 webaudio
 1
 current
-https://webaudio.github.io/web-audio-api/#dom-audiorendercapacityevent-audiorendercapacityevent-type-eventinitdict-eventinitdict
+https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-audioprocessingevent-type-eventinitdict-eventinitdict
 1
 1
-AudioRenderCapacityEvent/AudioRenderCapacityEvent(type, eventInitDict)
-AudioRenderCapacityEvent/constructor(type, eventInitDict)
-AudioRenderCapacityEvent/AudioRenderCapacityEvent(type)
-AudioRenderCapacityEvent/constructor(type)
+AudioProcessingEvent/AudioProcessingEvent(type, eventInitDict)
+AudioProcessingEvent/constructor(type, eventInitDict)
 -
 eventInitDict
 eventInitDict
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2269,6 +2779,71 @@ https://webaudio.github.io/web-audio-api/#dom-offlineaudiocompletionevent-offlin
 1
 OfflineAudioCompletionEvent/OfflineAudioCompletionEvent(type, eventInitDict)
 OfflineAudioCompletionEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-offlineaudiocompletionevent-offlineaudiocompletionevent-type-eventinitdict-eventinitdict
+1
+1
+OfflineAudioCompletionEvent/OfflineAudioCompletionEvent(type, eventInitDict)
+OfflineAudioCompletionEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionerrorevent-speechrecognitionerrorevent-type-eventinitdict-eventinitdict
+1
+1
+SpeechRecognitionErrorEvent/SpeechRecognitionErrorEvent(type, eventInitDict)
+SpeechRecognitionErrorEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionevent-speechrecognitionevent-type-eventinitdict-eventinitdict
+1
+1
+SpeechRecognitionEvent/SpeechRecognitionEvent(type, eventInitDict)
+SpeechRecognitionEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesiserrorevent-speechsynthesiserrorevent-type-eventinitdict-eventinitdict
+1
+1
+SpeechSynthesisErrorEvent/SpeechSynthesisErrorEvent(type, eventInitDict)
+SpeechSynthesisErrorEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisevent-speechsynthesisevent-type-eventinitdict-eventinitdict
+1
+1
+SpeechSynthesisEvent/SpeechSynthesisEvent(type, eventInitDict)
+SpeechSynthesisEvent/constructor(type, eventInitDict)
 -
 eventInitDict
 eventInitDict
@@ -2288,32 +2863,17 @@ CloseEvent/constructor(type)
 eventInitDict
 eventInitDict
 argument
-cookie-store
-cookie-store
+autofill-event
+autofill-event
 1
 current
-https://wicg.github.io/cookie-store/#dom-cookiechangeevent-cookiechangeevent-type-eventinitdict-eventinitdict
+https://wicg.github.io/autofill-event/#dom-autofillevent-autofillevent-type-eventinitdict-eventinitdict
 1
 1
-CookieChangeEvent/CookieChangeEvent(type, eventInitDict)
-CookieChangeEvent/constructor(type, eventInitDict)
-CookieChangeEvent/CookieChangeEvent(type)
-CookieChangeEvent/constructor(type)
--
-eventInitDict
-eventInitDict
-argument
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-extendablecookiechangeevent-extendablecookiechangeevent-type-eventinitdict-eventinitdict
-1
-1
-ExtendableCookieChangeEvent/ExtendableCookieChangeEvent(type, eventInitDict)
-ExtendableCookieChangeEvent/constructor(type, eventInitDict)
-ExtendableCookieChangeEvent/ExtendableCookieChangeEvent(type)
-ExtendableCookieChangeEvent/constructor(type)
+AutofillEvent/AutofillEvent(type, eventInitDict)
+AutofillEvent/constructor(type, eventInitDict)
+AutofillEvent/AutofillEvent(type)
+AutofillEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -2342,58 +2902,6 @@ PortalActivateEvent/PortalActivateEvent(type, eventInitDict)
 PortalActivateEvent/constructor(type, eventInitDict)
 PortalActivateEvent/PortalActivateEvent(type)
 PortalActivateEvent/constructor(type)
--
-eventInitDict
-eventInitDict
-argument
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#dom-speechrecognitionerrorevent-speechrecognitionerrorevent-type-eventinitdict-eventinitdict
-1
-1
-SpeechRecognitionErrorEvent/SpeechRecognitionErrorEvent(type, eventInitDict)
-SpeechRecognitionErrorEvent/constructor(type, eventInitDict)
--
-eventInitDict
-eventInitDict
-argument
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#dom-speechrecognitionevent-speechrecognitionevent-type-eventinitdict-eventinitdict
-1
-1
-SpeechRecognitionEvent/SpeechRecognitionEvent(type, eventInitDict)
-SpeechRecognitionEvent/constructor(type, eventInitDict)
--
-eventInitDict
-eventInitDict
-argument
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#dom-speechsynthesiserrorevent-speechsynthesiserrorevent-type-eventinitdict-eventinitdict
-1
-1
-SpeechSynthesisErrorEvent/SpeechSynthesisErrorEvent(type, eventInitDict)
-SpeechSynthesisErrorEvent/constructor(type, eventInitDict)
--
-eventInitDict
-eventInitDict
-argument
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#dom-speechsynthesisevent-speechsynthesisevent-type-eventinitdict-eventinitdict
-1
-1
-SpeechSynthesisEvent/SpeechSynthesisEvent(type, eventInitDict)
-SpeechSynthesisEvent/constructor(type, eventInitDict)
 -
 eventInitDict
 eventInitDict
@@ -2437,6 +2945,21 @@ IDBVersionChangeEvent/IDBVersionChangeEvent(type, eventInitDict)
 IDBVersionChangeEvent/constructor(type, eventInitDict)
 IDBVersionChangeEvent/IDBVersionChangeEvent(type)
 IDBVersionChangeEvent/constructor(type)
+-
+eventInitDict
+eventInitDict
+argument
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent-type-eventinitdict-eventinitdict
+1
+1
+ClipboardChangeEvent/ClipboardChangeEvent(type, eventInitDict)
+ClipboardChangeEvent/constructor(type, eventInitDict)
+ClipboardChangeEvent/ClipboardChangeEvent(type)
+ClipboardChangeEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -2522,6 +3045,9 @@ https://www.w3.org/TR/cssom-view-1/#dom-mediaquerylistevent-mediaquerylistevent-
 1
 1
 MediaQueryListEvent/MediaQueryListEvent(type, eventInitDict)
+MediaQueryListEvent/constructor(type, eventInitDict)
+MediaQueryListEvent/MediaQueryListEvent(type)
+MediaQueryListEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -2625,6 +3151,21 @@ FetchEvent/constructor(type, eventInitDict)
 eventInitDict
 eventInitDict
 argument
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dom-installevent-installevent-type-eventinitdict-eventinitdict
+1
+1
+InstallEvent/InstallEvent(type, eventInitDict)
+InstallEvent/constructor(type, eventInitDict)
+InstallEvent/InstallEvent(type)
+InstallEvent/constructor(type)
+-
+eventInitDict
+eventInitDict
+argument
 uievents
 uievents
 1
@@ -2689,21 +3230,6 @@ uievents
 uievents
 1
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-mouseevent-type-eventinitdict-eventinitdict
-1
-1
-MouseEvent/MouseEvent(type, eventInitDict)
-MouseEvent/constructor(type, eventInitDict)
-MouseEvent/MouseEvent(type)
-MouseEvent/constructor(type)
--
-eventInitDict
-eventInitDict
-argument
-uievents
-uievents
-1
-snapshot
 https://www.w3.org/TR/uievents/#dom-uievent-uievent-type-eventinitdict-eventinitdict
 1
 1
@@ -2711,21 +3237,6 @@ UIEvent/UIEvent(type, eventInitDict)
 UIEvent/constructor(type, eventInitDict)
 UIEvent/UIEvent(type)
 UIEvent/constructor(type)
--
-eventInitDict
-eventInitDict
-argument
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-wheelevent-wheelevent-type-eventinitdict-eventinitdict
-1
-1
-WheelEvent/WheelEvent(type, eventInitDict)
-WheelEvent/constructor(type, eventInitDict)
-WheelEvent/WheelEvent(type)
-WheelEvent/constructor(type)
 -
 eventInitDict
 eventInitDict
@@ -2760,11 +3271,11 @@ AnimationPlaybackEvent/constructor(type)
 eventInitDict
 eventInitDict
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioprocessingevent-audioprocessingevent-type-eventinitdict-eventinitdict
+https://www.w3.org/TR/webaudio-1.0/#dom-audioprocessingevent-audioprocessingevent-type-eventinitdict-eventinitdict
 1
 1
 AudioProcessingEvent/AudioProcessingEvent(type, eventInitDict)
@@ -2773,11 +3284,52 @@ AudioProcessingEvent/constructor(type, eventInitDict)
 eventInitDict
 eventInitDict
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-offlineaudiocompletionevent-offlineaudiocompletionevent-type-eventinitdict-eventinitdict
+https://www.w3.org/TR/webaudio-1.0/#dom-offlineaudiocompletionevent-offlineaudiocompletionevent-type-eventinitdict-eventinitdict
+1
+1
+OfflineAudioCompletionEvent/OfflineAudioCompletionEvent(type, eventInitDict)
+OfflineAudioCompletionEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioprocessingevent-audioprocessingevent-type-eventinitdict-eventinitdict
+1
+1
+AudioProcessingEvent/AudioProcessingEvent(type, eventInitDict)
+AudioProcessingEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiorendercapacityevent-audiorendercapacityevent-type-eventinitdict-eventinitdict
+1
+1
+AudioRenderCapacityEvent/AudioRenderCapacityEvent(type, eventInitDict)
+AudioRenderCapacityEvent/constructor(type, eventInitDict)
+AudioRenderCapacityEvent/AudioRenderCapacityEvent(type)
+AudioRenderCapacityEvent/constructor(type)
+-
+eventInitDict
+eventInitDict
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-offlineaudiocompletionevent-offlineaudiocompletionevent-type-eventinitdict-eventinitdict
 1
 1
 OfflineAudioCompletionEvent/OfflineAudioCompletionEvent(type, eventInitDict)
@@ -2851,6 +3403,19 @@ XRSessionEvent/constructor(type, eventInitDict)
 eventInitDict
 eventInitDict
 argument
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#dom-xrvisibilitymaskchangeevent-xrvisibilitymaskchangeevent-type-eventinitdict-eventinitdict
+1
+1
+XRVisibilityMaskChangeEvent/XRVisibilityMaskChangeEvent(type, eventInitDict)
+XRVisibilityMaskChangeEvent/constructor(type, eventInitDict)
+-
+eventInitDict
+eventInitDict
+argument
 webxrlayers-1
 webxrlayers
 1
@@ -2888,18 +3453,6 @@ https://dom.spec.whatwg.org/#dom-event-eventphase
 1
 Event
 -
-eventSourceEligible
-eventSourceEligible
-dict-member
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#dom-attributionreportingrequestoptions-eventsourceeligible
-1
-1
-AttributionReportingRequestOptions
--
 eventState
 eventState
 dict-member
@@ -2919,10 +3472,9 @@ event-timing
 event-timing
 1
 current
-https://w3c.github.io/event-timing/#performanceeventtiming-eventtarget
+https://w3c.github.io/event-timing/#eventtarget
 
 1
-PerformanceEventTiming
 -
 eventtarget
 eventTarget
@@ -2931,10 +3483,9 @@ event-timing
 event-timing
 1
 snapshot
-https://www.w3.org/TR/event-timing/#performanceeventtiming-eventtarget
+https://www.w3.org/TR/event-timing/#eventtarget
 
 1
-PerformanceEventTiming
 -
 eventType
 eventType
@@ -2948,64 +3499,29 @@ https://wicg.github.io/fenced-frame/#dom-fenceevent-eventtype
 1
 FenceEvent
 -
-event_level_epsilon
-event_level_epsilon
-dfn
-attribution-reporting-api
-attribution-reporting-api
+events
+events
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-event_level_epsilon
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionsubscribeparameters-events
 
 1
-source-registration JSON key
--
-event_report_window
-event_report_window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-event_report_window
-
-1
-source-registration JSON key
--
-event_report_windows
-event_report_windows
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-event_report_windows
-
-1
-source-registration JSON key
--
-event_trigger_data
-event_trigger_data
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#trigger-registration-json-key-event_trigger_data
-
-1
-trigger-registration JSON key
+session.SubscribeParameters
 -
 events
 events
-dfn
-svg-aam-1.0
-svg-aam
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/svg-aam/#dfn-event
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionunsubscribebyattributesrequest-events
 
-
+1
+session.UnsubscribeByAttributesRequest
 -
 events
 events
@@ -3032,17 +3548,6 @@ https://www.w3.org/TR/graphics-aria-1.0/#dfn-event
 events
 events
 dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-event
-
-1
--
-events
-events
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -3050,6 +3555,74 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-event
 
 
+-
+events
+events
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionsubscribeparameters-events
+
+1
+session.SubscribeParameters
+-
+events
+events
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionunsubscribebyattributesrequest-events
+
+1
+session.UnsubscribeByAttributesRequest
+-
+events-from-layout-changes
+events-from-layout-changes
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-events-from-layout-changes
+
+1
+-
+events-from-layout-changes
+events-from-layout-changes
+dfn
+pointerevents3
+pointerevents
+3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-events-from-layout-changes
+
+1
+-
+events-from-layout-changes
+events-from-layout-changes
+dfn
+pointerevents3
+pointerevents
+3
+snapshot
+https://www.w3.org/TR/pointerevents3/#dfn-events-from-layout-changes
+
+1
+-
+events-from-layout-changes
+events-from-layout-changes
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-events-from-layout-changes
+
+1
 -
 eventual snap target
 eventual snap target
@@ -3083,6 +3656,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#document-state-ever-populated
 
 1
+document state
 -
 every(callback, thisArg)
 every(callback, thisArg)
@@ -3147,7 +3721,7 @@ Observable
 evidence
 evidence
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -3161,8 +3735,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#defn-evidence
+1
+1
+-
+evidence
+evidence
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#defn-evidence
+1
+1
+-
+evidence
+evidence
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#defn-evidence
 1
 1
 -

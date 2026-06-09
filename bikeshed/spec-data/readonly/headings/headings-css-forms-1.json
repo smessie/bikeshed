@@ -2,169 +2,867 @@
   "#abstract": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Abstract",
       "url": "https://drafts.csswg.org/css-forms-1/#abstract"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Abstract",
+      "url": "https://www.w3.org/TR/css-forms-1/#abstract"
     }
   },
-  "#conformance": {
+  "#acknowledgements": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
-      "text": "Conformance",
-      "url": "https://drafts.csswg.org/css-forms-1/#conformance"
+      "spec": "CSS Form Control Styling 1",
+      "text": "Acknowledgements",
+      "url": "https://drafts.csswg.org/css-forms-1/#acknowledgements"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Acknowledgements",
+      "url": "https://www.w3.org/TR/css-forms-1/#acknowledgements"
+    }
+  },
+  "#appearance": {
+    "current": {
+      "number": "2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Opting Into Basic Appearance: the appearance: base value",
+      "url": "https://drafts.csswg.org/css-forms-1/#appearance"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Opting Into Basic Appearance: the appearance: base value",
+      "url": "https://www.w3.org/TR/css-forms-1/#appearance"
+    }
+  },
+  "#basic-appearance-principles": {
+    "current": {
+      "number": "2.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Design Principles for the Basic Appearance",
+      "url": "https://drafts.csswg.org/css-forms-1/#basic-appearance-principles"
+    },
+    "snapshot": {
+      "number": "2.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Design Principles for the Basic Appearance",
+      "url": "https://www.w3.org/TR/css-forms-1/#basic-appearance-principles"
+    }
+  },
+  "#basic-appearance-stylesheet": {
+    "current": {
+      "number": "A",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Basic Appearance User Agent Stylesheet",
+      "url": "https://drafts.csswg.org/css-forms-1/#basic-appearance-stylesheet"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Basic Appearance User Agent Stylesheet",
+      "url": "https://www.w3.org/TR/css-forms-1/#basic-appearance-stylesheet"
+    }
+  },
+  "#changes": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Changes",
+      "url": "https://drafts.csswg.org/css-forms-1/#changes"
+    }
+  },
+  "#changes-20250325": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Since the First Public Working Draft of 25 March 2025",
+      "url": "https://drafts.csswg.org/css-forms-1/#changes-20250325"
+    }
+  },
+  "#checkmark": {
+    "current": {
+      "number": "4.3",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Checkmarks: the ::checkmark pseudo-element",
+      "url": "https://drafts.csswg.org/css-forms-1/#checkmark"
+    },
+    "snapshot": {
+      "number": "4.3",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Checkmarks: the ::checkmark pseudo-element",
+      "url": "https://www.w3.org/TR/css-forms-1/#checkmark"
+    }
+  },
+  "#color-swatch-pseudo": {
+    "current": {
+      "number": "4.9",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Color Swatch: the ::color-swatch pseudo-element",
+      "url": "https://drafts.csswg.org/css-forms-1/#color-swatch-pseudo"
+    },
+    "snapshot": {
+      "number": "4.9",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Color Swatch: the ::color-swatch pseudo-element",
+      "url": "https://www.w3.org/TR/css-forms-1/#color-swatch-pseudo"
+    }
+  },
+  "#colors": {
+    "current": {
+      "number": "2.2.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Default User Agent Colors",
+      "url": "https://drafts.csswg.org/css-forms-1/#colors"
+    },
+    "snapshot": {
+      "number": "2.2.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Default User Agent Colors",
+      "url": "https://www.w3.org/TR/css-forms-1/#colors"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-forms-1/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-forms-1/#toc"
+    }
+  },
+  "#control-value": {
+    "current": {
+      "number": "6",
+      "spec": "CSS Form Control Styling 1",
+      "text": "The control-value() function",
+      "url": "https://drafts.csswg.org/css-forms-1/#control-value"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "CSS Form Control Styling 1",
+      "text": "The control-value() function",
+      "url": "https://www.w3.org/TR/css-forms-1/#control-value"
+    }
+  },
+  "#custom": {
+    "current": {
+      "number": "2.2.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Color/Font Customization",
+      "url": "https://drafts.csswg.org/css-forms-1/#custom"
+    },
+    "snapshot": {
+      "number": "2.2.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Color/Font Customization",
+      "url": "https://www.w3.org/TR/css-forms-1/#custom"
     }
   },
   "#date-examples": {
-    "current": {
-      "number": "4.2",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Date Pickers",
-      "url": "https://drafts.csswg.org/css-forms-1/#date-examples"
+      "url": "https://www.w3.org/TR/css-forms-1/#date-examples"
     }
   },
-  "#examples": {
+  "#date-time-pseudos": {
     "current": {
-      "number": "4",
-      "spec": "CSS Form Styling 1",
-      "text": "Input UI Examples",
-      "url": "https://drafts.csswg.org/css-forms-1/#examples"
+      "number": "4.8",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for Date/Time Input Fields: the ::field-component and ::field-separator pseudo-elements",
+      "url": "https://drafts.csswg.org/css-forms-1/#date-time-pseudos"
+    },
+    "snapshot": {
+      "number": "4.8",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for Date/Time Input Fields: the ::field-component and ::field-separator pseudo-elements",
+      "url": "https://www.w3.org/TR/css-forms-1/#date-time-pseudos"
+    }
+  },
+  "#ex-appearance": {
+    "current": {
+      "number": "2.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Examples",
+      "url": "https://drafts.csswg.org/css-forms-1/#ex-appearance"
+    },
+    "snapshot": {
+      "number": "2.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Examples",
+      "url": "https://www.w3.org/TR/css-forms-1/#ex-appearance"
+    }
+  },
+  "#explorations": {
+    "snapshot": {
+      "number": "B",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Explorations",
+      "url": "https://www.w3.org/TR/css-forms-1/#explorations"
+    }
+  },
+  "#field-pseudos": {
+    "current": {
+      "number": "4.5",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for Text Fields: the ::placeholder, ::field-text, ::reveal-icon, and ::clear-icon pseudo-elements",
+      "url": "https://drafts.csswg.org/css-forms-1/#field-pseudos"
+    },
+    "snapshot": {
+      "number": "4.5",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for Text Fields: the ::field-text and ::clear-icon pseudo-elements",
+      "url": "https://www.w3.org/TR/css-forms-1/#field-pseudos"
+    }
+  },
+  "#field-sizing": {
+    "current": {
+      "number": "7.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Switching form control sizing: the field-sizing property",
+      "url": "https://drafts.csswg.org/css-forms-1/#field-sizing"
+    }
+  },
+  "#fieldset-layout": {
+    "current": {
+      "number": "7.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Fieldset layout",
+      "url": "https://drafts.csswg.org/css-forms-1/#fieldset-layout"
+    }
+  },
+  "#file-selector-button-pseudo": {
+    "current": {
+      "number": "4.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "File Selector Button: the ::file-selector-button pseudo-element",
+      "url": "https://drafts.csswg.org/css-forms-1/#file-selector-button-pseudo"
+    },
+    "snapshot": {
+      "number": "4.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "File Selector Button: the ::file-selector-button pseudo-element",
+      "url": "https://www.w3.org/TR/css-forms-1/#file-selector-button-pseudo"
     }
   },
   "#ideas": {
-    "current": {
-      "number": "2",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Basic Styling Proposals",
-      "url": "https://drafts.csswg.org/css-forms-1/#ideas"
+      "url": "https://www.w3.org/TR/css-forms-1/#ideas"
     }
   },
   "#index": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Index",
       "url": "https://drafts.csswg.org/css-forms-1/#index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Index",
+      "url": "https://www.w3.org/TR/css-forms-1/#index"
     }
   },
   "#index-defined-elsewhere": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Terms defined by reference",
       "url": "https://drafts.csswg.org/css-forms-1/#index-defined-elsewhere"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Terms defined by reference",
+      "url": "https://www.w3.org/TR/css-forms-1/#index-defined-elsewhere"
     }
   },
   "#index-defined-here": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Terms defined by this specification",
       "url": "https://drafts.csswg.org/css-forms-1/#index-defined-here"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Terms defined by this specification",
+      "url": "https://www.w3.org/TR/css-forms-1/#index-defined-here"
+    }
+  },
+  "#input-security": {
+    "current": {
+      "number": "7.4",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Obscuring sensitive input: the input-security property",
+      "url": "https://drafts.csswg.org/css-forms-1/#input-security"
+    }
+  },
+  "#intro": {
+    "current": {
+      "number": "1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Introduction",
+      "url": "https://drafts.csswg.org/css-forms-1/#intro"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/css-forms-1/#intro"
     }
   },
   "#inverse-system": {
-    "current": {
-      "number": "2.2",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Inverse System Colors",
-      "url": "https://drafts.csswg.org/css-forms-1/#inverse-system"
+      "url": "https://www.w3.org/TR/css-forms-1/#inverse-system"
     }
   },
   "#issues-index": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Issues Index",
       "url": "https://drafts.csswg.org/css-forms-1/#issues-index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Issues Index",
+      "url": "https://www.w3.org/TR/css-forms-1/#issues-index"
+    }
+  },
+  "#meter-values": {
+    "current": {
+      "number": "5.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Targeting Different Meter States: the :low-value / :high-value / :optimal-value pseudo-classes",
+      "url": "https://drafts.csswg.org/css-forms-1/#meter-values"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Targeting Different Meter States: the :low-value / :high-value / :optimal-value pseudo-classes",
+      "url": "https://www.w3.org/TR/css-forms-1/#meter-values"
     }
   },
   "#misc": {
-    "current": {
-      "number": "3",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Miscellaneous Control-Specific Suggestions",
-      "url": "https://drafts.csswg.org/css-forms-1/#misc"
+      "url": "https://www.w3.org/TR/css-forms-1/#misc"
     }
   },
   "#normative": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Normative References",
       "url": "https://drafts.csswg.org/css-forms-1/#normative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Normative References",
+      "url": "https://www.w3.org/TR/css-forms-1/#normative"
+    }
+  },
+  "#number-pseudos": {
+    "current": {
+      "number": "4.7",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for Number Fields: the ::step-control, ::step-up and ::step-down pseudo-elements",
+      "url": "https://drafts.csswg.org/css-forms-1/#number-pseudos"
+    },
+    "snapshot": {
+      "number": "4.7",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for Number Fields: the ::step-control, ::step-up and ::step-down pseudo-elements",
+      "url": "https://www.w3.org/TR/css-forms-1/#number-pseudos"
+    }
+  },
+  "#picker-icon": {
+    "current": {
+      "number": "4.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Picker Opener Icon: the ::picker-icon pseudo-element",
+      "url": "https://drafts.csswg.org/css-forms-1/#picker-icon"
+    },
+    "snapshot": {
+      "number": "4.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Picker Opener Icon: the ::picker-icon pseudo-element",
+      "url": "https://www.w3.org/TR/css-forms-1/#picker-icon"
     }
   },
   "#picker-pseudo": {
     "current": {
-      "number": "1.1",
-      "spec": "CSS Form Styling 1",
-      "text": "Styling form control pickers: the ::picker() pseudo-element",
+      "number": "3.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "The ::picker() pseudo-element",
       "url": "https://drafts.csswg.org/css-forms-1/#picker-pseudo"
+    },
+    "snapshot": {
+      "number": "3.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "The ::picker() pseudo-element",
+      "url": "https://www.w3.org/TR/css-forms-1/#picker-pseudo"
     }
   },
-  "#profile-and-date": {
+  "#pickers": {
+    "current": {
+      "number": "3",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Pickers",
+      "url": "https://drafts.csswg.org/css-forms-1/#pickers"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Pickers",
+      "url": "https://www.w3.org/TR/css-forms-1/#pickers"
+    }
+  },
+  "#privacy": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
-      "text": "A Collection of Interesting Ideas, 15 October 2024",
-      "url": "https://drafts.csswg.org/css-forms-1/#profile-and-date"
+      "spec": "CSS Form Control Styling 1",
+      "text": "Privacy Considerations",
+      "url": "https://drafts.csswg.org/css-forms-1/#privacy"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Privacy Considerations",
+      "url": "https://www.w3.org/TR/css-forms-1/#privacy"
+    }
+  },
+  "#property-index": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Property Index",
+      "url": "https://drafts.csswg.org/css-forms-1/#property-index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Property Index",
+      "url": "https://www.w3.org/TR/css-forms-1/#property-index"
     }
   },
   "#prototypes": {
-    "current": {
-      "number": "2.1",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Prototypes",
-      "url": "https://drafts.csswg.org/css-forms-1/#prototypes"
+      "url": "https://www.w3.org/TR/css-forms-1/#prototypes"
     }
   },
-  "#pseudos": {
+  "#pseudo-classes": {
     "current": {
-      "number": "1",
-      "spec": "CSS Form Styling 1",
-      "text": "New Pseudo-Elements",
-      "url": "https://drafts.csswg.org/css-forms-1/#pseudos"
+      "number": "5",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Pseudo-Classes",
+      "url": "https://drafts.csswg.org/css-forms-1/#pseudo-classes"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Pseudo-Classes",
+      "url": "https://www.w3.org/TR/css-forms-1/#pseudo-classes"
+    }
+  },
+  "#pseudo-elements": {
+    "current": {
+      "number": "4",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Pseudo-Elements",
+      "url": "https://drafts.csswg.org/css-forms-1/#pseudo-elements"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Pseudo-Elements",
+      "url": "https://www.w3.org/TR/css-forms-1/#pseudo-elements"
     }
   },
   "#references": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "References",
       "url": "https://drafts.csswg.org/css-forms-1/#references"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "References",
+      "url": "https://www.w3.org/TR/css-forms-1/#references"
+    }
+  },
+  "#security": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Security Considerations",
+      "url": "https://drafts.csswg.org/css-forms-1/#security"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Security Considerations",
+      "url": "https://www.w3.org/TR/css-forms-1/#security"
     }
   },
   "#select-dropdown": {
-    "current": {
-      "number": "3.1",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Select/Datalist Dropdown",
-      "url": "https://drafts.csswg.org/css-forms-1/#select-dropdown"
+      "url": "https://www.w3.org/TR/css-forms-1/#select-dropdown"
+    }
+  },
+  "#selects-listboxes": {
+    "current": {
+      "number": "5.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Targeting Selects that are Listboxes",
+      "url": "https://drafts.csswg.org/css-forms-1/#selects-listboxes"
+    },
+    "snapshot": {
+      "number": "5.2",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Targeting Selects that are Listboxes",
+      "url": "https://www.w3.org/TR/css-forms-1/#selects-listboxes"
+    }
+  },
+  "#slider-orientation": {
+    "current": {
+      "number": "7.3",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Changing the Orientation of a Slider-Like Control: slider-orientation",
+      "url": "https://drafts.csswg.org/css-forms-1/#slider-orientation"
+    },
+    "snapshot": {
+      "number": "7.1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Changing the Orientation of a Slider-Like Control: slider-orientation",
+      "url": "https://www.w3.org/TR/css-forms-1/#slider-orientation"
+    }
+  },
+  "#slider-pseudos": {
+    "current": {
+      "number": "4.4",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts of Slider-Like Controls: the ::slider-thumb, ::slider-track and ::slider-fill pseudo-elements",
+      "url": "https://drafts.csswg.org/css-forms-1/#slider-pseudos"
+    },
+    "snapshot": {
+      "number": "4.4",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts of Slider-Like Controls: the ::thumb, ::track and ::fill pseudo-elements",
+      "url": "https://www.w3.org/TR/css-forms-1/#slider-pseudos"
+    }
+  },
+  "#sotd": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Status of this document",
+      "url": "https://drafts.csswg.org/css-forms-1/#sotd"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Status of this document",
+      "url": "https://www.w3.org/TR/css-forms-1/#sotd"
+    }
+  },
+  "#stylesheet-basics": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Basics",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-basics"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Basics",
+      "url": "https://www.w3.org/TR/css-forms-1/#stylesheet-basics"
+    }
+  },
+  "#stylesheet-button": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Buttons (and button-like controls)",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-button"
+    }
+  },
+  "#stylesheet-checkbox-radio": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Checkboxes & radios",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-checkbox-radio"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Checkboxes & radios",
+      "url": "https://www.w3.org/TR/css-forms-1/#stylesheet-checkbox-radio"
+    }
+  },
+  "#stylesheet-color": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Color Input",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-color"
+    }
+  },
+  "#stylesheet-layout": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Layout",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-layout"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Layout",
+      "url": "https://www.w3.org/TR/css-forms-1/#stylesheet-layout"
+    }
+  },
+  "#stylesheet-select": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Selects",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-select"
+    }
+  },
+  "#stylesheet-select-button": {
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Selects & buttons",
+      "url": "https://www.w3.org/TR/css-forms-1/#stylesheet-select-button"
+    }
+  },
+  "#stylesheet-sliders": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Sliders",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-sliders"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Sliders",
+      "url": "https://www.w3.org/TR/css-forms-1/#stylesheet-sliders"
+    }
+  },
+  "#stylesheet-text-inputs": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Text inputs",
+      "url": "https://drafts.csswg.org/css-forms-1/#stylesheet-text-inputs"
+    }
+  },
+  "#styling-widgets": {
+    "current": {
+      "number": "7",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Widgets",
+      "url": "https://drafts.csswg.org/css-forms-1/#styling-widgets"
+    },
+    "snapshot": {
+      "number": "7",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Widgets",
+      "url": "https://www.w3.org/TR/css-forms-1/#styling-widgets"
+    }
+  },
+  "#textarea-pseudos": {
+    "current": {
+      "number": "4.6",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for textareas: the ::placeholder and ::field-text pseudo-elements",
+      "url": "https://drafts.csswg.org/css-forms-1/#textarea-pseudos"
+    },
+    "snapshot": {
+      "number": "4.6",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Styling Parts for textareas: the ::placeholder and ::field-text pseudo-elements",
+      "url": "https://www.w3.org/TR/css-forms-1/#textarea-pseudos"
     }
   },
   "#time-examples": {
-    "current": {
-      "number": "4.1",
-      "spec": "CSS Form Styling 1",
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
       "text": "Time Pickers",
-      "url": "https://drafts.csswg.org/css-forms-1/#time-examples"
+      "url": "https://www.w3.org/TR/css-forms-1/#time-examples"
     }
   },
   "#title": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
-      "text": "CSS Form Styling Module Level 1",
+      "spec": "CSS Form Control Styling 1",
+      "text": "CSS Form Control Styling Module Level 1",
       "url": "https://drafts.csswg.org/css-forms-1/#title"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "CSS Form Control Styling Level 1",
+      "url": "https://www.w3.org/TR/css-forms-1/#title"
     }
   },
   "#toc": {
     "current": {
       "number": "",
-      "spec": "CSS Form Styling 1",
+      "spec": "CSS Form Control Styling 1",
       "text": "Table of Contents",
       "url": "https://drafts.csswg.org/css-forms-1/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-forms-1/#toc"
+    }
+  },
+  "#ui-examples": {
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Input UI Examples",
+      "url": "https://www.w3.org/TR/css-forms-1/#ui-examples"
+    }
+  },
+  "#vendor-pseudo-element-compatibility": {
+    "current": {
+      "number": "4.10",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Compatibility With Vendor Pseudo-Element Extensions",
+      "url": "https://drafts.csswg.org/css-forms-1/#vendor-pseudo-element-compatibility"
+    },
+    "snapshot": {
+      "number": "4.10",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Compatibility With Vendor Pseudo-Element Extensions",
+      "url": "https://www.w3.org/TR/css-forms-1/#vendor-pseudo-element-compatibility"
+    }
+  },
+  "#w3c-conform-future-proofing": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Implementations of Unstable and Proprietary Features",
+      "url": "https://drafts.csswg.org/css-forms-1/#w3c-conform-future-proofing"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Implementations of Unstable and Proprietary Features",
+      "url": "https://www.w3.org/TR/css-forms-1/#w3c-conform-future-proofing"
+    }
+  },
+  "#w3c-conformance": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Conformance",
+      "url": "https://drafts.csswg.org/css-forms-1/#w3c-conformance"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/css-forms-1/#w3c-conformance"
+    }
+  },
+  "#w3c-conformance-classes": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Conformance classes",
+      "url": "https://drafts.csswg.org/css-forms-1/#w3c-conformance-classes"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Conformance classes",
+      "url": "https://www.w3.org/TR/css-forms-1/#w3c-conformance-classes"
+    }
+  },
+  "#w3c-conventions": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Document conventions",
+      "url": "https://drafts.csswg.org/css-forms-1/#w3c-conventions"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Document conventions",
+      "url": "https://www.w3.org/TR/css-forms-1/#w3c-conventions"
+    }
+  },
+  "#w3c-partial": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Partial implementations",
+      "url": "https://drafts.csswg.org/css-forms-1/#w3c-partial"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Partial implementations",
+      "url": "https://www.w3.org/TR/css-forms-1/#w3c-partial"
+    }
+  },
+  "#w3c-testing": {
+    "current": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Non-experimental implementations",
+      "url": "https://drafts.csswg.org/css-forms-1/#w3c-testing"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Form Control Styling 1",
+      "text": "Non-experimental implementations",
+      "url": "https://www.w3.org/TR/css-forms-1/#w3c-testing"
     }
   }
 }

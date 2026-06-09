@@ -25,7 +25,7 @@
   },
   "#automatic-reporting": {
     "current": {
-      "number": "2.6",
+      "number": "2.8",
       "spec": "Fenced Frame",
       "text": "Automatic Reporting",
       "url": "https://wicg.github.io/fenced-frame/#automatic-reporting"
@@ -37,6 +37,14 @@
       "spec": "Fenced Frame",
       "text": "Browsing context group swap",
       "url": "https://wicg.github.io/fenced-frame/#bcg-swap"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Fenced Frame",
+      "text": "Table of Contents",
+      "url": "https://wicg.github.io/fenced-frame/#toc"
     }
   },
   "#coop-coep": {
@@ -53,6 +61,14 @@
       "spec": "Fenced Frame",
       "text": "Modifications to creating browsing contexts",
       "url": "https://wicg.github.io/fenced-frame/#creating-browsing-contexts-patch"
+    }
+  },
+  "#credentialless-monkeypatch": {
+    "current": {
+      "number": "4.5",
+      "spec": "Fenced Frame",
+      "text": "Iframe credentialless",
+      "url": "https://wicg.github.io/fenced-frame/#credentialless-monkeypatch"
     }
   },
   "#csp-algorithms": {
@@ -85,6 +101,14 @@
       "spec": "Fenced Frame",
       "text": "Dimension attributes",
       "url": "https://wicg.github.io/fenced-frame/#dimension-attributes"
+    }
+  },
+  "#disable-monkeypatches": {
+    "current": {
+      "number": "2.5",
+      "spec": "Fenced Frame",
+      "text": "Monkeypatches for network revocation",
+      "url": "https://wicg.github.io/fenced-frame/#disable-monkeypatches"
     }
   },
   "#document-extension": {
@@ -181,6 +205,14 @@
       "spec": "Fenced Frame",
       "text": "Modifications to the focusing algorithms",
       "url": "https://wicg.github.io/fenced-frame/#focusing-changes"
+    }
+  },
+  "#gating-methods-on-network-revocation": {
+    "current": {
+      "number": "2.7",
+      "spec": "Fenced Frame",
+      "text": "Gating methods on network revocation",
+      "url": "https://wicg.github.io/fenced-frame/#gating-methods-on-network-revocation"
     }
   },
   "#html-integration": {
@@ -321,7 +353,7 @@
   },
   "#new-request-destination": {
     "current": {
-      "number": "2.5",
+      "number": "2.6",
       "spec": "Fenced Frame",
       "text": "New request destination",
       "url": "https://wicg.github.io/fenced-frame/#new-request-destination"
@@ -359,9 +391,17 @@
       "url": "https://wicg.github.io/fenced-frame/#permissions-policy-changes"
     }
   },
-  "#permissions-policy-patches": {
+  "#permissions-policy-definitions": {
     "current": {
       "number": "4.3.1",
+      "spec": "Fenced Frame",
+      "text": "Definitions",
+      "url": "https://wicg.github.io/fenced-frame/#permissions-policy-definitions"
+    }
+  },
+  "#permissions-policy-patches": {
+    "current": {
+      "number": "4.3.2",
       "spec": "Fenced Frame",
       "text": "Algorithm patches",
       "url": "https://wicg.github.io/fenced-frame/#permissions-policy-patches"
@@ -445,6 +485,22 @@
       "spec": "Fenced Frame",
       "text": "Traversable navigables",
       "url": "https://wicg.github.io/fenced-frame/#traversable-navigables"
+    }
+  },
+  "#unfenced-top-navigation-target": {
+    "current": {
+      "number": "3.8.7",
+      "spec": "Fenced Frame",
+      "text": "The \"_unfencedTop\" navigation target",
+      "url": "https://wicg.github.io/fenced-frame/#unfenced-top-navigation-target"
+    }
+  },
+  "#webrtc-monkeypatch": {
+    "current": {
+      "number": "4.6",
+      "spec": "Fenced Frame",
+      "text": "WebRTC",
+      "url": "https://wicg.github.io/fenced-frame/#webrtc-monkeypatch"
     }
   },
   "#window-extension": {

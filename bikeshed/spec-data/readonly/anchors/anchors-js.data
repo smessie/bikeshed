@@ -55,6 +55,52 @@ https://mimesniff.spec.whatwg.org/#json-mime-type
 1
 1
 -
+json parse record
+JSON Parse Record
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-json-parse-record
+1
+1
+ECMAScript
+-
+json parse records
+JSON Parse Records
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-json-parse-record
+1
+1
+ECMAScript
+-
+json schema for a binding
+JSON Schema for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-json-schema-for-a-binding
+
+1
+-
+json schema for a binding
+JSON Schema for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-json-schema-for-a-binding
+
+1
+-
 json serialization record
 JSON Serialization Record
 dfn
@@ -78,6 +124,17 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-json-serialization-re
 1
 1
 ECMAScript
+-
+json array
+JSON array
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#type-json-array
+1
+1
 -
 json clone
 JSON clone
@@ -145,14 +202,25 @@ https://www.w3.org/TR/webdriver2/#dfn-json-deserialize
 
 1
 -
-json literal
-JSON literal
+json document
+JSON document
 dfn
-json-ld11
-json-ld
+yaml-ld-10
+yaml-ld
 1
 current
-https://w3c.github.io/json-ld-syntax/#dfn-json-literal
+https://w3c.github.io/yaml-ld/#dfn-json-document
+
+
+-
+json document
+JSON document
+dfn
+yaml-ld-10
+yaml-ld
+1
+snapshot
+https://www.w3.org/TR/yaml-ld-10/#dfn-json-document
 
 
 -
@@ -178,6 +246,17 @@ https://html.spec.whatwg.org/multipage/webappapis.html#json-module-script
 1
 1
 -
+json object
+JSON object
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#type-json-object
+1
+1
+-
 json serialization
 JSON serialization
 dfn
@@ -200,6 +279,94 @@ https://www.w3.org/TR/webdriver2/#dfn-json-serialization
 
 1
 -
+json session credential
+JSON session credential
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-credential
+
+1
+-
+json session credential
+JSON session credential
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-credential
+
+1
+-
+json session instructions
+JSON session instructions
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-instructions
+
+1
+-
+json session instructions
+JSON session instructions
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-instructions
+
+1
+-
+json session scope
+JSON session scope
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-scope
+
+1
+-
+json session scope
+JSON session scope
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-scope
+
+1
+-
+json session scope rule
+JSON session scope rule
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-scope-rule
+
+1
+-
+json session scope rule
+JSON session scope rule
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-scope-rule
+
+1
+-
 json type
 JSON type
 dfn
@@ -209,6 +376,39 @@ webidl
 current
 https://webidl.spec.whatwg.org/#dfn-json-types
 1
+1
+-
+json value
+JSON value
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#type-json-value
+1
+1
+-
+json-ld context for a binding
+JSON-LD Context for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-json-ld-context-for-a-binding
+
+1
+-
+json-ld context for a binding
+JSON-LD Context for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-json-ld-context-for-a-binding
+
 1
 -
 json-ld processor
@@ -250,17 +450,6 @@ dfn
 json-ld11
 json-ld
 1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-json-ld-document
-
-
--
-json-ld document
-JSON-LD document
-dfn
-json-ld11
-json-ld
-1
 snapshot
 https://www.w3.org/TR/json-ld11/#dfn-json-ld-document
 
@@ -272,30 +461,8 @@ dfn
 json-ld11-framing
 json-ld-framing
 1
-current
-https://w3c.github.io/json-ld-framing/#dfn-frame
-
-
--
-json-ld frame
-JSON-LD frame
-dfn
-json-ld11-framing
-json-ld-framing
-1
 snapshot
 https://www.w3.org/TR/json-ld11-framing/#dfn-frame
-
-
--
-json-ld input
-JSON-LD input
-dfn
-json-ld11-api
-json-ld-api
-1
-current
-https://w3c.github.io/json-ld-api/#dfn-json-ld-input
 
 
 -
@@ -321,17 +488,6 @@ https://www.w3.org/TR/json-ld11-api/#dfn-internal-representation
 
 
 -
-json-ld output
-JSON-LD output
-dfn
-json-ld11-api
-json-ld-api
-1
-current
-https://w3c.github.io/json-ld-api/#dfn-json-ld-output
-
-
--
 json-ld script element
 JSON-LD script element
 dfn
@@ -353,17 +509,6 @@ snapshot
 https://www.w3.org/TR/json-ld11-api/#dfn-json-ld-script-element
 
 1
--
-json-ld value
-JSON-LD value
-dfn
-json-ld11
-json-ld
-1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-json-ld-value
-
-
 -
 json-ld value
 JSON-LD value
@@ -399,6 +544,30 @@ https://www.w3.org/TR/webauthn-3/#collectedclientdata-json-compatible-serializat
 
 1
 CollectedClientData
+-
+JSTag
+JSTag
+attribute
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-jstag
+1
+1
+WebAssembly
+-
+JSTag
+JSTag
+attribute
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassembly-jstag
+1
+1
+WebAssembly
 -
 JsonLd
 JsonLd
@@ -768,23 +937,23 @@ https://www.w3.org/TR/json-ld11-framing/#dom-jsonldrecord
 JsonWebKey
 JsonWebKey
 dictionary
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-JsonWebKey
 1
 1
 -
-jsonwebkey
 JsonWebKey
-dfn
-webcryptoapi
-webcryptoapi
-1
+JsonWebKey
+dictionary
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-JsonWebKey
-
+https://www.w3.org/TR/webcrypto-2/#dfn-JsonWebKey
+1
 1
 -
 [[JsepMid]]
@@ -810,6 +979,94 @@ https://www.w3.org/TR/webrtc/#dfn-jsepmid
 
 1
 RTCRtpTransceiver
+-
+js-int
+js-int
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-js-int
+
+1
+-
+js-int
+js-int
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-js-int
+
+1
+-
+js-uint
+js-uint
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-js-uint
+
+1
+-
+js-uint
+js-uint
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-js-uint
+
+1
+-
+json schema
+json schema
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-json-schema
+
+
+-
+json schema
+json schema
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-json-schema
+
+
+-
+json schemas
+json schemas
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-json-schema
+
+
+-
+json schemas
+json schemas
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-json-schema
+
+
 -
 json()
 json()
@@ -870,17 +1127,6 @@ https://fetch.spec.whatwg.org/#dom-response-json
 1
 1
 Response
--
-json-ld processor
-json-ld processor
-dfn
-json-ld11-api
-json-ld-api
-1
-current
-https://w3c.github.io/json-ld-api/#dfn-json-ld-processor
-
-
 -
 json-ld processor
 json-ld processor

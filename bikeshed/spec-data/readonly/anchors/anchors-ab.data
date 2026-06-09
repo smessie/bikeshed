@@ -1,6 +1,18 @@
 "aborted"
 "aborted"
 enum-value
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionerrorcode-aborted
+1
+1
+SpeechRecognitionErrorCode
+-
+"aborted"
+"aborted"
+enum-value
 background-fetch
 background-fetch
 1
@@ -10,17 +22,29 @@ https://wicg.github.io/background-fetch/#dom-backgroundfetchfailurereason-aborte
 1
 BackgroundFetchFailureReason
 -
-"aborted"
-"aborted"
-enum-value
-speech-api
-speech-api
+"absent"
+"absent"
+cddl-value
+web-bluetooth
+web-bluetooth
 1
 current
-https://wicg.github.io/speech-api/#dom-speechrecognitionerrorcode-aborted
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulateadapterparameters-state-absent
+
+1
+bluetooth.SimulateAdapterParameters/state
+-
+"absent"
+"absent"
+enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnectionstate-absent
 1
 1
-SpeechRecognitionErrorCode
+SmartCardConnectionState
 -
 "absolute-url"
 "absolute-url"
@@ -29,7 +53,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-absolute-url-0
+https://w3c-cg.github.io/web-nfc/#dfn-absolute-url-0
 
 1
 -
@@ -58,11 +82,33 @@ https://www.w3.org/TR/mathml4/#contm_abs
 <absolute-size>
 <absolute-size>
 type
-css22
-css
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#typedef-absolute-size
 1
+1
+-
+<absolute-size>
+<absolute-size>
+type
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#value-def-absolute-size
+1
+1
+-
+<absolute-size>
+<absolute-size>
+type
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#typedef-absolute-size
 1
 1
 -
@@ -73,18 +119,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-board
-1
-1
--
-ab note
-AB Note
-dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#WGNote
+https://www.w3.org/policies/process/#advisory-board
 1
 1
 -
@@ -189,6 +224,28 @@ https://dom.spec.whatwg.org/#abortsignal
 1
 1
 -
+absolute d65 cie xyz
+Absolute D65 CIE XYZ
+dfn
+css-color-hdr-1
+css-color-hdr
+1
+current
+https://drafts.csswg.org/css-color-hdr-1/#absolute-d65-cie-xyz
+1
+1
+-
+absolute d65 cie xyz
+Absolute D65 CIE XYZ
+dfn
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#absolute-d65-cie-xyz
+1
+1
+-
 absolute orientation sensor
 Absolute Orientation Sensor
 dfn
@@ -197,7 +254,7 @@ orientation-sensor
 1
 current
 https://w3c.github.io/orientation-sensor/#absolute-orientation-sensor-type
-
+1
 1
 -
 absolute orientation sensor
@@ -208,15 +265,37 @@ orientation-sensor
 1
 snapshot
 https://www.w3.org/TR/orientation-sensor/#absolute-orientation-sensor-type
-
 1
+1
+-
+absolute uri
+Absolute URI
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-absolute-uri
+
+
+-
+absolute uri
+Absolute URI
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-absolute-uri
+
+
 -
 absolute length
 absolute length
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#absolute-length
 
@@ -434,7 +513,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#abstract-opdef-writablestreamcontroller-abortsteps
-1
+
 1
 WritableStreamController
 -
@@ -446,7 +525,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#ws-default-controller-private-abort
-1
+
 1
 WritableStreamDefaultController
 -
@@ -520,6 +599,72 @@ current
 https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element
 1
 1
+-
+abbreviation
+abbreviation
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-abbreviations
+
+
+-
+abbreviation
+abbreviation
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-abbreviation
+
+1
+-
+abbreviation
+abbreviation
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-abbreviations
+
+
+-
+abbreviation
+abbreviation
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-abbreviation
+
+1
+-
+abbreviations
+abbreviations
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-abbreviations
+
+
+-
+abbreviations
+abbreviations
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-abbreviations
+
+
 -
 able to retrieve and buffer data in an efficient way
 able to retrieve and buffer data in an efficient way
@@ -778,6 +923,17 @@ https://xhr.spec.whatwg.org/#event-xhr-abort
 1
 XMLHttpRequestEventTarget
 -
+abort a navigateevent
+abort a NavigateEvent
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#abort-a-navigateevent
+
+1
+-
 abort a document and its descendants
 abort a document and its descendants
 dfn
@@ -807,7 +963,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-abort-a-pending-make-read-only-operation
+https://w3c-cg.github.io/web-nfc/#dfn-abort-a-pending-make-read-only-operation
 
 1
 -
@@ -818,7 +974,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-abort-a-pending-write-operation
+https://w3c-cg.github.io/web-nfc/#dfn-abort-a-pending-write-operation
 
 1
 -
@@ -865,6 +1021,30 @@ current
 https://streams.spec.whatwg.org/#abort-a-writable-stream
 
 1
+-
+abort algorithm
+abort algorithm
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-abort-algorithm
+
+1
+credential request coordinator
+-
+abort algorithm
+abort algorithm
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-abort-algorithm
+
+1
+credential request coordinator
 -
 abort algorithms
 abort algorithms
@@ -970,17 +1150,77 @@ https://dom.spec.whatwg.org/#abortsignal-abort-reason
 1
 AbortSignal
 -
-abort reason
-abort reason
+abort receiving
+abort receiving
 dfn
-turtledove
-turtledove
+webtransport
+webtransport
 1
 current
-https://wicg.github.io/turtledove/#auction-config-abort-reason
+https://w3c.github.io/webtransport/#stream-abort-receiving
 
 1
-auction config
+stream
+-
+abort receiving
+abort receiving
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#stream-abort-receiving
+
+1
+stream
+-
+abort sending
+abort sending
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#stream-abort-sending
+
+1
+stream
+-
+abort sending
+abort sending
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#stream-abort-sending
+
+1
+stream
+-
+abort signal
+abort signal
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-abort-signal
+
+1
+credential request coordinator
+-
+abort signal
+abort signal
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-abort-signal
+
+1
+credential request coordinator
 -
 abort source
 abort source
@@ -1005,6 +1245,30 @@ https://wicg.github.io/scheduling-apis/#task-handle-abort-steps
 
 1
 task handle
+-
+abort the credential request
+abort the credential request
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-abort-the-credential-request
+
+1
+credential request coordinator
+-
+abort the credential request
+abort the credential request
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-abort-the-credential-request
+
+1
+credential request coordinator
 -
 abort the image request
 abort the image request
@@ -1215,6 +1479,18 @@ PaymentRequest
 abort()
 abort()
 method
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-abort
+1
+1
+SpeechRecognition
+-
+abort()
+abort()
+method
 background-fetch
 background-fetch
 1
@@ -1223,18 +1499,6 @@ https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-abort
 1
 1
 BackgroundFetchRegistration
--
-abort()
-abort()
-method
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#dom-speechrecognition-abort
-1
-1
-SpeechRecognition
 -
 abort()
 abort()
@@ -1407,18 +1671,6 @@ transaction
 aborted
 aborted
 dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-aborted
-
-1
-auction config
--
-aborted
-aborted
-dfn
 indexeddb-3
 indexeddb
 3
@@ -1466,6 +1718,18 @@ WritableStream
 aborting
 aborting
 dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-aborting
+
+1
+credential request coordinator
+-
+aborting
+aborting
+dfn
 indexeddb-3
 indexeddb
 3
@@ -1487,6 +1751,18 @@ https://www.w3.org/TR/IndexedDB-3/#transaction-abort
 1
 transaction
 -
+aborting
+aborting
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-aborting
+
+1
+credential request coordinator
+-
 about base url
 about base URL
 dfn
@@ -1497,6 +1773,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#document-state-about-base-url
 
 1
+document state
 -
 about base url
 about base URL
@@ -1508,6 +1785,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-about-base-url
 
 1
+navigation params
 -
 about base url
 about base URL
@@ -1751,15 +2029,15 @@ https://html.spec.whatwg.org/multipage/parsing.html#parse-error-absence-of-digit
 -
 absent
 absent
-enum-value
-web-smart-card
-web-smart-card
+cddl-value
+web-bluetooth
+web-bluetooth
 1
 current
-https://wicg.github.io/web-smart-card/#dom-smartcardconnectionstate-absent
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulateadapterparameters-state-absent
+
 1
-1
-SmartCardConnectionState
+bluetooth.SimulateAdapterParameters/state
 -
 absolute
 absolute
@@ -1799,10 +2077,22 @@ voice-range
 -
 absolute
 absolute
-value
-css22
-css
+dfn
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#interpolation-input-type-absolute
+
 1
+interpolation input type
+-
+absolute
+absolute
+value
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#valdef-position-absolute
 1
@@ -1990,20 +2280,9 @@ absolute length
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/syndata.html#x39
-1
-1
--
-absolute length
-absolute length
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/syndata.html#x39
+https://www.w3.org/TR/CSS2/syndata.html#x39
 1
 1
 -
@@ -2172,6 +2451,17 @@ https://www.w3.org/TR/css-position-3/#absolute-positioning-layout
 1
 1
 -
+absolute scroll
+absolute scroll
+dfn
+css-scroll-snap-1
+css-scroll-snap
+1
+current
+https://drafts.csswg.org/css-scroll-snap-1/#absolute-scroll
+1
+1
+-
 absolute-url record
 absolute-URL record
 dfn
@@ -2179,7 +2469,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-absolute-url-record
+https://w3c-cg.github.io/web-nfc/#dfn-absolute-url-record
 
 
 -
@@ -2280,7 +2570,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-absolute-url
+https://w3c-cg.github.io/web-nfc/#dfn-absolute-url
 
 1
 -
@@ -2342,9 +2632,9 @@ https://drafts.csswg.org/css-position-3/#absolute-position
 absolutely positioned element
 absolutely positioned element
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#absolutely-positioned
 
@@ -2355,20 +2645,9 @@ absolutely positioned element
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#absolutely-positioned
-1
-1
--
-absolutely positioned element
-absolutely positioned element
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#absolutely-positioned
+https://www.w3.org/TR/CSS2/visuren.html#absolutely-positioned
 1
 1
 -
@@ -2517,6 +2796,50 @@ https://www.w3.org/TR/wasm-js-api-2/#HostResizeArrayBuffer
 1
 1
 -
+abstract syntax
+abstract syntax
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-abstract-syntax
+
+
+-
+abstract syntax
+abstract syntax
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-abstract-syntax
+
+
+-
+abuse
+abuse
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-abuse
+1
+
+-
+abuse
+abuse
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-abuse
+
+
+-
 {a,b}
 {A,B}
 grammar
@@ -2542,9 +2865,9 @@ https://drafts.csswg.org/css-values-4/#mult-num-range
 {a,b}
 {A,B}
 grammar
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#mult-num-range
 1

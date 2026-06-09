@@ -271,6 +271,14 @@
       "url": "https://webidl.spec.whatwg.org/#conformance"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Web IDL",
+      "text": "Table of Contents",
+      "url": "https://webidl.spec.whatwg.org/#toc"
+    }
+  },
   "#conventions": {
     "current": {
       "number": "",
@@ -281,7 +289,7 @@
   },
   "#create-frozen-array-from-iterable": {
     "current": {
-      "number": "3.2.26.1",
+      "number": "3.2.27.1",
       "spec": "Web IDL",
       "text": "Creating a frozen array from an iterable",
       "url": "https://webidl.spec.whatwg.org/#create-frozen-array-from-iterable"
@@ -335,6 +343,14 @@
       "url": "https://webidl.spec.whatwg.org/#idl-DOMException-derived-interfaces"
     }
   },
+  "#idl-DOMException-derived-predefineds": {
+    "current": {
+      "number": "2.8.3",
+      "spec": "Web IDL",
+      "text": "Predefined DOMException derived interfaces",
+      "url": "https://webidl.spec.whatwg.org/#idl-DOMException-derived-predefineds"
+    }
+  },
   "#idl-DOMException-error-names": {
     "current": {
       "number": "2.8.1",
@@ -361,7 +377,7 @@
   },
   "#idl-annotated-types": {
     "current": {
-      "number": "2.13.32",
+      "number": "2.13.33",
       "spec": "Web IDL",
       "text": "Annotated types",
       "url": "https://webidl.spec.whatwg.org/#idl-annotated-types"
@@ -375,12 +391,20 @@
       "url": "https://webidl.spec.whatwg.org/#idl-any"
     }
   },
-  "#idl-async-iterable": {
+  "#idl-async-iterable-declaration": {
     "current": {
       "number": "2.5.10",
       "spec": "Web IDL",
       "text": "Asynchronously iterable declarations",
-      "url": "https://webidl.spec.whatwg.org/#idl-async-iterable"
+      "url": "https://webidl.spec.whatwg.org/#idl-async-iterable-declaration"
+    }
+  },
+  "#idl-async-iterable-type": {
+    "current": {
+      "number": "2.13.29",
+      "spec": "Web IDL",
+      "text": "Async sequence types — async_sequence<T>",
+      "url": "https://webidl.spec.whatwg.org/#idl-async-iterable-type"
     }
   },
   "#idl-attributes": {
@@ -409,7 +433,7 @@
   },
   "#idl-buffer-source-types": {
     "current": {
-      "number": "2.13.33",
+      "number": "2.13.34",
       "spec": "Web IDL",
       "text": "Buffer source types",
       "url": "https://webidl.spec.whatwg.org/#idl-buffer-source-types"
@@ -537,7 +561,7 @@
   },
   "#idl-frozen-array": {
     "current": {
-      "number": "2.13.34",
+      "number": "2.13.35",
       "spec": "Web IDL",
       "text": "Frozen array types — FrozenArray<T>",
       "url": "https://webidl.spec.whatwg.org/#idl-frozen-array"
@@ -681,7 +705,7 @@
   },
   "#idl-observable-array": {
     "current": {
-      "number": "2.13.35",
+      "number": "2.13.36",
       "spec": "Web IDL",
       "text": "Observable array types — ObservableArray<T>",
       "url": "https://webidl.spec.whatwg.org/#idl-observable-array"
@@ -721,7 +745,7 @@
   },
   "#idl-promise": {
     "current": {
-      "number": "2.13.30",
+      "number": "2.13.31",
       "spec": "Web IDL",
       "text": "Promise types — Promise<T>",
       "url": "https://webidl.spec.whatwg.org/#idl-promise"
@@ -729,7 +753,7 @@
   },
   "#idl-record": {
     "current": {
-      "number": "2.13.29",
+      "number": "2.13.30",
       "spec": "Web IDL",
       "text": "Record types — record<K, V>",
       "url": "https://webidl.spec.whatwg.org/#idl-record"
@@ -825,7 +849,7 @@
   },
   "#idl-union": {
     "current": {
-      "number": "2.13.31",
+      "number": "2.13.32",
       "spec": "Web IDL",
       "text": "Union types",
       "url": "https://webidl.spec.whatwg.org/#idl-union"
@@ -899,7 +923,7 @@
     "current": {
       "number": "",
       "spec": "Web IDL",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://webidl.spec.whatwg.org/#informative"
     }
   },
@@ -983,6 +1007,22 @@
       "url": "https://webidl.spec.whatwg.org/#js-any"
     }
   },
+  "#js-async-iterable": {
+    "current": {
+      "number": "3.2.22",
+      "spec": "Web IDL",
+      "text": "Async sequences — async_sequence<T>",
+      "url": "https://webidl.spec.whatwg.org/#js-async-iterable"
+    }
+  },
+  "#js-async-sequence-iteration": {
+    "current": {
+      "number": "3.2.22.1",
+      "spec": "Web IDL",
+      "text": "Iterating async sequences",
+      "url": "https://webidl.spec.whatwg.org/#js-async-sequence-iteration"
+    }
+  },
   "#js-asynchronous-iterable": {
     "current": {
       "number": "3.7.10",
@@ -1025,7 +1065,7 @@
   },
   "#js-buffer-source-types": {
     "current": {
-      "number": "3.2.25",
+      "number": "3.2.26",
       "spec": "Web IDL",
       "text": "Buffer source types",
       "url": "https://webidl.spec.whatwg.org/#js-buffer-source-types"
@@ -1169,7 +1209,7 @@
   },
   "#js-frozen-array": {
     "current": {
-      "number": "3.2.26",
+      "number": "3.2.27",
       "spec": "Web IDL",
       "text": "Frozen arrays — FrozenArray<T>",
       "url": "https://webidl.spec.whatwg.org/#js-frozen-array"
@@ -1393,7 +1433,7 @@
   },
   "#js-observable-array": {
     "current": {
-      "number": "3.2.27",
+      "number": "3.2.28",
       "spec": "Web IDL",
       "text": "Observable arrays — ObservableArray<T>",
       "url": "https://webidl.spec.whatwg.org/#js-observable-array"
@@ -1513,7 +1553,7 @@
   },
   "#js-promise": {
     "current": {
-      "number": "3.2.23",
+      "number": "3.2.24",
       "spec": "Web IDL",
       "text": "Promise types — Promise<T>",
       "url": "https://webidl.spec.whatwg.org/#js-promise"
@@ -1521,7 +1561,7 @@
   },
   "#js-promise-examples": {
     "current": {
-      "number": "3.2.23.2",
+      "number": "3.2.24.2",
       "spec": "Web IDL",
       "text": "Examples",
       "url": "https://webidl.spec.whatwg.org/#js-promise-examples"
@@ -1529,7 +1569,7 @@
   },
   "#js-promise-manipulation": {
     "current": {
-      "number": "3.2.23.1",
+      "number": "3.2.24.1",
       "spec": "Web IDL",
       "text": "Creating and manipulating Promises",
       "url": "https://webidl.spec.whatwg.org/#js-promise-manipulation"
@@ -1537,7 +1577,7 @@
   },
   "#js-record": {
     "current": {
-      "number": "3.2.22",
+      "number": "3.2.23",
       "spec": "Web IDL",
       "text": "Records — record<K, V>",
       "url": "https://webidl.spec.whatwg.org/#js-record"
@@ -1689,7 +1729,7 @@
   },
   "#js-union": {
     "current": {
-      "number": "3.2.24",
+      "number": "3.2.25",
       "spec": "Web IDL",
       "text": "Union types",
       "url": "https://webidl.spec.whatwg.org/#js-union"

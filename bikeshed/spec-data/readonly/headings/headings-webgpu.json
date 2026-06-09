@@ -1,13 +1,13 @@
 {
   "#-webgpu-task-source": {
     "current": {
-      "number": "3.9.1",
+      "number": "3.10.1",
       "spec": "WebGPU",
       "text": "WebGPU Task Source",
       "url": "https://gpuweb.github.io/gpuweb/#-webgpu-task-source"
     },
     "snapshot": {
-      "number": "3.9.1",
+      "number": "3.10.1",
       "spec": "WebGPU",
       "text": "WebGPU Task Source",
       "url": "https://www.w3.org/TR/webgpu/#-webgpu-task-source"
@@ -141,13 +141,13 @@
   },
   "#automatic-expiry-task-source": {
     "current": {
-      "number": "3.9.2",
+      "number": "3.10.2",
       "spec": "WebGPU",
       "text": "Automatic Expiry Task Source",
       "url": "https://gpuweb.github.io/gpuweb/#automatic-expiry-task-source"
     },
     "snapshot": {
-      "number": "3.9.2",
+      "number": "3.10.2",
       "spec": "WebGPU",
       "text": "Automatic Expiry Task Source",
       "url": "https://www.w3.org/TR/webgpu/#automatic-expiry-task-source"
@@ -169,13 +169,13 @@
   },
   "#bgra8unorm-storage": {
     "current": {
-      "number": "25.12",
+      "number": "25.13",
       "spec": "WebGPU",
       "text": "\"bgra8unorm-storage\"",
       "url": "https://gpuweb.github.io/gpuweb/#bgra8unorm-storage"
     },
     "snapshot": {
-      "number": "25.12",
+      "number": "25.13",
       "spec": "WebGPU",
       "text": "\"bgra8unorm-storage\"",
       "url": "https://www.w3.org/TR/webgpu/#bgra8unorm-storage"
@@ -463,13 +463,13 @@
   },
   "#color-space-conversion-elision": {
     "current": {
-      "number": "3.10.2",
+      "number": "3.11.2",
       "spec": "WebGPU",
       "text": "Color Space Conversion Elision",
       "url": "https://gpuweb.github.io/gpuweb/#color-space-conversion-elision"
     },
     "snapshot": {
-      "number": "3.10.2",
+      "number": "3.11.2",
       "spec": "WebGPU",
       "text": "Color Space Conversion Elision",
       "url": "https://www.w3.org/TR/webgpu/#color-space-conversion-elision"
@@ -477,13 +477,13 @@
   },
   "#color-space-conversions": {
     "current": {
-      "number": "3.10.1",
+      "number": "3.11.1",
       "spec": "WebGPU",
       "text": "Color Space Conversions",
       "url": "https://gpuweb.github.io/gpuweb/#color-space-conversions"
     },
     "snapshot": {
-      "number": "3.10.1",
+      "number": "3.11.1",
       "spec": "WebGPU",
       "text": "Color Space Conversions",
       "url": "https://www.w3.org/TR/webgpu/#color-space-conversions"
@@ -491,13 +491,13 @@
   },
   "#color-spaces": {
     "current": {
-      "number": "3.10",
+      "number": "3.11",
       "spec": "WebGPU",
       "text": "Color Spaces and Encoding",
       "url": "https://gpuweb.github.io/gpuweb/#color-spaces"
     },
     "snapshot": {
-      "number": "3.10",
+      "number": "3.11",
       "spec": "WebGPU",
       "text": "Color Spaces and Encoding",
       "url": "https://www.w3.org/TR/webgpu/#color-spaces"
@@ -643,18 +643,18 @@
       "url": "https://www.w3.org/TR/webgpu/#commands-buffer-copies"
     }
   },
-  "#commands-image-copies": {
+  "#commands-texel-copies": {
     "current": {
       "number": "13.5",
       "spec": "WebGPU",
-      "text": "Image Copy Commands",
-      "url": "https://gpuweb.github.io/gpuweb/#commands-image-copies"
+      "text": "Texel Copy Commands",
+      "url": "https://gpuweb.github.io/gpuweb/#commands-texel-copies"
     },
     "snapshot": {
       "number": "13.5",
       "spec": "WebGPU",
-      "text": "Image Copy Commands",
-      "url": "https://www.w3.org/TR/webgpu/#commands-image-copies"
+      "text": "Texel Copy Commands",
+      "url": "https://www.w3.org/TR/webgpu/#commands-texel-copies"
     }
   },
   "#compute-pass-encoder-creation": {
@@ -741,6 +741,20 @@
       "url": "https://www.w3.org/TR/webgpu/#computing-operations"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "WebGPU",
+      "text": "Table of Contents",
+      "url": "https://gpuweb.github.io/gpuweb/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "WebGPU",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/webgpu/#toc"
+    }
+  },
   "#context-sizing": {
     "current": {
       "number": "21.4.2",
@@ -757,13 +771,13 @@
   },
   "#conversions-to-wgsl": {
     "current": {
-      "number": "3.11",
+      "number": "3.12",
       "spec": "WebGPU",
       "text": "Numeric conversions from JavaScript to WGSL",
       "url": "https://gpuweb.github.io/gpuweb/#conversions-to-wgsl"
     },
     "snapshot": {
-      "number": "3.11",
+      "number": "3.12",
       "spec": "WebGPU",
       "text": "Numeric conversions from JavaScript to WGSL",
       "url": "https://www.w3.org/TR/webgpu/#conversions-to-wgsl"
@@ -811,6 +825,20 @@
       "url": "https://www.w3.org/TR/webgpu/#copying-depth-stencil"
     }
   },
+  "#core-features-and-limits": {
+    "current": {
+      "number": "25.1",
+      "spec": "WebGPU",
+      "text": "\"core-features-and-limits\"",
+      "url": "https://gpuweb.github.io/gpuweb/#core-features-and-limits"
+    },
+    "snapshot": {
+      "number": "25.1",
+      "spec": "WebGPU",
+      "text": "\"core-features-and-limits\"",
+      "url": "https://www.w3.org/TR/webgpu/#core-features-and-limits"
+    }
+  },
   "#core-internal-objects": {
     "current": {
       "number": "3.5",
@@ -855,13 +883,13 @@
   },
   "#depth-clip-control": {
     "current": {
-      "number": "25.1",
+      "number": "25.2",
       "spec": "WebGPU",
       "text": "\"depth-clip-control\"",
       "url": "https://gpuweb.github.io/gpuweb/#depth-clip-control"
     },
     "snapshot": {
-      "number": "25.1",
+      "number": "25.2",
       "spec": "WebGPU",
       "text": "\"depth-clip-control\"",
       "url": "https://www.w3.org/TR/webgpu/#depth-clip-control"
@@ -911,13 +939,13 @@
   },
   "#depth32float-stencil8": {
     "current": {
-      "number": "25.2",
+      "number": "25.3",
       "spec": "WebGPU",
       "text": "\"depth32float-stencil8\"",
       "url": "https://gpuweb.github.io/gpuweb/#depth32float-stencil8"
     },
     "snapshot": {
-      "number": "25.2",
+      "number": "25.3",
       "spec": "WebGPU",
       "text": "\"depth32float-stencil8\"",
       "url": "https://www.w3.org/TR/webgpu/#depth32float-stencil8"
@@ -953,13 +981,13 @@
   },
   "#dom-gpufeaturename-clip-distances": {
     "current": {
-      "number": "25.15",
+      "number": "25.16",
       "spec": "WebGPU",
       "text": "\"clip-distances\"",
       "url": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-clip-distances"
     },
     "snapshot": {
-      "number": "25.15",
+      "number": "25.16",
       "spec": "WebGPU",
       "text": "\"clip-distances\"",
       "url": "https://www.w3.org/TR/webgpu/#dom-gpufeaturename-clip-distances"
@@ -967,16 +995,44 @@
   },
   "#dom-gpufeaturename-dual-source-blending": {
     "current": {
-      "number": "25.16",
+      "number": "25.17",
       "spec": "WebGPU",
       "text": "\"dual-source-blending\"",
       "url": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-dual-source-blending"
     },
     "snapshot": {
-      "number": "25.16",
+      "number": "25.17",
       "spec": "WebGPU",
       "text": "\"dual-source-blending\"",
       "url": "https://www.w3.org/TR/webgpu/#dom-gpufeaturename-dual-source-blending"
+    }
+  },
+  "#dom-gpufeaturename-primitive-index": {
+    "current": {
+      "number": "25.21",
+      "spec": "WebGPU",
+      "text": "\"primitive-index\"",
+      "url": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-primitive-index"
+    },
+    "snapshot": {
+      "number": "25.21",
+      "spec": "WebGPU",
+      "text": "\"primitive-index\"",
+      "url": "https://www.w3.org/TR/webgpu/#dom-gpufeaturename-primitive-index"
+    }
+  },
+  "#dom-gpufeaturename-texture-component-swizzle": {
+    "current": {
+      "number": "25.22",
+      "spec": "WebGPU",
+      "text": "\"texture-component-swizzle\"",
+      "url": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-texture-component-swizzle"
+    },
+    "snapshot": {
+      "number": "25.22",
+      "spec": "WebGPU",
+      "text": "\"texture-component-swizzle\"",
+      "url": "https://www.w3.org/TR/webgpu/#dom-gpufeaturename-texture-component-swizzle"
     }
   },
   "#error-scopes": {
@@ -1009,13 +1065,13 @@
   },
   "#extension-documents": {
     "current": {
-      "number": "3.7",
+      "number": "3.8",
       "spec": "WebGPU",
       "text": "Extension Documents",
       "url": "https://gpuweb.github.io/gpuweb/#extension-documents"
     },
     "snapshot": {
-      "number": "3.7",
+      "number": "3.8",
       "spec": "WebGPU",
       "text": "Extension Documents",
       "url": "https://www.w3.org/TR/webgpu/#extension-documents"
@@ -1037,15 +1093,15 @@
   },
   "#external-texture-sampling": {
     "current": {
-      "number": "6.4.2",
+      "number": "6.5",
       "spec": "WebGPU",
-      "text": "Sampling External Textures",
+      "text": "Sampling External Texture Bindings",
       "url": "https://gpuweb.github.io/gpuweb/#external-texture-sampling"
     },
     "snapshot": {
-      "number": "6.4.2",
+      "number": "6.5",
       "spec": "WebGPU",
-      "text": "Sampling External Textures",
+      "text": "Sampling External Texture Bindings",
       "url": "https://www.w3.org/TR/webgpu/#external-texture-sampling"
     }
   },
@@ -1061,6 +1117,20 @@
       "spec": "WebGPU",
       "text": "Fatal Errors",
       "url": "https://www.w3.org/TR/webgpu/#fatal-errors"
+    }
+  },
+  "#feature-detection": {
+    "current": {
+      "number": "3.7",
+      "spec": "WebGPU",
+      "text": "Feature Detection",
+      "url": "https://gpuweb.github.io/gpuweb/#feature-detection"
+    },
+    "snapshot": {
+      "number": "3.7",
+      "spec": "WebGPU",
+      "text": "Feature Detection",
+      "url": "https://www.w3.org/TR/webgpu/#feature-detection"
     }
   },
   "#feature-index": {
@@ -1093,13 +1163,13 @@
   },
   "#float32-blendable": {
     "current": {
-      "number": "25.14",
+      "number": "25.15",
       "spec": "WebGPU",
       "text": "\"float32-blendable\"",
       "url": "https://gpuweb.github.io/gpuweb/#float32-blendable"
     },
     "snapshot": {
-      "number": "25.14",
+      "number": "25.15",
       "spec": "WebGPU",
       "text": "\"float32-blendable\"",
       "url": "https://www.w3.org/TR/webgpu/#float32-blendable"
@@ -1107,13 +1177,13 @@
   },
   "#float32-filterable": {
     "current": {
-      "number": "25.13",
+      "number": "25.14",
       "spec": "WebGPU",
       "text": "\"float32-filterable\"",
       "url": "https://gpuweb.github.io/gpuweb/#float32-filterable"
     },
     "snapshot": {
-      "number": "25.13",
+      "number": "25.14",
       "spec": "WebGPU",
       "text": "\"float32-filterable\"",
       "url": "https://www.w3.org/TR/webgpu/#float32-filterable"
@@ -1357,6 +1427,34 @@
       "url": "https://www.w3.org/TR/webgpu/#gpucomputepipeline"
     }
   },
+  "#gpucopyexternalimagedestinfo": {
+    "current": {
+      "number": "11.2.4",
+      "spec": "WebGPU",
+      "text": "GPUCopyExternalImageDestInfo",
+      "url": "https://gpuweb.github.io/gpuweb/#gpucopyexternalimagedestinfo"
+    },
+    "snapshot": {
+      "number": "11.2.4",
+      "spec": "WebGPU",
+      "text": "GPUCopyExternalImageDestInfo",
+      "url": "https://www.w3.org/TR/webgpu/#gpucopyexternalimagedestinfo"
+    }
+  },
+  "#gpucopyexternalimagesourceinfo": {
+    "current": {
+      "number": "11.2.5",
+      "spec": "WebGPU",
+      "text": "GPUCopyExternalImageSourceInfo",
+      "url": "https://gpuweb.github.io/gpuweb/#gpucopyexternalimagesourceinfo"
+    },
+    "snapshot": {
+      "number": "11.2.5",
+      "spec": "WebGPU",
+      "text": "GPUCopyExternalImageSourceInfo",
+      "url": "https://www.w3.org/TR/webgpu/#gpucopyexternalimagesourceinfo"
+    }
+  },
   "#gpudevice": {
     "current": {
       "number": "4.4",
@@ -1425,76 +1523,6 @@
       "spec": "WebGPU",
       "text": "GPUFeatureName",
       "url": "https://www.w3.org/TR/webgpu/#gpufeaturename"
-    }
-  },
-  "#gpuimagecopybuffer": {
-    "current": {
-      "number": "11.2.2",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyBuffer",
-      "url": "https://gpuweb.github.io/gpuweb/#gpuimagecopybuffer"
-    },
-    "snapshot": {
-      "number": "11.2.2",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyBuffer",
-      "url": "https://www.w3.org/TR/webgpu/#gpuimagecopybuffer"
-    }
-  },
-  "#gpuimagecopyexternalimage": {
-    "current": {
-      "number": "11.2.5",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyExternalImage",
-      "url": "https://gpuweb.github.io/gpuweb/#gpuimagecopyexternalimage"
-    },
-    "snapshot": {
-      "number": "11.2.5",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyExternalImage",
-      "url": "https://www.w3.org/TR/webgpu/#gpuimagecopyexternalimage"
-    }
-  },
-  "#gpuimagecopytexture": {
-    "current": {
-      "number": "11.2.3",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyTexture",
-      "url": "https://gpuweb.github.io/gpuweb/#gpuimagecopytexture"
-    },
-    "snapshot": {
-      "number": "11.2.3",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyTexture",
-      "url": "https://www.w3.org/TR/webgpu/#gpuimagecopytexture"
-    }
-  },
-  "#gpuimagecopytexturetagged": {
-    "current": {
-      "number": "11.2.4",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyTextureTagged",
-      "url": "https://gpuweb.github.io/gpuweb/#gpuimagecopytexturetagged"
-    },
-    "snapshot": {
-      "number": "11.2.4",
-      "spec": "WebGPU",
-      "text": "GPUImageCopyTextureTagged",
-      "url": "https://www.w3.org/TR/webgpu/#gpuimagecopytexturetagged"
-    }
-  },
-  "#gpuimagedatalayout": {
-    "current": {
-      "number": "11.2.1",
-      "spec": "WebGPU",
-      "text": "GPUImageDataLayout",
-      "url": "https://gpuweb.github.io/gpuweb/#gpuimagedatalayout"
-    },
-    "snapshot": {
-      "number": "11.2.1",
-      "spec": "WebGPU",
-      "text": "GPUImageDataLayout",
-      "url": "https://www.w3.org/TR/webgpu/#gpuimagedatalayout"
     }
   },
   "#gpupipelinelayout": {
@@ -1679,6 +1707,48 @@
       "url": "https://www.w3.org/TR/webgpu/#gpusupportedlimits"
     }
   },
+  "#gputexelcopybufferinfo": {
+    "current": {
+      "number": "11.2.2",
+      "spec": "WebGPU",
+      "text": "GPUTexelCopyBufferInfo",
+      "url": "https://gpuweb.github.io/gpuweb/#gputexelcopybufferinfo"
+    },
+    "snapshot": {
+      "number": "11.2.2",
+      "spec": "WebGPU",
+      "text": "GPUTexelCopyBufferInfo",
+      "url": "https://www.w3.org/TR/webgpu/#gputexelcopybufferinfo"
+    }
+  },
+  "#gputexelcopybufferlayout": {
+    "current": {
+      "number": "11.2.1",
+      "spec": "WebGPU",
+      "text": "GPUTexelCopyBufferLayout",
+      "url": "https://gpuweb.github.io/gpuweb/#gputexelcopybufferlayout"
+    },
+    "snapshot": {
+      "number": "11.2.1",
+      "spec": "WebGPU",
+      "text": "GPUTexelCopyBufferLayout",
+      "url": "https://www.w3.org/TR/webgpu/#gputexelcopybufferlayout"
+    }
+  },
+  "#gputexelcopytextureinfo": {
+    "current": {
+      "number": "11.2.3",
+      "spec": "WebGPU",
+      "text": "GPUTexelCopyTextureInfo",
+      "url": "https://gpuweb.github.io/gpuweb/#gputexelcopytextureinfo"
+    },
+    "snapshot": {
+      "number": "11.2.3",
+      "spec": "WebGPU",
+      "text": "GPUTexelCopyTextureInfo",
+      "url": "https://www.w3.org/TR/webgpu/#gputexelcopytextureinfo"
+    }
+  },
   "#gputexture": {
     "current": {
       "number": "6.1",
@@ -1747,20 +1817,6 @@
       "spec": "WebGPU",
       "text": "IDL Index",
       "url": "https://www.w3.org/TR/webgpu/#idl-index"
-    }
-  },
-  "#image-copies": {
-    "current": {
-      "number": "11.2",
-      "spec": "WebGPU",
-      "text": "Image Copies",
-      "url": "https://gpuweb.github.io/gpuweb/#image-copies"
-    },
-    "snapshot": {
-      "number": "11.2",
-      "spec": "WebGPU",
-      "text": "Image Copies",
-      "url": "https://www.w3.org/TR/webgpu/#image-copies"
     }
   },
   "#image-copies-subroutines": {
@@ -1835,13 +1891,13 @@
   },
   "#indirect-first-instance": {
     "current": {
-      "number": "25.9",
+      "number": "25.10",
       "spec": "WebGPU",
       "text": "\"indirect-first-instance\"",
       "url": "https://gpuweb.github.io/gpuweb/#indirect-first-instance"
     },
     "snapshot": {
-      "number": "25.9",
+      "number": "25.10",
       "spec": "WebGPU",
       "text": "\"indirect-first-instance\"",
       "url": "https://www.w3.org/TR/webgpu/#indirect-first-instance"
@@ -1857,7 +1913,7 @@
     "snapshot": {
       "number": "",
       "spec": "WebGPU",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://www.w3.org/TR/webgpu/#informative"
     }
   },
@@ -2073,13 +2129,13 @@
   },
   "#origin-restrictions": {
     "current": {
-      "number": "3.8",
+      "number": "3.9",
       "spec": "WebGPU",
       "text": "Origin Restrictions",
       "url": "https://gpuweb.github.io/gpuweb/#origin-restrictions"
     },
     "snapshot": {
-      "number": "3.8",
+      "number": "3.9",
       "spec": "WebGPU",
       "text": "Origin Restrictions",
       "url": "https://www.w3.org/TR/webgpu/#origin-restrictions"
@@ -2377,6 +2433,20 @@
       "spec": "WebGPU",
       "text": "Bind Groups",
       "url": "https://www.w3.org/TR/webgpu/#programmable-passes-bind-groups"
+    }
+  },
+  "#programmable-passes-immediate-data": {
+    "current": {
+      "number": "14.2",
+      "spec": "WebGPU",
+      "text": "Immediate Data",
+      "url": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data"
+    },
+    "snapshot": {
+      "number": "14.2",
+      "spec": "WebGPU",
+      "text": "Immediate Data",
+      "url": "https://www.w3.org/TR/webgpu/#programmable-passes-immediate-data"
     }
   },
   "#programming-model": {
@@ -2759,13 +2829,13 @@
   },
   "#rg11b10ufloat-renderable": {
     "current": {
-      "number": "25.11",
+      "number": "25.12",
       "spec": "WebGPU",
       "text": "\"rg11b10ufloat-renderable\"",
       "url": "https://gpuweb.github.io/gpuweb/#rg11b10ufloat-renderable"
     },
     "snapshot": {
-      "number": "25.11",
+      "number": "25.12",
       "spec": "WebGPU",
       "text": "\"rg11b10ufloat-renderable\"",
       "url": "https://www.w3.org/TR/webgpu/#rg11b10ufloat-renderable"
@@ -3039,13 +3109,13 @@
   },
   "#shader-f16": {
     "current": {
-      "number": "25.10",
+      "number": "25.11",
       "spec": "WebGPU",
       "text": "\"shader-f16\"",
       "url": "https://gpuweb.github.io/gpuweb/#shader-f16"
     },
     "snapshot": {
-      "number": "25.10",
+      "number": "25.11",
       "spec": "WebGPU",
       "text": "\"shader-f16\"",
       "url": "https://www.w3.org/TR/webgpu/#shader-f16"
@@ -3135,15 +3205,29 @@
       "url": "https://www.w3.org/TR/webgpu/#sotd"
     }
   },
+  "#subgroups": {
+    "current": {
+      "number": "25.18",
+      "spec": "WebGPU",
+      "text": "\"subgroups\"",
+      "url": "https://gpuweb.github.io/gpuweb/#subgroups"
+    },
+    "snapshot": {
+      "number": "25.18",
+      "spec": "WebGPU",
+      "text": "\"subgroups\"",
+      "url": "https://www.w3.org/TR/webgpu/#subgroups"
+    }
+  },
   "#task-sources": {
     "current": {
-      "number": "3.9",
+      "number": "3.10",
       "spec": "WebGPU",
       "text": "Task Sources",
       "url": "https://gpuweb.github.io/gpuweb/#task-sources"
     },
     "snapshot": {
-      "number": "3.9",
+      "number": "3.10",
       "spec": "WebGPU",
       "text": "Task Sources",
       "url": "https://www.w3.org/TR/webgpu/#task-sources"
@@ -3163,15 +3247,29 @@
       "url": "https://www.w3.org/TR/webgpu/#telemetry"
     }
   },
+  "#texel-copies": {
+    "current": {
+      "number": "11.2",
+      "spec": "WebGPU",
+      "text": "Texel Copies",
+      "url": "https://gpuweb.github.io/gpuweb/#texel-copies"
+    },
+    "snapshot": {
+      "number": "11.2",
+      "spec": "WebGPU",
+      "text": "Texel Copies",
+      "url": "https://www.w3.org/TR/webgpu/#texel-copies"
+    }
+  },
   "#texture-compression-astc": {
     "current": {
-      "number": "25.6",
+      "number": "25.7",
       "spec": "WebGPU",
       "text": "\"texture-compression-astc\"",
       "url": "https://gpuweb.github.io/gpuweb/#texture-compression-astc"
     },
     "snapshot": {
-      "number": "25.6",
+      "number": "25.7",
       "spec": "WebGPU",
       "text": "\"texture-compression-astc\"",
       "url": "https://www.w3.org/TR/webgpu/#texture-compression-astc"
@@ -3179,13 +3277,13 @@
   },
   "#texture-compression-astc-sliced-3d": {
     "current": {
-      "number": "25.7",
+      "number": "25.8",
       "spec": "WebGPU",
       "text": "\"texture-compression-astc-sliced-3d\"",
       "url": "https://gpuweb.github.io/gpuweb/#texture-compression-astc-sliced-3d"
     },
     "snapshot": {
-      "number": "25.7",
+      "number": "25.8",
       "spec": "WebGPU",
       "text": "\"texture-compression-astc-sliced-3d\"",
       "url": "https://www.w3.org/TR/webgpu/#texture-compression-astc-sliced-3d"
@@ -3193,13 +3291,13 @@
   },
   "#texture-compression-bc": {
     "current": {
-      "number": "25.3",
+      "number": "25.4",
       "spec": "WebGPU",
       "text": "\"texture-compression-bc\"",
       "url": "https://gpuweb.github.io/gpuweb/#texture-compression-bc"
     },
     "snapshot": {
-      "number": "25.3",
+      "number": "25.4",
       "spec": "WebGPU",
       "text": "\"texture-compression-bc\"",
       "url": "https://www.w3.org/TR/webgpu/#texture-compression-bc"
@@ -3207,13 +3305,13 @@
   },
   "#texture-compression-bc-sliced-3d": {
     "current": {
-      "number": "25.4",
+      "number": "25.5",
       "spec": "WebGPU",
       "text": "\"texture-compression-bc-sliced-3d\"",
       "url": "https://gpuweb.github.io/gpuweb/#texture-compression-bc-sliced-3d"
     },
     "snapshot": {
-      "number": "25.4",
+      "number": "25.5",
       "spec": "WebGPU",
       "text": "\"texture-compression-bc-sliced-3d\"",
       "url": "https://www.w3.org/TR/webgpu/#texture-compression-bc-sliced-3d"
@@ -3221,13 +3319,13 @@
   },
   "#texture-compression-etc2": {
     "current": {
-      "number": "25.5",
+      "number": "25.6",
       "spec": "WebGPU",
       "text": "\"texture-compression-etc2\"",
       "url": "https://gpuweb.github.io/gpuweb/#texture-compression-etc2"
     },
     "snapshot": {
-      "number": "25.5",
+      "number": "25.6",
       "spec": "WebGPU",
       "text": "\"texture-compression-etc2\"",
       "url": "https://www.w3.org/TR/webgpu/#texture-compression-etc2"
@@ -3289,6 +3387,34 @@
       "url": "https://www.w3.org/TR/webgpu/#texture-formats"
     }
   },
+  "#texture-formats-tier1": {
+    "current": {
+      "number": "25.19",
+      "spec": "WebGPU",
+      "text": "\"texture-formats-tier1\"",
+      "url": "https://gpuweb.github.io/gpuweb/#texture-formats-tier1"
+    },
+    "snapshot": {
+      "number": "25.19",
+      "spec": "WebGPU",
+      "text": "\"texture-formats-tier1\"",
+      "url": "https://www.w3.org/TR/webgpu/#texture-formats-tier1"
+    }
+  },
+  "#texture-formats-tier2": {
+    "current": {
+      "number": "25.20",
+      "spec": "WebGPU",
+      "text": "\"texture-formats-tier2\"",
+      "url": "https://gpuweb.github.io/gpuweb/#texture-formats-tier2"
+    },
+    "snapshot": {
+      "number": "25.20",
+      "spec": "WebGPU",
+      "text": "\"texture-formats-tier2\"",
+      "url": "https://www.w3.org/TR/webgpu/#texture-formats-tier2"
+    }
+  },
   "#texture-usage": {
     "current": {
       "number": "6.1.2",
@@ -3347,13 +3473,13 @@
   },
   "#timestamp-query": {
     "current": {
-      "number": "25.8",
+      "number": "25.9",
       "spec": "WebGPU",
       "text": "\"timestamp-query\"",
       "url": "https://gpuweb.github.io/gpuweb/#timestamp-query"
     },
     "snapshot": {
-      "number": "25.8",
+      "number": "25.9",
       "spec": "WebGPU",
       "text": "\"timestamp-query\"",
       "url": "https://www.w3.org/TR/webgpu/#timestamp-query"
@@ -3458,6 +3584,12 @@
     }
   },
   "#w3c-conformant-algorithms": {
+    "current": {
+      "number": "",
+      "spec": "WebGPU",
+      "text": "Conformant Algorithms",
+      "url": "https://gpuweb.github.io/gpuweb/#w3c-conformant-algorithms"
+    },
     "snapshot": {
       "number": "",
       "spec": "WebGPU",

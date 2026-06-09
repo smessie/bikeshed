@@ -29,7 +29,7 @@
   },
   "#auto-ellipsis": {
     "current": {
-      "number": "5",
+      "number": "6",
       "spec": "CSS Overflow 3",
       "text": "Automatic Ellipses",
       "url": "https://drafts.csswg.org/css-overflow-3/#auto-ellipsis"
@@ -69,46 +69,18 @@
       "url": "https://www.w3.org/TR/css-overflow-3/#changes"
     }
   },
-  "#changes-since-2018-07-31": {
+  "#contents": {
     "current": {
       "number": "",
       "spec": "CSS Overflow 3",
-      "text": "Changes from the 2018-07-31 Working Draft",
-      "url": "https://drafts.csswg.org/css-overflow-3/#changes-since-2018-07-31"
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-overflow-3/#toc"
     },
     "snapshot": {
       "number": "",
       "spec": "CSS Overflow 3",
-      "text": "Changes from the 2018-07-31 Working Draft",
-      "url": "https://www.w3.org/TR/css-overflow-3/#changes-since-2018-07-31"
-    }
-  },
-  "#changes-since-2020-06-03": {
-    "current": {
-      "number": "",
-      "spec": "CSS Overflow 3",
-      "text": "Changes from the 2020-06-03 Working Draft",
-      "url": "https://drafts.csswg.org/css-overflow-3/#changes-since-2020-06-03"
-    },
-    "snapshot": {
-      "number": "",
-      "spec": "CSS Overflow 3",
-      "text": "Changes from the 2020-06-03 Working Draft",
-      "url": "https://www.w3.org/TR/css-overflow-3/#changes-since-2020-06-03"
-    }
-  },
-  "#changes-since-2021-12-02": {
-    "current": {
-      "number": "",
-      "spec": "CSS Overflow 3",
-      "text": "Changes from the 2021-12-02 Working Draft",
-      "url": "https://drafts.csswg.org/css-overflow-3/#changes-since-2021-12-02"
-    },
-    "snapshot": {
-      "number": "",
-      "spec": "CSS Overflow 3",
-      "text": "Changes from the 2021-12-02 Working Draft",
-      "url": "https://www.w3.org/TR/css-overflow-3/#changes-since-2021-12-02"
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-overflow-3/#toc"
     }
   },
   "#corner-clipping": {
@@ -213,7 +185,7 @@
     "current": {
       "number": "",
       "spec": "CSS Overflow 3",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://drafts.csswg.org/css-overflow-3/#informative"
     },
     "snapshot": {
@@ -279,20 +251,6 @@
       "url": "https://www.w3.org/TR/css-overflow-3/#normative"
     }
   },
-  "#old-changes": {
-    "current": {
-      "number": "",
-      "spec": "CSS Overflow 3",
-      "text": "Changes Prior to the 2018-07-31 Working Draft",
-      "url": "https://drafts.csswg.org/css-overflow-3/#old-changes"
-    },
-    "snapshot": {
-      "number": "",
-      "spec": "CSS Overflow 3",
-      "text": "Changes Prior to the 2018-07-31 Working Draft",
-      "url": "https://www.w3.org/TR/css-overflow-3/#old-changes"
-    }
-  },
   "#overflow-clip-margin": {
     "current": {
       "number": "3.2",
@@ -337,7 +295,7 @@
   },
   "#overflow-propagation": {
     "current": {
-      "number": "3.3",
+      "number": "3.1.4",
       "spec": "CSS Overflow 3",
       "text": "Overflow Viewport Propagation",
       "url": "https://drafts.csswg.org/css-overflow-3/#overflow-propagation"
@@ -353,7 +311,7 @@
     "current": {
       "number": "3",
       "spec": "CSS Overflow 3",
-      "text": "Scrolling and Clipping Overflow",
+      "text": "Clipping and Scrolling Overflow",
       "url": "https://drafts.csswg.org/css-overflow-3/#overflow-properties"
     },
     "snapshot": {
@@ -447,9 +405,17 @@
       "url": "https://www.w3.org/TR/css-overflow-3/#scrollable"
     }
   },
+  "#scrollable-overflow-calculation": {
+    "current": {
+      "number": "3.3",
+      "spec": "CSS Overflow 3",
+      "text": "Calculating the Scrollable Overflow Area",
+      "url": "https://drafts.csswg.org/css-overflow-3/#scrollable-overflow-calculation"
+    }
+  },
   "#scrollbar-gutter-property": {
     "current": {
-      "number": "4.2",
+      "number": "5.2",
       "spec": "CSS Overflow 3",
       "text": "Reserving space for the scrollbar: the scrollbar-gutter property",
       "url": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property"
@@ -463,7 +429,7 @@
   },
   "#scrollbar-layout": {
     "current": {
-      "number": "4",
+      "number": "5",
       "spec": "CSS Overflow 3",
       "text": "Scrollbars and Layout",
       "url": "https://drafts.csswg.org/css-overflow-3/#scrollbar-layout"
@@ -477,7 +443,7 @@
   },
   "#scrollbar-sizing": {
     "current": {
-      "number": "4.1",
+      "number": "5.1",
       "spec": "CSS Overflow 3",
       "text": "Scrollbar Contributions to Sizing",
       "url": "https://drafts.csswg.org/css-overflow-3/#scrollbar-sizing"
@@ -503,6 +469,14 @@
       "url": "https://www.w3.org/TR/css-overflow-3/#scrolling"
     }
   },
+  "#scrolling-behaviors": {
+    "current": {
+      "number": "4",
+      "spec": "CSS Overflow 3",
+      "text": "Scrolling Behaviors and Animations",
+      "url": "https://drafts.csswg.org/css-overflow-3/#scrolling-behaviors"
+    }
+  },
   "#sec": {
     "current": {
       "number": "B",
@@ -519,7 +493,7 @@
   },
   "#smooth-scrolling": {
     "current": {
-      "number": "3.4",
+      "number": "4.1",
       "spec": "CSS Overflow 3",
       "text": "Smooth Scrolling: the scroll-behavior Property",
       "url": "https://drafts.csswg.org/css-overflow-3/#smooth-scrolling"
@@ -561,7 +535,7 @@
   },
   "#text-overflow": {
     "current": {
-      "number": "5.1",
+      "number": "6.1",
       "spec": "CSS Overflow 3",
       "text": "Overflow Ellipsis: the text-overflow property",
       "url": "https://drafts.csswg.org/css-overflow-3/#text-overflow"

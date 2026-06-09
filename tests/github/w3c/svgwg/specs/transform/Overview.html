@@ -685,8 +685,8 @@ dfn > a.self-link::before      { content: "#"; }
 and user agents dealing with maps encoded in SVG, the use of a common
 metadata definition for describing the coordinate system used to
 generate SVG documents is encouraged.</p>
-   <p>Such metadata must be added under the <a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-metadata" id="ref-for-elementdef-metadata">metadata</a> element of
-the topmost <a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg">svg</a> element describing the map, consisting of an
+   <p>Such metadata must be added under the <a data-link-type="element" href="https://w3c.github.io/epub-specs/epub33/core/#dfn-metadata" id="ref-for-dfn-metadata">metadata</a> element of
+the topmost <a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg">svg</a> element describing the map, consisting of an
 RDF description of the Coordinate Reference System definition used to
 generate the SVG map <a data-link-type="biblio" href="#biblio-rdf-primer" title="RDF Primer">[RDF-PRIMER]</a>. Note that
 the presence of this metadata does not affect the rendering of the SVG
@@ -1043,10 +1043,14 @@ within the SVG document.</p>
      <li><span class="dfn-paneled" id="e2e08d07">transform</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[EPUB-33]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="4089cd78">metadata</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="44c5f27a">metadata</span>
-     <li><span class="dfn-paneled" id="4299a926">svg</span>
+     <li><span class="dfn-paneled" id="6d50fd63">svg</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -1054,10 +1058,12 @@ within the SVG document.</p>
   <dl>
    <dt id="biblio-css-transforms-1">[CSS-TRANSFORMS-1]
    <dd>Simon Fraser; et al. <a href="https://drafts.csswg.org/css-transforms/"><cite>CSS Transforms Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transforms/">https://drafts.csswg.org/css-transforms/</a>
+   <dt id="biblio-epub-33">[EPUB-33]
+   <dd>Ivan Herman; Matt Garrish; Dave Cramer. <a href="https://w3c.github.io/epub-specs/epub33/core/"><cite>EPUB 3.3</cite></a>. URL: <a href="https://w3c.github.io/epub-specs/epub33/core/">https://w3c.github.io/epub-specs/epub33/core/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -1266,8 +1272,8 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
-"4299a926": {"dfnID":"4299a926","dfnText":"svg","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-svg"}],"title":"1. Geographic coordinate systems"}],"url":"https://svgwg.org/svg2-draft/struct.html#elementdef-svg"},
-"44c5f27a": {"dfnID":"44c5f27a","dfnText":"metadata","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-metadata"}],"title":"1. Geographic coordinate systems"}],"url":"https://svgwg.org/svg2-draft/struct.html#elementdef-metadata"},
+"4089cd78": {"dfnID":"4089cd78","dfnText":"metadata","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-metadata"}],"title":"1. Geographic coordinate systems"}],"url":"https://w3c.github.io/epub-specs/epub33/core/#dfn-metadata"},
+"6d50fd63": {"dfnID":"6d50fd63","dfnText":"svg","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-svg"}],"title":"1. Geographic coordinate systems"}],"url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg"},
 "a13ebf85": {"dfnID":"a13ebf85","dfnText":"<transform-list>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-transform-list"},{"id":"ref-for-typedef-transform-list\u2460"}],"title":"2. The 'svg:transform' attribute"}],"url":"https://drafts.csswg.org/css-transforms-1/#typedef-transform-list"},
 "e2e08d07": {"dfnID":"e2e08d07","dfnText":"transform","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-transform"},{"id":"ref-for-propdef-transform\u2460"}],"title":"1. Geographic coordinate systems"},{"refs":[{"id":"ref-for-propdef-transform\u2461"},{"id":"ref-for-propdef-transform\u2462"}],"title":"2. The 'svg:transform' attribute"}],"url":"https://drafts.csswg.org/css-transforms-1/#propdef-transform"},
 "svgtransform": {"dfnID":"svgtransform","dfnText":"svg:transform","external":false,"refSections":[{"refs":[{"id":"ref-for-svgtransform"},{"id":"ref-for-svgtransform\u2460"},{"id":"ref-for-svgtransform\u2461"},{"id":"ref-for-svgtransform\u2462"},{"id":"ref-for-svgtransform\u2463"}],"title":"2. The 'svg:transform' attribute"}],"url":"#svgtransform"},
@@ -1662,8 +1668,8 @@ let refsData = {
 "#svgtransform": {"displayText":"svg:transform","export":true,"for_":[],"level":"1","normative":true,"shortname":"transform-mapping","spec":"transform-mapping-1","status":"local","text":"svg:transform","type":"dfn","url":"#svgtransform"},
 "https://drafts.csswg.org/css-transforms-1/#propdef-transform": {"displayText":"transform","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-transforms","spec":"css-transforms-1","status":"current","text":"transform","type":"property","url":"https://drafts.csswg.org/css-transforms-1/#propdef-transform"},
 "https://drafts.csswg.org/css-transforms-1/#typedef-transform-list": {"displayText":"<transform-list>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-transforms","spec":"css-transforms-1","status":"current","text":"<transform-list>","type":"type","url":"https://drafts.csswg.org/css-transforms-1/#typedef-transform-list"},
-"https://svgwg.org/svg2-draft/struct.html#elementdef-metadata": {"displayText":"metadata","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"metadata","type":"element","url":"https://svgwg.org/svg2-draft/struct.html#elementdef-metadata"},
-"https://svgwg.org/svg2-draft/struct.html#elementdef-svg": {"displayText":"svg","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg","type":"element","url":"https://svgwg.org/svg2-draft/struct.html#elementdef-svg"},
+"https://w3c.github.io/epub-specs/epub33/core/#dfn-metadata": {"displayText":"metadata","export":true,"for_":[],"level":"1","normative":true,"shortname":"epub","spec":"epub-33","status":"current","text":"metadata","type":"element","url":"https://w3c.github.io/epub-specs/epub33/core/#dfn-metadata"},
+"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg": {"displayText":"svg","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg"},
 };
 
 function mkRefHint(link, ref) {

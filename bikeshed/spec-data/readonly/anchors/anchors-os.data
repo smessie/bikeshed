@@ -1,29 +1,7 @@
-os debug data type
-OS debug data type
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#os-debug-data-type
-
-1
--
-os registration
-OS registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#os-registration
-
-1
--
 OscillatorNode
 OscillatorNode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -34,18 +12,40 @@ https://webaudio.github.io/web-audio-api/#OscillatorNode
 OscillatorNode
 OscillatorNode
 interface
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#OscillatorNode
+1
+1
+-
+OscillatorNode
+OscillatorNode
+interface
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#oscillatornode
+https://www.w3.org/TR/webaudio-1.0/#oscillatornode
+1
+1
+-
+OscillatorNode
+OscillatorNode
+interface
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#OscillatorNode
 1
 1
 -
 OscillatorNode(context)
 OscillatorNode(context)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -57,11 +57,35 @@ OscillatorNode
 OscillatorNode(context)
 OscillatorNode(context)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-oscillatornode-oscillatornode
+1
+1
+OscillatorNode
+-
+OscillatorNode(context)
+OscillatorNode(context)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-oscillatornode-oscillatornode
+https://www.w3.org/TR/webaudio-1.0/#dom-oscillatornode-oscillatornode
+1
+1
+OscillatorNode
+-
+OscillatorNode(context)
+OscillatorNode(context)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-oscillatornode-oscillatornode
 1
 1
 OscillatorNode
@@ -69,7 +93,7 @@ OscillatorNode
 OscillatorNode(context, options)
 OscillatorNode(context, options)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -81,11 +105,35 @@ OscillatorNode
 OscillatorNode(context, options)
 OscillatorNode(context, options)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-oscillatornode-oscillatornode
+1
+1
+OscillatorNode
+-
+OscillatorNode(context, options)
+OscillatorNode(context, options)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-oscillatornode-oscillatornode
+https://www.w3.org/TR/webaudio-1.0/#dom-oscillatornode-oscillatornode
+1
+1
+OscillatorNode
+-
+OscillatorNode(context, options)
+OscillatorNode(context, options)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-oscillatornode-oscillatornode
 1
 1
 OscillatorNode
@@ -93,7 +141,7 @@ OscillatorNode
 OscillatorOptions
 OscillatorOptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -104,18 +152,40 @@ https://webaudio.github.io/web-audio-api/#OscillatorOptions
 OscillatorOptions
 OscillatorOptions
 dictionary
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#OscillatorOptions
+1
+1
+-
+OscillatorOptions
+OscillatorOptions
+dictionary
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dictdef-oscillatoroptions
+https://www.w3.org/TR/webaudio-1.0/#dictdef-oscillatoroptions
+1
+1
+-
+OscillatorOptions
+OscillatorOptions
+dictionary
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#OscillatorOptions
 1
 1
 -
 OscillatorType
 OscillatorType
 enum
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -126,25 +196,35 @@ https://webaudio.github.io/web-audio-api/#enumdef-oscillatortype
 OscillatorType
 OscillatorType
 enum
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#enumdef-oscillatortype
+current
+https://webaudio.github.io/web-audio-api/#enumdef-oscillatortype
 1
 1
 -
-os
-os
-dfn
-attribution-reporting-api
-attribution-reporting-api
+OscillatorType
+OscillatorType
+enum
+webaudio-1.0
+webaudio
 1
-current
-https://wicg.github.io/attribution-reporting-api/#registrar-os
-
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#enumdef-oscillatortype
 1
-registrar
+1
+-
+OscillatorType
+OscillatorType
+enum
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#enumdef-oscillatortype
+1
+1
 -
 os specific custom map name
 os specific custom map name
@@ -157,6 +237,17 @@ https://w3c.github.io/clipboard-apis/#os-specific-custom-map-name
 
 1
 -
+os specific custom map name
+os specific custom map name
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#os-specific-custom-map-name
+
+1
+-
 os specific custom name
 os specific custom name
 dfn
@@ -165,6 +256,17 @@ clipboard-apis
 1
 current
 https://w3c.github.io/clipboard-apis/#os-specific-custom-name
+
+1
+-
+os specific custom name
+os specific custom name
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#os-specific-custom-name
 
 1
 -
@@ -190,49 +292,25 @@ https://www.w3.org/TR/clipboard-apis/#os-specific-well-known-format
 
 1
 -
-os-source-delegated
-os-source-delegated
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#os-debug-data-type-os-source-delegated
-
-1
-OS debug data type
--
-os-trigger-delegated
-os-trigger-delegated
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#os-debug-data-type-os-trigger-delegated
-
-1
-OS debug data type
--
 oscillatornode
 oscillatornode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#OscillatorNode
+https://www.w3.org/TR/webaudio-1.0/#OscillatorNode
 1
 1
 -
 oscillatoroptions
 oscillatoroptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#OscillatorOptions
+https://www.w3.org/TR/webaudio-1.0/#OscillatorOptions
 1
 1
 -
@@ -262,22 +340,44 @@ NavigatorID
 osp agent
 osp agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#open-screen-protocol-agent
+https://w3c.github.io/openscreenprotocol/application.html#open-screen-protocol-agent
 
 1
 -
 osp agent
 osp agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
+1
+current
+https://w3c.github.io/openscreenprotocol/network.html#open-screen-network-protocol-agent
+
+1
+-
+osp agent
+osp agent
+dfn
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#open-screen-protocol-agent
+https://www.w3.org/TR/openscreen-application/#open-screen-protocol-agent
+
+1
+-
+osp agent
+osp agent
+dfn
+openscreen-network
+openscreen-network
+1
+snapshot
+https://www.w3.org/TR/openscreen-network/#open-screen-network-protocol-agent
 
 1
 -

@@ -554,7 +554,7 @@ everything that involves, including:
  
     <li>Fetch Metadata <a data-link-type="biblio" href="#biblio-fetch-metadata" title="Fetch Metadata Request Headers">[FETCH-METADATA]</a>
  
-    <li>Service workers <a data-link-type="biblio" href="#biblio-sw" title="Service Workers">[SW]</a>
+    <li>Service workers <a data-link-type="biblio" href="#biblio-sw" title="Service Workers Nightly">[SW]</a>
  
     <li>Mixed Content <a data-link-type="biblio" href="#biblio-mix" title="Mixed Content">[MIX]</a>
  
@@ -676,7 +676,7 @@ following <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#struct-it
  
     <dt><dfn class="dfn-paneled" data-dfn-for="fetch timing info" data-dfn-type="dfn" data-export id="fetch-timing-info-end-time">end time</dfn> (default 0)
  
-    <dd>A <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp">DOMHighResTimeStamp</a></code>.
+    <dd>A <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp">DOMHighResTimeStamp</a></code>.
 
  
     <dt><dfn class="dfn-paneled" data-dfn-for="fetch timing info" data-dfn-type="dfn" data-export id="fetch-timing-info-encoded-body-size">encoded body size</dfn> (default 0)
@@ -2762,7 +2762,7 @@ or "<code>object</code>".
 
 </p>
    <p class="note" role="note">See <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#handle-fetch" id="ref-for-handle-fetch">handle fetch</a> for usage of these terms.
-<a data-link-type="biblio" href="#biblio-sw" title="Service Workers">[SW]</a>
+<a data-link-type="biblio" href="#biblio-sw" title="Service Workers Nightly">[SW]</a>
 
 </p>
    <hr>
@@ -2953,7 +2953,7 @@ message as HTTP/2 does not support them.
 "<code>local</code>"). Unlesss stated otherwise, it is the empty string.
 
 </p>
-   <p class="note" role="note">This is intended solely for usage by service workers. <a data-link-type="biblio" href="#biblio-sw" title="Service Workers">[SW]</a>
+   <p class="note" role="note">This is intended solely for usage by service workers. <a data-link-type="biblio" href="#biblio-sw" title="Service Workers Nightly">[SW]</a>
 
 </p>
    <p>A <a data-link-type="dfn" href="#concept-response" id="ref-for-concept-response①⑥">response</a> has an associated
@@ -3276,7 +3276,7 @@ information pertaining to the process of obtaining a connection. It has the foll
  
     <dt><dfn class="dfn-paneled" data-dfn-for="connection timing info" data-dfn-type="dfn" data-export id="connection-timing-info-secure-connection-start-time">secure connection start time</dfn> (default 0)
  
-    <dd>A <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp①">DOMHighResTimeStamp</a></code>.
+    <dd>A <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp①">DOMHighResTimeStamp</a></code>.
 
  
     <dt><dfn class="dfn-paneled" data-dfn-for="connection timing info" data-dfn-type="dfn" data-export id="connection-timing-info-alpn-negotiated-protocol">ALPN negotiated protocol</dfn> (default the empty
@@ -3286,7 +3286,7 @@ information pertaining to the process of obtaining a connection. It has the foll
 
    </dl>
    <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="clamp-and-coarsen-connection-timing-info">clamp and coarsen connection timing info</dfn>, given a
-<a data-link-type="dfn" href="#connection-timing-info" id="ref-for-connection-timing-info③">connection timing info</a> <var>timingInfo</var>, a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp②">DOMHighResTimeStamp</a></code>
+<a data-link-type="dfn" href="#connection-timing-info" id="ref-for-connection-timing-info③">connection timing info</a> <var>timingInfo</var>, a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp②">DOMHighResTimeStamp</a></code>
 <var>defaultStartTime</var>, and a boolean <var>crossOriginIsolatedCapability</var>, run these
 steps:
 
@@ -5388,7 +5388,7 @@ steps:
     whose <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-scheme" id="ref-for-concept-url-scheme①②">scheme</a> is "<code>data</code>" a unique <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-opaque" id="ref-for-concept-origin-opaque">opaque origin</a>. Service
     workers can only be created from <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url" id="ref-for-concept-url①③">URLs</a> whose <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-scheme" id="ref-for-concept-url-scheme①③">scheme</a> is an
     <a data-link-type="dfn" href="#http-scheme" id="ref-for-http-scheme④">HTTP(S) scheme</a>.
-    <a data-link-type="biblio" href="#biblio-html" title="HTML Standard">[HTML]</a> <a data-link-type="biblio" href="#biblio-sw" title="Service Workers">[SW]</a>
+    <a data-link-type="biblio" href="#biblio-html" title="HTML Standard">[HTML]</a> <a data-link-type="biblio" href="#biblio-sw" title="Service Workers Nightly">[SW]</a>
 
    </p>
       <dt><var>request</var>’s <a data-link-type="dfn" href="#concept-request-mode" id="ref-for-concept-request-mode⑦">mode</a> is
@@ -5825,7 +5825,7 @@ steps:
        <ol>
         <li>
          <p>Let <var>blob</var> be <var>request</var>’s <a data-link-type="dfn" href="#concept-request-current-url" id="ref-for-concept-request-current-url①⑦">current URL</a>’s
-     <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-blob-entry" id="ref-for-concept-url-blob-entry">blob URL entry</a>’s <a data-link-type="dfn" href="https://w3c.github.io/FileAPI/#blob-url-entry-object" id="ref-for-blob-url-entry-object">object</a>.
+     <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-blob-entry" id="ref-for-concept-url-blob-entry">blob URL entry</a>’s <u class="link-error" data-lt="object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;object&apos; with for=&apos;[&apos;blob URL entry&apos;]&apos;.">object</u>.
 
      </p>
         <li>
@@ -6014,7 +6014,7 @@ these steps:
    </p>
       <li>
        <p>Set <var>response</var> to the result of invoking <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#handle-fetch" id="ref-for-handle-fetch①">handle fetch</a> for
-   <var>requestForServiceWorker</var>. <a data-link-type="biblio" href="#biblio-html" title="HTML Standard">[HTML]</a> <a data-link-type="biblio" href="#biblio-sw" title="Service Workers">[SW]</a>
+   <var>requestForServiceWorker</var>. <a data-link-type="biblio" href="#biblio-html" title="HTML Standard">[HTML]</a> <a data-link-type="biblio" href="#biblio-sw" title="Service Workers Nightly">[SW]</a>
 
    </p>
       <li>
@@ -11512,7 +11512,6 @@ if ("serviceWorker" in navigator) {
      <li><span class="dfn-paneled" id="b7d73f5b">Blob</span>
      <li><span class="dfn-paneled" id="cd028611">File</span>
      <li><span class="dfn-paneled" id="1441e3bf">name</span>
-     <li><span class="dfn-paneled" id="ea2e2fcc">object</span>
      <li><span class="dfn-paneled" id="0a192674">read operation</span>
      <li><span class="dfn-paneled" id="a6ade6da">size</span>
      <li><span class="dfn-paneled" id="e303c02d">type</span>
@@ -11520,7 +11519,7 @@ if ("serviceWorker" in navigator) {
    <li>
     <a data-link-type="biblio">[HR-TIME-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="0e9f636b">DOMHighResTimeStamp</span>
+     <li><span class="dfn-paneled" id="00c8c5e6">DOMHighResTimeStamp</span>
      <li><span class="dfn-paneled" id="80bf04ff">coarsen time</span>
      <li><span class="dfn-paneled" id="27402d04">coarsened shared current time</span>
      <li><span class="dfn-paneled" id="9a31d086">unsafe shared current time</span>
@@ -11852,13 +11851,13 @@ if ("serviceWorker" in navigator) {
    <dt id="biblio-rfc8941">[RFC8941]
    <dd>M. Nottingham; P-H. Kamp. <a href="https://httpwg.org/specs/rfc8941.html"><cite>Structured Field Values for HTTP</cite></a>. February 2021. Proposed Standard. URL: <a href="https://httpwg.org/specs/rfc8941.html">https://httpwg.org/specs/rfc8941.html</a>
    <dt id="biblio-sri">[SRI]
-   <dd>Devdatta Akhawe; et al. <a href="https://w3c.github.io/webappsec-subresource-integrity/"><cite>Subresource Integrity</cite></a>. URL: <a href="https://w3c.github.io/webappsec-subresource-integrity/">https://w3c.github.io/webappsec-subresource-integrity/</a>
+   <dd>Frederik Braun. <a href="https://w3c.github.io/webappsec-subresource-integrity/"><cite>Subresource Integrity</cite></a>. URL: <a href="https://w3c.github.io/webappsec-subresource-integrity/">https://w3c.github.io/webappsec-subresource-integrity/</a>
    <dt id="biblio-stale-while-revalidate">[STALE-WHILE-REVALIDATE]
    <dd>M. Nottingham. <a href="https://httpwg.org/specs/rfc5861.html"><cite>HTTP Cache-Control Extensions for Stale Content</cite></a>. May 2010. Informational. URL: <a href="https://httpwg.org/specs/rfc5861.html">https://httpwg.org/specs/rfc5861.html</a>
    <dt id="biblio-streams">[STREAMS]
    <dd>Adam Rice; et al. <a href="https://streams.spec.whatwg.org/"><cite>Streams Standard</cite></a>. Living Standard. URL: <a href="https://streams.spec.whatwg.org/">https://streams.spec.whatwg.org/</a>
    <dt id="biblio-sw">[SW]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers Nightly</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
    <dt id="biblio-tls">[TLS]
    <dd>E. Rescorla. <a href="https://www.rfc-editor.org/rfc/rfc8446"><cite>The Transport Layer Security (TLS) Protocol Version 1.3</cite></a>. August 2018. Proposed Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc8446">https://www.rfc-editor.org/rfc/rfc8446</a>
    <dt id="biblio-upgrade-insecure-requests">[UPGRADE-INSECURE-REQUESTS]
@@ -13170,6 +13169,7 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
+"00c8c5e6": {"dfnID":"00c8c5e6","dfnText":"DOMHighResTimeStamp","external":true,"refSections":[{"refs":[{"id":"ref-for-typedefdef-domhighrestimestamp"}],"title":"2. Infrastructure"},{"refs":[{"id":"ref-for-typedefdef-domhighrestimestamp\u2460"},{"id":"ref-for-typedefdef-domhighrestimestamp\u2461"}],"title":"2.5. Connections"}],"url":"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"},
 "027e3e49": {"dfnID":"027e3e49","dfnText":"clone","external":true,"refSections":[{"refs":[{"id":"ref-for-list-clone"}],"title":"4.1. Main fetch"},{"refs":[{"id":"ref-for-list-clone\u2460"}],"title":"4.6. HTTP-network-or-cache fetch"}],"url":"https://infra.spec.whatwg.org/#list-clone"},
 "0303e8e5": {"dfnID":"0303e8e5","dfnText":"UTF-8 encode","external":true,"refSections":[{"refs":[{"id":"ref-for-utf-8-encode"}],"title":"5.2. BodyInit unions"}],"url":"https://encoding.spec.whatwg.org/#utf-8-encode"},
 "0698d556": {"dfnID":"0698d556","dfnText":"string","external":true,"refSections":[{"refs":[{"id":"ref-for-string"}],"title":"2.2. HTTP"},{"refs":[{"id":"ref-for-string\u2460"}],"title":"2.2.2. Headers"},{"refs":[{"id":"ref-for-string\u2461"}],"title":"4.1. Main fetch"}],"url":"https://infra.spec.whatwg.org/#string"},
@@ -13180,7 +13180,6 @@ let dfnPanelData = {
 "09abaedd": {"dfnID":"09abaedd","dfnText":"Handle Fetch","external":true,"refSections":[{"refs":[{"id":"ref-for-handle-fetch"}],"title":"2.2.5. Requests"},{"refs":[{"id":"ref-for-handle-fetch\u2460"}],"title":"4.3. HTTP fetch"}],"url":"https://w3c.github.io/ServiceWorker/#handle-fetch"},
 "0a07d90a": {"dfnID":"0a07d90a","dfnText":"piped through","external":true,"refSections":[{"refs":[{"id":"ref-for-readablestream-pipe-through"}],"title":"4.3. HTTP fetch"}],"url":"https://streams.spec.whatwg.org/#readablestream-pipe-through"},
 "0a192674": {"dfnID":"0a192674","dfnText":"read operation","external":true,"refSections":[{"refs":[{"id":"ref-for-readOperation"}],"title":"4.2. Scheme fetch"}],"url":"https://w3c.github.io/FileAPI/#readOperation"},
-"0e9f636b": {"dfnID":"0e9f636b","dfnText":"DOMHighResTimeStamp","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-domhighrestimestamp"}],"title":"2. Infrastructure"},{"refs":[{"id":"ref-for-dom-domhighrestimestamp\u2460"},{"id":"ref-for-dom-domhighrestimestamp\u2461"}],"title":"2.5. Connections"}],"url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
 "10502966": {"dfnID":"10502966","dfnText":"unsafe-none","external":true,"refSections":[{"refs":[{"id":"ref-for-coep-unsafe-none"},{"id":"ref-for-coep-unsafe-none\u2460"},{"id":"ref-for-coep-unsafe-none\u2461"}],"title":"3.7. `Cross-Origin-Resource-Policy` header"}],"url":"https://html.spec.whatwg.org/multipage/browsers.html#coep-unsafe-none"},
 "10d9e2a0": {"dfnID":"10d9e2a0","dfnText":"urlencoded parser","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-urlencoded-parser"}],"title":"5.3. Body mixin"}],"url":"https://url.spec.whatwg.org/#concept-urlencoded-parser"},
 "1243a891": {"dfnID":"1243a891","dfnText":"exist","external":true,"refSections":[{"refs":[{"id":"ref-for-map-exists"},{"id":"ref-for-map-exists\u2460"}],"title":"3.4. `Content-Type` header"},{"refs":[{"id":"ref-for-map-exists\u2461"},{"id":"ref-for-map-exists\u2462"},{"id":"ref-for-map-exists\u2463"},{"id":"ref-for-map-exists\u2464"},{"id":"ref-for-map-exists\u2465"},{"id":"ref-for-map-exists\u2466"},{"id":"ref-for-map-exists\u2467"},{"id":"ref-for-map-exists\u2468"},{"id":"ref-for-map-exists\u2460\u24ea"},{"id":"ref-for-map-exists\u2460\u2460"},{"id":"ref-for-map-exists\u2460\u2461"},{"id":"ref-for-map-exists\u2460\u2462"},{"id":"ref-for-map-exists\u2460\u2463"},{"id":"ref-for-map-exists\u2460\u2464"},{"id":"ref-for-map-exists\u2460\u2465"}],"title":"5.4. Request class"},{"refs":[{"id":"ref-for-map-exists\u2460\u2466"}],"title":"5.5. Response class"}],"url":"https://infra.spec.whatwg.org/#map-exists"},
@@ -13685,7 +13684,6 @@ let dfnPanelData = {
 "e3e2d506": {"dfnID":"e3e2d506","dfnText":"cancel","external":true,"refSections":[{"refs":[{"id":"ref-for-readablestream-cancel"}],"title":"4.3. HTTP fetch"},{"refs":[{"id":"ref-for-readablestream-cancel\u2460"}],"title":"5.6. Fetch method"}],"url":"https://streams.spec.whatwg.org/#readablestream-cancel"},
 "e44fffcf": {"dfnID":"e44fffcf","dfnText":"iterable","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-iterable"}],"title":"5.1. Headers class"}],"url":"https://webidl.spec.whatwg.org/#dfn-iterable"},
 "e4d92278": {"dfnID":"e4d92278","dfnText":"enqueue steps","external":true,"refSections":[{"refs":[{"id":"ref-for-enqueue-the-following-steps"}],"title":"2. Infrastructure"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#enqueue-the-following-steps"},
-"ea2e2fcc": {"dfnID":"ea2e2fcc","dfnText":"object","external":true,"refSections":[{"refs":[{"id":"ref-for-blob-url-entry-object"}],"title":"4.2. Scheme fetch"}],"url":"https://w3c.github.io/FileAPI/#blob-url-entry-object"},
 "ec878a66": {"dfnID":"ec878a66","dfnText":"RangeError","external":true,"refSections":[{"refs":[{"id":"ref-for-exceptiondef-rangeerror"}],"title":"5.3. Body mixin"},{"refs":[{"id":"ref-for-exceptiondef-rangeerror\u2460"},{"id":"ref-for-exceptiondef-rangeerror\u2461"}],"title":"5.5. Response class"}],"url":"https://webidl.spec.whatwg.org/#exceptiondef-rangeerror"},
 "ed948033": {"dfnID":"ed948033","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-fragment"},{"id":"ref-for-concept-url-fragment\u2460"}],"title":"2.2.6. Responses"},{"refs":[{"id":"ref-for-concept-url-fragment\u2461"}],"title":"4.4. HTTP-redirect fetch"}],"url":"https://url.spec.whatwg.org/#concept-url-fragment"},
 "eda8aa85": {"dfnID":"eda8aa85","dfnText":"default referrer policy","external":true,"refSections":[{"refs":[{"id":"ref-for-default-referrer-policy"}],"title":"4.1. Main fetch"}],"url":"https://w3c.github.io/webappsec-referrer-policy/#default-referrer-policy"},
@@ -14774,7 +14772,6 @@ let refsData = {
 "https://url.spec.whatwg.org/#string-percent-decode": {"displayText":"percent-decode","export":true,"for_":["string"],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"percent-decode","type":"dfn","url":"https://url.spec.whatwg.org/#string-percent-decode"},
 "https://url.spec.whatwg.org/#url-serializer-exclude-fragment": {"displayText":"exclude fragment","export":true,"for_":["URL serializer"],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"exclude fragment","type":"dfn","url":"https://url.spec.whatwg.org/#url-serializer-exclude-fragment"},
 "https://url.spec.whatwg.org/#urlsearchparams": {"displayText":"URLSearchParams","export":true,"for_":[],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"URLSearchParams","type":"interface","url":"https://url.spec.whatwg.org/#urlsearchparams"},
-"https://w3c.github.io/FileAPI/#blob-url-entry-object": {"displayText":"object","export":true,"for_":["blob URL entry"],"level":"1","normative":true,"shortname":"fileapi","spec":"fileapi","status":"current","text":"object","type":"dfn","url":"https://w3c.github.io/FileAPI/#blob-url-entry-object"},
 "https://w3c.github.io/FileAPI/#dfn-Blob": {"displayText":"Blob","export":true,"for_":[],"level":"1","normative":true,"shortname":"fileapi","spec":"fileapi","status":"current","text":"Blob","type":"interface","url":"https://w3c.github.io/FileAPI/#dfn-Blob"},
 "https://w3c.github.io/FileAPI/#dfn-file": {"displayText":"File","export":true,"for_":[],"level":"1","normative":true,"shortname":"fileapi","spec":"fileapi","status":"current","text":"File","type":"interface","url":"https://w3c.github.io/FileAPI/#dfn-file"},
 "https://w3c.github.io/FileAPI/#dfn-name": {"displayText":"name","export":true,"for_":["File"],"level":"1","normative":true,"shortname":"fileapi","spec":"fileapi","status":"current","text":"name","type":"attribute","url":"https://w3c.github.io/FileAPI/#dfn-name"},
@@ -14787,7 +14784,7 @@ let refsData = {
 "https://w3c.github.io/hr-time/#dfn-coarsen-time": {"displayText":"coarsen time","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"coarsen time","type":"dfn","url":"https://w3c.github.io/hr-time/#dfn-coarsen-time"},
 "https://w3c.github.io/hr-time/#dfn-coarsened-shared-current-time": {"displayText":"coarsened shared current time","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"coarsened shared current time","type":"dfn","url":"https://w3c.github.io/hr-time/#dfn-coarsened-shared-current-time"},
 "https://w3c.github.io/hr-time/#dfn-unsafe-shared-current-time": {"displayText":"unsafe shared current time","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"unsafe shared current time","type":"dfn","url":"https://w3c.github.io/hr-time/#dfn-unsafe-shared-current-time"},
-"https://w3c.github.io/hr-time/#dom-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
+"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"},
 "https://w3c.github.io/webappsec-csp/#content-security-policy-object": {"displayText":"content security policy object","export":true,"for_":[],"level":"3","normative":true,"shortname":"csp","spec":"csp3","status":"current","text":"content security policy object","type":"dfn","url":"https://w3c.github.io/webappsec-csp/#content-security-policy-object"},
 "https://w3c.github.io/webappsec-csp/#report-for-request": {"displayText":"Report Content Security Policy violations for request","export":true,"for_":[],"level":"3","normative":true,"shortname":"csp","spec":"csp3","status":"current","text":"report content security policy violations for request","type":"dfn","url":"https://w3c.github.io/webappsec-csp/#report-for-request"},
 "https://w3c.github.io/webappsec-csp/#should-block-request": {"displayText":"Should request be blocked by Content Security Policy?","export":true,"for_":[],"level":"3","normative":true,"shortname":"csp","spec":"csp3","status":"current","text":"should request be blocked by content security policy?","type":"dfn","url":"https://w3c.github.io/webappsec-csp/#should-block-request"},
@@ -14800,7 +14797,7 @@ let refsData = {
 "https://w3c.github.io/webappsec-referrer-policy/#enumdef-referrerpolicy": {"displayText":"ReferrerPolicy","export":true,"for_":[],"level":"1","normative":true,"shortname":"referrer-policy","spec":"referrer-policy","status":"current","text":"ReferrerPolicy","type":"enum","url":"https://w3c.github.io/webappsec-referrer-policy/#enumdef-referrerpolicy"},
 "https://w3c.github.io/webappsec-referrer-policy/#referrer-policy": {"displayText":"referrer policy","export":true,"for_":[],"level":"1","normative":true,"shortname":"referrer-policy","spec":"referrer-policy","status":"current","text":"referrer policy","type":"dfn","url":"https://w3c.github.io/webappsec-referrer-policy/#referrer-policy"},
 "https://w3c.github.io/webappsec-referrer-policy/#set-requests-referrer-policy-on-redirect": {"displayText":"Set request's referrer policy on redirect","export":true,"for_":[],"level":"1","normative":true,"shortname":"referrer-policy","spec":"referrer-policy","status":"current","text":"set request's referrer policy on redirect","type":"dfn","url":"https://w3c.github.io/webappsec-referrer-policy/#set-requests-referrer-policy-on-redirect"},
-"https://w3c.github.io/webappsec-subresource-integrity/#does-response-match-metadatalist": {"displayText":"Do bytes match metadataList?","export":true,"for_":[],"level":"1","normative":true,"shortname":"sri","spec":"sri","status":"current","text":"do bytes match metadatalist?","type":"dfn","url":"https://w3c.github.io/webappsec-subresource-integrity/#does-response-match-metadatalist"},
+"https://w3c.github.io/webappsec-subresource-integrity/#does-response-match-metadatalist": {"displayText":"Do bytes match metadataList?","export":true,"for_":[],"level":"2","normative":true,"shortname":"sri","spec":"sri-2","status":"current","text":"do bytes match metadatalist?","type":"dfn","url":"https://w3c.github.io/webappsec-subresource-integrity/#does-response-match-metadatalist"},
 "https://w3c.github.io/webappsec-upgrade-insecure-requests/#upgrade-request": {"displayText":"Upgrade request to a potentially trustworthy URL, if appropriate","export":true,"for_":[],"level":"1","normative":true,"shortname":"upgrade-insecure-requests","spec":"upgrade-insecure-requests","status":"current","text":"upgrade request to a potentially trustworthy url, if appropriate","type":"dfn","url":"https://w3c.github.io/webappsec-upgrade-insecure-requests/#upgrade-request"},
 "https://webidl.spec.whatwg.org/#BufferSource": {"displayText":"BufferSource","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"BufferSource","type":"typedef","url":"https://webidl.spec.whatwg.org/#BufferSource"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},

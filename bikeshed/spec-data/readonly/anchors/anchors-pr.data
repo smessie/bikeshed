@@ -118,6 +118,30 @@ https://www.w3.org/TR/webauthn-3/#dom-userverificationrequirement-preferred
 1
 UserVerificationRequirement
 -
+"preflight"
+"preflight"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkinitiator-type-preflight
+
+1
+network.Initiator/type
+-
+"preflight"
+"preflight"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkinitiator-type-preflight
+
+1
+network.Initiator/type
+-
 "premultiplied"
 "premultiplied"
 enum-value
@@ -157,6 +181,18 @@ TokenBindingStatus
 "present"
 "present"
 enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnectionstate-present
+1
+1
+SmartCardConnectionState
+-
+"present"
+"present"
+enum-value
 webauthn-3
 webauthn
 3
@@ -165,6 +201,42 @@ https://www.w3.org/TR/webauthn-3/#dom-tokenbindingstatus-present
 1
 1
 TokenBindingStatus
+-
+"pressKeys"
+"pressKeys"
+cddl-value
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-value-presskeysintentparameters-name-presskeys
+
+1
+PressKeysIntentParameters/name
+-
+"pressure"
+"pressure"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointercommonproperties-pressure
+
+1
+input.PointerCommonProperties
+-
+"pressure"
+"pressure"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointercommonproperties-pressure
+
+1
+input.PointerCommonProperties
 -
 "prev"
 "prev"
@@ -262,28 +334,29 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbcursordirection-prevunique
 1
 IDBCursorDirection
 -
-"private"
-"private"
+"primitive-index"
+"primitive-index"
 enum-value
-private-network-access
-private-network-access
+webgpu
+webgpu
 1
 current
-https://wicg.github.io/private-network-access/#dom-ipaddressspace-private
+https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-primitive-index
 1
 1
-IPAddressSpace
+GPUFeatureName
 -
-"private-network-access"
-"private-network-access"
-permission
-private-network-access
-private-network-access
+"primitive-index"
+"primitive-index"
+enum-value
+webgpu
+webgpu
 1
-current
-https://wicg.github.io/private-network-access/#permissiondef-private-network-access
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpufeaturename-primitive-index
 1
 1
+GPUFeatureName
 -
 "product"
 "product"
@@ -321,6 +394,30 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssmathoperator-product
 1
 CSSMathOperator
 -
+"promise"
+"promise"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptpromiseremotevalue-type-promise
+
+1
+script.PromiseRemoteValue/type
+-
+"promise"
+"promise"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptpromiseremotevalue-type-promise
+
+1
+script.PromiseRemoteValue/type
+-
 "prompt"
 "prompt"
 dfn
@@ -335,6 +432,54 @@ permission
 -
 "prompt"
 "prompt"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-prompt
+
+1
+session.UserPromptHandler
+-
+"prompt"
+"prompt"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-prompt
+
+1
+browsingContext.UserPromptType
+-
+"prompt"
+"prompt"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothhandlerequestdevicepromptparameters-prompt
+
+1
+bluetooth.HandleRequestDevicePromptParameters
+-
+"prompt"
+"prompt"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothrequestdevicepromptupdatedparameters-prompt
+
+1
+bluetooth.RequestDevicePromptUpdatedParameters
+-
+"prompt"
+"prompt"
 dfn
 permissions
 permissions
@@ -344,6 +489,378 @@ https://www.w3.org/TR/permissions/#dfn-prompt
 1
 1
 permission
+-
+"prompt"
+"prompt"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-prompt
+
+1
+session.UserPromptHandler
+-
+"prompt"
+"prompt"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-prompt
+
+1
+browsingContext.UserPromptType
+-
+"promptUnload"
+"promptUnload"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcloseparameters-promptunload
+
+1
+browsingContext.CloseParameters
+-
+"promptUnload"
+"promptUnload"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcloseparameters-promptunload
+
+1
+browsingContext.CloseParameters
+-
+"proto-mismatch"
+"proto-mismatch"
+enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardresponsecode-proto-mismatch
+1
+1
+SmartCardResponseCode
+-
+"protocol"
+"protocol"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkresponsedata-protocol
+
+1
+network.ResponseData
+-
+"protocol"
+"protocol"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkurlpatternpattern-protocol
+
+1
+network.UrlPatternPattern
+-
+"protocol"
+"protocol"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkresponsedata-protocol
+
+1
+network.ResponseData
+-
+"protocol"
+"protocol"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkurlpatternpattern-protocol
+
+1
+network.UrlPatternPattern
+-
+"provideCredentials"
+"provideCredentials"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkcontinuewithauthcredentials-action-providecredentials
+
+1
+network.ContinueWithAuthCredentials/action
+-
+"provideCredentials"
+"provideCredentials"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkcontinuewithauthcredentials-action-providecredentials
+
+1
+network.ContinueWithAuthCredentials/action
+-
+"proxy"
+"proxy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsercreateusercontextparameters-proxy
+
+1
+browser.CreateUserContextParameters
+-
+"proxy"
+"proxy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessioncapabilityrequest-proxy
+
+1
+session.CapabilityRequest
+-
+"proxy"
+"proxy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionnewresult-capabilities-proxy
+
+1
+session.NewResult/capabilities
+-
+"proxy"
+"proxy"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptproxyremotevalue-type-proxy
+
+1
+script.ProxyRemoteValue/type
+-
+"proxy"
+"proxy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsercreateusercontextparameters-proxy
+
+1
+browser.CreateUserContextParameters
+-
+"proxy"
+"proxy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessioncapabilityrequest-proxy
+
+1
+session.CapabilityRequest
+-
+"proxy"
+"proxy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionnewresult-capabilities-proxy
+
+1
+session.NewResult/capabilities
+-
+"proxy"
+"proxy"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptproxyremotevalue-type-proxy
+
+1
+script.ProxyRemoteValue/type
+-
+"proxyAutoconfigUrl"
+"proxyAutoconfigUrl"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxyautoconfigurl
+
+1
+session.PacProxyConfiguration
+-
+"proxyAutoconfigUrl"
+"proxyAutoconfigUrl"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxyautoconfigurl
+
+1
+session.PacProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionautodetectproxyconfiguration-proxytype
+
+1
+session.AutodetectProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessiondirectproxyconfiguration-proxytype
+
+1
+session.DirectProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionmanualproxyconfiguration-proxytype
+
+1
+session.ManualProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxytype
+
+1
+session.PacProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionsystemproxyconfiguration-proxytype
+
+1
+session.SystemProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionautodetectproxyconfiguration-proxytype
+
+1
+session.AutodetectProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessiondirectproxyconfiguration-proxytype
+
+1
+session.DirectProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionmanualproxyconfiguration-proxytype
+
+1
+session.ManualProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxytype
+
+1
+session.PacProxyConfiguration
+-
+"proxyType"
+"proxyType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionsystemproxyconfiguration-proxytype
+
+1
+session.SystemProxyConfiguration
 -
 %Promise%
 %Promise%
@@ -402,37 +919,15 @@ https://www.w3.org/TR/css-pseudo-4/#selectordef-first-letter-prefix
 1
 ::first-letter
 -
-<predefined-polar-params>
-<predefined-polar-params>
-type
-css-color-hdr
-css-color-hdr
+:properinterval
+:ProperInterval
+dfn
+owl-time
+owl-time
 1
 current
-https://drafts.csswg.org/css-color-hdr/#typedef-predefined-polar-params
-1
-1
--
-<predefined-rectangular-params>
-<predefined-rectangular-params>
-type
-css-color-hdr
-css-color-hdr
-1
-current
-https://drafts.csswg.org/css-color-hdr/#typedef-predefined-rectangular-params
-1
-1
--
-<predefined-rectangular>
-<predefined-rectangular>
-type
-css-color-hdr
-css-color-hdr
-1
-current
-https://drafts.csswg.org/css-color-hdr/#typedef-predefined-rectangular
-1
+https://w3c.github.io/sdw/time/#dfn-properinterval
+
 1
 -
 <predefined-rgb-params>
@@ -454,17 +949,6 @@ css-color
 5
 current
 https://drafts.csswg.org/css-color-5/#typedef-predefined-rgb-params
-1
-1
--
-<predefined-rgb-params>
-<predefined-rgb-params>
-type
-css-color-hdr
-css-color-hdr
-1
-current
-https://drafts.csswg.org/css-color-hdr/#typedef-predefined-rgb-params
 1
 1
 -
@@ -515,11 +999,11 @@ https://drafts.csswg.org/css-color-5/#typedef-predefined-rgb
 <predefined-rgb>
 <predefined-rgb>
 type
-css-color-hdr
+css-color-hdr-1
 css-color-hdr
 1
 current
-https://drafts.csswg.org/css-color-hdr/#typedef-predefined-rgb
+https://drafts.csswg.org/css-color-hdr-1/#typedef-predefined-rgb
 1
 1
 -
@@ -542,6 +1026,17 @@ css-color
 5
 snapshot
 https://www.w3.org/TR/css-color-5/#typedef-predefined-rgb
+1
+1
+-
+<predefined-rgb>
+<predefined-rgb>
+type
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#typedef-predefined-rgb
 1
 1
 -
@@ -595,30 +1090,19 @@ type
 css-values-5
 css-values
 5
-current
-https://drafts.csswg.org/css-values-5/#typedef-progress-fn
-1
-1
--
-<progress()>
-<progress()>
-type
-css-values-5
-css-values
-5
 snapshot
 https://www.w3.org/TR/css-values-5/#typedef-progress-fn
 1
 1
 -
-<progress>
-<progress>
+<progress-source>
+<progress-source>
 type
 css-values-5
 css-values
 5
 current
-https://drafts.csswg.org/css-values-5/#typedef-progress
+https://drafts.csswg.org/css-values-5/#typedef-progress-source
 1
 1
 -
@@ -677,17 +1161,6 @@ https://www.w3.org/TR/css-properties-values-api-1/#at-ruledef-property
 1
 1
 -
-pr
-PR
-dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#RecsPR
-1
-1
--
 PROCESSING_INSTRUCTION_NODE
 PROCESSING_INSTRUCTION_NODE
 const
@@ -722,12 +1195,56 @@ https://www.w3.org/TR/i18n-glossary/#dfn-pre-base
 1
 
 -
+pre-binding of variables
+pre-binding of variables
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-binding of variables
+pre-binding of variables
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-recording script
+Pre-recording Script
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-pre-recording-script
+
+1
+-
+pre-recording script
+Pre-recording Script
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-pre-recording-script
+
+1
+-
 preceding element
 preceding element
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#preceding
 
@@ -780,9 +1297,9 @@ https://wicg.github.io/observable/#callbackdef-predicate
 predicted events
 predicted events
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-predicted-events
 
@@ -794,8 +1311,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-predicted-events
+
+1
+-
+predicted events
+predicted events
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-predicted-events
+
+1
+-
+predicted events
+predicted events
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-predicted-events
 
 1
 -
@@ -813,11 +1352,11 @@ https://drafts.csswg.org/mediaqueries-5/#preferencemanager
 PreferenceManager
 PreferenceManager
 interface
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#preferencemanager
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#preferencemanager
 1
 1
 -
@@ -835,11 +1374,11 @@ https://drafts.csswg.org/mediaqueries-5/#preferenceobject
 PreferenceObject
 PreferenceObject
 interface
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#preferenceobject
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#preferenceobject
 1
 1
 -
@@ -851,19 +1390,19 @@ mediaqueries
 5
 current
 https://drafts.csswg.org/mediaqueries-5/#preferenceobject-preferenceobject-update-steps
-
+1
 1
 PreferenceObject
 -
 preferenceobject update steps
 PreferenceObject update steps
 dfn
-web-preferences-api
-web-preferences-api
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#preferenceobject-preferenceobject-update-steps
 1
-current
-https://wicg.github.io/web-preferences-api/#preferenceobject-preferenceobject-update-steps
-
 1
 PreferenceObject
 -
@@ -875,6 +1414,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#preload-script
+
+1
+-
+preload script
+preload script
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#preload-script
 
 1
 -
@@ -933,8 +1483,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-PrepareForOrdinaryCall(F, newTarget)
-PrepareForOrdinaryCall(F, newTarget)
+PrepareForOrdinaryCall(func, newTarget)
+PrepareForOrdinaryCall(func, newTarget)
 abstract-op
 ecmascript
 ecmascript
@@ -987,6 +1537,28 @@ snapshot
 https://www.w3.org/TR/presentation-api/#dom-presentation
 1
 1
+-
+presentation compositor
+Presentation Compositor
+dfn
+imsc-hrm
+imsc-hrm
+1
+current
+https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html#dfn-presentation-compositor
+
+
+-
+presentation compositor
+Presentation Compositor
+dfn
+imsc-hrm
+imsc-hrm
+1
+snapshot
+https://www.w3.org/TR/imsc-hrm/#dfn-presentation-compositor
+
+
 -
 presentation interval
 Presentation Interval
@@ -1076,6 +1648,74 @@ https://www.w3.org/TR/media-source-2/#presentation-timestamp
 1
 1
 -
+presentation processor
+presentation processor
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-presentation-processor
+
+1
+-
+presentation processor
+presentation processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-presentation-processor
+
+1
+-
+presentation processor
+presentation processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-presentation-processor
+
+1
+-
+presentation processor
+presentation processor
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-presentation-processor
+
+1
+-
+presentation protocol
+presentation protocol
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-presentation-protocol
+
+1
+digital credential
+-
+presentation protocol
+presentation protocol
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-presentation-protocol
+
+1
+digital credential
+-
 presentation request
 presentation request
 dfn
@@ -1083,7 +1723,43 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dfn-presentation-request
+https://w3c-fedid.github.io/digital-credentials/#dfn-presentation-request
+
+1
+digital credential
+-
+presentation request
+presentation request
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-presentation-request
+
+1
+digital credential
+-
+presentation request data
+presentation request data
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-presentation-request-data
+
+1
+digital credential
+-
+presentation request data
+presentation request data
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-presentation-request-data
 
 1
 digital credential
@@ -1095,9 +1771,22 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dfn-presentation-response
+https://w3c-fedid.github.io/digital-credentials/#dfn-presentation-response
 
 1
+digital credential
+-
+presentation response
+presentation response
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-presentation-response
+
+1
+digital credential
 -
 PresentationAvailability
 PresentationAvailability
@@ -1363,6 +2052,17 @@ https://www.w3.org/TR/clipboard-apis/#enumdef-presentationstyle
 1
 1
 -
+PressKeysIntentParameters
+PressKeysIntentParameters
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-presskeysintentparameters
+
+1
+-
 pressure states
 pressure states
 dfn
@@ -1561,28 +2261,6 @@ https://www.w3.org/TR/credential-management-1/#abstract-opdef-prevent-silent-acc
 1
 1
 -
-PreviousWin
-PreviousWin
-typedef
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#typedefdef-previouswin
-1
-1
--
-PreviousWinElement
-PreviousWinElement
-typedef
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#typedefdef-previouswinelement
-1
-1
--
 primary
 primary
 dfn
@@ -1604,17 +2282,6 @@ snapshot
 https://www.w3.org/TR/screen-orientation/#dfn-primary
 
 1
--
-primary content element
-Primary Content Element
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-primary-content-element
-
-
 -
 primary content element
 Primary Content Element
@@ -1660,6 +2327,17 @@ https://webbluetoothcg.github.io/web-bluetooth/#primary-service-discovery
 
 1
 -
+primaryexpression
+PrimaryExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PrimaryExpression
+
+1
+-
 print page
 Print Page
 dfn
@@ -1692,6 +2370,74 @@ current
 https://console.spec.whatwg.org/#printer
 1
 1
+-
+prio3l1boundsum
+Prio3L1BoundSum
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#prio3l1boundsum
+
+1
+-
+prio3l1boundsum
+Prio3L1BoundSum
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#prio3l1boundsum
+
+1
+-
+priority
+priority
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-priority
+
+1
+impression
+-
+priority
+priority
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-priority
+
+1
+impression
+-
+privacy
+privacy
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-privacy
+
+
+-
+privacy
+privacy
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-privacy
+
+
 -
 privacy feature
 Privacy Feature
@@ -1726,29 +2472,27 @@ https://webbluetoothcg.github.io/web-bluetooth/scanning.html#privacy-feature-in-
 
 1
 -
-private aggregation coordinator
-Private Aggregation coordinator
+privacy labor
+privacy labor
 dfn
-private-aggregation-api
-private-aggregation-api
+privacy-principles
+privacy-principles
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#interest-group-private-aggregation-coordinator
-
+https://w3ctag.github.io/privacy-principles/#dfn-labor
 1
-interest group
+
 -
-private aggregation coordinator
-Private Aggregation coordinator
+privacy labor
+privacy labor
 dfn
-turtledove
-turtledove
+privacy-principles
+privacy-principles
 1
-current
-https://wicg.github.io/turtledove/#interest-group-private-aggregation-coordinator
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-labor
 
-1
-interest group
+
 -
 private name
 Private Name
@@ -1774,16 +2518,27 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-priv
 1
 ECMAScript
 -
-private network access check
-Private Network Access check
+private security data
+Private Security Data
 dfn
-private-network-access
-private-network-access
+wot-architecture11
+wot-architecture
 1
 current
-https://wicg.github.io/private-network-access/#private-network-access-check
+https://w3c.github.io/wot-architecture/#dfn-private-security-data
+
+
+-
+private security data
+Private Security Data
+dfn
+wot-architecture11
+wot-architecture
 1
-1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-private-security-data
+
+
 -
 private address
 private address
@@ -1794,39 +2549,6 @@ web-bluetooth
 current
 https://webbluetoothcg.github.io/web-bluetooth/#private-address
 
-1
--
-private-network-access-id
-Private-Network-Access-ID
-http-header
-private-network-access
-private-network-access
-1
-current
-https://wicg.github.io/private-network-access/#http-headerdef-private-network-access-id
-1
-1
--
-private-network-access-name
-Private-Network-Access-Name
-http-header
-private-network-access
-private-network-access
-1
-current
-https://wicg.github.io/private-network-access/#http-headerdef-private-network-access-name
-1
-1
--
-PrivateAggregation
-PrivateAggregation
-interface
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#privateaggregation
-1
 1
 -
 privateelement
@@ -1852,8 +2574,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privateelementfin
 1
 1
 -
-PrivateElementFind(O, P)
-PrivateElementFind(O, P)
+PrivateElementFind(obj, privateName)
+PrivateElementFind(obj, privateName)
 abstract-op
 ecmascript
 ecmascript
@@ -1922,8 +2644,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privatefieldadd
 1
 1
 -
-PrivateFieldAdd(O, P, value)
-PrivateFieldAdd(O, P, value)
+PrivateFieldAdd(obj, privateName, value)
+PrivateFieldAdd(obj, privateName, value)
 abstract-op
 ecmascript
 ecmascript
@@ -1944,8 +2666,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privateget
 1
 1
 -
-PrivateGet(O, P)
-PrivateGet(O, P)
+PrivateGet(obj, privateName)
+PrivateGet(obj, privateName)
 abstract-op
 ecmascript
 ecmascript
@@ -1955,6 +2677,17 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privateget
 1
 1
 -
+privateidentifier
+PrivateIdentifier
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-PrivateIdentifier
+
+1
+-
 PrivateMethodOrAccessorAdd
 PrivateMethodOrAccessorAdd
 abstract-op
@@ -1966,25 +2699,14 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privatemethodorac
 1
 1
 -
-PrivateMethodOrAccessorAdd(O, method)
-PrivateMethodOrAccessorAdd(O, method)
+PrivateMethodOrAccessorAdd(obj, method)
+PrivateMethodOrAccessorAdd(obj, method)
 abstract-op
 ecmascript
 ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privatemethodoraccessoradd
-1
-1
--
-PrivateNetworkAccessPermissionDescriptor
-PrivateNetworkAccessPermissionDescriptor
-dictionary
-private-network-access
-private-network-access
-1
-current
-https://wicg.github.io/private-network-access/#dictdef-privatenetworkaccesspermissiondescriptor
 1
 1
 -
@@ -1999,8 +2721,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-privateset
 1
 1
 -
-PrivateSet(O, P, value)
-PrivateSet(O, P, value)
+PrivateSet(obj, privateName, value)
+PrivateSet(obj, privateName, value)
 abstract-op
 ecmascript
 ecmascript
@@ -2024,7 +2746,7 @@ https://wicg.github.io/trust-token-api/#dictdef-privatetoken
 problemdetails
 ProblemDetails
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -2035,11 +2757,33 @@ https://w3c.github.io/vc-data-integrity/#dfn-problemdetails
 problemdetails
 ProblemDetails
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-problemdetails
+
+1
+-
+problemdetails
+ProblemDetails
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-problemdetails
+
+1
+-
+problemdetails
+ProblemDetails
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-problemdetails
 
 1
 -
@@ -2060,8 +2804,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-problemdetails
+
+1
+-
+problemdetails
+ProblemDetails
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-problemdetails
+
+1
+-
+problemdetails
+ProblemDetails
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-problemdetails
 
 1
 -
@@ -2101,9 +2867,9 @@ https://www.w3.org/TR/paint-timing/#process-image-that-finished-loading
 process pending pointer capture
 process pending pointer capture
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-process-pending-pointer-capture
 
@@ -2115,8 +2881,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-process-pending-pointer-capture
+
+1
+-
+process pending pointer capture
+process pending pointer capture
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-process-pending-pointer-capture
+
+1
+-
+process pending pointer capture
+process pending pointer capture
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-process-pending-pointer-capture
 
 1
 -
@@ -2219,28 +3007,6 @@ https://www.w3.org/TR/miniapp-packaging/#dfn-processing-the-digital-signatures
 
 1
 -
-Process value with a default policy
-Process value with a default policy
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-process-value-with-a-default-policy
-1
-1
--
-Process value with a default policy
-Process value with a default policy
-abstract-op
-trusted-types
-trusted-types
-1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-process-value-with-a-default-policy
-1
-1
--
 processing model
 Processing Model
 dfn
@@ -2266,11 +3032,33 @@ https://www.w3.org/TR/intersection-observer/#intersection-observer-processing-mo
 processing an input buffer
 processing an input buffer
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
 https://webaudio.github.io/web-audio-api/#processing-an-input-buffer
+
+1
+-
+processing an input buffer
+processing an input buffer
+dfn
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#processing-an-input-buffer
+
+1
+-
+processing an input buffer
+processing an input buffer
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#processing-an-input-buffer
 
 1
 -
@@ -2285,16 +3073,93 @@ https://dom.spec.whatwg.org/#processinginstruction
 1
 1
 -
-processors
-processors
+processor
+processor
 dfn
-json-ld11-api
-json-ld-api
+ttml-imsc1.3
+ttml-imsc
 1
 current
-https://w3c.github.io/json-ld-api/#dfn-json-ld-processor
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-processor
 
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor
 
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor
+
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-processor
+
+1
+-
+processor profile
+Processor Profile
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-processor-profile
+
+1
+-
+processor profile
+Processor Profile
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor-profile
+
+1
+-
+processor profile
+Processor Profile
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor-profile
+
+1
+-
+processor profile
+Processor Profile
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-processor-profile
+
+1
 -
 processors
 processors
@@ -2321,12 +3186,78 @@ https://w3c.github.io/i18n-glossary/#dfn-producer
 producer
 producer
 dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-producer
+
+
+-
+producer
+producer
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-producer
+
+
+-
+producer
+producer
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-producer
+
+
+-
+producer
+producer
+dfn
 i18n-glossary
 i18n-glossary
 1
 snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-producer
 1
+
+-
+producer
+producer
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-producer
+
+
+-
+producer
+producer
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-producer
+
+
+-
+producer
+producer
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-producer
+
 
 -
 profile
@@ -2343,12 +3274,56 @@ https://w3c.github.io/pub-manifest/#dfn-profiles
 profile
 profile
 dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-profile
+
+
+-
+profile
+profile
+dfn
+wot-profile
+wot-profile
+1
+current
+https://w3c.github.io/wot-profile/#dfn-profile
+1
+1
+-
+profile
+profile
+dfn
 pub-manifest
 pub-manifest
 1
 snapshot
 https://www.w3.org/TR/pub-manifest/#dfn-profiles
 
+1
+-
+profile
+profile
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-profile
+
+
+-
+profile
+profile
+dfn
+wot-profile
+wot-profile
+1
+snapshot
+https://www.w3.org/TR/wot-profile/#dfn-profile
+1
 1
 -
 profile fundamentals
@@ -2573,6 +3548,17 @@ https://w3c.github.io/aria/#dfn-prohibited
 
 1
 -
+prohibited
+prohibited
+dfn
+wai-aria-1.3
+wai-aria
+1
+snapshot
+https://www.w3.org/TR/wai-aria-1.3/#dfn-prohibited
+
+1
+-
 Promise
 Promise
 interface
@@ -2699,8 +3685,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-r
 1
 1
 -
-PromiseResolve(C, x)
-PromiseResolve(C, x)
+PromiseResolve(ctor, resolution)
+PromiseResolve(ctor, resolution)
 abstract-op
 ecmascript
 ecmascript
@@ -2724,11 +3710,33 @@ https://wicg.github.io/manifest-incubations/#dom-promptresponseobject
 proof generation
 Proof Generation
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof-generation
+
+
+-
+proof generation
+Proof Generation
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-generation
+
+
+-
+proof generation
+Proof Generation
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-generation
 
 
 -
@@ -2746,11 +3754,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-generation
 proof verification
 Proof Verification
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof-verification
+
+
+-
+proof verification
+Proof Verification
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-verification
+
+
+-
+proof verification
+Proof Verification
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-verification
 
 
 -
@@ -2768,11 +3798,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-verification
 proofgraph
 ProofGraph
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proofgraph
+1
+1
+-
+proofgraph
+ProofGraph
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proofgraph
+1
+1
+-
+proofgraph
+ProofGraph
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proofgraph
 1
 1
 -
@@ -2787,12 +3839,34 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proofgraph
 1
 1
 -
+properties list
+properties list
+dfn
+mathml4
+mathml
+4
+current
+https://w3c.github.io/mathml/#intent-core-properties
+
+1
+-
+properties list
+properties list
+dfn
+mathml4
+mathml
+4
+snapshot
+https://www.w3.org/TR/mathml4/#intent-core-properties
+
+1
+-
 property
 property
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#property
 
@@ -2825,11 +3899,66 @@ ARIA
 property
 property
 dfn
-svg-aam-1.0
-svg-aam
+wot-architecture11
+wot-architecture
 1
 current
-https://w3c.github.io/svg-aam/#dfn-property
+https://w3c.github.io/wot-architecture/#dfn-property
+
+
+-
+property
+property
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-property
+
+1
+-
+property
+property
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-property
+
+
+-
+property
+property
+dfn
+wot-profile
+wot-profile
+1
+current
+https://w3c.github.io/wot-profile/#dfn-property
+
+1
+-
+property
+property
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-property
+
+
+-
+property
+property
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-property
 
 
 -
@@ -2838,20 +3967,9 @@ property
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#property
-1
-1
--
-property
-property
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#property
+https://www.w3.org/TR/CSS2/conform.html#property
 1
 1
 -
@@ -2878,6 +3996,94 @@ https://www.w3.org/TR/wai-aria-1.3/#dfn-property
 
 ARIA
 -
+property
+property
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-property
+
+
+-
+property
+property
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-property
+
+1
+-
+property
+property
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-property
+
+
+-
+property
+property
+dfn
+wot-profile
+wot-profile
+1
+snapshot
+https://www.w3.org/TR/wot-profile/#dfn-property
+
+1
+-
+property
+property
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-property
+
+
+-
+property
+property
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-property
+
+
+-
+property attribute
+Property Attribute
+dfn
+rdf12-xml
+rdf-xml
+1
+current
+https://w3c.github.io/rdf-xml/spec/#dfn-property-attribute
+
+
+-
+property attribute
+Property Attribute
+dfn
+rdf12-xml
+rdf-xml
+1
+snapshot
+https://www.w3.org/TR/rdf12-xml/#dfn-property-attribute
+
+
+-
 property descriptor
 Property Descriptor
 dfn
@@ -2902,6 +4108,28 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-prop
 1
 ECMAScript
 -
+property ui component
+Property UI Component
+dfn
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-property-ui-component
+
+
+-
+property ui component
+Property UI Component
+dfn
+shacl12-ui
+shacl-ui
+1
+snapshot
+https://www.w3.org/TR/shacl12-ui/#dfn-property-ui-component
+
+
+-
 PropertyDefinition
 PropertyDefinition
 dictionary
@@ -2911,6 +4139,17 @@ css-properties-values-api
 current
 https://drafts.css-houdini.org/css-properties-values-api-1/#dictdef-propertydefinition
 1
+1
+-
+propertydefinition
+PropertyDefinition
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition
+
 1
 -
 PropertyDefinition
@@ -2924,6 +4163,39 @@ https://www.w3.org/TR/css-properties-values-api-1/#dictdef-propertydefinition
 1
 1
 -
+propertydefinitionlist
+PropertyDefinitionList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinitionList
+
+1
+-
+propertyname
+PropertyName
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyName
+
+1
+-
+propertysetparameterlist
+PropertySetParameterList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-PropertySetParameterList
+
+1
+-
 proposed recommendation
 Proposed Recommendation
 dfn
@@ -2931,18 +4203,29 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#RecsPR
-1
+https://www.w3.org/policies/process/#RecsPR
+
 1
 -
 protected by some form of user verification
 Protected by some form of User Verification
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#protected-by-some-form-of-user-verification
+
+1
+-
+protected by some form of user verification
+Protected by some form of User Verification
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#protected-by-some-form-of-user-verification
 
 1
 -
@@ -2957,37 +4240,160 @@ https://html.spec.whatwg.org/multipage/dnd.html#concept-dnd-p
 
 1
 -
-ProtectedAudience
-ProtectedAudience
-interface
-turtledove
-turtledove
+protocol binding
+Protocol Binding
+dfn
+wot-architecture11
+wot-architecture
 1
 current
-https://wicg.github.io/turtledove/#protectedaudience
+https://w3c.github.io/wot-architecture/#dfn-wot-protocol-binding
+
+
+-
+protocol binding
+Protocol Binding
+dfn
+wot-binding-registry
+wot-binding-registry
 1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-protocol-binding
+
 1
 -
-ProtectedAudiencePrivateAggregationConfig
-ProtectedAudiencePrivateAggregationConfig
-dictionary
-private-aggregation-api
-private-aggregation-api
+protocol binding
+Protocol Binding
+dfn
+wot-profile
+wot-profile
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dictdef-protectedaudienceprivateaggregationconfig
-1
+https://w3c.github.io/wot-profile/#dfn-protocol-binding
+
 1
 -
-ProtectedAudiencePrivateAggregationConfig
-ProtectedAudiencePrivateAggregationConfig
-dictionary
-turtledove
-turtledove
+protocol binding
+Protocol Binding
+dfn
+wot-thing-description-2.0
+wot-thing-description
 1
 current
-https://wicg.github.io/turtledove/#dictdef-protectedaudienceprivateaggregationconfig
+https://w3c.github.io/wot-thing-description/#dfn-protocol-binding
+
+
+-
+protocol binding
+Protocol Binding
+dfn
+wot-thing-description11
+wot-thing-description
 1
+current
+https://w3c.github.io/wot-thing-description/#dfn-protocol-binding
+
+
+-
+protocol binding
+Protocol Binding
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-protocol-binding
+
+
+-
+protocol binding
+Protocol Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-protocol-binding
+
+1
+-
+protocol binding
+Protocol Binding
+dfn
+wot-profile
+wot-profile
+1
+snapshot
+https://www.w3.org/TR/wot-profile/#dfn-protocol-binding
+
+1
+-
+protocol binding
+Protocol Binding
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-protocol-binding
+
+
+-
+protocol binding
+Protocol Binding
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-protocol-binding
+
+
+-
+protocol identifier
+protocol identifier
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-protocol-identifier
+
+1
+digital credential
+-
+protocol identifier
+protocol identifier
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-protocol-identifier
+
+1
+digital credential
+-
+provisional
+provisional
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-provisional
+
+1
+-
+provisional
+provisional
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-provisional
+
 1
 -
 proximity sensor
@@ -3197,6 +4603,28 @@ https://www.w3.org/TR/webrtc/#dfn-preferredcodecs
 1
 RTCRtpTransceiver
 -
+[[preventextensions]] internal method of an exported gc object
+[[PreventExtensions]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#preventextensions-internal-method-of-an-exported-gc-object
+
+1
+-
+[[preventextensions]] internal method of an exported gc object
+[[PreventExtensions]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#preventextensions-internal-method-of-an-exported-gc-object
+
+1
+-
 [[Protocol]]
 [[Protocol]]
 attribute
@@ -3205,6 +4633,18 @@ webtransport
 1
 current
 https://w3c.github.io/webtransport/#dom-webtransport-protocol-slot
+1
+1
+WebTransport
+-
+[[Protocol]]
+[[Protocol]]
+attribute
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransport-protocol-slot
 1
 1
 WebTransport
@@ -3281,18 +4721,6 @@ https://www.w3.org/TR/webgpu/#dom-gpubindgroupentry-prevalidatedsize-slot
 1
 GPUBindGroupEntry
 -
-[[preventSilentAccess]](credential, sameOriginWithAncestors)
-[[preventSilentAccess]](credential, sameOriginWithAncestors)
-method
-webauthn-3
-webauthn
-3
-snapshot
-https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-preventsilentaccess-slot
-1
-1
-PublicKeyCredential
--
 [[primaries]]
 [[primaries]]
 attribute
@@ -3316,6 +4744,40 @@ https://www.w3.org/TR/webcodecs/#dom-videocolorspace-primaries-slot
 1
 1
 VideoColorSpace
+-
+[[processLocally]]
+[[processLocally]]
+attribute
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-processlocally-slot
+1
+1
+SpeechRecognition
+-
+[[processedframesqueue]]
+[[processedFramesQueue]]
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#processedframesqueue
+
+1
+-
+[[processedframesqueue]]
+[[processedFramesQueue]]
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#processedframesqueue
+
+1
 -
 [[productId]]
 [[productId]]
@@ -3427,9 +4889,9 @@ white-space
 pre
 pre
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-white-space-pre
 1
@@ -3493,11 +4955,132 @@ https://www.w3.org/TR/i18n-glossary/#dfn-pre-base
 1
 
 -
+pre-bind
+pre-bind
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-bind
+pre-bind
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-binding
+pre-binding
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-binding
+pre-binding
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-binds
+pre-binds
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-binds
+pre-binds
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-bound
+pre-bound
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-bound
+pre-bound
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-bound variables
+pre-bound variables
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-bound variables
+pre-bound variables
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-pre-binding
+
+1
+-
+pre-configured pin complexity policy value
+pre-configured PIN complexity policy value
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pre-configured-pin-complexity-policy-value
+
+1
+-
 pre-configured rp id list
 pre-configured RP ID list
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#entpattstn-pre-configured-rp-id-list
@@ -3505,11 +5088,23 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 entpAttstn
 -
+pre-configured rp id list
+pre-configured RP ID list
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#entpattstn-pre-configured-rp-id-list
+
+1
+entpAttstn
+-
 pre-configured list of rp ids authorized to receive
 pre-configured list of RP IDs authorized to receive
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#setminpinlength-pre-configured-list-of-rp-ids-authorized-to-receive
@@ -3517,25 +5112,59 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 setMinPINLength
 -
+pre-configured list of rp ids authorized to receive
+pre-configured list of RP IDs authorized to receive
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#setminpinlength-pre-configured-list-of-rp-ids-authorized-to-receive
+
+1
+setMinPINLength
+-
 pre-configured minimum pin length
 pre-configured minimum PIN length
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pre-configured-minimum-pin-length
 
 1
 -
+pre-configured minimum pin length
+pre-configured minimum PIN length
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pre-configured-minimum-pin-length
+
+1
+-
 pre-flight
 pre-flight
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pre-flight
+
+1
+-
+pre-flight
+pre-flight
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pre-flight
 
 1
 -
@@ -3549,28 +5178,6 @@ current
 https://dom.spec.whatwg.org/#concept-node-pre-insert
 1
 1
--
-pre-interpretation
-pre-interpretation
-dfn
-rdf12-semantics
-rdf-semantics
-1
-current
-https://w3c.github.io/rdf-semantics/spec/#dfn-pre-interpretation
-
-
--
-pre-interpretation
-pre-interpretation
-dfn
-rdf12-semantics
-rdf-semantics
-1
-snapshot
-https://www.w3.org/TR/rdf12-semantics/#dfn-pre-interpretation
-
-
 -
 pre-line
 pre-line
@@ -3599,9 +5206,9 @@ white-space
 pre-line
 pre-line
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-white-space-pre-line
 1
@@ -3716,7 +5323,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#pre-multiply
+https://drafts.csswg.org/geometry-1/#pre-multiply
 1
 1
 -
@@ -3766,6 +5373,28 @@ https://www.w3.org/TR/CSP3/#directive-pre-navigation-check
 1
 directive
 -
+pre-paginated
+pre-paginated
+dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#def-layout-pre-paginated
+
+1
+-
+pre-paginated
+pre-paginated
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#def-layout-pre-paginated
+
+1
+-
 pre-remove
 pre-remove
 dfn
@@ -3801,28 +5430,6 @@ https://www.w3.org/TR/CSP3/#directive-pre-request-check
 1
 directive
 -
-pre-specified report parameters
-pre-specified report parameters
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#pre-specified-report-parameters
-
-1
--
-pre-specified report parameters map
-pre-specified report parameters map
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#pre-specified-report-parameters-map
-
-1
--
 pre-wrap
 pre-wrap
 value
@@ -3850,9 +5457,9 @@ white-space
 pre-wrap
 pre-wrap
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-white-space-pre-wrap
 1
@@ -3890,7 +5497,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-premultiplyself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-premultiplyself
 1
 1
 DOMMatrix
@@ -3914,7 +5521,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-premultiplyself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-premultiplyself
 1
 1
 DOMMatrix
@@ -3959,22 +5566,35 @@ preceding element
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#preceding
+2
+snapshot
+https://www.w3.org/TR/CSS2/conform.html#preceding
 1
 1
 -
-preceding element
-preceding element
-dfn
-css2
-css
+precision
+precision
+attribute
+webgl1
+webgl1
 1
-snapshot
-https://www.w3.org/TR/CSS21/conform.html#preceding
+current
+https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLShaderPrecisionFormat-precision
 1
 1
+WebGLShaderPrecisionFormat
+-
+precommitHandler
+precommitHandler
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationinterceptoptions-precommithandler
+1
+1
+NavigationInterceptOptions
 -
 preconnect
 preconnect
@@ -4035,6 +5655,17 @@ https://www.w3.org/TR/WGSL/#predeclared
 -
 predicate
 predicate
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-predicate
+
+1
+-
+predicate
+predicate
 attribute
 json-ld11-api
 json-ld-api
@@ -4053,20 +5684,8 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-predicate
-
 1
--
-predicate
-predicate
-dfn
-speculation-rules
-speculation-rules
 1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rule-predicate
-
-1
-speculation rule
 -
 predicate
 predicate
@@ -4139,15 +5758,59 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-predicate
+1
+1
+-
+predicate path
+predicate path
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-predicate-path
+
+1
+-
+predicate path
+predicate path
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-predicate-path
+
+1
+-
+predicates
+predicates
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-predicates
+
+1
+-
+predicates
+predicates
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-predicates
 
 1
 -
 predicted events list
 predicted events list
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-predicted-events-list
 
@@ -4159,8 +5822,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-predicted-events-list
+
+1
+-
+predicted events list
+predicted events list
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-predicted-events-list
+
+1
+-
+predicted events list
+predicted events list
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-predicted-events-list
 
 1
 -
@@ -4191,9 +5876,9 @@ XRFrame
 predictedEvents
 predictedEvents
 dict-member
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointereventinit-predictedevents
 1
@@ -4206,8 +5891,32 @@ dict-member
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-predictedevents
+1
+1
+PointerEventInit
+-
+predictedEvents
+predictedEvents
+dict-member
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-predictedevents
+1
+1
+PointerEventInit
+-
+predictedEvents
+predictedEvents
+dict-member
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointereventinit-predictedevents
 1
 1
 PointerEventInit
@@ -4346,23 +6055,11 @@ DocumentPictureInPictureOptions
 prefer_related_applications
 prefer_related_applications
 dfn
-appmanifest
-appmanifest
+manifest-incubations
+manifest-incubations
 1
 current
-https://w3c.github.io/manifest/#dfn-prefer_related_applications
-1
-1
-manifest
--
-prefer_related_applications
-prefer_related_applications
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-prefer_related_applications
+https://wicg.github.io/manifest-incubations/#dfn-prefer_related_applications
 1
 1
 manifest
@@ -4392,11 +6089,46 @@ https://www.w3.org/TR/WGSL/#preferable-candidate
 preference
 preference
 dfn
-gpc-spec
-gpc-spec
+gpc
+gpc
 1
 current
-https://privacycg.github.io/gpc-spec/#dfn-preference
+https://w3c.github.io/gpc/#dfn-preference
+
+1
+-
+preference
+preference
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-preference
+1
+1
+Summarizer
+-
+preference
+preference
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizercreatecoreoptions-preference
+1
+1
+SummarizerCreateCoreOptions
+-
+preference
+preference
+dfn
+gpc
+gpc
+1
+snapshot
+https://www.w3.org/TR/gpc/#dfn-preference
 
 1
 -
@@ -4415,11 +6147,11 @@ Navigator
 preferences
 preferences
 attribute
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#dom-navigator-preferences
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#dom-navigator-preferences
 1
 1
 Navigator
@@ -4558,6 +6290,50 @@ css-sizing
 snapshot
 https://www.w3.org/TR/css-sizing-4/#preferred-aspect-ratio
 1
+1
+-
+preferred axis state
+preferred axis state
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-preferred-axis-state
+
+1
+-
+preferred axis state
+preferred axis state
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-preferred-axis-state
+
+1
+-
+preferred button state
+preferred button state
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-preferred-button-state
+
+1
+-
+preferred button state
+preferred button state
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-preferred-button-state
+
 1
 -
 preferred color scheme
@@ -4703,28 +6479,6 @@ https://www.w3.org/TR/webxr-depth-sensing-1/#preferred-native-depth-sensing-capa
 
 
 -
-preferred native depth sensing format
-preferred native depth sensing format
-dfn
-webxr-depth-sensing-1
-webxr-depth-sensing
-1
-current
-https://immersive-web.github.io/depth-sensing/#preferred-native-depth-sensing-format
-
-
--
-preferred native depth sensing format
-preferred native depth sensing format
-dfn
-webxr-depth-sensing-1
-webxr-depth-sensing
-1
-snapshot
-https://www.w3.org/TR/webxr-depth-sensing-1/#preferred-native-depth-sensing-format
-
-
--
 preferred order
 preferred order
 dfn
@@ -4746,18 +6500,6 @@ snapshot
 https://www.w3.org/TR/cssom-1/#concept-shorthands-preferred-order
 1
 1
--
-preferred platform
-preferred platform
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#registration-info-preferred-platform
-
-1
-registration info
 -
 preferred resolution
 preferred resolution
@@ -4847,6 +6589,30 @@ https://www.w3.org/TR/css-sizing-3/#width
 1
 1
 -
+preferred-text-scale
+preferred-text-scale
+value
+css-env-1
+css-env
+1
+current
+https://drafts.csswg.org/css-env-1/#valdef-env-preferred-text-scale
+1
+1
+env()
+-
+preferred-text-scale
+preferred-text-scale
+value
+css-env-1
+css-env
+1
+snapshot
+https://www.w3.org/TR/css-env-1/#valdef-env-preferred-text-scale
+1
+1
+env()
+-
 preferredInputLayout
 preferredInputLayout
 dict-member
@@ -4874,11 +6640,23 @@ MLOpSupportLimits
 preferredplatformuvattempts
 preferredPlatformUvAttempts
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-preferredplatformuvattempts
+
+1
+getInfo
+-
+preferredplatformuvattempts
+preferredPlatformUvAttempts
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-preferredplatformuvattempts
 
 1
 getInfo
@@ -5051,36 +6829,25 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-prefetch
 1
 link/rel
 -
-prefetch
-prefetch
-dfn
-prefetch
-prefetch
-1
-current
-https://wicg.github.io/nav-speculation/prefetch.html#prefetch
-1
-1
--
 prefetch ip anonymization policy
 prefetch IP anonymization policy
 dfn
-prefetch
-prefetch
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/prefetch.html#prefetch-ip-anonymization-policy
-1
+https://html.spec.whatwg.org/multipage/speculative-loading.html#prefetch-ip-anonymization-policy
+
 1
 -
 prefetch candidate
 prefetch candidate
 dfn
-speculation-rules
-speculation-rules
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#prefetch-candidate
+https://html.spec.whatwg.org/multipage/speculative-loading.html#prefetch-candidate
 
 1
 -
@@ -5107,17 +6874,39 @@ https://wicg.github.io/nav-speculation/prefetch.html#document-prefetch-records
 1
 Document
 -
+prefetch records
+prefetch records
+dfn
+prefetch
+prefetch
+1
+current
+https://wicg.github.io/nav-speculation/prefetch.html#source-snapshot-params-prefetch-records
+
+1
+source snapshot params
+-
 prefetch rules
 prefetch rules
 dfn
-speculation-rules
-speculation-rules
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rule-set-prefetch-rules
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-set-prefetch
 
 1
-speculation rule set
+-
+prefetchcache
+prefetchCache
+dfn
+prefetch
+prefetch
+1
+current
+https://wicg.github.io/nav-speculation/prefetch.html#prefetchcache
+
+1
 -
 prefetchrecord
 prefetchRecord
@@ -5177,6 +6966,17 @@ https://wicg.github.io/webpackage/loading.html#navigation-params-prefetched-subr
 
 1
 navigation params
+-
+prefill
+prefill
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#prefill
+
+1
 -
 prefix
 prefix
@@ -5299,14 +7099,15 @@ https://w3c.github.io/DOM-Parsing/#dfn-prefix
 -
 prefix
 prefix
-dfn
-json-ld11
-json-ld
+dict-member
+prompt-api
+prompt-api
 1
 current
-https://w3c.github.io/json-ld-syntax/#dfn-prefix
-
-
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelmessage-prefix
+1
+1
+LanguageModelMessage
 -
 prefix
 prefix
@@ -5379,6 +7180,50 @@ https://urlpattern.spec.whatwg.org/#options-prefix-code-point
 1
 options
 -
+prefix declaration
+prefix declaration
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-prefix-declaration
+
+1
+-
+prefix declaration
+prefix declaration
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-prefix-declaration
+
+1
+-
+prefix declarations
+prefix declarations
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-prefix-declaration
+
+1
+-
+prefix declarations
+prefix declarations
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-prefix-declaration
+
+1
+-
 prefix flag
 prefix flag
 dfn
@@ -5448,6 +7293,39 @@ https://drafts.csswg.org/css-2023/#vendor-prefix
 prefixed
 prefixed
 dfn
+css-2024
+css
+2024
+current
+https://drafts.csswg.org/css-2024/#vendor-prefix
+1
+1
+-
+prefixed
+prefixed
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#vendor-prefix
+1
+1
+-
+prefixed
+prefixed
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#vendor-prefix
+1
+1
+-
+prefixed
+prefixed
+dfn
 css-2022
 css
 2022
@@ -5464,6 +7342,39 @@ css
 2023
 snapshot
 https://www.w3.org/TR/css-2023/#vendor-prefix
+1
+1
+-
+prefixed
+prefixed
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#vendor-prefix
+1
+1
+-
+prefixed
+prefixed
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#vendor-prefix
+1
+1
+-
+prefixed
+prefixed
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#vendor-prefix
 1
 1
 -
@@ -5488,6 +7399,30 @@ snapshot
 https://www.w3.org/TR/rdf12-turtle/#dfn-prefixed-name
 
 
+-
+preflight
+preflight
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkinitiator-type-preflight
+
+1
+network.Initiator/type
+-
+preflight
+preflight
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkinitiator-type-preflight
+
+1
+network.Initiator/type
 -
 preload
 preload
@@ -5537,6 +7472,17 @@ https://html.spec.whatwg.org/multipage/media.html#dom-media-preload
 1
 HTMLMediaElement
 -
+preload destination
+preload destination
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/links.html#preload-destination
+
+1
+-
 preload entry
 preload entry
 dfn
@@ -5567,6 +7513,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#preload-script-map
+
+1
+-
+preload script map
+preload script map
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#preload-script-map
 
 1
 -
@@ -5778,25 +7735,25 @@ https://wicg.github.io/css-parser-api/#dom-cssparserqualifiedrule-prelude
 1
 CSSParserQualifiedRule
 -
-premultiplied color values
-premultiplied color values
+premultiplied
+premultiplied
 dfn
 css-color-4
 css-color
 4
 current
-https://drafts.csswg.org/css-color-4/#premultiplied-color-values
+https://drafts.csswg.org/css-color-4/#premultiplied
 1
 1
 -
-premultiplied color values
-premultiplied color values
+premultiplied
+premultiplied
 dfn
 css-color-4
 css-color
 4
 snapshot
-https://www.w3.org/TR/css-color-4/#premultiplied-color-values
+https://www.w3.org/TR/css-color-4/#premultiplied
 1
 1
 -
@@ -5807,10 +7764,10 @@ webgpu
 webgpu
 1
 current
-https://gpuweb.github.io/gpuweb/#dom-gpuimagecopytexturetagged-premultipliedalpha
+https://gpuweb.github.io/gpuweb/#dom-gpucopyexternalimagedestinfo-premultipliedalpha
 1
 1
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 -
 premultipliedAlpha
 premultipliedAlpha
@@ -5819,10 +7776,10 @@ webgpu
 webgpu
 1
 snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuimagecopytexturetagged-premultipliedalpha
+https://www.w3.org/TR/webgpu/#dom-gpucopyexternalimagedestinfo-premultipliedalpha
 1
 1
-GPUImageCopyTextureTagged
+GPUCopyExternalImageDestInfo
 -
 premultiply
 premultiply
@@ -5859,6 +7816,28 @@ https://html.spec.whatwg.org/multipage/scripting.html#preparation-time-document
 
 1
 -
+prepare a color col1 for conversion
+prepare a color col1 for conversion
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#prepare-a-color-col1-for-conversion
+1
+1
+-
+prepare a color col1 for conversion
+prepare a color col1 for conversion
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#prepare-a-color-col1-for-conversion
+1
+1
+-
 prepare an application context
 prepare an application context
 dfn
@@ -5892,14 +7871,38 @@ https://html.spec.whatwg.org/multipage/images.html#prepare-an-image-for-presenta
 
 1
 -
+prepare credential requests
+prepare credential requests
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-prepare-credential-requests
+
+1
+credential request coordinator
+-
+prepare credential requests
+prepare credential requests
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-prepare-credential-requests
+
+1
+credential request coordinator
+-
 prepare lists
 prepare lists
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#prepare-lists
+https://cookiestore.spec.whatwg.org/#prepare-lists
 
 1
 -
@@ -5933,6 +7936,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#prepare-the-script-element
+
+1
+-
+prepare the script text
+prepare the script text
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#prepare-the-script-text
+
+1
+-
+prepare the script text
+prepare the script text
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#prepare-the-script-text
 
 1
 -
@@ -6110,38 +8135,70 @@ https://dom.spec.whatwg.org/#dom-parentnode-prepend
 1
 ParentNode
 -
-prerender
-prerender
-enum-value
-navigation-timing-2
-navigation-timing
-2
+prerecorded
+prerecorded
+dfn
+wcag22
+wcag
+1
 current
-https://w3c.github.io/navigation-timing/#dom-navigationtimingtype-prerender
+https://w3c.github.io/wcag/guidelines/22/#dfn-prerecorded
+
+
+-
+prerecorded
+prerecorded
+dfn
+wcag-3.0
+wcag
 1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-prerecorded
+
 1
-NavigationTimingType
+-
+prerecorded
+prerecorded
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-prerecorded
+
+
+-
+prerecorded
+prerecorded
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-prerecorded
+
+1
 -
 prerender
 prerender
-enum-value
-navigation-timing-2
-navigation-timing
-2
-snapshot
-https://www.w3.org/TR/navigation-timing-2/#dom-navigationtimingtype-prerender
+dfn
+prefetch
+prefetch
 1
+current
+https://wicg.github.io/nav-speculation/prefetch.html#sec-purpose-prefetch-prerender
+
 1
-NavigationTimingType
+Sec-Purpose prefetch
 -
 prerender candidate
 prerender candidate
 dfn
-speculation-rules
-speculation-rules
+prerendering-revamped
+prerendering-revamped
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#prerender-candidate
+https://wicg.github.io/nav-speculation/prerendering.html#prerender-candidate
 
 1
 -
@@ -6157,40 +8214,29 @@ https://wicg.github.io/nav-speculation/prerendering.html#prerendering-traversabl
 1
 prerendering traversable
 -
-prerender record
-prerender record
-dfn
-prerendering-revamped
-prerendering-revamped
-1
-current
-https://wicg.github.io/nav-speculation/prerendering.html#prerender-record
-1
-1
--
-prerender records
-prerender records
-dfn
-prerendering-revamped
-prerendering-revamped
-1
-current
-https://wicg.github.io/nav-speculation/prerendering.html#document-prerender-records
-1
-1
-Document
--
 prerender rules
 prerender rules
 dfn
-speculation-rules
-speculation-rules
+prerendering-revamped
+prerendering-revamped
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rule-set-prerender-rules
+https://wicg.github.io/nav-speculation/prerendering.html#speculation-rule-set-prerender-rules
 
 1
 speculation rule set
+-
+prerender-cross-origin-frames
+prerender-cross-origin-frames
+dfn
+prerendering-revamped
+prerendering-revamped
+1
+current
+https://wicg.github.io/nav-speculation/prerendering.html#supports-loading-mode-prerender-cross-origin-frames
+1
+1
+Supports-Loading-Mode
 -
 prerender-scoped accept-ch cache
 prerender-scoped Accept-CH cache
@@ -6203,6 +8249,29 @@ https://wicg.github.io/nav-speculation/prerendering.html#prerendering-navigable-
 
 1
 prerendering navigable
+-
+prerendercache
+prerenderCache
+dfn
+prerendering-revamped
+prerendering-revamped
+1
+current
+https://wicg.github.io/nav-speculation/prerendering.html#prerendercache
+
+1
+-
+prerender_until_script rules
+prerender_until_script rules
+dfn
+prerendering-revamped
+prerendering-revamped
+1
+current
+https://wicg.github.io/nav-speculation/prerendering.html#speculation-rule-set-prerender_until_script-rules
+
+1
+speculation rule set
 -
 prerendering
 prerendering
@@ -6227,17 +8296,29 @@ https://wicg.github.io/nav-speculation/prerendering.html#prerendering-navigable
 
 1
 -
+prerendering target navigable name hint
+prerendering target navigable name hint
+dfn
+prefetch
+prefetch
+1
+current
+https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-prerendering-target-navigable-name-hint
+1
+1
+prefetch record
+-
 prerendering traversable
 prerendering traversable
 dfn
-prerendering-revamped
-prerendering-revamped
+prefetch
+prefetch
 1
 current
-https://wicg.github.io/nav-speculation/prerendering.html#prerender-record-prerendering-traversable
+https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-prerendering-traversable
 1
 1
-prerender record
+prefetch record
 -
 prerendering traversable
 prerendering traversable
@@ -6284,18 +8365,6 @@ https://w3c.github.io/webauthn/#dom-tokenbindingstatus-present
 1
 1
 TokenBindingStatus
--
-present
-present
-enum-value
-web-smart-card
-web-smart-card
-1
-current
-https://wicg.github.io/web-smart-card/#dom-smartcardconnectionstate-present
-1
-1
-SmartCardConnectionState
 -
 present
 present
@@ -6381,13 +8450,68 @@ Navigator
 presentation
 presentation
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-presentation
 1
 1
+-
+presentation
+presentation
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-presentation
+
+
+-
+presentation
+presentation
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-presentations
+
+1
+-
+presentation
+presentation
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-presentation
+
+
+-
+presentation
+presentation
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-presentation
+
+1
+-
+presentation
+presentation
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-presentation
+
+
 -
 presentation
 presentation
@@ -6407,9 +8531,64 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-presentation
+1
+1
+-
+presentation
+presentation
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-presentation
 1
+1
+-
+presentation
+presentation
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-presentation
+1
+1
+-
+presentation
+presentation
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-presentation
+
+
+-
+presentation
+presentation
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-presentations
+
+1
+-
+presentation
+presentation
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-presentation
+
 1
 -
 presentation url
@@ -6441,7 +8620,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute
+https://w3c.github.io/svgwg/svg2-draft/styling.html#TermPresentationAttribute
 1
 1
 -
@@ -6720,14 +8899,25 @@ https://www.w3.org/TR/presentation-api/#dfn-presentation-message-type
 
 1
 -
-presentation of the install prompt
-presentation of the install prompt
+presentation processor
+presentation processor
 dfn
-manifest-incubations
-manifest-incubations
+imsc-hrm
+imsc-hrm
 1
 current
-https://wicg.github.io/manifest-incubations/#dfn-present-an-install-prompt
+https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html#dfn-presentation-processor
+
+1
+-
+presentation processor
+presentation processor
+dfn
+imsc-hrm
+imsc-hrm
+1
+snapshot
+https://www.w3.org/TR/imsc-hrm/#dfn-presentation-processor
 
 1
 -
@@ -6833,286 +9023,286 @@ https://svgwg.org/specs/animations/#PresentationTime
 presentation-change-event
 presentation-change-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-change-event
+https://w3c.github.io/openscreenprotocol/application.html#presentation-change-event
 
 1
 -
 presentation-change-event
 presentation-change-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-change-event
+https://www.w3.org/TR/openscreen-application/#presentation-change-event
 
 1
 -
 presentation-connection-close-event
 presentation-connection-close-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-connection-close-event
+https://w3c.github.io/openscreenprotocol/application.html#presentation-connection-close-event
 
 1
 -
 presentation-connection-close-event
 presentation-connection-close-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-connection-close-event
+https://www.w3.org/TR/openscreen-application/#presentation-connection-close-event
 
 1
 -
 presentation-connection-message
 presentation-connection-message
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-connection-message
+https://w3c.github.io/openscreenprotocol/application.html#presentation-connection-message
 
 1
 -
 presentation-connection-message
 presentation-connection-message
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-connection-message
+https://www.w3.org/TR/openscreen-application/#presentation-connection-message
 
 1
 -
 presentation-connection-open-request
 presentation-connection-open-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-connection-open-request
+https://w3c.github.io/openscreenprotocol/application.html#presentation-connection-open-request
 
 1
 -
 presentation-connection-open-request
 presentation-connection-open-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-connection-open-request
+https://www.w3.org/TR/openscreen-application/#presentation-connection-open-request
 
 1
 -
 presentation-connection-open-response
 presentation-connection-open-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-connection-open-response
+https://w3c.github.io/openscreenprotocol/application.html#presentation-connection-open-response
 
 1
 -
 presentation-connection-open-response
 presentation-connection-open-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-connection-open-response
+https://www.w3.org/TR/openscreen-application/#presentation-connection-open-response
 
 1
 -
 presentation-start-request
 presentation-start-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-start-request
+https://w3c.github.io/openscreenprotocol/application.html#presentation-start-request
 
 1
 -
 presentation-start-request
 presentation-start-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-start-request
+https://www.w3.org/TR/openscreen-application/#presentation-start-request
 
 1
 -
 presentation-start-response
 presentation-start-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-start-response
+https://w3c.github.io/openscreenprotocol/application.html#presentation-start-response
 
 1
 -
 presentation-start-response
 presentation-start-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-start-response
+https://www.w3.org/TR/openscreen-application/#presentation-start-response
 
 1
 -
 presentation-termination-event
 presentation-termination-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-termination-event
+https://w3c.github.io/openscreenprotocol/application.html#presentation-termination-event
 
 1
 -
 presentation-termination-event
 presentation-termination-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-termination-event
+https://www.w3.org/TR/openscreen-application/#presentation-termination-event
 
 1
 -
 presentation-termination-request
 presentation-termination-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-termination-request
+https://w3c.github.io/openscreenprotocol/application.html#presentation-termination-request
 
 1
 -
 presentation-termination-request
 presentation-termination-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-termination-request
+https://www.w3.org/TR/openscreen-application/#presentation-termination-request
 
 1
 -
 presentation-termination-response
 presentation-termination-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-termination-response
+https://w3c.github.io/openscreenprotocol/application.html#presentation-termination-response
 
 1
 -
 presentation-termination-response
 presentation-termination-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-termination-response
+https://www.w3.org/TR/openscreen-application/#presentation-termination-response
 
 1
 -
 presentation-url-availability-event
 presentation-url-availability-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-url-availability-event
+https://w3c.github.io/openscreenprotocol/application.html#presentation-url-availability-event
 
 1
 -
 presentation-url-availability-event
 presentation-url-availability-event
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-url-availability-event
+https://www.w3.org/TR/openscreen-application/#presentation-url-availability-event
 
 1
 -
 presentation-url-availability-request
 presentation-url-availability-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-url-availability-request
+https://w3c.github.io/openscreenprotocol/application.html#presentation-url-availability-request
 
 1
 -
 presentation-url-availability-request
 presentation-url-availability-request
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-url-availability-request
+https://www.w3.org/TR/openscreen-application/#presentation-url-availability-request
 
 1
 -
 presentation-url-availability-response
 presentation-url-availability-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 current
-https://w3c.github.io/openscreenprotocol/#presentation-url-availability-response
+https://w3c.github.io/openscreenprotocol/application.html#presentation-url-availability-response
 
 1
 -
 presentation-url-availability-response
 presentation-url-availability-response
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#presentation-url-availability-response
+https://www.w3.org/TR/openscreen-application/#presentation-url-availability-response
 
 1
 -
@@ -7190,6 +9380,18 @@ ClipboardItemOptions
 -
 presentationTime
 presentationTime
+attribute
+paint-timing
+paint-timing
+1
+current
+https://w3c.github.io/paint-timing/#dom-painttimingmixin-presentationtime
+1
+1
+PaintTimingMixin
+-
+presentationTime
+presentationTime
 dict-member
 video-rvfc
 video-rvfc
@@ -7199,6 +9401,18 @@ https://wicg.github.io/video-rvfc/#dom-videoframecallbackmetadata-presentationti
 1
 1
 VideoFrameCallbackMetadata
+-
+presentationTime
+presentationTime
+attribute
+paint-timing
+paint-timing
+1
+snapshot
+https://www.w3.org/TR/paint-timing/#dom-painttimingmixin-presentationtime
+1
+1
+PaintTimingMixin
 -
 presentational hint
 presentational hint
@@ -7225,12 +9439,34 @@ https://w3c.github.io/presentation-api/#dfn-receiving-browsing-context
 presentations
 presentations
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-presentation
 1
+1
+-
+presentations
+presentations
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-presentation
+
+
+-
+presentations
+presentations
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-presentations
+
 1
 -
 presentations
@@ -7250,9 +9486,141 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-presentation
+1
+1
+-
+presentations
+presentations
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-presentation
 1
+1
+-
+presentations
+presentations
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-presentation
+1
+1
+-
+presentations
+presentations
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-presentation
+
+
+-
+presentations
+presentations
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-presentations
+
+1
+-
+presented image
+presented image
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-presented-image
+
+1
+-
+presented image
+presented image
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-presented-image
+
+1
+-
+presented region
+presented region
+dfn
+imsc-hrm
+imsc-hrm
+1
+current
+https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html#dfn-presented-region
+
+1
+-
+presented region
+presented region
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-presented-region
+
+1
+-
+presented region
+presented region
+dfn
+imsc-hrm
+imsc-hrm
+1
+snapshot
+https://www.w3.org/TR/imsc-hrm/#dfn-presented-region
+
+1
+-
+presented region
+presented region
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-presented-region
+
+1
+-
+presented region
+presented region
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-presented-region
+
+1
+-
+presented region
+presented region
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-presented-region
+
 1
 -
 presentedFrames
@@ -7266,17 +9634,6 @@ https://wicg.github.io/video-rvfc/#dom-videoframecallbackmetadata-presentedframe
 1
 1
 VideoFrameCallbackMetadata
--
-presenting an install prompt
-presenting an install prompt
-dfn
-manifest-incubations
-manifest-incubations
-1
-current
-https://wicg.github.io/manifest-incubations/#dfn-present-an-install-prompt
-
-1
 -
 preserve
 preserve
@@ -7417,7 +9774,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-preservealpha
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-preservealpha
 1
 1
 SVGFEConvolveMatrixElement
@@ -7429,7 +9786,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-preservealpha
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-preservealpha
 1
 1
 feConvolveMatrix
@@ -7465,7 +9822,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeimageelement-preserveaspectratio
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeimageelement-preserveaspectratio
 1
 1
 SVGFEImageElement
@@ -7477,7 +9834,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feimage-preserveaspectratio
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feimage-preserveaspectratio
 1
 1
 feImage
@@ -7489,7 +9846,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TermPreserveAspectRatio
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermPreserveAspectRatio
 1
 1
 svg
@@ -7501,7 +9858,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__preserveAspectRatio
+https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__preserveAspectRatio
 1
 1
 SVGImageElement
@@ -7513,7 +9870,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio
 1
 1
 SVGFitToViewBox
@@ -7691,6 +10048,29 @@ https://w3c.github.io/editing/docs/execCommand/#preserving-ranges
 
 
 -
+press keys
+press keys
+dfn
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#press-keys
+
+1
+-
+pressKeys
+pressKeys
+cddl-value
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-value-presskeysintentparameters-name-presskeys
+
+1
+PressKeysIntentParameters/name
+-
 pressed
 pressed
 attribute
@@ -7718,9 +10098,9 @@ GamepadButton
 pressure
 pressure
 attribute
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointerevent-pressure
 1
@@ -7730,14 +10110,38 @@ PointerEvent
 pressure
 pressure
 dict-member
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointereventinit-pressure
 1
 1
 PointerEventInit
+-
+pressure
+pressure
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointercommonproperties-pressure
+
+1
+input.PointerCommonProperties
+-
+pressure
+pressure
+attribute
+pointerevents3
+pointerevents
+3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointerevent-pressure
+1
+1
+PointerEvent
 -
 pressure
 pressure
@@ -7757,11 +10161,59 @@ dict-member
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-pressure
+1
+1
+PointerEventInit
+-
+pressure
+pressure
+dict-member
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-pressure
 1
 1
 PointerEventInit
+-
+pressure
+pressure
+attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointerevent-pressure
+1
+1
+PointerEvent
+-
+pressure
+pressure
+dict-member
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointereventinit-pressure
+1
+1
+PointerEventInit
+-
+pressure
+pressure
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointercommonproperties-pressure
+
+1
+input.PointerCommonProperties
 -
 pressure observer task queued
 pressure observer task queued
@@ -7855,6 +10307,19 @@ text-wrap-style
 -
 prev
 prev
+value
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#valdef-scroll-button-direction-prev
+1
+1
+<scroll-button-direction>
+::scroll-button()
+-
+prev
+prev
 attr-value
 html
 html
@@ -7868,29 +10333,18 @@ a/rel
 area/rel
 form/rel
 -
-prevWinsMs
-prevWinsMs
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-prevwinsms
-1
-1
-BiddingBrowserSignals
--
-prevWinsMs
-prevWinsMs
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-storageinterestgroup-prevwinsms
+prev
+prev
+value
+css-overflow-5
+css-overflow
+5
+snapshot
+https://www.w3.org/TR/css-overflow-5/#valdef-scroll-button-direction-prev
 1
 1
-StorageInterestGroup
+<scroll-button-direction>
+::scroll-button()
 -
 prevent cancel
 prevent cancel
@@ -8089,8 +10543,8 @@ https://dom.spec.whatwg.org/#dom-event-preventdefault
 1
 Event
 -
-preventExtensions(O)
-preventExtensions(O)
+preventExtensions(obj)
+preventExtensions(obj)
 method
 ecmascript
 ecmascript
@@ -8198,7 +10652,7 @@ CaptureAction
 previous block
 previous block
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8209,11 +10663,33 @@ https://webaudio.github.io/web-audio-api/#previous-block
 previous block
 previous block
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#previous-block
+
+1
+-
+previous block
+previous block
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#previous-block
+https://www.w3.org/TR/webaudio-1.0/#previous-block
+
+1
+-
+previous block
+previous block
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#previous-block
 
 1
 -
@@ -8280,9 +10756,10 @@ navigation-timing-2
 navigation-timing
 2
 current
-https://w3c.github.io/navigation-timing/#dfn-previous-document-unload-timing
+https://w3c.github.io/navigation-timing/#performancenavigationtiming-previous-document-unload-timing
 
 1
+PerformanceNavigationTiming
 -
 previous document unload timing
 previous document unload timing
@@ -8291,9 +10768,10 @@ navigation-timing-2
 navigation-timing
 2
 snapshot
-https://www.w3.org/TR/navigation-timing-2/#dfn-previous-document-unload-timing
+https://www.w3.org/TR/navigation-timing-2/#performancenavigationtiming-previous-document-unload-timing
 
 1
+PerformanceNavigationTiming
 -
 previous equivalent point
 previous equivalent point
@@ -8350,41 +10828,6 @@ https://dom.spec.whatwg.org/#concept-tree-previous-sibling
 1
 1
 tree
--
-previous win
-previous win
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#previous-win
-
-1
--
-previous wins
-previous wins
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-previous-wins
-
-1
-interest group
--
-previous wins
-previous wins
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-browser-signals-previous-wins
-
-1
-server auction browser signals
 -
 previousElementSibling
 previousElementSibling
@@ -8485,11 +10928,33 @@ TaskPriorityChangeEventInit
 previousproof
 previousProof
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-previousproof
+
+1
+-
+previousproof
+previousProof
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-previousproof
+
+1
+-
+previousproof
+previousProof
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-previousproof
 
 1
 -
@@ -8678,10 +11143,34 @@ webauthn-3
 webauthn
 3
 current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientinputsjson-prf
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+prf
+prf
+dict-member
+webauthn-3
+webauthn
+3
+current
 https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputs-prf
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+prf
+prf
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputsjson-prf
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 prf
 prf
@@ -8713,10 +11202,34 @@ webauthn-3
 webauthn
 3
 snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputsjson-prf
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+prf
+prf
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
 https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-prf
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+prf
+prf
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputsjson-prf
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 prf
 prf
@@ -8816,6 +11329,18 @@ VideoColorSpaceInit
 primary
 primary
 dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#animation-trigger-state-primary
+
+1
+animation trigger state
+-
+primary
+primary
+dfn
 window-management
 window-management
 1
@@ -8835,6 +11360,18 @@ https://wicg.github.io/first-party-sets/#related-website-set-primary
 
 1
 related website set
+-
+primary
+primary
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#animation-trigger-state-primary
+
+1
+animation trigger state
 -
 primary
 primary
@@ -8876,9 +11413,64 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#primary-affiliation
+https://www.w3.org/policies/process/#primary-affiliation
 
 1
+-
+primary axis
+primary axis
+dfn
+css-grid-3
+css-grid
+3
+snapshot
+https://www.w3.org/TR/css-grid-3/#primary-axis
+
+
+-
+primary education
+primary education
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-primary-education
+
+
+-
+primary education
+primary education
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-primary-education
+
+
+-
+primary education level
+primary education level
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-primary-education
+
+
+-
+primary education level
+primary education level
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-primary-education
+
+
 -
 primary entry page
 primary entry page
@@ -8909,7 +11501,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#primary-filter-primitive-tree
+https://drafts.csswg.org/filter-effects-1/#primary-filter-primitive-tree
 1
 1
 -
@@ -8957,6 +11549,30 @@ https://webidl.spec.whatwg.org/#dfn-primary-interface
 1
 1
 -
+primary key
+primary key
+dfn
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#record-snapshot-primary-key
+
+1
+record snapshot
+-
+primary key
+primary key
+dfn
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#record-snapshot-primary-key
+
+1
+record snapshot
+-
 primary orientation
 primary orientation
 dfn
@@ -8979,12 +11595,23 @@ https://www.w3.org/TR/mediacapture-streams/#dfn-primary-orientation
 
 1
 -
+primary placement axis
+primary placement axis
+dfn
+css-grid-3
+css-grid
+3
+snapshot
+https://www.w3.org/TR/css-grid-3/#primary-placement-axis
+
+
+-
 primary pointer
 primary pointer
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-primary-pointer
 
@@ -8996,8 +11623,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-primary-pointer
+
+1
+-
+primary pointer
+primary pointer
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-primary-pointer
+
+1
+-
+primary pointer
+primary pointer
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-primary-pointer
 
 1
 -
@@ -9069,6 +11718,17 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-time-zone-identifie
 1
 ECMAScript
 -
+primary track axis
+primary track axis
+dfn
+css-grid-3
+css-grid
+3
+snapshot
+https://www.w3.org/TR/css-grid-3/#primary-track-axis
+
+
+-
 primary trigger
 primary trigger
 dfn
@@ -9139,6 +11799,18 @@ IDBCursor
 -
 primaryKey
 primaryKey
+attribute
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbrecord-primarykey
+1
+1
+IDBRecord
+-
+primaryKey
+primaryKey
 argument
 indexeddb-3
 indexeddb
@@ -9160,6 +11832,18 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-primarykey
 1
 1
 IDBCursor
+-
+primaryKey
+primaryKey
+attribute
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbrecord-primarykey
+1
+1
+IDBRecord
 -
 primaryLightDirection
 primaryLightDirection
@@ -9292,6 +11976,17 @@ https://drafts.csswg.org/css-ui-4/#primitive-appearance
 1
 1
 -
+primitive appearance
+primitive appearance
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#primitive-appearance
+1
+1
+-
 primitive restart value
 primitive restart value
 dfn
@@ -9332,7 +12027,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfilterelement-primitiveunits
+https://drafts.csswg.org/filter-effects-1/#dom-svgfilterelement-primitiveunits
 1
 1
 SVGFilterElement
@@ -9344,7 +12039,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-filter-primitiveunits
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-primitiveunits
 1
 1
 filter
@@ -9397,12 +12092,60 @@ https://www.w3.org/TR/webgpu/#rasterizationpoint-primitivevertices
 1
 RasterizationPoint
 -
+primitive_index
+primitive_index
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#built-in-values-primitive_index
+
+1
+built-in values
+-
+primitive_index
+primitive_index
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#extension-primitive_index
+
+1
+extension
+-
+primitive_index
+primitive_index
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#built-in-values-primitive_index
+
+1
+built-in values
+-
+primitive_index
+primitive_index
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#extension-primitive_index
+
+1
+extension
+-
 principal block-level box
 principal block-level box
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#principal-box
 
@@ -9413,20 +12156,9 @@ principal block-level box
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#principal-box
-1
-1
--
-principal block-level box
-principal block-level box
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#principal-box
+https://www.w3.org/TR/CSS2/visuren.html#principal-box
 1
 1
 -
@@ -9460,6 +12192,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#principal-box
+1
+1
+-
+principal box
+principal box
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#principal-box
 1
 1
 -
@@ -9510,9 +12253,9 @@ https://www.w3.org/TR/css-writing-modes-4/#principal-writing-mode
 print
 print
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-media-print
 1
@@ -9707,6 +12450,54 @@ request
 -
 priority
 priority
+dict-member
+wai-aria-1.2
+wai-aria
+1
+current
+https://w3c.github.io/aria/#dom-arianotificationoptions-priority
+1
+1
+AriaNotificationOptions
+-
+priority
+priority
+dict-member
+wai-aria-1.3
+wai-aria
+1
+current
+https://w3c.github.io/aria/#dom-arianotificationoptions-priority
+1
+1
+AriaNotificationOptions
+-
+priority
+priority
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionimpressionoptions-priority
+1
+1
+AttributionImpressionOptions
+-
+priority
+priority
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#save-impression-priority
+
+1
+save-impression
+-
+priority
+priority
 attribute
 network-reporting
 network-reporting
@@ -9788,66 +12579,6 @@ https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-priority
 1
 1
 RTCIceCandidateStats
--
-priority
-priority
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-priority
-
-1
-attribution source
--
-priority
-priority
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#destination-limit-record-priority
-
-1
-destination limit record
--
-priority
-priority
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-trigger-configuration-priority
-
-1
-event-level trigger configuration
--
-priority
-priority
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-priority
-
-1
-source-registration JSON key
--
-priority
-priority
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#trigger-registration-json-key-priority
-
-1
-trigger-registration JSON key
 -
 priority
 priority
@@ -9936,75 +12667,26 @@ TaskSignal
 priority
 priority
 dict-member
-turtledove
-turtledove
+attribution
+attribution
 1
-current
-https://wicg.github.io/turtledove/#dom-auctionadinterestgroup-priority
-1
-1
-AuctionAdInterestGroup
--
-priority
-priority
-argument
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-interestgroupbiddingscriptrunnerglobalscope-setpriority-priority-priority
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionimpressionoptions-priority
 1
 1
-InterestGroupBiddingScriptRunnerGlobalScope/setPriority(priority)
--
-priority
-priority
-argument
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-interestgroupbiddingscriptrunnerglobalscope-setprioritysignalsoverride-key-priority-priority
-1
-1
-InterestGroupBiddingScriptRunnerGlobalScope/setPrioritySignalsOverride(key, priority)
-InterestGroupBiddingScriptRunnerGlobalScope/setPrioritySignalsOverride(key)
+AttributionImpressionOptions
 -
 priority
 priority
 dfn
-turtledove
-turtledove
+attribution
+attribution
 1
-current
-https://wicg.github.io/turtledove/#interest-group-priority
+snapshot
+https://www.w3.org/TR/attribution/#save-impression-priority
 
 1
-interest group
--
-priority
-priority
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interestgroupbiddingscriptrunnerglobalscope-priority
-
-1
-InterestGroupBiddingScriptRunnerGlobalScope
--
-priority
-priority
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-interest-group-priority
-
-1
-server auction interest group
+save-impression
 -
 priority
 priority
@@ -10041,6 +12723,18 @@ https://www.w3.org/TR/cssom-1/#dom-cssstyledeclaration-setproperty-property-valu
 1
 CSSStyleDeclaration/setProperty(property, value, priority)
 CSSStyleDeclaration/setProperty(property, value)
+-
+priority
+priority
+dict-member
+wai-aria-1.3
+wai-aria
+1
+snapshot
+https://www.w3.org/TR/wai-aria-1.3/#dom-arianotificationoptions-priority
+1
+1
+AriaNotificationOptions
 -
 priority
 priority
@@ -10108,17 +12802,6 @@ dfn
 css-scroll-anchoring-1
 css-scroll-anchoring
 1
-current
-https://drafts.csswg.org/css-scroll-anchoring-1/#anchor-priority-candidates
-
-1
--
-priority candidates
-priority candidates
-dfn
-css-scroll-anchoring-1
-css-scroll-anchoring
-1
 snapshot
 https://www.w3.org/TR/css-scroll-anchoring-1/#anchor-priority-candidates
 
@@ -10148,30 +12831,6 @@ https://wicg.github.io/scheduling-apis/#tasksignal-priority-changing
 1
 TaskSignal
 -
-priority signals
-priority signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interestgroupbiddingscriptrunnerglobalscope-priority-signals
-
-1
-InterestGroupBiddingScriptRunnerGlobalScope
--
-priority signals overrides
-priority signals overrides
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-priority-signals-overrides
-
-1
-interest group
--
 priority source
 priority source
 dfn
@@ -10183,30 +12842,6 @@ https://wicg.github.io/scheduling-apis/#scheduling-state-priority-source
 
 1
 scheduling state
--
-priority vector
-priority vector
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-priority-vector
-
-1
-interest group
--
-priority weight
-priority weight
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#real-time-reporting-contribution-priority-weight
-
-1
-real time reporting contribution
 -
 priorityChangeEventInitDict
 priorityChangeEventInitDict
@@ -10221,42 +12856,6 @@ https://wicg.github.io/scheduling-apis/#dom-taskprioritychangeevent-taskpriority
 TaskPriorityChangeEvent/TaskPriorityChangeEvent(type, priorityChangeEventInitDict)
 TaskPriorityChangeEvent/constructor(type, priorityChangeEventInitDict)
 -
-prioritySignalsOverrides
-prioritySignalsOverrides
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadinterestgroup-prioritysignalsoverrides
-1
-1
-AuctionAdInterestGroup
--
-priorityVector
-priorityVector
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-priorityvector
-1
-1
-GenerateBidInterestGroup
--
-priorityWeight
-priorityWeight
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-realtimecontribution-priorityweight
-1
-1
-RealTimeContribution
--
 prioritychange
 prioritychange
 event
@@ -10268,6 +12867,128 @@ https://wicg.github.io/scheduling-apis/#eventdef-tasksignal-prioritychange
 1
 1
 TaskSignal
+-
+priv
+priv
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-jsonwebkey-priv
+1
+1
+JsonWebKey
+-
+privacy
+privacy
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-privacy
+1
+
+-
+privacy
+privacy
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-privacy
+
+
+-
+privacy budget epoch
+privacy budget epoch
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#privacy-budget-epoch
+
+1
+-
+privacy budget epoch
+privacy budget epoch
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#privacy-budget-epoch
+
+1
+-
+privacy budget key
+privacy budget key
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#privacy-budget-key
+
+1
+-
+privacy budget key
+privacy budget key
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#privacy-budget-key
+
+1
+-
+privacy budget store
+privacy budget store
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#privacy-budget-store
+
+1
+-
+privacy budget store
+privacy budget store
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#privacy-budget-store
+
+1
+-
+privacy budgets
+privacy budgets
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#privacy-budgets
+
+1
+-
+privacy budgets
+privacy budgets
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#privacy-budgets
+
+1
 -
 privacy policy
 privacy policy
@@ -10290,6 +13011,50 @@ snapshot
 https://www.w3.org/TR/pub-manifest/#dfn-privacypolicy
 
 1
+-
+privacy unit
+privacy unit
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#privacy-unit
+
+1
+-
+privacy unit
+privacy unit
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#privacy-unit
+
+1
+-
+privacy violation
+privacy violation
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-privacy-violation
+1
+
+-
+privacy violation
+privacy violation
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-privacy-violation
+
+
 -
 privacy-policy
 privacy-policy
@@ -10336,7 +13101,7 @@ fedcm
 current
 https://w3c-fedid.github.io/FedCM/#dom-identityproviderclientmetadata-privacy_policy_url
 1
-1
+
 IdentityProviderClientMetadata
 -
 privacy_policy_url
@@ -10366,26 +13131,14 @@ address spaces
 private
 private
 enum-value
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keytype-private
 1
 1
 KeyType
--
-private
-private
-dfn
-private-network-access
-private-network-access
-1
-current
-https://wicg.github.io/private-network-access/#ip-address-space-private
-1
-1
-IP address space
 -
 private
 private
@@ -10399,28 +13152,39 @@ https://www.w3.org/TR/WGSL/#address-spaces-private
 1
 address spaces
 -
-private address
-private address
+private
+private
+enum-value
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keytype-private
+1
+1
+KeyType
+-
+private and sensitive information
+private and sensitive information
 dfn
-private-network-access
-private-network-access
+wcag-3.0
+wcag
 1
 current
-https://wicg.github.io/private-network-access/#private-address
+https://w3c.github.io/wcag3/guidelines/#dfn-private-and-sensitive-information
 
 1
 -
-private aggregation enabled
-private aggregation enabled
+private and sensitive information
+private and sensitive information
 dfn
-private-aggregation-api
-private-aggregation-api
+wcag-3.0
+wcag
 1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#permissions-policy-state-private-aggregation-enabled
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-private-and-sensitive-information
 
 1
-permissions policy state
 -
 private field values
 private field values
@@ -10444,15 +13208,72 @@ https://www.w3.org/TR/png-3/#dfn-private-field-values
 
 1
 -
-private network request
-private network request
+private key
+private key
 dfn
-private-network-access
-private-network-access
+cid-1.0
+cid
 1
 current
-https://wicg.github.io/private-network-access/#private-network-request
+https://w3c.github.io/cid/#dfn-private-key
+
+
+-
+private key
+private key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
 1
+current
+https://w3c.github.io/secure-payment-confirmation/#key-pair-private-key
+
+1
+key pair
+-
+private key
+private key
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+current
+https://w3c.github.io/vc-jose-cose/#dfn-private-key
+
+1
+-
+private key
+private key
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-private-key
+
+
+-
+private key
+private key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#key-pair-private-key
+
+1
+key pair
+-
+private key
+private key
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+snapshot
+https://www.w3.org/TR/vc-jose-cose/#dfn-private-key
+
 1
 -
 private state token
@@ -10503,17 +13324,6 @@ https://wicg.github.io/trust-token-api/#request-private-token-refresh-policy
 1
 request
 -
-private-aggregation
-private-aggregation
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#private-aggregation
-
-1
--
 private-state-token-issuance
 private-state-token-issuance
 dfn
@@ -10538,90 +13348,6 @@ https://wicg.github.io/trust-token-api/#policy-controlled-feature-private-state-
 1
 policy-controlled feature
 -
-privateAggregation
-privateAggregation
-attribute
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-interestgroupscriptrunnerglobalscope-privateaggregation
-1
-1
-InterestGroupScriptRunnerGlobalScope
--
-privateAggregation
-privateAggregation
-attribute
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-privateaggregation
-1
-1
-SharedStorageWorkletGlobalScope
--
-privateAggregationConfig
-privateAggregationConfig
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-auctionadconfig-privateaggregationconfig
-1
-1
-AuctionAdConfig
--
-privateAggregationConfig
-privateAggregationConfig
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-auctionadinterestgroup-privateaggregationconfig
-1
-1
-AuctionAdInterestGroup
--
-privateAggregationConfig
-privateAggregationConfig
-dict-member
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstoragerunoperationmethodoptions-privateaggregationconfig
-1
-1
-SharedStorageRunOperationMethodOptions
--
-privateAggregationConfig
-privateAggregationConfig
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadconfig-privateaggregationconfig
-1
-1
-AuctionAdConfig
--
-privateAggregationConfig
-privateAggregationConfig
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadinterestgroup-privateaggregationconfig
-1
-1
-AuctionAdInterestGroup
--
 privatekey
 privateKey
 dfn
@@ -10637,25 +13363,14 @@ public key credential source
 privateKey
 privateKey
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKeyPair-privateKey
 1
 1
 CryptoKeyPair
--
-privatekey
-privateKey
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKeyPair-privateKey
-
-1
 -
 privatekey
 privateKey
@@ -10668,6 +13383,18 @@ https://www.w3.org/TR/webauthn-3/#public-key-credential-source-privatekey
 
 1
 public key credential source
+-
+privateKey
+privateKey
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKeyPair-privateKey
+1
+1
+CryptoKeyPair
 -
 privateToken
 privateToken
@@ -10775,6 +13502,72 @@ https://drafts.csswg.org/css-syntax-3/#token-stream-process
 
 1
 token stream
+-
+process
+process
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-processes
+
+
+-
+process
+process
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-process
+
+1
+-
+process
+process
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-process
+1
+
+-
+process
+process
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-processes
+
+
+-
+process
+process
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-process
+
+
+-
+process
+process
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-process
+
+1
 -
 process a *_localized image resource member
 process a *_localized image resource member
@@ -10886,6 +13679,28 @@ https://privacycg.github.io/nav-tracking-mitigations/#process-a-web-authenticati
 
 1
 -
+process a webtransport fetch response
+process a WebTransport fetch response
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#process-a-webtransport-fetch-response
+
+1
+-
+process a webtransport fetch response
+process a WebTransport fetch response
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#process-a-webtransport-fetch-response
+
+1
+-
 process a base url string
 process a base URL string
 dfn
@@ -10896,6 +13711,30 @@ current
 https://urlpattern.spec.whatwg.org/#process-a-base-url-string
 
 1
+-
+process a challenge
+process a challenge
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#algorithms-process-a-challenge
+1
+1
+algorithms
+-
+process a challenge
+process a challenge
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#algorithms-process-a-challenge
+1
+1
+algorithms
 -
 process a color member
 process a color member
@@ -10919,6 +13758,17 @@ https://www.w3.org/TR/appmanifest/#dfn-process-a-color-member
 
 1
 -
+process a deferred fetch
+process a deferred fetch
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#process-a-deferred-fetch
+
+1
+-
 process a fetch storage access for bounce tracking mitigations
 process a fetch storage access for bounce tracking mitigations
 dfn
@@ -10938,17 +13788,6 @@ manifest-incubations
 1
 current
 https://wicg.github.io/manifest-incubations/#dfn-process-a-file-handler-item
-
-1
--
-process a general storage access for bounce tracking mitigations
-process a general storage access for bounce tracking mitigations
-dfn
-nav-tracking-mitigations
-nav-tracking-mitigations
-1
-current
-https://privacycg.github.io/nav-tracking-mitigations/#process-a-general-storage-access-for-bounce-tracking-mitigations
 
 1
 -
@@ -11059,6 +13898,28 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#process-a-network-event
+
+1
+-
+process a network event
+process a network event
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#process-a-network-event
+
+1
+-
+process a new attributed contentful paint candidate
+process a new attributed contentful paint candidate
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#process-a-new-attributed-contentful-paint-candidate
 
 1
 -
@@ -11181,6 +14042,50 @@ encoding
 current
 https://encoding.spec.whatwg.org/#concept-encoding-run
 
+1
+-
+process a refill request
+process a refill request
+dfn
+autofill-event
+autofill-event
+1
+current
+https://wicg.github.io/autofill-event/#process-a-refill-request
+1
+1
+-
+process a same document commit
+process a same document commit
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#process-a-same-document-commit
+
+1
+-
+process a session registration
+process a session registration
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#process-session-registration
+1
+1
+-
+process a session registration
+process a session registration
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#process-session-registration
+1
 1
 -
 process a shortcut
@@ -11335,61 +14240,6 @@ image-resource
 snapshot
 https://www.w3.org/TR/image-resource/#dfn-process-an-imageresource-from-an-api
 1
-1
--
-process an attribution eligible response
-process an attribution eligible response
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#process-an-attribution-eligible-response
-1
-1
--
-process an attribution source
-process an attribution source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#process-an-attribution-source
-
-1
--
-process an attribution source response
-process an attribution source response
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#process-an-attribution-source-response
-
-1
--
-process an attribution trigger response
-process an attribution trigger response
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#process-an-attribution-trigger-response
-
-1
--
-process an attributionsrc response
-process an attributionsrc response
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#process-an-attributionsrc-response
-
 1
 -
 process an image resource from json
@@ -11557,25 +14407,25 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-process-color-attachments
 1
 1
 -
-process contributions for a batching scope
-process contributions for a batching scope
+process cookie changes
+process cookie changes
 dfn
-private-aggregation-api
-private-aggregation-api
+cookiestore
+cookiestore
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#process-contributions-for-a-batching-scope
-1
+https://cookiestore.spec.whatwg.org/#process-cookie-changes
+
 1
 -
-process cookie changes
-process cookie changes
+process deferred fetches
+process deferred fetches
 dfn
-cookie-store
-cookie-store
+fetch
+fetch
 1
 current
-https://wicg.github.io/cookie-store/#process-cookie-changes
+https://fetch.spec.whatwg.org/#process-deferred-fetches
 
 1
 -
@@ -11745,6 +14595,17 @@ https://html.spec.whatwg.org/multipage/semantics.html#process-link-headers
 
 1
 -
+process navigate event handler failure
+process navigate event handler failure
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#process-navigate-event-handler-failure
+
+1
+-
 process navigation start for bounce tracking
 process navigation start for bounce tracking
 dfn
@@ -11755,18 +14616,6 @@ current
 https://privacycg.github.io/nav-tracking-mitigations/#process-navigation-start-for-bounce-tracking
 
 1
--
-process old state captured
-process old state captured
-dfn
-css-view-transitions-1
-css-view-transitions
-1
-snapshot
-https://www.w3.org/TR/css-view-transitions-1/#viewtransition-process-old-state-captured
-
-1
-ViewTransition
 -
 process password for init
 process password for init
@@ -11787,17 +14636,6 @@ urlpattern
 1
 current
 https://urlpattern.spec.whatwg.org/#process-pathname-for-init
-
-1
--
-process pending external speculation rule resources
-process pending external speculation rule resources
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#process-pending-external-speculation-rule-resources
 
 1
 -
@@ -11938,17 +14776,6 @@ https://privacycg.github.io/nav-tracking-mitigations/#process-response-received-
 
 1
 -
-process scoread output
-process scoreAd output
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#process-scoread-output
-
-1
--
 process scroll behavior
 process scroll behavior
 dfn
@@ -11993,25 +14820,14 @@ https://www.w3.org/TR/miniapp-packaging/#dfn-processing-the-miniapp-manifest
 
 1
 -
-process the private aggregation contributions for an auction
-process the Private Aggregation contributions for an auction
+process the `speculation-rules` header
+process the `Speculation-Rules` header
 dfn
-private-aggregation-api
-private-aggregation-api
+html
+html
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#process-the-private-aggregation-contributions-for-an-auction
-
-1
--
-process the speculation-rules header
-process the Speculation-Rules header
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#process-the-speculation-rules-header
+https://html.spec.whatwg.org/multipage/speculative-loading.html#process-the-speculation-rules-header
 
 1
 -
@@ -12089,6 +14905,28 @@ miniapp-manifest
 1
 snapshot
 https://www.w3.org/TR/miniapp-manifest/#dfn-process-the-color_scheme-member
+
+1
+-
+process the color_scheme_dark member
+process the color_scheme_dark member
+dfn
+appmanifest
+appmanifest
+1
+current
+https://w3c.github.io/manifest/#dfn-process-the-color_scheme_dark-member
+
+1
+-
+process the color_scheme_dark member
+process the color_scheme_dark member
+dfn
+appmanifest
+appmanifest
+1
+snapshot
+https://www.w3.org/TR/appmanifest/#dfn-process-the-color_scheme_dark-member
 
 1
 -
@@ -12199,6 +15037,17 @@ appmanifest
 1
 snapshot
 https://www.w3.org/TR/appmanifest/#dfn-process-the-display-member
+
+1
+-
+process the display_override member
+process the display_override member
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-process-the-display_override-member
 
 1
 -
@@ -12320,6 +15169,28 @@ web-locks
 1
 snapshot
 https://www.w3.org/TR/web-locks/#process-the-lock-request-queue
+
+1
+-
+process the migrate_from member
+process the migrate_from member
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-process-the-migrate_from-member
+
+1
+-
+process the migrate_to member
+process the migrate_to member
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-process-the-migrate_to-member
 
 1
 -
@@ -12558,22 +15429,11 @@ https://wicg.github.io/manifest-incubations/#dfn-process-the-protocol_handlers-m
 process the related_applications member
 process the related_applications member
 dfn
-appmanifest
-appmanifest
+manifest-incubations
+manifest-incubations
 1
 current
-https://w3c.github.io/manifest/#dfn-process-the-related_applications-member
-
-1
--
-process the related_applications member
-process the related_applications member
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-process-the-related_applications-member
+https://wicg.github.io/manifest-incubations/#dfn-process-the-related_applications-member
 
 1
 -
@@ -12628,8 +15488,8 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-process-the-result-of-a-begintransaction
-
+https://wicg.github.io/web-smart-card/#process-the-result-of-a-begintransaction
+1
 1
 -
 process the scope member
@@ -12651,6 +15511,17 @@ appmanifest
 1
 snapshot
 https://www.w3.org/TR/appmanifest/#dfn-process-the-scope-member
+
+1
+-
+process the scope_extensions member
+process the scope_extensions member
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-process-the-scope_extensions-member
 
 1
 -
@@ -12734,22 +15605,11 @@ https://wicg.github.io/manifest-incubations/#dfn-process-the-tab_strip-member
 process the url member of an application
 process the url member of an application
 dfn
-appmanifest
-appmanifest
+manifest-incubations
+manifest-incubations
 1
 current
-https://w3c.github.io/manifest/#dfn-process-the-url-member-of-an-application
-
-1
--
-process the url member of an application
-process the url member of an application
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-process-the-url-member-of-an-application
+https://wicg.github.io/manifest-incubations/#dfn-process-the-url-member-of-an-application
 
 1
 -
@@ -13160,6 +16020,17 @@ https://drafts.csswg.org/css-position-4/#process-top-layer-removals
 1
 1
 -
+process top layer removals
+process top layer removals
+dfn
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#process-top-layer-removals
+1
+1
+-
 process unconsumed launch params
 process unconsumed launch params
 dfn
@@ -13171,17 +16042,6 @@ https://wicg.github.io/web-app-launch/#dfn-process-unconsumed-launch-params
 
 1
 -
-process updateifolderthanms
-process updateIfOlderThanMs
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#process-updateifolderthanms
-
-1
--
 process username for init
 process username for init
 dfn
@@ -13190,6 +16050,28 @@ urlpattern
 1
 current
 https://urlpattern.spec.whatwg.org/#process-username-for-init
+
+1
+-
+process value with a default policy
+process value with a default policy
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#process-value-with-a-default-policy
+
+1
+-
+process value with a default policy
+process value with a default policy
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#process-value-with-a-default-policy
 
 1
 -
@@ -13218,7 +16100,7 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-process-vertices
 process()
 process()
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -13229,11 +16111,33 @@ https://webaudio.github.io/web-audio-api/#process
 process()
 process()
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#process
+
+1
+-
+process()
+process()
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#process
+https://www.w3.org/TR/webaudio-1.0/#process
+
+1
+-
+process()
+process()
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#process
 
 1
 -
@@ -13260,6 +16164,30 @@ https://fetch.spec.whatwg.org/#fetch-processearlyhintsresponse
 1
 1
 fetch
+-
+processLocally
+processLocally
+attribute
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-processlocally
+1
+1
+SpeechRecognition
+-
+processLocally
+processLocally
+dict-member
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-processlocally
+1
+1
+SpeechRecognitionOptions
 -
 processrequestbodychunklength
 processRequestBodyChunkLength
@@ -13336,6 +16264,17 @@ request
 processed
 processed
 dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-process
+1
+
+-
+processed
+processed
+dfn
 indexeddb-3
 indexeddb
 3
@@ -13344,6 +16283,17 @@ https://www.w3.org/TR/IndexedDB-3/#request-processed
 
 1
 request
+-
+processed
+processed
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-process
+
+
 -
 processed flag
 processed flag
@@ -13393,26 +16343,114 @@ https://www.w3.org/TR/appmanifest/#dfn-processed-manifest
 1
 Document
 -
-processing
-processing
+processes
+processes
 dfn
-appmanifest
-appmanifest
+wcag22
+wcag
 1
 current
-https://w3c.github.io/manifest/#dfn-processing-a-manifest
+https://w3c.github.io/wcag/guidelines/22/#dfn-processes
+
+
+-
+processes
+processes
+dfn
+wcag-3.0
+wcag
 1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-process
+
+1
+-
+processes
+processes
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-process
+1
+
+-
+processes
+processes
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-processes
+
+
+-
+processes
+processes
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-process
+
+
+-
+processes
+processes
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-process
+
 1
 -
 processing
 processing
 dfn
-appmanifest
-appmanifest
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-processing
+
+1
+-
+processing
+processing
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-process
+1
+
+-
+processing
+processing
+dfn
+privacy-principles
+privacy-principles
 1
 snapshot
-https://www.w3.org/TR/appmanifest/#dfn-processing-a-manifest
+https://www.w3.org/TR/privacy-principles/#dfn-process
+
+
+-
+processing
+processing
+dfn
+shacl12-core
+shacl-core
 1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-processing
+
 1
 -
 processing a miniapp manifest
@@ -13514,6 +16552,28 @@ https://www.w3.org/TR/pub-manifest/#dfn-processing-algorithm
 
 1
 -
+processing an integrity policy
+processing an integrity policy
+dfn
+sri-2
+sri
+2
+current
+https://w3c.github.io/webappsec-subresource-integrity/#processing-an-integrity-policy
+
+1
+-
+processing an integrity policy
+processing an integrity policy
+dfn
+sri-2
+sri
+2
+snapshot
+https://www.w3.org/TR/sri-2/#processing-an-integrity-policy
+
+1
+-
 processing an item
 processing an item
 dfn
@@ -13577,17 +16637,6 @@ dfn
 json-ld11
 json-ld
 1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-processing-mode
-
-
--
-processing mode
-processing mode
-dfn
-json-ld11
-json-ld
-1
 snapshot
 https://www.w3.org/TR/json-ld11/#dfn-processing-mode
 
@@ -13635,7 +16684,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/conform.html#processing-mode
+https://w3c.github.io/svgwg/svg2-draft/conform.html#processing-mode
 
 1
 -
@@ -13796,11 +16845,11 @@ https://www.w3.org/TR/vibration/#dfn-processing-vibration-patterns
 processing-input-buffer
 processing-input-buffer
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#processing-input-buffer
+https://www.w3.org/TR/webaudio-1.0/#processing-input-buffer
 
 1
 -
@@ -13839,6 +16888,18 @@ https://www.w3.org/TR/event-timing/#dom-performanceeventtiming-processingend
 1
 
 PerformanceEventTiming
+-
+processingInstructions
+processingInstructions
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-processinginstructions
+1
+1
+SanitizerConfig
 -
 processingMode
 processingMode
@@ -13888,10 +16949,76 @@ https://www.w3.org/TR/event-timing/#dom-performanceeventtiming-processingstart
 
 PerformanceEventTiming
 -
+processor
+processor
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-processor
+
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-processor
+
+1
+-
+processor
+processor
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-processor
+
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor
+
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor
+
+1
+-
+processor
+processor
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-processor
+
+1
+-
 processor construction data
 processor construction data
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -13902,24 +17029,123 @@ https://webaudio.github.io/web-audio-api/#processor-construction-data
 processor construction data
 processor construction data
 dfn
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#processor-construction-data
+current
+https://webaudio.github.io/web-audio-api/#processor-construction-data
 
 1
 -
-processor state
-processor state
+processor construction data
+processor construction data
 dfn
-json-ld11-api
-json-ld-api
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#processor-construction-data
+
+1
+-
+processor construction data
+processor construction data
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#processor-construction-data
+
+1
+-
+processor profile
+processor profile
+dfn
+ttml-imsc1.3
+ttml-imsc
 1
 current
-https://w3c.github.io/json-ld-api/#dfn-processor-state
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-processor-profile
 
+1
+-
+processor profile
+processor profile
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor-profile
 
+1
+-
+processor profile
+processor profile
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor-profile
+
+1
+-
+processor profile
+processor profile
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-processor-profile
+
+1
+-
+processor profiles
+processor profiles
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-processor-profile
+
+1
+-
+processor profiles
+processor profiles
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor-profile
+
+1
+-
+processor profiles
+processor profiles
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor-profile
+
+1
+-
+processor profiles
+processor profiles
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-processor-profile
+
+1
 -
 processorcancel
 processorCancel
@@ -13968,7 +17194,7 @@ https://www.w3.org/TR/mediacapture-transform/#processorclose
 processorCtor
 processorCtor
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -13980,11 +17206,35 @@ AudioWorkletGlobalScope/registerProcessor(name, processorCtor)
 processorCtor
 processorCtor
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-registerprocessor-name-processorctor-processorctor
+1
+1
+AudioWorkletGlobalScope/registerProcessor(name, processorCtor)
+-
+processorCtor
+processorCtor
+argument
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletglobalscope-registerprocessor-name-processorctor-processorctor
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletglobalscope-registerprocessor-name-processorctor-processorctor
+1
+1
+AudioWorkletGlobalScope/registerProcessor(name, processorCtor)
+-
+processorCtor
+processorCtor
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletglobalscope-registerprocessor-name-processorctor-processorctor
 1
 1
 AudioWorkletGlobalScope/registerProcessor(name, processorCtor)
@@ -13992,7 +17242,7 @@ AudioWorkletGlobalScope/registerProcessor(name, processorCtor)
 processorOptions
 processorOptions
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -14004,11 +17254,35 @@ AudioWorkletNodeOptions
 processorOptions
 processorOptions
 dict-member
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletnodeoptions-processoroptions
+1
+1
+AudioWorkletNodeOptions
+-
+processorOptions
+processorOptions
+dict-member
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletnodeoptions-processoroptions
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletnodeoptions-processoroptions
+1
+1
+AudioWorkletNodeOptions
+-
+processorOptions
+processorOptions
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletnodeoptions-processoroptions
 1
 1
 AudioWorkletNodeOptions
@@ -14038,7 +17312,7 @@ https://www.w3.org/TR/mediacapture-transform/#processorpull
 processorerror
 processorerror
 event
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -14046,6 +17320,74 @@ https://webaudio.github.io/web-audio-api/#eventdef-audioworkletnode-processorerr
 1
 1
 AudioWorkletNode
+-
+processorerror
+processorerror
+event
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#eventdef-audioworkletnode-processorerror
+1
+1
+AudioWorkletNode
+-
+processorerror
+processorerror
+event
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#eventdef-audioworkletnode-processorerror
+1
+1
+AudioWorkletNode
+-
+processors
+processors
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-processor
+
+1
+-
+processors
+processors
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor
+
+1
+-
+processors
+processors
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-processor
+
+1
+-
+processors
+processors
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-processor
+
+1
 -
 produce a generator result
 produce a generator result
@@ -14267,6 +17609,28 @@ https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-productsu
 1
 NavigatorID
 -
+production
+production
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-production
+
+1
+-
+production
+production
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-production
+
+1
+-
 profile
 profile
 element-attr
@@ -14317,6 +17681,17 @@ XRTransientInputHitTestSource
 -
 profile
 profile
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+current
+https://w3c.github.io/dx-connegp/connegp/#dfn-profile
+
+1
+-
+profile
+profile
 dict-member
 json-ld11-api
 json-ld-api
@@ -14338,6 +17713,17 @@ https://w3c.github.io/json-ld-api/#dom-remotedocument-profile
 1
 1
 RemoteDocument
+-
+profile
+profile
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+snapshot
+https://www.w3.org/TR/dx-prof-conneg/#dfn-profile
+
+1
 -
 profile
 profile
@@ -14408,6 +17794,30 @@ snapshot
 https://www.w3.org/TR/pub-manifest/#dfn-profiles
 
 1
+-
+profile-error
+profile-error
+enum-value
+yaml-ld-10
+yaml-ld
+1
+current
+https://w3c.github.io/yaml-ld/#dom-yamllderrorcode-profile-error
+1
+1
+YamlLdErrorCode
+-
+profile-error
+profile-error
+enum-value
+yaml-ld-10
+yaml-ld
+1
+snapshot
+https://www.w3.org/TR/yaml-ld-10/#dom-yamllderrorcode-profile-error
+1
+1
+YamlLdErrorCode
 -
 profiles
 profiles
@@ -14488,6 +17898,248 @@ https://www.w3.org/TR/WGSL/#program-error
 1
 1
 -
+programmatic image
+programmatic image
+dfn
+css-image-animation-1
+css-image-animation
+1
+current
+https://drafts.csswg.org/css-image-animation-1/#programmatic-image
+
+1
+-
+programmatic image
+programmatic image
+dfn
+css-image-animation-1
+css-image-animation
+1
+snapshot
+https://www.w3.org/TR/css-image-animation-1/#programmatic-image
+
+1
+-
+programmatically
+programmatically
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-programmatically-determinable
+
+1
+-
+programmatically
+programmatically
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable
+
+1
+-
+programmatically associated
+programmatically associated
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-programmatically-determinable
+
+1
+-
+programmatically associated
+programmatically associated
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable
+
+1
+-
+programmatically detectable
+programmatically detectable
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-programmatically-determinable
+
+1
+-
+programmatically detectable
+programmatically detectable
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable
+
+1
+-
+programmatically determinable
+programmatically determinable
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-programmatically-determinable
+
+
+-
+programmatically determinable
+programmatically determinable
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-programmatically-determinable
+
+1
+-
+programmatically determinable
+programmatically determinable
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-programmatically-determinable
+
+
+-
+programmatically determinable
+programmatically determinable
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable
+
+1
+-
+programmatically determined
+programmatically determined
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-programmatically-determinable
+
+
+-
+programmatically determined
+programmatically determined
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-programmatically-determinable
+
+1
+-
+programmatically determined
+programmatically determined
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-programmatically-determinable
+
+
+-
+programmatically determined
+programmatically determined
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable
+
+1
+-
+programmatically determined link context
+programmatically determined link context
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-programmatically-determined-link-context
+
+
+-
+programmatically determined link context
+programmatically determined link context
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-programmatically-determined-link-context
+
+
+-
+programmatically indicated
+programmatically indicated
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-programmatically-determinable
+
+1
+-
+programmatically indicated
+programmatically indicated
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable
+
+1
+-
+programmatically set
+programmatically set
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-programmatically-set
+
+
+-
+programmatically set
+programmatically set
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-programmatically-set
+
+
+-
 progress
 progress
 value
@@ -14515,9 +18167,9 @@ cursor
 progress
 progress
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-cursor-progress
 1
@@ -14535,30 +18187,6 @@ https://drafts.csswg.org/web-animations-1/#dom-computedeffecttiming-progress
 1
 1
 ComputedEffectTiming
--
-progress
-progress
-dfn
-web-animations-2
-web-animations
-2
-current
-https://drafts.csswg.org/web-animations-2/#animation-progress
-1
-1
-animation
--
-progress
-progress
-attribute
-web-animations-2
-web-animations
-2
-current
-https://drafts.csswg.org/web-animations-2/#dom-animation-progress
-1
-1
-Animation
 -
 progress
 progress
@@ -14873,6 +18501,50 @@ https://www.w3.org/TR/mediaqueries-5/#valdef-media-scan-progressive
 1
 @media/scan
 -
+progressively decodable document instance
+progressively decodable Document Instance
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-progressively-decodable-document-instance
+
+1
+-
+progressively decodable document instance
+progressively decodable Document Instance
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-progressively-decodable-document-instance
+
+1
+-
+progressively decodable document instance
+progressively decodable Document Instance
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-progressively-decodable-document-instance
+
+1
+-
+progressively decodable document instance
+progressively decodable Document Instance
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-progressively-decodable-document-instance
+
+1
+-
 prohibited paragraph child
 prohibited paragraph child
 dfn
@@ -14898,9 +18570,9 @@ https://w3c.github.io/editing/docs/execCommand/#prohibited-paragraph-child-name
 projection
 projection
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-media-projection
 1
@@ -14962,10 +18634,10 @@ webxr
 webxr
 1
 current
-https://immersive-web.github.io/webxr/#view-projection-matrix
+https://immersive-web.github.io/webxr/#view-geometry-projection-matrix
 
 1
-view
+view geometry
 -
 projection matrix
 projection matrix
@@ -14974,10 +18646,10 @@ webxr
 webxr
 1
 snapshot
-https://www.w3.org/TR/webxr/#view-projection-matrix
+https://www.w3.org/TR/webxr/#view-geometry-projection-matrix
 
 1
-view
+view geometry
 -
 projectionMatrix
 projectionMatrix
@@ -14986,10 +18658,10 @@ webxr
 webxr
 1
 current
-https://immersive-web.github.io/webxr/#dom-xrview-projectionmatrix
+https://immersive-web.github.io/webxr/#dom-xrviewgeometry-projectionmatrix
 1
 1
-XRView
+XRViewGeometry
 -
 projectionMatrix
 projectionMatrix
@@ -14998,10 +18670,10 @@ webxr
 webxr
 1
 snapshot
-https://www.w3.org/TR/webxr/#dom-xrview-projectionmatrix
+https://www.w3.org/TR/webxr/#dom-xrviewgeometry-projectionmatrix
 1
 1
-XRView
+XRViewGeometry
 -
 proleptic gregorian calendar
 proleptic Gregorian calendar
@@ -15061,6 +18733,18 @@ layout api work task
 -
 promise
 promise
+argument
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-waituntil-promise-promise
+1
+1
+ViewTransition/waitUntil(promise)
+-
+promise
+promise
 attribute
 html
 html
@@ -15097,14 +18781,27 @@ lock request
 -
 promise
 promise
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptpromiseremotevalue-type-promise
+
+1
+script.PromiseRemoteValue/type
+-
+promise
+promise
 dfn
 web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-promise
-
+https://wicg.github.io/web-smart-card/#transaction-state-promise
 1
+1
+transaction state
 -
 promise
 promise
@@ -15117,6 +18814,18 @@ https://www.w3.org/TR/web-locks/#lock-request-promise
 
 1
 lock request
+-
+promise
+promise
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptpromiseremotevalue-type-promise
+
+1
+script.PromiseRemoteValue/type
 -
 promise rejection delay
 promise rejection delay
@@ -15175,17 +18884,6 @@ https://webidl.spec.whatwg.org/#dfn-promise-type
 1
 1
 -
-promote an upcoming api method tracker to ongoing
-promote an upcoming API method tracker to ongoing
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/nav-history-apis.html#promote-an-upcoming-api-method-tracker-to-ongoing
-
-1
--
 prompt
 prompt
 dfn
@@ -15212,6 +18910,66 @@ PermissionState
 -
 prompt
 prompt
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-prompt
+
+1
+session.UserPromptHandler
+-
+prompt
+prompt
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-prompt
+
+1
+browsingContext.UserPromptType
+-
+prompt
+prompt
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#dom-unhandled-prompt-behavior-prompt-prompt
+1
+1
+unhandled-prompt-behavior-prompt
+-
+prompt
+prompt
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothhandlerequestdevicepromptparameters-prompt
+
+1
+bluetooth.HandleRequestDevicePromptParameters
+-
+prompt
+prompt
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothrequestdevicepromptupdatedparameters-prompt
+
+1
+bluetooth.RequestDevicePromptUpdatedParameters
+-
+prompt
+prompt
 dfn
 permissions
 permissions
@@ -15233,6 +18991,42 @@ https://www.w3.org/TR/permissions/#dom-permissionstate-prompt
 1
 1
 PermissionState
+-
+prompt
+prompt
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-prompt
+
+1
+session.UserPromptHandler
+-
+prompt
+prompt
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-prompt
+
+1
+browsingContext.UserPromptType
+-
+prompt
+prompt
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-unhandled-prompt-behavior-prompt-prompt
+1
+1
+unhandled-prompt-behavior-prompt
 -
 prompt handler configuration
 prompt handler configuration
@@ -15314,6 +19108,30 @@ https://www.w3.org/TR/remote-playback/#dom-remoteplayback-prompt
 1
 RemotePlayback
 -
+prompt(input)
+prompt(input)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-prompt
+1
+1
+LanguageModel
+-
+prompt(input, options)
+prompt(input, options)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-prompt
+1
+1
+LanguageModel
+-
 prompt(message, default)
 prompt(message, default)
 method
@@ -15325,6 +19143,54 @@ https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-prompt
 1
 1
 Window
+-
+promptStreaming(input)
+promptStreaming(input)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-promptstreaming
+1
+1
+LanguageModel
+-
+promptStreaming(input, options)
+promptStreaming(input, options)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-promptstreaming
+1
+1
+LanguageModel
+-
+promptUnload
+promptUnload
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcloseparameters-promptunload
+
+1
+browsingContext.CloseParameters
+-
+promptUnload
+promptUnload
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcloseparameters-promptunload
+
+1
+browsingContext.CloseParameters
 -
 prompting the user to choose
 prompting the user to choose
@@ -15351,11 +19217,55 @@ https://www.w3.org/TR/permissions/#dfn-prompt-the-user-to-choose
 proof
 proof
 dfn
-vc-data-integrity
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-proof
+
+
+-
+proof
+proof
+dfn
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof
+
+1
+-
+proof
+proof
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-proof
+
+
+-
+proof
+proof
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof
+
+1
+-
+proof
+proof
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof
 
 1
 -
@@ -15373,11 +19283,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof
 proof chain
 proof chain
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof-chain
+
+1
+-
+proof chain
+proof chain
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-chain
+
+1
+-
+proof chain
+proof chain
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-chain
 
 1
 -
@@ -15395,7 +19327,7 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-chain
 proof graph
 proof graph
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -15406,13 +19338,35 @@ https://w3c.github.io/vc-data-integrity/#dfn-proof-graph
 proof graph
 proof graph
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-proof-graph
 
 
+-
+proof graph
+proof graph
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-graph
+1
+1
+-
+proof graph
+proof graph
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-graph
+1
+1
 -
 proof graph
 proof graph
@@ -15431,9 +19385,53 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-proof-graph
+
+
+-
+proof graph
+proof graph
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-proof-graph
 
+
+-
+proof graph
+proof graph
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-proof-graph
+
+
+-
+proof purpose
+proof purpose
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+current
+https://w3c.github.io/vc-data-integrity/#dfn-proof-purpose
+1
+
+-
+proof purpose
+proof purpose
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-purpose
+1
 
 -
 proof purpose
@@ -15443,7 +19441,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-proof-purpose
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-purpose
 1
 
 -
@@ -15461,11 +19459,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-purpose
 proof serialization algorithm
 proof serialization algorithm
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof-serialization-algorithm
+
+
+-
+proof serialization algorithm
+proof serialization algorithm
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-serialization-algorithm
+
+
+-
+proof serialization algorithm
+proof serialization algorithm
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-serialization-algorithm
 
 
 -
@@ -15483,11 +19503,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-serialization-algorithm
 proof set
 proof set
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof-set
+
+1
+-
+proof set
+proof set
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-set
+
+1
+-
+proof set
+proof set
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-set
 
 1
 -
@@ -15505,11 +19547,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-set
 proof verification algorithm
 proof verification algorithm
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proof-verification-algorithm
+
+
+-
+proof verification algorithm
+proof verification algorithm
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proof-verification-algorithm
+
+
+-
+proof verification algorithm
+proof verification algorithm
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proof-verification-algorithm
 
 
 -
@@ -15527,11 +19591,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proof-verification-algorithm
 proofpurpose
 proofPurpose
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proofpurpose
+
+1
+-
+proofpurpose
+proofPurpose
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proofpurpose
+
+1
+-
+proofpurpose
+proofPurpose
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proofpurpose
 
 1
 -
@@ -15549,11 +19635,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-proofpurpose
 proofvalue
 proofValue
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-proofvalue
+
+1
+-
+proofvalue
+proofValue
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-proofvalue
+
+1
+-
+proofvalue
+proofValue
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-proofvalue
 
 1
 -
@@ -15714,9 +19822,9 @@ https://drafts.csswg.org/css-tables-3/#proper-table-child-element
 proper table child
 proper table child
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#proper-table-child
 
@@ -15727,20 +19835,9 @@ proper table child
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#x17
-1
-1
--
-proper table child
-proper table child
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#x17
+https://www.w3.org/TR/CSS2/tables.html#x17
 1
 1
 -
@@ -15758,9 +19855,9 @@ https://www.w3.org/TR/css-tables-3/#proper-table-child-element
 proper table row parent
 proper table row parent
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#proper-table-row-parent
 
@@ -15771,20 +19868,9 @@ proper table row parent
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#x18
-1
-1
--
-proper table row parent
-proper table row parent
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#x18
+https://www.w3.org/TR/CSS2/tables.html#x18
 1
 1
 -
@@ -15826,17 +19912,6 @@ console/table()
 -
 properties
 properties
-dfn
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/styling.html#TermProperty
-
-1
--
-properties
-properties
 argument
 contact-picker
 contact-picker
@@ -15851,18 +19926,29 @@ ContactsManager/select(properties)
 properties
 properties
 dfn
-svg-aam-1.0
-svg-aam
+shacl12-core
+shacl-core
 1
 current
-https://w3c.github.io/svg-aam/#dfn-property
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-properties
 
-
+1
 -
 properties
 properties
 dfn
-vc-data-model-2.0
+svg2
+svg
+2
+current
+https://w3c.github.io/svgwg/svg2-draft/styling.html#TermProperty
+
+1
+-
+properties
+properties
+dfn
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -15931,11 +20017,11 @@ https://www.w3.org/TR/graphics-aria-1.0/#dfn-property
 properties
 properties
 dfn
-svg-aam-1.0
-svg-aam
+shacl12-core
+shacl-core
 1
 snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-property
+https://www.w3.org/TR/shacl12-core/#dfn-properties
 
 1
 -
@@ -15945,8 +20031,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-property
+
+
+-
+properties
+properties
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-property
+
+
+-
+properties
+properties
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-property
 
 
 -
@@ -15969,6 +20077,17 @@ css-ui
 4
 current
 https://drafts.csswg.org/css-ui-4/#property-that-disables-native-appearance-for-widgets
+
+1
+-
+properties that disable native appearance for widgets
+properties that disable native appearance for widgets
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#property-that-disables-native-appearance-for-widgets
 
 1
 -
@@ -16170,6 +20289,17 @@ CSSStyleDeclaration/setProperty(property, value)
 property
 property
 dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-properties
+
+1
+-
+property
+property
+dfn
 mathml4
 mathml
 4
@@ -16191,17 +20321,6 @@ https://w3c.github.io/rdf-concepts/spec/#dfn-property
 -
 property
 property
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-property
-
-
--
-property
-property
 argument
 trusted-types
 trusted-types
@@ -16216,7 +20335,7 @@ TrustedTypePolicyFactory/getPropertyType(tagName, property)
 property
 property
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -16454,11 +20573,11 @@ https://www.w3.org/TR/rdf12-concepts/#dfn-property
 property
 property
 dfn
-svg-aam-1.0
-svg-aam
+shacl12-core
+shacl-core
 1
 snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-property
+https://www.w3.org/TR/shacl12-core/#dfn-properties
 
 1
 -
@@ -16481,8 +20600,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-property
+
+
+-
+property
+property
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-property
+
+
+-
+property
+property
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-property
 
 
 -
@@ -16494,6 +20635,28 @@ wai-aria
 1
 snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-property
+
+
+-
+property attribute
+property attribute
+dfn
+rdf12-xml
+rdf-xml
+1
+current
+https://w3c.github.io/rdf-xml/spec/#dfn-property-attribute
+
+
+-
+property attribute
+property attribute
+dfn
+rdf12-xml
+rdf-xml
+1
+snapshot
+https://www.w3.org/TR/rdf12-xml/#dfn-property-attribute
 
 
 -
@@ -16521,6 +20684,28 @@ https://www.w3.org/TR/css-syntax-3/#css-property-declarations
 1
 CSS
 -
+property elements
+property elements
+dfn
+rdf12-xml
+rdf-xml
+1
+current
+https://w3c.github.io/rdf-xml/spec/#dfn-property-elements
+
+
+-
+property elements
+property elements
+dfn
+rdf12-xml
+rdf-xml
+1
+snapshot
+https://www.w3.org/TR/rdf12-xml/#dfn-property-elements
+
+
+-
 property key
 property key
 dfn
@@ -16528,7 +20713,7 @@ ecmascript
 ecmascript
 1
 current
-https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-object-type
+https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#property-key
 1
 1
 ECMAScript
@@ -16540,7 +20725,7 @@ ecmascript
 ecmascript
 1
 current
-https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-object-type
+https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#property-key
 1
 1
 ECMAScript
@@ -16553,7 +20738,7 @@ cssom
 1
 current
 https://drafts.csswg.org/cssom-1/#css-declaration-property-name
-
+1
 1
 CSS declaration
 -
@@ -16592,6 +20777,51 @@ https://html.spec.whatwg.org/multipage/microdata.html#property-names
 
 1
 -
+property names
+property names
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#property-name
+1
+1
+ECMAScript
+-
+property replacement
+property replacement
+dfn
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#property-replacement
+1
+1
+-
+property shape
+property shape
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-property-shape
+
+1
+-
+property shape
+property shape
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-property-shape
+
+1
+-
 property that disables native appearance for widgets
 property that disables native appearance for widgets
 dfn
@@ -16600,6 +20830,17 @@ css-ui
 4
 current
 https://drafts.csswg.org/css-ui-4/#property-that-disables-native-appearance-for-widgets
+
+1
+-
+property that disables native appearance for widgets
+property that disables native appearance for widgets
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#property-that-disables-native-appearance-for-widgets
 
 1
 -
@@ -16614,12 +20855,71 @@ https://html.spec.whatwg.org/multipage/microdata.html#concept-property-value
 
 1
 -
+property value
+property value
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-value
+
+1
+-
+property value
+property value
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-value
+
+1
+-
+property values
+property values
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-value
+
+1
+-
+property values
+property values
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-value
+
+1
+-
+property-index-scoped
+property-index-scoped
+value
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#valdef-random-property-index-scoped
+1
+1
+random()
+random-item()
+<random-key>
+<random-cache-key>
+-
 property-name
 property-name
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-property-name
 1
@@ -16630,44 +20930,26 @@ property-name
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/about.html#propdef-property-name
-1
-1
--
-property-name
-property-name
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/about.html#propdef-property-name
+https://www.w3.org/TR/CSS2/about.html#propdef-property-name
 1
 1
 -
-property-name
-property-name
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/about.html#propdef-property-name
-1
-1
--
-property-scoped context
-property-scoped context
-dfn
-json-ld11
-json-ld
-1
+property-scoped
+property-scoped
+value
+css-values-5
+css-values
+5
 current
-https://w3c.github.io/json-ld-syntax/#dfn-property-scoped-context
-
-
+https://drafts.csswg.org/css-values-5/#valdef-random-property-scoped
+1
+1
+random()
+random-item()
+<random-key>
+<random-cache-key>
 -
 property-scoped context
 property-scoped context
@@ -16680,8 +20962,8 @@ https://www.w3.org/TR/json-ld11/#dfn-property-scoped-context
 
 
 -
-propertyIsEnumerable(V)
-propertyIsEnumerable(V)
+propertyIsEnumerable(value)
+propertyIsEnumerable(value)
 method
 ecmascript
 ecmascript
@@ -16764,6 +21046,18 @@ https://www.w3.org/TR/css-color-4/#valdef-color-prophoto-rgb
 1
 color()
 -
+proportional
+proportional
+dfn
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#interpolation-input-type-proportional
+
+1
+interpolation input type
+-
 proportional-nums
 proportional-nums
 value
@@ -16819,8 +21113,8 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#proposed-additions
-
+https://www.w3.org/policies/process/#proposed-additions
+1
 1
 -
 proposed amendments
@@ -16830,7 +21124,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#proposed-amendments
+https://www.w3.org/policies/process/#proposed-amendments
 
 1
 -
@@ -16841,8 +21135,8 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#proposed-corrections
-
+https://www.w3.org/policies/process/#proposed-corrections
+1
 1
 -
 proposed envelope
@@ -16866,6 +21160,28 @@ snapshot
 https://www.w3.org/TR/webrtc/#dfn-proposed-envelope
 
 1
+-
+proposition
+proposition
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-proposition
+1
+
+-
+proposition
+proposition
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-proposition
+1
+
 -
 proprietary extension
 proprietary extension
@@ -16892,6 +21208,39 @@ https://drafts.csswg.org/css-2023/#proprietary-extension
 proprietary extension
 proprietary extension
 dfn
+css-2024
+css
+2024
+current
+https://drafts.csswg.org/css-2024/#proprietary-extension
+
+1
+-
+proprietary extension
+proprietary extension
+dfn
+css-2025
+css
+2025
+current
+https://drafts.csswg.org/css-2025/#proprietary-extension
+
+1
+-
+proprietary extension
+proprietary extension
+dfn
+css-2026
+css
+2026
+current
+https://drafts.csswg.org/css-2026/#proprietary-extension
+
+1
+-
+proprietary extension
+proprietary extension
+dfn
 css-2022
 css
 2022
@@ -16908,6 +21257,50 @@ css
 2023
 snapshot
 https://www.w3.org/TR/css-2023/#proprietary-extension
+
+1
+-
+proprietary extension
+proprietary extension
+dfn
+css-2024
+css
+2024
+snapshot
+https://www.w3.org/TR/css-2024/#proprietary-extension
+
+1
+-
+proprietary extension
+proprietary extension
+dfn
+css-2025
+css
+2025
+snapshot
+https://www.w3.org/TR/css-2025/#proprietary-extension
+
+1
+-
+proprietary extension
+proprietary extension
+dfn
+css-2026
+css
+2026
+snapshot
+https://www.w3.org/TR/css-2026/#proprietary-extension
+
+1
+-
+protected
+protected
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/workers.html#protected-worker
 
 1
 -
@@ -16979,41 +21372,6 @@ https://www.w3.org/TR/json-ld11-api/#dom-jsonlderrorcode-protected-term-redefini
 1
 JsonLdErrorCode
 -
-protected worker
-protected worker
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/workers.html#protected-worker
-
-1
--
-protectedAudience
-protectedAudience
-attribute
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-protectedaudience
-1
-1
-Navigator
--
-proto-mismatch
-proto-mismatch
-enum-value
-web-smart-card
-web-smart-card
-1
-current
-https://wicg.github.io/web-smart-card/#dom-smartcardresponsecode-proto-mismatch
-1
-1
-SmartCardResponseCode
--
 protocol
 protocol
 attribute
@@ -17024,7 +21382,7 @@ current
 https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-protocol
 1
 1
-HTMLHyperlinkElementUtils
+HyperlinkElementUtils
 -
 protocol
 protocol
@@ -17112,6 +21470,66 @@ URLPatternResult
 -
 protocol
 protocol
+cddl-key
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-key-digitalcredentials-setvirtualwalletbehaviorparameters-protocol
+1
+1
+digitalCredentials.SetVirtualWalletBehaviorParameters
+-
+protocol
+protocol
+attribute
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential-protocol
+1
+1
+DigitalCredential
+-
+protocol
+protocol
+dict-member
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialcreaterequest-protocol
+1
+1
+DigitalCredentialCreateRequest
+-
+protocol
+protocol
+dict-member
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialgetrequest-protocol
+1
+1
+DigitalCredentialGetRequest
+-
+protocol
+protocol
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionaggregationservice-protocol
+1
+1
+AttributionAggregationService
+-
+protocol
+protocol
 attribute
 credential-management-1
 credential-management
@@ -17133,6 +21551,30 @@ https://w3c.github.io/webappsec-credential-management/#dom-federatedcredentialin
 1
 1
 FederatedCredentialInit
+-
+protocol
+protocol
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkresponsedata-protocol
+
+1
+network.ResponseData
+-
+protocol
+protocol
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkurlpatternpattern-protocol
+
+1
+network.UrlPatternPattern
 -
 protocol
 protocol
@@ -17244,30 +21686,6 @@ WebSocket
 -
 protocol
 protocol
-attribute
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dom-digitalcredential-protocol
-1
-1
-DigitalCredential
--
-protocol
-protocol
-dict-member
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dom-digitalcredentialsrequest-protocol
-1
-1
-DigitalCredentialsRequest
--
-protocol
-protocol
 dfn
 manifest-incubations
 manifest-incubations
@@ -17292,6 +21710,18 @@ SmartCardTransmitOptions
 -
 protocol
 protocol
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionaggregationservice-protocol
+1
+1
+AttributionAggregationService
+-
+protocol
+protocol
 attribute
 credential-management-1
 credential-management
@@ -17313,6 +21743,78 @@ https://www.w3.org/TR/credential-management-1/#dom-federatedcredentialinit-proto
 1
 1
 FederatedCredentialInit
+-
+protocol
+protocol
+cddl-key
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-key-digitalcredentials-setvirtualwalletbehaviorparameters-protocol
+1
+1
+digitalCredentials.SetVirtualWalletBehaviorParameters
+-
+protocol
+protocol
+attribute
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredential-protocol
+1
+1
+DigitalCredential
+-
+protocol
+protocol
+dict-member
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialcreaterequest-protocol
+1
+1
+DigitalCredentialCreateRequest
+-
+protocol
+protocol
+dict-member
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialgetrequest-protocol
+1
+1
+DigitalCredentialGetRequest
+-
+protocol
+protocol
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkresponsedata-protocol
+
+1
+network.ResponseData
+-
+protocol
+protocol
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkurlpatternpattern-protocol
+
+1
+network.UrlPatternPattern
 -
 protocol
 protocol
@@ -17398,6 +21900,18 @@ https://www.w3.org/TR/webrtc/#dom-rtcicecandidate-protocol
 1
 RTCIceCandidate
 -
+protocol
+protocol
+attribute
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransport-protocol
+1
+1
+WebTransport
+-
 protocol component
 protocol component
 dfn
@@ -17452,6 +21966,17 @@ webtransport
 1
 current
 https://w3c.github.io/webtransport/#protocol-names
+
+1
+-
+protocol names
+protocol names
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#protocol-names
 
 1
 -
@@ -17530,6 +22055,18 @@ https://www.w3.org/TR/credential-management-1/#dom-federatedcredentialrequestopt
 1
 FederatedCredentialRequestOptions
 -
+protocols
+protocols
+dict-member
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransportoptions-protocols
+1
+1
+WebTransportOptions
+-
 prototype
 prototype
 attribute
@@ -17554,17 +22091,29 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-generator
 1
 GeneratorFunction
 -
-provided as additional bid
-provided as additional bid
-dfn
-turtledove
-turtledove
+provideCredentials
+provideCredentials
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#generated-bid-provided-as-additional-bid
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkcontinuewithauthcredentials-action-providecredentials
 
 1
-generated bid
+network.ContinueWithAuthCredentials/action
+-
+provideCredentials
+provideCredentials
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkcontinuewithauthcredentials-action-providecredentials
+
+1
+network.ContinueWithAuthCredentials/action
 -
 provider
 provider
@@ -17833,14 +22382,99 @@ https://www.w3.org/TR/proximity/#proximity-sensor-feature
 -
 proxy
 proxy
-dfn
-w3c-process
-w3c-process
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://www.w3.org/Consortium/Process/#proxy
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsercreateusercontextparameters-proxy
 
 1
+browser.CreateUserContextParameters
+-
+proxy
+proxy
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessioncapabilityrequest-proxy
+
+1
+session.CapabilityRequest
+-
+proxy
+proxy
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionnewresult-capabilities-proxy
+
+1
+session.NewResult/capabilities
+-
+proxy
+proxy
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptproxyremotevalue-type-proxy
+
+1
+script.ProxyRemoteValue/type
+-
+proxy
+proxy
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsercreateusercontextparameters-proxy
+
+1
+browser.CreateUserContextParameters
+-
+proxy
+proxy
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessioncapabilityrequest-proxy
+
+1
+session.CapabilityRequest
+-
+proxy
+proxy
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionnewresult-capabilities-proxy
+
+1
+session.NewResult/capabilities
+-
+proxy
+proxy
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptproxyremotevalue-type-proxy
+
+1
+script.ProxyRemoteValue/type
 -
 proxy configuration
 proxy configuration
@@ -17909,6 +22543,90 @@ https://fetch.spec.whatwg.org/#proxy-authentication-entry
 1
 1
 -
+proxyAutoconfigUrl
+proxyAutoconfigUrl
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxyautoconfigurl
+
+1
+session.PacProxyConfiguration
+-
+proxyAutoconfigUrl
+proxyAutoconfigUrl
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxyautoconfigurl
+
+1
+session.PacProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionautodetectproxyconfiguration-proxytype
+
+1
+session.AutodetectProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessiondirectproxyconfiguration-proxytype
+
+1
+session.DirectProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionmanualproxyconfiguration-proxytype
+
+1
+session.ManualProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxytype
+
+1
+session.PacProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionsystemproxyconfiguration-proxytype
+
+1
+session.SystemProxyConfiguration
+-
 proxytype
 proxyType
 dfn
@@ -17919,6 +22637,66 @@ current
 https://w3c.github.io/webdriver/#dfn-proxytype
 
 1
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionautodetectproxyconfiguration-proxytype
+
+1
+session.AutodetectProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessiondirectproxyconfiguration-proxytype
+
+1
+session.DirectProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionmanualproxyconfiguration-proxytype
+
+1
+session.ManualProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionpacproxyconfiguration-proxytype
+
+1
+session.PacProxyConfiguration
+-
+proxyType
+proxyType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionsystemproxyconfiguration-proxytype
+
+1
+session.SystemProxyConfiguration
 -
 proxytype
 proxyType

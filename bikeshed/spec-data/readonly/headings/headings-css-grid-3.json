@@ -55,20 +55,6 @@
       "url": "https://www.w3.org/TR/css-grid-3/#alignment"
     }
   },
-  "#alternative-proposals": {
-    "current": {
-      "number": "1.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Alternative Syntax Proposals",
-      "url": "https://drafts.csswg.org/css-grid-3/#alternative-proposals"
-    },
-    "snapshot": {
-      "number": "1.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Alternative Syntax Proposals",
-      "url": "https://www.w3.org/TR/css-grid-3/#alternative-proposals"
-    }
-  },
   "#background": {
     "current": {
       "number": "1.1",
@@ -139,6 +125,28 @@
       "url": "https://www.w3.org/TR/css-grid-3/#containing-block"
     }
   },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "CSS Grid Layout 3",
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-grid-3/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Grid Layout 3",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-grid-3/#toc"
+    }
+  },
+  "#flow-control": {
+    "snapshot": {
+      "number": "A",
+      "spec": "CSS Grid Layout 3",
+      "text": "Generic Layout Item Flow Controls: the item-* properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#flow-control"
+    }
+  },
   "#graceful-degradation": {
     "current": {
       "number": "9",
@@ -153,18 +161,18 @@
       "url": "https://www.w3.org/TR/css-grid-3/#graceful-degradation"
     }
   },
-  "#grid-auto-flow": {
+  "#grid-axis-alignment": {
     "current": {
-      "number": "2.2.2",
+      "number": "6.2",
       "spec": "CSS Grid Layout 3",
-      "text": "Auto Flow Directions: the grid-auto-flow property",
-      "url": "https://drafts.csswg.org/css-grid-3/#grid-auto-flow"
+      "text": "Grid-axis Alignment: the align-content/justify-content, align-self/justify-self, and align-items/justify-items properties",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-axis-alignment"
     },
     "snapshot": {
-      "number": "2.2.2",
+      "number": "6.2",
       "spec": "CSS Grid Layout 3",
-      "text": "Auto Flow Directions: the grid-auto-flow property",
-      "url": "https://www.w3.org/TR/css-grid-3/#grid-auto-flow"
+      "text": "Grid-axis Alignment: the align-content/justify-content, align-self/justify-self, and align-items/justify-items properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-axis-alignment"
     }
   },
   "#grid-axis-pagination": {
@@ -181,18 +189,158 @@
       "url": "https://www.w3.org/TR/css-grid-3/#grid-axis-pagination"
     }
   },
-  "#grid-template-masonry": {
+  "#grid-lanes-baseline-alignment": {
     "current": {
-      "number": "2.2.1",
+      "number": "6.5",
       "spec": "CSS Grid Layout 3",
-      "text": "Indicating the stacking axis: the masonry keyword for grid-template-columns/grid-template-rows",
-      "url": "https://drafts.csswg.org/css-grid-3/#grid-template-masonry"
+      "text": "Baseline Alignment",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-baseline-alignment"
     },
     "snapshot": {
-      "number": "2.2.1",
+      "number": "6.5",
       "spec": "CSS Grid Layout 3",
-      "text": "Indicating the stacking axis: the masonry keyword for grid-template-columns/grid-template-rows",
-      "url": "https://www.w3.org/TR/css-grid-3/#grid-template-masonry"
+      "text": "Baseline Alignment",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-baseline-alignment"
+    }
+  },
+  "#grid-lanes-containers": {
+    "current": {
+      "number": "2.2",
+      "spec": "CSS Grid Layout 3",
+      "text": "Establishing Grid Lanes Layout",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-containers"
+    },
+    "snapshot": {
+      "number": "2.2",
+      "spec": "CSS Grid Layout 3",
+      "text": "Establishing Grid Lanes Layout",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-containers"
+    }
+  },
+  "#grid-lanes-dense-packing": {
+    "current": {
+      "number": "4.3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Dense Placement: the dense keyword",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-dense-packing"
+    },
+    "snapshot": {
+      "number": "4.3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Dense Placement: the dense keyword",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-dense-packing"
+    }
+  },
+  "#grid-lanes-layout-algorithm": {
+    "current": {
+      "number": "4.4",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Layout and Placement Algorithm",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-layout-algorithm"
+    },
+    "snapshot": {
+      "number": "4.4",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Layout and Placement Algorithm",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-layout-algorithm"
+    }
+  },
+  "#grid-lanes-model": {
+    "current": {
+      "number": "2",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Layout Model",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-model"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Layout Model",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-model"
+    }
+  },
+  "#grid-lanes-orientation": {
+    "current": {
+      "number": "2.3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Orienting Grid Lanes Layout",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-orientation"
+    },
+    "snapshot": {
+      "number": "2.3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Orienting Grid Lanes Layout",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-orientation"
+    }
+  },
+  "#grid-lanes-placement": {
+    "current": {
+      "number": "4.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Specifying Grid Axis Item Placement: the grid-column-* and grid-row-* properties",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-placement"
+    },
+    "snapshot": {
+      "number": "4.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Specifying Grid Axis Item Placement: the grid-column-* and grid-row-* properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-placement"
+    }
+  },
+  "#grid-lanes-track-placement": {
+    "current": {
+      "number": "4",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Item Placement",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-track-placement"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Item Placement",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-track-placement"
+    }
+  },
+  "#grid-lanes-track-properties": {
+    "current": {
+      "number": "3.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Declaring Grid Lanes Track Templates: the grid-template-* properties",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-track-properties"
+    },
+    "snapshot": {
+      "number": "3.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Declaring Grid Lanes Track Templates: the grid-template-* properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-track-properties"
+    }
+  },
+  "#grid-lanes-track-templates": {
+    "current": {
+      "number": "3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Track Specification",
+      "url": "https://drafts.csswg.org/css-grid-3/#grid-lanes-track-templates"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Grid Lanes Track Specification",
+      "url": "https://www.w3.org/TR/css-grid-3/#grid-lanes-track-templates"
+    }
+  },
+  "#gutters": {
+    "current": {
+      "number": "6.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Gutters: the row-gap, column-gap, and gap properties",
+      "url": "https://drafts.csswg.org/css-grid-3/#gutters"
+    },
+    "snapshot": {
+      "number": "6.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Gutters: the row-gap, column-gap, and gap properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#gutters"
     }
   },
   "#index": {
@@ -241,7 +389,7 @@
     "current": {
       "number": "",
       "spec": "CSS Grid Layout 3",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://drafts.csswg.org/css-grid-3/#informative"
     },
     "snapshot": {
@@ -249,6 +397,20 @@
       "spec": "CSS Grid Layout 3",
       "text": "Informative References",
       "url": "https://www.w3.org/TR/css-grid-3/#informative"
+    }
+  },
+  "#intrinsic-auto-repeat": {
+    "current": {
+      "number": "3.1.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Intrinsic Tracks and repeat()",
+      "url": "https://drafts.csswg.org/css-grid-3/#intrinsic-auto-repeat"
+    },
+    "snapshot": {
+      "number": "3.1.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Intrinsic Tracks and repeat()",
+      "url": "https://www.w3.org/TR/css-grid-3/#intrinsic-auto-repeat"
     }
   },
   "#intrinsic-sizes": {
@@ -293,264 +455,36 @@
       "url": "https://www.w3.org/TR/css-grid-3/#issues-index"
     }
   },
-  "#masonry-axis-baseline-alignment": {
-    "current": {
-      "number": "6.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Baseline Alignment in the stacking axis",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-axis-baseline-alignment"
-    },
+  "#item-flow": {
     "snapshot": {
-      "number": "6.1",
+      "number": "",
       "spec": "CSS Grid Layout 3",
-      "text": "Baseline Alignment in the stacking axis",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-axis-baseline-alignment"
+      "text": "Item Placement Shorthand: the item-flow shorthand",
+      "url": "https://www.w3.org/TR/css-grid-3/#item-flow"
     }
   },
-  "#masonry-axis-pagination": {
-    "current": {
-      "number": "7.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Fragmentation in the stacking axis",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-axis-pagination"
-    },
+  "#item-pack-options": {
     "snapshot": {
-      "number": "7.1",
+      "number": "",
       "spec": "CSS Grid Layout 3",
-      "text": "Fragmentation in the stacking axis",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-axis-pagination"
+      "text": "Item Placement Packing Mode: the item-pack property",
+      "url": "https://www.w3.org/TR/css-grid-3/#item-pack-options"
     }
   },
-  "#masonry-direction": {
-    "current": {
-      "number": "2.3.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Track Direction: the masonry-direction property",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-direction"
-    },
+  "#item-primary-axis": {
     "snapshot": {
-      "number": "2.3.2",
+      "number": "",
       "spec": "CSS Grid Layout 3",
-      "text": "Masonry Track Direction: the masonry-direction property",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-direction"
+      "text": "Item Flow Axis: item-track/item-direction",
+      "url": "https://www.w3.org/TR/css-grid-3/#item-primary-axis"
     }
   },
-  "#masonry-display": {
-    "current": {
-      "number": "2.3.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Establishing Masonry Containers: the masonry and inline-masonry display values",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-display"
-    },
+  "#item-secondary-axis": {
     "snapshot": {
-      "number": "2.3.1",
+      "number": "",
       "spec": "CSS Grid Layout 3",
-      "text": "Establishing Masonry Containers: the masonry and inline-masonry display values",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-display"
-    }
-  },
-  "#masonry-fill": {
-    "current": {
-      "number": "2.3.3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Cross Direction: the masonry-fill property",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-fill"
-    },
-    "snapshot": {
-      "number": "2.3.3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Cross Direction: the masonry-fill property",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-fill"
-    }
-  },
-  "#masonry-flow": {
-    "current": {
-      "number": "2.3.4",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Flow Directions: the masonry-flow shorthand",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-flow"
-    },
-    "snapshot": {
-      "number": "2.3.4",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Flow Directions: the masonry-flow shorthand",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-flow"
-    }
-  },
-  "#masonry-intrinsic-repeat": {
-    "current": {
-      "number": "3.2.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Intrinsic Tracks and repeat()",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-intrinsic-repeat"
-    }
-  },
-  "#masonry-layout-algorithm": {
-    "current": {
-      "number": "4.4",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Layout and Placement Algorithm",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-layout-algorithm"
-    },
-    "snapshot": {
-      "number": "4.4",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Layout and Placement Algorithm",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-layout-algorithm"
-    }
-  },
-  "#masonry-model": {
-    "current": {
-      "number": "2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Layout Model",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-model"
-    },
-    "snapshot": {
-      "number": "2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Layout Model",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-model"
-    }
-  },
-  "#masonry-model-grid-option": {
-    "current": {
-      "number": "2.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-integrated Option: Establishing Masonry Layout",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-model-grid-option"
-    },
-    "snapshot": {
-      "number": "2.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-integrated Option: Establishing Masonry Layout",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-model-grid-option"
-    }
-  },
-  "#masonry-model-masonry-option": {
-    "current": {
-      "number": "2.3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-independent Option: Establishing Masonry Layout",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-model-masonry-option"
-    },
-    "snapshot": {
-      "number": "2.3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-independent Option: Establishing Masonry Layout",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-model-masonry-option"
-    }
-  },
-  "#masonry-placement-grid-option": {
-    "current": {
-      "number": "4.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-integrated Option: Specifying Masonry Item Placement: the grid-column-* and grid-row-* properties",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-placement-grid-option"
-    },
-    "snapshot": {
-      "number": "4.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-integrated Option: Specifying Masonry Item Placement: the grid-column-* and grid-row-* properties",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-placement-grid-option"
-    }
-  },
-  "#masonry-placement-masonry-option": {
-    "current": {
-      "number": "4.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-independent Option: Specifying Masonry Item Placement: the masonry-track-* properties",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-placement-masonry-option"
-    },
-    "snapshot": {
-      "number": "4.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-independent Option: Specifying Masonry Item Placement: the masonry-track-* properties",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-placement-masonry-option"
-    }
-  },
-  "#masonry-shorthand": {
-    "current": {
-      "number": "2.3.5",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Definition Shorthand: the masonry property",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-shorthand"
-    },
-    "snapshot": {
-      "number": "2.3.5",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Definition Shorthand: the masonry property",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-shorthand"
-    }
-  },
-  "#masonry-slack": {
-    "current": {
-      "number": "4.3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Placement Precision: the masonry-slack property",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-slack"
-    },
-    "snapshot": {
-      "number": "4.3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Placement Precision: the masonry-slack property",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-slack"
-    }
-  },
-  "#masonry-track-grid-option": {
-    "current": {
-      "number": "3.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-integrated Option: Declaring Masonry Track Templates: the grid-template-* properties",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-track-grid-option"
-    },
-    "snapshot": {
-      "number": "3.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-integrated Option: Declaring Masonry Track Templates: the grid-template-* properties",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-track-grid-option"
-    }
-  },
-  "#masonry-track-masonry-option": {
-    "current": {
-      "number": "3.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-independent Option: Declaring Masonry Track Templates: the masonry-template-* properties",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-track-masonry-option"
-    },
-    "snapshot": {
-      "number": "3.2",
-      "spec": "CSS Grid Layout 3",
-      "text": "Grid-independent Option: Declaring Masonry Track Templates: the masonry-template-* properties",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-track-masonry-option"
-    }
-  },
-  "#masonry-track-placement": {
-    "current": {
-      "number": "4",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Placement",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-track-placement"
-    },
-    "snapshot": {
-      "number": "4",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Placement",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-track-placement"
-    }
-  },
-  "#masonry-track-templates": {
-    "current": {
-      "number": "3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Track Specification",
-      "url": "https://drafts.csswg.org/css-grid-3/#masonry-track-templates"
-    },
-    "snapshot": {
-      "number": "3",
-      "spec": "CSS Grid Layout 3",
-      "text": "Masonry Track Specification",
-      "url": "https://www.w3.org/TR/css-grid-3/#masonry-track-templates"
+      "text": "Item Cross Axis Placement Mode: item-cross/item-wrap",
+      "url": "https://www.w3.org/TR/css-grid-3/#item-secondary-axis"
     }
   },
   "#normative": {
@@ -593,6 +527,20 @@
       "spec": "CSS Grid Layout 3",
       "text": "Fragmentation",
       "url": "https://www.w3.org/TR/css-grid-3/#pagination"
+    }
+  },
+  "#placement-tolerance": {
+    "current": {
+      "number": "4.2",
+      "spec": "CSS Grid Layout 3",
+      "text": "Placement Precision: the flow-tolerance property",
+      "url": "https://drafts.csswg.org/css-grid-3/#placement-tolerance"
+    },
+    "snapshot": {
+      "number": "4.2",
+      "spec": "CSS Grid Layout 3",
+      "text": "Placement Precision: the flow-tolerance property",
+      "url": "https://www.w3.org/TR/css-grid-3/#placement-tolerance"
     }
   },
   "#privacy": {
@@ -651,29 +599,15 @@
       "url": "https://www.w3.org/TR/css-grid-3/#references"
     }
   },
-  "#repeat-auto-areas": {
-    "current": {
-      "number": "3.4.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "repeat(auto-areas)",
-      "url": "https://drafts.csswg.org/css-grid-3/#repeat-auto-areas"
-    },
-    "snapshot": {
-      "number": "3.4.1",
-      "spec": "CSS Grid Layout 3",
-      "text": "repeat(auto-areas)",
-      "url": "https://www.w3.org/TR/css-grid-3/#repeat-auto-areas"
-    }
-  },
   "#repeat-auto-fit": {
     "current": {
-      "number": "3.4.2",
+      "number": "3.3.1",
       "spec": "CSS Grid Layout 3",
       "text": "repeat(auto-fit)",
       "url": "https://drafts.csswg.org/css-grid-3/#repeat-auto-fit"
     },
     "snapshot": {
-      "number": "3.4.2",
+      "number": "3.3.1",
       "spec": "CSS Grid Layout 3",
       "text": "repeat(auto-fit)",
       "url": "https://www.w3.org/TR/css-grid-3/#repeat-auto-fit"
@@ -681,13 +615,13 @@
   },
   "#repeat-notation": {
     "current": {
-      "number": "3.4",
+      "number": "3.3",
       "spec": "CSS Grid Layout 3",
       "text": "Track Repetition: the repeat() notation",
       "url": "https://drafts.csswg.org/css-grid-3/#repeat-notation"
     },
     "snapshot": {
-      "number": "3.4",
+      "number": "3.3",
       "spec": "CSS Grid Layout 3",
       "text": "Track Repetition: the repeat() notation",
       "url": "https://www.w3.org/TR/css-grid-3/#repeat-notation"
@@ -735,15 +669,57 @@
       "url": "https://www.w3.org/TR/css-grid-3/#sotd"
     }
   },
+  "#stacking-axis-pagination": {
+    "current": {
+      "number": "7.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Fragmentation in the stacking axis",
+      "url": "https://drafts.csswg.org/css-grid-3/#stacking-axis-pagination"
+    },
+    "snapshot": {
+      "number": "7.1",
+      "spec": "CSS Grid Layout 3",
+      "text": "Fragmentation in the stacking axis",
+      "url": "https://www.w3.org/TR/css-grid-3/#stacking-axis-pagination"
+    }
+  },
+  "#stacking-content-alignment": {
+    "current": {
+      "number": "6.3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Stacking-axis Content Distribution: the align-content/justify-content properties",
+      "url": "https://drafts.csswg.org/css-grid-3/#stacking-content-alignment"
+    },
+    "snapshot": {
+      "number": "6.3",
+      "spec": "CSS Grid Layout 3",
+      "text": "Stacking-axis Content Distribution: the align-content/justify-content properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#stacking-content-alignment"
+    }
+  },
+  "#stacking-self-alignment": {
+    "current": {
+      "number": "6.4",
+      "spec": "CSS Grid Layout 3",
+      "text": "Stacking-axis Self Alignment: the align-self/justify-self and align-items/justify-items properties",
+      "url": "https://drafts.csswg.org/css-grid-3/#stacking-self-alignment"
+    },
+    "snapshot": {
+      "number": "6.4",
+      "spec": "CSS Grid Layout 3",
+      "text": "Stacking-axis Self Alignment: the align-self/justify-self and align-items/justify-items properties",
+      "url": "https://www.w3.org/TR/css-grid-3/#stacking-self-alignment"
+    }
+  },
   "#subgrids": {
     "current": {
-      "number": "3.3",
+      "number": "3.2",
       "spec": "CSS Grid Layout 3",
       "text": "Subgrids",
       "url": "https://drafts.csswg.org/css-grid-3/#subgrids"
     },
     "snapshot": {
-      "number": "3.3",
+      "number": "3.2",
       "spec": "CSS Grid Layout 3",
       "text": "Subgrids",
       "url": "https://www.w3.org/TR/css-grid-3/#subgrids"
@@ -779,13 +755,13 @@
   },
   "#track-sizing": {
     "current": {
-      "number": "3.5",
+      "number": "3.4",
       "spec": "CSS Grid Layout 3",
       "text": "Grid Axis Track Sizing",
       "url": "https://drafts.csswg.org/css-grid-3/#track-sizing"
     },
     "snapshot": {
-      "number": "3.5",
+      "number": "3.4",
       "spec": "CSS Grid Layout 3",
       "text": "Grid Axis Track Sizing",
       "url": "https://www.w3.org/TR/css-grid-3/#track-sizing"
@@ -793,13 +769,13 @@
   },
   "#track-sizing-performance": {
     "current": {
-      "number": "3.5.2",
+      "number": "3.4.2",
       "spec": "CSS Grid Layout 3",
       "text": "Optimized Track Sizing",
       "url": "https://drafts.csswg.org/css-grid-3/#track-sizing-performance"
     },
     "snapshot": {
-      "number": "3.5.2",
+      "number": "3.4.2",
       "spec": "CSS Grid Layout 3",
       "text": "Optimized Track Sizing",
       "url": "https://www.w3.org/TR/css-grid-3/#track-sizing-performance"
@@ -807,13 +783,13 @@
   },
   "#track-sizing-subgrid": {
     "current": {
-      "number": "3.5.1",
+      "number": "3.4.1",
       "spec": "CSS Grid Layout 3",
       "text": "Subgrid Item Contributions",
       "url": "https://drafts.csswg.org/css-grid-3/#track-sizing-subgrid"
     },
     "snapshot": {
-      "number": "3.5.1",
+      "number": "3.4.1",
       "spec": "CSS Grid Layout 3",
       "text": "Subgrid Item Contributions",
       "url": "https://www.w3.org/TR/css-grid-3/#track-sizing-subgrid"
@@ -821,13 +797,13 @@
   },
   "#values": {
     "current": {
-      "number": "1.3",
+      "number": "1.2",
       "spec": "CSS Grid Layout 3",
       "text": "Value Definitions",
       "url": "https://drafts.csswg.org/css-grid-3/#values"
     },
     "snapshot": {
-      "number": "1.3",
+      "number": "1.2",
       "spec": "CSS Grid Layout 3",
       "text": "Value Definitions",
       "url": "https://www.w3.org/TR/css-grid-3/#values"

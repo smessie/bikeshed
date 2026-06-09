@@ -1061,61 +1061,11 @@ LINE 5856:4: Image doesn't exist, so I couldn't determine its width and height: 
 WARNING: Multiple elements have the same id 'cssfontfeaturevaluesrule':
   <dfn> on line 6236:8, <dfn> on line ~6238:1
 Deduping, but this ID may not be stable across revisions.
-LINE ~69:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 201:44: Multiple possible 'inherit' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-cascade-5; type:value; text:inherit
-spec:css22; type:value; text:inherit
 LINE 409:77: Multiple possible 'maybe' local refs for 'emoji'.
 Randomly chose one of them; other instances might get a different random choice.
 LINE 410:67: Multiple possible 'maybe' local refs for 'emoji'.
 Randomly chose one of them; other instances might get a different random choice.
-LINE ~506:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~522:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~652:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~720:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~720:5: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
 LINE 729:1 of the line's value (after the colon): No 'property' refs found for 'normal'.
-LINE ~837:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~872:13: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~880:13: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 885:67: Multiple possible 'medium' maybe refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#valdef-line-width-medium
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
@@ -1126,6 +1076,13 @@ spec:css-backgrounds-3; type:value; for:border-left-width; text:medium
 spec:css-backgrounds-3; type:value; for:border-bottom-width; text:medium
 spec:css-backgrounds-3; type:value; for:border-right-width; text:medium
 spec:css-backgrounds-3; type:value; for:border; text:medium
+spec:css-borders-4; type:value; for:<line-width>; text:medium
+spec:css-borders-4; type:value; for:border-width; text:medium
+spec:css-borders-4; type:value; for:border-top-width; text:medium
+spec:css-borders-4; type:value; for:border-left-width; text:medium
+spec:css-borders-4; type:value; for:border-bottom-width; text:medium
+spec:css-borders-4; type:value; for:border-right-width; text:medium
+spec:css-borders-4; type:value; for:border; text:medium
 spec:css-speech-1; type:value; for:pause-before; text:medium
 spec:css-speech-1; type:value; for:pause-after; text:medium
 spec:css-speech-1; type:value; for:rest-before; text:medium
@@ -1134,280 +1091,56 @@ spec:css-speech-1; type:value; for:voice-pitch; text:medium
 spec:css-speech-1; type:value; for:voice-range; text:medium
 spec:css-speech-1; type:value; for:voice-rate; text:medium
 spec:css-speech-1; type:value; for:voice-volume; text:medium
-spec:css22; type:value; for:<border-width>; text:medium
-spec:css22; type:value; for:border-top-width; text:medium
-spec:css22; type:value; for:border-right-width; text:medium
-spec:css22; type:value; for:border-bottom-width; text:medium
-spec:css22; type:value; for:border-left-width; text:medium
-spec:css22; type:value; for:border-width; text:medium
-spec:css22; type:value; for:font-size; text:medium
 LINE 886:90: Multiple possible 'large' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-shapes-2/#valdef-shape-large
+Arbitrarily chose https://drafts.csswg.org/css-shapes-1/#valdef-shape-large
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-shapes-2; type:value; for:shape(); text:large
-spec:css-shapes-2; type:value; for:arc; text:large
-spec:css22; type:value; text:large
-LINE 912:21: Multiple possible 'em' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#em
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:em
-spec:css22; type:value; text:em
-LINE ~1016:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1200:2: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~1200:2: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~1200:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1229:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1237:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1425:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1454:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1483:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1511:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1511:2: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
+spec:css-shapes-1; type:value; for:shape(); text:large
+spec:css-shapes-1; type:value; for:arc; text:large
+spec:css2; type:value; text:large
 LINE 1847:39: No 'property' refs found for 'src'.
 LINE 1898:87: No 'type' refs found for '<font-face-name>'.
-LINE ~1900:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1902:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1904:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 2041:9: No 'property' refs found for 'features'.
 LINE 2046:9: No 'property' refs found for 'variations'.
 LINE 2058:9: No 'property' refs found for 'palettes'.
 LINE 2063:30: No 'property' refs found for 'format'.
 LINE 2087:24: No 'type' refs found for '<font-face-name>'.
 LINE 2225:55: No 'property' refs found for 'src'.
-LINE ~2241:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2241:2: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
-LINE ~2241:2: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~2248:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2248:2: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
-LINE ~2255:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2255:2: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
 LINE 2361:22: No 'property' refs found for 'unicode-range'.
 LINE 2413:1: No 'property' refs found for 'unicode-range'.
 LINE 2421:27: No 'property' refs found for 'unicode-range'.
 LINE 2423:23: No 'property' refs found for 'unicode-range'.
-LINE ~2581:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 2583:10 of the line's value (after the colon): No 'type' refs found for '<feature-tag-value>'.
-LINE ~2588:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2615:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 2690:47: Multiple possible 'descriptor' local refs for 'font-display'.
 Randomly chose one of them; other instances might get a different random choice.
 LINE 2717:25: No 'property' refs found for 'src'.
 LINE 2730:25: No 'property' refs found for 'src'.
 LINE 2743:45: Multiple possible 'descriptor' local refs for 'font-display'.
 Randomly chose one of them; other instances might get a different random choice.
-LINE ~2749:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 2758:73: Multiple possible 'descriptor' local refs for 'font-display'.
 Randomly chose one of them; other instances might get a different random choice.
-LINE 2769:74: Multiple possible 'block' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-block
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:block
-spec:css-display-4; type:value; for:<display-outside>; text:block
-spec:css22; type:value; text:block
 LINE 2919:27: Multiple possible 'propdesc' local refs for 'font-display'.
 Randomly chose one of them; other instances might get a different random choice.
-LINE ~2932:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2942:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 2953:5: No 'property' refs found for 'ascent-override'.
 LINE 2953:24: No 'property' refs found for 'descent-override'.
 LINE 2953:47: No 'property' refs found for 'line-gap-override'.
-LINE ~2955:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2962:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~2969:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 2976:5: No 'property' refs found for 'ascent-override'.
 LINE 2976:24: No 'property' refs found for 'descent-override'.
 LINE 2976:47: No 'property' refs found for 'line-gap-override'.
 LINE 2980:30: No 'property' refs found for 'normal'.
 LINE 3167:35: No 'property' refs found for 'unicode-range'.
-LINE 3387:28: Multiple possible 'em' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#em
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:em
-spec:css22; type:value; text:em
 LINE 3403:30: No 'property' refs found for 'unicode-range'.
 LINE 3472:29: No 'dfn' refs found for 'system font fallback'.
 LINE 3571:25: No 'dfn' refs found for 'system font fallback'.
 LINE 3723:6: No 'dfn' refs found for 'writing system' that are marked for export.
   (Possible specs this could be from: i18n-glossary)
-LINE ~3738:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 3782:8: Multiple possible 'letter-spacing' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-letter-spacing
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:letter-spacing
-spec:css22; type:property; text:letter-spacing
 LINE 3787:49: No 'property' refs found for 'auto'.
 LINE 3795:47: No 'property' refs found for 'normal'.
-LINE ~3811:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~3811:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~3827:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~3829:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~3831:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~3833:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 3839:61: No 'property' refs found for 'normal'.
 LINE 3911:54: No 'property' refs found for 'none'.
-LINE ~3918:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 3959:26: No 'property' refs found for 'sub'.
 LINE 3959:35: No 'property' refs found for 'super'.
 LINE 4055:4: No 'property' refs found for 'sub'.
 LINE 4055:13: No 'property' refs found for 'super'.
 LINE 4057:62: No 'property' refs found for 'normal'.
-LINE ~4124:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 4199:4: No 'property' refs found for 'small-caps'.
 LINE 4199:20: No 'property' refs found for 'all-small-caps'.
 LINE 4207:16: No 'property' refs found for 'all-small-caps'.
@@ -1423,47 +1156,7 @@ LINE 4250:15: No 'property' refs found for 'all-small-caps'.
 LINE 4250:33: No 'property' refs found for 'petite-caps'.
 LINE 4251:1: No 'property' refs found for 'all-petite-caps'.
 LINE 4251:23: No 'property' refs found for 'unicase'.
-LINE 4257:43: Multiple possible 'text-transform' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-text-transform
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:text-transform
-spec:css22; type:property; text:text-transform
-LINE ~4283:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4283:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~4306:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4308:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4310:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 4361:19: No 'property' refs found for 'ordinal'.
-LINE ~4418:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4418:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
 LINE 4450:9: No 'type' refs found for '<feature-index>'.
 LINE 4494:112: No 'type' refs found for '<feature-index>'.
 LINE 4499:105: No 'type' refs found for '<feature-index>'.
@@ -1477,21 +1170,13 @@ LINE 4588:45: No 'propdesc' refs found for 'font-feature-values'.
 LINE 4600:41: No 'type' refs found for '<feature-value-block>'.
 LINE 4602:6: No 'type' refs found for '<feature-value-block>'.
 LINE 4610:1: No 'type' refs found for '<feature-value-block>'.
-LINE 4610:27: No 'type' refs found for '<font-feature-value-type>'.
-LINE 4612:1: No 'type' refs found for '<font-feature-value-type>'.
-LINE ~4607:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 4627:44: No 'type' refs found for '<feature-value-block>'.
-LINE 4628:44: No 'type' refs found for '<font-feature-value-type>'.
-LINE 4629:21: No 'type' refs found for '<font-feature-value-type>'.
 LINE 4631:6: No 'type' refs found for '<feature-value-block>'.
 LINE 4633:41: Multiple possible 'identifier' dfn refs.
 Arbitrarily chose https://drafts.csswg.org/css-values-4/#css-css-identifier
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-values-4; type:dfn; text:identifier
+spec:privacy-principles; type:dfn; text:identifier
 spec:webidl; type:dfn; text:identifier
 LINE 4636:5: No 'type' refs found for '<feature-value-block>'.
 LINE 4640:5: No 'propdesc' refs found for 'foo'.
@@ -1499,131 +1184,34 @@ LINE 4640:21: No 'propdesc' refs found for 'foo'.
 LINE 4644:56: No 'type' refs found for '<feature-value-block>'.
 LINE 4645:19: No 'type' refs found for '<feature-value-block>'.
 LINE 4646:21: No 'type' refs found for '<feature-value-block>'.
-LINE 4689:29: No 'dfn' refs found for 'font feature value block'.
-LINE ~4876:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4876:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~4891:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4893:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 4937:9: No 'property' refs found for 'simplified'.
 LINE 4937:26: No 'property' refs found for 'traditional'.
-LINE ~4984:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~4984:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
 LINE 4999:41: No 'property' refs found for 'normal'.
 LINE 5003:41: No 'property' refs found for 'none'.
 LINE 5004:34: No 'property' refs found for 'none'.
-LINE ~5020:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 5023:10 of the line's value (after the colon): No 'type' refs found for '<feature-tag-value>'.
 LINE 5080:39: No 'property' refs found for 'normal'.
-LINE ~5087:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~5087:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
 LINE 5112:55: No 'property' refs found for 'kern'.
 LINE 5114:8: No 'property' refs found for 'gpos'.
 LINE 5131:10: No 'property' refs found for 'on'.
 LINE 5132:5: No 'property' refs found for 'off'.
-LINE ~5194:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 5259:43: No 'property' refs found for 'lang'.
 LINE 5260:41: No 'property' refs found for 'fi'.
 LINE 5309:54: No 'property' refs found for 'no-common-ligatures'.
 LINE 5354:24: No 'property' refs found for 'font-named-instance'.
-LINE 5380:28: Multiple possible 'letter-spacing' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-letter-spacing
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:letter-spacing
-spec:css22; type:property; text:letter-spacing
 LINE 5449:51: No 'property' refs found for 'src'.
-LINE ~5510:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~5596:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~5725:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 5922:18: Multiple possible 'descriptor' local refs for 'font-family'.
 Randomly chose one of them; other instances might get a different random choice.
 LINE 5941:34: No 'property' refs found for 'base-palette'.
-LINE ~5943:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 5971:11: No 'type' refs found for '<override-color>'.
 LINE 5974:10: No 'type' refs found for '<override-color>'.
 LINE 5990:76: No 'property' refs found for 'base-palette'.
-LINE ~6005:5: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 6007:32 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
 LINE 6015:24: No 'property' refs found for 'base-palette'.
-LINE ~6059:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 6123:36: No 'dfn' refs found for 'presentation participating code point'.
 LINE 6131:25: No 'dfn' refs found for 'presentation participating code point'.
 LINE 6137:26: No 'dfn' refs found for 'presentation participating code point'.
 LINE 6145:3: No 'dfn' refs found for 'presentation participating code point'.
 LINE 6148:3: No 'dfn' refs found for 'presentation participating code points'.
 LINE 6306:18: No 'property' refs found for 'maplike'.
-LINE 6306:57: Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
 LINE 6343:19: No 'property' refs found for 'name'.
 LINE 6344:28: No 'property' refs found for 'cmap'.
 LINE 6369:35: No 'property' refs found for 'name'.

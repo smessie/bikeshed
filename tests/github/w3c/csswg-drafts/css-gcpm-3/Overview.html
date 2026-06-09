@@ -1316,14 +1316,14 @@ span.footnote { float: footnote; }
 	Types of footnotes
 </span><a class="self-link" href="#footnote-types"></a></h3>
    
-The following new value of the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float">float</a> property creates a footnote element:
+The following new value of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float">float</a> property creates a footnote element:
 
 
    <table class="def partial propdef" data-link-for-hint="float">
     <tbody>
      <tr>
       <th>Name:
-      <td><a class="css" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float①">float</a>
+      <td><a class="css" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float①">float</a>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">New values:</a>
       <td class="prod">footnote
@@ -1385,7 +1385,7 @@ The bottom margin edge of the footnote area is positioned so that it touches the
    <p class="issue" id="issue-069a39a3"><a class="self-link" href="#issue-069a39a3"></a>How do footnotes work in multi-column text? Prince uses <code>float: prince-column-footnote</code> to create a footnote at the bottom of a column rather than the bottom of a page.</p>
    <p class="issue" id="issue-34f910d8"><a class="self-link" href="#issue-34f910d8"></a>Implementations that support footnotes generally support page floats like <code>float: bottom</code>. Page floats should end up above the footnote area. How might this be specified?</p>
    <h4 class="heading settled" data-level="2.4.2" id="footnote-area-size"><span class="secno">2.4.2. </span><span class="content">Size of the footnote area</span><a class="self-link" href="#footnote-area-size"></a></h4>
-   <p>The <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height" id="ref-for-propdef-max-height">max-height</a> property on the footnote area limits the size of this area, unless the page contains only footnotes (as may happen on the last page of a document).</p>
+   <p>The <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-max-height" id="ref-for-propdef-max-height">max-height</a> property on the footnote area limits the size of this area, unless the page contains only footnotes (as may happen on the last page of a document).</p>
    <p>Since it is undesirable for a page to consist only of footnotes, user agents <em class="RFC2119">may</em> set a default max-height value on the footnote area.</p>
    <h3 class="heading settled" data-level="2.5" id="footnote-counters"><span class="secno">2.5. </span><span class="content">The Footnote Counter</span><a class="self-link" href="#footnote-counters"></a></h3>
    <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="footnote-counter">footnote counter</dfn> is a predefined <a href="https://drafts.csswg.org/css-lists/#counter">counter</a> associated with the footnote element. Its value is the number or symbol used to identify the footnote. This value is used in both the footnote call and the footnote marker. It should be incremented for each footnote.</p>
@@ -1975,8 +1975,8 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS21]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="cdd73959">float</span>
-     <li><span class="dfn-paneled" id="f80bfcde">max-height</span>
+     <li><span class="dfn-paneled" id="0570259e">float</span>
+     <li><span class="dfn-paneled" id="dd1ccb1e">max-height</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3-CONTENT]</a> defines the following terms:
@@ -2004,7 +2004,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css21">[CSS21]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3-content">[CSS3-CONTENT]
-   <dd>Elika Etemad; Dave Cramer. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
+   <dd>Elika Etemad; Mike Bremford. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
    <dt id="biblio-css3page">[CSS3PAGE]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-page-3/"><cite>CSS Paged Media Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-page-3/">https://drafts.csswg.org/css-page-3/</a>
    <dt id="biblio-rfc2119">[RFC2119]
@@ -2342,6 +2342,7 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
+"0570259e": {"dfnID":"0570259e","dfnText":"float","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-float"},{"id":"ref-for-propdef-float\u2460"}],"title":"2.3. \n\tTypes of footnotes\n"}],"url":"https://drafts.csswg.org/css2/#propdef-float"},
 "2467179e": {"dfnID":"2467179e","dfnText":"content","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-content"}],"title":"1.1.2. \n\tThe string() function\n"},{"refs":[{"id":"ref-for-propdef-content\u2460"}],"title":"1.2.2. \nThe element() value\n"}],"url":"https://drafts.csswg.org/css-content-3/#propdef-content"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"\nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "537cf076": {"dfnID":"537cf076","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"}],"title":"1.1.2. \n\tThe string() function\n"},{"refs":[{"id":"ref-for-mult-opt\u2460"}],"title":"1.2.2. \nThe element() value\n"},{"refs":[{"id":"ref-for-mult-opt\u2461"}],"title":"3.1. \nPage Selectors\n"}],"url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
@@ -2353,13 +2354,12 @@ let dfnPanelData = {
 "9f9120ff": {"dfnID":"9f9120ff","dfnText":",","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-comma"}],"title":"1.1.2. \n\tThe string() function\n"},{"refs":[{"id":"ref-for-comb-comma\u2460"}],"title":"1.2.2. \nThe element() value\n"}],"url":"https://drafts.csswg.org/css-values-4/#comb-comma"},
 "b8a0ba74": {"dfnID":"b8a0ba74","dfnText":"position","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-position"}],"title":"1.2.1. \nThe running() value\n"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-position"},
 "bedd9d42": {"dfnID":"bedd9d42","dfnText":"+","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-one-plus"}],"title":"1.1.1. \n\tThe string-set property\n"},{"refs":[{"id":"ref-for-mult-one-plus\u2460"}],"title":"3.1. \nPage Selectors\n"}],"url":"https://drafts.csswg.org/css-values-4/#mult-one-plus"},
-"cdd73959": {"dfnID":"cdd73959","dfnText":"float","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-float"},{"id":"ref-for-propdef-float\u2460"}],"title":"2.3. \n\tTypes of footnotes\n"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-float"},
 "content-list": {"dfnID":"content-list","dfnText":"content-list","external":false,"refSections":[],"url":"#content-list"},
+"dd1ccb1e": {"dfnID":"dd1ccb1e","dfnText":"max-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-max-height"}],"title":"2.4.2. Size of the footnote area"}],"url":"https://drafts.csswg.org/css2/#propdef-max-height"},
 "decf3b99": {"dfnID":"decf3b99","dfnText":"page","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-page"}],"title":"3.2. \nPage groups\n"}],"url":"https://drafts.csswg.org/css-page-3/#propdef-page"},
 "e274345c": {"dfnID":"e274345c","dfnText":"<custom-ident>","external":true,"refSections":[{"refs":[{"id":"ref-for-identifier-value"}],"title":"1.1.1. \n\tThe string-set property\n"},{"refs":[{"id":"ref-for-identifier-value\u2460"}],"title":"1.1.2. \n\tThe string() function\n"},{"refs":[{"id":"ref-for-identifier-value\u2461"},{"id":"ref-for-identifier-value\u2462"}],"title":"1.2.1. \nThe running() value\n"},{"refs":[{"id":"ref-for-identifier-value\u2463"}],"title":"1.2.2. \nThe element() value\n"},{"refs":[{"id":"ref-for-identifier-value\u2464"}],"title":"3.1. \nPage Selectors\n"}],"url":"https://drafts.csswg.org/css-values-4/#identifier-value"},
 "entry-value": {"dfnID":"entry-value","dfnText":"entry value","external":false,"refSections":[],"url":"#entry-value"},
 "exit-value": {"dfnID":"exit-value","dfnText":"exit value","external":false,"refSections":[],"url":"#exit-value"},
-"f80bfcde": {"dfnID":"f80bfcde","dfnText":"max-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-max-height"}],"title":"2.4.2. Size of the footnote area"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height"},
 "footnote-counter": {"dfnID":"footnote-counter","dfnText":"footnote counter","external":false,"refSections":[],"url":"#footnote-counter"},
 "footnote-display-block": {"dfnID":"footnote-display-block","dfnText":"block","external":false,"refSections":[],"url":"#footnote-display-block"},
 "footnote-display-compact": {"dfnID":"footnote-display-compact","dfnText":"compact","external":false,"refSections":[],"url":"#footnote-display-compact"},
@@ -2809,8 +2809,8 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#mult-comma": {"displayText":"#","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"#","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-comma"},
 "https://drafts.csswg.org/css-values-4/#mult-one-plus": {"displayText":"+","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"+","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-one-plus"},
 "https://drafts.csswg.org/css-values-4/#mult-opt": {"displayText":"?","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"?","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height": {"displayText":"max-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"max-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-float": {"displayText":"float","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"float","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-float"},
+"https://drafts.csswg.org/css2/#propdef-float": {"displayText":"float","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"float","type":"property","url":"https://drafts.csswg.org/css2/#propdef-float"},
+"https://drafts.csswg.org/css2/#propdef-max-height": {"displayText":"max-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"max-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-max-height"},
 };
 
 function mkRefHint(link, ref) {

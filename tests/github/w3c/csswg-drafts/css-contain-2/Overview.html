@@ -1621,7 +1621,7 @@ Strong Containment: the <a class="css property" data-link-type="property" href="
 	although some types of containment have no effect on some elements,
 	as detailed in <a href="#containment-types">§ 3 Types of Containment</a>.
 	In addition, in the case of <a data-link-type="biblio" href="#biblio-svg2" title="Scalable Vector Graphics (SVG) 2">[SVG2]</a>,
-	the <a class="css property" data-link-type="property" href="#propdef-contain" id="ref-for-propdef-contain⑨">contain</a> property only applies to <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg">svg</a></code> elements that have an associated CSS layout box.</p>
+	the <a class="css property" data-link-type="property" href="#propdef-contain" id="ref-for-propdef-contain⑨">contain</a> property only applies to <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg">svg</a></code> elements that have an associated CSS layout box.</p>
    <div class="example" id="example-ace3db03">
     <a class="self-link" href="#example-ace3db03"></a>
 		<a class="css property" data-link-type="property" href="#propdef-contain" id="ref-for-propdef-contain①⓪">contain</a> is useful when used widely on a page,
@@ -2024,7 +2024,7 @@ any overflow must be treated as <a data-link-type="dfn" href="https://drafts.css
       </ul>
      </details>
     <li data-md>
-     <p>The <a data-link-type="dfn" href="#layout-containment-box" id="ref-for-layout-containment-box⑥">layout containment box</a> creates a <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/visuren.html#x43" id="ref-for-x43">stacking context</a>.</p>
+     <p>The <a data-link-type="dfn" href="#layout-containment-box" id="ref-for-layout-containment-box⑥">layout containment box</a> creates a <a data-link-type="dfn" href="https://drafts.csswg.org/css2/#stacking-context" id="ref-for-stacking-context">stacking context</a>.</p>
      <details class="wpt-tests-block" dir="ltr" lang="en">
       <summary>Tests</summary>
       <ul class="wpt-tests-list">
@@ -2088,7 +2088,7 @@ Style Containment</span><a class="self-link" href="#containment-style"></a></h3>
 	and has the following effects:</p>
    <ol>
     <li data-md>
-     <p>The <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/generate.html#propdef-counter-increment" id="ref-for-propdef-counter-increment">counter-increment</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-lists-3/#propdef-counter-set" id="ref-for-propdef-counter-set">counter-set</a> properties
+     <p>The <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-counter-increment" id="ref-for-propdef-counter-increment">counter-increment</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-lists-3/#propdef-counter-set" id="ref-for-propdef-counter-set">counter-set</a> properties
 must be <a data-link-type="dfn" href="#property-scoped-to-a-sub-tree" id="ref-for-property-scoped-to-a-sub-tree">scoped to the element’s sub-tree</a>
 and create a new counter.</p>
      <details class="wpt-tests-block" dir="ltr" lang="en">
@@ -2158,7 +2158,7 @@ the element at the base of the subtree is treated as if it was the root of the d
    </ul>
    <div class="example" id="example-6932a400">
     <a class="self-link" href="#example-6932a400"></a>
-	As <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/generate.html#propdef-counter-increment" id="ref-for-propdef-counter-increment①">counter-increment</a> is scoped to an element’s subtree,
+	As <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-counter-increment" id="ref-for-propdef-counter-increment①">counter-increment</a> is scoped to an element’s subtree,
 	the first use of it within the subtree acts as if the named counter were set to 0 at the scoping element,
 	regardless of whether the counter had been used outside the scoping element.
 	Any increments made within the subtree have no effect on counters of the same name outside the scoping element.
@@ -2270,7 +2270,7 @@ while leaving other values of <span class="property" id="ref-for-propdef-overflo
       </ul>
      </details>
     <li data-md>
-     <p>The <a data-link-type="dfn" href="#paint-containment-box" id="ref-for-paint-containment-box③">paint containment box</a> creates a <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/visuren.html#x43" id="ref-for-x43①">stacking context</a>.</p>
+     <p>The <a data-link-type="dfn" href="#paint-containment-box" id="ref-for-paint-containment-box③">paint containment box</a> creates a <a data-link-type="dfn" href="https://drafts.csswg.org/css2/#stacking-context" id="ref-for-stacking-context①">stacking context</a>.</p>
      <details class="wpt-tests-block" dir="ltr" lang="en">
       <summary>Tests</summary>
       <ul class="wpt-tests-list">
@@ -2478,7 +2478,7 @@ and must be focusable and selectable as normal.</p>
 		<a data-link-type="dfn" href="#paint-containment" id="ref-for-paint-containment④">paint containment</a>,
 		and <a data-link-type="dfn" href="#size-containment" id="ref-for-size-containment⑥">size containment</a>.
 		Further, its <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="element-contents">contents</dfn>
-		(the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree">flat tree</a> descendants of the element,
+		(the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree">flat tree</a> descendants of the element,
 		including both text and elements,
 		or the replaced content of a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#replaced-element" id="ref-for-replaced-element①">replaced element</a>)
 		are not painted
@@ -3406,9 +3406,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="5875aeb9">::marker</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-SCOPING-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-SHADOW-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="22109b0e">flat tree</span>
+     <li><span class="dfn-paneled" id="4cb3439f">flat tree</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-SIZING-3]</a> defines the following terms:
@@ -3456,11 +3456,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <ul>
      <li><span class="dfn-paneled" id="bcd1c8b8">close-quote</span>
      <li><span class="dfn-paneled" id="6b32df53">content</span>
-     <li><span class="dfn-paneled" id="a121cf09">counter-increment</span>
+     <li><span class="dfn-paneled" id="eedc5d96">counter-increment</span>
      <li><span class="dfn-paneled" id="68f547b5">no-close-quote</span>
      <li><span class="dfn-paneled" id="c3a14ee6">no-open-quote</span>
      <li><span class="dfn-paneled" id="870d175e">open-quote</span>
-     <li><span class="dfn-paneled" id="a50c2771">stacking context</span>
+     <li><span class="dfn-paneled" id="efdded2e">stacking context</span>
      <li><span class="dfn-paneled" id="5a3d5e86">vertical-align</span>
     </ul>
    <li>
@@ -3491,7 +3491,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="4299a926">svg</span>
+     <li><span class="dfn-paneled" id="6d50fd63">svg</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -3510,7 +3510,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display/"><cite>CSS Display Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-display/">https://drafts.csswg.org/css-display/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
    <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-3/"><cite>CSS Images Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-3/">https://drafts.csswg.org/css-images-3/</a>
    <dt id="biblio-css-lists-3">[CSS-LISTS-3]
@@ -3522,15 +3522,15 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
-   <dt id="biblio-css-scoping-1">[CSS-SCOPING-1]
-   <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-scoping/"><cite>CSS Scoping Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-scoping/">https://drafts.csswg.org/css-scoping/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dt id="biblio-css-shadow-1">[CSS-SHADOW-1]
+   <dd><a href="https://drafts.csswg.org/css-shadow-1/"><cite>CSS Shadow Module Level 1</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-shadow-1/">https://drafts.csswg.org/css-shadow-1/</a>
    <dt id="biblio-css-sizing-3">[CSS-SIZING-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-sizing-3/"><cite>CSS Box Sizing Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-sizing-3/">https://drafts.csswg.org/css-sizing-3/</a>
    <dt id="biblio-css-transitions-1">[CSS-TRANSITIONS-1]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
    <dt id="biblio-css-ui-4">[CSS-UI-4]
-   <dd>Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
    <dt id="biblio-css-values-3">[CSS-VALUES-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-3/"><cite>CSS Values and Units Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-3/">https://drafts.csswg.org/css-values-3/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
@@ -3538,7 +3538,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-cssom-view-1">[CSSOM-VIEW-1]
-   <dd>Simon Pieters. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
+   <dd>Simon Fraser; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-intersection-observer">[INTERSECTION-OBSERVER]
@@ -3548,16 +3548,16 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css-grid-2">[CSS-GRID-2]
-   <dd>Tab Atkins Jr.; Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
    <dt id="biblio-css-multicol-1">[CSS-MULTICOL-1]
    <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol/"><cite>CSS Multi-column Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol/">https://drafts.csswg.org/css-multicol/</a>
    <dt id="biblio-css-overflow-5">[CSS-OVERFLOW-5]
-   <dd><a href="https://drafts.csswg.org/css-overflow-5/"><cite>CSS Overflow Module Level 5</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-overflow-5/">https://drafts.csswg.org/css-overflow-5/</a>
+   <dd>Elika Etemad; Florian Rivoal; Robert Flack. <a href="https://drafts.csswg.org/css-overflow-5/"><cite>CSS Overflow Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-5/">https://drafts.csswg.org/css-overflow-5/</a>
    <dt id="biblio-css-page-3">[CSS-PAGE-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-page-3/"><cite>CSS Paged Media Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-page-3/">https://drafts.csswg.org/css-page-3/</a>
    <dt id="biblio-css-regions-1">[CSS-REGIONS-1]
@@ -3859,7 +3859,6 @@ let dfnPanelData = {
 "0e9419b9": {"dfnID":"0e9419b9","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"},{"id":"ref-for-propdef-display\u2460"}],"title":"3.1. \nSize Containment"},{"refs":[{"id":"ref-for-propdef-display\u2461"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-propdef-display\u2462"}],"title":"3.4. \nPaint Containment"},{"refs":[{"id":"ref-for-propdef-display\u2463"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"},{"refs":[{"id":"ref-for-propdef-display\u2464"}],"title":"4.2. \nUsing content-visibility: auto"},{"refs":[{"id":"ref-for-propdef-display\u2465"}],"title":"4.4. Accessibility Implications"},{"refs":[{"id":"ref-for-propdef-display\u2466"}],"title":"4.5. Examples"}],"url":"https://drafts.csswg.org/css-display-3/#propdef-display"},
 "12f8fb07": {"dfnID":"12f8fb07","dfnText":"visibility","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-visibility"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"},{"refs":[{"id":"ref-for-propdef-visibility\u2460"},{"id":"ref-for-propdef-visibility\u2461"},{"id":"ref-for-propdef-visibility\u2462"},{"id":"ref-for-propdef-visibility\u2463"}],"title":"4.1. \nUsing content-visibility: hidden"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-visibility"},
 "18d57a4b": {"dfnID":"18d57a4b","dfnText":"max-content","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-width-max-content"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-sizing-3/#valdef-width-max-content"},
-"22109b0e": {"dfnID":"22109b0e","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"}],"url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
 "23012643": {"dfnID":"23012643","dfnText":"natural aspect ratio","external":true,"refSections":[{"refs":[{"id":"ref-for-natural-aspect-ratio"},{"id":"ref-for-natural-aspect-ratio\u2460"},{"id":"ref-for-natural-aspect-ratio\u2461"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-images-3/#natural-aspect-ratio"},
 "240893a8": {"dfnID":"240893a8","dfnText":"focus()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-window-focus"}],"title":"4.3. Restrictions and Clarifications"}],"url":"https://html.spec.whatwg.org/multipage/interaction.html#dom-window-focus"},
 "24f4b323": {"dfnID":"24f4b323","dfnText":"overflow-x","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-overflow-x"},{"id":"ref-for-propdef-overflow-x\u2460"},{"id":"ref-for-propdef-overflow-x\u2461"}],"title":"3.4. \nPaint Containment"}],"url":"https://drafts.csswg.org/css-overflow-3/#propdef-overflow-x"},
@@ -3867,7 +3866,7 @@ let dfnPanelData = {
 "33eda2d8": {"dfnID":"33eda2d8","dfnText":"clip","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-overflow-clip"}],"title":"3.2. \nLayout Containment"}],"url":"https://drafts.csswg.org/css-overflow-3/#valdef-overflow-clip"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.2. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "36fd3b67": {"dfnID":"36fd3b67","dfnText":"aspect-ratio","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-aspect-ratio"},{"id":"ref-for-propdef-aspect-ratio\u2460"},{"id":"ref-for-propdef-aspect-ratio\u2461"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-sizing-4/#propdef-aspect-ratio"},
-"4299a926": {"dfnID":"4299a926","dfnText":"svg","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-svg"}],"title":"2. \nStrong Containment: the contain property"}],"url":"https://svgwg.org/svg2-draft/struct.html#elementdef-svg"},
+"4cb3439f": {"dfnID":"4cb3439f","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"}],"url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
 "513590d3": {"dfnID":"513590d3","dfnText":"min-content","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-width-min-content"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-sizing-3/#valdef-width-min-content"},
 "55e8f5de": {"dfnID":"55e8f5de","dfnText":"none","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-none"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-valdef-display-none\u2460"}],"title":"3.4. \nPaint Containment"},{"refs":[{"id":"ref-for-valdef-display-none\u2461"}],"title":"4.3. Restrictions and Clarifications"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-none"},
 "5869f885": {"dfnID":"5869f885","dfnText":"::before","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-before"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
@@ -3879,6 +3878,7 @@ let dfnPanelData = {
 "68019d7a": {"dfnID":"68019d7a","dfnText":"height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-height"},{"id":"ref-for-propdef-height\u2460"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
 "68f547b5": {"dfnID":"68f547b5","dfnText":"no-close-quote","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-no-close-quote"}],"title":"3.3. \nStyle Containment"}],"url":"https://www.w3.org/TR/CSS2/generate.html#value-def-no-close-quote"},
 "6b32df53": {"dfnID":"6b32df53","dfnText":"content","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-content"},{"id":"ref-for-propdef-content\u2460"}],"title":"3.3. \nStyle Containment"}],"url":"https://www.w3.org/TR/CSS2/generate.html#propdef-content"},
+"6d50fd63": {"dfnID":"6d50fd63","dfnText":"svg","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-svg"}],"title":"2. \nStrong Containment: the contain property"}],"url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"},{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"}],"title":"2. \nStrong Containment: the contain property"},{"refs":[{"id":"ref-for-comb-one\u2462"},{"id":"ref-for-comb-one\u2463"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
 "72646e78": {"dfnID":"72646e78","dfnText":"ResizeObserver","external":true,"refSections":[{"refs":[{"id":"ref-for-resizeobserver"}],"title":"4.3. Restrictions and Clarifications"}],"url":"https://drafts.csswg.org/resize-observer-1/#resizeobserver"},
 "73bc6606": {"dfnID":"73bc6606","dfnText":"pointer-events","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-pointer-events"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"}],"url":"https://drafts.csswg.org/css-ui-4/#propdef-pointer-events"},
@@ -3899,10 +3899,8 @@ let dfnPanelData = {
 "9be179f5": {"dfnID":"9be179f5","dfnText":"IntersectionObserver","external":true,"refSections":[{"refs":[{"id":"ref-for-intersectionobserver"}],"title":"4.3. Restrictions and Clarifications"}],"url":"https://w3c.github.io/IntersectionObserver/#intersectionobserver"},
 "9ee4a8b2": {"dfnID":"9ee4a8b2","dfnText":"contents","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-contents"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-valdef-display-contents\u2460"}],"title":"3.4. \nPaint Containment"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-contents"},
 "a0e35b6d": {"dfnID":"a0e35b6d","dfnText":"sizing property","external":true,"refSections":[{"refs":[{"id":"ref-for-sizing-property"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-sizing-3/#sizing-property"},
-"a121cf09": {"dfnID":"a121cf09","dfnText":"counter-increment","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-counter-increment"},{"id":"ref-for-propdef-counter-increment\u2460"}],"title":"3.3. \nStyle Containment"}],"url":"https://www.w3.org/TR/CSS21/generate.html#propdef-counter-increment"},
 "a264b960": {"dfnID":"a264b960","dfnText":"innerText","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-innertext"}],"title":"4.3. Restrictions and Clarifications"}],"url":"https://html.spec.whatwg.org/multipage/dom.html#dom-innertext"},
 "a4eb3c57": {"dfnID":"a4eb3c57","dfnText":"used value","external":true,"refSections":[{"refs":[{"id":"ref-for-used-value"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-cascade-5/#used-value"},
-"a50c2771": {"dfnID":"a50c2771","dfnText":"stacking context","external":true,"refSections":[{"refs":[{"id":"ref-for-x43"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-x43\u2460"}],"title":"3.4. \nPaint Containment"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#x43"},
 "a758a91a": {"dfnID":"a758a91a","dfnText":"establishes an independent formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-establish-an-independent-formatting-context"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-establish-an-independent-formatting-context\u2460"}],"title":"3.4. \nPaint Containment"}],"url":"https://drafts.csswg.org/css-display-4/#establish-an-independent-formatting-context"},
 "a8485ff4": {"dfnID":"a8485ff4","dfnText":"replaced element","external":true,"refSections":[{"refs":[{"id":"ref-for-replaced-element"}],"title":"3.1. \nSize Containment"},{"refs":[{"id":"ref-for-replaced-element\u2460"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"}],"url":"https://drafts.csswg.org/css-display-4/#replaced-element"},
 "a96baa0d": {"dfnID":"a96baa0d","dfnText":"internal ruby box","external":true,"refSections":[{"refs":[{"id":"ref-for-internal-ruby-box"}],"title":"3.1. \nSize Containment"},{"refs":[{"id":"ref-for-internal-ruby-box\u2460"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-internal-ruby-box\u2461"}],"title":"3.4. \nPaint Containment"}],"url":"https://drafts.csswg.org/css-display-3/#internal-ruby-box"},
@@ -3927,6 +3925,8 @@ let dfnPanelData = {
 "dde41168": {"dfnID":"dde41168","dfnText":"left","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-left"}],"title":"4.1. \nUsing content-visibility: hidden"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-left"},
 "df8337f1": {"dfnID":"df8337f1","dfnText":"fit-content size","external":true,"refSections":[{"refs":[{"id":"ref-for-fit-content-size"}],"title":"3.1. \nSize Containment"}],"url":"https://drafts.csswg.org/css-sizing-3/#fit-content-size"},
 "e21129ef": {"dfnID":"e21129ef","dfnText":"forced break","external":true,"refSections":[{"refs":[{"id":"ref-for-forced-break"},{"id":"ref-for-forced-break\u2460"}],"title":"3.2. \nLayout Containment"}],"url":"https://drafts.csswg.org/css-break-3/#forced-break"},
+"eedc5d96": {"dfnID":"eedc5d96","dfnText":"counter-increment","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-counter-increment"},{"id":"ref-for-propdef-counter-increment\u2460"}],"title":"3.3. \nStyle Containment"}],"url":"https://drafts.csswg.org/css2/#propdef-counter-increment"},
+"efdded2e": {"dfnID":"efdded2e","dfnText":"stacking context","external":true,"refSections":[{"refs":[{"id":"ref-for-stacking-context"}],"title":"3.2. \nLayout Containment"},{"refs":[{"id":"ref-for-stacking-context\u2460"}],"title":"3.4. \nPaint Containment"}],"url":"https://drafts.csswg.org/css2/#stacking-context"},
 "element-contents": {"dfnID":"element-contents","dfnText":"contents","external":false,"refSections":[{"refs":[{"id":"ref-for-element-contents"},{"id":"ref-for-element-contents\u2460"}],"title":"4. Suppressing An Element\u2019s Contents Entirely: the content-visibility property"},{"refs":[{"id":"ref-for-element-contents\u2461"},{"id":"ref-for-element-contents\u2462"},{"id":"ref-for-element-contents\u2463"},{"id":"ref-for-element-contents\u2464"},{"id":"ref-for-element-contents\u2465"}],"title":"4.5. Examples"}],"url":"#element-contents"},
 "f6d1b137": {"dfnID":"f6d1b137","dfnText":"style change event","external":true,"refSections":[{"refs":[{"id":"ref-for-style-change-event"},{"id":"ref-for-style-change-event\u2460"},{"id":"ref-for-style-change-event\u2461"},{"id":"ref-for-style-change-event\u2462"}],"title":"4.3. Restrictions and Clarifications"}],"url":"https://drafts.csswg.org/css-transitions-1/#style-change-event"},
 "f8e02f0a": {"dfnID":"f8e02f0a","dfnText":"fragmented flow","external":true,"refSections":[{"refs":[{"id":"ref-for-fragmented-flow"},{"id":"ref-for-fragmented-flow\u2460"},{"id":"ref-for-fragmented-flow\u2461"}],"title":"3.2. \nLayout Containment"}],"url":"https://drafts.csswg.org/css-break-3/#fragmented-flow"},
@@ -4471,7 +4471,7 @@ let refsData = {
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-after": {"displayText":"::after","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::after","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-after"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-before": {"displayText":"::before","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::before","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-marker": {"displayText":"::marker","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::marker","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-marker"},
-"https://drafts.csswg.org/css-scoping-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
+"https://drafts.csswg.org/css-shadow-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
 "https://drafts.csswg.org/css-sizing-3/#fit-content-size": {"displayText":"fit-content size","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"fit-content size","type":"dfn","url":"https://drafts.csswg.org/css-sizing-3/#fit-content-size"},
 "https://drafts.csswg.org/css-sizing-3/#intrinsic-size": {"displayText":"intrinsic size","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"intrinsic size","type":"dfn","url":"https://drafts.csswg.org/css-sizing-3/#intrinsic-size"},
 "https://drafts.csswg.org/css-sizing-3/#propdef-height": {"displayText":"height","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"height","type":"property","url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
@@ -4489,6 +4489,8 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#comb-any": {"displayText":"||","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"||","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#comb-any"},
 "https://drafts.csswg.org/css-values-4/#comb-one": {"displayText":"|","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"|","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#comb-one"},
 "https://drafts.csswg.org/css-values-4/#css-wide-keywords": {"displayText":"CSS-wide keywords","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"css-wide keywords","type":"dfn","url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
+"https://drafts.csswg.org/css2/#propdef-counter-increment": {"displayText":"counter-increment","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"counter-increment","type":"property","url":"https://drafts.csswg.org/css2/#propdef-counter-increment"},
+"https://drafts.csswg.org/css2/#stacking-context": {"displayText":"stacking context","export":false,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"stacking context","type":"dfn","url":"https://drafts.csswg.org/css2/#stacking-context"},
 "https://drafts.csswg.org/cssom-view-1/#dom-element-getboundingclientrect": {"displayText":"getBoundingClientRect()","export":true,"for_":["Element"],"level":"1","normative":true,"shortname":"cssom-view","spec":"cssom-view-1","status":"current","text":"getBoundingClientRect()","type":"method","url":"https://drafts.csswg.org/cssom-view-1/#dom-element-getboundingclientrect"},
 "https://drafts.csswg.org/cssom-view-1/#dom-element-scrollintoview": {"displayText":"scrollIntoView()","export":true,"for_":["Element"],"level":"1","normative":true,"shortname":"cssom-view","spec":"cssom-view-1","status":"current","text":"scrollIntoView()","type":"method","url":"https://drafts.csswg.org/cssom-view-1/#dom-element-scrollintoview"},
 "https://drafts.csswg.org/resize-observer-1/#resizeobserver": {"displayText":"ResizeObserver","export":true,"for_":[],"level":"1","normative":true,"shortname":"resize-observer","spec":"resize-observer-1","status":"current","text":"ResizeObserver","type":"interface","url":"https://drafts.csswg.org/resize-observer-1/#resizeobserver"},
@@ -4496,17 +4498,15 @@ let refsData = {
 "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element": {"displayText":"iframe","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"iframe","type":"element","url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element"},
 "https://html.spec.whatwg.org/multipage/interaction.html#dom-window-focus": {"displayText":"focus()","export":true,"for_":["Window"],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"focus()","type":"method","url":"https://html.spec.whatwg.org/multipage/interaction.html#dom-window-focus"},
 "https://html.spec.whatwg.org/multipage/webappapis.html#update-the-rendering": {"displayText":"update the rendering","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"update the rendering","type":"dfn","url":"https://html.spec.whatwg.org/multipage/webappapis.html#update-the-rendering"},
-"https://svgwg.org/svg2-draft/struct.html#elementdef-svg": {"displayText":"svg","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg","type":"element","url":"https://svgwg.org/svg2-draft/struct.html#elementdef-svg"},
 "https://w3c.github.io/IntersectionObserver/#intersectionobserver": {"displayText":"IntersectionObserver","export":true,"for_":[],"level":"1","normative":true,"shortname":"intersection-observer","spec":"intersection-observer","status":"current","text":"IntersectionObserver","type":"interface","url":"https://w3c.github.io/IntersectionObserver/#intersectionobserver"},
 "https://w3c.github.io/IntersectionObserver/#intersectionobserver-intersection-root": {"displayText":"intersection root","export":false,"for_":["IntersectionObserver"],"level":"1","normative":true,"shortname":"intersection-observer","spec":"intersection-observer","status":"current","text":"intersection root","type":"dfn","url":"https://w3c.github.io/IntersectionObserver/#intersectionobserver-intersection-root"},
+"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg": {"displayText":"svg","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg"},
 "https://www.w3.org/TR/CSS2/generate.html#propdef-content": {"displayText":"content","export":true,"for_":[],"level":"","normative":true,"shortname":"css2","spec":"css2","status":"anchor-block","text":"content","type":"property","url":"https://www.w3.org/TR/CSS2/generate.html#propdef-content"},
 "https://www.w3.org/TR/CSS2/generate.html#value-def-close-quote": {"displayText":"close-quote","export":true,"for_":["content"],"level":"","normative":true,"shortname":"css2","spec":"css2","status":"anchor-block","text":"close-quote","type":"value","url":"https://www.w3.org/TR/CSS2/generate.html#value-def-close-quote"},
 "https://www.w3.org/TR/CSS2/generate.html#value-def-no-close-quote": {"displayText":"no-close-quote","export":true,"for_":["content"],"level":"","normative":true,"shortname":"css2","spec":"css2","status":"anchor-block","text":"no-close-quote","type":"value","url":"https://www.w3.org/TR/CSS2/generate.html#value-def-no-close-quote"},
 "https://www.w3.org/TR/CSS2/generate.html#value-def-no-open-quote": {"displayText":"no-open-quote","export":true,"for_":["content"],"level":"","normative":true,"shortname":"css2","spec":"css2","status":"anchor-block","text":"no-open-quote","type":"value","url":"https://www.w3.org/TR/CSS2/generate.html#value-def-no-open-quote"},
 "https://www.w3.org/TR/CSS2/generate.html#value-def-open-quote": {"displayText":"open-quote","export":true,"for_":["content"],"level":"","normative":true,"shortname":"css2","spec":"css2","status":"anchor-block","text":"open-quote","type":"value","url":"https://www.w3.org/TR/CSS2/generate.html#value-def-open-quote"},
 "https://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align": {"displayText":"vertical-align","export":true,"for_":[],"level":"","normative":true,"shortname":"css2","spec":"css2","status":"anchor-block","text":"vertical-align","type":"property","url":"https://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align"},
-"https://www.w3.org/TR/CSS21/generate.html#propdef-counter-increment": {"displayText":"counter-increment","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"counter-increment","type":"property","url":"https://www.w3.org/TR/CSS21/generate.html#propdef-counter-increment"},
-"https://www.w3.org/TR/CSS21/visuren.html#x43": {"displayText":"stacking context","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"stacking context","type":"dfn","url":"https://www.w3.org/TR/CSS21/visuren.html#x43"},
 };
 
 function mkRefHint(link, ref) {

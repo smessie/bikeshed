@@ -1,3 +1,39 @@
+"ISOLATED"
+"ISOLATED"
+enum-value
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#dom-executionworld-isolated
+1
+1
+ExecutionWorld
+-
+"isBlocked"
+"isBlocked"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkbaseparameters-isblocked
+
+1
+network.BaseParameters
+-
+"isBlocked"
+"isBlocked"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkbaseparameters-isblocked
+
+1
+network.BaseParameters
+-
 "isochronous"
 "isochronous"
 enum-value
@@ -63,7 +99,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#isolated-propid
+https://drafts.csswg.org/compositing-1/#isolated-propid
 1
 1
 -
@@ -74,7 +110,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#isolated-propid
+https://drafts.csswg.org/compositing-2/#isolated-propid
 1
 1
 -
@@ -188,8 +224,8 @@ https://encoding.spec.whatwg.org/#iso-2022-jp-decoder-katakana
 
 1
 -
-iso-2022-jp decoder lead byte
-ISO-2022-JP decoder lead byte
+iso-2022-jp decoder leading byte
+ISO-2022-JP decoder leading byte
 dfn
 encoding
 encoding
@@ -221,8 +257,8 @@ https://encoding.spec.whatwg.org/#iso-2022-jp-decoder-state
 
 1
 -
-iso-2022-jp decoder trail byte
-ISO-2022-JP decoder trail byte
+iso-2022-jp decoder trailing byte
+ISO-2022-JP decoder trailing byte
 dfn
 encoding
 encoding
@@ -287,8 +323,8 @@ https://encoding.spec.whatwg.org/#iso-2022-jp-encoder-state
 
 1
 -
-iso-2022-jp lead
-ISO-2022-JP lead
+iso-2022-jp leading
+ISO-2022-JP leading
 dfn
 encoding
 encoding
@@ -650,8 +686,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-isac
 1
 1
 -
-IsAccessorDescriptor(Desc)
-IsAccessorDescriptor(Desc)
+IsAccessorDescriptor(propertyDesc)
+IsAccessorDescriptor(propertyDesc)
 abstract-op
 ecmascript
 ecmascript
@@ -672,8 +708,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isarray
 1
 1
 -
-IsArray(argument)
-IsArray(argument)
+IsArray(arg)
+IsArray(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -694,8 +730,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-IsArrayBufferViewOutOfBounds(O)
-IsArrayBufferViewOutOfBounds(O)
+IsArrayBufferViewOutOfBounds(obj)
+IsArrayBufferViewOutOfBounds(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -738,8 +774,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-iscallable
 1
 1
 -
-IsCallable(argument)
-IsCallable(argument)
+IsCallable(arg)
+IsCallable(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -760,8 +796,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-IsCompatiblePropertyDescriptor(Extensible, Desc, Current)
-IsCompatiblePropertyDescriptor(Extensible, Desc, Current)
+IsCompatiblePropertyDescriptor(extensible, propertyDesc, current)
+IsCompatiblePropertyDescriptor(extensible, propertyDesc, current)
 abstract-op
 ecmascript
 ecmascript
@@ -782,8 +818,8 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-isconcatspreadabl
 1
 1
 -
-IsConcatSpreadable(O)
-IsConcatSpreadable(O)
+IsConcatSpreadable(obj)
+IsConcatSpreadable(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -804,8 +840,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isconstructor
 1
 1
 -
-IsConstructor(argument)
-IsConstructor(argument)
+IsConstructor(arg)
+IsConstructor(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -826,8 +862,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-isda
 1
 1
 -
-IsDataDescriptor(Desc)
-IsDataDescriptor(Desc)
+IsDataDescriptor(propertyDesc)
+IsDataDescriptor(propertyDesc)
 abstract-op
 ecmascript
 ecmascript
@@ -870,8 +906,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isextensible-o
 1
 1
 -
-IsExtensible(O)
-IsExtensible(O)
+IsExtensible(obj)
+IsExtensible(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -914,14 +950,36 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-isge
 1
 1
 -
-IsGenericDescriptor(Desc)
-IsGenericDescriptor(Desc)
+IsGenericDescriptor(propertyDesc)
+IsGenericDescriptor(propertyDesc)
 abstract-op
 ecmascript
 ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-isgenericdescriptor
+1
+1
+-
+IsGrowableSharedArrayBuffer
+IsGrowableSharedArrayBuffer
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-isgrowablesharedarraybuffer
+1
+1
+-
+IsGrowableSharedArrayBuffer(obj)
+IsGrowableSharedArrayBuffer(obj)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-isgrowablesharedarraybuffer
 1
 1
 -
@@ -947,8 +1005,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-islessthan
 1
 1
 -
-IsLessThan(x, y, LeftFirst)
-IsLessThan(x, y, LeftFirst)
+IsLessThan(x, y, leftFirst)
+IsLessThan(x, y, leftFirst)
 abstract-op
 ecmascript
 ecmascript
@@ -1010,7 +1068,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#is-non-negative-number
-1
+
 1
 -
 isplatformobjectsameorigin
@@ -1035,8 +1093,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ispr
 1
 1
 -
-IsPrivateReference(V)
-IsPrivateReference(V)
+IsPrivateReference(refRecord)
+IsPrivateReference(refRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -1057,8 +1115,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-ispromise
 1
 1
 -
-IsPromise(x)
-IsPromise(x)
+IsPromise(arg)
+IsPromise(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -1079,8 +1137,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ispr
 1
 1
 -
-IsPropertyReference(V)
-IsPropertyReference(V)
+IsPropertyReference(refRecord)
+IsPropertyReference(refRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -1098,7 +1156,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#is-readable-stream-locked
-1
+
 1
 -
 IsRegExp
@@ -1112,8 +1170,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isregexp
 1
 1
 -
-IsRegExp(argument)
-IsRegExp(argument)
+IsRegExp(arg)
+IsRegExp(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -1190,8 +1248,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-issu
 1
 1
 -
-IsSuperReference(V)
-IsSuperReference(V)
+IsSuperReference(refRecord)
+IsSuperReference(refRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -1223,6 +1281,28 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-istimezoneoffsetstr
 1
 1
 -
+IsTypedArrayFixedLength
+IsTypedArrayFixedLength
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-istypedarrayfixedlength
+1
+1
+-
+IsTypedArrayFixedLength(obj)
+IsTypedArrayFixedLength(obj)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-istypedarrayfixedlength
+1
+1
+-
 IsTypedArrayOutOfBounds
 IsTypedArrayOutOfBounds
 abstract-op
@@ -1278,8 +1358,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-isun
 1
 1
 -
-IsUnresolvableReference(V)
-IsUnresolvableReference(V)
+IsUnresolvableReference(refRecord)
+IsUnresolvableReference(refRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -1322,8 +1402,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-IsValidIntegerIndex(O, index)
-IsValidIntegerIndex(O, index)
+IsValidIntegerIndex(obj, index)
+IsValidIntegerIndex(obj, index)
 abstract-op
 ecmascript
 ecmascript
@@ -1366,8 +1446,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-runtime-semantics-isw
 1
 1
 -
-IsWordChar(rer, Input, e)
-IsWordChar(rer, Input, e)
+IsWordChar(regexpRecord, input, e)
+IsWordChar(regexpRecord, input, e)
 abstract-op
 ecmascript
 ecmascript
@@ -1385,7 +1465,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#is-writable-stream-locked
-1
+
 1
 -
 isochronous transfers
@@ -1420,6 +1500,102 @@ current
 https://wicg.github.io/isolated-web-apps/isolated-contexts.html#IsolatedContext
 1
 1
+-
+issuance protocol
+issuance protocol
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-issuance-protocol
+
+1
+digital credential
+-
+issuance protocol
+issuance protocol
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-issuance-protocol
+
+1
+digital credential
+-
+issuance request
+issuance request
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-issuance-request
+
+1
+digital credential
+-
+issuance request
+issuance request
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-issuance-request
+
+1
+digital credential
+-
+issuance request data
+issuance request data
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-issuance-request-data
+
+1
+digital credential
+-
+issuance request data
+issuance request data
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-issuance-request-data
+
+1
+digital credential
+-
+issuance response
+issuance response
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-issuance-response
+
+1
+digital credential
+-
+issuance response
+issuance response
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-issuance-response
+
+1
+digital credential
 -
 issuerequest
 IssueRequest
@@ -1475,7 +1651,7 @@ screen-capture
 1
 current
 https://w3c.github.io/mediacapture-screen-share/#dfn-isbound
-
+1
 1
 CaptureController
 -
@@ -1487,7 +1663,7 @@ screen-capture
 1
 snapshot
 https://www.w3.org/TR/screen-capture/#dfn-isbound
-
+1
 1
 CaptureController
 -
@@ -1514,6 +1690,28 @@ https://www.w3.org/TR/webrtc/#dfn-isclosed
 1
 1
 RTCPeerConnection
+-
+[[isextensible]] internal method of an exported gc object
+[[IsExtensible]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#isextensible-internal-method-of-an-exported-gc-object
+
+1
+-
+[[isextensible]] internal method of an exported gc object
+[[IsExtensible]] internal method of an Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#isextensible-internal-method-of-an-exported-gc-object
+
+1
 -
 [[IsTransferable]]
 [[IsTransferable]]
@@ -1586,6 +1784,78 @@ https://www.w3.org/TR/webgpu/#dom-gpusampler-iscomparison-slot
 1
 1
 GPUSampler
+-
+[[isConstant]]
+[[isConstant]]
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mltensor-isconstant-slot
+1
+1
+MLTensor
+-
+[[isConstant]]
+[[isConstant]]
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mltensor-isconstant-slot
+1
+1
+MLTensor
+-
+[[isDestroyed]]
+[[isDestroyed]]
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraph-isdestroyed-slot
+1
+1
+MLGraph
+-
+[[isDestroyed]]
+[[isDestroyed]]
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mltensor-isdestroyed-slot
+1
+1
+MLTensor
+-
+[[isDestroyed]]
+[[isDestroyed]]
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraph-isdestroyed-slot
+1
+1
+MLGraph
+-
+[[isDestroyed]]
+[[isDestroyed]]
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mltensor-isdestroyed-slot
+1
+1
+MLTensor
 -
 [[isFiltering]]
 [[isFiltering]]
@@ -1683,6 +1953,18 @@ https://w3c.github.io/audio-session/#audiosession-istypebeingapplied
 1
 AudioSession
 -
+[[istypebeingapplied]]
+[[isTypeBeingApplied]]
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#audiosession-istypebeingapplied
+
+1
+AudioSession
+-
 is
 is
 dict-member
@@ -1726,7 +2008,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#matrix-is-2d
+https://drafts.csswg.org/geometry-1/#matrix-is-2d
 1
 1
 matrix
@@ -1742,17 +2024,6 @@ https://www.w3.org/TR/geometry-1/#matrix-is-2d
 1
 1
 matrix
--
-is ascii
-is ASCII
-dfn
-urlpattern
-urlpattern
-1
-current
-https://urlpattern.spec.whatwg.org/#is-ascii
-
-1
 -
 is gbk
 is GBK
@@ -1847,6 +2118,17 @@ https://urlpattern.spec.whatwg.org/#is-a-duplicate-name
 
 1
 -
+is a global custom element registry
+is a global custom element registry
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#is-a-global-custom-element-registry
+
+1
+-
 is a group close
 is a group close
 dfn
@@ -1935,6 +2217,28 @@ https://urlpattern.spec.whatwg.org/#is-a-port-prefix
 
 1
 -
+is a potentially valid key range
+is a potentially valid key range
+dfn
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#is-a-potentially-valid-key-range
+
+1
+-
+is a potentially valid key range
+is a potentially valid key range
+dfn
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#is-a-potentially-valid-key-range
+
+1
+-
 is a protocol suffix
 is a protocol suffix
 dfn
@@ -1978,6 +2282,18 @@ current
 https://urlpattern.spec.whatwg.org/#is-a-valid-name-code-point
 
 1
+-
+is active
+is active
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#concept-traversal-active
+
+1
+traversal
 -
 is active
 is active
@@ -2125,6 +2441,18 @@ https://html.spec.whatwg.org/multipage/document-sequences.html#is-auxiliary
 
 1
 -
+is buffer initialized
+is buffer initialized
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportcontext-is-buffer-initialized
+
+1
+CrashReportContext
+-
 is closing
 is closing
 dfn
@@ -2136,18 +2464,6 @@ https://html.spec.whatwg.org/multipage/document-sequences.html#is-closing
 
 1
 -
-is component auction
-is component auction
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interestgroupbiddingscriptrunnerglobalscope-is-component-auction
-
-1
-InterestGroupBiddingScriptRunnerGlobalScope
--
 is composing
 is composing
 dfn
@@ -2156,6 +2472,39 @@ edit-context
 1
 current
 https://w3c.github.io/edit-context/#dfn-is-composing
+
+1
+-
+is composing
+is composing
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-is-composing
+
+1
+-
+is contextmenu triggered
+is contextmenu triggered
+dfn
+event-timing
+event-timing
+1
+current
+https://w3c.github.io/event-timing/#is-contextmenu-triggered
+
+1
+-
+is contextmenu triggered
+is contextmenu triggered
+dfn
+event-timing
+event-timing
+1
+snapshot
+https://www.w3.org/TR/event-timing/#is-contextmenu-triggered
 
 1
 -
@@ -2171,6 +2520,17 @@ https://wicg.github.io/scheduling-apis/#scheduler-task-queue-is-continuation
 1
 scheduler task queue
 -
+is created by web content
+is created by web content
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/document-sequences.html#is-created-by-web-content
+
+1
+-
 is currently stalled
 is currently stalled
 dfn
@@ -2179,17 +2539,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/media.html#is-currently-stalled
-
-1
--
-is debugging only in cooldown or lockout
-is debugging only in cooldown or lockout
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#is-debugging-only-in-cooldown-or-lockout
 
 1
 -
@@ -2311,18 +2660,6 @@ https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-is-expected
 1
 prefetch record
 -
-is expected to match a url
-is expected to match a URL
-dfn
-prerendering-revamped
-prerendering-revamped
-1
-current
-https://wicg.github.io/nav-speculation/prerendering.html#prerender-record-is-expected-to-match-a-url
-1
-1
-prerender record
--
 is finished
 is finished
 dfn
@@ -2346,18 +2683,6 @@ https://webidl.spec.whatwg.org/#realm-is-global-prototype-chain-mutable
 1
 1
 realm
--
-is higher-priority than
-is higher-priority than
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-is-higher-priority-than
-
-1
-attribution source
 -
 is in a bucket file system
 is in a bucket file system
@@ -2417,17 +2742,16 @@ https://w3c.github.io/webdriver-bidi/#is-inputelementorigin
 
 1
 -
-is k-anonymous
-is k-anonymous
+is input.elementorigin
+is input.ElementOrigin
 dfn
-turtledove
-turtledove
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/turtledove/#k-anonymity-record-is-k-anonymous
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#is-inputelementorigin
 
 1
-k-anonymity record
 -
 is local
 is local
@@ -2440,17 +2764,29 @@ https://fetch.spec.whatwg.org/#is-local
 1
 1
 -
-is lower-priority than
-is lower-priority than
+is lost
+is lost
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webnn
+webnn
 1
 current
-https://wicg.github.io/attribution-reporting-api/#event-level-report-is-lower-priority-than
+https://webmachinelearning.github.io/webnn/#mlcontext-is-lost
 
 1
-event-level report
+MLContext
+-
+is lost
+is lost
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mlcontext-is-lost
+
+1
+MLContext
 -
 is modal
 is modal
@@ -2462,6 +2798,18 @@ current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#is-modal
 
 1
+-
+is navigational prefetch client
+is navigational prefetch client
+dfn
+prefetch
+prefetch
+1
+current
+https://wicg.github.io/nav-speculation/prefetch.html#environment-is-navigational-prefetch-client
+
+1
+environment
 -
 is not a registrable domain suffix of and is not equal to
 is not a registrable domain suffix of and is not equal to
@@ -2523,6 +2871,30 @@ https://infra.spec.whatwg.org/#map-is-empty
 1
 map
 -
+is not lost
+is not lost
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#mlcontext-is-lost
+
+1
+MLContext
+-
+is not lost
+is not lost
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mlcontext-is-lost
+
+1
+MLContext
+-
 is not origin-clean
 is not origin-clean
 dfn
@@ -2557,17 +2929,16 @@ https://wicg.github.io/webpackage/loading.html#exchange-signature-is-valid
 1
 exchange signature
 -
-is null report
-is null report
+is offline
+is offline
 dfn
-attribution-reporting-api
-attribution-reporting-api
+fetch
+fetch
 1
 current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-attribution-report-is-null-report
-
+https://fetch.spec.whatwg.org/#is-offline
 1
-aggregatable attribution report
+1
 -
 is origin-keyed
 is origin-keyed
@@ -2646,6 +3017,29 @@ https://wicg.github.io/first-party-sets/#is-same-party-with-its-top-level-embedd
 
 1
 -
+is scoped
+is scoped
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/custom-elements.html#is-scoped
+1
+1
+CustomElementRegistry
+-
+is self-capturing
+is self-capturing
+dfn
+mediacapture-surface-control
+mediacapture-surface-control
+1
+current
+https://w3c.github.io/mediacapture-surface-control/#dfn-is-self-capturing
+
+1
+-
 is special
 is special
 dfn
@@ -2679,31 +3073,27 @@ https://www.w3.org/TR/webdriver2/#dfn-is-stale
 
 1
 -
-is trusted
-is trusted
-dfn
-trusted-types
-trusted-types
+is synchronously exposed
+is synchronously exposed
+abstract-op
+mediastream-recording
+mediastream-recording
 1
 current
-https://w3c.github.io/trusted-types/dist/spec/#htmlscriptelement-is-trusted
+https://w3c.github.io/mediacapture-record/#abstract-opdef-is-synchronously-exposed
 1
 1
-HTMLScriptElement
-SVGScriptElement
 -
-is trusted
-is trusted
-dfn
-trusted-types
-trusted-types
+is synchronously exposed
+is synchronously exposed
+abstract-op
+mediastream-recording
+mediastream-recording
 1
 snapshot
-https://www.w3.org/TR/trusted-types/#htmlscriptelement-is-trusted
+https://www.w3.org/TR/mediastream-recording/#abstract-opdef-is-synchronously-exposed
 1
 1
-HTMLScriptElement
-SVGScriptElement
 -
 is type supported
 is type supported
@@ -2739,6 +3129,17 @@ https://wicg.github.io/webpackage/loading.html#exchange-signature-is-valid
 1
 exchange signature
 -
+is valid command steps
+is valid command steps
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#is-valid-command-steps
+
+1
+-
 is value
 is value
 dfn
@@ -2750,6 +3151,30 @@ https://dom.spec.whatwg.org/#concept-element-is-value
 1
 1
 Element
+-
+is(exceptionTag)
+is(exceptionTag)
+method
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-is
+1
+1
+Exception
+-
+is(exceptionTag)
+is(exceptionTag)
+method
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-is
+1
+1
+Exception
 -
 is(value1, value2)
 is(value1, value2)
@@ -2878,7 +3303,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixinit-is2d
+https://drafts.csswg.org/geometry-1/#dom-dommatrixinit-is2d
 1
 1
 DOMMatrixInit
@@ -2890,7 +3315,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-is2d
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-is2d
 1
 1
 DOMMatrixReadOnly
@@ -3124,6 +3549,30 @@ https://www.w3.org/TR/fedcm-1/#dom-identitycredential-isautoselected
 1
 1
 IdentityCredential
+-
+isBlocked
+isBlocked
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkbaseparameters-isblocked
+
+1
+network.BaseParameters
+-
+isBlocked
+isBlocked
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkbaseparameters-isblocked
+
+1
+network.BaseParameters
 -
 isBufferedBytes
 isBufferedBytes
@@ -3473,17 +3922,17 @@ https://w3c.github.io/clipboard-apis/#representation-iscustom
 1
 representation
 -
-isdebugreport
-isDebugReport
+iscustom
+isCustom
 dfn
-attribution-reporting-api
-attribution-reporting-api
+clipboard-apis
+clipboard-apis
 1
-current
-https://wicg.github.io/attribution-reporting-api/#generate-an-attribution-report-url-isdebugreport
+snapshot
+https://www.w3.org/TR/clipboard-apis/#representation-iscustom
 
 1
-generate an attribution report URL
+representation
 -
 isDefaultNamespace(namespace)
 isDefaultNamespace(namespace)
@@ -3545,6 +3994,18 @@ https://dom.spec.whatwg.org/#dom-node-isequalnode
 1
 Node
 -
+isError(arg)
+isError(arg)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-error.iserror
+1
+1
+Error
+-
 isExtended
 isExtended
 attribute
@@ -3569,8 +4030,8 @@ https://www.w3.org/TR/window-management/#dom-screen-isextended
 1
 Screen
 -
-isExtensible(O)
-isExtensible(O)
+isExtensible(obj)
+isExtensible(obj)
 method
 ecmascript
 ecmascript
@@ -3600,10 +4061,10 @@ webgpu
 webgpu
 1
 current
-https://gpuweb.github.io/gpuweb/#dom-gpuadapter-isfallbackadapter
+https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-isfallbackadapter
 1
 1
-GPUAdapter
+GPUAdapterInfo
 -
 isFallbackAdapter
 isFallbackAdapter
@@ -3612,10 +4073,10 @@ webgpu
 webgpu
 1
 snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuadapter-isfallbackadapter
+https://www.w3.org/TR/webgpu/#dom-gpuadapterinfo-isfallbackadapter
 1
 1
-GPUAdapter
+GPUAdapterInfo
 -
 isFile
 isFile
@@ -3636,22 +4097,10 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechrecognitionresult-isfinal
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionresult-isfinal
 1
 1
 SpeechRecognitionResult
--
-isFinite(number)
-isFinite(number)
-method
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/global-object.html#sec-isfinite-number
-1
-1
-globalThis
 -
 isFinite(number)
 isFinite(number)
@@ -3664,6 +4113,18 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.isfinite
 1
 1
 Number
+-
+isFinite(value)
+isFinite(value)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/global-object.html#sec-isfinite-number
+1
+1
+globalThis
 -
 isFirstPersonObserver
 isFirstPersonObserver
@@ -3689,8 +4150,8 @@ https://www.w3.org/TR/webxr-ar-module-1/#dom-xrview-isfirstpersonobserver
 1
 XRView
 -
-isFrozen(O)
-isFrozen(O)
+isFrozen(obj)
+isFrozen(obj)
 method
 ecmascript
 ecmascript
@@ -3756,7 +4217,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-isidentity
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-isidentity
 1
 1
 DOMMatrixReadOnly
@@ -3773,17 +4234,77 @@ https://www.w3.org/TR/geometry-1/#dom-dommatrixreadonly-isidentity
 1
 DOMMatrixReadOnly
 -
-isInComposition
-isInComposition
-attribute
-edit-context
-edit-context
+isInfinite
+isInfinite
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-isinfinite
+1
+1
+MLOpSupportLimits
+-
+isInfinite
+isInfinite
+dict-member
+webnn
+webnn
 1
 snapshot
-https://www.w3.org/TR/edit-context/#dom-editcontext-isincomposition
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-isinfinite
 1
 1
-EditContext
+MLOpSupportLimits
+-
+isInfinite(a)
+isInfinite(a)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-isinfinite
+1
+1
+MLGraphBuilder
+-
+isInfinite(a)
+isInfinite(a)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-isinfinite
+1
+1
+MLGraphBuilder
+-
+isInfinite(a, options)
+isInfinite(a, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-isinfinite
+1
+1
+MLGraphBuilder
+-
+isInfinite(a, options)
+isInfinite(a, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-isinfinite
+1
+1
+MLGraphBuilder
 -
 isInputPending()
 isInputPending()
@@ -3929,17 +4450,77 @@ https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-ismap
 1
 HTMLImageElement
 -
-isNaN(number)
-isNaN(number)
-method
-ecmascript
-ecmascript
+isNaN
+isNaN
+dict-member
+webnn
+webnn
 1
 current
-https://tc39.es/ecma262/multipage/global-object.html#sec-isnan-number
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-isnan
 1
 1
-globalThis
+MLOpSupportLimits
+-
+isNaN
+isNaN
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-isnan
+1
+1
+MLOpSupportLimits
+-
+isNaN(a)
+isNaN(a)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-isnan
+1
+1
+MLGraphBuilder
+-
+isNaN(a)
+isNaN(a)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-isnan
+1
+1
+MLGraphBuilder
+-
+isNaN(a, options)
+isNaN(a, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-isnan
+1
+1
+MLGraphBuilder
+-
+isNaN(a, options)
+isNaN(a, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-isnan
+1
+1
+MLGraphBuilder
 -
 isNaN(number)
 isNaN(number)
@@ -3953,41 +4534,17 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.isnan
 1
 Number
 -
-isnegated
-isNegated
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#match-an-attribution-source-against-a-filter-config-isnegated
-
-1
-match an attribution source against a filter config
--
-isnegated
-isNegated
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#match-an-attribution-source-against-filters-isnegated
-
-1
-match an attribution source against filters
--
-isPasskeyPlatformAuthenticatorAvailable()
-isPasskeyPlatformAuthenticatorAvailable()
+isNaN(value)
+isNaN(value)
 method
-webauthn-3
-webauthn
-3
-snapshot
-https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-ispasskeyplatformauthenticatoravailable
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/global-object.html#sec-isnan-number
 1
 1
-PublicKeyCredential
+globalThis
 -
 isPayment
 isPayment
@@ -4020,7 +4577,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInFill
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInFill
 1
 1
 SVGGeometryElement
@@ -4080,7 +4637,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInStroke
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInStroke
 1
 1
 SVGGeometryElement
@@ -4112,9 +4669,9 @@ CanvasDrawPath
 isPrimary
 isPrimary
 attribute
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointerevent-isprimary
 1
@@ -4124,9 +4681,9 @@ PointerEvent
 isPrimary
 isPrimary
 dict-member
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointereventinit-isprimary
 1
@@ -4163,11 +4720,35 @@ attribute
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointerevent-isprimary
+1
+1
+PointerEvent
+-
+isPrimary
+isPrimary
+attribute
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointerevent-isprimary
 1
 1
 PointerEvent
+-
+isPrimary
+isPrimary
+dict-member
+pointerevents3
+pointerevents
+3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-isprimary
+1
+1
+PointerEventInit
 -
 isPrimary
 isPrimary
@@ -4184,6 +4765,30 @@ PointerEventInit
 isPrimary
 isPrimary
 attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointerevent-isprimary
+1
+1
+PointerEvent
+-
+isPrimary
+isPrimary
+dict-member
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointereventinit-isprimary
+1
+1
+PointerEventInit
+-
+isPrimary
+isPrimary
+attribute
 window-management
 window-management
 1
@@ -4193,8 +4798,8 @@ https://www.w3.org/TR/window-management/#dom-screendetailed-isprimary
 1
 ScreenDetailed
 -
-isPrototypeOf(V)
-isPrototypeOf(V)
+isPrototypeOf(value)
+isPrototypeOf(value)
 method
 ecmascript
 ecmascript
@@ -4216,6 +4821,18 @@ https://wicg.github.io/webhid/#dom-hidreportitem-isrange
 1
 1
 HIDReportItem
+-
+isRawJSON(obj)
+isRawJSON(obj)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-json.israwjson
+1
+1
+JSON
 -
 isReloadNavigation
 isReloadNavigation
@@ -4276,6 +4893,30 @@ https://dom.spec.whatwg.org/#dom-node-issamenode
 1
 Node
 -
+isSameOrigin(other)
+isSameOrigin(other)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issameorigin
+1
+1
+Origin
+-
+isSameSite(other)
+isSameSite(other)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issamesite
+1
+1
+Origin
+-
 isScript(value)
 isScript(value)
 method
@@ -4324,8 +4965,8 @@ https://www.w3.org/TR/trusted-types/#dom-trustedtypepolicyfactory-isscripturl
 1
 TrustedTypePolicyFactory
 -
-isSealed(O)
-isSealed(O)
+isSealed(obj)
+isSealed(obj)
 method
 ecmascript
 ecmascript
@@ -4347,30 +4988,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#dom-issecurecontext
 1
 1
 WindowOrWorkerGlobalScope
--
-isSecurePaymentConfirmationAvailable()
-isSecurePaymentConfirmationAvailable()
-method
-secure-payment-confirmation
-secure-payment-confirmation
-1
-current
-https://w3c.github.io/secure-payment-confirmation/#dom-paymentrequest-issecurepaymentconfirmationavailable
-1
-1
-PaymentRequest
--
-isSecurePaymentConfirmationAvailable()
-isSecurePaymentConfirmationAvailable()
-method
-secure-payment-confirmation
-secure-payment-confirmation
-1
-snapshot
-https://www.w3.org/TR/secure-payment-confirmation/#dom-paymentrequest-issecurepaymentconfirmationavailable
-1
-1
-PaymentRequest
 -
 isSessionSupported(mode)
 isSessionSupported(mode)
@@ -4660,6 +5277,18 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-isuserverifyingplatfor
 1
 PublicKeyCredential
 -
+isValid
+isValid
+attribute
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#dom-activationblockersmixin-isvalid
+1
+1
+ActivationBlockersMixin
+-
 isView(arg)
 isView(arg)
 method
@@ -4719,6 +5348,30 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.iswe
 1
 1
 String
+-
+is_auto_selected
+is_auto_selected
+argument
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-id_assertion_endpoint_request-is_auto_selected
+1
+1
+id_assertion_endpoint_request
+-
+is_top_level
+is_top_level
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportbody-is_top_level
+
+1
+CrashReportBody
 -
 isindex
 isindex
@@ -5075,6 +5728,28 @@ https://www.w3.org/TR/css-writing-modes-4/#isolated-sequence
 -
 isolation
 isolation
+property
+compositing-1
+compositing
+1
+current
+https://drafts.csswg.org/compositing-1/#propdef-isolation
+1
+1
+-
+isolation
+isolation
+property
+compositing-2
+compositing
+2
+current
+https://drafts.csswg.org/compositing-2/#propdef-isolation
+1
+1
+-
+isolation
+isolation
 dfn
 css-writing-modes-3
 css-writing-modes
@@ -5092,28 +5767,6 @@ css-writing-modes
 4
 current
 https://drafts.csswg.org/css-writing-modes-4/#bidi-isolate
-1
-1
--
-isolation
-isolation
-property
-compositing-1
-compositing
-1
-current
-https://drafts.fxtf.org/compositing-1/#propdef-isolation
-1
-1
--
-isolation
-isolation
-property
-compositing-2
-compositing
-2
-current
-https://drafts.fxtf.org/compositing-2/#propdef-isolation
 1
 1
 -
@@ -5184,6 +5837,28 @@ https://www.w3.org/TR/rdf12-concepts/#dfn-graph-isomorphism
 1
 1
 -
+isomorphic rdf-term mapping
+isomorphic RDF-term mapping
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-isomorphic-rdf-term-mapping
+
+1
+-
+isomorphic rdf-term mapping
+isomorphic RDF-term mapping
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-isomorphic-rdf-term-mapping
+
+1
+-
 isomorphic decode
 isomorphic decode
 dfn
@@ -5203,6 +5878,17 @@ infra
 1
 current
 https://infra.spec.whatwg.org/#isomorphic-encode
+1
+1
+-
+isomorphic string
+isomorphic string
+dfn
+infra
+infra
+1
+current
+https://infra.spec.whatwg.org/#isomorphic-string
 1
 1
 -
@@ -5253,12 +5939,34 @@ https://www.w3.org/TR/rdf-canon/#dfn-issued-identifiers-map
 issuer
 issuer
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-issuers
 1
+1
+-
+issuer
+issuer
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-issuers
+
+
+-
+issuer
+issuer
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-issuers
+
 1
 -
 issuer
@@ -5291,15 +5999,59 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-issuers
+1
+1
+-
+issuer
+issuer
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-issuers
 1
 1
 -
+issuer
+issuer
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-issuers
+1
+1
+-
+issuer
+issuer
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-issuers
+
+
+-
+issuer
+issuer
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-issuers
+
+1
+-
 issuer's
 issuer's
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -5310,12 +6062,78 @@ https://w3c.github.io/vc-data-model/#dfn-issuers
 issuer's
 issuer's
 dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-issuers
+
+
+-
+issuer's
+issuer's
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-issuers
+
+1
+-
+issuer's
+issuer's
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-issuers
+1
+1
+-
+issuer's
+issuer's
+dfn
 vc-data-model-2.0
 vc-data-model
 1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-issuers
 1
+1
+-
+issuer's
+issuer's
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-issuers
+1
+1
+-
+issuer's
+issuer's
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-issuers
+
+
+-
+issuer's
+issuer's
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-issuers
+
 1
 -
 issuerassociations
@@ -5356,12 +6174,34 @@ RTCCertificateStats
 issuers
 issuers
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-issuers
 1
+1
+-
+issuers
+issuers
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-issuers
+
+
+-
+issuers
+issuers
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-issuers
+
 1
 -
 issuers
@@ -5382,8 +6222,52 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-issuers
+1
+1
+-
+issuers
+issuers
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-issuers
 1
+1
+-
+issuers
+issuers
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-issuers
+1
+1
+-
+issuers
+issuers
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-issuers
+
+
+-
+issuers
+issuers
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-issuers
+
 1
 -

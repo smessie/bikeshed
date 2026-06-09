@@ -103,12 +103,44 @@
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-cache"
     }
   },
+  "#bluetooth-characteristiceventgenerated-event": {
+    "current": {
+      "number": "12.2.4.3",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.characteristicEventGenerated Event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-characteristiceventgenerated-event"
+    }
+  },
+  "#bluetooth-descriptoreventgenerated-event": {
+    "current": {
+      "number": "12.2.4.4",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.descriptorEventGenerated Event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-descriptoreventgenerated-event"
+    }
+  },
   "#bluetooth-device-identifiers": {
     "current": {
       "number": "3.4",
       "spec": "Web Bluetooth",
       "text": "Bluetooth device identifiers",
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-device-identifiers"
+    }
+  },
+  "#bluetooth-disableSimulation-command": {
+    "current": {
+      "number": "12.2.3.3",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.disableSimulation Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-disableSimulation-command"
+    }
+  },
+  "#bluetooth-gattConnectionAttempted-event": {
+    "current": {
+      "number": "12.2.4.2",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.gattConnectionAttempted Event",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-gattConnectionAttempted-event"
     }
   },
   "#bluetooth-handlerequestdeviceprompt-command": {
@@ -177,18 +209,74 @@
   },
   "#bluetooth-simulateadvertisement-command": {
     "current": {
-      "number": "12.2.3.4",
+      "number": "12.2.3.5",
       "spec": "Web Bluetooth",
       "text": "The bluetooth.simulateAdvertisement Command",
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateadvertisement-command"
     }
   },
+  "#bluetooth-simulatecharacteristic-command": {
+    "current": {
+      "number": "12.2.3.9",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateCharacteristic Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command"
+    }
+  },
+  "#bluetooth-simulatecharacteristicresponse-command": {
+    "current": {
+      "number": "12.2.3.10",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateCharacteristicResponse Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command"
+    }
+  },
   "#bluetooth-simulateconnectedperipheral-command": {
     "current": {
-      "number": "12.2.3.3",
+      "number": "12.2.3.4",
       "spec": "Web Bluetooth",
       "text": "The bluetooth.simulatePreconnectedPeripheral Command",
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateconnectedperipheral-command"
+    }
+  },
+  "#bluetooth-simulatedescriptor-command": {
+    "current": {
+      "number": "12.2.3.11",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateDescriptor Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command"
+    }
+  },
+  "#bluetooth-simulatedescriptorresponse-command": {
+    "current": {
+      "number": "12.2.3.12",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateDescriptorResponse Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command"
+    }
+  },
+  "#bluetooth-simulategattconnectionresponse-command": {
+    "current": {
+      "number": "12.2.3.6",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateGattConnectionResponse Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command"
+    }
+  },
+  "#bluetooth-simulategattdisconnection-command": {
+    "current": {
+      "number": "12.2.3.7",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateGattDisconnection Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattdisconnection-command"
+    }
+  },
+  "#bluetooth-simulateservice-command": {
+    "current": {
+      "number": "12.2.3.8",
+      "spec": "Web Bluetooth",
+      "text": "The bluetooth.simulateService Command",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateservice-command"
     }
   },
   "#bluetooth-tree": {
@@ -255,12 +343,28 @@
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothservicedatamap"
     }
   },
+  "#cddl-index": {
+    "current": {
+      "number": "",
+      "spec": "Web Bluetooth",
+      "text": "CDDL Index",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#cddl-index"
+    }
+  },
   "#characteristicproperties-interface": {
     "current": {
       "number": "6.4.1",
       "spec": "Web Bluetooth",
       "text": "BluetoothCharacteristicProperties",
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#characteristicproperties-interface"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Web Bluetooth",
+      "text": "Table of Contents",
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/#toc"
     }
   },
   "#device-access-is-powerful": {
@@ -419,7 +523,7 @@
     "current": {
       "number": "",
       "spec": "Web Bluetooth",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://webbluetoothcg.github.io/web-bluetooth/#informative"
     }
   },

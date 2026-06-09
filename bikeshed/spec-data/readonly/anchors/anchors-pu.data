@@ -1,11 +1,11 @@
 "public"
 "public"
 enum-value
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#dom-ipaddressspace-public
+https://wicg.github.io/local-network-access/#dom-ipaddressspace-public
 1
 1
 IPAddressSpace
@@ -122,6 +122,28 @@ https://www.w3.org/TR/webauthn-3/#public-key-credential-source
 
 1
 -
+public security metadata
+Public Security Metadata
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-public-security-metadata
+
+
+-
+public security metadata
+Public Security Metadata
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-public-security-metadata
+
+
+-
 PublicKeyCredential
 PublicKeyCredential
 interface
@@ -152,6 +174,17 @@ webauthn
 3
 current
 https://w3c.github.io/webauthn/#typedefdef-publickeycredentialclientcapabilities
+1
+1
+-
+PublicKeyCredentialClientCapabilities
+PublicKeyCredentialClientCapabilities
+typedef
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#typedefdef-publickeycredentialclientcapabilities
 1
 1
 -
@@ -276,14 +309,14 @@ https://w3c.github.io/webauthn/#enumdef-publickeycredentialhint
 1
 1
 -
-PublicKeyCredentialHints
-PublicKeyCredentialHints
+PublicKeyCredentialHint
+PublicKeyCredentialHint
 enum
 webauthn-3
 webauthn
 3
 snapshot
-https://www.w3.org/TR/webauthn-3/#enumdef-publickeycredentialhints
+https://www.w3.org/TR/webauthn-3/#enumdef-publickeycredentialhint
 1
 1
 -
@@ -529,6 +562,17 @@ https://www.w3.org/TR/pub-manifest/#dfn-publication-type
 
 1
 -
+punctuator
+punctuator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-Punctuator
+
+1
+-
 PurchaseDetails
 PurchaseDetails
 dictionary
@@ -636,6 +680,28 @@ push-api
 1
 snapshot
 https://www.w3.org/TR/push-api/#dom-pushmanager
+1
+1
+-
+PushManagerAttribute
+PushManagerAttribute
+interface
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dom-pushmanagerattribute
+1
+1
+-
+PushManagerAttribute
+PushManagerAttribute
+interface
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dom-pushmanagerattribute
 1
 1
 -
@@ -859,8 +925,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-putv
 1
 1
 -
-PutValue(V, W)
-PutValue(V, W)
+PutValue(refRecord, value)
+PutValue(refRecord, value)
 abstract-op
 ecmascript
 ecmascript
@@ -878,7 +944,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#abstract-opdef-readablestreamcontroller-pullsteps
-1
+
 1
 ReadableStreamController
 -
@@ -890,7 +956,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#rbs-controller-private-pull
-1
+
 1
 ReadableByteStreamController
 -
@@ -902,7 +968,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#rs-default-controller-private-pull
-1
+
 1
 ReadableStreamDefaultController
 -
@@ -978,14 +1044,38 @@ https://streams.spec.whatwg.org/#readablestreamdefaultcontroller-pulling
 1
 ReadableStreamDefaultController
 -
+pub
+pub
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-jsonwebkey-pub
+1
+1
+JsonWebKey
+-
 pubkeycredparams
 pubKeyCredParams
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-pubkeycredparams
+
+1
+makeCred
+-
+pubkeycredparams
+pubKeyCredParams
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-pubkeycredparams
 
 1
 makeCred
@@ -1041,9 +1131,9 @@ PublicKeyCredentialCreationOptionsJSON
 public
 public
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-EcdhKeyDeriveParams-public
 1
@@ -1053,9 +1143,9 @@ EcdhKeyDeriveParams
 public
 public
 enum-value
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keytype-public
 1
@@ -1065,25 +1155,38 @@ KeyType
 public
 public
 dfn
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#ip-address-space-public
+https://wicg.github.io/local-network-access/#ip-address-space-public
 1
 1
 IP address space
 -
 public
 public
-dfn
-webcryptoapi
-webcryptoapi
-1
+dict-member
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-EcdhKeyDeriveParams-public
-
+https://www.w3.org/TR/webcrypto-2/#dfn-EcdhKeyDeriveParams-public
 1
+1
+EcdhKeyDeriveParams
+-
+public
+public
+enum-value
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keytype-public
+1
+1
+KeyType
 -
 public id
 public ID
@@ -1100,24 +1203,58 @@ DocumentType
 public address
 public address
 dfn
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#public-address
+https://wicg.github.io/local-network-access/#public-address
 
 1
 -
 public key
 public key
 dfn
-vc-data-integrity
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-public-key
+
+
+-
+public key
+public key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#key-pair-public-key
+
+1
+key pair
+-
+public key
+public key
+dfn
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-public-key
 
 
+-
+public key
+public key
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+current
+https://w3c.github.io/vc-jose-cose/#dfn-public-key
+
+1
 -
 public key
 public key
@@ -1134,6 +1271,51 @@ certificate
 public key
 public key
 dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-public-key
+
+
+-
+public key
+public key
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#key-pair-public-key
+
+1
+key pair
+-
+public key
+public key
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-public-key
+
+
+-
+public key
+public key
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-public-key
+
+
+-
+public key
+public key
+dfn
 vc-data-integrity
 vc-data-integrity
 1
@@ -1142,6 +1324,17 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-public-key
 
 
 -
+public key
+public key
+dfn
+vc-jose-cose
+vc-jose-cose
+1
+snapshot
+https://www.w3.org/TR/vc-jose-cose/#dfn-public-key
+
+1
+-
 public participants
 public participants
 dfn
@@ -1149,18 +1342,30 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#public-participant-ig
+https://www.w3.org/policies/process/#public-participant-ig
 
 1
 -
 public point
 public point
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#puap1keyagmnt-public-point
+
+1
+PUAP1KeyAgmnt
+-
+public point
+public point
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#puap1keyagmnt-public-point
 
 1
 PUAP1KeyAgmnt
@@ -1201,12 +1406,34 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialtype-public-key
 1
 PublicKeyCredentialType
 -
+public-key-algorithm
+public-key-algorithm
+grammar
+signature-based-sri
+signature-based-sri
+1
+current
+https://wicg.github.io/signature-based-sri/#grammardef-public-key-algorithm
+1
+1
+-
+public-key-source
+public-key-source
+grammar
+signature-based-sri
+signature-based-sri
+1
+current
+https://wicg.github.io/signature-based-sri/#grammardef-public-key-source
+1
+1
+-
 publicExponent
 publicExponent
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-RsaKeyAlgorithm-publicExponent
 1
@@ -1216,25 +1443,38 @@ RsaKeyAlgorithm
 publicExponent
 publicExponent
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-RsaKeyGenParams-publicExponent
 1
 1
 RsaKeyGenParams
 -
-publicexponent
 publicExponent
-dfn
-webcryptoapi
-webcryptoapi
-1
+publicExponent
+dict-member
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaKeyGenParams-publicExponent
-
+https://www.w3.org/TR/webcrypto-2/#dfn-RsaKeyAlgorithm-publicExponent
 1
+1
+RsaKeyAlgorithm
+-
+publicExponent
+publicExponent
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-RsaKeyGenParams-publicExponent
+1
+1
+RsaKeyGenParams
 -
 publicId
 publicId
@@ -1255,10 +1495,10 @@ dom
 dom
 1
 current
-https://dom.spec.whatwg.org/#dom-domimplementation-createdocumenttype-qualifiedname-publicid-systemid-publicid
+https://dom.spec.whatwg.org/#dom-domimplementation-createdocumenttype-name-publicid-systemid-publicid
 1
 1
-DOMImplementation/createDocumentType(qualifiedName, publicId, systemId)
+DOMImplementation/createDocumentType(name, publicId, systemId)
 -
 publicKey
 publicKey
@@ -1311,25 +1551,14 @@ CredentialRequestOptions
 publicKey
 publicKey
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKeyPair-publicKey
 1
 1
 CryptoKeyPair
--
-publickey
-publicKey
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKeyPair-publicKey
-
-1
 -
 publicKey
 publicKey
@@ -1379,6 +1608,18 @@ https://www.w3.org/TR/webauthn-3/#dom-credentialrequestoptions-publickey
 1
 CredentialRequestOptions
 -
+publicKey
+publicKey
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKeyPair-publicKey
+1
+1
+CryptoKeyPair
+-
 publicKeyAlgorithm
 publicKeyAlgorithm
 dict-member
@@ -1402,6 +1643,50 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-publi
 1
 1
 AuthenticatorAttestationResponseJSON
+-
+publickeyjwk
+publicKeyJwk
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-publickeyjwk
+
+1
+-
+publickeyjwk
+publicKeyJwk
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-publickeyjwk
+
+1
+-
+publickeymultibase
+publicKeyMultibase
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-publickeymultibase
+
+1
+-
+publickeymultibase
+publicKeyMultibase
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-publickeymultibase
+
+1
 -
 publication context
 publication context
@@ -1461,11 +1746,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-publication-resource
 publication resource
 publication resource
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-publication-resource
+1
+1
+-
+publication resource
+publication resource
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-publication-resource
+1
+1
+-
+publication resource
+publication resource
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-publication-resource
 1
 1
 -
@@ -1513,28 +1820,27 @@ https://www.w3.org/TR/webauthn-3/#publickey-credentials-get-feature
 1
 1
 -
-publish
-publish
+publickey-credentials-remote-client-data-json-feature
+publickey-credentials-remote-client-data-json-feature
 dfn
-w3c-process
-w3c-process
-1
+webauthn-3
+webauthn
+3
 current
-https://www.w3.org/Consortium/Process/#publishing
-
+https://w3c.github.io/webauthn/#publickey-credentials-remote-client-data-json-feature
+1
 1
 -
-publisher
-publisher
+publish
+publish
 dfn
-turtledove
-turtledove
+w3c-process
+w3c-process
 1
 current
-https://wicg.github.io/turtledove/#auction-data-config-publisher
+https://www.w3.org/policies/process/#publishing
 
 1
-auction data config
 -
 publishing web site
 publishing web site
@@ -1814,28 +2120,27 @@ https://wicg.github.io/digital-goods/#dom-purchasedetails-purchasetoken
 1
 PurchaseDetails
 -
-purge expired bit debits from all navigation entropy ledgers
-purge expired bit debits from all navigation entropy ledgers
+pure decoration
+pure decoration
 dfn
-shared-storage
-shared-storage
+wcag22
+wcag
 1
 current
-https://wicg.github.io/shared-storage/#purge-expired-bit-debits-from-all-navigation-entropy-ledgers
+https://w3c.github.io/wcag/guidelines/22/#dfn-pure-decoration
 
-1
+
 -
-purge expired entries from the database
-purge expired entries from the database
+pure decoration
+pure decoration
 dfn
-shared-storage
-shared-storage
+wcag22
+wcag
 1
-current
-https://wicg.github.io/shared-storage/#shared-storage-database-purge-expired-entries-from-the-database
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-pure-decoration
 
-1
-shared storage database
+
 -
 purple
 purple
@@ -1864,9 +2169,9 @@ https://drafts.csswg.org/css-color-4/#valdef-color-purple
 purple
 purple
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-color-purple
 1
@@ -1912,6 +2217,17 @@ manifest image resource
 purpose
 purpose
 dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-purpose
+1
+
+-
+purpose
+purpose
+dfn
 appmanifest
 appmanifest
 1
@@ -1920,6 +2236,39 @@ https://www.w3.org/TR/appmanifest/#dfn-purpose
 
 1
 manifest image resource
+-
+purpose
+purpose
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-purpose
+
+
+-
+purpose of each link
+purpose of each link
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-purpose-of-each-link
+
+
+-
+purpose of each link
+purpose of each link
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-purpose-of-each-link
+
+
 -
 push
 push
@@ -2024,6 +2373,28 @@ https://www.w3.org/TR/push-api/#dfn-push-endpoint
 
 1
 -
+push event result
+push event result
+dfn
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dfn-push-event-result
+
+1
+-
+push event result
+push event result
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-push-event-result
+
+1
+-
 push message
 push message
 dfn
@@ -2124,18 +2495,6 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.p
 1
 Array
 -
-push-button
-push-button
-value
-css-ui-4
-css-ui
-4
-snapshot
-https://www.w3.org/TR/css-ui-4/#valdef-appearance-push-button
-1
-1
-appearance
--
 pushDebugGroup(groupLabel)
 pushDebugGroup(groupLabel)
 method
@@ -2184,6 +2543,17 @@ https://www.w3.org/TR/webgpu/#dom-gpudevice-pusherrorscope
 1
 GPUDevice
 -
+pushmanager
+pushManager
+dfn
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dfn-pushmanager
+
+1
+-
 pushManager
 pushManager
 attribute
@@ -2191,10 +2561,21 @@ push-api
 push-api
 1
 current
-https://w3c.github.io/push-api/#dom-serviceworkerregistration-pushmanager
+https://w3c.github.io/push-api/#dom-pushmanagerattribute-pushmanager
 1
 1
-ServiceWorkerRegistration
+PushManagerAttribute
+-
+pushmanager
+pushManager
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-pushmanager
+
+1
 -
 pushManager
 pushManager
@@ -2203,10 +2584,10 @@ push-api
 push-api
 1
 snapshot
-https://www.w3.org/TR/push-api/#dom-serviceworkerregistration-pushmanager
+https://www.w3.org/TR/push-api/#dom-pushmanagerattribute-pushmanager
 1
 1
-ServiceWorkerRegistration
+PushManagerAttribute
 -
 pushState(data, unused, url)
 pushState(data, unused, url)
@@ -2239,6 +2620,17 @@ push-api
 1
 snapshot
 https://www.w3.org/TR/push-api/#dfn-pushsubscriptionchange
+
+1
+-
+put pixels from an imagedata onto a bitmap
+put pixels from an ImageData onto a bitmap
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context2d-putimagedata-common
 
 1
 -
@@ -2314,8 +2706,20 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-put
 1
 IDBObjectStore
 -
-putImageData()
-putImageData()
+putImageData(imageData, dx, dy)
+putImageData(imageData, dx, dy)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-putimagedata-short
+1
+1
+CanvasImageData
+-
+putImageData(imageData, dx, dy, dirtyX, dirtyY, dirtyWidth, dirtyHeight)
+putImageData(imageData, dx, dy, dirtyX, dirtyY, dirtyWidth, dirtyHeight)
 method
 html
 html

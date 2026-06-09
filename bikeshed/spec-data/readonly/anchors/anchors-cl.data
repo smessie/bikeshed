@@ -49,7 +49,7 @@ GPUAddressMode
 "clamped-max"
 "clamped-max"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -61,11 +61,35 @@ ChannelCountMode
 "clamped-max"
 "clamped-max"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelcountmode-clamped-max
+1
+1
+ChannelCountMode
+-
+"clamped-max"
+"clamped-max"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelcountmode-clamped-max
+https://www.w3.org/TR/webaudio-1.0/#dom-channelcountmode-clamped-max
+1
+1
+ChannelCountMode
+-
+"clamped-max"
+"clamped-max"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelcountmode-clamped-max
 1
 1
 ChannelCountMode
@@ -82,6 +106,30 @@ https://wicg.github.io/webusb/#dom-usbrequesttype-class
 1
 USBRequestType
 -
+"classic"
+"classic"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationsetscrollbartypeoverrideparameters-scrollbartype-classic
+
+1
+emulation.SetScrollbarTypeOverrideParameters/scrollbarType
+-
+"classic"
+"classic"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationsetscrollbartypeoverrideparameters-scrollbartype-classic
+
+1
+emulation.SetScrollbarTypeOverrideParameters/scrollbarType
+-
 "classic-script"
 "classic-script"
 enum-value
@@ -90,6 +138,18 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#dom-scriptinvokertype-classic-script
+1
+1
+ScriptInvokerType
+-
+"classic-script"
+"classic-script"
+enum-value
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-scriptinvokertype-classic-script
 1
 1
 ScriptInvokerType
@@ -105,6 +165,30 @@ https://gpuweb.github.io/gpuweb/#dom-gpuloadop-clear
 1
 1
 GPULoadOp
+-
+"clear"
+"clear"
+cddl-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-value-digitalcredentials-virtualwalletaction-clear
+1
+1
+digitalCredentials.VirtualWalletAction
+-
+"clear"
+"clear"
+cddl-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-value-digitalcredentials-virtualwalletaction-clear
+1
+1
+digitalCredentials.VirtualWalletAction
 -
 "clear"
 "clear"
@@ -137,10 +221,142 @@ webauthn-3
 webauthn
 3
 snapshot
-https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhints-client-device
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-client-device
 1
 1
-PublicKeyCredentialHints
+PublicKeyCredentialHint
+-
+"clientHints"
+"clientHints"
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-params-clienthints
+1
+1
+userAgentClientHints.SetClientHintsOverrideCommand/params
+-
+"clientWindow"
+"clientWindow"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindowinfo-clientwindow
+
+1
+browser.ClientWindowInfo
+-
+"clientWindow"
+"clientWindow"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetclientwindowstateparameters-clientwindow
+
+1
+browser.SetClientWindowStateParameters
+-
+"clientWindow"
+"clientWindow"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinfo-clientwindow
+
+1
+browsingContext.Info
+-
+"clientWindow"
+"clientWindow"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browserclientwindowinfo-clientwindow
+
+1
+browser.ClientWindowInfo
+-
+"clientWindow"
+"clientWindow"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsersetclientwindowstateparameters-clientwindow
+
+1
+browser.SetClientWindowStateParameters
+-
+"clientWindow"
+"clientWindow"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinfo-clientwindow
+
+1
+browsingContext.Info
+-
+"clientWindows"
+"clientWindows"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsergetclientwindowsresult-clientwindows
+
+1
+browser.GetClientWindowsResult
+-
+"clientWindows"
+"clientWindows"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsergetclientwindowsresult-clientwindows
+
+1
+browser.GetClientWindowsResult
+-
+"clip"
+"clip"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-clip
+
+1
+browsingContext.CaptureScreenshotParameters
+-
+"clip"
+"clip"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-clip
+
+1
+browsingContext.CaptureScreenshotParameters
 -
 "clip-distances"
 "clip-distances"
@@ -216,8 +432,20 @@ CodecState
 -
 "closed"
 "closed"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-closed
+
+1
+script.NodeProperties/mode
+-
+"closed"
+"closed"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -229,11 +457,35 @@ AudioContextState
 "closed"
 "closed"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontextstate-closed
+1
+1
+AudioContextState
+-
+"closed"
+"closed"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontextstate-closed
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontextstate-closed
+1
+1
+AudioContextState
+-
+"closed"
+"closed"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontextstate-closed
 1
 1
 AudioContextState
@@ -250,25 +502,37 @@ https://www.w3.org/TR/webcodecs/#dom-codecstate-closed
 1
 CodecState
 -
-:closed
-:closed
+"closed"
+"closed"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-closed
+
+1
+script.NodeProperties/mode
+-
+::clear-icon
+::clear-icon
 selector
-selectors-4
-selectors
-4
+css-forms-1
+css-forms
+1
 current
-https://drafts.csswg.org/selectors-4/#selectordef-closed
+https://drafts.csswg.org/css-forms-1/#selectordef-clear-icon
 1
 1
 -
-:closed
-:closed
+::clear-icon
+::clear-icon
 selector
-selectors-4
-selectors
-4
+css-forms-1
+css-forms
+1
 snapshot
-https://www.w3.org/TR/selectors-4/#selectordef-closed
+https://www.w3.org/TR/css-forms-1/#selectordef-clear-icon
 1
 1
 -
@@ -301,7 +565,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-clip-source
+https://drafts.csswg.org/css-masking-1/#typedef-clip-source
 1
 1
 -
@@ -337,6 +601,28 @@ snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-common-locale-data-repository
 1
 
+-
+clear
+CLEAR
+dfn
+imsc-hrm
+imsc-hrm
+1
+current
+https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html#dfn-clear
+
+1
+-
+clear
+CLEAR
+dfn
+imsc-hrm
+imsc-hrm
+1
+snapshot
+https://www.w3.org/TR/imsc-hrm/#dfn-clear
+
+1
 -
 CLOSED
 CLOSED
@@ -388,13 +674,24 @@ https://webidl.spec.whatwg.org/#Clamp
 class
 class
 dfn
-svg-aam-1.0
-svg-aam
+wot-thing-description-2.0
+wot-thing-description
 1
 current
-https://w3c.github.io/svg-aam/#dfn-class
+https://w3c.github.io/wot-thing-description/#dfn-class
 
+1
+-
+class
+class
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-class
 
+1
 -
 class
 class
@@ -406,6 +703,174 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-class
 
 
+-
+class
+class
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-class
+
+1
+-
+class
+class
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-class
+
+1
+-
+classatom
+ClassAtom
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassAtom
+
+1
+-
+classatomnodash
+ClassAtomNoDash
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-ClassAtomNoDash
+
+1
+Web browsers
+-
+classatomnodash
+ClassAtomNoDash
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassAtomNoDash
+
+1
+-
+classbody
+ClassBody
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassBody
+
+1
+-
+classcontents
+ClassContents
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassContents
+
+1
+-
+classcontrolletter
+ClassControlLetter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-ClassControlLetter
+
+1
+Web browsers
+-
+classdeclaration
+ClassDeclaration
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassDeclaration
+
+1
+-
+classelement
+ClassElement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassElement
+
+1
+-
+classelementlist
+ClassElementList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassElementList
+
+1
+-
+classelementname
+ClassElementName
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassElementName
+
+1
+-
+classescape
+ClassEscape
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-ClassEscape
+
+1
+Web browsers
+-
+classescape
+ClassEscape
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassEscape
+
+1
+-
+classexpression
+ClassExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassExpression
+
+1
 -
 classfielddefinition record
 ClassFieldDefinition Record
@@ -431,6 +896,127 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-clas
 1
 ECMAScript
 -
+classheritage
+ClassHeritage
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassHeritage
+
+1
+-
+classintersection
+ClassIntersection
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassIntersection
+
+1
+-
+classsetcharacter
+ClassSetCharacter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetCharacter
+
+1
+-
+classsetexpression
+ClassSetExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetExpression
+
+1
+-
+classsetoperand
+ClassSetOperand
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetOperand
+
+1
+-
+classsetrange
+ClassSetRange
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetRange
+
+1
+-
+classsetreserveddoublepunctuator
+ClassSetReservedDoublePunctuator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetReservedDoublePunctuator
+
+1
+-
+classsetreservedpunctuator
+ClassSetReservedPunctuator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetReservedPunctuator
+
+1
+-
+classsetsyntaxcharacter
+ClassSetSyntaxCharacter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSetSyntaxCharacter
+
+1
+-
+classstaticblock
+ClassStaticBlock
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassStaticBlock
+
+1
+-
+classstaticblockbody
+ClassStaticBlockBody
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassStaticBlockBody
+
+1
+-
 classstaticblockdefinition record
 ClassStaticBlockDefinition Record
 dfn
@@ -455,25 +1041,80 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-clas
 1
 ECMAScript
 -
-classic conformance
-classic conformance
-dfn
-rdf12-concepts
-rdf-concepts
+classstaticblockstatementlist
+ClassStaticBlockStatementList
+grammar
+ecmascript
+ecmascript
 1
 current
-https://w3c.github.io/rdf-concepts/spec/#dfn-classic-conformance
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassStaticBlockStatementList
 
 1
 -
-classic conformance
-classic conformance
-dfn
-rdf12-concepts
-rdf-concepts
+classstring
+ClassString
+grammar
+ecmascript
+ecmascript
 1
-snapshot
-https://www.w3.org/TR/rdf12-concepts/#dfn-classic-conformance
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassString
+
+1
+-
+classstringdisjunction
+ClassStringDisjunction
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassStringDisjunction
+
+1
+-
+classstringdisjunctioncontents
+ClassStringDisjunctionContents
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassStringDisjunctionContents
+
+1
+-
+classsubtraction
+ClassSubtraction
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassSubtraction
+
+1
+-
+classtail
+ClassTail
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassTail
+
+1
+-
+classunion
+ClassUnion
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-ClassUnion
 
 1
 -
@@ -829,6 +1470,17 @@ https://w3c.github.io/webauthn/#enumdef-clientcapability
 1
 1
 -
+ClientCapability
+ClientCapability
+enum
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#enumdef-clientcapability
+1
+1
+-
 ClientLifecycleState
 ClientLifecycleState
 enum
@@ -947,6 +1599,122 @@ clipboard-apis
 1
 snapshot
 https://www.w3.org/TR/clipboard-apis/#clipboard
+1
+1
+-
+ClipboardChangeEvent
+ClipboardChangeEvent
+interface
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#clipboardchangeevent
+1
+1
+-
+ClipboardChangeEvent
+ClipboardChangeEvent
+interface
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#clipboardchangeevent
+1
+1
+-
+ClipboardChangeEvent(type)
+ClipboardChangeEvent(type)
+constructor
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent
+1
+1
+ClipboardChangeEvent
+-
+ClipboardChangeEvent(type)
+ClipboardChangeEvent(type)
+constructor
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent
+1
+1
+ClipboardChangeEvent
+-
+clipboardchangeevent(type, eventinitdict)
+ClipboardChangeEvent(type, eventInitDict)
+dfn
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#clipboardchangeevent-clipboardchangeevent-type-eventinitdict
+1
+1
+ClipboardChangeEvent
+-
+ClipboardChangeEvent(type, eventInitDict)
+ClipboardChangeEvent(type, eventInitDict)
+constructor
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent
+1
+1
+ClipboardChangeEvent
+-
+clipboardchangeevent(type, eventinitdict)
+ClipboardChangeEvent(type, eventInitDict)
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#clipboardchangeevent-clipboardchangeevent-type-eventinitdict
+1
+1
+ClipboardChangeEvent
+-
+ClipboardChangeEvent(type, eventInitDict)
+ClipboardChangeEvent(type, eventInitDict)
+constructor
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#dom-clipboardchangeevent-clipboardchangeevent
+1
+1
+ClipboardChangeEvent
+-
+ClipboardChangeEventInit
+ClipboardChangeEventInit
+dictionary
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#dictdef-clipboardchangeeventinit
+1
+1
+-
+ClipboardChangeEventInit
+ClipboardChangeEventInit
+dictionary
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#dictdef-clipboardchangeeventinit
 1
 1
 -
@@ -1211,6 +1979,17 @@ https://w3c.github.io/clipboard-apis/#dictdef-clipboardunsanitizedformats
 1
 1
 -
+ClipboardUnsanitizedFormats
+ClipboardUnsanitizedFormats
+dictionary
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#dictdef-clipboardunsanitizedformats
+1
+1
+-
 clone audiodata
 Clone AudioData
 dfn
@@ -1288,8 +2067,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-clonearraybuffer
 1
 1
 -
-CloneArrayBuffer(srcBuffer, srcByteOffset, srcLength)
-CloneArrayBuffer(srcBuffer, srcByteOffset, srcLength)
+CloneArrayBuffer(sourceBuffer, sourceByteOffset, sourceLength)
+CloneArrayBuffer(sourceBuffer, sourceByteOffset, sourceLength)
 abstract-op
 ecmascript
 ecmascript
@@ -1307,7 +2086,18 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#abstract-opdef-cloneasuint8array
+
 1
+-
+close
+close
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-close-state
+
 1
 -
 close audiodata
@@ -1399,6 +2189,17 @@ https://www.w3.org/TR/webcodecs/#imagedecoder-close-imagedecoder
 
 1
 ImageDecoder
+-
+close request
+Close Request
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby-closerequest-state
+
+1
 -
 close videodecoder
 Close VideoDecoder
@@ -1554,6 +2355,28 @@ html
 current
 https://html.spec.whatwg.org/multipage/interaction.html#closewatcheroptions
 1
+1
+-
+closed
+closed
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootmode-closed-state
+
+1
+-
+closed dependency
+closed dependency
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-closed-dependency
+
 1
 -
 [[Closed]]
@@ -1751,11 +2574,44 @@ ImageDecoder
 claim
 claim
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-claims
+1
+1
+-
+claim
+claim
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-claims
+
+
+-
+claim
+claim
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-claims
+
+1
+-
+claim
+claim
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-claims
 1
 1
 -
@@ -1770,6 +2626,61 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-claims
 1
 1
 -
+claim
+claim
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-claims
+1
+1
+-
+claim
+claim
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-claims
+
+
+-
+claim
+claim
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-claims
+
+1
+-
+claim validation
+claim validation
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-claim-validation
+1
+1
+-
+claim validation
+claim validation
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-claim-validation
+
+1
+-
 claim validation
 claim validation
 dfn
@@ -1777,7 +2688,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-claim-validation
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-claim-validation
 1
 1
 -
@@ -1790,6 +2701,28 @@ vc-data-model
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-claim-validation
 1
+1
+-
+claim validation
+claim validation
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-claim-validation
+1
+1
+-
+claim validation
+claim validation
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-claim-validation
+
 1
 -
 claim()
@@ -1843,11 +2776,44 @@ USBInterface
 claims
 claims
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-claims
+1
+1
+-
+claims
+claims
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-claims
+
+
+-
+claims
+claims
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-claims
+
+1
+-
+claims
+claims
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-claims
 1
 1
 -
@@ -1861,6 +2827,51 @@ snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-claims
 1
 1
+-
+claims
+claims
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-claims
+1
+1
+-
+claims
+claims
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-claims
+
+
+-
+claims
+claims
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-claims
+
+1
+-
+clamp
+clamp
+value
+css-page-3
+css-page
+3
+current
+https://drafts.csswg.org/css-page-3/#valdef-page-page-margin-safety-clamp
+1
+1
+@page/page-margin-safety
 -
 clamp
 clamp
@@ -1938,6 +2949,17 @@ fetch
 1
 current
 https://fetch.spec.whatwg.org/#clamp-and-coarsen-connection-timing-info
+
+1
+-
+clamp point
+clamp point
+dfn
+css-overflow-4
+css-overflow
+4
+current
+https://drafts.csswg.org/css-overflow-4/#clamp-point
 
 1
 -
@@ -2025,7 +3047,7 @@ https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#clamped-to-the
 clamped-max
 clamped-max
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2037,11 +3059,35 @@ ChannelCountMode
 clamped-max
 clamped-max
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelcountmode-clamped-max
+1
+1
+ChannelCountMode
+-
+clamped-max
+clamped-max
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelcountmode-clamped-max
+https://www.w3.org/TR/webaudio-1.0/#dom-channelcountmode-clamped-max
+1
+1
+ChannelCountMode
+-
+clamped-max
+clamped-max
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelcountmode-clamped-max
 1
 1
 ChannelCountMode
@@ -2083,15 +3129,14 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vevent-class
 -
 class
 class
-element-attr
-svg2
-svg
-2
+dfn
+shacl12-core
+shacl-core
+1
 current
-https://svgwg.org/svg2-draft/styling.html#ClassAttribute
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-class
+
 1
-1
-core-attributes
 -
 class
 class
@@ -2117,14 +3162,15 @@ https://w3c.github.io/rdf-semantics/spec/#dfn-class
 -
 class
 class
-dfn
-svg-aam-1.0
-svg-aam
-1
+element-attr
+svg2
+svg
+2
 current
-https://w3c.github.io/svg-aam/#dfn-class
-
-
+https://w3c.github.io/svgwg/svg2-draft/styling.html#ClassAttribute
+1
+1
+core-attributes
 -
 class
 class
@@ -2179,6 +3225,17 @@ rdf-semantics
 1
 snapshot
 https://www.w3.org/TR/rdf12-semantics/#dfn-class
+
+1
+-
+class
+class
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-class
 
 1
 -
@@ -2320,6 +3377,28 @@ https://webidl.spec.whatwg.org/#dfn-class-string
 1
 1
 -
+class target
+class target
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-class-target
+
+1
+-
+class target
+class target
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-class-target
+
+1
+-
 classCode
 classCode
 dict-member
@@ -2363,7 +3442,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__className
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGElement__className
 1
 1
 SVGElement
@@ -2407,13 +3486,13 @@ Element/getElementsByClassName(classNames)
 classes
 classes
 dfn
-svg-aam-1.0
-svg-aam
+shacl12-core
+shacl-core
 1
 current
-https://w3c.github.io/svg-aam/#dfn-class
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-class
 
-
+1
 -
 classes
 classes
@@ -2440,6 +3519,17 @@ https://www.w3.org/TR/graphics-aria-1.0/#dfn-class
 classes
 classes
 dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-class
+
+1
+-
+classes
+classes
+dfn
 wai-aria-1.2
 wai-aria
 1
@@ -2447,6 +3537,30 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-class
 
 
+-
+classic
+classic
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-emulationsetscrollbartypeoverrideparameters-scrollbartype-classic
+
+1
+emulation.SetScrollbarTypeOverrideParameters/scrollbarType
+-
+classic
+classic
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-emulationsetscrollbartypeoverrideparameters-scrollbartype-classic
+
+1
+emulation.SetScrollbarTypeOverrideParameters/scrollbarType
 -
 classic history api state
 classic history API state
@@ -2550,52 +3664,38 @@ https://html.spec.whatwg.org/multipage/obsolete.html#attr-object-classid
 1
 object
 -
-classify
-classify
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#classify
-
-1
--
 clause
 clause
 dfn
-speculation-rules
-speculation-rules
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#document-rule-negation-clause
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-dr-n-clause
 
 1
-document rule negation
 -
 clauses
 clauses
 dfn
-speculation-rules
-speculation-rules
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#document-rule-conjunction-clauses
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-dr-c-clauses
 
 1
-document rule conjunction
 -
 clauses
 clauses
 dfn
-speculation-rules
-speculation-rules
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#document-rule-disjunction-clauses
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-dr-d-clauses
 
 1
-document rule disjunction
 -
 clean up
 clean up
@@ -2648,7 +3748,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-clean-up-the-pending-scan
+https://w3c-cg.github.io/web-nfc/#dfn-clean-up-the-pending-scan
 
 1
 -
@@ -2735,6 +3835,17 @@ https://w3c.github.io/webdriver-bidi/#cleanup-remote-end-state
 
 1
 -
+cleanup remote end state
+cleanup remote end state
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cleanup-remote-end-state
+
+1
+-
 cleanup the session
 cleanup the session
 dfn
@@ -2743,6 +3854,28 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#cleanup-the-session
+
+1
+-
+cleanup the session
+cleanup the session
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cleanup-the-session
+
+1
+-
+clear
+clear
+dfn
+compositing-2
+compositing
+2
+current
+https://drafts.csswg.org/compositing-2/#clear
 
 1
 -
@@ -2772,23 +3905,12 @@ https://drafts.csswg.org/css-page-floats-3/#propdef-clear
 clear
 clear
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-clear
 1
-1
--
-clear
-clear
-dfn
-compositing-2
-compositing
-2
-current
-https://drafts.fxtf.org/compositing-2/#clear
-
 1
 -
 clear
@@ -2844,31 +3966,9 @@ clear
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#propdef-clear
-1
-1
--
-clear
-clear
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#propdef-clear
-1
-1
--
-clear
-clear
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visuren.html#propdef-clear
+https://www.w3.org/TR/CSS2/visuren.html#propdef-clear
 1
 1
 -
@@ -2973,6 +4073,28 @@ https://www.w3.org/TR/webdriver2/#dfn-clear-a-resettable-element
 
 1
 -
+clear a select's non-primary selectedcontent elements
+clear a select's non-primary selectedcontent elements
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#clear-a-select's-non-primary-selectedcontent-elements
+
+1
+-
+clear a selectedcontent
+clear a selectedcontent
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#clear-a-selectedcontent
+
+1
+-
 clear algorithm
 clear algorithm
 dfn
@@ -2995,18 +4117,6 @@ https://www.w3.org/TR/webdriver2/#dfn-clear-algorithm
 
 1
 -
-clear all entries in the database
-clear all entries in the database
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-database-clear-all-entries-in-the-database
-
-1
-shared storage database
--
 clear an object store
 clear an object store
 dfn
@@ -3026,6 +4136,28 @@ indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#clear-an-object-store
+
+1
+-
+clear browsing history for attribution
+clear browsing history for attribution
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#clear-browsing-history-for-attribution
+
+1
+-
+clear browsing history for attribution
+clear browsing history for attribution
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#clear-browsing-history-for-attribution
 
 1
 -
@@ -3117,14 +4249,47 @@ https://wicg.github.io/storage-buckets/#clear-data-with-buckets
 
 1
 -
-clear excess interest groups
-clear excess interest groups
+clear impressions for a site
+clear impressions for a site
 dfn
-turtledove
-turtledove
+attribution
+attribution
 1
 current
-https://wicg.github.io/turtledove/#clear-excess-interest-groups
+https://w3c.github.io/attribution/#clear-impressions-for-a-site
+
+1
+-
+clear impressions for a site
+clear impressions for a site
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#clear-impressions-for-a-site
+
+1
+-
+clear language
+clear language
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-clear-language
+
+1
+-
+clear language
+clear language
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-clear-language
 
 1
 -
@@ -3139,14 +4304,25 @@ https://privacycg.github.io/nav-tracking-mitigations/#clear-non-cookie-storage-f
 
 1
 -
-clear site data
-clear site data
+clear prefetch cache
+clear prefetch cache
 dfn
-attribution-reporting-api
-attribution-reporting-api
+prefetch
+prefetch
 1
 current
-https://wicg.github.io/attribution-reporting-api/#clear-site-data
+https://wicg.github.io/nav-speculation/prefetch.html#clear-prefetch-cache
+
+1
+-
+clear prerender cache
+clear prerender cache
+dfn
+prerendering-revamped
+prerendering-revamped
+1
+current
+https://wicg.github.io/nav-speculation/prerendering.html#clear-prerender-cache
 
 1
 -
@@ -3245,8 +4421,8 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-clear-the-operationinprogress
-
+https://wicg.github.io/web-smart-card/#clear-the-operationinprogress
+1
 1
 -
 clear the stack back to a table body context
@@ -3301,6 +4477,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#clear-view-transition
+
+1
+-
+clear view transition
+clear view transition
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#clear-view-transition
 
 1
 -
@@ -3458,18 +4645,6 @@ https://wicg.github.io/handwriting-recognition/#dom-handwritingstroke-clear
 1
 1
 HandwritingStroke
--
-clear()
-clear()
-method
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-clear
-1
-1
-SharedStorage
 -
 clear()
 clear()
@@ -3687,6 +4862,18 @@ https://w3c.github.io/user-timing/#dom-performance-clearmarks
 1
 Performance
 -
+clearmarks()
+clearMarks()
+dfn
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#performance-clearmarks
+1
+1
+Performance
+-
 clearMarks()
 clearMarks()
 method
@@ -3731,6 +4918,18 @@ user-timing
 1
 current
 https://w3c.github.io/user-timing/#dom-performance-clearmeasures
+1
+1
+Performance
+-
+clearmeasures()
+clearMeasures()
+dfn
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#performance-clearmeasures
 1
 1
 Performance
@@ -3819,30 +5018,6 @@ https://www.w3.org/TR/webxrlayers-1/#dom-xrprojectionlayerinit-clearonaccess
 1
 XRProjectionLayerInit
 -
-clearOriginJoinedAdInterestGroups(owner)
-clearOriginJoinedAdInterestGroups(owner)
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-clearoriginjoinedadinterestgroups
-1
-1
-Navigator
--
-clearOriginJoinedAdInterestGroups(owner, interestGroupsToKeep)
-clearOriginJoinedAdInterestGroups(owner, interestGroupsToKeep)
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-clearoriginjoinedadinterestgroups
-1
-1
-Navigator
--
 clearOverride()
 clearOverride()
 method
@@ -3858,11 +5033,11 @@ PreferenceObject
 clearOverride()
 clearOverride()
 method
-web-preferences-api
-web-preferences-api
-1
-current
-https://wicg.github.io/web-preferences-api/#dom-preferenceobject-clearoverride
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#dom-preferenceobject-clearoverride
 1
 1
 PreferenceObject
@@ -3882,11 +5057,23 @@ XSLTProcessor
 clearpinuvauthtokenpermissionsexceptlbw
 clearPinUvAuthTokenPermissionsExceptLbw
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-clearpinuvauthtokenpermissionsexceptlbw
+
+1
+pinUvAuthProtocol
+-
+clearpinuvauthtokenpermissionsexceptlbw
+clearPinUvAuthTokenPermissionsExceptLbw
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-clearpinuvauthtokenpermissionsexceptlbw
 
 1
 pinUvAuthProtocol
@@ -3902,6 +5089,30 @@ https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-clearrect
 1
 1
 CanvasRect
+-
+clearresourcetimings
+clearResourceTimings
+dfn
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#performance-clearresourcetimings
+1
+1
+Performance
+-
+clearresourcetimings
+clearResourceTimings
+dfn
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#performance-clearresourcetimings
+1
+1
+Performance
 -
 clearResourceTimings()
 clearResourceTimings()
@@ -3954,8 +5165,8 @@ SerialInputSignals
 clearuserpresentflag
 clearUserPresentFlag
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-clearuserpresentflag
@@ -3963,14 +5174,38 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 pinUvAuthProtocol
 -
+clearuserpresentflag
+clearUserPresentFlag
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-clearuserpresentflag
+
+1
+pinUvAuthProtocol
+-
 clearuserverifiedflag
 clearUserVerifiedFlag
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-clearuserverifiedflag
+
+1
+pinUvAuthProtocol
+-
+clearuserverifiedflag
+clearUserVerifiedFlag
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-clearuserverifiedflag
 
 1
 pinUvAuthProtocol
@@ -4050,9 +5285,9 @@ Geolocation
 clearance
 clearance
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#clearance
 
@@ -4063,91 +5298,32 @@ clearance.
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#clearance
-1
-1
--
-clearance.
-clearance.
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#clearance
+https://www.w3.org/TR/CSS2/visuren.html#clearance
 1
-1
--
-cleared
-cleared
-dfn
-badging
-badging
-1
-current
-https://w3c.github.io/badging/#dfn-clear
-
-1
-badge
--
-cleared
-cleared
-dfn
-badging
-badging
-1
-snapshot
-https://www.w3.org/TR/badging/#dfn-clear
-
-1
-badge
--
-clearing
-clearing
-dfn
-badging
-badging
-1
-current
-https://w3c.github.io/badging/#dfn-clear
-
-1
-badge
--
-clearing
-clearing
-dfn
-badging
-badging
-1
-snapshot
-https://www.w3.org/TR/badging/#dfn-clear
-
-1
-badge
--
-click
-click
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#click
-
 1
 -
 click
 click
-dfn
-uievents
-uievents
+event
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-click
 1
+1
+-
+click
+click
+event
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#click
-
+https://www.w3.org/TR/pointerevents4/#dfn-click
+1
 1
 -
 click focusable
@@ -4209,9 +5385,9 @@ HTMLElement
 click, auxclick, and contextmenu events
 click, auxclick, and contextmenu events
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-click-auxclick-and-contextmenu-events
 
@@ -4223,8 +5399,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-click-auxclick-and-contextmenu-events
+
+1
+-
+click, auxclick, and contextmenu events
+click, auxclick, and contextmenu events
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-click-auxclick-and-contextmenu-events
+
+1
+-
+click, auxclick, and contextmenu events
+click, auxclick, and contextmenu events
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-click-auxclick-and-contextmenu-events
 
 1
 -
@@ -4255,6 +5453,40 @@ job
 client
 client
 dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-client
+
+1
+-
+client
+client
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+current
+https://w3c.github.io/dx-connegp/connegp/#dfn-client
+
+1
+-
+client
+client
+dfn
+appmanifest
+appmanifest
+1
+current
+https://w3c.github.io/manifest/#dfn-client
+
+1
+application manifest
+-
+client
+client
+dfn
 network-reporting
 network-reporting
 1
@@ -4274,6 +5506,52 @@ https://w3c.github.io/webrtc-stats/#dom-rtcdtlsrole-client
 1
 1
 RTCDtlsRole
+-
+client
+client
+argument
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-toolexecutecallback-client
+1
+1
+ToolExecuteCallback
+-
+client
+client
+dfn
+appmanifest
+appmanifest
+1
+snapshot
+https://www.w3.org/TR/appmanifest/#dfn-client
+
+1
+application manifest
+-
+client
+client
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-client
+
+1
+-
+client
+client
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+snapshot
+https://www.w3.org/TR/dx-prof-conneg/#dfn-client
+
+1
 -
 client
 client
@@ -4318,6 +5596,17 @@ edit-context
 1
 current
 https://w3c.github.io/edit-context/#dfn-client-coordinate-system
+
+1
+-
+client coordinate system
+client coordinate system
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-client-coordinate-system
 
 1
 -
@@ -4488,7 +5777,7 @@ fedcm
 current
 https://w3c-fedid.github.io/FedCM/#client-metadata-endpoint
 
-1
+
 -
 client metadata endpoint
 client metadata endpoint
@@ -4523,6 +5812,17 @@ https://w3c.github.io/webdriver-bidi/#client-window
 
 1
 -
+client window
+client window
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#client-window
+
+1
+-
 client window id
 client window id
 dfn
@@ -4531,6 +5831,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#client-window-id
+
+1
+-
+client window id
+client window id
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#client-window-id
 
 1
 -
@@ -4553,10 +5864,10 @@ webauthn-3
 webauthn
 3
 snapshot
-https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhints-client-device
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-client-device
 1
 1
-PublicKeyCredentialHints
+PublicKeyCredentialHint
 -
 client-side credential storage modality
 client-side credential storage modality
@@ -4579,6 +5890,18 @@ snapshot
 https://www.w3.org/TR/webauthn-3/#client-side-credential-storage-modality
 
 1
+-
+client-side discoverable credential property
+client-side discoverable credential property
+dfn
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#credentialpropertiesoutput-client-side-discoverable-credential-property
+
+1
+CredentialPropertiesOutput
 -
 client-side discoverable credential property
 client-side discoverable credential property
@@ -4867,6 +6190,18 @@ https://w3c.github.io/webappsec-clear-site-data/#grammardef-clienthints
 1
 1
 -
+clientHints
+clientHints
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-params-clienthints
+1
+1
+userAgentClientHints.SetClientHintsOverrideCommand/params
+-
 clientId
 clientId
 dict-member
@@ -5050,11 +6385,23 @@ Element
 clientpin
 clientPin
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-clientpin
+
+1
+getInfo
+-
+clientpin
+clientPin
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-clientpin
 
 1
 getInfo
@@ -5133,6 +6480,102 @@ https://www.w3.org/TR/cssom-view-1/#dom-element-clientwidth
 1
 Element
 -
+clientWindow
+clientWindow
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindowinfo-clientwindow
+
+1
+browser.ClientWindowInfo
+-
+clientWindow
+clientWindow
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetclientwindowstateparameters-clientwindow
+
+1
+browser.SetClientWindowStateParameters
+-
+clientWindow
+clientWindow
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinfo-clientwindow
+
+1
+browsingContext.Info
+-
+clientWindow
+clientWindow
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browserclientwindowinfo-clientwindow
+
+1
+browser.ClientWindowInfo
+-
+clientWindow
+clientWindow
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsersetclientwindowstateparameters-clientwindow
+
+1
+browser.SetClientWindowStateParameters
+-
+clientWindow
+clientWindow
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinfo-clientwindow
+
+1
+browsingContext.Info
+-
+clientWindows
+clientWindows
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsergetclientwindowsresult-clientwindows
+
+1
+browser.GetClientWindowsResult
+-
+clientWindows
+clientWindows
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsergetclientwindowsresult-clientwindows
+
+1
+browser.GetClientWindowsResult
+-
 clientX
 clientX
 attribute
@@ -5153,6 +6596,30 @@ cssom-view
 1
 current
 https://drafts.csswg.org/cssom-view-1/#dom-mouseeventinit-clientx
+1
+1
+MouseEventInit
+-
+clientX
+clientX
+attribute
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-clientx
+1
+1
+MouseEvent
+-
+clientX
+clientX
+dict-member
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseeventinit-clientx
 1
 1
 MouseEventInit
@@ -5184,30 +6651,6 @@ TouchInit
 clientX
 clientX
 attribute
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-clientx
-1
-1
-MouseEvent
--
-clientX
-clientX
-dict-member
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseeventinit-clientx
-1
-1
-MouseEventInit
--
-clientX
-clientX
-attribute
 cssom-view-1
 cssom-view
 1
@@ -5232,11 +6675,11 @@ MouseEventInit
 clientX
 clientX
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-clientx
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-clientx
 1
 1
 MouseEvent
@@ -5244,66 +6687,14 @@ MouseEvent
 clientX
 clientX
 dict-member
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseeventinit-clientx
+https://www.w3.org/TR/pointerevents4/#dom-mouseeventinit-clientx
 1
 1
 MouseEventInit
--
-clientXArg
-clientXArg
-argument
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-clientxarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-clientXArg
-clientXArg
-argument
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-clientxarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
 -
 clientY
 clientY
@@ -5325,6 +6716,30 @@ cssom-view
 1
 current
 https://drafts.csswg.org/cssom-view-1/#dom-mouseeventinit-clienty
+1
+1
+MouseEventInit
+-
+clientY
+clientY
+attribute
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-clienty
+1
+1
+MouseEvent
+-
+clientY
+clientY
+dict-member
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseeventinit-clienty
 1
 1
 MouseEventInit
@@ -5356,30 +6771,6 @@ TouchInit
 clientY
 clientY
 attribute
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-clienty
-1
-1
-MouseEvent
--
-clientY
-clientY
-dict-member
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseeventinit-clienty
-1
-1
-MouseEventInit
--
-clientY
-clientY
-attribute
 cssom-view-1
 cssom-view
 1
@@ -5404,11 +6795,11 @@ MouseEventInit
 clientY
 clientY
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-clienty
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-clienty
 1
 1
 MouseEvent
@@ -5416,66 +6807,14 @@ MouseEvent
 clientY
 clientY
 dict-member
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseeventinit-clienty
+https://www.w3.org/TR/pointerevents4/#dom-mouseeventinit-clienty
 1
 1
 MouseEventInit
--
-clientYArg
-clientYArg
-argument
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-clientyarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-clientYArg
-clientYArg
-argument
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-clientyarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
 -
 client_id
 client_id
@@ -5523,6 +6862,30 @@ snapshot
 https://www.w3.org/TR/fedcm-1/#dom-id_assertion_endpoint_request-client_id
 1
 1
+id_assertion_endpoint_request
+-
+client_is_third_party_to_top_frame_origin
+client_is_third_party_to_top_frame_origin
+dict-member
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identityproviderclientmetadata-client_is_third_party_to_top_frame_origin
+1
+
+IdentityProviderClientMetadata
+-
+client_metadata_endpoint
+client_metadata_endpoint
+argument
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-id_assertion_endpoint_request-client_metadata_endpoint
+1
+
 id_assertion_endpoint_request
 -
 client_metadata_endpoint
@@ -5587,6 +6950,17 @@ ServiceWorkerGlobalScope
 -
 clip
 clip
+property
+css-masking-1
+css-masking
+1
+current
+https://drafts.csswg.org/css-masking-1/#propdef-clip
+1
+1
+-
+clip
+clip
 value
 css-overflow-3
 css-overflow
@@ -5638,9 +7012,9 @@ text-overflow
 clip
 clip
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-clip
 1
@@ -5648,45 +7022,24 @@ https://drafts.csswg.org/css2/#propdef-clip
 -
 clip
 clip
-property
-css-masking-1
-css-masking
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-clip
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-clip
+
 1
-1
+browsingContext.CaptureScreenshotParameters
 -
 clip
 clip
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visufx.html#propdef-clip
-1
-1
--
-clip
-clip
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visufx.html#propdef-clip
-1
-1
--
-clip
-clip
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visufx.html#propdef-clip
+https://www.w3.org/TR/CSS2/visufx.html#propdef-clip
 1
 1
 -
@@ -5751,6 +7104,18 @@ https://www.w3.org/TR/css-ui-3/#overflow-clip
 1
 text-overflow
 -
+clip
+clip
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-clip
+
+1
+browsingContext.CaptureScreenshotParameters
+-
 clip position
 clip position
 dfn
@@ -5770,6 +7135,28 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#clip-position
+
+1
+-
+clip space
+clip space
+dfn
+webxrlayers-1
+webxrlayers
+1
+current
+https://immersive-web.github.io/layers/#clip-space
+
+1
+-
+clip space
+clip space
+dfn
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#clip-space
 
 1
 -
@@ -5837,7 +7224,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-clip-path
+https://drafts.csswg.org/css-masking-1/#propdef-clip-path
 1
 1
 -
@@ -5859,7 +7246,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-clip-rule
+https://drafts.csswg.org/css-masking-1/#propdef-clip-rule
 1
 1
 -
@@ -5881,7 +7268,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#elementdef-clippath
+https://drafts.csswg.org/css-masking-1/#elementdef-clippath
 1
 1
 -
@@ -5903,7 +7290,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#dom-svgclippathelement-clippathunits
+https://drafts.csswg.org/css-masking-1/#dom-svgclippathelement-clippathunits
 1
 1
 SVGClipPathElement
@@ -5915,7 +7302,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#element-attrdef-clippath-clippathunits
+https://drafts.csswg.org/css-masking-1/#element-attrdef-clippath-clippathunits
 1
 1
 clipPath
@@ -6245,10 +7632,34 @@ clipboard-apis
 clipboard-apis
 1
 snapshot
-https://www.w3.org/TR/clipboard-apis/#eventdef-documentandelementeventhandlers-clipboardchange
+https://www.w3.org/TR/clipboard-apis/#eventdef-globaleventhandlers-clipboardchange
 1
 1
-DocumentAndElementEventHandlers
+GlobalEventHandlers
+-
+clipboardchange pending flag
+clipboardchange pending flag
+dfn
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#document-clipboardchange-pending-flag
+
+1
+Document
+-
+clipboardchange pending flag
+clipboardchange pending flag
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#document-clipboardchange-pending-flag
+
+1
+Document
 -
 clipped by intervening boxes
 clipped by intervening boxes
@@ -6279,7 +7690,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#clipping-path
+https://drafts.csswg.org/css-masking-1/#clipping-path
 1
 1
 -
@@ -6297,23 +7708,23 @@ https://www.w3.org/TR/css-masking-1/#clipping-path
 clipping region
 clipping region
 dfn
-css22
-css
+css-masking-1
+css-masking
 1
 current
-https://drafts.csswg.org/css2/#clipping-region
-
+https://drafts.csswg.org/css-masking-1/#clipping-region
+1
 1
 -
 clipping region
 clipping region
 dfn
-css-masking-1
-css-masking
-1
+css2
+css
+2
 current
-https://drafts.fxtf.org/css-masking-1/#clipping-region
-1
+https://drafts.csswg.org/css2/#clipping-region
+
 1
 -
 clipping region
@@ -6332,20 +7743,9 @@ clipping region
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visufx.html#x3
-1
-1
--
-clipping region
-clipping region
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visufx.html#x3
+https://www.w3.org/TR/CSS2/visufx.html#x3
 1
 1
 -
@@ -6367,7 +7767,7 @@ hr-time-3
 hr-time
 3
 current
-https://w3c.github.io/hr-time/#dfn-clock
+https://w3c.github.io/hr-time/#clock
 
 1
 -
@@ -6378,7 +7778,7 @@ hr-time-3
 hr-time
 3
 snapshot
-https://www.w3.org/TR/hr-time-3/#dfn-clock
+https://www.w3.org/TR/hr-time-3/#clock
 
 1
 -
@@ -6429,6 +7829,17 @@ https://www.w3.org/TR/webrtc/#dom-rtcrtpcodec-clockrate
 1
 1
 RTCRtpCodec
+-
+clockwise quad
+clockwise quad
+dfn
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#clockwise-quad
+
+1
 -
 clonable
 clonable
@@ -6599,6 +8010,17 @@ https://www.w3.org/TR/css-break-4/#valdef-box-decoration-break-clone
 1
 box-decoration-break
 -
+clone a language model
+clone a language model
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#clone-a-language-model
+
+1
+-
 clone a node
 clone a node
 dfn
@@ -6619,6 +8041,17 @@ html
 current
 https://html.spec.whatwg.org/multipage/browsers.html#clone-a-policy-container
 1
+1
+-
+clone a single node
+clone a single node
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#clone-a-single-node
+
 1
 -
 clone a track
@@ -6662,6 +8095,28 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-clone-an-object
+
+1
+-
+clone an option into a selectedcontent
+clone an option into a selectedcontent
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#clone-an-option-into-a-selectedcontent
+
+1
+-
+clone selected option into select button
+clone selected option into select button
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#clone-selected-option-into-select-button
 
 1
 -
@@ -6788,6 +8243,18 @@ VideoFrame
 clone()
 clone()
 method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-clone
+1
+1
+LanguageModel
+-
+clone()
+clone()
+method
 mediacapture-region
 mediacapture-region
 1
@@ -6869,6 +8336,18 @@ https://www.w3.org/TR/webcodecs/#dom-videoframe-clone
 1
 VideoFrame
 -
+clone(options)
+clone(options)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-clone
+1
+1
+LanguageModel
+-
 cloneContents()
 cloneContents()
 method
@@ -6893,8 +8372,8 @@ https://dom.spec.whatwg.org/#dom-node-clonenode
 1
 Node
 -
-cloneNode(deep)
-cloneNode(deep)
+cloneNode(subtree)
+cloneNode(subtree)
 method
 dom
 dom
@@ -6916,6 +8395,30 @@ https://dom.spec.whatwg.org/#dom-range-clonerange
 1
 1
 Range
+-
+cloned body
+cloned body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#network-data-cloned-body
+
+1
+network-data
+-
+cloned body
+cloned body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#network-data-cloned-body
+
+1
+network-data
 -
 cloning steps
 cloning steps
@@ -6943,11 +8446,11 @@ live range
 close
 close
 value
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#valdef-shape-close
+https://drafts.csswg.org/css-shapes-1/#valdef-shape-close
 1
 1
 shape()
@@ -6963,6 +8466,18 @@ https://html.spec.whatwg.org/multipage/document-sequences.html#close-a-top-level
 1
 1
 top-level traversable
+-
+close
+close
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-close
+1
+1
+html-global/command
 -
 close
 close
@@ -7057,7 +8572,7 @@ webrtc
 1
 current
 https://w3c.github.io/webrtc-pc/#event-datachannel-close
-1
+
 
 RTCDataChannel
 -
@@ -7096,6 +8611,18 @@ https://www.w3.org/TR/IndexedDB-3/#eventdef-idbdatabase-close
 1
 1
 IDBDatabase
+-
+close
+close
+value
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#valdef-shape-close
+1
+1
+shape()
 -
 close
 close
@@ -7220,6 +8747,17 @@ https://html.spec.whatwg.org/multipage/interaction.html#close-watcher-close-acti
 
 1
 -
+close an async iterator
+close an async iterator
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#async-iterator-close
+1
+1
+-
 close any associated document picture-in-picture windows
 close any associated Document Picture-in-Picture windows
 dfn
@@ -7342,6 +8880,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#close-the-websocket-connections
+
+1
+-
+close the websocket connections
+close the WebSocket connections
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#close-the-websocket-connections
 
 1
 -
@@ -7839,7 +9388,19 @@ WebTransport
 close()
 close()
 method
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-close
+1
+1
+AudioContext
+-
+close()
+close()
+method
+webaudio-1.1
 webaudio
 1
 current
@@ -7995,11 +9556,23 @@ PresentationConnection
 close()
 close()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-close
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-close
+1
+1
+AudioContext
+-
+close()
+close()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-close
 1
 1
 AudioContext
@@ -8213,9 +9786,9 @@ content
 close-quote
 close-quote
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-close-quote
 1
@@ -8227,20 +9800,9 @@ close-quote
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-close-quote
-1
-1
--
-close-quote
-close-quote
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-close-quote
+https://www.w3.org/TR/CSS2/generate.html#value-def-close-quote
 1
 1
 -
@@ -8414,17 +9976,6 @@ template/shadowrootmode
 -
 closed
 closed
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootmode-closed-state
-
-1
--
-closed
-closed
 attribute
 streams
 streams
@@ -8557,6 +10108,18 @@ CodecState
 -
 closed
 closed
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-closed
+
+1
+script.NodeProperties/mode
+-
+closed
+closed
 dfn
 webrtc
 webrtc
@@ -8666,7 +10229,19 @@ WebTransport
 closed
 closed
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontextstate-closed
+1
+1
+AudioContextState
+-
+closed
+closed
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -8822,11 +10397,23 @@ PresentationConnectionState
 closed
 closed
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontextstate-closed
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontextstate-closed
+1
+1
+AudioContextState
+-
+closed
+closed
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontextstate-closed
 1
 1
 AudioContextState
@@ -8842,6 +10429,18 @@ https://www.w3.org/TR/webcodecs/#dom-codecstate-closed
 1
 1
 CodecState
+-
+closed
+closed
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-closed
+
+1
+script.NodeProperties/mode
 -
 closed
 closed
@@ -8922,7 +10521,7 @@ webrtc
 webrtc
 1
 snapshot
-https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-closed-dedup-14
+https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-closed
 1
 1
 RTCPeerConnectionState
@@ -8963,6 +10562,17 @@ https://www.w3.org/TR/webtransport/#dom-webtransport-closed
 1
 WebTransport
 -
+closed dependency
+closed dependency
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-closed-dependency
+
+1
+-
 closed flag
 closed flag
 dfn
@@ -8974,6 +10584,17 @@ https://html.spec.whatwg.org/multipage/web-messaging.html#concept-broadcastchann
 
 1
 -
+closed rule dependency
+closed rule dependency
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-closed-dependency
+
+1
+-
 closed subpath
 closed subpath
 dfn
@@ -8981,7 +10602,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/paths.html#TermClosedSubpath
+https://w3c.github.io/svgwg/svg2-draft/paths.html#TermClosedSubpath
 
 1
 -
@@ -9031,6 +10652,42 @@ https://dom.spec.whatwg.org/#concept-closed-shadow-hidden
 1
 1
 -
+closedBy
+closedBy
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-closedby
+1
+1
+HTMLDialogElement
+-
+closedby
+closedby
+element-attr
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby
+1
+1
+dialog
+-
+closerequest
+closerequest
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby-closerequest
+1
+1
+dialog/closedby
+-
 closest(selectors)
 closest(selectors)
 method
@@ -9064,7 +10721,7 @@ motion-1
 motion
 1
 current
-https://drafts.fxtf.org/motion-1/#size-closest-corner
+https://drafts.csswg.org/motion-1/#size-closest-corner
 1
 1
 <ray-size>
@@ -9093,7 +10750,7 @@ snapshot
 https://www.w3.org/TR/motion-1/#size-closest-corner
 1
 1
-<size>
+<ray-size>
 -
 closest-side
 closest-side
@@ -9116,7 +10773,7 @@ motion-1
 motion
 1
 current
-https://drafts.fxtf.org/motion-1/#size-closest-side
+https://drafts.csswg.org/motion-1/#size-closest-side
 1
 1
 <ray-size>
@@ -9137,17 +10794,6 @@ repeating-radial-gradient()
 -
 closest-side
 closest-side
-dfn
-css-shapes-1
-css-shapes
-1
-snapshot
-https://www.w3.org/TR/css-shapes-1/#closest-side
-
-1
--
-closest-side
-closest-side
 value
 motion-1
 motion
@@ -9156,7 +10802,7 @@ snapshot
 https://www.w3.org/TR/motion-1/#size-closest-side
 1
 1
-<size>
+<ray-size>
 -
 closing
 closing
@@ -9202,7 +10848,7 @@ webrtc
 1
 current
 https://w3c.github.io/webrtc-pc/#event-datachannel-closing
-1
+
 
 RTCDataChannel
 -

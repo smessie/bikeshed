@@ -1,3 +1,51 @@
+"credentials"
+"credentials"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkcontinueresponseparameters-credentials
+
+1
+network.ContinueResponseParameters
+-
+"credentials"
+"credentials"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkcontinuewithauthcredentials-credentials
+
+1
+network.ContinueWithAuthCredentials
+-
+"credentials"
+"credentials"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkcontinueresponseparameters-credentials
+
+1
+network.ContinueResponseParameters
+-
+"credentials"
+"credentials"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkcontinuewithauthcredentials-credentials
+
+1
+network.ContinueWithAuthCredentials
+-
 "cross-platform"
 "cross-platform"
 enum-value
@@ -22,14 +70,14 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticatorattachment-cross-platform
 1
 AuthenticatorAttachment
 -
-<crossorigin-modifier>
-<crossorigin-modifier>
+<cross-origin-modifier>
+<cross-origin-modifier>
 type
 css-values-5
 css-values
 5
 current
-https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier-crossorigin-modifier
+https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier-cross-origin-modifier
 1
 1
 <request-url-modifier>
@@ -53,7 +101,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#RecsCR
+https://www.w3.org/policies/process/#RecsCR
 1
 1
 -
@@ -64,7 +112,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-recommendation-draft
+https://www.w3.org/policies/process/#candidate-recommendation-draft
 1
 1
 -
@@ -75,7 +123,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#candidate-recommendation-snapshot
+https://www.w3.org/policies/process/#candidate-recommendation-snapshot
 1
 1
 -
@@ -88,6 +136,17 @@ crash-reporting
 current
 https://wicg.github.io/crash-reporting/#crash-reports
 
+1
+-
+CrashReportContext
+CrashReportContext
+interface
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportcontext
+1
 1
 -
 create client
@@ -120,6 +179,17 @@ service-workers
 1
 current
 https://w3c.github.io/ServiceWorker/#create-fetch-event-and-dispatch
+
+1
+-
+create fetch event and dispatch
+Create Fetch Event and Dispatch
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#create-fetch-event-and-dispatch
 
 1
 -
@@ -235,47 +305,47 @@ https://www.w3.org/TR/credential-management-1/#abstract-opdef-create-a-federated
 1
 1
 -
-create a mediacapabilitiesdecodinginfo
 Create a MediaCapabilitiesDecodingInfo
-dfn
+Create a MediaCapabilitiesDecodingInfo
+abstract-op
 media-capabilities
 media-capabilities
 1
 current
-https://w3c.github.io/media-capabilities/#create-a-mediacapabilitiesdecodinginfo
+https://w3c.github.io/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesdecodinginfo
 
 1
 -
-create a mediacapabilitiesdecodinginfo
 Create a MediaCapabilitiesDecodingInfo
-dfn
+Create a MediaCapabilitiesDecodingInfo
+abstract-op
 media-capabilities
 media-capabilities
 1
 snapshot
-https://www.w3.org/TR/media-capabilities/#create-a-mediacapabilitiesdecodinginfo
+https://www.w3.org/TR/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesdecodinginfo
 
 1
 -
-create a mediacapabilitiesencodinginfo
 Create a MediaCapabilitiesEncodingInfo
-dfn
+Create a MediaCapabilitiesEncodingInfo
+abstract-op
 media-capabilities
 media-capabilities
 1
 current
-https://w3c.github.io/media-capabilities/#create-a-mediacapabilitiesencodinginfo
+https://w3c.github.io/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesencodinginfo
 
 1
 -
-create a mediacapabilitiesencodinginfo
 Create a MediaCapabilitiesEncodingInfo
-dfn
+Create a MediaCapabilitiesEncodingInfo
+abstract-op
 media-capabilities
 media-capabilities
 1
 snapshot
-https://www.w3.org/TR/media-capabilities/#create-a-mediacapabilitiesencodinginfo
+https://www.w3.org/TR/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesencodinginfo
 
 1
 -
@@ -367,50 +437,6 @@ https://www.w3.org/TR/permissions-policy-1/#create-from-response
 1
 1
 -
-Create a Trusted Type
-Create a Trusted Type
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-create-a-trusted-type
-1
-1
--
-Create a Trusted Type
-Create a Trusted Type
-abstract-op
-trusted-types
-trusted-types
-1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-create-a-trusted-type
-1
-1
--
-Create a Trusted Type Policy
-Create a Trusted Type Policy
-abstract-op
-trusted-types
-trusted-types
-1
-current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-create-a-trusted-type-policy
-1
-1
--
-Create a Trusted Type Policy
-Create a Trusted Type Policy
-abstract-op
-trusted-types
-trusted-types
-1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-create-a-trusted-type-policy
-1
-1
--
 create a videoframe
 Create a VideoFrame
 dfn
@@ -433,16 +459,52 @@ https://www.w3.org/TR/webcodecs/#create-a-videoframe
 
 1
 -
-Create a new device-bound key record
-Create a new device-bound key record
-abstract-op
-webauthn-3
-webauthn
-3
-snapshot
-https://www.w3.org/TR/webauthn-3/#abstract-opdef-create-a-new-device-bound-key-record
+create a handwriting recognizer
+create a handwriting recognizer
+dfn
+handwriting-recognition
+handwriting-recognition
 1
+current
+https://wicg.github.io/handwriting-recognition/#create-a-handwriting-recognizer
+
 1
+Navigator
+-
+create a list
+create a list
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#fetch-identity-assertion-create-a-list
+
+1
+fetch identity assertion
+-
+create a permissions policy for a fenced navigable
+create a permissions policy for a fenced navigable
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#create-a-permissions-policy-for-a-fenced-navigable
+
+1
+-
+create dictionary
+create dictionary
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#fedcm-webdriver-error-create-dictionary
+
+1
+fedcm webdriver error
 -
 CreateArrayFromList
 CreateArrayFromList
@@ -510,28 +572,6 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createasy
 1
 1
 -
-CreateAsyncIteratorFromClosure
-CreateAsyncIteratorFromClosure
-abstract-op
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createasynciteratorfromclosure
-1
-1
--
-CreateAsyncIteratorFromClosure(closure, generatorBrand, generatorPrototype)
-CreateAsyncIteratorFromClosure(closure, generatorBrand, generatorPrototype)
-abstract-op
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createasynciteratorfromclosure
-1
-1
--
 CreateBuiltinFunction
 CreateBuiltinFunction
 abstract-op
@@ -543,8 +583,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-CreateBuiltinFunction(behaviour, length, name, additionalInternalSlotsList, realm, prototype, prefix)
-CreateBuiltinFunction(behaviour, length, name, additionalInternalSlotsList, realm, prototype, prefix)
+CreateBuiltinFunction(behaviour, length, name, additionalInternalSlotsList, realm, proto, prefix, async)
+CreateBuiltinFunction(behaviour, length, name, additionalInternalSlotsList, realm, proto, prefix, async)
 abstract-op
 ecmascript
 ecmascript
@@ -587,8 +627,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-createdatapropert
 1
 1
 -
-CreateDataProperty(O, P, V)
-CreateDataProperty(O, P, V)
+CreateDataProperty(obj, propertyKey, value)
+CreateDataProperty(obj, propertyKey, value)
 abstract-op
 ecmascript
 ecmascript
@@ -609,8 +649,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-createdatapropert
 1
 1
 -
-CreateDataPropertyOrThrow(O, P, V)
-CreateDataPropertyOrThrow(O, P, V)
+CreateDataPropertyOrThrow(obj, propertyKey, value)
+CreateDataPropertyOrThrow(obj, propertyKey, value)
 abstract-op
 ecmascript
 ecmascript
@@ -620,6 +660,28 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-createdatapropert
 1
 1
 -
+CreateDefaultExportSyntheticModule
+CreateDefaultExportSyntheticModule
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-create-default-export-synthetic-module
+1
+1
+-
+CreateDefaultExportSyntheticModule(defaultExport)
+CreateDefaultExportSyntheticModule(defaultExport)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-create-default-export-synthetic-module
+1
+1
+-
 CreateDynamicFunction
 CreateDynamicFunction
 abstract-op
@@ -631,8 +693,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-createdynamicfunc
 1
 1
 -
-CreateDynamicFunction(constructor, newTarget, kind, parameterArgs, bodyArg)
-CreateDynamicFunction(constructor, newTarget, kind, parameterArgs, bodyArg)
+CreateDynamicFunction(ctor, newTarget, kind, paramArgs, bodyArg)
+CreateDynamicFunction(ctor, newTarget, kind, paramArgs, bodyArg)
 abstract-op
 ecmascript
 ecmascript
@@ -653,8 +715,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declaration
 1
 1
 -
-CreateForInIterator(object)
-CreateForInIterator(object)
+CreateForInIterator(obj)
+CreateForInIterator(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -664,8 +726,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declaration
 1
 1
 -
-CreateGlobalFunctionBinding(N, V, D)
-CreateGlobalFunctionBinding(N, V, D)
+CreateGlobalFunctionBinding
+CreateGlobalFunctionBinding
 abstract-op
 ecmascript
 ecmascript
@@ -674,10 +736,20 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-createglobalfunctionbinding
 1
 1
-Global Environment Records
 -
-CreateGlobalVarBinding(N, D)
-CreateGlobalVarBinding(N, D)
+CreateGlobalFunctionBinding(envRecord, name, value, deletable)
+CreateGlobalFunctionBinding(envRecord, name, value, deletable)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-createglobalfunctionbinding
+1
+1
+-
+CreateGlobalVarBinding
+CreateGlobalVarBinding
 abstract-op
 ecmascript
 ecmascript
@@ -686,7 +758,17 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-createglobalvarbinding
 1
 1
-Global Environment Records
+-
+CreateGlobalVarBinding(envRecord, name, deletable)
+CreateGlobalVarBinding(envRecord, name, deletable)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-createglobalvarbinding
+1
+1
 -
 CreateHTML
 CreateHTML
@@ -699,8 +781,8 @@ https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browser
 1
 1
 -
-CreateHTML(string, tag, attribute, value)
-CreateHTML(string, tag, attribute, value)
+CreateHTML(contents, tag, attr, attrValue)
+CreateHTML(contents, tag, attr, attrValue)
 abstract-op
 ecmascript
 ecmascript
@@ -732,8 +814,8 @@ https://www.w3.org/TR/trusted-types/#callbackdef-createhtmlcallback
 1
 1
 -
-CreateImmutableBinding(N, S)
-CreateImmutableBinding(N, S)
+CreateImmutableBinding(name, strict)
+CreateImmutableBinding(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -744,8 +826,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Declarative Environment Records
 -
-CreateImmutableBinding(N, S)
-CreateImmutableBinding(N, S)
+CreateImmutableBinding(name, strict)
+CreateImmutableBinding(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -756,8 +838,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Global Environment Records
 -
-CreateImmutableBinding(N, S)
-CreateImmutableBinding(N, S)
+CreateImmutableBinding(name, strict)
+CreateImmutableBinding(name, strict)
 abstract-op
 ecmascript
 ecmascript
@@ -768,8 +850,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Object Environment Records
 -
-CreateImportBinding(N, M, N2)
-CreateImportBinding(N, M, N2)
+CreateImportBinding
+CreateImportBinding
 abstract-op
 ecmascript
 ecmascript
@@ -778,7 +860,17 @@ current
 https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-createimportbinding
 1
 1
-Module Environment Records
+-
+CreateImportBinding(envRecord, name, targetModule, targetName)
+CreateImportBinding(envRecord, name, targetModule, targetName)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#sec-createimportbinding
+1
+1
 -
 CreateIntrinsics
 CreateIntrinsics
@@ -791,8 +883,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 1
 -
-CreateIntrinsics(realmRec)
-CreateIntrinsics(realmRec)
+CreateIntrinsics(realmRecord)
+CreateIntrinsics(realmRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -813,8 +905,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createite
 1
 1
 -
-CreateIteratorFromClosure(closure, generatorBrand, generatorPrototype, extraSlots)
-CreateIteratorFromClosure(closure, generatorBrand, generatorPrototype, extraSlots)
+CreateIteratorFromClosure(closure, genBrand, genProto, extraSlots)
+CreateIteratorFromClosure(closure, genBrand, genProto, extraSlots)
 abstract-op
 ecmascript
 ecmascript
@@ -843,6 +935,28 @@ ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/abstract-operations.html#sec-createiterresultobject
+1
+1
+-
+CreateJSONParseRecord
+CreateJSONParseRecord
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-createjsonparserecord
+1
+1
+-
+CreateJSONParseRecord(parseNode, key, value)
+CreateJSONParseRecord(parseNode, key, value)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-createjsonparserecord
 1
 1
 -
@@ -923,8 +1037,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-CreateMappedArgumentsObject(func, formals, argumentsList, env)
-CreateMappedArgumentsObject(func, formals, argumentsList, env)
+CreateMappedArgumentsObject(func, formals, argList, envRecord)
+CreateMappedArgumentsObject(func, formals, argList, envRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -934,8 +1048,30 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-CreateMutableBinding(N, D)
-CreateMutableBinding(N, D)
+CreateMonitor
+CreateMonitor
+interface
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#createmonitor
+1
+1
+-
+CreateMonitorCallback
+CreateMonitorCallback
+callback
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#callbackdef-createmonitorcallback
+1
+1
+-
+CreateMutableBinding(name, deletable)
+CreateMutableBinding(name, deletable)
 abstract-op
 ecmascript
 ecmascript
@@ -946,8 +1082,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Declarative Environment Records
 -
-CreateMutableBinding(N, D)
-CreateMutableBinding(N, D)
+CreateMutableBinding(name, deletable)
+CreateMutableBinding(name, deletable)
 abstract-op
 ecmascript
 ecmascript
@@ -958,8 +1094,8 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 Global Environment Records
 -
-CreateMutableBinding(N, D)
-CreateMutableBinding(N, D)
+CreateMutableBinding(name, deletable)
+CreateMutableBinding(name, deletable)
 abstract-op
 ecmascript
 ecmascript
@@ -981,8 +1117,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-createnonenumerab
 1
 1
 -
-CreateNonEnumerableDataPropertyOrThrow(O, P, V)
-CreateNonEnumerableDataPropertyOrThrow(O, P, V)
+CreateNonEnumerableDataPropertyOrThrow(obj, propertyKey, value)
+CreateNonEnumerableDataPropertyOrThrow(obj, propertyKey, value)
 abstract-op
 ecmascript
 ecmascript
@@ -1022,7 +1158,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#abstract-opdef-createreadablebytestream
-1
+
 1
 -
 CreateReadableStream
@@ -1033,7 +1169,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#create-readable-stream
-1
+
 1
 -
 CreateRegExpStringIterator
@@ -1047,8 +1183,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-createregexpstringite
 1
 1
 -
-CreateRegExpStringIterator(R, S, global, fullUnicode)
-CreateRegExpStringIterator(R, S, global, fullUnicode)
+CreateRegExpStringIterator(regexp, string, global, fullUnicode)
+CreateRegExpStringIterator(regexp, string, global, fullUnicode)
 abstract-op
 ecmascript
 ecmascript
@@ -1069,8 +1205,8 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-createres
 1
 1
 -
-CreateResolvingFunctions(promise)
-CreateResolvingFunctions(promise)
+CreateResolvingFunctions(toResolve)
+CreateResolvingFunctions(toResolve)
 abstract-op
 ecmascript
 ecmascript
@@ -1179,8 +1315,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-CreateUnmappedArgumentsObject(argumentsList)
-CreateUnmappedArgumentsObject(argumentsList)
+CreateUnmappedArgumentsObject(argList)
+CreateUnmappedArgumentsObject(argList)
 abstract-op
 ecmascript
 ecmascript
@@ -1198,7 +1334,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#create-writable-stream
-1
+
 1
 -
 creating a frozen array from an iterable
@@ -1355,6 +1491,17 @@ https://www.w3.org/TR/webauthn-3/#credential-properties
 
 1
 -
+credential provider hosting device
+Credential Provider Hosting Device
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#credential-provider-hosting-device
+
+1
+-
 credential public key
 Credential Public Key
 dfn
@@ -1422,6 +1569,54 @@ https://www.w3.org/TR/credential-management-1/#credential-type-registry-credenti
 
 1
 credential type registry
+-
+credential request
+credential request
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-credential-request
+
+1
+digital credential
+-
+credential request
+credential request
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-credential-request
+
+1
+digital credential
+-
+credential response
+credential response
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-credential-response
+
+1
+digital credential
+-
+credential response
+credential response
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-credential-response
+
+1
+digital credential
 -
 CredentialCreationOptions
 CredentialCreationOptions
@@ -1533,6 +1728,28 @@ https://www.w3.org/TR/credential-management-1/#dictdef-credentialrequestoptions
 1
 1
 -
+CredentialUiMode
+CredentialUiMode
+enum
+credential-management-1
+credential-management
+1
+current
+https://w3c.github.io/webappsec-credential-management/#enumdef-credentialuimode
+1
+1
+-
+CredentialUiMode
+CredentialUiMode
+enum
+credential-management-1
+credential-management
+1
+snapshot
+https://www.w3.org/TR/credential-management-1/#enumdef-credentialuimode
+1
+1
+-
 CredentialUserData
 CredentialUserData
 interface
@@ -1588,16 +1805,29 @@ https://www.w3.org/TR/credential-management-1/#credentialscontainer
 1
 1
 -
-critical-ch restart time
-Critical-CH restart time
+credit
+credit
 dfn
-navigation-timing-2
-navigation-timing
-2
+attribution
+attribution
+1
 current
-https://w3c.github.io/navigation-timing/#dfn-critical-ch-restart-time
+https://w3c.github.io/attribution/#validated-conversion-options-credit
 
 1
+validated conversion options
+-
+credit
+credit
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-credit
+
+1
+validated conversion options
 -
 critical-ch restart time
 Critical-CH restart time
@@ -1607,17 +1837,6 @@ client-hints-infrastructure
 1
 current
 https://wicg.github.io/client-hints-infrastructure/#critical-ch-restart-time
-
-1
--
-critical-ch restart time
-Critical-CH restart time
-dfn
-navigation-timing-2
-navigation-timing
-2
-snapshot
-https://www.w3.org/TR/navigation-timing-2/#dfn-critical-ch-restart-time
 
 1
 -
@@ -1797,6 +2016,28 @@ https://www.w3.org/TR/media-source-2/#dfn-cross-context-communication-model
 
 1
 -
+cross-context recognition
+cross-context recognition
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-cross-context-recognition
+1
+
+-
+cross-context recognition
+cross-context recognition
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-cross-context-recognition
+
+
+-
 cross-document messaging
 cross-document messaging
 dfn
@@ -1807,6 +2048,28 @@ current
 https://html.spec.whatwg.org/multipage/web-messaging.html#crossDocumentMessages
 
 1
+-
+cross-site recognition
+cross-site recognition
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-cross-site-recognition
+1
+
+-
+cross-site recognition
+cross-site recognition
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-cross-site-recognition
+
+
 -
 crossoriginget
 CrossOriginGet
@@ -1893,51 +2156,51 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#abstract-opdef-crossrealmtransformsenderror
-1
+
 1
 -
 Crypto
 Crypto
 interface
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-Crypto
 1
 1
 -
-crypto
-crypto
-dfn
-webcryptoapi
-webcryptoapi
-1
+Crypto
+Crypto
+interface
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-Crypto
-
+https://www.w3.org/TR/webcrypto-2/#dfn-Crypto
+1
 1
 -
 CryptoKey
 CryptoKey
 interface
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKey
 1
 1
 -
-cryptokey
 CryptoKey
-dfn
-webcryptoapi
-webcryptoapi
-1
+CryptoKey
+interface
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey
-
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKey
+1
 1
 -
 CryptoKeyID
@@ -1965,22 +2228,44 @@ https://www.w3.org/TR/webrtc-encoded-transform/#typedefdef-cryptokeyid
 CryptoKeyPair
 CryptoKeyPair
 dictionary
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKeyPair
 1
 1
 -
-cryptokeypair
 CryptoKeyPair
+CryptoKeyPair
+dictionary
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKeyPair
+1
+1
+-
+cryptographic agility
+cryptographic agility
 dfn
-webcryptoapi
-webcryptoapi
+vc-data-integrity-1.1
+vc-data-integrity
+1
+current
+https://w3c.github.io/vc-data-integrity/#dfn-cryptographic-agility
+
+1
+-
+cryptographic agility
+cryptographic agility
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
 1
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKeyPair
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-cryptographic-agility
 
 1
 -
@@ -1991,7 +2276,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-cryptographic-agility
+https://www.w3.org/TR/vc-data-integrity/#dfn-cryptographic-agility
 
 1
 -
@@ -2009,11 +2294,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-cryptographic-agility
 cryptographic layering
 cryptographic layering
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-cryptographic-layering
+
+1
+-
+cryptographic layering
+cryptographic layering
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-cryptographic-layering
+
+1
+-
+cryptographic layering
+cryptographic layering
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-cryptographic-layering
 
 1
 -
@@ -2027,6 +2334,18 @@ snapshot
 https://www.w3.org/TR/vc-data-integrity/#dfn-cryptographic-layering
 
 1
+-
+[[Create]](origin, options, sameOriginWithAncestors)
+[[Create]](origin, options, sameOriginWithAncestors)
+method
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-create-origin-options-sameoriginwithancestors
+1
+1
+DigitalCredential
 -
 [[Create]](origin, options, sameOriginWithAncestors)
 [[Create]](origin, options, sameOriginWithAncestors)
@@ -2079,18 +2398,6 @@ PublicKeyCredential
 [[Create]](origin, options, sameOriginWithAncestors)
 [[Create]](origin, options, sameOriginWithAncestors)
 method
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dfn-create-origin-options-sameoriginwithancestors
-1
-1
-DigitalCredential
--
-[[Create]](origin, options, sameOriginWithAncestors)
-[[Create]](origin, options, sameOriginWithAncestors)
-method
 credential-management-1
 credential-management
 1
@@ -2127,6 +2434,18 @@ PasswordCredential
 [[Create]](origin, options, sameOriginWithAncestors)
 [[Create]](origin, options, sameOriginWithAncestors)
 method
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-create-origin-options-sameoriginwithancestors
+1
+1
+DigitalCredential
+-
+[[Create]](origin, options, sameOriginWithAncestors)
+[[Create]](origin, options, sameOriginWithAncestors)
+method
 webauthn-3
 webauthn
 3
@@ -2157,7 +2476,79 @@ current
 https://html.spec.whatwg.org/multipage/urls-and-fetching.html#cryptographicnonce
 1
 1
-HTMLOrSVGElement
+HTMLOrSVGOrMathMLElement
+-
+`critical-ch` restart time
+`Critical-CH` restart time
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancenavigationtiming-critical-ch-restart-time
+
+1
+PerformanceNavigationTiming
+-
+`critical-ch` restart time
+`Critical-CH` restart time
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancenavigationtiming-critical-ch-restart-time
+
+1
+PerformanceNavigationTiming
+-
+crash report buffers
+crash report buffers
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#user-agent-crash-report-buffers
+
+1
+user agent
+-
+crashReport
+crashReport
+attribute
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#dom-window-crashreport
+1
+1
+Window
+-
+crashreport
+crashReport
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#window-crashreport
+
+1
+Window
+-
+crash_report_api
+crash_report_api
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportbody-crash_report_api
+
+1
+CrashReportBody
 -
 create
 create
@@ -2222,6 +2613,18 @@ FileSystemGetFileOptions
 create
 create
 dfn
+infra
+infra
+1
+current
+https://infra.spec.whatwg.org/#set-create
+1
+1
+set
+-
+create
+create
+dfn
 urlpattern
 urlpattern
 1
@@ -2230,6 +2633,18 @@ https://urlpattern.spec.whatwg.org/#url-pattern-create
 1
 1
 URL pattern
+-
+create
+create
+dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#rtcrtpscripttransformer-create
+
+1
+RTCRtpScriptTransformer
 -
 create
 create
@@ -2254,6 +2669,18 @@ https://w3c.github.io/webtransport/#webtransportdatagramduplexstream-create
 1
 1
 WebTransportDatagramDuplexStream
+-
+create
+create
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#webtransportdatagramswritable-create
+1
+1
+WebTransportDatagramsWritable
 -
 create
 create
@@ -2378,6 +2805,18 @@ line-grid
 create
 create
 dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#rtcrtpscripttransformer-create
+
+1
+RTCRtpScriptTransformer
+-
+create
+create
+dfn
 webtransport
 webtransport
 1
@@ -2398,6 +2837,18 @@ https://www.w3.org/TR/webtransport/#webtransportdatagramduplexstream-create
 1
 1
 WebTransportDatagramDuplexStream
+-
+create
+create
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#webtransportdatagramswritable-create
+1
+1
+WebTransportDatagramsWritable
 -
 create
 create
@@ -2454,7 +2905,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-create-ndef-message
+https://w3c-cg.github.io/web-nfc/#dfn-create-ndef-message
 
 1
 -
@@ -2465,30 +2916,30 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-create-ndef-record
+https://w3c-cg.github.io/web-nfc/#dfn-create-ndef-record
 
 1
 -
 create pointerevent from mouseevent
 create PointerEvent from MouseEvent
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#create-pointerevent-from-mouseevent
-
+https://w3c.github.io/pointerevents/#dfn-creating-pointerevent-from-mouseevent
+1
 1
 -
 create pointerevent from mouseevent
 create PointerEvent from MouseEvent
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#create-pointerevent-from-mouseevent
-
+https://www.w3.org/TR/pointerevents4/#dfn-creating-pointerevent-from-mouseevent
+1
 1
 -
 create a 'webgpu' context on a canvas
@@ -2520,7 +2971,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-2d-matrix
+https://drafts.csswg.org/geometry-1/#create-a-2d-matrix
 
 1
 -
@@ -2542,7 +2993,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-3d-matrix
+https://drafts.csswg.org/geometry-1/#create-a-3d-matrix
 
 1
 -
@@ -2768,14 +3219,36 @@ https://www.w3.org/TR/contact-picker/#contactsmanager-create-a-contactaddress-fr
 1
 ContactsManager
 -
+create a container timing record
+create a Container Timing Record
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#create-a-container-timing-record
+
+1
+-
+create a container timing entry
+create a Container Timing entry
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#create-a-container-timing-entry
+
+1
+-
 create a cookielistitem
 create a CookieListItem
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#create-a-cookielistitem
+https://cookiestore.spec.whatwg.org/#create-a-cookielistitem
 
 1
 -
@@ -2808,7 +3281,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-dommatrix-from-the-2d-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-dommatrix-from-the-2d-dictionary
 1
 1
 -
@@ -2830,7 +3303,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-dommatrix-from-the-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-dommatrix-from-the-dictionary
 
 1
 -
@@ -2852,7 +3325,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-dommatrixreadonly-from-the-2d-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-dommatrixreadonly-from-the-2d-dictionary
 1
 1
 -
@@ -2874,7 +3347,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-dommatrixreadonly-from-the-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-dommatrixreadonly-from-the-dictionary
 1
 1
 -
@@ -2896,7 +3369,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-dompoint-from-the-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-dompoint-from-the-dictionary
 
 1
 -
@@ -2918,7 +3391,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-dompointreadonly-from-the-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-dompointreadonly-from-the-dictionary
 
 1
 -
@@ -2940,7 +3413,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-domquad-from-the-domquadinit-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-domquad-from-the-domquadinit-dictionary
 
 1
 -
@@ -2962,7 +3435,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-domquad-from-the-domrectinit-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-domquad-from-the-domrectinit-dictionary
 
 1
 -
@@ -2984,7 +3457,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-domrect-from-the-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-domrect-from-the-dictionary
 
 1
 -
@@ -3006,7 +3479,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#create-a-domrectreadonly-from-the-dictionary
+https://drafts.csswg.org/geometry-1/#create-a-domrectreadonly-from-the-dictionary
 
 1
 -
@@ -3084,6 +3557,50 @@ largest-contentful-paint
 1
 snapshot
 https://www.w3.org/TR/largest-contentful-paint/#create-a-largestcontentfulpaint-entry
+
+1
+-
+create a MediaCapabilitiesDecodingInfo
+create a MediaCapabilitiesDecodingInfo
+abstract-op
+media-capabilities
+media-capabilities
+1
+current
+https://w3c.github.io/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesdecodinginfo
+
+1
+-
+create a MediaCapabilitiesDecodingInfo
+create a MediaCapabilitiesDecodingInfo
+abstract-op
+media-capabilities
+media-capabilities
+1
+snapshot
+https://www.w3.org/TR/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesdecodinginfo
+
+1
+-
+create a MediaCapabilitiesEncodingInfo
+create a MediaCapabilitiesEncodingInfo
+abstract-op
+media-capabilities
+media-capabilities
+1
+current
+https://w3c.github.io/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesencodinginfo
+
+1
+-
+create a MediaCapabilitiesEncodingInfo
+create a MediaCapabilitiesEncodingInfo
+abstract-op
+media-capabilities
+media-capabilities
+1
+snapshot
+https://www.w3.org/TR/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesencodinginfo
 
 1
 -
@@ -3233,23 +3750,23 @@ https://www.w3.org/TR/permissions/#dfn-create-a-permissionstatus
 create a pointerevent
 create a PointerEvent
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#create-a-pointerevent
-
+https://w3c.github.io/pointerevents/#dfn-creating-a-pointerevent
+1
 1
 -
 create a pointerevent
 create a PointerEvent
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#create-a-pointerevent
-
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-pointerevent
+1
 1
 -
 create a restrictiontarget
@@ -3261,6 +3778,61 @@ element-capture
 current
 https://screen-share.github.io/element-capture/#dfn-create-a-restrictiontarget
 1
+1
+-
+create a tag object
+create a Tag object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#create-a-tag-object
+
+1
+-
+create a tag object
+create a Tag object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#create-a-tag-object
+
+1
+-
+create a url for a base descriptor
+create a URL for a base descriptor
+dfn
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#create-a-url-for-a-base-descriptor
+
+1
+-
+create a url pattern for url-pattern()
+create a URL pattern for url-pattern()
+dfn
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#create-a-url-pattern-for-url-pattern
+
+1
+-
+create a uint8array object
+create a Uint8Array object
+dfn
+encoding
+encoding
+1
+current
+https://encoding.spec.whatwg.org/#create-a-uint8array-object
+
 1
 -
 create a webassembly module script
@@ -3331,25 +3903,47 @@ https://wicg.github.io/ua-client-hints/#create-a-brand-version-list
 
 1
 -
-create a cancelable mouseevent
-create a cancelable MouseEvent
+create a builtin function
+create a builtin function
 dfn
-uievents
-uievents
-1
+wasm-js-api-2
+wasm-js-api
+2
 current
-https://w3c.github.io/uievents/#create-a-cancelable-mouseevent
+https://webassembly.github.io/spec/js-api/#create-a-builtin-function
+
+1
+-
+create a builtin function
+create a builtin function
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#create-a-builtin-function
 
 1
 -
 create a cancelable mouseevent
 create a cancelable MouseEvent
 dfn
-uievents
-uievents
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-a-cancelable-mouseevent
+
 1
+-
+create a cancelable mouseevent
+create a cancelable MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#create-a-cancelable-mouseevent
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-cancelable-mouseevent
 
 1
 -
@@ -3361,6 +3955,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#create-a-channel
+
+1
+-
+create a channel
+create a channel
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#create-a-channel
 
 1
 -
@@ -3416,6 +4021,28 @@ fedcm
 1
 snapshot
 https://www.w3.org/TR/fedcm-1/#create-a-connection-between-the-rp-and-the-idp-account
+
+1
+-
+create a constant mltensor
+create a constant MLTensor
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#create-a-constant-mltensor
+
+1
+-
+create a constant mltensor
+create a constant MLTensor
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#create-a-constant-mltensor
 
 1
 -
@@ -3518,6 +4145,29 @@ https://wicg.github.io/scheduling-apis/#create-a-dependent-task-signal
 
 1
 -
+create a document to display a user agent page or pdf viewer inline
+create a document to display a user agent page or PDF viewer inline
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/document-lifecycle.html#navigate-ua-inline
+
+1
+-
+create a dummy url
+create a dummy URL
+dfn
+urlpattern
+urlpattern
+1
+current
+https://urlpattern.spec.whatwg.org/#url-pattern-create-a-dummy-url
+1
+1
+URL pattern
+-
 create a fixed length memory buffer
 create a fixed length memory buffer
 dfn
@@ -3592,6 +4242,28 @@ wasm-js-api
 2
 snapshot
 https://www.w3.org/TR/wasm-js-api-2/#create-a-global-object
+
+1
+-
+create a headers list
+create a headers list
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#create-a-headers-list
+
+1
+-
+create a headers list
+create a headers list
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#create-a-headers-list
 
 1
 -
@@ -3705,17 +4377,6 @@ https://www.w3.org/TR/wasm-js-api-2/#create-a-host-function
 
 1
 -
-create a k-anon restricted deep copy of the interest group
-create a k-anon restricted deep copy of the interest group
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#create-a-k-anon-restricted-deep-copy-of-the-interest-group
-
-1
--
 create a key input source
 create a key input source
 dfn
@@ -3735,6 +4396,39 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-create-a-key-input-source
+
+1
+-
+create a key pair
+create a key pair
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#create-a-key-pair
+
+1
+-
+create a key pair
+create a key pair
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#create-a-key-pair
+
+1
+-
+create a language model object
+create a language model object
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#create-a-language-model-object
 
 1
 -
@@ -4090,39 +4784,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-new-javascript
 1
 1
 -
-create a new script fetcher
-create a new script fetcher
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#create-a-new-script-fetcher
-
-1
--
-create a new script runner agent
-create a new script runner agent
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#create-a-new-script-runner-agent
-
-1
--
-create a new script runner realm
-create a new script runner realm
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#create-a-new-script-runner-realm
-
-1
--
 create a new signed exchange report
 create a new signed exchange report
 dfn
@@ -4159,22 +4820,22 @@ https://html.spec.whatwg.org/multipage/document-sequences.html#creating-a-new-to
 create a non-cancelable mouseevent
 create a non-cancelable MouseEvent
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#create-a-non-cancelable-mouseevent
+https://w3c.github.io/pointerevents/#dfn-creating-a-non-cancelable-mouseevent
 
 1
 -
 create a non-cancelable mouseevent
 create a non-cancelable MouseEvent
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#create-a-non-cancelable-mouseevent
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-non-cancelable-mouseevent
 
 1
 -
@@ -4366,36 +5027,25 @@ https://www.w3.org/TR/webxr/#create-a-reference-space
 
 1
 -
-create a report request
-create a report request
+create a request to retrieve multiple items
+create a request to retrieve multiple items
 dfn
-private-aggregation-api
-private-aggregation-api
-1
+indexeddb-3
+indexeddb
+3
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#create-a-report-request
+https://w3c.github.io/IndexedDB/#create-a-request-to-retrieve-multiple-items
 
 1
 -
-create a report request
-create a report request
+create a request to retrieve multiple items
+create a request to retrieve multiple items
 dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#create-a-report-request
-
-1
--
-create a reporting context map
-create a reporting context map
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#create-a-reporting-context-map
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#create-a-request-to-retrieve-multiple-items
 
 1
 -
@@ -4432,6 +5082,17 @@ https://www.w3.org/TR/wasm-js-api-2/#create-a-resizable-memory-buffer
 
 1
 -
+create a rewriter object
+create a rewriter object
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#create-a-rewriter-object
+
+1
+-
 create a sandbox realm
 create a sandbox realm
 dfn
@@ -4440,6 +5101,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#create-a-sandbox-realm
+
+1
+-
+create a sandbox realm
+create a sandbox realm
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#create-a-sandbox-realm
 
 1
 -
@@ -4457,12 +5129,34 @@ https://wicg.github.io/scheduling-apis/#create-a-scheduler-task-queue
 create a session
 create a session
 dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#create-session
+1
+1
+-
+create a session
+create a session
+dfn
 webdriver2
 webdriver
 2
 current
 https://w3c.github.io/webdriver/#dfn-create-a-session
 
+1
+-
+create a session
+create a session
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#create-session
+1
 1
 -
 create a session
@@ -4476,6 +5170,28 @@ https://www.w3.org/TR/webdriver2/#dfn-create-a-session
 
 1
 -
+create a session key pair
+create a session key pair
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#create-session-key-pair
+1
+1
+-
+create a session key pair
+create a session key pair
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#create-session-key-pair
+1
+1
+-
 create a set iterator
 create a set iterator
 dfn
@@ -4484,28 +5200,6 @@ webidl
 1
 current
 https://webidl.spec.whatwg.org/#create-a-set-iterator
-
-1
--
-create a shared storage bucket
-create a shared storage bucket
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#create-a-shared-storage-bucket
-
-1
--
-create a shared storage shelf
-create a shared storage shelf
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#create-a-shared-storage-shelf
 
 1
 -
@@ -4550,6 +5244,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/images.html#create-a-source-set
+
+1
+-
+create a speculation rules parse result
+create a speculation rules parse result
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/webappapis.html#create-a-speculation-rules-parse-result
 
 1
 -
@@ -4608,6 +5313,28 @@ https://www.w3.org/TR/css-typed-om-1/#create-a-sum-value
 1
 1
 -
+create a summarizer object
+create a summarizer object
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#create-a-summarizer-object
+
+1
+-
+create a table element
+create a table element
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/tables.html#create-a-table-element
+
+1
+-
 create a table object
 create a table object
 dfn
@@ -4641,25 +5368,58 @@ https://wicg.github.io/scheduling-apis/#create-a-task-handle
 
 1
 -
-create a task scope
-create a task scope
+create a text module script
+create a text module script
 dfn
-soft-navigations
-soft-navigations
+html
+html
 1
 current
-https://wicg.github.io/soft-navigations/#create-a-task-scope
+https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-text-module-script
 
 1
 -
-create a trusted scoring signals batcher
-create a trusted scoring signals batcher
+create a trusted type
+create a trusted type
 dfn
-turtledove
-turtledove
+trusted-types
+trusted-types
 1
 current
-https://wicg.github.io/turtledove/#create-a-trusted-scoring-signals-batcher
+https://w3c.github.io/trusted-types/dist/spec/#create-a-trusted-type
+
+1
+-
+create a trusted type
+create a trusted type
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#create-a-trusted-type
+
+1
+-
+create a trusted type policy
+create a trusted type policy
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#create-a-trusted-type-policy
+
+1
+-
+create a trusted type policy
+create a trusted type policy
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#create-a-trusted-type-policy
 
 1
 -
@@ -4753,25 +5513,47 @@ https://html.spec.whatwg.org/multipage/worklets.html#create-a-worklet-global-sco
 1
 1
 -
-create aggregatable contributions
-create aggregatable contributions
+create a writer object
+create a writer object
 dfn
-attribution-reporting-api
-attribution-reporting-api
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/attribution-reporting-api/#create-aggregatable-contributions
+https://webmachinelearning.github.io/writing-assistance-apis/#create-a-writer-object
 
 1
 -
-create aggregatable contributions from aggregation keys and aggregatable values
-create aggregatable contributions from aggregation keys and aggregatable values
+create an ai model object
+create an AI model object
 dfn
-attribution-reporting-api
-attribution-reporting-api
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/attribution-reporting-api/#create-aggregatable-contributions-from-aggregation-keys-and-aggregatable-values
+https://webmachinelearning.github.io/writing-assistance-apis/#create-an-ai-model-object
+1
+1
+-
+create an exception object
+create an Exception object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#create-an-exception-object
+
+1
+-
+create an exception object
+create an Exception object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#create-an-exception-object
 
 1
 -
@@ -4794,6 +5576,17 @@ fedcm
 1
 snapshot
 https://www.w3.org/TR/fedcm-1/#create-an-identitycredential
+
+1
+-
+create an identitycredentialerror
+create an IdentityCredentialError
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#create-an-identitycredentialerror
 
 1
 -
@@ -4838,6 +5631,28 @@ webnn
 1
 snapshot
 https://www.w3.org/TR/webnn/#create-an-mloperanddescriptor
+
+1
+-
+create an mltensor
+create an MLTensor
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#create-an-mltensor
+
+1
+-
+create an mltensor
+create an MLTensor
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#create-an-mltensor
 
 1
 -
@@ -5028,6 +5843,28 @@ https://html.spec.whatwg.org/multipage/webappapis.html#create-an-agent
 
 1
 -
+create an all-zero histogram
+create an all-zero histogram
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#create-an-all-zero-histogram
+
+1
+-
+create an all-zero histogram
+create an all-zero histogram
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#create-an-all-zero-histogram
+
+1
+-
 create an anchor from frame
 create an anchor from frame
 dfn
@@ -5094,17 +5931,6 @@ https://wicg.github.io/ua-client-hints/#create-an-arbitrary-version
 
 1
 -
-create an attribution trigger
-create an attribution trigger
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#create-an-attribution-trigger
-
-1
--
 create an element
 create an element
 dfn
@@ -5124,6 +5950,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/parsing.html#create-an-element-for-the-token
+
+1
+-
+create an element internal
+create an element internal
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#create-an-element-internal
 
 1
 -
@@ -5246,6 +6083,17 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-create-an-input-state
+
+1
+-
+create an interaction contentful paint entry
+create an interaction contentful paint entry
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#create-an-interaction-contentful-paint-entry
 
 1
 -
@@ -5482,17 +6330,6 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#create-navigation-p
 
 1
 -
-create nested configs
-create nested configs
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#create-nested-configs
-
-1
--
 create new anchor object
 create new anchor object
 dfn
@@ -5522,7 +6359,7 @@ webxr-plane-detection
 webxr-plane-detection
 1
 current
-https://immersive-web.github.io/real-world-geometry/plane-detection.html#create-plane-object
+https://immersive-web.github.io/plane-detection/#create-plane-object
 
 1
 -
@@ -5572,6 +6409,39 @@ https://w3c.github.io/long-animation-frames/#create-script-entry-point
 
 1
 -
+create script entry point
+create script entry point
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#create-script-entry-point
+
+1
+-
+create segment endpoints
+create segment endpoints
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#create-segment-endpoints
+
+1
+-
+create segment endpoints
+create segment endpoints
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#create-segment-endpoints
+
+1
+-
 create the attribution
 create the attribution
 dfn
@@ -5583,6 +6453,17 @@ https://wicg.github.io/layout-instability/#create-the-attribution
 
 1
 -
+create the language detector object
+create the language detector object
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#create-the-language-detector-object
+
+1
+-
 create the navigation timing entry
 create the navigation timing entry
 dfn
@@ -5590,7 +6471,7 @@ navigation-timing-2
 navigation-timing
 2
 current
-https://w3c.github.io/navigation-timing/#dfn-create-the-navigation-timing-entry
+https://w3c.github.io/navigation-timing/#create-the-navigation-timing-entry
 1
 1
 -
@@ -5601,8 +6482,19 @@ navigation-timing-2
 navigation-timing
 2
 snapshot
-https://www.w3.org/TR/navigation-timing-2/#dfn-create-the-navigation-timing-entry
+https://www.w3.org/TR/navigation-timing-2/#create-the-navigation-timing-entry
 1
+1
+-
+create the translator object
+create the translator object
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#create-the-translator-object
+
 1
 -
 create()
@@ -5620,6 +6512,78 @@ CredentialsContainer
 create()
 create()
 method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-create
+1
+1
+LanguageModel
+-
+create()
+create()
+method
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-create
+1
+1
+LanguageDetector
+-
+create()
+create()
+method
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-create
+1
+1
+Rewriter
+-
+create()
+create()
+method
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-create
+1
+1
+Summarizer
+-
+create()
+create()
+method
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-create
+1
+1
+Writer
+-
+create()
+create()
+method
+text-detection-api
+text-detection-api
+1
+current
+https://wicg.github.io/shape-detection-api/text.html#dom-textdetector-create
+1
+1
+TextDetector
+-
+create()
+create()
+method
 credential-management-1
 credential-management
 1
@@ -5629,8 +6593,116 @@ https://www.w3.org/TR/credential-management-1/#dom-credentialscontainer-create
 1
 CredentialsContainer
 -
-create(O, Properties)
-create(O, Properties)
+create(options)
+create(options)
+method
+credential-management-1
+credential-management
+1
+current
+https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-create
+1
+1
+CredentialsContainer
+-
+create(options)
+create(options)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-create
+1
+1
+LanguageModel
+-
+create(options)
+create(options)
+method
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-create
+1
+1
+LanguageDetector
+-
+create(options)
+create(options)
+method
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-create
+1
+1
+Translator
+-
+create(options)
+create(options)
+method
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-create
+1
+1
+Rewriter
+-
+create(options)
+create(options)
+method
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-create
+1
+1
+Summarizer
+-
+create(options)
+create(options)
+method
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-create
+1
+1
+Writer
+-
+create(options)
+create(options)
+method
+text-detection-api
+text-detection-api
+1
+current
+https://wicg.github.io/shape-detection-api/text.html#dom-textdetector-create
+1
+1
+TextDetector
+-
+create(options)
+create(options)
+method
+credential-management-1
+credential-management
+1
+snapshot
+https://www.w3.org/TR/credential-management-1/#dom-credentialscontainer-create
+1
+1
+CredentialsContainer
+-
+create(proto, properties)
+create(proto, properties)
 method
 ecmascript
 ecmascript
@@ -5640,30 +6712,6 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object.create
 1
 1
 Object
--
-create(options)
-create(options)
-method
-credential-management-1
-credential-management
-1
-current
-https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-create
-1
-1
-CredentialsContainer
--
-create(options)
-create(options)
-method
-credential-management-1
-credential-management
-1
-snapshot
-https://www.w3.org/TR/credential-management-1/#dom-credentialscontainer-create
-1
-1
-CredentialsContainer
 -
 create-document-policy
 create-document-policy
@@ -5701,7 +6749,7 @@ https://wicg.github.io/document-policy/#create-nested-context-required-document-
 createAnalyser()
 createAnalyser()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5713,11 +6761,35 @@ BaseAudioContext
 createAnalyser()
 createAnalyser()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createanalyser
+1
+1
+BaseAudioContext
+-
+createAnalyser()
+createAnalyser()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createanalyser
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createanalyser
+1
+1
+BaseAudioContext
+-
+createAnalyser()
+createAnalyser()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createanalyser
 1
 1
 BaseAudioContext
@@ -5877,18 +6949,6 @@ https://dom.spec.whatwg.org/#dom-document-createattributens
 1
 Document
 -
-createAuctionNonce()
-createAuctionNonce()
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-createauctionnonce
-1
-1
-Navigator
--
 createBidirectionalStream()
 createBidirectionalStream()
 method
@@ -5988,7 +7048,7 @@ GPUDevice
 createBiquadFilter()
 createBiquadFilter()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6000,11 +7060,35 @@ BaseAudioContext
 createBiquadFilter()
 createBiquadFilter()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createbiquadfilter
+1
+1
+BaseAudioContext
+-
+createBiquadFilter()
+createBiquadFilter()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createbiquadfilter
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createbiquadfilter
+1
+1
+BaseAudioContext
+-
+createBiquadFilter()
+createBiquadFilter()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createbiquadfilter
 1
 1
 BaseAudioContext
@@ -6036,7 +7120,7 @@ GPUDevice
 createBuffer(numberOfChannels, length, sampleRate)
 createBuffer(numberOfChannels, length, sampleRate)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6048,11 +7132,35 @@ BaseAudioContext
 createBuffer(numberOfChannels, length, sampleRate)
 createBuffer(numberOfChannels, length, sampleRate)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createbuffer
+1
+1
+BaseAudioContext
+-
+createBuffer(numberOfChannels, length, sampleRate)
+createBuffer(numberOfChannels, length, sampleRate)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createbuffer
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createbuffer
+1
+1
+BaseAudioContext
+-
+createBuffer(numberOfChannels, length, sampleRate)
+createBuffer(numberOfChannels, length, sampleRate)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createbuffer
 1
 1
 BaseAudioContext
@@ -6060,7 +7168,7 @@ BaseAudioContext
 createBufferSource()
 createBufferSource()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6072,11 +7180,35 @@ BaseAudioContext
 createBufferSource()
 createBufferSource()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createbuffersource
+1
+1
+BaseAudioContext
+-
+createBufferSource()
+createBufferSource()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createbuffersource
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createbuffersource
+1
+1
+BaseAudioContext
+-
+createBufferSource()
+createBufferSource()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createbuffersource
 1
 1
 BaseAudioContext
@@ -6108,7 +7240,7 @@ HTMLTableElement
 createChannelMerger()
 createChannelMerger()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6120,11 +7252,35 @@ BaseAudioContext
 createChannelMerger()
 createChannelMerger()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createchannelmerger
+1
+1
+BaseAudioContext
+-
+createChannelMerger()
+createChannelMerger()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createchannelmerger
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createchannelmerger
+1
+1
+BaseAudioContext
+-
+createChannelMerger()
+createChannelMerger()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createchannelmerger
 1
 1
 BaseAudioContext
@@ -6132,7 +7288,7 @@ BaseAudioContext
 createChannelMerger(numberOfInputs)
 createChannelMerger(numberOfInputs)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6144,11 +7300,35 @@ BaseAudioContext
 createChannelMerger(numberOfInputs)
 createChannelMerger(numberOfInputs)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createchannelmerger
+1
+1
+BaseAudioContext
+-
+createChannelMerger(numberOfInputs)
+createChannelMerger(numberOfInputs)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createchannelmerger
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createchannelmerger
+1
+1
+BaseAudioContext
+-
+createChannelMerger(numberOfInputs)
+createChannelMerger(numberOfInputs)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createchannelmerger
 1
 1
 BaseAudioContext
@@ -6156,7 +7336,7 @@ BaseAudioContext
 createChannelSplitter()
 createChannelSplitter()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6168,11 +7348,35 @@ BaseAudioContext
 createChannelSplitter()
 createChannelSplitter()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createchannelsplitter
+1
+1
+BaseAudioContext
+-
+createChannelSplitter()
+createChannelSplitter()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createchannelsplitter
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createchannelsplitter
+1
+1
+BaseAudioContext
+-
+createChannelSplitter()
+createChannelSplitter()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createchannelsplitter
 1
 1
 BaseAudioContext
@@ -6180,7 +7384,7 @@ BaseAudioContext
 createChannelSplitter(numberOfOutputs)
 createChannelSplitter(numberOfOutputs)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6192,11 +7396,35 @@ BaseAudioContext
 createChannelSplitter(numberOfOutputs)
 createChannelSplitter(numberOfOutputs)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createchannelsplitter
+1
+1
+BaseAudioContext
+-
+createChannelSplitter(numberOfOutputs)
+createChannelSplitter(numberOfOutputs)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createchannelsplitter
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createchannelsplitter
+1
+1
+BaseAudioContext
+-
+createChannelSplitter(numberOfOutputs)
+createChannelSplitter(numberOfOutputs)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createchannelsplitter
 1
 1
 BaseAudioContext
@@ -6324,7 +7552,7 @@ CanvasFillStrokeStyles
 createConstantSource()
 createConstantSource()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6336,14 +7564,62 @@ BaseAudioContext
 createConstantSource()
 createConstantSource()
 method
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createconstantsource
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createconstantsource
 1
 1
 BaseAudioContext
+-
+createConstantSource()
+createConstantSource()
+method
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createconstantsource
+1
+1
+BaseAudioContext
+-
+createConstantSource()
+createConstantSource()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createconstantsource
+1
+1
+BaseAudioContext
+-
+createConstantTensor(descriptor, inputData)
+createConstantTensor(descriptor, inputData)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcontext-createconstanttensor
+1
+1
+MLContext
+-
+createConstantTensor(descriptor, inputData)
+createConstantTensor(descriptor, inputData)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcontext-createconstanttensor
+1
+1
+MLContext
 -
 createContext()
 createContext()
@@ -6432,7 +7708,7 @@ Range
 createConvolver()
 createConvolver()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6444,11 +7720,35 @@ BaseAudioContext
 createConvolver()
 createConvolver()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createconvolver
+1
+1
+BaseAudioContext
+-
+createConvolver()
+createConvolver()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createconvolver
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createconvolver
+1
+1
+BaseAudioContext
+-
+createConvolver()
+createConvolver()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createconvolver
 1
 1
 BaseAudioContext
@@ -6672,7 +7972,7 @@ RTCPeerConnection
 createDelay()
 createDelay()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6684,11 +7984,35 @@ BaseAudioContext
 createDelay()
 createDelay()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createdelay
+1
+1
+BaseAudioContext
+-
+createDelay()
+createDelay()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createdelay
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createdelay
+1
+1
+BaseAudioContext
+-
+createDelay()
+createDelay()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createdelay
 1
 1
 BaseAudioContext
@@ -6696,7 +8020,7 @@ BaseAudioContext
 createDelay(maxDelayTime)
 createDelay(maxDelayTime)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6708,11 +8032,35 @@ BaseAudioContext
 createDelay(maxDelayTime)
 createDelay(maxDelayTime)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createdelay
+1
+1
+BaseAudioContext
+-
+createDelay(maxDelayTime)
+createDelay(maxDelayTime)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createdelay
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createdelay
+1
+1
+BaseAudioContext
+-
+createDelay(maxDelayTime)
+createDelay(maxDelayTime)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createdelay
 1
 1
 BaseAudioContext
@@ -6753,8 +8101,8 @@ https://dom.spec.whatwg.org/#dom-document-createdocumentfragment
 1
 Document
 -
-createDocumentType(qualifiedName, publicId, systemId)
-createDocumentType(qualifiedName, publicId, systemId)
+createDocumentType(name, publicId, systemId)
+createDocumentType(name, publicId, systemId)
 method
 dom
 dom
@@ -6768,7 +8116,7 @@ DOMImplementation
 createDynamicsCompressor()
 createDynamicsCompressor()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6780,11 +8128,35 @@ BaseAudioContext
 createDynamicsCompressor()
 createDynamicsCompressor()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createdynamicscompressor
+1
+1
+BaseAudioContext
+-
+createDynamicsCompressor()
+createDynamicsCompressor()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createdynamicscompressor
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createdynamicscompressor
+1
+1
+BaseAudioContext
+-
+createDynamicsCompressor()
+createDynamicsCompressor()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createdynamicscompressor
 1
 1
 BaseAudioContext
@@ -6984,7 +8356,7 @@ XPathEvaluatorBase
 createGain()
 createGain()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6996,11 +8368,35 @@ BaseAudioContext
 createGain()
 createGain()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-creategain
+1
+1
+BaseAudioContext
+-
+createGain()
+createGain()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-creategain
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-creategain
+1
+1
+BaseAudioContext
+-
+createGain()
+createGain()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-creategain
 1
 1
 BaseAudioContext
@@ -7127,7 +8523,7 @@ Navigator
 createIIRFilter(feedforward, feedback)
 createIIRFilter(feedforward, feedback)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7139,11 +8535,35 @@ BaseAudioContext
 createIIRFilter(feedforward, feedback)
 createIIRFilter(feedforward, feedback)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createiirfilter
+1
+1
+BaseAudioContext
+-
+createIIRFilter(feedforward, feedback)
+createIIRFilter(feedforward, feedback)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createiirfilter
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createiirfilter
+1
+1
+BaseAudioContext
+-
+createIIRFilter(feedforward, feedback)
+createIIRFilter(feedforward, feedback)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createiirfilter
 1
 1
 BaseAudioContext
@@ -7160,8 +8580,8 @@ https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-creat
 1
 WindowOrWorkerGlobalScope
 -
-createImageData(imagedata)
-createImageData(imagedata)
+createImageData(imageData)
+createImageData(imageData)
 method
 html
 html
@@ -7247,7 +8667,7 @@ CanvasFillStrokeStyles
 createMediaElementSource(mediaElement)
 createMediaElementSource(mediaElement)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7259,11 +8679,35 @@ AudioContext
 createMediaElementSource(mediaElement)
 createMediaElementSource(mediaElement)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediaelementsource
+1
+1
+AudioContext
+-
+createMediaElementSource(mediaElement)
+createMediaElementSource(mediaElement)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-createmediaelementsource
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-createmediaelementsource
+1
+1
+AudioContext
+-
+createMediaElementSource(mediaElement)
+createMediaElementSource(mediaElement)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-createmediaelementsource
 1
 1
 AudioContext
@@ -7295,7 +8739,7 @@ MediaKeySystemAccess
 createMediaStreamDestination()
 createMediaStreamDestination()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7307,11 +8751,35 @@ AudioContext
 createMediaStreamDestination()
 createMediaStreamDestination()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamdestination
+1
+1
+AudioContext
+-
+createMediaStreamDestination()
+createMediaStreamDestination()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-createmediastreamdestination
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-createmediastreamdestination
+1
+1
+AudioContext
+-
+createMediaStreamDestination()
+createMediaStreamDestination()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-createmediastreamdestination
 1
 1
 AudioContext
@@ -7319,7 +8787,7 @@ AudioContext
 createMediaStreamSource(mediaStream)
 createMediaStreamSource(mediaStream)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7331,11 +8799,35 @@ AudioContext
 createMediaStreamSource(mediaStream)
 createMediaStreamSource(mediaStream)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamsource
+1
+1
+AudioContext
+-
+createMediaStreamSource(mediaStream)
+createMediaStreamSource(mediaStream)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-createmediastreamsource
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-createmediastreamsource
+1
+1
+AudioContext
+-
+createMediaStreamSource(mediaStream)
+createMediaStreamSource(mediaStream)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-createmediastreamsource
 1
 1
 AudioContext
@@ -7343,7 +8835,7 @@ AudioContext
 createMediaStreamTrackSource(mediaStreamTrack)
 createMediaStreamTrackSource(mediaStreamTrack)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7355,11 +8847,35 @@ AudioContext
 createMediaStreamTrackSource(mediaStreamTrack)
 createMediaStreamTrackSource(mediaStreamTrack)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamtracksource
+1
+1
+AudioContext
+-
+createMediaStreamTrackSource(mediaStreamTrack)
+createMediaStreamTrackSource(mediaStreamTrack)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-createmediastreamtracksource
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-createmediastreamtracksource
+1
+1
+AudioContext
+-
+createMediaStreamTrackSource(mediaStreamTrack)
+createMediaStreamTrackSource(mediaStreamTrack)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-createmediastreamtracksource
 1
 1
 AudioContext
@@ -7642,7 +9158,7 @@ RTCPeerConnection
 createOscillator()
 createOscillator()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7654,11 +9170,35 @@ BaseAudioContext
 createOscillator()
 createOscillator()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createoscillator
+1
+1
+BaseAudioContext
+-
+createOscillator()
+createOscillator()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createoscillator
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createoscillator
+1
+1
+BaseAudioContext
+-
+createOscillator()
+createOscillator()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createoscillator
 1
 1
 BaseAudioContext
@@ -7666,7 +9206,7 @@ BaseAudioContext
 createPanner()
 createPanner()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7678,11 +9218,35 @@ BaseAudioContext
 createPanner()
 createPanner()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createpanner
+1
+1
+BaseAudioContext
+-
+createPanner()
+createPanner()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createpanner
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createpanner
+1
+1
+BaseAudioContext
+-
+createPanner()
+createPanner()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createpanner
 1
 1
 BaseAudioContext
@@ -7702,7 +9266,7 @@ CanvasFillStrokeStyles
 createPeriodicWave(real, imag)
 createPeriodicWave(real, imag)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7714,11 +9278,35 @@ BaseAudioContext
 createPeriodicWave(real, imag)
 createPeriodicWave(real, imag)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createperiodicwave
+1
+1
+BaseAudioContext
+-
+createPeriodicWave(real, imag)
+createPeriodicWave(real, imag)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createperiodicwave
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createperiodicwave
+1
+1
+BaseAudioContext
+-
+createPeriodicWave(real, imag)
+createPeriodicWave(real, imag)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createperiodicwave
 1
 1
 BaseAudioContext
@@ -7726,7 +9314,7 @@ BaseAudioContext
 createPeriodicWave(real, imag, constraints)
 createPeriodicWave(real, imag, constraints)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -7738,11 +9326,35 @@ BaseAudioContext
 createPeriodicWave(real, imag, constraints)
 createPeriodicWave(real, imag, constraints)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createperiodicwave
+1
+1
+BaseAudioContext
+-
+createPeriodicWave(real, imag, constraints)
+createPeriodicWave(real, imag, constraints)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createperiodicwave
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createperiodicwave
+1
+1
+BaseAudioContext
+-
+createPeriodicWave(real, imag, constraints)
+createPeriodicWave(real, imag, constraints)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createperiodicwave
 1
 1
 BaseAudioContext
@@ -7882,11 +9494,33 @@ XRWebGLBinding
 createproof
 createProof
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-createproof
+
+1
+-
+createproof
+createProof
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-createproof
+
+1
+-
+createproof
+createProof
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-createproof
 
 1
 -
@@ -8136,7 +9770,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGAngle
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGAngle
 1
 1
 SVGSVGElement
@@ -8160,7 +9794,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGLength
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGLength
 1
 1
 SVGSVGElement
@@ -8184,7 +9818,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGMatrix
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGMatrix
 1
 1
 SVGSVGElement
@@ -8208,7 +9842,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGNumber
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGNumber
 1
 1
 SVGSVGElement
@@ -8232,7 +9866,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGPoint
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGPoint
 1
 1
 SVGSVGElement
@@ -8256,7 +9890,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGRect
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGRect
 1
 1
 SVGSVGElement
@@ -8280,7 +9914,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransform
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransform
 1
 1
 SVGSVGElement
@@ -8304,7 +9938,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix
 1
 1
 SVGTransformList
@@ -8316,7 +9950,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix
 1
 1
 SVGSVGElement
@@ -8468,7 +10102,7 @@ TrustedTypePolicy
 createScriptProcessor()
 createScriptProcessor()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8480,11 +10114,35 @@ BaseAudioContext
 createScriptProcessor()
 createScriptProcessor()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor()
+createScriptProcessor()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createscriptprocessor
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor()
+createScriptProcessor()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createscriptprocessor
 1
 1
 BaseAudioContext
@@ -8492,7 +10150,7 @@ BaseAudioContext
 createScriptProcessor(bufferSize)
 createScriptProcessor(bufferSize)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8504,11 +10162,35 @@ BaseAudioContext
 createScriptProcessor(bufferSize)
 createScriptProcessor(bufferSize)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor(bufferSize)
+createScriptProcessor(bufferSize)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createscriptprocessor
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor(bufferSize)
+createScriptProcessor(bufferSize)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createscriptprocessor
 1
 1
 BaseAudioContext
@@ -8516,7 +10198,7 @@ BaseAudioContext
 createScriptProcessor(bufferSize, numberOfInputChannels)
 createScriptProcessor(bufferSize, numberOfInputChannels)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8528,11 +10210,35 @@ BaseAudioContext
 createScriptProcessor(bufferSize, numberOfInputChannels)
 createScriptProcessor(bufferSize, numberOfInputChannels)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor(bufferSize, numberOfInputChannels)
+createScriptProcessor(bufferSize, numberOfInputChannels)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createscriptprocessor
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor(bufferSize, numberOfInputChannels)
+createScriptProcessor(bufferSize, numberOfInputChannels)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createscriptprocessor
 1
 1
 BaseAudioContext
@@ -8540,7 +10246,7 @@ BaseAudioContext
 createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
 createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8552,11 +10258,35 @@ BaseAudioContext
 createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
 createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
+createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createscriptprocessor
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createscriptprocessor
+1
+1
+BaseAudioContext
+-
+createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
+createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createscriptprocessor
 1
 1
 BaseAudioContext
@@ -8732,7 +10462,7 @@ GPUDevice
 createStereoPanner()
 createStereoPanner()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8744,11 +10474,35 @@ BaseAudioContext
 createStereoPanner()
 createStereoPanner()
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createstereopanner
+1
+1
+BaseAudioContext
+-
+createStereoPanner()
+createStereoPanner()
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createstereopanner
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createstereopanner
+1
+1
+BaseAudioContext
+-
+createStereoPanner()
+createStereoPanner()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createstereopanner
 1
 1
 BaseAudioContext
@@ -8800,6 +10554,30 @@ https://html.spec.whatwg.org/multipage/tables.html#dom-table-createthead
 1
 1
 HTMLTableElement
+-
+createTensor(descriptor)
+createTensor(descriptor)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcontext-createtensor
+1
+1
+MLContext
+-
+createTensor(descriptor)
+createTensor(descriptor)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcontext-createtensor
+1
+1
+MLContext
 -
 createTextNode(data)
 createTextNode(data)
@@ -8972,7 +10750,7 @@ GPUTexture
 createWaveShaper()
 createWaveShaper()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -8984,38 +10762,38 @@ BaseAudioContext
 createWaveShaper()
 createWaveShaper()
 method
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createwaveshaper
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createwaveshaper
 1
 1
 BaseAudioContext
 -
-createWorklet(moduleURL)
-createWorklet(moduleURL)
+createWaveShaper()
+createWaveShaper()
 method
-shared-storage
-shared-storage
+webaudio-1.0
+webaudio
 1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-createworklet
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createwaveshaper
 1
 1
-SharedStorage
+BaseAudioContext
 -
-createWorklet(moduleURL, options)
-createWorklet(moduleURL, options)
+createWaveShaper()
+createWaveShaper()
 method
-shared-storage
-shared-storage
+webaudio-1.1
+webaudio
 1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-createworklet
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createwaveshaper
 1
 1
-SharedStorage
+BaseAudioContext
 -
 createWritable()
 createWritable()
@@ -9029,6 +10807,30 @@ https://fs.spec.whatwg.org/#dom-filesystemfilehandle-createwritable
 1
 FileSystemFileHandle
 -
+createWritable()
+createWritable()
+method
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-createwritable
+1
+1
+WebTransportDatagramDuplexStream
+-
+createWritable()
+createWritable()
+method
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransportdatagramduplexstream-createwritable
+1
+1
+WebTransportDatagramDuplexStream
+-
 createWritable(options)
 createWritable(options)
 method
@@ -9040,6 +10842,30 @@ https://fs.spec.whatwg.org/#dom-filesystemfilehandle-createwritable
 1
 1
 FileSystemFileHandle
+-
+createWritable(options)
+createWritable(options)
+method
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-createwritable
+1
+1
+WebTransportDatagramDuplexStream
+-
+createWritable(options)
+createWritable(options)
+method
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransportdatagramduplexstream-createwritable
+1
+1
+WebTransportDatagramDuplexStream
 -
 created
 created
@@ -9078,6 +10904,17 @@ transaction
 created
 created
 dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-created
+
+1
+-
+created
+created
+dfn
 payment-request
 payment-request
 1
@@ -9090,7 +10927,7 @@ PaymentRequest
 created
 created
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
@@ -9101,7 +10938,7 @@ https://w3c.github.io/vc-data-integrity/#dfn-created
 created
 created
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -9124,6 +10961,17 @@ transaction
 created
 created
 dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-created
+
+1
+-
+created
+created
+dfn
 payment-request
 payment-request
 1
@@ -9132,6 +10980,28 @@ https://www.w3.org/TR/payment-request/#dfn-created
 
 1
 PaymentRequest
+-
+created
+created
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-created
+
+1
+-
+created
+created
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-created
+
+1
 -
 created
 created
@@ -9150,10 +11020,76 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-created
+
+
+-
+created
+created
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-created
 
 
+-
+created
+created
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-created
+
+
+-
+created pointerevent from mouseevent
+created PointerEvent from MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-pointerevent-from-mouseevent
+1
+1
+-
+created pointerevent from mouseevent
+created PointerEvent from MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-creating-pointerevent-from-mouseevent
+1
+1
+-
+created a pointerevent
+created a PointerEvent
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-a-pointerevent
+1
+1
+-
+created a pointerevent
+created a PointerEvent
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-pointerevent
+1
+1
 -
 created on
 created on
@@ -9228,6 +11164,18 @@ Response
 creating
 creating
 dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#rtcrtpscripttransformer-create
+
+1
+RTCRtpScriptTransformer
+-
+creating
+creating
+dfn
 webtransport
 webtransport
 1
@@ -9236,6 +11184,18 @@ https://w3c.github.io/webtransport/#webtransportdatagramduplexstream-create
 1
 1
 WebTransportDatagramDuplexStream
+-
+creating
+creating
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#webtransportdatagramswritable-create
+1
+1
+WebTransportDatagramsWritable
 -
 creating
 creating
@@ -9288,6 +11248,18 @@ WebTransportWriter
 creating
 creating
 dfn
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#rtcrtpscripttransformer-create
+
+1
+RTCRtpScriptTransformer
+-
+creating
+creating
+dfn
 webtransport
 webtransport
 1
@@ -9296,6 +11268,18 @@ https://www.w3.org/TR/webtransport/#webtransportdatagramduplexstream-create
 1
 1
 WebTransportDatagramDuplexStream
+-
+creating
+creating
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#webtransportdatagramswritable-create
+1
+1
+WebTransportDatagramsWritable
 -
 creating
 creating
@@ -9345,6 +11329,28 @@ https://www.w3.org/TR/webtransport/#webtransportwriter-create
 1
 WebTransportWriter
 -
+creating pointerevent from mouseevent
+creating PointerEvent from MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-pointerevent-from-mouseevent
+1
+1
+-
+creating pointerevent from mouseevent
+creating PointerEvent from MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-creating-pointerevent-from-mouseevent
+1
+1
+-
 creating a hid report item
 creating a HID report item
 dfn
@@ -9353,6 +11359,50 @@ webhid
 1
 current
 https://wicg.github.io/webhid/#dfn-creating-a-hid-report-item
+
+1
+-
+creating a pointerevent
+creating a PointerEvent
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-a-pointerevent
+1
+1
+-
+creating a pointerevent
+creating a PointerEvent
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-pointerevent
+1
+1
+-
+creating a cancelable mouseevent
+creating a cancelable MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-a-cancelable-mouseevent
+
+1
+-
+creating a cancelable mouseevent
+creating a cancelable MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-cancelable-mouseevent
 
 1
 -
@@ -9565,6 +11615,28 @@ https://www.w3.org/TR/webdriver2/#dfn-new-sessions
 
 1
 -
+creating a non-cancelable mouseevent
+creating a non-cancelable MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-creating-a-non-cancelable-mouseevent
+
+1
+-
+creating a non-cancelable mouseevent
+creating a non-cancelable MouseEvent
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-creating-a-non-cancelable-mouseevent
+
+1
+-
 creating a policy container from a fetch response
 creating a policy container from a fetch response
 dfn
@@ -9700,17 +11772,6 @@ https://www.w3.org/TR/webrtc/#dfn-creating-an-answer
 1
 1
 -
-creating an element
-creating an element
-dfn
-dom
-dom
-1
-current
-https://dom.spec.whatwg.org/#concept-create-element
-1
-1
--
 creating an event
 creating an event
 dfn
@@ -9806,7 +11867,7 @@ network-error-logging
 network-error-logging
 1
 current
-https://w3c.github.io/network-error-logging/#dfn-creation
+https://w3c.github.io/network-error-logging/#creation
 
 1
 -
@@ -9866,18 +11927,6 @@ snapshot
 https://www.w3.org/TR/WGSL/#creation-fixed-footprint
 
 1
--
-creation-time
-creation-time
-dfn
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#cookie-creation-time
-
-1
-cookie
 -
 creationTime
 creationTime
@@ -9962,8 +12011,8 @@ https://www.w3.org/TR/pub-manifest/#dfn-creator
 credBlob
 credBlob
 dict-member
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#dom-authenticationextensionsclientinputs-credblob
@@ -9971,25 +12020,72 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 AuthenticationExtensionsClientInputs
 -
+credBlob
+credBlob
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientinputs-credblob
+1
+1
+AuthenticationExtensionsClientInputs
+-
+credBlob
+credBlob
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientoutputs-credblob
+1
+1
+AuthenticationExtensionsClientOutputs
+-
 credblob value
 credBlob value
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#credblob-value
 
 1
 -
+credblob value
+credBlob value
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#credblob-value
+
+1
+-
 credmgmt
 credMgmt
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-credmgmt
+
+1
+getInfo
+-
+credmgmt
+credMgmt
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-credmgmt
 
 1
 getInfo
@@ -10024,10 +12120,34 @@ webauthn-3
 webauthn
 3
 current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientinputsjson-credprops
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+credProps
+credProps
+dict-member
+webauthn-3
+webauthn
+3
+current
 https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputs-credprops
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+credProps
+credProps
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputsjson-credprops
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 credprops
 credProps
@@ -10059,31 +12179,88 @@ webauthn-3
 webauthn
 3
 snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputsjson-credprops
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+credProps
+credProps
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
 https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-credprops
 1
 1
 AuthenticationExtensionsClientOutputs
 -
+credProps
+credProps
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputsjson-credprops
+1
+1
+AuthenticationExtensionsClientOutputsJSON
+-
 credprotect value
 credProtect value
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#credprotect-value
 
 1
 -
+credprotect value
+credProtect value
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#credprotect-value
+
+1
+-
 credential
 credential
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-credential
 1
+1
+-
+credential
+credential
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-credential
+
+
+-
+credential
+credential
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-credential
+
 1
 -
 credential
@@ -10162,9 +12339,53 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential
+1
+1
+-
+credential
+credential
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential
 1
+1
+-
+credential
+credential
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-credential
+1
+1
+-
+credential
+credential
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-credential
+
+
+-
+credential
+credential
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-credential
+
 1
 -
 credential
@@ -10235,6 +12456,61 @@ https://www.w3.org/TR/webauthn-3/#credential-descriptor-for-a-credential-record
 
 1
 -
+credential manager
+credential manager
+dfn
+credential-management-1
+credential-management
+1
+current
+https://w3c.github.io/webappsec-credential-management/#credential-manager
+1
+1
+-
+credential manager
+credential manager
+dfn
+credential-management-1
+credential-management
+1
+snapshot
+https://www.w3.org/TR/credential-management-1/#credential-manager
+1
+1
+-
+credential repositories
+credential repositories
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-credential-repositories
+1
+1
+-
+credential repositories
+credential repositories
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-credential-repository
+
+
+-
+credential repositories
+credential repositories
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-credential-repositories
+
+1
+-
 credential repositories
 credential repositories
 dfn
@@ -10242,7 +12518,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-credential-repositories
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential-repositories
 1
 1
 -
@@ -10257,6 +12533,72 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential-repositories
 1
 1
 -
+credential repositories
+credential repositories
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-credential-repositories
+1
+1
+-
+credential repositories
+credential repositories
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-credential-repository
+
+
+-
+credential repositories
+credential repositories
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-credential-repositories
+
+1
+-
+credential repository
+credential repository
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-credential-repositories
+1
+1
+-
+credential repository
+credential repository
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-credential-repository
+
+
+-
+credential repository
+credential repository
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-credential-repositories
+
+1
+-
 credential repository
 credential repository
 dfn
@@ -10264,7 +12606,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-credential-repositories
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential-repositories
 1
 1
 -
@@ -10278,6 +12620,105 @@ snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential-repositories
 1
 1
+-
+credential repository
+credential repository
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-credential-repositories
+1
+1
+-
+credential repository
+credential repository
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-credential-repository
+
+
+-
+credential repository
+credential repository
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-credential-repositories
+
+1
+-
+credential request coordinator
+credential request coordinator
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-credential-request-coordinator
+
+1
+-
+credential request coordinator
+credential request coordinator
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-credential-request-coordinator
+
+1
+-
+credential schema
+credential schema
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+credential schema
+credential schema
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+credential schemas
+credential schemas
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifiable-credential-schema
+
+
+-
+credential schemas
+credential schemas
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifiable-credential-schema
+
+
 -
 credential source
 credential source
@@ -10400,7 +12841,73 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dfn-credential-type-examples
+https://w3c-fedid.github.io/digital-credentials/#dfn-credential-type-examples
+
+
+-
+credential type examples
+credential type examples
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-credential-type-examples
+
+
+-
+credential validation
+credential validation
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-credential-validation
+
+
+-
+credential validation
+credential validation
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-credential-validation
+
+
+-
+credential verifier's
+credential verifier's
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-verifier
+1
+1
+-
+credential verifier's
+credential verifier's
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifier
+
+
+-
+credential verifier's
+credential verifier's
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifier
 
 1
 -
@@ -10411,7 +12918,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-verifier
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
 1
 1
 -
@@ -10426,10 +12933,43 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
 1
 1
 -
+credential verifier's
+credential verifier's
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifier
+1
+1
+-
+credential verifier's
+credential verifier's
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifier
+
+
+-
+credential verifier's
+credential verifier's
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifier
+
+1
+-
 credential verifiers
 credential verifiers
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -10440,22 +12980,99 @@ https://w3c.github.io/vc-data-model/#dfn-verifier
 credential verifiers
 credential verifiers
 dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-verifier
+
+
+-
+credential verifiers
+credential verifiers
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-verifier
+
+1
+-
+credential verifiers
+credential verifiers
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
+1
+1
+-
+credential verifiers
+credential verifiers
+dfn
 vc-data-model-2.0
 vc-data-model
 1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifier
 1
+1
+-
+credential verifiers
+credential verifiers
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-verifier
+1
+1
+-
+credential verifiers
+credential verifiers
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-verifier
+
+
+-
+credential verifiers
+credential verifiers
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-verifier
+
 1
 -
 credentialid
 credentialID
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#credentialid
+
+1
+-
+credentialid
+credentialID
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#credentialid
 
 1
 -
@@ -10494,6 +13111,18 @@ https://www.w3.org/TR/webauthn-3/#authdata-attestedcredentialdata-credentialid
 
 1
 authData/attestedCredentialData
+-
+credentialId
+credentialId
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-unknowncredentialoptions-credentialid
+1
+1
+UnknownCredentialOptions
 -
 credentialidlength
 credentialIdLength
@@ -10570,8 +13199,8 @@ SecurePaymentConfirmationRequest
 credentialmgmtpreview
 credentialMgmtPreview
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-credentialmgmtpreview
@@ -10579,14 +13208,38 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 getInfo
 -
+credentialmgmtpreview
+credentialMgmtPreview
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-credentialmgmtpreview
+
+1
+getInfo
+-
 credentialProtectionPolicy
 credentialProtectionPolicy
 dict-member
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#dom-authenticationextensionsclientinputs-credentialprotectionpolicy
+1
+1
+AuthenticationExtensionsClientInputs
+-
+credentialProtectionPolicy
+credentialProtectionPolicy
+dict-member
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#dom-authenticationextensionsclientinputs-credentialprotectionpolicy
 1
 1
 AuthenticationExtensionsClientInputs
@@ -10618,7 +13271,7 @@ authData/attestedCredentialData
 credentialsubject
 credentialSubject
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -10632,8 +13285,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#defn-credentialSubject
+1
+1
+-
+credentialsubject
+credentialSubject
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#defn-credentialSubject
+1
+1
+-
+credentialsubject
+credentialSubject
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#defn-credentialSubject
 1
 1
 -
@@ -10754,7 +13429,18 @@ current
 https://html.spec.whatwg.org/multipage/workers.html#concept-sharedworkerglobalscope-credentials
 
 1
-SharedWorkerGlobalScope
+-
+credentials
+credentials
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/workers.html#dom-workeroptions-credentials
+1
+1
+WorkerOptions
 -
 credentials
 credentials
@@ -10771,12 +13457,34 @@ WorkletOptions
 credentials
 credentials
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-credential
 1
+1
+-
+credentials
+credentials
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-credential
+
+
+-
+credentials
+credentials
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-credential
+
 1
 -
 credentials
@@ -10793,6 +13501,42 @@ Navigator
 -
 credentials
 credentials
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-instructions-credentials
+
+1
+JSON session instructions
+-
+credentials
+credentials
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkcontinueresponseparameters-credentials
+
+1
+network.ContinueResponseParameters
+-
+credentials
+credentials
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkcontinuewithauthcredentials-credentials
+
+1
+network.ContinueWithAuthCredentials
+-
+credentials
+credentials
 attribute
 credential-management-1
 credential-management
@@ -10806,6 +13550,29 @@ Navigator
 credentials
 credentials
 dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-instructions-credentials
+
+1
+JSON session instructions
+-
+credentials
+credentials
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential
+1
+1
+-
+credentials
+credentials
+dfn
 vc-data-model-2.0
 vc-data-model
 1
@@ -10813,6 +13580,63 @@ snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-credential
 1
 1
+-
+credentials
+credentials
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-credential
+1
+1
+-
+credentials
+credentials
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-credential
+
+
+-
+credentials
+credentials
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-credential
+
+1
+-
+credentials
+credentials
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkcontinueresponseparameters-credentials
+
+1
+network.ContinueResponseParameters
+-
+credentials
+credentials
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkcontinuewithauthcredentials-credentials
+
+1
+network.ContinueWithAuthCredentials
 -
 credentials map
 credentials map
@@ -10871,6 +13695,54 @@ current
 https://html.spec.whatwg.org/multipage/webappapis.html#concept-script-fetch-options-credentials
 
 1
+-
+credit
+credit
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-credit
+1
+1
+AttributionConversionOptions
+-
+credit
+credit
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#measure-conversion-credit
+
+1
+measure-conversion
+-
+credit
+credit
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-credit
+1
+1
+AttributionConversionOptions
+-
+credit
+credit
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-credit
+
+1
+measure-conversion
 -
 crimson
 crimson
@@ -11037,6 +13909,18 @@ https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-critica
 1
 PerformanceNavigationTiming
 -
+criticalchrestart
+criticalCHRestart
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancenavigationtiming-criticalchrestart
+1
+1
+PerformanceNavigationTiming
+-
 criticalCHRestart
 criticalCHRestart
 attribute
@@ -11045,6 +13929,18 @@ navigation-timing
 2
 snapshot
 https://www.w3.org/TR/navigation-timing-2/#dom-performancenavigationtiming-criticalchrestart
+1
+1
+PerformanceNavigationTiming
+-
+criticalchrestart
+criticalCHRestart
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancenavigationtiming-criticalchrestart
 1
 1
 PerformanceNavigationTiming
@@ -11068,7 +13964,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linejoin-crop
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linejoin-crop
 1
 1
 stroke-linejoin
@@ -11115,7 +14011,7 @@ mediacapture-streams
 mediacapture-streams
 1
 current
-https://w3c.github.io/mediacapture-main/#idl-def-VideoResizeModeEnum.right
+https://w3c.github.io/mediacapture-main/#idl-def-VideoResizeModeEnum.cropandscale
 1
 1
 VideoResizeModeEnum
@@ -11127,7 +14023,7 @@ mediacapture-streams
 mediacapture-streams
 1
 snapshot
-https://www.w3.org/TR/mediacapture-streams/#idl-def-VideoResizeModeEnum.right
+https://www.w3.org/TR/mediacapture-streams/#idl-def-VideoResizeModeEnum.cropandscale
 1
 1
 VideoResizeModeEnum
@@ -11284,6 +14180,17 @@ https://drafts.csswg.org/css-flexbox-1/#cross-axis
 cross axis
 cross axis
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-axis
+1
+1
+-
+cross axis
+cross axis
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -11300,6 +14207,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#cross-dimension
+1
+1
+-
+cross dimension
+cross dimension
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-dimension
 1
 1
 -
@@ -11328,6 +14246,17 @@ https://drafts.csswg.org/css-flexbox-1/#cross-size
 cross size
 cross size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-size
+1
+1
+-
+cross size
+cross size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -11344,6 +14273,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#cross-size-property
+1
+1
+-
+cross size property
+cross size property
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-size-property
 1
 1
 -
@@ -11372,6 +14312,17 @@ https://drafts.csswg.org/css-flexbox-1/#cross-axis
 cross-axis
 cross-axis
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-axis
+1
+1
+-
+cross-axis
+cross-axis
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -11394,6 +14345,17 @@ https://drafts.csswg.org/css-flexbox-1/#cross-axis-baseline
 cross-axis baseline set
 cross-axis baseline set
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-axis-baseline
+1
+1
+-
+cross-axis baseline set
+cross-axis baseline set
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -11410,6 +14372,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#cross-end
+1
+1
+-
+cross-end
+cross-end
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-end
 1
 1
 -
@@ -11479,6 +14452,18 @@ current
 https://xhr.spec.whatwg.org/#cross-origin-credentials
 
 1
+-
+cross-origin exposed data mapping
+cross-origin exposed data mapping
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#snapshot-automatic-beacon-store-cross-origin-exposed-data-mapping
+
+1
+snapshot automatic beacon store
 -
 cross-origin isolated capability
 cross-origin isolated capability
@@ -11552,12 +14537,12 @@ https://html.spec.whatwg.org/multipage/webappapis.html#agent-cluster-cross-origi
 cross-origin prefetch ip anonymization policy
 cross-origin prefetch IP anonymization policy
 dfn
-prefetch
-prefetch
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/prefetch.html#cross-origin-prefetch-ip-anonymization-policy
-1
+https://html.spec.whatwg.org/multipage/speculative-loading.html#cross-origin-prefetch-ip-anonymization-policy
+
 1
 -
 cross-origin reporting allowed
@@ -11616,6 +14601,18 @@ current
 https://fetch.spec.whatwg.org/#cross-origin-resource-policy-internal-check
 
 1
+-
+cross-origin()
+cross-origin()
+function
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#funcdef-request-url-modifier-cross-origin
+1
+1
+<request-url-modifier>
 -
 cross-origin-ancestor
 cross-origin-ancestor
@@ -11775,17 +14772,6 @@ https://www.w3.org/TR/webauthn-3/#cross-platform-attachment
 
 1
 -
-cross-size
-cross-size
-dfn
-css-flexbox-1
-css-flexbox
-1
-snapshot
-https://www.w3.org/TR/css-flexbox-1/#cross-size
-1
-1
--
 cross-start
 cross-start
 dfn
@@ -11794,6 +14780,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#cross-start
+1
+1
+-
+cross-start
+cross-start
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-start
 1
 1
 -
@@ -11815,7 +14812,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeimageelement-crossorigin
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeimageelement-crossorigin
 1
 1
 SVGFEImageElement
@@ -11875,7 +14872,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__crossOrigin
+https://w3c.github.io/svgwg/svg2-draft/embedded.html#__svg__SVGImageElement__crossOrigin
 1
 1
 SVGImageElement
@@ -11887,7 +14884,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/interact.html#__svg__SVGScriptElement__crossOrigin
+https://w3c.github.io/svgwg/svg2-draft/interact.html#__svg__SVGScriptElement__crossOrigin
 1
 1
 SVGScriptElement
@@ -11952,30 +14949,6 @@ https://www.w3.org/TR/webauthn-3/#dom-collectedclientdata-crossorigin
 1
 CollectedClientData
 -
-crossOriginDataVersion
-crossOriginDataVersion
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-crossorigindataversion
-1
-1
-BiddingBrowserSignals
--
-crossOriginDataVersion
-crossOriginDataVersion
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoringbrowsersignals-crossorigindataversion
-1
-1
-ScoringBrowserSignals
--
 crossoriginexposed
 crossOriginExposed
 dfn
@@ -12039,9 +15012,9 @@ cursor
 crosshair
 crosshair
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-cursor-crosshair
 1
@@ -12072,6 +15045,28 @@ https://www.w3.org/TR/css-ui-4/#valdef-cursor-crosshair
 1
 cursor
 -
+crossing gap width
+crossing gap width
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#crossing-gap-width
+
+1
+-
+crossing gap width
+crossing gap width
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#crossing-gap-width
+
+1
+-
 crossorigin
 crossorigin
 element-attr
@@ -12079,7 +15074,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feimage-crossorigin
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feimage-crossorigin
 1
 1
 feImage
@@ -12143,6 +15138,7 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-options-crossorigin
 
 1
+link processing options
 -
 crossorigin
 crossorigin
@@ -12163,7 +15159,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/embedded.html#ImageElementCrossoriginAttribute
+https://w3c.github.io/svgwg/svg2-draft/embedded.html#ImageElementCrossoriginAttribute
 1
 1
 image
@@ -12175,7 +15171,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/interact.html#ScriptElementCrossoriginAttribute
+https://w3c.github.io/svgwg/svg2-draft/interact.html#ScriptElementCrossoriginAttribute
 1
 1
 script
@@ -12222,18 +15218,6 @@ function
 css-values-5
 css-values
 5
-current
-https://drafts.csswg.org/css-values-5/#funcdef-request-url-modifier-crossorigin
-1
-1
-<request-url-modifier>
--
-crossorigin()
-crossorigin()
-function
-css-values-5
-css-values
-5
 snapshot
 https://www.w3.org/TR/css-values-5/#funcdef-request-url-modifier-crossorigin
 1
@@ -12254,11 +15238,23 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-rel-crush
 crv
 crv
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-crv
+1
+1
+JsonWebKey
+-
+crv
+crv
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-jsonwebkey-crv
 1
 1
 JsonWebKey
@@ -12266,14 +15262,48 @@ JsonWebKey
 crypto
 crypto
 attribute
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-windoworworkerglobalscope-crypto
 1
 1
 WindowOrWorkerGlobalScope
+-
+crypto
+crypto
+attribute
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-windoworworkerglobalscope-crypto
+1
+1
+WindowOrWorkerGlobalScope
+-
+crypto task source
+crypto task source
+dfn
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-crypto-task-source-0
+
+1
+-
+crypto task source
+crypto task source
+dfn
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-crypto-task-source-0
+
+1
 -
 cryptographic nonce
 cryptographic nonce
@@ -12308,6 +15338,51 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-options-nonce
 
 1
+link processing options
+-
+cryptographic suite
+cryptographic suite
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-cryptosuite
+1
+
+-
+cryptographic suite
+cryptographic suite
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+current
+https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite
+1
+
+-
+cryptographic suite
+cryptographic suite
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-cryptosuite
+1
+
+-
+cryptographic suite
+cryptographic suite
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-cryptosuite
+1
+
 -
 cryptographic suite
 cryptographic suite
@@ -12316,7 +15391,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite
+https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite
 1
 
 -
@@ -12334,11 +15409,55 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite
 cryptosuite
 cryptosuite
 dfn
-vc-data-integrity
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-cryptosuite
+1
+
+-
+cryptosuite
+cryptosuite
+dfn
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite
+1
+
+-
+cryptosuite
+cryptosuite
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-cryptosuite
+1
+
+-
+cryptosuite
+cryptosuite
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-cryptosuite
+1
+
+-
+cryptosuite
+cryptosuite
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite
 1
 
 -
@@ -12360,7 +15479,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-data-integrity-cryptographic-suite-instance
+https://www.w3.org/TR/vc-data-integrity/#dfn-data-integrity-cryptographic-suite-instance
 1
 1
 -
@@ -12378,11 +15497,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-data-integrity-cryptographic-suite-
 cryptosuite instantiation algorithm
 cryptosuite instantiation algorithm
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite-instantiation-algorithm
+1
+1
+-
+cryptosuite instantiation algorithm
+cryptosuite instantiation algorithm
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-cryptosuite-instantiation-algorithm
+1
+1
+-
+cryptosuite instantiation algorithm
+cryptosuite instantiation algorithm
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite-instantiation-algorithm
 1
 1
 -
@@ -12400,11 +15541,33 @@ https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite-instantiation-algorithm
 cryptosuite verification result
 cryptosuite verification result
 dfn
-vc-data-integrity
+vc-data-integrity-1.1
 vc-data-integrity
 1
 current
 https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite-verification-result
+
+1
+-
+cryptosuite verification result
+cryptosuite verification result
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-cryptosuite-verification-result
+
+1
+-
+cryptosuite verification result
+cryptosuite verification result
+dfn
+vc-data-integrity
+vc-data-integrity
+1
+current
+https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite-verification-result
 
 1
 -

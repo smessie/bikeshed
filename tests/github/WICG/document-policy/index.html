@@ -870,9 +870,9 @@ A human-readable <a href="http://www.w3.org/community/about/agreements/cla-deed/
     browsing context</a> has an empty <a data-link-type="dfn" href="#required-document-policy" id="ref-for-required-document-policy">required document policy</a>.</p>
      <p>A <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context" id="ref-for-browsing-context②">browsing context</a> has a <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="nested context required document policy" data-noexport id="nested-context-required-document-policy">nested context required document
     policy</dfn>, which is a <a data-link-type="dfn" href="#document-policy" id="ref-for-document-policy①">document policy</a>.</p>
-     <p>A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">Document</a> has a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="declared-document-policy">declared document policy</dfn>, which is a
+     <p>A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">Document</a> has a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="declared-document-policy">declared document policy</dfn>, which is a
     <a data-link-type="dfn" href="#document-policy" id="ref-for-document-policy②">document policy</a>.</p>
-     <p>A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">Document</a> has a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="report-only-document-policy">report-only document policy</dfn>, which is a
+     <p>A <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">Document</a> has a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="report-only-document-policy">report-only document policy</dfn>, which is a
     <a data-link-type="dfn" href="#document-policy" id="ref-for-document-policy③">document policy</a>.</p>
     </section>
    </section>
@@ -992,7 +992,8 @@ headers.</p>
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type">type</u> <code>boolean</code> has no required
     parameters.</p>
     <p>A <a data-link-type="dfn" href="#document-policy-directive" id="ref-for-document-policy-directive③">document policy directive</a> whose <a data-link-type="dfn" href="#directive-name" id="ref-for-directive-name②">directive name</a> names a
@@ -1000,7 +1001,8 @@ spec:vc-data-model-2.0; type:dfn; for:/; text:type">type</u> <code>boolean</code
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type">type</u> <code>integer</code> has a required
     parameter, whose value must be an integer in the <a data-link-type="dfn" href="#configuration-point" id="ref-for-configuration-point①⓪">configuration
     point</a>’s <u class="link-error" data-lt="range" title="LINK ERROR: Ambiguous for-less link for &apos;range&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
@@ -1013,7 +1015,8 @@ spec:dom; type:dfn; for:/; text:range">range</u>.</p>
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type">type</u> <code>float</code> has a required
     parameter, whose value must be an decimal in the <a data-link-type="dfn" href="#configuration-point" id="ref-for-configuration-point①②">configuration
     point</a>’s <u class="link-error" data-lt="range" title="LINK ERROR: Ambiguous for-less link for &apos;range&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
@@ -1026,7 +1029,8 @@ spec:dom; type:dfn; for:/; text:range">range</u>.</p>
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type">type</u> <code>enum</code> has a required parameter,
     whose value must be 'true', and whose name must be a token in the
     <a data-link-type="dfn" href="#configuration-point" id="ref-for-configuration-point①④">configuration point</a>’s <u class="link-error" data-lt="range" title="LINK ERROR: Ambiguous for-less link for &apos;range&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
@@ -1127,7 +1131,7 @@ initialized. Its value must be a <a data-link-type="dfn" href="#serialized-docum
        <p>In <a href="https://html.spec.whatwg.org/multipage/dom.html#the-document-object"><cite>HTML</cite> § 3.1.1 The Document object</a>, add the following line:</p>
        <ul>
         <li data-md>
-         <p>The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document②">Document</a> has a <b>document policy</b>, which is a <a data-link-type="dfn" href="#document-policy" id="ref-for-document-policy⑥">document
+         <p>The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document②">Document</a> has a <b>document policy</b>, which is a <a data-link-type="dfn" href="#document-policy" id="ref-for-document-policy⑥">document
 policy</a>, which is initially empty.</p>
        </ul>
       <li data-md>
@@ -1145,7 +1149,7 @@ browsing context</a> <var>browsingContext</var>.</p>
          <p>Change step 9 (renumbered now to 10) to read:</p>
          <ol start="10">
           <li data-md>
-           <p>Let <var>document</var> be a new <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document③">Document</a>, marked as
+           <p>Let <var>document</var> be a new <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">Document</a>, marked as
 an <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#html-document" id="ref-for-html-document">HTML document</a> in <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-quirks" id="ref-for-concept-document-quirks">quirks mode</a>, whose <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-content-type" id="ref-for-concept-document-content-type">content
 type</a> is <code>"text/html"</code>, <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-origin" id="ref-for-concept-origin">origin</a> is <var>origin</var>,
 <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#active-sandboxing-flag-set" id="ref-for-active-sandboxing-flag-set">active sandboxing flag set</a> is <var>sandboxFlags</var>,
@@ -1199,7 +1203,7 @@ policy</dfn>, which is a <a data-link-type="dfn" href="#document-policy" id="ref
 stated, it is null.</p>
        </ul>
       <li data-md>
-       <p>In <a href="https://fetch.spec.whatwg.org/#http-network-or-cache-fetch"><cite>Fetch</cite> § 4.5 HTTP-network-or-cache fetch</a>, after step 15, insert the
+       <p>In <a href="https://fetch.spec.whatwg.org/#http-network-or-cache-fetch"><cite>Fetch</cite> § 4.6 HTTP-network-or-cache fetch</a>, after step 15, insert the
 following:</p>
        <ol>
         <li data-md>
@@ -1290,7 +1294,8 @@ blocked due to document policy</a></p>
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name">name</u> is
   "<code>Document-Policy</code>".</p>
        <li data-md>
@@ -1886,7 +1891,7 @@ calling <a data-link-type="dfn" href="#determine-compatibility" id="ref-for-dete
     <ul>
      <li><span class="dfn-paneled" id="85394472">Document</span>
      <li><span class="dfn-paneled" id="3f23ec71">content type</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="2d7f82f5">HTML document</span>
      <li><span class="dfn-paneled" id="fd11cdcd">quirks mode</span>
     </ul>
@@ -2167,7 +2172,7 @@ let dfnPanelData = {
 "85394472": {"dfnID":"85394472","dfnText":"Document","external":true,"refSections":[{"refs":[{"id":"ref-for-document"}],"title":"9.8. Get policy value for feature in document"},{"refs":[{"id":"ref-for-document\u2460"}],"title":"9.9. Determine compatibility of value with policy for feature"},{"refs":[{"id":"ref-for-document\u2461"}],"title":"9.10. Determine if value is compatible with policy for feature or report"},{"refs":[{"id":"ref-for-document\u2462"}],"title":"9.11. Determine if value is compatible with policy for feature"}],"url":"https://dom.spec.whatwg.org/#document"},
 "87fcd40c": {"dfnID":"87fcd40c","dfnText":"iframe","external":true,"refSections":[{"refs":[{"id":"ref-for-the-iframe-element"}],"title":"7.3. The policy attribute of the iframe element"},{"refs":[{"id":"ref-for-the-iframe-element\u2460"}],"title":"8.1. Integration with HTML"}],"url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element"},
 "9239678f": {"dfnID":"9239678f","dfnText":"endpoint","external":true,"refSections":[{"refs":[{"id":"ref-for-endpoint"}],"title":"6.1.1. The \"report-to\" parameter"},{"refs":[{"id":"ref-for-endpoint\u2460"},{"id":"ref-for-endpoint\u2461"}],"title":"6.1.2. Setting the default reporting endpoint"},{"refs":[{"id":"ref-for-endpoint\u2462"}],"title":"9.9. Determine compatibility of value with policy for feature"}],"url":"https://w3c.github.io/reporting/#endpoint"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"}],"title":"4.2. Policies"},{"refs":[{"id":"ref-for-concept-document\u2461"},{"id":"ref-for-concept-document\u2462"}],"title":"8.1. Integration with HTML"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"}],"title":"4.2. Policies"},{"refs":[{"id":"ref-for-clone-a-node-document\u2461"},{"id":"ref-for-clone-a-node-document\u2462"}],"title":"8.1. Integration with HTML"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "aa0ee8c8": {"dfnID":"aa0ee8c8","dfnText":"creating a new browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-creating-a-new-browsing-context"}],"title":"8.1. Integration with HTML"}],"url":"https://html.spec.whatwg.org/multipage/browsers.html#creating-a-new-browsing-context"},
 "c9e7c11a": {"dfnID":"c9e7c11a","dfnText":"header","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-header"},{"id":"ref-for-concept-header\u2460"}],"title":"9.2. Process response policy"}],"url":"https://fetch.spec.whatwg.org/#concept-header"},
 "configuration-point": {"dfnID":"configuration-point","dfnText":"configuration point","external":false,"refSections":[{"refs":[{"id":"ref-for-configuration-point"},{"id":"ref-for-configuration-point\u2460"},{"id":"ref-for-configuration-point\u2461"},{"id":"ref-for-configuration-point\u2462"}],"title":"4.1. Configuration Points"},{"refs":[{"id":"ref-for-configuration-point\u2463"},{"id":"ref-for-configuration-point\u2464"}],"title":"4.2. Policies"},{"refs":[{"id":"ref-for-configuration-point\u2465"},{"id":"ref-for-configuration-point\u2466"}],"title":"7.1. Policies as Structured Headers"},{"refs":[{"id":"ref-for-configuration-point\u2467"},{"id":"ref-for-configuration-point\u2468"},{"id":"ref-for-configuration-point\u2460\u24ea"},{"id":"ref-for-configuration-point\u2460\u2460"},{"id":"ref-for-configuration-point\u2460\u2461"},{"id":"ref-for-configuration-point\u2460\u2462"},{"id":"ref-for-configuration-point\u2460\u2463"}],"title":"7.1.1. Parameters"}],"url":"#configuration-point"},
@@ -2620,7 +2625,7 @@ let refsData = {
 "#serialize-required-policy": {"displayText":"serialize required policy","export":true,"for_":[],"level":"1","normative":true,"shortname":"document-policy","spec":"document-policy-1","status":"local","text":"serialize required policy","type":"dfn","url":"#serialize-required-policy"},
 "#serialized-document-policy": {"displayText":"serialized document policy","export":true,"for_":[],"level":"1","normative":true,"shortname":"document-policy","spec":"document-policy-1","status":"local","text":"serialized document policy","type":"dfn","url":"#serialized-document-policy"},
 "#should-response-to-request-be-blocked-due-to-document-policy": {"displayText":"should response to request be blocked due to document policy","export":true,"for_":[],"level":"1","normative":true,"shortname":"document-policy","spec":"document-policy-1","status":"local","text":"should response to request be blocked due to document policy","type":"dfn","url":"#should-response-to-request-be-blocked-due-to-document-policy"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-document-content-type": {"displayText":"content type","export":true,"for_":["Document"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"content type","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-content-type"},
 "https://dom.spec.whatwg.org/#concept-document-quirks": {"displayText":"quirks mode","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"quirks mode","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-quirks"},
 "https://dom.spec.whatwg.org/#document": {"displayText":"Document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Document","type":"interface","url":"https://dom.spec.whatwg.org/#document"},

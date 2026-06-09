@@ -104,6 +104,9 @@
   "#an-introduction-to-error-handling-and-strange-cases-in-the-parser": [
     "/parsing#an-introduction-to-error-handling-and-strange-cases-in-the-parser"
   ],
+  "#ancestor-origins": [
+    "/dom#ancestor-origins"
+  ],
   "#ancillary-images": [
     "/images#ancillary-images"
   ],
@@ -113,6 +116,9 @@
   "#api-for-a-and-area-elements": [
     "/links#api-for-a-and-area-elements"
   ],
+  "#api-for-hyperlink-elements": [
+    "/links#api-for-hyperlink-elements"
+  ],
   "#apis-available-to-workers": [
     "/workers#apis-available-to-workers"
   ],
@@ -121,6 +127,9 @@
   ],
   "#application%2Fmicrodata%2Bjson": [
     "/iana#application%2Fmicrodata%2Bjson"
+  ],
+  "#application%2Fspeculationrules%2Bjson": [
+    "/iana#application%2Fspeculationrules%2Bjson"
   ],
   "#application%2Fxhtml%2Bxml": [
     "/iana#application%2Fxhtml%2Bxml"
@@ -449,11 +458,11 @@
   "#communicating-with-a-dedicated-worker": [
     "/workers#communicating-with-a-dedicated-worker"
   ],
-  "#compliance-with-other-specifications": [
-    "/introduction#compliance-with-other-specifications"
-  ],
   "#compositing": [
     "/canvas#compositing"
+  ],
+  "#configuration-invariants": [
+    "/dynamic-markup-insertion#configuration-invariants"
   ],
   "#configuring-a-form-to-communicate-with-a-server": [
     "/forms#configuring-a-form-to-communicate-with-a-server"
@@ -658,6 +667,9 @@
   "#determining-the-character-encoding": [
     "/parsing#determining-the-character-encoding"
   ],
+  "#dialog-light-dismiss": [
+    "/interactive-elements#dialog-light-dismiss"
+  ],
   "#dimension-attributes": [
     "/embedded-content-other#dimension-attributes"
   ],
@@ -690,6 +702,9 @@
   ],
   "#doctype-system-identifier-(single-quoted)-state": [
     "/parsing#doctype-system-identifier-(single-quoted)-state"
+  ],
+  "#document-base-urls": [
+    "/urls-and-fetching#document-base-urls"
   ],
   "#document-lifecycle": [
     "/document-lifecycle#document-lifecycle"
@@ -747,9 +762,6 @@
   ],
   "#durations": [
     "/common-microsyntaxes#durations"
-  ],
-  "#dynamic-changes-to-base-urls": [
-    "/urls-and-fetching#dynamic-changes-to-base-urls"
   ],
   "#dynamic-markup-insertion": [
     "/dynamic-markup-insertion#dynamic-markup-insertion"
@@ -1054,6 +1066,9 @@
   "#heading-content": [
     "/dom#heading-content"
   ],
+  "#heading-levels-%26-offsets": [
+    "/sections#heading-levels-%26-offsets"
+  ],
   "#headings-and-outlines-2": [
     "/sections#headings-and-outlines-2"
   ],
@@ -1117,6 +1132,12 @@
   "#html-element-constructors": [
     "/dom#html-element-constructors"
   ],
+  "#html-parsing-methods": [
+    "/dynamic-markup-insertion#html-parsing-methods"
+  ],
+  "#html-sanitization": [
+    "/dynamic-markup-insertion#html-sanitization"
+  ],
   "#html-serialization-methods": [
     "/dynamic-markup-insertion#html-serialization-methods"
   ],
@@ -1137,6 +1158,9 @@
   ],
   "#idl-definitions": [
     "/webappapis#idl-definitions"
+  ],
+  "#iframe-element-referrer-policy": [
+    "/browsers#iframe-element-referrer-policy"
   ],
   "#image-button-state-(type%3Dimage)": [
     "/input#image-button-state-(type%3Dimage)"
@@ -1277,19 +1301,22 @@
     "/webappapis#introduction-11"
   ],
   "#introduction-12": [
-    "/web-messaging#introduction-12"
+    "/dynamic-markup-insertion#introduction-12"
   ],
   "#introduction-13": [
     "/web-messaging#introduction-13"
   ],
   "#introduction-14": [
-    "/workers#introduction-14"
+    "/web-messaging#introduction-14"
   ],
   "#introduction-15": [
-    "/webstorage#introduction-15"
+    "/workers#introduction-15"
   ],
   "#introduction-16": [
-    "/rendering#introduction-16"
+    "/webstorage#introduction-16"
+  ],
+  "#introduction-17": [
+    "/rendering#introduction-17"
   ],
   "#introduction-2": [
     "/links#introduction-2"
@@ -1616,7 +1643,7 @@
     "/nav-history-apis#nav-traversal-event-interfaces"
   ],
   "#nav-traversal-ui": [
-    "/document-lifecycle#nav-traversal-ui"
+    "/speculative-loading#nav-traversal-ui"
   ],
   "#navigable-target-names": [
     "/document-sequences#navigable-target-names"
@@ -1665,6 +1692,9 @@
   ],
   "#navigation-supporting-concepts": [
     "/browsing-the-web#navigation-supporting-concepts"
+  ],
+  "#navigational-prefetching": [
+    "/speculative-loading#navigational-prefetching"
   ],
   "#navigator.hardwareconcurrency": [
     "/workers#navigator.hardwareconcurrency"
@@ -1728,6 +1758,12 @@
   ],
   "#opening-the-input-stream": [
     "/dynamic-markup-insertion#opening-the-input-stream"
+  ],
+  "#optgroup-element-inner-content-elements": [
+    "/dom#optgroup-element-inner-content-elements"
+  ],
+  "#option-element-inner-content-elements": [
+    "/dom#option-element-inner-content-elements"
   ],
   "#optional-tags": [
     "/syntax#optional-tags"
@@ -1824,12 +1860,6 @@
   ],
   "#parsing-main-inhtml": [
     "/parsing#parsing-main-inhtml"
-  ],
-  "#parsing-main-inselect": [
-    "/parsing#parsing-main-inselect"
-  ],
-  "#parsing-main-inselectintable": [
-    "/parsing#parsing-main-inselectintable"
   ],
   "#parsing-main-intable": [
     "/parsing#parsing-main-intable"
@@ -1935,6 +1965,9 @@
   ],
   "#presentational-markup": [
     "/introduction#presentational-markup"
+  ],
+  "#preserving-custom-element-state-when-moved": [
+    "/custom-elements#preserving-custom-element-state-when-moved"
   ],
   "#preventing-navigation": [
     "/browsing-the-web#preventing-navigation"
@@ -2110,6 +2143,9 @@
   "#runtime-script-errors-2": [
     "/workers#runtime-script-errors-2"
   ],
+  "#safe-and-unsafe": [
+    "/dynamic-markup-insertion#safe-and-unsafe"
+  ],
   "#safe-passing-of-structured-data": [
     "/structured-data#safe-passing-of-structured-data"
   ],
@@ -2119,11 +2155,38 @@
   "#sandboxing": [
     "/browsers#sandboxing"
   ],
+  "#sanitization-algorithms": [
+    "/dynamic-markup-insertion#sanitization-algorithms"
+  ],
+  "#sanitization-constants": [
+    "/dynamic-markup-insertion#sanitization-constants"
+  ],
+  "#sanitizer-configuration": [
+    "/dynamic-markup-insertion#sanitizer-configuration"
+  ],
+  "#sanitizer-security-considerations": [
+    "/dynamic-markup-insertion#sanitizer-security-considerations"
+  ],
+  "#sanitizer-security-dom-clobbering": [
+    "/dynamic-markup-insertion#sanitizer-security-dom-clobbering"
+  ],
+  "#sanitizer-security-mxss": [
+    "/dynamic-markup-insertion#sanitizer-security-mxss"
+  ],
+  "#sanitizer-security-script-gadgets": [
+    "/dynamic-markup-insertion#sanitizer-security-script-gadgets"
+  ],
+  "#sanitizer-security-server-reflected": [
+    "/dynamic-markup-insertion#sanitizer-security-server-reflected"
+  ],
   "#scope": [
     "/introduction#scope"
   ],
   "#scope-2": [
     "/workers#scope-2"
+  ],
+  "#scoped-custom-element-registries": [
+    "/custom-elements#scoped-custom-element-registries"
   ],
   "#script-data-double-escape-end-state": [
     "/parsing#script-data-double-escape-end-state"
@@ -2260,6 +2323,9 @@
   "#seeking": [
     "/media#seeking"
   ],
+  "#select-element-inner-content-elements": [
+    "/dom#select-element-inner-content-elements"
+  ],
   "#selecting-a-form-submission-encoding": [
     "/form-control-infrastructure#selecting-a-form-submission-encoding"
   ],
@@ -2374,8 +2440,50 @@
   "#space-separated-tokens": [
     "/common-microsyntaxes#space-separated-tokens"
   ],
+  "#speculation-rules": [
+    "/speculative-loading#speculation-rules"
+  ],
+  "#speculation-rules-data-model": [
+    "/speculative-loading#speculation-rules-data-model"
+  ],
+  "#speculation-rules-parse-results": [
+    "/webappapis#speculation-rules-parse-results"
+  ],
+  "#speculation-rules-parsing": [
+    "/speculative-loading#speculation-rules-parsing"
+  ],
+  "#speculation-rules-processing-model": [
+    "/speculative-loading#speculation-rules-processing-model"
+  ],
   "#speculative-html-parsing": [
     "/parsing#speculative-html-parsing"
+  ],
+  "#speculative-loading": [
+    "/speculative-loading#speculative-loading"
+  ],
+  "#speculative-loading-cross-site-requests": [
+    "/speculative-loading#speculative-loading-cross-site-requests"
+  ],
+  "#speculative-loading-heuristics": [
+    "/speculative-loading#speculative-loading-heuristics"
+  ],
+  "#speculative-loading-identity-joining": [
+    "/speculative-loading#speculative-loading-identity-joining"
+  ],
+  "#speculative-loading-injected-content": [
+    "/speculative-loading#speculative-loading-injected-content"
+  ],
+  "#speculative-loading-ip-anonymization": [
+    "/speculative-loading#speculative-loading-ip-anonymization"
+  ],
+  "#speculative-loading-privacy": [
+    "/speculative-loading#speculative-loading-privacy"
+  ],
+  "#speculative-loading-security": [
+    "/speculative-loading#speculative-loading-security"
+  ],
+  "#speculative-loading-state-partitioning": [
+    "/speculative-loading#speculative-loading-state-partitioning"
   ],
   "#spelling-and-grammar-checking": [
     "/interaction#spelling-and-grammar-checking"
@@ -2613,6 +2721,9 @@
   "#the-canvas-element": [
     "/canvas#the-canvas-element"
   ],
+  "#the-canvas-settings": [
+    "/canvas#the-canvas-settings"
+  ],
   "#the-canvas-state": [
     "/canvas#the-canvas-state"
   ],
@@ -2636,6 +2747,9 @@
   ],
   "#the-colgroup-element": [
     "/tables#the-colgroup-element"
+  ],
+  "#the-commandevent-interface": [
+    "/interaction#the-commandevent-interface"
   ],
   "#the-constraint-validation-api": [
     "/form-control-infrastructure#the-constraint-validation-api"
@@ -2820,11 +2934,17 @@
   "#the-iframe-element": [
     "/iframe-embed-object#the-iframe-element"
   ],
+  "#the-imagebitmap-interface": [
+    "/imagebitmap-and-animations#the-imagebitmap-interface"
+  ],
   "#the-imagebitmap-rendering-context": [
     "/canvas#the-imagebitmap-rendering-context"
   ],
   "#the-imagebitmaprenderingcontext-interface": [
     "/canvas#the-imagebitmaprenderingcontext-interface"
+  ],
+  "#the-imagedata-interface": [
+    "/imagebitmap-and-animations#the-imagedata-interface"
   ],
   "#the-img-element": [
     "/embedded-content#the-img-element"
@@ -2940,6 +3060,9 @@
   "#the-messageevent-interface": [
     "/comms#the-messageevent-interface"
   ],
+  "#the-messageeventtarget-mixin": [
+    "/web-messaging#the-messageeventtarget-mixin"
+  ],
   "#the-meta-element": [
     "/semantics#the-meta-element"
   ],
@@ -2976,6 +3099,9 @@
   "#the-navigationhistoryentry-interface": [
     "/nav-history-apis#the-navigationhistoryentry-interface"
   ],
+  "#the-navigationprecommitcontroller-interface": [
+    "/nav-history-apis#the-navigationprecommitcontroller-interface"
+  ],
   "#the-navigator-object": [
     "/system-state#the-navigator-object"
   ],
@@ -3005,6 +3131,9 @@
   ],
   "#the-option-element": [
     "/form-elements#the-option-element"
+  ],
+  "#the-origin-interface": [
+    "/browsers#the-origin-interface"
   ],
   "#the-outerhtml-property": [
     "/dynamic-markup-insertion#the-outerhtml-property"
@@ -3064,7 +3193,7 @@
     "/input#the-readonly-attribute"
   ],
   "#the-refresh-header": [
-    "/document-lifecycle#the-refresh-header"
+    "/speculative-loading#the-refresh-header"
   ],
   "#the-required-attribute": [
     "/input#the-required-attribute"
@@ -3090,11 +3219,17 @@
   "#the-samp-element": [
     "/text-level-semantics#the-samp-element"
   ],
+  "#the-sanitizer-interface": [
+    "/dynamic-markup-insertion#the-sanitizer-interface"
+  ],
   "#the-script-element": [
     "/scripting#the-script-element"
   ],
   "#the-search-element": [
     "/grouping-content#the-search-element"
+  ],
+  "#the-sec-speculation-tags-header": [
+    "/speculative-loading#the-sec-speculation-tags-header"
   ],
   "#the-section-element": [
     "/sections#the-section-element"
@@ -3104,6 +3239,9 @@
   ],
   "#the-select-element-2": [
     "/rendering#the-select-element-2"
+  ],
+  "#the-selectedcontent-element": [
+    "/form-elements#the-selectedcontent-element"
   ],
   "#the-sessionstorage-attribute": [
     "/webstorage#the-sessionstorage-attribute"
@@ -3122,6 +3260,9 @@
   ],
   "#the-span-element": [
     "/text-level-semantics#the-span-element"
+  ],
+  "#the-speculation-rules-header": [
+    "/speculative-loading#the-speculation-rules-header"
   ],
   "#the-stack-of-open-elements": [
     "/parsing#the-stack-of-open-elements"
@@ -3250,10 +3391,13 @@
     "/workers#the-workernavigator-object"
   ],
   "#the-x-frame-options-header": [
-    "/document-lifecycle#the-x-frame-options-header"
+    "/speculative-loading#the-x-frame-options-header"
   ],
   "#the-xhtml-syntax": [
     "/xhtml#the-xhtml-syntax"
+  ],
+  "#the-xmlserializer-interface": [
+    "/dynamic-markup-insertion#the-xmlserializer-interface"
   ],
   "#time-ranges": [
     "/media#time-ranges"
@@ -3321,9 +3465,6 @@
   "#unloading-documents": [
     "/document-lifecycle#unloading-documents"
   ],
-  "#unsafe-html-parsing-methods": [
-    "/dynamic-markup-insertion#unsafe-html-parsing-methods"
-  ],
   "#unstyled-xml-documents": [
     "/rendering#unstyled-xml-documents"
   ],
@@ -3389,6 +3530,9 @@
   ],
   "#using-reflect-in-specifications": [
     "/common-dom-interfaces#using-reflect-in-specifications"
+  ],
+  "#using-reflect-via-idl-extended-attributes": [
+    "/common-dom-interfaces#using-reflect-via-idl-extended-attributes"
   ],
   "#using-the-a-element-to-define-a-command": [
     "/interactive-elements#using-the-a-element-to-define-a-command"
@@ -3631,6 +3775,14 @@
       "url": "https://html.spec.whatwg.org/multipage/browsers.html#embedder-policy-checks"
     }
   },
+  "/browsers#iframe-element-referrer-policy": {
+    "current": {
+      "number": "7.1.6",
+      "spec": "HTML",
+      "text": "iframe element referrer policy",
+      "url": "https://html.spec.whatwg.org/multipage/browsers.html#iframe-element-referrer-policy"
+    }
+  },
   "/browsers#loading-web-pages-supporting-concepts": {
     "current": {
       "number": "7.1",
@@ -3657,7 +3809,7 @@
   },
   "/browsers#policy-containers": {
     "current": {
-      "number": "7.1.6",
+      "number": "7.1.7",
       "spec": "HTML",
       "text": "Policy containers",
       "url": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers"
@@ -3701,6 +3853,14 @@
       "spec": "HTML",
       "text": "The headers",
       "url": "https://html.spec.whatwg.org/multipage/browsers.html#the-coop-headers"
+    }
+  },
+  "/browsers#the-origin-interface": {
+    "current": {
+      "number": "7.1.1.3",
+      "spec": "HTML",
+      "text": "The Origin interface",
+      "url": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface"
     }
   },
   "/browsing-the-web#aborting-navigation": {
@@ -3913,7 +4073,7 @@
   },
   "/canvas#best-practices": {
     "current": {
-      "number": "4.12.5.1.22",
+      "number": "4.12.5.1.23",
       "spec": "HTML",
       "text": "Best practices",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#best-practices"
@@ -3921,7 +4081,7 @@
   },
   "/canvas#building-paths": {
     "current": {
-      "number": "4.12.5.1.5",
+      "number": "4.12.5.1.6",
       "spec": "HTML",
       "text": "Building paths",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#building-paths"
@@ -3937,7 +4097,7 @@
   },
   "/canvas#compositing": {
     "current": {
-      "number": "4.12.5.1.16",
+      "number": "4.12.5.1.17",
       "spec": "HTML",
       "text": "Compositing",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#compositing"
@@ -3945,7 +4105,7 @@
   },
   "/canvas#drawing-focus-rings-and-scrolling-paths-into-view": {
     "current": {
-      "number": "4.12.5.1.13",
+      "number": "4.12.5.1.14",
       "spec": "HTML",
       "text": "Drawing focus rings",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-focus-rings-and-scrolling-paths-into-view"
@@ -3953,7 +4113,7 @@
   },
   "/canvas#drawing-images": {
     "current": {
-      "number": "4.12.5.1.14",
+      "number": "4.12.5.1.15",
       "spec": "HTML",
       "text": "Drawing images",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-images"
@@ -3961,7 +4121,7 @@
   },
   "/canvas#drawing-model": {
     "current": {
-      "number": "4.12.5.1.21",
+      "number": "4.12.5.1.22",
       "spec": "HTML",
       "text": "Drawing model",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-model"
@@ -3969,7 +4129,7 @@
   },
   "/canvas#drawing-paths-to-the-canvas": {
     "current": {
-      "number": "4.12.5.1.12",
+      "number": "4.12.5.1.13",
       "spec": "HTML",
       "text": "Drawing paths to the canvas",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-paths-to-the-canvas"
@@ -3977,7 +4137,7 @@
   },
   "/canvas#drawing-rectangles-to-the-bitmap": {
     "current": {
-      "number": "4.12.5.1.10",
+      "number": "4.12.5.1.11",
       "spec": "HTML",
       "text": "Drawing rectangles to the bitmap",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-rectangles-to-the-bitmap"
@@ -3985,7 +4145,7 @@
   },
   "/canvas#drawing-text-to-the-bitmap": {
     "current": {
-      "number": "4.12.5.1.11",
+      "number": "4.12.5.1.12",
       "spec": "HTML",
       "text": "Drawing text to the bitmap",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-text-to-the-bitmap"
@@ -3993,7 +4153,7 @@
   },
   "/canvas#examples": {
     "current": {
-      "number": "4.12.5.1.23",
+      "number": "4.12.5.1.24",
       "spec": "HTML",
       "text": "Examples",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#examples"
@@ -4001,7 +4161,7 @@
   },
   "/canvas#fill-and-stroke-styles": {
     "current": {
-      "number": "4.12.5.1.9",
+      "number": "4.12.5.1.10",
       "spec": "HTML",
       "text": "Fill and stroke styles",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#fill-and-stroke-styles"
@@ -4009,7 +4169,7 @@
   },
   "/canvas#filters": {
     "current": {
-      "number": "4.12.5.1.19",
+      "number": "4.12.5.1.20",
       "spec": "HTML",
       "text": "Filters",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#filters"
@@ -4017,7 +4177,7 @@
   },
   "/canvas#image-smoothing": {
     "current": {
-      "number": "4.12.5.1.17",
+      "number": "4.12.5.1.18",
       "spec": "HTML",
       "text": "Image smoothing",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#image-smoothing"
@@ -4025,7 +4185,7 @@
   },
   "/canvas#image-sources-for-2d-rendering-contexts": {
     "current": {
-      "number": "4.12.5.1.8",
+      "number": "4.12.5.1.9",
       "spec": "HTML",
       "text": "Image sources for 2D rendering contexts",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#image-sources-for-2d-rendering-contexts"
@@ -4049,7 +4209,7 @@
   },
   "/canvas#line-styles": {
     "current": {
-      "number": "4.12.5.1.3",
+      "number": "4.12.5.1.4",
       "spec": "HTML",
       "text": "Line styles",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#line-styles"
@@ -4057,7 +4217,7 @@
   },
   "/canvas#path2d-objects": {
     "current": {
-      "number": "4.12.5.1.6",
+      "number": "4.12.5.1.7",
       "spec": "HTML",
       "text": "Path2D objects",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#path2d-objects"
@@ -4065,7 +4225,7 @@
   },
   "/canvas#pixel-manipulation": {
     "current": {
-      "number": "4.12.5.1.15",
+      "number": "4.12.5.1.16",
       "spec": "HTML",
       "text": "Pixel manipulation",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#pixel-manipulation"
@@ -4097,7 +4257,7 @@
   },
   "/canvas#shadows": {
     "current": {
-      "number": "4.12.5.1.18",
+      "number": "4.12.5.1.19",
       "spec": "HTML",
       "text": "Shadows",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#shadows"
@@ -4105,7 +4265,7 @@
   },
   "/canvas#text-styles": {
     "current": {
-      "number": "4.12.5.1.4",
+      "number": "4.12.5.1.5",
       "spec": "HTML",
       "text": "Text styles",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#text-styles"
@@ -4119,9 +4279,17 @@
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element"
     }
   },
-  "/canvas#the-canvas-state": {
+  "/canvas#the-canvas-settings": {
     "current": {
       "number": "4.12.5.1.2",
+      "spec": "HTML",
+      "text": "The canvas settings",
+      "url": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-settings"
+    }
+  },
+  "/canvas#the-canvas-state": {
+    "current": {
+      "number": "4.12.5.1.3",
       "spec": "HTML",
       "text": "The canvas state",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-state"
@@ -4161,7 +4329,7 @@
   },
   "/canvas#transformations": {
     "current": {
-      "number": "4.12.5.1.7",
+      "number": "4.12.5.1.8",
       "spec": "HTML",
       "text": "Transformations",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#transformations"
@@ -4169,7 +4337,7 @@
   },
   "/canvas#working-with-externally-defined-svg-filters": {
     "current": {
-      "number": "4.12.5.1.20",
+      "number": "4.12.5.1.21",
       "spec": "HTML",
       "text": "Working with externally-defined SVG filters",
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#working-with-externally-defined-svg-filters"
@@ -4177,7 +4345,7 @@
   },
   "/common-dom-interfaces#HTMLAllCollection-call": {
     "current": {
-      "number": "2.6.3.1.1",
+      "number": "2.6.4.1.1",
       "spec": "HTML",
       "text": "[[Call]] ( thisArgument, argumentsList )",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#HTMLAllCollection-call"
@@ -4185,7 +4353,7 @@
   },
   "/common-dom-interfaces#collections": {
     "current": {
-      "number": "2.6.3",
+      "number": "2.6.4",
       "spec": "HTML",
       "text": "Collections",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#collections"
@@ -4209,7 +4377,7 @@
   },
   "/common-dom-interfaces#the-domstringlist-interface": {
     "current": {
-      "number": "2.6.4",
+      "number": "2.6.5",
       "spec": "HTML",
       "text": "The DOMStringList interface",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-domstringlist-interface"
@@ -4217,7 +4385,7 @@
   },
   "/common-dom-interfaces#the-htmlallcollection-interface": {
     "current": {
-      "number": "2.6.3.1",
+      "number": "2.6.4.1",
       "spec": "HTML",
       "text": "The HTMLAllCollection interface",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmlallcollection-interface"
@@ -4225,7 +4393,7 @@
   },
   "/common-dom-interfaces#the-htmlformcontrolscollection-interface": {
     "current": {
-      "number": "2.6.3.2",
+      "number": "2.6.4.2",
       "spec": "HTML",
       "text": "The HTMLFormControlsCollection interface",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmlformcontrolscollection-interface"
@@ -4233,7 +4401,7 @@
   },
   "/common-dom-interfaces#the-htmloptionscollection-interface": {
     "current": {
-      "number": "2.6.3.3",
+      "number": "2.6.4.3",
       "spec": "HTML",
       "text": "The HTMLOptionsCollection interface",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmloptionscollection-interface"
@@ -4241,10 +4409,18 @@
   },
   "/common-dom-interfaces#using-reflect-in-specifications": {
     "current": {
-      "number": "2.6.2",
+      "number": "2.6.3",
       "spec": "HTML",
       "text": "Using reflect in specifications",
       "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#using-reflect-in-specifications"
+    }
+  },
+  "/common-dom-interfaces#using-reflect-via-idl-extended-attributes": {
+    "current": {
+      "number": "2.6.2",
+      "spec": "HTML",
+      "text": "Using reflect via IDL extended attributes",
+      "url": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#using-reflect-via-idl-extended-attributes"
     }
   },
   "/common-microsyntaxes#boolean-attributes": {
@@ -4617,7 +4793,7 @@
   },
   "/custom-elements#exposing-custom-element-states": {
     "current": {
-      "number": "4.13.1.7",
+      "number": "4.13.1.8",
       "spec": "HTML",
       "text": "Exposing custom element states",
       "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#exposing-custom-element-states"
@@ -4629,6 +4805,22 @@
       "spec": "HTML",
       "text": "Form-associated custom elements",
       "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#form-associated-custom-elements"
+    }
+  },
+  "/custom-elements#preserving-custom-element-state-when-moved": {
+    "current": {
+      "number": "4.13.2.1",
+      "spec": "HTML",
+      "text": "Preserving custom element state when moved",
+      "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#preserving-custom-element-state-when-moved"
+    }
+  },
+  "/custom-elements#scoped-custom-element-registries": {
+    "current": {
+      "number": "4.13.1.7",
+      "spec": "HTML",
+      "text": "Scoped custom element registries",
+      "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#scoped-custom-element-registries"
     }
   },
   "/custom-elements#shadow-root-access": {
@@ -4775,14 +4967,6 @@
       "url": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#loading-documents"
     }
   },
-  "/document-lifecycle#nav-traversal-ui": {
-    "current": {
-      "number": "7.8",
-      "spec": "HTML",
-      "text": "Browser user interface considerations",
-      "url": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#nav-traversal-ui"
-    }
-  },
   "/document-lifecycle#read-html": {
     "current": {
       "number": "7.5.2",
@@ -4837,22 +5021,6 @@
       "spec": "HTML",
       "text": "Shared document creation infrastructure",
       "url": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#shared-document-creation-infrastructure"
-    }
-  },
-  "/document-lifecycle#the-refresh-header": {
-    "current": {
-      "number": "7.7",
-      "spec": "HTML",
-      "text": "The `Refresh` header",
-      "url": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#the-refresh-header"
-    }
-  },
-  "/document-lifecycle#the-x-frame-options-header": {
-    "current": {
-      "number": "7.6",
-      "spec": "HTML",
-      "text": "The `X-Frame-Options` header",
-      "url": "https://html.spec.whatwg.org/multipage/document-lifecycle.html#the-x-frame-options-header"
     }
   },
   "/document-lifecycle#unloading-documents": {
@@ -4975,6 +5143,14 @@
       "url": "https://html.spec.whatwg.org/multipage/document-sequences.html#windows"
     }
   },
+  "/dom#ancestor-origins": {
+    "current": {
+      "number": "3.1.3",
+      "spec": "HTML",
+      "text": "Ancestor origins",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins"
+    }
+  },
   "/dom#attributes": {
     "current": {
       "number": "3.2.4.1",
@@ -5017,7 +5193,7 @@
   },
   "/dom#dom-tree-accessors": {
     "current": {
-      "number": "3.1.6",
+      "number": "3.1.7",
       "spec": "HTML",
       "text": "DOM tree accessors",
       "url": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors"
@@ -5119,6 +5295,22 @@
       "url": "https://html.spec.whatwg.org/multipage/dom.html#metadata-content"
     }
   },
+  "/dom#optgroup-element-inner-content-elements": {
+    "current": {
+      "number": "3.2.5.2.11",
+      "spec": "HTML",
+      "text": "optgroup element inner content elements",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#optgroup-element-inner-content-elements"
+    }
+  },
+  "/dom#option-element-inner-content-elements": {
+    "current": {
+      "number": "3.2.5.2.12",
+      "spec": "HTML",
+      "text": "option element inner content elements",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#option-element-inner-content-elements"
+    }
+  },
   "/dom#palpable-content": {
     "current": {
       "number": "3.2.5.2.8",
@@ -5145,7 +5337,7 @@
   },
   "/dom#render-blocking-mechanism": {
     "current": {
-      "number": "3.1.5",
+      "number": "3.1.6",
       "spec": "HTML",
       "text": "Render-blocking mechanism",
       "url": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism"
@@ -5153,7 +5345,7 @@
   },
   "/dom#reporting-document-loading-status": {
     "current": {
-      "number": "3.1.4",
+      "number": "3.1.5",
       "spec": "HTML",
       "text": "Reporting document loading status",
       "url": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status"
@@ -5169,7 +5361,7 @@
   },
   "/dom#resource-metadata-management": {
     "current": {
-      "number": "3.1.3",
+      "number": "3.1.4",
       "spec": "HTML",
       "text": "Resource metadata management",
       "url": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management"
@@ -5189,6 +5381,14 @@
       "spec": "HTML",
       "text": "Sectioning content",
       "url": "https://html.spec.whatwg.org/multipage/dom.html#sectioning-content"
+    }
+  },
+  "/dom#select-element-inner-content-elements": {
+    "current": {
+      "number": "3.2.5.2.10",
+      "spec": "HTML",
+      "text": "select element inner content elements",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#select-element-inner-content-elements"
     }
   },
   "/dom#semantics-2": {
@@ -5303,6 +5503,14 @@
       "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#closing-the-input-stream"
     }
   },
+  "/dynamic-markup-insertion#configuration-invariants": {
+    "current": {
+      "number": "8.6.3.1",
+      "spec": "HTML",
+      "text": "Configuration invariants",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#configuration-invariants"
+    }
+  },
   "/dynamic-markup-insertion#document.write()": {
     "current": {
       "number": "8.4.3",
@@ -5335,6 +5543,22 @@
       "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dynamic-markup-insertion"
     }
   },
+  "/dynamic-markup-insertion#html-parsing-methods": {
+    "current": {
+      "number": "8.5.2",
+      "spec": "HTML",
+      "text": "HTML parsing methods",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#html-parsing-methods"
+    }
+  },
+  "/dynamic-markup-insertion#html-sanitization": {
+    "current": {
+      "number": "8.6",
+      "spec": "HTML",
+      "text": "HTML sanitization",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#html-sanitization"
+    }
+  },
   "/dynamic-markup-insertion#html-serialization-methods": {
     "current": {
       "number": "8.5.3",
@@ -5343,12 +5567,92 @@
       "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#html-serialization-methods"
     }
   },
+  "/dynamic-markup-insertion#introduction-12": {
+    "current": {
+      "number": "8.6.1",
+      "spec": "HTML",
+      "text": "Introduction",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#introduction-12"
+    }
+  },
   "/dynamic-markup-insertion#opening-the-input-stream": {
     "current": {
       "number": "8.4.1",
       "spec": "HTML",
       "text": "Opening the input stream",
       "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#opening-the-input-stream"
+    }
+  },
+  "/dynamic-markup-insertion#safe-and-unsafe": {
+    "current": {
+      "number": "8.6.1.1",
+      "spec": "HTML",
+      "text": "Safe and unsafe",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#safe-and-unsafe"
+    }
+  },
+  "/dynamic-markup-insertion#sanitization-algorithms": {
+    "current": {
+      "number": "8.6.4",
+      "spec": "HTML",
+      "text": "Sanitization algorithms",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitization-algorithms"
+    }
+  },
+  "/dynamic-markup-insertion#sanitization-constants": {
+    "current": {
+      "number": "8.6.5",
+      "spec": "HTML",
+      "text": "Sanitization constants",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitization-constants"
+    }
+  },
+  "/dynamic-markup-insertion#sanitizer-configuration": {
+    "current": {
+      "number": "8.6.3",
+      "spec": "HTML",
+      "text": "Sanitizer configuration",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-configuration"
+    }
+  },
+  "/dynamic-markup-insertion#sanitizer-security-considerations": {
+    "current": {
+      "number": "8.6.6",
+      "spec": "HTML",
+      "text": "Security considerations",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-security-considerations"
+    }
+  },
+  "/dynamic-markup-insertion#sanitizer-security-dom-clobbering": {
+    "current": {
+      "number": "8.6.6.2",
+      "spec": "HTML",
+      "text": "DOM clobbering",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-security-dom-clobbering"
+    }
+  },
+  "/dynamic-markup-insertion#sanitizer-security-mxss": {
+    "current": {
+      "number": "8.6.6.4",
+      "spec": "HTML",
+      "text": "Mutation XSS",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-security-mxss"
+    }
+  },
+  "/dynamic-markup-insertion#sanitizer-security-script-gadgets": {
+    "current": {
+      "number": "8.6.6.3",
+      "spec": "HTML",
+      "text": "XSS with script gadgets",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-security-script-gadgets"
+    }
+  },
+  "/dynamic-markup-insertion#sanitizer-security-server-reflected": {
+    "current": {
+      "number": "8.6.6.1",
+      "spec": "HTML",
+      "text": "Server-side reflected and stored XSS",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer-security-server-reflected"
     }
   },
   "/dynamic-markup-insertion#the-createcontextualfragment()-method": {
@@ -5391,12 +5695,20 @@
       "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#the-outerhtml-property"
     }
   },
-  "/dynamic-markup-insertion#unsafe-html-parsing-methods": {
+  "/dynamic-markup-insertion#the-sanitizer-interface": {
     "current": {
-      "number": "8.5.2",
+      "number": "8.6.2",
       "spec": "HTML",
-      "text": "Unsafe HTML parsing methods",
-      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#unsafe-html-parsing-methods"
+      "text": "The Sanitizer interface",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#the-sanitizer-interface"
+    }
+  },
+  "/dynamic-markup-insertion#the-xmlserializer-interface": {
+    "current": {
+      "number": "8.5.8",
+      "spec": "HTML",
+      "text": "The XMLSerializer interface",
+      "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#the-xmlserializer-interface"
     }
   },
   "/edits#attributes-common-to-ins-and-del-elements": {
@@ -5513,7 +5825,7 @@
   },
   "/form-control-infrastructure#a-form-control's-value": {
     "current": {
-      "number": "4.10.17.1",
+      "number": "4.10.18.1",
       "spec": "HTML",
       "text": "A form control's value",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#a-form-control's-value"
@@ -5521,7 +5833,7 @@
   },
   "/form-control-infrastructure#association-of-controls-and-forms": {
     "current": {
-      "number": "4.10.17.3",
+      "number": "4.10.18.3",
       "spec": "HTML",
       "text": "Association of controls and forms",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#association-of-controls-and-forms"
@@ -5529,7 +5841,7 @@
   },
   "/form-control-infrastructure#attributes-common-to-form-controls": {
     "current": {
-      "number": "4.10.18",
+      "number": "4.10.19",
       "spec": "HTML",
       "text": "Attributes common to form controls",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attributes-common-to-form-controls"
@@ -5537,7 +5849,7 @@
   },
   "/form-control-infrastructure#autofill": {
     "current": {
-      "number": "4.10.18.7",
+      "number": "4.10.19.7",
       "spec": "HTML",
       "text": "Autofill",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill"
@@ -5545,7 +5857,7 @@
   },
   "/form-control-infrastructure#autofill-processing-model": {
     "current": {
-      "number": "4.10.18.7.2",
+      "number": "4.10.19.7.2",
       "spec": "HTML",
       "text": "Processing model",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model"
@@ -5553,7 +5865,7 @@
   },
   "/form-control-infrastructure#autofilling-form-controls%3A-the-autocomplete-attribute": {
     "current": {
-      "number": "4.10.18.7.1",
+      "number": "4.10.19.7.1",
       "spec": "HTML",
       "text": "Autofilling form controls: the autocomplete attribute",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls%3A-the-autocomplete-attribute"
@@ -5561,7 +5873,7 @@
   },
   "/form-control-infrastructure#constraint-validation": {
     "current": {
-      "number": "4.10.20.2",
+      "number": "4.10.21.2",
       "spec": "HTML",
       "text": "Constraint validation",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#constraint-validation"
@@ -5569,7 +5881,7 @@
   },
   "/form-control-infrastructure#constraints": {
     "current": {
-      "number": "4.10.20",
+      "number": "4.10.21",
       "spec": "HTML",
       "text": "Constraints",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#constraints"
@@ -5577,7 +5889,7 @@
   },
   "/form-control-infrastructure#constructing-form-data-set": {
     "current": {
-      "number": "4.10.21.4",
+      "number": "4.10.22.4",
       "spec": "HTML",
       "text": "Constructing the entry list",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#constructing-form-data-set"
@@ -5585,7 +5897,7 @@
   },
   "/form-control-infrastructure#converting-an-entry-list-to-a-list-of-name-value-pairs": {
     "current": {
-      "number": "4.10.21.6",
+      "number": "4.10.22.6",
       "spec": "HTML",
       "text": "Converting an entry list to a list of name-value pairs",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#converting-an-entry-list-to-a-list-of-name-value-pairs"
@@ -5593,7 +5905,7 @@
   },
   "/form-control-infrastructure#definitions": {
     "current": {
-      "number": "4.10.20.1",
+      "number": "4.10.21.1",
       "spec": "HTML",
       "text": "Definitions",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#definitions"
@@ -5601,7 +5913,7 @@
   },
   "/form-control-infrastructure#enabling-and-disabling-form-controls%3A-the-disabled-attribute": {
     "current": {
-      "number": "4.10.18.5",
+      "number": "4.10.19.5",
       "spec": "HTML",
       "text": "Enabling and disabling form controls: the disabled attribute",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#enabling-and-disabling-form-controls%3A-the-disabled-attribute"
@@ -5609,7 +5921,7 @@
   },
   "/form-control-infrastructure#form-control-infrastructure": {
     "current": {
-      "number": "4.10.17",
+      "number": "4.10.18",
       "spec": "HTML",
       "text": "Form control infrastructure",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-control-infrastructure"
@@ -5617,7 +5929,7 @@
   },
   "/form-control-infrastructure#form-submission-2": {
     "current": {
-      "number": "4.10.21",
+      "number": "4.10.22",
       "spec": "HTML",
       "text": "Form submission",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-submission-2"
@@ -5625,7 +5937,7 @@
   },
   "/form-control-infrastructure#form-submission-algorithm": {
     "current": {
-      "number": "4.10.21.3",
+      "number": "4.10.22.3",
       "spec": "HTML",
       "text": "Form submission algorithm",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-submission-algorithm"
@@ -5633,7 +5945,7 @@
   },
   "/form-control-infrastructure#form-submission-attributes": {
     "current": {
-      "number": "4.10.18.6",
+      "number": "4.10.19.6",
       "spec": "HTML",
       "text": "Form submission attributes",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-submission-attributes"
@@ -5641,7 +5953,7 @@
   },
   "/form-control-infrastructure#implicit-submission": {
     "current": {
-      "number": "4.10.21.2",
+      "number": "4.10.22.2",
       "spec": "HTML",
       "text": "Implicit submission",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#implicit-submission"
@@ -5649,7 +5961,7 @@
   },
   "/form-control-infrastructure#introduction-5": {
     "current": {
-      "number": "4.10.21.1",
+      "number": "4.10.22.1",
       "spec": "HTML",
       "text": "Introduction",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#introduction-5"
@@ -5657,7 +5969,7 @@
   },
   "/form-control-infrastructure#limiting-user-input-length%3A-the-maxlength-attribute": {
     "current": {
-      "number": "4.10.18.3",
+      "number": "4.10.19.3",
       "spec": "HTML",
       "text": "Limiting user input length: the maxlength attribute",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#limiting-user-input-length%3A-the-maxlength-attribute"
@@ -5665,7 +5977,7 @@
   },
   "/form-control-infrastructure#multipart-form-data": {
     "current": {
-      "number": "4.10.21.8",
+      "number": "4.10.22.8",
       "spec": "HTML",
       "text": "Multipart form data",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#multipart-form-data"
@@ -5673,7 +5985,7 @@
   },
   "/form-control-infrastructure#mutability": {
     "current": {
-      "number": "4.10.17.2",
+      "number": "4.10.18.2",
       "spec": "HTML",
       "text": "Mutability",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#mutability"
@@ -5681,7 +5993,7 @@
   },
   "/form-control-infrastructure#naming-form-controls%3A-the-name-attribute": {
     "current": {
-      "number": "4.10.18.1",
+      "number": "4.10.19.1",
       "spec": "HTML",
       "text": "Naming form controls: the name attribute",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#naming-form-controls%3A-the-name-attribute"
@@ -5689,7 +6001,7 @@
   },
   "/form-control-infrastructure#plain-text-form-data": {
     "current": {
-      "number": "4.10.21.9",
+      "number": "4.10.22.9",
       "spec": "HTML",
       "text": "Plain text form data",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#plain-text-form-data"
@@ -5697,7 +6009,7 @@
   },
   "/form-control-infrastructure#resetting-a-form": {
     "current": {
-      "number": "4.10.22",
+      "number": "4.10.23",
       "spec": "HTML",
       "text": "Resetting a form",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#resetting-a-form"
@@ -5705,7 +6017,7 @@
   },
   "/form-control-infrastructure#security-forms": {
     "current": {
-      "number": "4.10.20.4",
+      "number": "4.10.21.4",
       "spec": "HTML",
       "text": "Security",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#security-forms"
@@ -5713,7 +6025,7 @@
   },
   "/form-control-infrastructure#selecting-a-form-submission-encoding": {
     "current": {
-      "number": "4.10.21.5",
+      "number": "4.10.22.5",
       "spec": "HTML",
       "text": "Selecting a form submission encoding",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#selecting-a-form-submission-encoding"
@@ -5721,7 +6033,7 @@
   },
   "/form-control-infrastructure#setting-minimum-input-length-requirements%3A-the-minlength-attribute": {
     "current": {
-      "number": "4.10.18.4",
+      "number": "4.10.19.4",
       "spec": "HTML",
       "text": "Setting minimum input length requirements: the minlength attribute",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#setting-minimum-input-length-requirements%3A-the-minlength-attribute"
@@ -5729,7 +6041,7 @@
   },
   "/form-control-infrastructure#submitting-element-directionality%3A-the-dirname-attribute": {
     "current": {
-      "number": "4.10.18.2",
+      "number": "4.10.19.2",
       "spec": "HTML",
       "text": "Submitting element directionality: the dirname attribute",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#submitting-element-directionality%3A-the-dirname-attribute"
@@ -5737,7 +6049,7 @@
   },
   "/form-control-infrastructure#textFieldSelection": {
     "current": {
-      "number": "4.10.19",
+      "number": "4.10.20",
       "spec": "HTML",
       "text": "APIs for the text control selections",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#textFieldSelection"
@@ -5745,7 +6057,7 @@
   },
   "/form-control-infrastructure#the-constraint-validation-api": {
     "current": {
-      "number": "4.10.20.3",
+      "number": "4.10.21.3",
       "spec": "HTML",
       "text": "The constraint validation API",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-constraint-validation-api"
@@ -5753,7 +6065,7 @@
   },
   "/form-control-infrastructure#the-formdataevent-interface": {
     "current": {
-      "number": "4.10.21.11",
+      "number": "4.10.22.11",
       "spec": "HTML",
       "text": "The FormDataEvent interface",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-formdataevent-interface"
@@ -5761,7 +6073,7 @@
   },
   "/form-control-infrastructure#the-submitevent-interface": {
     "current": {
-      "number": "4.10.21.10",
+      "number": "4.10.22.10",
       "spec": "HTML",
       "text": "The SubmitEvent interface",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-submitevent-interface"
@@ -5769,7 +6081,7 @@
   },
   "/form-control-infrastructure#url-encoded-form-data": {
     "current": {
-      "number": "4.10.21.7",
+      "number": "4.10.22.7",
       "spec": "HTML",
       "text": "URL-encoded form data",
       "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#url-encoded-form-data"
@@ -5853,6 +6165,14 @@
       "spec": "HTML",
       "text": "The select element",
       "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element"
+    }
+  },
+  "/form-elements#the-selectedcontent-element": {
+    "current": {
+      "number": "4.10.17",
+      "spec": "HTML",
+      "text": "The selectedcontent element",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-selectedcontent-element"
     }
   },
   "/form-elements#the-textarea-element": {
@@ -6111,6 +6431,14 @@
       "url": "https://html.spec.whatwg.org/multipage/iana.html#application%2Fmicrodata%2Bjson"
     }
   },
+  "/iana#application%2Fspeculationrules%2Bjson": {
+    "current": {
+      "number": "17.6",
+      "spec": "HTML",
+      "text": "application/speculationrules+json",
+      "url": "https://html.spec.whatwg.org/multipage/iana.html#application%2Fspeculationrules%2Bjson"
+    }
+  },
   "/iana#application%2Fxhtml%2Bxml": {
     "current": {
       "number": "17.3",
@@ -6137,7 +6465,7 @@
   },
   "/iana#text%2Fevent-stream": {
     "current": {
-      "number": "17.6",
+      "number": "17.7",
       "spec": "HTML",
       "text": "text/event-stream",
       "url": "https://html.spec.whatwg.org/multipage/iana.html#text%2Fevent-stream"
@@ -6161,7 +6489,7 @@
   },
   "/iana#web%2B-scheme-prefix": {
     "current": {
-      "number": "17.7",
+      "number": "17.8",
       "spec": "HTML",
       "text": "web+ scheme prefix",
       "url": "https://html.spec.whatwg.org/multipage/iana.html#web%2B-scheme-prefix"
@@ -6233,7 +6561,7 @@
   },
   "/imagebitmap-and-animations#animation-frames": {
     "current": {
-      "number": "8.11",
+      "number": "8.12",
       "spec": "HTML",
       "text": "Animation frames",
       "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames"
@@ -6241,10 +6569,26 @@
   },
   "/imagebitmap-and-animations#images-2": {
     "current": {
-      "number": "8.10",
+      "number": "8.11",
       "spec": "HTML",
       "text": "Images",
       "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#images-2"
+    }
+  },
+  "/imagebitmap-and-animations#the-imagebitmap-interface": {
+    "current": {
+      "number": "8.11.2",
+      "spec": "HTML",
+      "text": "The ImageBitmap interface",
+      "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#the-imagebitmap-interface"
+    }
+  },
+  "/imagebitmap-and-animations#the-imagedata-interface": {
+    "current": {
+      "number": "8.11.1",
+      "spec": "HTML",
+      "text": "The ImageData interface",
+      "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#the-imagedata-interface"
     }
   },
   "/images#a-graphical-representation-of-some-of-the-surrounding-text": {
@@ -7287,6 +7631,14 @@
       "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-closewatcher-interface"
     }
   },
+  "/interaction#the-commandevent-interface": {
+    "current": {
+      "number": "6.5.2",
+      "spec": "HTML",
+      "text": "The CommandEvent interface",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-commandevent-interface"
+    }
+  },
   "/interaction#the-hidden-attribute": {
     "current": {
       "number": "6.1",
@@ -7389,6 +7741,14 @@
       "spec": "HTML",
       "text": "Commands",
       "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#commands"
+    }
+  },
+  "/interactive-elements#dialog-light-dismiss": {
+    "current": {
+      "number": "4.11.5",
+      "spec": "HTML",
+      "text": "Dialog light dismiss",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-light-dismiss"
     }
   },
   "/interactive-elements#facets-2": {
@@ -7519,14 +7879,6 @@
       "url": "https://html.spec.whatwg.org/multipage/introduction.html#common-pitfalls-to-avoid-when-using-the-scripting-apis"
     }
   },
-  "/introduction#compliance-with-other-specifications": {
-    "current": {
-      "number": "1.7.2",
-      "spec": "HTML",
-      "text": "Compliance with other specifications",
-      "url": "https://html.spec.whatwg.org/multipage/introduction.html#compliance-with-other-specifications"
-    }
-  },
   "/introduction#conformance-requirements-for-authors": {
     "current": {
       "number": "1.11",
@@ -7545,7 +7897,7 @@
   },
   "/introduction#extensibility": {
     "current": {
-      "number": "1.7.3",
+      "number": "1.7.2",
       "spec": "HTML",
       "text": "Extensibility",
       "url": "https://html.spec.whatwg.org/multipage/introduction.html#extensibility"
@@ -7673,15 +8025,23 @@
   },
   "/links#api-for-a-and-area-elements": {
     "current": {
-      "number": "4.6.3",
+      "number": "4.6.4",
       "spec": "HTML",
       "text": "API for a and area elements",
       "url": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements"
     }
   },
+  "/links#api-for-hyperlink-elements": {
+    "current": {
+      "number": "4.6.3",
+      "spec": "HTML",
+      "text": "API for hyperlink elements",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements"
+    }
+  },
   "/links#downloading-resources": {
     "current": {
-      "number": "4.6.5",
+      "number": "4.6.6",
       "spec": "HTML",
       "text": "Downloading resources",
       "url": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources"
@@ -7689,7 +8049,7 @@
   },
   "/links#following-hyperlinks": {
     "current": {
-      "number": "4.6.4",
+      "number": "4.6.5",
       "spec": "HTML",
       "text": "Following hyperlinks",
       "url": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks"
@@ -7697,7 +8057,7 @@
   },
   "/links#hyperlink-auditing": {
     "current": {
-      "number": "4.6.6",
+      "number": "4.6.7",
       "spec": "HTML",
       "text": "Hyperlink auditing",
       "url": "https://html.spec.whatwg.org/multipage/links.html#hyperlink-auditing"
@@ -7713,7 +8073,7 @@
   },
   "/links#link-type-author": {
     "current": {
-      "number": "4.6.7.2",
+      "number": "4.6.8.2",
       "spec": "HTML",
       "text": "Link type \"author\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-author"
@@ -7721,7 +8081,7 @@
   },
   "/links#link-type-bookmark": {
     "current": {
-      "number": "4.6.7.3",
+      "number": "4.6.8.3",
       "spec": "HTML",
       "text": "Link type \"bookmark\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-bookmark"
@@ -7729,7 +8089,7 @@
   },
   "/links#link-type-canonical": {
     "current": {
-      "number": "4.6.7.4",
+      "number": "4.6.8.4",
       "spec": "HTML",
       "text": "Link type \"canonical\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-canonical"
@@ -7737,7 +8097,7 @@
   },
   "/links#link-type-dns-prefetch": {
     "current": {
-      "number": "4.6.7.5",
+      "number": "4.6.8.5",
       "spec": "HTML",
       "text": "Link type \"dns-prefetch\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-dns-prefetch"
@@ -7745,7 +8105,7 @@
   },
   "/links#link-type-expect": {
     "current": {
-      "number": "4.6.7.6",
+      "number": "4.6.8.6",
       "spec": "HTML",
       "text": "Link type \"expect\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-expect"
@@ -7753,7 +8113,7 @@
   },
   "/links#link-type-external": {
     "current": {
-      "number": "4.6.7.7",
+      "number": "4.6.8.7",
       "spec": "HTML",
       "text": "Link type \"external\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-external"
@@ -7761,7 +8121,7 @@
   },
   "/links#link-type-help": {
     "current": {
-      "number": "4.6.7.8",
+      "number": "4.6.8.8",
       "spec": "HTML",
       "text": "Link type \"help\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-help"
@@ -7769,7 +8129,7 @@
   },
   "/links#link-type-license": {
     "current": {
-      "number": "4.6.7.10",
+      "number": "4.6.8.10",
       "spec": "HTML",
       "text": "Link type \"license\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-license"
@@ -7777,7 +8137,7 @@
   },
   "/links#link-type-manifest": {
     "current": {
-      "number": "4.6.7.11",
+      "number": "4.6.8.11",
       "spec": "HTML",
       "text": "Link type \"manifest\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-manifest"
@@ -7785,7 +8145,7 @@
   },
   "/links#link-type-modulepreload": {
     "current": {
-      "number": "4.6.7.12",
+      "number": "4.6.8.12",
       "spec": "HTML",
       "text": "Link type \"modulepreload\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload"
@@ -7793,7 +8153,7 @@
   },
   "/links#link-type-next": {
     "current": {
-      "number": "4.6.7.26.1",
+      "number": "4.6.8.26.1",
       "spec": "HTML",
       "text": "Link type \"next\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-next"
@@ -7801,7 +8161,7 @@
   },
   "/links#link-type-nofollow": {
     "current": {
-      "number": "4.6.7.13",
+      "number": "4.6.8.13",
       "spec": "HTML",
       "text": "Link type \"nofollow\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-nofollow"
@@ -7809,7 +8169,7 @@
   },
   "/links#link-type-noopener": {
     "current": {
-      "number": "4.6.7.14",
+      "number": "4.6.8.14",
       "spec": "HTML",
       "text": "Link type \"noopener\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-noopener"
@@ -7817,7 +8177,7 @@
   },
   "/links#link-type-noreferrer": {
     "current": {
-      "number": "4.6.7.15",
+      "number": "4.6.8.15",
       "spec": "HTML",
       "text": "Link type \"noreferrer\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-noreferrer"
@@ -7825,7 +8185,7 @@
   },
   "/links#link-type-opener": {
     "current": {
-      "number": "4.6.7.16",
+      "number": "4.6.8.16",
       "spec": "HTML",
       "text": "Link type \"opener\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-opener"
@@ -7833,7 +8193,7 @@
   },
   "/links#link-type-pingback": {
     "current": {
-      "number": "4.6.7.17",
+      "number": "4.6.8.17",
       "spec": "HTML",
       "text": "Link type \"pingback\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-pingback"
@@ -7841,7 +8201,7 @@
   },
   "/links#link-type-preconnect": {
     "current": {
-      "number": "4.6.7.18",
+      "number": "4.6.8.18",
       "spec": "HTML",
       "text": "Link type \"preconnect\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect"
@@ -7849,7 +8209,7 @@
   },
   "/links#link-type-prefetch": {
     "current": {
-      "number": "4.6.7.19",
+      "number": "4.6.8.19",
       "spec": "HTML",
       "text": "Link type \"prefetch\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-prefetch"
@@ -7857,7 +8217,7 @@
   },
   "/links#link-type-preload": {
     "current": {
-      "number": "4.6.7.20",
+      "number": "4.6.8.20",
       "spec": "HTML",
       "text": "Link type \"preload\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload"
@@ -7865,7 +8225,7 @@
   },
   "/links#link-type-prev": {
     "current": {
-      "number": "4.6.7.26.2",
+      "number": "4.6.8.26.2",
       "spec": "HTML",
       "text": "Link type \"prev\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-prev"
@@ -7873,7 +8233,7 @@
   },
   "/links#link-type-privacy-policy": {
     "current": {
-      "number": "4.6.7.21",
+      "number": "4.6.8.21",
       "spec": "HTML",
       "text": "Link type \"privacy-policy\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-privacy-policy"
@@ -7881,7 +8241,7 @@
   },
   "/links#link-type-search": {
     "current": {
-      "number": "4.6.7.22",
+      "number": "4.6.8.22",
       "spec": "HTML",
       "text": "Link type \"search\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-search"
@@ -7889,7 +8249,7 @@
   },
   "/links#link-type-stylesheet": {
     "current": {
-      "number": "4.6.7.23",
+      "number": "4.6.8.23",
       "spec": "HTML",
       "text": "Link type \"stylesheet\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-stylesheet"
@@ -7897,7 +8257,7 @@
   },
   "/links#link-type-tag": {
     "current": {
-      "number": "4.6.7.24",
+      "number": "4.6.8.24",
       "spec": "HTML",
       "text": "Link type \"tag\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-tag"
@@ -7905,7 +8265,7 @@
   },
   "/links#link-type-terms-of-service": {
     "current": {
-      "number": "4.6.7.25",
+      "number": "4.6.8.25",
       "spec": "HTML",
       "text": "Link Type \"terms-of-service\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-terms-of-service"
@@ -7913,7 +8273,7 @@
   },
   "/links#linkTypes": {
     "current": {
-      "number": "4.6.7",
+      "number": "4.6.8",
       "spec": "HTML",
       "text": "Link types",
       "url": "https://html.spec.whatwg.org/multipage/links.html#linkTypes"
@@ -7937,7 +8297,7 @@
   },
   "/links#other-link-types": {
     "current": {
-      "number": "4.6.7.27",
+      "number": "4.6.8.27",
       "spec": "HTML",
       "text": "Other link types",
       "url": "https://html.spec.whatwg.org/multipage/links.html#other-link-types"
@@ -7945,7 +8305,7 @@
   },
   "/links#rel-alternate": {
     "current": {
-      "number": "4.6.7.1",
+      "number": "4.6.8.1",
       "spec": "HTML",
       "text": "Link type \"alternate\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#rel-alternate"
@@ -7953,7 +8313,7 @@
   },
   "/links#rel-icon": {
     "current": {
-      "number": "4.6.7.9",
+      "number": "4.6.8.9",
       "spec": "HTML",
       "text": "Link type \"icon\"",
       "url": "https://html.spec.whatwg.org/multipage/links.html#rel-icon"
@@ -7961,7 +8321,7 @@
   },
   "/links#sequential-link-types": {
     "current": {
-      "number": "4.6.7.26",
+      "number": "4.6.8.26",
       "spec": "HTML",
       "text": "Sequential link types",
       "url": "https://html.spec.whatwg.org/multipage/links.html#sequential-link-types"
@@ -7969,7 +8329,7 @@
   },
   "/links#the-ping-headers": {
     "current": {
-      "number": "4.6.6.1",
+      "number": "4.6.7.1",
       "spec": "HTML",
       "text": "The `Ping-From` and `Ping-To` headers",
       "url": "https://html.spec.whatwg.org/multipage/links.html#the-ping-headers"
@@ -8641,7 +9001,7 @@
   },
   "/nav-history-apis#navigate-event-firing": {
     "current": {
-      "number": "7.2.6.10.3",
+      "number": "7.2.6.10.4",
       "spec": "HTML",
       "text": "Firing the event",
       "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-firing"
@@ -8649,7 +9009,7 @@
   },
   "/nav-history-apis#navigate-event-scroll-focus": {
     "current": {
-      "number": "7.2.6.10.4",
+      "number": "7.2.6.10.5",
       "spec": "HTML",
       "text": "Scroll and focus behavior",
       "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-scroll-focus"
@@ -8817,7 +9177,7 @@
   },
   "/nav-history-apis#the-navigationdestination-interface": {
     "current": {
-      "number": "7.2.6.10.2",
+      "number": "7.2.6.10.3",
       "spec": "HTML",
       "text": "The NavigationDestination interface",
       "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationdestination-interface"
@@ -8829,6 +9189,14 @@
       "spec": "HTML",
       "text": "The NavigationHistoryEntry interface",
       "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationhistoryentry-interface"
+    }
+  },
+  "/nav-history-apis#the-navigationprecommitcontroller-interface": {
+    "current": {
+      "number": "7.2.6.10.2",
+      "spec": "HTML",
+      "text": "The NavigationPrecommitController interface",
+      "url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface"
     }
   },
   "/nav-history-apis#the-notrestoredreasons-interface": {
@@ -9561,7 +9929,7 @@
   },
   "/parsing#parsing-main-afterbody": {
     "current": {
-      "number": "13.2.6.4.19",
+      "number": "13.2.6.4.17",
       "spec": "HTML",
       "text": "The \"after body\" insertion mode",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-afterbody"
@@ -9569,7 +9937,7 @@
   },
   "/parsing#parsing-main-afterframeset": {
     "current": {
-      "number": "13.2.6.4.21",
+      "number": "13.2.6.4.19",
       "spec": "HTML",
       "text": "The \"after frameset\" insertion mode",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-afterframeset"
@@ -9617,7 +9985,7 @@
   },
   "/parsing#parsing-main-inframeset": {
     "current": {
-      "number": "13.2.6.4.20",
+      "number": "13.2.6.4.18",
       "spec": "HTML",
       "text": "The \"in frameset\" insertion mode",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inframeset"
@@ -9645,22 +10013,6 @@
       "spec": "HTML",
       "text": "The rules for parsing tokens in HTML content",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inhtml"
-    }
-  },
-  "/parsing#parsing-main-inselect": {
-    "current": {
-      "number": "13.2.6.4.16",
-      "spec": "HTML",
-      "text": "The \"in select\" insertion mode",
-      "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inselect"
-    }
-  },
-  "/parsing#parsing-main-inselectintable": {
-    "current": {
-      "number": "13.2.6.4.17",
-      "spec": "HTML",
-      "text": "The \"in select in table\" insertion mode",
-      "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inselectintable"
     }
   },
   "/parsing#parsing-main-intable": {
@@ -9697,7 +10049,7 @@
   },
   "/parsing#parsing-main-intemplate": {
     "current": {
-      "number": "13.2.6.4.18",
+      "number": "13.2.6.4.16",
       "spec": "HTML",
       "text": "The \"in template\" insertion mode",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-intemplate"
@@ -9993,7 +10345,7 @@
   },
   "/parsing#the-after-after-body-insertion-mode": {
     "current": {
-      "number": "13.2.6.4.22",
+      "number": "13.2.6.4.20",
       "spec": "HTML",
       "text": "The \"after after body\" insertion mode",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#the-after-after-body-insertion-mode"
@@ -10001,7 +10353,7 @@
   },
   "/parsing#the-after-after-frameset-insertion-mode": {
     "current": {
-      "number": "13.2.6.4.23",
+      "number": "13.2.6.4.21",
       "spec": "HTML",
       "text": "The \"after after frameset\" insertion mode",
       "url": "https://html.spec.whatwg.org/multipage/parsing.html#the-after-after-frameset-insertion-mode"
@@ -10255,12 +10607,12 @@
       "url": "https://html.spec.whatwg.org/multipage/rendering.html#interactive-media"
     }
   },
-  "/rendering#introduction-16": {
+  "/rendering#introduction-17": {
     "current": {
       "number": "15.1",
       "spec": "HTML",
       "text": "Introduction",
-      "url": "https://html.spec.whatwg.org/multipage/rendering.html#introduction-16"
+      "url": "https://html.spec.whatwg.org/multipage/rendering.html#introduction-17"
     }
   },
   "/rendering#links%2C-forms%2C-and-navigation": {
@@ -10633,10 +10985,18 @@
   },
   "/sections#exposing-outlines-to-users": {
     "current": {
-      "number": "4.3.11.2",
+      "number": "4.3.11.3",
       "spec": "HTML",
       "text": "Exposing outlines to users",
       "url": "https://html.spec.whatwg.org/multipage/sections.html#exposing-outlines-to-users"
+    }
+  },
+  "/sections#heading-levels-%26-offsets": {
+    "current": {
+      "number": "4.3.11.1",
+      "spec": "HTML",
+      "text": "Heading levels & offsets",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#heading-levels-%26-offsets"
     }
   },
   "/sections#headings-and-outlines-2": {
@@ -10649,7 +11009,7 @@
   },
   "/sections#sample-outlines": {
     "current": {
-      "number": "4.3.11.1",
+      "number": "4.3.11.2",
       "spec": "HTML",
       "text": "Sample outlines",
       "url": "https://html.spec.whatwg.org/multipage/sections.html#sample-outlines"
@@ -11087,6 +11447,158 @@
       "url": "https://html.spec.whatwg.org/multipage/server-sent-events.html#the-last-event-id-header"
     }
   },
+  "/speculative-loading#nav-traversal-ui": {
+    "current": {
+      "number": "7.9",
+      "spec": "HTML",
+      "text": "Browser user interface considerations",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#nav-traversal-ui"
+    }
+  },
+  "/speculative-loading#navigational-prefetching": {
+    "current": {
+      "number": "7.6.2",
+      "spec": "HTML",
+      "text": "Navigational prefetching",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#navigational-prefetching"
+    }
+  },
+  "/speculative-loading#speculation-rules": {
+    "current": {
+      "number": "7.6.1",
+      "spec": "HTML",
+      "text": "Speculation rules",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules"
+    }
+  },
+  "/speculative-loading#speculation-rules-data-model": {
+    "current": {
+      "number": "7.6.1.1",
+      "spec": "HTML",
+      "text": "Data model",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules-data-model"
+    }
+  },
+  "/speculative-loading#speculation-rules-parsing": {
+    "current": {
+      "number": "7.6.1.2",
+      "spec": "HTML",
+      "text": "Parsing",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules-parsing"
+    }
+  },
+  "/speculative-loading#speculation-rules-processing-model": {
+    "current": {
+      "number": "7.6.1.3",
+      "spec": "HTML",
+      "text": "Processing model",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rules-processing-model"
+    }
+  },
+  "/speculative-loading#speculative-loading": {
+    "current": {
+      "number": "7.6",
+      "spec": "HTML",
+      "text": "Speculative loading",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading"
+    }
+  },
+  "/speculative-loading#speculative-loading-cross-site-requests": {
+    "current": {
+      "number": "7.6.5.1",
+      "spec": "HTML",
+      "text": "Cross-site requests",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-cross-site-requests"
+    }
+  },
+  "/speculative-loading#speculative-loading-heuristics": {
+    "current": {
+      "number": "7.6.6.1",
+      "spec": "HTML",
+      "text": "Heuristics and optionality",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-heuristics"
+    }
+  },
+  "/speculative-loading#speculative-loading-identity-joining": {
+    "current": {
+      "number": "7.6.6.3",
+      "spec": "HTML",
+      "text": "Identity joining",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-identity-joining"
+    }
+  },
+  "/speculative-loading#speculative-loading-injected-content": {
+    "current": {
+      "number": "7.6.5.2",
+      "spec": "HTML",
+      "text": "Injected content",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-injected-content"
+    }
+  },
+  "/speculative-loading#speculative-loading-ip-anonymization": {
+    "current": {
+      "number": "7.6.5.3",
+      "spec": "HTML",
+      "text": "IP anonymization",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-ip-anonymization"
+    }
+  },
+  "/speculative-loading#speculative-loading-privacy": {
+    "current": {
+      "number": "7.6.6",
+      "spec": "HTML",
+      "text": "Privacy considerations",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-privacy"
+    }
+  },
+  "/speculative-loading#speculative-loading-security": {
+    "current": {
+      "number": "7.6.5",
+      "spec": "HTML",
+      "text": "Security considerations",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-security"
+    }
+  },
+  "/speculative-loading#speculative-loading-state-partitioning": {
+    "current": {
+      "number": "7.6.6.2",
+      "spec": "HTML",
+      "text": "State partitioning",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading-state-partitioning"
+    }
+  },
+  "/speculative-loading#the-refresh-header": {
+    "current": {
+      "number": "7.8",
+      "spec": "HTML",
+      "text": "The `Refresh` header",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-refresh-header"
+    }
+  },
+  "/speculative-loading#the-sec-speculation-tags-header": {
+    "current": {
+      "number": "7.6.4",
+      "spec": "HTML",
+      "text": "The `Sec-Speculation-Tags` header",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-sec-speculation-tags-header"
+    }
+  },
+  "/speculative-loading#the-speculation-rules-header": {
+    "current": {
+      "number": "7.6.3",
+      "spec": "HTML",
+      "text": "The `Speculation-Rules` header",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-speculation-rules-header"
+    }
+  },
+  "/speculative-loading#the-x-frame-options-header": {
+    "current": {
+      "number": "7.7",
+      "spec": "HTML",
+      "text": "The `X-Frame-Options` header",
+      "url": "https://html.spec.whatwg.org/multipage/speculative-loading.html#the-x-frame-options-header"
+    }
+  },
   "/structured-data#performing-structured-clones-from-other-specifications": {
     "current": {
       "number": "2.7.9",
@@ -11297,7 +11809,7 @@
   },
   "/system-state#client-identification": {
     "current": {
-      "number": "8.9.1.1",
+      "number": "8.10.1.1",
       "spec": "HTML",
       "text": "Client identification",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#client-identification"
@@ -11305,7 +11817,7 @@
   },
   "/system-state#cookies": {
     "current": {
-      "number": "8.9.1.5",
+      "number": "8.10.1.5",
       "spec": "HTML",
       "text": "Cookies",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#cookies"
@@ -11313,7 +11825,7 @@
   },
   "/system-state#custom-handlers": {
     "current": {
-      "number": "8.9.1.4",
+      "number": "8.10.1.4",
       "spec": "HTML",
       "text": "Custom scheme handlers: the registerProtocolHandler() method",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#custom-handlers"
@@ -11321,7 +11833,7 @@
   },
   "/system-state#language-preferences": {
     "current": {
-      "number": "8.9.1.2",
+      "number": "8.10.1.2",
       "spec": "HTML",
       "text": "Language preferences",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#language-preferences"
@@ -11329,7 +11841,7 @@
   },
   "/system-state#navigator.online": {
     "current": {
-      "number": "8.9.1.3",
+      "number": "8.10.1.3",
       "spec": "HTML",
       "text": "Browser state",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#navigator.online"
@@ -11337,7 +11849,7 @@
   },
   "/system-state#pdf-viewing-support": {
     "current": {
-      "number": "8.9.1.6",
+      "number": "8.10.1.6",
       "spec": "HTML",
       "text": "PDF viewing support",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#pdf-viewing-support"
@@ -11345,7 +11857,7 @@
   },
   "/system-state#security-and-privacy": {
     "current": {
-      "number": "8.9.1.4.1",
+      "number": "8.10.1.4.1",
       "spec": "HTML",
       "text": "Security and privacy",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#security-and-privacy"
@@ -11353,7 +11865,7 @@
   },
   "/system-state#system-state-and-capabilities": {
     "current": {
-      "number": "8.9",
+      "number": "8.10",
       "spec": "HTML",
       "text": "System state and capabilities",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#system-state-and-capabilities"
@@ -11361,7 +11873,7 @@
   },
   "/system-state#the-navigator-object": {
     "current": {
-      "number": "8.9.1",
+      "number": "8.10.1",
       "spec": "HTML",
       "text": "The Navigator object",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#the-navigator-object"
@@ -11369,7 +11881,7 @@
   },
   "/system-state#user-agent-automation": {
     "current": {
-      "number": "8.9.1.4.2",
+      "number": "8.10.1.4.2",
       "spec": "HTML",
       "text": "User agent automation",
       "url": "https://html.spec.whatwg.org/multipage/system-state.html#user-agent-automation"
@@ -11761,7 +12273,7 @@
   },
   "/timers-and-user-prompts#microtask-queuing": {
     "current": {
-      "number": "8.7",
+      "number": "8.8",
       "spec": "HTML",
       "text": "Microtask queuing",
       "url": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#microtask-queuing"
@@ -11769,7 +12281,7 @@
   },
   "/timers-and-user-prompts#printing": {
     "current": {
-      "number": "8.8.2",
+      "number": "8.9.2",
       "spec": "HTML",
       "text": "Printing",
       "url": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#printing"
@@ -11777,7 +12289,7 @@
   },
   "/timers-and-user-prompts#simple-dialogs": {
     "current": {
-      "number": "8.8.1",
+      "number": "8.9.1",
       "spec": "HTML",
       "text": "Simple dialogs",
       "url": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#simple-dialogs"
@@ -11785,7 +12297,7 @@
   },
   "/timers-and-user-prompts#timers": {
     "current": {
-      "number": "8.6",
+      "number": "8.7",
       "spec": "HTML",
       "text": "Timers",
       "url": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#timers"
@@ -11793,7 +12305,7 @@
   },
   "/timers-and-user-prompts#user-prompts": {
     "current": {
-      "number": "8.8",
+      "number": "8.9",
       "spec": "HTML",
       "text": "User prompts",
       "url": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#user-prompts"
@@ -11823,12 +12335,12 @@
       "url": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#cors-settings-attributes"
     }
   },
-  "/urls-and-fetching#dynamic-changes-to-base-urls": {
+  "/urls-and-fetching#document-base-urls": {
     "current": {
       "number": "2.4.3",
       "spec": "HTML",
-      "text": "Dynamic changes to base URLs",
-      "url": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dynamic-changes-to-base-urls"
+      "text": "Document base URLs",
+      "url": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#document-base-urls"
     }
   },
   "/urls-and-fetching#extracting-character-encodings-from-meta-elements": {
@@ -11943,20 +12455,20 @@
       "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#examples-5"
     }
   },
-  "/web-messaging#introduction-12": {
+  "/web-messaging#introduction-13": {
     "current": {
       "number": "9.3.1",
       "spec": "HTML",
       "text": "Introduction",
-      "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#introduction-12"
+      "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#introduction-13"
     }
   },
-  "/web-messaging#introduction-13": {
+  "/web-messaging#introduction-14": {
     "current": {
       "number": "9.4.1",
       "spec": "HTML",
       "text": "Introduction",
-      "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#introduction-13"
+      "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#introduction-14"
     }
   },
   "/web-messaging#message-channels": {
@@ -11969,7 +12481,7 @@
   },
   "/web-messaging#message-ports": {
     "current": {
-      "number": "9.4.3",
+      "number": "9.4.4",
       "spec": "HTML",
       "text": "Message ports",
       "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#message-ports"
@@ -11977,7 +12489,7 @@
   },
   "/web-messaging#ports-and-garbage-collection": {
     "current": {
-      "number": "9.4.4",
+      "number": "9.4.5",
       "spec": "HTML",
       "text": "Ports and garbage collection",
       "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#ports-and-garbage-collection"
@@ -12013,6 +12525,14 @@
       "spec": "HTML",
       "text": "Security",
       "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#security-postmsg"
+    }
+  },
+  "/web-messaging#the-messageeventtarget-mixin": {
+    "current": {
+      "number": "9.4.3",
+      "spec": "HTML",
+      "text": "The MessageEventTarget mixin",
+      "url": "https://html.spec.whatwg.org/multipage/web-messaging.html#the-messageeventtarget-mixin"
     }
   },
   "/web-messaging#user-agents": {
@@ -12455,6 +12975,14 @@
       "url": "https://html.spec.whatwg.org/multipage/webappapis.html#secure-contexts"
     }
   },
+  "/webappapis#speculation-rules-parse-results": {
+    "current": {
+      "number": "8.1.4.9",
+      "spec": "HTML",
+      "text": "Speculation rules parse results",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#speculation-rules-parse-results"
+    }
+  },
   "/webappapis#the-hostensurecanaddprivateelement-implementation": {
     "current": {
       "number": "8.1.6.1",
@@ -12527,12 +13055,12 @@
       "url": "https://html.spec.whatwg.org/multipage/webstorage.html#implementation-risks"
     }
   },
-  "/webstorage#introduction-15": {
+  "/webstorage#introduction-16": {
     "current": {
       "number": "12.1",
       "spec": "HTML",
       "text": "Introduction",
-      "url": "https://html.spec.whatwg.org/multipage/webstorage.html#introduction-15"
+      "url": "https://html.spec.whatwg.org/multipage/webstorage.html#introduction-16"
     }
   },
   "/webstorage#privacy": {
@@ -12703,12 +13231,12 @@
       "url": "https://html.spec.whatwg.org/multipage/workers.html#infrastructure-2"
     }
   },
-  "/workers#introduction-14": {
+  "/workers#introduction-15": {
     "current": {
       "number": "10.1",
       "spec": "HTML",
       "text": "Introduction",
-      "url": "https://html.spec.whatwg.org/multipage/workers.html#introduction-14"
+      "url": "https://html.spec.whatwg.org/multipage/workers.html#introduction-15"
     }
   },
   "/workers#module-worker-example": {

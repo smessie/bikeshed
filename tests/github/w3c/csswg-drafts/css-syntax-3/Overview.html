@@ -1154,7 +1154,7 @@ Description of CSS’s Syntax</span><a class="self-link" href="#syntax-descripti
 
     <p>Here are several examples of <a data-link-type="dfn" href="#at-rule" id="ref-for-at-rule④">at-rules</a> that illustrate the varied syntax they may contain.</p>
 <pre>@import "my-styles.css";</pre>
-    <p>The <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#at-ruledef-import" id="ref-for-at-ruledef-import">@import</a> <a data-link-type="dfn" href="#at-rule" id="ref-for-at-rule⑤">at-rule</a> is a simple statement.
+    <p>The <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-6/#at-ruledef-import" id="ref-for-at-ruledef-import">@import</a> <a data-link-type="dfn" href="#at-rule" id="ref-for-at-rule⑤">at-rule</a> is a simple statement.
 		After its name, it takes a single string or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#funcdef-url" id="ref-for-funcdef-url">url()</a> function to indicate the stylesheet that it should import.</p>
 <pre>@page :left {
   margin-left: 4cm;
@@ -1416,7 +1416,7 @@ and return the result.</p>
 	so the stylesheet defaults to UTF-8 instead in the absence of more explicit information.</p>
    <p class="note" role="note"><span class="marker">Note:</span> <a data-link-type="biblio" href="#biblio-html" title="HTML Standard">[HTML]</a> defines <a href="https://html.spec.whatwg.org/multipage/links.html#link-type-stylesheet">the environment encoding for <code>&lt;link rel=stylesheet></code></a>.</p>
    <p class="note" role="note"><span class="marker">Note:</span> <a data-link-type="biblio" href="#biblio-cssom" title="CSS Object Model (CSSOM)">[CSSOM]</a> defines <a href="https://drafts.csswg.org/cssom/#requirements-on-user-agents-implementing-the-xml-stylesheet-processing-instruction">the environment encoding for <code>&lt;xml-stylesheet?></code></a>.</p>
-   <p class="note" role="note"><span class="marker">Note:</span> <a data-link-type="biblio" href="#biblio-css-cascade-3" title="CSS Cascading and Inheritance Level 3">[CSS-CASCADE-3]</a> defines <a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-cascade-5/#at-ruledef-import" id="ref-for-at-ruledef-import①">the environment encoding for <code>@import</code></a>.</p>
+   <p class="note" role="note"><span class="marker">Note:</span> <a data-link-type="biblio" href="#biblio-css-cascade-3" title="CSS Cascading and Inheritance Level 3">[CSS-CASCADE-3]</a> defines <a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-cascade-6/#at-ruledef-import" id="ref-for-at-ruledef-import①">the environment encoding for <code>@import</code></a>.</p>
    <h3 class="heading settled" data-level="3.3" id="input-preprocessing"><span class="secno">3.3. </span><span class="content">
 Preprocessing the input stream</span><a class="self-link" href="#input-preprocessing"></a></h3>
    <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="input-stream">input stream</dfn> consists of the <a data-link-type="dfn" href="#css-filter-code-points" id="ref-for-css-filter-code-points">filtered code points</a>
@@ -5936,7 +5936,7 @@ such as defining <a data-link-type="dfn" href="https://drafts.csswg.org/css-coun
     <li data-md>
      <p>manage syntactic constructs
 such as <u class="link-error" data-lt="imports" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;imports&apos; that are marked for export.
-  (Possible specs this could be from: html)">imports</u> and <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-attribute-namespace" id="ref-for-concept-attribute-namespace">namespace</a> keyword mappings</p>
+  (Possible specs this could be from: html or shacl12-rules)">imports</u> and <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-attribute-namespace" id="ref-for-concept-attribute-namespace">namespace</a> keyword mappings</p>
     <li data-md>
      <p>and serve other miscellaneous purposes not served by a <a data-link-type="dfn" href="#style-rule" id="ref-for-style-rule④">style rule</a></p>
    </ul>
@@ -6840,13 +6840,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
-    <a data-link-type="biblio">[CSS-CASCADE-5]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="4e55d7fb">@import</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[CSS-CASCADE-6]</a> defines the following terms:
     <ul>
+     <li><span class="dfn-paneled" id="a803a89f">@import</span>
      <li><span class="dfn-paneled" id="de6d76c2">cascade</span>
      <li><span class="dfn-paneled" id="d6fa39b8">important</span>
     </ul>
@@ -7015,12 +7011,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
-   <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-fonts-5">[CSS-FONTS-5]
    <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-5/"><cite>CSS Fonts Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-5/">https://drafts.csswg.org/css-fonts-5/</a>
    <dt id="biblio-css-text-decor-3">[CSS-TEXT-DECOR-3]
@@ -7044,9 +7038,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-cssom">[CSSOM]
    <dd>Daniel Glazman; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom/"><cite>CSS Object Model (CSSOM)</cite></a>. URL: <a href="https://drafts.csswg.org/cssom/">https://drafts.csswg.org/cssom/</a>
    <dt id="biblio-mediaq">[MEDIAQ]
-   <dd>Florian Rivoal; Tab Atkins Jr.. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-select">[SELECT]
    <dd>Tantek Çelik; et al. <a href="https://drafts.csswg.org/selectors-3/"><cite>Selectors Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/selectors-3/">https://drafts.csswg.org/selectors-3/</a>
   </dl>
@@ -7260,7 +7254,6 @@ let dfnPanelData = {
 "16d07e10": {"dfnID":"16d07e10","dfnText":"for each","external":true,"refSections":[{"refs":[{"id":"ref-for-list-iterate"}],"title":"5.3.2. \nParse A Comma-Separated List According To A CSS Grammar"}],"url":"https://infra.spec.whatwg.org/#list-iterate"},
 "198f1537": {"dfnID":"198f1537","dfnText":"custom property","external":true,"refSections":[{"refs":[{"id":"ref-for-custom-property"}],"title":"8.2. \nDefining Arbitrary Contents: the <declaration-value> and <any-value> productions"}],"url":"https://drafts.csswg.org/css-variables-2/#custom-property"},
 "1d1029cb": {"dfnID":"1d1029cb","dfnText":"sizes","external":true,"refSections":[{"refs":[{"id":"ref-for-attr-img-sizes"}],"title":"5.3.2. \nParse A Comma-Separated List According To A CSS Grammar"}],"url":"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-sizes"},
-"4e55d7fb": {"dfnID":"4e55d7fb","dfnText":"@import","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-import"}],"title":"2. \nDescription of CSS\u2019s Syntax"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460"}],"title":"3.2. \nThe input byte stream"}],"url":"https://drafts.csswg.org/css-cascade-5/#at-ruledef-import"},
 "4fcdc12a": {"dfnID":"4fcdc12a","dfnText":"rule","external":true,"refSections":[{"refs":[{"id":"ref-for-css-rule"}],"title":"9.2. \nAt-rules"}],"url":"https://drafts.csswg.org/css-syntax-3/#css-rule"},
 "514a11a8": {"dfnID":"514a11a8","dfnText":"{}-block","external":true,"refSections":[{"refs":[{"id":"ref-for-curly-block"}],"title":"9.2. \nAt-rules"}],"url":"https://drafts.csswg.org/css-syntax-3/#curly-block"},
 "537cf076": {"dfnID":"537cf076","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"},{"id":"ref-for-mult-opt\u2460"},{"id":"ref-for-mult-opt\u2461"},{"id":"ref-for-mult-opt\u2462"},{"id":"ref-for-mult-opt\u2463"}],"title":"6.2. \nThe <an+b> type"}],"url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
@@ -7281,6 +7274,7 @@ let dfnPanelData = {
 "99c988d6": {"dfnID":"99c988d6","dfnText":"remove","external":true,"refSections":[{"refs":[{"id":"ref-for-list-remove"}],"title":"5.4.5. \nConsume a declaration"}],"url":"https://infra.spec.whatwg.org/#list-remove"},
 "9d795fd1": {"dfnID":"9d795fd1","dfnText":":nth-child()","external":true,"refSections":[{"refs":[{"id":"ref-for-nth-child-pseudo"}],"title":"6. \nThe An+B microsyntax"}],"url":"https://drafts.csswg.org/selectors-4/#nth-child-pseudo"},
 "a3fb968a": {"dfnID":"a3fb968a","dfnText":"surrogate","external":true,"refSections":[{"refs":[{"id":"ref-for-surrogate"}],"title":"3.3. \nPreprocessing the input stream"},{"refs":[{"id":"ref-for-surrogate\u2460"}],"title":"4.3.7. \nConsume an escaped code point"},{"refs":[{"id":"ref-for-surrogate\u2461"}],"title":"12.2. \nChanges from the 20 February 2014 Candidate Recommendation"},{"refs":[{"id":"ref-for-surrogate\u2462"}],"title":"12.5. \nChanges from CSS 2.1 and Selectors Level 3"}],"url":"https://infra.spec.whatwg.org/#surrogate"},
+"a803a89f": {"dfnID":"a803a89f","dfnText":"@import","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-import"}],"title":"2. \nDescription of CSS\u2019s Syntax"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460"}],"title":"3.2. \nThe input byte stream"}],"url":"https://drafts.csswg.org/css-cascade-6/#at-ruledef-import"},
 "a83be41c": {"dfnID":"a83be41c","dfnText":"underline","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-text-decoration-line-underline"}],"title":"2. \nDescription of CSS\u2019s Syntax"}],"url":"https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-underline"},
 "anb": {"dfnID":"anb","dfnText":"An+B","external":false,"refSections":[],"url":"#anb"},
 "anb-production": {"dfnID":"anb-production","dfnText":"<an+b>","external":false,"refSections":[{"refs":[{"id":"ref-for-anb-production"}],"title":"10.1. Serializing <an+b>"},{"refs":[{"id":"ref-for-anb-production\u2460"}],"title":"12.2. Changes from the 20 February 2014 Candidate Recommendation"}],"url":"#anb-production"},
@@ -7941,7 +7935,7 @@ let refsData = {
 "https://drafts.csswg.org/css-animations-1/#propdef-animation-timing-function": {"displayText":"animation-timing-function","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-animations","spec":"css-animations-1","status":"current","text":"animation-timing-function","type":"property","url":"https://drafts.csswg.org/css-animations-1/#propdef-animation-timing-function"},
 "https://drafts.csswg.org/css-animations-1/#typedef-keyframe-selector": {"displayText":"<keyframe-selector>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-animations","spec":"css-animations-1","status":"current","text":"<keyframe-selector>","type":"type","url":"https://drafts.csswg.org/css-animations-1/#typedef-keyframe-selector"},
 "https://drafts.csswg.org/css-animations-1/#typedef-keyframes-name": {"displayText":"<keyframes-name>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-animations","spec":"css-animations-1","status":"current","text":"<keyframes-name>","type":"type","url":"https://drafts.csswg.org/css-animations-1/#typedef-keyframes-name"},
-"https://drafts.csswg.org/css-cascade-5/#at-ruledef-import": {"displayText":"@import","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"@import","type":"at-rule","url":"https://drafts.csswg.org/css-cascade-5/#at-ruledef-import"},
+"https://drafts.csswg.org/css-cascade-6/#at-ruledef-import": {"displayText":"@import","export":true,"for_":[],"level":"6","normative":true,"shortname":"css-cascade","spec":"css-cascade-6","status":"current","text":"@import","type":"at-rule","url":"https://drafts.csswg.org/css-cascade-6/#at-ruledef-import"},
 "https://drafts.csswg.org/css-cascade-6/#cascade": {"displayText":"cascade","export":true,"for_":[],"level":"6","normative":true,"shortname":"css-cascade","spec":"css-cascade-6","status":"current","text":"cascade","type":"dfn","url":"https://drafts.csswg.org/css-cascade-6/#cascade"},
 "https://drafts.csswg.org/css-cascade-6/#important": {"displayText":"important","export":true,"for_":[],"level":"6","normative":true,"shortname":"css-cascade","spec":"css-cascade-6","status":"current","text":"important","type":"dfn","url":"https://drafts.csswg.org/css-cascade-6/#important"},
 "https://drafts.csswg.org/css-color-4/#valdef-color-blue": {"displayText":"blue","export":true,"for_":["<color>","<named-color>"],"level":"4","normative":true,"shortname":"css-color","spec":"css-color-4","status":"current","text":"blue","type":"value","url":"https://drafts.csswg.org/css-color-4/#valdef-color-blue"},

@@ -1,10 +1,16 @@
 {
-  "#abstract": {
-    "snapshot": {
-      "number": "",
+  "#a-acknowledgements": {
+    "current": {
+      "number": "A",
       "spec": "Vibration API",
-      "text": "Abstract",
-      "url": "https://www.w3.org/TR/vibration/#abstract"
+      "text": "Acknowledgements",
+      "url": "https://w3c.github.io/vibration/#acknowledgements"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "Vibration API",
+      "text": "Acknowledgements",
+      "url": "https://www.w3.org/TR/vibration/#acknowledgements"
     }
   },
   "#acknowledgements": {
@@ -21,12 +27,46 @@
       "url": "https://www.w3.org/TR/vibration/#acknowledgements"
     }
   },
+  "#b-changes": {
+    "current": {
+      "number": "B",
+      "spec": "Vibration API",
+      "text": "Changes",
+      "url": "https://w3c.github.io/vibration/#changes"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "Vibration API",
+      "text": "Changes",
+      "url": "https://www.w3.org/TR/vibration/#changes"
+    }
+  },
+  "#c-idl-index": {
+    "current": {
+      "number": "C",
+      "spec": "Vibration API",
+      "text": "IDL Index",
+      "url": "https://w3c.github.io/vibration/#idl-index"
+    },
+    "snapshot": {
+      "number": "C",
+      "spec": "Vibration API",
+      "text": "IDL Index",
+      "url": "https://www.w3.org/TR/vibration/#idl-index"
+    }
+  },
   "#changes": {
     "current": {
       "number": "B",
       "spec": "Vibration API",
       "text": "Changes",
       "url": "https://w3c.github.io/vibration/#changes"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "Vibration API",
+      "text": "Changes",
+      "url": "https://www.w3.org/TR/vibration/#changes"
     }
   },
   "#conformance": {
@@ -43,6 +83,48 @@
       "url": "https://www.w3.org/TR/vibration/#conformance"
     }
   },
+  "#d-1-normative-references": {
+    "current": {
+      "number": "D.1",
+      "spec": "Vibration API",
+      "text": "Normative references",
+      "url": "https://w3c.github.io/vibration/#normative-references"
+    },
+    "snapshot": {
+      "number": "D.1",
+      "spec": "Vibration API",
+      "text": "Normative references",
+      "url": "https://www.w3.org/TR/vibration/#normative-references"
+    }
+  },
+  "#d-2-informative-references": {
+    "current": {
+      "number": "D.2",
+      "spec": "Vibration API",
+      "text": "Informative references",
+      "url": "https://w3c.github.io/vibration/#informative-references"
+    },
+    "snapshot": {
+      "number": "D.2",
+      "spec": "Vibration API",
+      "text": "Informative references",
+      "url": "https://www.w3.org/TR/vibration/#informative-references"
+    }
+  },
+  "#d-references": {
+    "current": {
+      "number": "D",
+      "spec": "Vibration API",
+      "text": "References",
+      "url": "https://w3c.github.io/vibration/#references"
+    },
+    "snapshot": {
+      "number": "D",
+      "spec": "Vibration API",
+      "text": "References",
+      "url": "https://www.w3.org/TR/vibration/#references"
+    }
+  },
   "#examples": {
     "current": {
       "number": "5",
@@ -51,7 +133,7 @@
       "url": "https://w3c.github.io/vibration/#examples"
     },
     "snapshot": {
-      "number": "6",
+      "number": "5",
       "spec": "Vibration API",
       "text": "Examples",
       "url": "https://www.w3.org/TR/vibration/#examples"
@@ -63,6 +145,12 @@
       "spec": "Vibration API",
       "text": "IDL Index",
       "url": "https://w3c.github.io/vibration/#idl-index"
+    },
+    "snapshot": {
+      "number": "C",
+      "spec": "Vibration API",
+      "text": "IDL Index",
+      "url": "https://www.w3.org/TR/vibration/#idl-index"
     }
   },
   "#informative-references": {
@@ -73,7 +161,7 @@
       "url": "https://w3c.github.io/vibration/#informative-references"
     },
     "snapshot": {
-      "number": "B.2",
+      "number": "D.2",
       "spec": "Vibration API",
       "text": "Informative references",
       "url": "https://www.w3.org/TR/vibration/#informative-references"
@@ -101,7 +189,7 @@
       "url": "https://w3c.github.io/vibration/#normative-references"
     },
     "snapshot": {
-      "number": "B.1",
+      "number": "D.1",
       "spec": "Vibration API",
       "text": "Normative references",
       "url": "https://www.w3.org/TR/vibration/#normative-references"
@@ -115,18 +203,10 @@
       "url": "https://w3c.github.io/vibration/#references"
     },
     "snapshot": {
-      "number": "B",
+      "number": "D",
       "spec": "Vibration API",
       "text": "References",
       "url": "https://www.w3.org/TR/vibration/#references"
-    }
-  },
-  "#respecDocument": {
-    "snapshot": {
-      "number": "",
-      "spec": "Vibration API",
-      "text": "Vibration API (Second Edition)",
-      "url": "https://www.w3.org/TR/vibration/#respecDocument"
     }
   },
   "#security-and-privacy-considerations": {
@@ -137,34 +217,38 @@
       "url": "https://w3c.github.io/vibration/#security-and-privacy-considerations"
     },
     "snapshot": {
-      "number": "5",
+      "number": "4",
       "spec": "Vibration API",
       "text": "Security and privacy considerations",
       "url": "https://www.w3.org/TR/vibration/#security-and-privacy-considerations"
     }
   },
-  "#sotd": {
+  "#table-of-contents": {
+    "current": {
+      "number": "",
+      "spec": "Vibration API",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/vibration/#toc"
+    },
     "snapshot": {
       "number": "",
       "spec": "Vibration API",
-      "text": "Status of This Document",
-      "url": "https://www.w3.org/TR/vibration/#sotd"
-    }
-  },
-  "#terminology": {
-    "snapshot": {
-      "number": "3",
-      "spec": "Vibration API",
-      "text": "Terminology",
-      "url": "https://www.w3.org/TR/vibration/#terminology"
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/vibration/#toc"
     }
   },
   "#title": {
     "current": {
       "number": "",
       "spec": "Vibration API",
-      "text": "Vibration API (Second Edition)",
+      "text": "Vibration API",
       "url": "https://w3c.github.io/vibration/#title"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Vibration API",
+      "text": "Vibration API",
+      "url": "https://www.w3.org/TR/vibration/#title"
     }
   },
   "#toc": {
@@ -189,18 +273,80 @@
       "url": "https://w3c.github.io/vibration/#vibration-interface"
     },
     "snapshot": {
-      "number": "4",
+      "number": "3",
       "spec": "Vibration API",
       "text": "Vibration Interface",
       "url": "https://www.w3.org/TR/vibration/#vibration-interface"
     }
   },
-  "#w3c-recommendation-18-october-2016": {
-    "snapshot": {
-      "number": "",
+  "#x1-introduction": {
+    "current": {
+      "number": "1",
       "spec": "Vibration API",
-      "text": "W3C Recommendation 18 October 2016",
-      "url": "https://www.w3.org/TR/vibration/#w3c-recommendation-18-october-2016"
+      "text": "Introduction",
+      "url": "https://w3c.github.io/vibration/#introduction"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "Vibration API",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/vibration/#introduction"
+    }
+  },
+  "#x2-conformance": {
+    "current": {
+      "number": "2",
+      "spec": "Vibration API",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/vibration/#conformance"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "Vibration API",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/vibration/#conformance"
+    }
+  },
+  "#x3-vibration-interface": {
+    "current": {
+      "number": "3",
+      "spec": "Vibration API",
+      "text": "Vibration Interface",
+      "url": "https://w3c.github.io/vibration/#vibration-interface"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "Vibration API",
+      "text": "Vibration Interface",
+      "url": "https://www.w3.org/TR/vibration/#vibration-interface"
+    }
+  },
+  "#x4-security-and-privacy-considerations": {
+    "current": {
+      "number": "4",
+      "spec": "Vibration API",
+      "text": "Security and privacy considerations",
+      "url": "https://w3c.github.io/vibration/#security-and-privacy-considerations"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "Vibration API",
+      "text": "Security and privacy considerations",
+      "url": "https://www.w3.org/TR/vibration/#security-and-privacy-considerations"
+    }
+  },
+  "#x5-examples": {
+    "current": {
+      "number": "5",
+      "spec": "Vibration API",
+      "text": "Examples",
+      "url": "https://w3c.github.io/vibration/#examples"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "Vibration API",
+      "text": "Examples",
+      "url": "https://www.w3.org/TR/vibration/#examples"
     }
   }
 }

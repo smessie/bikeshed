@@ -1331,7 +1331,7 @@ Non-experimental implementations</span></a>
   <main>
    <h2 class="heading settled" data-level="1" id="intro"><span class="secno">1. </span><span class="content">Introduction</span><a class="self-link" href="#intro"></a></h2>
    <p><em>This section is informative.</em></p>
-   <p><a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/selector.html#x22" id="ref-for-x22">Pseudo-elements</a> represent abstract elements of the document
+   <p><a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element">Pseudo-elements</a> represent abstract elements of the document
   beyond those elements explicitly created by the document language.
   Since they are not restricted to fitting into the document tree,
   they can be used to select and style portions of the document
@@ -1352,7 +1352,7 @@ Non-experimental implementations</span></a>
 Typographic Pseudo-elements</span><a class="self-link" href="#typographic-pseudos"></a></h2>
    <h3 class="heading settled" data-level="2.1" id="first-line-pseudo"><span class="secno">2.1. </span><span class="content">
 The ::first-line pseudo-element</span><a class="self-link" href="#first-line-pseudo"></a></h3>
-   <p>The <dfn class="css dfn-paneled" data-dfn-type="selector" data-export id="selectordef-first-line">::first-line</dfn> <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element">pseudo-element</a> represents
+   <p>The <dfn class="css dfn-paneled" data-dfn-type="selector" data-export id="selectordef-first-line">::first-line</dfn> <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element①">pseudo-element</a> represents
   the contents of the <a data-link-type="dfn" href="#first-formatted-line" id="ref-for-first-formatted-line">first formatted line</a>
   of its <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#originating-element" id="ref-for-originating-element①">originating element</a>.</p>
    <div class="example" id="example-fb83f35a">
@@ -1413,7 +1413,7 @@ a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-co
 contains the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#inline-level" id="ref-for-inline-level">inline-level</a> content of its first <a data-link-type="dfn" href="https://drafts.csswg.org/css-inline-3/#line-box" id="ref-for-line-box">line box</a>.</p>
     <li data-md>
      <p>The <a data-link-type="dfn" href="#first-formatted-line" id="ref-for-first-formatted-line①">first formatted line</a> of
-a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-container" id="ref-for-block-container②">block container</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-1/#multi-column-container" id="ref-for-multi-column-container">multi-column container</a>
+a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-container" id="ref-for-block-container②">block container</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-2/#multi-column-container" id="ref-for-multi-column-container">multi-column container</a>
 that contains <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-level" id="ref-for-block-level">block-level</a> content
 (and is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-tables-3/#table-wrapper-box" id="ref-for-table-wrapper-box">table wrapper box</a>)
 is the <span id="ref-for-first-formatted-line②">first formatted line</span> of
@@ -1582,7 +1582,7 @@ The ::first-letter pseudo-element</span><a class="self-link" href="#first-letter
   to reflect the first-letter traditions of the <span class="css" id="ref-for-selectordef-first-letter②">::first-letter</span> pseudo-element’s <em>containing block</em>’s content language.</p>
    <p class="note" role="note"><span class="marker">Note:</span> Note that the first <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#typographic-letter-unit" id="ref-for-typographic-letter-unit③">typographic letter unit</a> may in fact
   be a digit, e.g., the “6” in “67 million dollars is a lot of money.”</p>
-   <p>Punctuation (i.e, characters that belong to the Punctuation (<code class="highlight">P*</code>) <u class="link-error" data-lt="Unicode general category" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;unicode general category&apos;.">Unicode general category</u> <a data-link-type="biblio" href="#biblio-uax44" title="Unicode Character Database">[UAX44]</a>)
+   <p>Punctuation (i.e, characters that belong to the Punctuation (<code class="highlight">P*</code>) <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#unicode-general-category" id="ref-for-unicode-general-category">Unicode general category</a> <a data-link-type="biblio" href="#biblio-uax44" title="Unicode Character Database">[UAX44]</a>)
   that precedes or follows the first <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#typographic-letter-unit" id="ref-for-typographic-letter-unit④">typographic letter unit</a>
   and any intervening space separators
   (characters that belong to the <code class="highlight">Zs</code> Unicode general category <a data-link-type="biblio" href="#biblio-uax44" title="Unicode Character Database">[UAX44]</a>)
@@ -1858,7 +1858,7 @@ Styling Highlights</span><a class="self-link" href="#highlight-styling"></a></h3
     <li><a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-text-decor-4/#propdef-text-shadow" id="ref-for-propdef-text-shadow">text-shadow</a>
     
     <li>
-     <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-color" id="ref-for-propdef-stroke-color">stroke-color</a>, <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-color" id="ref-for-propdef-fill-color">fill-color</a>, and <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-width" id="ref-for-propdef-stroke-width">stroke-width</a>
+     <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-color" id="ref-for-propdef-stroke-color">stroke-color</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-fill-color" id="ref-for-propdef-fill-color">fill-color</a>, and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-width" id="ref-for-propdef-stroke-width">stroke-width</a>
     
      <details class="wpt-tests-block" dir="ltr" lang="en">
       <summary>Tests</summary>
@@ -2091,7 +2091,7 @@ Text and Text Decorations</span><a class="self-link" href="#highlight-text"></a>
   the <u class="link-error property" data-lt="color" title="LINK ERROR: No &apos;property&apos; refs found for &apos;color&apos; with spec &apos;css-color-3&apos;.">color</u> of the next <span id="ref-for-highlight-pseudo-element①①">highlight pseudo-element</span> layer below,
   falling back finally to the colors that would otherwise have been used
   (those applied by the <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#originating-element" id="ref-for-originating-element⑨">originating element</a> or
-  an intervening <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element①">pseudo-element</a> such as <a class="css" data-link-type="maybe" href="#selectordef-first-line" id="ref-for-selectordef-first-line①⑤">::first-line</a> or <a class="css" data-link-type="maybe" href="#selectordef-first-letter" id="ref-for-selectordef-first-letter①⑨">::first-letter</a>).</p>
+  an intervening <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element②">pseudo-element</a> such as <a class="css" data-link-type="maybe" href="#selectordef-first-line" id="ref-for-selectordef-first-line①⑤">::first-line</a> or <a class="css" data-link-type="maybe" href="#selectordef-first-letter" id="ref-for-selectordef-first-letter①⑨">::first-letter</a>).</p>
    <p>Any text decorations introduced by each <a data-link-type="dfn" href="#highlight-pseudo-element" id="ref-for-highlight-pseudo-element①②">highlight pseudo-element</a>
   are stacked in the same order as their backgrounds
   over the text’s original decorations
@@ -2346,7 +2346,7 @@ that would match the selector <var>type</var>
 with <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this">this</a> as its <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#originating-element" id="ref-for-originating-element①⑥">originating element</a>.</p>
     </ol>
    </div>
-   <p>Return values that represent the same <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element②">pseudo-element</a>
+   <p>Return values that represent the same <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element③">pseudo-element</a>
   on the same <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#originating-element" id="ref-for-originating-element①⑦">originating element</a>
   must be, insofar as observable,
   always the same <code class="idl"><a data-link-type="idl" href="#csspseudoelement" id="ref-for-csspseudoelement⑤">CSSPseudoElement</a></code> object.
@@ -2425,7 +2425,7 @@ Changes</span><a class="self-link" href="#changes"></a></h2>
     
     <li>Redefined value propagation between parent/child highlight pseudo-elements to use inheritance rather than cascading. See discussion in and linked from <a href="https://github.com/w3c/csswg-drafts/issues/2474">Issue 2474</a>.
     
-    <li>Refined list of supported properties for highlight pseudo-elements, e.g. adding <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-color" id="ref-for-propdef-stroke-color①">stroke-color</a>/<a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-color" id="ref-for-propdef-fill-color①">fill-color</a>, removing <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-ui-4/#propdef-outline" id="ref-for-propdef-outline">outline</a>, etc.
+    <li>Refined list of supported properties for highlight pseudo-elements, e.g. adding <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-color" id="ref-for-propdef-stroke-color①">stroke-color</a>/<a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-fill-color" id="ref-for-propdef-fill-color①">fill-color</a>, removing <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-ui-4/#propdef-outline" id="ref-for-propdef-outline">outline</a>, etc.
     
     <li>Clarified how text and text decoration colors are painted for highlight pseudo-elements.
     
@@ -2680,9 +2680,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="61656631">marker box</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-MULTICOL-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-MULTICOL-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="521eb6d4">multi-column container</span>
+     <li><span class="dfn-paneled" id="396d5070">multi-column container</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-RUBY-1]</a> defines the following terms:
@@ -2708,6 +2708,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <a data-link-type="biblio">[CSS-TEXT-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="16b27b2a">typographic letter unit</span>
+     <li><span class="dfn-paneled" id="be8bf61d">Unicode General Category</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-TEXT-DECOR-4]</a> defines the following terms:
@@ -2746,11 +2747,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="2161cf2b">pseudo-elements</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
-    <ul>
      <li><span class="dfn-paneled" id="689ef56c">:after</span>
     </ul>
    <li>
@@ -2768,9 +2764,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[FILL-STROKE-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="b04f4c83">fill-color</span>
-     <li><span class="dfn-paneled" id="f2a0f55a">stroke-color</span>
-     <li><span class="dfn-paneled" id="63544174">stroke-width</span>
+     <li><span class="dfn-paneled" id="2c66542e">fill-color</span>
+     <li><span class="dfn-paneled" id="a19e06f8">stroke-color</span>
+     <li><span class="dfn-paneled" id="2bb037f1">stroke-width</span>
     </ul>
    <li>
     <a data-link-type="biblio">[SELECTORS-3]</a> defines the following terms:
@@ -2784,7 +2780,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="efe16f32">:target</span>
      <li><span class="dfn-paneled" id="ad337600">&lt;pseudo-element-selector></span>
      <li><span class="dfn-paneled" id="82805a4e">originating element</span>
-     <li><span class="dfn-paneled" id="9bfc28f6">pseudo-element</span>
+     <li><span class="dfn-paneled" id="42b00c6e">pseudo-elements</span>
      <li><span class="dfn-paneled" id="33cbcfca">selector</span>
     </ul>
    <li>
@@ -2811,23 +2807,23 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-content-3">[CSS-CONTENT-3]
-   <dd>Elika Etemad; Dave Cramer. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
+   <dd>Elika Etemad; Mike Bremford. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-inline-3">[CSS-INLINE-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-inline-3/"><cite>CSS Inline Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-inline-3/">https://drafts.csswg.org/css-inline-3/</a>
    <dt id="biblio-css-lists-3">[CSS-LISTS-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-lists-3/"><cite>CSS Lists and Counters Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-lists-3/">https://drafts.csswg.org/css-lists-3/</a>
-   <dt id="biblio-css-multicol-1">[CSS-MULTICOL-1]
-   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol/"><cite>CSS Multi-column Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol/">https://drafts.csswg.org/css-multicol/</a>
+   <dt id="biblio-css-multicol-2">[CSS-MULTICOL-2]
+   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol-2/"><cite>CSS Multi-column Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol-2/">https://drafts.csswg.org/css-multicol-2/</a>
    <dt id="biblio-css-ruby-1">[CSS-RUBY-1]
    <dd>Elika Etemad; et al. <a href="https://drafts.csswg.org/css-ruby-1/"><cite>CSS Ruby Annotation Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-ruby-1/">https://drafts.csswg.org/css-ruby-1/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
    <dd>Tab Atkins Jr.; Simon Sapin. <a href="https://drafts.csswg.org/css-syntax/"><cite>CSS Syntax Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-syntax/">https://drafts.csswg.org/css-syntax/</a>
    <dt id="biblio-css-tables-3">[CSS-TABLES-3]
-   <dd>François Remy; Greg Whitworth; David Baron. <a href="https://drafts.csswg.org/css-tables-3/"><cite>CSS Table Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-tables-3/">https://drafts.csswg.org/css-tables-3/</a>
+   <dd>Keith Cirkel. <a href="https://drafts.csswg.org/css-tables-3/"><cite>CSS Table Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-tables-3/">https://drafts.csswg.org/css-tables-3/</a>
    <dt id="biblio-css-text-3">[CSS-TEXT-3]
    <dd>Elika Etemad; Koji Ishii; Florian Rivoal. <a href="https://drafts.csswg.org/css-text-3/"><cite>CSS Text Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-3/">https://drafts.csswg.org/css-text-3/</a>
    <dt id="biblio-css-text-4">[CSS-TEXT-4]
@@ -2835,7 +2831,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-text-decor-4">[CSS-TEXT-DECOR-4]
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-text-decor-4/"><cite>CSS Text Decoration Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-decor-4/">https://drafts.csswg.org/css-text-decor-4/</a>
    <dt id="biblio-css-ui-4">[CSS-UI-4]
-   <dd>Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
    <dt id="biblio-css-variables-1">[CSS-VARIABLES-1]
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-variables/"><cite>CSS Custom Properties for Cascading Variables Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-variables/">https://drafts.csswg.org/css-variables/</a>
    <dt id="biblio-css-variables-2">[CSS-VARIABLES-2]
@@ -2846,20 +2842,18 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-writing-modes-4/"><cite>CSS Writing Modes Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-writing-modes-4/">https://drafts.csswg.org/css-writing-modes-4/</a>
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-cssom-1">[CSSOM-1]
    <dd>Daniel Glazman; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom/"><cite>CSS Object Model (CSSOM)</cite></a>. URL: <a href="https://drafts.csswg.org/cssom/">https://drafts.csswg.org/cssom/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-fill-stroke-3">[FILL-STROKE-3]
-   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.fxtf.org/fill-stroke/"><cite>CSS Fill and Stroke Module Level 3</cite></a>. URL: <a href="https://drafts.fxtf.org/fill-stroke/">https://drafts.fxtf.org/fill-stroke/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/fill-stroke/"><cite>CSS Fill and Stroke Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/fill-stroke/">https://drafts.csswg.org/fill-stroke/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-selectors-4">[SELECTORS-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-uax44">[UAX44]
-   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr44/tr44-34.html"><cite>Unicode Character Database</cite></a>. 27 August 2024. Unicode Standard Annex #44. URL: <a href="https://www.unicode.org/reports/tr44/tr44-34.html">https://www.unicode.org/reports/tr44/tr44-34.html</a>
+   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr44/tr44-36.html"><cite>Unicode Character Database</cite></a>. 27 August 2025. Unicode Standard Annex #44. URL: <a href="https://www.unicode.org/reports/tr44/tr44-36.html">https://www.unicode.org/reports/tr44/tr44-36.html</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/"><cite>URL Standard</cite></a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
    <dt id="biblio-webidl">[WEBIDL]
@@ -2878,11 +2872,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-text-decor-3">[CSS-TEXT-DECOR-3]
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-text-decor-3/"><cite>CSS Text Decoration Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-decor-3/">https://drafts.csswg.org/css-text-decor-3/</a>
    <dt id="biblio-html5">[HTML5]
-   <dd>Ian Hickson; et al. <a href="https://www.w3.org/html/wg/drafts/html/master/"><cite>HTML5</cite></a>. URL: <a href="https://www.w3.org/html/wg/drafts/html/master/">https://www.w3.org/html/wg/drafts/html/master/</a>
+   <dd>Ian Hickson; et al. <a href="https://www.w3.org/TR/html5/"><cite>HTML5</cite></a>. 27 March 2018. REC. URL: <a href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</a>
    <dt id="biblio-selectors-3">[SELECTORS-3]
    <dd>Tantek Çelik; et al. <a href="https://drafts.csswg.org/selectors-3/"><cite>Selectors Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/selectors-3/">https://drafts.csswg.org/selectors-3/</a>
    <dt id="biblio-uax29">[UAX29]
-   <dd>Josh Hadley. <a href="https://www.unicode.org/reports/tr29/tr29-45.html"><cite>Unicode Text Segmentation</cite></a>. 28 August 2024. Unicode Standard Annex #29. URL: <a href="https://www.unicode.org/reports/tr29/tr29-45.html">https://www.unicode.org/reports/tr29/tr29-45.html</a>
+   <dd>Josh Hadley. <a href="https://www.unicode.org/reports/tr29/tr29-47.html"><cite>Unicode Text Segmentation</cite></a>. 17 August 2025. Unicode Standard Annex #29. URL: <a href="https://www.unicode.org/reports/tr29/tr29-47.html">https://www.unicode.org/reports/tr29/tr29-47.html</a>
    <dt id="biblio-web-animations-1">[WEB-ANIMATIONS-1]
    <dd>Brian Birtles; et al. <a href="https://drafts.csswg.org/web-animations-1/"><cite>Web Animations</cite></a>. URL: <a href="https://drafts.csswg.org/web-animations-1/">https://drafts.csswg.org/web-animations-1/</a>
   </dl>
@@ -3347,20 +3341,22 @@ let dfnPanelData = {
 "198f1537": {"dfnID":"198f1537","dfnText":"custom property","external":true,"refSections":[{"refs":[{"id":"ref-for-custom-property"}],"title":"2.1.3. \nInheritance and the ::first-line Pseudo-element"}],"url":"https://drafts.csswg.org/css-variables-2/#custom-property"},
 "1da081a0": {"dfnID":"1da081a0","dfnText":"marker","external":true,"refSections":[{"refs":[{"id":"ref-for-marker\u2460"}],"title":"2.2.2. \nInheritance and Box Tree Structure of the ::first-letter Pseudo-element"}],"url":"https://aomediacodec.github.io/av1-isobmff/#marker"},
 "20fff200": {"dfnID":"20fff200","dfnText":"inheritance","external":true,"refSections":[{"refs":[{"id":"ref-for-css-inheritance"},{"id":"ref-for-css-inheritance\u2460"}],"title":"2.1.3. \nInheritance and the ::first-line Pseudo-element"},{"refs":[{"id":"ref-for-css-inheritance\u2461"}],"title":"2.2.2. \nInheritance and Box Tree Structure of the ::first-letter Pseudo-element"},{"refs":[{"id":"ref-for-css-inheritance\u2462"}],"title":"4. \nTree-Abiding Pseudo-elements"}],"url":"https://drafts.csswg.org/css-cascade-5/#css-inheritance"},
-"2161cf2b": {"dfnID":"2161cf2b","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-x22"}],"title":"1. Introduction"}],"url":"https://www.w3.org/TR/CSS21/selector.html#x22"},
 "2467179e": {"dfnID":"2467179e","dfnText":"content","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-content"},{"id":"ref-for-propdef-content\u2460"}],"title":"4.1. \nGenerated Content Pseudo-elements: ::before and ::after"},{"refs":[{"id":"ref-for-propdef-content\u2461"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-content-3/#propdef-content"},
 "2496f7a0": {"dfnID":"2496f7a0","dfnText":"inherited property","external":true,"refSections":[{"refs":[{"id":"ref-for-inherited-property"}],"title":"2.1.3. \nInheritance and the ::first-line Pseudo-element"},{"refs":[{"id":"ref-for-inherited-property\u2460"}],"title":"3.5. \nCascading and Per-Element Highlight Styles"}],"url":"https://drafts.csswg.org/css-cascade-5/#inherited-property"},
 "296f3551": {"dfnID":"296f3551","dfnText":"Element","external":true,"refSections":[{"refs":[{"id":"ref-for-element"}],"title":"6.1. \nCSSPseudoElement Interface"},{"refs":[{"id":"ref-for-element\u2460"},{"id":"ref-for-element\u2461"},{"id":"ref-for-element\u2462"}],"title":"6.2. \npseudo() method of the Element interface"}],"url":"https://dom.spec.whatwg.org/#element"},
+"2bb037f1": {"dfnID":"2bb037f1","dfnText":"stroke-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke-width"}],"title":"3.2. \nStyling Highlights"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-width"},
 "2bc0cdf4": {"dfnID":"2bc0cdf4","dfnText":"EventTarget","external":true,"refSections":[{"refs":[{"id":"ref-for-eventtarget"}],"title":"6.1. \nCSSPseudoElement Interface"}],"url":"https://dom.spec.whatwg.org/#eventtarget"},
+"2c66542e": {"dfnID":"2c66542e","dfnText":"fill-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-fill-color"}],"title":"3.2. \nStyling Highlights"},{"refs":[{"id":"ref-for-propdef-fill-color\u2460"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-fill-color"},
 "313bb160": {"dfnID":"313bb160","dfnText":"transparent","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-color-transparent"}],"title":"3.6.4. \nReplaced Elements"}],"url":"https://drafts.csswg.org/css-color-4/#valdef-color-transparent"},
 "33cbcfca": {"dfnID":"33cbcfca","dfnText":"selector","external":true,"refSections":[{"refs":[{"id":"ref-for-selector"}],"title":"1. Introduction"}],"url":"https://drafts.csswg.org/selectors-4/#selector"},
 "355da394": {"dfnID":"355da394","dfnText":"outline","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-outline"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-ui-4/#propdef-outline"},
 "385326d7": {"dfnID":"385326d7","dfnText":"writing-mode","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-writing-mode"}],"title":"2.1.2. \nStyling the First Line Pseudo-element"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode"},
+"396d5070": {"dfnID":"396d5070","dfnText":"multi-column container","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-container"}],"title":"2.1.1. \nFinding the First Formatted Line"}],"url":"https://drafts.csswg.org/css-multicol-2/#multi-column-container"},
 "3bd4bbe9": {"dfnID":"3bd4bbe9","dfnText":"text-orientation","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-orientation"}],"title":"2.1.2. \nStyling the First Line Pseudo-element"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation"},
 "4013a022": {"dfnID":"4013a022","dfnText":"this","external":true,"refSections":[{"refs":[{"id":"ref-for-this"}],"title":"6.2. \npseudo() method of the Element interface"}],"url":"https://webidl.spec.whatwg.org/#this"},
+"42b00c6e": {"dfnID":"42b00c6e","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-pseudo-element\u2460"}],"title":"2.1. \nThe ::first-line pseudo-element"},{"refs":[{"id":"ref-for-pseudo-element\u2461"}],"title":"3.6.3. \nText and Text Decorations"},{"refs":[{"id":"ref-for-pseudo-element\u2462"}],"title":"6.2. \npseudo() method of the Element interface"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "4356bfe3": {"dfnID":"4356bfe3","dfnText":"text-align","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-align"}],"title":"4.3. \nPlaceholder Input: the ::placeholder pseudo-element"}],"url":"https://drafts.csswg.org/css-text-3/#propdef-text-align"},
 "4462edae": {"dfnID":"4462edae","dfnText":"spelling-error","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-text-decoration-line-spelling-error"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-spelling-error"},
-"521eb6d4": {"dfnID":"521eb6d4","dfnText":"multi-column container","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-container"}],"title":"2.1.1. \nFinding the First Formatted Line"}],"url":"https://drafts.csswg.org/css-multicol-1/#multi-column-container"},
 "53a193f1": {"dfnID":"53a193f1","dfnText":"*","external":true,"refSections":[{"refs":[{"id":"ref-for-x"}],"title":"3.5. \nCascading and Per-Element Highlight Styles"}],"url":"https://drafts.csswg.org/selectors-3/#x"},
 "54d48ea2": {"dfnID":"54d48ea2","dfnText":"inline-level box","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-level-box"}],"title":"3.4. \nArea of a Highlight"}],"url":"https://drafts.csswg.org/css-display-4/#inline-level-box"},
 "557f5d97": {"dfnID":"557f5d97","dfnText":"text-emphasis","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-emphasis"}],"title":"3.2. \nStyling Highlights"}],"url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-emphasis"},
@@ -3368,7 +3364,6 @@ let dfnPanelData = {
 "5bc8bd12": {"dfnID":"5bc8bd12","dfnText":"direction","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-direction"}],"title":"2.1.2. \nStyling the First Line Pseudo-element"},{"refs":[{"id":"ref-for-propdef-direction\u2460"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-writing-modes-3/#propdef-direction"},
 "5fced98b": {"dfnID":"5fced98b","dfnText":"CSSOMString","external":true,"refSections":[{"refs":[{"id":"ref-for-cssomstring"}],"title":"6.1. \nCSSPseudoElement Interface"},{"refs":[{"id":"ref-for-cssomstring\u2460"}],"title":"6.2. \npseudo() method of the Element interface"}],"url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "61656631": {"dfnID":"61656631","dfnText":"marker box","external":true,"refSections":[{"refs":[{"id":"ref-for-marker"}],"title":"2.2.1. \nFinding the First Letter Text"},{"refs":[{"id":"ref-for-marker\u2461"},{"id":"ref-for-marker\u2462"}],"title":"4.2. \nList Markers: the ::marker pseudo-element"}],"url":"https://drafts.csswg.org/css-lists-3/#marker"},
-"63544174": {"dfnID":"63544174","dfnText":"stroke-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke-width"}],"title":"3.2. \nStyling Highlights"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-width"},
 "64747b41": {"dfnID":"64747b41","dfnText":"UA style sheet","external":true,"refSections":[{"refs":[{"id":"ref-for-cascade-origin-ua"}],"title":"3.5. \nCascading and Per-Element Highlight Styles"}],"url":"https://drafts.csswg.org/css-cascade-5/#cascade-origin-ua"},
 "689ef56c": {"dfnID":"689ef56c","dfnText":":after","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-after\u2462"}],"title":"4.1. \nGenerated Content Pseudo-elements: ::before and ::after"}],"url":"https://drafts.csswg.org/css2/#selectordef-after"},
 "6916104d": {"dfnID":"6916104d","dfnText":"box-shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-box-shadow"}],"title":"2.2.3. \nStyling the ::first-letter Pseudo-element"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow"},
@@ -3382,16 +3377,16 @@ let dfnPanelData = {
 "991145b0": {"dfnID":"991145b0","dfnText":"none","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-content-none"}],"title":"4.1. \nGenerated Content Pseudo-elements: ::before and ::after"}],"url":"https://drafts.csswg.org/css-content-3/#valdef-content-none"},
 "994d0e36": {"dfnID":"994d0e36","dfnText":"table wrapper box","external":true,"refSections":[{"refs":[{"id":"ref-for-table-wrapper-box"}],"title":"2.1.1. \nFinding the First Formatted Line"}],"url":"https://drafts.csswg.org/css-tables-3/#table-wrapper-box"},
 "99cabd32": {"dfnID":"99cabd32","dfnText":"in-flow","external":true,"refSections":[{"refs":[{"id":"ref-for-in-flow"}],"title":"2.1.1. \nFinding the First Formatted Line"}],"url":"https://drafts.csswg.org/css-display-4/#in-flow"},
-"9bfc28f6": {"dfnID":"9bfc28f6","dfnText":"pseudo-element","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"2.1. \nThe ::first-line pseudo-element"},{"refs":[{"id":"ref-for-pseudo-element\u2460"}],"title":"3.6.3. \nText and Text Decorations"},{"refs":[{"id":"ref-for-pseudo-element\u2461"}],"title":"6.2. \npseudo() method of the Element interface"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "9ea6bed2": {"dfnID":"9ea6bed2","dfnText":"initial value","external":true,"refSections":[{"refs":[{"id":"ref-for-initial-value"}],"title":"4. \nTree-Abiding Pseudo-elements"}],"url":"https://drafts.csswg.org/css-cascade-5/#initial-value"},
 "9f3d4f17": {"dfnID":"9f3d4f17","dfnText":"block container","external":true,"refSections":[{"refs":[{"id":"ref-for-block-container"},{"id":"ref-for-block-container\u2460"},{"id":"ref-for-block-container\u2461"},{"id":"ref-for-block-container\u2462"}],"title":"2.1.1. \nFinding the First Formatted Line"},{"refs":[{"id":"ref-for-block-container\u2463"},{"id":"ref-for-block-container\u2464"}],"title":"2.2.1. \nFinding the First Letter Text"}],"url":"https://drafts.csswg.org/css-display-4/#block-container"},
+"a19e06f8": {"dfnID":"a19e06f8","dfnText":"stroke-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke-color"}],"title":"3.2. \nStyling Highlights"},{"refs":[{"id":"ref-for-propdef-stroke-color\u2460"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-color"},
 "a20bf8d2": {"dfnID":"a20bf8d2","dfnText":":placeholder-shown","external":true,"refSections":[{"refs":[{"id":"ref-for-placeholder-shown-pseudo"}],"title":"4.3. \nPlaceholder Input: the ::placeholder pseudo-element"}],"url":"https://drafts.csswg.org/selectors-4/#placeholder-shown-pseudo"},
 "a73617e0": {"dfnID":"a73617e0","dfnText":"writing mode","external":true,"refSections":[{"refs":[{"id":"ref-for-writing-mode"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#writing-mode"},
 "a82a20ef": {"dfnID":"a82a20ef","dfnText":"CSSStyleDeclaration","external":true,"refSections":[{"refs":[{"id":"ref-for-cssstyledeclaration"}],"title":"6.1. \nCSSPseudoElement Interface"}],"url":"https://drafts.csswg.org/cssom-1/#cssstyledeclaration"},
 "ac8c80fa": {"dfnID":"ac8c80fa","dfnText":"list item","external":true,"refSections":[{"refs":[{"id":"ref-for-list-item"}],"title":"2.2.2. \nInheritance and Box Tree Structure of the ::first-letter Pseudo-element"},{"refs":[{"id":"ref-for-list-item\u2460"},{"id":"ref-for-list-item\u2461"}],"title":"4.2. \nList Markers: the ::marker pseudo-element"}],"url":"https://drafts.csswg.org/css-lists-3/#list-item"},
 "ad337600": {"dfnID":"ad337600","dfnText":"<pseudo-element-selector>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-pseudo-element-selector"}],"title":"6.2. \npseudo() method of the Element interface"}],"url":"https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector"},
-"b04f4c83": {"dfnID":"b04f4c83","dfnText":"fill-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-fill-color"}],"title":"3.2. \nStyling Highlights"},{"refs":[{"id":"ref-for-propdef-fill-color\u2460"}],"title":"\nChanges"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-color"},
 "b8f126f1": {"dfnID":"b8f126f1","dfnText":"inline formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-formatting-context"}],"title":"2.1.1. \nFinding the First Formatted Line"},{"refs":[{"id":"ref-for-inline-formatting-context\u2460"}],"title":"2.2.1. \nFinding the First Letter Text"}],"url":"https://drafts.csswg.org/css-display-4/#inline-formatting-context"},
+"be8bf61d": {"dfnID":"be8bf61d","dfnText":"Unicode General Category","external":true,"refSections":[{"refs":[{"id":"ref-for-unicode-general-category"}],"title":"2.2. \nThe ::first-letter pseudo-element"}],"url":"https://drafts.csswg.org/css-text-4/#unicode-general-category"},
 "c02f5d57": {"dfnID":"c02f5d57","dfnText":"inline","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-display-inline"}],"title":"4.1. \nGenerated Content Pseudo-elements: ::before and ::after"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-display-inline"},
 "c3bd6e1d": {"dfnID":"c3bd6e1d","dfnText":"box fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-box-fragment"}],"title":"2.1.3. \nInheritance and the ::first-line Pseudo-element"}],"url":"https://drafts.csswg.org/css-break-4/#box-fragment"},
 "ca960d4f": {"dfnID":"ca960d4f","dfnText":"block formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-block-formatting-context"}],"title":"2.1.1. \nFinding the First Formatted Line"},{"refs":[{"id":"ref-for-block-formatting-context\u2460"}],"title":"2.2.1. \nFinding the First Letter Text"}],"url":"https://drafts.csswg.org/css-display-4/#block-formatting-context"},
@@ -3409,7 +3404,6 @@ let dfnPanelData = {
 "e7f0dd6c": {"dfnID":"e7f0dd6c","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"}],"title":"4.1. \nGenerated Content Pseudo-elements: ::before and ::after"},{"refs":[{"id":"ref-for-propdef-display\u2460"}],"title":"4.2. \nList Markers: the ::marker pseudo-element"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-display"},
 "ed948033": {"dfnID":"ed948033","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-fragment"},{"id":"ref-for-concept-url-fragment\u2460"},{"id":"ref-for-concept-url-fragment\u2461"}],"title":"3.1. \nSelecting Highlighted Content: the ::selection,  ::target-text, ::spelling-error, and ::grammar-error pseudo-elements"}],"url":"https://url.spec.whatwg.org/#concept-url-fragment"},
 "efe16f32": {"dfnID":"efe16f32","dfnText":":target","external":true,"refSections":[{"refs":[{"id":"ref-for-target-pseudo"}],"title":"3.1. \nSelecting Highlighted Content: the ::selection,  ::target-text, ::spelling-error, and ::grammar-error pseudo-elements"}],"url":"https://drafts.csswg.org/selectors-4/#target-pseudo"},
-"f2a0f55a": {"dfnID":"f2a0f55a","dfnText":"stroke-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke-color"}],"title":"3.2. \nStyling Highlights"},{"refs":[{"id":"ref-for-propdef-stroke-color\u2460"}],"title":"\nChanges"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-color"},
 "f338a9f0": {"dfnID":"f338a9f0","dfnText":"text-shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-shadow"}],"title":"3.2. \nStyling Highlights"},{"refs":[{"id":"ref-for-propdef-text-shadow\u2460"},{"id":"ref-for-propdef-text-shadow\u2461"}],"title":"3.6.2. \nShadows"},{"refs":[{"id":"ref-for-propdef-text-shadow\u2462"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-shadow"},
 "fictional-tag-sequence": {"dfnID":"fictional-tag-sequence","dfnText":"fictional tag sequence","external":false,"refSections":[{"refs":[{"id":"ref-for-fictional-tag-sequence"}],"title":"2.1.1. Finding the First Formatted Line"},{"refs":[{"id":"ref-for-fictional-tag-sequence\u2460"},{"id":"ref-for-fictional-tag-sequence\u2461"}],"title":"2.1.3. Inheritance and the ::first-line Pseudo-element"},{"refs":[{"id":"ref-for-fictional-tag-sequence\u2462"}],"title":"2.2.2. Inheritance and Box Tree Structure of the ::first-letter Pseudo-element"},{"refs":[{"id":"ref-for-fictional-tag-sequence\u2463"}],"title":"5. Overlapping Pseudo-element Interactions"}],"url":"#fictional-tag-sequence"},
 "first-formatted-line": {"dfnID":"first-formatted-line","dfnText":"first formatted line","external":false,"refSections":[{"refs":[{"id":"ref-for-first-formatted-line"}],"title":"2.1. The ::first-line pseudo-element"},{"refs":[{"id":"ref-for-first-formatted-line\u2460"},{"id":"ref-for-first-formatted-line\u2461"},{"id":"ref-for-first-formatted-line\u2462"},{"id":"ref-for-first-formatted-line\u2463"},{"id":"ref-for-first-formatted-line\u2464"}],"title":"2.1.1. Finding the First Formatted Line"},{"refs":[{"id":"ref-for-first-formatted-line\u2465"}],"title":"2.2. The ::first-letter pseudo-element"},{"refs":[{"id":"ref-for-first-formatted-line\u2466"},{"id":"ref-for-first-formatted-line\u2467"},{"id":"ref-for-first-formatted-line\u2468"}],"title":"2.2.1. Finding the First Letter Text"}],"url":"#first-formatted-line"},
@@ -3924,12 +3918,13 @@ let refsData = {
 "https://drafts.csswg.org/css-lists-3/#list-item": {"displayText":"list item","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"list item","type":"dfn","url":"https://drafts.csswg.org/css-lists-3/#list-item"},
 "https://drafts.csswg.org/css-lists-3/#marker": {"displayText":"marker box","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"marker box","type":"dfn","url":"https://drafts.csswg.org/css-lists-3/#marker"},
 "https://drafts.csswg.org/css-lists-3/#propdef-list-style-position": {"displayText":"list-style-position","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"list-style-position","type":"property","url":"https://drafts.csswg.org/css-lists-3/#propdef-list-style-position"},
-"https://drafts.csswg.org/css-multicol-1/#multi-column-container": {"displayText":"multi-column container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"multi-column container","type":"dfn","url":"https://drafts.csswg.org/css-multicol-1/#multi-column-container"},
+"https://drafts.csswg.org/css-multicol-2/#multi-column-container": {"displayText":"multi-column container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"multi-column container","type":"dfn","url":"https://drafts.csswg.org/css-multicol-2/#multi-column-container"},
 "https://drafts.csswg.org/css-ruby-1/#propdef-ruby-position": {"displayText":"ruby-position","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-ruby","spec":"css-ruby-1","status":"current","text":"ruby-position","type":"property","url":"https://drafts.csswg.org/css-ruby-1/#propdef-ruby-position"},
 "https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar": {"displayText":"parse","export":true,"for_":["CSS"],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"parse","type":"dfn","url":"https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar"},
 "https://drafts.csswg.org/css-tables-3/#table-wrapper-box": {"displayText":"table wrapper box","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-tables","spec":"css-tables-3","status":"current","text":"table wrapper box","type":"dfn","url":"https://drafts.csswg.org/css-tables-3/#table-wrapper-box"},
 "https://drafts.csswg.org/css-text-3/#propdef-text-align": {"displayText":"text-align","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-text","spec":"css-text-3","status":"current","text":"text-align","type":"property","url":"https://drafts.csswg.org/css-text-3/#propdef-text-align"},
 "https://drafts.csswg.org/css-text-4/#typographic-letter-unit": {"displayText":"typographic letter unit","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text","spec":"css-text-4","status":"current","text":"typographic letter unit","type":"dfn","url":"https://drafts.csswg.org/css-text-4/#typographic-letter-unit"},
+"https://drafts.csswg.org/css-text-4/#unicode-general-category": {"displayText":"Unicode General Category","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text","spec":"css-text-4","status":"current","text":"unicode general category","type":"dfn","url":"https://drafts.csswg.org/css-text-4/#unicode-general-category"},
 "https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration": {"displayText":"text-decoration","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text-decor","spec":"css-text-decor-4","status":"current","text":"text-decoration","type":"property","url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration"},
 "https://drafts.csswg.org/css-text-decor-4/#propdef-text-emphasis": {"displayText":"text-emphasis","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text-decor","spec":"css-text-decor-4","status":"current","text":"text-emphasis","type":"property","url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-emphasis"},
 "https://drafts.csswg.org/css-text-decor-4/#propdef-text-emphasis-position": {"displayText":"text-emphasis-position","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text-decor","spec":"css-text-decor-4","status":"current","text":"text-emphasis-position","type":"property","url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-emphasis-position"},
@@ -3944,23 +3939,22 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation": {"displayText":"text-orientation","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"text-orientation","type":"property","url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation"},
 "https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode": {"displayText":"writing-mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"writing-mode","type":"property","url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode"},
 "https://drafts.csswg.org/css-writing-modes-4/#writing-mode": {"displayText":"writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"writing mode","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#writing-mode"},
-"https://drafts.csswg.org/css2/#selectordef-after": {"displayText":":after","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":":after","type":"selector","url":"https://drafts.csswg.org/css2/#selectordef-after"},
+"https://drafts.csswg.org/css2/#selectordef-after": {"displayText":":after","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":":after","type":"selector","url":"https://drafts.csswg.org/css2/#selectordef-after"},
 "https://drafts.csswg.org/cssom-1/#cssomstring": {"displayText":"CSSOMString","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSOMString","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "https://drafts.csswg.org/cssom-1/#cssstyledeclaration": {"displayText":"CSSStyleDeclaration","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSStyleDeclaration","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssstyledeclaration"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-fill-color": {"displayText":"fill-color","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"fill-color","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-fill-color"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-color": {"displayText":"stroke-color","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke-color","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-color"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-width": {"displayText":"stroke-width","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke-width","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke-width"},
 "https://drafts.csswg.org/selectors-3/#x": {"displayText":"*","export":true,"for_":[],"level":"3","normative":true,"shortname":"selectors","spec":"selectors-3","status":"current","text":"*","type":"selector","url":"https://drafts.csswg.org/selectors-3/#x"},
 "https://drafts.csswg.org/selectors-4/#originating-element": {"displayText":"originating element","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"originating element","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#originating-element"},
 "https://drafts.csswg.org/selectors-4/#placeholder-shown-pseudo": {"displayText":":placeholder-shown","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":":placeholder-shown","type":"selector","url":"https://drafts.csswg.org/selectors-4/#placeholder-shown-pseudo"},
-"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-element","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-element","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
+"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-elements","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "https://drafts.csswg.org/selectors-4/#selector": {"displayText":"selector","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"selector","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#selector"},
 "https://drafts.csswg.org/selectors-4/#target-pseudo": {"displayText":":target","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":":target","type":"selector","url":"https://drafts.csswg.org/selectors-4/#target-pseudo"},
 "https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector": {"displayText":"<pseudo-element-selector>","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"<pseudo-element-selector>","type":"type","url":"https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-color": {"displayText":"fill-color","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"fill-color","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-color"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-color": {"displayText":"stroke-color","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke-color","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-color"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-width": {"displayText":"stroke-width","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke-width","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke-width"},
 "https://url.spec.whatwg.org/#concept-url-fragment": {"displayText":"fragment","export":true,"for_":["url"],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"fragment","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-fragment"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
 "https://webidl.spec.whatwg.org/#this": {"displayText":"this","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"this","type":"dfn","url":"https://webidl.spec.whatwg.org/#this"},
-"https://www.w3.org/TR/CSS21/selector.html#x22": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"pseudo-elements","type":"dfn","url":"https://www.w3.org/TR/CSS21/selector.html#x22"},
 };
 
 function mkRefHint(link, ref) {

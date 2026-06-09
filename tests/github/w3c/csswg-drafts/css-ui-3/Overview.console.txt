@@ -24,32 +24,14 @@ LINE 1422: Line starts with tabs, but document is space-indented
 LINE 1423: Line starts with tabs, but document is space-indented
 LINE 144:101: The biblio refs [[CSS-VALUES-3]] and [[css-values-3]] are both aliases of the same base reference [[css-values-3]]. Please choose one name and use it consistently.
 LINE 145:85: The biblio refs [[CSS-VALUES-3]] and [[css-values-3]] are both aliases of the same base reference [[css-values-3]]. Please choose one name and use it consistently.
-LINE ~157:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
+LINE 320:1 of the line's value (after the colon): Multiple possible '<line-width>' type refs.
+Arbitrarily chose https://www.w3.org/TR/css-backgrounds-3/#typedef-line-width
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
-LINE 216:153: No 'dfn' refs found for 'content width' with spec 'css2'.
-LINE 218:130: No 'dfn' refs found for 'content width' with spec 'css2'.
-LINE 220:226: No 'dfn' refs found for 'content width' with spec 'css2'.
-LINE 220:260: No 'dfn' refs found for 'content height' with spec 'css2'.
-LINE 230:132: No 'dfn' refs found for 'content height' with spec 'css2'.
-LINE 232:191: No 'dfn' refs found for 'content width' with spec 'css2'.
-LINE 232:225: No 'dfn' refs found for 'content height' with spec 'css2'.
-LINE ~308:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:||
-spec:css-values-4; type:grammar; text:||
+spec:css-backgrounds-3; type:type; text:<line-width>
+spec:css-borders-4; type:type; text:<line-width>
 LINE 325:48 of the line's value (after the colon): Multiple possible 'none' maybe refs for '['border-style']'.
-Arbitrarily chose https://drafts.csswg.org/css2/#value-def-bo-none
+Arbitrarily chose https://www.w3.org/TR/css-backgrounds-3/#valdef-line-style-none
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:value; for:<border-style>; text:none
-spec:css22; type:value; for:border-top-style; text:none
-spec:css22; type:value; for:border-right-style; text:none
-spec:css22; type:value; for:border-bottom-style; text:none
-spec:css22; type:value; for:border-left-style; text:none
-spec:css22; type:value; for:border-style; text:none
 spec:css-backgrounds-3; type:value; for:<line-style>; text:none
 spec:css-backgrounds-3; type:value; for:border-style; text:none
 spec:css-backgrounds-3; type:value; for:border-top-style; text:none
@@ -57,83 +39,28 @@ spec:css-backgrounds-3; type:value; for:border-left-style; text:none
 spec:css-backgrounds-3; type:value; for:border-bottom-style; text:none
 spec:css-backgrounds-3; type:value; for:border-right-style; text:none
 spec:css-backgrounds-3; type:value; for:border; text:none
-LINE ~331:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
-LINE 346:1 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#value-def-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:type; text:<color>
-spec:css-color-5; type:type; text:<color>
-LINE ~344:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
+spec:css-borders-4; type:value; for:<line-style>; text:none
+spec:css-borders-4; type:value; for:border-style; text:none
+spec:css-borders-4; type:value; for:border-top-style; text:none
+spec:css-borders-4; type:value; for:border-left-style; text:none
+spec:css-borders-4; type:value; for:border-bottom-style; text:none
+spec:css-borders-4; type:value; for:border-right-style; text:none
+spec:css-borders-4; type:value; for:border; text:none
 LINE 353:9 of the line's value (after the colon): No 'property' refs found for 'color' with spec 'css-color-3'.
-LINE 353:36 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#value-def-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:type; text:<color>
-spec:css-color-5; type:type; text:<color>
 LINE 374:22: Multiple possible 'border-radius' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-borders-4/#propdef-border-radius
+Arbitrarily chose https://www.w3.org/TR/css-backgrounds-3/#propdef-border-radius
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-borders-4; type:property; text:border-radius
 spec:css-backgrounds-3; type:property; text:border-radius
-LINE ~527:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
-LINE ~651:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
-LINE ~934:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:?
-spec:css-values-4; type:grammar; text:?
-LINE ~934:1: Multiple possible ',' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-comma
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:,
-spec:css-values-4; type:grammar; text:,
-LINE ~934:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
+spec:css-borders-4; type:property; text:border-radius
 LINE 958:93: Multiple possible 'border-radius' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-borders-4/#propdef-border-radius
+Arbitrarily chose https://www.w3.org/TR/css-backgrounds-3/#propdef-border-radius
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-borders-4; type:property; text:border-radius
 spec:css-backgrounds-3; type:property; text:border-radius
-LINE ~1258:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:grammar; text:|
-spec:css-values-4; type:grammar; text:|
-LINE 1260:8 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#value-def-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:type; text:<color>
-spec:css-color-5; type:type; text:<color>
+spec:css-borders-4; type:property; text:border-radius
 LINE 1267:9 of the line's value (after the colon): No 'property' refs found for 'color' with spec 'css-color-3'.
-LINE 1267:36 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#value-def-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:type; text:<color>
-spec:css-color-5; type:type; text:<color>
-LINE 1277:5: Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css2/#value-def-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css22; type:type; text:<color>
-spec:css-color-5; type:type; text:<color>
+LINE 133:76: Multiple headings with id '#property-defs' for spec 'css2'. Please specify:
+  [[css2/#property-defs]]
+  [[css2/about#property-defs]]
 LINE 388:2: Couldn't find section '#the-border-width' in spec 'css-backgrounds-3':
 [[css-backgrounds-3#the-border-width]]
 LINE 393:2: Couldn't find section '#the-border-style' in spec 'css-backgrounds-3':

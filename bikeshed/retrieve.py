@@ -195,7 +195,7 @@ def retrieveBoilerplateFile(
             components.append(f"Group '{groupName}'")
         if statusName:
             components.append(f"Status '{statusName}'")
-        msg = "Couldn't find an appropriate include file for the {name} inclusion"
+        msg = f"Couldn't find an appropriate include file for the '{name}' inclusion"
         if components:
             msg += ", given " + config.englishFromList(components, "and")
         else:

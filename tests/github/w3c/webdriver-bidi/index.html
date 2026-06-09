@@ -824,9 +824,9 @@ definition</dfn> which defines the format of messages produced on the <a data-li
 the remainder of the specification.</p>
    <p><a data-link-type="dfn" href="#remote-end-definition" id="ref-for-remote-end-definition①">Remote end definition</a></p>
 <pre class="cddl def highlight remote-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-command"><code>Command</code></dfn> = {
-  <dfn class="dfn-paneled" data-dfn-for="Command" data-dfn-type="cddl-key" data-lt="id|&quot;id&quot;" data-noexport id="cddl-key-command-id"><code>id</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u>,
+  <dfn class="dfn-paneled" data-dfn-for="Command" data-dfn-type="cddl-key" data-lt="id|&quot;id&quot;" data-noexport id="cddl-key-command-id"><code>id</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D">uint</a>,
   <a data-link-type="cddl" href="#cddl-type-commanddata" id="ref-for-cddl-type-commanddata">CommandData</a>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>,
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②">any</a>,
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-commanddata"><code>CommandData</code></dfn> = (
@@ -834,7 +834,7 @@ the remainder of the specification.</p>
   <a data-link-type="cddl" href="#cddl-type-browsingcontextcommand" id="ref-for-cddl-type-browsingcontextcommand">BrowsingContextCommand</a>
 )
 
-<dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-emptyparams"><code>EmptyParams</code></dfn> = { *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> }
+<dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-emptyparams"><code>EmptyParams</code></dfn> = { *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③">text</a> }
 </pre>
    <p><a data-link-type="dfn" href="#local-end-definition" id="ref-for-local-end-definition①">Local end definition</a></p>
 <pre class="cddl def highlight local-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-message"><code>Message</code></dfn> = (
@@ -844,17 +844,17 @@ the remainder of the specification.</p>
 )
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-commandresponse"><code>CommandResponse</code></dfn> = {
-  <dfn class="dfn-paneled" data-dfn-for="CommandResponse" data-dfn-type="cddl-key" data-lt="id|&quot;id&quot;" data-noexport id="cddl-key-commandresponse-id"><code>id</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u>,
+  <dfn class="dfn-paneled" data-dfn-for="CommandResponse" data-dfn-type="cddl-key" data-lt="id|&quot;id&quot;" data-noexport id="cddl-key-commandresponse-id"><code>id</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D④">uint</a>,
   <dfn class="dfn-paneled" data-dfn-for="CommandResponse" data-dfn-type="cddl-key" data-lt="result|&quot;result&quot;" data-noexport id="cddl-key-commandresponse-result"><code>result</code></dfn>: <a data-link-type="cddl" href="#cddl-type-resultdata" id="ref-for-cddl-type-resultdata">ResultData</a>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D⑤">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D⑥">any</a>
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-errorresponse"><code>ErrorResponse</code></dfn> = {
-  <dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="id|&quot;id&quot;" data-noexport id="cddl-key-errorresponse-id"><code>id</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>,
+  <dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="id|&quot;id&quot;" data-noexport id="cddl-key-errorresponse-id"><code>id</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D⑦">uint</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D⑧">null</a>,
   <dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="error|&quot;error&quot;" data-noexport id="cddl-key-errorresponse-error"><code>error</code></dfn>: <dfn class="dfn-paneled" data-dfn-for="ErrorResponse/error" data-dfn-type="cddl-value" data-lt="unknown error|&quot;unknown error&quot;" data-noexport id="cddl-value-errorresponse-error-unknown-error"><code>"unknown error"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="ErrorResponse/error" data-dfn-type="cddl-value" data-lt="unknown method|&quot;unknown method&quot;" data-noexport id="cddl-value-errorresponse-error-unknown-method"><code>"unknown method"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="ErrorResponse/error" data-dfn-type="cddl-value" data-lt="invalid argument|&quot;invalid argument&quot;" data-noexport id="cddl-value-errorresponse-error-invalid-argument"><code>"invalid argument"</code></dfn>,
-  <dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="message|&quot;message&quot;" data-noexport id="cddl-key-errorresponse-message"><code>message</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  ?<dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="stacktrace|&quot;stacktrace&quot;" data-noexport id="cddl-key-errorresponse-stacktrace"><code>stacktrace</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>
+  <dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="message|&quot;message&quot;" data-noexport id="cddl-key-errorresponse-message"><code>message</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D⑨">text</a>,
+  ?<dfn class="dfn-paneled" data-dfn-for="ErrorResponse" data-dfn-type="cddl-key" data-lt="stacktrace|&quot;stacktrace&quot;" data-noexport id="cddl-key-errorresponse-stacktrace"><code>stacktrace</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①⓪">text</a>,
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①①">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①②">any</a>
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-resultdata"><code>ResultData</code></dfn> = (
@@ -868,7 +868,7 @@ the remainder of the specification.</p>
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-event"><code>Event</code></dfn> = {
   <a data-link-type="cddl" href="#cddl-type-eventdata" id="ref-for-cddl-type-eventdata">EventData</a>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①③">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①④">any</a>
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-eventdata"><code>EventData</code></dfn> = (
@@ -1263,12 +1263,12 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="handle-an-inco
      <li data-md>
       <p>Let <var>related browsing contexts</var> be an empty set</p>
      <li data-md>
-      <p>If the <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">Document</a>, append the
+      <p>If the <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">Document</a>, append the
  <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#concept-document-bc" id="ref-for-concept-document-bc">browsing context</a> to <var>related browsing
  contexts</var>.</p>
       <p>Otherwise if the <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>settings</var> is a
  <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope">WorkerGlobalScope</a></code>, for each <var>owner</var> in the <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u>’s
- <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/workers.html#concept-WorkerGlobalScope-owner-set" id="ref-for-concept-WorkerGlobalScope-owner-set">owner set</a>, if <var>owner</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">Document</a>, append <var>owner</var>’s
+ <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/workers.html#concept-WorkerGlobalScope-owner-set" id="ref-for-concept-WorkerGlobalScope-owner-set">owner set</a>, if <var>owner</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">Document</a>, append <var>owner</var>’s
  <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#concept-document-bc" id="ref-for-concept-document-bc①">browsing context</a> to <var>related browsing contexts</var>.</p>
      <li data-md>
       <p>Return <var>related browsing contexts</var>.</p>
@@ -2203,8 +2203,8 @@ to the implementation.</p>
     <dt>Return Type
     <dd>
 <pre class="cddl def highlight local-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionstatusresult"><code>SessionStatusResult</code></dfn> = {
-  <dfn class="dfn-paneled" data-dfn-for="SessionStatusResult" data-dfn-type="cddl-key" data-lt="ready|&quot;ready&quot;" data-noexport id="cddl-key-sessionstatusresult-ready"><code>ready</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="bool" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;bool&apos;.">bool</u>,
-  <dfn class="dfn-paneled" data-dfn-for="SessionStatusResult" data-dfn-type="cddl-key" data-lt="message|&quot;message&quot;" data-noexport id="cddl-key-sessionstatusresult-message"><code>message</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
+  <dfn class="dfn-paneled" data-dfn-for="SessionStatusResult" data-dfn-type="cddl-key" data-lt="ready|&quot;ready&quot;" data-noexport id="cddl-key-sessionstatusresult-ready"><code>ready</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①⑤">bool</a>,
+  <dfn class="dfn-paneled" data-dfn-for="SessionStatusResult" data-dfn-type="cddl-key" data-lt="message|&quot;message&quot;" data-noexport id="cddl-key-sessionstatusresult-message"><code>message</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①⑥">text</a>,
 }
 </pre>
    </dl>
@@ -2235,7 +2235,7 @@ either globally or for a set of browsing contexts</p>
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionsubscribeparameters"><code>SessionSubscribeParameters</code></dfn> = {
-  <dfn class="dfn-paneled" data-dfn-for="SessionSubscribeParameters" data-dfn-type="cddl-key" data-lt="events|&quot;events&quot;" data-noexport id="cddl-key-sessionsubscribeparameters-events"><code>events</code></dfn>: [*<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>],
+  <dfn class="dfn-paneled" data-dfn-for="SessionSubscribeParameters" data-dfn-type="cddl-key" data-lt="events|&quot;events&quot;" data-noexport id="cddl-key-sessionsubscribeparameters-events"><code>events</code></dfn>: [*<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①⑦">text</a>],
   ?<dfn class="dfn-paneled" data-dfn-for="SessionSubscribeParameters" data-dfn-type="cddl-key" data-lt="contexts|&quot;contexts&quot;" data-noexport id="cddl-key-sessionsubscribeparameters-contexts"><code>contexts</code></dfn>: [*<a data-link-type="cddl" href="#cddl-type-browsingcontext" id="ref-for-cddl-type-browsingcontext">BrowsingContext</a>],
 }
 </pre>
@@ -2347,7 +2347,7 @@ events relating to browsing contexts.</p>
    <h4 class="heading settled" data-level="6.2.2" id="module-browsingcontext-types"><span class="secno">6.2.2. </span><span class="content">Types</span><a class="self-link" href="#module-browsingcontext-types"></a></h4>
    <h5 class="heading settled" data-level="6.2.2.1" id="type-browsingContext-Browsingcontext"><span class="secno">6.2.2.1. </span><span class="content">The browsingContext.BrowsingContext Type</span><a class="self-link" href="#type-browsingContext-Browsingcontext"></a></h5>
    <p><a data-link-type="dfn" href="#remote-end-definition" id="ref-for-remote-end-definition⑨">remote end definition</a> and <a data-link-type="dfn" href="#local-end-definition" id="ref-for-local-end-definition③⑤">local end definition</a></p>
-<pre class="cddl def highlight local-cddl remote-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-browsingcontext"><code>BrowsingContext</code></dfn> = <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>;
+<pre class="cddl def highlight local-cddl remote-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-browsingcontext"><code>BrowsingContext</code></dfn> = <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①⑧">text</a>;
 </pre>
    <p>Each <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context" id="ref-for-browsing-context">browsing context</a> has an associated <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="browsing context id" id="browsing-context-id">browsing context
 id</dfn>, which is a string uniquely identifying that browsing context. This is
@@ -2377,9 +2377,9 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="get-a-browsing
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-browsingcontextinfo"><code>BrowsingContextInfo</code></dfn> = {
   <dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="context|&quot;context&quot;" data-noexport id="cddl-key-browsingcontextinfo-context"><code>context</code></dfn>: <a data-link-type="cddl" href="#cddl-type-browsingcontext" id="ref-for-cddl-type-browsingcontext①">BrowsingContext</a>,
-  ?<dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="parent|&quot;parent&quot;" data-noexport id="cddl-key-browsingcontextinfo-parent"><code>parent</code></dfn>: <a data-link-type="cddl" href="#cddl-type-browsingcontext" id="ref-for-cddl-type-browsingcontext②">BrowsingContext</a> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>,
-  <dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="url|&quot;url&quot;" data-noexport id="cddl-key-browsingcontextinfo-url"><code>url</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  <dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="children|&quot;children&quot;" data-noexport id="cddl-key-browsingcontextinfo-children"><code>children</code></dfn>: <a data-link-type="cddl" href="#cddl-type-browsingcontextinfolist" id="ref-for-cddl-type-browsingcontextinfolist">BrowsingContextInfoList</a> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>
+  ?<dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="parent|&quot;parent&quot;" data-noexport id="cddl-key-browsingcontextinfo-parent"><code>parent</code></dfn>: <a data-link-type="cddl" href="#cddl-type-browsingcontext" id="ref-for-cddl-type-browsingcontext②">BrowsingContext</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D①⑨">null</a>,
+  <dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="url|&quot;url&quot;" data-noexport id="cddl-key-browsingcontextinfo-url"><code>url</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②⓪">text</a>,
+  <dfn class="dfn-paneled" data-dfn-for="BrowsingContextInfo" data-dfn-type="cddl-key" data-lt="children|&quot;children&quot;" data-noexport id="cddl-key-browsingcontextinfo-children"><code>children</code></dfn>: <a data-link-type="cddl" href="#cddl-type-browsingcontextinfolist" id="ref-for-cddl-type-browsingcontextinfolist">BrowsingContextInfoList</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②①">null</a>
 }
 
 </pre>
@@ -2460,7 +2460,7 @@ top-level contexts when no parent is provided.</p>
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-browsingcontextgettreeparameters"><code>BrowsingContextGetTreeParameters</code></dfn> = {
-  ?<dfn class="dfn-paneled" data-dfn-for="BrowsingContextGetTreeParameters" data-dfn-type="cddl-key" data-lt="maxDepth|&quot;maxDepth&quot;" data-noexport id="cddl-key-browsingcontextgettreeparameters-maxdepth"><code>maxDepth</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u>,
+  ?<dfn class="dfn-paneled" data-dfn-for="BrowsingContextGetTreeParameters" data-dfn-type="cddl-key" data-lt="maxDepth|&quot;maxDepth&quot;" data-noexport id="cddl-key-browsingcontextgettreeparameters-maxdepth"><code>maxDepth</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②②">uint</a>,
   ?<dfn class="dfn-paneled" data-dfn-for="BrowsingContextGetTreeParameters" data-dfn-type="cddl-key" data-lt="parent|&quot;parent&quot;" data-noexport id="cddl-key-browsingcontextgettreeparameters-parent"><code>parent</code></dfn>: <a data-link-type="cddl" href="#cddl-type-browsingcontext" id="ref-for-cddl-type-browsingcontext③">BrowsingContext</a>,
 }
 </pre>
@@ -2616,7 +2616,7 @@ relating to script realms and execution.</p>
    <h4 class="heading settled" data-level="6.3.2" id="module-script-types"><span class="secno">6.3.2. </span><span class="content">Types</span><a class="self-link" href="#module-script-types"></a></h4>
    <h5 class="heading settled" data-level="6.3.2.1" id="type-script-Realm"><span class="secno">6.3.2.1. </span><span class="content">The script.Realm type</span><a class="self-link" href="#type-script-Realm"></a></h5>
    <p><a data-link-type="dfn" href="#remote-end-definition" id="ref-for-remote-end-definition①①">Remote end definition</a> and <a data-link-type="dfn" href="#local-end-definition" id="ref-for-local-end-definition③⑧">local end definition</a></p>
-<pre class="cddl def highlight local-cddl remote-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-realm"><code>Realm</code></dfn> = <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>;
+<pre class="cddl def highlight local-cddl remote-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-realm"><code>Realm</code></dfn> = <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②③">text</a>;
 </pre>
    <p>Each <a data-link-type="dfn" href="https://tc39.es/ecma262/#sec-code-realms" id="ref-for-sec-code-realms">realm</a> has an associated <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="realm-id">realm id</dfn>, which is a string
 uniquely identifying that realm. This is implicitly set when the realm is
@@ -2626,10 +2626,10 @@ created.</p>
 <pre class="cddl def highlight local-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-realminfo"><code>RealmInfo</code></dfn> = {
   <dfn class="dfn-paneled" data-dfn-for="RealmInfo" data-dfn-type="cddl-key" data-lt="realm|&quot;realm&quot;" data-noexport id="cddl-key-realminfo-realm"><code>realm</code></dfn>: <a data-link-type="cddl" href="#cddl-type-realm" id="ref-for-cddl-type-realm">Realm</a>,
   <dfn class="dfn-paneled" data-dfn-for="RealmInfo" data-dfn-type="cddl-key" data-lt="type|&quot;type&quot;" data-noexport id="cddl-key-realminfo-type"><code>type</code></dfn>: <a data-link-type="cddl" href="#cddl-type-realmtype" id="ref-for-cddl-type-realmtype">RealmType</a>,
-  <dfn class="dfn-paneled" data-dfn-for="RealmInfo" data-dfn-type="cddl-key" data-lt="origin|&quot;origin&quot;" data-noexport id="cddl-key-realminfo-origin"><code>origin</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>
+  <dfn class="dfn-paneled" data-dfn-for="RealmInfo" data-dfn-type="cddl-key" data-lt="origin|&quot;origin&quot;" data-noexport id="cddl-key-realminfo-origin"><code>origin</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②④">text</a>
 }
 
-<dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-realmtype"><code>RealmType</code></dfn> = <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="window|&quot;window&quot;" data-noexport id="cddl-value-realmtype-window"><code>"window"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="dedicated-worker|&quot;dedicated-worker&quot;" data-noexport id="cddl-value-realmtype-dedicated-worker"><code>"dedicated-worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="shared-worker|&quot;shared-worker&quot;" data-noexport id="cddl-value-realmtype-shared-worker"><code>"shared-worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="service-worker|&quot;service-worker&quot;" data-noexport id="cddl-value-realmtype-service-worker"><code>"service-worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="worker|&quot;worker&quot;" data-noexport id="cddl-value-realmtype-worker"><code>"worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="paint-worklet|&quot;paint-worklet&quot;" data-noexport id="cddl-value-realmtype-paint-worklet"><code>"paint-worklet"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="audio-worklet|&quot;audio-worklet&quot;" data-noexport id="cddl-value-realmtype-audio-worklet"><code>"audio-worklet"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="worklet|&quot;worklet&quot;" data-noexport id="cddl-value-realmtype-worklet"><code>"worklet"</code></dfn> / <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>
+<dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-realmtype"><code>RealmType</code></dfn> = <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="window|&quot;window&quot;" data-noexport id="cddl-value-realmtype-window"><code>"window"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="dedicated-worker|&quot;dedicated-worker&quot;" data-noexport id="cddl-value-realmtype-dedicated-worker"><code>"dedicated-worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="shared-worker|&quot;shared-worker&quot;" data-noexport id="cddl-value-realmtype-shared-worker"><code>"shared-worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="service-worker|&quot;service-worker&quot;" data-noexport id="cddl-value-realmtype-service-worker"><code>"service-worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="worker|&quot;worker&quot;" data-noexport id="cddl-value-realmtype-worker"><code>"worker"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="paint-worklet|&quot;paint-worklet&quot;" data-noexport id="cddl-value-realmtype-paint-worklet"><code>"paint-worklet"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="audio-worklet|&quot;audio-worklet&quot;" data-noexport id="cddl-value-realmtype-audio-worklet"><code>"audio-worklet"</code></dfn> / <dfn class="dfn-paneled" data-dfn-for="RealmType" data-dfn-type="cddl-value" data-lt="worklet|&quot;worklet&quot;" data-noexport id="cddl-value-realmtype-worklet"><code>"worklet"</code></dfn> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②⑤">text</a>
 </pre>
    <p>The <code>RealmInfo</code> type represents the properties of a realm.</p>
    <div class="algorithm" data-algorithm="get the realm info">
@@ -2732,7 +2732,7 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="get-the-realm-
    <h5 class="heading settled" data-level="6.3.3.1" id="command-script-getRealms"><span class="secno">6.3.3.1. </span><span class="content">The script.getRealms Command</span><a class="self-link" href="#command-script-getRealms"></a></h5>
    <p>The <dfn class="dfn-paneled" data-dfn-for="commands" data-dfn-type="dfn" data-export id="commands-scriptgetrealms">script.getRealms</dfn> command returns a list of
 all realms, optionally filtered to <a data-link-type="dfn" href="https://tc39.es/ecma262/#sec-code-realms" id="ref-for-sec-code-realms①">realms</a> of a specific type, or to the
-realm associated with the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document②">document</a> currently loaded in a specified
+realm associated with the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document②">document</a> currently loaded in a specified
 <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context" id="ref-for-browsing-context②">browsing context</a>.</p>
    <dl>
     <dt>Command Type
@@ -2863,7 +2863,7 @@ object:</p>
       <p>For each <var>settings</var> of <var>environment settings</var>:</p>
       <ol>
        <li data-md>
-        <p>If the <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document③">Document</a>:</p>
+        <p>If the <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">Document</a>:</p>
         <ol>
          <li data-md>
           <p>Let <var>context</var> be <var>settings</var>’s <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u>’s
@@ -3031,20 +3031,20 @@ level context.</p>
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-baselogentry"><code>BaseLogEntry</code></dfn> = {
   <dfn class="dfn-paneled" data-dfn-for="BaseLogEntry" data-dfn-type="cddl-key" data-lt="level|&quot;level&quot;" data-noexport id="cddl-key-baselogentry-level"><code>level</code></dfn>: <a data-link-type="cddl" href="#cddl-type-loglevel" id="ref-for-cddl-type-loglevel">LogLevel</a>,
-  <dfn class="dfn-paneled" data-dfn-for="BaseLogEntry" data-dfn-type="cddl-key" data-lt="text|&quot;text&quot;" data-noexport id="cddl-key-baselogentry-text"><code>text</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>,
-  <dfn class="dfn-paneled" data-dfn-for="BaseLogEntry" data-dfn-type="cddl-key" data-lt="timestamp|&quot;timestamp&quot;" data-noexport id="cddl-key-baselogentry-timestamp"><code>timestamp</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="int" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;int&apos;.">int</u>,
+  <dfn class="dfn-paneled" data-dfn-for="BaseLogEntry" data-dfn-type="cddl-key" data-lt="text|&quot;text&quot;" data-noexport id="cddl-key-baselogentry-text"><code>text</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②⑥">text</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②⑦">null</a>,
+  <dfn class="dfn-paneled" data-dfn-for="BaseLogEntry" data-dfn-type="cddl-key" data-lt="timestamp|&quot;timestamp&quot;" data-noexport id="cddl-key-baselogentry-timestamp"><code>timestamp</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②⑧">int</a>,
   ?<dfn class="dfn-paneled" data-dfn-for="BaseLogEntry" data-dfn-type="cddl-key" data-lt="stackTrace|&quot;stackTrace&quot;" data-noexport id="cddl-key-baselogentry-stacktrace"><code>stackTrace</code></dfn>: [*<a data-link-type="cddl" href="#cddl-type-stackframe" id="ref-for-cddl-type-stackframe">StackFrame</a>],
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-genericlogentry"><code>GenericLogEntry</code></dfn> = {
   <a data-link-type="cddl" href="#cddl-type-baselogentry" id="ref-for-cddl-type-baselogentry">BaseLogEntry</a>,
-  <dfn class="dfn-paneled" data-dfn-for="GenericLogEntry" data-dfn-type="cddl-key" data-lt="type|&quot;type&quot;" data-noexport id="cddl-key-genericlogentry-type"><code>type</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
+  <dfn class="dfn-paneled" data-dfn-for="GenericLogEntry" data-dfn-type="cddl-key" data-lt="type|&quot;type&quot;" data-noexport id="cddl-key-genericlogentry-type"><code>type</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D②⑨">text</a>,
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-consolelogentry"><code>ConsoleLogEntry</code></dfn> = {
   <a data-link-type="cddl" href="#cddl-type-baselogentry" id="ref-for-cddl-type-baselogentry①">BaseLogEntry</a>,
   <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="type|&quot;type&quot;" data-noexport id="cddl-key-consolelogentry-type"><code>type</code></dfn>: <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry/type" data-dfn-type="cddl-value" data-lt="console|&quot;console&quot;" data-noexport id="cddl-value-consolelogentry-type-console"><code>"console"</code></dfn>,
-  <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="method|&quot;method&quot;" data-noexport id="cddl-key-consolelogentry-method"><code>method</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
+  <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="method|&quot;method&quot;" data-noexport id="cddl-key-consolelogentry-method"><code>method</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③⓪">text</a>,
   <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="realm|&quot;realm&quot;" data-noexport id="cddl-key-consolelogentry-realm"><code>realm</code></dfn>: <a data-link-type="cddl" href="#cddl-type-realm" id="ref-for-cddl-type-realm②">Realm</a>,
   <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="args|&quot;args&quot;" data-noexport id="cddl-key-consolelogentry-args"><code>args</code></dfn>: [*<u class="link-error" data-lt="RemoteValue" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;RemoteValue&apos;.">RemoteValue</u>],
 }
@@ -3064,10 +3064,10 @@ corresponding to the time the log entry was generated. Specific variants of the
 provide additional fields specific to the entry type.</p>
    <h5 class="heading settled" data-level="6.4.2.2" id="types-log-stackframe"><span class="secno">6.4.2.2. </span><span class="content">log.StackFrame</span><a class="self-link" href="#types-log-stackframe"></a></h5>
 <pre class="cddl def highlight local-cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-stackframe"><code>StackFrame</code></dfn> = {
-  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="url|&quot;url&quot;" data-noexport id="cddl-key-stackframe-url"><code>url</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="functionName|&quot;functionName&quot;" data-noexport id="cddl-key-stackframe-functionname"><code>functionName</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="lineNumber|&quot;lineNumber&quot;" data-noexport id="cddl-key-stackframe-linenumber"><code>lineNumber</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="int" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;int&apos;.">int</u>,
-  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="columnNumber|&quot;columnNumber&quot;" data-noexport id="cddl-key-stackframe-columnnumber"><code>columnNumber</code></dfn>: <u class="link-error" data-link-spec="rfc8610" data-lt="int" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;int&apos;.">int</u>,
+  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="url|&quot;url&quot;" data-noexport id="cddl-key-stackframe-url"><code>url</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③①">text</a>,
+  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="functionName|&quot;functionName&quot;" data-noexport id="cddl-key-stackframe-functionname"><code>functionName</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③②">text</a>,
+  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="lineNumber|&quot;lineNumber&quot;" data-noexport id="cddl-key-stackframe-linenumber"><code>lineNumber</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③③">int</a>,
+  <dfn class="dfn-paneled" data-dfn-for="StackFrame" data-dfn-type="cddl-key" data-lt="columnNumber|&quot;columnNumber&quot;" data-noexport id="cddl-key-stackframe-columnnumber"><code>columnNumber</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③④">int</a>,
 }
 
 </pre>
@@ -3727,7 +3727,7 @@ end:</p>
      <li><span class="dfn-paneled" id="db0a062f">attribute</span>
      <li><span class="dfn-paneled" id="77211728">attribute list</span>
      <li><span class="dfn-paneled" id="92b2d7da">children</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="27d9b7ea">element</span>
      <li><span class="dfn-paneled" id="d462b34f">node</span>
      <li><span class="dfn-paneled" id="2ef14d2e">nodes</span>
@@ -3835,6 +3835,16 @@ end:</p>
      <li><span class="dfn-paneled" id="7fdc1cbb">WebSocket URI</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[RFC8610]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="fdf94d96">any</span>
+     <li><span class="dfn-paneled" id="40276321">bool</span>
+     <li><span class="dfn-paneled" id="526c31ad">int</span>
+     <li><span class="dfn-paneled" id="23690420">null</span>
+     <li><span class="dfn-paneled" id="0cc62772">text</span>
+     <li><span class="dfn-paneled" id="43663ea8">uint</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[SERVICE-WORKERS]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="86d2a717">ServiceWorkerGlobalScope</span>
@@ -3846,7 +3856,7 @@ end:</p>
      <li><span class="dfn-paneled" id="5442ea33">URL serializer</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WEBAUDIO]</a> defines the following terms:
+    <a data-link-type="biblio">[WEBAUDIO-1.0]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="8fe058df">AudioWorkletGlobalScope</span>
     </ul>
@@ -3910,10 +3920,10 @@ end:</p>
    <dt id="biblio-rfc8610">[RFC8610]
    <dd>H. Birkholz; C. Vigano; C. Bormann. <a href="https://www.rfc-editor.org/rfc/rfc8610"><cite>Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures</cite></a>. June 2019. Proposed Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc8610">https://www.rfc-editor.org/rfc/rfc8610</a>
    <dt id="biblio-service-workers">[SERVICE-WORKERS]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers Nightly</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/"><cite>URL Standard</cite></a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
-   <dt id="biblio-webaudio">[WEBAUDIO]
+   <dt id="biblio-webaudio-10">[WEBAUDIO-1.0]
    <dd>Paul Adenot; Hongchan Choi. <a href="https://webaudio.github.io/web-audio-api/"><cite>Web Audio API</cite></a>. URL: <a href="https://webaudio.github.io/web-audio-api/">https://webaudio.github.io/web-audio-api/</a>
    <dt id="biblio-webdriver">[WEBDRIVER]
    <dd>Simon Stewart; David Burns. <a href="https://w3c.github.io/webdriver/"><cite>WebDriver</cite></a>. URL: <a href="https://w3c.github.io/webdriver/">https://w3c.github.io/webdriver/</a>
@@ -3922,9 +3932,9 @@ end:</p>
   </dl>
   <h2 class="heading no-num no-ref settled" id="cddl-index"><span class="content">CDDL Index</span><a class="self-link" href="#cddl-index"></a></h2>
 <pre class="cddl def highlight"><a href="#cddl-type-command"><code>Command</code></a> = {
-  <a href="#cddl-key-command-id"><code>id</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u>,
+  <a href="#cddl-key-command-id"><code>id</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">uint</a>,
   <a data-link-type="cddl" href="#cddl-type-commanddata">CommandData</a>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>,
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">any</a>,
 }
 
 <a href="#cddl-type-commanddata"><code>CommandData</code></a> = (
@@ -3932,7 +3942,7 @@ end:</p>
   <a data-link-type="cddl" href="#cddl-type-browsingcontextcommand">BrowsingContextCommand</a>
 )
 
-<a href="#cddl-type-emptyparams"><code>EmptyParams</code></a> = { *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> }
+<a href="#cddl-type-emptyparams"><code>EmptyParams</code></a> = { *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a> }
 
 <a href="#cddl-type-message"><code>Message</code></a> = (
   <a data-link-type="cddl" href="#cddl-type-commandresponse">CommandResponse</a> //
@@ -3941,17 +3951,17 @@ end:</p>
 )
 
 <a href="#cddl-type-commandresponse"><code>CommandResponse</code></a> = {
-  <a href="#cddl-key-commandresponse-id"><code>id</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u>,
+  <a href="#cddl-key-commandresponse-id"><code>id</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">uint</a>,
   <a href="#cddl-key-commandresponse-result"><code>result</code></a>: <a data-link-type="cddl" href="#cddl-type-resultdata">ResultData</a>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">any</a>
 }
 
 <a href="#cddl-type-errorresponse"><code>ErrorResponse</code></a> = {
-  <a href="#cddl-key-errorresponse-id"><code>id</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>,
+  <a href="#cddl-key-errorresponse-id"><code>id</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">uint</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">null</a>,
   <a href="#cddl-key-errorresponse-error"><code>error</code></a>: <a href="#cddl-value-errorresponse-error-unknown-error"><code>"unknown error"</code></a> / <a href="#cddl-value-errorresponse-error-unknown-method"><code>"unknown method"</code></a> / <a href="#cddl-value-errorresponse-error-invalid-argument"><code>"invalid argument"</code></a>,
-  <a href="#cddl-key-errorresponse-message"><code>message</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  ?<a href="#cddl-key-errorresponse-stacktrace"><code>stacktrace</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>
+  <a href="#cddl-key-errorresponse-message"><code>message</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
+  ?<a href="#cddl-key-errorresponse-stacktrace"><code>stacktrace</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">any</a>
 }
 
 <a href="#cddl-type-resultdata"><code>ResultData</code></a> = (
@@ -3965,7 +3975,7 @@ end:</p>
 
 <a href="#cddl-type-event"><code>Event</code></a> = {
   <a data-link-type="cddl" href="#cddl-type-eventdata">EventData</a>,
-  *<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> => <u class="link-error" data-link-spec="rfc8610" data-lt="any" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;any&apos;.">any</u>
+  *<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a> => <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">any</a>
 }
 
 <a href="#cddl-type-eventdata"><code>EventData</code></a> = (
@@ -3985,8 +3995,8 @@ end:</p>
 }
 
 <a href="#cddl-type-sessionstatusresult"><code>SessionStatusResult</code></a> = {
-  <a href="#cddl-key-sessionstatusresult-ready"><code>ready</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="bool" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;bool&apos;.">bool</u>,
-  <a href="#cddl-key-sessionstatusresult-message"><code>message</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
+  <a href="#cddl-key-sessionstatusresult-ready"><code>ready</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">bool</a>,
+  <a href="#cddl-key-sessionstatusresult-message"><code>message</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
 }
 
 <a href="#cddl-type-sessionsubscribecommand"><code>SessionSubscribeCommand</code></a> = {
@@ -3995,7 +4005,7 @@ end:</p>
 }
 
 <a href="#cddl-type-sessionsubscribeparameters"><code>SessionSubscribeParameters</code></a> = {
-  <a href="#cddl-key-sessionsubscribeparameters-events"><code>events</code></a>: [*<u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>],
+  <a href="#cddl-key-sessionsubscribeparameters-events"><code>events</code></a>: [*<a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>],
   ?<a href="#cddl-key-sessionsubscribeparameters-contexts"><code>contexts</code></a>: [*<a data-link-type="cddl" href="#cddl-type-browsingcontext">BrowsingContext</a>],
 }
 
@@ -4018,15 +4028,15 @@ EmptyResult
 )
 
 
-<a href="#cddl-type-browsingcontext"><code>BrowsingContext</code></a> = <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>;
+<a href="#cddl-type-browsingcontext"><code>BrowsingContext</code></a> = <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>;
 
 <a href="#cddl-type-browsingcontextinfolist"><code>BrowsingContextInfoList</code></a> = [* <a data-link-type="cddl" href="#cddl-type-browsingcontextinfo">BrowsingContextInfo</a>]
 
 <a href="#cddl-type-browsingcontextinfo"><code>BrowsingContextInfo</code></a> = {
   <a href="#cddl-key-browsingcontextinfo-context"><code>context</code></a>: <a data-link-type="cddl" href="#cddl-type-browsingcontext">BrowsingContext</a>,
-  ?<a href="#cddl-key-browsingcontextinfo-parent"><code>parent</code></a>: <a data-link-type="cddl" href="#cddl-type-browsingcontext">BrowsingContext</a> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>,
-  <a href="#cddl-key-browsingcontextinfo-url"><code>url</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  <a href="#cddl-key-browsingcontextinfo-children"><code>children</code></a>: <a data-link-type="cddl" href="#cddl-type-browsingcontextinfolist">BrowsingContextInfoList</a> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>
+  ?<a href="#cddl-key-browsingcontextinfo-parent"><code>parent</code></a>: <a data-link-type="cddl" href="#cddl-type-browsingcontext">BrowsingContext</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">null</a>,
+  <a href="#cddl-key-browsingcontextinfo-url"><code>url</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
+  <a href="#cddl-key-browsingcontextinfo-children"><code>children</code></a>: <a data-link-type="cddl" href="#cddl-type-browsingcontextinfolist">BrowsingContextInfoList</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">null</a>
 }
 
 
@@ -4036,7 +4046,7 @@ EmptyResult
 }
 
 <a href="#cddl-type-browsingcontextgettreeparameters"><code>BrowsingContextGetTreeParameters</code></a> = {
-  ?<a href="#cddl-key-browsingcontextgettreeparameters-maxdepth"><code>maxDepth</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="uint" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;uint&apos;.">uint</u>,
+  ?<a href="#cddl-key-browsingcontextgettreeparameters-maxdepth"><code>maxDepth</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">uint</a>,
   ?<a href="#cddl-key-browsingcontextgettreeparameters-parent"><code>parent</code></a>: <a data-link-type="cddl" href="#cddl-type-browsingcontext">BrowsingContext</a>,
 }
 
@@ -4065,15 +4075,15 @@ EmptyResult
 )
 
 
-<a href="#cddl-type-realm"><code>Realm</code></a> = <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>;
+<a href="#cddl-type-realm"><code>Realm</code></a> = <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>;
 
 <a href="#cddl-type-realminfo"><code>RealmInfo</code></a> = {
   <a href="#cddl-key-realminfo-realm"><code>realm</code></a>: <a data-link-type="cddl" href="#cddl-type-realm">Realm</a>,
   <a href="#cddl-key-realminfo-type"><code>type</code></a>: <a data-link-type="cddl" href="#cddl-type-realmtype">RealmType</a>,
-  <a href="#cddl-key-realminfo-origin"><code>origin</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>
+  <a href="#cddl-key-realminfo-origin"><code>origin</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>
 }
 
-<a href="#cddl-type-realmtype"><code>RealmType</code></a> = <a href="#cddl-value-realmtype-window"><code>"window"</code></a> / <a href="#cddl-value-realmtype-dedicated-worker"><code>"dedicated-worker"</code></a> / <a href="#cddl-value-realmtype-shared-worker"><code>"shared-worker"</code></a> / <a href="#cddl-value-realmtype-service-worker"><code>"service-worker"</code></a> / <a href="#cddl-value-realmtype-worker"><code>"worker"</code></a> / <a href="#cddl-value-realmtype-paint-worklet"><code>"paint-worklet"</code></a> / <a href="#cddl-value-realmtype-audio-worklet"><code>"audio-worklet"</code></a> / <a href="#cddl-value-realmtype-worklet"><code>"worklet"</code></a> / <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>
+<a href="#cddl-type-realmtype"><code>RealmType</code></a> = <a href="#cddl-value-realmtype-window"><code>"window"</code></a> / <a href="#cddl-value-realmtype-dedicated-worker"><code>"dedicated-worker"</code></a> / <a href="#cddl-value-realmtype-shared-worker"><code>"shared-worker"</code></a> / <a href="#cddl-value-realmtype-service-worker"><code>"service-worker"</code></a> / <a href="#cddl-value-realmtype-worker"><code>"worker"</code></a> / <a href="#cddl-value-realmtype-paint-worklet"><code>"paint-worklet"</code></a> / <a href="#cddl-value-realmtype-audio-worklet"><code>"audio-worklet"</code></a> / <a href="#cddl-value-realmtype-worklet"><code>"worklet"</code></a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>
 
 <a href="#cddl-type-scriptgetrealmscommand"><code>ScriptGetRealmsCommand</code></a> = {
   <a href="#cddl-key-scriptgetrealmscommand-method"><code>method</code></a>: <a href="#cddl-value-scriptgetrealmscommand-method-scriptgetrealms"><code>"script.getRealms"</code></a>,
@@ -4119,20 +4129,20 @@ EmptyResult
 
 <a href="#cddl-type-baselogentry"><code>BaseLogEntry</code></a> = {
   <a href="#cddl-key-baselogentry-level"><code>level</code></a>: <a data-link-type="cddl" href="#cddl-type-loglevel">LogLevel</a>,
-  <a href="#cddl-key-baselogentry-text"><code>text</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u> / <u class="link-error" data-link-spec="rfc8610" data-lt="null" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;null&apos;.">null</u>,
-  <a href="#cddl-key-baselogentry-timestamp"><code>timestamp</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="int" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;int&apos;.">int</u>,
+  <a href="#cddl-key-baselogentry-text"><code>text</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a> / <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">null</a>,
+  <a href="#cddl-key-baselogentry-timestamp"><code>timestamp</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">int</a>,
   ?<a href="#cddl-key-baselogentry-stacktrace"><code>stackTrace</code></a>: [*<a data-link-type="cddl" href="#cddl-type-stackframe">StackFrame</a>],
 }
 
 <a href="#cddl-type-genericlogentry"><code>GenericLogEntry</code></a> = {
   <a data-link-type="cddl" href="#cddl-type-baselogentry">BaseLogEntry</a>,
-  <a href="#cddl-key-genericlogentry-type"><code>type</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
+  <a href="#cddl-key-genericlogentry-type"><code>type</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
 }
 
 <a href="#cddl-type-consolelogentry"><code>ConsoleLogEntry</code></a> = {
   <a data-link-type="cddl" href="#cddl-type-baselogentry">BaseLogEntry</a>,
   <a href="#cddl-key-consolelogentry-type"><code>type</code></a>: <a href="#cddl-value-consolelogentry-type-console"><code>"console"</code></a>,
-  <a href="#cddl-key-consolelogentry-method"><code>method</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
+  <a href="#cddl-key-consolelogentry-method"><code>method</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
   <a href="#cddl-key-consolelogentry-realm"><code>realm</code></a>: <a data-link-type="cddl" href="#cddl-type-realm">Realm</a>,
   <a href="#cddl-key-consolelogentry-args"><code>args</code></a>: [*<u class="link-error" data-lt="RemoteValue" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;RemoteValue&apos;.">RemoteValue</u>],
 }
@@ -4144,10 +4154,10 @@ EmptyResult
 
 
 <a href="#cddl-type-stackframe"><code>StackFrame</code></a> = {
-  <a href="#cddl-key-stackframe-url"><code>url</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  <a href="#cddl-key-stackframe-functionname"><code>functionName</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="text" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;text&apos;.">text</u>,
-  <a href="#cddl-key-stackframe-linenumber"><code>lineNumber</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="int" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;int&apos;.">int</u>,
-  <a href="#cddl-key-stackframe-columnnumber"><code>columnNumber</code></a>: <u class="link-error" data-link-spec="rfc8610" data-lt="int" title="LINK ERROR: No &apos;cddl-type&apos; refs found for &apos;int&apos;.">int</u>,
+  <a href="#cddl-key-stackframe-url"><code>url</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
+  <a href="#cddl-key-stackframe-functionname"><code>functionName</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
+  <a href="#cddl-key-stackframe-linenumber"><code>lineNumber</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">int</a>,
+  <a href="#cddl-key-stackframe-columnnumber"><code>columnNumber</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">int</a>,
 }
 
 
@@ -4406,6 +4416,7 @@ let dfnPanelData = {
 "07bd1803": {"dfnID":"07bd1803","dfnText":"return type","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-return-type"}],"title":"3.4. Commands"}],"url":"https://webidl.spec.whatwg.org/#dfn-return-type"},
 "09fc63ab": {"dfnID":"09fc63ab","dfnText":"printer","external":true,"refSections":[{"refs":[{"id":"ref-for-printer"},{"id":"ref-for-printer\u2460"}],"title":"7.2. Console"}],"url":"https://console.spec.whatwg.org#printer"},
 "0c9b0d3c": {"dfnID":"0c9b0d3c","dfnText":"WorkletGlobalScope","external":true,"refSections":[{"refs":[{"id":"ref-for-workletglobalscope"},{"id":"ref-for-workletglobalscope\u2460"}],"title":"6.3.2.2. The script.RealmInfo type"}],"url":"https://html.spec.whatwg.org/multipage/worklets.html#workletglobalscope"},
+"0cc62772": {"dfnID":"0cc62772","dfnText":"text","external":true,"refSections":[{"refs":[{"id":"ref-for-appendix-D"},{"id":"ref-for-appendix-D\u2460"},{"id":"ref-for-appendix-D\u2461"},{"id":"ref-for-appendix-D\u2462"},{"id":"ref-for-appendix-D\u2463"},{"id":"ref-for-appendix-D\u2464"},{"id":"ref-for-appendix-D\u2465"},{"id":"ref-for-appendix-D\u2466"},{"id":"ref-for-appendix-D\u2467"},{"id":"ref-for-appendix-D\u2468"},{"id":"ref-for-appendix-D\u2460\u24ea"},{"id":"ref-for-appendix-D\u2460\u2460"},{"id":"ref-for-appendix-D\u2460\u2461"},{"id":"ref-for-appendix-D\u2460\u2462"},{"id":"ref-for-appendix-D\u2460\u2463"}],"title":"3.1. Definition"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2464"},{"id":"ref-for-appendix-D\u2460\u2465"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2466"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2467"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2468"},{"id":"ref-for-appendix-D\u2461\u24ea"},{"id":"ref-for-appendix-D\u2461\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2462"}],"title":"6.3.2.1. The script.Realm type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2463"},{"id":"ref-for-appendix-D\u2461\u2464"}],"title":"6.3.2.2. The script.RealmInfo type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2465"},{"id":"ref-for-appendix-D\u2461\u2466"},{"id":"ref-for-appendix-D\u2461\u2467"},{"id":"ref-for-appendix-D\u2461\u2468"},{"id":"ref-for-appendix-D\u2462\u24ea"}],"title":"6.4.2.1. log.LogEntry"},{"refs":[{"id":"ref-for-appendix-D\u2462\u2460"},{"id":"ref-for-appendix-D\u2462\u2461"},{"id":"ref-for-appendix-D\u2462\u2462"},{"id":"ref-for-appendix-D\u2462\u2463"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 "0d0390b4": {"dfnID":"0d0390b4","dfnText":"browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-browsing-context"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-browsing-context\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-browsing-context\u2461"}],"title":"6.3.3.1. The script.getRealms Command"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context"},
 "0d868320": {"dfnID":"0d868320","dfnText":"no such frame","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-no-such-frame"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"}],"url":"https://w3c.github.io/webdriver/#dfn-no-such-frame"},
 "1065054c": {"dfnID":"1065054c","dfnText":"A WebSocket Message Has Been Received","external":true,"refSections":[{"refs":[{"id":"ref-for-section-6.2"}],"title":"4. Transport"}],"url":"https://tools.ietf.org/html/rfc6455#section-6.2"},
@@ -4416,6 +4427,7 @@ let dfnPanelData = {
 "189cc7e1": {"dfnID":"189cc7e1","dfnText":"additional WebDriver capability","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-additional-webdriver-capability"}],"title":"4.1. Establishing a Connection"}],"url":"https://w3c.github.io/webdriver/#dfn-additional-webdriver-capability"},
 "1e855c18": {"dfnID":"1e855c18","dfnText":"Establishes a WebSocket Connection","external":true,"refSections":[{"refs":[{"id":"ref-for-section-4.1"}],"title":"4. Transport"}],"url":"https://tools.ietf.org/html/rfc6455#section-4.1"},
 "21704849": {"dfnID":"21704849","dfnText":"session history","external":true,"refSections":[{"refs":[{"id":"ref-for-session-history"}],"title":"7.1. HTML"}],"url":"https://html.spec.whatwg.org/#session-history"},
+"23690420": {"dfnID":"23690420","dfnText":"null","external":true,"refSections":[{"refs":[{"id":"ref-for-appendix-D"},{"id":"ref-for-appendix-D\u2460"},{"id":"ref-for-appendix-D\u2461"},{"id":"ref-for-appendix-D\u2462"},{"id":"ref-for-appendix-D\u2463"},{"id":"ref-for-appendix-D\u2464"},{"id":"ref-for-appendix-D\u2465"},{"id":"ref-for-appendix-D\u2466"},{"id":"ref-for-appendix-D\u2467"},{"id":"ref-for-appendix-D\u2468"},{"id":"ref-for-appendix-D\u2460\u24ea"},{"id":"ref-for-appendix-D\u2460\u2460"},{"id":"ref-for-appendix-D\u2460\u2461"},{"id":"ref-for-appendix-D\u2460\u2462"},{"id":"ref-for-appendix-D\u2460\u2463"}],"title":"3.1. Definition"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2464"},{"id":"ref-for-appendix-D\u2460\u2465"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2466"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2467"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2468"},{"id":"ref-for-appendix-D\u2461\u24ea"},{"id":"ref-for-appendix-D\u2461\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2462"}],"title":"6.3.2.1. The script.Realm type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2463"},{"id":"ref-for-appendix-D\u2461\u2464"}],"title":"6.3.2.2. The script.RealmInfo type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2465"},{"id":"ref-for-appendix-D\u2461\u2466"},{"id":"ref-for-appendix-D\u2461\u2467"},{"id":"ref-for-appendix-D\u2461\u2468"},{"id":"ref-for-appendix-D\u2462\u24ea"}],"title":"6.4.2.1. log.LogEntry"},{"refs":[{"id":"ref-for-appendix-D\u2462\u2460"},{"id":"ref-for-appendix-D\u2462\u2461"},{"id":"ref-for-appendix-D\u2462\u2462"},{"id":"ref-for-appendix-D\u2462\u2463"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 "2499ae2a": {"dfnID":"2499ae2a","dfnText":"Handling Errors in UTF-8-Encoded Data","external":true,"refSections":[{"refs":[{"id":"ref-for-section-8.1"}],"title":"4. Transport"}],"url":"https://tools.ietf.org/html/rfc6455#section-8.1"},
 "27d9b7ea": {"dfnID":"27d9b7ea","dfnText":"element","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-element"},{"id":"ref-for-concept-element\u2460"},{"id":"ref-for-concept-element\u2461"}],"title":"5.1. Remote Value"}],"url":"https://dom.spec.whatwg.org/#concept-element"},
 "2b83b63d": {"dfnID":"2b83b63d","dfnText":"CreateMapIterator","external":true,"refSections":[{"refs":[{"id":"ref-for-sec-createmapiterator"}],"title":"5.1. Remote Value"}],"url":"https://tc39.es/ecma262/#sec-createmapiterator"},
@@ -4434,7 +4446,9 @@ let dfnPanelData = {
 "3b681a11": {"dfnID":"3b681a11","dfnText":"value","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-attribute-value"}],"title":"5.1. Remote Value"}],"url":"https://dom.spec.whatwg.org/#concept-attribute-value"},
 "3e12e042": {"dfnID":"3e12e042","dfnText":"environment settings object","external":true,"refSections":[{"refs":[{"id":"ref-for-environment-settings-object"}],"title":"6.3.3.1. The script.getRealms Command"},{"refs":[{"id":"ref-for-environment-settings-object\u2460"},{"id":"ref-for-environment-settings-object\u2461"}],"title":"6.3.4.1. The script.realmCreated Event"},{"refs":[{"id":"ref-for-environment-settings-object\u2462"},{"id":"ref-for-environment-settings-object\u2463"}],"title":"6.3.4.2. The script.realmDestroyed Event"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object"},
 "3fca5a9e": {"dfnID":"3fca5a9e","dfnText":"map","external":true,"refSections":[{"refs":[{"id":"ref-for-ordered-map"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-ordered-map\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-ordered-map\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-ordered-map\u2462"}],"title":"6.2.4.1. The browsingContext.contextCreated Event"},{"refs":[{"id":"ref-for-ordered-map\u2463"}],"title":"6.2.4.2. The browsingContext.contextDestroyed Event"},{"refs":[{"id":"ref-for-ordered-map\u2464"}],"title":"6.4. Log"}],"url":"https://infra.spec.whatwg.org/#ordered-map"},
+"40276321": {"dfnID":"40276321","dfnText":"bool","external":true,"refSections":[{"refs":[{"id":"ref-for-appendix-D"},{"id":"ref-for-appendix-D\u2460"},{"id":"ref-for-appendix-D\u2461"},{"id":"ref-for-appendix-D\u2462"},{"id":"ref-for-appendix-D\u2463"},{"id":"ref-for-appendix-D\u2464"},{"id":"ref-for-appendix-D\u2465"},{"id":"ref-for-appendix-D\u2466"},{"id":"ref-for-appendix-D\u2467"},{"id":"ref-for-appendix-D\u2468"},{"id":"ref-for-appendix-D\u2460\u24ea"},{"id":"ref-for-appendix-D\u2460\u2460"},{"id":"ref-for-appendix-D\u2460\u2461"},{"id":"ref-for-appendix-D\u2460\u2462"},{"id":"ref-for-appendix-D\u2460\u2463"}],"title":"3.1. Definition"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2464"},{"id":"ref-for-appendix-D\u2460\u2465"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2466"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2467"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2468"},{"id":"ref-for-appendix-D\u2461\u24ea"},{"id":"ref-for-appendix-D\u2461\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2462"}],"title":"6.3.2.1. The script.Realm type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2463"},{"id":"ref-for-appendix-D\u2461\u2464"}],"title":"6.3.2.2. The script.RealmInfo type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2465"},{"id":"ref-for-appendix-D\u2461\u2466"},{"id":"ref-for-appendix-D\u2461\u2467"},{"id":"ref-for-appendix-D\u2461\u2468"},{"id":"ref-for-appendix-D\u2462\u24ea"}],"title":"6.4.2.1. log.LogEntry"},{"refs":[{"id":"ref-for-appendix-D\u2462\u2460"},{"id":"ref-for-appendix-D\u2462\u2461"},{"id":"ref-for-appendix-D\u2462\u2462"},{"id":"ref-for-appendix-D\u2462\u2463"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 "40a66c6b": {"dfnID":"40a66c6b","dfnText":"formatting specifier","external":true,"refSections":[{"refs":[{"id":"ref-for-formatting-specifiers"}],"title":"6.4.3.1. entryAdded"}],"url":"https://console.spec.whatwg.org#formatting-specifiers"},
+"43663ea8": {"dfnID":"43663ea8","dfnText":"uint","external":true,"refSections":[{"refs":[{"id":"ref-for-appendix-D"},{"id":"ref-for-appendix-D\u2460"},{"id":"ref-for-appendix-D\u2461"},{"id":"ref-for-appendix-D\u2462"},{"id":"ref-for-appendix-D\u2463"},{"id":"ref-for-appendix-D\u2464"},{"id":"ref-for-appendix-D\u2465"},{"id":"ref-for-appendix-D\u2466"},{"id":"ref-for-appendix-D\u2467"},{"id":"ref-for-appendix-D\u2468"},{"id":"ref-for-appendix-D\u2460\u24ea"},{"id":"ref-for-appendix-D\u2460\u2460"},{"id":"ref-for-appendix-D\u2460\u2461"},{"id":"ref-for-appendix-D\u2460\u2462"},{"id":"ref-for-appendix-D\u2460\u2463"}],"title":"3.1. Definition"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2464"},{"id":"ref-for-appendix-D\u2460\u2465"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2466"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2467"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2468"},{"id":"ref-for-appendix-D\u2461\u24ea"},{"id":"ref-for-appendix-D\u2461\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2462"}],"title":"6.3.2.1. The script.Realm type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2463"},{"id":"ref-for-appendix-D\u2461\u2464"}],"title":"6.3.2.2. The script.RealmInfo type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2465"},{"id":"ref-for-appendix-D\u2461\u2466"},{"id":"ref-for-appendix-D\u2461\u2467"},{"id":"ref-for-appendix-D\u2461\u2468"},{"id":"ref-for-appendix-D\u2462\u24ea"}],"title":"6.4.2.1. log.LogEntry"},{"refs":[{"id":"ref-for-appendix-D\u2462\u2460"},{"id":"ref-for-appendix-D\u2462\u2461"},{"id":"ref-for-appendix-D\u2462\u2462"},{"id":"ref-for-appendix-D\u2462\u2463"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 "4411082c": {"dfnID":"4411082c","dfnText":"unloading document cleanup steps","external":true,"refSections":[{"refs":[{"id":"ref-for-unloading-document-cleanup-steps"}],"title":"6.3.4.2. The script.realmDestroyed Event"}],"url":"https://html.spec.whatwg.org/multipage/document-lifecycle.html#unloading-document-cleanup-steps"},
 "47eb8c57": {"dfnID":"47eb8c57","dfnText":"Get","external":true,"refSections":[{"refs":[{"id":"ref-for-sec-get"},{"id":"ref-for-sec-get\u2460"},{"id":"ref-for-sec-get\u2461"},{"id":"ref-for-sec-get\u2462"},{"id":"ref-for-sec-get\u2463"},{"id":"ref-for-sec-get\u2464"}],"title":"5.1. Remote Value"}],"url":"https://tc39.es/ecma262/#sec-get"},
 "49bb0560": {"dfnID":"49bb0560","dfnText":"active sessions","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-active-session"}],"title":"4. Transport"}],"url":"https://w3c.github.io/webdriver/#dfn-active-session"},
@@ -4444,6 +4458,7 @@ let dfnPanelData = {
 "4d437809": {"dfnID":"4d437809","dfnText":"qualified name","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-attribute-qualified-name"}],"title":"5.1. Remote Value"}],"url":"https://dom.spec.whatwg.org/#concept-attribute-qualified-name"},
 "4fc3ddf9": {"dfnID":"4fc3ddf9","dfnText":"session ID","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-session-id"},{"id":"ref-for-dfn-session-id\u2460"}],"title":"4. Transport"}],"url":"https://w3c.github.io/webdriver/#dfn-session-id"},
 "51f1a168": {"dfnID":"51f1a168","dfnText":"ToString","external":true,"refSections":[{"refs":[{"id":"ref-for-sec-tostring"},{"id":"ref-for-sec-tostring\u2460"},{"id":"ref-for-sec-tostring\u2461"}],"title":"5.1. Remote Value"},{"refs":[{"id":"ref-for-sec-tostring\u2462"}],"title":"6.4.3.1. entryAdded"}],"url":"https://tc39.es/ecma262/#sec-tostring"},
+"526c31ad": {"dfnID":"526c31ad","dfnText":"int","external":true,"refSections":[{"refs":[{"id":"ref-for-appendix-D"},{"id":"ref-for-appendix-D\u2460"},{"id":"ref-for-appendix-D\u2461"},{"id":"ref-for-appendix-D\u2462"},{"id":"ref-for-appendix-D\u2463"},{"id":"ref-for-appendix-D\u2464"},{"id":"ref-for-appendix-D\u2465"},{"id":"ref-for-appendix-D\u2466"},{"id":"ref-for-appendix-D\u2467"},{"id":"ref-for-appendix-D\u2468"},{"id":"ref-for-appendix-D\u2460\u24ea"},{"id":"ref-for-appendix-D\u2460\u2460"},{"id":"ref-for-appendix-D\u2460\u2461"},{"id":"ref-for-appendix-D\u2460\u2462"},{"id":"ref-for-appendix-D\u2460\u2463"}],"title":"3.1. Definition"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2464"},{"id":"ref-for-appendix-D\u2460\u2465"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2466"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2467"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2468"},{"id":"ref-for-appendix-D\u2461\u24ea"},{"id":"ref-for-appendix-D\u2461\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2462"}],"title":"6.3.2.1. The script.Realm type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2463"},{"id":"ref-for-appendix-D\u2461\u2464"}],"title":"6.3.2.2. The script.RealmInfo type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2465"},{"id":"ref-for-appendix-D\u2461\u2466"},{"id":"ref-for-appendix-D\u2461\u2467"},{"id":"ref-for-appendix-D\u2461\u2468"},{"id":"ref-for-appendix-D\u2462\u24ea"}],"title":"6.4.2.1. log.LogEntry"},{"refs":[{"id":"ref-for-appendix-D\u2462\u2460"},{"id":"ref-for-appendix-D\u2462\u2461"},{"id":"ref-for-appendix-D\u2462\u2462"},{"id":"ref-for-appendix-D\u2462\u2463"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 "5442ea33": {"dfnID":"5442ea33","dfnText":"URL serializer","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-serializer"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-concept-url-serializer\u2460"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://url.spec.whatwg.org/#concept-url-serializer"},
 "5582c476": {"dfnID":"5582c476","dfnText":"current realm record","external":true,"refSections":[{"refs":[{"id":"ref-for-current-realm"}],"title":"6.4.3.1. entryAdded"}],"url":"https://tc39.es/ecma262/#current-realm"},
 "5644bb38": {"dfnID":"5644bb38","dfnText":"Status Codes","external":true,"refSections":[{"refs":[{"id":"ref-for-section-7.4"}],"title":"4. Transport"}],"url":"https://tools.ietf.org/html/rfc6455#section-7.4"},
@@ -4495,7 +4510,7 @@ let dfnPanelData = {
 "a4c28706": {"dfnID":"a4c28706","dfnText":"error","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-errors"},{"id":"ref-for-dfn-errors\u2460"}],"title":"3.5. Events"},{"refs":[{"id":"ref-for-dfn-errors\u2461"}],"title":"4. Transport"},{"refs":[{"id":"ref-for-dfn-errors\u2462"}],"title":"4.1. Establishing a Connection"},{"refs":[{"id":"ref-for-dfn-errors\u2463"},{"id":"ref-for-dfn-errors\u2464"}],"title":"6.1.1. Definition"},{"refs":[{"id":"ref-for-dfn-errors\u2465"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-dfn-errors\u2466"}],"title":"6.4.3.1. entryAdded"}],"url":"https://w3c.github.io/webdriver/#dfn-errors"},
 "a60df0fb": {"dfnID":"a60df0fb","dfnText":"IsRegExp","external":true,"refSections":[{"refs":[{"id":"ref-for-sec-isregexp"}],"title":"5.1. Remote Value"}],"url":"https://tc39.es/ecma262/#sec-isregexp"},
 "a795f739": {"dfnID":"a795f739","dfnText":"WebDriver new session algorithm","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-webdriver-new-session-algorithm"}],"title":"4.1. Establishing a Connection"}],"url":"https://w3c.github.io/webdriver/#dfn-webdriver-new-session-algorithm"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"}],"title":"4. Transport"},{"refs":[{"id":"ref-for-concept-document\u2461"}],"title":"6.3.3.1. The script.getRealms Command"},{"refs":[{"id":"ref-for-concept-document\u2462"}],"title":"6.3.4.1. The script.realmCreated Event"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"}],"title":"4. Transport"},{"refs":[{"id":"ref-for-clone-a-node-document\u2461"}],"title":"6.3.3.1. The script.getRealms Command"},{"refs":[{"id":"ref-for-clone-a-node-document\u2462"}],"title":"6.3.4.1. The script.realmCreated Event"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "active-listeners": {"dfnID":"active-listeners","dfnText":"active\nlisteners","external":false,"refSections":[{"refs":[{"id":"ref-for-active-listeners"},{"id":"ref-for-active-listeners\u2460"},{"id":"ref-for-active-listeners\u2461"}],"title":"4. Transport"}],"url":"#active-listeners"},
 "adc2b755": {"dfnID":"adc2b755","dfnText":"The WebSocket Closing Handshake is Started","external":true,"refSections":[{"refs":[{"id":"ref-for-section-7.1.3"}],"title":"4. Transport"}],"url":"https://tools.ietf.org/html/rfc6455#section-7.1.3"},
 "ae2a6342": {"dfnID":"ae2a6342","dfnText":"top-level browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-top-level-browsing-context"},{"id":"ref-for-top-level-browsing-context\u2460"}],"title":"3.5. Events"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2461"}],"title":"6.1.1. Definition"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2462"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2463"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2464"}],"title":"6.3.4.1. The script.realmCreated Event"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2465"}],"title":"6.4.3.1. entryAdded"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2466"}],"title":"7.1. HTML"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context"},
@@ -4695,6 +4710,7 @@ let dfnPanelData = {
 "f1eccc95": {"dfnID":"f1eccc95","dfnText":"settings object","external":true,"refSections":[{"refs":[{"id":"ref-for-settings-object"}],"title":"4. Transport"},{"refs":[{"id":"ref-for-settings-object\u2460"}],"title":"6.4.3.1. entryAdded"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#settings-object"},
 "f5265332": {"dfnID":"f5265332","dfnText":"execution ready flag","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-environment-execution-ready-flag"}],"title":"6.3.3.1. The script.getRealms Command"},{"refs":[{"id":"ref-for-concept-environment-execution-ready-flag\u2460"}],"title":"6.3.4.1. The script.realmCreated Event"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-execution-ready-flag"},
 "f937b7b6": {"dfnID":"f937b7b6","dfnText":"continue","external":true,"refSections":[{"refs":[{"id":"ref-for-iteration-continue"}],"title":"6.3.3.1. The script.getRealms Command"}],"url":"https://infra.spec.whatwg.org/#iteration-continue"},
+"fdf94d96": {"dfnID":"fdf94d96","dfnText":"any","external":true,"refSections":[{"refs":[{"id":"ref-for-appendix-D"},{"id":"ref-for-appendix-D\u2460"},{"id":"ref-for-appendix-D\u2461"},{"id":"ref-for-appendix-D\u2462"},{"id":"ref-for-appendix-D\u2463"},{"id":"ref-for-appendix-D\u2464"},{"id":"ref-for-appendix-D\u2465"},{"id":"ref-for-appendix-D\u2466"},{"id":"ref-for-appendix-D\u2467"},{"id":"ref-for-appendix-D\u2468"},{"id":"ref-for-appendix-D\u2460\u24ea"},{"id":"ref-for-appendix-D\u2460\u2460"},{"id":"ref-for-appendix-D\u2460\u2461"},{"id":"ref-for-appendix-D\u2460\u2462"},{"id":"ref-for-appendix-D\u2460\u2463"}],"title":"3.1. Definition"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2464"},{"id":"ref-for-appendix-D\u2460\u2465"}],"title":"6.1.2.1. The session.status Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2466"}],"title":"6.1.2.2. The session.subscribe Command"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2467"}],"title":"6.2.2.1. The browsingContext.BrowsingContext Type"},{"refs":[{"id":"ref-for-appendix-D\u2460\u2468"},{"id":"ref-for-appendix-D\u2461\u24ea"},{"id":"ref-for-appendix-D\u2461\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2461"}],"title":"6.2.3.1. The browsingContext.getTree Command"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2462"}],"title":"6.3.2.1. The script.Realm type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2463"},{"id":"ref-for-appendix-D\u2461\u2464"}],"title":"6.3.2.2. The script.RealmInfo type"},{"refs":[{"id":"ref-for-appendix-D\u2461\u2465"},{"id":"ref-for-appendix-D\u2461\u2466"},{"id":"ref-for-appendix-D\u2461\u2467"},{"id":"ref-for-appendix-D\u2461\u2468"},{"id":"ref-for-appendix-D\u2462\u24ea"}],"title":"6.4.2.1. log.LogEntry"},{"refs":[{"id":"ref-for-appendix-D\u2462\u2460"},{"id":"ref-for-appendix-D\u2462\u2461"},{"id":"ref-for-appendix-D\u2462\u2462"},{"id":"ref-for-appendix-D\u2462\u2463"}],"title":"6.4.2.2. log.StackFrame"}],"url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 "fe28f7a2": {"dfnID":"fe28f7a2","dfnText":"sort in ascending order","external":true,"refSections":[{"refs":[{"id":"ref-for-map-sort-in-ascending-order"}],"title":"6.1.2.2. The session.subscribe Command"}],"url":"https://infra.spec.whatwg.org/#map-sort-in-ascending-order"},
 "get-a-browsing-context": {"dfnID":"get-a-browsing-context","dfnText":"get a browsing context","external":false,"refSections":[{"refs":[{"id":"ref-for-get-a-browsing-context"}],"title":"6.1.1. Definition"},{"refs":[{"id":"ref-for-get-a-browsing-context\u2460"}],"title":"6.2.2.2. The browsingContext.BrowsingContextInfo Type"},{"refs":[{"id":"ref-for-get-a-browsing-context\u2461"}],"title":"6.3.3.1. The script.getRealms Command"},{"refs":[{"id":"ref-for-get-a-browsing-context\u2462"}],"title":"6.4.3.1. entryAdded"}],"url":"#get-a-browsing-context"},
 "get-a-session-id-for-a-websocket-resource": {"dfnID":"get-a-session-id-for-a-websocket-resource","dfnText":"get a session ID for a WebSocket resource","external":false,"refSections":[{"refs":[{"id":"ref-for-get-a-session-id-for-a-websocket-resource"}],"title":"4. Transport"}],"url":"#get-a-session-id-for-a-websocket-resource"},
@@ -5225,10 +5241,10 @@ let refsData = {
 "https://console.spec.whatwg.org#printer": {"displayText":"printer","export":true,"for_":[],"level":"","normative":true,"shortname":"console","spec":"console","status":"anchor-block","text":"printer","type":"dfn","url":"https://console.spec.whatwg.org#printer"},
 "https://console.spec.whatwg.org/#namespacedef-console": {"displayText":"console","export":true,"for_":[],"level":"1","normative":true,"shortname":"console","spec":"console","status":"current","text":"console","type":"namespace","url":"https://console.spec.whatwg.org/#namespacedef-console"},
 "https://dom.spec.whatwg.org/#boundary-point-node": {"displayText":"node","export":true,"for_":["boundary point"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"node","type":"dfn","url":"https://dom.spec.whatwg.org/#boundary-point-node"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-attribute": {"displayText":"attribute","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"attribute","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-attribute"},
 "https://dom.spec.whatwg.org/#concept-attribute-qualified-name": {"displayText":"qualified name","export":true,"for_":["Attr"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"qualified name","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-attribute-qualified-name"},
 "https://dom.spec.whatwg.org/#concept-attribute-value": {"displayText":"value","export":true,"for_":["Attr"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"value","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-attribute-value"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
 "https://dom.spec.whatwg.org/#concept-document-url": {"displayText":"URL","export":true,"for_":["Document"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"url","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document-url"},
 "https://dom.spec.whatwg.org/#concept-element": {"displayText":"element","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"element","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-element"},
 "https://dom.spec.whatwg.org/#concept-element-attribute": {"displayText":"attribute list","export":true,"for_":["Element"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"attribute list","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-element-attribute"},
@@ -5344,9 +5360,10 @@ let refsData = {
 "https://w3c.github.io/webdriver/#dfn-web-element-reference": {"displayText":"web element reference","export":true,"for_":[],"level":"","normative":true,"shortname":"webdriver","spec":"webdriver","status":"anchor-block","text":"web element reference","type":"dfn","url":"https://w3c.github.io/webdriver/#dfn-web-element-reference"},
 "https://w3c.github.io/webdriver/#dfn-webdriver-new-session-algorithm": {"displayText":"WebDriver new session algorithm","export":true,"for_":[],"level":"","normative":true,"shortname":"webdriver","spec":"webdriver","status":"anchor-block","text":"webdriver new session algorithm","type":"dfn","url":"https://w3c.github.io/webdriver/#dfn-webdriver-new-session-algorithm"},
 "https://w3c.github.io/webdriver/#dfn-window-handle": {"displayText":"window handle","export":true,"for_":[],"level":"","normative":true,"shortname":"webdriver","spec":"webdriver","status":"anchor-block","text":"window handle","type":"dfn","url":"https://w3c.github.io/webdriver/#dfn-window-handle"},
-"https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope": {"displayText":"AudioWorkletGlobalScope","export":true,"for_":[],"level":"1","normative":true,"shortname":"webaudio","spec":"webaudio","status":"current","text":"AudioWorkletGlobalScope","type":"interface","url":"https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope"},
+"https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope": {"displayText":"AudioWorkletGlobalScope","export":true,"for_":[],"level":"1","normative":true,"shortname":"webaudio","spec":"webaudio-1.0","status":"current","text":"AudioWorkletGlobalScope","type":"interface","url":"https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope"},
 "https://webidl.spec.whatwg.org/#dfn-platform-object": {"displayText":"platform object","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"platform object","type":"dfn","url":"https://webidl.spec.whatwg.org/#dfn-platform-object"},
 "https://webidl.spec.whatwg.org/#dfn-return-type": {"displayText":"return type","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"return type","type":"dfn","url":"https://webidl.spec.whatwg.org/#dfn-return-type"},
+"https://www.rfc-editor.org/info/rfc8610/#appendix-D": {"displayText":"uint","export":true,"for_":[],"level":"1","normative":true,"shortname":"rfc8610","spec":"rfc8610","status":"current","text":"uint","type":"cddl-type","url":"https://www.rfc-editor.org/info/rfc8610/#appendix-D"},
 };
 
 function mkRefHint(link, ref) {

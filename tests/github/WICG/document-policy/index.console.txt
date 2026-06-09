@@ -1,16 +1,28 @@
 LINE 438:1: Saw an end tag </section>, but there's no open element corresponding to it.
+LINE 197:7: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
+LINE 200:7: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 332:42: No 'dfn' refs found for 'parameters' with for='['document policy directive']'.
 LINE 350:37: Ambiguous for-less link for 'type', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type
 LINE 354:37: Ambiguous for-less link for 'type', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type
 LINE 356:17: Ambiguous for-less link for 'range', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
@@ -21,7 +33,8 @@ LINE 359:37: Ambiguous for-less link for 'type', please see <https://speced.gith
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type
 LINE 361:17: Ambiguous for-less link for 'range', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
@@ -32,7 +45,8 @@ LINE 364:37: Ambiguous for-less link for 'type', please see <https://speced.gith
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:type
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
+spec:vc-data-model-2.1; type:dfn; for:/; text:type
 spec:vc-data-model-2.0; type:dfn; for:/; text:type
 LINE 366:34: Ambiguous for-less link for 'range', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
@@ -42,28 +56,29 @@ spec:dom; type:dfn; for:/; text:range
 LINE 429:5: No 'dfn' refs found for 'policy directive' that are marked for export.
   (Possible specs this could be from: permissions-policy-1)
 LINE 464:38: No 'dfn' refs found for 'nested browsing context'.
+LINE 468:13: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
+LINE 480:53: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 481:64: Multiple possible 'content type' dfn refs.
 Arbitrarily chose https://dom.spec.whatwg.org/#concept-document-content-type
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:dom; type:dfn; text:content type
 spec:fetch; type:dfn; text:content type
-LINE 482:38: Multiple possible 'origin' dfn refs for '/'.
-Arbitrarily chose https://html.spec.whatwg.org/multipage/browsers.html#concept-origin
-The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
-spec:html; type:dfn; for:/; text:origin
-  https://html.spec.whatwg.org/multipage/browsers.html#concept-origin
-  https://html.spec.whatwg.org/multipage/browsers.html#coop-enforcement-origin
-  https://html.spec.whatwg.org/multipage/browsing-the-web.html#document-state-origin
-  https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-origin
-  https://html.spec.whatwg.org/multipage/media.html#media-resource-origin
-  https://html.spec.whatwg.org/multipage/semantics.html#link-options-origin
 LINE 484:11: No 'dfn' refs found for 'feature policy'.
 LINE 489:14: No 'dfn' refs found for 'process a navigate fetch'.
 LINE 588:40: Ambiguous for-less link for 'name', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:document-policy-1; type:dfn; for:configuration point; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name
 LINE 590:49: Ambiguous for-less link for 'value', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:

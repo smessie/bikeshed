@@ -1,3 +1,147 @@
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextelementcliprectangle-element
+
+1
+browsingContext.ElementClipRectangle
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputelementorigin-element
+
+1
+input.ElementOrigin
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputfiledialoginfo-element
+
+1
+input.FileDialogInfo
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputsetfilesparameters-element
+
+1
+input.SetFilesParameters
+-
+"element"
+"element"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextelementcliprectangle-type-element
+
+1
+browsingContext.ElementClipRectangle/type
+-
+"element"
+"element"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputelementorigin-type-element
+
+1
+input.ElementOrigin/type
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextelementcliprectangle-element
+
+1
+browsingContext.ElementClipRectangle
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputelementorigin-element
+
+1
+input.ElementOrigin
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputfiledialoginfo-element
+
+1
+input.FileDialogInfo
+-
+"element"
+"element"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputsetfilesparameters-element
+
+1
+input.SetFilesParameters
+-
+"element"
+"element"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextelementcliprectangle-type-element
+
+1
+browsingContext.ElementClipRectangle/type
+-
+"element"
+"element"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputelementorigin-type-element
+
+1
+input.ElementOrigin/type
+-
 @else
 @else
 at-rule
@@ -90,33 +234,11 @@ https://dom.spec.whatwg.org/#element
 element
 element
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#element
-
-1
--
-element
-element
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-element
-
-
--
-element
-element
-dfn
-edit-context
-edit-context
-1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-element
 
 1
 -
@@ -296,6 +418,17 @@ https://html.spec.whatwg.org/multipage/custom-elements.html#elementinternals
 1
 1
 -
+elementlist
+ElementList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ElementList
+
+1
+-
 elements from point
 elements from point
 dfn
@@ -318,6 +451,17 @@ https://www.w3.org/TR/webdriver2/#dfn-paint-order
 
 1
 -
+elision
+elision
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Elision
+
+1
+-
 [[Element]]
 [[Element]]
 attribute
@@ -326,7 +470,7 @@ element-capture
 1
 current
 https://screen-share.github.io/element-capture/#dfn-element
-1
+
 1
 RestrictionTarget
 -
@@ -362,6 +506,18 @@ audio-session
 1
 current
 https://w3c.github.io/audio-session/#audiosession-elements
+
+1
+AudioSession
+-
+[[elements]]
+[[elements]]
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#audiosession-elements
 
 1
 AudioSession
@@ -421,7 +577,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisevent-elapsedtime
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisevent-elapsedtime
 1
 1
 SpeechSynthesisEvent
@@ -433,7 +589,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesiseventinit-elapsedtime
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesiseventinit-elapsedtime
 1
 1
 SpeechSynthesisEventInit
@@ -493,7 +649,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#elected-group
+https://www.w3.org/policies/process/#elected-group
 1
 1
 -
@@ -546,6 +702,18 @@ Element/insertAdjacentElement(where, element)
 -
 element
 element
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#domtokenlist-element
+
+1
+DOMTokenList
+-
+element
+element
 argument
 font-metrics-api-1
 font-metrics-api
@@ -594,14 +762,15 @@ CSSPseudoElement
 -
 element
 element
-dfn
+value
 css-regions-1
 css-regions
 1
 current
-https://drafts.csswg.org/css-regions-1/#element
-
+https://drafts.csswg.org/css-regions-1/#valdef-flow-into-element
 1
+1
+flow-into
 -
 element
 element
@@ -626,6 +795,29 @@ https://w3c.github.io/autoplay/#dom-navigator-getautoplaypolicy-element-element
 1
 1
 Navigator/getAutoplayPolicy(element)
+-
+element
+element
+attribute
+element-timing
+element-timing
+1
+current
+https://w3c.github.io/element-timing/#dom-performanceelementtiming-element
+1
+1
+PerformanceElementTiming
+-
+element
+element
+dfn
+element-timing
+element-timing
+1
+current
+https://w3c.github.io/element-timing/#element
+
+1
 -
 element
 element
@@ -678,17 +870,6 @@ pending image record
 element
 element
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-element
-
-
--
-element
-element
-dfn
 csp3
 csp
 3
@@ -697,6 +878,78 @@ https://w3c.github.io/webappsec-csp/#violation-element
 1
 1
 violation
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextelementcliprectangle-element
+
+1
+browsingContext.ElementClipRectangle
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputelementorigin-element
+
+1
+input.ElementOrigin
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputfiledialoginfo-element
+
+1
+input.FileDialogInfo
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputsetfilesparameters-element
+
+1
+input.SetFilesParameters
+-
+element
+element
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextelementcliprectangle-type-element
+
+1
+browsingContext.ElementClipRectangle/type
+-
+element
+element
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputelementorigin-type-element
+
+1
+input.ElementOrigin/type
 -
 element
 element
@@ -709,29 +962,6 @@ https://webassembly.github.io/spec/js-api/#dom-tabledescriptor-element
 1
 1
 TableDescriptor
--
-element
-element
-attribute
-element-timing
-element-timing
-1
-current
-https://wicg.github.io/element-timing/#dom-performanceelementtiming-element
-1
-1
-PerformanceElementTiming
--
-element
-element
-dfn
-element-timing
-element-timing
-1
-current
-https://wicg.github.io/element-timing/#element
-
-1
 -
 element
 element
@@ -750,22 +980,23 @@ element
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#element
+2
+snapshot
+https://www.w3.org/TR/CSS2/conform.html#element
 1
 1
 -
 element
 element
 dfn
-css2
-css
+audio-session
+audio-session
 1
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#element
+https://www.w3.org/TR/audio-session/#audio-session-element
+
 1
-1
+audio session
 -
 element
 element
@@ -787,6 +1018,18 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#elements
+
+1
+CSS
+-
+element
+element
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#elements
 
 1
 CSS
@@ -887,17 +1130,6 @@ pending image record
 element
 element
 dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-element
-
-1
--
-element
-element
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -917,6 +1149,78 @@ https://www.w3.org/TR/wasm-js-api-2/#dom-tabledescriptor-element
 1
 1
 TableDescriptor
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextelementcliprectangle-element
+
+1
+browsingContext.ElementClipRectangle
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputelementorigin-element
+
+1
+input.ElementOrigin
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputfiledialoginfo-element
+
+1
+input.FileDialogInfo
+-
+element
+element
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputsetfilesparameters-element
+
+1
+input.SetFilesParameters
+-
+element
+element
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextelementcliprectangle-type-element
+
+1
+browsingContext.ElementClipRectangle/type
+-
+element
+element
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputelementorigin-type-element
+
+1
+input.ElementOrigin/type
 -
 element click intercepted
 element click intercepted
@@ -938,6 +1242,17 @@ webdriver
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-element-click-intercepted
 
+1
+-
+element color scheme
+element color scheme
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+current
+https://drafts.csswg.org/css-color-adjust-1/#element-color-scheme
+1
 1
 -
 element contents
@@ -965,6 +1280,18 @@ https://gpuweb.github.io/gpuweb/wgsl/#element-count
 element count
 element count
 dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#mloperanddescriptor-element-count
+
+1
+MLOperandDescriptor
+-
+element count
+element count
+dfn
 wgsl
 wgsl
 1
@@ -972,6 +1299,18 @@ snapshot
 https://www.w3.org/TR/WGSL/#element-count
 
 1
+-
+element count
+element count
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mloperanddescriptor-element-count
+
+1
+MLOperandDescriptor
 -
 element definition is running
 element definition is running
@@ -1024,7 +1363,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermElementInstance
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermElementInstance
 
 1
 -
@@ -1106,6 +1445,18 @@ https://w3c.github.io/audio-session/#audio-session-element-resume-steps
 1
 audio session
 -
+element resume steps
+element resume steps
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#audio-session-element-resume-steps
+
+1
+audio session
+-
 element size
 element size
 dfn
@@ -1117,6 +1468,28 @@ https://streams.spec.whatwg.org/#pull-into-descriptor-element-size
 
 1
 pull-into descriptor
+-
+element state
+element state
+dfn
+audio-session
+audio-session
+1
+current
+https://w3c.github.io/audio-session/#element-state
+
+1
+-
+element state
+element state
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#element-state
+
+1
 -
 element stride
 element stride
@@ -1148,6 +1521,18 @@ audio-session
 1
 current
 https://w3c.github.io/audio-session/#audio-session-element-suspend-steps
+
+1
+audio session
+-
+element suspend steps
+element suspend steps
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#audio-session-element-suspend-steps
 
 1
 audio session
@@ -1188,6 +1573,18 @@ https://www.w3.org/TR/css-display-3/#element-tree
 1
 CSS
 -
+element tree
+element tree
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#element-tree
+1
+1
+CSS
+-
 element type
 element type
 dfn
@@ -1211,14 +1608,26 @@ https://w3c.github.io/audio-session/#audio-session-element-update-steps
 1
 audio session
 -
+element update steps
+element update steps
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#audio-session-element-update-steps
+
+1
+audio session
+-
 element with default preferred size
 element with default preferred size
 dfn
-css-ui-4
-css-ui
-4
+css-forms-1
+css-forms
+1
 current
-https://drafts.csswg.org/css-ui-4/#element-with-default-preferred-size
+https://drafts.csswg.org/css-forms-1/#element-with-default-preferred-size
 1
 1
 -
@@ -1230,17 +1639,6 @@ execcommand
 1
 current
 https://w3c.github.io/editing/docs/execCommand/#element-with-inline-contents
-
-
--
-element's
-element's
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-element
 
 
 -
@@ -1269,17 +1667,6 @@ https://www.w3.org/TR/graphics-aria-1.0/#dfn-element
 element's
 element's
 dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-element
-
-1
--
-element's
-element's
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -1287,6 +1674,17 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-element
 
 
+-
+element's group of option elements
+element's group of option elements
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#optgroup-option-group
+
+1
 -
 element()
 element()
@@ -1343,6 +1741,17 @@ https://drafts.csswg.org/css-pseudo-4/#element-backed
 1
 1
 -
+element-backed
+element-backed
+dfn
+css-pseudo-4
+css-pseudo
+4
+snapshot
+https://www.w3.org/TR/css-pseudo-4/#element-backed
+1
+1
+-
 element-backed pseudo-element
 element-backed pseudo-element
 dfn
@@ -1351,6 +1760,17 @@ css-pseudo
 4
 current
 https://drafts.csswg.org/css-pseudo-4/#element-backed
+1
+1
+-
+element-backed pseudo-element
+element-backed pseudo-element
+dfn
+css-pseudo-4
+css-pseudo
+4
+snapshot
+https://www.w3.org/TR/css-pseudo-4/#element-backed
 1
 1
 -
@@ -1375,6 +1795,21 @@ snapshot
 https://www.w3.org/TR/css-images-4/#element-not-rendered
 1
 1
+-
+element-scoped
+element-scoped
+value
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#valdef-random-element-scoped
+1
+1
+random()
+random-item()
+<random-key>
+<random-cache-key>
 -
 element-wise-binary-op
 element-wise-binary-op
@@ -1486,20 +1921,9 @@ element::following
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#following
-1
-1
--
-element::following
-element::following
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#following
+https://www.w3.org/TR/CSS2/conform.html#following
 1
 1
 -
@@ -1508,20 +1932,9 @@ element::preceding
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#preceding
-1
-1
--
-element::preceding
-element::preceding
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#preceding
+https://www.w3.org/TR/CSS2/conform.html#preceding
 1
 1
 -
@@ -1646,10 +2059,22 @@ element-timing
 element-timing
 1
 current
-https://wicg.github.io/element-timing/#dom-element-elementtiming
+https://w3c.github.io/element-timing/#dom-element-elementtiming
 1
 1
 Element
+-
+elements
+elements
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements
+1
+1
+SanitizerConfig
 -
 elements
 elements
@@ -1689,29 +2114,6 @@ https://html.spec.whatwg.org/multipage/syntax.html#syntax-elements
 elements
 elements
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-element
-
-
--
-elements
-elements
-dict-member
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-elements
-1
-1
-SanitizerConfig
--
-elements
-elements
-dfn
 graphics-aam-1.0
 graphics-aam
 1
@@ -1730,17 +2132,6 @@ snapshot
 https://www.w3.org/TR/graphics-aria-1.0/#dfn-element
 
 
--
-elements
-elements
-dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-element
-
-1
 -
 elements
 elements
@@ -1817,7 +2208,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfedistantlightelement-elevation
+https://drafts.csswg.org/filter-effects-1/#dom-svgfedistantlightelement-elevation
 1
 1
 SVGFEDistantLightElement
@@ -1829,7 +2220,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fedistantlight-elevation
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fedistantlight-elevation
 1
 1
 feDistantLight
@@ -1839,31 +2230,9 @@ elevation
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#propdef-elevation
-1
-1
--
-elevation
-elevation
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#propdef-elevation
-1
-1
--
-elevation
-elevation
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/aural.html#propdef-elevation
+https://www.w3.org/TR/CSS2/aural.html#propdef-elevation
 1
 1
 -
@@ -1891,16 +2260,17 @@ https://www.w3.org/TR/filter-effects-1/#element-attrdef-fedistantlight-elevation
 1
 feDistantLight
 -
-eligibility
-eligibility
+eligible
+eligible
 dfn
-attribution-reporting-api
-attribution-reporting-api
+storage-access
+storage-access
 1
 current
-https://wicg.github.io/attribution-reporting-api/#eligibility
+https://privacycg.github.io/storage-access/#storage-access-eligibility-eligible
+
 1
-1
+storage access eligibility
 -
 eligible feed links
 eligible feed links
@@ -1979,38 +2349,17 @@ https://wicg.github.io/first-party-sets/#eligible-for-same-party-membership-when
 1
 1
 -
-eligible key
-eligible key
+eligible for storage-access
+eligible for storage-access
 dfn
-attribution-reporting-api
-attribution-reporting-api
+storage-access
+storage-access
 1
 current
-https://wicg.github.io/attribution-reporting-api/#eligible-key
+https://privacycg.github.io/storage-access/#request-eligible-for-storage-access
 
 1
--
-eligible to be largest contentful paint
-eligible to be largest contentful paint
-dfn
-largest-contentful-paint
-largest-contentful-paint
-1
-current
-https://w3c.github.io/largest-contentful-paint/#eligible-to-be-largest-contentful-paint
-
-1
--
-eligible to be largest contentful paint
-eligible to be largest contentful paint
-dfn
-largest-contentful-paint
-largest-contentful-paint
-1
-snapshot
-https://www.w3.org/TR/largest-contentful-paint/#eligible-to-be-largest-contentful-paint
-
-1
+request
 -
 eligible track
 eligible track
@@ -2053,7 +2402,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/shapes.html#elementdef-ellipse
+https://w3c.github.io/svgwg/svg2-draft/shapes.html#elementdef-ellipse
 1
 1
 -
@@ -2256,6 +2605,18 @@ https://www.w3.org/TR/WGSL/#syntax_kw-else
 
 1
 syntax_kw
+-
+else
+else
+value
+css-values-5
+css-values
+5
+snapshot
+https://www.w3.org/TR/css-values-5/#valdef-if-else
+1
+1
+if()
 -
 else_clause
 else_clause
