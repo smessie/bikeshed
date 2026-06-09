@@ -12,6 +12,7 @@ import tenacity
 from .. import messages as m
 from .. import t
 from ..result import Err, Ok, Result, isErr, isOk
+from .manifest import Manifest
 
 ghPrefix = "https://raw.githubusercontent.com/speced/bikeshed-boilerplate/main/"
 
@@ -19,12 +20,17 @@ ghPrefix = "https://raw.githubusercontent.com/speced/bikeshed-boilerplate/main/"
 def update(path: str, dryRun: bool = False) -> set[str] | None:
     try:
         m.say("Downloading boilerplates...")
-        data = requests.get(ghPrefix + "manifest.txt", timeout=5).text
+        manifestText = requests.get(ghPrefix + "manifest-v1.kdl", timeout=5).text
     except Exception as e:
         m.die(f"Couldn't download boilerplates manifest.\n{e}")
         return None
 
-    newPaths: list[str] = pathsFromManifest(data)
+    manifest = Manifest.fromString(manifestText)
+    if not manifest:
+        m.die(f"Error parsing the boilerplate manifest. Source was:\n{manifestText}")
+        return None
+
+    newPaths: list[str] = pathsFromManifest(manifest)
     goodPaths: list[str] = []
     badPaths: list[str] = []
 
@@ -44,9 +50,8 @@ def update(path: str, dryRun: bool = False) -> set[str] | None:
         return set(goodPaths)
 
 
-def pathsFromManifest(manifest: str) -> list[str]:
-    lines = manifest.split("\n")[1:]
-    return [line.partition(" ")[2] for line in lines if line != ""]
+def pathsFromManifest(manifest: Manifest) -> list[str]:
+    return list(manifest.entries.keys())
 
 
 async def updateFiles(localPrefix: str, newPaths: t.Sequence[str]) -> tuple[list[str], list[str]]:
@@ -77,8 +82,8 @@ async def updateFiles(localPrefix: str, newPaths: t.Sequence[str]) -> tuple[list
 
 
 async def updateFile(localPrefix: str, filePath: str, session: t.Any) -> Result[str, str]:
-    remotePath = ghPrefix + filePath
-    localPath = localizePath(localPrefix, filePath)
+    remotePath = ghPrefix + "boilerplate-v1/" + filePath
+    localPath = localizePath(localPrefix, "boilerplate/"+filePath)
     res = await downloadFile(remotePath, session)
     if isOk(res):
         res = await saveFile(localPath, res.ok())

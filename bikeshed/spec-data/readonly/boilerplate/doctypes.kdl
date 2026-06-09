@@ -63,6 +63,7 @@ org "bikeshed-2" {
 }
 
 status "DREAM" "A Collection of Interesting Ideas"
+status "DEV" "Edition for Web Developers"
 status "LS" "Living Standard"
 status "LS-COMMIT" "Commit Snapshot"
 status "LS-BRANCH" "Branch Snapshot"
@@ -88,7 +89,7 @@ org "w3c" {
 
     /*
     Every group in this org must have a `type` attribute,
-    containing "wg", "ig", "cg", or "tag";
+    containing "wg", "ig", "cg", "council", "ab", or "tag";
     this matches with the `group-types` children of the statuses
     (and might have some formatting effects, too).
     If a group should be able to use anything
@@ -96,16 +97,19 @@ org "w3c" {
     use `type=null`.
     */
 
-    group "ab" type=null
+    group "ab" type="ab"
     group "act-framework" type="wg"
     group "act-rules-format" type="wg"
+    group "audiocg" type="cg"
     group "audiowg" type="wg" priv-sec=true
     group "browser-testing-tools" type="wg"
+    group "council" type="council"
     group "cssnext" type="cg"
     group "csswg" type="wg" priv-sec=true {
         requires "Work Status"
     }
     group "dap" type="wg" priv-sec=true
+    group "fdpcg" type="cg"
     group "fedid" type="wg" priv-sec=true
     group "fedidcg" type="cg"
     group "fxtf" type="wg" priv-sec=true
@@ -122,19 +126,23 @@ org "w3c" {
     group "mediawg" type="wg" priv-sec=true
     group "patcg" type="cg"
     group "patcg-id" type="cg"
+    group "patwg" type="wg"
     group "ping" type="ig"
     group "pngwg" type="wg"
     group "privacycg" type="cg"
+    group "privacywg" type="wg"
     group "processcg" type="cg"
     group "ricg" type="cg" priv-sec=true
     group "sacg" type="cg"
     group "secondscreencg" type="cg"
     group "secondscreenwg" type="wg"
+    group "securityig" type="ig"
     group "serviceworkers" type="wg"
     group "solidcg" type="cg"
     group "svg" type="wg" priv-sec=true
     group "tag" type="tag"
     group "texttracks" type="cg" priv-sec=true
+    group "ttwg" type="cg" priv-sec=true
     group "uievents" type="wg" priv-sec=true
     group "w3t" type=null
     group "wasm" type="wg"
@@ -160,7 +168,7 @@ org "w3c" {
 
     /*
     Every status in w3c needs a `group-types` child,
-    with attributes that are any of "ig" "wg" "cg" and/or "tag"
+    with attributes that are any of "ig" "wg" "cg" "council" "ab" and/or "tag"
     */
 
     status "LS" "Living Standard" {
@@ -169,7 +177,7 @@ org "w3c" {
     }
     status "ED" "Editor's Draft" {
         requires "Level" "ED"
-        group-types "ig" "wg" "tag"
+        group-types "ig" "wg" "tag" "ab"
     }
     status "WD" "W3C Working Draft" {
         requires "Level" "ED" "TR" "Issue Tracking" "Date"
@@ -184,11 +192,11 @@ org "w3c" {
         group-types "wg"
     }
     status "CR" "W3C Candidate Recommendation Snapshot" {
-        requires "Level" "ED" "TR" "Issue Tracking" "Date" "Implementation Report"
+        requires "Level" "ED" "TR" "Issue Tracking" "Date" "Deadline"
         group-types "wg"
     }
     status "CRD" "W3C Candidate Recommendation Draft" {
-        requires "Level" "ED" "TR" "Issue Tracking" "Date" "Implementation Report" "Deadline"
+        requires "Level" "ED" "TR" "Issue Tracking" "Date"
         group-types "wg"
     }
     status "PR" "W3C Proposed Recommendation" {
@@ -213,21 +221,25 @@ org "w3c" {
     }
     status "NOTE" "W3C Group Note" {
         requires "TR" "Issue Tracking" "Date"
-        group-types "wg" "ig" "tag"
+        group-types "wg" "ig" "tag" "ab"
     }
     status "NOTE-ED" "Editor's Draft" {
         requires "ED"
-        group-types "wg" "ig" "tag"
+        group-types "wg" "ig" "tag" "ab"
     }
-    status "NOTE-WD" "W3C Group Draft Note" {
+    status "NOTE-WD" "W3C Group Note Draft" {
         requires "ED" "TR" "Issue Tracking" "Date"
-        group-types "wg" "ig" "tag"
+        group-types "wg" "ig" "tag" "ab"
     }
     status "NOTE-FPWD" "W3C First Public Group Draft Note" {
         requires "ED" "TR" "Issue Tracking" "Date"
-        group-types "wg" "ig" "tag"
+        group-types "wg" "ig" "tag" "ab"
     }
-    status "DRY" "W3C Draft Registry" {
+    status "STATEMENT" "W3C Statement" {
+        requires "TR" "Issue Tracking" "Date"
+        group-types "wg" "ig" "tag" "ab"
+    }
+    status "DRY" "W3C Registry Draft" {
         requires "TR" "Date"
         group-types "wg"
     }
@@ -249,7 +261,7 @@ org "w3c" {
     }
     status "UD" "Unofficial Proposal Draft" {
         requires "ED"
-        group-types "wg" "ig" "tag" "cg"
+        group-types "wg" "ig" "tag" "cg" "ab"
     }
     status "CG-DRAFT" "Draft Community Group Report" {
         requires "Level" "ED"
@@ -267,6 +279,13 @@ org "w3c" {
         requires "TR"
         group-types "tag"
     }
+    status "COUNCIL-REPORT" "Council Report" {
+        group-types "council"
+    }
+    status "DISC" "W3C Discontinued Draft" {
+        group-types "ig" "wg" "tag" "ab"
+        requires "TR" "Date"
+    }
 }
 
 org "tc39" {
@@ -277,6 +296,12 @@ org "tc39" {
     status "STAGE2" "Stage 2: Draft"
     status "STAGE3" "Stage 3: Candidate"
     status "STAGE4" "Stage 4: Finished"
+}
+
+org "wintertc" {
+    group "wintertc"
+
+    status "DRAFT" "Draft"
 }
 
 org "iso" {
@@ -359,4 +384,20 @@ org "aom" {
     status "WGD" "Working Group Draft"
     status "WGA" "Working Group Approved Draft"
     status "FD" "Final Deliverable"
+}
+
+org "ukltd" {
+  group "ukltd"
+
+  status "DA" "Approved by Company Directors"
+  status "SA" "Approved by Company Shareholders"
+  status "DP" "Proposal by Company Directors for Shareholder Approval"
+  status "HA" "Approved by Senior Staff or Department Head"
+  status "DDA" "Draft for Approval by Company Directors"
+  status "DSA" "Draft for Approval by Company Shareholders"
+  status "DDP" "Draft for Proposal by Company Directors for Shareholder Approval"
+  status "DHA" "Draft for Approval by Senior Staff or Department Head"
+  status "NO" "Notice"
+  status "DNO" "Draft Notice"
+  status "D" "Draft"
 }

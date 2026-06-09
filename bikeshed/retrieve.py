@@ -112,7 +112,10 @@ def retrieveBoilerplateFile(
     fileRequester: DataFileRequester | None = None,
 ) -> str:
     # Looks in three or four locations, in order:
-    # the folder the spec source is in, the group's boilerplate folder, the megagroup's boilerplate folder, and the generic boilerplate folder.
+    # 1. The folder the spec source is in (local overrides)
+    # 2. The org-ORG/GROUP folder
+    # 3. The org-ORG folder
+    # 4. The default folder
     # In each location, it first looks for the file specialized on status, and then for the generic file.
     # Filenames must be of the format NAME.include or NAME-STATUS.include
     if fileRequester is None:
@@ -160,13 +163,13 @@ def retrieveBoilerplateFile(
                 if source:
                     sources.append(source)
     # 2: Look in the group's folder
-    if groupName:
-        sources.extend(InputSource.FileInputSource(boilerplatePath(groupName, fn), chroot=False) for fn in filenames)
+    if groupName and orgName:
+        sources.extend(InputSource.FileInputSource(boilerplatePath("org-"+orgName, groupName, fn), chroot=False) for fn in filenames)
     # 3: Look in the org's folder
     if orgName:
-        sources.extend(InputSource.FileInputSource(boilerplatePath(orgName, fn), chroot=False) for fn in filenames)
+        sources.extend(InputSource.FileInputSource(boilerplatePath("org-"+orgName, fn), chroot=False) for fn in filenames)
     # 4: Look in the generic defaults
-    sources.extend(InputSource.FileInputSource(boilerplatePath(fn), chroot=False) for fn in filenames)
+    sources.extend(InputSource.FileInputSource(boilerplatePath("default", fn), chroot=False) for fn in filenames)
 
     # Watch all the possible sources, not just the one that got used, because if
     # an earlier one appears, we want to rebuild.
@@ -183,7 +186,7 @@ def retrieveBoilerplateFile(
         components = []
         if orgName:
             components.append(f"Org '{orgName}'")
-        if groupName:
+        if orgName and groupName:
             components.append(f"Group '{groupName}'")
         if statusName:
             components.append(f"Status '{statusName}'")

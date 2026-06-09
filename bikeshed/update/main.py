@@ -16,6 +16,7 @@ from . import (
     updateCrossRefs,
     updateLanguages,
     updateLinkDefaults,
+    updateManifest,
     updateMdn,
     updateWpt,
 )
@@ -41,7 +42,7 @@ def update(
     assert path is not None
 
     if updateMode & UpdateMode.MANIFEST:
-        newManifest = manifest.updateByManifest(path=path, dryRun=dryRun, updateMode=updateMode)
+        newManifest = updateManifest.updateByManifest(path=path, dryRun=dryRun, updateMode=updateMode)
         if newManifest:
             return newManifest
         if updateMode & UpdateMode.MANUAL:
@@ -72,7 +73,7 @@ def update(
         # fmt: on
 
         cleanupFiles(path, touchedPaths=touchedPaths, dryRun=dryRun)
-    return manifest.createManifest(path=path, dryRun=dryRun)
+    return updateManifest.createManifest(path=path, dryRun=dryRun)
 
 
 def fixupDataFiles(updateMode: UpdateMode = UpdateMode.NONE) -> None:
