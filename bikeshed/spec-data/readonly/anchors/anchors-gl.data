@@ -88,6 +88,17 @@ https://www.w3.org/TR/miniapp-lifecycle/#dom-global
 1
 
 -
+global
+global
+dfn
+wai-aria-1.3
+wai-aria
+1
+snapshot
+https://www.w3.org/TR/wai-aria-1.3/#dfn-global
+
+1
+-
 Global
 Global
 interface
@@ -227,17 +238,6 @@ https://www.w3.org/TR/wasm-js-api-2/#dom-global-global
 1
 Global
 -
-globalcrypto
-GlobalCrypto
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-GlobalCrypto
-
-1
--
 GlobalDeclarationInstantiation
 GlobalDeclarationInstantiation
 abstract-op
@@ -249,8 +249,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 1
 -
-GlobalDeclarationInstantiation(script, env)
-GlobalDeclarationInstantiation(script, env)
+GlobalDeclarationInstantiation(script, envRecord)
+GlobalDeclarationInstantiation(script, envRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -296,11 +296,22 @@ https://html.spec.whatwg.org/multipage/webappapis.html#globaleventhandlers
 GlobalPrivacyControl
 GlobalPrivacyControl
 interface
-gpc-spec
-gpc-spec
+gpc
+gpc
 1
 current
-https://privacycg.github.io/gpc-spec/#dom-globalprivacycontrol
+https://w3c.github.io/gpc/#dom-globalprivacycontrol
+1
+1
+-
+GlobalPrivacyControl
+GlobalPrivacyControl
+interface
+gpc
+gpc
+1
+snapshot
+https://www.w3.org/TR/gpc/#dom-globalprivacycontrol
 1
 1
 -
@@ -325,6 +336,30 @@ snapshot
 https://www.w3.org/TR/miniapp-lifecycle/#dom-globalstate
 1
 
+-
+globalsymbolregistry record
+GlobalSymbolRegistry Record
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-globalsymbolregistry-records
+1
+1
+ECMAScript
+-
+globalsymbolregistry records
+GlobalSymbolRegistry Records
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-globalsymbolregistry-records
+1
+1
+ECMAScript
 -
 glyph
 glyph
@@ -414,6 +449,29 @@ https://www.w3.org/TR/IFT/#glyphpatches
 
 1
 -
+glob
+glob
+dfn
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#glob
+
+1
+-
+global
+global
+dfn
+css-shadow-1
+css-shadow
+1
+current
+https://drafts.csswg.org/css-shadow-1/#tree-scoped-name-global
+1
+1
+tree-scoped name
+-
 global
 global
 attribute
@@ -425,6 +483,54 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-get-regexp.prototype.
 1
 1
 RegExp
+-
+global
+global
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#subscription-global
+
+1
+subscription
+-
+global
+global
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#webdriver-configuration-global
+
+1
+WebDriver configuration
+-
+global
+global
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#subscription-global
+
+1
+subscription
+-
+global
+global
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#webdriver-configuration-global
+
+1
+WebDriver configuration
 -
 global alpha
 global alpha
@@ -584,18 +690,6 @@ https://www.w3.org/TR/pub-manifest/#dfn-global-duration
 
 1
 -
-global event set
-global event set
-dfn
-webdriver-bidi
-webdriver-bidi
-1
-current
-https://w3c.github.io/webdriver-bidi/#event-global-event-set
-1
-1
-event
--
 global identifier
 global identifier
 dfn
@@ -626,6 +720,28 @@ wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#global-invocation-id
+
+1
+-
+global invocation index
+global invocation index
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#global-invocation-index
+
+1
+-
+global invocation index
+global invocation index
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#global-invocation-index
 
 1
 -
@@ -716,18 +832,6 @@ service-workers
 service-workers
 1
 current
-https://w3c.github.io/ServiceWorker/#cachestorage-global-object
-
-1
-CacheStorage
--
-global object
-global object
-dfn
-service-workers
-service-workers
-1
-current
 https://w3c.github.io/ServiceWorker/#dfn-service-worker-global-object
 1
 1
@@ -764,18 +868,6 @@ service-workers
 service-workers
 1
 snapshot
-https://www.w3.org/TR/service-workers/#cachestorage-global-object
-
-1
-CacheStorage
--
-global object
-global object
-dfn
-service-workers
-service-workers
-1
-snapshot
 https://www.w3.org/TR/service-workers/#dfn-service-worker-global-object
 1
 1
@@ -792,6 +884,72 @@ https://tc39.es/ecma262/multipage/global-object.html#sec-global-object
 1
 1
 ECMAScript
+-
+global opt-out
+global opt-out
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-global-opt-out
+1
+
+-
+global opt-out
+global opt-out
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-global-opt-out
+
+
+-
+global privacy budget per epoch
+global privacy budget per epoch
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#global-privacy-budget-per-epoch
+
+1
+-
+global privacy budget per epoch
+global privacy budget per epoch
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#global-privacy-budget-per-epoch
+
+1
+-
+global privacy budget store
+global privacy budget store
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#global-privacy-budget-store
+
+1
+-
+global privacy budget store
+global privacy budget store
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#global-privacy-budget-store
+
+1
 -
 global scopes
 global scopes
@@ -834,7 +992,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-global-type
+https://w3c-cg.github.io/web-nfc/#dfn-global-type
 
 
 -
@@ -852,12 +1010,34 @@ https://drafts.csswg.org/css-view-transitions-1/#global-view-transition-user-age
 global view transition user agent style sheet
 global view transition user agent style sheet
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#global-view-transition-user-agent-style-sheet
+
+1
+-
+global view transition user agent style sheet
+global view transition user agent style sheet
+dfn
 css-view-transitions-1
 css-view-transitions
 1
 snapshot
 https://www.w3.org/TR/css-view-transitions-1/#global-view-transition-user-agent-style-sheet
 
+1
+-
+global view transitions
+global view transitions
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#global-view-transitions
+1
 1
 -
 globalAlpha
@@ -887,11 +1067,23 @@ CanvasCompositing
 globalPrivacyControl
 globalPrivacyControl
 attribute
-gpc-spec
-gpc-spec
+gpc
+gpc
 1
 current
-https://privacycg.github.io/gpc-spec/#dom-globalprivacycontrol-globalprivacycontrol
+https://w3c.github.io/gpc/#dom-globalprivacycontrol-globalprivacycontrol
+1
+1
+GlobalPrivacyControl
+-
+globalPrivacyControl
+globalPrivacyControl
+attribute
+gpc
+gpc
+1
+snapshot
+https://www.w3.org/TR/gpc/#dom-globalprivacycontrol-globalprivacycontrol
 1
 1
 GlobalPrivacyControl
@@ -931,6 +1123,54 @@ https://tc39.es/ecma262/multipage/global-object.html#sec-globalthis
 1
 1
 globalThis
+-
+global_assert
+global_assert
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-global_assert
+
+1
+recursive descent syntax
+-
+global_assert
+global_assert
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#syntax-global_assert
+
+1
+syntax
+-
+global_assert
+global_assert
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#recursive-descent-syntax-global_assert
+
+1
+recursive descent syntax
+-
+global_assert
+global_assert
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#syntax-global_assert
+
+1
+syntax
 -
 global_decl
 global_decl
@@ -1052,6 +1292,30 @@ https://www.w3.org/TR/WGSL/#built-in-values-global_invocation_id
 1
 built-in values
 -
+global_invocation_index
+global_invocation_index
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#built-in-values-global_invocation_index
+
+1
+built-in values
+-
+global_invocation_index
+global_invocation_index
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#built-in-values-global_invocation_index
+
+1
+built-in values
+-
 global_value_decl
 global_value_decl
 dfn
@@ -1127,11 +1391,55 @@ syntax
 glyph
 glyph
 dfn
+imsc-hrm
+imsc-hrm
+1
+current
+https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html#dfn-glyph
+
+1
+-
+glyph
+glyph
+dfn
 svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermGlyph
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermGlyph
+
+1
+-
+glyph
+glyph
+dfn
+imsc-hrm
+imsc-hrm
+1
+snapshot
+https://www.w3.org/TR/imsc-hrm/#dfn-glyph
+
+1
+-
+glyph
+glyph
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-glyph
+
+1
+-
+glyph
+glyph
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-glyph
 
 1
 -
@@ -1296,7 +1604,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#GlyphMidline
+https://w3c.github.io/svgwg/svg2-draft/text.html#GlyphMidline
 1
 1
 -

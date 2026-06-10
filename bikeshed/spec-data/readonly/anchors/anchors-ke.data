@@ -72,15 +72,27 @@ EncodedVideoChunkType
 -
 "key"
 "key"
-enum-value
-webrtc-encoded-transform
-webrtc-encoded-transform
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-key
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputkeysourceactions-type-key
+
 1
+input.KeySourceActions/type
+-
+"key"
+"key"
+cddl-key
+web-bluetooth
+web-bluetooth
 1
-RTCEncodedVideoFrameType
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothbluetoothmanufacturerdata-key
+
+1
+bluetooth.BluetoothManufacturerData
 -
 "key"
 "key"
@@ -108,15 +120,51 @@ EncodedVideoChunkType
 -
 "key"
 "key"
-enum-value
-webrtc-encoded-transform
-webrtc-encoded-transform
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-key
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputkeysourceactions-type-key
+
+1
+input.KeySourceActions/type
+-
+"key-points"
+"key-points"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizertype-key-points
 1
 1
-RTCEncodedVideoFrameType
+SummarizerType
+-
+"keyDown"
+"keyDown"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputkeydownaction-type-keydown
+
+1
+input.KeyDownAction/type
+-
+"keyDown"
+"keyDown"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputkeydownaction-type-keydown
+
+1
+input.KeyDownAction/type
 -
 "keyID"
 "keyID"
@@ -141,6 +189,42 @@ https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframetransformerroreventtyp
 1
 1
 SFrameTransformErrorEventType
+-
+"keyUp"
+"keyUp"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputkeyupaction-type-keyup
+
+1
+input.KeyUpAction/type
+-
+"keyUp"
+"keyUp"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputkeyupaction-type-keyup
+
+1
+input.KeyUpAction/type
+-
+"keys"
+"keys"
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-presskeysintentparameters-keys
+
+1
+PressKeysIntentParameters
 -
 <keyframe-block>
 <keyframe-block>
@@ -390,6 +474,28 @@ https://www.w3.org/TR/encrypted-media-2/#dfn-decryption-key-id
 1
 1
 -
+key pair
+Key Pair
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#key-pair
+
+1
+-
+key pair
+Key Pair
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#key-pair
+
+1
+-
 key session
 Key Session
 dfn
@@ -437,8 +543,8 @@ https://www.w3.org/TR/encrypted-media-2/#dfn-key-system
 key agreement key
 key agreement key
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#puap1keyagmnt-key-agreement-key
@@ -446,25 +552,48 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 PUAP1KeyAgmnt
 -
+key agreement key
+key agreement key
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#puap1keyagmnt-key-agreement-key
+
+1
+PUAP1KeyAgmnt
+-
 KeyAlgorithm
 KeyAlgorithm
 dictionary
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-KeyAlgorithm
 1
 1
 -
-keyalgorithm
 KeyAlgorithm
-dfn
-webcryptoapi
-webcryptoapi
-1
+KeyAlgorithm
+dictionary
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-KeyAlgorithm
+https://www.w3.org/TR/webcrypto-2/#dfn-KeyAlgorithm
+1
+1
+-
+KeyCombination
+KeyCombination
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-keycombination
 
 1
 -
@@ -479,8 +608,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-keyforsymbol
 1
 1
 -
-KeyForSymbol(sym)
-KeyForSymbol(sym)
+KeyForSymbol(symbol)
+KeyForSymbol(symbol)
 abstract-op
 ecmascript
 ecmascript
@@ -493,11 +622,33 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-keyforsymbol
 KeyFormat
 KeyFormat
 enum
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keyformat
+1
+1
+-
+KeyFormat
+KeyFormat
+enum
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-keyformat
+1
+1
+-
+KeyFormat
+KeyFormat
+enum
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keyformat
 1
 1
 -
@@ -596,22 +747,55 @@ https://www.w3.org/TR/media-capabilities/#dictdef-keysystemtrackconfiguration
 KeyType
 KeyType
 enum
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keytype
+1
+1
+-
+KeyType
+KeyType
+enum
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keytype
 1
 1
 -
 KeyUsage
 KeyUsage
 enum
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-keyusage
+1
+1
+-
+KeyUsage
+KeyUsage
+enum
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dom-keyusage
+1
+1
+-
+KeyUsage
+KeyUsage
+enum
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-keyusage
 1
 1
 -
@@ -647,28 +831,6 @@ current
 https://w3c.github.io/aria/#dfn-keyboard-accessible
 
 
--
-keyboard accessible
-Keyboard Accessible
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-keyboard-accessible
-
-
--
-keyboard accessible
-Keyboard Accessible
-dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-keyboard-accessible
-
-1
 -
 keyboard accessible
 Keyboard Accessible
@@ -1101,6 +1263,18 @@ https://www.w3.org/TR/webcodecs/#dom-alphaoption-keep
 1
 AlphaOption
 -
+keep custom element registry null
+keep custom element registry null
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#shadowroot-keep-custom-element-registry-null
+
+1
+ShadowRoot
+-
 keep-all
 keep-all
 value
@@ -1148,18 +1322,6 @@ https://www.w3.org/TR/css-text-4/#valdef-word-break-keep-all
 1
 1
 word-break
--
-keepAlive
-keepAlive
-dict-member
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstoragerunoperationmethodoptions-keepalive
-1
-1
-SharedStorageRunOperationMethodOptions
 -
 keepAliveDelay
 keepAliveDelay
@@ -1324,7 +1486,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-kernelmatrix
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-kernelmatrix
 1
 1
 SVGFEConvolveMatrixElement
@@ -1336,7 +1498,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-kernelmatrix
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-kernelmatrix
 1
 1
 feConvolveMatrix
@@ -1372,7 +1534,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-kernelunitlength
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-kernelunitlength
 1
 1
 feConvolveMatrix
@@ -1384,7 +1546,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fediffuselighting-kernelunitlength
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fediffuselighting-kernelunitlength
 1
 1
 feDiffuseLighting
@@ -1396,7 +1558,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fespecularlighting-kernelunitlength
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fespecularlighting-kernelunitlength
 1
 1
 feSpecularLighting
@@ -1444,7 +1606,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-kernelunitlengthx
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-kernelunitlengthx
 1
 1
 SVGFEConvolveMatrixElement
@@ -1456,7 +1618,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfediffuselightingelement-kernelunitlengthx
+https://drafts.csswg.org/filter-effects-1/#dom-svgfediffuselightingelement-kernelunitlengthx
 1
 1
 SVGFEDiffuseLightingElement
@@ -1468,7 +1630,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfespecularlightingelement-kernelunitlengthx
+https://drafts.csswg.org/filter-effects-1/#dom-svgfespecularlightingelement-kernelunitlengthx
 1
 1
 SVGFESpecularLightingElement
@@ -1516,7 +1678,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-kernelunitlengthy
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-kernelunitlengthy
 1
 1
 SVGFEConvolveMatrixElement
@@ -1528,7 +1690,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfediffuselightingelement-kernelunitlengthy
+https://drafts.csswg.org/filter-effects-1/#dom-svgfediffuselightingelement-kernelunitlengthy
 1
 1
 SVGFEDiffuseLightingElement
@@ -1540,7 +1702,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfespecularlightingelement-kernelunitlengthy
+https://drafts.csswg.org/filter-effects-1/#dom-svgfespecularlightingelement-kernelunitlengthy
 1
 1
 SVGFESpecularLightingElement
@@ -1666,6 +1828,18 @@ StorageEvent
 key
 key
 argument
+body-tracking
+body-tracking
+1
+current
+https://immersive-web.github.io/body-tracking/#dom-xrbody-get-key-key
+1
+1
+XRBody/get(key)
+-
+key
+key
+argument
 webxr-hand-input-1
 webxr-hand-input
 1
@@ -1686,18 +1860,6 @@ https://infra.spec.whatwg.org/#map-key
 1
 1
 map
--
-key
-key
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#debug-details-key
-
-1
-debug details
 -
 key
 key
@@ -1788,12 +1950,47 @@ IDBObjectStore/put(value)
 -
 key
 key
+attribute
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbrecord-key
+1
+1
+IDBRecord
+-
+key
+key
 dfn
 indexeddb-3
 indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#key
+
+1
+-
+key
+key
+dfn
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#record-snapshot-key
+
+1
+record snapshot
+-
+key
+key
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-key
 
 1
 -
@@ -1835,15 +2032,15 @@ KeyboardEventInit
 -
 key
 key
-enum-value
-webrtc-encoded-transform
-webrtc-encoded-transform
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-key
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputkeysourceactions-type-key
+
 1
-1
-RTCEncodedVideoFrameType
+input.KeySourceActions/type
 -
 key
 key
@@ -1852,11 +2049,34 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransform-setencryptionkey-key-keyid-key
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframedecryptermanager-adddecryptionkey-key-keyid-key
 1
 1
-SFrameTransform/setEncryptionKey(key, keyID)
-SFrameTransform/setEncryptionKey(key)
+SFrameDecrypterManager/addDecryptionKey(key, keyId)
+-
+key
+key
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframeencryptermanager-setencryptionkey-key-keyid-key
+1
+1
+SFrameEncrypterManager/setEncryptionKey(key, keyId)
+-
+key
+key
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothbluetoothmanufacturerdata-key
+
+1
+bluetooth.BluetoothManufacturerData
 -
 key
 key
@@ -1872,101 +2092,27 @@ value pair
 -
 key
 key
-dfn
-attribution-reporting-api
-attribution-reporting-api
+argument
+crash-reporting
+crash-reporting
 1
 current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-contribution-key
-
+https://wicg.github.io/crash-reporting/#dom-crashreportcontext-delete-key-key
 1
-aggregatable contribution
+1
+CrashReportContext/delete(key)
 -
 key
 key
 argument
-shared-storage
-shared-storage
+crash-reporting
+crash-reporting
 1
 current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-append-key-value-key
+https://wicg.github.io/crash-reporting/#dom-crashreportcontext-set-key-value-key
 1
 1
-SharedStorage/append(key, value)
--
-key
-key
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-delete-key-key
-1
-1
-SharedStorage/delete(key)
--
-key
-key
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-get-key-key
-1
-1
-SharedStorage/get(key)
--
-key
-key
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-set-key-value-options-key
-1
-1
-SharedStorage/set(key, value, options)
-SharedStorage/set(key, value)
--
-key
-key
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#entry-key
-
-1
-entry
--
-key
-key
-argument
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-interestgroupbiddingscriptrunnerglobalscope-setprioritysignalsoverride-key-priority-key
-1
-1
-InterestGroupBiddingScriptRunnerGlobalScope/setPrioritySignalsOverride(key, priority)
-InterestGroupBiddingScriptRunnerGlobalScope/setPrioritySignalsOverride(key)
--
-key
-key
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#signed-additional-bid-signature-key
-
-1
-signed additional bid signature
+CrashReportContext/set(key, value)
 -
 key
 key
@@ -2057,12 +2203,47 @@ IDBObjectStore/put(value)
 -
 key
 key
+attribute
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbrecord-key
+1
+1
+IDBRecord
+-
+key
+key
 dfn
 indexeddb-3
 indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#key
+
+1
+-
+key
+key
+dfn
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#record-snapshot-key
+
+1
+record snapshot
+-
+key
+key
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-key
 
 1
 -
@@ -2104,15 +2285,15 @@ KeyboardEventInit
 -
 key
 key
-enum-value
-webrtc-encoded-transform
-webrtc-encoded-transform
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-key
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputkeysourceactions-type-key
+
 1
-1
-RTCEncodedVideoFrameType
+input.KeySourceActions/type
 -
 key
 key
@@ -2121,11 +2302,22 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframetransform-setencryptionkey-key-keyid-key
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframedecryptermanager-adddecryptionkey-key-keyid-key
 1
 1
-SFrameTransform/setEncryptionKey(key, keyID)
-SFrameTransform/setEncryptionKey(key)
+SFrameDecrypterManager/addDecryptionKey(key, keyId)
+-
+key
+key
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframeencryptermanager-setencryptionkey-key-keyid-key
+1
+1
+SFrameEncrypterManager/setEncryptionKey(key, keyId)
 -
 key
 key
@@ -2194,17 +2386,6 @@ https://wicg.github.io/trust-token-api/#key-commitment
 
 1
 -
-key export steps
-key export steps
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-ssa-extended-export-steps
-
-1
--
 key generator
 key generator
 dfn
@@ -2224,17 +2405,6 @@ indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#key-generator
-
-1
--
-key import steps
-key import steps
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-ssa-extended-import-steps
 
 1
 -
@@ -2307,22 +2477,22 @@ https://www.w3.org/TR/uievents/#key-mapping
 key modifier name
 key modifier name
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#modifier-key-name
+https://w3c.github.io/pointerevents/#dfn-key-modifier-name
 
 1
 -
 key modifier name
 key modifier name
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#modifier-key-name
+https://www.w3.org/TR/pointerevents4/#dfn-key-modifier-name
 
 1
 -
@@ -2334,7 +2504,7 @@ uievents
 1
 current
 https://w3c.github.io/uievents/#key-modifier-state
-
+1
 1
 -
 key modifier state
@@ -2345,7 +2515,7 @@ uievents
 1
 snapshot
 https://www.w3.org/TR/uievents/#key-modifier-state
-
+1
 1
 -
 key only flag
@@ -2371,6 +2541,28 @@ https://www.w3.org/TR/IndexedDB-3/#cursor-key-only-flag
 
 1
 cursor
+-
+key parameter
+key parameter
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-key-parameter
+
+1
+-
+key parameter
+key parameter
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-key-parameter
+
+1
 -
 key path
 key path
@@ -2441,30 +2633,6 @@ https://www.w3.org/TR/IndexedDB-3/#object-store-key-path
 
 1
 object-store
--
-key piece
-key piece
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-debug-reporting-config-key-piece
-
-1
-aggregatable debug reporting config
--
-key piece
-key piece
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-trigger-data-key-piece
-
-1
-aggregatable trigger data
 -
 key range
 key range
@@ -2566,6 +2734,62 @@ https://www.w3.org/TR/encrypted-media-2/#dfn-key-s
 
 1
 -
+key-points
+key-points
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizertype-key-points
+1
+1
+SummarizerType
+-
+keyagreement
+keyAgreement
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#defn-keyAgreement
+
+1
+-
+keyagreement
+keyAgreement
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+current
+https://w3c.github.io/vc-data-integrity/#dfn-keyagreement
+
+1
+-
+keyagreement
+keyAgreement
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#defn-keyAgreement
+
+1
+-
+keyagreement
+keyAgreement
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
+1
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-keyagreement
+
+1
+-
 keyagreement
 keyAgreement
 dfn
@@ -2573,7 +2797,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-keyagreement
+https://www.w3.org/TR/vc-data-integrity/#dfn-keyagreement
 
 1
 -
@@ -2627,18 +2851,6 @@ argument
 uievents
 uievents
 1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-getmodifierstate-keyarg-keyarg
-1
-1
-MouseEvent/getModifierState(keyArg)
--
-keyArg
-keyArg
-argument
-uievents
-uievents
-1
 snapshot
 https://www.w3.org/TR/uievents/#dom-keyboardevent-getmodifierstate-keyarg-keyarg
 1
@@ -2665,18 +2877,6 @@ KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg, cancelableArg, viewArg)
 KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg, cancelableArg)
 KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg)
 KeyboardEvent/initKeyboardEvent(typeArg)
--
-keyArg
-keyArg
-argument
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-getmodifierstate-keyarg-keyarg
-1
-1
-MouseEvent/getModifierState(keyArg)
 -
 keyCode
 keyCode
@@ -2739,6 +2939,18 @@ https://wicg.github.io/keyboard-lock/#dom-keyboard-lock-keycodes-keycodes
 Keyboard/lock(keyCodes)
 Keyboard/lock()
 -
+keyDown
+keyDown
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputkeydownaction-type-keydown
+
+1
+input.KeyDownAction/type
+-
 keydown
 keyDown
 dfn
@@ -2749,6 +2961,18 @@ current
 https://w3c.github.io/webdriver/#dfn-keydown
 
 1
+-
+keyDown
+keyDown
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputkeydownaction-type-keydown
+
+1
+input.KeyDownAction/type
 -
 keydown
 keyDown
@@ -2761,8 +2985,8 @@ https://www.w3.org/TR/webdriver2/#dfn-keydown
 
 1
 -
-keyFor(sym)
-keyFor(sym)
+keyFor(symbol)
+keyFor(symbol)
 method
 ecmascript
 ecmascript
@@ -2847,19 +3071,6 @@ RTCOutboundRtpStreamStats
 -
 keyID
 keyID
-argument
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-current
-https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransform-setencryptionkey-key-keyid-keyid
-1
-1
-SFrameTransform/setEncryptionKey(key, keyID)
-SFrameTransform/setEncryptionKey(key)
--
-keyID
-keyID
 attribute
 webrtc-encoded-transform
 webrtc-encoded-transform
@@ -2884,19 +3095,6 @@ SFrameTransformErrorEventInit
 -
 keyID
 keyID
-argument
-webrtc-encoded-transform
-webrtc-encoded-transform
-1
-snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframetransform-setencryptionkey-key-keyid-keyid
-1
-1
-SFrameTransform/setEncryptionKey(key, keyID)
-SFrameTransform/setEncryptionKey(key)
--
-keyID
-keyID
 attribute
 webrtc-encoded-transform
 webrtc-encoded-transform
@@ -2918,6 +3116,78 @@ https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframetransformerroreventini
 1
 1
 SFrameTransformErrorEventInit
+-
+keyId
+keyId
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframedecryptermanager-adddecryptionkey-key-keyid-keyid
+1
+1
+SFrameDecrypterManager/addDecryptionKey(key, keyId)
+-
+keyId
+keyId
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframedecryptermanager-removedecryptionkey-keyid-keyid
+1
+1
+SFrameDecrypterManager/removeDecryptionKey(keyId)
+-
+keyId
+keyId
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframeencryptermanager-setencryptionkey-key-keyid-keyid
+1
+1
+SFrameEncrypterManager/setEncryptionKey(key, keyId)
+-
+keyId
+keyId
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframedecryptermanager-adddecryptionkey-key-keyid-keyid
+1
+1
+SFrameDecrypterManager/addDecryptionKey(key, keyId)
+-
+keyId
+keyId
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframedecryptermanager-removedecryptionkey-keyid-keyid
+1
+1
+SFrameDecrypterManager/removeDecryptionKey(keyId)
+-
+keyId
+keyId
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframeencryptermanager-setencryptionkey-key-keyid-keyid
+1
+1
+SFrameEncrypterManager/setEncryptionKey(key, keyId)
 -
 keyPath
 keyPath
@@ -3197,6 +3467,18 @@ https://svgwg.org/specs/animations/#KeyTimesAttribute
 1
 animate
 -
+keyUp
+keyUp
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputkeyupaction-type-keyup
+
+1
+input.KeyUpAction/type
+-
 keyup
 keyUp
 dfn
@@ -3207,6 +3489,18 @@ current
 https://w3c.github.io/webdriver/#dfn-keyup
 
 1
+-
+keyUp
+keyUp
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputkeyupaction-type-keyup
+
+1
+input.KeyUpAction/type
 -
 keyup
 keyUp
@@ -3222,38 +3516,26 @@ https://www.w3.org/TR/webdriver2/#dfn-keyup
 key_ops
 key_ops
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-key_ops
 1
 1
 JsonWebKey
 -
-key_piece
-key_piece
-dfn
-attribution-reporting-api
-attribution-reporting-api
+key_ops
+key_ops
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-jsonwebkey-key_ops
 1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-debug-reporting-json-key-key_piece
-
 1
-aggregatable-debug-reporting JSON key
--
-key_piece
-key_piece
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#trigger-registration-json-key-key_piece
-
-1
-trigger-registration JSON key
+JsonWebKey
 -
 keyboard
 keyboard
@@ -3279,6 +3561,94 @@ https://wicg.github.io/keyboard-lock/#navigator-keyboard
 1
 Navigator
 -
+keyboard focus
+keyboard focus
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-keyboard-focus
+
+1
+-
+keyboard focus
+keyboard focus
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-keyboard-focus
+
+1
+-
+keyboard interface
+keyboard interface
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-keyboard-interface
+
+
+-
+keyboard interface
+keyboard interface
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-keyboard-interface
+
+1
+-
+keyboard interface
+keyboard interface
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-keyboard-interface
+
+
+-
+keyboard interface
+keyboard interface
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-keyboard-interface
+
+1
+-
+keyboard lock
+keyboard lock
+dfn
+fullscreen
+fullscreen
+1
+current
+https://fullscreen.spec.whatwg.org/#keyboard-lock
+
+1
+-
+keyboard lock flag
+keyboard lock flag
+dfn
+fullscreen
+fullscreen
+1
+current
+https://fullscreen.spec.whatwg.org/#keyboard-lock-flag
+
+1
+-
 keyboard lock task queue
 keyboard lock task queue
 dfn
@@ -3290,6 +3660,50 @@ https://wicg.github.io/keyboard-lock/#keyboard-keyboard-lock-task-queue
 
 1
 Keyboard
+-
+keyboard shortcut
+keyboard shortcut
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-keyboard-shortcuts
+
+
+-
+keyboard shortcut
+keyboard shortcut
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-keyboard-shortcuts
+
+
+-
+keyboard shortcuts
+keyboard shortcuts
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-keyboard-shortcuts
+
+
+-
+keyboard shortcuts
+keyboard shortcuts
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-keyboard-shortcuts
+
+
 -
 keyboard-inset-bottom
 keyboard-inset-bottom
@@ -3466,6 +3880,18 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-keyboard-interactable
 
 1
+-
+keyboardLock
+keyboardLock
+dict-member
+fullscreen
+fullscreen
+1
+current
+https://fullscreen.spec.whatwg.org/#dom-fullscreenoptions-keyboardlock
+1
+1
+FullscreenOptions
 -
 keyboardlock
 keyboardlock
@@ -3728,6 +4154,28 @@ https://www.w3.org/TR/uievents-code/#keypad
 
 1
 -
+keypair_map
+keypair_map
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+current
+https://w3c.github.io/secure-payment-confirmation/#keypair_map
+
+1
+-
+keypair_map
+keypair_map
+dfn
+secure-payment-confirmation
+secure-payment-confirmation
+1
+snapshot
+https://www.w3.org/TR/secure-payment-confirmation/#keypair_map
+
+1
+-
 keypress
 keypress
 dfn
@@ -3776,6 +4224,18 @@ index
 -
 keys
 keys
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-presskeysintentparameters-keys
+
+1
+PressKeysIntentParameters
+-
+keys
+keys
 dict-member
 push-api
 push-api
@@ -3797,18 +4257,6 @@ https://wicg.github.io/WebApiDevice/managed_config/#dom-navigatormanageddata-get
 1
 1
 NavigatorManagedData/getManagedConfiguration(keys)
--
-keys
-keys
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#trusted-bidding-signals-batcher-keys
-
-1
-trusted bidding signals batcher
 -
 keys
 keys
@@ -3942,8 +4390,8 @@ https://www.w3.org/TR/service-workers/#dom-cachestorage-keys
 1
 CacheStorage
 -
-keys(O)
-keys(O)
+keys(obj)
+keys(obj)
 method
 ecmascript
 ecmascript
@@ -4096,17 +4544,6 @@ ECMAScript
 keyword
 keyword
 dfn
-json-ld11
-json-ld
-1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-keyword
-
-
--
-keyword
-keyword
-dfn
 wgsl
 wgsl
 1
@@ -4205,17 +4642,6 @@ csp
 current
 https://w3c.github.io/webappsec-csp/#grammardef-keyword-source
 1
-1
--
-keyword-source
-keyword-source
-grammar
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#grammardef-keyword-source
-
 1
 -
 keyword-source

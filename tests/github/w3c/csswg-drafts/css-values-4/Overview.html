@@ -1988,7 +1988,7 @@ Pre-defined Keywords</span><a class="self-link" href="#keywords"></a></h3>
 	(i.e., [a-z] and [A-Z] are equivalent).</p>
    <div class="example" id="example-9d0ae504">
     <a class="self-link" href="#example-9d0ae504"></a>
-		For example, here is the value definition for the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/tables.html#propdef-border-collapse" id="ref-for-propdef-border-collapse">border-collapse</a>
+		For example, here is the value definition for the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-border-collapse" id="ref-for-propdef-border-collapse">border-collapse</a>
 		property:
 
 		
@@ -2223,7 +2223,7 @@ Resource Locators: the <a class="css production" data-link-type="type" href="#ur
     <p>The precise requirements for parsing the unquoted <a class="css" data-link-type="maybe" href="#funcdef-url" id="ref-for-funcdef-url④">url()</a> syntax
 		are normatively defined in <a data-link-type="biblio" href="#biblio-css-syntax-3" title="CSS Syntax Module Level 3">[CSS-SYNTAX-3]</a>.</p>
    </div>
-   <p>Some CSS contexts (such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#at-ruledef-import" id="ref-for-at-ruledef-import">@import</a>) also allow a <a class="css production" data-link-type="type" href="#url-value" id="ref-for-url-value④">&lt;url></a>
+   <p>Some CSS contexts (such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-6/#at-ruledef-import" id="ref-for-at-ruledef-import">@import</a>) also allow a <a class="css production" data-link-type="type" href="#url-value" id="ref-for-url-value④">&lt;url></a>
 	to be represented by a bare <a class="css production" data-link-type="type" href="#string-value" id="ref-for-string-value⑤">&lt;string></a>, without the function wrapper.
 	In such cases the string behaves identically to a <a class="css" data-link-type="maybe" href="#funcdef-url" id="ref-for-funcdef-url⑤">url()</a> function containing that string.</p>
    <div class="example" id="example-ae720903">
@@ -2698,7 +2698,7 @@ Distance Units: the <a class="css production" data-link-type="type" href="#lengt
    <p>For zero lengths the unit identifier is optional
 	(i.e. can be syntactically represented as the <a class="css production" data-link-type="type" href="#number-value" id="ref-for-number-value①①">&lt;number></a> <span class="css">0</span>).
 	However, if a <span class="css">0</span> could be parsed as either a <span class="production" id="ref-for-number-value①②">&lt;number></span> or a <a class="css production" data-link-type="type" href="#length-value" id="ref-for-length-value①④">&lt;length></a> in a property
-	(such as <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>),
+	(such as <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>),
 	it must parse as a <span class="production" id="ref-for-number-value①③">&lt;number></span>.</p>
    <p>Properties may restrict the length value to some range.
 	If the value is outside the allowed range,
@@ -2998,7 +2998,7 @@ Font-relative Lengths: the <a class="css" data-link-type="maybe" href="#em" id="
 		
     <dd>
      
-			Equal to the computed value of the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height①">line-height</a> property of the element on which it is used,
+			Equal to the computed value of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height①">line-height</a> property of the element on which it is used,
 			converting <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-line-height-normal" id="ref-for-valdef-line-height-normal">normal</a> to an absolute length
 			by using only the metrics of the <a href="https://www.w3.org/TR/css3-fonts/#first-available-font">first available font</a>.
 
@@ -3015,7 +3015,7 @@ Font-relative Lengths: the <a class="css" data-link-type="maybe" href="#em" id="
 		
     <dd>
      
-			Equal to the computed value of <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> property on the root element,
+			Equal to the computed value of <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> property on the root element,
 			converting <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-line-height-normal" id="ref-for-valdef-line-height-normal①">normal</a> to an absolute length as above.
 
 
@@ -3048,13 +3048,13 @@ Font-relative Lengths: the <a class="css" data-link-type="maybe" href="#em" id="
    <p>When used outside the context of an element
 	(such as in <a data-link-type="dfn" href="https://drafts.csswg.org/mediaqueries-5/#media-query" id="ref-for-media-query">media queries</a>),
 	these units refer to the metrics corresponding
-	to the initial values of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font" id="ref-for-propdef-font">font</a> and <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height③">line-height</a> properties.
+	to the initial values of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font" id="ref-for-propdef-font">font</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height③">line-height</a> properties.
 	In this context,
 	the units must apply any additional restrictions to the values,
 	contrary to the normal behavior mentioned above.</p>
    <p>When used in the value of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑤">font-size</a> property on the element they refer to,
 	they resolve against the computed metrics of the parent element—​or against the computed metrics corresponding to the initial values
-	of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font" id="ref-for-propdef-font①">font</a> and <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height④">line-height</a> properties,
+	of the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font" id="ref-for-propdef-font①">font</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height④">line-height</a> properties,
 	if the element has no parent.
 	Additionally,
 	when <a class="css" data-link-type="maybe" href="#lh" id="ref-for-lh③">lh</a> or <a class="css" data-link-type="maybe" href="#rlh" id="ref-for-rlh④">rlh</a> units are used
@@ -3138,7 +3138,6 @@ Viewport-percentage Lengths: the <a class="css" data-link-type="maybe" href="#vw
      <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/vh-support-transform-origin.html" title="css/css-values/vh-support-transform-origin.html">vh-support-transform-origin.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/vh-support-transform-origin.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh-support-transform-origin.html"><small>(source)</small></a>
      <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/vh-support-transform-translate.html" title="css/css-values/vh-support-transform-translate.html">vh-support-transform-translate.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/vh-support-transform-translate.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh-support-transform-translate.html"><small>(source)</small></a>
      <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/vh-zero-support.html" title="css/css-values/vh-zero-support.html">vh-zero-support.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/vh-zero-support.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh-zero-support.html"><small>(source)</small></a>
-     <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/vh_not_refreshing_on_chrome.html" title="css/css-values/vh_not_refreshing_on_chrome.html">vh_not_refreshing_on_chrome.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/vh_not_refreshing_on_chrome.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh_not_refreshing_on_chrome.html"><small>(source)</small></a>
      <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/viewport-relative-lengths-scaled-viewport.html" title="css/css-values/viewport-relative-lengths-scaled-viewport.html">viewport-relative-lengths-scaled-viewport.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/viewport-relative-lengths-scaled-viewport.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/viewport-relative-lengths-scaled-viewport.html"><small>(source)</small></a>
      <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/viewport-unit-011.html" title="css/css-values/viewport-unit-011.html">viewport-unit-011.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/viewport-unit-011.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/viewport-unit-011.html"><small>(source)</small></a>
      <li class="wpt-test"><a class="wpt-name" href="https://wpt.fyi/results/css/css-values/viewport-units-css2-001.html" title="css/css-values/viewport-units-css2-001.html">viewport-units-css2-001.html</a> <a class="wpt-live" href="http://wpt.live/css/css-values/viewport-units-css2-001.html"><small>(live test)</small></a> <a class="wpt-source" href="https://github.com/web-platform-tests/wpt/blob/master/css/css-values/viewport-units-css2-001.html"><small>(source)</small></a>
@@ -3658,7 +3657,7 @@ list-style-type: <c- nf>toggle</c-><c- p>(</c->disc<c- p>,</c-> <c- m>50</c-><c-
 	not a particular serialization <a data-link-type="biblio" href="#biblio-css21" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS21]</a>,
 	so comparison between computed values should always be unambiguous and have the expected result.
 	For example,
-	a Level 2 <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/colors.html#propdef-background-position" id="ref-for-propdef-background-position②">background-position</a> computed value
+	a Level 2 <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-background-position" id="ref-for-propdef-background-position②">background-position</a> computed value
 	is just two offsets, each represented as an absolute length or a percentage,
 	so the declarations <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position" id="ref-for-propdef-background-position③">background-position: top center</a> and <span class="css" id="ref-for-propdef-background-position④">background-position: 50% 0%</span>
 	produce identical computed values.
@@ -3867,7 +3866,7 @@ metal <c- p>{</c->
    <h3 class="heading settled" data-level="10.2" id="attr-substitution"><span class="secno">10.2. </span><span class="content">
 <a class="css" data-link-type="maybe" href="#funcdef-attr" id="ref-for-funcdef-attr①①">attr()</a> Substitution</span><a class="self-link" href="#attr-substitution"></a></h3>
    <p class="issue" id="issue-9dd81cfe"><a class="self-link" href="#issue-9dd81cfe"></a> attr() and var() substitute at the same time,
-	so I should probably rewrite <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-2/#substitute-a-var" id="ref-for-substitute-a-var">substitute a var()</a>
+	so I should probably rewrite <a data-link-type="dfn" href="https://www.w3.org/TR/css-variables-1/#substitute-a-var" id="ref-for-substitute-a-var">substitute a var()</a>
 	to be more generally about "substitute a reference"
 	and just use that for both of these functions.</p>
    <p><a class="css" data-link-type="maybe" href="#funcdef-attr" id="ref-for-funcdef-attr①②">attr()</a> functions are <a data-link-type="dfn" href="#substitute-an-attr" id="ref-for-substitute-an-attr①">substituted</a> at computed-value time.
@@ -3978,7 +3977,7 @@ Basic Arithmetic: <a class="css" data-link-type="maybe" href="#funcdef-calc" id=
   <c- k>font-size</c-><c- p>:</c-> <c- nf>calc</c-><c- p>(</c-><c- m>100</c-><c- k>vw</c-> / <c- m>35</c-><c- p>);</c->
 <c- p>}</c->
 </pre>
-    <p>Functionality-wise, this is identical to just writing <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-font-size" id="ref-for-propdef-font-size⑦">font-size: 2.857vw</a>,
+    <p>Functionality-wise, this is identical to just writing <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-fonts-5/#descdef-font-face-font-size" id="ref-for-descdef-font-face-font-size">font-size: 2.857vw</a>,
 		but then the intent
 		(that <span class="css">35em</span> fills the viewport)
 		is much less clear to someone reading the code;
@@ -4042,7 +4041,7 @@ Comparison Functions: <a class="css" data-link-type="maybe" href="#funcdef-min" 
 
 
     <p><a class="css" data-link-type="maybe" href="#funcdef-min" id="ref-for-funcdef-min②">min()</a>, <a class="css" data-link-type="maybe" href="#funcdef-max" id="ref-for-funcdef-max②">max()</a>, and <a class="css" data-link-type="maybe" href="#funcdef-clamp" id="ref-for-funcdef-clamp③">clamp()</a> can be used to make sure a value doesn’t exceed a "safe" limit:
-		For example, "responsive type" that sets <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑧">font-size</a> with viewport units
+		For example, "responsive type" that sets <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑦">font-size</a> with viewport units
 		might still want a minimum size to ensure readability:</p>
 <pre class="highlight lang-css">.type <c- p>{</c->
   <c- c>/* Set font-size to 10x the average of vw and vh,</c->
@@ -4878,7 +4877,7 @@ Numeric Constants: <a class="css" data-link-type="maybe" href="#valdef-calc-e" i
 	If used outside of a calculation,
 	they’re treated like any other keyword:
 	<a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-animations-1/#propdef-animation-name" id="ref-for-propdef-animation-name①">animation-name: pi;</a> refers to an animation named "pi";
-	<a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height⑨">line-height: e;</a> is invalid
+	<a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height⑨">line-height: e;</a> is invalid
 	(<em>not</em> similar to <span class="css" id="ref-for-propdef-line-height①⓪">line-height: 2.7</span>,
 	but <span class="css" id="ref-for-propdef-line-height①①">line-height: calc(e);</span> is).</p>
    <h4 class="heading settled" data-level="11.7.1" id="calc-error-constants"><span class="secno">11.7.1. </span><span class="content">
@@ -5189,7 +5188,7 @@ and <span class="css">clamp(0⁺, 0⁻, 1)</span> must produce 0⁺.</p>
 	are valid.</p>
    <p class="note" role="note"><span class="marker">Note:</span> Altho there are a few properties in which a bare <a class="css production" data-link-type="type" href="#number-value" id="ref-for-number-value④①">&lt;number></a>
 	becomes a <a class="css production" data-link-type="type" href="#length-value" id="ref-for-length-value③④">&lt;length></a> at used-value time
-	(specifically, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height①②">line-height</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-text-4/#propdef-tab-size" id="ref-for-propdef-tab-size">tab-size</a>),
+	(specifically, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height①②">line-height</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-text-4/#propdef-tab-size" id="ref-for-propdef-tab-size">tab-size</a>),
 	<span class="production" id="ref-for-number-value④②">&lt;number></span>s never become "length-like" in <a class="css" data-link-type="maybe" href="#funcdef-calc" id="ref-for-funcdef-calc①⑤">calc()</a>.
 	They always stay as <span class="production" id="ref-for-number-value④③">&lt;number></span>s.</p>
    <p class="note" role="note"><span class="marker">Note:</span> In Quirks Mode <a data-link-type="biblio" href="#biblio-quirks" title="Quirks Mode Standard">[quirks]</a>,
@@ -5474,14 +5473,14 @@ Computed Value</span><a class="self-link" href="#calc-computed-value"></a></h3>
    <div class="example" id="example-023dad93">
     <a class="self-link" href="#example-023dad93"></a>
 		For example,
-		whereas <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑨">font-size</a> computes percentage values at <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value⑨">computed value</a> time
+		whereas <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑧">font-size</a> computes percentage values at <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value⑨">computed value</a> time
 		so that <a data-link-type="dfn" href="#font-relative-length" id="ref-for-font-relative-length">font-relative length</a> units can be computed,
 		<a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position" id="ref-for-propdef-background-position⑥">background-position</a> has layout-dependent behavior for percentage values,
 		and thus does not resolve percentages until used-value time.
 
 
     <p>Due to this, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position" id="ref-for-propdef-background-position⑦">background-position</a> computation preserves the percentage in a <a class="css" data-link-type="maybe" href="#funcdef-calc" id="ref-for-funcdef-calc①⑦">calc()</a>
-		whereas <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size①⓪">font-size</a> will compute such expressions directly into a length.</p>
+		whereas <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-size" id="ref-for-propdef-font-size⑨">font-size</a> will compute such expressions directly into a length.</p>
    </div>
    <p>Given the complexities of width and height calculations on table cells and table elements,
 	math expressions mixing both percentages and lengths for widths and heights on
@@ -6251,7 +6250,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-CASCADE-5]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="4e55d7fb">@import</span>
      <li><span class="dfn-paneled" id="5d83727e">actual value</span>
      <li><span class="dfn-paneled" id="9cd25054">computed value</span>
      <li><span class="dfn-paneled" id="c388d253">inherit</span>
@@ -6262,6 +6260,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="1cf918c1">specified value</span>
      <li><span class="dfn-paneled" id="9e004c39">unset</span>
      <li><span class="dfn-paneled" id="a4eb3c57">used value</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[CSS-CASCADE-6]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="a803a89f">@import</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-COLOR-4]</a> defines the following terms:
@@ -6304,6 +6307,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="2c57f900">font</span>
      <li><span class="dfn-paneled" id="d65d17df">font-family</span>
      <li><span class="dfn-paneled" id="fdf6efd5">font-size</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[CSS-FONTS-5]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="b54fbb7a">font-size</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-GRID-2]</a> defines the following terms:
@@ -6410,11 +6418,15 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="54fd6ed6">invalid at computed-value time</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[CSS-VARIABLES-1]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="a39ee65d">substitute a var()</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[CSS-VARIABLES-2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="198f1537">custom property</span>
      <li><span class="dfn-paneled" id="eb7e3851">guaranteed-invalid value</span>
-     <li><span class="dfn-paneled" id="97c37d4a">substitute a var()</span>
      <li><span class="dfn-paneled" id="dbba942a">var()</span>
     </ul>
    <li>
@@ -6431,17 +6443,12 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS21]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="9d78b4c6">background-position</span>
-     <li><span class="dfn-paneled" id="29ca9f85">border-collapse</span>
-     <li><span class="dfn-paneled" id="f601a423">line-height</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
-    <ul>
      <li><span class="dfn-paneled" id="8956a48a">&lt;border-width></span>
+     <li><span class="dfn-paneled" id="8e531c37">background-position</span>
+     <li><span class="dfn-paneled" id="a1ca79a0">border-collapse</span>
      <li><span class="dfn-paneled" id="992a4717">circle</span>
      <li><span class="dfn-paneled" id="3ca24cd8">disc</span>
-     <li><span class="dfn-paneled" id="54b60dc9">font-size</span>
+     <li><span class="dfn-paneled" id="ac54fbff">line-height</span>
      <li><span class="dfn-paneled" id="45398ed5">square</span>
     </ul>
    <li>
@@ -6511,22 +6518,24 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <dl>
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
+   <dt id="biblio-css-cascade-6">[CSS-CASCADE-6]
+   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-6/"><cite>CSS Cascading and Inheritance Level 6</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-6/">https://drafts.csswg.org/css-cascade-6/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-counter-styles-3">[CSS-COUNTER-STYLES-3]
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-counter-styles/"><cite>CSS Counter Styles Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-counter-styles/">https://drafts.csswg.org/css-counter-styles/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-easing-2">[CSS-EASING-2]
    <dd><a href="https://drafts.csswg.org/css-easing/"><cite>CSS Easing Functions Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-easing/">https://drafts.csswg.org/css-easing/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
    <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-4/"><cite>CSS Fonts Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-4/">https://drafts.csswg.org/css-fonts-4/</a>
    <dt id="biblio-css-grid-2">[CSS-GRID-2]
-   <dd>Tab Atkins Jr.; Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
    <dt id="biblio-css-images-4">[CSS-IMAGES-4]
-   <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-4/"><cite>CSS Images Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-4/">https://drafts.csswg.org/css-images-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-images-4/"><cite>CSS Images Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-4/">https://drafts.csswg.org/css-images-4/</a>
    <dt id="biblio-css-inline-3">[CSS-INLINE-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-inline-3/"><cite>CSS Inline Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-inline-3/">https://drafts.csswg.org/css-inline-3/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
@@ -6540,17 +6549,17 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-typed-om-1">[CSS-TYPED-OM-1]
    <dd>Tab Atkins Jr.; François Remy. <a href="https://drafts.css-houdini.org/css-typed-om-1/"><cite>CSS Typed OM Level 1</cite></a>. URL: <a href="https://drafts.css-houdini.org/css-typed-om-1/">https://drafts.css-houdini.org/css-typed-om-1/</a>
    <dt id="biblio-css-ui-4">[CSS-UI-4]
-   <dd>Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
    <dt id="biblio-css-values-5">[CSS-VALUES-5]
    <dd>Tab Atkins Jr.; Elika Etemad; Miriam Suzanne. <a href="https://drafts.csswg.org/css-values-5/"><cite>CSS Values and Units Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-5/">https://drafts.csswg.org/css-values-5/</a>
+   <dt id="biblio-css-variables-1">[CSS-VARIABLES-1]
+   <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-variables/"><cite>CSS Custom Properties for Cascading Variables Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-variables/">https://drafts.csswg.org/css-variables/</a>
    <dt id="biblio-css-variables-2">[CSS-VARIABLES-2]
    <dd><a href="https://drafts.csswg.org/css-variables-2/"><cite>CSS Custom Properties for Cascading Variables Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-variables-2/">https://drafts.csswg.org/css-variables-2/</a>
    <dt id="biblio-css-writing-modes-4">[CSS-WRITING-MODES-4]
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-writing-modes-4/"><cite>CSS Writing Modes Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-writing-modes-4/">https://drafts.csswg.org/css-writing-modes-4/</a>
    <dt id="biblio-css21">[CSS21]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3-background">[CSS3-BACKGROUND]
    <dd>Elika Etemad; Brad Kemper. <a href="https://drafts.csswg.org/css-backgrounds/"><cite>CSS Backgrounds and Borders Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-backgrounds/">https://drafts.csswg.org/css-backgrounds/</a>
    <dt id="biblio-css3-fonts">[CSS3-FONTS]
@@ -6570,7 +6579,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-selectors-4">[SELECTORS-4]
@@ -6590,12 +6599,14 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-box-4/"><cite>CSS Box Model Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-box-4/">https://drafts.csswg.org/css-box-4/</a>
    <dt id="biblio-css-break-3">[CSS-BREAK-3]
    <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-break/"><cite>CSS Fragmentation Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-break/">https://drafts.csswg.org/css-break/</a>
+   <dt id="biblio-css-fonts-5">[CSS-FONTS-5]
+   <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-5/"><cite>CSS Fonts Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-5/">https://drafts.csswg.org/css-fonts-5/</a>
    <dt id="biblio-css-grid-1">[CSS-GRID-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid/"><cite>CSS Grid Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid/">https://drafts.csswg.org/css-grid/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-1/"><cite>CSS Grid Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-1/">https://drafts.csswg.org/css-grid-1/</a>
    <dt id="biblio-css-overflow-4">[CSS-OVERFLOW-4]
    <dd>David Baron; Florian Rivoal; Elika Etemad. <a href="https://drafts.csswg.org/css-overflow-4/"><cite>CSS Overflow Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-4/">https://drafts.csswg.org/css-overflow-4/</a>
    <dt id="biblio-css-rhythm-1">[CSS-RHYTHM-1]
-   <dd>Koji Ishii; Elika Etemad. <a href="https://drafts.csswg.org/css-rhythm/"><cite>CSS Rhythmic Sizing</cite></a>. URL: <a href="https://drafts.csswg.org/css-rhythm/">https://drafts.csswg.org/css-rhythm/</a>
+   <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-rhythm/"><cite>CSS Rhythmic Sizing Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-rhythm/">https://drafts.csswg.org/css-rhythm/</a>
    <dt id="biblio-css-text-3">[CSS-TEXT-3]
    <dd>Elika Etemad; Koji Ishii; Florian Rivoal. <a href="https://drafts.csswg.org/css-text-3/"><cite>CSS Text Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-3/">https://drafts.csswg.org/css-text-3/</a>
    <dt id="biblio-css-text-4">[CSS-TEXT-4]
@@ -6605,7 +6616,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-mediaq">[MEDIAQ]
-   <dd>Florian Rivoal; Tab Atkins Jr.. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
    <dt id="biblio-quirks">[QUIRKS]
    <dd>Simon Pieters. <a href="https://quirks.spec.whatwg.org/"><cite>Quirks Mode Standard</cite></a>. Living Standard. URL: <a href="https://quirks.spec.whatwg.org/">https://quirks.spec.whatwg.org/</a>
    <dt id="biblio-rfc6694">[RFC6694]
@@ -6637,7 +6648,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
 	<code class="highlight">foo="rgb(var(--red), 0, 0)"</code>
 	needs to be illegal for <span class="css">attr(foo color)</span>. <a class="issue-return" href="#issue-168aea69" title="Jump to section">↵</a></div>
    <div class="issue"> attr() and var() substitute at the same time,
-	so I should probably rewrite <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-2/#substitute-a-var">substitute a var()</a>
+	so I should probably rewrite <a data-link-type="dfn" href="https://www.w3.org/TR/css-variables-1/#substitute-a-var">substitute a var()</a>
 	to be more generally about "substitute a reference"
 	and just use that for both of these functions. <a class="issue-return" href="#issue-9dd81cfe" title="Jump to section">↵</a></div>
    <div class="issue"> CSSOM needs to specify how it rounds,
@@ -7452,7 +7463,6 @@ let dfnPanelData = {
 "218f0f24": {"dfnID":"218f0f24","dfnText":"hsl()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-hsl"}],"title":"5.6. \nMixing Percentages and Dimensions"}],"url":"https://drafts.csswg.org/css-color-4/#funcdef-hsl"},
 "2589df91": {"dfnID":"2589df91","dfnText":"orphans","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-orphans"}],"title":"2.6. \nProperty Value Examples"}],"url":"https://drafts.csswg.org/css-break-3/#propdef-orphans"},
 "27d9b7ea": {"dfnID":"27d9b7ea","dfnText":"element","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-element"}],"title":"10. \nAttribute References: the attr() function"}],"url":"https://dom.spec.whatwg.org/#concept-element"},
-"29ca9f85": {"dfnID":"29ca9f85","dfnText":"border-collapse","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-collapse"}],"title":"4.1. \nPre-defined Keywords"}],"url":"https://www.w3.org/TR/CSS21/tables.html#propdef-border-collapse"},
 "2c57f900": {"dfnID":"2c57f900","dfnText":"font","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font"},{"id":"ref-for-propdef-font\u2460"},{"id":"ref-for-propdef-font\u2461"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font"},
 "2fafca4a": {"dfnID":"2fafca4a","dfnText":"match","external":true,"refSections":[{"refs":[{"id":"ref-for-cssnumericvalue-match"},{"id":"ref-for-cssnumericvalue-match\u2460"}],"title":"11.5. \nExponential  Functions: pow(), sqrt(), hypot(), log(), exp()"},{"refs":[{"id":"ref-for-cssnumericvalue-match\u2461"},{"id":"ref-for-cssnumericvalue-match\u2462"}],"title":"11.9. \nType Checking"},{"refs":[{"id":"ref-for-cssnumericvalue-match\u2463"}],"title":"11.10.1. \nSimplification"}],"url":"https://drafts.css-houdini.org/css-typed-om-1/#cssnumericvalue-match"},
 "30ce8c2a": {"dfnID":"30ce8c2a","dfnText":"block-step-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-block-step-size"},{"id":"ref-for-propdef-block-step-size\u2460"}],"title":"11.3. \nStepped Value Functions: round(), mod(), and rem()"}],"url":"https://drafts.csswg.org/css-rhythm-1/#propdef-block-step-size"},
@@ -7467,10 +7477,8 @@ let dfnPanelData = {
 "49a5f65f": {"dfnID":"49a5f65f","dfnText":"padding-top","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-padding-top"}],"title":"2.6. \nProperty Value Examples"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-padding-top"},
 "4a3bf5fb": {"dfnID":"4a3bf5fb","dfnText":"concatenate","external":true,"refSections":[{"refs":[{"id":"ref-for-string-concatenate"}],"title":"11.13. \nSerialization"}],"url":"https://infra.spec.whatwg.org/#string-concatenate"},
 "4d7d3dcd": {"dfnID":"4d7d3dcd","dfnText":"initial","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-all-initial"},{"id":"ref-for-valdef-all-initial\u2460"},{"id":"ref-for-valdef-all-initial\u2461"}],"title":"4.1.1. \nCSS-wide keywords: initial, inherit and unset"}],"url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-initial"},
-"4e55d7fb": {"dfnID":"4e55d7fb","dfnText":"@import","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-import"}],"title":"4.5. \nResource Locators: the <url> type"}],"url":"https://drafts.csswg.org/css-cascade-5/#at-ruledef-import"},
 "4ffe613d": {"dfnID":"4ffe613d","dfnText":"<percentage-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-percentage-token"}],"title":"5.5. \nPercentages: the <percentage> type"},{"refs":[{"id":"ref-for-typedef-percentage-token\u2460"}],"title":"10.1. \nattr() Types"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-percentage-token"},
 "539e4c80": {"dfnID":"539e4c80","dfnText":"image-resolution","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-image-resolution"},{"id":"ref-for-propdef-image-resolution\u2460"}],"title":"7.4. \nResolution Units: the <resolution> type and dpi, dpcm, dppx units"}],"url":"https://drafts.csswg.org/css-images-4/#propdef-image-resolution"},
-"54b60dc9": {"dfnID":"54b60dc9","dfnText":"font-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-size\u2466"}],"title":"11.1. \nBasic Arithmetic: calc()"}],"url":"https://drafts.csswg.org/css2/#propdef-font-size"},
 "54fd6ed6": {"dfnID":"54fd6ed6","dfnText":"invalid at computed-value time","external":true,"refSections":[{"refs":[{"id":"ref-for-invalid-at-computed-value-time"},{"id":"ref-for-invalid-at-computed-value-time\u2460"}],"title":"10.2. \nattr() Substitution"}],"url":"https://drafts.csswg.org/css-values-5/#invalid-at-computed-value-time"},
 "56177fad": {"dfnID":"56177fad","dfnText":"shorthand","external":true,"refSections":[{"refs":[{"id":"ref-for-shorthand-property"},{"id":"ref-for-shorthand-property\u2460"}],"title":"9.1. \nToggling Between Values: toggle()"}],"url":"https://drafts.csswg.org/css-cascade-5/#shorthand-property"},
 "5bc3d0ec": {"dfnID":"5bc3d0ec","dfnText":"text-decoration","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-decoration"}],"title":"2.6. \nProperty Value Examples"}],"url":"https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration"},
@@ -7504,32 +7512,36 @@ let dfnPanelData = {
 "8956a48a": {"dfnID":"8956a48a","dfnText":"<border-width>","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-border-width"}],"title":"2.1. \nComponent Value Types"}],"url":"https://drafts.csswg.org/css2/#value-def-border-width"},
 "8b3ca704": {"dfnID":"8b3ca704","dfnText":"auto","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-overflow-auto"}],"title":"6.1.2. \nViewport-percentage Lengths: the vw, vh, vi, vb, vmin, vmax units"}],"url":"https://drafts.csswg.org/css-overflow-3/#valdef-overflow-auto"},
 "8ca0c013": {"dfnID":"8ca0c013","dfnText":"shorthand property","external":true,"refSections":[{"refs":[{"id":"ref-for-shorthand-property"},{"id":"ref-for-shorthand-property\u2460"}],"title":"9.1. \nToggling Between Values: toggle()"}],"url":"https://drafts.csswg.org/css-cascade-5/#shorthand-property"},
+"8e531c37": {"dfnID":"8e531c37","dfnText":"background-position","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-position\u2461"}],"title":"9.1. \nToggling Between Values: toggle()"}],"url":"https://drafts.csswg.org/css2/#propdef-background-position"},
 "8f605f43": {"dfnID":"8f605f43","dfnText":"tab-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-tab-size"}],"title":"11.9. \nType Checking"}],"url":"https://drafts.csswg.org/css-text-4/#propdef-tab-size"},
 "91bfbe18": {"dfnID":"91bfbe18","dfnText":"opacity","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-opacity"},{"id":"ref-for-propdef-opacity\u2460"},{"id":"ref-for-propdef-opacity\u2461"},{"id":"ref-for-propdef-opacity\u2462"},{"id":"ref-for-propdef-opacity\u2463"}],"title":"11.9. \nType Checking"}],"url":"https://drafts.csswg.org/css-color-4/#propdef-opacity"},
 "91c016b5": {"dfnID":"91c016b5","dfnText":"identical to","external":true,"refSections":[{"refs":[{"id":"ref-for-string-is"}],"title":"4.2. \nAuthor-defined Identifiers: the <custom-ident> type"}],"url":"https://infra.spec.whatwg.org/#string-is"},
 "92700be8": {"dfnID":"92700be8","dfnText":"<number-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-number-token"}],"title":"5.2. \nIntegers: the <integer> type"},{"refs":[{"id":"ref-for-typedef-number-token\u2460"},{"id":"ref-for-typedef-number-token\u2461"}],"title":"5.3. \nReal Numbers: the <number> type"},{"refs":[{"id":"ref-for-typedef-number-token\u2462"},{"id":"ref-for-typedef-number-token\u2463"}],"title":"10.1. \nattr() Types"},{"refs":[{"id":"ref-for-typedef-number-token\u2464"}],"title":"11.9. \nType Checking"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-number-token"},
 "94d3d62c": {"dfnID":"94d3d62c","dfnText":"@color-profile","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-profile"}],"title":"4.3. \nExplicitly Author-defined Identifiers: the <dashed-ident> type"}],"url":"https://drafts.csswg.org/css-color-5/#at-ruledef-profile"},
-"97c37d4a": {"dfnID":"97c37d4a","dfnText":"substitute a var()","external":true,"refSections":[{"refs":[{"id":"ref-for-substitute-a-var"}],"title":"10.2. \nattr() Substitution"}],"url":"https://drafts.csswg.org/css-variables-2/#substitute-a-var"},
 "987beb2a": {"dfnID":"987beb2a","dfnText":"named color","external":true,"refSections":[{"refs":[{"id":"ref-for-named-color"}],"title":"10.1. \nattr() Types"}],"url":"https://drafts.csswg.org/css-color-4/#named-color"},
 "992a4717": {"dfnID":"992a4717","dfnText":"circle","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-circle"}],"title":"9.1. \nToggling Between Values: toggle()"}],"url":"https://drafts.csswg.org/css2/#value-def-circle"},
 "998b9e6e": {"dfnID":"998b9e6e","dfnText":"<image>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-image"},{"id":"ref-for-typedef-image\u2460"},{"id":"ref-for-typedef-image\u2461"},{"id":"ref-for-typedef-image\u2462"}],"title":"8.2. \nImages: the <image> type"},{"refs":[{"id":"ref-for-typedef-image\u2463"},{"id":"ref-for-typedef-image\u2464"}],"title":"8.2.1. \nCombination of <image>"}],"url":"https://drafts.csswg.org/css-images-3/#typedef-image"},
 "9a34f8c4": {"dfnID":"9a34f8c4","dfnText":"internal representation","external":true,"refSections":[{"refs":[{"id":"ref-for-css-internal-representation"},{"id":"ref-for-css-internal-representation\u2460"},{"id":"ref-for-css-internal-representation\u2461"},{"id":"ref-for-css-internal-representation\u2462"}],"title":"11.10. \nInternal Representation"},{"refs":[{"id":"ref-for-css-internal-representation\u2463"}],"title":"11.10.1. \nSimplification"}],"url":"https://drafts.css-houdini.org/css-typed-om-1/#css-internal-representation"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"},{"id":"ref-for-computed-value\u2460"},{"id":"ref-for-computed-value\u2461"}],"title":"3. \nCombining Values: Interpolation, Addition, and Accumulation"},{"refs":[{"id":"ref-for-computed-value\u2462"}],"title":"4. \nTextual Data Types"},{"refs":[{"id":"ref-for-computed-value\u2463"}],"title":"5. \nNumeric Data Types"},{"refs":[{"id":"ref-for-computed-value\u2464"}],"title":"5.4.1. \nCompatible Units"},{"refs":[{"id":"ref-for-computed-value\u2465"}],"title":"6.1. \nRelative Lengths"},{"refs":[{"id":"ref-for-computed-value\u2466"},{"id":"ref-for-computed-value\u2467"},{"id":"ref-for-computed-value\u2468"}],"title":"11.11. \nComputed Value"},{"refs":[{"id":"ref-for-computed-value\u2460\u24ea"},{"id":"ref-for-computed-value\u2460\u2460"}],"title":"11.12. \nRange Checking"},{"refs":[{"id":"ref-for-computed-value\u2460\u2461"}],"title":"11.13. \nSerialization"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
-"9d78b4c6": {"dfnID":"9d78b4c6","dfnText":"background-position","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-position\u2461"}],"title":"9.1. \nToggling Between Values: toggle()"}],"url":"https://www.w3.org/TR/CSS21/colors.html#propdef-background-position"},
 "9e004c39": {"dfnID":"9e004c39","dfnText":"unset","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-all-unset"},{"id":"ref-for-valdef-all-unset\u2460"}],"title":"4.1.1. \nCSS-wide keywords: initial, inherit and unset"}],"url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-unset"},
 "Hz": {"dfnID":"Hz","dfnText":"Hz","external":false,"refSections":[{"refs":[{"id":"ref-for-Hz"},{"id":"ref-for-Hz\u2460"}],"title":"7.3. Frequency Units: the <frequency> type and Hz, kHz units"}],"url":"#Hz"},
 "Q": {"dfnID":"Q","dfnText":"Q","external":false,"refSections":[{"refs":[{"id":"ref-for-Q"},{"id":"ref-for-Q\u2460"}],"title":"6.2. Absolute Lengths: the cm, mm, Q, in, pt, pc, px units"}],"url":"#Q"},
+"a1ca79a0": {"dfnID":"a1ca79a0","dfnText":"border-collapse","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-collapse"}],"title":"4.1. \nPre-defined Keywords"}],"url":"https://drafts.csswg.org/css2/#propdef-border-collapse"},
 "a37f05fd": {"dfnID":"a37f05fd","dfnText":"strip leading and trailing ASCII whitespace","external":true,"refSections":[{"refs":[{"id":"ref-for-strip-leading-and-trailing-ascii-whitespace"}],"title":"10.1. \nattr() Types"}],"url":"https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace"},
+"a39ee65d": {"dfnID":"a39ee65d","dfnText":"substitute a var()","external":true,"refSections":[{"refs":[{"id":"ref-for-substitute-a-var"}],"title":"10.2. \nattr() Substitution"}],"url":"https://www.w3.org/TR/css-variables-1/#substitute-a-var"},
 "a4eb3c57": {"dfnID":"a4eb3c57","dfnText":"used value","external":true,"refSections":[{"refs":[{"id":"ref-for-used-value"},{"id":"ref-for-used-value\u2460"}],"title":"5.4.1. \nCompatible Units"},{"refs":[{"id":"ref-for-used-value\u2461"}],"title":"6. \nDistance Units: the <length> type"},{"refs":[{"id":"ref-for-used-value\u2462"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"},{"refs":[{"id":"ref-for-used-value\u2463"},{"id":"ref-for-used-value\u2464"}],"title":"11.11. \nComputed Value"},{"refs":[{"id":"ref-for-used-value\u2465"},{"id":"ref-for-used-value\u2466"}],"title":"11.12. \nRange Checking"}],"url":"https://drafts.csswg.org/css-cascade-5/#used-value"},
 "a63375cb": {"dfnID":"a63375cb","dfnText":"<dimension-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-dimension-token"}],"title":"2.5. \nComponent Values and White Space"},{"refs":[{"id":"ref-for-typedef-dimension-token\u2460"}],"title":"5.4. \nNumbers with Units: dimension values"},{"refs":[{"id":"ref-for-typedef-dimension-token\u2461"}],"title":"10.1. \nattr() Types"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-dimension-token"},
+"a803a89f": {"dfnID":"a803a89f","dfnText":"@import","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-import"}],"title":"4.5. \nResource Locators: the <url> type"}],"url":"https://drafts.csswg.org/css-cascade-6/#at-ruledef-import"},
 "a942934d": {"dfnID":"a942934d","dfnText":"<whitespace-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-whitespace-token"}],"title":"11.10. \nInternal Representation"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-whitespace-token"},
 "absolute-length": {"dfnID":"absolute-length","dfnText":"absolute length units","external":false,"refSections":[{"refs":[{"id":"ref-for-absolute-length"}],"title":"6. Distance Units: the <length> type"}],"url":"#absolute-length"},
+"ac54fbff": {"dfnID":"ac54fbff","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"6. \nDistance Units: the <length> type"},{"refs":[{"id":"ref-for-propdef-line-height\u2460"},{"id":"ref-for-propdef-line-height\u2461"},{"id":"ref-for-propdef-line-height\u2462"},{"id":"ref-for-propdef-line-height\u2463"},{"id":"ref-for-propdef-line-height\u2464"},{"id":"ref-for-propdef-line-height\u2465"},{"id":"ref-for-propdef-line-height\u2466"},{"id":"ref-for-propdef-line-height\u2467"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"},{"refs":[{"id":"ref-for-propdef-line-height\u2468"},{"id":"ref-for-propdef-line-height\u2460\u24ea"},{"id":"ref-for-propdef-line-height\u2460\u2460"}],"title":"11.7. \nNumeric Constants: e, pi"},{"refs":[{"id":"ref-for-propdef-line-height\u2460\u2461"}],"title":"11.9. \nType Checking"}],"url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "accumulation": {"dfnID":"accumulation","dfnText":"accumulation","external":false,"refSections":[{"refs":[{"id":"ref-for-accumulation"},{"id":"ref-for-accumulation\u2460"},{"id":"ref-for-accumulation\u2461"},{"id":"ref-for-accumulation\u2462"},{"id":"ref-for-accumulation\u2463"}],"title":"3. Combining Values: Interpolation, Addition, and Accumulation"}],"url":"#accumulation"},
 "addition": {"dfnID":"addition","dfnText":"addition","external":false,"refSections":[{"refs":[{"id":"ref-for-addition"},{"id":"ref-for-addition\u2460"},{"id":"ref-for-addition\u2461"},{"id":"ref-for-addition\u2462"},{"id":"ref-for-addition\u2463"},{"id":"ref-for-addition\u2464"},{"id":"ref-for-addition\u2465"}],"title":"3. Combining Values: Interpolation, Addition, and Accumulation"},{"refs":[{"id":"ref-for-addition\u2466"}],"title":"5.2.1. Combination of <integer>"},{"refs":[{"id":"ref-for-addition\u2467"}],"title":"5.3.1. Combination of <number>"},{"refs":[{"id":"ref-for-addition\u2468"}],"title":"5.4.2. Combination of Dimensions"},{"refs":[{"id":"ref-for-addition\u2460\u24ea"}],"title":"5.5.1. Combination of <percentage>"},{"refs":[{"id":"ref-for-addition\u2460\u2460"},{"id":"ref-for-addition\u2460\u2461"}],"title":"5.6.1. Combination of Percentage and Dimension Mixes"},{"refs":[{"id":"ref-for-addition\u2460\u2462"},{"id":"ref-for-addition\u2460\u2463"}],"title":"8.1.1. Combination of <color>"},{"refs":[{"id":"ref-for-addition\u2460\u2464"},{"id":"ref-for-addition\u2460\u2465"}],"title":"8.3.1. Combination of <position>"},{"refs":[{"id":"ref-for-addition\u2460\u2466"}],"title":"11.14. Combination of Math Functions"}],"url":"#addition"},
 "af50aa62": {"dfnID":"af50aa62","dfnText":"<function-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-function-token"}],"title":"9. \nFunctional Notations"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-function-token"},
 "anchor-unit": {"dfnID":"anchor-unit","dfnText":"anchored","external":false,"refSections":[{"refs":[{"id":"ref-for-anchor-unit"},{"id":"ref-for-anchor-unit\u2460"},{"id":"ref-for-anchor-unit\u2461"},{"id":"ref-for-anchor-unit\u2462"},{"id":"ref-for-anchor-unit\u2463"}],"title":"6.2. Absolute Lengths: the cm, mm, Q, in, pt, pc, px units"}],"url":"#anchor-unit"},
 "angle-value": {"dfnID":"angle-value","dfnText":"<angle>","external":false,"refSections":[{"refs":[{"id":"ref-for-angle-value"},{"id":"ref-for-angle-value\u2460"}],"title":"5. Numeric Data Types"},{"refs":[{"id":"ref-for-angle-value\u2461"},{"id":"ref-for-angle-value\u2462"}],"title":"5.6. Mixing Percentages and Dimensions"},{"refs":[{"id":"ref-for-angle-value\u2463"}],"title":"5.6.1. Combination of Percentage and Dimension Mixes"},{"refs":[{"id":"ref-for-angle-value\u2464"},{"id":"ref-for-angle-value\u2465"},{"id":"ref-for-angle-value\u2466"},{"id":"ref-for-angle-value\u2467"},{"id":"ref-for-angle-value\u2468"}],"title":"7.1. Angle Units: the <angle> type and deg, grad, rad, turn units"},{"refs":[{"id":"ref-for-angle-value\u2460\u24ea"}],"title":"10. Attribute References: the attr() function"},{"refs":[{"id":"ref-for-angle-value\u2460\u2460"}],"title":"11. Mathematical Expressions"},{"refs":[{"id":"ref-for-angle-value\u2460\u2461"},{"id":"ref-for-angle-value\u2460\u2462"},{"id":"ref-for-angle-value\u2460\u2463"}],"title":"11.4. Trigonometric Functions: sin(), cos(), tan(), asin(), acos(), atan(), and atan2()"},{"refs":[{"id":"ref-for-angle-value\u2460\u2464"},{"id":"ref-for-angle-value\u2460\u2465"}],"title":"11.9. Type Checking"}],"url":"#angle-value"},
 "attr-substitution-value": {"dfnID":"attr-substitution-value","dfnText":"substitution value","external":false,"refSections":[{"refs":[{"id":"ref-for-attr-substitution-value"},{"id":"ref-for-attr-substitution-value\u2460"},{"id":"ref-for-attr-substitution-value\u2461"},{"id":"ref-for-attr-substitution-value\u2462"},{"id":"ref-for-attr-substitution-value\u2463"},{"id":"ref-for-attr-substitution-value\u2464"},{"id":"ref-for-attr-substitution-value\u2465"},{"id":"ref-for-attr-substitution-value\u2466"},{"id":"ref-for-attr-substitution-value\u2467"},{"id":"ref-for-attr-substitution-value\u2468"},{"id":"ref-for-attr-substitution-value\u2460\u24ea"},{"id":"ref-for-attr-substitution-value\u2460\u2460"},{"id":"ref-for-attr-substitution-value\u2460\u2461"},{"id":"ref-for-attr-substitution-value\u2460\u2462"},{"id":"ref-for-attr-substitution-value\u2460\u2463"}],"title":"10.1. attr() Types"},{"refs":[{"id":"ref-for-attr-substitution-value\u2460\u2464"},{"id":"ref-for-attr-substitution-value\u2460\u2465"}],"title":"10.2. attr() Substitution"}],"url":"#attr-substitution-value"},
+"b54fbb7a": {"dfnID":"b54fbb7a","dfnText":"font-size","external":true,"refSections":[{"refs":[{"id":"ref-for-descdef-font-face-font-size"}],"title":"11.1. \nBasic Arithmetic: calc()"}],"url":"https://drafts.csswg.org/css-fonts-5/#descdef-font-face-font-size"},
 "b7c8adc2": {"dfnID":"b7c8adc2","dfnText":"<url-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-url-token"}],"title":"4.5. \nResource Locators: the <url> type"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-url-token"},
 "baa03018": {"dfnID":"baa03018","dfnText":"ease-out","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-cubic-bezier-easing-function-ease-out"}],"title":"4.2. \nAuthor-defined Identifiers: the <custom-ident> type"}],"url":"https://drafts.csswg.org/css-easing-2/#valdef-cubic-bezier-easing-function-ease-out"},
 "baca35b9": {"dfnID":"baca35b9","dfnText":"<flex>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-flex"}],"title":"10. \nAttribute References: the attr() function"},{"refs":[{"id":"ref-for-typedef-flex\u2460"}],"title":"11. \nMathematical Expressions"},{"refs":[{"id":"ref-for-typedef-flex\u2461"},{"id":"ref-for-typedef-flex\u2462"}],"title":"11.9. \nType Checking"}],"url":"https://drafts.csswg.org/css-grid-2/#typedef-flex"},
@@ -7593,10 +7605,9 @@ let dfnPanelData = {
 "f49914d4": {"dfnID":"f49914d4","dfnText":"upright","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-text-orientation-upright"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#valdef-text-orientation-upright"},
 "f4eec130": {"dfnID":"f4eec130","dfnText":"attribute selector","external":true,"refSections":[{"refs":[{"id":"ref-for-attribute-selector"}],"title":"10. \nAttribute References: the attr() function"}],"url":"https://drafts.csswg.org/selectors-4/#attribute-selector"},
 "f5eca8c9": {"dfnID":"f5eca8c9","dfnText":"background","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background"}],"title":"2.1. \nComponent Value Types"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background"},
-"f601a423": {"dfnID":"f601a423","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"6. \nDistance Units: the <length> type"},{"refs":[{"id":"ref-for-propdef-line-height\u2460"},{"id":"ref-for-propdef-line-height\u2461"},{"id":"ref-for-propdef-line-height\u2462"},{"id":"ref-for-propdef-line-height\u2463"},{"id":"ref-for-propdef-line-height\u2464"},{"id":"ref-for-propdef-line-height\u2465"},{"id":"ref-for-propdef-line-height\u2466"},{"id":"ref-for-propdef-line-height\u2467"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"},{"refs":[{"id":"ref-for-propdef-line-height\u2468"},{"id":"ref-for-propdef-line-height\u2460\u24ea"},{"id":"ref-for-propdef-line-height\u2460\u2460"}],"title":"11.7. \nNumeric Constants: e, pi"},{"refs":[{"id":"ref-for-propdef-line-height\u2460\u2461"}],"title":"11.9. \nType Checking"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "f8a826f8": {"dfnID":"f8a826f8","dfnText":"ease-in","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-cubic-bezier-easing-function-ease-in"}],"title":"4.2. \nAuthor-defined Identifiers: the <custom-ident> type"}],"url":"https://drafts.csswg.org/css-easing-2/#valdef-cubic-bezier-easing-function-ease-in"},
 "f95a7c3b": {"dfnID":"f95a7c3b","dfnText":"background-attachment","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-attachment"}],"title":"2.1. \nComponent Value Types"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-attachment"},
-"fdf6efd5": {"dfnID":"fdf6efd5","dfnText":"font-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-size"}],"title":"5.4.1. \nCompatible Units"},{"refs":[{"id":"ref-for-propdef-font-size\u2460"},{"id":"ref-for-propdef-font-size\u2461"},{"id":"ref-for-propdef-font-size\u2462"},{"id":"ref-for-propdef-font-size\u2463"},{"id":"ref-for-propdef-font-size\u2464"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"},{"refs":[{"id":"ref-for-propdef-font-size\u2465"}],"title":"11.1. \nBasic Arithmetic: calc()"},{"refs":[{"id":"ref-for-propdef-font-size\u2467"}],"title":"11.2. \nComparison Functions: min(), max(), and clamp()"},{"refs":[{"id":"ref-for-propdef-font-size\u2468"},{"id":"ref-for-propdef-font-size\u2460\u24ea"}],"title":"11.11. \nComputed Value"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-size"},
+"fdf6efd5": {"dfnID":"fdf6efd5","dfnText":"font-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-size"}],"title":"5.4.1. \nCompatible Units"},{"refs":[{"id":"ref-for-propdef-font-size\u2460"},{"id":"ref-for-propdef-font-size\u2461"},{"id":"ref-for-propdef-font-size\u2462"},{"id":"ref-for-propdef-font-size\u2463"},{"id":"ref-for-propdef-font-size\u2464"}],"title":"6.1.1. \nFont-relative Lengths: the em, ex, cap, ch, ic, rem, lh, rlh units"},{"refs":[{"id":"ref-for-propdef-font-size\u2465"}],"title":"11.1. \nBasic Arithmetic: calc()"},{"refs":[{"id":"ref-for-propdef-font-size\u2466"}],"title":"11.2. \nComparison Functions: min(), max(), and clamp()"},{"refs":[{"id":"ref-for-propdef-font-size\u2467"},{"id":"ref-for-propdef-font-size\u2468"}],"title":"11.11. \nComputed Value"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-size"},
 "font-relative-length": {"dfnID":"font-relative-length","dfnText":"font-relative lengths","external":false,"refSections":[{"refs":[{"id":"ref-for-font-relative-length"}],"title":"11.11. Computed Value"}],"url":"#font-relative-length"},
 "frequency-value": {"dfnID":"frequency-value","dfnText":"<frequency>","external":false,"refSections":[{"refs":[{"id":"ref-for-frequency-value"}],"title":"5. Numeric Data Types"},{"refs":[{"id":"ref-for-frequency-value\u2460"}],"title":"5.4. Numbers with Units: dimension values"},{"refs":[{"id":"ref-for-frequency-value\u2461"},{"id":"ref-for-frequency-value\u2462"}],"title":"5.6. Mixing Percentages and Dimensions"},{"refs":[{"id":"ref-for-frequency-value\u2463"}],"title":"5.6.1. Combination of Percentage and Dimension Mixes"},{"refs":[{"id":"ref-for-frequency-value\u2464"},{"id":"ref-for-frequency-value\u2465"}],"title":"7.3. Frequency Units: the <frequency> type and Hz, kHz units"},{"refs":[{"id":"ref-for-frequency-value\u2466"}],"title":"10. Attribute References: the attr() function"},{"refs":[{"id":"ref-for-frequency-value\u2467"}],"title":"11. Mathematical Expressions"},{"refs":[{"id":"ref-for-frequency-value\u2468"},{"id":"ref-for-frequency-value\u2460\u24ea"}],"title":"11.9. Type Checking"}],"url":"#frequency-value"},
 "funcdef-abs": {"dfnID":"funcdef-abs","dfnText":"abs(A)","external":false,"refSections":[{"refs":[{"id":"ref-for-funcdef-abs"},{"id":"ref-for-funcdef-abs\u2460"}],"title":"11.6. Sign-Related Functions: abs(), sign()"},{"refs":[{"id":"ref-for-funcdef-abs\u2461"}],"title":"11.8. Syntax"},{"refs":[{"id":"ref-for-funcdef-abs\u2462"}],"title":"11.9. Type Checking"},{"refs":[{"id":"ref-for-funcdef-abs\u2463"}],"title":"Changes Since the Jan 13 2019 Working Draft"},{"refs":[{"id":"ref-for-funcdef-abs\u2464"}],"title":"Additions Since Level 3"}],"url":"#funcdef-abs"},
@@ -8361,7 +8372,6 @@ let refsData = {
 "https://drafts.csswg.org/css-box-4/#propdef-padding-top": {"displayText":"padding-top","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"padding-top","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-padding-top"},
 "https://drafts.csswg.org/css-break-3/#propdef-orphans": {"displayText":"orphans","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-break","spec":"css-break-3","status":"current","text":"orphans","type":"property","url":"https://drafts.csswg.org/css-break-3/#propdef-orphans"},
 "https://drafts.csswg.org/css-cascade-5/#actual-value": {"displayText":"actual value","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"actual value","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#actual-value"},
-"https://drafts.csswg.org/css-cascade-5/#at-ruledef-import": {"displayText":"@import","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"@import","type":"at-rule","url":"https://drafts.csswg.org/css-cascade-5/#at-ruledef-import"},
 "https://drafts.csswg.org/css-cascade-5/#computed-value": {"displayText":"computed value","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"computed value","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "https://drafts.csswg.org/css-cascade-5/#inherited-value": {"displayText":"inherited value","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"inherited value","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#inherited-value"},
 "https://drafts.csswg.org/css-cascade-5/#shorthand-property": {"displayText":"shorthand property","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"shorthand property","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#shorthand-property"},
@@ -8370,6 +8380,7 @@ let refsData = {
 "https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit": {"displayText":"inherit","export":true,"for_":["all"],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"inherit","type":"value","url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit"},
 "https://drafts.csswg.org/css-cascade-5/#valdef-all-initial": {"displayText":"initial","export":true,"for_":["all"],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"initial","type":"value","url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-initial"},
 "https://drafts.csswg.org/css-cascade-5/#valdef-all-unset": {"displayText":"unset","export":true,"for_":["all"],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"unset","type":"value","url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-unset"},
+"https://drafts.csswg.org/css-cascade-6/#at-ruledef-import": {"displayText":"@import","export":true,"for_":[],"level":"6","normative":true,"shortname":"css-cascade","spec":"css-cascade-6","status":"current","text":"@import","type":"at-rule","url":"https://drafts.csswg.org/css-cascade-6/#at-ruledef-import"},
 "https://drafts.csswg.org/css-color-4/#funcdef-hsl": {"displayText":"hsl()","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-color","spec":"css-color-4","status":"current","text":"hsl()","type":"function","url":"https://drafts.csswg.org/css-color-4/#funcdef-hsl"},
 "https://drafts.csswg.org/css-color-4/#funcdef-rgba": {"displayText":"rgba()","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-color","spec":"css-color-4","status":"current","text":"rgba()","type":"function","url":"https://drafts.csswg.org/css-color-4/#funcdef-rgba"},
 "https://drafts.csswg.org/css-color-4/#named-color": {"displayText":"named color","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-color","spec":"css-color-4","status":"current","text":"named color","type":"dfn","url":"https://drafts.csswg.org/css-color-4/#named-color"},
@@ -8387,6 +8398,7 @@ let refsData = {
 "https://drafts.csswg.org/css-fonts-4/#propdef-font": {"displayText":"font","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-family": {"displayText":"font-family","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-family","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-family"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-size": {"displayText":"font-size","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-size","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-size"},
+"https://drafts.csswg.org/css-fonts-5/#descdef-font-face-font-size": {"displayText":"font-size","export":true,"for_":["@font-face"],"level":"5","normative":true,"shortname":"css-fonts","spec":"css-fonts-5","status":"current","text":"font-size","type":"descriptor","url":"https://drafts.csswg.org/css-fonts-5/#descdef-font-face-font-size"},
 "https://drafts.csswg.org/css-grid-2/#typedef-flex": {"displayText":"<flex>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-grid","spec":"css-grid-2","status":"current","text":"<flex>","type":"type","url":"https://drafts.csswg.org/css-grid-2/#typedef-flex"},
 "https://drafts.csswg.org/css-grid-2/#valdef-flex-fr": {"displayText":"fr","export":true,"for_":["<flex>"],"level":"2","normative":true,"shortname":"css-grid","spec":"css-grid-2","status":"current","text":"fr","type":"value","url":"https://drafts.csswg.org/css-grid-2/#valdef-flex-fr"},
 "https://drafts.csswg.org/css-images-3/#funcdef-linear-gradient": {"displayText":"linear-gradient()","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-images","spec":"css-images-3","status":"current","text":"linear-gradient()","type":"function","url":"https://drafts.csswg.org/css-images-3/#funcdef-linear-gradient"},
@@ -8429,7 +8441,6 @@ let refsData = {
 "https://drafts.csswg.org/css-variables-2/#custom-property": {"displayText":"custom property","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"custom property","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#custom-property"},
 "https://drafts.csswg.org/css-variables-2/#funcdef-var": {"displayText":"var()","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"var()","type":"function","url":"https://drafts.csswg.org/css-variables-2/#funcdef-var"},
 "https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value": {"displayText":"guaranteed-invalid value","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"guaranteed-invalid value","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value"},
-"https://drafts.csswg.org/css-variables-2/#substitute-a-var": {"displayText":"substitute a var()","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"substitute a var()","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#substitute-a-var"},
 "https://drafts.csswg.org/css-writing-modes-4/#block-axis": {"displayText":"block axis","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"block axis","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#block-axis"},
 "https://drafts.csswg.org/css-writing-modes-4/#inline-axis": {"displayText":"inline axis","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"inline axis","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#inline-axis"},
 "https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation": {"displayText":"text-orientation","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"text-orientation","type":"property","url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation"},
@@ -8437,11 +8448,13 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-4/#valdef-text-orientation-upright": {"displayText":"upright","export":true,"for_":["text-orientation"],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"upright","type":"value","url":"https://drafts.csswg.org/css-writing-modes-4/#valdef-text-orientation-upright"},
 "https://drafts.csswg.org/css-writing-modes-4/#valdef-writing-mode-vertical-lr": {"displayText":"vertical-lr","export":true,"for_":["writing-mode"],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"vertical-lr","type":"value","url":"https://drafts.csswg.org/css-writing-modes-4/#valdef-writing-mode-vertical-lr"},
 "https://drafts.csswg.org/css-writing-modes-4/#valdef-writing-mode-vertical-rl": {"displayText":"vertical-rl","export":true,"for_":["writing-mode"],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"vertical-rl","type":"value","url":"https://drafts.csswg.org/css-writing-modes-4/#valdef-writing-mode-vertical-rl"},
-"https://drafts.csswg.org/css2/#propdef-font-size": {"displayText":"font-size","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font-size","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font-size"},
-"https://drafts.csswg.org/css2/#value-def-border-width": {"displayText":"<border-width>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"<border-width>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-border-width"},
-"https://drafts.csswg.org/css2/#value-def-circle": {"displayText":"circle","export":true,"for_":["list-style-type"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"circle","type":"value","url":"https://drafts.csswg.org/css2/#value-def-circle"},
-"https://drafts.csswg.org/css2/#value-def-disc": {"displayText":"disc","export":true,"for_":["list-style-type"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"disc","type":"value","url":"https://drafts.csswg.org/css2/#value-def-disc"},
-"https://drafts.csswg.org/css2/#value-def-square": {"displayText":"square","export":true,"for_":["list-style-type"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"square","type":"value","url":"https://drafts.csswg.org/css2/#value-def-square"},
+"https://drafts.csswg.org/css2/#propdef-background-position": {"displayText":"background-position","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"background-position","type":"property","url":"https://drafts.csswg.org/css2/#propdef-background-position"},
+"https://drafts.csswg.org/css2/#propdef-border-collapse": {"displayText":"border-collapse","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"border-collapse","type":"property","url":"https://drafts.csswg.org/css2/#propdef-border-collapse"},
+"https://drafts.csswg.org/css2/#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-line-height"},
+"https://drafts.csswg.org/css2/#value-def-border-width": {"displayText":"<border-width>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<border-width>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-border-width"},
+"https://drafts.csswg.org/css2/#value-def-circle": {"displayText":"circle","export":true,"for_":["list-style-type"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"circle","type":"value","url":"https://drafts.csswg.org/css2/#value-def-circle"},
+"https://drafts.csswg.org/css2/#value-def-disc": {"displayText":"disc","export":true,"for_":["list-style-type"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"disc","type":"value","url":"https://drafts.csswg.org/css2/#value-def-disc"},
+"https://drafts.csswg.org/css2/#value-def-square": {"displayText":"square","export":true,"for_":["list-style-type"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"square","type":"value","url":"https://drafts.csswg.org/css2/#value-def-square"},
 "https://drafts.csswg.org/mediaqueries-5/#media-query": {"displayText":"media query","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"media query","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#media-query"},
 "https://drafts.csswg.org/mediaqueries-5/#paged-media": {"displayText":"paged media","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"paged media","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#paged-media"},
 "https://drafts.csswg.org/selectors-4/#attribute-selector": {"displayText":"attribute selector","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"attribute selector","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#attribute-selector"},
@@ -8457,9 +8470,7 @@ let refsData = {
 "https://infra.spec.whatwg.org/#string-is": {"displayText":"identical to","export":true,"for_":["string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"identical to","type":"dfn","url":"https://infra.spec.whatwg.org/#string-is"},
 "https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace": {"displayText":"strip leading and trailing ASCII whitespace","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"strip leading and trailing ascii whitespace","type":"dfn","url":"https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace"},
 "https://url.spec.whatwg.org/#concept-url": {"displayText":"URL","export":true,"for_":[],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"url","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url"},
-"https://www.w3.org/TR/CSS21/colors.html#propdef-background-position": {"displayText":"background-position","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"background-position","type":"property","url":"https://www.w3.org/TR/CSS21/colors.html#propdef-background-position"},
-"https://www.w3.org/TR/CSS21/tables.html#propdef-border-collapse": {"displayText":"border-collapse","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"border-collapse","type":"property","url":"https://www.w3.org/TR/CSS21/tables.html#propdef-border-collapse"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
+"https://www.w3.org/TR/css-variables-1/#substitute-a-var": {"displayText":"substitute a var()","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-variables","spec":"css-variables-1","status":"snapshot","text":"substitute a var()","type":"dfn","url":"https://www.w3.org/TR/css-variables-1/#substitute-a-var"},
 };
 
 function mkRefHint(link, ref) {

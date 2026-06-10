@@ -2,6 +2,18 @@ ERROR IN ? of computed-metadata.include: Found unmatched text macro [COMMIT-SHA]
 LINE 1:42 of !Commits metadata: Found unmatched text macro [COMMIT-SHA] in attribute href='...'. Correct the macro, or escape it by replacing the opening [ with &bs[;.
 LINE 49:1: No 'dfn' refs found for 'ancestor browsing context'.
 LINE 66:61: No 'dfn' refs found for 'pairs'.
+LINE 96:35: Multiple possible 'removing steps' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#concept-node-remove-ext
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; text:removing steps
+spec:geolocation-element; type:dfn; for:ActivationBlockersMixin; text:removing steps
+spec:geolocation-element; type:dfn; for:HTMLGeolocationElement; text:removing steps
+spec:geolocation-element; type:dfn; for:PowerfulFeatureObserver; text:removing steps
+LINE 137:49: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 242:39: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
 LINE 331:2: No 'dfn' refs found for 'nested browsing context'.
@@ -17,8 +29,43 @@ LINE 385:14: No 'dfn' refs found for 'context object' that are marked for export
   (Possible specs this could be from: dom-parsing)
 LINE 387:41: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
+LINE 394:6: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
+LINE 397:17: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
+LINE 415:77: Multiple possible 'break' dfn refs.
+Arbitrarily chose https://drafts.csswg.org/css-break-4/#break
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-break-4; type:dfn; text:break
+spec:infra; type:dfn; text:break
 LINE 417:60: No 'dfn' refs found for 'browsing context container' that are marked for export.
   (Possible specs this could be from: longtasks-1)
+LINE 418:23: Multiple possible 'break' dfn refs.
+Arbitrarily chose https://drafts.csswg.org/css-break-4/#break
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-break-4; type:dfn; text:break
+spec:infra; type:dfn; text:break
+LINE 420:75: Multiple possible 'break' dfn refs.
+Arbitrarily chose https://drafts.csswg.org/css-break-4/#break
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-break-4; type:dfn; text:break
+spec:infra; type:dfn; text:break
 LINE 516:60: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
+LINE 707:6: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 727:27: No 'dfn' refs found for 'nested browsing context'.
+LINE 731:27: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document

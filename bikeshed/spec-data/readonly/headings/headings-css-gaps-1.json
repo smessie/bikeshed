@@ -1,0 +1,730 @@
+{
+  "#abstract": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Abstract",
+      "url": "https://drafts.csswg.org/css-gaps-1/#abstract"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Abstract",
+      "url": "https://www.w3.org/TR/css-gaps-1/#abstract"
+    }
+  },
+  "#acknowledgements": {
+    "current": {
+      "number": "5",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Acknowledgements",
+      "url": "https://drafts.csswg.org/css-gaps-1/#acknowledgements"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Acknowledgements",
+      "url": "https://www.w3.org/TR/css-gaps-1/#acknowledgements"
+    }
+  },
+  "#assigning": {
+    "current": {
+      "number": "4.6",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Assigning gap decoration values to gaps",
+      "url": "https://drafts.csswg.org/css-gaps-1/#assigning"
+    },
+    "snapshot": {
+      "number": "4.6",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Assigning gap decoration values to gaps",
+      "url": "https://www.w3.org/TR/css-gaps-1/#assigning"
+    }
+  },
+  "#break": {
+    "current": {
+      "number": "3.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Break behaviors at intersections: The column-rule-break, row-rule-break, and rule-break properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#break"
+    },
+    "snapshot": {
+      "number": "3.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Break behaviors at intersections: The column-rule-break, row-rule-break, and rule-break properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#break"
+    }
+  },
+  "#changes": {
+    "current": {
+      "number": "8",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Changes",
+      "url": "https://drafts.csswg.org/css-gaps-1/#changes"
+    },
+    "snapshot": {
+      "number": "8",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Changes",
+      "url": "https://www.w3.org/TR/css-gaps-1/#changes"
+    }
+  },
+  "#changes%3D20260227": {
+    "current": {
+      "number": "8.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Changes since the 27 February 2026 Working Draft",
+      "url": "https://drafts.csswg.org/css-gaps-1/#changes%3D20260227"
+    }
+  },
+  "#changes-20250417": {
+    "current": {
+      "number": "8.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Changes since the 17 April 2025 Working Draft",
+      "url": "https://drafts.csswg.org/css-gaps-1/#changes-20250417"
+    },
+    "snapshot": {
+      "number": "8.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Changes since the 17 April 2025 Working Draft",
+      "url": "https://www.w3.org/TR/css-gaps-1/#changes-20250417"
+    }
+  },
+  "#color-style-width": {
+    "current": {
+      "number": "4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Color, style, and width",
+      "url": "https://drafts.csswg.org/css-gaps-1/#color-style-width"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Color, style, and width",
+      "url": "https://www.w3.org/TR/css-gaps-1/#color-style-width"
+    }
+  },
+  "#column-row-gap": {
+    "current": {
+      "number": "2.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Row and Column Gutters: the row-gap and column-gap properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#column-row-gap"
+    }
+  },
+  "#column-row-rule-color": {
+    "current": {
+      "number": "4.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration color: The column-rule-color, row-rule-color, and rule-color properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#column-row-rule-color"
+    },
+    "snapshot": {
+      "number": "4.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration color: The column-rule-color, row-rule-color, and rule-color properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#column-row-rule-color"
+    }
+  },
+  "#column-row-rule-style": {
+    "current": {
+      "number": "4.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration style: The column-rule-style, row-rule-style, and rule-style properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#column-row-rule-style"
+    },
+    "snapshot": {
+      "number": "4.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration style: The column-rule-style, row-rule-style, and rule-style properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#column-row-rule-style"
+    }
+  },
+  "#column-row-rule-width": {
+    "current": {
+      "number": "4.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration width: The column-rule-width, row-rule-width, and rule-width properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#column-row-rule-width"
+    },
+    "snapshot": {
+      "number": "4.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration width: The column-rule-width, row-rule-width, and rule-width properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#column-row-rule-width"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-gaps-1/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-gaps-1/#toc"
+    }
+  },
+  "#fragmentation": {
+    "current": {
+      "number": "3.6",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Fragmentation",
+      "url": "https://drafts.csswg.org/css-gaps-1/#fragmentation"
+    },
+    "snapshot": {
+      "number": "3.6",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Fragmentation",
+      "url": "https://www.w3.org/TR/css-gaps-1/#fragmentation"
+    }
+  },
+  "#gap-decoration-shorthands": {
+    "current": {
+      "number": "4.4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration shorthands: The column-rule, row-rule, and rule properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#gap-decoration-shorthands"
+    },
+    "snapshot": {
+      "number": "4.4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration shorthands: The column-rule, row-rule, and rule properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#gap-decoration-shorthands"
+    }
+  },
+  "#gap-decorations": {
+    "current": {
+      "number": "3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decorations",
+      "url": "https://drafts.csswg.org/css-gaps-1/#gap-decorations"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decorations",
+      "url": "https://www.w3.org/TR/css-gaps-1/#gap-decorations"
+    }
+  },
+  "#gap-legacy": {
+    "current": {
+      "number": "2.4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Legacy Gap Properties: the grid-row-gap, grid-column-gap, and grid-gap properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#gap-legacy"
+    }
+  },
+  "#gap-percent": {
+    "current": {
+      "number": "2.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Percentages In gap Properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#gap-percent"
+    }
+  },
+  "#gap-shorthand": {
+    "current": {
+      "number": "2.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap Shorthand: the gap property",
+      "url": "https://drafts.csswg.org/css-gaps-1/#gap-shorthand"
+    }
+  },
+  "#gaps": {
+    "current": {
+      "number": "2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gaps Between Boxes",
+      "url": "https://drafts.csswg.org/css-gaps-1/#gaps"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gaps",
+      "url": "https://www.w3.org/TR/css-gaps-1/#gaps"
+    }
+  },
+  "#geometry": {
+    "current": {
+      "number": "3.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Geometry",
+      "url": "https://drafts.csswg.org/css-gaps-1/#geometry"
+    },
+    "snapshot": {
+      "number": "3.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Geometry",
+      "url": "https://www.w3.org/TR/css-gaps-1/#geometry"
+    }
+  },
+  "#index": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Index",
+      "url": "https://drafts.csswg.org/css-gaps-1/#index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Index",
+      "url": "https://www.w3.org/TR/css-gaps-1/#index"
+    }
+  },
+  "#index-defined-elsewhere": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Terms defined by reference",
+      "url": "https://drafts.csswg.org/css-gaps-1/#index-defined-elsewhere"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Terms defined by reference",
+      "url": "https://www.w3.org/TR/css-gaps-1/#index-defined-elsewhere"
+    }
+  },
+  "#index-defined-here": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Terms defined by this specification",
+      "url": "https://drafts.csswg.org/css-gaps-1/#index-defined-here"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Terms defined by this specification",
+      "url": "https://www.w3.org/TR/css-gaps-1/#index-defined-here"
+    }
+  },
+  "#informative": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Non-Normative References",
+      "url": "https://drafts.csswg.org/css-gaps-1/#informative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Informative References",
+      "url": "https://www.w3.org/TR/css-gaps-1/#informative"
+    }
+  },
+  "#inset": {
+    "current": {
+      "number": "3.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Adjusting gap decoration endpoints: The rule-inset properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#inset"
+    },
+    "snapshot": {
+      "number": "3.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Adjusting gap decoration endpoints: The rule-inset properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#inset"
+    }
+  },
+  "#insets-cap-junction": {
+    "current": {
+      "number": "3.3.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "-cap- and -junction- shorthands",
+      "url": "https://drafts.csswg.org/css-gaps-1/#insets-cap-junction"
+    }
+  },
+  "#insets-edge-interior": {
+    "snapshot": {
+      "number": "3.3.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "-edge- and -interior- shorthands",
+      "url": "https://www.w3.org/TR/css-gaps-1/#insets-edge-interior"
+    }
+  },
+  "#insets-start-end": {
+    "current": {
+      "number": "3.3.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "-start and -end shorthands",
+      "url": "https://drafts.csswg.org/css-gaps-1/#insets-start-end"
+    },
+    "snapshot": {
+      "number": "3.3.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "-start and -end shorthands",
+      "url": "https://www.w3.org/TR/css-gaps-1/#insets-start-end"
+    }
+  },
+  "#insets-universal": {
+    "current": {
+      "number": "3.3.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Universal shorthands",
+      "url": "https://drafts.csswg.org/css-gaps-1/#insets-universal"
+    },
+    "snapshot": {
+      "number": "3.3.3",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Universal shorthands",
+      "url": "https://www.w3.org/TR/css-gaps-1/#insets-universal"
+    }
+  },
+  "#interpolation-behavior": {
+    "current": {
+      "number": "4.7",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Interpolation of list values",
+      "url": "https://drafts.csswg.org/css-gaps-1/#interpolation-behavior"
+    },
+    "snapshot": {
+      "number": "4.7",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Interpolation of list values",
+      "url": "https://www.w3.org/TR/css-gaps-1/#interpolation-behavior"
+    }
+  },
+  "#intro": {
+    "current": {
+      "number": "1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Introduction",
+      "url": "https://drafts.csswg.org/css-gaps-1/#intro"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/css-gaps-1/#intro"
+    }
+  },
+  "#lists-repeat": {
+    "current": {
+      "number": "4.5",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Lists of values and the repeat() notation",
+      "url": "https://drafts.csswg.org/css-gaps-1/#lists-repeat"
+    },
+    "snapshot": {
+      "number": "4.5",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Lists of values and the repeat() notation",
+      "url": "https://www.w3.org/TR/css-gaps-1/#lists-repeat"
+    }
+  },
+  "#normative": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Normative References",
+      "url": "https://drafts.csswg.org/css-gaps-1/#normative"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Normative References",
+      "url": "https://www.w3.org/TR/css-gaps-1/#normative"
+    }
+  },
+  "#overlap": {
+    "current": {
+      "number": "3.5",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration overlap: The rule-overlap property",
+      "url": "https://drafts.csswg.org/css-gaps-1/#overlap"
+    },
+    "snapshot": {
+      "number": "3.5",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration overlap: The rule-overlap property",
+      "url": "https://www.w3.org/TR/css-gaps-1/#overlap"
+    }
+  },
+  "#privacy": {
+    "current": {
+      "number": "6",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Privacy Considerations",
+      "url": "https://drafts.csswg.org/css-gaps-1/#privacy"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Privacy Considerations",
+      "url": "https://www.w3.org/TR/css-gaps-1/#privacy"
+    }
+  },
+  "#property-index": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Property Index",
+      "url": "https://drafts.csswg.org/css-gaps-1/#property-index"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Property Index",
+      "url": "https://www.w3.org/TR/css-gaps-1/#property-index"
+    }
+  },
+  "#references": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "References",
+      "url": "https://drafts.csswg.org/css-gaps-1/#references"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "References",
+      "url": "https://www.w3.org/TR/css-gaps-1/#references"
+    }
+  },
+  "#security": {
+    "current": {
+      "number": "7",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Security Considerations",
+      "url": "https://drafts.csswg.org/css-gaps-1/#security"
+    },
+    "snapshot": {
+      "number": "7",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Security Considerations",
+      "url": "https://www.w3.org/TR/css-gaps-1/#security"
+    }
+  },
+  "#segment-endpoints": {
+    "current": {
+      "number": "3.1.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Segment endpoints",
+      "url": "https://drafts.csswg.org/css-gaps-1/#segment-endpoints"
+    },
+    "snapshot": {
+      "number": "3.1.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Segment endpoints",
+      "url": "https://www.w3.org/TR/css-gaps-1/#segment-endpoints"
+    }
+  },
+  "#segments": {
+    "current": {
+      "number": "3.1.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration segments",
+      "url": "https://drafts.csswg.org/css-gaps-1/#segments"
+    },
+    "snapshot": {
+      "number": "3.1.2",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration segments",
+      "url": "https://www.w3.org/TR/css-gaps-1/#segments"
+    }
+  },
+  "#segments-algorithms": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Algorithms",
+      "url": "https://drafts.csswg.org/css-gaps-1/#segments-algorithms"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Algorithms",
+      "url": "https://www.w3.org/TR/css-gaps-1/#segments-algorithms"
+    }
+  },
+  "#segments-definitions": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Definitions",
+      "url": "https://drafts.csswg.org/css-gaps-1/#segments-definitions"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Definitions",
+      "url": "https://www.w3.org/TR/css-gaps-1/#segments-definitions"
+    }
+  },
+  "#serialization": {
+    "current": {
+      "number": "4.8",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Serialization",
+      "url": "https://drafts.csswg.org/css-gaps-1/#serialization"
+    },
+    "snapshot": {
+      "number": "4.8",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Serialization",
+      "url": "https://www.w3.org/TR/css-gaps-1/#serialization"
+    }
+  },
+  "#sotd": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Status of this document",
+      "url": "https://drafts.csswg.org/css-gaps-1/#sotd"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Status of this document",
+      "url": "https://www.w3.org/TR/css-gaps-1/#sotd"
+    }
+  },
+  "#title": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "CSS Gaps Module Level 1",
+      "url": "https://drafts.csswg.org/css-gaps-1/#title"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "CSS Gap Decorations Module Level 1",
+      "url": "https://www.w3.org/TR/css-gaps-1/#title"
+    }
+  },
+  "#toc": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-gaps-1/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-gaps-1/#toc"
+    }
+  },
+  "#values": {
+    "current": {
+      "number": "1.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Value Definitions",
+      "url": "https://drafts.csswg.org/css-gaps-1/#values"
+    },
+    "snapshot": {
+      "number": "1.1",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Value Definitions",
+      "url": "https://www.w3.org/TR/css-gaps-1/#values"
+    }
+  },
+  "#visibility": {
+    "current": {
+      "number": "3.4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration visibility: The rule-visibility-items properties",
+      "url": "https://drafts.csswg.org/css-gaps-1/#visibility"
+    },
+    "snapshot": {
+      "number": "3.4",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Gap decoration visibility: The rule-visibility-items properties",
+      "url": "https://www.w3.org/TR/css-gaps-1/#visibility"
+    }
+  },
+  "#w3c-conform-future-proofing": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Implementations of Unstable and Proprietary Features",
+      "url": "https://drafts.csswg.org/css-gaps-1/#w3c-conform-future-proofing"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Implementations of Unstable and Proprietary Features",
+      "url": "https://www.w3.org/TR/css-gaps-1/#w3c-conform-future-proofing"
+    }
+  },
+  "#w3c-conformance": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Conformance",
+      "url": "https://drafts.csswg.org/css-gaps-1/#w3c-conformance"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/css-gaps-1/#w3c-conformance"
+    }
+  },
+  "#w3c-conformance-classes": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Conformance classes",
+      "url": "https://drafts.csswg.org/css-gaps-1/#w3c-conformance-classes"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Conformance classes",
+      "url": "https://www.w3.org/TR/css-gaps-1/#w3c-conformance-classes"
+    }
+  },
+  "#w3c-conventions": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Document conventions",
+      "url": "https://drafts.csswg.org/css-gaps-1/#w3c-conventions"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Document conventions",
+      "url": "https://www.w3.org/TR/css-gaps-1/#w3c-conventions"
+    }
+  },
+  "#w3c-partial": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Partial implementations",
+      "url": "https://drafts.csswg.org/css-gaps-1/#w3c-partial"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Partial implementations",
+      "url": "https://www.w3.org/TR/css-gaps-1/#w3c-partial"
+    }
+  },
+  "#w3c-testing": {
+    "current": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Non-experimental implementations",
+      "url": "https://drafts.csswg.org/css-gaps-1/#w3c-testing"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Gap Decorations 1",
+      "text": "Non-experimental implementations",
+      "url": "https://www.w3.org/TR/css-gaps-1/#w3c-testing"
+    }
+  }
+}

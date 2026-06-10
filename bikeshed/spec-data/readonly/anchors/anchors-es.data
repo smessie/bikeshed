@@ -9,6 +9,17 @@ https://html.spec.whatwg.org/multipage/syntax.html#escapable-raw-text-elements
 
 1
 -
+escapecharacter
+EscapeCharacter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-EscapeCharacter
+
+1
+-
 EscapeRegExpPattern
 EscapeRegExpPattern
 abstract-op
@@ -20,8 +31,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-escaperegexppattern
 1
 1
 -
-EscapeRegExpPattern(P, F)
-EscapeRegExpPattern(P, F)
+EscapeRegExpPattern(pattern, flags)
+EscapeRegExpPattern(pattern, flags)
 abstract-op
 ecmascript
 ecmascript
@@ -29,6 +40,17 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/text-processing.html#sec-escaperegexppattern
 1
+1
+-
+escapesequence
+EscapeSequence
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-EscapeSequence
+
 1
 -
 escaping a string
@@ -49,7 +71,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#essential-claims
+https://www.w3.org/policies/patent-policy/#essential-claims
 
 1
 -
@@ -201,6 +223,18 @@ https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browser
 1
 globalThis
 -
+escape(string)
+escape(string)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#sec-regexp.escape
+1
+1
+RegExp
+-
 escaped as code point
 escaped as code point
 dfn
@@ -268,6 +302,94 @@ https://mimesniff.spec.whatwg.org/#mime-type-essence
 1
 1
 MIME type
+-
+essential
+essential
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-essential
+
+
+-
+essential
+essential
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-essential-to-outcome
+
+1
+-
+essential
+essential
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-essential
+
+
+-
+essential
+essential
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-essential-to-outcome
+
+1
+-
+essential exception
+essential exception
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-essential-exception
+
+1
+-
+essential exception
+essential exception
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-essential-exception
+
+1
+-
+essential to outcome
+essential to outcome
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-essential-to-outcome
+
+1
+-
+essential to outcome
+essential to outcome
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-essential-to-outcome
+
+1
 -
 establish
 establish
@@ -392,6 +514,17 @@ https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
 1
 1
 -
+establish an independent formatting context
+establish an independent formatting context
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#establish-an-independent-formatting-context
+1
+1
+-
 establish an orthogonal flow
 establish an orthogonal flow
 dfn
@@ -481,6 +614,17 @@ https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
 1
 1
 -
+established an independent formatting context
+established an independent formatting context
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#establish-an-independent-formatting-context
+1
+1
+-
 establishes an independent formatting context
 establishes an independent formatting context
 dfn
@@ -511,6 +655,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
+1
+1
+-
+establishes an independent formatting context
+establishes an independent formatting context
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#establish-an-independent-formatting-context
 1
 1
 -
@@ -556,6 +711,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
+1
+1
+-
+establishing an independent formatting context
+establishing an independent formatting context
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#establish-an-independent-formatting-context
 1
 1
 -
@@ -636,7 +802,7 @@ hr-time-3
 hr-time
 3
 current
-https://w3c.github.io/hr-time/#dfn-estimated-monotonic-time-of-the-unix-epoch
+https://w3c.github.io/hr-time/#estimated-monotonic-time-of-the-unix-epoch
 
 1
 -
@@ -647,21 +813,9 @@ hr-time-3
 hr-time
 3
 snapshot
-https://www.w3.org/TR/hr-time-3/#dfn-estimated-monotonic-time-of-the-unix-epoch
+https://www.w3.org/TR/hr-time-3/#estimated-monotonic-time-of-the-unix-epoch
 
 1
--
-estimated size
-estimated size
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-estimated-size
-
-1
-interest group
 -
 estimatedPlayoutTimestamp
 estimatedPlayoutTimestamp
@@ -710,16 +864,4 @@ https://www.w3.org/TR/webtransport/#dom-webtransportconnectionstats-estimatedsen
 1
 1
 WebTransportConnectionStats
--
-estimatedSize
-estimatedSize
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-storageinterestgroup-estimatedsize
-1
-1
-StorageInterestGroup
 -

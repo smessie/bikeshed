@@ -8797,7 +8797,7 @@ Nicolai Josuttis
 d:lwg2088
 LWG2088
 
-Open
+Resolved
 std::terminate problem
 https://wg21.link/lwg2088
 
@@ -8893,7 +8893,7 @@ Vicente J. Botet Escriba
 d:lwg2095
 LWG2095
 
-LEWG
+Resolved
 promise and packaged_task missing constructors needed for uses-allocator construction
 https://wg21.link/lwg2095
 
@@ -9301,7 +9301,7 @@ Alberto Ganesh Barbati
 d:lwg2125
 LWG2125
 
-Pending NAD Editorial
+NAD Editorial
 TimedMutex specification problem
 https://wg21.link/lwg2125
 
@@ -9578,7 +9578,7 @@ d:lwg2146
 LWG2146
 
 Open
-Are reference types Copy/Move-Constructible/Assignable or Destructible?
+Are reference types CopyConstructible/MoveConstructible/CopyAssignable/MoveAssignable/Destructible?
 https://wg21.link/lwg2146
 
 
@@ -10777,7 +10777,7 @@ Juan Soulie
 d:lwg2236
 LWG2236
 
-SG1
+Open
 kill_dependency unconditionally noexcept
 https://wg21.link/lwg2236
 
@@ -11665,7 +11665,7 @@ Rein Halbersma
 d:lwg2302
 LWG2302
 
-Pending NAD
+Resolved
 Passing null pointer to placement new
 https://wg21.link/lwg2302
 
@@ -12721,7 +12721,7 @@ Marshall Clow
 d:lwg2382
 LWG2382
 
-Pending NAD
+Resolved
 Unclear order of container update versus object destruction on removing an object
 https://wg21.link/lwg2382
 
@@ -13153,7 +13153,7 @@ David Krauss
 d:lwg2414
 LWG2414
 
-Open
+WP
 Member function reentrancy should be implementation-defined
 https://wg21.link/lwg2414
 
@@ -13717,7 +13717,7 @@ Richard Smith
 d:lwg2457
 LWG2457
 
-Tentatively NAD
+NAD
 std::begin() and std::end() do not support multi-dimensional arrays correctly
 https://wg21.link/lwg2457
 
@@ -13993,7 +13993,7 @@ Anton Savin
 d:lwg2478
 LWG2478
 
-New
+Resolved
 Unclear how wstring_convert uses cvtstate
 https://wg21.link/lwg2478
 
@@ -14005,7 +14005,7 @@ Jonathan Wakely
 d:lwg2479
 LWG2479
 
-New
+Resolved
 Unclear how wbuffer_convert uses cvtstate
 https://wg21.link/lwg2479
 
@@ -14029,7 +14029,7 @@ Martin Sebor
 d:lwg2480
 LWG2480
 
-New
+Resolved
 Error handling of wbuffer_convert unclear
 https://wg21.link/lwg2480
 
@@ -14041,7 +14041,7 @@ Jonathan Wakely
 d:lwg2481
 LWG2481
 
-New
+Resolved
 wstring_convert should be more precise regarding "byte-error string" etc.
 https://wg21.link/lwg2481
 
@@ -14389,7 +14389,7 @@ Geoffrey Romer
 d:lwg2507
 LWG2507
 
-New
+Resolved
 codecvt_mode should be a bitmask type
 https://wg21.link/lwg2507
 
@@ -14617,7 +14617,7 @@ Tim Song
 d:lwg2524
 LWG2524
 
-Open
+Resolved
 generate_canonical can occasionally return 1.0
 https://wg21.link/lwg2524
 
@@ -14737,7 +14737,7 @@ Agustín K-ballo Bergé
 d:lwg2533
 LWG2533
 
-SG1
+Open
 [concurr.ts] Constrain threads where future::then can run a continuation
 https://wg21.link/lwg2533
 
@@ -16897,7 +16897,7 @@ Joe Gottman
 d:lwg2697
 LWG2697
 
-C++23
+WP
 [concurr.ts] Behavior of future/shared_future unwrapping constructor when given an invalid future
 https://wg21.link/lwg2697
 
@@ -17557,7 +17557,7 @@ Casey Carter
 d:lwg2746
 LWG2746
 
-New
+WP
 Inconsistency between requirements for emplace between optional and variant
 https://wg21.link/lwg2746
 
@@ -17989,7 +17989,7 @@ Billy Robert O'Neal III
 d:lwg2779
 LWG2779
 
-C++23
+WP
 [networking.ts] Relax requirements on buffer sequence iterators
 https://wg21.link/lwg2779
 
@@ -19405,7 +19405,7 @@ Finland
 d:lwg2885
 LWG2885
 
-LEWG
+NAD
 The relational operators of optional and variant completely reflect the semantics of the element types — this is inconsistent with other types in the library
 https://wg21.link/lwg2885
 
@@ -19909,7 +19909,7 @@ United States
 d:lwg2922
 LWG2922
 
-LEWG
+Resolved
 The *_constant<> templates do not make use of template<auto>
 https://wg21.link/lwg2922
 
@@ -20053,7 +20053,7 @@ Dietmar Kühl
 d:lwg2933
 LWG2933
 
-New
+Resolved
 PR for LWG 2773 could be clearer
 https://wg21.link/lwg2933
 
@@ -20125,7 +20125,7 @@ Antony Polukhin
 d:lwg2939
 LWG2939
 
-New
+Open
 Some type-completeness constraints of traits are overspecified
 https://wg21.link/lwg2939
 
@@ -20413,7 +20413,7 @@ Martin Sebor
 d:lwg2960
 LWG2960
 
-C++23
+WP
 [fund.ts.v3] nonesuch is insufficiently useless
 https://wg21.link/lwg2960
 
@@ -20737,7 +20737,7 @@ Jonathan Wakely
 d:lwg2985
 LWG2985
 
-LEWG
+Resolved
 std::reverse should be permitted to be vectorized
 https://wg21.link/lwg2985
 
@@ -20821,7 +20821,7 @@ Casey Carter
 d:lwg2991
 LWG2991
 
-LEWG
+WP
 variant copy constructor missing noexcept(see below)
 https://wg21.link/lwg2991
 
@@ -20989,7 +20989,7 @@ Stephan T. Lavavej
 d:lwg3002
 LWG3002
 
-C++23
+WP
 [networking.ts] basic_socket_acceptor::is_open() isn't noexcept
 https://wg21.link/lwg3002
 
@@ -21001,7 +21001,7 @@ Jonathan Wakely
 d:lwg3003
 LWG3003
 
-Open
+Resolved
 <future> still has type-erased allocators in promise
 https://wg21.link/lwg3003
 
@@ -21097,7 +21097,7 @@ Martin Sebor
 d:lwg3010
 LWG3010
 
-C++23
+WP
 [networking.ts] uses_executor says "if a type T::executor_type exists"
 https://wg21.link/lwg3010
 
@@ -21229,7 +21229,7 @@ Gregory Bumgardner
 d:lwg3020
 LWG3020
 
-C++23
+WP
 [networking.ts] Remove spurious nested value_type buffer sequence requirement
 https://wg21.link/lwg3020
 
@@ -21805,7 +21805,7 @@ Alisdair Meredith
 d:lwg3064
 LWG3064
 
-New
+Resolved
 How do uninitialized memory algorithms obtain pointer without undefined behavior?
 https://wg21.link/lwg3064
 
@@ -21901,7 +21901,7 @@ Billy O'Neal III
 d:lwg3071
 LWG3071
 
-C++23
+WP
 [networking.ts] read_until still refers to "input sequence"
 https://wg21.link/lwg3071
 
@@ -22153,7 +22153,7 @@ Martin Sebor
 d:lwg3090
 LWG3090
 
-New
+WP
 What is §[time.duration.cons]p4's "no overflow is induced in the conversion" intended to mean?
 https://wg21.link/lwg3090
 
@@ -22213,7 +22213,7 @@ Richard Smith
 d:lwg3095
 LWG3095
 
-New
+Resolved
 strstreambuf refers to nonexistent member of fpos, fpos::offset
 https://wg21.link/lwg3095
 
@@ -22261,7 +22261,7 @@ Jonathan Wakely
 d:lwg3099
 LWG3099
 
-New
+Open
 is_assignable<Incomplete&, Incomplete&>
 https://wg21.link/lwg3099
 
@@ -22405,7 +22405,7 @@ Billy O'Neal III
 d:lwg3109
 LWG3109
 
-New
+Resolved
 strstreambuf is copyable
 https://wg21.link/lwg3109
 
@@ -22765,7 +22765,7 @@ Thomas Köppe
 d:lwg3136
 LWG3136
 
-C++23
+WP
 [fund.ts.v3] LFTSv3 awkward wording in propagate_const requirements
 https://wg21.link/lwg3136
 
@@ -23761,7 +23761,7 @@ Kevin Djang
 d:lwg3210
 LWG3210
 
-New
+Resolved
 allocate_shared is inconsistent about removing const from the pointer passed to allocator construct and destroy
 https://wg21.link/lwg3210
 
@@ -23833,7 +23833,7 @@ Louis Dionne
 d:lwg3216
 LWG3216
 
-New
+WP
 Rebinding the allocator before calling construct/destroy in allocate_shared
 https://wg21.link/lwg3216
 
@@ -25525,7 +25525,7 @@ Richard Smith
 d:lwg3343
 LWG3343
 
-Open
+WP
 Ordering of calls to unlock() and notify_all() in Effects element of notify_all_at_thread_exit() should be reversed
 https://wg21.link/lwg3343
 
@@ -26317,7 +26317,7 @@ Casey Carter
 d:lwg3402
 LWG3402
 
-New
+SG6
 Wording for negative_binomial_distribution is unclear as a consequence of LWG 2406 resolution
 https://wg21.link/lwg3402
 
@@ -26437,7 +26437,7 @@ Casey Carter
 d:lwg3411
 LWG3411
 
-C++23
+WP
 [fund.ts.v3] Contradictory namespace rules in the Library Fundamentals TS
 https://wg21.link/lwg3411
 
@@ -26461,7 +26461,7 @@ Hubert Tong
 d:lwg3413
 LWG3413
 
-C++23
+WP
 [fund.ts.v3] propagate_const's swap's noexcept specification needs to be constrained and use a trait
 https://wg21.link/lwg3413
 
@@ -26473,7 +26473,7 @@ Thomas Köppe
 d:lwg3414
 LWG3414
 
-C++23
+WP
 [networking.ts] service_already_exists has no usable constructors
 https://wg21.link/lwg3414
 
@@ -26509,7 +26509,7 @@ Thomas Köppe
 d:lwg3417
 LWG3417
 
-SG1
+Ready
 Missing volatile atomic deprecations
 https://wg21.link/lwg3417
 
@@ -26761,7 +26761,7 @@ Casey Carter
 d:lwg3436
 LWG3436
 
-New
+WP
 std::construct_at should support arrays
 https://wg21.link/lwg3436
 
@@ -26857,7 +26857,7 @@ Michael Park
 d:lwg3443
 LWG3443
 
-C++23
+WP
 [networking.ts] net::basic_socket_iostream should use addressof
 https://wg21.link/lwg3443
 
@@ -27001,7 +27001,7 @@ Casey Carter
 d:lwg3454
 LWG3454
 
-LEWG
+WP
 pointer_traits::pointer_to should be constexpr
 https://wg21.link/lwg3454
 
@@ -27409,7 +27409,7 @@ Thomas Köppe
 d:lwg3485
 LWG3485
 
-SG1
+NAD
 atomic_ref safety should be based on operations that "potentially conflict" rather than lifetime
 https://wg21.link/lwg3485
 
@@ -27673,7 +27673,7 @@ Jonathan Wakely
 d:lwg3504
 LWG3504
 
-New
+WP
 condition_variable::wait_for is overspecified
 https://wg21.link/lwg3504
 
@@ -27721,7 +27721,7 @@ Thomas Köppe
 d:lwg3508
 LWG3508
 
-New
+Resolved
 atomic_ref<cv T> is not well-specified
 https://wg21.link/lwg3508
 
@@ -28105,7 +28105,7 @@ Matt Stephanson
 d:lwg3537
 LWG3537
 
-New
+Resolved
 §[iterator.range] Missing noexcept for std::rbegin/rend for arrays and initializer_list
 https://wg21.link/lwg3537
 
@@ -28645,7 +28645,7 @@ Joaquín M López Muñoz
 d:lwg3578
 LWG3578
 
-New
+WP
 Iterator SCARYness in the context of associative container merging
 https://wg21.link/lwg3578
 
@@ -28921,7 +28921,7 @@ Jonathan Wakely
 d:lwg3599
 LWG3599
 
-New
+WP
 The const overload of lazy_split_view::begin should be constrained by const Pattern
 https://wg21.link/lwg3599
 
@@ -29269,7 +29269,7 @@ Jiang An
 d:lwg3624
 LWG3624
 
-New
+Resolved
 Inconsistency of <typeinfo>, <initializer_list>, and <compare> in the standard library
 https://wg21.link/lwg3624
 
@@ -29281,7 +29281,7 @@ Jiang An
 d:lwg3625
 LWG3625
 
-New
+Resolved
 Should <stacktrace> provide range access function templates?
 https://wg21.link/lwg3625
 
@@ -29305,7 +29305,7 @@ Jiang An
 d:lwg3627
 LWG3627
 
-New
+WP
 Inconsistent specifications for std::make_optional overloads
 https://wg21.link/lwg3627
 
@@ -29413,7 +29413,7 @@ Jiang An
 d:lwg3635
 LWG3635
 
-Tentatively NAD
+NAD
 Add __cpp_lib_deduction_guides to feature test macros
 https://wg21.link/lwg3635
 
@@ -29449,7 +29449,7 @@ Jonathan Wakely
 d:lwg3638
 LWG3638
 
-New
+Resolved
 vector<bool>::swap(reference, reference) is useless
 https://wg21.link/lwg3638
 
@@ -29773,7 +29773,7 @@ Jonathan Wakely
 d:lwg3662
 LWG3662
 
-New
+WP
 basic_string::append/assign(NTBS, pos, n) suboptimal
 https://wg21.link/lwg3662
 
@@ -30026,7 +30026,7 @@ d:lwg3681
 LWG3681
 
 New
-Further considerations on LWG 3679
+Further considerations on LWG 3679 (using pmr::vector without including <memory_resource>)
 https://wg21.link/lwg3681
 
 
@@ -30469,7 +30469,7 @@ Casey Carter
 d:lwg3714
 LWG3714
 
-Tentatively NAD
+NAD
 Non-single-argument constructors for range adaptors should not be explicit
 https://wg21.link/lwg3714
 
@@ -31165,7 +31165,7 @@ Hewill Kang
 d:lwg3767
 LWG3767
 
-Ready
+WP
 codecvt<charN_t, char8_t, mbstate_t> incorrectly added to locale
 https://wg21.link/lwg3767
 
@@ -31225,7 +31225,7 @@ Hewill Kang
 d:lwg3771
 LWG3771
 
-C++23
+WP
 [fund.ts.v3] remove binders typedefs from function
 https://wg21.link/lwg3771
 
@@ -31297,7 +31297,7 @@ Mark de Wever
 d:lwg3777
 LWG3777
 
-Open
+WP
 Common cartesian_product_view produces an invalid range if the first range is input and one of the ranges is empty
 https://wg21.link/lwg3777
 
@@ -31561,7 +31561,7 @@ Hewill Kang
 d:lwg3797
 LWG3797
 
-New
+WP
 elements_view insufficiently constrained
 https://wg21.link/lwg3797
 
@@ -32029,7 +32029,7 @@ Hewill Kang
 d:lwg3831
 LWG3831
 
-New
+WP
 Two-digit formatting of negative year is ambiguous
 https://wg21.link/lwg3831
 
@@ -32749,7 +32749,7 @@ Jonathan Wakely
 d:lwg3886
 LWG3886
 
-New
+WP
 Monad mo' problems
 https://wg21.link/lwg3886
 
@@ -32821,7 +32821,7 @@ Jiang An
 d:lwg3891
 LWG3891
 
-New
+WP
 LWG 3870 breaks std::expected<cv T, E>
 https://wg21.link/lwg3891
 
@@ -32917,7 +32917,7 @@ Jiang An
 d:lwg3899
 LWG3899
 
-New
+WP
 co_yielding elements of an lvalue generator is unnecessarily inefficient
 https://wg21.link/lwg3899
 
@@ -32953,7 +32953,7 @@ Doug Gregor
 d:lwg3900
 LWG3900
 
-New
+WP
 The allocator_arg_t overloads of generator::promise_type::operator new should not be constrained
 https://wg21.link/lwg3900
 
@@ -32965,7 +32965,7 @@ Tim Song
 d:lwg3901
 LWG3901
 
-Tentatively NAD
+NAD
 Is uses-allocator construction of a cv-qualified object type still well-formed after LWG 3870?
 https://wg21.link/lwg3901
 
@@ -33049,7 +33049,7 @@ Jiang An
 d:lwg3908
 LWG3908
 
-Tentatively NAD
+NAD
 enumerate_view::iterator constructor is explicit
 https://wg21.link/lwg3908
 
@@ -33061,7 +33061,7 @@ Jonathan Wakely
 d:lwg3909
 LWG3909
 
-Tentatively NAD
+NAD
 Issues about viewable_range
 https://wg21.link/lwg3909
 
@@ -33181,7 +33181,7 @@ Daniel Krügler
 d:lwg3918
 LWG3918
 
-LEWG
+WP
 std::uninitialized_move/_n and guaranteed copy elision
 https://wg21.link/lwg3918
 
@@ -33193,7 +33193,7 @@ Jiang An
 d:lwg3919
 LWG3919
 
-Ready
+WP
 enumerate_view may invoke UB for sized common non-forward underlying ranges
 https://wg21.link/lwg3919
 
@@ -33349,7 +33349,7 @@ Alberto Barbati
 d:lwg3930
 LWG3930
 
-Tentatively NAD
+NAD
 Simplify type trait wording
 https://wg21.link/lwg3930
 
@@ -33421,7 +33421,7 @@ Daniel Krügler
 d:lwg3936
 LWG3936
 
-Tentatively NAD
+NAD
 Are implementations allowed to deprecate components not in [depr]?
 https://wg21.link/lwg3936
 
@@ -33493,7 +33493,7 @@ Jiang An
 d:lwg3941
 LWG3941
 
-SG1
+Open
 §[atomics.order] inadvertently prohibits widespread implementation techniques
 https://wg21.link/lwg3941
 
@@ -33529,7 +33529,7 @@ Mark de Wever
 d:lwg3944
 LWG3944
 
-SG16
+WP
 Formatters converting sequences of char to sequences of wchar_t
 https://wg21.link/lwg3944
 
@@ -33613,7 +33613,7 @@ James Kanze
 d:lwg3950
 LWG3950
 
-Ready
+WP
 std::basic_string_view comparison operators are overspecified
 https://wg21.link/lwg3950
 
@@ -33685,7 +33685,7 @@ Hewill Kang
 d:lwg3956
 LWG3956
 
-New
+WP
 chrono::parse uses from_stream as a customization point
 https://wg21.link/lwg3956
 
@@ -33709,7 +33709,7 @@ jim x
 d:lwg3958
 LWG3958
 
-Tentatively NAD
+NAD
 ranges::to should prioritize the "reserve" branch
 https://wg21.link/lwg3958
 
@@ -33889,7 +33889,7 @@ S. B. Tam
 d:lwg3971
 LWG3971
 
-SG9
+NAD
 Join ranges of rvalue references with ranges of prvalues
 https://wg21.link/lwg3971
 
@@ -33937,7 +33937,7 @@ Casey Carter
 d:lwg3975
 LWG3975
 
-Ready
+WP
 Specializations of basic_format_context should not be permitted
 https://wg21.link/lwg3975
 
@@ -33973,7 +33973,7 @@ Jiang An
 d:lwg3978
 LWG3978
 
-New
+Resolved
 The "no effect" requirement for std::ignore is unimplementable for volatile bit-fields
 https://wg21.link/lwg3978
 
@@ -34009,7 +34009,7 @@ Martin Sebor
 d:lwg3980
 LWG3980
 
-Tentatively NAD
+NAD
 The read exclusive ownership of an atomic read-modify-write operation and whether its read and write are two operations are unclear
 https://wg21.link/lwg3980
 
@@ -34021,7 +34021,7 @@ jim x
 d:lwg3981
 LWG3981
 
-Tentatively NAD
+NAD
 Range adaptor closure object is underspecified for its return type
 https://wg21.link/lwg3981
 
@@ -34033,7 +34033,7 @@ Hewill Kang
 d:lwg3982
 LWG3982
 
-Tentatively NAD
+NAD
 is-derived-from-view-interface should require that T is derived from view_interface<T>
 https://wg21.link/lwg3982
 
@@ -34057,7 +34057,7 @@ Hewill Kang
 d:lwg3984
 LWG3984
 
-Ready
+WP
 ranges::to's recursion branch may be ill-formed
 https://wg21.link/lwg3984
 
@@ -34105,7 +34105,7 @@ Hewill Kang
 d:lwg3988
 LWG3988
 
-Ready
+Open
 Should as_const_view and basic_const_iterator provide base()?
 https://wg21.link/lwg3988
 
@@ -34165,7 +34165,7 @@ Brian Bi
 d:lwg3992
 LWG3992
 
-New
+NAD
 basic_stringbuf::str()&& should enforce 𝒪(1)
 https://wg21.link/lwg3992
 
@@ -34213,7 +34213,7 @@ Hewill Kang
 d:lwg3996
 LWG3996
 
-Tentatively NAD
+NAD
 projected<I, identity> should just be I
 https://wg21.link/lwg3996
 
@@ -34297,7 +34297,7 @@ Markus Mauhart
 d:lwg4000
 LWG4000
 
-New
+Resolved
 flat_map::insert_range's Effects is not quite right
 https://wg21.link/lwg4000
 
@@ -34333,7 +34333,7 @@ Hewill Kang
 d:lwg4003
 LWG4003
 
-Tentatively NAD
+NAD
 view_interface::back is overconstrained
 https://wg21.link/lwg4003
 
@@ -34345,7 +34345,7 @@ Hewill Kang
 d:lwg4004
 LWG4004
 
-New
+SG1
 The load and store operation in §[atomics.order] p1 is ambiguous
 https://wg21.link/lwg4004
 
@@ -34369,7 +34369,7 @@ Eric Niebler
 d:lwg4006
 LWG4006
 
-New
+NAD
 chunk_view::outer-iterator::value_type should provide empty
 https://wg21.link/lwg4006
 
@@ -34405,7 +34405,7 @@ S. B. Tam
 d:lwg4009
 LWG4009
 
-New
+NAD
 drop_view::begin const may have 𝒪(n) complexity
 https://wg21.link/lwg4009
 
@@ -34441,7 +34441,7 @@ Hewill Kang
 d:lwg4011
 LWG4011
 
-New
+WP
 "Effects: Equivalent to return" in [span.elem]
 https://wg21.link/lwg4011
 
@@ -34453,7 +34453,7 @@ Arthur O'Dwyer
 d:lwg4012
 LWG4012
 
-New
+WP
 common_view::begin/end are missing the simple-view check
 https://wg21.link/lwg4012
 
@@ -34465,7 +34465,7 @@ Hewill Kang
 d:lwg4013
 LWG4013
 
-New
+WP
 lazy_split_view::outer-iterator::value_type should not provide default constructor
 https://wg21.link/lwg4013
 
@@ -34477,7 +34477,7 @@ Hewill Kang
 d:lwg4014
 LWG4014
 
-New
+WP
 LWG 3809 changes behavior of some existing std::subtract_with_carry_engine code
 https://wg21.link/lwg4014
 
@@ -34489,7 +34489,7 @@ Matt Stephanson
 d:lwg4015
 LWG4015
 
-New
+WP
 LWG 3973 broke const overloads of std::optional monadic operations
 https://wg21.link/lwg4015
 
@@ -34501,7 +34501,7 @@ Jonathan Wakely
 d:lwg4016
 LWG4016
 
-New
+WP
 container-insertable checks do not match what container-inserter does
 https://wg21.link/lwg4016
 
@@ -34537,7 +34537,7 @@ Hewill Kang
 d:lwg4019
 LWG4019
 
-New
+SG9
 Reversing an infinite range leads to an infinite loop
 https://wg21.link/lwg4019
 
@@ -34561,7 +34561,7 @@ Markus Mauhart
 d:lwg4020
 LWG4020
 
-New
+WP
 extents::index-cast weirdness
 https://wg21.link/lwg4020
 
@@ -34597,7 +34597,7 @@ Jiang An
 d:lwg4023
 LWG4023
 
-New
+WP
 Preconditions of std::basic_streambuf::setg/setp
 https://wg21.link/lwg4023
 
@@ -34609,7 +34609,7 @@ Jiang An
 d:lwg4024
 LWG4024
 
-New
+WP
 Underspecified destruction of objects created in std::make_shared_for_overwrite/std::allocate_shared_for_overwrite
 https://wg21.link/lwg4024
 
@@ -34621,7 +34621,7 @@ Jiang An
 d:lwg4025
 LWG4025
 
-New
+WP
 Move assignment operator of std::expected<cv void, E> should not be conditionally deleted
 https://wg21.link/lwg4025
 
@@ -34633,7 +34633,7 @@ Jiang An
 d:lwg4026
 LWG4026
 
-New
+WP
 Assignment operators of std::expected should propagate triviality
 https://wg21.link/lwg4026
 
@@ -34645,7 +34645,7 @@ Jiang An
 d:lwg4027
 LWG4027
 
-New
+WP
 possibly-const-range should prefer returning const R&
 https://wg21.link/lwg4027
 
@@ -34693,7 +34693,7 @@ Beman Dawes
 d:lwg4030
 LWG4030
 
-New
+WP
 Clarify whether arithmetic expressions in [numeric.sat.func] are mathematical or C++
 https://wg21.link/lwg4030
 
@@ -34705,7 +34705,7 @@ Thomas Köppe
 d:lwg4031
 LWG4031
 
-New
+WP
 bad_expected_access<void> member functions should be noexcept
 https://wg21.link/lwg4031
 
@@ -34753,7 +34753,7 @@ Jan Schultke
 d:lwg4035
 LWG4035
 
-New
+WP
 single_view should provide empty
 https://wg21.link/lwg4035
 
@@ -34765,7 +34765,7 @@ Hewill Kang
 d:lwg4036
 LWG4036
 
-New
+WP
 __alignof_is_defined is only implicitly specified in C++ and not yet deprecated
 https://wg21.link/lwg4036
 
@@ -34777,7 +34777,7 @@ Jiang An
 d:lwg4037
 LWG4037
 
-New
+WP
 Static data members of ctype_base are not yet required to be usable in constant expressions
 https://wg21.link/lwg4037
 
@@ -34789,7 +34789,7 @@ Jiang An
 d:lwg4038
 LWG4038
 
-New
+WP
 std::text_encoding::aliases_view should have constexpr iterators
 https://wg21.link/lwg4038
 
@@ -34849,7 +34849,7 @@ Jiang An
 d:lwg4042
 LWG4042
 
-New
+Resolved
 std::print should permit an efficient implementation
 https://wg21.link/lwg4042
 
@@ -34861,7 +34861,7 @@ Victor Zverovich
 d:lwg4043
 LWG4043
 
-New
+WP
 "ASCII" is not a registered character encoding
 https://wg21.link/lwg4043
 
@@ -34873,7 +34873,7 @@ Jonathan Wakely
 d:lwg4044
 LWG4044
 
-New
+WP
 Confusing requirements for std::print on POSIX platforms
 https://wg21.link/lwg4044
 
@@ -34885,7 +34885,7 @@ Jonathan Wakely
 d:lwg4045
 LWG4045
 
-New
+WP
 tuple can create dangling references from tuple-like
 https://wg21.link/lwg4045
 
@@ -34957,7 +34957,7 @@ Ray Lischner
 d:lwg4050
 LWG4050
 
-New
+NAD
 Should views::iota(0) | views::take(5) be views::iota(0, 5)?
 https://wg21.link/lwg4050
 
@@ -34965,6 +34965,114 @@ https://wg21.link/lwg4050
 
 
 Hewill Kang
+-
+d:lwg4051
+LWG4051
+
+New
+A less hacky and more useful way to compare comparison category types
+https://wg21.link/lwg4051
+
+
+
+
+Corentin Jabot
+-
+d:lwg4052
+LWG4052
+
+New
+Bogus requirements for piecewise_linear_distribution
+https://wg21.link/lwg4052
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4053
+LWG4053
+
+WP
+Unary call to std::views::repeat does not decay the argument
+https://wg21.link/lwg4053
+
+
+
+
+Jiang An
+-
+d:lwg4054
+LWG4054
+
+WP
+Repeating a repeat_view should repeat the view
+https://wg21.link/lwg4054
+
+
+
+
+Tim Song
+-
+d:lwg4055
+LWG4055
+
+New
+§[iterator.operations] std::distance is missing a precondition
+https://wg21.link/lwg4055
+
+
+
+
+Jan Schultke
+-
+d:lwg4056
+LWG4056
+
+NAD
+The effects of std::swap are under-specified
+https://wg21.link/lwg4056
+
+
+
+
+Jan Schultke
+-
+d:lwg4057
+LWG4057
+
+New
+generator::iterator's operator* is not noexcept when it can be
+https://wg21.link/lwg4057
+
+
+
+
+S. B. Tam
+-
+d:lwg4058
+LWG4058
+
+LEWG
+std::to_address() should be SFINAE-friendly
+https://wg21.link/lwg4058
+
+
+
+
+Peter Kasting
+-
+d:lwg4059
+LWG4059
+
+New
+Leaky abstraction in join_with_view's iterator
+https://wg21.link/lwg4059
+
+
+
+
+S. B. Tam
 -
 d:lwg406
 LWG406
@@ -34978,6 +35086,126 @@ https://wg21.link/lwg406
 
 Dave Abrahams
 -
+d:lwg4060
+LWG4060
+
+WP
+submdspan preconditions do not forbid creating invalid pointer
+https://wg21.link/lwg4060
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4061
+LWG4061
+
+WP
+Should std::basic_format_context be default-constructible/copyable/movable?
+https://wg21.link/lwg4061
+
+
+
+
+Jiang An
+-
+d:lwg4062
+LWG4062
+
+New
+ranges::empty has no semantic requirements for forward_ranges
+https://wg21.link/lwg4062
+
+
+
+
+Hewill Kang
+-
+d:lwg4063
+LWG4063
+
+New
+Freestanding std::char_traits<char>::eof depends on non-freestanding EOF
+https://wg21.link/lwg4063
+
+
+
+
+Jiang An
+-
+d:lwg4064
+LWG4064
+
+WP
+Clarify that std::launder is not needed when using the result of std::memcpy
+https://wg21.link/lwg4064
+
+
+
+
+Jan Schultke
+-
+d:lwg4065
+LWG4065
+
+New
+Requirements for fancy pointers might be insufficient for self-referential implementation of containers
+https://wg21.link/lwg4065
+
+
+
+
+Jiang An
+-
+d:lwg4066
+LWG4066
+
+New
+ranges::to should reserve when sized_sentinel_for is satisfied
+https://wg21.link/lwg4066
+
+
+
+
+Hewill Kang
+-
+d:lwg4067
+LWG4067
+
+New
+Inconsistency and potential infinity meta-recursion in std::chrono::zoned_time's constructors
+https://wg21.link/lwg4067
+
+
+
+
+Jiang An
+-
+d:lwg4068
+LWG4068
+
+New
+Terminology for objects whose types model a concept
+https://wg21.link/lwg4068
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4069
+LWG4069
+
+Resolved
+std::atomic<volatile T> should be ill-formed
+https://wg21.link/lwg4069
+
+
+
+
+Jonathan Wakely
+-
 d:lwg407
 LWG407
 
@@ -34989,6 +35217,126 @@ https://wg21.link/lwg407
 
 
 Nathan Myers
+-
+d:lwg4070
+LWG4070
+
+Open
+Transcoding by std::formatter<std::filesystem::path>
+https://wg21.link/lwg4070
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4071
+LWG4071
+
+WP
+reference_wrapper comparisons are not SFINAE-friendly
+https://wg21.link/lwg4071
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4072
+LWG4072
+
+WP
+std::optional comparisons: constrain harder
+https://wg21.link/lwg4072
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4073
+LWG4073
+
+New
+concat_view::size may overflow
+https://wg21.link/lwg4073
+
+
+
+
+Hewill Kang
+-
+d:lwg4074
+LWG4074
+
+WP
+compatible-joinable-ranges is underconstrained
+https://wg21.link/lwg4074
+
+
+
+
+Hewill Kang
+-
+d:lwg4075
+LWG4075
+
+NAD
+Thread stability requirement on constructors and destructors
+https://wg21.link/lwg4075
+
+
+
+
+Detlef Vollmann
+-
+d:lwg4076
+LWG4076
+
+WP
+concat_view should be freestanding
+https://wg21.link/lwg4076
+
+
+
+
+Hewill Kang
+-
+d:lwg4077
+LWG4077
+
+New
+Unclear preconditions of std::ranges::generate_random
+https://wg21.link/lwg4077
+
+
+
+
+Jiang An
+-
+d:lwg4078
+LWG4078
+
+New
+What if arguments alias the output buffer in std::format_to?
+https://wg21.link/lwg4078
+
+
+
+
+Jan Schultke
+-
+d:lwg4079
+LWG4079
+
+WP
+Missing Preconditions in concat_view::iterator's conversion constructor
+https://wg21.link/lwg4079
+
+
+
+
+Hewill Kang
 -
 d:lwg408
 LWG408
@@ -35002,6 +35350,126 @@ https://wg21.link/lwg408
 
 Nathan Myers
 -
+d:lwg4080
+LWG4080
+
+New
+Presumed value and difference types of an iterator type in ranges and non-ranges algorithms
+https://wg21.link/lwg4080
+
+
+
+
+Jiang An
+-
+d:lwg4081
+LWG4081
+
+New
+concat_view::iterator::operator- is overconstrained
+https://wg21.link/lwg4081
+
+
+
+
+Hewill Kang
+-
+d:lwg4082
+LWG4082
+
+WP
+views::concat(r) is well-formed when r is an output_range
+https://wg21.link/lwg4082
+
+
+
+
+Hewill Kang
+-
+d:lwg4083
+LWG4083
+
+WP
+views::as_rvalue should reject non-input ranges
+https://wg21.link/lwg4083
+
+
+
+
+Hewill Kang
+-
+d:lwg4084
+LWG4084
+
+WP
+std::fixed ignores std::uppercase
+https://wg21.link/lwg4084
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4085
+LWG4085
+
+WP
+ranges::generate_random's helper lambda should specify the return type
+https://wg21.link/lwg4085
+
+
+
+
+Hewill Kang
+-
+d:lwg4086
+LWG4086
+
+NAD
+ranges::generate_random_n is missing
+https://wg21.link/lwg4086
+
+
+
+
+Hewill Kang
+-
+d:lwg4087
+LWG4087
+
+SG16
+Standard exception messages have unspecified encoding
+https://wg21.link/lwg4087
+
+
+
+
+Victor Zverovich
+-
+d:lwg4088
+LWG4088
+
+WP
+println ignores the locale imbued in std::ostream
+https://wg21.link/lwg4088
+
+
+
+
+Jens Maurer
+-
+d:lwg4089
+LWG4089
+
+New
+concat_view::iterator's iter_swap is overconstrained
+https://wg21.link/lwg4089
+
+
+
+
+Hewill Kang
+-
 d:lwg409
 LWG409
 
@@ -35013,6 +35481,126 @@ https://wg21.link/lwg409
 
 
 Nathan Myers
+-
+d:lwg4090
+LWG4090
+
+WP
+Underspecified use of locale facets for locale-dependent std::format
+https://wg21.link/lwg4090
+
+
+
+
+Jens Maurer
+-
+d:lwg4091
+LWG4091
+
+New
+concat_view rejects non-movable references
+https://wg21.link/lwg4091
+
+
+
+
+Hewill Kang
+-
+d:lwg4092
+LWG4092
+
+New
+The monotonic version of common_iterator::operator== is underconstrained
+https://wg21.link/lwg4092
+
+
+
+
+Hewill Kang
+-
+d:lwg4093
+LWG4093
+
+New
+ranges::fold_left_first_with_iter incorrectly constructs optional<U>
+https://wg21.link/lwg4093
+
+
+
+
+Hewill Kang
+-
+d:lwg4094
+LWG4094
+
+New
+ranges::fold_meow is overconstrained
+https://wg21.link/lwg4094
+
+
+
+
+Hewill Kang
+-
+d:lwg4095
+LWG4095
+
+NAD
+ranges::fold_meow should explicitly spell out the return type
+https://wg21.link/lwg4095
+
+
+
+
+Hewill Kang
+-
+d:lwg4096
+LWG4096
+
+WP
+views::iota(views::iota(0)) should be rejected
+https://wg21.link/lwg4096
+
+
+
+
+Hewill Kang
+-
+d:lwg4097
+LWG4097
+
+LEWG
+views::reverse should be specialized for some view types
+https://wg21.link/lwg4097
+
+
+
+
+Hewill Kang
+-
+d:lwg4098
+LWG4098
+
+WP
+views::adjacent<0> should reject non-forward ranges
+https://wg21.link/lwg4098
+
+
+
+
+Hewill Kang
+-
+d:lwg4099
+LWG4099
+
+New
+The simple case of views::as_rvalue and views::common are not strictly correct
+https://wg21.link/lwg4099
+
+
+
+
+Hewill Kang
 -
 d:lwg41
 LWG41
@@ -35038,6 +35626,126 @@ https://wg21.link/lwg410
 
 Hans Bos
 -
+d:lwg4100
+LWG4100
+
+New
+Default arguments and signatures of standard library non-member functions
+https://wg21.link/lwg4100
+
+
+
+
+Jiang An
+-
+d:lwg4101
+LWG4101
+
+New
+LWG 117 loses the sign for negative NaN on some architectures
+https://wg21.link/lwg4101
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4102
+LWG4102
+
+New
+string_view(Iter, Iter) constructor breaks existing code
+https://wg21.link/lwg4102
+
+
+
+
+Derek Zhang
+-
+d:lwg4103
+LWG4103
+
+New
+ranges::unique_copy's constraints for the case where result is an input_iterator are not quite right
+https://wg21.link/lwg4103
+
+
+
+
+Hewill Kang
+-
+d:lwg4104
+LWG4104
+
+New
+basic_const_iterator<volatile int*> is not a contiguous_iterator
+https://wg21.link/lwg4104
+
+
+
+
+Hewill Kang
+-
+d:lwg4105
+LWG4105
+
+WP
+ranges::ends_with's Returns misses difference casting
+https://wg21.link/lwg4105
+
+
+
+
+Hewill Kang
+-
+d:lwg4106
+LWG4106
+
+WP
+basic_format_args should not be default-constructible
+https://wg21.link/lwg4106
+
+
+
+
+Hewill Kang
+-
+d:lwg4107
+LWG4107
+
+New
+Map formatter may conflict with user-defined specializations of pair/tuple formatters
+https://wg21.link/lwg4107
+
+
+
+
+Victor Zverovich
+-
+d:lwg4108
+LWG4108
+
+SG9
+lazy_split_view should be sized_range when pattern is empty tiny-range
+https://wg21.link/lwg4108
+
+
+
+
+Hewill Kang
+-
+d:lwg4109
+LWG4109
+
+Resolved
+Instantiating templates in §[rand] with int8_t/uint8_t is undefined behavior
+https://wg21.link/lwg4109
+
+
+
+
+Peter Dimov
+-
 d:lwg411
 LWG411
 
@@ -35049,6 +35757,126 @@ https://wg21.link/lwg411
 
 
 Daniel Frey
+-
+d:lwg4110
+LWG4110
+
+New
+shared_ptr(nullptr_t, Deleter) is overconstrained, breaking some sensible deleters
+https://wg21.link/lwg4110
+
+
+
+
+Louis Dionne
+-
+d:lwg4111
+LWG4111
+
+New
+LWG 270 and ranges version of binary search algorithms
+https://wg21.link/lwg4111
+
+
+
+
+Jiang An
+-
+d:lwg4112
+LWG4112
+
+WP
+has-arrow should required operator->() to be const-qualified
+https://wg21.link/lwg4112
+
+
+
+
+Hewill Kang
+-
+d:lwg4113
+LWG4113
+
+WP
+Disallow has_unique_object_representations<Incomplete[]>
+https://wg21.link/lwg4113
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4114
+LWG4114
+
+New
+elements_view::iterator::operator* missing conditional noexcept specification
+https://wg21.link/lwg4114
+
+
+
+
+Hewill Kang
+-
+d:lwg4115
+LWG4115
+
+New
+move_iterator::operator* should have conditional noexcept specification
+https://wg21.link/lwg4115
+
+
+
+
+Hewill Kang
+-
+d:lwg4116
+LWG4116
+
+New
+enumerate_view::iterator and cartesian_product_view::iterator should not always provide iterator_category
+https://wg21.link/lwg4116
+
+
+
+
+Hewill Kang
+-
+d:lwg4117
+LWG4117
+
+New
+generator::iterator should provide iterator_concept
+https://wg21.link/lwg4117
+
+
+
+
+Hewill Kang
+-
+d:lwg4118
+LWG4118
+
+New
+How should duration formatters format custom rep types?
+https://wg21.link/lwg4118
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4119
+LWG4119
+
+WP
+generator::promise_type::yield_value(ranges::elements_of<R, Alloc>)'s nested generator may be ill-formed
+https://wg21.link/lwg4119
+
+
+
+
+Hewill Kang
 -
 d:lwg412
 LWG412
@@ -35062,6 +35890,126 @@ https://wg21.link/lwg412
 
 Martin Sebor
 -
+d:lwg4120
+LWG4120
+
+New
+move_iterator should provide iterator_category only when it models forward_iterator
+https://wg21.link/lwg4120
+
+
+
+
+Hewill Kang
+-
+d:lwg4121
+LWG4121
+
+New
+ranges::to constructs associative containers via c.emplace(c.end(), *it)
+https://wg21.link/lwg4121
+
+
+
+
+Hewill Kang
+-
+d:lwg4122
+LWG4122
+
+WP
+Ill-formed operator<=> can cause hard error when instantiating std::inplace_vector
+https://wg21.link/lwg4122
+
+
+
+
+Jiang An
+-
+d:lwg4123
+LWG4123
+
+New
+Container effects use "the assignment operator or move assignment operator"
+https://wg21.link/lwg4123
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4124
+LWG4124
+
+WP
+Cannot format zoned_time with resolution coarser than seconds
+https://wg21.link/lwg4124
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4125
+LWG4125
+
+New
+move_iterator's default constructor should be constrained
+https://wg21.link/lwg4125
+
+
+
+
+Hewill Kang
+-
+d:lwg4126
+LWG4126
+
+WP
+Some feature-test macros for fully freestanding features are not yet marked freestanding
+https://wg21.link/lwg4126
+
+
+
+
+Jiang An
+-
+d:lwg4127
+LWG4127
+
+New
+The Standard Library should not use predicates of the form pred(*i) != false
+https://wg21.link/lwg4127
+
+
+
+
+Hewill Kang
+-
+d:lwg4128
+LWG4128
+
+New
+Allocator requirements should not allow rebinding conversions to be explicit
+https://wg21.link/lwg4128
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4129
+LWG4129
+
+New
+Possibly incorrect wording for data race avoidance
+https://wg21.link/lwg4129
+
+
+
+
+Jiang An
+-
 d:lwg413
 LWG413
 
@@ -35073,6 +36021,126 @@ https://wg21.link/lwg413
 
 
 Bo Persson
+-
+d:lwg4130
+LWG4130
+
+WP
+Preconditions for std::launder might be overly strict
+https://wg21.link/lwg4130
+
+
+
+
+Jiang An
+-
+d:lwg4131
+LWG4131
+
+Resolved
+Including <optional> doesn't provide std::begin/end
+https://wg21.link/lwg4131
+
+
+
+
+Hewill Kang
+-
+d:lwg4132
+LWG4132
+
+New
+Throws specifications need to include boolean-testable operations
+https://wg21.link/lwg4132
+
+
+
+
+Daniel Krügler
+-
+d:lwg4133
+LWG4133
+
+WP
+awaitable-receiver's members are potentially throwing
+https://wg21.link/lwg4133
+
+
+
+
+Eric Niebler
+-
+d:lwg4134
+LWG4134
+
+WP
+Issue with Philox algorithm specification
+https://wg21.link/lwg4134
+
+
+
+
+Ilya A. Burylov
+-
+d:lwg4135
+LWG4135
+
+WP
+The helper lambda of std::erase for list should specify return type as bool
+https://wg21.link/lwg4135
+
+
+
+
+Hewill Kang
+-
+d:lwg4136
+LWG4136
+
+WP
+Specify behavior of [linalg] Hermitian algorithms on diagonal with nonzero imaginary part
+https://wg21.link/lwg4136
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4137
+LWG4137
+
+WP
+Fix Mandates, Preconditions, and Complexity elements of [linalg] algorithms
+https://wg21.link/lwg4137
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4138
+LWG4138
+
+New
+is_within_lifetime should mandate is_object
+https://wg21.link/lwg4138
+
+
+
+
+Corentin
+-
+d:lwg4139
+LWG4139
+
+New
+§[time.zone.leap] recursive constraint in <=>
+https://wg21.link/lwg4139
+
+
+
+
+Corentin
 -
 d:lwg414
 LWG414
@@ -35086,6 +36154,126 @@ https://wg21.link/lwg414
 
 Matt Austern
 -
+d:lwg4140
+LWG4140
+
+WP
+Useless default constructors for bit reference types
+https://wg21.link/lwg4140
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4141
+LWG4141
+
+WP
+Improve prohibitions on "additional storage"
+https://wg21.link/lwg4141
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4142
+LWG4142
+
+WP
+format_parse_context::check_dynamic_spec should require at least one type
+https://wg21.link/lwg4142
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4143
+LWG4143
+
+WP
+execution::set_value/set_error/set_stopped/start should always return void
+https://wg21.link/lwg4143
+
+
+
+
+Jiang An
+-
+d:lwg4144
+LWG4144
+
+WP
+Disallow unique_ptr<T&, D>
+https://wg21.link/lwg4144
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4145
+LWG4145
+
+New
+Unclear how [res.on.data.races] apply to templated functions
+https://wg21.link/lwg4145
+
+
+
+
+Tim Song
+-
+d:lwg4146
+LWG4146
+
+Resolved
+§[format.formatter.spec]/3 unconditionally enables nonlocking for container adaptors
+https://wg21.link/lwg4146
+
+
+
+
+Casey Carter
+-
+d:lwg4147
+LWG4147
+
+WP
+Precondition on inplace_vector::emplace
+https://wg21.link/lwg4147
+
+
+
+
+Arthur O'Dwyer
+-
+d:lwg4148
+LWG4148
+
+WP
+unique_ptr::operator* should not allow dangling references
+https://wg21.link/lwg4148
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4149
+LWG4149
+
+Resolved
+User defined macros without standard headers (294 redux)
+https://wg21.link/lwg4149
+
+
+
+
+Jonathan Wakely
+-
 d:lwg415
 LWG415
 
@@ -35097,6 +36285,126 @@ https://wg21.link/lwg415
 
 
 Martin Sebor
+-
+d:lwg4150
+LWG4150
+
+Resolved
+The preconditions on run_loop::run() are too strict
+https://wg21.link/lwg4150
+
+
+
+
+Eric Niebler
+-
+d:lwg4151
+LWG4151
+
+WP
+Precondition of inplace_vector::swap
+https://wg21.link/lwg4151
+
+
+
+
+Arthur O'Dwyer
+-
+d:lwg4152
+LWG4152
+
+New
+The primary template of std::char_traits is totally underspecified
+https://wg21.link/lwg4152
+
+
+
+
+Jiang An
+-
+d:lwg4153
+LWG4153
+
+WP
+Fix extra "-1" for philox_engine::max()
+https://wg21.link/lwg4153
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4154
+LWG4154
+
+WP
+The Mandates for std::packaged_task's constructor from a callable entity should consider decaying
+https://wg21.link/lwg4154
+
+
+
+
+Jiang An
+-
+d:lwg4155
+LWG4155
+
+New
+Cpp17NullablePointer should require that some expression can be contextually converted to bool
+https://wg21.link/lwg4155
+
+
+
+
+Jiang An
+-
+d:lwg4156
+LWG4156
+
+SG16
+error_category messages have unspecified encoding
+https://wg21.link/lwg4156
+
+
+
+
+Victor Zverovich
+-
+d:lwg4157
+LWG4157
+
+WP
+The resolution of LWG3465 was damaged by P2167R3
+https://wg21.link/lwg4157
+
+
+
+
+Jiang An
+-
+d:lwg4158
+LWG4158
+
+New
+packaged_task::operator= should abandon its shared state
+https://wg21.link/lwg4158
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4159
+LWG4159
+
+New
+Uses-allocator construction mechanisms should be opted out for node handles
+https://wg21.link/lwg4159
+
+
+
+
+Jiang An
 -
 d:lwg416
 LWG416
@@ -35110,6 +36418,126 @@ https://wg21.link/lwg416
 
 Martin Sebor
 -
+d:lwg4160
+LWG4160
+
+New
+packaged_task should reject rvalue reference return types
+https://wg21.link/lwg4160
+
+
+
+
+Casey Carter
+-
+d:lwg4161
+LWG4161
+
+New
+Some free functions don't automatically work for program-defined std::complex<NonFloatingPoint>
+https://wg21.link/lwg4161
+
+
+
+
+Jiang An
+-
+d:lwg4162
+LWG4162
+
+New
+Worst time complexity of non-parallel versions of nth_element is underspecified
+https://wg21.link/lwg4162
+
+
+
+
+Jiang An
+-
+d:lwg4163
+LWG4163
+
+NAD
+Can the overload of std::num_get::do_get for bool call the overload for long?
+https://wg21.link/lwg4163
+
+
+
+
+Jiang An
+-
+d:lwg4164
+LWG4164
+
+WP
+Missing guarantees for forward_list modifiers
+https://wg21.link/lwg4164
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4165
+LWG4165
+
+New
+Should swapping a built-in array or std::array with itself result in UB?
+https://wg21.link/lwg4165
+
+
+
+
+Jiang An
+-
+d:lwg4166
+LWG4166
+
+WP
+concat_view::end() should be more constrained in order to support noncopyable iterators
+https://wg21.link/lwg4166
+
+
+
+
+Yaito Kakeyama & Nana Sakisaka
+-
+d:lwg4167
+LWG4167
+
+New
+Use of "smaller" and "larger" in min, max, and minmax is unclear
+https://wg21.link/lwg4167
+
+
+
+
+Casey Carter
+-
+d:lwg4168
+LWG4168
+
+New
+std::start_lifetime_as inadvertently has undefined behavior due to use of std::bit_cast
+https://wg21.link/lwg4168
+
+
+
+
+Jan Schultke
+-
+d:lwg4169
+LWG4169
+
+WP
+std::atomic<T>'s default constructor should be constrained
+https://wg21.link/lwg4169
+
+
+
+
+Giuseppe D'Angelo
+-
 d:lwg417
 LWG417
 
@@ -35121,6 +36549,126 @@ https://wg21.link/lwg417
 
 
 Martin Sebor
+-
+d:lwg4170
+LWG4170
+
+WP
+contiguous_iterator should require to_address(I{})
+https://wg21.link/lwg4170
+
+
+
+
+Casey Carter
+-
+d:lwg4171
+LWG4171
+
+NAD
+P2609R3 breaks code that uses views::zip and get<T>
+https://wg21.link/lwg4171
+
+
+
+
+S. B. Tam
+-
+d:lwg4172
+LWG4172
+
+WP
+unique_lock self-move-assignment is broken
+https://wg21.link/lwg4172
+
+
+
+
+Casey Carter
+-
+d:lwg4173
+LWG4173
+
+New
+Better term for "references, pointers and iterators to elements"
+https://wg21.link/lwg4173
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4174
+LWG4174
+
+SG1
+How does [atomics.order] p3 apply when then modification is an initialization?
+https://wg21.link/lwg4174
+
+
+
+
+jim x
+-
+d:lwg4175
+LWG4175
+
+WP
+get_env() specified in terms of as_const() but this doesn't work with rvalue senders
+https://wg21.link/lwg4175
+
+
+
+
+Lewis Baker
+-
+d:lwg4176
+LWG4176
+
+New
+Refer back to container requirements when extending them
+https://wg21.link/lwg4176
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4177
+LWG4177
+
+SG1
+§[atomics.order] p8 "circularly depend on their own computation" is unclear for loop
+https://wg21.link/lwg4177
+
+
+
+
+jim x
+-
+d:lwg4178
+LWG4178
+
+NAD Editorial
+writable is no longer a term of power
+https://wg21.link/lwg4178
+
+
+
+
+Alisdair Meredith
+-
+d:lwg4179
+LWG4179
+
+WP
+Wrong range in [alg.search]
+https://wg21.link/lwg4179
+
+
+
+
+Oscar Slotosch
 -
 d:lwg418
 LWG418
@@ -35134,6 +36682,126 @@ https://wg21.link/lwg418
 
 Martin Sebor
 -
+d:lwg4180
+LWG4180
+
+New
+Inconsistent constraints on flat_foo::emplace
+https://wg21.link/lwg4180
+
+
+
+
+Arthur O'Dwyer
+-
+d:lwg4181
+LWG4181
+
+New
+Some ranges have negative ssize
+https://wg21.link/lwg4181
+
+
+
+
+Casey Carter
+-
+d:lwg4182
+LWG4182
+
+New
+Definition of NULL is too broad
+https://wg21.link/lwg4182
+
+
+
+
+Janet Cobb
+-
+d:lwg4183
+LWG4183
+
+New
+subrange should provide data()
+https://wg21.link/lwg4183
+
+
+
+
+Hewill Kang
+-
+d:lwg4184
+LWG4184
+
+NAD
+Domain of ranges::cmeow doesn't match ranges::meow
+https://wg21.link/lwg4184
+
+
+
+
+Hewill Kang
+-
+d:lwg4185
+LWG4185
+
+New
+Ill-formed, no diagnostic required on runtime behavior
+https://wg21.link/lwg4185
+
+
+
+
+Jiang An
+-
+d:lwg4186
+LWG4186
+
+WP
+regex_traits::transform_primary mistakenly detects typeid of a function
+https://wg21.link/lwg4186
+
+
+
+
+Jiang An
+-
+d:lwg4187
+LWG4187
+
+Resolved
+bitset::reference should be const-assignable
+https://wg21.link/lwg4187
+
+
+
+
+Arthur O'Dwyer
+-
+d:lwg4188
+LWG4188
+
+WP
+ostream::sentry destructor should handle exceptions
+https://wg21.link/lwg4188
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4189
+LWG4189
+
+WP
+cache_latest_view should be freestanding
+https://wg21.link/lwg4189
+
+
+
+
+Hewill Kang
+-
 d:lwg419
 LWG419
 
@@ -35145,6 +36813,126 @@ https://wg21.link/lwg419
 
 
 Martin Sebor
+-
+d:lwg4190
+LWG4190
+
+Resolved
+Specification of completion-signatures-for in [exec.snd.expos]/p39 is recursive
+https://wg21.link/lwg4190
+
+
+
+
+Eric Niebler
+-
+d:lwg4191
+LWG4191
+
+WP
+P1467 changed the return type of pow(complex<float>, int)
+https://wg21.link/lwg4191
+
+
+
+
+Tim Song
+-
+d:lwg4192
+LWG4192
+
+New
+§[ios.base.cons] ios_base members may not have indeterminate values after construction
+https://wg21.link/lwg4192
+
+
+
+
+S. B. Tam
+-
+d:lwg4193
+LWG4193
+
+New
+§[time.zone.db] the specification uses the undefined term "thread-safe"
+https://wg21.link/lwg4193
+
+
+
+
+S. B. Tam
+-
+d:lwg4194
+LWG4194
+
+NAD
+atomic<void*> should use generic class template
+https://wg21.link/lwg4194
+
+
+
+
+Gonzalo Brito
+-
+d:lwg4195
+LWG4195
+
+Dup
+expected<int, int> isn't specified to be trivially assignable
+https://wg21.link/lwg4195
+
+
+
+
+Barry Revzin
+-
+d:lwg4196
+LWG4196
+
+WP
+Complexity of inplace_merge() is incorrect
+https://wg21.link/lwg4196
+
+
+
+
+Stephen Howe
+-
+d:lwg4197
+LWG4197
+
+New
+Complexity of std::visit with immediate functions
+https://wg21.link/lwg4197
+
+
+
+
+Jiang An
+-
+d:lwg4198
+LWG4198
+
+WP
+schedule_from isn't starting the schedule sender if decay-copying results throws
+https://wg21.link/lwg4198
+
+
+
+
+Eric Niebler
+-
+d:lwg4199
+LWG4199
+
+New
+constraints on user customizations of standard sender algorithms are incorrectly specified
+https://wg21.link/lwg4199
+
+
+
+
+Eric Niebler
 -
 d:lwg42
 LWG42
@@ -35170,6 +36958,126 @@ https://wg21.link/lwg420
 
 Martin Sebor
 -
+d:lwg4200
+LWG4200
+
+WP
+The operation_state concept can be simplified
+https://wg21.link/lwg4200
+
+
+
+
+Eric Niebler
+-
+d:lwg4201
+LWG4201
+
+WP
+with-await-transform::await_transform should not use a deduced return type
+https://wg21.link/lwg4201
+
+
+
+
+Brian Bi
+-
+d:lwg4202
+LWG4202
+
+WP
+enable-sender should be a variable template
+https://wg21.link/lwg4202
+
+
+
+
+Eric Niebler
+-
+d:lwg4203
+LWG4203
+
+WP
+Constraints on get-state functions are incorrect
+https://wg21.link/lwg4203
+
+
+
+
+Eric Niebler
+-
+d:lwg4204
+LWG4204
+
+WP
+specification of as-sndr2(Sig) in [exec.let] is incomplete
+https://wg21.link/lwg4204
+
+
+
+
+Eric Niebler
+-
+d:lwg4205
+LWG4205
+
+WP
+let_[*].transform_env is specified in terms of the let_* sender itself instead of its child
+https://wg21.link/lwg4205
+
+
+
+
+Eric Niebler
+-
+d:lwg4206
+LWG4206
+
+New
+Alias template connect_result_t should be constrained with sender_to
+https://wg21.link/lwg4206
+
+
+
+
+Eric Niebler
+-
+d:lwg4207
+LWG4207
+
+New
+Point of reference for source_location is not specified when used in an default template argument
+https://wg21.link/lwg4207
+
+
+
+
+Cassio Neri
+-
+d:lwg4208
+LWG4208
+
+WP
+Wording needs to ensure that in connect(sndr, rcvr) that rcvr expression is only evaluated once
+https://wg21.link/lwg4208
+
+
+
+
+Eric Niebler
+-
+d:lwg4209
+LWG4209
+
+WP
+default_domain::transform_env should be returning FWD-ENV(env)
+https://wg21.link/lwg4209
+
+
+
+
+Eric Niebler
+-
 d:lwg421
 LWG421
 
@@ -35181,6 +37089,126 @@ https://wg21.link/lwg421
 
 
 Martin Sebor
+-
+d:lwg4210
+LWG4210
+
+New
+Issue with cache_latest_view::iterator's reference type
+https://wg21.link/lwg4210
+
+
+
+
+Hewill Kang
+-
+d:lwg4211
+LWG4211
+
+New
+IANA time zone database allows links to refer to links
+https://wg21.link/lwg4211
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4212
+LWG4212
+
+New
+Make the round states in [rand.eng.philox] explicit
+https://wg21.link/lwg4212
+
+
+
+
+Thomas Köppe
+-
+d:lwg4213
+LWG4213
+
+Resolved
+Sender spec depends on unspecified order of evaluation
+https://wg21.link/lwg4213
+
+
+
+
+Frank Birbacher
+-
+d:lwg4214
+LWG4214
+
+New
+Missing Preconditions for take/drop adaptor
+https://wg21.link/lwg4214
+
+
+
+
+Hewill Kang
+-
+d:lwg4215
+LWG4215
+
+Resolved
+run_loop::finish should be noexcept
+https://wg21.link/lwg4215
+
+
+
+
+Eric Niebler
+-
+d:lwg4216
+LWG4216
+
+New
+num_put::do_put and void pointers
+https://wg21.link/lwg4216
+
+
+
+
+Nikolas Klauser
+-
+d:lwg4217
+LWG4217
+
+WP
+Clarify mdspan layout mapping requirements for rank == 0
+https://wg21.link/lwg4217
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4218
+LWG4218
+
+New
+Constraint recursion in basic_const_iterator's relational operators due to ADL + CWG 2369
+https://wg21.link/lwg4218
+
+
+
+
+Patrick Palka
+-
+d:lwg4219
+LWG4219
+
+NAD
+std::vector::erase[_if] should be based on ranges remove
+https://wg21.link/lwg4219
+
+
+
+
+Peter Kasting
 -
 d:lwg422
 LWG422
@@ -35194,6 +37222,126 @@ https://wg21.link/lwg422
 
 Martin Sebor
 -
+d:lwg4220
+LWG4220
+
+New
+join_view incorrectly stores inner range
+https://wg21.link/lwg4220
+
+
+
+
+Hewill Kang
+-
+d:lwg4221
+LWG4221
+
+New
+Cannot format const-iterable only ranges
+https://wg21.link/lwg4221
+
+
+
+
+Hewill Kang
+-
+d:lwg4222
+LWG4222
+
+WP
+expected constructor from a single value missing a constraint
+https://wg21.link/lwg4222
+
+
+
+
+Bronek Kozicki
+-
+d:lwg4223
+LWG4223
+
+WP
+Deduction guides for maps are mishandling tuples and references
+https://wg21.link/lwg4223
+
+
+
+
+Tomasz Kaminski
+-
+d:lwg4224
+LWG4224
+
+WP
+Philox engines should be freestanding
+https://wg21.link/lwg4224
+
+
+
+
+Jiang An
+-
+d:lwg4225
+LWG4225
+
+New
+What should happen when an exception is thrown on resizing std::deque, std::forward_list, or std::list?
+https://wg21.link/lwg4225
+
+
+
+
+Jiang An
+-
+d:lwg4226
+LWG4226
+
+New
+to_input_view::iterator cannot be compared to its const sentinel
+https://wg21.link/lwg4226
+
+
+
+
+Hewill Kang
+-
+d:lwg4227
+LWG4227
+
+WP
+Missing noexcept operator in [exec.when.all]
+https://wg21.link/lwg4227
+
+
+
+
+Ian Petersen
+-
+d:lwg4228
+LWG4228
+
+NAD
+Does vector<bool, Allocator> mandate that Allocator::value_type is bool?
+https://wg21.link/lwg4228
+
+
+
+
+Stephan T. Lavavej
+-
+d:lwg4229
+LWG4229
+
+NAD
+std::ranges::to with union return type
+https://wg21.link/lwg4229
+
+
+
+
+Jiang An
+-
 d:lwg423
 LWG423
 
@@ -35205,6 +37353,126 @@ https://wg21.link/lwg423
 
 
 Martin Sebor
+-
+d:lwg4230
+LWG4230
+
+WP
+simd<complex>::real/imag is overconstrained
+https://wg21.link/lwg4230
+
+
+
+
+Matthias Kretz
+-
+d:lwg4231
+LWG4231
+
+WP
+datapar::chunk<N> should use simd-size-type instead of size_t
+https://wg21.link/lwg4231
+
+
+
+
+Matthias Kretz
+-
+d:lwg4232
+LWG4232
+
+WP
+datapar::resize does not resize
+https://wg21.link/lwg4232
+
+
+
+
+Tim Song
+-
+d:lwg4233
+LWG4233
+
+WP
+The helper lambda of std::erase for hive should specify return type as bool
+https://wg21.link/lwg4233
+
+
+
+
+Hewill Kang
+-
+d:lwg4234
+LWG4234
+
+WP
+Including <hive> doesn't provide std::begin/end
+https://wg21.link/lwg4234
+
+
+
+
+Hewill Kang
+-
+d:lwg4235
+LWG4235
+
+WP
+cache_latest_view and to_input_view miss reserve_hint
+https://wg21.link/lwg4235
+
+
+
+
+Hewill Kang
+-
+d:lwg4236
+LWG4236
+
+WP
+chunk_view::outer-iterator::value_type should provide reserve_hint
+https://wg21.link/lwg4236
+
+
+
+
+Hewill Kang
+-
+d:lwg4237
+LWG4237
+
+New
+The standard library iterator adaptor does not handle iterator_category correctly
+https://wg21.link/lwg4237
+
+
+
+
+Hewill Kang
+-
+d:lwg4238
+LWG4238
+
+Resolved
+simd_mask<complex<double>>::operator+/-/~ return a disabled simd specialization
+https://wg21.link/lwg4238
+
+
+
+
+Matthias Kretz
+-
+d:lwg4239
+LWG4239
+
+WP
+flat_map's transparent comparator no longer works for string literals
+https://wg21.link/lwg4239
+
+
+
+
+Hui Xie
 -
 d:lwg424
 LWG424
@@ -35218,6 +37486,126 @@ https://wg21.link/lwg424
 
 Martin Sebor
 -
+d:lwg4240
+LWG4240
+
+New
+The formattable type is not a formattable type
+https://wg21.link/lwg4240
+
+
+
+
+Hewill Kang
+-
+d:lwg4241
+LWG4241
+
+LEWG
+ranges::for_each(_n) should be less constrained
+https://wg21.link/lwg4241
+
+
+
+
+Jiang An
+-
+d:lwg4242
+LWG4242
+
+WP
+ranges::distance does not work with volatile iterators
+https://wg21.link/lwg4242
+
+
+
+
+Hewill Kang
+-
+d:lwg4243
+LWG4243
+
+WP
+as_bytes/as_writable_bytes is broken with span<volatile T>
+https://wg21.link/lwg4243
+
+
+
+
+Hewill Kang
+-
+d:lwg4244
+LWG4244
+
+NAD
+Whether the spuriously failed comparison applies to compare_exchange_strong is unclear
+https://wg21.link/lwg4244
+
+
+
+
+jim x
+-
+d:lwg4245
+LWG4245
+
+WP
+Operators that interact with counted_iterator and default_sentinel_t should be noexcept
+https://wg21.link/lwg4245
+
+
+
+
+Hewill Kang
+-
+d:lwg4246
+LWG4246
+
+NAD
+Redundant constraint in range_formatter::format
+https://wg21.link/lwg4246
+
+
+
+
+Hewill Kang
+-
+d:lwg4247
+LWG4247
+
+WP
+Header <stdbit.h> is not yet freestanding
+https://wg21.link/lwg4247
+
+
+
+
+Jiang An
+-
+d:lwg4248
+LWG4248
+
+Resolved
+Late domain-based dispatching of schedule_from and continues_on are flipped
+https://wg21.link/lwg4248
+
+
+
+
+Eric Niebler
+-
+d:lwg4249
+LWG4249
+
+New
+The past end issue for lazy_split_view
+https://wg21.link/lwg4249
+
+
+
+
+Hewill Kang
+-
 d:lwg425
 LWG425
 
@@ -35229,6 +37617,126 @@ https://wg21.link/lwg425
 
 
 Martin Sebor
+-
+d:lwg4250
+LWG4250
+
+LEWG
+swap overloads for indirect and polymorphic only found by ADL
+https://wg21.link/lwg4250
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4251
+LWG4251
+
+WP
+Move assignment for indirect unnecessarily requires copy construction
+https://wg21.link/lwg4251
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4252
+LWG4252
+
+New
+Are exposition-only classes considered specified for the purpose of final?
+https://wg21.link/lwg4252
+
+
+
+
+Jiang An
+-
+d:lwg4253
+LWG4253
+
+WP
+basic_const_iterator should provide iterator_type
+https://wg21.link/lwg4253
+
+
+
+
+Hewill Kang
+-
+d:lwg4254
+LWG4254
+
+New
+stride_view::iterator should provide operator->
+https://wg21.link/lwg4254
+
+
+
+
+Hewill Kang
+-
+d:lwg4255
+LWG4255
+
+WP
+move_only_function constructor should recognize empty copyable_functions
+https://wg21.link/lwg4255
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4256
+LWG4256
+
+WP
+Incorrect constrains for function_ref constructors from nontype_t
+https://wg21.link/lwg4256
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4257
+LWG4257
+
+WP
+Stream insertion for chrono::local_time should be constrained
+https://wg21.link/lwg4257
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4258
+LWG4258
+
+New
+Size type mismatch in constraints involving Cpp17Allocator
+https://wg21.link/lwg4258
+
+
+
+
+Jiang An
+-
+d:lwg4259
+LWG4259
+
+WP
+P1148R0 changed the return values of searching functions of std::basic_string on some platforms
+https://wg21.link/lwg4259
+
+
+
+
+Jiang An
 -
 d:lwg426
 LWG426
@@ -35242,6 +37750,126 @@ https://wg21.link/lwg426
 
 Martin Sebor
 -
+d:lwg4260
+LWG4260
+
+WP
+Query objects must be default constructible
+https://wg21.link/lwg4260
+
+
+
+
+Eric Niebler
+-
+d:lwg4261
+LWG4261
+
+New
+P1206R7 broke uses of container adaptors with old custom sequence containers
+https://wg21.link/lwg4261
+
+
+
+
+Jiang An
+-
+d:lwg4262
+LWG4262
+
+New
+copy_if, remove_copy, remove_copy_if, unique_copy have too strong preconditions
+https://wg21.link/lwg4262
+
+
+
+
+Alex Guteniev
+-
+d:lwg4263
+LWG4263
+
+New
+What should std::format_to etc. behave when the output is overlong?
+https://wg21.link/lwg4263
+
+
+
+
+Jiang An
+-
+d:lwg4264
+LWG4264
+
+Resolved
+Skipping indirection is not allowed for function_ref
+https://wg21.link/lwg4264
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4265
+LWG4265
+
+WP
+std::midpoint should not accept const bool
+https://wg21.link/lwg4265
+
+
+
+
+Jan Schultke
+-
+d:lwg4266
+LWG4266
+
+WP
+layout_stride::mapping should treat empty mappings as exhaustive
+https://wg21.link/lwg4266
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4267
+LWG4267
+
+New
+Uses-allocator construction is meaningless for tuple of references
+https://wg21.link/lwg4267
+
+
+
+
+Jiang An
+-
+d:lwg4268
+LWG4268
+
+New
+function<void()> suppresses nodiscard warnings
+https://wg21.link/lwg4268
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4269
+LWG4269
+
+WP
+unique_copy passes arguments to its predicate backwards
+https://wg21.link/lwg4269
+
+
+
+
+Jonathan Wakely
+-
 d:lwg427
 LWG427
 
@@ -35253,6 +37881,126 @@ https://wg21.link/lwg427
 
 
 Martin Sebor
+-
+d:lwg4270
+LWG4270
+
+New
+Diagnose misuse of std::projected::operator*
+https://wg21.link/lwg4270
+
+
+
+
+Jiang An
+-
+d:lwg4271
+LWG4271
+
+NAD
+Caching range views claim amortized amortized 𝒪(1) runtime complexity for algorithms that are in fact 𝒪(n)
+https://wg21.link/lwg4271
+
+
+
+
+Andreas Weis
+-
+d:lwg4272
+LWG4272
+
+WP
+For rank == 0, layout_stride is atypically convertible
+https://wg21.link/lwg4272
+
+
+
+
+Luc Grosheintz
+-
+d:lwg4273
+LWG4273
+
+New
+Standard execution policy types should be conventional tag class types
+https://wg21.link/lwg4273
+
+
+
+
+Jiang An
+-
+d:lwg4274
+LWG4274
+
+WP
+The chrono::hh_mm_ss constructor is ill-formed for unsigned durations
+https://wg21.link/lwg4274
+
+
+
+
+Michael Welsh Duggan
+-
+d:lwg4275
+LWG4275
+
+WP
+std::dynamic_extent should also be defined in <mdspan>
+https://wg21.link/lwg4275
+
+
+
+
+Aiden Grossman
+-
+d:lwg4276
+LWG4276
+
+WP
+front() and back() are not hardened for zero-length std::arrays
+https://wg21.link/lwg4276
+
+
+
+
+Jan Schultke
+-
+d:lwg4277
+LWG4277
+
+New
+§[algorithms.requirements] It is unclear what an algorithm is
+https://wg21.link/lwg4277
+
+
+
+
+Jan Schultke
+-
+d:lwg4278
+LWG4278
+
+Resolved
+Consider changing how get-domain-early(sndr) works
+https://wg21.link/lwg4278
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4279
+LWG4279
+
+New
+§[fs.op.absolute] Non-normative encouragement should be Recommended practice
+https://wg21.link/lwg4279
+
+
+
+
+Jonathan Wakely
 -
 d:lwg428
 LWG428
@@ -35266,6 +38014,126 @@ https://wg21.link/lwg428
 
 Martin Sebor
 -
+d:lwg4280
+LWG4280
+
+WP
+simd::partial_load uses undefined identifier T
+https://wg21.link/lwg4280
+
+
+
+
+Tim Song
+-
+d:lwg4281
+LWG4281
+
+New
+Inconsistency between value_or() and error_or() in std::expected
+https://wg21.link/lwg4281
+
+
+
+
+Hiroaki Ando
+-
+d:lwg4282
+LWG4282
+
+Resolved
+Imprecise Throws: clause in std::relocate
+https://wg21.link/lwg4282
+
+
+
+
+Giuseppe D'Angelo
+-
+d:lwg4283
+LWG4283
+
+Resolved
+std::trivially_relocate needs stronger preconditions on "nested" objects with dynamic lifetime
+https://wg21.link/lwg4283
+
+
+
+
+Giuseppe D'Angelo
+-
+d:lwg4284
+LWG4284
+
+LEWG
+Integer-class types should be formattable
+https://wg21.link/lwg4284
+
+
+
+
+Jiang An
+-
+d:lwg4285
+LWG4285
+
+New
+time_get::do_get_date is problematic even after LWG 461
+https://wg21.link/lwg4285
+
+
+
+
+S. B. Tam
+-
+d:lwg4286
+LWG4286
+
+WP
+Some more feature-test macros for fully freestanding features are not marked freestanding
+https://wg21.link/lwg4286
+
+
+
+
+Yihe Li
+-
+d:lwg4287
+LWG4287
+
+New
+§[locale.codecvt.virtuals] do_in and do_out could do with better specification
+https://wg21.link/lwg4287
+
+
+
+
+S. B. Tam
+-
+d:lwg4288
+LWG4288
+
+New
+The Constraints: element in [time.clock.system.members] is probably wrong
+https://wg21.link/lwg4288
+
+
+
+
+Jiang An
+-
+d:lwg4289
+LWG4289
+
+LEWG
+Seed sequence is overspecified
+https://wg21.link/lwg4289
+
+
+
+
+Magnus Fromreide
+-
 d:lwg429
 LWG429
 
@@ -35277,6 +38145,126 @@ https://wg21.link/lwg429
 
 
 Martin Sebor
+-
+d:lwg4290
+LWG4290
+
+WP
+Missing Mandates clauses on is_sufficiently_aligned
+https://wg21.link/lwg4290
+
+
+
+
+Damien Lebrun-Grandie
+-
+d:lwg4291
+LWG4291
+
+WP
+explicit map(const Allocator&) should be constexpr
+https://wg21.link/lwg4291
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4292
+LWG4292
+
+WP
+Unordered container local iterators should be constexpr iterators
+https://wg21.link/lwg4292
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4293
+LWG4293
+
+WP
+span::subspan/first/last chooses wrong constructor when T is const-qualified bool
+https://wg21.link/lwg4293
+
+
+
+
+Yuhan Liu
+-
+d:lwg4294
+LWG4294
+
+WP
+bitset(const CharT*) constructor needs to be constrained
+https://wg21.link/lwg4294
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4295
+LWG4295
+
+New
+[fund.ts.v3] experimental::observer_ptr should have more constexpr
+https://wg21.link/lwg4295
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4296
+LWG4296
+
+New
+Clarify that Cpp17Hash does not imply stateless
+https://wg21.link/lwg4296
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4297
+LWG4297
+
+WP
+Missing permutable constraint for iterator overloads in Parallel Range Algorithms
+https://wg21.link/lwg4297
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4298
+LWG4298
+
+New
+§[meta.reflection.extract] Malformed "F noexcept" type
+https://wg21.link/lwg4298
+
+
+
+
+Jan Schultke
+-
+d:lwg4299
+LWG4299
+
+WP
+Missing Mandates: part in optional<T&>::transform
+https://wg21.link/lwg4299
+
+
+
+
+Giuseppe D'Angelo
 -
 d:lwg43
 LWG43
@@ -35302,6 +38290,126 @@ https://wg21.link/lwg430
 
 Martin Sebor
 -
+d:lwg4300
+LWG4300
+
+WP
+Missing Returns: element in optional<T&>::emplace
+https://wg21.link/lwg4300
+
+
+
+
+Giuseppe D'Angelo
+-
+d:lwg4301
+LWG4301
+
+WP
+condition_variable{_any}::wait_{for, until} should take timeout by value
+https://wg21.link/lwg4301
+
+
+
+
+Hui Xie
+-
+d:lwg4302
+LWG4302
+
+WP
+Problematic vector_sum_of_squares wording
+https://wg21.link/lwg4302
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4303
+LWG4303
+
+New
+std::decay_t in the specification of ranges::distance is problematic
+https://wg21.link/lwg4303
+
+
+
+
+Jiang An
+-
+d:lwg4304
+LWG4304
+
+WP
+std::optional<NonReturnable&> is ill-formed due to value_or
+https://wg21.link/lwg4304
+
+
+
+
+Jiang An
+-
+d:lwg4305
+LWG4305
+
+WP
+Missing user requirements on type_order template
+https://wg21.link/lwg4305
+
+
+
+
+Daniel Krügler
+-
+d:lwg4306
+LWG4306
+
+New
+Interaction between LWG 2259 and Constraints of member functions
+https://wg21.link/lwg4306
+
+
+
+
+Jiang An
+-
+d:lwg4307
+LWG4307
+
+New
+Make good use of sized-random-access-range and bidirectional-common in <ranges>
+https://wg21.link/lwg4307
+
+
+
+
+Hewill Kang
+-
+d:lwg4308
+LWG4308
+
+WP
+std::optional<T&>::iterator can't be a contiguous iterator for some T
+https://wg21.link/lwg4308
+
+
+
+
+Jiang An
+-
+d:lwg4309
+LWG4309
+
+NAD
+How are two seq_cst operations ordered in the single total order if these two operations are unsequenced?
+https://wg21.link/lwg4309
+
+
+
+
+jim x
+-
 d:lwg431
 LWG431
 
@@ -35313,6 +38421,126 @@ https://wg21.link/lwg431
 
 
 Matt Austern
+-
+d:lwg4310
+LWG4310
+
+Core
+Is "the completion of the invocation of the constructor" considered as an expression?
+https://wg21.link/lwg4310
+
+
+
+
+jim x
+-
+d:lwg4311
+LWG4311
+
+New
+Can std::pmr::polymorphic_allocator::construct just call std::uninitialized_construct_using_allocator?
+https://wg21.link/lwg4311
+
+
+
+
+Jiang An
+-
+d:lwg4312
+LWG4312
+
+WP
+Const and value category mismatch for allocator_arg_t/allocator_arg in the description of uses-allocator construction
+https://wg21.link/lwg4312
+
+
+
+
+Jiang An
+-
+d:lwg4313
+LWG4313
+
+New
+Uses-allocator construction of pair in tuple's allocator_arg_t constructors
+https://wg21.link/lwg4313
+
+
+
+
+Jiang An
+-
+d:lwg4314
+LWG4314
+
+WP
+Missing move in mdspan layout mapping::operator()
+https://wg21.link/lwg4314
+
+
+
+
+Luc Grosheintz
+-
+d:lwg4315
+LWG4315
+
+WP
+Insufficient specification of vector_two_norm and matrix_frob_norm
+https://wg21.link/lwg4315
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4316
+LWG4316
+
+WP
+{can_}substitute specification is ill-formed
+https://wg21.link/lwg4316
+
+
+
+
+Matthias Wippich
+-
+d:lwg4317
+LWG4317
+
+WP
+The meaning of "resource" in the Cpp17Destructible requirements is undefined
+https://wg21.link/lwg4317
+
+
+
+
+Jiang An
+-
+d:lwg4318
+LWG4318
+
+WP
+Have hive::erase_if reevaluate end() to avoid UB
+https://wg21.link/lwg4318
+
+
+
+
+Frank Birbacher
+-
+d:lwg4319
+LWG4319
+
+New
+Supporting copy-elision in function wrappers
+https://wg21.link/lwg4319
+
+
+
+
+Tomasz Kamiński
 -
 d:lwg432
 LWG432
@@ -35326,6 +38554,126 @@ https://wg21.link/lwg432
 
 Christian W Brock
 -
+d:lwg4320
+LWG4320
+
+New
+hive operations involving insertion/erasure should have 𝒪(log n) time complexity
+https://wg21.link/lwg4320
+
+
+
+
+Matt Bentley
+-
+d:lwg4321
+LWG4321
+
+NAD
+How are evaluations occurring within a store and a load operation ordered where the store synchronized with the load
+https://wg21.link/lwg4321
+
+
+
+
+jim x
+-
+d:lwg4322
+LWG4322
+
+New
+Problematic Constraints on incomplete types in indirect and polymorphic
+https://wg21.link/lwg4322
+
+
+
+
+Jonathan B. Coe
+-
+d:lwg4323
+LWG4323
+
+New
+hive::unique time complexity should incorporate potential block removal complexity
+https://wg21.link/lwg4323
+
+
+
+
+Matt Bentley
+-
+d:lwg4324
+LWG4324
+
+WP
+unique_ptr<void>::operator* is not SFINAE-friendly
+https://wg21.link/lwg4324
+
+
+
+
+Hewill Kang
+-
+d:lwg4325
+LWG4325
+
+WP
+std::indirect's operator== still does not support incomplete types
+https://wg21.link/lwg4325
+
+
+
+
+Hewill Kang
+-
+d:lwg4326
+LWG4326
+
+New
+Standard defined queries can't customize forwarding_query_t by inheriting from it
+https://wg21.link/lwg4326
+
+
+
+
+Lewis Baker
+-
+d:lwg4327
+LWG4327
+
+New
+Equal schedulers should be required to have same behaviour
+https://wg21.link/lwg4327
+
+
+
+
+Lewis Baker
+-
+d:lwg4328
+LWG4328
+
+WP
+Remove note in §[exec.sched] regarding waiting for completion of scheduled operations
+https://wg21.link/lwg4328
+
+
+
+
+Lewis Baker
+-
+d:lwg4329
+LWG4329
+
+LEWG
+Customising affine_on for other algorithms
+https://wg21.link/lwg4329
+
+
+
+
+Dietmar Kühl
+-
 d:lwg433
 LWG433
 
@@ -35337,6 +38685,126 @@ https://wg21.link/lwg433
 
 
 Vyatcheslav Sysoltsev
+-
+d:lwg4330
+LWG4330
+
+Resolved
+affine_on semantics
+https://wg21.link/lwg4330
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4331
+LWG4331
+
+Resolved
+affine_on shape may be wrong
+https://wg21.link/lwg4331
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4332
+LWG4332
+
+Resolved
+affine_on shouldn't forward the stop token to the scheduling operation
+https://wg21.link/lwg4332
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4333
+LWG4333
+
+Resolved
+task uses unusual allocator customisation
+https://wg21.link/lwg4333
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4334
+LWG4334
+
+Resolved
+task<...>::promise_type supports arbitrary allocator_arg position
+https://wg21.link/lwg4334
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4335
+LWG4335
+
+Resolved
+task shadows the environment's allocator
+https://wg21.link/lwg4335
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4336
+LWG4336
+
+Resolved
+bulk vs. task_scheduler
+https://wg21.link/lwg4336
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4337
+LWG4337
+
+NAD
+co_await change_coroutine_scheduler(s) requires assignable
+https://wg21.link/lwg4337
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4338
+LWG4338
+
+LEWG
+sender unaware coroutines should be able to co_await a task
+https://wg21.link/lwg4338
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4339
+LWG4339
+
+WP
+task's coroutine frame may be released late
+https://wg21.link/lwg4339
+
+
+
+
+Dietmar Kühl
 -
 d:lwg434
 LWG434
@@ -35350,6 +38818,126 @@ https://wg21.link/lwg434
 
 Martin Sebor
 -
+d:lwg4340
+LWG4340
+
+WP
+task::promise_type::unhandled_stopped() should be noexcept
+https://wg21.link/lwg4340
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4341
+LWG4341
+
+WP
+Missing rvalue reference qualification for task::connect()
+https://wg21.link/lwg4341
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4342
+LWG4342
+
+WP
+Missing rvalue reference qualification for task_scheduler::ts-sender::connect()
+https://wg21.link/lwg4342
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4343
+LWG4343
+
+WP
+Missing default template arguments for task
+https://wg21.link/lwg4343
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4344
+LWG4344
+
+Resolved
+affine_on has no specification for the default
+https://wg21.link/lwg4344
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4345
+LWG4345
+
+WP
+task::promise_type::return_value default template parameter
+https://wg21.link/lwg4345
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4346
+LWG4346
+
+WP
+task::promise_type::return_void/value lack a specification
+https://wg21.link/lwg4346
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4347
+LWG4347
+
+WP
+task's stop source is always created
+https://wg21.link/lwg4347
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4348
+LWG4348
+
+LEWG
+task doesn't support symmetric transfer
+https://wg21.link/lwg4348
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4349
+LWG4349
+
+WP
+task is not actually started lazily
+https://wg21.link/lwg4349
+
+
+
+
+Dietmar Kühl
+-
 d:lwg435
 LWG435
 
@@ -35361,6 +38949,126 @@ https://wg21.link/lwg435
 
 
 Martin Sebor
+-
+d:lwg4350
+LWG4350
+
+LEWG
+Should flat adaptors use insert_range when available?
+https://wg21.link/lwg4350
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4351
+LWG4351
+
+WP
+integral-constant-like needs more remove_cvref_t
+https://wg21.link/lwg4351
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4352
+LWG4352
+
+New
+"operations on flat_multimap are equivalent to those of flat_map"
+https://wg21.link/lwg4352
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4353
+LWG4353
+
+New
+Uses of MANDATE-NOTHROW in CPOs should not enclose CPO argument sub-expressions
+https://wg21.link/lwg4353
+
+
+
+
+Lewis Baker
+-
+d:lwg4354
+LWG4354
+
+WP
+Reconsider weakly_parallel as the default forward_progress_guarantee
+https://wg21.link/lwg4354
+
+
+
+
+Lewis Baker
+-
+d:lwg4355
+LWG4355
+
+New
+connect-awaitable() should mandate rcvr can receive all completion-signals rather than using constraints
+https://wg21.link/lwg4355
+
+
+
+
+Lewis Baker
+-
+d:lwg4356
+LWG4356
+
+New
+connect() should use get_allocator(get_env(rcvr)) to allocate the coroutine-state for a connect-awaitable coroutine
+https://wg21.link/lwg4356
+
+
+
+
+Lewis Baker
+-
+d:lwg4357
+LWG4357
+
+New
+connect-awaitable should use is_void_v to check for result-type of co_await expression instead of same_as<void>
+https://wg21.link/lwg4357
+
+
+
+
+Lewis Baker
+-
+d:lwg4358
+LWG4358
+
+WP
+§[exec.as.awaitable] is using "Preconditions:" when it should probably be described in the constraint
+https://wg21.link/lwg4358
+
+
+
+
+Lewis Baker
+-
+d:lwg4359
+LWG4359
+
+New
+as_awaitable(expr, p) does not define semantics of call if p is not an lvalue
+https://wg21.link/lwg4359
+
+
+
+
+Lewis Baker
 -
 d:lwg436
 LWG436
@@ -35374,6 +39082,126 @@ https://wg21.link/lwg436
 
 Martin Sebor
 -
+d:lwg4360
+LWG4360
+
+WP
+awaitable-sender concept should qualify use of awaitable-receiver type
+https://wg21.link/lwg4360
+
+
+
+
+Lewis Baker
+-
+d:lwg4361
+LWG4361
+
+WP
+awaitable-receiver::set_value should use Mandates instead of constraints
+https://wg21.link/lwg4361
+
+
+
+
+Lewis Baker
+-
+d:lwg4362
+LWG4362
+
+NAD
+Inconsistent usage of constexpr for inplace_stop_token and inplace_stop_source
+https://wg21.link/lwg4362
+
+
+
+
+Lewis Baker
+-
+d:lwg4363
+LWG4363
+
+NAD
+transform_sender comparing types ignoring cv-qualifiers doesn't take into account differences in value category
+https://wg21.link/lwg4363
+
+
+
+
+Lewis Baker
+-
+d:lwg4364
+LWG4364
+
+New
+SFINAE-friendliness on operator<< and operator>> for unspecified I/O manipulators
+https://wg21.link/lwg4364
+
+
+
+
+Jiang An
+-
+d:lwg4365
+LWG4365
+
+LEWG
+boyer_moore_searcher and boyer_moore_horspool_searcher should be constexpr-friendly
+https://wg21.link/lwg4365
+
+
+
+
+Hewill Kang
+-
+d:lwg4366
+LWG4366
+
+WP
+Heterogeneous comparison of expected may be ill-formed
+https://wg21.link/lwg4366
+
+
+
+
+Hewill Kang
+-
+d:lwg4367
+LWG4367
+
+New
+Improve optional<T&>::or_else
+https://wg21.link/lwg4367
+
+
+
+
+Hewill Kang
+-
+d:lwg4368
+LWG4368
+
+Resolved
+Potential dangling reference returned from transform_sender
+https://wg21.link/lwg4368
+
+
+
+
+Eric Niebler
+-
+d:lwg4369
+LWG4369
+
+WP
+check-types function for upon_error and upon_stopped is wrong
+https://wg21.link/lwg4369
+
+
+
+
+Eric Niebler
+-
 d:lwg437
 LWG437
 
@@ -35385,6 +39213,126 @@ https://wg21.link/lwg437
 
 
 Ivan Godard
+-
+d:lwg4370
+LWG4370
+
+WP
+Comparison of optional<T> to T may be ill-formed
+https://wg21.link/lwg4370
+
+
+
+
+Hewill Kang
+-
+d:lwg4371
+LWG4371
+
+NAD
+Container adaptor's empty/size should be noexcept
+https://wg21.link/lwg4371
+
+
+
+
+Hewill Kang
+-
+d:lwg4372
+LWG4372
+
+WP
+Weaken Mandates: for dynamic padding values in padded layouts
+https://wg21.link/lwg4372
+
+
+
+
+Luc Grosheintz
+-
+d:lwg4373
+LWG4373
+
+New
+function_ref should provide result_type
+https://wg21.link/lwg4373
+
+
+
+
+Hewill Kang
+-
+d:lwg4374
+LWG4374
+
+New
+flat_meow range insertion behavior is unclear if in-place merge cannot allocate additional memory
+https://wg21.link/lwg4374
+
+
+
+
+Tim Song
+-
+d:lwg4375
+LWG4375
+
+WP
+std::simd::bit_ceil should not be noexcept
+https://wg21.link/lwg4375
+
+
+
+
+Matthias Kretz
+-
+d:lwg4376
+LWG4376
+
+WP
+ABI tag in return type of [simd.mask.unary] is overconstrained
+https://wg21.link/lwg4376
+
+
+
+
+Matthias Kretz
+-
+d:lwg4377
+LWG4377
+
+WP
+Misleading note about lock-free property of std::atomic_ref
+https://wg21.link/lwg4377
+
+
+
+
+Brian Bi
+-
+d:lwg4378
+LWG4378
+
+WP
+Inconsistency between std::basic_string's data() and operator[] specification
+https://wg21.link/lwg4378
+
+
+
+
+Peter Bindels
+-
+d:lwg4379
+LWG4379
+
+WP
+hive::reserve() needs Throws: element adjusted to match block min/max considerations
+https://wg21.link/lwg4379
+
+
+
+
+Matt Bentley
 -
 d:lwg438
 LWG438
@@ -35398,6 +39346,126 @@ https://wg21.link/lwg438
 
 Howard Hinnant
 -
+d:lwg4380
+LWG4380
+
+New
+hive::reserve() complexity does not reflect potential deallocation of blocks
+https://wg21.link/lwg4380
+
+
+
+
+Matt Bentley
+-
+d:lwg4381
+LWG4381
+
+Resolved
+std::ranges::to specification using CTAD not supported by core language
+https://wg21.link/lwg4381
+
+
+
+
+Jens Maurer
+-
+d:lwg4382
+LWG4382
+
+WP
+The simd::basic_mask(bool) overload needs to be more constrained
+https://wg21.link/lwg4382
+
+
+
+
+Matthias Kretz
+-
+d:lwg4383
+LWG4383
+
+WP
+constant_wrapper's pseudo-mutators are underconstrained
+https://wg21.link/lwg4383
+
+
+
+
+Hewill Kang
+-
+d:lwg4384
+LWG4384
+
+WP
+flat_set::erase(iterator) is underconstrained
+https://wg21.link/lwg4384
+
+
+
+
+Hewill Kang
+-
+d:lwg4385
+LWG4385
+
+New
+Including <simd> doesn't provide std::begin/end
+https://wg21.link/lwg4385
+
+
+
+
+Hewill Kang
+-
+d:lwg4386
+LWG4386
+
+New
+std::simd::select(bool c, const T& a, const U& b) is underconstrained
+https://wg21.link/lwg4386
+
+
+
+
+Hewill Kang
+-
+d:lwg4387
+LWG4387
+
+Resolved
+Including <stacktrace> doesn't provide std::begin/end
+https://wg21.link/lwg4387
+
+
+
+
+Hewill Kang
+-
+d:lwg4388
+LWG4388
+
+WP
+Align new definition of va_start with C23
+https://wg21.link/lwg4388
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4389
+LWG4389
+
+SG9
+ranges::for_each possibly behaves differently from range-based for
+https://wg21.link/lwg4389
+
+
+
+
+Jiang An
+-
 d:lwg439
 LWG439
 
@@ -35409,6 +39477,126 @@ https://wg21.link/lwg439
 
 
 Matt Austern
+-
+d:lwg4390
+LWG4390
+
+Resolved
+simd::basic_vec(U&&) default template parameter
+https://wg21.link/lwg4390
+
+
+
+
+Hewill Kang
+-
+d:lwg4391
+LWG4391
+
+NAD
+Ambiguities of simd::basic_vec constructor
+https://wg21.link/lwg4391
+
+
+
+
+Hewill Kang
+-
+d:lwg4392
+LWG4392
+
+New
+simd::unchecked_load misses difference type casting
+https://wg21.link/lwg4392
+
+
+
+
+Hewill Kang
+-
+d:lwg4393
+LWG4393
+
+Resolved
+simd::unchecked_scatter_to is underconstrained
+https://wg21.link/lwg4393
+
+
+
+
+Hewill Kang
+-
+d:lwg4394
+LWG4394
+
+New
+simd::unchecked_load(I first, S last) construct span maybe ill-formed
+https://wg21.link/lwg4394
+
+
+
+
+Hewill Kang
+-
+d:lwg4395
+LWG4395
+
+New
+write_env implementation-detail lambda should have explicit return type
+https://wg21.link/lwg4395
+
+
+
+
+Robert A.H. Leahy
+-
+d:lwg4396
+LWG4396
+
+WP
+Improve inplace_vector(from_range_t, R&& rg)
+https://wg21.link/lwg4396
+
+
+
+
+Hewill Kang
+-
+d:lwg4397
+LWG4397
+
+New
+Improve span(R&& r)
+https://wg21.link/lwg4397
+
+
+
+
+Hewill Kang
+-
+d:lwg4398
+LWG4398
+
+WP
+enable_nonlocking_formatter_optimization should be disabled for container adaptors
+https://wg21.link/lwg4398
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4399
+LWG4399
+
+WP
+enable_nonlocking_formatter_optimization for pair and tuple needs remove_cvref_t
+https://wg21.link/lwg4399
+
+
+
+
+Tomasz Kamiński
 -
 d:lwg44
 LWG44
@@ -35434,6 +39622,126 @@ https://wg21.link/lwg440
 
 Matt Austern
 -
+d:lwg4400
+LWG4400
+
+New
+enable_nonlocking_formatter_optimization for durations with custom rep
+https://wg21.link/lwg4400
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4401
+LWG4401
+
+LEWG
+join_view should be sized_range when applied to ranges of simd::vec
+https://wg21.link/lwg4401
+
+
+
+
+Hewill Kang
+-
+d:lwg4402
+LWG4402
+
+New
+List-initialization of iterators in [simd.mask.overview]
+https://wg21.link/lwg4402
+
+
+
+
+Arthur O'Dwyer
+-
+d:lwg4403
+LWG4403
+
+WP
+simd::basic_vec CTAD misses difference type casting
+https://wg21.link/lwg4403
+
+
+
+
+Hewill Kang
+-
+d:lwg4404
+LWG4404
+
+NAD
+Should span(R&&) CTAD apply P2280?
+https://wg21.link/lwg4404
+
+
+
+
+Hewill Kang
+-
+d:lwg4405
+LWG4405
+
+New
+mdspan constructor should disallow derived to base conversions
+https://wg21.link/lwg4405
+
+
+
+
+Hewill Kang
+-
+d:lwg4406
+LWG4406
+
+New
+optional::value_or return statement is inconsistent with Mandates
+https://wg21.link/lwg4406
+
+
+
+
+Hewill Kang
+-
+d:lwg4407
+LWG4407
+
+WP
+constexpr-wrapper-like needs remove_cvref_t in simd::basic_vec constructor
+https://wg21.link/lwg4407
+
+
+
+
+Hewill Kang
+-
+d:lwg4408
+LWG4408
+
+LEWG
+Hardening simd::vec::operator[]
+https://wg21.link/lwg4408
+
+
+
+
+Hewill Kang
+-
+d:lwg4409
+LWG4409
+
+New
+Constant expression ranges::size(r) Constraints and Mandates in [simd]
+https://wg21.link/lwg4409
+
+
+
+
+Lénárd Szolnoki
+-
 d:lwg441
 LWG441
 
@@ -35445,6 +39753,126 @@ https://wg21.link/lwg441
 
 
 Vincent Leloup
+-
+d:lwg4410
+LWG4410
+
+New
+basic_string_view(It begin, End end) is underconstrained
+https://wg21.link/lwg4410
+
+
+
+
+Hewill Kang
+-
+d:lwg4411
+LWG4411
+
+New
+Even more feature-test macros for fully freestanding features are not marked freestanding
+https://wg21.link/lwg4411
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4412
+LWG4412
+
+WP
+Fix declaration of zero_element and uninit_element
+https://wg21.link/lwg4412
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4413
+LWG4413
+
+WP
+Unused/left-over simd::alignment specialization for basic_mask
+https://wg21.link/lwg4413
+
+
+
+
+Matthias Kretz
+-
+d:lwg4414
+LWG4414
+
+Resolved
+§[simd.expos.abi] deduce-abi-t is underspecified and incorrectly referenced from rebind and resize
+https://wg21.link/lwg4414
+
+
+
+
+Matthias Kretz
+-
+d:lwg4415
+LWG4415
+
+WP
+task::promise_type::uncaught_exception seems to be misnamed
+https://wg21.link/lwg4415
+
+
+
+
+Jiang An
+-
+d:lwg4416
+LWG4416
+
+WP
+<meta> should include <compare>
+https://wg21.link/lwg4416
+
+
+
+
+Jiang An
+-
+d:lwg4417
+LWG4417
+
+Tentatively NAD
+views::indices is underconstrained
+https://wg21.link/lwg4417
+
+
+
+
+Hewill Kang
+-
+d:lwg4418
+LWG4418
+
+New
+co_yield elements_of(vector<int>()) does not compile
+https://wg21.link/lwg4418
+
+
+
+
+Mathias Stearn
+-
+d:lwg4419
+LWG4419
+
+Resolved
+let_value/error/stopped should specify the attributes of their senders
+https://wg21.link/lwg4419
+
+
+
+
+Eric Niebler
 -
 d:lwg442
 LWG442
@@ -35458,6 +39886,126 @@ https://wg21.link/lwg442
 
 Vincent Leloup
 -
+d:lwg4420
+LWG4420
+
+WP
+§[simd] conversions (constructor, load, stores, gather, and scatter) are incorrectly constrained for <stdfloat> types
+https://wg21.link/lwg4420
+
+
+
+
+Matthias Kretz
+-
+d:lwg4421
+LWG4421
+
+New
+Clarify the output encoding of to_chars for integers
+https://wg21.link/lwg4421
+
+
+
+
+Jan Schultke
+-
+d:lwg4422
+LWG4422
+
+WP
+meta::access_context should be a consteval-only type
+https://wg21.link/lwg4422
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4423
+LWG4423
+
+WP
+meta::data_member_spec allows negative bit-field widths
+https://wg21.link/lwg4423
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4424
+LWG4424
+
+WP
+meta::define_aggregate should require a class type
+https://wg21.link/lwg4424
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4425
+LWG4425
+
+WP
+CTAD function_ref of data member pointer should produce noexcept signature
+https://wg21.link/lwg4425
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4426
+LWG4426
+
+WP
+Clarify what meta::reflect_constant_string considers a string literal
+https://wg21.link/lwg4426
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4427
+LWG4427
+
+WP
+meta::dealias needs to work with things that aren't entities
+https://wg21.link/lwg4427
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4428
+LWG4428
+
+WP
+Metafunctions should not be defined in terms of constant subexpressions
+https://wg21.link/lwg4428
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4429
+LWG4429
+
+WP
+meta::alignment_of should exclude data member description of bit-field
+https://wg21.link/lwg4429
+
+
+
+
+Tomasz Kamiński
+-
 d:lwg443
 LWG443
 
@@ -35469,6 +40017,126 @@ https://wg21.link/lwg443
 
 
 Vincent Leloup
+-
+d:lwg4430
+LWG4430
+
+WP
+from_chars should not parse "0b" base prefixes
+https://wg21.link/lwg4430
+
+
+
+
+Jan Schultke
+-
+d:lwg4431
+LWG4431
+
+WP
+Parallel std::ranges::destroy should allow exceptions
+https://wg21.link/lwg4431
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4432
+LWG4432
+
+WP
+Clarify element initialization for meta::reflect_constant_array
+https://wg21.link/lwg4432
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4433
+LWG4433
+
+WP
+Incorrect query for C language linkage
+https://wg21.link/lwg4433
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4434
+LWG4434
+
+WP
+meta::is_accessible does not need to consider incomplete D
+https://wg21.link/lwg4434
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4435
+LWG4435
+
+WP
+meta::has_identifier doesn't handle all types
+https://wg21.link/lwg4435
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4436
+LWG4436
+
+Resolved
+simd broadcast is overconstrained — std::cw<0.f> is not convertible to simd::vec<float16_t>
+https://wg21.link/lwg4436
+
+
+
+
+Matthias Kretz
+-
+d:lwg4437
+LWG4437
+
+Resolved
+constant_of(^^v) for variable v of array type produces reflection of pointer constant
+https://wg21.link/lwg4437
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4438
+LWG4438
+
+WP
+Bad expression in [exec.when.all]
+https://wg21.link/lwg4438
+
+
+
+
+Eric Niebler
+-
+d:lwg4439
+LWG4439
+
+WP
+std::optional<T&>::swap possibly selects ADL-found swap
+https://wg21.link/lwg4439
+
+
+
+
+Jiang An
 -
 d:lwg444
 LWG444
@@ -35482,6 +40150,126 @@ https://wg21.link/lwg444
 
 Vincent Leloup
 -
+d:lwg4440
+LWG4440
+
+WP
+Forward declarations of entities need also in entries
+https://wg21.link/lwg4440
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4441
+LWG4441
+
+WP
+ranges::rotate do not handle sized-but-not-sized-sentinel ranges correctly
+https://wg21.link/lwg4441
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4442
+LWG4442
+
+WP
+Clarify expr and fn for meta::reflect_object and meta::reflect_function
+https://wg21.link/lwg4442
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4443
+LWG4443
+
+WP
+Clean up identifier comparisons in meta::define_aggregate
+https://wg21.link/lwg4443
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4444
+LWG4444
+
+WP
+Fix default template arguments for ranges::replace and ranges::replace_if
+https://wg21.link/lwg4444
+
+
+
+
+Tim Song
+-
+d:lwg4445
+LWG4445
+
+WP
+sch_ must not be in moved-from state
+https://wg21.link/lwg4445
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4446
+LWG4446
+
+WP
+Bad phrasing for SCHED(s)
+https://wg21.link/lwg4446
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4447
+LWG4447
+
+WP
+Remove unnecessary sizeof…(Env) > 1 condition
+https://wg21.link/lwg4447
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4448
+LWG4448
+
+WP
+Do not forward fn in completion_signatures
+https://wg21.link/lwg4448
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4449
+LWG4449
+
+WP
+define_aggregate members must be public
+https://wg21.link/lwg4449
+
+
+
+
+Daniel Katz
+-
 d:lwg445
 LWG445
 
@@ -35493,6 +40281,126 @@ https://wg21.link/lwg445
 
 
 Dave Abrahams
+-
+d:lwg4450
+LWG4450
+
+WP
+std::atomic_ref<T>::store_key should be disabled for const T
+https://wg21.link/lwg4450
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4451
+LWG4451
+
+WP
+make_shared should not refer to a type U[N] for runtime N
+https://wg21.link/lwg4451
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4452
+LWG4452
+
+WP
+Make deref-move constexpr
+https://wg21.link/lwg4452
+
+
+
+
+S.B. Tam
+-
+d:lwg4453
+LWG4453
+
+WP
+atomic_ref<cv T>::required_alignment should be the same as for T
+https://wg21.link/lwg4453
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4454
+LWG4454
+
+WP
+assert should forbid co_await and co_yield
+https://wg21.link/lwg4454
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4455
+LWG4455
+
+WP
+Add missing constraint to basic-sender::get_completion_signatures definition
+https://wg21.link/lwg4455
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4456
+LWG4456
+
+WP
+Decay Data and Child in make-sender
+https://wg21.link/lwg4456
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4457
+LWG4457
+
+WP
+freestanding for stable_sort, stable_partition and inplace_merge
+https://wg21.link/lwg4457
+
+
+
+
+Braden Ganetsky
+-
+d:lwg4458
+LWG4458
+
+New
+indirect<T> should be convertible to T&
+https://wg21.link/lwg4458
+
+
+
+
+Zhihao Yuan
+-
+d:lwg4459
+LWG4459
+
+WP
+Protect get_completion_signatures fold expression from overloaded commas
+https://wg21.link/lwg4459
+
+
+
+
+Jonathan Wakely
 -
 d:lwg446
 LWG446
@@ -35506,6 +40414,126 @@ https://wg21.link/lwg446
 
 Andy Koenig
 -
+d:lwg4460
+LWG4460
+
+WP
+Missing Throws: for last variant constructor
+https://wg21.link/lwg4460
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4461
+LWG4461
+
+WP
+stop-when needs to evaluate unstoppable tokens
+https://wg21.link/lwg4461
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4462
+LWG4462
+
+WP
+Algorithm requirements don't describe semantics of s - i well
+https://wg21.link/lwg4462
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4463
+LWG4463
+
+WP
+Change wording to 'model' from 'subsumes' in [algorithms.parallel.user]
+https://wg21.link/lwg4463
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4464
+LWG4464
+
+WP
+§[alg.merge] Wording tweaks
+https://wg21.link/lwg4464
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4465
+LWG4465
+
+WP
+§[alg.partitions] Clarify Returns: element
+https://wg21.link/lwg4465
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4466
+LWG4466
+
+Resolved
+task should move its result
+https://wg21.link/lwg4466
+
+
+
+
+Robert A.H. Leahy
+-
+d:lwg4467
+LWG4467
+
+WP
+hive::splice can throw bad_alloc
+https://wg21.link/lwg4467
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4468
+LWG4468
+
+WP
+§[const.wrap.class] "operator decltype(auto)" is ill-formed
+https://wg21.link/lwg4468
+
+
+
+
+Jiang An
+-
+d:lwg4469
+LWG4469
+
+WP
+Names of parameters of addressable function shall remain unspecified
+https://wg21.link/lwg4469
+
+
+
+
+Tomasz Kamiński
+-
 d:lwg447
 LWG447
 
@@ -35517,6 +40545,126 @@ https://wg21.link/lwg447
 
 
 Pete Becker
+-
+d:lwg4470
+LWG4470
+
+Resolved
+The use of integer-from<Bytes> all over [simd] is incorrect for Bytes=sizeof(complex<double>)
+https://wg21.link/lwg4470
+
+
+
+
+Matthias Kretz
+-
+d:lwg4471
+LWG4471
+
+New
+Remove test for get_env noexcept-ness from inline_scheduler
+https://wg21.link/lwg4471
+
+
+
+
+Eric Niebler
+-
+d:lwg4472
+LWG4472
+
+WP
+std::atomic_ref<const T> can be constructed from temporaries
+https://wg21.link/lwg4472
+
+
+
+
+Jiang An
+-
+d:lwg4473
+LWG4473
+
+New
+<cfloat> should be specified not to contain all macros in <float.h>
+https://wg21.link/lwg4473
+
+
+
+
+Jan Schultke
+-
+d:lwg4474
+LWG4474
+
+WP
+"round_to_nearest" rounding mode is unclear
+https://wg21.link/lwg4474
+
+
+
+
+Jan Schultke
+-
+d:lwg4475
+LWG4475
+
+Tentatively NAD
+The description to single total order in [thread.mutex.requirements.mutex.general] is hollow
+https://wg21.link/lwg4475
+
+
+
+
+jim x
+-
+d:lwg4476
+LWG4476
+
+WP
+run_loop should not have a set_error completion
+https://wg21.link/lwg4476
+
+
+
+
+Eric Niebler
+-
+d:lwg4477
+LWG4477
+
+WP
+Placement operator delete should be constexpr
+https://wg21.link/lwg4477
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4478
+LWG4478
+
+WP
+meta::has_identifier is not specified for annotations
+https://wg21.link/lwg4478
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4479
+LWG4479
+
+New
+Missing restrictions on which types can be tuple elements
+https://wg21.link/lwg4479
+
+
+
+
+Davis Herring
 -
 d:lwg448
 LWG448
@@ -35530,6 +40678,126 @@ https://wg21.link/lwg448
 
 Dave Abrahams
 -
+d:lwg4480
+LWG4480
+
+WP
+<stdatomic.h> should provide ATOMIC_CHAR8_T_LOCK_FREE
+https://wg21.link/lwg4480
+
+
+
+
+Jiang An
+-
+d:lwg4481
+LWG4481
+
+WP
+Disallow chrono::duration<const T, P>
+https://wg21.link/lwg4481
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4482
+LWG4482
+
+NAD
+adjacent_view::{begin,end} const overloads are under-constrained
+https://wg21.link/lwg4482
+
+
+
+
+Hui Xie
+-
+d:lwg4483
+LWG4483
+
+WP
+Multidimensional arrays are not supported by meta::reflect_constant_array and related functions
+https://wg21.link/lwg4483
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4484
+LWG4484
+
+NAD
+std::meta::reflect_constant_{string,array} talks about template parameter objects of built-in array types
+https://wg21.link/lwg4484
+
+
+
+
+Jiang An
+-
+d:lwg4485
+LWG4485
+
+WP
+Move specification for task::stop_token_type
+https://wg21.link/lwg4485
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4486
+LWG4486
+
+WP
+integral-constant-like and constexpr-wrapper-like exposition-only concept duplication
+https://wg21.link/lwg4486
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4487
+LWG4487
+
+New
+Is member is_steady of a Cpp17Clock type required to be usable in constant expressions?
+https://wg21.link/lwg4487
+
+
+
+
+Jiang An
+-
+d:lwg4488
+LWG4488
+
+New
+Undesired status for some functions in <cmath>
+https://wg21.link/lwg4488
+
+
+
+
+Jiang An
+-
+d:lwg4489
+LWG4489
+
+New
+concat_view::iterator's iter_swap has tautologically false noexcept specification
+https://wg21.link/lwg4489
+
+
+
+
+Nhat Nguyen
+-
 d:lwg449
 LWG449
 
@@ -35541,6 +40809,126 @@ https://wg21.link/lwg449
 
 
 Pete Becker
+-
+d:lwg4490
+LWG4490
+
+Open
+Allow calling std::ranges::size in ranges algorithms
+https://wg21.link/lwg4490
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4491
+LWG4491
+
+WP
+Rename submdspan_extents and submdspan_canonicalize_slices
+https://wg21.link/lwg4491
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4492
+LWG4492
+
+WP
+std::generate and std::ranges::generate wording is unclear for parallel algorithms
+https://wg21.link/lwg4492
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4493
+LWG4493
+
+WP
+Specification for some functions of bit reference types seems missing
+https://wg21.link/lwg4493
+
+
+
+
+Jiang An
+-
+d:lwg4494
+LWG4494
+
+Tentatively NAD
+Add consteval to std::meta::exception defaulted member functions
+https://wg21.link/lwg4494
+
+
+
+
+Marek Polacek
+-
+d:lwg4495
+LWG4495
+
+NAD
+§[meta.reflection.queries] is_deleted on function templates
+https://wg21.link/lwg4495
+
+
+
+
+Jakub Jelinek
+-
+d:lwg4496
+LWG4496
+
+WP
+Precedes vs Reachable in [meta.reflection]
+https://wg21.link/lwg4496
+
+
+
+
+Daniel Katz
+-
+d:lwg4497
+LWG4497
+
+WP
+std::nullopt_t should be comparable
+https://wg21.link/lwg4497
+
+
+
+
+Barry Revzin
+-
+d:lwg4498
+LWG4498
+
+SG1
+§[atomics.order] The total order should be intended to be a strict total order
+https://wg21.link/lwg4498
+
+
+
+
+jim x
+-
+d:lwg4499
+LWG4499
+
+WP
+flat_set::insert_range specification may be problematic
+https://wg21.link/lwg4499
+
+
+
+
+Hewill Kang
 -
 d:lwg45
 LWG45
@@ -35566,6 +40954,126 @@ https://wg21.link/lwg450
 
 Bill Plauger
 -
+d:lwg4500
+LWG4500
+
+WP
+constant_wrapper wording problems
+https://wg21.link/lwg4500
+
+
+
+
+Matthias Wippich
+-
+d:lwg4501
+LWG4501
+
+Resolved
+std::execution::let_* Unconditionally Potentially Evaluates std::execution::set_error
+https://wg21.link/lwg4501
+
+
+
+
+Robert Leahy
+-
+d:lwg4502
+LWG4502
+
+New
+std::execution::when_all Is Never Nothrow Connectable
+https://wg21.link/lwg4502
+
+
+
+
+Robert Leahy
+-
+d:lwg4503
+LWG4503
+
+LEWG
+Use of std::common_reference_with in std::assignable_from seems incorrect
+https://wg21.link/lwg4503
+
+
+
+
+Jiang An
+-
+d:lwg4504
+LWG4504
+
+WP
+Wording problem in {simple_}counting_scope
+https://wg21.link/lwg4504
+
+
+
+
+Ian Petersen
+-
+d:lwg4505
+LWG4505
+
+New
+The std::make_optional overload taking std::initializer_list should not accept a reference type as its template argument
+https://wg21.link/lwg4505
+
+
+
+
+Jiang An
+-
+d:lwg4506
+LWG4506
+
+WP
+source_location is explicitly unspecified if is constexpr or not
+https://wg21.link/lwg4506
+
+
+
+
+Hana Dusíková
+-
+d:lwg4507
+LWG4507
+
+Core
+The order of side effects initiated by I/O functions is not described by happen-before
+https://wg21.link/lwg4507
+
+
+
+
+jim x
+-
+d:lwg4508
+LWG4508
+
+New
+Meaning of "compatible" and C++ desire for C23 changes unclear for va_arg
+https://wg21.link/lwg4508
+
+
+
+
+Hubert Tong
+-
+d:lwg4509
+LWG4509
+
+LEWG
+std::optional<T>::transform cannot be implemented while supporting program-defined specializations
+https://wg21.link/lwg4509
+
+
+
+
+Rasheeq Azad
+-
 d:lwg451
 LWG451
 
@@ -35577,6 +41085,126 @@ https://wg21.link/lwg451
 
 
 Bill Plauger
+-
+d:lwg4510
+LWG4510
+
+WP
+Ambiguity of std::ranges::advance and std::ranges::next when the difference type is also a sentinel type
+https://wg21.link/lwg4510
+
+
+
+
+Jiang An
+-
+d:lwg4511
+LWG4511
+
+WP
+Inconsistency between the deduction guide of std::mdspan taking (data_handle_type, mapping_type, accessor_type) and the corresponding constructor
+https://wg21.link/lwg4511
+
+
+
+
+Jiang An
+-
+d:lwg4512
+LWG4512
+
+WP
+The system_encoded_string() and generic_system_encoded_string() member functions of std::filesystem::path are misnamed
+https://wg21.link/lwg4512
+
+
+
+
+Tom Honermann
+-
+d:lwg4513
+LWG4513
+
+New
+meta::exception::what() should be consteval
+https://wg21.link/lwg4513
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4514
+LWG4514
+
+WP
+Missing absolute value of init in vector_two_norm and matrix_frob_norm
+https://wg21.link/lwg4514
+
+
+
+
+Mark Hoemmen
+-
+d:lwg4515
+LWG4515
+
+Open
+format: a and A should insert the 0x or 0X prefix
+https://wg21.link/lwg4515
+
+
+
+
+Tianying Chen
+-
+d:lwg4516
+LWG4516
+
+New
+ranges namespace is used inconsistently in [algorithms]
+https://wg21.link/lwg4516
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4517
+LWG4517
+
+WP
+data_member_spec should throw for cv-qualified unnamed bit-fields
+https://wg21.link/lwg4517
+
+
+
+
+Marek Polacek
+-
+d:lwg4518
+LWG4518
+
+Resolved
+simd::cat return type requires inefficient ABI tag change/conversion
+https://wg21.link/lwg4518
+
+
+
+
+Matthias Kretz
+-
+d:lwg4519
+LWG4519
+
+SG1
+No formal rule associates the total order of a mutex object with the rule for modification order
+https://wg21.link/lwg4519
+
+
+
+
+jim x
 -
 d:lwg452
 LWG452
@@ -35590,6 +41218,126 @@ https://wg21.link/lwg452
 
 Bill Plauger
 -
+d:lwg4520
+LWG4520
+
+Resolved
+Breaking change in std::span new initializer_list constructor
+https://wg21.link/lwg4520
+
+
+
+
+Michael Schellenberger Costa
+-
+d:lwg4521
+LWG4521
+
+New
+Improve [atomics.order] p10 to have a consistent way with [intro.races]
+https://wg21.link/lwg4521
+
+
+
+
+jim x
+-
+d:lwg4522
+LWG4522
+
+WP
+Clarify that std::format transcodes for std::wformat_strings
+https://wg21.link/lwg4522
+
+
+
+
+Jan Schultke
+-
+d:lwg4523
+LWG4523
+
+WP
+constant_wrapper should assign to value
+https://wg21.link/lwg4523
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4524
+LWG4524
+
+New
+Wrong deduced return type in [exec.schedule.from]
+https://wg21.link/lwg4524
+
+
+
+
+Brian Bi
+-
+d:lwg4525
+LWG4525
+
+WP
+task's final_suspend should move the result
+https://wg21.link/lwg4525
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4526
+LWG4526
+
+Resolved
+std::monostate could be a valid error for task
+https://wg21.link/lwg4526
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4527
+LWG4527
+
+WP
+await_transform needs to use as_awaitable
+https://wg21.link/lwg4527
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4528
+LWG4528
+
+WP
+task needs get_completion_signatures()
+https://wg21.link/lwg4528
+
+
+
+
+Dietmar Kühl
+-
+d:lwg4529
+LWG4529
+
+WP
+task::promise_type::await_transform declaration and definition mismatch
+https://wg21.link/lwg4529
+
+
+
+
+Dietmar Kühl
+-
 d:lwg453
 LWG453
 
@@ -35601,6 +41349,126 @@ https://wg21.link/lwg453
 
 
 Bill Plauger
+-
+d:lwg4530
+LWG4530
+
+New
+Unclear specification for formatter<charT[N], charT>
+https://wg21.link/lwg4530
+
+
+
+
+Ivan Lazaric
+-
+d:lwg4531
+LWG4531
+
+New
+Should there be a feature-test macro update for constexpr std::to_(w)string?
+https://wg21.link/lwg4531
+
+
+
+
+Jiang An
+-
+d:lwg4532
+LWG4532
+
+WP
+Imprecise std::polymorphic wording seems to imply slicing
+https://wg21.link/lwg4532
+
+
+
+
+Fraser Gordon
+-
+d:lwg4533
+LWG4533
+
+WP
+not_fn<f> is unimplementable
+https://wg21.link/lwg4533
+
+
+
+
+Tim Song
+-
+d:lwg4534
+LWG4534
+
+Resolved
+is_consteval_only preconditions are too weak
+https://wg21.link/lwg4534
+
+
+
+
+Tim Song
+-
+d:lwg4535
+LWG4535
+
+WP
+Disallow user specialization of <simd> templates
+https://wg21.link/lwg4535
+
+
+
+
+Tim Song
+-
+d:lwg4536
+LWG4536
+
+WP
+Type traits have inconsistent interactions with immediate functions
+https://wg21.link/lwg4536
+
+
+
+
+Tim Song
+-
+d:lwg4537
+LWG4537
+
+WP
+Improve define_static_array
+https://wg21.link/lwg4537
+
+
+
+
+Hewill Kang
+-
+d:lwg4538
+LWG4538
+
+New
+member_offset::total_bits should be noexcept
+https://wg21.link/lwg4538
+
+
+
+
+Hewill Kang
+-
+d:lwg4539
+LWG4539
+
+New
+Undefined behavior in std::bit_cast should be diagnosed during constant evaluation
+https://wg21.link/lwg4539
+
+
+
+
+Jan Schultke
 -
 d:lwg454
 LWG454
@@ -35614,6 +41482,126 @@ https://wg21.link/lwg454
 
 Bill Plauger
 -
+d:lwg4540
+LWG4540
+
+WP
+future-senders returned from spawn_future do not forward stop requests to spawned work
+https://wg21.link/lwg4540
+
+
+
+
+Ian Petersen
+-
+d:lwg4541
+LWG4541
+
+SG16
+Unclear behavior for parsing locale-dependent format
+https://wg21.link/lwg4541
+
+
+
+
+S. B. Tam
+-
+d:lwg4542
+LWG4542
+
+Tentatively NAD
+Resuming a coroutine on a different execution agent that is an instance of a std::thread is underspecified
+https://wg21.link/lwg4542
+
+
+
+
+jim x
+-
+d:lwg4543
+LWG4543
+
+New
+Incorrect cast between simd::vec and simd::mask via conversion to and from impl-defined vector types
+https://wg21.link/lwg4543
+
+
+
+
+Matthias Kretz
+-
+d:lwg4544
+LWG4544
+
+WP
+Parallel overload of ranges::set_difference should return in_in_out_result
+https://wg21.link/lwg4544
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4545
+LWG4545
+
+New
+Some converting constructors of layout_left_padded::mapping and layout_right_padded::mapping are missing a representability precondition for the padded stride
+https://wg21.link/lwg4545
+
+
+
+
+Xi Chen
+-
+d:lwg4546
+LWG4546
+
+New
+Integer-class type should be structural type
+https://wg21.link/lwg4546
+
+
+
+
+Hewill Kang
+-
+d:lwg4547
+LWG4547
+
+New
+sender-awaitable needs a deduction guide
+https://wg21.link/lwg4547
+
+
+
+
+Eric Niebler
+-
+d:lwg4548
+LWG4548
+
+WP
+Parallel ranges::set_intersection should not do unnecessary work
+https://wg21.link/lwg4548
+
+
+
+
+Ruslan Arutyunyan
+-
+d:lwg4549
+LWG4549
+
+WP
+vprint_nonunicode_buffered ignores its stream parameter
+https://wg21.link/lwg4549
+
+
+
+
+Abhinav Agarwal
+-
 d:lwg455
 LWG455
 
@@ -35625,6 +41613,126 @@ https://wg21.link/lwg455
 
 
 Bill Plauger
+-
+d:lwg4550
+LWG4550
+
+WP
+Need new feature test macros for <stdckdint.h> and <stdbit.h>
+https://wg21.link/lwg4550
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4551
+LWG4551
+
+New
+Fix the customization domain of the on algorithm
+https://wg21.link/lwg4551
+
+
+
+
+Eric Niebler
+-
+d:lwg4552
+LWG4552
+
+WP
+compare_exchange_weak writes a value on spurious failure, not memory contents
+https://wg21.link/lwg4552
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4553
+LWG4553
+
+WP
+Wording for FR-025-246 25.7.18.2 Add a reserve_hint function to concat_view
+https://wg21.link/lwg4553
+
+
+
+
+Hui Xie
+-
+d:lwg4554
+LWG4554
+
+WP
+Remove undefined behaviour from hive for invalid limits
+https://wg21.link/lwg4554
+
+
+
+
+Jonathan Wakely
+-
+d:lwg4555
+LWG4555
+
+WP
+Remove is_consteval_only
+https://wg21.link/lwg4555
+
+
+
+
+Tim Song
+-
+d:lwg4556
+LWG4556
+
+WP
+Unclear properties of reflection strings
+https://wg21.link/lwg4556
+
+
+
+
+Tim Song
+-
+d:lwg4557
+LWG4557
+
+WP
+Remove constexpr from owner_less and owner_before
+https://wg21.link/lwg4557
+
+
+
+
+Tim Song
+-
+d:lwg4558
+LWG4558
+
+New
+drop_view and drop_while_view should be const-iterable for input-only range
+https://wg21.link/lwg4558
+
+
+
+
+Hewill Kang
+-
+d:lwg4559
+LWG4559
+
+New
+zip_view, zip_transform_view, and cartesian_product_view should provide reserve_hint
+https://wg21.link/lwg4559
+
+
+
+
+Hewill Kang
 -
 d:lwg456
 LWG456
@@ -35638,6 +41746,126 @@ https://wg21.link/lwg456
 
 Bill Plauger
 -
+d:lwg4560
+LWG4560
+
+New
+Explicitly specify effects of precision specification in duration formatter
+https://wg21.link/lwg4560
+
+
+
+
+Liang Jiaming
+-
+d:lwg4561
+LWG4561
+
+New
+reverse_view does not consider simple-view
+https://wg21.link/lwg4561
+
+
+
+
+Hewill Kang
+-
+d:lwg4562
+LWG4562
+
+New
+layout_stride::is_exhaustive specification is problematic when there's an extent equal to 1
+https://wg21.link/lwg4562
+
+
+
+
+S. B. Tam
+-
+d:lwg4563
+LWG4563
+
+New
+Missing "round to nearest, ties away from zero" mode
+https://wg21.link/lwg4563
+
+
+
+
+Jan Schultke
+-
+d:lwg4564
+LWG4564
+
+New
+Clarify when constant_of throws
+https://wg21.link/lwg4564
+
+
+
+
+Marek Polacek
+-
+d:lwg4565
+LWG4565
+
+New
+subrange should prevent slicing for contiguous iterators
+https://wg21.link/lwg4565
+
+
+
+
+Hewill Kang
+-
+d:lwg4566
+LWG4566
+
+New
+The element_type definition of scaled_accessor and conjugated_accessor are not quite right
+https://wg21.link/lwg4566
+
+
+
+
+Hewill Kang
+-
+d:lwg4567
+LWG4567
+
+New
+Feature test macro value for apply_result, is_applicable
+https://wg21.link/lwg4567
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4568
+LWG4568
+
+New
+std::execution::spawn_future is mishandling dependent senders
+https://wg21.link/lwg4568
+
+
+
+
+Eric Niebler
+-
+d:lwg4569
+LWG4569
+
+New
+mdspan should Mandates the relationship between element_type and reference
+https://wg21.link/lwg4569
+
+
+
+
+Hewill Kang
+-
 d:lwg457
 LWG457
 
@@ -35650,6 +41878,126 @@ https://wg21.link/lwg457
 
 Dag Henriksson
 -
+d:lwg4570
+LWG4570
+
+New
+COMMON-DOMAIN should test for convertibility to default_domain
+https://wg21.link/lwg4570
+
+
+
+
+Eric Niebler
+-
+d:lwg4571
+LWG4571
+
+New
+Disallow specializing std::atomic and std::atomic_ref
+https://wg21.link/lwg4571
+
+
+
+
+Jiang An
+-
+d:lwg4572
+LWG4572
+
+New
+Key ordering requirements of associative containers are poorly specified
+https://wg21.link/lwg4572
+
+
+
+
+Joaquin M López Muñoz
+-
+d:lwg4573
+LWG4573
+
+New
+Improve view_interface::cbegin
+https://wg21.link/lwg4573
+
+
+
+
+Hewill Kang
+-
+d:lwg4574
+LWG4574
+
+New
+constant_wrapper<nullptr, int()> bypasses function_ref class invariant
+https://wg21.link/lwg4574
+
+
+
+
+Zhihao Yuan
+-
+d:lwg4575
+LWG4575
+
+New
+No formal wording associates single total order of allocation/deallocation operations with the coherence rule
+https://wg21.link/lwg4575
+
+
+
+
+jim x
+-
+d:lwg4576
+LWG4576
+
+New
+{can_}substitute specification is (still) ill-formed
+https://wg21.link/lwg4576
+
+
+
+
+S. B. Tam
+-
+d:lwg4577
+LWG4577
+
+Open
+Hardening view_interface::operator[]
+https://wg21.link/lwg4577
+
+
+
+
+Hewill Kang
+-
+d:lwg4578
+LWG4578
+
+Core
+std::start_lifetime(r) should not be able to poke objects outside the current evaluation
+https://wg21.link/lwg4578
+
+
+
+
+Tomasz Kamiński
+-
+d:lwg4579
+LWG4579
+
+Tentatively Ready
+make-state<Rcvr>::state-type::complete uses Env which is not in scope
+https://wg21.link/lwg4579
+
+
+
+
+Abhinav Agarwal
+-
 d:lwg458
 LWG458
 
@@ -35661,6 +42009,90 @@ https://wg21.link/lwg458
 
 
 Daniel Frey
+-
+d:lwg4580
+LWG4580
+
+New
+is_enumerable_type: Definition of "enumerable type" looks strange
+https://wg21.link/lwg4580
+
+
+
+
+S. B. Tam
+-
+d:lwg4581
+LWG4581
+
+New
+constant_of(^^v) for variable v of reference to array/function type produces reflection of pointer constant
+https://wg21.link/lwg4581
+
+
+
+
+S. B. Tam
+-
+d:lwg4582
+LWG4582
+
+New
+Specializations of layout_transpose do not meet the layout mapping policy requirements
+https://wg21.link/lwg4582
+
+
+
+
+Charles Hussong
+-
+d:lwg4583
+LWG4583
+
+New
+std::byteswap can make sense for some types with padding bytes
+https://wg21.link/lwg4583
+
+
+
+
+Jiang An
+-
+d:lwg4584
+LWG4584
+
+New
+std::hive::sort should add Cpp17MoveConstructible to its preconditions on T
+https://wg21.link/lwg4584
+
+
+
+
+Joaquín M López Muñoz
+-
+d:lwg4585
+LWG4585
+
+New
+Applying std::meta::alignment_of to a not-yet-defined variable
+https://wg21.link/lwg4585
+
+
+
+
+S. B. Tam
+-
+d:lwg4586
+LWG4586
+
+New
+Partial specialization of std::format_kind for std::optional is not marked hosted
+https://wg21.link/lwg4586
+
+
+
+
+Jiang An
 -
 d:lwg459
 LWG459
@@ -36649,7 +43081,7 @@ Martin Sebor
 d:lwg532
 LWG532
 
-LEWG
+NAD
 Tuple comparison
 https://wg21.link/lwg532
 
@@ -42025,7 +48457,7 @@ Beman Dawes
 d:lwg936
 LWG936
 
-LEWG
+Resolved
 Mutex type overspecified
 https://wg21.link/lwg936
 
@@ -42361,7 +48793,7 @@ Pete Becker
 d:lwg961
 LWG961
 
-LEWG
+Resolved
 Various threading bugs #11
 https://wg21.link/lwg961
 
@@ -42861,4 +49293,262 @@ https://wg21.link/lwg999
 
 
 Peter Dimov
+-
+a:lws-authn-openid
+lws-authn-openid
+lws10-authn-openid
+-
+a:lws-authn-saml
+lws-authn-saml
+lws10-authn-saml
+-
+a:lws-authn-ssi-cid
+lws-authn-ssi-cid
+lws10-authn-ssi-cid
+-
+a:lws-authn-ssi-did-key
+lws-authn-ssi-did-key
+lws10-authn-ssi-did-key
+-
+a:lws-core
+lws-core
+lws10-core
+-
+d:lws-ucs
+lws-ucs
+10 February 2026
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/lws-ucs/
+https://w3c.github.io/lws-ucs/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20250624
+lws-ucs-20250624
+24 June 2025
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250624/
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250624/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20250718
+lws-ucs-20250718
+18 July 2025
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250718/
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250718/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20250728
+lws-ucs-20250728
+28 July 2025
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250728/
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250728/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20250804
+lws-ucs-20250804
+4 August 2025
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250804/
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250804/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20250908
+lws-ucs-20250908
+8 September 2025
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250908/
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20250908/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20251117
+lws-ucs-20251117
+17 November 2025
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20251117/
+https://www.w3.org/TR/2025/DNOTE-lws-ucs-20251117/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20260123
+lws-ucs-20260123
+23 January 2026
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260123/
+https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260123/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20260126
+lws-ucs-20260126
+26 January 2026
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260126/
+https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260126/
+
+
+
+Hadrian Zbarcea
+-
+d:lws-ucs-20260210
+lws-ucs-20260210
+10 February 2026
+DNOTE
+Linked Web Storage Use Cases
+https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260210/
+https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260210/
+
+
+
+Hadrian Zbarcea
+-
+d:lws10-authn-openid
+lws10-authn-openid
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: OpenID Connect
+https://www.w3.org/TR/lws10-authn-openid/
+https://w3c.github.io/lws-protocol/lws10-authn-openid/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-openid-20260423
+lws10-authn-openid-20260423
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: OpenID Connect
+https://www.w3.org/TR/2026/WD-lws10-authn-openid-20260423/
+https://www.w3.org/TR/2026/WD-lws10-authn-openid-20260423/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-saml
+lws10-authn-saml
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: SAML 2.0
+https://www.w3.org/TR/lws10-authn-saml/
+https://w3c.github.io/lws-protocol/lws10-authn-saml/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-saml-20260423
+lws10-authn-saml-20260423
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: SAML 2.0
+https://www.w3.org/TR/2026/WD-lws10-authn-saml-20260423/
+https://www.w3.org/TR/2026/WD-lws10-authn-saml-20260423/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-ssi-cid
+lws10-authn-ssi-cid
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: Self-signed Identity using Controlled Identifiers
+https://www.w3.org/TR/lws10-authn-ssi-cid/
+https://w3c.github.io/lws-protocol/lws10-authn-ssi-cid/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-ssi-cid-20260423
+lws10-authn-ssi-cid-20260423
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: Self-signed Identity using Controlled Identifiers
+https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260423/
+https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260423/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-ssi-did-key
+lws10-authn-ssi-did-key
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: Self-signed Identity using did:key
+https://www.w3.org/TR/lws10-authn-ssi-did-key/
+https://w3c.github.io/lws-protocol/lws10-authn-ssi-did-key/
+
+
+
+Jesse Wright
+-
+d:lws10-authn-ssi-did-key-20260423
+lws10-authn-ssi-did-key-20260423
+23 April 2026
+FPWD
+LWS 1.0 Authentication Suite: Self-signed Identity using did:key
+https://www.w3.org/TR/2026/WD-lws10-authn-ssi-did-key-20260423/
+https://www.w3.org/TR/2026/WD-lws10-authn-ssi-did-key-20260423/
+
+
+
+Jesse Wright
+-
+d:lws10-core
+lws10-core
+31 March 2026
+FPWD
+Linked Web Storage Protocol 1.0
+https://www.w3.org/TR/lws10-core/
+https://w3c.github.io/lws-protocol/lws10-core/
+
+
+
+-
+d:lws10-core-20260331
+lws10-core-20260331
+31 March 2026
+FPWD
+Linked Web Storage Protocol 1.0
+https://www.w3.org/TR/2026/WD-lws10-core-20260331/
+https://www.w3.org/TR/2026/WD-lws10-core-20260331/
+
+
+
 -

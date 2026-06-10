@@ -34,6 +34,7 @@ LINE 611:16: Multiple possible 'credentials' dfn refs.
 Arbitrarily chose https://fetch.spec.whatwg.org/#credentials
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:fetch; type:dfn; text:credentials
+spec:vc-data-model-2.1; type:dfn; text:credentials
 spec:vc-data-model-2.0; type:dfn; text:credentials
 LINE 899:50: No 'dfn' refs found for 'processrequestbody'.
 LINE 916:32: No 'dfn' refs found for 'terminate' with for='['fetch']'.
@@ -57,17 +58,21 @@ spec:xhr; type:event; for:XMLHttpRequest; text:abort
 for-less references:
 spec:media-source-2; type:event; for:/; text:abort
 spec:media-source-2; type:event; for:/; text:abort
+LINE 1280:4: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
+LINE 1291:46: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 1304:35: Multiple possible 'content type' dfn refs.
 Arbitrarily chose https://dom.spec.whatwg.org/#concept-document-content-type
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:dom; type:dfn; text:content type
 spec:fetch; type:dfn; text:content type
-LINE 1600:1: Ambiguous for-less link for 'entries', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:xhr; type:dfn; for:FormData; text:entries
-for-less references:
-spec:permissions; type:dfn; for:/; text:entry
-spec:permissions; type:dfn; for:/; text:entry
 LINE 1752:4: Multiple possible 'events' dfn refs.
 Arbitrarily chose https://dom.spec.whatwg.org/#concept-event
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:

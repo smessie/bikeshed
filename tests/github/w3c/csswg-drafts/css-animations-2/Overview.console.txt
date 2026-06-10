@@ -1,5 +1,20 @@
 LINE 1:73 of !Issues List metadata: Character reference '&list' didn't end in ;.
 LINE 1:99 of !Issues List metadata: Character reference '&query' didn't end in ;.
+LINE 389:40: Multiple possible 'running' maybe refs.
+Arbitrarily chose https://drafts.csswg.org/css-animations-1/#valdef-animation-play-state-running
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-animations-1; type:value; text:running
+spec:css-image-animation-1; type:value; text:running
+LINE 397:40: Multiple possible 'paused' maybe refs.
+Arbitrarily chose https://drafts.csswg.org/css-animations-1/#valdef-animation-play-state-paused
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-animations-1; type:value; text:paused
+spec:css-image-animation-1; type:value; text:paused
+LINE 471:48: Multiple possible 'add' maybe refs.
+Arbitrarily chose https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-masking-1; type:value; text:add
+spec:css-page-3; type:value; text:add
 LINE 584:1: Section autolink [[web-animations#animation-effect-phases-and-states]] attempts to link to unversioned spec name 'web-animations', but that spec is versioned as 'web-animations-1' or 'web-animations-2'. Please choose a versioned spec name.
 LINE 777:1: W3C policy requires Privacy Considerations and Security Considerations to be separate sections, but you appear to have them combined into one.
 WARNING: Skipped generating some MDN panels, because the following IDs weren't present in the document. Use `Ignore MDN Failure` if this is expected.

@@ -94,6 +94,54 @@ https://dom.spec.whatwg.org/#dom-shadowrootmode-open
 1
 ShadowRootMode
 -
+"open"
+"open"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-open
+
+1
+script.NodeProperties/mode
+-
+"open"
+"open"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-open
+
+1
+script.SerializationOptions/includeShadowTree
+-
+"open"
+"open"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-open
+
+1
+script.NodeProperties/mode
+-
+"open"
+"open"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-open
+
+1
+script.SerializationOptions/includeShadowTree
+-
 "optional"
 "optional"
 enum-value
@@ -156,11 +204,44 @@ https://drafts.csswg.org/selectors-4/#selectordef-open
 :open
 :open
 selector
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/semantics-other.html#selector-open
+1
+1
+-
+:open
+:open
+selector
 selectors-4
 selectors
 4
 snapshot
 https://www.w3.org/TR/selectors-4/#selectordef-open
+1
+1
+-
+:optimal-value
+:optimal-value
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-optimal-value
+1
+1
+-
+:optimal-value
+:optimal-value
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-optimal-value
 1
 1
 -
@@ -282,9 +363,9 @@ XMLHttpRequest
 optional
 OPTIONAL
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#optional
 
@@ -295,22 +376,33 @@ OPTIONAL
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x9
+2
+snapshot
+https://www.w3.org/TR/CSS2/conform.html#x9
 1
 1
 -
-optional
-OPTIONAL
+opaque value
+opaque value
 dfn
-css2
-css
-1
+trace-context-2
+trace-context
+2
+current
+https://w3c.github.io/trace-context/#dfn-opaque
+
+
+-
+opaque value
+opaque value
+dfn
+trace-context-2
+trace-context
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x9
-1
-1
+https://www.w3.org/TR/trace-context-2/#dfn-opaque
+
+
 -
 OpaqueProperty
 OpaqueProperty
@@ -321,6 +413,17 @@ fenced-frame
 current
 https://wicg.github.io/fenced-frame/#enumdef-opaqueproperty
 1
+1
+-
+open
+open
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootmode-open-state
+
 1
 -
 open
@@ -348,44 +451,33 @@ https://www.w3.org/TR/mathml4/#intent-open
 open window algorithm
 Open Window Algorithm
 dfn
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 current
-https://w3c.github.io/payment-handler/#dfn-open-window-algorithm
+https://w3c.github.io/web-based-payment-handler/#dfn-open-window-algorithm
 
 1
 -
 open window algorithm
 Open Window Algorithm
 dfn
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 snapshot
-https://www.w3.org/TR/payment-handler/#dfn-open-window-algorithm
+https://www.w3.org/TR/web-based-payment-handler/#dfn-open-window-algorithm
 
 1
 -
-open properties
-open properties
+open dependency
+open dependency
 dfn
-mathml4
-mathml
-4
+shacl12-rules
+shacl-rules
+1
 current
-https://w3c.github.io/mathml/#intent-open-properties
-
-1
--
-open properties
-open properties
-dfn
-mathml4
-mathml
-4
-snapshot
-https://www.w3.org/TR/mathml4/#intent-open-properties
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-open-dependency
 
 1
 -
@@ -425,17 +517,6 @@ https://w3c.github.io/aria/#dfn-operable
 operable
 operable
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-operable
-
-
--
-operable
-operable
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -469,9 +550,9 @@ https://aomediacodec.github.io/av1-avif/#operatingpointselectorproperty
 operation
 operation
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#supported-operations
 
@@ -480,11 +561,11 @@ https://w3c.github.io/webcrypto/#supported-operations
 operation
 operation
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#supported-operations
+https://www.w3.org/TR/webcrypto-2/#supported-operations
 
 1
 -
@@ -497,17 +578,6 @@ webidl
 current
 https://webidl.spec.whatwg.org/#operationerror
 1
-1
--
-operationerror
-OperationError
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-OperationError
-
 1
 -
 OperationType
@@ -535,19 +605,30 @@ https://webidl.spec.whatwg.org/#optouterror
 option id
 Option ID
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#option-id
 
 1
 -
+option id
+Option ID
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#option-id
+
+1
+-
 option key
 Option Key
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getassert-option-key
@@ -558,11 +639,35 @@ getAssert
 option key
 Option Key
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-option-key
+
+1
+makeCred
+-
+option key
+Option Key
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getassert-option-key
+
+1
+getAssert
+-
+option key
+Option Key
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-option-key
 
 1
 makeCred
@@ -587,6 +692,17 @@ clipboard-apis
 1
 current
 https://w3c.github.io/clipboard-apis/#optional-data-types
+
+1
+-
+optional data types
+optional data types
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#optional-data-types
 
 1
 -
@@ -623,6 +739,39 @@ https://w3c.github.io/clipboard-apis/#optional-unsanitized-data-types
 
 1
 -
+optional unsanitized data types
+optional unsanitized data types
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#optional-unsanitized-data-types
+
+1
+-
+optionalchain
+OptionalChain
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalChain
+
+1
+-
+optionalchainingpunctuator
+OptionalChainingPunctuator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-OptionalChainingPunctuator
+
+1
+-
 OptionalEffectTiming
 OptionalEffectTiming
 dictionary
@@ -643,6 +792,17 @@ web-animations
 snapshot
 https://www.w3.org/TR/web-animations-1/#dictdef-optionaleffecttiming
 1
+1
+-
+optionalexpression
+OptionalExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-OptionalExpression
+
 1
 -
 options member identifier
@@ -817,15 +977,15 @@ https://wicg.github.io/direct-sockets/#dfn-openedpromise-1
 1
 TCPServerSocket
 -
+[[operationinprogress]]
 [[operationInProgress]]
-[[operationInProgress]]
-attribute
+dfn
 web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-operationinprogress
-
+https://wicg.github.io/web-smart-card/#smartcardcontext-operationinprogress
+1
 1
 SmartCardContext
 -
@@ -868,6 +1028,18 @@ PaymentRequest
 [[options]]
 [[options]]
 attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-options-slot
+1
+1
+RTCRtpScriptTransformer
+-
+[[options]]
+[[options]]
+attribute
 payment-request
 payment-request
 1
@@ -876,6 +1048,18 @@ https://www.w3.org/TR/payment-request/#dfn-options
 1
 1
 PaymentRequest
+-
+[[options]]
+[[options]]
+attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-options-slot
+1
+1
+RTCRtpScriptTransformer
 -
 opSupportLimits()
 opSupportLimits()
@@ -987,7 +1171,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#funcdef-filter-opacity
+https://drafts.csswg.org/filter-effects-1/#funcdef-filter-opacity
 1
 1
 filter
@@ -1016,6 +1200,18 @@ https://drafts.csswg.org/cssom-view-1/#dom-checkvisibilityoptions-opacitypropert
 1
 CheckVisibilityOptions
 -
+opacityProperty
+opacityProperty
+dict-member
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-checkvisibilityoptions-opacityproperty
+1
+1
+CheckVisibilityOptions
+-
 opaque
 opaque
 value
@@ -1027,6 +1223,18 @@ https://drafts.csswg.org/mediaqueries-5/#valdef-media-environment-blending-opaqu
 1
 1
 @media/environment-blending
+-
+opaque
+opaque
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-opaque
+1
+1
+Origin
 -
 opaque
 opaque
@@ -1054,6 +1262,17 @@ https://immersive-web.github.io/webxr-ar-module/#opaque
 opaque
 opaque
 dfn
+trace-context-2
+trace-context
+2
+current
+https://w3c.github.io/trace-context/#dfn-opaque
+
+
+-
+opaque
+opaque
+dfn
 fenced-frame
 fenced-frame
 1
@@ -1074,6 +1293,17 @@ https://www.w3.org/TR/mediaqueries-5/#valdef-media-environment-blending-opaque
 1
 1
 @media/environment-blending
+-
+opaque
+opaque
+dfn
+trace-context-2
+trace-context
+2
+snapshot
+https://www.w3.org/TR/trace-context-2/#dfn-opaque
+
+
 -
 opaque
 opaque
@@ -1189,11 +1419,22 @@ https://url.spec.whatwg.org/#opaque-host
 opaque large-blob data
 opaque large-blob data
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#opaque-large-blob-data
+
+1
+-
+opaque large-blob data
+opaque large-blob data
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#opaque-large-blob-data
 
 1
 -
@@ -1410,17 +1651,6 @@ template/shadowrootmode
 open
 open
 dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootmode-open-state
-
-1
--
-open
-open
-dfn
 urlpattern
 urlpattern
 1
@@ -1470,6 +1700,30 @@ ReadyState
 -
 open
 open
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-open
+
+1
+script.NodeProperties/mode
+-
+open
+open
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-open
+
+1
+script.SerializationOptions/includeShadowTree
+-
+open
+open
 enum-value
 webrtc
 webrtc
@@ -1488,7 +1742,7 @@ webrtc
 1
 current
 https://w3c.github.io/webrtc-pc/#event-datachannel-open
-1
+
 
 RTCDataChannel
 -
@@ -1592,6 +1846,30 @@ ReadyState
 -
 open
 open
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptnodeproperties-mode-open
+
+1
+script.NodeProperties/mode
+-
+open
+open
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-open
+
+1
+script.SerializationOptions/includeShadowTree
+-
+open
+open
 dfn
 webgpu
 webgpu
@@ -1671,6 +1949,39 @@ https://www.w3.org/TR/IndexedDB-3/#open-a-database-connection
 
 1
 -
+open an async sequence
+open an async sequence
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#async-sequence-open
+1
+1
+-
+open dependency
+open dependency
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-open-dependency
+
+1
+-
+open dialogs list
+open dialogs list
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#open-dialogs-list
+
+1
+-
 open request
 open request
 dfn
@@ -1695,25 +2006,58 @@ https://www.w3.org/TR/IndexedDB-3/#request-open-request
 1
 request
 -
-open screen protocol agent
-open screen protocol agent
+open rule dependency
+open rule dependency
 dfn
-openscreenprotocol
-openscreenprotocol
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-open-dependency
+
+1
+-
+open screen network protocol agent
+open screen network protocol agent
+dfn
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#open-screen-protocol-agent
+https://w3c.github.io/openscreenprotocol/network.html#open-screen-network-protocol-agent
+
+1
+-
+open screen network protocol agent
+open screen network protocol agent
+dfn
+openscreen-network
+openscreen-network
+1
+snapshot
+https://www.w3.org/TR/openscreen-network/#open-screen-network-protocol-agent
 
 1
 -
 open screen protocol agent
 open screen protocol agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-application
+openscreen-application
+1
+current
+https://w3c.github.io/openscreenprotocol/application.html#open-screen-protocol-agent
+
+1
+-
+open screen protocol agent
+open screen protocol agent
+dfn
+openscreen-application
+openscreen-application
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#open-screen-protocol-agent
+https://www.w3.org/TR/openscreen-application/#open-screen-protocol-agent
 
 1
 -
@@ -1724,7 +2068,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/paths.html#TermOpenSubpath
+https://w3c.github.io/svgwg/svg2-draft/paths.html#TermOpenSubpath
 
 1
 -
@@ -1736,6 +2080,17 @@ svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/paths.html#TermOpenSubpath
+
+1
+-
+open the picker
+open the picker
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#select-open-picker
 
 1
 -
@@ -2054,9 +2409,9 @@ content
 open-quote
 open-quote
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-open-quote
 1
@@ -2068,20 +2423,9 @@ open-quote
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-open-quote
-1
-1
--
-open-quote
-open-quote
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-open-quote
+https://www.w3.org/TR/CSS2/generate.html#value-def-open-quote
 1
 1
 -
@@ -2390,11 +2734,11 @@ IDBObjectStore
 openWindow()
 openWindow()
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 current
-https://w3c.github.io/payment-handler/#dom-paymentrequestevent-openwindow
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestevent-openwindow
 1
 1
 PaymentRequestEvent
@@ -2402,11 +2746,11 @@ PaymentRequestEvent
 openWindow()
 openWindow()
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestevent-openwindow
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestevent-openwindow
 1
 1
 PaymentRequestEvent
@@ -2426,23 +2770,11 @@ Clients
 openWindow(url)
 openWindow(url)
 method
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
 current
-https://w3c.github.io/payment-handler/#dom-paymentrequestevent-openwindow
-1
-1
-PaymentRequestEvent
--
-openWindow(url)
-openWindow(url)
-method
-payment-handler
-payment-handler
-1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestevent-openwindow
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestevent-openwindow
 1
 1
 PaymentRequestEvent
@@ -2458,6 +2790,18 @@ https://www.w3.org/TR/service-workers/#dom-clients-openwindow
 1
 1
 Clients
+-
+openWindow(url)
+openWindow(url)
+method
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestevent-openwindow
+1
+1
+PaymentRequestEvent
 -
 opened
 opened
@@ -2519,6 +2863,17 @@ https://wicg.github.io/webusb/#dom-usbdevice-opened
 1
 USBDevice
 -
+opened in popover mode
+opened in popover mode
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#opened-in-popover-mode
+
+1
+-
 opener
 opener
 attr-value
@@ -2577,6 +2932,7 @@ current
 https://html.spec.whatwg.org/multipage/browsers.html#coop-enforcement-coop
 
 1
+opener policy enforcement result
 -
 opener policy
 opener policy
@@ -2599,6 +2955,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-coop
 
 1
+navigation params
 -
 opener policy
 opener policy
@@ -2633,6 +2990,102 @@ https://html.spec.whatwg.org/multipage/browsers.html#cross-origin-opener-policy-
 
 1
 -
+openid4vci-v1
+openid4vci-v1
+enum-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialissuanceprotocol-openid4vci-v1
+1
+1
+DigitalCredentialIssuanceProtocol
+-
+openid4vci-v1
+openid4vci-v1
+enum-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialissuanceprotocol-openid4vci-v1
+1
+1
+DigitalCredentialIssuanceProtocol
+-
+openid4vp-v1-multisigned
+openid4vp-v1-multisigned
+enum-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialpresentationprotocol-openid4vp-v1-multisigned
+1
+1
+DigitalCredentialPresentationProtocol
+-
+openid4vp-v1-multisigned
+openid4vp-v1-multisigned
+enum-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialpresentationprotocol-openid4vp-v1-multisigned
+1
+1
+DigitalCredentialPresentationProtocol
+-
+openid4vp-v1-signed
+openid4vp-v1-signed
+enum-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialpresentationprotocol-openid4vp-v1-signed
+1
+1
+DigitalCredentialPresentationProtocol
+-
+openid4vp-v1-signed
+openid4vp-v1-signed
+enum-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialpresentationprotocol-openid4vp-v1-signed
+1
+1
+DigitalCredentialPresentationProtocol
+-
+openid4vp-v1-unsigned
+openid4vp-v1-unsigned
+enum-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialpresentationprotocol-openid4vp-v1-unsigned
+1
+1
+DigitalCredentialPresentationProtocol
+-
+openid4vp-v1-unsigned
+openid4vp-v1-unsigned
+enum-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialpresentationprotocol-openid4vp-v1-unsigned
+1
+1
+DigitalCredentialPresentationProtocol
+-
 operand
 operand
 dfn
@@ -2652,7 +3105,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#operating-coordinate-space
+https://drafts.csswg.org/filter-effects-1/#operating-coordinate-space
 
 1
 -
@@ -2714,42 +3167,6 @@ https://www.w3.org/TR/webgpu/#dom-gpublendcomponent-operation
 1
 GPUBlendComponent
 -
-operation map
-operation map
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorageworkletglobalscope-operation-map
-
-1
-SharedStorageWorkletGlobalScope
--
-operation name
-operation name
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#saved-query-map-operation-name
-1
-1
-saved query map
--
-operationCtor
-operationCtor
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-register-name-operationctor-operationctor
-1
-1
-SharedStorageWorkletGlobalScope/register(name, operationCtor)
--
 operations chain
 operations chain
 dfn
@@ -2810,7 +3227,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfecompositeelement-operator
+https://drafts.csswg.org/filter-effects-1/#dom-svgfecompositeelement-operator
 1
 1
 SVGFECompositeElement
@@ -2822,7 +3239,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfemorphologyelement-operator
+https://drafts.csswg.org/filter-effects-1/#dom-svgfemorphologyelement-operator
 1
 1
 SVGFEMorphologyElement
@@ -2834,7 +3251,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fecomposite-operator
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomposite-operator
 1
 1
 feComposite
@@ -2846,7 +3263,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-femorphology-operator
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-femorphology-operator
 1
 1
 feMorphology
@@ -2964,6 +3381,116 @@ https://www.w3.org/TR/webnn/#operators
 
 1
 -
+opposite corner scale factor
+opposite corner scale factor
+dfn
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#opposite-corner-scale-factor
+
+1
+-
+opposite corner scale factor
+opposite corner scale factor
+dfn
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#opposite-corner-scale-factor
+
+1
+-
+opt in
+opt in
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-opt-in
+1
+
+-
+opt in
+opt in
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-opt-in
+
+
+-
+opt out
+opt out
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-opt-out
+1
+
+-
+opt out
+opt out
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-opt-out
+
+
+-
+opt-in
+opt-in
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-opt-in
+1
+
+-
+opt-in
+opt-in
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-opt-in
+
+
+-
+opt-out
+opt-out
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-opt-out
+1
+
+-
+opt-out
+opt-out
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-opt-out
+
+
+-
 optgroup
 optgroup
 element
@@ -2973,6 +3500,17 @@ html
 current
 https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element
 1
+1
+-
+optgroup element inner content elements
+optgroup element inner content elements
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#optgroup-element-inner-content-elements-2
+
 1
 -
 optimal viewing region
@@ -3128,14 +3666,36 @@ https://www.w3.org/TR/css-nav-1/#dom-element-focusableareas-option-option
 Element/focusableAreas(option)
 Element/focusableAreas()
 -
+option element inner content elements
+option element inner content elements
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#option-element-inner-content-elements-2
+
+1
+-
 option-expression
 option-expression
 grammar
+sri-2
 sri
-sri
-1
+2
 current
 https://w3c.github.io/webappsec-subresource-integrity/#grammardef-option-expression
+1
+1
+-
+option-expression
+option-expression
+grammar
+sri-2
+sri
+2
+snapshot
+https://www.w3.org/TR/sri-2/#grammardef-option-expression
 1
 1
 -
@@ -3290,6 +3850,50 @@ https://www.w3.org/TR/mediacapture-streams/#dfn-optional-basic-constraints
 
 1
 -
+optional parameter
+optional parameter
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-optional-parameter
+
+1
+-
+optional parameter
+optional parameter
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-optional-parameter
+
+1
+-
+optional parameters
+optional parameters
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-optional-parameter
+
+1
+-
+optional parameters
+optional parameters
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-optional-parameter
+
+1
+-
 optional trigger priority
 optional trigger priority
 dfn
@@ -3298,6 +3902,17 @@ private-click-measurement
 1
 current
 https://privacycg.github.io/private-click-measurement/#optional-trigger-priority
+
+1
+-
+optional value
+optional value
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-fe-optional-value
 
 1
 -
@@ -3441,61 +4056,6 @@ https://webidl.spec.whatwg.org/#dfn-optionality-value
 1
 1
 -
-optionally get a list of array indexes
-optionally get a list of array indexes
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#optionally-get-a-list-of-array-indexes
-
-1
--
-optionally get a list of optional strings
-optionally get a list of optional strings
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#optionally-get-a-list-of-optional-strings
-
-1
--
-optionally get a list of strings
-optionally get a list of strings
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#optionally-get-a-list-of-strings
-
-1
--
-optionally get a string
-optionally get a string
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#optionally-get-a-string
-
-1
--
-optionally report an error
-optionally report an error
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#optionally-report-an-error
-
-1
--
 optionally truncate a simple dialog string
 optionally truncate a simple dialog string
 dfn
@@ -3572,6 +4132,56 @@ console/dir()
 options
 options
 argument
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-delete-options-options
+1
+1
+CookieStore/delete(options)
+-
+options
+options
+argument
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-get-options-options
+1
+1
+CookieStore/get(options)
+CookieStore/get()
+-
+options
+options
+argument
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-getall-options-options
+1
+1
+CookieStore/getAll(options)
+CookieStore/getAll()
+-
+options
+options
+argument
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookiestore-set-options-options
+1
+1
+CookieStore/set(options)
+-
+options
+options
+argument
 dom
 dom
 1
@@ -3594,6 +4204,19 @@ https://dom.spec.whatwg.org/#dom-document-createelementns-namespace-qualifiednam
 1
 Document/createElementNS(namespace, qualifiedName, options)
 Document/createElementNS(namespace, qualifiedName)
+-
+options
+options
+argument
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dom-document-importnode-node-options-options
+1
+1
+Document/importNode(node, options)
+Document/importNode(node)
 -
 options
 options
@@ -3719,6 +4342,19 @@ CSSMatrixComponent/CSSMatrixComponent(matrix, options)
 CSSMatrixComponent/constructor(matrix, options)
 CSSMatrixComponent/CSSMatrixComponent(matrix)
 CSSMatrixComponent/constructor(matrix)
+-
+options
+options
+argument
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#dom-highlightregistry-highlightsfrompoint-x-y-options-options
+1
+1
+HighlightRegistry/highlightsFromPoint(x, y, options)
+HighlightRegistry/highlightsFromPoint(x, y)
 -
 options
 options
@@ -3907,6 +4543,21 @@ Window/scrollTo()
 options
 options
 argument
+pointer-animations-1
+pointer-animations
+1
+current
+https://drafts.csswg.org/pointer-animations-1/#dom-pointertimeline-pointertimeline-options-options
+1
+1
+PointerTimeline/PointerTimeline(options)
+PointerTimeline/constructor(options)
+PointerTimeline/PointerTimeline()
+PointerTimeline/constructor()
+-
+options
+options
+argument
 resize-observer-1
 resize-observer
 1
@@ -3998,6 +4649,18 @@ KeyframeEffect/KeyframeEffect(target, keyframes, options)
 options
 options
 argument
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtrigger-animationtrigger-options-options
+1
+1
+AnimationTrigger/AnimationTrigger(options)
+-
+options
+options
+argument
 encoding
 encoding
 1
@@ -4046,8 +4709,8 @@ TextDecoderStream/constructor()
 options
 options
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getassert-options
@@ -4058,8 +4721,8 @@ getAssert
 options
 options
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-options
@@ -4070,11 +4733,47 @@ getInfo
 options
 options
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-options
+
+1
+makeCred
+-
+options
+options
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getassert-options
+
+1
+getAssert
+-
+options
+options
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-options
+
+1
+getInfo
+-
+options
+options
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-options
 
 1
 makeCred
@@ -4299,32 +4998,6 @@ ServiceWorkerRegistration/showNotification(title)
 options
 options
 argument
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-privateaggregation-enabledebugmode-options-options
-1
-1
-PrivateAggregation/enableDebugMode(options)
-PrivateAggregation/enableDebugMode()
--
-options
-options
-argument
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#dom-document-browsingtopics-options-options
-1
-1
-Document/browsingTopics(options)
-Document/browsingTopics()
--
-options
-options
-argument
 saa-non-cookie-storage
 saa-non-cookie-storage
 1
@@ -4453,7 +5126,6 @@ https://w3c-fedid.github.io/FedCM/#dom-identitycredential-disconnect-options-opt
 1
 1
 IdentityCredential/disconnect(options)
-IdentityCredential/disconnect()
 -
 options
 options
@@ -4466,6 +5138,36 @@ https://w3c-fedid.github.io/FedCM/#dom-identitycredential-discoverfromexternalso
 1
 1
 IdentityCredential/[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
+-
+options
+options
+argument
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identitycredentialerror-identitycredentialerror-message-options-options
+1
+1
+IdentityCredentialError/IdentityCredentialError(message, options)
+IdentityCredentialError/constructor(message, options)
+IdentityCredentialError/IdentityCredentialError(message)
+IdentityCredentialError/constructor(message)
+IdentityCredentialError/IdentityCredentialError()
+IdentityCredentialError/constructor()
+-
+options
+options
+argument
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identityprovider-resolve-token-options-options
+1
+1
+IdentityProvider/resolve(token, options)
+IdentityProvider/resolve(token)
 -
 options
 options
@@ -4533,11 +5235,37 @@ indexeddb-3
 indexeddb
 3
 current
+https://w3c.github.io/IndexedDB/#dom-idbindex-getallrecords-options-options
+1
+1
+IDBIndex/getAllRecords(options)
+IDBIndex/getAllRecords()
+-
+options
+options
+argument
+indexeddb-3
+indexeddb
+3
+current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-createindex-name-keypath-options-options
 1
 1
 IDBObjectStore/createIndex(name, keyPath, options)
 IDBObjectStore/createIndex(name, keyPath)
+-
+options
+options
+argument
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallrecords-options-options
+1
+1
+IDBObjectStore/getAllRecords(options)
+IDBObjectStore/getAllRecords()
 -
 options
 options
@@ -4733,6 +5461,30 @@ LinearAccelerationSensor/constructor()
 options
 options
 argument
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attribution-measureconversion-options-options
+1
+1
+Attribution/measureConversion(options)
+-
+options
+options
+argument
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attribution-saveimpression-options-options
+1
+1
+Attribution/saveImpression(options)
+-
+options
+options
+argument
 clipboard-apis
 clipboard-apis
 1
@@ -4761,21 +5513,6 @@ ContactsManager/select(properties)
 options
 options
 argument
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-geolocationsensor-options-options
-1
-1
-GeolocationSensor/GeolocationSensor(options)
-GeolocationSensor/constructor(options)
-GeolocationSensor/GeolocationSensor()
-GeolocationSensor/constructor()
--
-options
-options
-argument
 mediastream-recording
 mediastream-recording
 1
@@ -4787,6 +5524,31 @@ MediaRecorder/MediaRecorder(stream, options)
 MediaRecorder/constructor(stream, options)
 MediaRecorder/MediaRecorder(stream)
 MediaRecorder/constructor(stream)
+-
+options
+options
+argument
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#dom-performanceobserver-observe-options-options
+1
+1
+PerformanceObserver/observe(options)
+PerformanceObserver/observe()
+-
+options
+options
+argument
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#dom-performanceobservercallback-options
+1
+1
+PerformanceObserverCallback
 -
 options
 options
@@ -5072,15 +5834,15 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransform-rtcrtpscripttransform-worker-options-transfer-options
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransform-rtcrtpscripttransform-workerorworkerandparameters-options-transfer-options
 1
 1
-RTCRtpScriptTransform/RTCRtpScriptTransform(worker, options, transfer)
-RTCRtpScriptTransform/constructor(worker, options, transfer)
-RTCRtpScriptTransform/RTCRtpScriptTransform(worker, options)
-RTCRtpScriptTransform/constructor(worker, options)
-RTCRtpScriptTransform/RTCRtpScriptTransform(worker)
-RTCRtpScriptTransform/constructor(worker)
+RTCRtpScriptTransform/RTCRtpScriptTransform(workerOrWorkerAndParameters, options, transfer)
+RTCRtpScriptTransform/constructor(workerOrWorkerAndParameters, options, transfer)
+RTCRtpScriptTransform/RTCRtpScriptTransform(workerOrWorkerAndParameters, options)
+RTCRtpScriptTransform/constructor(workerOrWorkerAndParameters, options)
+RTCRtpScriptTransform/RTCRtpScriptTransform(workerOrWorkerAndParameters)
+RTCRtpScriptTransform/constructor(workerOrWorkerAndParameters)
 -
 options
 options
@@ -5101,13 +5863,50 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 current
-https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransform-sframetransform-options-options
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpsframedecrypter-rtcrtpsframedecrypter-options-options
 1
 1
-SFrameTransform/SFrameTransform(options)
-SFrameTransform/constructor(options)
-SFrameTransform/SFrameTransform()
-SFrameTransform/constructor()
+RTCRtpSFrameDecrypter/RTCRtpSFrameDecrypter(options)
+RTCRtpSFrameDecrypter/constructor(options)
+-
+options
+options
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpsframeencrypter-rtcrtpsframeencrypter-options-options
+1
+1
+RTCRtpSFrameEncrypter/RTCRtpSFrameEncrypter(options)
+RTCRtpSFrameEncrypter/constructor(options)
+-
+options
+options
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframedecrypterstream-sframedecrypterstream-options-options
+1
+1
+SFrameDecrypterStream/SFrameDecrypterStream(options)
+SFrameDecrypterStream/constructor(options)
+-
+options
+options
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframeencrypterstream-sframeencrypterstream-options-options
+1
+1
+SFrameEncrypterStream/SFrameEncrypterStream(options)
+SFrameEncrypterStream/constructor(options)
 -
 options
 options
@@ -5157,6 +5956,19 @@ webtransport
 webtransport
 1
 current
+https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-createwritable-options-options
+1
+1
+WebTransportDatagramDuplexStream/createWritable(options)
+WebTransportDatagramDuplexStream/createWritable()
+-
+options
+options
+argument
+webtransport
+webtransport
+1
+current
 https://w3c.github.io/webtransport/#dom-webtransporterror-webtransporterror-message-options-options
 1
 1
@@ -5170,7 +5982,104 @@ WebTransportError/constructor()
 options
 options
 argument
-webaudio
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-exception-exceptiontag-payload-options-options
+1
+1
+Exception/Exception(exceptionTag, payload, options)
+Exception/constructor(exceptionTag, payload, options)
+Exception/Exception(exceptionTag, payload)
+Exception/constructor(exceptionTag, payload)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-module-module-bytes-options-options
+1
+1
+Module/Module(bytes, options)
+Module/constructor(bytes, options)
+Module/Module(bytes)
+Module/constructor(bytes)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-compile-bytes-options-options
+1
+1
+WebAssembly/compile(bytes, options)
+WebAssembly/compile(bytes)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate-bytes-importobject-options-options
+1
+1
+WebAssembly/instantiate(bytes, importObject, options)
+WebAssembly/instantiate(bytes, importObject)
+WebAssembly/instantiate(bytes)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-validate-bytes-options-options
+1
+1
+WebAssembly/validate(bytes, options)
+WebAssembly/validate(bytes)
+-
+options
+options
+argument
+wasm-web-api-2
+wasm-web-api
+2
+current
+https://webassembly.github.io/spec/web-api/#dom-webassembly-compilestreaming-source-options-options
+1
+1
+WebAssembly/compileStreaming(source, options)
+WebAssembly/compileStreaming(source)
+-
+options
+options
+argument
+wasm-web-api-2
+wasm-web-api
+2
+current
+https://webassembly.github.io/spec/web-api/#dom-webassembly-instantiatestreaming-source-importobject-options-options
+1
+1
+WebAssembly/instantiateStreaming(source, importObject, options)
+WebAssembly/instantiateStreaming(source, importObject)
+WebAssembly/instantiateStreaming(source)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5185,7 +6094,22 @@ AnalyserNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-analysernode-context-options-options
+1
+1
+AnalyserNode/AnalyserNode(context, options)
+AnalyserNode/constructor(context, options)
+AnalyserNode/AnalyserNode(context)
+AnalyserNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5197,7 +6121,19 @@ AnalyserNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-constructor-options
+1
+1
+AnalyserNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5210,7 +6146,20 @@ AudioBuffer/constructor(options)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-audiobuffer-options-options
+1
+1
+AudioBuffer/AudioBuffer(options)
+AudioBuffer/constructor(options)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5222,7 +6171,19 @@ AudioBuffer/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-constructor-options
+1
+1
+AudioBuffer/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5237,7 +6198,22 @@ AudioBufferSourceNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-audiobuffersourcenode-context-options-options
+1
+1
+AudioBufferSourceNode/AudioBufferSourceNode(context, options)
+AudioBufferSourceNode/constructor(context, options)
+AudioBufferSourceNode/AudioBufferSourceNode(context)
+AudioBufferSourceNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5249,20 +6225,19 @@ AudioBufferSourceNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.1
 webaudio
 1
 current
-https://webaudio.github.io/web-audio-api/#dom-audiorendercapacity-start-options-options
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-constructor-options
 1
 1
-AudioRenderCapacity/start(options)
-AudioRenderCapacity/start()
+AudioBufferSourceNode/constructor()
 -
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5277,7 +6252,22 @@ AudioWorkletNode/constructor(context, name)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletnode-audioworkletnode-context-name-options-options
+1
+1
+AudioWorkletNode/AudioWorkletNode(context, name, options)
+AudioWorkletNode/constructor(context, name, options)
+AudioWorkletNode/AudioWorkletNode(context, name)
+AudioWorkletNode/constructor(context, name)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5289,7 +6279,19 @@ AudioWorkletNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletnode-constructor-options
+1
+1
+AudioWorkletNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5301,7 +6303,19 @@ AudioWorkletProcessorConstructor
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletprocessorconstructor-options
+1
+1
+AudioWorkletProcessorConstructor
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5316,7 +6330,22 @@ BiquadFilterNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-biquadfilternode-context-options-options
+1
+1
+BiquadFilterNode/BiquadFilterNode(context, options)
+BiquadFilterNode/constructor(context, options)
+BiquadFilterNode/BiquadFilterNode(context)
+BiquadFilterNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5328,7 +6357,19 @@ BiquadFilterNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-constructor-options
+1
+1
+BiquadFilterNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5343,7 +6384,22 @@ ChannelMergerNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelmergernode-channelmergernode-context-options-options
+1
+1
+ChannelMergerNode/ChannelMergerNode(context, options)
+ChannelMergerNode/constructor(context, options)
+ChannelMergerNode/ChannelMergerNode(context)
+ChannelMergerNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5355,7 +6411,19 @@ ChannelMergerNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelmergernode-constructor-options
+1
+1
+ChannelMergerNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5370,7 +6438,22 @@ ChannelSplitterNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelsplitternode-channelsplitternode-context-options-options
+1
+1
+ChannelSplitterNode/ChannelSplitterNode(context, options)
+ChannelSplitterNode/constructor(context, options)
+ChannelSplitterNode/ChannelSplitterNode(context)
+ChannelSplitterNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5382,7 +6465,19 @@ ChannelSplitterNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelsplitternode-constructor-options
+1
+1
+ChannelSplitterNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5397,7 +6492,22 @@ ConstantSourceNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-constantsourcenode-constantsourcenode-context-options-options
+1
+1
+ConstantSourceNode/ConstantSourceNode(context, options)
+ConstantSourceNode/constructor(context, options)
+ConstantSourceNode/ConstantSourceNode(context)
+ConstantSourceNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5409,7 +6519,19 @@ ConstantSourceNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-constantsourcenode-constructor-options
+1
+1
+ConstantSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5421,7 +6543,19 @@ ConvolverNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-convolvernode-constructor-options
+1
+1
+ConvolverNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5436,7 +6570,22 @@ ConvolverNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-convolvernode-convolvernode-context-options-options
+1
+1
+ConvolverNode/ConvolverNode(context, options)
+ConvolverNode/constructor(context, options)
+ConvolverNode/ConvolverNode(context)
+ConvolverNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5448,7 +6597,19 @@ DelayNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-delaynode-constructor-options
+1
+1
+DelayNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5463,7 +6624,22 @@ DelayNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-delaynode-delaynode-context-options-options
+1
+1
+DelayNode/DelayNode(context, options)
+DelayNode/constructor(context, options)
+DelayNode/DelayNode(context)
+DelayNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5475,7 +6651,19 @@ DynamicsCompressorNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-constructor-options
+1
+1
+DynamicsCompressorNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5490,7 +6678,22 @@ DynamicsCompressorNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-dynamicscompressornode-context-options-options
+1
+1
+DynamicsCompressorNode/DynamicsCompressorNode(context, options)
+DynamicsCompressorNode/constructor(context, options)
+DynamicsCompressorNode/DynamicsCompressorNode(context)
+DynamicsCompressorNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5502,7 +6705,19 @@ GainNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-gainnode-constructor-options
+1
+1
+GainNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5517,7 +6732,22 @@ GainNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-gainnode-gainnode-context-options-options
+1
+1
+GainNode/GainNode(context, options)
+GainNode/constructor(context, options)
+GainNode/GainNode(context)
+GainNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5529,7 +6759,19 @@ IIRFilterNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilternode-constructor-options
+1
+1
+IIRFilterNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5542,7 +6784,20 @@ IIRFilterNode/constructor(context, options)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilternode-iirfilternode-context-options-options
+1
+1
+IIRFilterNode/IIRFilterNode(context, options)
+IIRFilterNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5554,7 +6809,19 @@ MediaElementAudioSourceNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediaelementaudiosourcenode-constructor-options
+1
+1
+MediaElementAudioSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5567,7 +6834,20 @@ MediaElementAudioSourceNode/constructor(context, options)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediaelementaudiosourcenode-mediaelementaudiosourcenode-context-options-options
+1
+1
+MediaElementAudioSourceNode/MediaElementAudioSourceNode(context, options)
+MediaElementAudioSourceNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5579,7 +6859,19 @@ MediaStreamAudioDestinationNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiodestinationnode-constructor-options
+1
+1
+MediaStreamAudioDestinationNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5594,7 +6886,22 @@ MediaStreamAudioDestinationNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiodestinationnode-mediastreamaudiodestinationnode-context-options-options
+1
+1
+MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode(context, options)
+MediaStreamAudioDestinationNode/constructor(context, options)
+MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode(context)
+MediaStreamAudioDestinationNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5606,7 +6913,19 @@ MediaStreamAudioSourceNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiosourcenode-constructor-options
+1
+1
+MediaStreamAudioSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5619,7 +6938,20 @@ MediaStreamAudioSourceNode/constructor(context, options)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiosourcenode-mediastreamaudiosourcenode-context-options-options
+1
+1
+MediaStreamAudioSourceNode/MediaStreamAudioSourceNode(context, options)
+MediaStreamAudioSourceNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5631,7 +6963,19 @@ MediaStreamTrackAudioSourceNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediastreamtrackaudiosourcenode-constructor-options
+1
+1
+MediaStreamTrackAudioSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5644,7 +6988,20 @@ MediaStreamTrackAudioSourceNode/constructor(context, options)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-mediastreamtrackaudiosourcenode-mediastreamtrackaudiosourcenode-context-options-options
+1
+1
+MediaStreamTrackAudioSourceNode/MediaStreamTrackAudioSourceNode(context, options)
+MediaStreamTrackAudioSourceNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5656,7 +7013,19 @@ OscillatorNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-oscillatornode-constructor-options
+1
+1
+OscillatorNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5671,7 +7040,22 @@ OscillatorNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-oscillatornode-oscillatornode-context-options-options
+1
+1
+OscillatorNode/OscillatorNode(context, options)
+OscillatorNode/constructor(context, options)
+OscillatorNode/OscillatorNode(context)
+OscillatorNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5683,7 +7067,19 @@ PannerNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-constructor-options
+1
+1
+PannerNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5698,7 +7094,22 @@ PannerNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-pannernode-context-options-options
+1
+1
+PannerNode/PannerNode(context, options)
+PannerNode/constructor(context, options)
+PannerNode/PannerNode(context)
+PannerNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5710,7 +7121,19 @@ PeriodicWave/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-periodicwave-constructor-options
+1
+1
+PeriodicWave/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5725,7 +7148,22 @@ PeriodicWave/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-periodicwave-periodicwave-context-options-options
+1
+1
+PeriodicWave/PeriodicWave(context, options)
+PeriodicWave/constructor(context, options)
+PeriodicWave/PeriodicWave(context)
+PeriodicWave/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5737,7 +7175,19 @@ StereoPannerNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-stereopannernode-constructor-options
+1
+1
+StereoPannerNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5752,7 +7202,22 @@ StereoPannerNode/constructor(context)
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-stereopannernode-stereopannernode-context-options-options
+1
+1
+StereoPannerNode/StereoPannerNode(context, options)
+StereoPannerNode/constructor(context, options)
+StereoPannerNode/StereoPannerNode(context)
+StereoPannerNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -5764,7 +7229,34 @@ WaveShaperNode/constructor()
 options
 options
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshapernode-constructor-options
+1
+1
+WaveShaperNode/constructor()
+-
+options
+options
+argument
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshapernode-waveshapernode-context-options-options
+1
+1
+WaveShaperNode/WaveShaperNode(context, options)
+WaveShaperNode/constructor(context, options)
+WaveShaperNode/WaveShaperNode(context)
+WaveShaperNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -5779,7 +7271,7 @@ WaveShaperNode/constructor(context)
 options
 options
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5787,6 +7279,42 @@ https://webaudio.github.io/web-audio-api/#processor-construction-data-options
 
 1
 processor construction data
+-
+options
+options
+dfn
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#processor-construction-data-options
+
+1
+processor construction data
+-
+options
+options
+argument
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-available-options-options
+1
+1
+SpeechRecognition/available(options)
+-
+options
+options
+argument
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-install-options-options
+1
+1
+SpeechRecognition/install(options)
 -
 options
 options
@@ -5830,6 +7358,255 @@ Bluetooth/requestLEScan()
 options
 options
 argument
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quotaexceedederror-message-options-options
+1
+1
+QuotaExceededError/QuotaExceededError(message, options)
+QuotaExceededError/constructor(message, options)
+QuotaExceededError/QuotaExceededError(message)
+QuotaExceededError/constructor(message)
+QuotaExceededError/QuotaExceededError()
+QuotaExceededError/constructor()
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-append-input-options-options
+1
+1
+LanguageModel/append(input, options)
+LanguageModel/append(input)
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-availability-options-options
+1
+1
+LanguageModel/availability(options)
+LanguageModel/availability()
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-clone-options-options
+1
+1
+LanguageModel/clone(options)
+LanguageModel/clone()
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-create-options-options
+1
+1
+LanguageModel/create(options)
+LanguageModel/create()
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-measurecontextusage-input-options-options
+1
+1
+LanguageModel/measureContextUsage(input, options)
+LanguageModel/measureContextUsage(input)
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-measureinputusage-input-options-options
+1
+1
+LanguageModel/measureInputUsage(input, options)
+LanguageModel/measureInputUsage(input)
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-prompt-input-options-options
+1
+1
+LanguageModel/prompt(input, options)
+LanguageModel/prompt(input)
+-
+options
+options
+argument
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-promptstreaming-input-options-options
+1
+1
+LanguageModel/promptStreaming(input, options)
+LanguageModel/promptStreaming(input)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-availability-options-options
+1
+1
+LanguageDetector/availability(options)
+LanguageDetector/availability()
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-create-options-options
+1
+1
+LanguageDetector/create(options)
+LanguageDetector/create()
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-detect-input-options-options
+1
+1
+LanguageDetector/detect(input, options)
+LanguageDetector/detect(input)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-measureinputusage-input-options-options
+1
+1
+LanguageDetector/measureInputUsage(input, options)
+LanguageDetector/measureInputUsage(input)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-availability-options-options
+1
+1
+Translator/availability(options)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-create-options-options
+1
+1
+Translator/create(options)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-measureinputusage-input-options-options
+1
+1
+Translator/measureInputUsage(input, options)
+Translator/measureInputUsage(input)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-translate-input-options-options
+1
+1
+Translator/translate(input, options)
+Translator/translate(input)
+-
+options
+options
+argument
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-translatestreaming-input-options-options
+1
+1
+Translator/translateStreaming(input, options)
+Translator/translateStreaming(input)
+-
+options
+options
+argument
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-modelcontext-registertool-tool-options-options
+1
+1
+ModelContext/registerTool(tool, options)
+ModelContext/registerTool(tool)
+-
+options
+options
+argument
 webnn
 webnn
 1
@@ -5860,7 +7637,9 @@ MLGraphBuilder/identity(input, options)
 MLGraphBuilder/log(input, options)
 MLGraphBuilder/neg(input, options)
 MLGraphBuilder/reciprocal(input, options)
+MLGraphBuilder/roundEven(input, options)
 MLGraphBuilder/sin(input, options)
+MLGraphBuilder/sign(input, options)
 MLGraphBuilder/sqrt(input, options)
 MLGraphBuilder/tan(input, options)
 -
@@ -5928,10 +7707,10 @@ webnn
 webnn
 1
 current
-https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cast-input-type-options-options
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cast-input-datatype-options-options
 1
 1
-MLGraphBuilder/cast(input, type, options)
+MLGraphBuilder/cast(input, dataType, options)
 -
 options
 options
@@ -5988,6 +7767,30 @@ webnn
 webnn
 1
 current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cumulativesum-input-axis-options-options
+1
+1
+MLGraphBuilder/cumulativeSum(input, axis, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-dequantizelinear-input-scale-zeropoint-options-options
+1
+1
+MLGraphBuilder/dequantizeLinear(input, scale, zeroPoint, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
 https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-elu-input-options-options
 1
 1
@@ -6004,11 +7807,17 @@ https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-equal-a-b-options
 1
 1
 MLGraphBuilder/equal(a, b, options)
+MLGraphBuilder/notEqual(a, b, options)
 MLGraphBuilder/greater(a, b, options)
 MLGraphBuilder/greaterOrEqual(a, b, options)
 MLGraphBuilder/lesser(a, b, options)
 MLGraphBuilder/lesserOrEqual(a, b, options)
 MLGraphBuilder/logicalNot(a, options)
+MLGraphBuilder/logicalAnd(a, b, options)
+MLGraphBuilder/logicalOr(a, b, options)
+MLGraphBuilder/logicalXor(a, b, options)
+MLGraphBuilder/isNaN(a, options)
+MLGraphBuilder/isInfinite(a, options)
 -
 options
 options
@@ -6033,6 +7842,30 @@ https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gather-input-indi
 1
 1
 MLGraphBuilder/gather(input, indices, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gatherelements-input-indices-options-options
+1
+1
+MLGraphBuilder/gatherElements(input, indices, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gathernd-input-indices-options-options
+1
+1
+MLGraphBuilder/gatherND(input, indices, options)
 -
 options
 options
@@ -6221,6 +8054,18 @@ webnn
 webnn
 1
 current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-quantizelinear-input-scale-zeropoint-options-options
+1
+1
+MLGraphBuilder/quantizeLinear(input, scale, zeroPoint, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
 https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel1-input-options-options
 1
 1
@@ -6270,6 +8115,42 @@ https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reshape-input-new
 1
 1
 MLGraphBuilder/reshape(input, newShape, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reverse-input-options-options
+1
+1
+MLGraphBuilder/reverse(input, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-scatterelements-input-indices-updates-options-options
+1
+1
+MLGraphBuilder/scatterElements(input, indices, updates, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-scatternd-input-indices-updates-options-options
+1
+1
+MLGraphBuilder/scatterND(input, indices, updates, options)
 -
 options
 options
@@ -6362,6 +8243,18 @@ webnn
 webnn
 1
 current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-tile-input-repetitions-options-options
+1
+1
+MLGraphBuilder/tile(input, repetitions, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+current
 https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-transpose-input-options-options
 1
 1
@@ -6394,14 +8287,197 @@ MLGraphBuilder/where(condition, trueValue, falseValue, options)
 options
 options
 argument
-attribution-reporting-api
-attribution-reporting-api
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/attribution-reporting-api/#dom-xmlhttprequest-setattributionreporting-options-options
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-availability-options-options
 1
 1
-XMLHttpRequest/setAttributionReporting(options)
+Rewriter/availability(options)
+Rewriter/availability()
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-create-options-options
+1
+1
+Rewriter/create(options)
+Rewriter/create()
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-measureinputusage-input-options-options
+1
+1
+Rewriter/measureInputUsage(input, options)
+Rewriter/measureInputUsage(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-rewrite-input-options-options
+1
+1
+Rewriter/rewrite(input, options)
+Rewriter/rewrite(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-rewritestreaming-input-options-options
+1
+1
+Rewriter/rewriteStreaming(input, options)
+Rewriter/rewriteStreaming(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-availability-options-options
+1
+1
+Summarizer/availability(options)
+Summarizer/availability()
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-create-options-options
+1
+1
+Summarizer/create(options)
+Summarizer/create()
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-measureinputusage-input-options-options
+1
+1
+Summarizer/measureInputUsage(input, options)
+Summarizer/measureInputUsage(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-summarize-input-options-options
+1
+1
+Summarizer/summarize(input, options)
+Summarizer/summarize(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-summarizestreaming-input-options-options
+1
+1
+Summarizer/summarizeStreaming(input, options)
+Summarizer/summarizeStreaming(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-availability-options-options
+1
+1
+Writer/availability(options)
+Writer/availability()
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-create-options-options
+1
+1
+Writer/create(options)
+Writer/create()
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-measureinputusage-input-options-options
+1
+1
+Writer/measureInputUsage(input, options)
+Writer/measureInputUsage(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-write-input-options-options
+1
+1
+Writer/write(input, options)
+Writer/write(input)
+-
+options
+options
+argument
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-writestreaming-input-options-options
+1
+1
+Writer/writeStreaming(input, options)
+Writer/writeStreaming(input)
 -
 options
 options
@@ -6455,56 +8531,6 @@ https://wicg.github.io/background-fetch/#dom-backgroundfetchupdateuievent-update
 1
 BackgroundFetchUpdateUIEvent/updateUI(options)
 BackgroundFetchUpdateUIEvent/updateUI()
--
-options
-options
-argument
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-delete-options-options
-1
-1
-CookieStore/delete(options)
--
-options
-options
-argument
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-get-options-options
-1
-1
-CookieStore/get(options)
-CookieStore/get()
--
-options
-options
-argument
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-getall-options-options
-1
-1
-CookieStore/getAll(options)
-CookieStore/getAll()
--
-options
-options
-argument
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookiestore-set-options-options
-1
-1
-CookieStore/set(options)
 -
 options
 options
@@ -6868,84 +8894,6 @@ PortalHost/postMessage(message)
 options
 options
 argument
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-document-parsehtml-html-options-options
-1
-1
-Document/parseHTML(html, options)
-Document/parseHTML(html)
--
-options
-options
-argument
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-document-parsehtmlunsafe-html-options-options
-1
-1
-Document/parseHTMLUnsafe(html, options)
-Document/parseHTMLUnsafe(html)
--
-options
-options
-argument
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-element-sethtml-html-options-options
-1
-1
-Element/setHTML(html, options)
-Element/setHTML(html)
--
-options
-options
-argument
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-element-sethtmlunsafe-html-options-options
-1
-1
-Element/setHTMLUnsafe(html, options)
-Element/setHTMLUnsafe(html)
--
-options
-options
-argument
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml-html-options-options
-1
-1
-ShadowRoot/setHTML(html, options)
-ShadowRoot/setHTML(html)
--
-options
-options
-argument
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtmlunsafe-html-options-options
-1
-1
-ShadowRoot/setHTMLUnsafe(html, options)
-ShadowRoot/setHTMLUnsafe(html)
--
-options
-options
-argument
 scheduling-apis
 scheduling-apis
 1
@@ -6959,80 +8907,27 @@ Scheduler/postTask(callback)
 options
 options
 argument
-shared-storage
-shared-storage
+text-detection-api
+text-detection-api
 1
 current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-createworklet-moduleurl-options-options
+https://wicg.github.io/shape-detection-api/text.html#dom-textdetector-availability-options-options
 1
 1
-SharedStorage/createWorklet(moduleURL, options)
-SharedStorage/createWorklet(moduleURL)
+TextDetector/availability(options)
 -
 options
 options
 argument
-shared-storage
-shared-storage
+text-detection-api
+text-detection-api
 1
 current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-run-name-options-options
+https://wicg.github.io/shape-detection-api/text.html#dom-textdetector-create-options-options
 1
 1
-SharedStorage/run(name, options)
-SharedStorage/run(name)
--
-options
-options
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-selecturl-name-urls-options-options
-1
-1
-SharedStorage/selectURL(name, urls, options)
-SharedStorage/selectURL(name, urls)
--
-options
-options
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-set-key-value-options-options
-1
-1
-SharedStorage/set(key, value, options)
-SharedStorage/set(key, value)
--
-options
-options
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-run-name-options-options
-1
-1
-SharedStorageWorklet/run(name, options)
-SharedStorageWorklet/run(name)
--
-options
-options
-argument
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-selecturl-name-urls-options-options
-1
-1
-SharedStorageWorklet/selectURL(name, urls, options)
-SharedStorageWorklet/selectURL(name, urls)
+TextDetector/create(options)
+TextDetector/create()
 -
 options
 options
@@ -7058,6 +8953,75 @@ https://wicg.github.io/web-otp/#dom-publickeycredential-discoverfromexternalsour
 1
 1
 PublicKeyCredential/[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
+-
+options
+options
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnection-starttransaction-transaction-options-options
+1
+1
+SmartCardConnection/startTransaction(transaction, options)
+SmartCardConnection/startTransaction(transaction)
+-
+options
+options
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnection-transmit-sendbuffer-options-options
+1
+1
+SmartCardConnection/transmit(sendBuffer, options)
+SmartCardConnection/transmit(sendBuffer)
+-
+options
+options
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardcontext-connect-readername-accessmode-options-options
+1
+1
+SmartCardContext/connect(readerName, accessMode, options)
+SmartCardContext/connect(readerName, accessMode)
+-
+options
+options
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardcontext-getstatuschange-readerstates-options-options
+1
+1
+SmartCardContext/getStatusChange(readerStates, options)
+SmartCardContext/getStatusChange(readerStates)
+-
+options
+options
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcarderror-smartcarderror-message-options-options
+1
+1
+SmartCardError/SmartCardError(message, options)
+SmartCardError/constructor(message, options)
+SmartCardError/SmartCardError(message)
+SmartCardError/constructor(message)
+SmartCardError/SmartCardError()
+SmartCardError/constructor()
 -
 options
 options
@@ -7137,11 +9101,37 @@ indexeddb-3
 indexeddb
 3
 snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallrecords-options-options
+1
+1
+IDBIndex/getAllRecords(options)
+IDBIndex/getAllRecords()
+-
+options
+options
+argument
+indexeddb-3
+indexeddb
+3
+snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-createindex-name-keypath-options-options
 1
 1
 IDBObjectStore/createIndex(name, keyPath, options)
 IDBObjectStore/createIndex(name, keyPath)
+-
+options
+options
+argument
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallrecords-options-options
+1
+1
+IDBObjectStore/getAllRecords(options)
+IDBObjectStore/getAllRecords()
 -
 options
 options
@@ -7187,6 +9177,30 @@ LinearAccelerationSensor/LinearAccelerationSensor(options)
 LinearAccelerationSensor/constructor(options)
 LinearAccelerationSensor/LinearAccelerationSensor()
 LinearAccelerationSensor/constructor()
+-
+options
+options
+argument
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attribution-measureconversion-options-options
+1
+1
+Attribution/measureConversion(options)
+-
+options
+options
+argument
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attribution-saveimpression-options-options
+1
+1
+Attribution/saveImpression(options)
 -
 options
 options
@@ -7350,6 +9364,32 @@ cssom-view-1
 cssom-view
 1
 snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-document-caretpositionfrompoint-x-y-options-options
+1
+1
+Document/caretPositionFromPoint(x, y, options)
+Document/caretPositionFromPoint(x, y)
+-
+options
+options
+argument
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-element-checkvisibility-options-options
+1
+1
+Element/checkVisibility(options)
+Element/checkVisibility()
+-
+options
+options
+argument
+cssom-view-1
+cssom-view
+1
+snapshot
 https://www.w3.org/TR/cssom-view-1/#dom-element-scroll-options-options
 1
 1
@@ -7497,21 +9537,6 @@ https://www.w3.org/TR/fedcm-1/#dom-identitycredential-discoverfromexternalsource
 1
 1
 IdentityCredential/[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
--
-options
-options
-argument
-geolocation-sensor
-geolocation-sensor
-1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-geolocationsensor-options-options
-1
-1
-GeolocationSensor/GeolocationSensor(options)
-GeolocationSensor/constructor(options)
-GeolocationSensor/GeolocationSensor()
-GeolocationSensor/constructor()
 -
 options
 options
@@ -7784,6 +9809,103 @@ TrustedTypePolicy
 options
 options
 argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-exception-exceptiontag-payload-options-options
+1
+1
+Exception/Exception(exceptionTag, payload, options)
+Exception/constructor(exceptionTag, payload, options)
+Exception/Exception(exceptionTag, payload)
+Exception/constructor(exceptionTag, payload)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-module-module-bytes-options-options
+1
+1
+Module/Module(bytes, options)
+Module/constructor(bytes, options)
+Module/Module(bytes)
+Module/constructor(bytes)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassembly-compile-bytes-options-options
+1
+1
+WebAssembly/compile(bytes, options)
+WebAssembly/compile(bytes)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassembly-instantiate-bytes-importobject-options-options
+1
+1
+WebAssembly/instantiate(bytes, importObject, options)
+WebAssembly/instantiate(bytes, importObject)
+WebAssembly/instantiate(bytes)
+-
+options
+options
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassembly-validate-bytes-options-options
+1
+1
+WebAssembly/validate(bytes, options)
+WebAssembly/validate(bytes)
+-
+options
+options
+argument
+wasm-web-api-2
+wasm-web-api
+2
+snapshot
+https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-compilestreaming-source-options-options
+1
+1
+WebAssembly/compileStreaming(source, options)
+WebAssembly/compileStreaming(source)
+-
+options
+options
+argument
+wasm-web-api-2
+wasm-web-api
+2
+snapshot
+https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-options-options
+1
+1
+WebAssembly/instantiateStreaming(source, importObject, options)
+WebAssembly/instantiateStreaming(source, importObject)
+WebAssembly/instantiateStreaming(source)
+-
+options
+options
+argument
 web-animations-1
 web-animations
 1
@@ -7832,6 +9954,18 @@ KeyframeEffect/KeyframeEffect(target, keyframes, options)
 options
 options
 argument
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtrigger-animationtrigger-options-options
+1
+1
+AnimationTrigger/AnimationTrigger(options)
+-
+options
+options
+argument
 web-locks
 web-locks
 1
@@ -7844,11 +9978,11 @@ LockManager/request(name, options, callback)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-analysernode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-analysernode-context-options-options
 1
 1
 AnalyserNode/AnalyserNode(context, options)
@@ -7859,11 +9993,11 @@ AnalyserNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-constructor-options
 1
 1
 AnalyserNode/constructor()
@@ -7871,11 +10005,11 @@ AnalyserNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-audiobuffer-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-audiobuffer-options-options
 1
 1
 AudioBuffer/AudioBuffer(options)
@@ -7884,11 +10018,11 @@ AudioBuffer/constructor(options)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-constructor-options
 1
 1
 AudioBuffer/constructor()
@@ -7896,11 +10030,11 @@ AudioBuffer/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-audiobuffersourcenode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-audiobuffersourcenode-context-options-options
 1
 1
 AudioBufferSourceNode/AudioBufferSourceNode(context, options)
@@ -7911,11 +10045,11 @@ AudioBufferSourceNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-constructor-options
 1
 1
 AudioBufferSourceNode/constructor()
@@ -7923,11 +10057,11 @@ AudioBufferSourceNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletnode-audioworkletnode-context-name-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletnode-audioworkletnode-context-name-options-options
 1
 1
 AudioWorkletNode/AudioWorkletNode(context, name, options)
@@ -7938,11 +10072,11 @@ AudioWorkletNode/constructor(context, name)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletnode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletnode-constructor-options
 1
 1
 AudioWorkletNode/constructor()
@@ -7950,11 +10084,11 @@ AudioWorkletNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletprocessorconstructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletprocessorconstructor-options
 1
 1
 AudioWorkletProcessorConstructor
@@ -7962,11 +10096,11 @@ AudioWorkletProcessorConstructor
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-biquadfilternode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-biquadfilternode-context-options-options
 1
 1
 BiquadFilterNode/BiquadFilterNode(context, options)
@@ -7977,11 +10111,11 @@ BiquadFilterNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-constructor-options
 1
 1
 BiquadFilterNode/constructor()
@@ -7989,11 +10123,11 @@ BiquadFilterNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelmergernode-channelmergernode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-channelmergernode-channelmergernode-context-options-options
 1
 1
 ChannelMergerNode/ChannelMergerNode(context, options)
@@ -8004,11 +10138,11 @@ ChannelMergerNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelmergernode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-channelmergernode-constructor-options
 1
 1
 ChannelMergerNode/constructor()
@@ -8016,11 +10150,11 @@ ChannelMergerNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelsplitternode-channelsplitternode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-channelsplitternode-channelsplitternode-context-options-options
 1
 1
 ChannelSplitterNode/ChannelSplitterNode(context, options)
@@ -8031,11 +10165,11 @@ ChannelSplitterNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelsplitternode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-channelsplitternode-constructor-options
 1
 1
 ChannelSplitterNode/constructor()
@@ -8043,11 +10177,11 @@ ChannelSplitterNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-constantsourcenode-constantsourcenode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-constantsourcenode-constantsourcenode-context-options-options
 1
 1
 ConstantSourceNode/ConstantSourceNode(context, options)
@@ -8058,11 +10192,11 @@ ConstantSourceNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-constantsourcenode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-constantsourcenode-constructor-options
 1
 1
 ConstantSourceNode/constructor()
@@ -8070,11 +10204,11 @@ ConstantSourceNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-convolvernode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-convolvernode-constructor-options
 1
 1
 ConvolverNode/constructor()
@@ -8082,11 +10216,11 @@ ConvolverNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-convolvernode-convolvernode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-convolvernode-convolvernode-context-options-options
 1
 1
 ConvolverNode/ConvolverNode(context, options)
@@ -8097,11 +10231,11 @@ ConvolverNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-delaynode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-delaynode-constructor-options
 1
 1
 DelayNode/constructor()
@@ -8109,11 +10243,11 @@ DelayNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-delaynode-delaynode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-delaynode-delaynode-context-options-options
 1
 1
 DelayNode/DelayNode(context, options)
@@ -8124,11 +10258,11 @@ DelayNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-dynamicscompressornode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-dynamicscompressornode-constructor-options
 1
 1
 DynamicsCompressorNode/constructor()
@@ -8136,11 +10270,11 @@ DynamicsCompressorNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-dynamicscompressornode-dynamicscompressornode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-dynamicscompressornode-dynamicscompressornode-context-options-options
 1
 1
 DynamicsCompressorNode/DynamicsCompressorNode(context, options)
@@ -8151,11 +10285,11 @@ DynamicsCompressorNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-gainnode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-gainnode-constructor-options
 1
 1
 GainNode/constructor()
@@ -8163,11 +10297,11 @@ GainNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-gainnode-gainnode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-gainnode-gainnode-context-options-options
 1
 1
 GainNode/GainNode(context, options)
@@ -8178,11 +10312,11 @@ GainNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilternode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilternode-constructor-options
 1
 1
 IIRFilterNode/constructor()
@@ -8190,11 +10324,11 @@ IIRFilterNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilternode-iirfilternode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilternode-iirfilternode-context-options-options
 1
 1
 IIRFilterNode/IIRFilterNode(context, options)
@@ -8203,11 +10337,11 @@ IIRFilterNode/constructor(context, options)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediaelementaudiosourcenode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediaelementaudiosourcenode-constructor-options
 1
 1
 MediaElementAudioSourceNode/constructor()
@@ -8215,11 +10349,11 @@ MediaElementAudioSourceNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediaelementaudiosourcenode-mediaelementaudiosourcenode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediaelementaudiosourcenode-mediaelementaudiosourcenode-context-options-options
 1
 1
 MediaElementAudioSourceNode/MediaElementAudioSourceNode(context, options)
@@ -8228,11 +10362,11 @@ MediaElementAudioSourceNode/constructor(context, options)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediastreamaudiodestinationnode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediastreamaudiodestinationnode-constructor-options
 1
 1
 MediaStreamAudioDestinationNode/constructor()
@@ -8240,11 +10374,11 @@ MediaStreamAudioDestinationNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediastreamaudiodestinationnode-mediastreamaudiodestinationnode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediastreamaudiodestinationnode-mediastreamaudiodestinationnode-context-options-options
 1
 1
 MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode(context, options)
@@ -8255,11 +10389,11 @@ MediaStreamAudioDestinationNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediastreamaudiosourcenode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediastreamaudiosourcenode-constructor-options
 1
 1
 MediaStreamAudioSourceNode/constructor()
@@ -8267,11 +10401,11 @@ MediaStreamAudioSourceNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediastreamaudiosourcenode-mediastreamaudiosourcenode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediastreamaudiosourcenode-mediastreamaudiosourcenode-context-options-options
 1
 1
 MediaStreamAudioSourceNode/MediaStreamAudioSourceNode(context, options)
@@ -8280,11 +10414,11 @@ MediaStreamAudioSourceNode/constructor(context, options)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediastreamtrackaudiosourcenode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediastreamtrackaudiosourcenode-constructor-options
 1
 1
 MediaStreamTrackAudioSourceNode/constructor()
@@ -8292,11 +10426,11 @@ MediaStreamTrackAudioSourceNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-mediastreamtrackaudiosourcenode-mediastreamtrackaudiosourcenode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-mediastreamtrackaudiosourcenode-mediastreamtrackaudiosourcenode-context-options-options
 1
 1
 MediaStreamTrackAudioSourceNode/MediaStreamTrackAudioSourceNode(context, options)
@@ -8305,11 +10439,11 @@ MediaStreamTrackAudioSourceNode/constructor(context, options)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-oscillatornode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-oscillatornode-constructor-options
 1
 1
 OscillatorNode/constructor()
@@ -8317,11 +10451,11 @@ OscillatorNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-oscillatornode-oscillatornode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-oscillatornode-oscillatornode-context-options-options
 1
 1
 OscillatorNode/OscillatorNode(context, options)
@@ -8332,11 +10466,11 @@ OscillatorNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-constructor-options
 1
 1
 PannerNode/constructor()
@@ -8344,11 +10478,11 @@ PannerNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-pannernode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-pannernode-context-options-options
 1
 1
 PannerNode/PannerNode(context, options)
@@ -8359,11 +10493,11 @@ PannerNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-periodicwave-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-periodicwave-constructor-options
 1
 1
 PeriodicWave/constructor()
@@ -8371,11 +10505,11 @@ PeriodicWave/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-periodicwave-periodicwave-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-periodicwave-periodicwave-context-options-options
 1
 1
 PeriodicWave/PeriodicWave(context, options)
@@ -8386,11 +10520,11 @@ PeriodicWave/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-stereopannernode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-stereopannernode-constructor-options
 1
 1
 StereoPannerNode/constructor()
@@ -8398,11 +10532,11 @@ StereoPannerNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-stereopannernode-stereopannernode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-stereopannernode-stereopannernode-context-options-options
 1
 1
 StereoPannerNode/StereoPannerNode(context, options)
@@ -8413,11 +10547,11 @@ StereoPannerNode/constructor(context)
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshapernode-constructor-options
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshapernode-constructor-options
 1
 1
 WaveShaperNode/constructor()
@@ -8425,11 +10559,11 @@ WaveShaperNode/constructor()
 options
 options
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshapernode-waveshapernode-context-options-options
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshapernode-waveshapernode-context-options-options
 1
 1
 WaveShaperNode/WaveShaperNode(context, options)
@@ -8440,11 +10574,632 @@ WaveShaperNode/constructor(context)
 options
 options
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#processor-construction-data-options
+https://www.w3.org/TR/webaudio-1.0/#processor-construction-data-options
+
+1
+processor construction data
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-analysernode-context-options-options
+1
+1
+AnalyserNode/AnalyserNode(context, options)
+AnalyserNode/constructor(context, options)
+AnalyserNode/AnalyserNode(context)
+AnalyserNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-constructor-options
+1
+1
+AnalyserNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-audiobuffer-options-options
+1
+1
+AudioBuffer/AudioBuffer(options)
+AudioBuffer/constructor(options)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-constructor-options
+1
+1
+AudioBuffer/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-audiobuffersourcenode-context-options-options
+1
+1
+AudioBufferSourceNode/AudioBufferSourceNode(context, options)
+AudioBufferSourceNode/constructor(context, options)
+AudioBufferSourceNode/AudioBufferSourceNode(context)
+AudioBufferSourceNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-constructor-options
+1
+1
+AudioBufferSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiorendercapacity-start-options-options
+1
+1
+AudioRenderCapacity/start(options)
+AudioRenderCapacity/start()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletnode-audioworkletnode-context-name-options-options
+1
+1
+AudioWorkletNode/AudioWorkletNode(context, name, options)
+AudioWorkletNode/constructor(context, name, options)
+AudioWorkletNode/AudioWorkletNode(context, name)
+AudioWorkletNode/constructor(context, name)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletnode-constructor-options
+1
+1
+AudioWorkletNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletprocessorconstructor-options
+1
+1
+AudioWorkletProcessorConstructor
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-biquadfilternode-context-options-options
+1
+1
+BiquadFilterNode/BiquadFilterNode(context, options)
+BiquadFilterNode/constructor(context, options)
+BiquadFilterNode/BiquadFilterNode(context)
+BiquadFilterNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-constructor-options
+1
+1
+BiquadFilterNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelmergernode-channelmergernode-context-options-options
+1
+1
+ChannelMergerNode/ChannelMergerNode(context, options)
+ChannelMergerNode/constructor(context, options)
+ChannelMergerNode/ChannelMergerNode(context)
+ChannelMergerNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelmergernode-constructor-options
+1
+1
+ChannelMergerNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelsplitternode-channelsplitternode-context-options-options
+1
+1
+ChannelSplitterNode/ChannelSplitterNode(context, options)
+ChannelSplitterNode/constructor(context, options)
+ChannelSplitterNode/ChannelSplitterNode(context)
+ChannelSplitterNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelsplitternode-constructor-options
+1
+1
+ChannelSplitterNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-constantsourcenode-constantsourcenode-context-options-options
+1
+1
+ConstantSourceNode/ConstantSourceNode(context, options)
+ConstantSourceNode/constructor(context, options)
+ConstantSourceNode/ConstantSourceNode(context)
+ConstantSourceNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-constantsourcenode-constructor-options
+1
+1
+ConstantSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-convolvernode-constructor-options
+1
+1
+ConvolverNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-convolvernode-convolvernode-context-options-options
+1
+1
+ConvolverNode/ConvolverNode(context, options)
+ConvolverNode/constructor(context, options)
+ConvolverNode/ConvolverNode(context)
+ConvolverNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-delaynode-constructor-options
+1
+1
+DelayNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-delaynode-delaynode-context-options-options
+1
+1
+DelayNode/DelayNode(context, options)
+DelayNode/constructor(context, options)
+DelayNode/DelayNode(context)
+DelayNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-dynamicscompressornode-constructor-options
+1
+1
+DynamicsCompressorNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-dynamicscompressornode-dynamicscompressornode-context-options-options
+1
+1
+DynamicsCompressorNode/DynamicsCompressorNode(context, options)
+DynamicsCompressorNode/constructor(context, options)
+DynamicsCompressorNode/DynamicsCompressorNode(context)
+DynamicsCompressorNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-gainnode-constructor-options
+1
+1
+GainNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-gainnode-gainnode-context-options-options
+1
+1
+GainNode/GainNode(context, options)
+GainNode/constructor(context, options)
+GainNode/GainNode(context)
+GainNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilternode-constructor-options
+1
+1
+IIRFilterNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilternode-iirfilternode-context-options-options
+1
+1
+IIRFilterNode/IIRFilterNode(context, options)
+IIRFilterNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediaelementaudiosourcenode-constructor-options
+1
+1
+MediaElementAudioSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediaelementaudiosourcenode-mediaelementaudiosourcenode-context-options-options
+1
+1
+MediaElementAudioSourceNode/MediaElementAudioSourceNode(context, options)
+MediaElementAudioSourceNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediastreamaudiodestinationnode-constructor-options
+1
+1
+MediaStreamAudioDestinationNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediastreamaudiodestinationnode-mediastreamaudiodestinationnode-context-options-options
+1
+1
+MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode(context, options)
+MediaStreamAudioDestinationNode/constructor(context, options)
+MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode(context)
+MediaStreamAudioDestinationNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediastreamaudiosourcenode-constructor-options
+1
+1
+MediaStreamAudioSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediastreamaudiosourcenode-mediastreamaudiosourcenode-context-options-options
+1
+1
+MediaStreamAudioSourceNode/MediaStreamAudioSourceNode(context, options)
+MediaStreamAudioSourceNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediastreamtrackaudiosourcenode-constructor-options
+1
+1
+MediaStreamTrackAudioSourceNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-mediastreamtrackaudiosourcenode-mediastreamtrackaudiosourcenode-context-options-options
+1
+1
+MediaStreamTrackAudioSourceNode/MediaStreamTrackAudioSourceNode(context, options)
+MediaStreamTrackAudioSourceNode/constructor(context, options)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-oscillatornode-constructor-options
+1
+1
+OscillatorNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-oscillatornode-oscillatornode-context-options-options
+1
+1
+OscillatorNode/OscillatorNode(context, options)
+OscillatorNode/constructor(context, options)
+OscillatorNode/OscillatorNode(context)
+OscillatorNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-constructor-options
+1
+1
+PannerNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-pannernode-context-options-options
+1
+1
+PannerNode/PannerNode(context, options)
+PannerNode/constructor(context, options)
+PannerNode/PannerNode(context)
+PannerNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-periodicwave-constructor-options
+1
+1
+PeriodicWave/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-periodicwave-periodicwave-context-options-options
+1
+1
+PeriodicWave/PeriodicWave(context, options)
+PeriodicWave/constructor(context, options)
+PeriodicWave/PeriodicWave(context)
+PeriodicWave/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-stereopannernode-constructor-options
+1
+1
+StereoPannerNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-stereopannernode-stereopannernode-context-options-options
+1
+1
+StereoPannerNode/StereoPannerNode(context, options)
+StereoPannerNode/constructor(context, options)
+StereoPannerNode/StereoPannerNode(context)
+StereoPannerNode/constructor(context)
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshapernode-constructor-options
+1
+1
+WaveShaperNode/constructor()
+-
+options
+options
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshapernode-waveshapernode-context-options-options
+1
+1
+WaveShaperNode/WaveShaperNode(context, options)
+WaveShaperNode/constructor(context, options)
+WaveShaperNode/WaveShaperNode(context)
+WaveShaperNode/constructor(context)
+-
+options
+options
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#processor-construction-data-options
 
 1
 processor construction data
@@ -8496,6 +11251,42 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-parserequestoptionsfro
 1
 1
 PublicKeyCredential/parseRequestOptionsFromJSON(options)
+-
+options
+options
+argument
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalallacceptedcredentials-options-options
+1
+1
+PublicKeyCredential/signalAllAcceptedCredentials(options)
+-
+options
+options
+argument
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalcurrentuserdetails-options-options
+1
+1
+PublicKeyCredential/signalCurrentUserDetails(options)
+-
+options
+options
+argument
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalunknowncredential-options-options
+1
+1
+PublicKeyCredential/signalUnknownCredential(options)
 -
 options
 options
@@ -8630,7 +11421,9 @@ MLGraphBuilder/identity(input, options)
 MLGraphBuilder/log(input, options)
 MLGraphBuilder/neg(input, options)
 MLGraphBuilder/reciprocal(input, options)
+MLGraphBuilder/roundEven(input, options)
 MLGraphBuilder/sin(input, options)
+MLGraphBuilder/sign(input, options)
 MLGraphBuilder/sqrt(input, options)
 MLGraphBuilder/tan(input, options)
 -
@@ -8698,10 +11491,10 @@ webnn
 webnn
 1
 snapshot
-https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cast-input-type-options-options
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cast-input-datatype-options-options
 1
 1
-MLGraphBuilder/cast(input, type, options)
+MLGraphBuilder/cast(input, dataType, options)
 -
 options
 options
@@ -8758,6 +11551,30 @@ webnn
 webnn
 1
 snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cumulativesum-input-axis-options-options
+1
+1
+MLGraphBuilder/cumulativeSum(input, axis, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-dequantizelinear-input-scale-zeropoint-options-options
+1
+1
+MLGraphBuilder/dequantizeLinear(input, scale, zeroPoint, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
 https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-elu-input-options-options
 1
 1
@@ -8774,11 +11591,17 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-equal-a-b-options-options
 1
 1
 MLGraphBuilder/equal(a, b, options)
+MLGraphBuilder/notEqual(a, b, options)
 MLGraphBuilder/greater(a, b, options)
 MLGraphBuilder/greaterOrEqual(a, b, options)
 MLGraphBuilder/lesser(a, b, options)
 MLGraphBuilder/lesserOrEqual(a, b, options)
 MLGraphBuilder/logicalNot(a, options)
+MLGraphBuilder/logicalAnd(a, b, options)
+MLGraphBuilder/logicalOr(a, b, options)
+MLGraphBuilder/logicalXor(a, b, options)
+MLGraphBuilder/isNaN(a, options)
+MLGraphBuilder/isInfinite(a, options)
 -
 options
 options
@@ -8803,6 +11626,30 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gather-input-indices-options-opt
 1
 1
 MLGraphBuilder/gather(input, indices, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gatherelements-input-indices-options-options
+1
+1
+MLGraphBuilder/gatherElements(input, indices, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gathernd-input-indices-options-options
+1
+1
+MLGraphBuilder/gatherND(input, indices, options)
 -
 options
 options
@@ -8991,6 +11838,18 @@ webnn
 webnn
 1
 snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-quantizelinear-input-scale-zeropoint-options-options
+1
+1
+MLGraphBuilder/quantizeLinear(input, scale, zeroPoint, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
 https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel1-input-options-options
 1
 1
@@ -9040,6 +11899,42 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reshape-input-newshape-options-o
 1
 1
 MLGraphBuilder/reshape(input, newShape, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reverse-input-options-options
+1
+1
+MLGraphBuilder/reverse(input, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-scatterelements-input-indices-updates-options-options
+1
+1
+MLGraphBuilder/scatterElements(input, indices, updates, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-scatternd-input-indices-updates-options-options
+1
+1
+MLGraphBuilder/scatterND(input, indices, updates, options)
 -
 options
 options
@@ -9132,6 +12027,18 @@ webnn
 webnn
 1
 snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-tile-input-repetitions-options-options
+1
+1
+MLGraphBuilder/tile(input, repetitions, options)
+-
+options
+options
+argument
+webnn
+webnn
+1
+snapshot
 https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-transpose-input-options-options
 1
 1
@@ -9198,15 +12105,15 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-rtcrtpscripttransform-worker-options-transfer-options
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-rtcrtpscripttransform-workerorworkerandparameters-options-transfer-options
 1
 1
-RTCRtpScriptTransform/RTCRtpScriptTransform(worker, options, transfer)
-RTCRtpScriptTransform/constructor(worker, options, transfer)
-RTCRtpScriptTransform/RTCRtpScriptTransform(worker, options)
-RTCRtpScriptTransform/constructor(worker, options)
-RTCRtpScriptTransform/RTCRtpScriptTransform(worker)
-RTCRtpScriptTransform/constructor(worker)
+RTCRtpScriptTransform/RTCRtpScriptTransform(workerOrWorkerAndParameters, options, transfer)
+RTCRtpScriptTransform/constructor(workerOrWorkerAndParameters, options, transfer)
+RTCRtpScriptTransform/RTCRtpScriptTransform(workerOrWorkerAndParameters, options)
+RTCRtpScriptTransform/constructor(workerOrWorkerAndParameters, options)
+RTCRtpScriptTransform/RTCRtpScriptTransform(workerOrWorkerAndParameters)
+RTCRtpScriptTransform/constructor(workerOrWorkerAndParameters)
 -
 options
 options
@@ -9227,13 +12134,50 @@ webrtc-encoded-transform
 webrtc-encoded-transform
 1
 snapshot
-https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframetransform-sframetransform-options-options
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpsframedecrypter-rtcrtpsframedecrypter-options-options
 1
 1
-SFrameTransform/SFrameTransform(options)
-SFrameTransform/constructor(options)
-SFrameTransform/SFrameTransform()
-SFrameTransform/constructor()
+RTCRtpSFrameDecrypter/RTCRtpSFrameDecrypter(options)
+RTCRtpSFrameDecrypter/constructor(options)
+-
+options
+options
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpsframeencrypter-rtcrtpsframeencrypter-options-options
+1
+1
+RTCRtpSFrameEncrypter/RTCRtpSFrameEncrypter(options)
+RTCRtpSFrameEncrypter/constructor(options)
+-
+options
+options
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframedecrypterstream-sframedecrypterstream-options-options
+1
+1
+SFrameDecrypterStream/SFrameDecrypterStream(options)
+SFrameDecrypterStream/constructor(options)
+-
+options
+options
+argument
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframeencrypterstream-sframeencrypterstream-options-options
+1
+1
+SFrameEncrypterStream/SFrameEncrypterStream(options)
+SFrameEncrypterStream/constructor(options)
 -
 options
 options
@@ -9275,6 +12219,19 @@ WebTransport/WebTransport(url, options)
 WebTransport/constructor(url, options)
 WebTransport/WebTransport(url)
 WebTransport/constructor(url)
+-
+options
+options
+argument
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransportdatagramduplexstream-createwritable-options-options
+1
+1
+WebTransportDatagramDuplexStream/createWritable(options)
+WebTransportDatagramDuplexStream/createWritable()
 -
 options
 options
@@ -9350,7 +12307,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-options-list
+https://w3c.github.io/performance-timeline/#options-list
 
 1
 -

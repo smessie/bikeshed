@@ -6,6 +6,7 @@ LINE 762: Line starts with spaces, but document is tab-indented
 LINE 1597: Line starts with spaces, but document is tab-indented
 LINE 413:20 of the line's value (after the colon): Infinite ranges should be written as 'infinity' or '∞', not an HTML entity. (Got &#8734;)
 LINE 506:21 of the line's value (after the colon): Infinite ranges should be written as 'infinity' or '∞', not an HTML entity. (Got &#8734;)
+LINE 440:2: Couldn't find WPT test 'css/css-multicol/multicol-width-ch-001.xht' - did you misspell something?
 LINE 532:2: Couldn't find WPT test 'css/css-multicol/multicol-table-cell-001.xht' - did you misspell something?
 LINE 532:2: Couldn't find WPT test 'css/css-multicol/multicol-table-cell-height-001.xht' - did you misspell something?
 LINE 532:2: Couldn't find WPT test 'css/css-multicol/multicol-table-cell-height-002.xht' - did you misspell something?
@@ -44,52 +45,22 @@ LINE 128:75: Multiple possible 'border' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border
-spec:css22; type:property; text:border
+spec:css-borders-4; type:property; text:border
 LINE 129:7: Multiple possible 'border' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border
-spec:css22; type:property; text:border
-LINE 291:6: Multiple possible 'position' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-position-3/#propdef-position
+spec:css-borders-4; type:property; text:border
+LINE 822:1 of the line's value (after the colon): Multiple possible '<line-style>' type refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#typedef-line-style
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-position-3; type:property; text:position
-spec:css22; type:property; text:position
-LINE 300:55: Multiple possible 'position' propdesc refs.
-Arbitrarily chose https://drafts.csswg.org/css-position-3/#propdef-position
+spec:css-backgrounds-3; type:type; text:<line-style>
+spec:css-borders-4; type:type; text:<line-style>
+LINE 832:6: Multiple possible '<line-style>' type refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#typedef-line-style
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-position-3; type:property; text:position
-spec:css22; type:property; text:position
-LINE 303:11: Multiple possible 'position' propdesc refs.
-Arbitrarily chose https://drafts.csswg.org/css-position-3/#propdef-position
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-position-3; type:property; text:position
-spec:css22; type:property; text:position
-LINE ~411:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~504:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~565:2: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE 792:1 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE 802:40: Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
+spec:css-backgrounds-3; type:type; text:<line-style>
+spec:css-borders-4; type:type; text:<line-style>
 LINE 840:6: Multiple possible 'none' maybe refs for '['border-style']'.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-none
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
@@ -100,12 +71,18 @@ spec:css-backgrounds-3; type:value; for:border-left-style; text:none
 spec:css-backgrounds-3; type:value; for:border-bottom-style; text:none
 spec:css-backgrounds-3; type:value; for:border-right-style; text:none
 spec:css-backgrounds-3; type:value; for:border; text:none
-spec:css22; type:value; for:<border-style>; text:none
-spec:css22; type:value; for:border-top-style; text:none
-spec:css22; type:value; for:border-right-style; text:none
-spec:css22; type:value; for:border-bottom-style; text:none
-spec:css22; type:value; for:border-left-style; text:none
-spec:css22; type:value; for:border-style; text:none
+spec:css-borders-4; type:value; for:<line-style>; text:none
+spec:css-borders-4; type:value; for:border-style; text:none
+spec:css-borders-4; type:value; for:border-top-style; text:none
+spec:css-borders-4; type:value; for:border-left-style; text:none
+spec:css-borders-4; type:value; for:border-bottom-style; text:none
+spec:css-borders-4; type:value; for:border-right-style; text:none
+spec:css-borders-4; type:value; for:border; text:none
+LINE 847:1 of the line's value (after the colon): Multiple possible '<line-width>' type refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#typedef-line-width
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-backgrounds-3; type:type; text:<line-width>
+spec:css-borders-4; type:type; text:<line-width>
 LINE 852:52 of the line's value (after the colon): Multiple possible 'none' maybe refs for '['border-style']'.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-none
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
@@ -116,40 +93,11 @@ spec:css-backgrounds-3; type:value; for:border-left-style; text:none
 spec:css-backgrounds-3; type:value; for:border-bottom-style; text:none
 spec:css-backgrounds-3; type:value; for:border-right-style; text:none
 spec:css-backgrounds-3; type:value; for:border; text:none
-spec:css22; type:value; for:<border-style>; text:none
-spec:css22; type:value; for:border-top-style; text:none
-spec:css22; type:value; for:border-right-style; text:none
-spec:css22; type:value; for:border-bottom-style; text:none
-spec:css22; type:value; for:border-left-style; text:none
-spec:css22; type:value; for:border-style; text:none
-LINE ~870:2: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~956:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 1232:2: Multiple possible 'widows' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-break-4/#propdef-widows
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-break-4; type:property; text:widows
-spec:css22; type:property; text:widows
-LINE ~1239:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 1415:2: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
-LINE 1586:274: Multiple possible 'position' propdesc refs.
-Arbitrarily chose https://drafts.csswg.org/css-position-3/#propdef-position
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-position-3; type:property; text:position
-spec:css22; type:property; text:position
+spec:css-borders-4; type:value; for:<line-style>; text:none
+spec:css-borders-4; type:value; for:border-style; text:none
+spec:css-borders-4; type:value; for:border-top-style; text:none
+spec:css-borders-4; type:value; for:border-left-style; text:none
+spec:css-borders-4; type:value; for:border-bottom-style; text:none
+spec:css-borders-4; type:value; for:border-right-style; text:none
+spec:css-borders-4; type:value; for:border; text:none
 LINE 1614:1: W3C policy requires Privacy Considerations and Security Considerations to be separate sections, but you appear to have them combined into one.

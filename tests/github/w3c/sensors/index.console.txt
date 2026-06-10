@@ -1,6 +1,11 @@
 LINE 1229:7: Saw a <th> that wasn't in a <tr>
 LINE 1230:7: Saw a <th> that wasn't in a <tr>
 LINE 2001:46: Obsolete biblio ref: [geolocation-API] is replaced by [geolocation]. Either update the reference, or use [geolocation-API obsolete] if this is an intentionally-obsolete reference.
+LINE 467:1: Multiple possible 'documents' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 792:28: No 'dfn' refs found for 'responsible document'.
 LINE 829:10: No 'idl' refs found for 'PermissionName'.
 LINE 1165:42: Multiple possible 'created' dfn refs.
@@ -8,8 +13,10 @@ Arbitrarily chose https://fetch.spec.whatwg.org/#request-create
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:fetch; type:dfn; for:Request; text:create
 spec:fetch; type:dfn; for:Response; text:create
+spec:infra; type:dfn; text:create
 spec:urlpattern; type:dfn; text:create
 spec:webtransport; type:dfn; for:WebTransportDatagramDuplexStream; text:create
+spec:webtransport; type:dfn; for:WebTransportDatagramsWritable; text:create
 spec:webtransport; type:dfn; for:WebTransportReceiveStream; text:create
 spec:webtransport; type:dfn; for:WebTransportSendGroup; text:create
 spec:webtransport; type:dfn; for:WebTransportSendStream; text:create
@@ -23,8 +30,10 @@ Arbitrarily chose https://fetch.spec.whatwg.org/#request-create
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:fetch; type:dfn; for:Request; text:create
 spec:fetch; type:dfn; for:Response; text:create
+spec:infra; type:dfn; text:create
 spec:urlpattern; type:dfn; text:create
 spec:webtransport; type:dfn; for:WebTransportDatagramDuplexStream; text:create
+spec:webtransport; type:dfn; for:WebTransportDatagramsWritable; text:create
 spec:webtransport; type:dfn; for:WebTransportReceiveStream; text:create
 spec:webtransport; type:dfn; for:WebTransportSendGroup; text:create
 spec:webtransport; type:dfn; for:WebTransportSendStream; text:create
@@ -40,8 +49,10 @@ Arbitrarily chose https://fetch.spec.whatwg.org/#request-create
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:fetch; type:dfn; for:Request; text:create
 spec:fetch; type:dfn; for:Response; text:create
+spec:infra; type:dfn; text:create
 spec:urlpattern; type:dfn; text:create
 spec:webtransport; type:dfn; for:WebTransportDatagramDuplexStream; text:create
+spec:webtransport; type:dfn; for:WebTransportDatagramsWritable; text:create
 spec:webtransport; type:dfn; for:WebTransportReceiveStream; text:create
 spec:webtransport; type:dfn; for:WebTransportSendGroup; text:create
 spec:webtransport; type:dfn; for:WebTransportSendStream; text:create

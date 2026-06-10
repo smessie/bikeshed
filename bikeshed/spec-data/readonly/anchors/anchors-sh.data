@@ -22,6 +22,30 @@ https://www.w3.org/TR/webgpu/#shader-f16
 1
 GPUFeatureName
 -
+"shadowRoot"
+"shadowRoot"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptnodeproperties-shadowroot
+
+1
+script.NodeProperties
+-
+"shadowRoot"
+"shadowRoot"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptnodeproperties-shadowroot
+
+1
+script.NodeProperties
+-
 "shared"
 "shared"
 enum-value
@@ -33,6 +57,18 @@ https://w3c.github.io/web-locks/#dom-lockmode-shared
 1
 1
 LockMode
+-
+"shared"
+"shared"
+enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardaccessmode-shared
+1
+1
+SmartCardAccessMode
 -
 "shared"
 "shared"
@@ -57,6 +93,126 @@ https://wicg.github.io/fenced-frame/#dom-fencereportingdestination-shared-storag
 1
 1
 FenceReportingDestination
+-
+"shared-worker"
+"shared-worker"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptrealmtype-shared-worker
+
+1
+script.RealmType
+-
+"shared-worker"
+"shared-worker"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptsharedworkerrealminfo-type-shared-worker
+
+1
+script.SharedWorkerRealmInfo/type
+-
+"shared-worker"
+"shared-worker"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptrealmtype-shared-worker
+
+1
+script.RealmType
+-
+"shared-worker"
+"shared-worker"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptsharedworkerrealminfo-type-shared-worker
+
+1
+script.SharedWorkerRealmInfo/type
+-
+"sharedId"
+"sharedId"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptnoderemotevalue-sharedid
+
+1
+script.NodeRemoteValue
+-
+"sharedId"
+"sharedId"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptremoteobjectreference-sharedid
+
+1
+script.RemoteObjectReference
+-
+"sharedId"
+"sharedId"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptsharedreference-sharedid
+
+1
+script.SharedReference
+-
+"sharedId"
+"sharedId"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptnoderemotevalue-sharedid
+
+1
+script.NodeRemoteValue
+-
+"sharedId"
+"sharedId"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptremoteobjectreference-sharedid
+
+1
+script.RemoteObjectReference
+-
+"sharedId"
+"sharedId"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptsharedreference-sharedid
+
+1
+script.SharedReference
 -
 "sharedworker"
 "sharedworker"
@@ -94,6 +250,54 @@ https://www.w3.org/TR/service-workers/#dom-clienttype-sharedworker
 1
 ClientType
 -
+"sharing-violation"
+"sharing-violation"
+enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardresponsecode-sharing-violation
+1
+1
+SmartCardResponseCode
+-
+"short"
+"short"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizerlength-short
+1
+1
+SummarizerLength
+-
+"short"
+"short"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writerlength-short
+1
+1
+WriterLength
+-
+"shorter"
+"shorter"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriterlength-shorter
+1
+1
+RewriterLength
+-
 "show"
 "show"
 enum-value
@@ -105,6 +309,30 @@ https://fullscreen.spec.whatwg.org/#dom-fullscreennavigationui-show
 1
 1
 FullscreenNavigationUI
+-
+"shrinkToFit"
+"shrinkToFit"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-shrinktofit
+
+1
+browsingContext.PrintParameters
+-
+"shrinkToFit"
+"shrinkToFit"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-shrinktofit
+
+1
+browsingContext.PrintParameters
 -
 %SharedArrayBuffer%
 %SharedArrayBuffer%
@@ -125,17 +353,6 @@ ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/structured-data.html#sec-properties-of-the-sharedarraybuffer-prototype-object
-1
-1
--
-::shadow
-::shadow
-selector
-css-scoping-1
-css-scoping
-1
-snapshot
-https://www.w3.org/TR/css-scoping-1/#selectordef-shadow
 1
 1
 -
@@ -186,31 +403,31 @@ https://www.w3.org/TR/css-shapes-1/#typedef-shape-box
 <shape-command>
 <shape-command>
 type
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#typedef-shape-command
+https://drafts.csswg.org/css-shapes-1/#typedef-shape-command
 1
 1
 -
-<shape-radius>
-<shape-radius>
+<shape-command>
+<shape-command>
 type
 css-shapes-1
 css-shapes
 1
 snapshot
-https://www.w3.org/TR/css-shapes-1/#typedef-shape-radius
+https://www.w3.org/TR/css-shapes-1/#typedef-shape-command
 1
 1
 -
 <shape>
 <shape>
 type
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-shape
 1
@@ -221,20 +438,9 @@ https://drafts.csswg.org/css2/#value-def-shape
 type
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visufx.html#value-def-shape
-1
-1
--
-<shape>
-<shape>
-type
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visufx.html#value-def-shape
+https://www.w3.org/TR/CSS2/visufx.html#value-def-shape
 1
 1
 -
@@ -260,56 +466,309 @@ https://www.w3.org/TR/mathml4/#contm_share
 
 1
 -
-sha-2
-SHA-2
+shacl element
+SHACL Element
 dfn
-sri
-sri
+shacl12-profiling
+shacl-profiling
 1
-snapshot
-https://www.w3.org/TR/SRI/#dfn-sha-2
+current
+https://w3c.github.io/data-shapes/shacl12-profiling/#dfn-shacl-element
 
 1
 -
-sha-256
-SHA-256
+shacl renderer
+SHACL Renderer
 dfn
-sri
-sri
+shacl12-ui
+shacl-ui
+1
+current
+https://w3c.github.io/data-shapes/shacl12-ui/#dfn-shacl-renderer
+
+
+-
+shacl renderer
+SHACL Renderer
+dfn
+shacl12-ui
+shacl-ui
 1
 snapshot
-https://www.w3.org/TR/SRI/#dfn-sha-256
+https://www.w3.org/TR/shacl12-ui/#dfn-shacl-renderer
+
+
+-
+shacl sparql function expression
+SHACL SPARQL function expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-shacl-sparql-function-expression
 
 1
 -
-sha-384
-SHA-384
+shacl sparql function expression
+SHACL SPARQL function expression
 dfn
-sri
-sri
+shacl12-node-expr
+shacl-node-expr
 1
 snapshot
-https://www.w3.org/TR/SRI/#dfn-sha-384
+https://www.w3.org/TR/shacl12-node-expr/#dfn-shacl-sparql-function-expression
 
 1
 -
-sha-512
-SHA-512
+shacl class
+SHACL class
 dfn
-sri
-sri
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-class
+
+1
+-
+shacl class
+SHACL class
+dfn
+shacl12-core
+shacl-core
 1
 snapshot
-https://www.w3.org/TR/SRI/#dfn-sha-512
+https://www.w3.org/TR/shacl12-core/#dfn-class
+
+1
+-
+shacl classes
+SHACL classes
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-class
+
+1
+-
+shacl classes
+SHACL classes
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-class
+
+1
+-
+shacl element
+SHACL element
+dfn
+shacl12-profiling
+shacl-profiling
+1
+current
+https://w3c.github.io/data-shapes/shacl12-profiling/#dfn-shacl-element
+
+1
+-
+shacl elements
+SHACL elements
+dfn
+shacl12-profiling
+shacl-profiling
+1
+current
+https://w3c.github.io/data-shapes/shacl12-profiling/#dfn-shacl-element
+
+1
+-
+shacl instance
+SHACL instance
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-instance
+
+1
+-
+shacl instance
+SHACL instance
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-instance
+
+1
+-
+shacl instances
+SHACL instances
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-instance
+
+1
+-
+shacl instances
+SHACL instances
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-instance
+
+1
+-
+shacl list
+SHACL list
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-list
+
+1
+-
+shacl list
+SHACL list
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-list
+
+1
+-
+shacl property path
+SHACL property path
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-property-path
+
+1
+-
+shacl property path
+SHACL property path
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-property-path
+
+1
+-
+shacl subclass
+SHACL subclass
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-subclass
+
+1
+-
+shacl subclass
+SHACL subclass
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-subclass
+
+1
+-
+shacl superclass
+SHACL superclass
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-superclass
+
+1
+-
+shacl superclass
+SHACL superclass
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-superclass
+
+1
+-
+shacl type
+SHACL type
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-type
+
+1
+-
+shacl type
+SHACL type
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-type
+
+1
+-
+shacl types
+SHACL types
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-type
+
+1
+-
+shacl types
+SHACL types
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shacl-type
 
 1
 -
 shall
 SHALL
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#shall
 
@@ -320,29 +779,18 @@ SHALL
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x3
-1
-1
--
-shall
-SHALL
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x3
+https://www.w3.org/TR/CSS2/conform.html#x3
 1
 1
 -
 shall not
 SHALL NOT
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#shall-not
 
@@ -353,29 +801,18 @@ SHALL NOT
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x4
-1
-1
--
-shall not
-SHALL NOT
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x4
+https://www.w3.org/TR/CSS2/conform.html#x4
 1
 1
 -
 should
 SHOULD
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#should
 
@@ -386,29 +823,18 @@ SHOULD
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x5
-1
-1
--
-should
-SHOULD
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x5
+https://www.w3.org/TR/CSS2/conform.html#x5
 1
 1
 -
 should not
 SHOULD NOT
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#should-not
 
@@ -419,20 +845,9 @@ SHOULD NOT
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x6
-1
-1
--
-should not
-SHOULD NOT
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x6
+https://www.w3.org/TR/CSS2/conform.html#x6
 1
 1
 -
@@ -680,6 +1095,28 @@ https://www.w3.org/TR/WGSL/#shader-module-creation
 
 1
 -
+shadow
+shadow
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-shadow
+
+
+-
+shadow
+shadow
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-shadow
+
+
+-
 shadow-including preorder, depth-first traversal
 Shadow-including preorder, depth-first traversal
 dfn
@@ -698,7 +1135,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#InterfaceShadowAnimation
+https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceShadowAnimation
 1
 1
 -
@@ -765,6 +1202,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/canvas.html#when-shadows-are-drawn
+
+1
+-
+shapes rules language document
+Shapes Rules Language Document
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-shapes-rules-language-document
+
+1
+-
+shapes rules language document
+Shapes Rules Language Document
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-shapes-rules-language-document
 
 1
 -
@@ -893,28 +1352,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#shared-worker-agent
 1
 1
 -
-shared-storage-cross-origin-worklet-allowed
-Shared-Storage-Cross-Origin-Worklet-Allowed
-http-header
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#http-headerdef-shared-storage-cross-origin-worklet-allowed
-1
-1
--
-shared-storage-write
-Shared-Storage-Write
-http-header
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#http-headerdef-shared-storage-write
-1
-1
--
 SharedArrayBuffer
 SharedArrayBuffer
 interface
@@ -971,116 +1408,6 @@ https://tc39.es/ecma262/multipage/memory-model.html#sec-sharedatablockeventset
 1
 1
 -
-SharedStorage
-SharedStorage
-interface
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorage
-1
-1
--
-SharedStorageDataOrigin
-SharedStorageDataOrigin
-enum
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#enumdef-sharedstoragedataorigin
-1
-1
--
-SharedStoragePrivateAggregationConfig
-SharedStoragePrivateAggregationConfig
-dictionary
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dictdef-sharedstorageprivateaggregationconfig
-1
-1
--
-SharedStorageResponse
-SharedStorageResponse
-typedef
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#typedefdef-sharedstorageresponse
-1
-1
--
-SharedStorageRunOperationMethodOptions
-SharedStorageRunOperationMethodOptions
-dictionary
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dictdef-sharedstoragerunoperationmethodoptions
-1
-1
--
-SharedStorageSetMethodOptions
-SharedStorageSetMethodOptions
-dictionary
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dictdef-sharedstoragesetmethodoptions
-1
-1
--
-SharedStorageUrlWithMetadata
-SharedStorageUrlWithMetadata
-dictionary
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dictdef-sharedstorageurlwithmetadata
-1
-1
--
-SharedStorageWorklet
-SharedStorageWorklet
-interface
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorageworklet
-1
-1
--
-SharedStorageWorkletGlobalScope
-SharedStorageWorkletGlobalScope
-interface
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorageworkletglobalscope
-1
-1
--
-SharedStorageWorkletOptions
-SharedStorageWorkletOptions
-dictionary
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dictdef-sharedstorageworkletoptions
-1
-1
--
 SharedWorker
 SharedWorker
 interface
@@ -1118,18 +1445,6 @@ StorageAccessHandle
 -
 SharedWorker(scriptURL, options)
 SharedWorker(scriptURL, options)
-constructor
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworker
-1
-1
-SharedWorker
--
-SharedWorker(scriptURL, options)
-SharedWorker(scriptURL, options)
 method
 saa-non-cookie-storage
 saa-non-cookie-storage
@@ -1154,11 +1469,11 @@ https://html.spec.whatwg.org/multipage/workers.html#sharedworkerglobalscope
 SharedWorkerOptions
 SharedWorkerOptions
 dictionary
-saa-non-cookie-storage
-saa-non-cookie-storage
+html
+html
 1
 current
-https://privacycg.github.io/saa-non-cookie-storage/#dictdef-sharedworkeroptions
+https://html.spec.whatwg.org/multipage/workers.html#sharedworkeroptions
 1
 1
 -
@@ -1181,6 +1496,17 @@ image-capture
 1
 snapshot
 https://www.w3.org/TR/image-capture/#sharpness
+
+1
+-
+shiftexpression
+ShiftExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ShiftExpression
 
 1
 -
@@ -1217,8 +1543,8 @@ https://encoding.spec.whatwg.org/#shift_jis-encoder
 1
 1
 -
-shift_jis lead
-Shift_JIS lead
+shift_jis leading
+Shift_JIS leading
 dfn
 encoding
 encoding
@@ -1228,25 +1554,14 @@ https://encoding.spec.whatwg.org/#shift_jis-lead
 
 1
 -
-shortcut item's
-Shortcut item's
-dfn
-appmanifest
-appmanifest
+shortcircuitexpression
+ShortCircuitExpression
+grammar
+ecmascript
+ecmascript
 1
 current
-https://w3c.github.io/manifest/#dfn-shortcut-item
-
-1
--
-shortcut item's
-Shortcut item's
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-shortcut-item
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ShortCircuitExpression
 
 1
 -
@@ -1283,26 +1598,26 @@ https://www.w3.org/TR/service-workers/#should-skip-event
 
 1
 -
-Should Trusted Type policy creation be blocked by Content Security Policy?
-Should Trusted Type policy creation be blocked by Content Security Policy?
-abstract-op
+should trusted type policy creation be blocked by content security policy?
+Should Trusted Type policy creation be blocked by content security policy?
+dfn
 trusted-types
 trusted-types
 1
 current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-should-trusted-type-policy-creation-be-blocked-by-content-security-policy
-1
+https://w3c.github.io/trusted-types/dist/spec/#should-trusted-type-policy-creation-be-blocked-by-content-security-policy
+
 1
 -
-Should Trusted Type policy creation be blocked by Content Security Policy?
-Should Trusted Type policy creation be blocked by Content Security Policy?
-abstract-op
+should trusted type policy creation be blocked by content security policy?
+Should Trusted Type policy creation be blocked by content security policy?
+dfn
 trusted-types
 trusted-types
 1
 snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-should-trusted-type-policy-creation-be-blocked-by-content-security-policy
-1
+https://www.w3.org/TR/trusted-types/#should-trusted-type-policy-creation-be-blocked-by-content-security-policy
+
 1
 -
 should element's inline type behavior be blocked by content security policy?
@@ -1415,17 +1730,6 @@ https://www.w3.org/TR/CSP3/#should-block-navigation-response
 1
 1
 -
-should processing be blocked by reporting-origin limit
-should processing be blocked by reporting-origin limit
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#should-block-processing-for-reporting-origin-limit
-
-1
--
 Should request be allowed to use feature?
 Should request be allowed to use feature?
 abstract-op
@@ -1525,36 +1829,59 @@ https://wicg.github.io/document-policy/#should-response-to-request-be-blocked-du
 1
 1
 -
-should send a report unconditionally
-should send a report unconditionally
+show
+show
 dfn
-attribution-reporting-api
-attribution-reporting-api
+html
+html
 1
 current
-https://wicg.github.io/attribution-reporting-api/#should-send-a-report-unconditionally
+https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-show-state
 
 1
 -
-Should sink type mismatch violation be blocked by Content Security Policy?
-Should sink type mismatch violation be blocked by Content Security Policy?
-abstract-op
-trusted-types
-trusted-types
+show modal
+Show Modal
+dfn
+html
+html
 1
 current
-https://w3c.github.io/trusted-types/dist/spec/#abstract-opdef-should-sink-type-mismatch-violation-be-blocked-by-content-security-policy
-1
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-show-modal-state
+
 1
 -
-Should sink type mismatch violation be blocked by Content Security Policy?
-Should sink type mismatch violation be blocked by Content Security Policy?
-abstract-op
-trusted-types
-trusted-types
+show popover
+Show Popover
+dfn
+html
+html
 1
-snapshot
-https://www.w3.org/TR/trusted-types/#abstract-opdef-should-sink-type-mismatch-violation-be-blocked-by-content-security-policy
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-show-popover-state
+
+1
+-
+show accounts
+show accounts
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#create-identity-credential-show-accounts
+
+1
+create identity credential
+-
+ShowPopoverOptions
+ShowPopoverOptions
+dictionary
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#showpopoveroptions
 1
 1
 -
@@ -1941,19 +2268,8 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermShadowHost
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermShadowHost
 
-1
--
-shadow host
-shadow host
-dfn
-css-scoping-1
-css-scoping
-1
-snapshot
-https://www.w3.org/TR/css-scoping-1/#shadow-host
-1
 1
 -
 shadow root
@@ -1986,7 +2302,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermShadowRoot
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermShadowRoot
 
 1
 -
@@ -1999,17 +2315,6 @@ webdriver
 current
 https://w3c.github.io/webdriver/#dfn-shadow-roots
 
-1
--
-shadow root
-shadow root
-dfn
-css-scoping-1
-css-scoping
-1
-snapshot
-https://www.w3.org/TR/css-scoping-1/#shadow-root
-1
 1
 -
 shadow root
@@ -2107,19 +2412,8 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermShadowTree
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermShadowTree
 
-1
--
-shadow tree
-shadow tree
-dfn
-css-scoping-1
-css-scoping
-1
-snapshot
-https://www.w3.org/TR/css-scoping-1/#shadow-tree
-1
 1
 -
 shadow-adjusted target
@@ -2283,49 +2577,113 @@ https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals
 1
 ElementInternals
 -
-shadowrootclonable
+shadowRoot
+shadowRoot
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptnodeproperties-shadowroot
+
+1
+script.NodeProperties
+-
+shadowRoot
+shadowRoot
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptnodeproperties-shadowroot
+
+1
+script.NodeProperties
+-
 shadowRootClonable
-dfn
+shadowRootClonable
+attribute
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootclonable
-
 1
+1
+HTMLTemplateElement
 -
-shadowrootdelegatesfocus
+shadowRootCustomElementRegistry
+shadowRootCustomElementRegistry
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootcustomelementregistry
+1
+1
+HTMLTemplateElement
+-
 shadowRootDelegatesFocus
-dfn
+shadowRootDelegatesFocus
+attribute
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootdelegatesfocus
-
 1
+1
+HTMLTemplateElement
 -
-shadowrootmode
 shadowRootMode
-dfn
+shadowRootMode
+attribute
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootmode
-
 1
+1
+HTMLTemplateElement
 -
-shadowrootserializable
 shadowRootSerializable
-dfn
+shadowRootSerializable
+attribute
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootserializable
-
 1
+1
+HTMLTemplateElement
+-
+shadowRootSlotAssignment
+shadowRootSlotAssignment
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootslotassignment
+1
+1
+HTMLTemplateElement
+-
+shadowRoots
+shadowRoots
+dict-member
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#dom-highlightsfrompointoptions-shadowroots
+1
+1
+HighlightsFromPointOptions
 -
 shadowRoots
 shadowRoots
@@ -2366,6 +2724,18 @@ GetComposedRangesOptions
 shadowRoots
 shadowRoots
 dict-member
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-caretpositionfrompointoptions-shadowroots
+1
+1
+CaretPositionFromPointOptions
+-
+shadowRoots
+shadowRoots
+dict-member
 selection-api
 selection-api
 1
@@ -2383,6 +2753,18 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootclonable
+1
+1
+template
+-
+shadowrootcustomelementregistry
+shadowrootcustomelementregistry
+element-attr
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootcustomelementregistry
 1
 1
 template
@@ -2419,6 +2801,18 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootserializable
+1
+1
+template
+-
+shadowrootslotassignment
+shadowrootslotassignment
+element-attr
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootslotassignment
 1
 1
 template
@@ -2485,6 +2879,17 @@ HTMLAnchorElement
 -
 shape
 shape
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shape
+
+1
+-
+shape
+shape
 attribute
 webnn
 webnn
@@ -2509,6 +2914,18 @@ MLOperandDescriptor
 -
 shape
 shape
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mltensor-shape
+1
+1
+MLTensor
+-
+shape
+shape
 dfn
 webnn
 webnn
@@ -2518,6 +2935,18 @@ https://webmachinelearning.github.io/webnn/#mloperand-shape
 
 1
 MLOperand
+-
+shape
+shape
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#mltensor-shape
+
+1
+MLTensor
 -
 shape
 shape
@@ -2533,6 +2962,29 @@ https://www.w3.org/TR/css-round-display-1/#descdef-media-shape
 -
 shape
 shape
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shape
+
+1
+-
+shape
+shape
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mloperand-shape
+1
+1
+MLOperand
+-
+shape
+shape
 dict-member
 webnn
 webnn
@@ -2545,6 +2997,18 @@ MLOperandDescriptor
 -
 shape
 shape
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mltensor-shape
+1
+1
+MLTensor
+-
+shape
+shape
 dfn
 webnn
 webnn
@@ -2554,6 +3018,18 @@ https://www.w3.org/TR/webnn/#mloperand-shape
 
 1
 MLOperand
+-
+shape
+shape
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#mltensor-shape
+
+1
+MLTensor
 -
 shape a stretchy glyph
 shape a stretchy glyph
@@ -2577,6 +3053,17 @@ https://www.w3.org/TR/mathml-core/#dfn-shape-a-stretchy-glyph
 
 1
 -
+shape detection task source
+shape detection task source
+dfn
+shape-detection-api
+shape-detection-api
+1
+current
+https://wicg.github.io/shape-detection-api/#shape-detection-task-source
+
+1
+-
 shape elements
 shape elements
 dfn
@@ -2584,7 +3071,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/shapes.html#TermShapeElement
+https://w3c.github.io/svgwg/svg2-draft/shapes.html#TermShapeElement
 1
 1
 -
@@ -2602,25 +3089,70 @@ https://www.w3.org/TR/SVG2/shapes.html#TermShapeElement
 shape()
 shape()
 function
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#funcdef-shape
+https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-shape
 1
 1
+<basic-shape>
 -
 shape()
 shape()
-method
-webnn
-webnn
+function
+css-shapes-1
+css-shapes
 1
 snapshot
-https://www.w3.org/TR/webnn/#dom-mloperand-shape
+https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-shape
 1
 1
-MLOperand
+<basic-shape>
+-
+shape-expecting
+shape-expecting
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shape-expecting
+
+1
+-
+shape-expecting
+shape-expecting
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shape-expecting
+
+1
+-
+shape-expecting constraint parameters
+shape-expecting constraint parameters
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shape-expecting
+
+1
+-
+shape-expecting constraint parameters
+shape-expecting constraint parameters
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shape-expecting
+
+1
 -
 shape-image-threshold
 shape-image-threshold
@@ -2672,17 +3204,6 @@ property
 svg2
 svg
 2
-current
-https://svgwg.org/svg2-draft/text.html#ShapeInsideProperty
-1
-1
--
-shape-inside
-shape-inside
-property
-svg2
-svg
-2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#ShapeInsideProperty
 1
@@ -2707,17 +3228,6 @@ css-shapes
 1
 current
 https://drafts.csswg.org/css-shapes-1/#propdef-shape-margin
-1
-1
--
-shape-margin
-shape-margin
-property
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/text.html#ShapeMarginProperty
 1
 1
 -
@@ -2783,7 +3293,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#ShapeRenderingProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#ShapeRenderingProperty
 1
 1
 -
@@ -2795,17 +3305,6 @@ svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#ShapeRenderingProperty
-1
-1
--
-shape-subtract
-shape-subtract
-property
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/text.html#ShapesubtractProperty
 1
 1
 -
@@ -2930,6 +3429,94 @@ https://www.w3.org/TR/css-box-4/#shaped-edge
 1
 1
 -
+shapes
+shapes
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shape
+
+1
+-
+shapes
+shapes
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shape
+
+1
+-
+shapes graph
+shapes graph
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-shapes-graph
+
+1
+-
+shapes graph
+shapes graph
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-shapes-graph
+
+1
+-
+shapes rules document
+shapes rules document
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-shapes-rules-language-document
+
+1
+-
+shapes rules document
+shapes rules document
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-shapes-rules-language-document
+
+1
+-
+shapes rules language document
+shapes rules language document
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-shapes-rules-language-document
+
+1
+-
+shapes rules language document
+shapes rules language document
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-shapes-rules-language-document
+
+1
+-
 shaping of the glyph assembly
 shaping of the glyph assembly
 dfn
@@ -2950,6 +3537,28 @@ mathml-core
 snapshot
 https://www.w3.org/TR/mathml-core/#dfn-shaping-of-the-glyph-assembly
 
+1
+-
+shaping unit
+shaping unit
+dfn
+ift
+ift
+1
+current
+https://w3c.github.io/IFT/Overview.html#shaping-unit
+1
+1
+-
+shaping unit
+shaping unit
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#shaping-unit
+1
 1
 -
 sharable scheme
@@ -2973,6 +3582,28 @@ snapshot
 https://www.w3.org/TR/web-share/#dfn-sharable-scheme
 
 1
+-
+share
+share
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-share
+1
+
+-
+share
+share
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-share
+
+
 -
 share target
 share target
@@ -3056,18 +3687,6 @@ https://w3c.github.io/web-share-target/#dfn-share_target
 1
 manifest
 -
-shared
-shared
-enum-value
-web-smart-card
-web-smart-card
-1
-current
-https://wicg.github.io/web-smart-card/#dom-smartcardaccessmode-shared
-1
-1
-SmartCardAccessMode
--
 shared utf-16 decoder
 shared UTF-16 decoder
 dfn
@@ -3112,6 +3731,42 @@ https://html.spec.whatwg.org/multipage/iframe-embed-object.html#shared-attribute
 
 1
 -
+shared context
+shared context
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#rewriter-shared-context
+
+1
+Rewriter
+-
+shared context
+shared context
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-shared-context
+
+1
+Summarizer
+-
+shared context
+shared context
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#writer-shared-context
+
+1
+Writer
+-
 shared declarative refresh steps
 shared declarative refresh steps
 dfn
@@ -3134,19 +3789,6 @@ https://html.spec.whatwg.org/multipage/nav-history-apis.html#shared-history-push
 
 1
 -
-shared info
-shared info
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-report-shared-info
-
-1
-aggregatable report
-aggregatable attribution report
--
 shared lock count
 shared lock count
 dfn
@@ -3159,107 +3801,49 @@ https://fs.spec.whatwg.org/#file-entry-shared-lock-count
 1
 file entry
 -
+shared properties
+shared properties
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-shared-properties
+
+1
+-
+shared properties
+shared properties
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-shared-properties
+
+1
+-
 shared secret
 shared secret
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#shared-secret
 
 1
 -
-shared storage
-shared storage
+shared secret
+shared secret
 dfn
-shared-storage
-shared-storage
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
 1
 current
-https://wicg.github.io/shared-storage/#shared-storage
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#shared-secret
 
 1
--
-shared storage bucket
-shared storage bucket
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-bucket
-
-1
--
-shared storage database
-shared storage database
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-database
-
-1
--
-shared storage database queue
-shared storage database queue
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-database-shared-storage-database-queue
-
-1
-shared storage database
--
-shared storage navigation budget table
-shared storage navigation budget table
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-navigation-budget-table
-
-1
--
-shared storage page budget
-shared storage page budget
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#traversable-navigable-shared-storage-page-budget
-
-1
-traversable navigable
--
-shared storage shed
-shared storage shed
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#shared-storage-shed
-
-1
--
-shared storage writable
-shared storage writable
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#request-shared-storage-writable
-
-1
-request
 -
 shared worker
 shared worker
@@ -3307,77 +3891,221 @@ https://html.spec.whatwg.org/multipage/workers.html#shared-worker-manager
 
 1
 -
-shared-storage
-shared-storage
-dfn
-shared-storage
-shared-storage
+shared-worker
+shared-worker
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/shared-storage/#permissionspolicy-shared-storage
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptrealmtype-shared-worker
 
 1
-PermissionsPolicy
+script.RealmType
 -
-shared-storage-select-url
-shared-storage-select-url
-dfn
-shared-storage
-shared-storage
+shared-worker
+shared-worker
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/shared-storage/#permissionspolicy-shared-storage-select-url
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptsharedworkerrealminfo-type-shared-worker
 
 1
-PermissionsPolicy
+script.SharedWorkerRealmInfo/type
 -
-sharedStorage
-sharedStorage
+shared-worker
+shared-worker
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptrealmtype-shared-worker
+
+1
+script.RealmType
+-
+shared-worker
+shared-worker
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptsharedworkerrealminfo-type-shared-worker
+
+1
+script.SharedWorkerRealmInfo/type
+-
+sharedContext
+sharedContext
 attribute
-shared-storage
-shared-storage
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-sharedstorage
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-sharedcontext
 1
 1
-SharedStorageWorkletGlobalScope
+Rewriter
 -
-sharedStorage
-sharedStorage
+sharedContext
+sharedContext
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewritercreateoptions-sharedcontext
+1
+1
+RewriterCreateOptions
+-
+sharedContext
+sharedContext
 attribute
-shared-storage
-shared-storage
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/shared-storage/#dom-window-sharedstorage
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-sharedcontext
 1
 1
-Window
+Summarizer
 -
-sharedstorage getter
-sharedStorage getter
-dfn
-shared-storage
-shared-storage
+sharedContext
+sharedContext
+dict-member
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/shared-storage/#sharedstorageworkletglobalscope-sharedstorage-getter
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizercreateoptions-sharedcontext
+1
+1
+SummarizerCreateOptions
+-
+sharedContext
+sharedContext
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-sharedcontext
+1
+1
+Writer
+-
+sharedContext
+sharedContext
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writercreateoptions-sharedcontext
+1
+1
+WriterCreateOptions
+-
+sharedId
+sharedId
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptnoderemotevalue-sharedid
 
 1
-SharedStorageWorkletGlobalScope
+script.NodeRemoteValue
 -
-sharedstorage getter
-sharedStorage getter
-dfn
-shared-storage
-shared-storage
+sharedId
+sharedId
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/shared-storage/#window-sharedstorage-getter
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptremoteobjectreference-sharedid
 
 1
-Window
+script.RemoteObjectReference
+-
+sharedId
+sharedId
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptsharedreference-sharedid
+
+1
+script.SharedReference
+-
+sharedId
+sharedId
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptnoderemotevalue-sharedid
+
+1
+script.NodeRemoteValue
+-
+sharedId
+sharedId
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptremoteobjectreference-sharedid
+
+1
+script.RemoteObjectReference
+-
+sharedId
+sharedId
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptsharedreference-sharedid
+
+1
+script.SharedReference
+-
+sharedKey
+sharedKey
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-EncapsulatedBits-sharedKey
+1
+1
+EncapsulatedBits
+-
+sharedKey
+sharedKey
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-EncapsulatedKey-sharedKey
+1
+1
+EncapsulatedKey
 -
 sharedstoragecontext
 sharedStorageContext
@@ -3403,54 +4131,6 @@ https://wicg.github.io/fenced-frame/#navigate-sharedstoragecontext
 1
 navigate
 -
-sharedStorageWritable
-sharedStorageWritable
-attribute
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-htmlsharedstoragewritableelementutils-sharedstoragewritable
-1
-1
-HTMLSharedStorageWritableElementUtils
--
-sharedStorageWritable
-sharedStorageWritable
-dict-member
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-requestinit-sharedstoragewritable
-1
-1
-RequestInit
--
-sharedstoragewritable
-sharedstoragewritable
-element-attr
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#element-attrdef-iframe-sharedstoragewritable
-1
-1
-iframe
--
-sharedstoragewritable
-sharedstoragewritable
-element-attr
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#element-attrdef-img-sharedstoragewritable
-1
-1
-img
--
 sharedworker
 sharedworker
 dfn
@@ -3459,6 +4139,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-sharedworker
+1
+1
+-
+sharedworker-message
+sharedworker-message
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-sharedworker-message
+1
+1
+-
+sharedworker-with-no-active-client
+sharedworker-with-no-active-client
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-sharedworker-with-no-active-client
 1
 1
 -
@@ -3473,17 +4175,49 @@ https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-shares
 
 
 -
-sharing-violation
-sharing-violation
-enum-value
-web-smart-card
-web-smart-card
+shares
+shares
+dfn
+privacy-principles
+privacy-principles
 1
 current
-https://wicg.github.io/web-smart-card/#dom-smartcardresponsecode-sharing-violation
+https://w3ctag.github.io/privacy-principles/#dfn-share
 1
+
+-
+shares
+shares
+dfn
+privacy-principles
+privacy-principles
 1
-SmartCardResponseCode
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-share
+
+
+-
+sharing
+sharing
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-share
+1
+
+-
+sharing
+sharing
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-share
+
+
 -
 sharpness
 sharpness
@@ -3598,20 +4332,9 @@ sheet
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/page.html#x0
-1
-1
--
-sheet
-sheet
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/page.html#x0
+https://www.w3.org/TR/CSS2/page.html#x0
 1
 1
 -
@@ -3630,9 +4353,9 @@ LinkStyle
 sheets
 sheets
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#sheets
 
@@ -3641,22 +4364,22 @@ https://drafts.csswg.org/css2/#sheets
 shift flag
 shift flag
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#shift-flag
+https://w3c.github.io/pointerevents/#dfn-shift-flag
 
 1
 -
 shift flag
 shift flag
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#shift-flag
+https://www.w3.org/TR/pointerevents4/#dfn-shift-flag
 
 1
 -
@@ -3671,6 +4394,18 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.s
 1
 1
 Array
+-
+shiftKey
+shiftKey
+attribute
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-shiftkey
+1
+1
+MouseEvent
 -
 shiftKey
 shiftKey
@@ -3732,11 +4467,11 @@ KeyboardEvent
 shiftKey
 shiftKey
 attribute
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-shiftkey
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-shiftkey
 1
 1
 MouseEvent
@@ -3785,70 +4520,6 @@ https://www.w3.org/TR/uievents/#dom-keyboardevent-shiftkey
 1
 1
 KeyboardEvent
--
-shiftKey
-shiftKey
-attribute
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-shiftkey
-1
-1
-MouseEvent
--
-shiftKeyArg
-shiftKeyArg
-argument
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-shiftkeyarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-shiftKeyArg
-shiftKeyArg
-argument
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-shiftkeyarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
 -
 shift_expression
 shift_expression
@@ -4148,30 +4819,6 @@ https://www.w3.org/TR/payment-request/#dfn-shipping-option-changed-algorithm
 -
 shippingAddress
 shippingAddress
-enum-value
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymentdelegation-shippingaddress
-1
-1
-PaymentDelegation
--
-shippingAddress
-shippingAddress
-dict-member
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymenthandlerresponse-shippingaddress
-1
-1
-PaymentHandlerResponse
--
-shippingAddress
-shippingAddress
 attribute
 payment-request
 payment-request
@@ -4209,11 +4856,11 @@ PaymentValidationErrors
 shippingAddress
 shippingAddress
 enum-value
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentdelegation-shippingaddress
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentdelegation-shippingaddress
 1
 1
 PaymentDelegation
@@ -4221,11 +4868,11 @@ PaymentDelegation
 shippingAddress
 shippingAddress
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymenthandlerresponse-shippingaddress
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymenthandlerresponse-shippingaddress
 1
 1
 PaymentHandlerResponse
@@ -4266,17 +4913,29 @@ https://www.w3.org/TR/payment-request/#dom-paymentvalidationerrors-shippingaddre
 1
 PaymentValidationErrors
 -
-shippingAddressErrors
-shippingAddressErrors
+shippingAddress
+shippingAddress
+enum-value
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentdelegation-shippingaddress
+1
+1
+PaymentDelegation
+-
+shippingAddress
+shippingAddress
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequestdetailsupdate-shippingaddresserrors
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymenthandlerresponse-shippingaddress
 1
 1
-PaymentRequestDetailsUpdate
+PaymentHandlerResponse
 -
 shippingAddressErrors
 shippingAddressErrors
@@ -4293,11 +4952,11 @@ PaymentDetailsUpdate
 shippingAddressErrors
 shippingAddressErrors
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestdetailsupdate-shippingaddresserrors
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestdetailsupdate-shippingaddresserrors
 1
 1
 PaymentRequestDetailsUpdate
@@ -4314,17 +4973,17 @@ https://www.w3.org/TR/payment-request/#dom-paymentdetailsupdate-shippingaddresse
 1
 PaymentDetailsUpdate
 -
-shippingOption
-shippingOption
+shippingAddressErrors
+shippingAddressErrors
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-current
-https://w3c.github.io/payment-handler/#dom-paymenthandlerresponse-shippingoption
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestdetailsupdate-shippingaddresserrors
 1
 1
-PaymentHandlerResponse
+PaymentRequestDetailsUpdate
 -
 shippingOption
 shippingOption
@@ -4353,11 +5012,11 @@ PaymentResponse
 shippingOption
 shippingOption
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymenthandlerresponse-shippingoption
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymenthandlerresponse-shippingoption
 1
 1
 PaymentHandlerResponse
@@ -4386,41 +5045,17 @@ https://www.w3.org/TR/payment-request/#dom-paymentresponse-shippingoption
 1
 PaymentResponse
 -
-shippingOptions
-shippingOptions
+shippingOption
+shippingOption
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequestdetailsupdate-shippingoptions
-1
-1
-PaymentRequestDetailsUpdate
--
-shippingOptions
-shippingOptions
-attribute
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequestevent-shippingoptions
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymenthandlerresponse-shippingoption
 1
 1
-PaymentRequestEvent
--
-shippingOptions
-shippingOptions
-dict-member
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequesteventinit-shippingoptions
-1
-1
-PaymentRequestEventInit
+PaymentHandlerResponse
 -
 shippingOptions
 shippingOptions
@@ -4437,11 +5072,11 @@ PaymentDetailsBase
 shippingOptions
 shippingOptions
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestdetailsupdate-shippingoptions
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestdetailsupdate-shippingoptions
 1
 1
 PaymentRequestDetailsUpdate
@@ -4449,11 +5084,11 @@ PaymentRequestDetailsUpdate
 shippingOptions
 shippingOptions
 attribute
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestevent-shippingoptions
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestevent-shippingoptions
 1
 1
 PaymentRequestEvent
@@ -4461,11 +5096,11 @@ PaymentRequestEvent
 shippingOptions
 shippingOptions
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequesteventinit-shippingoptions
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequesteventinit-shippingoptions
 1
 1
 PaymentRequestEventInit
@@ -4481,6 +5116,42 @@ https://www.w3.org/TR/payment-request/#dom-paymentdetailsbase-shippingoptions
 1
 1
 PaymentDetailsBase
+-
+shippingOptions
+shippingOptions
+dict-member
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestdetailsupdate-shippingoptions
+1
+1
+PaymentRequestDetailsUpdate
+-
+shippingOptions
+shippingOptions
+attribute
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestevent-shippingoptions
+1
+1
+PaymentRequestEvent
+-
+shippingOptions
+shippingOptions
+dict-member
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequesteventinit-shippingoptions
+1
+1
+PaymentRequestEventInit
 -
 shippingType
 shippingType
@@ -4585,16 +5256,29 @@ https://webidl.spec.whatwg.org/#idl-short
 1
 1
 -
-short cooldown period
-short cooldown period
-dfn
-turtledove
-turtledove
+short
+short
+enum-value
+writing-assistance-apis
+writing-assistance-apis
 1
 current
-https://wicg.github.io/turtledove/#short-cooldown-period
-
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizerlength-short
 1
+1
+SummarizerLength
+-
+short
+short
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writerlength-short
+1
+1
+WriterLength
 -
 short_circuit_and_expression
 short_circuit_and_expression
@@ -4784,6 +5468,18 @@ https://drafts.csswg.org/css-color-4/#shorter
 -
 shorter
 shorter
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriterlength-shorter
+1
+1
+RewriterLength
+-
+shorter
+shorter
 dfn
 css-color-4
 css-color
@@ -4862,9 +5558,9 @@ https://www.w3.org/TR/css-cascade-5/#shorthand-property
 shorthand properties
 shorthand properties
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#shorthand-properties
 
@@ -4908,20 +5604,9 @@ shorthand property
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/about.html#x1
-1
-1
--
-shorthand property
-shorthand property
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/about.html#x1
+https://www.w3.org/TR/CSS2/about.html#x1
 1
 1
 -
@@ -4955,6 +5640,17 @@ css-cascade
 5
 snapshot
 https://www.w3.org/TR/css-cascade-5/#shorthand-property
+1
+1
+-
+should WebRTC be blocked by Connection Allowlists
+should WebRTC be blocked by Connection Allowlists
+abstract-op
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#abstract-opdef-should-webrtc-be-blocked-by-connection-allowlists
 1
 1
 -
@@ -5024,6 +5720,51 @@ https://w3c.github.io/at-driver/#should-be-withheld
 
 1
 -
+should block scripts
+should block scripts
+dfn
+prerendering-revamped
+prerendering-revamped
+1
+current
+https://wicg.github.io/nav-speculation/prerendering.html#prerender-candidate-should-block-scripts
+
+1
+prerender candidate
+-
+should dispatch
+should dispatch
+dfn
+compute-pressure
+compute-pressure
+1
+current
+https://w3c.github.io/compute-pressure/#dfn-should-dispatch
+
+1
+-
+should dispatch
+should dispatch
+dfn
+compute-pressure
+compute-pressure
+1
+snapshot
+https://www.w3.org/TR/compute-pressure/#dfn-should-dispatch
+
+1
+-
+should host be blocked by Connection Allowlists
+should host be blocked by Connection Allowlists
+abstract-op
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#abstract-opdef-should-host-be-blocked-by-connection-allowlists
+1
+1
+-
 should report first contentful paint
 should report first contentful paint
 dfn
@@ -5044,6 +5785,39 @@ paint-timing
 snapshot
 https://www.w3.org/TR/paint-timing/#should-report-first-contentful-paint
 
+1
+-
+should request be blocked by Connection Allowlists
+should request be blocked by Connection Allowlists
+abstract-op
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#abstract-opdef-should-request-be-blocked-by-connection-allowlists
+1
+1
+-
+should request be blocked by integrity policy
+should request be blocked by integrity policy
+dfn
+sri-2
+sri
+2
+current
+https://w3c.github.io/webappsec-subresource-integrity/#should-request-be-blocked-by-integrity-policy
+1
+1
+-
+should request be blocked by integrity policy
+should request be blocked by integrity policy
+dfn
+sri-2
+sri
+2
+snapshot
+https://www.w3.org/TR/sri-2/#should-request-be-blocked-by-integrity-policy
+1
 1
 -
 should response to request be blocked due to mime type
@@ -5079,12 +5853,45 @@ https://wicg.github.io/client-hints-infrastructure/#abstract-opdef-should-restar
 1
 1
 -
+should sink type mismatch violation be blocked by content security policy?
+should sink type mismatch violation be blocked by content security policy?
+dfn
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/trusted-types/dist/spec/#should-sink-type-mismatch-violation-be-blocked-by-content-security-policy
+
+1
+-
+should sink type mismatch violation be blocked by content security policy?
+should sink type mismatch violation be blocked by content security policy?
+dfn
+trusted-types
+trusted-types
+1
+snapshot
+https://www.w3.org/TR/trusted-types/#should-sink-type-mismatch-violation-be-blocked-by-content-security-policy
+
+1
+-
+should url be blocked by Connection Allowlists
+should url be blocked by Connection Allowlists
+abstract-op
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#abstract-opdef-should-url-be-blocked-by-connection-allowlists
+1
+1
+-
 show
 show
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-empty-cells-show
 1
@@ -5115,14 +5922,25 @@ https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-sho
 1
 html-global/popovertargetaction
 -
-show
-show
+show a continuation dialog
+show a continuation dialog
+dfn
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#show-a-continuation-dialog
+
+1
+-
+show a modal dialog
+show a modal dialog
 dfn
 html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-show-state
+https://html.spec.whatwg.org/multipage/interactive-elements.html#show-a-modal-dialog
 
 1
 -
@@ -5190,6 +6008,18 @@ css-view-transitions
 current
 https://drafts.csswg.org/css-view-transitions-1/#document-show-view-transition-tree
 
+1
+document
+-
+show view transition tree
+show view transition tree
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#document-show-view-transition-tree
+1
 1
 document
 -
@@ -5288,6 +6118,30 @@ https://www.w3.org/TR/payment-request/#dom-paymentrequest-show
 1
 1
 PaymentRequest
+-
+show-modal
+show-modal
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-show-modal
+1
+1
+html-global/command
+-
+show-popover
+show-popover
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-show-popover
+1
+1
+html-global/command
 -
 showDirectoryPicker()
 showDirectoryPicker()
@@ -5421,8 +6275,8 @@ https://html.spec.whatwg.org/multipage/input.html#dom-select-showpicker
 1
 HTMLSelectElement
 -
-showPopover()
-showPopover()
+showPopover(options)
+showPopover(options)
 method
 html
 html
@@ -5489,6 +6343,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/popover.html#auto-popover-list
+
+1
+-
+showing hint popover list
+showing hint popover list
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#showing-hint-popover-list
+
+1
+-
+showing popover
+showing popover
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#showing-popover
 
 1
 -
@@ -5564,16 +6440,29 @@ https://www.w3.org/TR/miniapp-lifecycle/#dom-pagestate-shown
 
 PageState
 -
-shuffle a list
-shuffle a list
-dfn
-attribution-reporting-api
-attribution-reporting-api
+shrinkToFit
+shrinkToFit
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#shuffle-a-list
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-shrinktofit
 
 1
+browsingContext.PrintParameters
+-
+shrinkToFit
+shrinkToFit
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-shrinktofit
+
+1
+browsingContext.PrintParameters
 -
 shut down the session
 shut down the session

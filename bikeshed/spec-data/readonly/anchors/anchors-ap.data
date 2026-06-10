@@ -1,3 +1,15 @@
+"appearance"
+"appearance"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothscanrecord-appearance
+
+1
+bluetooth.ScanRecord
+-
 <apply>
 <apply>
 dfn
@@ -42,6 +54,17 @@ https://www.w3.org/TR/mathml4/#contm_approx
 
 1
 -
+@apply
+@apply
+at-rule
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#at-ruledef-apply
+1
+1
+-
 a pause-on-exit flag
 a pause-on-exit flag
 dfn
@@ -52,6 +75,28 @@ current
 https://html.spec.whatwg.org/multipage/media.html#text-track-cue-pause-on-exit-flag
 
 1
+-
+api flooding
+API Flooding
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-api-flooding
+
+
+-
+api flooding
+API Flooding
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-api-flooding
+
+
 -
 api url parser
 API URL parser
@@ -197,7 +242,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-committee-appeal
+https://www.w3.org/policies/process/#advisory-committee-appeal
 1
 1
 -
@@ -300,17 +345,6 @@ https://www.w3.org/TR/i18n-glossary/#dfn-application-internal-identifiers
 1
 
 -
-Apply brotli patch
-Apply brotli patch
-abstract-op
-ift
-ift
-1
-snapshot
-https://www.w3.org/TR/IFT/#abstract-opdef-apply-brotli-patch
-1
-1
--
 Apply glyph keyed patch
 Apply glyph keyed patch
 abstract-op
@@ -333,28 +367,6 @@ https://www.w3.org/TR/IFT/#abstract-opdef-apply-glyph-keyed-patch
 1
 1
 -
-apply interest groups limits to prioritized list
-apply interest groups limits to prioritized list
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#apply-interest-groups-limits-to-prioritized-list
-
-1
--
-Apply per table brotli patch
-Apply per table brotli patch
-abstract-op
-ift
-ift
-1
-snapshot
-https://www.w3.org/TR/IFT/#abstract-opdef-apply-per-table-brotli-patch
-1
-1
--
 Apply table keyed patch
 Apply table keyed patch
 abstract-op
@@ -363,6 +375,17 @@ ift
 1
 current
 https://w3c.github.io/IFT/Overview.html#abstract-opdef-apply-table-keyed-patch
+1
+1
+-
+Apply table keyed patch
+Apply table keyed patch
+abstract-op
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#abstract-opdef-apply-table-keyed-patch
 1
 1
 -
@@ -399,8 +422,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-apply
 1
 1
 -
-ApplyStringOrNumericBinaryOperator(lVal, opText, rVal)
-ApplyStringOrNumericBinaryOperator(lVal, opText, rVal)
+ApplyStringOrNumericBinaryOperator(leftValue, opText, rightValue)
+ApplyStringOrNumericBinaryOperator(leftValue, opText, rightValue)
 abstract-op
 ecmascript
 ecmascript
@@ -413,7 +436,7 @@ https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-apply
 applying a blackman window
 Applying a Blackman window
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -424,18 +447,40 @@ https://webaudio.github.io/web-audio-api/#blackman-window
 applying a blackman window
 Applying a Blackman window
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#blackman-window
+
+1
+-
+applying a blackman window
+Applying a Blackman window
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#blackman-window
+https://www.w3.org/TR/webaudio-1.0/#blackman-window
+
+1
+-
+applying a blackman window
+Applying a Blackman window
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#blackman-window
 
 1
 -
 applying a fourier transform
 Applying a Fourier transform
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -446,11 +491,33 @@ https://webaudio.github.io/web-audio-api/#fourier-transform
 applying a fourier transform
 Applying a Fourier transform
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#fourier-transform
+
+1
+-
+applying a fourier transform
+Applying a Fourier transform
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#fourier-transform
+https://www.w3.org/TR/webaudio-1.0/#fourier-transform
+
+1
+-
+applying a fourier transform
+Applying a Fourier transform
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#fourier-transform
 
 1
 -
@@ -525,6 +592,18 @@ https://w3c.github.io/audio-session/#audiosession-appliedtype
 1
 AudioSession
 -
+[[appliedtype]]
+[[appliedType]]
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#audiosession-appliedtype
+
+1
+AudioSession
+-
 a plausible language
 a plausible language
 dfn
@@ -580,17 +659,39 @@ https://webidl.spec.whatwg.org/#a-promise-resolved-with
 1
 1
 -
-api
-api
+apimethodtracker
+apiMethodTracker
 dfn
-private-aggregation-api
-private-aggregation-api
+html
+html
 1
 current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#aggregatable-report-api
+https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-api-method-tracker-2
 
 1
-aggregatable report
+navigate
+-
+apimethodtracker
+apiMethodTracker
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsing-the-web.html#reload-api-method-tracker
+
+1
+-
+apimethodtracker
+apiMethodTracker
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#fire-navigate-prr-api-method-tracker
+
+1
 -
 app-region
 app-region
@@ -661,6 +762,39 @@ https://www.w3.org/TR/miniapp-manifest/#dfn-app_id
 
 1
 -
+appeal vote
+appeal vote
+dfn
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#appeal-vote
+
+1
+-
+appear
+appear
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-appear
+1
+1
+-
+appear
+appear
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-appear
+1
+1
+-
 appearance
 appearance
 property
@@ -671,6 +805,18 @@ current
 https://drafts.csswg.org/css-ui-4/#propdef-appearance
 1
 1
+-
+appearance
+appearance
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothscanrecord-appearance
+
+1
+bluetooth.ScanRecord
 -
 appearance
 appearance
@@ -726,6 +872,28 @@ css-images
 4
 snapshot
 https://www.w3.org/TR/css-images-4/#appearance-of-a-cross-fade
+1
+1
+-
+appearing
+appearing
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-appear
+1
+1
+-
+appearing
+appearing
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-appear
 1
 1
 -
@@ -799,6 +967,17 @@ https://infra.spec.whatwg.org/#set-append
 1
 set
 -
+append a request `cookie` header
+append a request `Cookie` header
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#append-a-request-cookie-header
+
+1
+-
 append a request `origin` header
 append a request `Origin` header
 dfn
@@ -821,17 +1000,6 @@ https://dom.spec.whatwg.org/#concept-element-attributes-append
 1
 1
 -
-append an entry to the contribution cache
-append an entry to the contribution cache
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#append-an-entry-to-the-contribution-cache
-1
-1
--
 append client hints to request
 append client hints to request
 abstract-op
@@ -843,25 +1011,14 @@ https://wicg.github.io/client-hints-infrastructure/#abstract-opdef-append-client
 1
 1
 -
-append or modify a sec-shared-storage-writable request header
-append or modify a Sec-Shared-Storage-Writable request header
+append new option elements
+append new option elements
 dfn
-shared-storage
-shared-storage
+html
+html
 1
 current
-https://wicg.github.io/shared-storage/#append-or-modify-a-sec-shared-storage-writable-request-header
-
-1
--
-append or modify a request `sec-browsing-topics` header
-append or modify a request `Sec-Browsing-Topics` header
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#append-or-modify-a-request-sec-browsing-topics-header
+https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#append-new-option-elements
 
 1
 -
@@ -920,6 +1077,17 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#tn-append-session-h
 
 1
 -
+append the Accept-Signature header
+append the Accept-Signature header
+abstract-op
+signature-based-sri
+signature-based-sri
+1
+current
+https://wicg.github.io/signature-based-sri/#abstract-opdef-append-the-accept-signature-header
+1
+1
+-
 append the Fetch metadata headers for a request
 append the Fetch metadata headers for a request
 abstract-op
@@ -940,17 +1108,6 @@ fetch-metadata
 snapshot
 https://www.w3.org/TR/fetch-metadata/#abstract-opdef-append-the-fetch-metadata-headers-for-a-request
 1
-1
--
-append to a bidding signals per-interest group data map
-append to a bidding signals per-interest group data map
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#append-to-a-bidding-signals-per-interest-group-data-map
-
 1
 -
 append to an event path
@@ -1036,17 +1193,29 @@ https://dom.spec.whatwg.org/#dom-parentnode-append
 1
 ParentNode
 -
-append(key, value)
-append(key, value)
+append(input)
+append(input)
 method
-shared-storage
-shared-storage
+prompt-api
+prompt-api
 1
 current
-https://wicg.github.io/shared-storage/#dom-sharedstorage-append
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-append
 1
 1
-SharedStorage
+LanguageModel
+-
+append(input, options)
+append(input, options)
+method
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-append
+1
+1
+LanguageModel
 -
 append(name, blobValue)
 append(name, blobValue)
@@ -1324,18 +1493,6 @@ https://www.w3.org/TR/media-source-2/#dom-sourcebuffer-appendwindowstart
 1
 SourceBuffer
 -
-appended by soft navigation
-appended by soft navigation
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#node-appended-by-soft-navigation
-
-1
-node
--
 appid
 appid
 dict-member
@@ -1355,10 +1512,34 @@ webauthn-3
 webauthn
 3
 current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientinputsjson-appid
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+appid
+appid
+dict-member
+webauthn-3
+webauthn
+3
+current
 https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputs-appid
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+appid
+appid
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputsjson-appid
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 appid
 appid
@@ -1379,10 +1560,34 @@ webauthn-3
 webauthn
 3
 snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputsjson-appid
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+appid
+appid
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
 https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-appid
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+appid
+appid
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputsjson-appid
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 appidExclude
 appidExclude
@@ -1403,10 +1608,34 @@ webauthn-3
 webauthn
 3
 current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientinputsjson-appidexclude
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+appidExclude
+appidExclude
+dict-member
+webauthn-3
+webauthn
+3
+current
 https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputs-appidexclude
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+appidExclude
+appidExclude
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsclientoutputsjson-appidexclude
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 appidExclude
 appidExclude
@@ -1427,10 +1656,34 @@ webauthn-3
 webauthn
 3
 snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputsjson-appidexclude
+1
+1
+AuthenticationExtensionsClientInputsJSON
+-
+appidExclude
+appidExclude
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
 https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-appidexclude
 1
 1
 AuthenticationExtensionsClientOutputs
+-
+appidExclude
+appidExclude
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputsjson-appidexclude
+1
+1
+AuthenticationExtensionsClientOutputsJSON
 -
 appinstalled
 appinstalled
@@ -1524,11 +1777,23 @@ https://www.w3.org/TR/screen-wake-lock/#dfn-applicable-wake-lock
 applicable credentials list
 applicable credentials list
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getassert-applicable-credentials-list
+
+1
+getAssert
+-
+applicable credentials list
+applicable credentials list
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getassert-applicable-credentials-list
 
 1
 getAssert
@@ -1558,9 +1823,9 @@ https://w3c.github.io/DOM-Parsing/#dfn-applicable-specification
 applicable specification
 applicable specification
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-applicable-specification
 
@@ -1569,11 +1834,11 @@ https://w3c.github.io/webcrypto/#dfn-applicable-specification
 applicable specification
 applicable specification
 dfn
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-applicable-specification
+https://www.w3.org/TR/webcrypto-2/#dfn-applicable-specification
 
 1
 -
@@ -1880,6 +2145,17 @@ https://html.spec.whatwg.org/multipage/indices.html#application%2Frss%2Bxml
 
 1
 -
+application/speculationrules+json
+application/speculationrules+json
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/iana.html#application%2Fspeculationrules%2Bjson
+
+1
+-
 application/tracking-status+json
 application/tracking-status+json
 dfn
@@ -2014,8 +2290,8 @@ appmanifest
 appmanifest
 1
 current
-https://w3c.github.io/manifest/#dfn-applied
-1
+https://w3c.github.io/manifest/#dfn-apply
+
 1
 -
 applied
@@ -2025,8 +2301,30 @@ appmanifest
 appmanifest
 1
 snapshot
-https://www.w3.org/TR/appmanifest/#dfn-applied
+https://www.w3.org/TR/appmanifest/#dfn-apply
+
 1
+-
+applied display mode
+applied display mode
+dfn
+appmanifest
+appmanifest
+1
+current
+https://w3c.github.io/manifest/#dfn-applied-display-mode
+
+1
+-
+applied display mode
+applied display mode
+dfn
+appmanifest
+appmanifest
+1
+snapshot
+https://www.w3.org/TR/appmanifest/#dfn-applied-display-mode
+
 1
 -
 appliedentriesbitmap
@@ -2093,8 +2391,8 @@ appmanifest
 appmanifest
 1
 current
-https://w3c.github.io/manifest/#dfn-applied
-1
+https://w3c.github.io/manifest/#dfn-apply
+
 1
 -
 apply
@@ -2104,18 +2402,7 @@ appmanifest
 appmanifest
 1
 snapshot
-https://www.w3.org/TR/appmanifest/#dfn-applied
-1
-1
--
-apply rappor noise
-apply RAPPOR noise
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#apply-rappor-noise
+https://www.w3.org/TR/appmanifest/#dfn-apply
 
 1
 -
@@ -2185,17 +2472,6 @@ https://www.w3.org/TR/css-anchor-position-1/#apply-a-position-option
 
 1
 -
-apply any component ads target to a bid
-apply any component ads target to a bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#apply-any-component-ads-target-to-a-bid
-
-1
--
 apply any pending playback rate
 apply any pending playback rate
 dfn
@@ -2215,6 +2491,17 @@ web-animations
 1
 snapshot
 https://www.w3.org/TR/web-animations-1/#apply-any-pending-playback-rate
+
+1
+-
+apply extended scope
+apply extended scope
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-apply-extended-scope
 
 1
 -
@@ -2274,6 +2561,50 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/semantics.html#apply-link-options-from-parsed-header-attributes
+
+1
+-
+apply network conditions
+apply network conditions
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#apply-network-conditions
+
+1
+-
+apply network conditions
+apply network conditions
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#apply-network-conditions
+
+1
+-
+apply offsets to a segment
+apply offsets to a segment
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#apply-offsets-to-a-segment
+
+1
+-
+apply offsets to a segment
+apply offsets to a segment
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#apply-offsets-to-a-segment
 
 1
 -
@@ -2351,6 +2682,17 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#apply-source-location
+
+1
+-
+apply source location
+apply source location
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#apply-source-location
 
 1
 -
@@ -2534,8 +2876,8 @@ https://www.w3.org/TR/css-cascade-5/#apply
 1
 CSS
 -
-apply(target, thisArgument, argumentsList)
-apply(target, thisArgument, argumentsList)
+apply(target, thisArg, args)
+apply(target, thisArg, args)
 method
 ecmascript
 ecmascript
@@ -2683,8 +3025,8 @@ appmanifest
 appmanifest
 1
 current
-https://w3c.github.io/manifest/#dfn-applied
-1
+https://w3c.github.io/manifest/#dfn-apply
+
 1
 -
 applying
@@ -2694,9 +3036,31 @@ appmanifest
 appmanifest
 1
 snapshot
-https://www.w3.org/TR/appmanifest/#dfn-applied
+https://www.w3.org/TR/appmanifest/#dfn-apply
+
 1
+-
+appropriate
+appropriate
+dfn
+privacy-principles
+privacy-principles
 1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-appropriately
+1
+
+-
+appropriate
+appropriate
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-appropriately
+
+
 -
 appropriate end tag token
 appropriate end tag token
@@ -2741,6 +3105,28 @@ current
 https://html.spec.whatwg.org/multipage/scripting.html#appropriate-template-contents-owner-document
 
 1
+-
+appropriately
+appropriately
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-appropriately
+1
+
+-
+appropriately
+appropriately
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-appropriately
+
+
 -
 approved_clients
 approved_clients

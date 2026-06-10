@@ -1,3 +1,37 @@
+"dictation"
+"dictation"
+enum-value
+speech-api
+speech-api
+1
+current
+https://webaudio.github.io/web-speech-api/#dom-speechrecognitionquality-dictation
+1
+1
+SpeechRecognitionQuality
+-
+"digital-credentials-create"
+"digital-credentials-create"
+permission
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-digital-credentials-create
+1
+1
+-
+"digital-credentials-create"
+"digital-credentials-create"
+permission
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-digital-credentials-create
+1
+1
+-
 "digital-credentials-get"
 "digital-credentials-get"
 permission
@@ -5,9 +39,44 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dfn-digital-credentials-get
+https://w3c-fedid.github.io/digital-credentials/#dfn-digital-credentials-get
 1
 1
+-
+"digital-credentials-get"
+"digital-credentials-get"
+permission
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-digital-credentials-get
+1
+1
+-
+"digitalCredentials.setVirtualWalletBehavior"
+"digitalCredentials.setVirtualWalletBehavior"
+cddl-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-value-digitalcredentials-setvirtualwalletbehavior-digitalcredentials-setvirtualwalletbehavior
+1
+1
+digitalCredentials.SetVirtualWalletBehavior
+-
+"digitalCredentials.setVirtualWalletBehavior"
+"digitalCredentials.setVirtualWalletBehavior"
+cddl-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-value-digitalcredentials-setvirtualwalletbehavior-digitalcredentials-setvirtualwalletbehavior
+1
+1
+digitalCredentials.SetVirtualWalletBehavior
 -
 "direct"
 "direct"
@@ -23,6 +92,30 @@ AttestationConveyancePreference
 -
 "direct"
 "direct"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-sessiondirectproxyconfiguration-proxytype-direct
+
+1
+session.DirectProxyConfiguration/proxyType
+-
+"direct"
+"direct"
+enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardaccessmode-direct
+1
+1
+SmartCardAccessMode
+-
+"direct"
+"direct"
 enum-value
 webauthn-3
 webauthn
@@ -32,6 +125,18 @@ https://www.w3.org/TR/webauthn-3/#dom-attestationconveyancepreference-direct
 1
 1
 AttestationConveyancePreference
+-
+"direct"
+"direct"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-sessiondirectproxyconfiguration-proxytype-direct
+
+1
+session.DirectProxyConfiguration/proxyType
 -
 "direct-seller"
 "direct-seller"
@@ -180,7 +285,7 @@ UserVerificationRequirement
 "discrete"
 "discrete"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -192,14 +297,86 @@ ChannelInterpretation
 "discrete"
 "discrete"
 enum-value
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-channelinterpretation-discrete
+current
+https://webaudio.github.io/web-audio-api/#dom-channelinterpretation-discrete
 1
 1
 ChannelInterpretation
+-
+"discrete"
+"discrete"
+enum-value
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-channelinterpretation-discrete
+1
+1
+ChannelInterpretation
+-
+"discrete"
+"discrete"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelinterpretation-discrete
+1
+1
+ChannelInterpretation
+-
+"dismiss"
+"dismiss"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-sessionuserprompthandlertype-dismiss
+
+1
+session.UserPromptHandlerType
+-
+"dismiss"
+"dismiss"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-sessionuserprompthandlertype-dismiss
+
+1
+session.UserPromptHandlerType
+-
+"disown"
+"disown"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkgetdataparameters-disown
+
+1
+network.GetDataParameters
+-
+"disown"
+"disown"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkgetdataparameters-disown
+
+1
+network.GetDataParameters
 -
 "display-capture"
 "display-capture"
@@ -322,6 +499,17 @@ https://www.w3.org/TR/selectors-4/#disabled-pseudo
 1
 1
 -
+:disjoint
+:disjoint
+dfn
+owl-time
+owl-time
+1
+current
+https://w3c.github.io/sdw/time/#dfn-disjoint
+
+1
+-
 <diff/>
 <diff/>
 dfn
@@ -365,29 +553,6 @@ snapshot
 https://www.w3.org/TR/css-syntax-3/#typedef-dimension-token
 1
 1
--
-<dimension-unit>
-<dimension-unit>
-type
-css-values-5
-css-values
-5
-snapshot
-https://www.w3.org/TR/css-values-5/#typedef-dimension-unit
-1
-1
--
-<dimension-unit>
-<dimension-unit>
-value
-css-values-5
-css-values
-5
-snapshot
-https://www.w3.org/TR/css-values-5/#valdef-attr-dimension-unit
-1
-1
-attr()
 -
 <dimension>
 <dimension>
@@ -488,6 +653,17 @@ https://www.w3.org/TR/css-display-3/#typedef-display-box
 1
 1
 -
+<display-box>
+<display-box>
+type
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#typedef-display-box
+1
+1
+-
 <display-inside>
 <display-inside>
 type
@@ -518,6 +694,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#typedef-display-inside
+1
+1
+-
+<display-inside>
+<display-inside>
+type
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#typedef-display-inside
 1
 1
 -
@@ -554,6 +741,17 @@ https://www.w3.org/TR/css-display-3/#typedef-display-internal
 1
 1
 -
+<display-internal>
+<display-internal>
+type
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#typedef-display-internal
+1
+1
+-
 <display-legacy>
 <display-legacy>
 type
@@ -584,6 +782,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#typedef-display-legacy
+1
+1
+-
+<display-legacy>
+<display-legacy>
+type
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#typedef-display-legacy
 1
 1
 -
@@ -620,6 +829,17 @@ https://www.w3.org/TR/css-display-3/#typedef-display-listitem
 1
 1
 -
+<display-listitem>
+<display-listitem>
+type
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#typedef-display-listitem
+1
+1
+-
 <display-outside>
 <display-outside>
 type
@@ -650,6 +870,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#typedef-display-outside
+1
+1
+-
+<display-outside>
+<display-outside>
+type
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#typedef-display-outside
 1
 1
 -
@@ -722,11 +953,66 @@ https://www.w3.org/TR/rdf12-semantics/#dfn-d-interpretation
 did
 DID
 dfn
-vc-data-model-2.0
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-decentralized-identifiers
+1
+
+-
+did
+DID
+dfn
+vc-data-model-2.1
 vc-data-model
 1
 current
 https://w3c.github.io/vc-data-model/#dfn-decentralized-identifiers
+
+1
+-
+did
+DID
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-decentralized-identifiers
+
+
+-
+did
+DID
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-decentralized-identifiers
+
+1
+-
+did
+DID
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-decentralized-identifiers
+1
+
+-
+did
+DID
+dfn
+vc-data-model-2.0
+vc-data-model
+1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-decentralized-identifiers
 
 1
 -
@@ -741,6 +1027,776 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-decentralized-identifiers
 
 1
 -
+did
+DID
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-decentralized-identifiers
+
+1
+-
+did
+DID
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-decentralized-identifiers
+
+
+-
+did
+DID
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-decentralized-identifiers
+
+1
+-
+did url
+DID URL
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-urls
+1
+
+-
+did url
+DID URL
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-urls
+1
+
+-
+did url dereferencer
+DID URL dereferencer
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-url-dereferencers
+1
+
+-
+did url dereferencer
+DID URL dereferencer
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-url-dereferencers
+1
+
+-
+did url dereferencers
+DID URL dereferencers
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-url-dereferencers
+1
+
+-
+did url dereferencers
+DID URL dereferencers
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-url-dereferencers
+1
+
+-
+did url dereferencing
+DID URL dereferencing
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-url-dereferencing
+1
+
+-
+did url dereferencing
+DID URL dereferencing
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-url-dereferencing
+1
+
+-
+did urls
+DID URLs
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-urls
+1
+
+-
+did urls
+DID URLs
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-urls
+1
+
+-
+did controller
+DID controller
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-controllers
+1
+
+-
+did controller
+DID controller
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-controllers
+1
+
+-
+did delegate
+DID delegate
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-delegate
+1
+
+-
+did delegate
+DID delegate
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-delegate
+1
+
+-
+did document
+DID document
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-documents
+1
+
+-
+did document
+DID document
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-decentralized-identifier-documents
+
+
+-
+did document
+DID document
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-decentralized-identifier-documents
+
+1
+-
+did document
+DID document
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-documents
+1
+
+-
+did document
+DID document
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-decentralized-identifier-documents
+
+
+-
+did document
+DID document
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-decentralized-identifier-documents
+
+1
+-
+did documents
+DID documents
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-documents
+1
+
+-
+did documents
+DID documents
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-decentralized-identifier-documents
+
+
+-
+did documents
+DID documents
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-decentralized-identifier-documents
+
+1
+-
+did documents
+DID documents
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-documents
+1
+
+-
+did documents
+DID documents
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-decentralized-identifier-documents
+
+
+-
+did documents
+DID documents
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-decentralized-identifier-documents
+
+1
+-
+did fragment
+DID fragment
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-fragments
+1
+
+-
+did fragment
+DID fragment
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-fragments
+1
+
+-
+did fragments
+DID fragments
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-fragments
+1
+
+-
+did fragments
+DID fragments
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-fragments
+1
+
+-
+did method
+DID method
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-methods
+1
+
+-
+did method
+DID method
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-methods
+1
+
+-
+did method scheme
+DID method scheme
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-schemes
+1
+
+-
+did method scheme
+DID method scheme
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-schemes
+1
+
+-
+did method's
+DID method's
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-methods
+1
+
+-
+did method's
+DID method's
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-methods
+1
+
+-
+did methods
+DID methods
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-methods
+1
+
+-
+did methods
+DID methods
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-methods
+1
+
+-
+did path
+DID path
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-paths
+1
+
+-
+did path
+DID path
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-paths
+1
+
+-
+did paths
+DID paths
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-paths
+1
+
+-
+did paths
+DID paths
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-paths
+1
+
+-
+did queries
+DID queries
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-queries
+1
+
+-
+did queries
+DID queries
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-queries
+1
+
+-
+did query
+DID query
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-queries
+1
+
+-
+did query
+DID query
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-queries
+1
+
+-
+did resolution
+DID resolution
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-resolution
+1
+
+-
+did resolution
+DID resolution
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-resolution
+1
+
+-
+did resolver
+DID resolver
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-resolvers
+1
+
+-
+did resolver
+DID resolver
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-resolvers
+1
+
+-
+did resolver's
+DID resolver's
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-resolvers
+1
+
+-
+did resolver's
+DID resolver's
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-resolvers
+1
+
+-
+did resolvers
+DID resolvers
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-resolvers
+1
+
+-
+did resolvers
+DID resolvers
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-resolvers
+1
+
+-
+did scheme
+DID scheme
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-schemes
+1
+
+-
+did scheme
+DID scheme
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-schemes
+1
+
+-
+did schemes
+DID schemes
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-schemes
+1
+
+-
+did schemes
+DID schemes
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-schemes
+1
+
+-
+did subject
+DID subject
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-subjects
+1
+
+-
+did subject
+DID subject
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-subjects
+1
+
+-
+did subjects
+DID subjects
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-subjects
+1
+
+-
+did subjects
+DID subjects
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-subjects
+1
+
+-
+dids
+DIDs
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-decentralized-identifiers
+1
+
+-
+dids
+DIDs
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+current
+https://w3c.github.io/vc-data-model/#dfn-decentralized-identifiers
+
+1
+-
+dids
+DIDs
+dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-decentralized-identifiers
+
+
+-
+dids
+DIDs
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-decentralized-identifiers
+
+1
+-
+dids
+DIDs
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-decentralized-identifiers
+1
+
+-
 dids
 DIDs
 dfn
@@ -748,7 +1804,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-decentralized-identifiers
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-decentralized-identifiers
 
 1
 -
@@ -763,6 +1819,39 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-decentralized-identifiers
 
 1
 -
+dids
+DIDs
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-decentralized-identifiers
+
+1
+-
+dids
+DIDs
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-decentralized-identifiers
+
+
+-
+dids
+DIDs
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-decentralized-identifiers
+
+1
+-
 dialog
 dialog
 dfn
@@ -771,6 +1860,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-method-dialog
+
+1
+-
+dialog light dismiss
+dialog light dismiss
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-light-dismiss
 
 1
 -
@@ -807,6 +1907,28 @@ https://www.w3.org/TR/pub-manifest/#dfn-digital-publications
 
 1
 -
+digital twin
+Digital Twin
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-digital-twin
+
+
+-
+digital twin
+Digital Twin
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-digital-twin
+
+
+-
 digital credential
 digital credential
 dfn
@@ -814,7 +1936,40 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dfn-digital-credential
+https://w3c-fedid.github.io/digital-credentials/#dfn-digital-credential
+
+1
+-
+digital credential
+digital credential
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-digital-credential
+
+1
+-
+digital credential chooser
+digital credential chooser
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-digital-credential-chooser
+
+1
+-
+digital credential chooser
+digital credential chooser
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-digital-credential-chooser
 
 1
 -
@@ -847,7 +2002,150 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dom-digitalcredential
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential
+1
+1
+-
+DigitalCredential
+DigitalCredential
+interface
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredential
+1
+1
+-
+DigitalCredentialCreateRequest
+DigitalCredentialCreateRequest
+dictionary
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialcreaterequest
+1
+1
+-
+DigitalCredentialCreateRequest
+DigitalCredentialCreateRequest
+dictionary
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialcreaterequest
+1
+1
+-
+DigitalCredentialCreationOptions
+DigitalCredentialCreationOptions
+dictionary
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialcreationoptions
+1
+1
+-
+DigitalCredentialCreationOptions
+DigitalCredentialCreationOptions
+dictionary
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialcreationoptions
+1
+1
+-
+DigitalCredentialGetRequest
+DigitalCredentialGetRequest
+dictionary
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialgetrequest
+1
+1
+-
+DigitalCredentialGetRequest
+DigitalCredentialGetRequest
+dictionary
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialgetrequest
+1
+1
+-
+DigitalCredentialIssuanceProtocol
+DigitalCredentialIssuanceProtocol
+enum
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialissuanceprotocol
+1
+1
+-
+DigitalCredentialIssuanceProtocol
+DigitalCredentialIssuanceProtocol
+enum
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialissuanceprotocol
+1
+1
+-
+DigitalCredentialPresentationProtocol
+DigitalCredentialPresentationProtocol
+enum
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialpresentationprotocol
+1
+1
+-
+DigitalCredentialPresentationProtocol
+DigitalCredentialPresentationProtocol
+enum
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialpresentationprotocol
+1
+1
+-
+DigitalCredentialProtocol
+DigitalCredentialProtocol
+typedef
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialprotocol
+1
+1
+-
+DigitalCredentialProtocol
+DigitalCredentialProtocol
+typedef
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialprotocol
 1
 1
 -
@@ -858,18 +2156,18 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dom-digitalcredentialrequestoptions
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialrequestoptions
 1
 1
 -
-DigitalCredentialsRequest
-DigitalCredentialsRequest
+DigitalCredentialRequestOptions
+DigitalCredentialRequestOptions
 dictionary
 digital-credentials
 digital-credentials
 1
-current
-https://wicg.github.io/digital-credentials/#dom-digitalcredentialsrequest
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialrequestoptions
 1
 1
 -
@@ -915,28 +2213,6 @@ encrypted-media
 snapshot
 https://www.w3.org/TR/encrypted-media-2/#dfn-direct-individualization
 
-1
--
-DirectFromSellerSignalsForBuyer
-DirectFromSellerSignalsForBuyer
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-directfromsellersignalsforbuyer
-1
-1
--
-DirectFromSellerSignalsForSeller
-DirectFromSellerSignalsForSeller
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-directfromsellersignalsforseller
-1
 1
 -
 DirectionSetting
@@ -985,6 +2261,28 @@ https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html#directive
 1
 ECMAScript
 -
+directory
+directory
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-directory
+
+
+-
+directory
+directory
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-directory
+
+
+-
 directory id
 Directory ID
 dfn
@@ -1018,6 +2316,17 @@ https://html.spec.whatwg.org/multipage/media.html#text-track-disabled
 
 1
 -
+disabled
+disabled
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-disabled
+
+1
+-
 disabled state
 Disabled State
 dfn
@@ -1036,7 +2345,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#disclosure
+https://www.w3.org/policies/patent-policy/#disclosure
 
 1
 -
@@ -1047,7 +2356,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#disclosure-requests
+https://www.w3.org/policies/patent-policy/#disclosure-requests
 
 1
 -
@@ -1080,7 +2389,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#discontinuedREC
+https://www.w3.org/policies/process/#discontinuedREC
 1
 1
 -
@@ -1120,11 +2429,22 @@ https://webbluetoothcg.github.io/web-bluetooth/#discover-primary-service-by-serv
 discoverable
 discoverable
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#discoverable
+
+1
+-
+discoverable
+discoverable
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#discoverable
 
 1
 -
@@ -1183,6 +2503,105 @@ https://www.w3.org/TR/webauthn-3/#discoverablecredentialmetadata
 
 1
 -
+discoverer
+discoverer
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-wot-discoverer
+
+
+-
+discoverer
+discoverer
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-wot-discoverer
+
+
+-
+discoverer
+discoverer
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-discoverer
+
+
+-
+discoverer
+discoverer
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-wot-discoverer
+
+
+-
+discovery
+discovery
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-wot-discovery
+
+
+-
+discovery
+discovery
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-wot-discovery
+
+
+-
+discovery
+discovery
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-discovery
+
+
+-
+discovery
+discovery
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-wot-discovery
+
+
+-
+disjunction
+disjunction
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-Disjunction
+
+1
+-
 dismiss alert
 Dismiss Alert
 dfn
@@ -1213,6 +2632,17 @@ edit-context
 1
 current
 https://w3c.github.io/edit-context/#dfn-dispatch-character-bounds-update-event
+
+1
+-
+dispatch character bounds update event
+dispatch character bounds update event
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-dispatch-character-bounds-update-event
 
 1
 -
@@ -1249,6 +2679,17 @@ https://w3c.github.io/edit-context/#dfn-dispatch-text-format-update-event
 
 1
 -
+dispatch text format update event
+dispatch text format update event
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-dispatch-text-format-update-event
+
+1
+-
 dispatch text update event
 dispatch text update event
 dfn
@@ -1257,6 +2698,17 @@ edit-context
 1
 current
 https://w3c.github.io/edit-context/#dfn-dispatch-text-update-event
+
+1
+-
+dispatch text update event
+dispatch text update event
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-dispatch-text-update-event
 
 1
 -
@@ -1290,6 +2742,17 @@ webcodecs
 1
 snapshot
 https://www.w3.org/TR/webcodecs/#display-p3-color-space
+
+1
+-
+display feature
+display feature
+dfn
+css-viewport-1
+css-viewport
+1
+current
+https://drafts.csswg.org/css-viewport/#display-feature
 
 1
 -
@@ -1337,14 +2800,14 @@ https://www.w3.org/TR/screen-capture/#dom-displaymediastreamoptions
 1
 1
 -
-disregarding
-disregarding
+displayoverrideentryobject
+DisplayOverrideEntryObject
 dfn
-css-ui-4
-css-ui
-4
+manifest-incubations
+manifest-incubations
+1
 current
-https://drafts.csswg.org/css-ui-4/#disregarding
+https://wicg.github.io/manifest-incubations/#dfn-displayoverrideentryobject
 
 1
 -
@@ -1355,14 +2818,14 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#def-Dissent
+https://www.w3.org/policies/process/#def-Dissent
 
 1
 -
 DistanceModelType
 DistanceModelType
 enum
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1373,11 +2836,33 @@ https://webaudio.github.io/web-audio-api/#enumdef-distancemodeltype
 DistanceModelType
 DistanceModelType
 enum
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#enumdef-distancemodeltype
+1
+1
+-
+DistanceModelType
+DistanceModelType
+enum
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#enumdef-distancemodeltype
+https://www.w3.org/TR/webaudio-1.0/#enumdef-distancemodeltype
+1
+1
+-
+DistanceModelType
+DistanceModelType
+enum
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#enumdef-distancemodeltype
 1
 1
 -
@@ -1491,6 +2976,39 @@ https://www.w3.org/TR/encrypted-media-2/#dfn-distinctive
 
 1
 -
+distributed trace
+distributed trace
+dfn
+trace-context-2
+trace-context
+2
+current
+https://w3c.github.io/trace-context/#dfn-distributed-traces
+
+
+-
+distributed trace
+distributed trace
+dfn
+trace-context-2
+trace-context
+2
+snapshot
+https://www.w3.org/TR/trace-context-2/#dfn-distributed-traces
+
+
+-
+divpunctuator
+DivPunctuator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-DivPunctuator
+
+1
+-
 division by zero
 division by zero
 dfn
@@ -1578,6 +3096,18 @@ IdentityCredential
 [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
 [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
 method
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-discoverfromexternalsource-origin-options-sameoriginwithancestors
+1
+1
+DigitalCredential
+-
+[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
+[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
+method
 credential-management-1
 credential-management
 1
@@ -1598,18 +3128,6 @@ https://w3c.github.io/webauthn/#dom-publickeycredential-discoverfromexternalsour
 1
 1
 PublicKeyCredential
--
-[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
-[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
-method
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dfn-discoverfromexternalsource-origin-options-sameoriginwithancestors
-1
-1
-DigitalCredential
 -
 [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
 [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
@@ -1638,6 +3156,18 @@ Credential
 [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
 [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
 method
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-discoverfromexternalsource-origin-options-sameoriginwithancestors
+1
+1
+DigitalCredential
+-
+[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
+[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
+method
 fedcm-1
 fedcm
 1
@@ -1659,6 +3189,18 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-discoverfromexternalso
 1
 PublicKeyCredential
 -
+[[displayfeaturesoverride]]
+[[DisplayFeaturesOverride]]
+dfn
+css-viewport-1
+css-viewport
+1
+current
+https://drafts.csswg.org/css-viewport/#top-level-traversable-displayfeaturesoverride
+
+1
+top-level traversable
+-
 [[DisplaySurfaceType]]
 [[DisplaySurfaceType]]
 attribute
@@ -1667,7 +3209,7 @@ screen-capture
 1
 current
 https://w3c.github.io/mediacapture-screen-share/#dfn-displaysurfacetype
-
+1
 1
 CaptureController
 -
@@ -1679,7 +3221,7 @@ screen-capture
 1
 snapshot
 https://www.w3.org/TR/screen-capture/#dfn-displaysurfacetype
-
+1
 1
 CaptureController
 -
@@ -1694,6 +3236,18 @@ https://wicg.github.io/manifest-incubations/#dfn-didprompt
 
 1
 BeforeInstallPromptEvent
+-
+[[discovery]]
+[[discovery]]
+attribute
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-discovery
+1
+1
+DigitalCredential
 -
 [[discovery]]
 [[discovery]]
@@ -1722,18 +3276,6 @@ PublicKeyCredential
 [[discovery]]
 [[discovery]]
 attribute
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dfn-discovery
-1
-1
-DigitalCredential
--
-[[discovery]]
-[[discovery]]
-attribute
 credential-management-1
 credential-management
 1
@@ -1742,6 +3284,18 @@ https://www.w3.org/TR/credential-management-1/#dom-credential-discovery-slot
 1
 1
 Credential
+-
+[[discovery]]
+[[discovery]]
+attribute
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-discovery
+1
+1
+DigitalCredential
 -
 [[discovery]]
 [[discovery]]
@@ -2194,6 +3748,17 @@ https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-elem
 1
 1
 -
+dialog cleanup steps
+dialog cleanup steps
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-cleanup-steps
+
+1
+-
 dialog focusing steps
 dialog focusing steps
 dfn
@@ -2202,6 +3767,39 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-focusing-steps
+
+1
+-
+dialog pointerdown target
+dialog pointerdown target
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-pointerdown-target
+
+1
+-
+dialog setup steps
+dialog setup steps
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-setup-steps
+
+1
+-
+dialog toggle task tracker
+dialog toggle task tracker
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dialog-toggle-task-tracker
 
 1
 -
@@ -2261,6 +3859,50 @@ https://webidl.spec.whatwg.org/#dfn-dictionary-member
 1
 1
 -
+did controller(s)
+did controller(s)
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-controllers
+1
+
+-
+did controller(s)
+did controller(s)
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-controllers
+1
+
+-
+did controllers
+did controllers
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-controllers
+1
+
+-
+did controllers
+did controllers
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-controllers
+1
+
+-
 did not come from a signed exchange
 did not come from a signed exchange
 dfn
@@ -2273,6 +3915,72 @@ https://wicg.github.io/webpackage/loading.html#response-came-from-a-signed-excha
 1
 response
 -
+did service endpoint
+did service endpoint
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-service-endpoints
+1
+
+-
+did service endpoint
+did service endpoint
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-service-endpoints
+1
+
+-
+did service endpoints
+did service endpoints
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-did-service-endpoints
+1
+
+-
+did service endpoints
+did service endpoints
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-did-service-endpoints
+1
+
+-
+did trigger
+did trigger
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#did-trigger
+1
+1
+-
+did trigger
+did trigger
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#did-trigger
+1
+1
+-
 did-perform-automatic-track-selection
 did-perform-automatic-track-selection
 dfn
@@ -2281,6 +3989,72 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/media.html#did-perform-automatic-track-selection
+
+1
+-
+diddocument
+didDocument
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-diddocument
+
+1
+-
+diddocument
+didDocument
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-diddocument
+
+1
+-
+diddocumentmetadata
+didDocumentMetadata
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-diddocumentmetadata
+
+1
+-
+diddocumentmetadata
+didDocumentMetadata
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-diddocumentmetadata
+
+1
+-
+didresolutionmetadata
+didResolutionMetadata
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-didresolutionmetadata
+
+1
+-
+didresolutionmetadata
+didResolutionMetadata
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-didresolutionmetadata
 
 1
 -
@@ -2315,7 +4089,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#valdef-blend-mode-difference
+https://drafts.csswg.org/compositing-1/#valdef-blend-mode-difference
 1
 1
 <blend-mode>
@@ -2327,7 +4101,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-difference
+https://drafts.csswg.org/compositing-2/#valdef-blend-mode-difference
 1
 1
 <blend-mode>
@@ -2335,12 +4109,12 @@ https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-difference
 difference
 difference
 dfn
-sanitizer-api
-sanitizer-api
+infra
+infra
 1
 current
-https://wicg.github.io/sanitizer-api/#set-difference
-
+https://infra.spec.whatwg.org/#set-difference
+1
 1
 set
 -
@@ -2368,6 +4142,28 @@ https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set.prototype.diffe
 1
 Set
 -
+differential privacy
+differential privacy
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#differential-privacy
+
+1
+-
+differential privacy
+differential privacy
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#differential-privacy
+
+1
+-
 differs significantly
 differs significantly
 dfn
@@ -2386,7 +4182,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfediffuselightingelement-diffuseconstant
+https://drafts.csswg.org/filter-effects-1/#dom-svgfediffuselightingelement-diffuseconstant
 1
 1
 SVGFEDiffuseLightingElement
@@ -2398,7 +4194,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fediffuselighting-diffuseconstant
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fediffuselighting-diffuseconstant
 1
 1
 feDiffuseLighting
@@ -2430,9 +4226,9 @@ feDiffuseLighting
 digest
 digest
 dfn
+sri-2
 sri
-sri
-1
+2
 current
 https://w3c.github.io/webappsec-subresource-integrity/#digest
 
@@ -2441,48 +4237,83 @@ https://w3c.github.io/webappsec-subresource-integrity/#digest
 digest
 digest
 dfn
+sri-2
 sri
-sri
-1
+2
 snapshot
-https://www.w3.org/TR/SRI/#dfn-digest
+https://www.w3.org/TR/sri-2/#digest
 
 1
 -
-digest
-digest
+digest()
+digest()
+method
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-digest
+1
+1
+SubtleCrypto
+-
+digest()
+digest()
+method
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-digest
+1
+1
+SubtleCrypto
+-
+digest(algorithm, data)
+digest(algorithm, data)
+method
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-digest
+1
+1
+SubtleCrypto
+-
+digest(algorithm, data)
+digest(algorithm, data)
+method
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-digest
+1
+1
+SubtleCrypto
+-
+digestmultibase
+digestMultibase
 dfn
-webcryptoapi
-webcryptoapi
+vc-data-integrity-1.1
+vc-data-integrity
 1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-digest
+current
+https://w3c.github.io/vc-data-integrity/#dfn-digestmultibase
 
 1
 -
-digest()
-digest()
-method
-webcryptoapi
-webcryptoapi
+digestmultibase
+digestMultibase
+dfn
+vc-data-integrity-1.1
+vc-data-integrity
 1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-digest
+snapshot
+https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-digestmultibase
+
 1
-1
-SubtleCrypto
--
-digest(algorithm, data)
-digest(algorithm, data)
-method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-digest
-1
-1
-SubtleCrypto
 -
 digestmultibase
 digestMultibase
@@ -2491,7 +4322,7 @@ vc-data-integrity
 vc-data-integrity
 1
 current
-https://w3c.github.io/vc-data-integrity/#dfn-digestmultibase
+https://www.w3.org/TR/vc-data-integrity/#dfn-digestmultibase
 
 1
 -
@@ -2535,11 +4366,69 @@ digital-credentials
 digital-credentials
 1
 current
-https://wicg.github.io/digital-credentials/#dom-credentialrequestoptions-digital
+https://w3c-fedid.github.io/digital-credentials/#dom-credentialcreationoptions-digital
+1
+1
+CredentialCreationOptions
+-
+digital
+digital
+dict-member
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-credentialrequestoptions-digital
 1
 1
 CredentialRequestOptions
 -
+digital
+digital
+dict-member
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-credentialcreationoptions-digital
+1
+1
+CredentialCreationOptions
+-
+digital
+digital
+dict-member
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-credentialrequestoptions-digital
+1
+1
+CredentialRequestOptions
+-
+digital button value
+digital button value
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-digital-button-value
+
+1
+-
+digital button value
+digital button value
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-digital-button-value
+
+1
+-
 digital publication's
 digital publication's
 dfn
@@ -2598,11 +4487,55 @@ https://w3c.github.io/miniapp-packaging/#dfn-signature
 digital signature
 digital signature
 dfn
+vc-json-schema
+vc-json-schema
+1
+current
+https://w3c.github.io/vc-json-schema/#dfn-digital-signature
+
+
+-
+digital signature
+digital signature
+dfn
+vc-render-method
+vc-render-method
+1
+current
+https://w3c.github.io/vc-render-method/#dfn-digital-signature
+
+1
+-
+digital signature
+digital signature
+dfn
 miniapp-packaging
 miniapp-packaging
 1
 snapshot
 https://www.w3.org/TR/miniapp-packaging/#dfn-signature
+
+1
+-
+digital signature
+digital signature
+dfn
+vc-json-schema
+vc-json-schema
+1
+snapshot
+https://www.w3.org/TR/vc-json-schema/#dfn-digital-signature
+
+
+-
+digital signature
+digital signature
+dfn
+vc-render-method
+vc-render-method
+1
+snapshot
+https://www.w3.org/TR/vc-render-method/#dfn-digital-signature
 
 1
 -
@@ -2628,12 +4561,100 @@ https://www.w3.org/TR/miniapp-packaging/#dfn-signature
 
 1
 -
+digitalCredentials.SetVirtualWalletBehavior
+digitalCredentials.SetVirtualWalletBehavior
+cddl-type
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-type-digitalcredentials-setvirtualwalletbehavior
+1
+1
+-
+digitalCredentials.SetVirtualWalletBehavior
+digitalCredentials.SetVirtualWalletBehavior
+cddl-type
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-type-digitalcredentials-setvirtualwalletbehavior
+1
+1
+-
+digitalCredentials.SetVirtualWalletBehaviorParameters
+digitalCredentials.SetVirtualWalletBehaviorParameters
+cddl-type
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-type-digitalcredentials-setvirtualwalletbehaviorparameters
+1
+1
+-
+digitalCredentials.SetVirtualWalletBehaviorParameters
+digitalCredentials.SetVirtualWalletBehaviorParameters
+cddl-type
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-type-digitalcredentials-setvirtualwalletbehaviorparameters
+1
+1
+-
+digitalCredentials.SetVirtualWalletBehaviorResult
+digitalCredentials.SetVirtualWalletBehaviorResult
+cddl-type
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-type-digitalcredentials-setvirtualwalletbehaviorresult
+1
+1
+-
+digitalCredentials.SetVirtualWalletBehaviorResult
+digitalCredentials.SetVirtualWalletBehaviorResult
+cddl-type
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-type-digitalcredentials-setvirtualwalletbehaviorresult
+1
+1
+-
+digitalCredentials.VirtualWalletAction
+digitalCredentials.VirtualWalletAction
+cddl-type
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#cddl-type-digitalcredentials-virtualwalletaction
+1
+1
+-
+digitalCredentials.VirtualWalletAction
+digitalCredentials.VirtualWalletAction
+cddl-type
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#cddl-type-digitalcredentials-virtualwalletaction
+1
+1
+-
 digitizer
 digitizer
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-digitizer
 
@@ -2645,8 +4666,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-digitizer
+
+
+-
+digitizer
+digitizer
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-digitizer
+
+
+-
+digitizer
+digitizer
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-digitizer
 
 
 -
@@ -3016,6 +5059,127 @@ https://www.w3.org/TR/css-color-4/#valdef-color-dimgrey
 1
 <color>
 <named-color>
+-
+dip-header
+dip-header
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-header
+
+1
+-
+dip-isolate-and-credentialless
+dip-isolate-and-credentialless
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-isolate-and-credentialless
+
+1
+-
+dip-isolate-and-require-corp
+dip-isolate-and-require-corp
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-isolate-and-require-corp
+
+1
+-
+dip-none
+dip-none
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-none
+
+1
+-
+dip-report-only-endpoint
+dip-report-only-endpoint
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-report-only-endpoint
+
+1
+-
+dip-report-only-header
+dip-report-only-header
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-report-only-header
+
+1
+-
+dip-report-only-value
+dip-report-only-value
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-report-only-value
+
+1
+-
+dip-reporting-endpoint
+dip-reporting-endpoint
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-reporting-endpoint
+
+1
+-
+dip-struct
+dip-struct
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-struct
+
+1
+-
+dip-struct-value
+dip-struct-value
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-struct-value
+
+1
+-
+dip-value
+dip-value
+dfn
+document-isolation-policy
+document-isolation-policy
+1
+current
+https://wicg.github.io/document-isolation-policy/#dip-value
+
+1
 -
 dir
 dir
@@ -3412,15 +5576,15 @@ AttestationConveyancePreference
 -
 direct
 direct
-enum-value
-web-smart-card
-web-smart-card
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/web-smart-card/#dom-smartcardaccessmode-direct
+https://w3c.github.io/webdriver-bidi/#cddl-value-sessiondirectproxyconfiguration-proxytype-direct
+
 1
-1
-SmartCardAccessMode
+session.DirectProxyConfiguration/proxyType
 -
 direct
 direct
@@ -3434,6 +5598,18 @@ https://www.w3.org/TR/webauthn-3/#dom-attestationconveyancepreference-direct
 1
 AttestationConveyancePreference
 -
+direct
+direct
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-sessiondirectproxyconfiguration-proxytype-direct
+
+1
+session.DirectProxyConfiguration/proxyType
+-
 direct eval
 direct eval
 dfn
@@ -3458,39 +5634,16 @@ https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-funct
 1
 ECMAScript
 -
-direct from seller signals
-direct from seller signals
+direct manipulation
+direct manipulation
 dfn
-turtledove
-turtledove
-1
+pointerevents4
+pointerevents
+4
 current
-https://wicg.github.io/turtledove/#direct-from-seller-signals
+https://w3c.github.io/pointerevents/#dfn-direct-manipulation
 
-1
--
-direct from seller signals header ad slot
-direct from seller signals header ad slot
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-direct-from-seller-signals-header-ad-slot
 
-1
-auction config
--
-direct from seller signals key
-direct from seller signals key
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#direct-from-seller-signals-key
-
-1
 -
 direct manipulation
 direct manipulation
@@ -3499,7 +5652,7 @@ pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-direct-manipulation
+https://www.w3.org/TR/pointerevents3/#dfn-direct-manipulation
 
 
 -
@@ -3514,12 +5667,23 @@ https://www.w3.org/TR/pointerevents3/#dfn-direct-manipulation
 
 
 -
+direct manipulation
+direct manipulation
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-direct-manipulation
+
+
+-
 direct manipulation behavior
 direct manipulation behavior
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-direct-manipulation-behavior
 
@@ -3531,8 +5695,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-direct-manipulation-behavior
+
+1
+-
+direct manipulation behavior
+direct manipulation behavior
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-direct-manipulation-behavior
+
+1
+-
+direct manipulation behavior
+direct manipulation behavior
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-direct-manipulation-behavior
 
 1
 -
@@ -3560,29 +5746,17 @@ https://wicg.github.io/direct-sockets/#dfn-direct-sockets
 1
 policy-controlled feature
 -
-direct-sockets-private
-direct-sockets-private
+direct-sockets-multicast
+direct-sockets-multicast
 dfn
 direct-sockets
 direct-sockets
 1
 current
-https://wicg.github.io/direct-sockets/#dfn-direct-sockets-private
+https://wicg.github.io/direct-sockets/#dfn-direct-sockets-multicast
 
 1
 policy-controlled feature
--
-directFromSellerSignalsHeaderAdSlot
-directFromSellerSignalsHeaderAdSlot
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadconfig-directfromsellersignalsheaderadslot
-1
-1
-AuctionAdConfig
 -
 directed progress
 directed progress
@@ -3631,9 +5805,9 @@ https://drafts.csswg.org/css-writing-modes-4/#propdef-direction
 direction
 direction
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-direction
 1
@@ -3763,6 +5937,18 @@ https://w3c.github.io/IndexedDB/#dom-idbcursor-direction
 1
 1
 IDBCursor
+-
+direction
+direction
+dict-member
+indexeddb-3
+indexeddb
+3
+current
+https://w3c.github.io/IndexedDB/#dom-idbgetalloptions-direction
+1
+1
+IDBGetAllOptions
 -
 direction
 direction
@@ -3933,31 +6119,9 @@ direction
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#propdef-direction
-1
-1
--
-direction
-direction
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#propdef-direction
-1
-1
--
-direction
-direction
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visuren.html#propdef-direction
+https://www.w3.org/TR/CSS2/visuren.html#propdef-direction
 1
 1
 -
@@ -3984,6 +6148,18 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-direction
 1
 1
 IDBCursor
+-
+direction
+direction
+dict-member
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#dom-idbgetalloptions-direction
+1
+1
+IDBGetAllOptions
 -
 direction
 direction
@@ -4194,7 +6370,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/paths.html#TermPathSegmentEndDirection
+https://w3c.github.io/svgwg/svg2-draft/paths.html#TermPathSegmentEndDirection
 
 1
 -
@@ -4216,7 +6392,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/paths.html#TermPathSegmentStartDirection
+https://w3c.github.io/svgwg/svg2-draft/paths.html#TermPathSegmentStartDirection
 
 1
 -
@@ -4260,7 +6436,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/paths.html#TermPathDirection
+https://w3c.github.io/svgwg/svg2-draft/paths.html#TermPathDirection
 
 1
 -
@@ -4289,11 +6465,22 @@ https://html.spec.whatwg.org/multipage/media.html#direction-of-playback
 direction-agnostic size
 direction-agnostic size
 dfn
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#direction-agnostic-size
+https://drafts.csswg.org/css-shapes-1/#direction-agnostic-size
+
+1
+-
+direction-agnostic size
+direction-agnostic size
+dfn
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#direction-agnostic-size
 
 1
 -
@@ -4352,6 +6539,17 @@ https://drafts.csswg.org/css-logical-1/#directional-keyword
 
 1
 -
+directional keyword
+directional keyword
+dfn
+css-logical-1
+css-logical
+1
+snapshot
+https://www.w3.org/TR/css-logical-1/#directional-keyword
+
+1
+-
 directional language-tagged string
 directional language-tagged string
 dfn
@@ -4360,7 +6558,7 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-dir-lang-string
-
+1
 1
 -
 directional language-tagged string
@@ -4371,7 +6569,7 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-dir-lang-string
-
+1
 1
 -
 directional override
@@ -4558,10 +6756,10 @@ csp3
 csp
 3
 current
-https://w3c.github.io/webappsec-csp/#policy-directive-set
+https://w3c.github.io/webappsec-csp/#content-security-policy-object-directive-set
 1
 1
-policy
+content security policy object
 -
 directive set
 directive set
@@ -4570,10 +6768,10 @@ csp3
 csp
 3
 snapshot
-https://www.w3.org/TR/CSP3/#policy-directive-set
+https://www.w3.org/TR/CSP3/#content-security-policy-object-directive-set
 1
 1
-policy
+content security policy object
 -
 directive state
 directive state
@@ -4906,7 +7104,7 @@ NavigationPreloadManager
 disableNormalization
 disableNormalization
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4918,7 +7116,19 @@ ConvolverOptions
 disableNormalization
 disableNormalization
 dict-member
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-convolveroptions-disablenormalization
+1
+1
+ConvolverOptions
+-
+disableNormalization
+disableNormalization
+dict-member
+webaudio-1.0
 webaudio
 1
 current
@@ -4930,11 +7140,23 @@ PeriodicWaveConstraints
 disableNormalization
 disableNormalization
 dict-member
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-periodicwaveconstraints-disablenormalization
+1
+1
+PeriodicWaveConstraints
+-
+disableNormalization
+disableNormalization
+dict-member
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-convolveroptions-disablenormalization
+https://www.w3.org/TR/webaudio-1.0/#dom-convolveroptions-disablenormalization
 1
 1
 ConvolverOptions
@@ -4942,11 +7164,35 @@ ConvolverOptions
 disableNormalization
 disableNormalization
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-periodicwaveconstraints-disablenormalization
+https://www.w3.org/TR/webaudio-1.0/#dom-periodicwaveconstraints-disablenormalization
+1
+1
+PeriodicWaveConstraints
+-
+disableNormalization
+disableNormalization
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-convolveroptions-disablenormalization
+1
+1
+ConvolverOptions
+-
+disableNormalization
+disableNormalization
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-periodicwaveconstraints-disablenormalization
 1
 1
 PeriodicWaveConstraints
@@ -4998,6 +7244,18 @@ https://www.w3.org/TR/remote-playback/#dom-htmlmediaelement-disableremoteplaybac
 1
 1
 HTMLMediaElement
+-
+disableUntrustedNetwork()
+disableUntrustedNetwork()
+method
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#dom-fence-disableuntrustednetwork
+1
+1
+Fence
 -
 disabled
 disabled
@@ -5054,21 +7312,6 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-
 -
 disabled
 disabled
-attribute
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled
-1
-1
-HTMLInputElement
-HTMLButtonElement
-HTMLSelectElement
-HTMLTextAreaElement
--
-disabled
-disabled
 element-attr
 html
 html
@@ -5121,6 +7364,18 @@ html
 html
 1
 current
+https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-disabled
+1
+1
+HTMLButtonElement
+-
+disabled
+disabled
+attribute
+html
+html
+1
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#dom-fieldset-disabled
 1
 1
@@ -5149,6 +7404,53 @@ https://html.spec.whatwg.org/multipage/form-elements.html#dom-option-disabled
 1
 1
 HTMLOptionElement
+-
+disabled
+disabled
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#dom-select-disabled
+1
+1
+HTMLSelectElement
+-
+disabled
+disabled
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#dom-textarea-disabled
+1
+1
+HTMLTextAreaElement
+-
+disabled
+disabled
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#selectedcontent-disabled
+
+1
+-
+disabled
+disabled
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/input.html#dom-fe-disabled
+1
+1
+HTMLInputElement
 -
 disabled
 disabled
@@ -5279,16 +7581,29 @@ https://www.w3.org/TR/cssom-1/#concept-css-style-sheet-disabled-flag
 1
 CSSStyleSheet
 -
-disallow further import maps
-disallow further import maps
+disabled for this tree
+disabled for this tree
 dfn
-html
-html
+fenced-frame
+fenced-frame
 1
 current
-https://html.spec.whatwg.org/multipage/webappapis.html#disallow-further-import-maps
-
+https://wicg.github.io/fenced-frame/#untrusted-network-status-disabled-for-this-tree
 1
+1
+untrusted network status
+-
+disabled for this tree and fenced subtrees
+disabled for this tree and fenced subtrees
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#untrusted-network-status-disabled-for-this-tree-and-fenced-subtrees
+1
+1
+untrusted network status
 -
 disallow modification flag
 disallow modification flag
@@ -5396,6 +7711,30 @@ https://www.w3.org/TR/css-animation-worklet-1/#disassociate-animator-instance-of
 
 1
 -
+disassociation algorithm
+disassociation algorithm
+abstract-op
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#abstract-opdef-rtcrtptransform-disassociation-algorithm
+1
+1
+RTCRtpTransform
+-
+disassociation algorithm
+disassociation algorithm
+abstract-op
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-rtcrtptransform-disassociation-algorithm
+1
+1
+RTCRtpTransform
+-
 disc
 disc
 value
@@ -5411,9 +7750,9 @@ https://drafts.csswg.org/css-counter-styles-3/#disc
 disc
 disc
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-disc
 1
@@ -5425,20 +7764,9 @@ disc
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-disc
-1
-1
--
-disc
-disc
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-disc
+https://www.w3.org/TR/CSS2/generate.html#value-def-disc
 1
 1
 -
@@ -5513,17 +7841,6 @@ https://gpuweb.github.io/gpuweb/wgsl/#syntax_kw-discard
 
 1
 syntax_kw
--
-discard
-discard
-element
-svg-animations
-svg-animations
-1
-current
-https://svgwg.org/specs/animations/#elementdef-discard
-1
-1
 -
 discard
 discard
@@ -5786,6 +8103,30 @@ https://www.w3.org/TR/service-workers/#service-worker-client-discarded-flag
 1
 service worker client
 -
+discardedFrames
+discardedFrames
+attribute
+mediacapture-transform
+mediacapture-transform
+1
+current
+https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-discardedframes
+1
+1
+MediaStreamTrackProcessor
+-
+discardedFrames
+discardedFrames
+attribute
+mediacapture-transform
+mediacapture-transform
+1
+snapshot
+https://www.w3.org/TR/mediacapture-transform/#dom-mediastreamtrackprocessor-discardedframes
+1
+1
+MediaStreamTrackProcessor
+-
 dischargingTime
 dischargingTime
 attribute
@@ -5839,7 +8180,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#disclosure-requirement
+https://www.w3.org/policies/patent-policy/#disclosure-requirement
 
 1
 -
@@ -5891,6 +8232,18 @@ https://www.w3.org/TR/css-counter-styles-3/#disclosure-open
 1
 <counter-style-name>
 -
+disclosure_shown_for
+disclosure_shown_for
+argument
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-id_assertion_endpoint_request-disclosure_shown_for
+1
+
+id_assertion_endpoint_request
+-
 disclosure_text_shown
 disclosure_text_shown
 argument
@@ -5900,7 +8253,7 @@ fedcm
 current
 https://w3c-fedid.github.io/FedCM/#dom-id_assertion_endpoint_request-disclosure_text_shown
 1
-1
+
 id_assertion_endpoint_request
 -
 disclosure_text_shown
@@ -6041,18 +8394,6 @@ ResizeObserver
 disconnect()
 disconnect()
 method
-fedcm-1
-fedcm
-1
-current
-https://w3c-fedid.github.io/FedCM/#dom-identitycredential-disconnect
-1
-1
-IdentityCredential
--
-disconnect()
-disconnect()
-method
 intersection-observer
 intersection-observer
 1
@@ -6101,7 +8442,19 @@ ReportingObserver
 disconnect()
 disconnect()
 method
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect
+1
+1
+AudioNode
+-
+disconnect()
+disconnect()
+method
+webaudio-1.1
 webaudio
 1
 current
@@ -6209,11 +8562,23 @@ ResizeObserver
 disconnect()
 disconnect()
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect
+1
+1
+AudioNode
+-
+disconnect()
+disconnect()
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect
 1
 1
 AudioNode
@@ -6221,7 +8586,7 @@ AudioNode
 disconnect(destinationNode)
 disconnect(destinationNode)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6233,11 +8598,35 @@ AudioNode
 disconnect(destinationNode)
 disconnect(destinationNode)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect-destinationnode
+1
+1
+AudioNode
+-
+disconnect(destinationNode)
+disconnect(destinationNode)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect-destinationnode
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect-destinationnode
+1
+1
+AudioNode
+-
+disconnect(destinationNode)
+disconnect(destinationNode)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect-destinationnode
 1
 1
 AudioNode
@@ -6245,7 +8634,7 @@ AudioNode
 disconnect(destinationNode, output)
 disconnect(destinationNode, output)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6257,11 +8646,35 @@ AudioNode
 disconnect(destinationNode, output)
 disconnect(destinationNode, output)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect-destinationnode-output
+1
+1
+AudioNode
+-
+disconnect(destinationNode, output)
+disconnect(destinationNode, output)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect-destinationnode-output
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect-destinationnode-output
+1
+1
+AudioNode
+-
+disconnect(destinationNode, output)
+disconnect(destinationNode, output)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect-destinationnode-output
 1
 1
 AudioNode
@@ -6269,7 +8682,7 @@ AudioNode
 disconnect(destinationNode, output, input)
 disconnect(destinationNode, output, input)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6281,11 +8694,35 @@ AudioNode
 disconnect(destinationNode, output, input)
 disconnect(destinationNode, output, input)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect-destinationnode-output-input
+1
+1
+AudioNode
+-
+disconnect(destinationNode, output, input)
+disconnect(destinationNode, output, input)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect-destinationnode-output-input
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect-destinationnode-output-input
+1
+1
+AudioNode
+-
+disconnect(destinationNode, output, input)
+disconnect(destinationNode, output, input)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect-destinationnode-output-input
 1
 1
 AudioNode
@@ -6293,7 +8730,7 @@ AudioNode
 disconnect(destinationParam)
 disconnect(destinationParam)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6305,11 +8742,35 @@ AudioNode
 disconnect(destinationParam)
 disconnect(destinationParam)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect-destinationparam
+1
+1
+AudioNode
+-
+disconnect(destinationParam)
+disconnect(destinationParam)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect-destinationparam
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect-destinationparam
+1
+1
+AudioNode
+-
+disconnect(destinationParam)
+disconnect(destinationParam)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect-destinationparam
 1
 1
 AudioNode
@@ -6317,7 +8778,7 @@ AudioNode
 disconnect(destinationParam, output)
 disconnect(destinationParam, output)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6329,11 +8790,35 @@ AudioNode
 disconnect(destinationParam, output)
 disconnect(destinationParam, output)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect-destinationparam-output
+1
+1
+AudioNode
+-
+disconnect(destinationParam, output)
+disconnect(destinationParam, output)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect-destinationparam-output
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect-destinationparam-output
+1
+1
+AudioNode
+-
+disconnect(destinationParam, output)
+disconnect(destinationParam, output)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect-destinationparam-output
 1
 1
 AudioNode
@@ -6377,7 +8862,7 @@ IdentityCredential
 disconnect(output)
 disconnect(output)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -6389,11 +8874,35 @@ AudioNode
 disconnect(output)
 disconnect(output)
 method
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect-output
+1
+1
+AudioNode
+-
+disconnect(output)
+disconnect(output)
+method
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audionode-disconnect-output
+https://www.w3.org/TR/webaudio-1.0/#dom-audionode-disconnect-output
+1
+1
+AudioNode
+-
+disconnect(output)
+disconnect(output)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audionode-disconnect-output
 1
 1
 AudioNode
@@ -6588,6 +9097,28 @@ https://www.w3.org/TR/mediacapture-region/#dfn-disconnected-crop-session-target
 
 1
 -
+discontiguous
+discontiguous
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#discontiguous
+
+1
+-
+discontiguous
+discontiguous
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#discontiguous
+
+1
+-
 discouraged
 discouraged
 enum-value
@@ -6660,6 +9191,18 @@ https://www.w3.org/TR/webauthn-3/#discoverable-credential-capable
 -
 discrete
 discrete
+attr-value
+filter-effects-1
+filter-effects
+1
+current
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-type-discrete
+1
+1
+type
+-
+discrete
+discrete
 dfn
 web-animations-1
 web-animations
@@ -6671,20 +9214,20 @@ https://drafts.csswg.org/web-animations-1/#discrete
 -
 discrete
 discrete
-attr-value
-filter-effects-1
-filter-effects
+enum-value
+webaudio-1.0
+webaudio
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-type-discrete
+https://webaudio.github.io/web-audio-api/#dom-channelinterpretation-discrete
 1
 1
-type
+ChannelInterpretation
 -
 discrete
 discrete
 enum-value
-webaudio
+webaudio-1.1
 webaudio
 1
 current
@@ -6719,11 +9262,23 @@ https://www.w3.org/TR/web-animations-1/#discrete
 discrete
 discrete
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelinterpretation-discrete
+https://www.w3.org/TR/webaudio-1.0/#dom-channelinterpretation-discrete
+1
+1
+ChannelInterpretation
+-
+discrete
+discrete
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelinterpretation-discrete
 1
 1
 ChannelInterpretation
@@ -6763,6 +9318,62 @@ https://html.spec.whatwg.org/multipage/web-messaging.html#disentangle
 
 1
 -
+disloyal
+disloyal
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-disloyalty
+1
+
+-
+disloyal
+disloyal
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-disloyalty
+
+
+-
+disloyalty
+disloyalty
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-disloyalty
+1
+
+-
+disloyalty
+disloyalty
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-disloyalty
+
+
+-
+dismiss
+dismiss
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-sessionuserprompthandlertype-dismiss
+
+1
+session.UserPromptHandlerType
+-
 dismiss
 dismiss
 dfn
@@ -6776,14 +9387,15 @@ https://w3c.github.io/webdriver/#dfn-dismissed
 -
 dismiss
 dismiss
-dfn
-w3c-process
-w3c-process
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://www.w3.org/Consortium/Process/#dismissed
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-sessionuserprompthandlertype-dismiss
 
 1
+session.UserPromptHandlerType
 -
 dismiss
 dismiss
@@ -6796,6 +9408,17 @@ https://www.w3.org/TR/webdriver2/#dfn-dismissed
 
 1
 -
+dismiss
+dismiss
+dfn
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#dismissed
+
+1
+-
 dismissal
 dismissal
 dfn
@@ -6803,7 +9426,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#dismissed
+https://www.w3.org/policies/process/#dismissed
 
 1
 -
@@ -6833,22 +9456,22 @@ AppBannerPromptOutcome
 dismissed
 dismissed
 dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#dismissed
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-dismissed
 
 1
 -
 dismissed
 dismissed
 dfn
-webdriver2
-webdriver
-2
-snapshot
-https://www.w3.org/TR/webdriver2/#dfn-dismissed
+w3c-process
+w3c-process
+1
+current
+https://www.w3.org/policies/process/#dismissed
 
 1
 -
@@ -6874,6 +9497,30 @@ https://www.w3.org/TR/webdriver2/#dfn-dismissed
 
 1
 -
+disown
+disown
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkgetdataparameters-disown
+
+1
+network.GetDataParameters
+-
+disown
+disown
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkgetdataparameters-disown
+
+1
+network.GetDataParameters
+-
 dispatch
 dispatch
 dfn
@@ -6892,7 +9539,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-dispatch-nfc-content
+https://w3c-cg.github.io/web-nfc/#dfn-dispatch-nfc-content
 
 1
 -
@@ -7238,6 +9885,41 @@ https://dom.spec.whatwg.org/#dispatch-flag
 1
 Event
 -
+dispatch onlocation
+dispatch onlocation
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#dispatch-onlocation
+
+1
+-
+dispatch onpromptaction
+dispatch onpromptaction
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#powerfulfeatureobserver-dispatch-onpromptaction
+
+1
+PowerfulFeatureObserver
+-
+dispatch onpromptdismiss
+dispatch onpromptdismiss
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#powerfulfeatureobserver-dispatch-onpromptdismiss
+
+1
+PowerfulFeatureObserver
+-
 dispatch pending event timing entries
 dispatch pending Event Timing entries
 dfn
@@ -7266,32 +9948,8 @@ dfn
 css-scroll-snap-2
 css-scroll-snap
 2
-current
-https://drafts.csswg.org/css-scroll-snap-2/#document-dispatch-pending-scrollsnapchange-events
-1
-1
-Document
--
-dispatch pending scrollsnapchange events
-dispatch pending scrollsnapchange events
-dfn
-css-scroll-snap-2
-css-scroll-snap
-2
 snapshot
 https://www.w3.org/TR/css-scroll-snap-2/#document-dispatch-pending-scrollsnapchange-events
-1
-1
-Document
--
-dispatch pending scrollsnapchanging events
-dispatch pending scrollsnapchanging events
-dfn
-css-scroll-snap-2
-css-scroll-snap
-2
-current
-https://drafts.csswg.org/css-scroll-snap-2/#document-dispatch-pending-scrollsnapchanging-events
 1
 1
 Document
@@ -7384,6 +10042,42 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-dispatch-tick-actions
 
 1
+-
+dispatch timestamp
+dispatch timestamp
+dfn
+autofill-event
+autofill-event
+1
+current
+https://wicg.github.io/autofill-event/#autofillevent-dispatch-timestamp
+
+1
+AutofillEvent
+-
+dispatch(graph, inputs, outputs)
+dispatch(graph, inputs, outputs)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcontext-dispatch
+1
+1
+MLContext
+-
+dispatch(graph, inputs, outputs)
+dispatch(graph, inputs, outputs)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcontext-dispatch
+1
+1
+MLContext
 -
 dispatchEvent(event)
 dispatchEvent(event)
@@ -7642,9 +10336,9 @@ shape-inside
 display
 display
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-display
 1
@@ -7699,34 +10393,24 @@ https://wicg.github.io/content-index/spec/#display
 -
 display
 display
-property
-css2
-css
+dfn
+manifest-incubations
+manifest-incubations
 1
 current
-https://www.w3.org/TR/CSS21/visuren.html#propdef-display
+https://wicg.github.io/manifest-incubations/#dfn-display
+
 1
-1
+DisplayOverrideEntryObject
 -
 display
 display
 property
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#propdef-display
-1
-1
--
-display
-display
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visuren.html#propdef-display
+https://www.w3.org/TR/CSS2/visuren.html#propdef-display
 1
 1
 -
@@ -7750,6 +10434,17 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#propdef-display
+1
+1
+-
+display
+display
+property
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#propdef-display
 1
 1
 -
@@ -7788,6 +10483,17 @@ https://www.w3.org/TR/mathml-core/#dfn-display
 1
 1
 math
+-
+display feature override
+display feature override
+dfn
+css-viewport-1
+css-viewport
+1
+current
+https://drafts.csswg.org/css-viewport/#display-feature-override
+
+1
 -
 display frame rate
 display frame rate
@@ -7833,15 +10539,15 @@ https://www.w3.org/TR/appmanifest/#dfn-display-mode
 1
 1
 -
-display mode
-display mode
+display mode extensions
+display mode extensions
 dfn
-mediaqueries-5
-mediaqueries
-5
-snapshot
-https://www.w3.org/TR/mediaqueries-5/#display-mode
+manifest-incubations
+manifest-incubations
 1
+current
+https://wicg.github.io/manifest-incubations/#dfn-display-mode-extensions
+
 1
 -
 display modes list
@@ -7869,22 +10575,22 @@ https://www.w3.org/TR/appmanifest/#dfn-display-modes-list
 display name
 display name
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#display-name
+https://w3c.github.io/openscreenprotocol/network.html#display-name
 
 1
 -
 display name
 display name
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#display-name
+https://www.w3.org/TR/openscreen-network/#display-name
 
 1
 -
@@ -7896,6 +10602,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#display-no-plugin
+
+1
+-
+display override entry
+display override entry
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-display-override-entry
 
 1
 -
@@ -8020,6 +10737,17 @@ https://www.w3.org/TR/css-display-3/#display-type
 1
 1
 -
+display type
+display type
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#display-type
+1
+1
+-
 display-mode
 display-mode
 descriptor
@@ -8092,6 +10820,40 @@ https://www.w3.org/TR/css-color-4/#valdef-color-display-p3
 1
 color()
 -
+display-p3-linear
+display-p3-linear
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#display-p3-linear-space
+1
+1
+-
+display-p3-linear
+display-p3-linear
+enum-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#dom-predefinedcolorspace-display-p3-linear
+1
+1
+PredefinedColorSpace
+-
+display-p3-linear
+display-p3-linear
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#display-p3-linear-space
+1
+1
+-
 display-surface
 display-surface
 dfn
@@ -8161,6 +10923,28 @@ https://www.w3.org/TR/webcodecs/#dom-videodecoderconfig-displayaspectwidth
 1
 1
 VideoDecoderConfig
+-
+displayforcedonlymode
+displayForcedOnlyMode
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-displayforcedonlymode
+
+1
+-
+displayforcedonlymode
+displayForcedOnlyMode
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-displayforcedonlymode
+
+1
 -
 displayHeight
 displayHeight
@@ -8341,6 +11125,18 @@ https://www.w3.org/TR/secure-payment-confirmation/#dom-paymentcredentialinstrume
 1
 1
 PaymentCredentialInstrument
+-
+displayName
+displayName
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-currentuserdetailsoptions-displayname
+1
+1
+CurrentUserDetailsOptions
 -
 displayName
 displayName
@@ -8624,6 +11420,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#changing-nav-continuation-displayed-document
 
 1
+changing navigable continuation state
 -
 displaystyle
 displaystyle
@@ -8661,7 +11458,19 @@ NavigationHistoryEntry
 -
 disposition
 disposition
-attribute
+dfn
+csp3
+csp
+3
+current
+https://w3c.github.io/webappsec-csp/#content-security-policy-object-disposition
+1
+1
+content security policy object
+-
+disposition
+disposition
+dict-member
 csp3
 csp
 3
@@ -8702,18 +11511,6 @@ csp3
 csp
 3
 current
-https://w3c.github.io/webappsec-csp/#policy-disposition
-1
-1
-policy
--
-disposition
-disposition
-dfn
-csp3
-csp
-3
-current
 https://w3c.github.io/webappsec-csp/#violation-disposition
 1
 1
@@ -8745,7 +11542,56 @@ PermissionsPolicyViolationReportBody
 -
 disposition
 disposition
-attribute
+dfn
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#connection-allowlist-disposition
+
+1
+Connection Allowlist
+-
+disposition
+disposition
+dict-member
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#dom-connectionallowlistviolationreport-disposition
+1
+1
+ConnectionAllowlistViolationReport
+-
+disposition
+disposition
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnection-disconnect-disposition-disposition
+1
+1
+SmartCardConnection/disconnect(disposition)
+SmartCardConnection/disconnect()
+-
+disposition
+disposition
+dfn
+csp3
+csp
+3
+snapshot
+https://www.w3.org/TR/CSP3/#content-security-policy-object-disposition
+1
+1
+content security policy object
+-
+disposition
+disposition
+dict-member
 csp3
 csp
 3
@@ -8786,18 +11632,6 @@ csp3
 csp
 3
 snapshot
-https://www.w3.org/TR/CSP3/#policy-disposition
-1
-1
-policy
--
-disposition
-disposition
-dfn
-csp3
-csp
-3
-snapshot
 https://www.w3.org/TR/CSP3/#violation-disposition
 1
 1
@@ -8826,6 +11660,28 @@ https://www.w3.org/TR/permissions-policy-1/#permissionspolicyviolationreportbody
 
 1
 PermissionsPolicyViolationReportBody
+-
+disregard
+disregard
+dfn
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#disregard
+
+1
+-
+disregard
+disregard
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#disregard
+
+1
 -
 distance
 distance
@@ -8909,7 +11765,19 @@ https://wicg.github.io/layout-instability/#distance-fraction
 distanceModel
 distanceModel
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-distancemodel
+1
+1
+PannerNode
+-
+distanceModel
+distanceModel
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -8921,7 +11789,19 @@ PannerNode
 distanceModel
 distanceModel
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-panneroptions-distancemodel
+1
+1
+PannerOptions
+-
+distanceModel
+distanceModel
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -8933,11 +11813,11 @@ PannerOptions
 distanceModel
 distanceModel
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-distancemodel
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-distancemodel
 1
 1
 PannerNode
@@ -8945,14 +11825,60 @@ PannerNode
 distanceModel
 distanceModel
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-panneroptions-distancemodel
+https://www.w3.org/TR/webaudio-1.0/#dom-panneroptions-distancemodel
 1
 1
 PannerOptions
+-
+distanceModel
+distanceModel
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-distancemodel
+1
+1
+PannerNode
+-
+distanceModel
+distanceModel
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-panneroptions-distancemodel
+1
+1
+PannerOptions
+-
+distinct expression
+distinct expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-distinct-expression
+
+1
+-
+distinct expression
+distinct expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-distinct-expression
+
+1
 -
 distinctive
 distinctive
@@ -9160,6 +12086,50 @@ https://www.w3.org/TR/css-align-3/#distributed-alignment
 1
 1
 -
+distributed ledger
+distributed ledger
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-distributed-ledger-technology
+
+
+-
+distributed ledger
+distributed ledger
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-distributed-ledger-technology
+
+
+-
+distributed ledger technology
+distributed ledger technology
+dfn
+did-1.1
+did
+1
+current
+https://w3c.github.io/did/#dfn-distributed-ledger-technology
+
+
+-
+distributed ledger technology
+distributed ledger technology
+dfn
+did-1.1
+did
+1
+snapshot
+https://www.w3.org/TR/did-1.1/#dfn-distributed-ledger-technology
+
+
+-
 distributed meeting
 distributed meeting
 dfn
@@ -9167,9 +12137,31 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#distributed-meeting
+https://www.w3.org/policies/process/#distributed-meeting
 
 1
+-
+distributed traces
+distributed traces
+dfn
+trace-context-2
+trace-context
+2
+current
+https://w3c.github.io/trace-context/#dfn-distributed-traces
+
+
+-
+distributed traces
+distributed traces
+dfn
+trace-context-2
+trace-context
+2
+snapshot
+https://www.w3.org/TR/trace-context-2/#dfn-distributed-traces
+
+
 -
 distributed width
 distributed width
@@ -9213,17 +12205,6 @@ css-tables
 snapshot
 https://www.w3.org/TR/css-tables-3/#distributing-excess-width-to-columns
 
-1
--
-distribution list
-distribution list
-dfn
-css-scoping-1
-css-scoping
-1
-snapshot
-https://www.w3.org/TR/css-scoping-1/#distribution-list
-1
 1
 -
 disturbed
@@ -9400,7 +12381,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-divisor
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-divisor
 1
 1
 SVGFEConvolveMatrixElement
@@ -9412,7 +12393,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-divisor
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-divisor
 1
 1
 feConvolveMatrix

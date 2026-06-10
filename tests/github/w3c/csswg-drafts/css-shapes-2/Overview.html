@@ -1468,7 +1468,7 @@ The <a class="css" data-link-type="maybe" href="#funcdef-shape" id="ref-for-func
 			(similar to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-circle" id="ref-for-funcdef-basic-shape-circle">circle()</a> function).</p>
      <div class="note" role="note">
       
-				Note that SVG has <a href="https://svgwg.org/svg2-draft/paths.html#ArcOutOfRangeParameters">some specific error-handling for the ellipse radiuses</a>:
+				Note that SVG has <a href="https://w3c.github.io/svgwg/svg2-draft/paths.html#ArcOutOfRangeParameters">some specific error-handling for the ellipse radiuses</a>:
 
 
       <ul>
@@ -1562,7 +1562,7 @@ Interpolating the <a class="css" data-link-type="maybe" href="#funcdef-shape" id
 	If it has different <a class="css production" data-link-type="type" href="#typedef-shape-arc-size" id="ref-for-typedef-shape-arc-size⑥">&lt;arc-size></a> keywords,
 	then the interpolated result uses <a class="css" data-link-type="maybe" href="#valdef-shape-large" id="ref-for-valdef-shape-large①">large</a> for any progress value between 0 and 1.</p>
    <p class="note" role="note"><span class="marker">Note:</span> The <a class="css" data-link-type="maybe" href="#valdef-shape-arc" id="ref-for-valdef-shape-arc①">arc</a> keyword interpolation rules
-	are meant to match existing SVG <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/paths.html#elementdef-path" id="ref-for-elementdef-path">path</a></code> interpolation rules.</p>
+	are meant to match existing SVG <code><a data-link-type="element" href="https://svgwg.org/specs/paths/#elementdef-path" id="ref-for-elementdef-path">path</a></code> interpolation rules.</p>
    <h2 class="heading settled" data-level="5" id="referencing-svg-shapes"><span class="secno">5. </span><span class="content">
 Referencing SVG shapes</span><a class="self-link" href="#referencing-svg-shapes"></a></h2>
    <p>An SVG shape can be referenced using the <code>url()</code> syntax.
@@ -2098,9 +2098,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="ea1aa3ca">wrapping context</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[SVG2]</a> defines the following terms:
+    <a data-link-type="biblio">[SVG-PATHS]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="0c48b9b1">path</span>
+     <li><span class="dfn-paneled" id="415188f5">path</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -2111,11 +2111,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display/"><cite>CSS Display Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-display/">https://drafts.csswg.org/css-display/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
    <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-3/"><cite>CSS Images Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-3/">https://drafts.csswg.org/css-images-3/</a>
    <dt id="biblio-css-shapes">[CSS-SHAPES]
-   <dd>Rossen Atanassov; Alan Stearns. <a href="https://drafts.csswg.org/css-shapes/"><cite>CSS Shapes Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-shapes/">https://drafts.csswg.org/css-shapes/</a>
+   <dd>Alan Stearns; Rossen Atanassov; Noam Rosenthal. <a href="https://drafts.csswg.org/css-shapes/"><cite>CSS Shapes Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-shapes/">https://drafts.csswg.org/css-shapes/</a>
    <dt id="biblio-css-transforms-1">[CSS-TRANSFORMS-1]
    <dd>Simon Fraser; et al. <a href="https://drafts.csswg.org/css-transforms/"><cite>CSS Transforms Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transforms/">https://drafts.csswg.org/css-transforms/</a>
    <dt id="biblio-css-values-3">[CSS-VALUES-3]
@@ -2133,8 +2133,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
+   <dt id="biblio-svg-paths">[SVG-PATHS]
+   <dd>Cyril Concolato; Cameron McCormack; Doug Schepers. <a href="https://svgwg.org/specs/paths/"><cite>SVG Paths</cite></a>. URL: <a href="https://svgwg.org/specs/paths/">https://svgwg.org/specs/paths/</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <div class="big-element-wrapper">
@@ -2466,7 +2468,6 @@ function parseHTML(markup) {
 {
 let dfnPanelData = {
 "020bceec": {"dfnID":"020bceec","dfnText":"inset()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-basic-shape-inset"}],"title":"8.2. \nThe shape-inside Property"}],"url":"https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-inset"},
-"0c48b9b1": {"dfnID":"0c48b9b1","dfnText":"path","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-path"}],"title":"4.1.1.1. \nInterpolating the shape() Function"}],"url":"https://svgwg.org/svg2-draft/paths.html#elementdef-path"},
 "154375a0": {"dfnID":"154375a0","dfnText":"margin box","external":true,"refSections":[{"refs":[{"id":"ref-for-margin-box"}],"title":"2. \nTerminology"}],"url":"https://drafts.csswg.org/css-box-4/#margin-box"},
 "15f5b381": {"dfnID":"15f5b381","dfnText":"<percentage>","external":true,"refSections":[{"refs":[{"id":"ref-for-percentage-value"},{"id":"ref-for-percentage-value\u2460"},{"id":"ref-for-percentage-value\u2461"}],"title":"4.1.1. \nThe shape() Function"}],"url":"https://drafts.csswg.org/css-values-4/#percentage-value"},
 "175a39e9": {"dfnID":"175a39e9","dfnText":"reference box","external":true,"refSections":[{"refs":[{"id":"ref-for-basic-shape-reference-box"},{"id":"ref-for-basic-shape-reference-box\u2460"},{"id":"ref-for-basic-shape-reference-box\u2461"},{"id":"ref-for-basic-shape-reference-box\u2462"},{"id":"ref-for-basic-shape-reference-box\u2463"},{"id":"ref-for-basic-shape-reference-box\u2464"}],"title":"4.1.1. \nThe shape() Function"}],"url":"https://drafts.csswg.org/css-shapes-1/#basic-shape-reference-box"},
@@ -2475,6 +2476,7 @@ let dfnPanelData = {
 "3559c926": {"dfnID":"3559c926","dfnText":"<angle>","external":true,"refSections":[{"refs":[{"id":"ref-for-angle-value"},{"id":"ref-for-angle-value\u2460"},{"id":"ref-for-angle-value\u2461"},{"id":"ref-for-angle-value\u2462"}],"title":"4.1.1. \nThe shape() Function"}],"url":"https://drafts.csswg.org/css-values-4/#angle-value"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.1. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "37df27a7": {"dfnID":"37df27a7","dfnText":"circle()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-basic-shape-circle"}],"title":"4.1.1. \nThe shape() Function"},{"refs":[{"id":"ref-for-funcdef-basic-shape-circle\u2460"}],"title":"8.2. \nThe shape-inside Property"}],"url":"https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-circle"},
+"415188f5": {"dfnID":"415188f5","dfnText":"path","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-path"}],"title":"4.1.1.1. \nInterpolating the shape() Function"}],"url":"https://svgwg.org/specs/paths/#elementdef-path"},
 "4d20fd90": {"dfnID":"4d20fd90","dfnText":"shape-outside","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-shape-outside"},{"id":"ref-for-propdef-shape-outside\u2460"}],"title":"2. \nTerminology"},{"refs":[{"id":"ref-for-propdef-shape-outside\u2461"},{"id":"ref-for-propdef-shape-outside\u2462"}],"title":"8. \nDeclaring Shapes"},{"refs":[{"id":"ref-for-propdef-shape-outside\u2463"}],"title":"8.1. \nThe shape-outside Property"},{"refs":[{"id":"ref-for-propdef-shape-outside\u2464"}],"title":"8.3. \nThe shape-image-threshold Property"}],"url":"https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside"},
 "537cf076": {"dfnID":"537cf076","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"},{"id":"ref-for-mult-opt\u2460"},{"id":"ref-for-mult-opt\u2461"}],"title":"4.1.1. \nThe shape() Function"}],"url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
 "68487d22": {"dfnID":"68487d22","dfnText":"#","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-comma"}],"title":"4.1.1. \nThe shape() Function"}],"url":"https://drafts.csswg.org/css-values-4/#mult-comma"},
@@ -3065,7 +3067,7 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#typedef-length-percentage": {"displayText":"<length-percentage>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<length-percentage>","type":"type","url":"https://drafts.csswg.org/css-values-4/#typedef-length-percentage"},
 "https://drafts.csswg.org/css-values-4/#url-value": {"displayText":"<url>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<url>","type":"type","url":"https://drafts.csswg.org/css-values-4/#url-value"},
 "https://drafts.csswg.org/css-variables-2/#funcdef-var": {"displayText":"var()","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"var()","type":"function","url":"https://drafts.csswg.org/css-variables-2/#funcdef-var"},
-"https://svgwg.org/svg2-draft/paths.html#elementdef-path": {"displayText":"path","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"path","type":"element","url":"https://svgwg.org/svg2-draft/paths.html#elementdef-path"},
+"https://svgwg.org/specs/paths/#elementdef-path": {"displayText":"path","export":true,"for_":[],"level":"1","normative":true,"shortname":"svg-paths","spec":"svg-paths","status":"current","text":"path","type":"element","url":"https://svgwg.org/specs/paths/#elementdef-path"},
 "https://www.w3.org/TR/css3-exclusions/#wrapping-context": {"displayText":"wrapping context","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-exclusions","spec":"css3-exclusions","status":"snapshot","text":"wrapping context","type":"dfn","url":"https://www.w3.org/TR/css3-exclusions/#wrapping-context"},
 };
 

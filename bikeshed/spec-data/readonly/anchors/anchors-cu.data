@@ -49,7 +49,7 @@ GPUTextureViewDimension
 "custom"
 "custom"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -61,11 +61,35 @@ OscillatorType
 "custom"
 "custom"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-oscillatortype-custom
+1
+1
+OscillatorType
+-
+"custom"
+"custom"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-oscillatortype-custom
+https://www.w3.org/TR/webaudio-1.0/#dom-oscillatortype-custom
+1
+1
+OscillatorType
+-
+"custom"
+"custom"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-oscillatortype-custom
 1
 1
 OscillatorType
@@ -83,13 +107,13 @@ https://w3c.github.io/webvtt/#selectordef-cue
 -
 ::cue
 ::cue
-dfn
+selector
 webvtt1
 webvtt
 1
 snapshot
-https://www.w3.org/TR/webvtt1/#cue
-
+https://www.w3.org/TR/webvtt1/#selectordef-cue
+1
 1
 -
 ::cue(selector)
@@ -105,13 +129,13 @@ https://w3c.github.io/webvtt/#selectordef-cue-selector
 -
 ::cue(selector)
 ::cue(selector)
-dfn
+selector
 webvtt1
 webvtt
 1
 snapshot
-https://www.w3.org/TR/webvtt1/#cue-selector
-
+https://www.w3.org/TR/webvtt1/#selectordef-cue-selector
+1
 1
 -
 ::cue-region
@@ -127,13 +151,13 @@ https://w3c.github.io/webvtt/#selectordef-cue-region
 -
 ::cue-region
 ::cue-region
-dfn
+selector
 webvtt1
 webvtt
 1
 snapshot
-https://www.w3.org/TR/webvtt1/#cue-region
-
+https://www.w3.org/TR/webvtt1/#selectordef-cue-region
+1
 1
 -
 ::cue-region(selector)
@@ -149,56 +173,56 @@ https://w3c.github.io/webvtt/#selectordef-cue-region-selector
 -
 ::cue-region(selector)
 ::cue-region(selector)
-dfn
+selector
 webvtt1
 webvtt
 1
 snapshot
-https://www.w3.org/TR/webvtt1/#cue-region-selector
-
+https://www.w3.org/TR/webvtt1/#selectordef-cue-region-selector
+1
 1
 -
 :current
 :current
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 current
-https://drafts.csswg.org/selectors-4/#current-pseudo
+https://drafts.csswg.org/selectors-5/#current-pseudo
 1
 1
 -
 :current
 :current
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 snapshot
-https://www.w3.org/TR/selectors-4/#current-pseudo
+https://www.w3.org/TR/selectors-5/#current-pseudo
 1
 1
 -
 :current()
 :current()
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 current
-https://drafts.csswg.org/selectors-4/#selectordef-current
+https://drafts.csswg.org/selectors-5/#selectordef-current
 1
 1
 -
 :current()
 :current()
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 snapshot
-https://www.w3.org/TR/selectors-4/#selectordef-current
+https://www.w3.org/TR/selectors-5/#selectordef-current
 1
 1
 -
@@ -268,14 +292,190 @@ https://www.w3.org/TR/mathml4/#contm_curl
 
 1
 -
+<cursor-image>
+<cursor-image>
+type
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#typedef-cursor-cursor-image
+1
+1
+cursor
+-
+<cursor-image>
+<cursor-image>
+type
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#typedef-cursor-cursor-image
+1
+1
+cursor
+-
+<cursor-image>
+<cursor-image>
+value
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#valdef-cursor-cursor-image
+1
+1
+cursor
+-
+<cursor-image>
+<cursor-image>
+type
+css-ui-3
+css-ui
+3
+snapshot
+https://www.w3.org/TR/css-ui-3/#typedef-cursor-cursor-image
+1
+1
+cursor
+-
+<cursor-image>
+<cursor-image>
+type
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#typedef-cursor-cursor-image
+1
+1
+cursor
+-
+<cursor-image>
+<cursor-image>
+value
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#valdef-cursor-cursor-image
+1
+1
+cursor
+-
+<cursor-predefined>
+<cursor-predefined>
+type
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#typedef-cursor-predefined
+1
+1
+-
+<cursor-predefined>
+<cursor-predefined>
+value
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#valdef-cursor-cursor-predefined
+1
+1
+cursor
+-
+<cursor-predefined>
+<cursor-predefined>
+type
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#typedef-cursor-predefined
+1
+1
+-
+<cursor-predefined>
+<cursor-predefined>
+value
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#valdef-cursor-cursor-predefined
+1
+1
+cursor
+-
+<cursor-predefined>
+<cursor-predefined>
+type
+css-ui-3
+css-ui
+3
+snapshot
+https://www.w3.org/TR/css-ui-3/#typedef-cursor-predefined
+1
+1
+-
+<cursor-predefined>
+<cursor-predefined>
+value
+css-ui-3
+css-ui
+3
+snapshot
+https://www.w3.org/TR/css-ui-3/#valdef-cursor-cursor-predefined
+1
+1
+cursor
+-
+<cursor-predefined>
+<cursor-predefined>
+type
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#typedef-cursor-predefined
+1
+1
+-
+<cursor-predefined>
+<cursor-predefined>
+value
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#valdef-cursor-cursor-predefined
+1
+1
+cursor
+-
 <curve-command>
 <curve-command>
 type
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#typedef-shape-curve-command
+https://drafts.csswg.org/css-shapes-1/#typedef-shape-curve-command
+1
+1
+shape()
+-
+<curve-command>
+<curve-command>
+type
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#typedef-shape-curve-command
 1
 1
 shape()
@@ -406,17 +606,6 @@ https://drafts.csswg.org/css-color-5/#typedef-custom-params
 <custom-params>
 <custom-params>
 type
-css-color-hdr
-css-color-hdr
-1
-current
-https://drafts.csswg.org/css-color-hdr/#typedef-custom-params
-1
-1
--
-<custom-params>
-<custom-params>
-type
 css-color-5
 css-color
 5
@@ -524,17 +713,6 @@ https://www.w3.org/TR/longtasks-1/#culprit-browsing-context-container
 
 1
 -
-currency tag
-currency tag
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#currency-tag
-
-1
--
 current
 current
 dfn
@@ -597,11 +775,22 @@ Screen
 currentstoredpin
 CurrentStoredPIN
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#currentstoredpin
+
+1
+-
+currentstoredpin
+CurrentStoredPIN
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#currentstoredpin
 
 1
 -
@@ -613,6 +802,17 @@ webauthn
 3
 current
 https://w3c.github.io/webauthn/#dictdef-currentuserdetailsoptions
+1
+1
+-
+CurrentUserDetailsOptions
+CurrentUserDetailsOptions
+dictionary
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dictdef-currentuserdetailsoptions
 1
 1
 -
@@ -658,6 +858,39 @@ screen-capture
 snapshot
 https://www.w3.org/TR/screen-capture/#dom-cursorcaptureconstraint
 1
+1
+-
+custodian
+custodian
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-custodian
+
+1
+-
+custodian
+custodian
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-custodian
+
+1
+-
+custom
+custom
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-custom-state
+
 1
 -
 custom state pseudo-class
@@ -736,6 +969,28 @@ dom
 1
 current
 https://dom.spec.whatwg.org/#dictdef-customeventinit
+1
+1
+-
+CustomMediaQuery
+CustomMediaQuery
+typedef
+mediaqueries-5
+mediaqueries
+5
+current
+https://drafts.csswg.org/mediaqueries-5/#typedefdef-custommediaquery
+1
+1
+-
+CustomMediaQuery
+CustomMediaQuery
+typedef
+mediaqueries-5
+mediaqueries
+5
+snapshot
+https://www.w3.org/TR/mediaqueries-5/#typedefdef-custommediaquery
 1
 1
 -
@@ -849,7 +1104,7 @@ RTCPeerConnection
 [[current frame]]
 [[current frame]]
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -861,11 +1116,35 @@ BaseAudioContext
 [[current frame]]
 [[current frame]]
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-current-frame-slot
+1
+1
+BaseAudioContext
+-
+[[current frame]]
+[[current frame]]
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-current-frame-slot
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-current-frame-slot
+1
+1
+BaseAudioContext
+-
+[[current frame]]
+[[current frame]]
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-current-frame-slot
 1
 1
 BaseAudioContext
@@ -873,7 +1152,7 @@ BaseAudioContext
 [[current value]]
 [[current value]]
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -885,11 +1164,35 @@ AudioParam
 [[current value]]
 [[current value]]
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-current-value-slot
+1
+1
+AudioParam
+-
+[[current value]]
+[[current value]]
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-current-value-slot
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-current-value-slot
+1
+1
+AudioParam
+-
+[[current value]]
+[[current value]]
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-current-value-slot
 1
 1
 AudioParam
@@ -921,7 +1224,7 @@ GPUCanvasContext
 [[curve set]]
 [[curve set]]
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -933,11 +1236,35 @@ WaveShaperNode
 [[curve set]]
 [[curve set]]
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshapernode-curve-set-slot
+1
+1
+WaveShaperNode
+-
+[[curve set]]
+[[curve set]]
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshapernode-curve-set-slot
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshapernode-curve-set-slot
+1
+1
+WaveShaperNode
+-
+[[curve set]]
+[[curve set]]
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshapernode-curve-set-slot
 1
 1
 WaveShaperNode
@@ -1049,31 +1376,9 @@ cue
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#propdef-cue
-1
-1
--
-cue
-cue
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#propdef-cue
-1
-1
--
-cue
-cue
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/aural.html#propdef-cue
+https://www.w3.org/TR/CSS2/aural.html#propdef-cue
 1
 1
 -
@@ -1236,31 +1541,9 @@ cue-after
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#propdef-cue-after
-1
-1
--
-cue-after
-cue-after
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#propdef-cue-after
-1
-1
--
-cue-after
-cue-after
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/aural.html#propdef-cue-after
+https://www.w3.org/TR/CSS2/aural.html#propdef-cue-after
 1
 1
 -
@@ -1291,31 +1574,9 @@ cue-before
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#propdef-cue-before
-1
-1
--
-cue-before
-cue-before
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#propdef-cue-before
-1
-1
--
-cue-before
-cue-before
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/aural.html#propdef-cue-before
+https://www.w3.org/TR/CSS2/aural.html#propdef-cue-before
 1
 1
 -
@@ -1390,6 +1651,78 @@ https://wicg.github.io/layout-instability/#cumulative-layout-shift-cls-score
 1
 
 -
+cumulativeSum
+cumulativeSum
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-cumulativesum
+1
+1
+MLOpSupportLimits
+-
+cumulativeSum
+cumulativeSum
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-cumulativesum
+1
+1
+MLOpSupportLimits
+-
+cumulativeSum(input, axis)
+cumulativeSum(input, axis)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cumulativesum
+1
+1
+MLGraphBuilder
+-
+cumulativeSum(input, axis)
+cumulativeSum(input, axis)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cumulativesum
+1
+1
+MLGraphBuilder
+-
+cumulativeSum(input, axis, options)
+cumulativeSum(input, axis, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cumulativesum
+1
+1
+MLGraphBuilder
+-
+cumulativeSum(input, axis, options)
+cumulativeSum(input, axis, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cumulativesum
+1
+1
+MLGraphBuilder
+-
 currency
 currency
 dict-member
@@ -1401,18 +1734,6 @@ https://w3c.github.io/payment-request/#dom-paymentcurrencyamount-currency
 1
 1
 PaymentCurrencyAmount
--
-currency
-currency
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-with-currency-currency
-
-1
-bid with currency
 -
 currency
 currency
@@ -1494,6 +1815,17 @@ https://streams.spec.whatwg.org/#readablestream-current-byob-request-view
 1
 ReadableStream
 -
+current pin complexity policy
+current PIN complexity policy
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#current-pin-complexity-policy
+
+1
+-
 current svg document fragment
 current SVG document fragment
 dfn
@@ -1501,7 +1833,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermCurrentSVGDocumentFragment
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermCurrentSVGDocumentFragment
 1
 1
 -
@@ -1584,6 +1916,50 @@ https://www.w3.org/TR/webdriver2/#dfn-current-browsing-context
 
 1
 -
+current click count
+current click count
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-current-click-count
+
+1
+-
+current click count
+current click count
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-current-click-count
+
+1
+-
+current coarsened wall time
+current coarsened wall time
+dfn
+hr-time-3
+hr-time
+3
+current
+https://w3c.github.io/hr-time/#dfn-current-wall-time
+1
+1
+-
+current coarsened wall time
+current coarsened wall time
+dfn
+hr-time-3
+hr-time
+3
+snapshot
+https://www.w3.org/TR/hr-time-3/#dfn-current-wall-time
+1
+1
+-
 current compositing and blending operator
 current compositing and blending operator
 dfn
@@ -1605,6 +1981,31 @@ current
 https://html.spec.whatwg.org/multipage/browsers.html#coop-enforcement-source
 
 1
+opener policy enforcement result
+-
+current context usage
+current context usage
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#languagemodel-current-context-usage
+
+1
+LanguageModel
+-
+current continuation state
+current continuation state
+dfn
+scheduling-apis
+scheduling-apis
+1
+current
+https://wicg.github.io/scheduling-apis/#event-loop-current-continuation-state
+
+1
+event loop
 -
 current default path
 current default path
@@ -1635,7 +2036,7 @@ navigation-timing-2
 navigation-timing
 2
 current
-https://w3c.github.io/navigation-timing/#dfn-current-document
+https://w3c.github.io/navigation-timing/#current-document
 
 1
 -
@@ -1646,7 +2047,7 @@ navigation-timing-2
 navigation-timing
 2
 snapshot
-https://www.w3.org/TR/navigation-timing-2/#dfn-current-document
+https://www.w3.org/TR/navigation-timing-2/#current-document
 
 1
 -
@@ -1791,13 +2192,24 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#current-frame-timing-info
-
+1
+1
+-
+current frame timing info
+current frame timing info
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#current-frame-timing-info
+1
 1
 -
 current frequency data
 current frequency data
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1808,11 +2220,33 @@ https://webaudio.github.io/web-audio-api/#current-frequency-data
 current frequency data
 current frequency data
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#current-frequency-data
+
+1
+-
+current frequency data
+current frequency data
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#current-frequency-data
+https://www.w3.org/TR/webaudio-1.0/#current-frequency-data
+
+1
+-
+current frequency data
+current frequency data
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#current-frequency-data
 
 1
 -
@@ -1962,11 +2396,22 @@ https://www.w3.org/TR/ambient-light/#current-light-level
 current minimum pin length
 current minimum PIN length
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#current-minimum-pin-length
+
+1
+-
+current minimum pin length
+current minimum PIN length
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#current-minimum-pin-length
 
 1
 -
@@ -1993,6 +2438,51 @@ https://www.w3.org/TR/hr-time-3/#dfn-current-monotonic-time
 1
 1
 environment settings object
+-
+current navigation url
+current navigation URL
+dfn
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#current-navigation-url
+
+1
+-
+current navigation id
+current navigation id
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#window-current-navigation-id
+
+1
+Window
+-
+current navigation state
+current navigation state
+dfn
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#current-navigation-state
+
+1
+-
+current navigation type
+current navigation type
+dfn
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#current-navigation-type
+
+1
 -
 current navigation was lazy loaded
 current navigation was lazy loaded
@@ -2179,7 +2669,7 @@ hr-time-3
 hr-time
 3
 current
-https://w3c.github.io/hr-time/#dfn-current-relative-timestamp
+https://w3c.github.io/hr-time/#environment-settings-object-current-relative-timestamp
 1
 1
 environment settings object
@@ -2191,7 +2681,7 @@ hr-time-3
 hr-time
 3
 snapshot
-https://www.w3.org/TR/hr-time-3/#dfn-current-relative-timestamp
+https://www.w3.org/TR/hr-time-3/#environment-settings-object-current-relative-timestamp
 1
 1
 environment settings object
@@ -2206,18 +2696,6 @@ current
 https://html.spec.whatwg.org/multipage/images.html#current-request
 
 1
--
-current scheduling state
-current scheduling state
-dfn
-scheduling-apis
-scheduling-apis
-1
-current
-https://wicg.github.io/scheduling-apis/#event-loop-current-scheduling-state
-
-1
-event loop
 -
 current screen
 current screen
@@ -2239,6 +2717,28 @@ window-management
 snapshot
 https://www.w3.org/TR/window-management/#current-screen
 
+1
+-
+current scroll target
+current scroll target
+dfn
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#current-scroll-target
+1
+1
+-
+current scroll target
+current scroll target
+dfn
+css-overflow-5
+css-overflow
+5
+snapshot
+https://www.w3.org/TR/css-overflow-5/#current-scroll-target
+1
 1
 -
 current session history entry
@@ -2285,6 +2785,17 @@ https://w3c.github.io/webdriver-bidi/#current-stack-trace
 
 1
 -
+current stack trace
+current stack trace
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#current-stack-trace
+
+1
+-
 current state
 current state
 dfn
@@ -2320,6 +2831,18 @@ https://w3c.github.io/long-animation-frames/#frame-timing-info-current-task-star
 1
 frame timing info
 -
+current task start time
+current task start time
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#frame-timing-info-current-task-start-time
+
+1
+frame timing info
+-
 current template insertion mode
 current template insertion mode
 dfn
@@ -2338,7 +2861,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermCurrentTextPosition
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermCurrentTextPosition
 
 1
 -
@@ -2393,7 +2916,7 @@ timeline
 current time-domain data
 current time-domain data
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2404,11 +2927,33 @@ https://webaudio.github.io/web-audio-api/#current-time-domain-data
 current time-domain data
 current time-domain data
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#current-time-domain-data
+
+1
+-
+current time-domain data
+current time-domain data
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#current-time-domain-data
+https://www.w3.org/TR/webaudio-1.0/#current-time-domain-data
+
+1
+-
+current time-domain data
+current time-domain data
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#current-time-domain-data
 
 1
 -
@@ -2518,7 +3063,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#CurrentTranslatePointObject
+https://w3c.github.io/svgwg/svg2-draft/struct.html#CurrentTranslatePointObject
 1
 1
 -
@@ -2619,32 +3164,10 @@ hr-time-3
 hr-time
 3
 current
-https://w3c.github.io/hr-time/#dfn-current-wall-time
-1
-1
--
-current wall time
-current wall time
-dfn
-hr-time-3
-hr-time
-3
-current
 https://w3c.github.io/hr-time/#dfn-eso-current-wall-time
 1
 1
 environment settings object
--
-current wall time
-current wall time
-dfn
-hr-time-3
-hr-time
-3
-snapshot
-https://www.w3.org/TR/hr-time-3/#dfn-current-wall-time
-1
-1
 -
 current wall time
 current wall time
@@ -2684,6 +3207,18 @@ cssom-view
 1
 current
 https://drafts.csswg.org/cssom-view-1/#dom-element-currentcsszoom
+1
+1
+Element
+-
+currentCSSZoom
+currentCSSZoom
+attribute
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-element-currentcsszoom
 1
 1
 Element
@@ -2761,7 +3296,7 @@ Navigation
 currentFrame
 currentFrame
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2773,11 +3308,35 @@ AudioWorkletGlobalScope
 currentFrame
 currentFrame
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-currentframe
+1
+1
+AudioWorkletGlobalScope
+-
+currentFrame
+currentFrame
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletglobalscope-currentframe
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletglobalscope-currentframe
+1
+1
+AudioWorkletGlobalScope
+-
+currentFrame
+currentFrame
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletglobalscope-currentframe
 1
 1
 AudioWorkletGlobalScope
@@ -2909,7 +3468,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__currentScale
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__currentScale
 1
 1
 SVGSVGElement
@@ -3145,7 +3704,7 @@ HTMLMediaElement
 currentTime
 currentTime
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -3157,7 +3716,31 @@ AudioWorkletGlobalScope
 currentTime
 currentTime
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-currenttime
+1
+1
+AudioWorkletGlobalScope
+-
+currentTime
+currentTime
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-currenttime
+1
+1
+BaseAudioContext
+-
+currentTime
+currentTime
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -3265,11 +3848,11 @@ AnimationTimeline
 currentTime
 currentTime
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioworkletglobalscope-currenttime
+https://www.w3.org/TR/webaudio-1.0/#dom-audioworkletglobalscope-currenttime
 1
 1
 AudioWorkletGlobalScope
@@ -3277,11 +3860,35 @@ AudioWorkletGlobalScope
 currentTime
 currentTime
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-currenttime
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-currenttime
+1
+1
+BaseAudioContext
+-
+currentTime
+currentTime
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioworkletglobalscope-currenttime
+1
+1
+AudioWorkletGlobalScope
+-
+currentTime
+currentTime
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-currenttime
 1
 1
 BaseAudioContext
@@ -3293,7 +3900,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__currentTranslate
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGSVGElement__currentTranslate
 1
 1
 SVGSVGElement
@@ -3318,6 +3925,18 @@ webauthn
 3
 current
 https://w3c.github.io/webauthn/#signal-method-authenticator-actions-currentuserdetails
+
+1
+signal method/authenticator actions
+-
+currentuserdetails
+currentUserDetails
+dfn
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#signal-method-authenticator-actions-currentuserdetails
 
 1
 signal method/authenticator actions
@@ -3373,11 +3992,22 @@ Navigation
 currently defined authenticatorconfig subcommands
 currently defined authenticatorConfig subcommands
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#currently-defined-authenticatorconfig-subcommands
+
+1
+-
+currently defined authenticatorconfig subcommands
+currently defined authenticatorConfig subcommands
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#currently-defined-authenticatorconfig-subcommands
 
 1
 -
@@ -3403,6 +4033,17 @@ https://wicg.github.io/media-feeds/#dfn-currently-logged-in-user
 
 1
 -
+currently relevant to the user
+currently relevant to the user
+dfn
+css-contain-2
+css-contain
+2
+current
+https://drafts.csswg.org/css-contain-2/#currently-relevant-to-the-user
+
+1
+-
 currently running task
 currently running task
 dfn
@@ -3413,6 +4054,54 @@ current
 https://html.spec.whatwg.org/multipage/webappapis.html#currently-running-task
 
 1
+-
+currently supported
+currently supported
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#model-availability-currently-supports
+1
+1
+model availability
+-
+currently supports
+currently supports
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#model-availability-currently-supports
+1
+1
+model availability
+-
+currently tracked interval
+currently tracked interval
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-currently-tracked-interval
+1
+1
+AudioPlaybackStats
+-
+currently tracked interval
+currently tracked interval
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-currently-tracked-interval
+1
+1
+AudioPlaybackStats
 -
 currentscreenchange
 currentscreenchange
@@ -3449,14 +4138,14 @@ https://drafts.csswg.org/css-fonts-4/#valdef-font-family-cursive
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 cursive
 cursive
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#cursive-def
 
@@ -3465,9 +4154,9 @@ https://drafts.csswg.org/css2/#cursive-def
 cursive
 cursive
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-generic-family-cursive
 1
@@ -3479,20 +4168,9 @@ cursive
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/fonts.html#cursive-def
-1
-1
--
-cursive
-cursive
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/fonts.html#cursive-def
+https://www.w3.org/TR/CSS2/fonts.html#cursive-def
 1
 1
 -
@@ -3507,7 +4185,7 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-family-cursive
 1
 1
 font-family
-<generic-family>
+<generic-font-family>
 -
 cursive script
 cursive script
@@ -3578,9 +4256,9 @@ https://drafts.csswg.org/css-ui-4/#propdef-cursor
 cursor
 cursor
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-cursor
 1
@@ -3661,31 +4339,9 @@ cursor
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/ui.html#propdef-cursor
-1
-1
--
-cursor
-cursor
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/ui.html#propdef-cursor
-1
-1
--
-cursor
-cursor
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/ui.html#propdef-cursor
+https://www.w3.org/TR/CSS2/ui.html#propdef-cursor
 1
 1
 -
@@ -3806,11 +4462,11 @@ https://www.w3.org/TR/pointerlock-2/#dfn-cursor-position
 curve
 curve
 value
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#valdef-shape-curve
+https://drafts.csswg.org/css-shapes-1/#valdef-shape-curve
 1
 1
 shape()
@@ -3818,7 +4474,19 @@ shape()
 curve
 curve
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshapernode-curve
+1
+1
+WaveShaperNode
+-
+curve
+curve
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -3830,7 +4498,7 @@ WaveShaperNode
 curve
 curve
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -3841,12 +4509,36 @@ WaveShaperOptions
 -
 curve
 curve
-attribute
+dict-member
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-waveshaperoptions-curve
+1
+1
+WaveShaperOptions
+-
+curve
+curve
+value
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#valdef-shape-curve
+1
+1
+shape()
+-
+curve
+curve
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshapernode-curve
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshapernode-curve
 1
 1
 WaveShaperNode
@@ -3854,11 +4546,35 @@ WaveShaperNode
 curve
 curve
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-waveshaperoptions-curve
+https://www.w3.org/TR/webaudio-1.0/#dom-waveshaperoptions-curve
+1
+1
+WaveShaperOptions
+-
+curve
+curve
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshapernode-curve
+1
+1
+WaveShaperNode
+-
+curve
+curve
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-waveshaperoptions-curve
 1
 1
 WaveShaperOptions
@@ -3870,7 +4586,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#custodian
+https://www.w3.org/policies/process/#custodian
 1
 1
 -
@@ -3913,7 +4629,19 @@ navigation style values
 custom
 custom
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-oscillatortype-custom
+1
+1
+OscillatorType
+-
+custom
+custom
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -3949,11 +4677,23 @@ navigation style values
 custom
 custom
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-oscillatortype-custom
+https://www.w3.org/TR/webaudio-1.0/#dom-oscillatortype-custom
+1
+1
+OscillatorType
+-
+custom
+custom
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-oscillatortype-custom
 1
 1
 OscillatorType
@@ -3966,7 +4706,7 @@ webtransport
 1
 current
 https://w3c.github.io/webtransport/#custom-certificate-requirements
-
+1
 1
 -
 custom certificate requirements
@@ -3977,6 +4717,17 @@ webtransport
 1
 snapshot
 https://www.w3.org/TR/webtransport/#custom-certificate-requirements
+1
+1
+-
+custom command keyword
+custom command keyword
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-custom
 
 1
 -
@@ -4055,6 +4806,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-definition
+1
+1
+-
+custom element definition set
+custom element definition set
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-definition-set
 
 1
 -
@@ -4091,6 +4853,42 @@ https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-react
 
 1
 -
+custom element registry
+custom element registry
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#document-custom-element-registry
+1
+1
+Document
+-
+custom element registry
+custom element registry
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#element-custom-element-registry
+1
+1
+Element
+-
+custom element registry
+custom element registry
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#shadowroot-custom-element-registry
+
+1
+ShadowRoot
+-
 custom element state
 custom element state
 dfn
@@ -4103,6 +4901,17 @@ https://dom.spec.whatwg.org/#concept-element-custom-element-state
 1
 Element
 -
+custom environment variable
+custom environment variable
+dfn
+css-env-1
+css-env
+1
+current
+https://drafts.csswg.org/css-env-1/#custom-environment-variable
+1
+1
+-
 custom function
 custom function
 dfn
@@ -4111,6 +4920,17 @@ css-mixins
 1
 current
 https://drafts.csswg.org/css-mixins-1/#custom-function
+
+1
+-
+custom function
+custom function
+dfn
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#custom-function
 
 1
 -
@@ -4180,6 +5000,61 @@ https://www.w3.org/TR/css-highlight-api-1/#custom-highlight-pseudo-element
 
 1
 -
+custom keyboard command
+custom keyboard command
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-custom-keyboard-command
+
+1
+-
+custom list parameter expression
+custom list parameter expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-custom-list-parameter-expression
+
+1
+-
+custom list parameter expression
+custom list parameter expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-custom-list-parameter-expression
+
+1
+-
+custom list parameter function
+custom list parameter function
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-custom-list-parameter-function
+
+1
+-
+custom list parameter function
+custom list parameter function
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-custom-list-parameter-function
+
+1
+-
 custom media query
 custom media query
 dfn
@@ -4199,6 +5074,50 @@ mediaqueries
 5
 snapshot
 https://www.w3.org/TR/mediaqueries-5/#custom-media-query
+
+1
+-
+custom named parameter expression
+custom named parameter expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-custom-named-parameter-expression
+
+1
+-
+custom named parameter expression
+custom named parameter expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-custom-named-parameter-expression
+
+1
+-
+custom named parameter function
+custom named parameter function
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-custom-named-parameter-function
+
+1
+-
+custom named parameter function
+custom named parameter function
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-custom-named-parameter-function
 
 1
 -
@@ -4301,6 +5220,66 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#custom-v
 
 1
 -
+customElementRegistry
+customElementRegistry
+attribute
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dom-documentorshadowroot-customelementregistry
+1
+1
+DocumentOrShadowRoot
+-
+customElementRegistry
+customElementRegistry
+attribute
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dom-element-customelementregistry
+1
+1
+Element
+-
+customElementRegistry
+customElementRegistry
+dict-member
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dom-elementcreationoptions-customelementregistry
+1
+1
+ElementCreationOptions
+-
+customElementRegistry
+customElementRegistry
+dict-member
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dom-importnodeoptions-customelementregistry
+1
+1
+ImportNodeOptions
+-
+customElementRegistry
+customElementRegistry
+dict-member
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dom-shadowrootinit-customelementregistry
+1
+1
+ShadowRootInit
+-
 customElements
 customElements
 attribute
@@ -4349,6 +5328,42 @@ https://www.w3.org/TR/wasm-js-api-2/#dom-module-customsections
 1
 Module
 -
+customization
+customization
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-CShakeParams-customization
+1
+1
+CShakeParams
+-
+customization
+customization
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-KangarooTwelveParams-customization
+1
+1
+KangarooTwelveParams
+-
+customization
+customization
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-KmacParams-customization
+1
+1
+KmacParams
+-
 customized built-in element
 customized built-in element
 dfn
@@ -4379,8 +5394,8 @@ clipboard-apis
 clipboard-apis
 1
 snapshot
-https://www.w3.org/TR/clipboard-apis/#eventdef-documentandelementeventhandlers-cut
+https://www.w3.org/TR/clipboard-apis/#eventdef-globaleventhandlers-cut
 1
 1
-DocumentAndElementEventHandlers
+GlobalEventHandlers
 -

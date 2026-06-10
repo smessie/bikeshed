@@ -10,6 +10,18 @@ https://w3c.github.io/long-animation-frames/#dom-scriptwindowattribution-ancesto
 1
 ScriptWindowAttribution
 -
+"ancestor"
+"ancestor"
+enum-value
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-scriptwindowattribution-ancestor
+1
+1
+ScriptWindowAttribution
+-
 "angle"
 "angle"
 enum-value
@@ -130,6 +142,28 @@ https://www.w3.org/TR/wasm-js-api-2/#dom-valuetype-anyfunc
 1
 ValueType
 -
+:animated-image
+:animated-image
+selector
+css-image-animation-1
+css-image-animation
+1
+current
+https://drafts.csswg.org/css-image-animation-1/#selectordef-animated-image
+1
+1
+-
+:animated-image
+:animated-image
+selector
+css-image-animation-1
+css-image-animation
+1
+snapshot
+https://www.w3.org/TR/css-image-animation-1/#selectordef-animated-image
+1
+1
+-
 :any-link
 :any-link
 selector
@@ -192,6 +226,18 @@ css-anchor-position-1
 css-anchor-position
 1
 current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-anchor-name
+1
+1
+anchor-scope
+-
+<anchor-name>
+<anchor-name>
+value
+css-anchor-position-1
+css-anchor-position
+1
+current
 https://drafts.csswg.org/css-anchor-position-1/#valdef-position-anchor-anchor-name
 1
 1
@@ -215,10 +261,46 @@ css-anchor-position-1
 css-anchor-position
 1
 snapshot
+https://www.w3.org/TR/css-anchor-position-1/#valdef-anchor-scope-anchor-name
+1
+1
+anchor-scope
+-
+<anchor-name>
+<anchor-name>
+value
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
 https://www.w3.org/TR/css-anchor-position-1/#valdef-position-anchor-anchor-name
 1
 1
 position-anchor
+-
+<anchor-name>#
+<anchor-name>#
+value
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-name-anchor-name
+1
+1
+anchor-name
+-
+<anchor-name>#
+<anchor-name>#
+value
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#valdef-anchor-name-anchor-name
+1
+1
+anchor-name
 -
 <anchor-side>
 <anchor-side>
@@ -261,6 +343,50 @@ css-anchor-position
 1
 snapshot
 https://www.w3.org/TR/css-anchor-position-1/#typedef-anchor-size
+1
+1
+-
+<anchored-in-parens>
+<anchored-in-parens>
+type
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#typedef-anchored-in-parens
+1
+1
+-
+<anchored-in-parens>
+<anchored-in-parens>
+type
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#typedef-anchored-in-parens
+1
+1
+-
+<anchored-query>
+<anchored-query>
+type
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#typedef-anchored-query
+1
+1
+-
+<anchored-query>
+<anchored-query>
+type
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#typedef-anchored-query
 1
 1
 -
@@ -369,20 +495,9 @@ https://drafts.csswg.org/css-values-4/#angle-value
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#value-def-angle
-1
-1
--
-<angle>
-<angle>
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#value-def-angle
+https://www.w3.org/TR/CSS2/aural.html#value-def-angle
 1
 1
 -
@@ -419,6 +534,32 @@ snapshot
 https://www.w3.org/TR/css-values-4/#angle-value
 1
 1
+-
+<angle> | <zero>
+<angle> | <zero>
+value
+css-images-4
+css-images
+4
+current
+https://drafts.csswg.org/css-images-4/#valdef-conic-gradient-angle--zero
+1
+1
+conic-gradient()
+repeating-conic-gradient()
+-
+<angle> | <zero>
+<angle> | <zero>
+value
+css-images-4
+css-images
+4
+snapshot
+https://www.w3.org/TR/css-images-4/#valdef-conic-gradient-angle--zero
+1
+1
+conic-gradient()
+repeating-conic-gradient()
 -
 <angular-color-hint>
 <angular-color-hint>
@@ -505,6 +646,17 @@ css-will-change
 1
 snapshot
 https://www.w3.org/TR/css-will-change-1/#typedef-animateable-feature
+1
+1
+-
+<animation-action>
+<animation-action>
+type
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#typedef-animation-action
 1
 1
 -
@@ -724,7 +876,7 @@ https://www.w3.org/TR/css-syntax-3/#anb
 AnalyserNode
 AnalyserNode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -735,18 +887,40 @@ https://webaudio.github.io/web-audio-api/#AnalyserNode
 AnalyserNode
 AnalyserNode
 interface
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#AnalyserNode
+1
+1
+-
+AnalyserNode
+AnalyserNode
+interface
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#analysernode
+https://www.w3.org/TR/webaudio-1.0/#analysernode
+1
+1
+-
+AnalyserNode
+AnalyserNode
+interface
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#AnalyserNode
 1
 1
 -
 AnalyserNode(context)
 AnalyserNode(context)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -758,11 +932,35 @@ AnalyserNode
 AnalyserNode(context)
 AnalyserNode(context)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-analysernode
+1
+1
+AnalyserNode
+-
+AnalyserNode(context)
+AnalyserNode(context)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-analysernode
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-analysernode
+1
+1
+AnalyserNode
+-
+AnalyserNode(context)
+AnalyserNode(context)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-analysernode
 1
 1
 AnalyserNode
@@ -770,7 +968,7 @@ AnalyserNode
 AnalyserNode(context, options)
 AnalyserNode(context, options)
 constructor
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -782,11 +980,35 @@ AnalyserNode
 AnalyserNode(context, options)
 AnalyserNode(context, options)
 constructor
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-analysernode
+1
+1
+AnalyserNode
+-
+AnalyserNode(context, options)
+AnalyserNode(context, options)
+constructor
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-analysernode
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-analysernode
+1
+1
+AnalyserNode
+-
+AnalyserNode(context, options)
+AnalyserNode(context, options)
+constructor
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-analysernode
 1
 1
 AnalyserNode
@@ -794,7 +1016,7 @@ AnalyserNode
 AnalyserOptions
 AnalyserOptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -805,20 +1027,42 @@ https://webaudio.github.io/web-audio-api/#AnalyserOptions
 AnalyserOptions
 AnalyserOptions
 dictionary
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#AnalyserOptions
+1
+1
+-
+AnalyserOptions
+AnalyserOptions
+dictionary
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dictdef-analyseroptions
+https://www.w3.org/TR/webaudio-1.0/#dictdef-analyseroptions
+1
+1
+-
+AnalyserOptions
+AnalyserOptions
+dictionary
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#AnalyserOptions
 1
 1
 -
 ancestor
 ancestor
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#ancestor
 
@@ -845,6 +1089,50 @@ snapshot
 https://www.w3.org/TR/css-anchor-position-1/#anchor-positioning
 1
 1
+-
+ancillary apis computed from existing information
+Ancillary APIs computed from existing information
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-ancillary-apis-computed-from-existing-information
+1
+
+-
+ancillary apis computed from existing information
+Ancillary APIs computed from existing information
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-ancillary-apis-computed-from-existing-information
+
+
+-
+ancillary apis that provide new information
+Ancillary APIs that provide new information
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-ancillary-apis-that-provide-new-information
+1
+
+-
+ancillary apis that provide new information
+Ancillary APIs that provide new information
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-ancillary-apis-that-provide-new-information
+
+
 -
 angles
 angles
@@ -1546,6 +1834,120 @@ https://www.w3.org/TR/web-animations-1/#animationtimeline
 1
 1
 -
+AnimationTrigger
+AnimationTrigger
+interface
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#animationtrigger
+1
+1
+-
+AnimationTrigger
+AnimationTrigger
+interface
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#animationtrigger
+1
+1
+-
+AnimationTrigger()
+AnimationTrigger()
+constructor
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtrigger-animationtrigger
+1
+1
+AnimationTrigger
+-
+AnimationTrigger()
+AnimationTrigger()
+constructor
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtrigger-animationtrigger
+1
+1
+AnimationTrigger
+-
+AnimationTrigger(options)
+AnimationTrigger(options)
+constructor
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtrigger-animationtrigger
+1
+1
+AnimationTrigger
+-
+AnimationTrigger(options)
+AnimationTrigger(options)
+constructor
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtrigger-animationtrigger
+1
+1
+AnimationTrigger
+-
+AnimationTriggerBehavior
+AnimationTriggerBehavior
+enum
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#enumdef-animationtriggerbehavior
+1
+1
+-
+AnimationTriggerBehavior
+AnimationTriggerBehavior
+enum
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#enumdef-animationtriggerbehavior
+1
+1
+-
+AnimationTriggerOptions
+AnimationTriggerOptions
+dictionary
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dictdef-animationtriggeroptions
+1
+1
+-
+AnimationTriggerOptions
+AnimationTriggerOptions
+dictionary
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dictdef-animationtriggeroptions
+1
+1
+-
 AnimationWorkletGlobalScope
 AnimationWorkletGlobalScope
 interface
@@ -1722,6 +2124,61 @@ https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-crossorigin-a
 
 1
 -
+anonymous td
+Anonymous TD
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-wot-anonymous-thing-description
+
+
+-
+anonymous td
+Anonymous TD
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-wot-anonymous-thing-description
+
+
+-
+anonymous td
+Anonymous TD
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-anonymous-thing-description
+
+
+-
+anonymous td
+Anonymous TD
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-wot-anonymous-thing-description
+
+
+-
+any
+any
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby-any-state
+
+1
+-
 any
 any
 dfn
@@ -1884,14 +2341,25 @@ https://www.w3.org/TR/wasm-js-api-2/#a-new-exported-function
 
 1
 -
-a new gamepad
-a new Gamepad
+a new exported gc object
+a new Exported GC Object
 dfn
-gamepad-extensions
-gamepad-extensions
-1
+wasm-js-api-2
+wasm-js-api
+2
 current
-https://w3c.github.io/gamepad/extensions.html#dfn-a-new-gamepad
+https://webassembly.github.io/spec/js-api/#a-new-exported-gc-object
+
+1
+-
+a new exported gc object
+a new Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#a-new-exported-gc-object
 
 1
 -
@@ -1961,6 +2429,28 @@ https://wicg.github.io/fenced-frame/#an-unfenced
 
 1
 -
+analog button value
+analog button value
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-analog-button-value
+
+1
+-
+analog button value
+analog button value
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-analog-button-value
+
+1
+-
 analogous components
 analogous components
 dfn
@@ -1983,25 +2473,47 @@ https://www.w3.org/TR/css-color-4/#analogous-components
 1
 1
 -
+analogous set
+analogous set
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#analogous-set
+1
+1
+-
+analogous set
+analogous set
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#analogous-set
+1
+1
+-
 analysernode
 analysernode
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#AnalyserNode
+https://www.w3.org/TR/webaudio-1.0/#AnalyserNode
 1
 1
 -
 analyseroptions
 analyseroptions
 dictionary
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#AnalyserOptions
+https://www.w3.org/TR/webaudio-1.0/#AnalyserOptions
 1
 1
 -
@@ -2033,43 +2545,10 @@ ancestor
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#ancestor
-1
-1
--
-ancestor
-ancestor
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#ancestor
+https://www.w3.org/TR/CSS2/conform.html#ancestor
 1
-1
--
-ancestor details revealing algorithm
-ancestor details revealing algorithm
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/interactive-elements.html#ancestor-details-revealing-algorithm
-
-1
--
-ancestor hidden-until-found revealing algorithm
-ancestor hidden-until-found revealing algorithm
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/interaction.html#ancestor-hidden-until-found-revealing-algorithm
-
 1
 -
 ancestor navigables
@@ -2115,7 +2594,41 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-location-ancestor-origins-list
+https://html.spec.whatwg.org/multipage/dom.html#concept-document-ancestor-origins-list
+1
+1
+Document
+-
+ancestor origins list creation steps
+ancestor origins list creation steps
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins-list-creation-steps
+
+1
+-
+ancestor reveal pair
+ancestor reveal pair
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#ancestor-reveal-pair
+
+1
+-
+ancestor revealing algorithm
+ancestor revealing algorithm
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#ancestor-revealing-algorithm
 
 1
 -
@@ -2399,15 +2912,15 @@ https://www.w3.org/TR/css-scroll-anchoring-1/#anchoring-algorithm
 
 1
 -
-anchor point
-anchor point
+anchor priority candidate
+anchor priority candidate
 dfn
-motion-1
-motion
+css-scroll-anchoring-1
+css-scroll-anchoring
 1
-snapshot
-https://www.w3.org/TR/motion-1/#anchor-point
-
+current
+https://drafts.csswg.org/css-scroll-anchoring-1/#anchor-priority-candidates
+1
 1
 -
 anchor recalculation point
@@ -2421,6 +2934,17 @@ https://drafts.csswg.org/css-anchor-position-1/#anchor-recalculation-point
 
 1
 -
+anchor recalculation point
+anchor recalculation point
+dfn
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#anchor-recalculation-point
+
+1
+-
 anchor reference
 anchor reference
 dfn
@@ -2429,6 +2953,17 @@ css-anchor-position
 1
 current
 https://drafts.csswg.org/css-anchor-position-1/#anchor-reference
+1
+1
+-
+anchor reference
+anchor reference
+dfn
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#anchor-reference
 1
 1
 -
@@ -2556,8 +3091,6 @@ https://drafts.csswg.org/css-anchor-position-1/#valdef-justify-self-anchor-cente
 1
 justify-self
 align-self
-justify-items
-align-items
 -
 anchor-center
 anchor-center
@@ -2571,8 +3104,6 @@ https://www.w3.org/TR/css-anchor-position-1/#valdef-justify-self-anchor-center
 1
 justify-self
 align-self
-justify-items
-align-items
 -
 anchor-name
 anchor-name
@@ -2593,6 +3124,17 @@ css-anchor-position
 1
 snapshot
 https://www.w3.org/TR/css-anchor-position-1/#propdef-anchor-name
+1
+1
+-
+anchor-position-follows-transforms
+anchor-position-follows-transforms
+dfn
+css-conditional-5
+css-conditional
+5
+current
+https://drafts.csswg.org/css-conditional-5/#anchor-position-follows-transforms
 1
 1
 -
@@ -2639,6 +3181,30 @@ snapshot
 https://www.w3.org/TR/css-anchor-position-1/#funcdef-anchor-size
 1
 1
+-
+anchor-valid
+anchor-valid
+value
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-valid
+1
+1
+position-visibility
+-
+anchor-visible
+anchor-visible
+value
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-visible
+1
+1
+position-visibility
 -
 anchorNode
 anchorNode
@@ -2700,6 +3266,30 @@ https://immersive-web.github.io/anchors/#dom-xranchor-anchorspace
 1
 XRAnchor
 -
+anchored
+anchored
+value
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#valdef-container-type-anchored
+1
+1
+container-type
+-
+anchored
+anchored
+value
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#valdef-container-type-anchored
+1
+1
+container-type
+-
 anchors
 anchors
 attribute
@@ -2729,32 +3319,8 @@ value
 css-anchor-position-1
 css-anchor-position
 1
-current
-https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-valid
-1
-1
-position-visibility
--
-anchors-valid
-anchors-valid
-value
-css-anchor-position-1
-css-anchor-position
-1
 snapshot
 https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-anchors-valid
-1
-1
-position-visibility
--
-anchors-visible
-anchors-visible
-value
-css-anchor-position-1
-css-anchor-position
-1
-current
-https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-visible
 1
 1
 position-visibility
@@ -2793,6 +3359,28 @@ https://www.w3.org/TR/png-3/#3ancillaryChunk
 
 1
 -
+ancillary use
+ancillary use
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-ancillary-use
+1
+
+-
+ancillary use
+ancillary use
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-ancillary-use
+
+
+-
 and
 and
 dfn
@@ -2817,8 +3405,8 @@ https://www.w3.org/TR/WGSL/#syntax_sym-and
 1
 syntax_sym
 -
-and(typedArray, index, value)
-and(typedArray, index, value)
+and(ta, index, value)
+and(ta, index, value)
 method
 ecmascript
 ecmascript
@@ -2951,24 +3539,12 @@ CSSRotate/constructor(x, y, z, angle)
 -
 angle
 angle
-value
-css-borders-4
-css-borders
-4
-current
-https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-angle
-1
-1
-corner-shape
--
-angle
-angle
 argument
 geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-rotateaxisangleself-x-y-z-angle-angle
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-rotateaxisangleself-x-y-z-angle-angle
 1
 1
 DOMMatrix/rotateAxisAngleSelf(x, y, z, angle)
@@ -2984,7 +3560,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-rotateaxisangle-x-y-z-angle-angle
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-rotateaxisangle-x-y-z-angle-angle
 1
 1
 DOMMatrixReadOnly/rotateAxisAngle(x, y, z, angle)
@@ -2992,18 +3568,6 @@ DOMMatrixReadOnly/rotateAxisAngle(x, y, z)
 DOMMatrixReadOnly/rotateAxisAngle(x, y)
 DOMMatrixReadOnly/rotateAxisAngle(x)
 DOMMatrixReadOnly/rotateAxisAngle()
--
-angle
-angle
-attribute
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__angle
-1
-1
-SVGTransform
 -
 angle
 angle
@@ -3016,6 +3580,18 @@ https://w3c.github.io/screen-orientation/#dom-screenorientation-angle
 1
 1
 ScreenOrientation
+-
+angle
+angle
+attribute
+svg2
+svg
+2
+current
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__angle
+1
+1
+SVGTransform
 -
 angle
 angle
@@ -3078,18 +3654,6 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssrotate-cssrotate-x-y-z-angle-angle
 1
 CSSRotate/CSSRotate(x, y, z, angle)
 CSSRotate/constructor(x, y, z, angle)
--
-angle
-angle
-value
-css-values-5
-css-values
-5
-snapshot
-https://www.w3.org/TR/css-values-5/#valdef-attr-angle
-1
-1
-attr()
 -
 angle
 angle
@@ -3212,7 +3776,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal
 1
 1
 SVGAnimatedPreserveAspectRatio
@@ -3224,7 +3788,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__animVal
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__animVal
 1
 1
 SVGAnimatedTransformList
@@ -3236,7 +3800,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedAngle__animVal
 1
 1
 SVGAnimatedAngle
@@ -3248,7 +3812,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedBoolean__animVal
 1
 1
 SVGAnimatedBoolean
@@ -3260,7 +3824,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__animVal
 1
 1
 SVGAnimatedEnumeration
@@ -3272,7 +3836,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedInteger__animVal
 1
 1
 SVGAnimatedInteger
@@ -3284,7 +3848,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLengthList__animVal
 1
 1
 SVGAnimatedLengthList
@@ -3296,7 +3860,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLength__animVal
 1
 1
 SVGAnimatedLength
@@ -3308,7 +3872,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumberList__animVal
 1
 1
 SVGAnimatedNumberList
@@ -3320,7 +3884,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumber__animVal
 1
 1
 SVGAnimatedNumber
@@ -3332,7 +3896,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedRect__animVal
 1
 1
 SVGAnimatedRect
@@ -3344,7 +3908,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__animVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedString__animVal
 1
 1
 SVGAnimatedString
@@ -3587,11 +4151,35 @@ Animatable
 animate(keyframes, options)
 animate(keyframes, options)
 method
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animatable-animate
+1
+1
+Animatable
+-
+animate(keyframes, options)
+animate(keyframes, options)
+method
 web-animations-1
 web-animations
 1
 snapshot
 https://www.w3.org/TR/web-animations-1/#dom-animatable-animate
+1
+1
+Animatable
+-
+animate(keyframes, options)
+animate(keyframes, options)
+method
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animatable-animate
 1
 1
 Animatable
@@ -3645,11 +4233,33 @@ ImageTrack
 animated image
 animated image
 dfn
+css-image-animation-1
+css-image-animation
+1
+current
+https://drafts.csswg.org/css-image-animation-1/#animated-image
+
+1
+-
+animated image
+animated image
+dfn
 png-3
 png
 3
 current
 https://w3c.github.io/png/#dfn-animated-image
+
+1
+-
+animated image
+animated image
+dfn
+css-image-animation-1
+css-image-animation
+1
+snapshot
+https://www.w3.org/TR/css-image-animation-1/#animated-image
 
 1
 -
@@ -3693,7 +4303,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__animatedInstanceRoot
+https://w3c.github.io/svgwg/svg2-draft/struct.html#__svg__SVGUseElement__animatedInstanceRoot
 1
 1
 SVGUseElement
@@ -3717,7 +4327,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints
+https://w3c.github.io/svgwg/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints
 1
 1
 SVGAnimatedPoints
@@ -3744,6 +4354,54 @@ current
 https://drafts.csswg.org/css-animations-1/#propdef-animation
 1
 1
+-
+animation
+animation
+attribute
+css-animations-2
+css-animations
+2
+current
+https://drafts.csswg.org/css-animations-2/#dom-animationevent-animation
+1
+1
+AnimationEvent
+-
+animation
+animation
+dict-member
+css-animations-2
+css-animations
+2
+current
+https://drafts.csswg.org/css-animations-2/#dom-animationeventinit-animation
+1
+1
+AnimationEventInit
+-
+animation
+animation
+attribute
+css-transitions-2
+css-transitions
+2
+current
+https://drafts.csswg.org/css-transitions-2/#Events-TransitionEvent-animation
+1
+1
+TransitionEvent
+-
+animation
+animation
+dict-member
+css-transitions-2
+css-transitions
+2
+current
+https://drafts.csswg.org/css-transitions-2/#dom-transitioneventinit-animation
+1
+1
+TransitionEventInit
 -
 animation
 animation
@@ -4123,6 +4781,17 @@ https://www.w3.org/TR/web-animations-1/#animation-property-name-to-idl-attribute
 
 1
 -
+animation range center subject
+animation range center subject
+dfn
+pointer-animations-1
+pointer-animations
+1
+current
+https://drafts.csswg.org/pointer-animations-1/#animation-range-center-subject
+
+1
+-
 animation requested flag
 animation requested flag
 dfn
@@ -4187,6 +4856,72 @@ svg-animations
 current
 https://svgwg.org/specs/animations/#animation-timing-attributes
 
+1
+-
+animation trigger
+animation trigger
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#animation-trigger
+1
+1
+-
+animation trigger
+animation trigger
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#animation-trigger
+1
+1
+-
+animation trigger behavior
+animation trigger behavior
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#animation-trigger-behavior
+1
+1
+-
+animation trigger behavior
+animation trigger behavior
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#animation-trigger-behavior
+1
+1
+-
+animation trigger state
+animation trigger state
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#animation-trigger-state
+1
+1
+-
+animation trigger state
+animation trigger state
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#animation-trigger-state
+1
 1
 -
 animation value attributes
@@ -4420,6 +5155,17 @@ https://www.w3.org/TR/scroll-animations-1/#propdef-animation-range
 1
 1
 -
+animation-range-center
+animation-range-center
+property
+pointer-animations-1
+pointer-animations
+1
+current
+https://drafts.csswg.org/pointer-animations-1/#propdef-animation-range-center
+1
+1
+-
 animation-range-end
 animation-range-end
 property
@@ -4538,6 +5284,17 @@ css-animations
 1
 snapshot
 https://www.w3.org/TR/css-animations-1/#propdef-animation-timing-function
+1
+1
+-
+animation-trigger
+animation-trigger
+property
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#propdef-animation-trigger
 1
 1
 -
@@ -5145,6 +5902,28 @@ https://www.w3.org/TR/webdriver2/#dfn-annotated-unexpected-alert-open-error
 
 1
 -
+annotating
+annotating
+dfn
+rdf12-xml
+rdf-xml
+1
+current
+https://w3c.github.io/rdf-xml/spec/#dfn-annotating
+
+
+-
+annotating
+annotating
+dfn
+rdf12-xml
+rdf-xml
+1
+snapshot
+https://www.w3.org/TR/rdf12-xml/#dfn-annotating
+
+
+-
 annotation
 annotation
 attribute
@@ -5279,6 +6058,28 @@ https://www.w3.org/TR/html-ruby-extensions/#annotation-pairing
 1
 1
 -
+annotation properties
+annotation properties
+dfn
+shacl12-sparql
+shacl-sparql
+1
+current
+https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-annotation-properties
+
+1
+-
+annotation properties
+annotation properties
+dfn
+shacl12-sparql
+shacl-sparql
+1
+snapshot
+https://www.w3.org/TR/shacl12-sparql/#dfn-annotation-properties
+
+1
+-
 annotation syntax
 annotation syntax
 dfn
@@ -5301,8 +6102,8 @@ https://www.w3.org/TR/rdf12-turtle/#dfn-annotation-syntax
 
 
 -
-annotation(<feature-value-name>)
-annotation(<feature-value-name>)
+annotation(<font-feature-value-name>)
+annotation(<font-feature-value-name>)
 value
 css-fonts-4
 css-fonts
@@ -5313,8 +6114,8 @@ https://drafts.csswg.org/css-fonts-4/#annotation
 1
 font-variant-alternates
 -
-annotation(<feature-value-name>)
-annotation(<feature-value-name>)
+annotation(<font-feature-value-name>)
+annotation(<font-feature-value-name>)
 value
 css-fonts-4
 css-fonts
@@ -5368,6 +6169,18 @@ snapshot
 https://www.w3.org/TR/mathml-core/#dfn-annotation-xml
 1
 1
+-
+annotations
+annotations
+dict-member
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-annotations
+1
+1
+ModelContextTool
 -
 announce an RTCDataChannel as open
 announce an RTCDataChannel as open
@@ -5427,6 +6240,17 @@ https://www.w3.org/TR/webrtc/#announce-datachannel-open
 anonymization policy
 anonymization policy
 dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sl-candidate-anonymization-policy
+
+1
+-
+anonymization policy
+anonymization policy
+dfn
 prefetch
 prefetch
 1
@@ -5435,18 +6259,6 @@ https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-anonymizati
 1
 1
 prefetch record
--
-anonymization policy
-anonymization policy
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#prefetch-candidate-anonymization-policy
-
-1
-prefetch candidate
 -
 anonymous
 anonymous
@@ -5487,9 +6299,9 @@ https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-anonymous
 anonymous
 anonymous
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#anonymous
 
@@ -5516,20 +6328,9 @@ anonymous
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#x9
-1
-1
--
-anonymous
-anonymous
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#x9
+https://www.w3.org/TR/CSS2/visuren.html#x9
 1
 1
 -
@@ -5541,6 +6342,18 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#anonymous
+1
+1
+CSS
+-
+anonymous
+anonymous
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#anonymous
 1
 1
 CSS
@@ -5629,6 +6442,18 @@ CSS
 anonymous box
 anonymous box
 dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#anonymous
+1
+1
+CSS
+-
+anonymous box
+anonymous box
+dfn
 mathml-core
 mathml-core
 1
@@ -5662,9 +6487,9 @@ https://html.spec.whatwg.org/multipage/rendering.html#anonymous-fieldset-content
 anonymous inline boxes
 anonymous inline boxes
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#anonymous-inline-boxes
 
@@ -5675,20 +6500,9 @@ anonymous inline boxes
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#x14
-1
-1
--
-anonymous inline boxes
-anonymous inline boxes
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#x14
+https://www.w3.org/TR/CSS2/visuren.html#x14
 1
 1
 -
@@ -5993,6 +6807,18 @@ https://www.w3.org/TR/css-color-4/#valdef-color-antiquewhite
 any
 any
 value
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#valdef-position-area-query-any
+1
+1
+<position-area-query>
+-
+any
+any
+value
 css-values-5
 css-values
 5
@@ -6001,6 +6827,18 @@ https://drafts.csswg.org/css-values-5/#valdef-calc-size-any
 1
 1
 calc-size()
+-
+any
+any
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby-any
+1
+1
+dialog/closedby
 -
 any
 any
@@ -6050,6 +6888,17 @@ https://webidl.spec.whatwg.org/#idl-any
 -
 any
 any
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+any
+any
 dfn
 appmanifest
 appmanifest
@@ -6059,6 +6908,18 @@ https://www.w3.org/TR/appmanifest/#dfn-any
 
 1
 icon purpose
+-
+any
+any
+value
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#valdef-position-area-query-any
+1
+1
+<position-area-query>
 -
 any
 any
@@ -6083,6 +6944,50 @@ https://www.w3.org/TR/screen-orientation/#dom-orientationlocktype-any
 1
 1
 OrientationLockType
+-
+any data type
+any data type
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#any-data-type
+
+1
+-
+any data type
+any data type
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#any-data-type
+
+1
+-
+any rank
+any rank
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#any-rank
+
+1
+-
+any rank
+any rank
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#any-rank
+
+1
 -
 any(iterable)
 any(iterable)
@@ -6227,50 +7132,6 @@ https://www.w3.org/TR/mediaqueries-5/#descdef-media-any-pointer
 1
 1
 @media
--
-anystring
-anyString
-dfn
-rdf12-xml
-rdf-xml
-1
-current
-https://w3c.github.io/rdf-xml/spec/#dfn-anystring
-
-1
--
-anystring
-anyString
-dfn
-rdf12-xml
-rdf-xml
-1
-snapshot
-https://www.w3.org/TR/rdf12-xml/#dfn-anystring
-
-1
--
-anyuri
-anyURI
-dfn
-rdf12-xml
-rdf-xml
-1
-current
-https://w3c.github.io/rdf-xml/spec/#dfn-anyuri
-
-1
--
-anyuri
-anyURI
-dfn
-rdf12-xml
-rdf-xml
-1
-snapshot
-https://www.w3.org/TR/rdf12-xml/#dfn-anyuri
-
-1
 -
 anywhere
 anywhere

@@ -2,23 +2,43 @@ d:soap
 SOAP
 8 May 2000
 NOTE
-SOAP Specifications
+Simple Object Access Protocol (SOAP) 1.1
 https://www.w3.org/TR/SOAP/
 
 
 
 
+Andrew Layman
+David Winer
+Henrik Frystyk Nielsen
+Gopal Kakivaya
+David Ehnebuske
+Satish Thatte
+Noah Mendelsohn
+Don Box
 -
 d:soap-20000508
 SOAP-20000508
 8 May 2000
 NOTE
-SOAP Specifications
+Simple Object Access Protocol (SOAP) 1.1
 https://www.w3.org/TR/2000/NOTE-SOAP-20000508
 https://www.w3.org/TR/2000/NOTE-SOAP-20000508
 
 
 
+Andrew Layman
+David Winer
+Henrik Frystyk Nielsen
+Gopal Kakivaya
+David Ehnebuske
+Satish Thatte
+Noah Mendelsohn
+Don Box
+-
+a:soap-af
+soap-af
+soap12-af
 -
 d:soap-attachments
 SOAP-attachments
@@ -30,6 +50,8 @@ https://www.w3.org/TR/SOAP-attachments
 
 
 
+Henrik Frystyk Nielsen
+Satish Thatte
 -
 d:soap-attachments-20001211
 SOAP-attachments-20001211
@@ -41,6 +63,8 @@ https://www.w3.org/TR/2000/NOTE-SOAP-attachments-20001211
 
 
 
+Henrik Frystyk Nielsen
+Satish Thatte
 -
 d:soap-dsig
 SOAP-dsig
@@ -52,6 +76,10 @@ https://www.w3.org/TR/SOAP-dsig/
 
 
 
+Allen Brown
+Hiroshi Maruyama
+Brian LaMacchia
+Satoshi Hada
 -
 d:soap-dsig-20010206
 SOAP-dsig-20010206
@@ -63,6 +91,42 @@ https://www.w3.org/TR/2001/NOTE-SOAP-dsig-20010206
 
 
 
+Allen Brown
+Hiroshi Maruyama
+Brian LaMacchia
+Satoshi Hada
+-
+a:soap-email
+soap-email
+soap12-email
+-
+a:soap-mtom
+soap-mtom
+soap12-mtom
+-
+a:soap-mtom-policy
+soap-mtom-policy
+soap12-mtom-policy
+-
+a:soap-n11n
+soap-n11n
+soap12-n11n
+-
+a:soap-os-ucr
+soap-os-ucr
+soap12-os-ucr
+-
+a:soap-rep
+soap-rep
+soap12-rep
+-
+a:soap-ror-httpbinding
+soap-ror-httpbinding
+soap11-ror-httpbinding
+-
+a:soap-testcollection
+soap-testcollection
+soap12-testcollection
 -
 d:soap11-ror-httpbinding
 soap11-ror-httpbinding
@@ -117,7 +181,7 @@ Hervé Ruellan
 d:soap12-af-20020924
 soap12-af-20020924
 24 September 2002
-WD
+LCWD
 SOAP 1.2 Attachment Feature
 https://www.w3.org/TR/2002/WD-soap12-af-20020924
 https://www.w3.org/TR/2002/WD-soap12-af-20020924
@@ -166,11 +230,11 @@ https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
 
 
 1
-Highland Mary Mountain
-Jacek Kopecky
 Stuart Williams
 Glen Daniels
+Highland Mary Mountain
 Noah Mendelsohn
+Jacek Kopecky
 -
 d:soap12-email-20020703
 soap12-email-20020703
@@ -213,10 +277,9 @@ https://www.w3.org/TR/2003/WD-soap12-mtom-20030721
 
 
 1
-Martin Gudgin
+Hervé Ruellan
 Noah Mendelsohn
 Mark Nottingham
-Hervé Ruellan
 -
 d:soap12-mtom-20040209
 soap12-mtom-20040209
@@ -228,25 +291,23 @@ https://www.w3.org/TR/2004/WD-soap12-mtom-20040209/
 
 
 1
-Martin Gudgin
+Hervé Ruellan
 Noah Mendelsohn
 Mark Nottingham
-Hervé Ruellan
 -
 d:soap12-mtom-20040608
 soap12-mtom-20040608
 8 June 2004
-WD
+LCWD
 SOAP Message Transmission Optimization Mechanism
 https://www.w3.org/TR/2004/WD-soap12-mtom-20040608/
 https://www.w3.org/TR/2004/WD-soap12-mtom-20040608/
 
 
 1
-Martin Gudgin
+Hervé Ruellan
 Noah Mendelsohn
 Mark Nottingham
-Hervé Ruellan
 -
 d:soap12-mtom-20040826
 soap12-mtom-20040826
@@ -259,9 +320,9 @@ https://www.w3.org/TR/2004/CR-soap12-mtom-20040826/
 
 1
 Martin Gudgin
+Hervé Ruellan
 Noah Mendelsohn
 Mark Nottingham
-Hervé Ruellan
 -
 d:soap12-mtom-20041116
 soap12-mtom-20041116
@@ -274,9 +335,9 @@ https://www.w3.org/TR/2004/PR-soap12-mtom-20041116/
 
 1
 Martin Gudgin
+Hervé Ruellan
 Noah Mendelsohn
 Mark Nottingham
-Hervé Ruellan
 -
 d:soap12-mtom-20050125
 soap12-mtom-20050125
@@ -296,7 +357,7 @@ Hervé Ruellan
 d:soap12-mtom-policy
 soap12-mtom-policy
 18 September 2007
-LCWD
+WD
 MTOM Serialization Policy Assertion 1.1
 https://www.w3.org/TR/soap12-mtom-policy/
 
@@ -309,7 +370,7 @@ Yves Lafon
 d:soap12-mtom-policy-20070918
 soap12-mtom-policy-20070918
 18 September 2007
-LCWD
+WD
 MTOM Serialization Policy Assertion 1.1
 https://www.w3.org/TR/2007/WD-soap12-mtom-policy-20070918/
 https://www.w3.org/TR/2007/WD-soap12-mtom-policy-20070918/
@@ -342,8 +403,8 @@ https://www.w3.org/TR/2003/NOTE-soap12-n11n-20030328/
 
 
 
-Martin Gudgin
 Marc Hadley
+Martin Gudgin
 -
 d:soap12-n11n-20031008
 soap12-n11n-20031008
@@ -417,53 +478,49 @@ d:soap12-part0-20011217
 soap12-part0-20011217
 17 December 2001
 WD
-SOAP Version 1.2 Part 0: Primer (Second Edition)
+SOAP Version 1.2 Part 0: Primer
 https://www.w3.org/TR/2001/WD-soap12-part0-20011217/
 https://www.w3.org/TR/2001/WD-soap12-part0-20011217/
 
 
 
 Nilo Mitra
-Yves Lafon
 -
 d:soap12-part0-20020626
 soap12-part0-20020626
 26 June 2002
-WD
-SOAP Version 1.2 Part 0: Primer (Second Edition)
+LCWD
+SOAP Version 1.2 Part 0: Primer
 https://www.w3.org/TR/2002/WD-soap12-part0-20020626
 https://www.w3.org/TR/2002/WD-soap12-part0-20020626
 
 
 
 Nilo Mitra
-Yves Lafon
 -
 d:soap12-part0-20021219
 soap12-part0-20021219
 19 December 2002
 CR
-SOAP Version 1.2 Part 0: Primer (Second Edition)
+SOAP Version 1.2 Part 0: Primer
 https://www.w3.org/TR/2002/CR-soap12-part0-20021219
 https://www.w3.org/TR/2002/CR-soap12-part0-20021219
 
 
 
 Nilo Mitra
-Yves Lafon
 -
 d:soap12-part0-20030507
 soap12-part0-20030507
 7 May 2003
 PR
-SOAP Version 1.2 Part 0: Primer (Second Edition)
+SOAP Version 1.2 Part 0: Primer
 https://www.w3.org/TR/2003/PR-soap12-part0-20030507/
 https://www.w3.org/TR/2003/PR-soap12-part0-20030507/
 
 
 
 Nilo Mitra
-Yves Lafon
 -
 d:soap12-part0-20030624
 soap12-part0-20030624
@@ -487,8 +544,8 @@ https://www.w3.org/TR/2006/PER-soap12-part0-20061219/
 
 
 
-Nilo Mitra
 Yves Lafon
+Nilo Mitra
 -
 d:soap12-part0-20070427
 soap12-part0-20070427
@@ -525,7 +582,7 @@ d:soap12-part1-20010709
 soap12-part1-20010709
 9 July 2001
 WD
-SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+SOAP Version 1.2
 https://www.w3.org/TR/2001/WD-soap12-20010709/
 https://www.w3.org/TR/2001/WD-soap12-20010709/
 
@@ -543,7 +600,7 @@ d:soap12-part1-20011002
 soap12-part1-20011002
 2 October 2001
 WD
-SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+SOAP Version 1.2 Part 1: Messaging Framework
 https://www.w3.org/TR/2001/WD-soap12-part1-20011002/
 https://www.w3.org/TR/2001/WD-soap12-part1-20011002/
 
@@ -561,73 +618,64 @@ d:soap12-part1-20011217
 soap12-part1-20011217
 17 December 2001
 WD
-SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+SOAP Version 1.2 Part 1: Messaging Framework
 https://www.w3.org/TR/2001/WD-soap12-part1-20011217/
 https://www.w3.org/TR/2001/WD-soap12-part1-20011217/
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
 -
 d:soap12-part1-20020626
 soap12-part1-20020626
 26 June 2002
-WD
-SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+LCWD
+SOAP Version 1.2 Part 1: Messaging Framework
 https://www.w3.org/TR/2002/WD-soap12-part1-20020626
 https://www.w3.org/TR/2002/WD-soap12-part1-20020626
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part1-20021219
 soap12-part1-20021219
 19 December 2002
 CR
-SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+SOAP Version 1.2 Part 1: Messaging Framework
 https://www.w3.org/TR/2002/CR-soap12-part1-20021219
 https://www.w3.org/TR/2002/CR-soap12-part1-20021219
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part1-20030507
 soap12-part1-20030507
 7 May 2003
 PR
-SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)
+SOAP Version 1.2 Part 1: Messaging Framework
 https://www.w3.org/TR/2003/PR-soap12-part1-20030507/
 https://www.w3.org/TR/2003/PR-soap12-part1-20030507/
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part1-20030624
 soap12-part1-20030624
@@ -655,13 +703,13 @@ https://www.w3.org/TR/2006/PER-soap12-part1-20061219/
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
+Yves Lafon
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
 Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part1-20070427
 soap12-part1-20070427
@@ -703,7 +751,7 @@ d:soap12-part2-20011002
 soap12-part2-20011002
 2 October 2001
 WD
-SOAP Version 1.2 Part 2: Adjuncts (Second Edition)
+SOAP Version 1.2 Part 2: Adjuncts
 https://www.w3.org/TR/2001/WD-soap12-part2-20011002/
 https://www.w3.org/TR/2001/WD-soap12-part2-20011002/
 
@@ -721,73 +769,64 @@ d:soap12-part2-20011217
 soap12-part2-20011217
 17 December 2001
 WD
-SOAP Version 1.2 Part 2: Adjuncts (Second Edition)
+SOAP Version 1.2 Part 2: Adjuncts
 https://www.w3.org/TR/2001/WD-soap12-part2-20011217/
 https://www.w3.org/TR/2001/WD-soap12-part2-20011217/
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
 -
 d:soap12-part2-20020626
 soap12-part2-20020626
 26 June 2002
-WD
-SOAP Version 1.2 Part 2: Adjuncts (Second Edition)
+LCWD
+SOAP Version 1.2 Part 2: Adjuncts
 https://www.w3.org/TR/2002/WD-soap12-part2-20020626
 https://www.w3.org/TR/2002/WD-soap12-part2-20020626
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part2-20021219
 soap12-part2-20021219
 19 December 2002
 CR
-SOAP Version 1.2 Part 2: Adjuncts (Second Edition)
+SOAP Version 1.2 Part 2: Adjuncts
 https://www.w3.org/TR/2002/CR-soap12-part2-20021219
 https://www.w3.org/TR/2002/CR-soap12-part2-20021219
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part2-20030507
 soap12-part2-20030507
 7 May 2003
 PR
-SOAP Version 1.2 Part 2: Adjuncts (Second Edition)
+SOAP Version 1.2 Part 2: Adjuncts
 https://www.w3.org/TR/2003/PR-soap12-part2-20030507/
 https://www.w3.org/TR/2003/PR-soap12-part2-20030507/
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
-Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part2-20030624
 soap12-part2-20030624
@@ -815,13 +854,13 @@ https://www.w3.org/TR/2006/PER-soap12-part2-20061219/
 
 
 1
-Martin Gudgin
-Marc Hadley
-Noah Mendelsohn
+Yves Lafon
 Jean-Jacques Moreau
+Marc Hadley
+Martin Gudgin
 Henrik Frystyk Nielsen
 Anish Karmarkar
-Yves Lafon
+Noah Mendelsohn
 -
 d:soap12-part2-20070427
 soap12-part2-20070427
@@ -895,29 +934,29 @@ d:soap12-rep-20040428
 soap12-rep-20040428
 28 April 2004
 WD
-Resource Representation SOAP Header Block
+SOAP Resource Representation Header
 https://www.w3.org/TR/2004/WD-soap12-rep-20040428/
 https://www.w3.org/TR/2004/WD-soap12-rep-20040428/
 
 
 
-Anish Karmarkar
-Martin Gudgin
 Yves Lafon
+Martin Gudgin
+Anish Karmarkar
 -
 d:soap12-rep-20040608
 soap12-rep-20040608
 8 June 2004
-WD
-Resource Representation SOAP Header Block
+LCWD
+SOAP Resource Representation Header
 https://www.w3.org/TR/2004/WD-soap12-rep-20040608/
 https://www.w3.org/TR/2004/WD-soap12-rep-20040608/
 
 
 
-Anish Karmarkar
-Martin Gudgin
 Yves Lafon
+Martin Gudgin
+Anish Karmarkar
 -
 d:soap12-rep-20040826
 soap12-rep-20040826
@@ -929,9 +968,9 @@ https://www.w3.org/TR/2004/CR-soap12-rep-20040826/
 
 
 
-Anish Karmarkar
-Martin Gudgin
 Yves Lafon
+Martin Gudgin
+Anish Karmarkar
 -
 d:soap12-rep-20041116
 soap12-rep-20041116
@@ -943,9 +982,9 @@ https://www.w3.org/TR/2004/PR-soap12-rep-20041116/
 
 
 
-Anish Karmarkar
-Martin Gudgin
 Yves Lafon
+Martin Gudgin
+Anish Karmarkar
 -
 d:soap12-rep-20050125
 soap12-rep-20050125
@@ -982,38 +1021,38 @@ Richard D. Martin
 d:soap12-testcollection-20020626
 soap12-testcollection-20020626
 26 June 2002
-WD
-SOAP Version 1.2 Specification Assertions and Test Collection (Second Edition)
+LCWD
+SOAP Version 1.2 Specification Assertions and Test Collection
 https://www.w3.org/TR/2002/WD-soap12-testcollection-20020626
 https://www.w3.org/TR/2002/WD-soap12-testcollection-20020626
 
 
 1
 Hugo Haas
-Oisin Hurley
+Richard D. Martin
+Lynne R. Thompson
 Anish Karmarkar
 Jeff Mischkinsky
+Oisin Hurley
 Mark Jones
-Lynne R. Thompson
-Richard D. Martin
 -
 d:soap12-testcollection-20030507
 soap12-testcollection-20030507
 7 May 2003
 PR
-SOAP Version 1.2 Specification Assertions and Test Collection (Second Edition)
+SOAP Version 1.2 Specification Assertions and Test Collection
 https://www.w3.org/TR/2003/PR-soap12-testcollection-20030507/
 https://www.w3.org/TR/2003/PR-soap12-testcollection-20030507/
 
 
 1
 Hugo Haas
-Oisin Hurley
+Richard D. Martin
+Lynne R. Thompson
 Anish Karmarkar
 Jeff Mischkinsky
+Oisin Hurley
 Mark Jones
-Lynne R. Thompson
-Richard D. Martin
 -
 d:soap12-testcollection-20030624
 soap12-testcollection-20030624
@@ -1044,12 +1083,12 @@ https://www.w3.org/TR/2006/PER-soap12-testcollection-20061219/
 
 1
 Hugo Haas
-Oisin Hurley
+Richard D. Martin
+Lynne R. Thompson
 Anish Karmarkar
 Jeff Mischkinsky
+Oisin Hurley
 Mark Jones
-Lynne R. Thompson
-Richard D. Martin
 -
 d:soap12-testcollection-20070427
 soap12-testcollection-20070427
@@ -1095,27 +1134,23 @@ https://www.w3.org/TR/2008/WD-soapjms-20080723
 
 
 
-Phil Adams
-Peter Easton
-Eric Johnson
 Roland Merrick
-Mark Phillips
+Peter Easton
+Bhakti Mehta
 -
 d:soapjms-20081121
 soapjms-20081121
 21 November 2008
-WD
+LCWD
 SOAP over Java Message Service 1.0
 https://www.w3.org/TR/2008/WD-soapjms-20081121
 https://www.w3.org/TR/2008/WD-soapjms-20081121
 
 
 
-Phil Adams
-Peter Easton
-Eric Johnson
 Roland Merrick
-Mark Phillips
+Peter Easton
+Bhakti Mehta
 -
 d:soapjms-20090604
 soapjms-20090604
@@ -1127,27 +1162,26 @@ https://www.w3.org/TR/2009/CR-soapjms-20090604
 
 
 
-Phil Adams
-Peter Easton
-Eric Johnson
 Roland Merrick
-Mark Phillips
+Peter Easton
+Bhakti Mehta
+Phil Adams
 -
 d:soapjms-20101026
 soapjms-20101026
 26 October 2010
-WD
+LCWD
 SOAP over Java Message Service 1.0
 https://www.w3.org/TR/2010/WD-soapjms-20101026/
 https://www.w3.org/TR/2010/WD-soapjms-20101026/
 
 
 
-Phil Adams
-Peter Easton
-Eric Johnson
 Roland Merrick
+Eric Johnson
 Mark Phillips
+Peter Easton
+Phil Adams
 -
 d:soapjms-20111208
 soapjms-20111208
@@ -1159,11 +1193,11 @@ https://www.w3.org/TR/2011/PR-soapjms-20111208/
 
 
 
-Phil Adams
-Peter Easton
-Eric Johnson
 Roland Merrick
+Eric Johnson
 Mark Phillips
+Peter Easton
+Phil Adams
 -
 d:soapjms-20120216
 soapjms-20120216
@@ -1196,7 +1230,7 @@ Amy Guy
 d:social-web-protocols-20160112
 social-web-protocols-20160112
 12 January 2016
-WD
+FPWD
 Social Web Protocols
 https://www.w3.org/TR/2016/WD-social-web-protocols-20160112/
 https://www.w3.org/TR/2016/WD-social-web-protocols-20160112/
@@ -1277,11 +1311,115 @@ https://www.w3.org/TR/2017/NOTE-social-web-protocols-20171225/
 
 Amy Guy
 -
+d:societal-impact-questionnaire
+societal-impact-questionnaire
+19 March 2026
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/societal-impact-questionnaire/
+https://w3ctag.github.io/societal-impact-questionnaire/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20251104
+societal-impact-questionnaire-20251104
+4 November 2025
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251104/
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251104/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20251202
+societal-impact-questionnaire-20251202
+2 December 2025
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251202/
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251202/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20251208
+societal-impact-questionnaire-20251208
+8 December 2025
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251208/
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251208/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20251217
+societal-impact-questionnaire-20251217
+17 December 2025
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251217/
+https://www.w3.org/TR/2025/DNOTE-societal-impact-questionnaire-20251217/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20260205
+societal-impact-questionnaire-20260205
+5 February 2026
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2026/DNOTE-societal-impact-questionnaire-20260205/
+https://www.w3.org/TR/2026/DNOTE-societal-impact-questionnaire-20260205/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20260225
+societal-impact-questionnaire-20260225
+25 February 2026
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2026/DNOTE-societal-impact-questionnaire-20260225/
+https://www.w3.org/TR/2026/DNOTE-societal-impact-questionnaire-20260225/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
+d:societal-impact-questionnaire-20260319
+societal-impact-questionnaire-20260319
+19 March 2026
+DNOTE
+Self-Review Questionnaire: Societal Impact
+https://www.w3.org/TR/2026/DNOTE-societal-impact-questionnaire-20260319/
+https://www.w3.org/TR/2026/DNOTE-societal-impact-questionnaire-20260319/
+
+
+
+Sarven Capadisli
+Lola Odelola
+-
 d:soft-navigations
 SOFT-NAVIGATIONS
 
 Draft Community Group Report
-Soft Navigations
+Soft Navigations and Interaction Contentful Paint
 https://wicg.github.io/soft-navigations/
 
 
@@ -1338,36 +1476,43 @@ Arne Bröring
 Christoph Stasch
 Johannes Echterhoff
 -
-d:sourcemap
+a:sourcemap
 SOURCEMAP
-
-Editor's Draft
-Source Map specification
-https://tc39.es/source-map/
-
-
-
-
+ECMA-426
 -
 d:sox
 SOX
 30 July 1999
 NOTE
-Schema for Object-Oriented XML
+Schema for Object-oriented XML 2.0
 https://www.w3.org/TR/NOTE-SOX
 
 
 
 
+Murray Maloney
+Jari Koistinen
+Matthew Fuchs
+Mudita Jain
+Mette Hedin
+Chris Lloyd
+Kelly Schwarzhoff
 -
 d:sox-19990730
 SOX-19990730
 30 July 1999
 NOTE
-Schema for Object-Oriented XML
+Schema for Object-oriented XML 2.0
 https://www.w3.org/1999/07/NOTE-SOX-19990730
 https://www.w3.org/1999/07/NOTE-SOX-19990730
 
 
 
+Murray Maloney
+Jari Koistinen
+Matthew Fuchs
+Mudita Jain
+Mette Hedin
+Chris Lloyd
+Kelly Schwarzhoff
 -

@@ -15,13 +15,3 @@ LINE 290:43: No 'dfn' refs found for 'context object' that are marked for export
   (Possible specs this could be from: dom-parsing)
 LINE 291:6: No 'dfn' refs found for 'responsible browsing context'.
 LINE 294:30: No 'dfn' refs found for 'triggered by user activation'.
-LINE 344:64: Multiple possible 'origin' dfn refs for '/'.
-Arbitrarily chose https://html.spec.whatwg.org/multipage/browsers.html#concept-origin
-The following refs show up multiple times in their spec, in a way that Bikeshed can't distinguish between. Either create a manual link, or ask the spec maintainer to add disambiguating attributes (usually a for='' attribute to all of them).
-spec:html; type:dfn; for:/; text:origin
-  https://html.spec.whatwg.org/multipage/browsers.html#concept-origin
-  https://html.spec.whatwg.org/multipage/browsers.html#coop-enforcement-origin
-  https://html.spec.whatwg.org/multipage/browsing-the-web.html#document-state-origin
-  https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-origin
-  https://html.spec.whatwg.org/multipage/media.html#media-resource-origin
-  https://html.spec.whatwg.org/multipage/semantics.html#link-options-origin

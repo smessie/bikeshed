@@ -1,3 +1,27 @@
+"multiple"
+"multiple"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputfiledialoginfo-multiple
+
+1
+input.FileDialogInfo
+-
+"multiple"
+"multiple"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputfiledialoginfo-multiple
+
+1
+input.FileDialogInfo
+-
 "music"
 "music"
 dfn
@@ -92,9 +116,9 @@ https://www.w3.org/TR/selectors-4/#selectordef-muted
 must
 MUST
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#must
 
@@ -105,29 +129,18 @@ MUST
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x0
-1
-1
--
-must
-MUST
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x0
+https://www.w3.org/TR/CSS2/conform.html#x0
 1
 1
 -
 must not
 MUST NOT
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#must-not
 
@@ -138,20 +151,9 @@ MUST NOT
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x1
-1
-1
--
-must not
-MUST NOT
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x1
+https://www.w3.org/TR/CSS2/conform.html#x1
 1
 1
 -
@@ -177,6 +179,139 @@ https://www.w3.org/TR/service-workers/#dictdef-multicachequeryoptions
 1
 1
 -
+multilinecomment
+MultiLineComment
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-MultiLineComment
+
+1
+Web browsers
+-
+multilinecomment
+MultiLineComment
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-MultiLineComment
+
+1
+-
+multilinecommentchars
+MultiLineCommentChars
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-MultiLineCommentChars
+
+1
+-
+multilinenotasteriskchar
+MultiLineNotAsteriskChar
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-MultiLineNotAsteriskChar
+
+1
+-
+multilinenotforwardslashorasteriskchar
+MultiLineNotForwardSlashOrAsteriskChar
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-MultiLineNotForwardSlashOrAsteriskChar
+
+1
+-
+multibase header
+multibase header
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-multibase-header
+1
+1
+-
+multibase header
+multibase header
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-multibase-header
+1
+1
+-
+MulticastController
+MulticastController
+interface
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-multicastcontroller
+1
+1
+-
+MulticastGroupOptions
+MulticastGroupOptions
+dictionary
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-multicastgroupoptions
+1
+1
+-
+MulticastMembership
+MulticastMembership
+dictionary
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-multicastmembership
+1
+1
+-
+multiformats
+multiformats
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-multiformats
+
+
+-
+multiformats
+multiformats
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-multiformats
+
+
+-
 multiline
 multiline
 dfn
@@ -185,6 +320,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#control-group-multiline
+
+1
+-
+multiplicativeexpression
+MultiplicativeExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-MultiplicativeExpression
+
+1
+-
+multiplicativeoperator
+MultiplicativeOperator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-MultiplicativeOperator
 
 1
 -
@@ -348,7 +505,7 @@ MediaStreamTrack
 muting
 muting
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -359,11 +516,33 @@ https://webaudio.github.io/web-audio-api/#mute
 muting
 muting
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#mute
+
+1
+-
+muting
+muting
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#mute
+https://www.w3.org/TR/webaudio-1.0/#mute
+
+1
+-
+muting
+muting
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#mute
 
 1
 -
@@ -511,18 +690,6 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-mul
 1
 MLGraphBuilder
 -
-multi-bid limit
-multi-bid limit
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interestgroupbiddingscriptrunnerglobalscope-multi-bid-limit
-
-1
-InterestGroupBiddingScriptRunnerGlobalScope
--
 multi-col line
 multi-col line
 dfn
@@ -537,12 +704,45 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-line
 multi-col line
 multi-col line
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-line
+1
+1
+-
+multi-col line
+multi-col line
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-line
 
+1
+-
+multi-col line
+multi-col line
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-line
+
+1
+-
+multi-col row
+multi-col row
+dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-row
+1
 1
 -
 multi-column container
@@ -559,11 +759,33 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-container
 multi-column container
 multi-column container
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-container
+1
+1
+-
+multi-column container
+multi-column container
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-container
+1
+1
+-
+multi-column container
+multi-column container
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-container
 1
 1
 -
@@ -581,11 +803,33 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-formatting-context
 multi-column formatting context
 multi-column formatting context
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-formatting-context
+
+1
+-
+multi-column formatting context
+multi-column formatting context
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-formatting-context
+
+1
+-
+multi-column formatting context
+multi-column formatting context
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-formatting-context
 
 1
 -
@@ -603,11 +847,33 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-layout
 multi-column layout
 multi-column layout
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-layout
+1
+1
+-
+multi-column layout
+multi-column layout
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-layout
+1
+1
+-
+multi-column layout
+multi-column layout
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-layout
 1
 1
 -
@@ -625,12 +891,45 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-line
 multi-column line
 multi-column line
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-line
+1
+1
+-
+multi-column line
+multi-column line
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-line
 
+1
+-
+multi-column line
+multi-column line
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-line
+
+1
+-
+multi-column row
+multi-column row
+dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-row
+1
 1
 -
 multi-column spanner
@@ -647,11 +946,33 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-spanner
 multi-column spanner
 multi-column spanner
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-spanner
+1
+1
+-
+multi-column spanner
+multi-column spanner
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-spanner
+1
+1
+-
+multi-column spanner
+multi-column spanner
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-spanner
 1
 1
 -
@@ -669,11 +990,33 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-spanning-element
 multi-column spanning element
 multi-column spanning element
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-spanning-element
+1
+1
+-
+multi-column spanning element
+multi-column spanning element
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-spanning-element
+1
+1
+-
+multi-column spanning element
+multi-column spanning element
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-spanning-element
 1
 1
 -
@@ -735,6 +1078,17 @@ https://drafts.csswg.org/css-flexbox-1/#multi-line-flex-container
 multi-line flex container
 multi-line flex container
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#multi-line-flex-container
+1
+1
+-
+multi-line flex container
+multi-line flex container
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -764,18 +1118,6 @@ snapshot
 https://www.w3.org/TR/window-management/#multi-screen-origin
 
 1
--
-multiBidLimit
-multiBidLimit
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-multibidlimit
-1
-1
-BiddingBrowserSignals
 -
 multiEntry
 multiEntry
@@ -849,6 +1191,54 @@ https://www.w3.org/TR/IndexedDB-3/#index-multientry-flag
 1
 index
 -
+multicastAllowAddressSharing
+multicastAllowAddressSharing
+dict-member
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-udpsocketoptions-multicastallowaddresssharing
+1
+1
+UDPSocketOptions
+-
+multicastController
+multicastController
+dict-member
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-udpsocketopeninfo-multicastcontroller
+1
+1
+UDPSocketOpenInfo
+-
+multicastLoopback
+multicastLoopback
+dict-member
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-udpsocketoptions-multicastloopback
+1
+1
+UDPSocketOptions
+-
+multicastTimeToLive
+multicastTimeToLive
+dict-member
+direct-sockets
+direct-sockets
+1
+current
+https://wicg.github.io/direct-sockets/#dom-udpsocketoptions-multicasttimetolive
+1
+1
+UDPSocketOptions
+-
 multicol
 multicol
 element
@@ -874,11 +1264,33 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-container
 multicol container
 multicol container
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-container
+1
+1
+-
+multicol container
+multicol container
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-container
+1
+1
+-
+multicol container
+multicol container
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-container
 1
 1
 -
@@ -896,12 +1308,45 @@ https://drafts.csswg.org/css-multicol-1/#multi-column-line
 multicol line
 multicol line
 dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-line
+1
+1
+-
+multicol line
+multicol line
+dfn
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#multi-column-line
 
+1
+-
+multicol line
+multicol line
+dfn
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#multi-column-line
+
+1
+-
+multicol row
+multicol row
+dfn
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#multi-column-row
+1
 1
 -
 multiline
@@ -1046,6 +1491,30 @@ ContactsSelectOptions
 -
 multiple
 multiple
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputfiledialoginfo-multiple
+
+1
+input.FileDialogInfo
+-
+multiple
+multiple
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#webdriver-bidi-file-picker-options-multiple
+
+1
+WebDriver BiDi file picker options
+-
+multiple
+multiple
 dict-member
 file-system-access
 file-system-access
@@ -1067,6 +1536,30 @@ https://www.w3.org/TR/contact-picker/#dom-contactsselectoptions-multiple
 1
 1
 ContactsSelectOptions
+-
+multiple
+multiple
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputfiledialoginfo-multiple
+
+1
+input.FileDialogInfo
+-
+multiple
+multiple
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#webdriver-bidi-file-picker-options-multiple
+
+1
+WebDriver BiDi file picker options
 -
 multiple context link headers
 multiple context link headers
@@ -1095,9 +1588,9 @@ JsonLdErrorCode
 multiple declarations
 multiple declarations
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#multiple-declarations
 
@@ -1108,20 +1601,9 @@ multiple declarations
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x8
-1
-1
--
-multiple declarations
-multiple declarations
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x8
+https://www.w3.org/TR/CSS2/selector.html#x8
 1
 1
 -
@@ -1232,23 +1714,12 @@ syntax
 -
 multiply
 multiply
-dfn
-css-transforms-1
-css-transforms
-1
-current
-https://drafts.csswg.org/css-transforms-1/#multiply
-1
-1
--
-multiply
-multiply
 value
 compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#valdef-blend-mode-multiply
+https://drafts.csswg.org/compositing-1/#valdef-blend-mode-multiply
 1
 1
 <blend-mode>
@@ -1260,10 +1731,21 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-multiply
+https://drafts.csswg.org/compositing-2/#valdef-blend-mode-multiply
 1
 1
 <blend-mode>
+-
+multiply
+multiply
+dfn
+css-transforms-1
+css-transforms
+1
+current
+https://drafts.csswg.org/css-transforms-1/#multiply
+1
+1
 -
 multiply
 multiply
@@ -1272,7 +1754,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#multiply
+https://drafts.csswg.org/geometry-1/#multiply
 1
 1
 -
@@ -1363,7 +1845,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-multiply
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-multiply
 1
 1
 DOMMatrixReadOnly
@@ -1387,7 +1869,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-multiply
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-multiply
 1
 1
 DOMMatrixReadOnly
@@ -1411,7 +1893,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-multiplyself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-multiplyself
 1
 1
 DOMMatrix
@@ -1435,7 +1917,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-multiplyself
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-multiplyself
 1
 1
 DOMMatrix
@@ -1713,6 +2195,17 @@ https://www.w3.org/TR/webcodecs-opus-codec-registration/#dom-opussignal-music
 1
 OpusSignal
 -
+must be blocked due to a revoked partition nonce
+must be blocked due to a revoked partition nonce
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#must-be-blocked-due-to-a-revoked-partition-nonce
+
+1
+-
 must not be exposed
 must not be exposed
 dfn
@@ -1820,6 +2313,18 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-
 -
 mutable
 mutable
+dfn
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dfn-mutable
+
+1
+declarative push message parser result
+-
+mutable
+mutable
 dict-member
 wasm-js-api-2
 wasm-js-api
@@ -1829,6 +2334,18 @@ https://webassembly.github.io/spec/js-api/#dom-globaldescriptor-mutable
 1
 1
 GlobalDescriptor
+-
+mutable
+mutable
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-mutable
+
+1
+declarative push message parser result
 -
 mutable
 mutable
@@ -1941,7 +2458,7 @@ mediacapture-streams
 1
 current
 https://w3c.github.io/mediacapture-main/#event-mediastreamtrack-mute
-1
+
 
 -
 mute
@@ -2029,18 +2546,6 @@ HTMLMediaElement
 -
 muted
 muted
-element-attr
-model-element
-model-element
-1
-current
-https://immersive-web.github.io/model-element/#dfn-muted
-1
-1
-model
--
-muted
-muted
 dfn
 mediacapture-streams
 mediacapture-streams
@@ -2119,6 +2624,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/webappapis.html#muted-errors
+
+1
+-
+muted state
+muted state
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/media.html#concept-media-muted-state
 
 1
 -

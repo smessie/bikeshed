@@ -665,19 +665,9 @@ same <a data-link-type="dfn" href="#concept-tree" id="ref-for-concept-tree⑤">t
 after <var>B</var> in
 <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order①">tree order</a>.</p>
    <p>The <dfn class="dfn-paneled" data-dfn-for="tree" data-dfn-type="dfn" data-export id="concept-tree-first-child">first child</dfn> of an object is its
-first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③">child</a> or null if it has no <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.</p>
+first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③">child</a> or null if it has no <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④">children</a>.</p>
    <p>The <dfn class="dfn-paneled" data-dfn-for="tree" data-dfn-type="dfn" data-export id="concept-tree-last-child">last child</dfn> of an object is its
-last <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④">child</a> or null if it has no <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.</p>
+last <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤">child</a> or null if it has no <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥">children</a>.</p>
    <p>The <dfn class="dfn-paneled" data-dfn-for="tree" data-dfn-type="dfn" data-export id="concept-tree-previous-sibling">previous sibling</dfn> of an
 object is its first <a data-link-type="dfn" href="#concept-tree-preceding" id="ref-for-concept-tree-preceding">preceding</a>
 <a data-link-type="dfn" href="#concept-tree-sibling" id="ref-for-concept-tree-sibling①">sibling</a> or null if it has no
@@ -1698,7 +1688,7 @@ override the <a data-link-type="dfn" href="#get-the-parent" id="ref-for-get-the-
 <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior">activation behavior</a> algorithm is passed an <a data-link-type="dfn" href="#concept-event" id="ref-for-concept-event③⑨">event</a>, as indicated in the
 <a data-link-type="dfn" href="#concept-event-dispatch" id="ref-for-concept-event-dispatch②⓪">dispatch</a> algorithm.</p>
    <p class="note" role="note">This exists because user agents perform certain actions for certain
-<code class="idl"><a data-link-type="idl" href="#eventtarget" id="ref-for-eventtarget①③">EventTarget</a></code> objects, e.g., the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element" id="ref-for-the-area-element">area</a></code> element, in response to synthetic <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/uievents/#mouseevent" id="ref-for-mouseevent">MouseEvent</a></code>
+<code class="idl"><a data-link-type="idl" href="#eventtarget" id="ref-for-eventtarget①③">EventTarget</a></code> objects, e.g., the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element" id="ref-for-the-area-element">area</a></code> element, in response to synthetic <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/pointerevents/#dom-mouseevent" id="ref-for-dom-mouseevent">MouseEvent</a></code>
 <a data-link-type="dfn" href="#concept-event" id="ref-for-concept-event④⓪">events</a> whose <code class="idl"><a data-link-type="idl" href="#dom-event-type" id="ref-for-dom-event-type⑦">type</a></code> attribute is <code>click</code>. Web compatibility prevented it
 from being removed and it is now the enshrined way of defining an activation of something. <a data-link-type="biblio" href="#biblio-html" title="HTML Standard">[HTML]</a>
 
@@ -1832,12 +1822,7 @@ constructor steps are to do nothing.
 
 </p>
    <p class="note" role="note">Because of the defaults stated elsewhere, the returned <code class="idl"><a data-link-type="idl" href="#eventtarget" id="ref-for-eventtarget①⑥">EventTarget</a></code>’s
-<a data-link-type="dfn" href="#get-the-parent" id="ref-for-get-the-parent①">get the parent</a> algorithm will return null, and it will have no <u class="link-error" data-lt="activation behavior" title="LINK ERROR: Ambiguous for-less link for &apos;activation behavior&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:EventTarget; text:activation behavior
-for-less references:
-spec:core-aam-1.2; type:dfn; for:/; text:activation behavior
-spec:core-aam-1.2; type:dfn; for:/; text:activation behavior">activation behavior</u>,
+<a data-link-type="dfn" href="#get-the-parent" id="ref-for-get-the-parent①">get the parent</a> algorithm will return null, and it will have no <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior②">activation behavior</a>,
 <a data-link-type="dfn" href="#eventtarget-legacy-pre-activation-behavior" id="ref-for-eventtarget-legacy-pre-activation-behavior">legacy-pre-activation behavior</a>, or <a data-link-type="dfn" href="#eventtarget-legacy-canceled-activation-behavior" id="ref-for-eventtarget-legacy-canceled-activation-behavior">legacy-canceled-activation behavior</a>.
 
 </p>
@@ -1856,7 +1841,7 @@ participate in a tree structure.</p>
  <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-has-ever-been-evaluated-flag" id="ref-for-dfn-has-ever-been-evaluated-flag">has ever been evaluated flag</a> is set, and <var>listener</var>’s
  <a data-link-type="dfn" href="#event-listener-type" id="ref-for-event-listener-type①">type</a> matches the <code class="idl"><a data-link-type="idl" href="#dom-event-type" id="ref-for-dom-event-type⑨">type</a></code> attribute value of any of the
  <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-service-worker-events" id="ref-for-dfn-service-worker-events">service worker events</a>, then <a data-link-type="dfn" href="https://console.spec.whatwg.org/#report-a-warning-to-the-console" id="ref-for-report-a-warning-to-the-console">report a warning to the console</a> that this might not give
- the expected results. <a data-link-type="biblio" href="#biblio-service-workers" title="Service Workers">[SERVICE-WORKERS]</a>
+ the expected results. <a data-link-type="biblio" href="#biblio-service-workers" title="Service Workers Nightly">[SERVICE-WORKERS]</a>
 
  </p>
     <li>
@@ -1920,7 +1905,7 @@ method steps are:
  <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope-service-worker" id="ref-for-serviceworkerglobalscope-service-worker①">service worker</a>’s
  <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-set-of-event-types-to-handle" id="ref-for-dfn-set-of-event-types-to-handle">set of event types to handle</a> contains <var>type</var>, then
  <a data-link-type="dfn" href="https://console.spec.whatwg.org/#report-a-warning-to-the-console" id="ref-for-report-a-warning-to-the-console①">report a warning to the console</a> that this might not give the expected results.
- <a data-link-type="biblio" href="#biblio-service-workers" title="Service Workers">[SERVICE-WORKERS]</a>
+ <a data-link-type="biblio" href="#biblio-service-workers" title="Service Workers Nightly">[SERVICE-WORKERS]</a>
 
  </p>
     <li>
@@ -2060,13 +2045,13 @@ for discussion).
 
    </p>
       <li>
-       <p>Let <var>isActivationEvent</var> be true, if <var>event</var> is a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/uievents/#mouseevent" id="ref-for-mouseevent①">MouseEvent</a></code> object
+       <p>Let <var>isActivationEvent</var> be true, if <var>event</var> is a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/pointerevents/#dom-mouseevent" id="ref-for-dom-mouseevent①">MouseEvent</a></code> object
    and <var>event</var>’s <code class="idl"><a data-link-type="idl" href="#dom-event-type" id="ref-for-dom-event-type①⓪">type</a></code> attribute is "<code>click</code>"; otherwise false.
 
    </p>
       <li>
        <p>If <var>isActivationEvent</var> is true and <var>target</var> has
-   <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior②">activation behavior</a>, then set <var>activationTarget</var> to
+   <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior③">activation behavior</a>, then set <var>activationTarget</var> to
    <var>target</var>.
 
    </p>
@@ -2136,7 +2121,7 @@ for discussion).
           <li>
            <p>If <var>isActivationEvent</var> is true, <var>event</var>’s <code class="idl"><a data-link-type="idl" href="#dom-event-bubbles" id="ref-for-dom-event-bubbles⑤">bubbles</a></code>
        attribute is true, <var>activationTarget</var> is null, and <var>parent</var> has
-       <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior③">activation behavior</a>, then set <var>activationTarget</var> to
+       <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior④">activation behavior</a>, then set <var>activationTarget</var> to
        <var>parent</var>.
 
        </p>
@@ -2157,7 +2142,7 @@ for discussion).
          <ol>
           <li>
            <p>If <var>isActivationEvent</var> is true, <var>activationTarget</var> is null, and
-       <var>target</var> has <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior④">activation behavior</a>, then set
+       <var>target</var> has <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior⑤">activation behavior</a>, then set
        <var>activationTarget</var> to <var>target</var>.
 
        </p>
@@ -2287,7 +2272,7 @@ for discussion).
      <ol>
       <li>
        <p>If <var>event</var>’s <a data-link-type="dfn" href="#canceled-flag" id="ref-for-canceled-flag④">canceled flag</a> is unset, then run
-   <var>activationTarget</var>’s <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior⑤">activation behavior</a> with <var>event</var>.
+   <var>activationTarget</var>’s <a data-link-type="dfn" href="#eventtarget-activation-behavior" id="ref-for-eventtarget-activation-behavior⑥">activation behavior</a> with <var>event</var>.
 
    </p>
       <li>
@@ -2591,7 +2576,7 @@ initialized, and a <var>legacy target override flag</var>, run these steps:
 
  </p>
     <p>Or, when a custom constructor is needed, "<a data-link-type="dfn" href="#concept-event-fire" id="ref-for-concept-event-fire③">fire an event</a> named <code>click</code> at
- <var>target</var> using <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/uievents/#mouseevent" id="ref-for-mouseevent②">MouseEvent</a></code> with its <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/uievents/#dom-uievent-detail" id="ref-for-dom-uievent-detail">detail</a></code> attribute initialized to 1".
+ <var>target</var> using <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/pointerevents/#dom-mouseevent" id="ref-for-dom-mouseevent②">MouseEvent</a></code> with its <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/uievents/#dom-uievent-detail" id="ref-for-dom-uievent-detail">detail</a></code> attribute initialized to 1".
 
  </p>
     <p>Occasionally the return value is important:
@@ -2960,12 +2945,7 @@ markup-based resource, ranging from short static documents to long essays or
 reports with rich multimedia, as well as to fully-fledged interactive
 applications.</p>
    <p>Each such document is represented as a <a data-link-type="dfn" href="#concept-node-tree" id="ref-for-concept-node-tree">node tree</a>. Some of the <a data-link-type="dfn" href="#concept-node" id="ref-for-concept-node④">nodes</a> in a
-<a data-link-type="dfn" href="#concept-tree" id="ref-for-concept-tree①②">tree</a> can have <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>, while others are always leaves.
+<a data-link-type="dfn" href="#concept-tree" id="ref-for-concept-tree①②">tree</a> can have <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦">children</a>, while others are always leaves.
 
 </p>
    <p>To illustrate, consider this HTML document:</p>
@@ -3034,12 +3014,7 @@ can be used to explore this matter in more detail.
 
 </p>
    <p>A <a data-link-type="dfn" href="#concept-node-tree" id="ref-for-concept-node-tree①">node tree</a> is constrained as follows, expressed as a relationship between the type of
-<a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node②">node</a> and its allowed <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>:
+<a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node②">node</a> and its allowed <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑧">children</a>:
 
 </p>
    <dl>
@@ -3109,12 +3084,7 @@ spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>:
     <dt>Any other node
  
     <dd>
-     <p>Its number of <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+     <p>Its number of <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑨">children</a>.
 </p>
    </dl>
    <p>A <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node④">node</a> is considered <dfn class="dfn-paneled" data-dfn-for="Node" data-dfn-type="dfn" data-export id="concept-node-empty">empty</dfn> if its
@@ -3328,7 +3298,7 @@ for a given <a data-link-type="dfn" href="#concept-slot" id="ref-for-concept-slo
   </p>
      </ol>
     <li>
-     <p>Otherwise, for each <a data-link-type="dfn" href="#concept-slotable" id="ref-for-concept-slotable①②">slottable</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤">child</a> <var>slottable</var> of
+     <p>Otherwise, for each <a data-link-type="dfn" href="#concept-slotable" id="ref-for-concept-slotable①②">slottable</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⓪">child</a> <var>slottable</var> of
   <var>host</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order⑧">tree order</a>:
 
   </p>
@@ -3360,7 +3330,7 @@ for a given <a data-link-type="dfn" href="#concept-slot" id="ref-for-concept-slo
  <var>slot</var>.</p>
     <li>
      <p>If <var>slottables</var> is the empty list, then append each <a data-link-type="dfn" href="#concept-slotable" id="ref-for-concept-slotable①③">slottable</a>
- <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥">child</a> of <var>slot</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order⑨">tree order</a>, to <var>slottables</var>.</p>
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①①">child</a> of <var>slot</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order⑨">tree order</a>, to <var>slottables</var>.</p>
     <li>
      <p>For each <var>node</var> in <var>slottables</var>:
 
@@ -3489,12 +3459,12 @@ of a <var>node</var> into a <var>parent</var> before a <var>child</var>, run the
       <dt><code class="idl"><a data-link-type="idl" href="#documentfragment" id="ref-for-documentfragment④">DocumentFragment</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node⑧">node</a>
    
       <dd>
-       <p>If <var>node</var> has more than one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⓪">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦">child</a> or has a
-    <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text①①">Text</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node⑨">node</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑧">child</a>.
+       <p>If <var>node</var> has more than one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⓪">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①②">child</a> or has a
+    <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text①①">Text</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node⑨">node</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①③">child</a>.
 
     </p>
-       <p>Otherwise, if <var>node</var> has one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①①">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑨">child</a> and either
-    <var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①②">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⓪">child</a>, <var>child</var> is a
+       <p>Otherwise, if <var>node</var> has one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①①">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①④">child</a> and either
+    <var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①②">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑤">child</a>, <var>child</var> is a
     <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype②">doctype</a>, or <var>child</var> is non-null and a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype③">doctype</a> is <a data-link-type="dfn" href="#concept-tree-following" id="ref-for-concept-tree-following②">following</a>
     <var>child</var>.
 
@@ -3502,7 +3472,7 @@ of a <var>node</var> into a <var>parent</var> before a <var>child</var>, run the
       <dt><a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①③">element</a>
    
       <dd>
-       <p><var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①④">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①①">child</a>, <var>child</var> is
+       <p><var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①④">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑥">child</a>, <var>child</var> is
    a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype④">doctype</a>, or <var>child</var> is non-null and a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype⑤">doctype</a> is <a data-link-type="dfn" href="#concept-tree-following" id="ref-for-concept-tree-following③">following</a>
    <var>child</var>.
 
@@ -3510,9 +3480,9 @@ of a <var>node</var> into a <var>parent</var> before a <var>child</var>, run the
       <dt><a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype⑥">doctype</a>
    
       <dd>
-       <p><var>parent</var> has a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype⑦">doctype</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①②">child</a>, <var>child</var> is non-null
+       <p><var>parent</var> has a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype⑦">doctype</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑦">child</a>, <var>child</var> is non-null
    and an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑤">element</a> is <a data-link-type="dfn" href="#concept-tree-preceding" id="ref-for-concept-tree-preceding③">preceding</a> <var>child</var>, or <var>child</var> is null
-   and <var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑥">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①③">child</a>.
+   and <var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑥">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑧">child</a>.
   </p>
      </dl>
    </ol>
@@ -3561,12 +3531,7 @@ before a <var>child</var>, with an optional <i>suppress observers flag</i>, run 
 </p>
    <ol>
     <li>
-     <p>Let <var>nodes</var> be <var>node</var>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>, if <var>node</var> is a
+     <p>Let <var>nodes</var> be <var>node</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑨">children</a>, if <var>node</var> is a
  <code class="idl"><a data-link-type="idl" href="#documentfragment" id="ref-for-documentfragment⑤">DocumentFragment</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node①⓪">node</a>; otherwise « <var>node</var> ».
 
  </p>
@@ -3584,12 +3549,7 @@ spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>, if <var>node</v
   </p>
      <ol>
       <li>
-       <p><a data-link-type="dfn" href="#concept-node-remove" id="ref-for-concept-node-remove①">Remove</a> its <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> with the <i>suppress observers flag</i> set.
+       <p><a data-link-type="dfn" href="#concept-node-remove" id="ref-for-concept-node-remove①">Remove</a> its <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⓪">children</a> with the <i>suppress observers flag</i> set.
 
    </p>
       <li>
@@ -3634,12 +3594,12 @@ spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> with the <i>supp
    </p>
       <li>
        <p>If <var>child</var> is null, then <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append③">append</a> <var>node</var> to
-   <var>parent</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①④">children</a>.
+   <var>parent</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②①">children</a>.
 
    </p>
       <li>
        <p>Otherwise, <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-insert" id="ref-for-list-insert">insert</a> <var>node</var> into <var>parent</var>’s
-   <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑤">children</a> before <var>child</var>’s <a data-link-type="dfn" href="#concept-tree-index" id="ref-for-concept-tree-index②">index</a>.
+   <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②②">children</a> before <var>child</var>’s <a data-link-type="dfn" href="#concept-tree-index" id="ref-for-concept-tree-index②">index</a>.
 
    </p>
       <li>
@@ -3748,26 +3708,26 @@ within a <var>parent</var>, run these steps:
       <dt><code class="idl"><a data-link-type="idl" href="#documentfragment" id="ref-for-documentfragment⑨">DocumentFragment</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node①⑤">node</a>
    
       <dd>
-       <p>If <var>node</var> has more than one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑦">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑥">child</a> or has a
-    <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text①④">Text</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node①⑥">node</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑦">child</a>.
+       <p>If <var>node</var> has more than one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑦">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②③">child</a> or has a
+    <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text①④">Text</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node①⑥">node</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②④">child</a>.
 
     </p>
-       <p>Otherwise, if <var>node</var> has one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑧">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑧">child</a> and either
-    <var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑨">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child①⑨">child</a> that is not
+       <p>Otherwise, if <var>node</var> has one <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑧">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑤">child</a> and either
+    <var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element①⑨">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑥">child</a> that is not
     <var>child</var> or a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype⑨">doctype</a> is <a data-link-type="dfn" href="#concept-tree-following" id="ref-for-concept-tree-following④">following</a> <var>child</var>.
 
    </p>
       <dt><a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②⓪">element</a>
    
       <dd>
-       <p><var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②①">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⓪">child</a> that is not
+       <p><var>parent</var> has an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②①">element</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑦">child</a> that is not
    <var>child</var> or a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype①⓪">doctype</a> is <a data-link-type="dfn" href="#concept-tree-following" id="ref-for-concept-tree-following⑤">following</a> <var>child</var>.
 
    </p>
       <dt><a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype①①">doctype</a>
    
       <dd>
-       <p><var>parent</var> has a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype①②">doctype</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②①">child</a> that is not <var>child</var>,
+       <p><var>parent</var> has a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype①②">doctype</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑧">child</a> that is not <var>child</var>,
    or an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②②">element</a> is <a data-link-type="dfn" href="#concept-tree-preceding" id="ref-for-concept-tree-preceding④">preceding</a> <var>child</var>.
   </p>
      </dl>
@@ -3808,12 +3768,7 @@ within a <var>parent</var>, run these steps:
 
  </p>
     <li>
-     <p>Let <var>nodes</var> be <var>node</var>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> if <var>node</var> is a
+     <p>Let <var>nodes</var> be <var>node</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑨">children</a> if <var>node</var> is a
  <code class="idl"><a data-link-type="idl" href="#documentfragment" id="ref-for-documentfragment①⓪">DocumentFragment</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node①⑦">node</a>; otherwise « <var>node</var> ».
 
  </p>
@@ -3837,12 +3792,7 @@ within a <var>parent</var>, run these steps:
 </p>
    <ol>
     <li>
-     <p>Let <var>removedNodes</var> be <var>parent</var>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+     <p>Let <var>removedNodes</var> be <var>parent</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⓪">children</a>.
 
  </p>
     <li>
@@ -3851,12 +3801,7 @@ spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
  </p>
     <li>
      <p>If <var>node</var> is a <code class="idl"><a data-link-type="idl" href="#documentfragment" id="ref-for-documentfragment①①">DocumentFragment</a></code> <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node①⑧">node</a>, then set <var>addedNodes</var> to
- <var>node</var>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+ <var>node</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③①">children</a>.
 
  </p>
     <li>
@@ -3864,12 +3809,7 @@ spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
 
  </p>
     <li>
-     <p><a data-link-type="dfn" href="#concept-node-remove" id="ref-for-concept-node-remove③">Remove</a> all <var>parent</var>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order①②">tree order</a>, with the
+     <p><a data-link-type="dfn" href="#concept-node-remove" id="ref-for-concept-node-remove③">Remove</a> all <var>parent</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③②">children</a>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order①②">tree order</a>, with the
  <i>suppress observers flag</i> set.
 
  </p>
@@ -3969,7 +3909,7 @@ indicated in the <a data-link-type="dfn" href="#concept-node-remove" id="ref-for
 
  </p>
     <li>
-     <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-remove" id="ref-for-list-remove③">Remove</a> <var>node</var> from its <var>parent</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②②">children</a>.
+     <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-remove" id="ref-for-list-remove③">Remove</a> <var>node</var> from its <var>parent</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③③">children</a>.
 
  </p>
     <li>
@@ -4150,17 +4090,17 @@ standards that want to define APIs shared between <a data-link-type="dfn" href="
    <dl class="domintro">
     <dt><code><var>collection</var> = <var>node</var> . <code class="idl"><a data-link-type="idl" href="#dom-parentnode-children" id="ref-for-dom-parentnode-children①">children</a></code></code>
  
-    <dd>Returns the <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②③">child</a> <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②⑧">elements</a>.
+    <dd>Returns the <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③④">child</a> <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②⑧">elements</a>.
 
  
     <dt><code><var>element</var> = <var>node</var> . <code class="idl"><a data-link-type="idl" href="#dom-parentnode-firstelementchild" id="ref-for-dom-parentnode-firstelementchild①">firstElementChild</a></code></code>
  
-    <dd>Returns the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②④">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②⑨">element</a>; otherwise null.
+    <dd>Returns the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑤">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element②⑨">element</a>; otherwise null.
 
  
     <dt><code><var>element</var> = <var>node</var> . <code class="idl"><a data-link-type="idl" href="#dom-parentnode-lastelementchild" id="ref-for-dom-parentnode-lastelementchild①">lastElementChild</a></code></code>
  
-    <dd>Returns the last <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑤">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③⓪">element</a>; otherwise null.
+    <dd>Returns the last <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑥">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③⓪">element</a>; otherwise null.
 
 
  
@@ -4189,12 +4129,7 @@ standards that want to define APIs shared between <a data-link-type="dfn" href="
     <dt><code><var>node</var> . <a class="idl-code" data-link-type="method" href="#dom-parentnode-replacechildren" id="ref-for-dom-parentnode-replacechildren①">replaceChildren</a>(<var>nodes</var>)</code>
  
     <dd>
-     <p>Replace all <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of <var>node</var> with <var>nodes</var>,
+     <p>Replace all <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑦">children</a> of <var>node</var> with <var>nodes</var>,
   while replacing strings in <var>nodes</var> with equivalent <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text①⑧">Text</a></code> <a data-link-type="dfn" href="#concept-node" id="ref-for-concept-node①④">nodes</a>.
 
   </p>
@@ -4228,29 +4163,19 @@ spec:css2; type:dfn; for:/; text:descendant">descendants</u> of <var>node</var> 
    </dl>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ParentNode" data-dfn-type="attribute" data-export id="dom-parentnode-children"><code>children</code></dfn> getter steps are to return an
 <code class="idl"><a data-link-type="idl" href="#htmlcollection" id="ref-for-htmlcollection①">HTMLCollection</a></code> <a data-link-type="dfn" href="#concept-collection" id="ref-for-concept-collection">collection</a> rooted at <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this③①">this</a> matching only <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③③">element</a>
-<u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+<a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑧">children</a>.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ParentNode" data-dfn-type="attribute" data-export id="dom-parentnode-firstelementchild"><code>firstElementChild</code></dfn> getter steps are to return
-the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑥">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③④">element</a>; otherwise null.
+the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑨">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③④">element</a>; otherwise null.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ParentNode" data-dfn-type="attribute" data-export id="dom-parentnode-lastelementchild"><code>lastElementChild</code></dfn> getter steps are to return
-the last <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑦">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③⑤">element</a>; otherwise null.
+the last <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⓪">child</a> that is an <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③⑤">element</a>; otherwise null.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ParentNode" data-dfn-type="attribute" data-export id="dom-parentnode-childelementcount"><code>childElementCount</code></dfn> getter steps are to return
-the number of <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this③②">this</a> that are <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③⑥">elements</a>.
+the number of <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④①">children</a> of <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this③②">this</a> that are <a data-link-type="dfn" href="#concept-element" id="ref-for-concept-element③⑥">elements</a>.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ParentNode" data-dfn-type="method" data-export data-lt="prepend(...nodes)|prepend()" id="dom-parentnode-prepend"><code>prepend(<var>nodes</var>)</code></dfn> method steps are:
@@ -4860,12 +4785,7 @@ they do not get lost when <code class="idl"><a data-link-type="idl" href="#dom-m
      <dl>
       <dt><code class="idl"><a data-link-type="idl" href="#dom-mutationobserverinit-childlist" id="ref-for-dom-mutationobserverinit-childlist">childList</a></code>
    
-      <dd>Set to true if mutations to <var>target</var>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> are to be observed.
+      <dd>Set to true if mutations to <var>target</var>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④②">children</a> are to be observed.
 
    
       <dt><code class="idl"><a data-link-type="idl" href="#dom-mutationobserverinit-attributes" id="ref-for-dom-mutationobserverinit-attributes">attributes</a></code>
@@ -5221,12 +5141,7 @@ method steps are:
  "<code>characterData</code>", it is the <code class="idl"><a data-link-type="idl" href="#characterdata" id="ref-for-characterdata③">CharacterData</a></code>
  <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node②⑨">node</a>. For "<code>childList</code>",
  it is the  <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node③⓪">node</a> whose
- <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> changed.
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④③">children</a> changed.
 
  
     <dt><code><var>record</var> . <code class="idl"><a data-link-type="idl" href="#dom-mutationrecord-addednodes" id="ref-for-dom-mutationrecord-addednodes②">addedNodes</a></code></code>
@@ -5635,22 +5550,12 @@ first matching statement, switching on <a data-link-type="dfn" href="https://web
     <dt><code><var>node</var> . <code class="idl"><a data-link-type="idl" href="#dom-node-haschildnodes" id="ref-for-dom-node-haschildnodes①">hasChildNodes()</a></code></code>
  
     <dd>Returns whether <var>node</var> has
- <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④④">children</a>.
 
  
     <dt><code><var>node</var> . <code class="idl"><a data-link-type="idl" href="#dom-node-childnodes" id="ref-for-dom-node-childnodes①">childNodes</a></code></code>
  
-    <dd>Returns the <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+    <dd>Returns the <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⑤">children</a>.
 
  
     <dt><code><var>node</var> . <code class="idl"><a data-link-type="idl" href="#dom-node-firstchild" id="ref-for-dom-node-firstchild①">firstChild</a></code></code>
@@ -5703,21 +5608,11 @@ return <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="r
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="Node" data-dfn-type="method" data-export id="dom-node-haschildnodes"><code>hasChildNodes()</code></dfn> method steps are to return true if
-<a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this⑧⓪">this</a> has <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>; otherwise false.
+<a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this⑧⓪">this</a> has <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⑥">children</a>; otherwise false.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="Node" data-dfn-type="attribute" data-export id="dom-node-childnodes"><code>childNodes</code></dfn> getter steps are to return a
-<code class="idl"><a data-link-type="idl" href="#nodelist" id="ref-for-nodelist⑦">NodeList</a></code> rooted at <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this⑧①">this</a> matching only <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+<code class="idl"><a data-link-type="idl" href="#nodelist" id="ref-for-nodelist⑦">NodeList</a></code> rooted at <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this⑧①">this</a> matching only <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⑦">children</a>.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="Node" data-dfn-type="attribute" data-export data-lt="firstChild" id="dom-node-firstchild"><code>firstChild</code> </dfn> getter steps are to return
@@ -6082,12 +5977,7 @@ steps:
 
  
      <li>If the <i>clone children flag</i> is set, <a data-link-type="dfn" href="#concept-node-clone" id="ref-for-concept-node-clone②">clone</a> all the
- <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of <var>node</var> and append them to <var>copy</var>, with
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⑧">children</a> of <var>node</var> and append them to <var>copy</var>, with
  <var>document</var> as specified and the <i>clone children flag</i> being set.
 
  
@@ -6161,16 +6051,11 @@ spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of <var>node</va
  <a data-link-type="dfn" href="#concept-attribute" id="ref-for-concept-attribute①①">attribute</a> in <var>B</var>’s <a data-link-type="dfn" href="#concept-element-attribute" id="ref-for-concept-element-attribute③">attribute list</a>.
  
      <li><var>A</var> and <var>B</var> have the same number of
- <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>.
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⑨">children</a>.
  
-     <li>Each <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑧">child</a> of <var>A</var>
+     <li>Each <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤⓪">child</a> of <var>A</var>
  <a data-link-type="dfn" href="#concept-node-equals" id="ref-for-concept-node-equals①">equals</a> the
- <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child②⑨">child</a> of <var>B</var> at the identical
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤①">child</a> of <var>B</var> at the identical
  <a data-link-type="dfn" href="#concept-tree-index" id="ref-for-concept-tree-index⑥">index</a>.
 
     </ul>
@@ -6358,12 +6243,7 @@ spec:css2; type:dfn; for:/; text:descendant">descendant</u> of <var>node2</var> 
 
   </p>
      <p class="note" role="note">Due to the way <a data-link-type="dfn" href="#concept-attribute" id="ref-for-concept-attribute①④">attributes</a> are handled in this algorithm this results in a
-  <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node④⑨">node</a>’s <a data-link-type="dfn" href="#concept-attribute" id="ref-for-concept-attribute①⑤">attributes</a> counting as <a data-link-type="dfn" href="#concept-tree-preceding" id="ref-for-concept-tree-preceding①⓪">preceding</a> that <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node⑤⓪">node</a>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>,
+  <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node④⑨">node</a>’s <a data-link-type="dfn" href="#concept-attribute" id="ref-for-concept-attribute①⑤">attributes</a> counting as <a data-link-type="dfn" href="#concept-tree-preceding" id="ref-for-concept-tree-preceding①⓪">preceding</a> that <a data-link-type="dfn" href="#boundary-point-node" id="ref-for-boundary-point-node⑤⓪">node</a>’s <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤②">children</a>,
   despite <a data-link-type="dfn" href="#concept-attribute" id="ref-for-concept-attribute①⑥">attributes</a> not <a data-link-type="dfn" href="#concept-tree-participate" id="ref-for-concept-tree-participate⑤">participating</a> in a <a data-link-type="dfn" href="#concept-tree" id="ref-for-concept-tree①⑧">tree</a>.
 
  </p>
@@ -7010,7 +6890,7 @@ spec:css2; type:dfn; for:/; text:descendant">descendant</u>
 
    </dl>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="attribute" data-export id="dom-document-doctype"><code>doctype</code></dfn> getter steps are to return the
-<a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⓪">child</a> of <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this①②③">this</a> that is a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype①⑥">doctype</a>; otherwise null.
+<a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤③">child</a> of <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#this" id="ref-for-this①②③">this</a> that is a <a data-link-type="dfn" href="#concept-doctype" id="ref-for-concept-doctype①⑥">doctype</a>; otherwise null.
 
 </p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="attribute" data-export id="dom-document-documentelement"><code>documentElement</code></dfn> getter steps are to return
@@ -7567,7 +7447,7 @@ are:
     
        <tr>
         <td>"<code>mouseevent</code>"
-        <td rowspan="2"><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/uievents/#mouseevent" id="ref-for-mouseevent③">MouseEvent</a></code>
+        <td rowspan="2"><code class="idl"><a data-link-type="idl" href="https://w3c.github.io/pointerevents/#dom-mouseevent" id="ref-for-dom-mouseevent③">MouseEvent</a></code>
         <td rowspan="2"><a data-link-type="biblio" href="#biblio-uievents" title="UI Events">[UIEVENTS]</a>
     
        <tr>
@@ -8391,12 +8271,7 @@ given a <var>document</var>, <var>localName</var>, <var>namespace</var>, and opt
 
      </p>
         <li>
-         <p>If <var>result</var> has <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>, then <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#dfn-throw" id="ref-for-dfn-throw④③">throw</a> a
+         <p>If <var>result</var> has <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤④">children</a>, then <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#dfn-throw" id="ref-for-dfn-throw④③">throw</a> a
      "<code class="idl"><a class="idl-code" data-link-type="exception" href="https://webidl.spec.whatwg.org/#notsupportederror" id="ref-for-notsupportederror⑨">NotSupportedError</a></code>" <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#idl-DOMException" id="ref-for-idl-DOMException⑤③">DOMException</a></code>.
 
      </p>
@@ -9952,12 +9827,7 @@ if any, and its <a data-link-type="dfn" href="#contiguous-exclusive-text-nodes" 
 </p>
    <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="concept-child-text-content">child text content</dfn> of a <a data-link-type="dfn" href="#concept-node" id="ref-for-concept-node⑤⓪">node</a>
 <var>node</var> is the <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#string-concatenate" id="ref-for-string-concatenate②">concatenation</a> of the <a data-link-type="dfn" href="#concept-cd-data" id="ref-for-concept-cd-data③③">data</a> of all
-the <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text⑤②">Text</a></code> <a data-link-type="dfn" href="#concept-node" id="ref-for-concept-node⑤①">node</a> <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of <var>node</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order②①">tree order</a>.
+the <code class="idl"><a data-link-type="idl" href="#text" id="ref-for-text⑤②">Text</a></code> <a data-link-type="dfn" href="#concept-node" id="ref-for-concept-node⑤①">node</a> <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤⑤">children</a> of <var>node</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order②①">tree order</a>.
 
 </p>
    <p>The <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="concept-descendant-text-content">descendant text content</dfn> of a
@@ -10225,7 +10095,7 @@ spec:css2; type:dfn; for:/; text:ancestor">ancestor</u> of <var>nodeB</var>:
 
    </p>
       <li>
-       <p>While <var>child</var> is not a <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③①">child</a> of <var>nodeA</var>, set
+       <p>While <var>child</var> is not a <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤⑥">child</a> of <var>nodeA</var>, set
    <var>child</var> to its <a data-link-type="dfn" href="#concept-tree-parent" id="ref-for-concept-tree-parent③⑤">parent</a>.
 
    </p>
@@ -10488,15 +10358,10 @@ spec:dom; type:dfn; for:tree; text:ancestor
 for-less references:
 spec:css2; type:dfn; for:/; text:ancestor">ancestor</u> of the <a data-link-type="dfn" href="#concept-range-end-node" id="ref-for-concept-range-end-node②⓪">end node</a>,
   the common <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor⑧">inclusive ancestor</a> will be the <a data-link-type="dfn" href="#concept-range-start-node" id="ref-for-concept-range-start-node②②">start node</a>. Exactly one
-  of its <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> will be <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained②">partially contained</a>, and a
-  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③②">child</a> will be <a data-link-type="dfn" href="#contained" id="ref-for-contained①⓪">contained</a> if and only if it
+  of its <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤⑦">children</a> will be <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained②">partially contained</a>, and a
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤⑧">child</a> will be <a data-link-type="dfn" href="#contained" id="ref-for-contained①⓪">contained</a> if and only if it
   <a data-link-type="dfn" href="#concept-tree-preceding" id="ref-for-concept-tree-preceding①①">precedes</a> the <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained③">partially contained</a>
-  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③③">child</a>. If the <a data-link-type="dfn" href="#concept-range-end-node" id="ref-for-concept-range-end-node②①">end node</a> is an <u class="link-error" data-lt="ancestor" title="LINK ERROR: Ambiguous for-less link for &apos;ancestor&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑤⑨">child</a>. If the <a data-link-type="dfn" href="#concept-range-end-node" id="ref-for-concept-range-end-node②①">end node</a> is an <u class="link-error" data-lt="ancestor" title="LINK ERROR: Ambiguous for-less link for &apos;ancestor&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:dom; type:dfn; for:tree; text:ancestor
 for-less references:
@@ -10507,13 +10372,8 @@ spec:css2; type:dfn; for:/; text:ancestor">ancestor</u> of the
      <li>
       <p>If the <a data-link-type="dfn" href="#concept-range-start-node" id="ref-for-concept-range-start-node②④">start node</a> is not an <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor⑨">inclusive ancestor</a> of the
   <a data-link-type="dfn" href="#concept-range-end-node" id="ref-for-concept-range-end-node②②">end node</a>, nor vice versa, the common <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor①⓪">inclusive ancestor</a> will be
-  distinct from both of them. Exactly two of its <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> will be
-  <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained④">partially contained</a>, and a <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③④">child</a> will be contained if and
+  distinct from both of them. Exactly two of its <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥⓪">children</a> will be
+  <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained④">partially contained</a>, and a <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥①">child</a> will be contained if and
   only if it lies between those two.
  </p>
     </ul>
@@ -11041,7 +10901,7 @@ method steps are:
     <li>If <var>original start node</var> is <em>not</em> an
  <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor①⑥">inclusive ancestor</a> of
  <var>original end node</var>, set <var>first partially contained child</var>
- to the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑤">child</a> of
+ to the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥②">child</a> of
  <var>common ancestor</var> that is <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained⑤">partially contained</a> in
  <var>range</var>.
 
@@ -11055,7 +10915,7 @@ method steps are:
   <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor①⑦">inclusive ancestor</a> of
   <var>original start node</var>, set
   <var>last partially contained child</var> to the last
-  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑥">child</a> of <var>common ancestor</var> that is
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥③">child</a> of <var>common ancestor</var> that is
   <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained⑥">partially contained</a> in <var>range</var>.
 
   
@@ -11069,25 +10929,15 @@ Local references:
 spec:dom; type:dfn; for:tree; text:ancestor
 for-less references:
 spec:css2; type:dfn; for:/; text:ancestor">ancestors</u> up until a
-  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑦">child</a> of <var>common ancestor</var>.
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥④">child</a> of <var>common ancestor</var>.
   <var>common ancestor</var> cannot be <var>original start node</var>, because
   it has to be an <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor①⑨">inclusive ancestor</a> of
   <var>original end node</var>. The other case is similar. Also, notice that the two
-  <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> will never be equal if both are defined.
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥⑤">children</a> will never be equal if both are defined.
 
  </p>
     <li>Let <var>contained children</var> be a list of all
- <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥⑥">children</a> of
  <var>common ancestor</var> that are <a data-link-type="dfn" href="#contained" id="ref-for-contained①③">contained</a> in
  <var>range</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order②⑥">tree order</a>.
 
@@ -11360,7 +11210,7 @@ of a <a data-link-type="dfn" href="#concept-live-range" id="ref-for-concept-live
     <li>If <var>original start node</var> is <em>not</em> an
  <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor②④">inclusive ancestor</a> of
  <var>original end node</var>, set <var>first partially contained child</var>
- to the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑧">child</a> of
+ to the first <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥⑦">child</a> of
  <var>common ancestor</var> that is <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained⑧">partially contained</a> in
  <var>range</var>.
 
@@ -11374,7 +11224,7 @@ of a <a data-link-type="dfn" href="#concept-live-range" id="ref-for-concept-live
   <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor②⑤">inclusive ancestor</a> of
   <var>original start node</var>, set
   <var>last partially contained child</var> to the last
-  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child③⑨">child</a> of <var>common ancestor</var> that is
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥⑧">child</a> of <var>common ancestor</var> that is
   <a data-link-type="dfn" href="#partially-contained" id="ref-for-partially-contained⑨">partially contained</a> in <var>range</var>.
 
   
@@ -11388,25 +11238,15 @@ Local references:
 spec:dom; type:dfn; for:tree; text:ancestor
 for-less references:
 spec:css2; type:dfn; for:/; text:ancestor">ancestors</u> up until a
-  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④⓪">child</a> of <var>common ancestor</var>.
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑥⑨">child</a> of <var>common ancestor</var>.
   <var>common ancestor</var> cannot be <var>original start node</var>, because
   it has to be an <a data-link-type="dfn" href="#concept-tree-inclusive-ancestor" id="ref-for-concept-tree-inclusive-ancestor②⑦">inclusive ancestor</a> of
   <var>original end node</var>. The other case is similar. Also, notice that the two
-  <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> will never be equal if both are defined.
+  <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦⓪">children</a> will never be equal if both are defined.
 
  </p>
     <li>Let <var>contained children</var> be a list of all
- <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦①">children</a> of
  <var>common ancestor</var> that are <a data-link-type="dfn" href="#contained" id="ref-for-contained①④">contained</a> in
  <var>range</var>, in <a data-link-type="dfn" href="#concept-tree-order" id="ref-for-concept-tree-order②⑦">tree order</a>.
 
@@ -11586,11 +11426,11 @@ result of <a data-link-type="dfn" href="#concept-range-clone" id="ref-for-concep
 
  
     <li>Otherwise, set <var>referenceNode</var> to the
- <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④①">child</a> of
+ <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦②">child</a> of
  <a data-link-type="dfn" href="#concept-range-start-node" id="ref-for-concept-range-start-node③④">start node</a> whose
  <a data-link-type="dfn" href="#concept-tree-index" id="ref-for-concept-tree-index①⑦">index</a> is
  <a data-link-type="dfn" href="#concept-range-start-offset" id="ref-for-concept-range-start-offset②①">start offset</a>, and null if
- there is no such <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④②">child</a>.
+ there is no such <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦③">child</a>.
 
  
     <li>Let <var>parent</var> be <var>range</var>’s
@@ -11667,12 +11507,7 @@ are:
 
  </p>
     <li>
-     <p>If <var>newParent</var> has <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:dom; type:dfn; for:tree; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>, then <a data-link-type="dfn" href="#concept-node-replace-all" id="ref-for-concept-node-replace-all②">replace all</a> with null
+     <p>If <var>newParent</var> has <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦④">children</a>, then <a data-link-type="dfn" href="#concept-node-replace-all" id="ref-for-concept-node-replace-all②">replace all</a> with null
  within <var>newParent</var>.
 
  </p>
@@ -12367,7 +12202,7 @@ and <var>type</var>, run these steps:
      </p>
         <li>
          <p>While <var>result</var> is not <code class="idl"><a data-link-type="idl" href="#dom-nodefilter-filter_reject" id="ref-for-dom-nodefilter-filter_reject①">FILTER_REJECT</a></code> and <var>node</var> has a
-      <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④③">child</a>:
+      <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦⑤">child</a>:
 
       </p>
          <ol>
@@ -12427,7 +12262,7 @@ and <var>type</var>, run these steps:
      <ol>
       <li>
        <p>While <var>result</var> is not <code class="idl"><a data-link-type="idl" href="#dom-nodefilter-filter_reject" id="ref-for-dom-nodefilter-filter_reject②">FILTER_REJECT</a></code> and <var>node</var> has a
-    <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child④④">child</a>:
+    <a data-link-type="dfn" href="#concept-tree-child" id="ref-for-concept-tree-child⑦⑥">child</a>:
 
     </p>
        <ol>
@@ -14608,6 +14443,11 @@ if ("serviceWorker" in navigator) {
      <li><span class="dfn-paneled" id="8da54f41">XMLNS namespace</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[POINTEREVENTS4]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="7759631d">MouseEvent</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[SELECTORS4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="e7f35937">:defined</span>
@@ -14632,7 +14472,6 @@ if ("serviceWorker" in navigator) {
      <li><span class="dfn-paneled" id="a7d6c2ec">CompositionEvent</span>
      <li><span class="dfn-paneled" id="2ee62845">FocusEvent</span>
      <li><span class="dfn-paneled" id="1fc098b2">KeyboardEvent</span>
-     <li><span class="dfn-paneled" id="c3469cd0">MouseEvent</span>
      <li><span class="dfn-paneled" id="92000da2">UIEvent</span>
      <li><span class="dfn-paneled" id="6a26a5dc">detail</span>
     </ul>
@@ -14713,14 +14552,16 @@ if ("serviceWorker" in navigator) {
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
+   <dt id="biblio-pointerevents4">[POINTEREVENTS4]
+   <dd>Patrick Lauke; Robert Flack. <a href="https://w3c.github.io/pointerevents/"><cite>Pointer Events</cite></a>. URL: <a href="https://w3c.github.io/pointerevents/">https://w3c.github.io/pointerevents/</a>
    <dt id="biblio-selectors4">[SELECTORS4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-service-workers">[SERVICE-WORKERS]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers Nightly</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
    <dt id="biblio-touch-events">[TOUCH-EVENTS]
    <dd>Doug Schepers; et al. <a href="https://w3c.github.io/touch-events/"><cite>Touch Events</cite></a>. URL: <a href="https://w3c.github.io/touch-events/">https://w3c.github.io/touch-events/</a>
    <dt id="biblio-uievents">[UIEVENTS]
-   <dd>Gary Kacmarcik; Travis Leithead. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
+   <dd>Xiaoqian Wu. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/"><cite>URL Standard</cite></a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
    <dt id="biblio-webidl">[WEBIDL]
@@ -14733,7 +14574,7 @@ if ("serviceWorker" in navigator) {
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-cssom-view">[CSSOM-VIEW]
-   <dd>Simon Pieters. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
+   <dd>Simon Fraser; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
    <dt id="biblio-dom-level-3-xpath">[DOM-Level-3-XPath]
    <dd>Ray Whitmer. <a href="https://www.w3.org/TR/DOM-Level-3-XPath/"><cite>Document Object Model (DOM) Level 3 XPath Specification</cite></a>. 3 November 2020. NOTE. URL: <a href="https://www.w3.org/TR/DOM-Level-3-XPath/">https://www.w3.org/TR/DOM-Level-3-XPath/</a>
    <dt id="biblio-dom-parsing">[DOM-Parsing]
@@ -21027,6 +20868,7 @@ let dfnPanelData = {
 "6eb8a5d8": {"dfnID":"6eb8a5d8","dfnText":"document base URL","external":true,"refSections":[{"refs":[{"id":"ref-for-document-base-url"},{"id":"ref-for-document-base-url\u2460"}],"title":"4.4. Interface Node"}],"url":"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#document-base-url"},
 "6f2dfa22": {"dfnID":"6f2dfa22","dfnText":"ASCII lowercase","external":true,"refSections":[{"refs":[{"id":"ref-for-ascii-lowercase"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-ascii-lowercase\u2460"},{"id":"ref-for-ascii-lowercase\u2461"}],"title":"4.5. Interface Document"},{"refs":[{"id":"ref-for-ascii-lowercase\u2462"},{"id":"ref-for-ascii-lowercase\u2463"},{"id":"ref-for-ascii-lowercase\u2464"},{"id":"ref-for-ascii-lowercase\u2465"}],"title":"4.9. Interface Element"},{"refs":[{"id":"ref-for-ascii-lowercase\u2466"}],"title":"4.9.1. Interface NamedNodeMap"},{"refs":[{"id":"ref-for-ascii-lowercase\u2467"}],"title":"7.1. Interface DOMTokenList"}],"url":"https://infra.spec.whatwg.org/#ascii-lowercase"},
 "75393c04": {"dfnID":"75393c04","dfnText":"exist (for list)","external":true,"refSections":[{"refs":[{"id":"ref-for-list-contain"},{"id":"ref-for-list-contain\u2460"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-list-contain\u2461"}],"title":"4.2.2.3. Finding slots and slottables"},{"refs":[{"id":"ref-for-list-contain\u2462"}],"title":"4.3.2. Queuing a mutation record"},{"refs":[{"id":"ref-for-list-contain\u2463"},{"id":"ref-for-list-contain\u2464"}],"title":"4.9. Interface Element"},{"refs":[{"id":"ref-for-list-contain\u2465"},{"id":"ref-for-list-contain\u2466"},{"id":"ref-for-list-contain\u2467"}],"title":"7.1. Interface DOMTokenList"}],"url":"https://infra.spec.whatwg.org/#list-contain"},
+"7759631d": {"dfnID":"7759631d","dfnText":"MouseEvent","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-mouseevent"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-dom-mouseevent\u2460"}],"title":"2.9. Dispatching events"},{"refs":[{"id":"ref-for-dom-mouseevent\u2461"}],"title":"2.10. Firing events"},{"refs":[{"id":"ref-for-dom-mouseevent\u2462"}],"title":"4.5. Interface Document"}],"url":"https://w3c.github.io/pointerevents/#dom-mouseevent"},
 "78492a07": {"dfnID":"78492a07","dfnText":"HashChangeEvent","external":true,"refSections":[{"refs":[{"id":"ref-for-hashchangeevent"}],"title":"4.5. Interface Document"}],"url":"https://html.spec.whatwg.org/multipage/nav-history-apis.html#hashchangeevent"},
 "797018a7": {"dfnID":"797018a7","dfnText":"InvalidStateError","external":true,"refSections":[{"refs":[{"id":"ref-for-invalidstateerror"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-invalidstateerror\u2460"}],"title":"5.5. Interface Range"},{"refs":[{"id":"ref-for-invalidstateerror\u2461"}],"title":"6. Traversal"}],"url":"https://webidl.spec.whatwg.org/#invalidstateerror"},
 "79e2abd0": {"dfnID":"79e2abd0","dfnText":"look up a custom element definition","external":true,"refSections":[{"refs":[{"id":"ref-for-look-up-a-custom-element-definition"},{"id":"ref-for-look-up-a-custom-element-definition\u2460"}],"title":"4.9. Interface Element"}],"url":"https://html.spec.whatwg.org/multipage/custom-elements.html#look-up-a-custom-element-definition"},
@@ -21096,7 +20938,6 @@ let dfnPanelData = {
 "bec98d30": {"dfnID":"bec98d30","dfnText":"dictionary","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-dictionary"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-dfn-dictionary\u2460"},{"id":"ref-for-dfn-dictionary\u2461"}],"title":"4.5. Interface Document"}],"url":"https://webidl.spec.whatwg.org/#dfn-dictionary"},
 "bffb633e": {"dfnID":"bffb633e","dfnText":"UTF-8","external":true,"refSections":[{"refs":[{"id":"ref-for-utf-8"}],"title":"4.5. Interface Document"}],"url":"https://encoding.spec.whatwg.org/#utf-8"},
 "boundary-point-node": {"dfnID":"boundary-point-node","dfnText":"node","external":false,"refSections":[{"refs":[{"id":"ref-for-boundary-point-node"}],"title":"2.2. Interface Event"},{"refs":[{"id":"ref-for-boundary-point-node\u2460"}],"title":"2.9. Dispatching events"},{"refs":[{"id":"ref-for-boundary-point-node\u2461"},{"id":"ref-for-boundary-point-node\u2462"},{"id":"ref-for-boundary-point-node\u2463"}],"title":"4.2. Node tree"},{"refs":[{"id":"ref-for-boundary-point-node\u2464"},{"id":"ref-for-boundary-point-node\u2465"},{"id":"ref-for-boundary-point-node\u2466"},{"id":"ref-for-boundary-point-node\u2467"},{"id":"ref-for-boundary-point-node\u2468"},{"id":"ref-for-boundary-point-node\u2460\u24ea"},{"id":"ref-for-boundary-point-node\u2460\u2460"},{"id":"ref-for-boundary-point-node\u2460\u2461"},{"id":"ref-for-boundary-point-node\u2460\u2462"},{"id":"ref-for-boundary-point-node\u2460\u2463"},{"id":"ref-for-boundary-point-node\u2460\u2464"},{"id":"ref-for-boundary-point-node\u2460\u2465"},{"id":"ref-for-boundary-point-node\u2460\u2466"},{"id":"ref-for-boundary-point-node\u2460\u2467"}],"title":"4.2.3. Mutation algorithms"},{"refs":[{"id":"ref-for-boundary-point-node\u2460\u2468"},{"id":"ref-for-boundary-point-node\u2461\u24ea"},{"id":"ref-for-boundary-point-node\u2461\u2460"},{"id":"ref-for-boundary-point-node\u2461\u2461"}],"title":"4.2.6. Mixin ParentNode"},{"refs":[{"id":"ref-for-boundary-point-node\u2461\u2462"},{"id":"ref-for-boundary-point-node\u2461\u2463"},{"id":"ref-for-boundary-point-node\u2461\u2464"}],"title":"4.2.10.1. Interface NodeList"},{"refs":[{"id":"ref-for-boundary-point-node\u2461\u2465"}],"title":"4.3.1. Interface MutationObserver"},{"refs":[{"id":"ref-for-boundary-point-node\u2461\u2466"},{"id":"ref-for-boundary-point-node\u2461\u2467"},{"id":"ref-for-boundary-point-node\u2461\u2468"},{"id":"ref-for-boundary-point-node\u2462\u24ea"},{"id":"ref-for-boundary-point-node\u2462\u2460"}],"title":"4.3.3. Interface MutationRecord"},{"refs":[{"id":"ref-for-boundary-point-node\u2462\u2461"},{"id":"ref-for-boundary-point-node\u2462\u2462"},{"id":"ref-for-boundary-point-node\u2462\u2463"},{"id":"ref-for-boundary-point-node\u2462\u2464"},{"id":"ref-for-boundary-point-node\u2462\u2465"},{"id":"ref-for-boundary-point-node\u2462\u2466"},{"id":"ref-for-boundary-point-node\u2462\u2467"},{"id":"ref-for-boundary-point-node\u2462\u2468"},{"id":"ref-for-boundary-point-node\u2463\u24ea"},{"id":"ref-for-boundary-point-node\u2463\u2460"},{"id":"ref-for-boundary-point-node\u2463\u2461"},{"id":"ref-for-boundary-point-node\u2463\u2462"},{"id":"ref-for-boundary-point-node\u2463\u2463"},{"id":"ref-for-boundary-point-node\u2463\u2464"},{"id":"ref-for-boundary-point-node\u2463\u2465"},{"id":"ref-for-boundary-point-node\u2463\u2466"},{"id":"ref-for-boundary-point-node\u2463\u2467"},{"id":"ref-for-boundary-point-node\u2463\u2468"},{"id":"ref-for-boundary-point-node\u2464\u24ea"},{"id":"ref-for-boundary-point-node\u2464\u2460"},{"id":"ref-for-boundary-point-node\u2464\u2461"},{"id":"ref-for-boundary-point-node\u2464\u2462"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-boundary-point-node\u2464\u2463"},{"id":"ref-for-boundary-point-node\u2464\u2464"},{"id":"ref-for-boundary-point-node\u2464\u2465"},{"id":"ref-for-boundary-point-node\u2464\u2466"},{"id":"ref-for-boundary-point-node\u2464\u2467"},{"id":"ref-for-boundary-point-node\u2464\u2468"},{"id":"ref-for-boundary-point-node\u2465\u24ea"},{"id":"ref-for-boundary-point-node\u2465\u2460"},{"id":"ref-for-boundary-point-node\u2465\u2461"},{"id":"ref-for-boundary-point-node\u2465\u2462"}],"title":"4.5. Interface Document"},{"refs":[{"id":"ref-for-boundary-point-node\u2465\u2463"}],"title":"4.5.1. Interface DOMImplementation"},{"refs":[{"id":"ref-for-boundary-point-node\u2465\u2464"},{"id":"ref-for-boundary-point-node\u2465\u2465"},{"id":"ref-for-boundary-point-node\u2465\u2466"}],"title":"4.7. Interface DocumentFragment"},{"refs":[{"id":"ref-for-boundary-point-node\u2465\u2467"},{"id":"ref-for-boundary-point-node\u2465\u2468"},{"id":"ref-for-boundary-point-node\u2466\u24ea"},{"id":"ref-for-boundary-point-node\u2466\u2460"}],"title":"4.8. Interface ShadowRoot"},{"refs":[{"id":"ref-for-boundary-point-node\u2466\u2461"},{"id":"ref-for-boundary-point-node\u2466\u2462"},{"id":"ref-for-boundary-point-node\u2466\u2463"},{"id":"ref-for-boundary-point-node\u2466\u2464"}],"title":"4.9. Interface Element"},{"refs":[{"id":"ref-for-boundary-point-node\u2466\u2465"},{"id":"ref-for-boundary-point-node\u2466\u2466"}],"title":"4.10. Interface CharacterData"},{"refs":[{"id":"ref-for-boundary-point-node\u2466\u2467"},{"id":"ref-for-boundary-point-node\u2466\u2468"},{"id":"ref-for-boundary-point-node\u2467\u24ea"},{"id":"ref-for-boundary-point-node\u2467\u2460"},{"id":"ref-for-boundary-point-node\u2467\u2461"},{"id":"ref-for-boundary-point-node\u2467\u2462"},{"id":"ref-for-boundary-point-node\u2467\u2463"},{"id":"ref-for-boundary-point-node\u2467\u2464"},{"id":"ref-for-boundary-point-node\u2467\u2465"},{"id":"ref-for-boundary-point-node\u2467\u2466"},{"id":"ref-for-boundary-point-node\u2467\u2467"}],"title":"4.11. Interface Text"},{"refs":[{"id":"ref-for-boundary-point-node\u2467\u2468"}],"title":"4.14. Interface Comment"},{"refs":[{"id":"ref-for-boundary-point-node\u2468\u24ea"}],"title":"5.1. Introduction to \"DOM Ranges\""},{"refs":[{"id":"ref-for-boundary-point-node\u2468\u2460"}],"title":"5.2. Boundary points"},{"refs":[{"id":"ref-for-boundary-point-node\u2468\u2461"},{"id":"ref-for-boundary-point-node\u2468\u2462"}],"title":"5.3. Interface AbstractRange"},{"refs":[{"id":"ref-for-boundary-point-node\u2468\u2463"},{"id":"ref-for-boundary-point-node\u2468\u2464"},{"id":"ref-for-boundary-point-node\u2468\u2465"},{"id":"ref-for-boundary-point-node\u2468\u2466"},{"id":"ref-for-boundary-point-node\u2468\u2467"},{"id":"ref-for-boundary-point-node\u2468\u2468"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u24ea"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2460"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2461"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2462"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2463"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2464"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2465"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2466"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2467"},{"id":"ref-for-boundary-point-node\u2460\u24ea\u2468"},{"id":"ref-for-boundary-point-node\u2460\u2460\u24ea"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2460"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2461"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2462"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2463"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2464"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2465"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2466"}],"title":"5.5. Interface Range"},{"refs":[{"id":"ref-for-boundary-point-node\u2460\u2460\u2467"},{"id":"ref-for-boundary-point-node\u2460\u2460\u2468"}],"title":"6.1. Interface NodeIterator"}],"url":"#boundary-point-node"},
-"c3469cd0": {"dfnID":"c3469cd0","dfnText":"MouseEvent","external":true,"refSections":[{"refs":[{"id":"ref-for-mouseevent"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-mouseevent\u2460"}],"title":"2.9. Dispatching events"},{"refs":[{"id":"ref-for-mouseevent\u2461"}],"title":"2.10. Firing events"},{"refs":[{"id":"ref-for-mouseevent\u2462"}],"title":"4.5. Interface Document"}],"url":"https://w3c.github.io/uievents/#mouseevent"},
 "c3dd181e": {"dfnID":"c3dd181e","dfnText":"html","external":true,"refSections":[{"refs":[{"id":"ref-for-the-html-element"},{"id":"ref-for-the-html-element\u2460"},{"id":"ref-for-the-html-element\u2461"}],"title":"4.5.1. Interface DOMImplementation"}],"url":"https://html.spec.whatwg.org/multipage/semantics.html#the-html-element"},
 "c4ed1e21": {"dfnID":"c4ed1e21","dfnText":"Name","external":true,"refSections":[{"refs":[{"id":"ref-for-NT-Name"},{"id":"ref-for-NT-Name\u2460"},{"id":"ref-for-NT-Name\u2461"},{"id":"ref-for-NT-Name\u2462"},{"id":"ref-for-NT-Name\u2463"}],"title":"4.5. Interface Document"},{"refs":[{"id":"ref-for-NT-Name\u2464"}],"title":"4.5.1. Interface DOMImplementation"},{"refs":[{"id":"ref-for-NT-Name\u2465"},{"id":"ref-for-NT-Name\u2466"}],"title":"4.9. Interface Element"}],"url":"https://www.w3.org/TR/xml/#NT-Name"},
 "c807e273": {"dfnID":"c807e273","dfnText":"NewObject","external":true,"refSections":[{"refs":[{"id":"ref-for-NewObject"}],"title":"3.2. Interface AbortSignal"},{"refs":[{"id":"ref-for-NewObject\u2460"}],"title":"4.2.6. Mixin ParentNode"},{"refs":[{"id":"ref-for-NewObject\u2461"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-NewObject\u2462"},{"id":"ref-for-NewObject\u2463"},{"id":"ref-for-NewObject\u2464"},{"id":"ref-for-NewObject\u2465"},{"id":"ref-for-NewObject\u2466"},{"id":"ref-for-NewObject\u2467"},{"id":"ref-for-NewObject\u2468"},{"id":"ref-for-NewObject\u2460\u24ea"},{"id":"ref-for-NewObject\u2460\u2460"},{"id":"ref-for-NewObject\u2460\u2461"},{"id":"ref-for-NewObject\u2460\u2462"},{"id":"ref-for-NewObject\u2460\u2463"},{"id":"ref-for-NewObject\u2460\u2464"},{"id":"ref-for-NewObject\u2460\u2465"}],"title":"4.5. Interface Document"},{"refs":[{"id":"ref-for-NewObject\u2460\u2466"},{"id":"ref-for-NewObject\u2460\u2467"},{"id":"ref-for-NewObject\u2460\u2468"}],"title":"4.5.1. Interface DOMImplementation"},{"refs":[{"id":"ref-for-NewObject\u2461\u24ea"}],"title":"4.11. Interface Text"},{"refs":[{"id":"ref-for-NewObject\u2461\u2460"},{"id":"ref-for-NewObject\u2461\u2461"},{"id":"ref-for-NewObject\u2461\u2462"}],"title":"5.5. Interface Range"},{"refs":[{"id":"ref-for-NewObject\u2461\u2463"}],"title":"8.3. Mixin XPathEvaluatorBase"}],"url":"https://webidl.spec.whatwg.org/#NewObject"},
@@ -21268,7 +21109,7 @@ let dfnPanelData = {
 "concept-traverse-siblings": {"dfnID":"concept-traverse-siblings","dfnText":"traverse siblings","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-traverse-siblings"},{"id":"ref-for-concept-traverse-siblings\u2460"}],"title":"6.2. Interface TreeWalker"}],"url":"#concept-traverse-siblings"},
 "concept-tree": {"dfnID":"concept-tree","dfnText":"tree","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree"},{"id":"ref-for-concept-tree\u2460"},{"id":"ref-for-concept-tree\u2461"},{"id":"ref-for-concept-tree\u2462"},{"id":"ref-for-concept-tree\u2463"},{"id":"ref-for-concept-tree\u2464"}],"title":"1.1. Trees"},{"refs":[{"id":"ref-for-concept-tree\u2465"},{"id":"ref-for-concept-tree\u2466"}],"title":"2.1. Introduction to \"DOM Events\""},{"refs":[{"id":"ref-for-concept-tree\u2467"},{"id":"ref-for-concept-tree\u2468"},{"id":"ref-for-concept-tree\u2460\u24ea"},{"id":"ref-for-concept-tree\u2460\u2460"}],"title":"2.2. Interface Event"},{"refs":[{"id":"ref-for-concept-tree\u2460\u2461"},{"id":"ref-for-concept-tree\u2460\u2462"}],"title":"4.1. Introduction to \"The DOM\""},{"refs":[{"id":"ref-for-concept-tree\u2460\u2463"}],"title":"4.2. Node tree"},{"refs":[{"id":"ref-for-concept-tree\u2460\u2464"}],"title":"4.3.1. Interface MutationObserver"},{"refs":[{"id":"ref-for-concept-tree\u2460\u2465"}],"title":"4.3.3. Interface MutationRecord"},{"refs":[{"id":"ref-for-concept-tree\u2460\u2466"},{"id":"ref-for-concept-tree\u2460\u2467"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-concept-tree\u2460\u2468"}],"title":"4.5.1. Interface DOMImplementation"},{"refs":[{"id":"ref-for-concept-tree\u2461\u24ea"},{"id":"ref-for-concept-tree\u2461\u2460"}],"title":"5.5. Interface Range"},{"refs":[{"id":"ref-for-concept-tree\u2461\u2461"}],"title":"6. Traversal"}],"url":"#concept-tree"},
 "concept-tree-ancestor": {"dfnID":"concept-tree-ancestor","dfnText":"ancestor","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree-ancestor"}],"title":"2.2. Interface Event"}],"url":"#concept-tree-ancestor"},
-"concept-tree-child": {"dfnID":"concept-tree-child","dfnText":"children","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree-child"},{"id":"ref-for-concept-tree-child\u2460"},{"id":"ref-for-concept-tree-child\u2461"},{"id":"ref-for-concept-tree-child\u2462"},{"id":"ref-for-concept-tree-child\u2463"}],"title":"1.1. Trees"},{"refs":[{"id":"ref-for-concept-tree-child\u2464"},{"id":"ref-for-concept-tree-child\u2465"}],"title":"4.2.2.3. Finding slots and slottables"},{"refs":[{"id":"ref-for-concept-tree-child\u2466"},{"id":"ref-for-concept-tree-child\u2467"},{"id":"ref-for-concept-tree-child\u2468"},{"id":"ref-for-concept-tree-child\u2460\u24ea"},{"id":"ref-for-concept-tree-child\u2460\u2460"},{"id":"ref-for-concept-tree-child\u2460\u2461"},{"id":"ref-for-concept-tree-child\u2460\u2462"},{"id":"ref-for-concept-tree-child\u2460\u2463"},{"id":"ref-for-concept-tree-child\u2460\u2464"},{"id":"ref-for-concept-tree-child\u2460\u2465"},{"id":"ref-for-concept-tree-child\u2460\u2466"},{"id":"ref-for-concept-tree-child\u2460\u2467"},{"id":"ref-for-concept-tree-child\u2460\u2468"},{"id":"ref-for-concept-tree-child\u2461\u24ea"},{"id":"ref-for-concept-tree-child\u2461\u2460"},{"id":"ref-for-concept-tree-child\u2461\u2461"}],"title":"4.2.3. Mutation algorithms"},{"refs":[{"id":"ref-for-concept-tree-child\u2461\u2462"},{"id":"ref-for-concept-tree-child\u2461\u2463"},{"id":"ref-for-concept-tree-child\u2461\u2464"},{"id":"ref-for-concept-tree-child\u2461\u2465"},{"id":"ref-for-concept-tree-child\u2461\u2466"}],"title":"4.2.6. Mixin ParentNode"},{"refs":[{"id":"ref-for-concept-tree-child\u2461\u2467"},{"id":"ref-for-concept-tree-child\u2461\u2468"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-concept-tree-child\u2462\u24ea"}],"title":"4.5. Interface Document"},{"refs":[{"id":"ref-for-concept-tree-child\u2462\u2460"}],"title":"5.2. Boundary points"},{"refs":[{"id":"ref-for-concept-tree-child\u2462\u2461"},{"id":"ref-for-concept-tree-child\u2462\u2462"},{"id":"ref-for-concept-tree-child\u2462\u2463"},{"id":"ref-for-concept-tree-child\u2462\u2464"},{"id":"ref-for-concept-tree-child\u2462\u2465"},{"id":"ref-for-concept-tree-child\u2462\u2466"},{"id":"ref-for-concept-tree-child\u2462\u2467"},{"id":"ref-for-concept-tree-child\u2462\u2468"},{"id":"ref-for-concept-tree-child\u2463\u24ea"},{"id":"ref-for-concept-tree-child\u2463\u2460"},{"id":"ref-for-concept-tree-child\u2463\u2461"}],"title":"5.5. Interface Range"},{"refs":[{"id":"ref-for-concept-tree-child\u2463\u2462"},{"id":"ref-for-concept-tree-child\u2463\u2463"}],"title":"6.2. Interface TreeWalker"}],"url":"#concept-tree-child"},
+"concept-tree-child": {"dfnID":"concept-tree-child","dfnText":"children","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree-child"},{"id":"ref-for-concept-tree-child\u2460"},{"id":"ref-for-concept-tree-child\u2461"},{"id":"ref-for-concept-tree-child\u2462"},{"id":"ref-for-concept-tree-child\u2463"},{"id":"ref-for-concept-tree-child\u2464"},{"id":"ref-for-concept-tree-child\u2465"}],"title":"1.1. Trees"},{"refs":[{"id":"ref-for-concept-tree-child\u2466"}],"title":"4.1. Introduction to \"The DOM\""},{"refs":[{"id":"ref-for-concept-tree-child\u2467"},{"id":"ref-for-concept-tree-child\u2468"}],"title":"4.2. Node tree"},{"refs":[{"id":"ref-for-concept-tree-child\u2460\u24ea"},{"id":"ref-for-concept-tree-child\u2460\u2460"}],"title":"4.2.2.3. Finding slots and slottables"},{"refs":[{"id":"ref-for-concept-tree-child\u2460\u2461"},{"id":"ref-for-concept-tree-child\u2460\u2462"},{"id":"ref-for-concept-tree-child\u2460\u2463"},{"id":"ref-for-concept-tree-child\u2460\u2464"},{"id":"ref-for-concept-tree-child\u2460\u2465"},{"id":"ref-for-concept-tree-child\u2460\u2466"},{"id":"ref-for-concept-tree-child\u2460\u2467"},{"id":"ref-for-concept-tree-child\u2460\u2468"},{"id":"ref-for-concept-tree-child\u2461\u24ea"},{"id":"ref-for-concept-tree-child\u2461\u2460"},{"id":"ref-for-concept-tree-child\u2461\u2461"},{"id":"ref-for-concept-tree-child\u2461\u2462"},{"id":"ref-for-concept-tree-child\u2461\u2463"},{"id":"ref-for-concept-tree-child\u2461\u2464"},{"id":"ref-for-concept-tree-child\u2461\u2465"},{"id":"ref-for-concept-tree-child\u2461\u2466"},{"id":"ref-for-concept-tree-child\u2461\u2467"},{"id":"ref-for-concept-tree-child\u2461\u2468"},{"id":"ref-for-concept-tree-child\u2462\u24ea"},{"id":"ref-for-concept-tree-child\u2462\u2460"},{"id":"ref-for-concept-tree-child\u2462\u2461"},{"id":"ref-for-concept-tree-child\u2462\u2462"}],"title":"4.2.3. Mutation algorithms"},{"refs":[{"id":"ref-for-concept-tree-child\u2462\u2463"},{"id":"ref-for-concept-tree-child\u2462\u2464"},{"id":"ref-for-concept-tree-child\u2462\u2465"},{"id":"ref-for-concept-tree-child\u2462\u2466"},{"id":"ref-for-concept-tree-child\u2462\u2467"},{"id":"ref-for-concept-tree-child\u2462\u2468"},{"id":"ref-for-concept-tree-child\u2463\u24ea"},{"id":"ref-for-concept-tree-child\u2463\u2460"}],"title":"4.2.6. Mixin ParentNode"},{"refs":[{"id":"ref-for-concept-tree-child\u2463\u2461"}],"title":"4.3.1. Interface MutationObserver"},{"refs":[{"id":"ref-for-concept-tree-child\u2463\u2462"}],"title":"4.3.3. Interface MutationRecord"},{"refs":[{"id":"ref-for-concept-tree-child\u2463\u2463"},{"id":"ref-for-concept-tree-child\u2463\u2464"},{"id":"ref-for-concept-tree-child\u2463\u2465"},{"id":"ref-for-concept-tree-child\u2463\u2466"},{"id":"ref-for-concept-tree-child\u2463\u2467"},{"id":"ref-for-concept-tree-child\u2463\u2468"},{"id":"ref-for-concept-tree-child\u2464\u24ea"},{"id":"ref-for-concept-tree-child\u2464\u2460"},{"id":"ref-for-concept-tree-child\u2464\u2461"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-concept-tree-child\u2464\u2462"}],"title":"4.5. Interface Document"},{"refs":[{"id":"ref-for-concept-tree-child\u2464\u2463"}],"title":"4.9. Interface Element"},{"refs":[{"id":"ref-for-concept-tree-child\u2464\u2464"}],"title":"4.11. Interface Text"},{"refs":[{"id":"ref-for-concept-tree-child\u2464\u2465"}],"title":"5.2. Boundary points"},{"refs":[{"id":"ref-for-concept-tree-child\u2464\u2466"},{"id":"ref-for-concept-tree-child\u2464\u2467"},{"id":"ref-for-concept-tree-child\u2464\u2468"},{"id":"ref-for-concept-tree-child\u2465\u24ea"},{"id":"ref-for-concept-tree-child\u2465\u2460"},{"id":"ref-for-concept-tree-child\u2465\u2461"},{"id":"ref-for-concept-tree-child\u2465\u2462"},{"id":"ref-for-concept-tree-child\u2465\u2463"},{"id":"ref-for-concept-tree-child\u2465\u2464"},{"id":"ref-for-concept-tree-child\u2465\u2465"},{"id":"ref-for-concept-tree-child\u2465\u2466"},{"id":"ref-for-concept-tree-child\u2465\u2467"},{"id":"ref-for-concept-tree-child\u2465\u2468"},{"id":"ref-for-concept-tree-child\u2466\u24ea"},{"id":"ref-for-concept-tree-child\u2466\u2460"},{"id":"ref-for-concept-tree-child\u2466\u2461"},{"id":"ref-for-concept-tree-child\u2466\u2462"},{"id":"ref-for-concept-tree-child\u2466\u2463"}],"title":"5.5. Interface Range"},{"refs":[{"id":"ref-for-concept-tree-child\u2466\u2464"},{"id":"ref-for-concept-tree-child\u2466\u2465"}],"title":"6.2. Interface TreeWalker"}],"url":"#concept-tree-child"},
 "concept-tree-descendant": {"dfnID":"concept-tree-descendant","dfnText":"descendant","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree-descendant"},{"id":"ref-for-concept-tree-descendant\u2460"}],"title":"4.2.2.3. Finding slots and slottables"},{"refs":[{"id":"ref-for-concept-tree-descendant\u2461"}],"title":"4.3. Mutation observers"}],"url":"#concept-tree-descendant"},
 "concept-tree-first-child": {"dfnID":"concept-tree-first-child","dfnText":"first child","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree-first-child"},{"id":"ref-for-concept-tree-first-child\u2460"}],"title":"4.2.6. Mixin ParentNode"},{"refs":[{"id":"ref-for-concept-tree-first-child\u2461"}],"title":"4.2.8. Mixin ChildNode"},{"refs":[{"id":"ref-for-concept-tree-first-child\u2462"},{"id":"ref-for-concept-tree-first-child\u2463"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-concept-tree-first-child\u2464"}],"title":"4.9. Interface Element"},{"refs":[{"id":"ref-for-concept-tree-first-child\u2465"},{"id":"ref-for-concept-tree-first-child\u2466"},{"id":"ref-for-concept-tree-first-child\u2467"},{"id":"ref-for-concept-tree-first-child\u2468"}],"title":"6.2. Interface TreeWalker"}],"url":"#concept-tree-first-child"},
 "concept-tree-following": {"dfnID":"concept-tree-following","dfnText":"following","external":false,"refSections":[{"refs":[{"id":"ref-for-concept-tree-following"},{"id":"ref-for-concept-tree-following\u2460"}],"title":"1.1. Trees"},{"refs":[{"id":"ref-for-concept-tree-following\u2461"},{"id":"ref-for-concept-tree-following\u2462"},{"id":"ref-for-concept-tree-following\u2463"},{"id":"ref-for-concept-tree-following\u2464"}],"title":"4.2.3. Mutation algorithms"},{"refs":[{"id":"ref-for-concept-tree-following\u2465"},{"id":"ref-for-concept-tree-following\u2466"}],"title":"4.2.7. Mixin NonDocumentTypeChildNode"},{"refs":[{"id":"ref-for-concept-tree-following\u2467"},{"id":"ref-for-concept-tree-following\u2468"}],"title":"4.2.8. Mixin ChildNode"},{"refs":[{"id":"ref-for-concept-tree-following\u2460\u24ea"}],"title":"4.4. Interface Node"},{"refs":[{"id":"ref-for-concept-tree-following\u2460\u2460"}],"title":"5.2. Boundary points"},{"refs":[{"id":"ref-for-concept-tree-following\u2460\u2461"},{"id":"ref-for-concept-tree-following\u2460\u2462"}],"title":"6.1. Interface NodeIterator"}],"url":"#concept-tree-following"},
@@ -21933,7 +21774,7 @@ let dfnPanelData = {
 "event-touch-target-list": {"dfnID":"event-touch-target-list","dfnText":"touch target list","external":false,"refSections":[{"refs":[{"id":"ref-for-event-touch-target-list"}],"title":"2.2. Interface Event"},{"refs":[{"id":"ref-for-event-touch-target-list\u2460"},{"id":"ref-for-event-touch-target-list\u2461"},{"id":"ref-for-event-touch-target-list\u2462"},{"id":"ref-for-event-touch-target-list\u2463"}],"title":"2.9. Dispatching events"}],"url":"#event-touch-target-list"},
 "eventdef-abortsignal-abort": {"dfnID":"eventdef-abortsignal-abort","dfnText":"abort","external":false,"refSections":[{"refs":[{"id":"ref-for-eventdef-abortsignal-abort"}],"title":"3.2. Interface AbortSignal"}],"url":"#eventdef-abortsignal-abort"},
 "eventtarget": {"dfnID":"eventtarget","dfnText":"EventTarget","external":false,"refSections":[{"refs":[{"id":"ref-for-eventtarget"}],"title":"2.1. Introduction to \"DOM Events\""},{"refs":[{"id":"ref-for-eventtarget\u2460"},{"id":"ref-for-eventtarget\u2461"},{"id":"ref-for-eventtarget\u2462"},{"id":"ref-for-eventtarget\u2463"},{"id":"ref-for-eventtarget\u2464"},{"id":"ref-for-eventtarget\u2465"}],"title":"2.2. Interface Event"},{"refs":[{"id":"ref-for-eventtarget\u2466"},{"id":"ref-for-eventtarget\u2467"},{"id":"ref-for-eventtarget\u2468"},{"id":"ref-for-eventtarget\u2460\u24ea"},{"id":"ref-for-eventtarget\u2460\u2460"},{"id":"ref-for-eventtarget\u2460\u2461"},{"id":"ref-for-eventtarget\u2460\u2462"},{"id":"ref-for-eventtarget\u2460\u2463"},{"id":"ref-for-eventtarget\u2460\u2464"},{"id":"ref-for-eventtarget\u2460\u2465"},{"id":"ref-for-eventtarget\u2460\u2466"},{"id":"ref-for-eventtarget\u2460\u2467"},{"id":"ref-for-eventtarget\u2460\u2468"},{"id":"ref-for-eventtarget\u2461\u24ea"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-eventtarget\u2461\u2460"}],"title":"2.9. Dispatching events"},{"refs":[{"id":"ref-for-eventtarget\u2461\u2461"}],"title":"3.2. Interface AbortSignal"},{"refs":[{"id":"ref-for-eventtarget\u2461\u2462"}],"title":"4.4. Interface Node"}],"url":"#eventtarget"},
-"eventtarget-activation-behavior": {"dfnID":"eventtarget-activation-behavior","dfnText":"activation behavior","external":false,"refSections":[{"refs":[{"id":"ref-for-eventtarget-activation-behavior"},{"id":"ref-for-eventtarget-activation-behavior\u2460"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-eventtarget-activation-behavior\u2461"},{"id":"ref-for-eventtarget-activation-behavior\u2462"},{"id":"ref-for-eventtarget-activation-behavior\u2463"},{"id":"ref-for-eventtarget-activation-behavior\u2464"}],"title":"2.9. Dispatching events"}],"url":"#eventtarget-activation-behavior"},
+"eventtarget-activation-behavior": {"dfnID":"eventtarget-activation-behavior","dfnText":"activation behavior","external":false,"refSections":[{"refs":[{"id":"ref-for-eventtarget-activation-behavior"},{"id":"ref-for-eventtarget-activation-behavior\u2460"},{"id":"ref-for-eventtarget-activation-behavior\u2461"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-eventtarget-activation-behavior\u2462"},{"id":"ref-for-eventtarget-activation-behavior\u2463"},{"id":"ref-for-eventtarget-activation-behavior\u2464"},{"id":"ref-for-eventtarget-activation-behavior\u2465"}],"title":"2.9. Dispatching events"}],"url":"#eventtarget-activation-behavior"},
 "eventtarget-event-listener-list": {"dfnID":"eventtarget-event-listener-list","dfnText":"event listener list","external":false,"refSections":[{"refs":[{"id":"ref-for-eventtarget-event-listener-list"},{"id":"ref-for-eventtarget-event-listener-list\u2460"},{"id":"ref-for-eventtarget-event-listener-list\u2461"},{"id":"ref-for-eventtarget-event-listener-list\u2462"},{"id":"ref-for-eventtarget-event-listener-list\u2463"},{"id":"ref-for-eventtarget-event-listener-list\u2464"},{"id":"ref-for-eventtarget-event-listener-list\u2465"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-eventtarget-event-listener-list\u2466"},{"id":"ref-for-eventtarget-event-listener-list\u2467"}],"title":"2.9. Dispatching events"}],"url":"#eventtarget-event-listener-list"},
 "eventtarget-legacy-canceled-activation-behavior": {"dfnID":"eventtarget-legacy-canceled-activation-behavior","dfnText":"legacy-canceled-activation behavior","external":false,"refSections":[{"refs":[{"id":"ref-for-eventtarget-legacy-canceled-activation-behavior"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-eventtarget-legacy-canceled-activation-behavior\u2460"},{"id":"ref-for-eventtarget-legacy-canceled-activation-behavior\u2461"}],"title":"2.9. Dispatching events"}],"url":"#eventtarget-legacy-canceled-activation-behavior"},
 "eventtarget-legacy-pre-activation-behavior": {"dfnID":"eventtarget-legacy-pre-activation-behavior","dfnText":"legacy-pre-activation behavior","external":false,"refSections":[{"refs":[{"id":"ref-for-eventtarget-legacy-pre-activation-behavior"}],"title":"2.7. Interface EventTarget"},{"refs":[{"id":"ref-for-eventtarget-legacy-pre-activation-behavior\u2460"},{"id":"ref-for-eventtarget-legacy-pre-activation-behavior\u2461"}],"title":"2.9. Dispatching events"}],"url":"#eventtarget-legacy-pre-activation-behavior"},
@@ -23227,7 +23068,7 @@ let refsData = {
 "https://infra.spec.whatwg.org/#split-on-ascii-whitespace": {"displayText":"split on ASCII whitespace","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"split on ascii whitespace","type":"dfn","url":"https://infra.spec.whatwg.org/#split-on-ascii-whitespace"},
 "https://infra.spec.whatwg.org/#string-concatenate": {"displayText":"concatenation","export":true,"for_":["string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"concatenation","type":"dfn","url":"https://infra.spec.whatwg.org/#string-concatenate"},
 "https://infra.spec.whatwg.org/#string-is": {"displayText":"identical to","export":true,"for_":["string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"identical to","type":"dfn","url":"https://infra.spec.whatwg.org/#string-is"},
-"https://infra.spec.whatwg.org/#string-length": {"displayText":"length","export":true,"for_":["string","JavaScript string","scalar value string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"length","type":"dfn","url":"https://infra.spec.whatwg.org/#string-length"},
+"https://infra.spec.whatwg.org/#string-length": {"displayText":"length","export":true,"for_":["string","JavaScript string","ASCII string","isomorphic string","scalar value string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"length","type":"dfn","url":"https://infra.spec.whatwg.org/#string-length"},
 "https://infra.spec.whatwg.org/#struct": {"displayText":"struct","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"struct","type":"dfn","url":"https://infra.spec.whatwg.org/#struct"},
 "https://infra.spec.whatwg.org/#svg-namespace": {"displayText":"SVG namespace","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"svg namespace","type":"dfn","url":"https://infra.spec.whatwg.org/#svg-namespace"},
 "https://infra.spec.whatwg.org/#tuple": {"displayText":"tuple","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"tuple","type":"dfn","url":"https://infra.spec.whatwg.org/#tuple"},
@@ -23248,12 +23089,12 @@ let refsData = {
 "https://w3c.github.io/hr-time/#clock-resolution": {"displayText":"clock resolution","export":true,"for_":[],"level":"","normative":true,"shortname":"hr-time","spec":"hr-time","status":"anchor-block","text":"clock resolution","type":"dfn","url":"https://w3c.github.io/hr-time/#clock-resolution"},
 "https://w3c.github.io/hr-time/#dfn-time-origin": {"displayText":"time origin","export":true,"for_":[],"level":"","normative":true,"shortname":"hr-time","spec":"hr-time","status":"anchor-block","text":"time origin","type":"dfn","url":"https://w3c.github.io/hr-time/#dfn-time-origin"},
 "https://w3c.github.io/hr-time/#dom-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"","normative":true,"shortname":"hr-time","spec":"hr-time","status":"anchor-block","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
+"https://w3c.github.io/pointerevents/#dom-mouseevent": {"displayText":"MouseEvent","export":true,"for_":[],"level":"4","normative":true,"shortname":"pointerevents","spec":"pointerevents4","status":"current","text":"MouseEvent","type":"interface","url":"https://w3c.github.io/pointerevents/#dom-mouseevent"},
 "https://w3c.github.io/touch-events/#idl-def-touchevent": {"displayText":"TouchEvent","export":true,"for_":[],"level":"","normative":true,"shortname":"dom","spec":"","status":"anchor-block","text":"TouchEvent","type":"interface","url":"https://w3c.github.io/touch-events/#idl-def-touchevent"},
 "https://w3c.github.io/uievents/#compositionevent": {"displayText":"CompositionEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"CompositionEvent","type":"interface","url":"https://w3c.github.io/uievents/#compositionevent"},
 "https://w3c.github.io/uievents/#dom-uievent-detail": {"displayText":"detail","export":true,"for_":["UIEvent"],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"detail","type":"attribute","url":"https://w3c.github.io/uievents/#dom-uievent-detail"},
 "https://w3c.github.io/uievents/#focusevent": {"displayText":"FocusEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"FocusEvent","type":"interface","url":"https://w3c.github.io/uievents/#focusevent"},
 "https://w3c.github.io/uievents/#keyboardevent": {"displayText":"KeyboardEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"KeyboardEvent","type":"interface","url":"https://w3c.github.io/uievents/#keyboardevent"},
-"https://w3c.github.io/uievents/#mouseevent": {"displayText":"MouseEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"MouseEvent","type":"interface","url":"https://w3c.github.io/uievents/#mouseevent"},
 "https://w3c.github.io/uievents/#uievent": {"displayText":"UIEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"uievents","spec":"uievents","status":"current","text":"UIEvent","type":"interface","url":"https://w3c.github.io/uievents/#uievent"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
 "https://webidl.spec.whatwg.org/#LegacyNullToEmptyString": {"displayText":"LegacyNullToEmptyString","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"LegacyNullToEmptyString","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#LegacyNullToEmptyString"},

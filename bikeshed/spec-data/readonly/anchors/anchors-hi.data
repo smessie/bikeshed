@@ -49,14 +49,14 @@ RequestPriority
 "high"
 "high"
 enum-value
-webxr-meshing
-webxr-meshing
-1
+navigation-timing-2
+navigation-timing
+2
 current
-https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html#dom-xrmeshquality-high
+https://w3c.github.io/navigation-timing/#dom-performancetimingconfidencevalue-high
 1
 1
-XRMeshQuality
+PerformanceTimingConfidenceValue
 -
 "high"
 "high"
@@ -69,6 +69,18 @@ https://w3c.github.io/webrtc-priority/#dom-rtcprioritytype-high
 1
 1
 RTCPriorityType
+-
+"high"
+"high"
+enum-value
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#dom-performancetimingconfidencevalue-high
+1
+1
+PerformanceTimingConfidenceValue
 -
 "high"
 "high"
@@ -157,7 +169,7 @@ HighlightType
 "highpass"
 "highpass"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -169,11 +181,35 @@ BiquadFilterType
 "highpass"
 "highpass"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-highpass
+1
+1
+BiquadFilterType
+-
+"highpass"
+"highpass"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-highpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-highpass
+1
+1
+BiquadFilterType
+-
+"highpass"
+"highpass"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-highpass
 1
 1
 BiquadFilterType
@@ -181,7 +217,7 @@ BiquadFilterType
 "highshelf"
 "highshelf"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -193,14 +229,50 @@ BiquadFilterType
 "highshelf"
 "highshelf"
 enum-value
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-highshelf
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-highshelf
 1
 1
 BiquadFilterType
+-
+"highshelf"
+"highshelf"
+enum-value
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-highshelf
+1
+1
+BiquadFilterType
+-
+"highshelf"
+"highshelf"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-highshelf
+1
+1
+BiquadFilterType
+-
+"hips"
+"hips"
+enum-value
+body-tracking
+body-tracking
+1
+current
+https://immersive-web.github.io/body-tracking/#dom-xrbodyjoint-hips
+1
+1
+XRBodyJoint
 -
 ::highlight(<custom-highlight-name>)
 ::highlight(<custom-highlight-name>)
@@ -221,6 +293,39 @@ css-pseudo
 4
 current
 https://drafts.csswg.org/css-pseudo-4/#selectordef-highlight-custom-ident
+1
+1
+-
+::highlight(<custom-ident>)
+::highlight(<custom-ident>)
+selector
+css-pseudo-4
+css-pseudo
+4
+snapshot
+https://www.w3.org/TR/css-pseudo-4/#selectordef-highlight-custom-ident
+1
+1
+-
+:high-value
+:high-value
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-high-value
+1
+1
+-
+:high-value
+:high-value
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-high-value
 1
 1
 -
@@ -313,6 +418,28 @@ current
 https://wicg.github.io/webhid/#dfn-hid-interface
 
 
+-
+hid usage identifier
+HID usage identifier
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-hid-usage-identifier
+
+1
+-
+hid usage identifier
+HID usage identifier
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-hid-usage-identifier
+
+1
 -
 hid usages
 HID usages
@@ -477,6 +604,17 @@ html
 html
 1
 current
+https://html.spec.whatwg.org/multipage/interaction.html#attr-hidden-hidden-state
+
+1
+-
+hidden
+hidden
+dfn
+html
+html
+1
+current
 https://html.spec.whatwg.org/multipage/media.html#text-track-hidden
 
 1
@@ -504,28 +642,6 @@ https://w3c.github.io/aria/#dfn-hidden
 1
 
 element
--
-hidden
-hidden
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-hidden
-
-
--
-hidden
-hidden
-dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-hidden
-
-1
 -
 hidden
 hidden
@@ -597,6 +713,39 @@ https://html.spec.whatwg.org/multipage/interactive-elements.html#command-facet-h
 
 1
 -
+hidden until found
+Hidden Until Found
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#attr-hidden-until-found-state
+
+1
+-
+hide
+hide
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-hide-state
+
+1
+-
+hide popover
+Hide Popover
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-hide-popover-state
+
+1
+-
 HierarchyRequestError
 HierarchyRequestError
 exception
@@ -608,14 +757,36 @@ https://webidl.spec.whatwg.org/#hierarchyrequesterror
 1
 1
 -
+high
+high
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-fetchpriority-high-state
+
+1
+-
 high dynamic range
 High Dynamic Range
 dfn
-css-color-hdr
+css-color-hdr-1
 css-color-hdr
 1
 current
-https://drafts.csswg.org/css-color-hdr/#high-dynamic-range
+https://drafts.csswg.org/css-color-hdr-1/#high-dynamic-range
+1
+1
+-
+high dynamic range
+High Dynamic Range
+dfn
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#high-dynamic-range
 1
 1
 -
@@ -737,6 +908,17 @@ https://www.w3.org/TR/css-highlight-api-1/#dom-highlight-highlight
 1
 Highlight
 -
+HighlightHitResult
+HighlightHitResult
+dictionary
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#dictdef-highlighthitresult
+1
+1
+-
 HighlightRegistry
 HighlightRegistry
 interface
@@ -829,6 +1011,76 @@ https://www.w3.org/TR/css-highlight-api-1/#enumdef-highlighttype
 1
 1
 -
+HighlightsFromPointOptions
+HighlightsFromPointOptions
+dictionary
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#dictdef-highlightsfrompointoptions
+1
+1
+-
+hint
+hint
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint-state
+
+1
+-
+histogram index
+Histogram Index
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-histogram-index
+
+1
+impression
+-
+histogram index
+Histogram Index
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-histogram-index
+
+1
+impression
+-
+histogram size
+Histogram Size
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#validated-conversion-options-histogram-size
+
+1
+validated conversion options
+-
+histogram size
+Histogram Size
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-histogram-size
+
+1
+validated conversion options
+-
 History
 History
 interface
@@ -920,6 +1172,24 @@ border
 hidden
 hidden
 value
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#valdef-line-style-hidden
+1
+1
+<line-style>
+border-style
+border-top-style
+border-left-style
+border-bottom-style
+border-right-style
+border
+-
+hidden
+hidden
+value
 css-contain-2
 css-contain
 2
@@ -970,9 +1240,9 @@ overflow-y
 hidden
 hidden
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-overflow-hidden
 1
@@ -982,9 +1252,9 @@ overflow
 hidden
 hidden
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-visibility-hidden
 1
@@ -994,9 +1264,9 @@ visibility
 hidden
 hidden
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-hidden
 1
@@ -1043,17 +1313,6 @@ https://html.spec.whatwg.org/multipage/interaction.html#attr-hidden-hidden
 1
 1
 html-global/hidden
--
-hidden
-hidden
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/interaction.html#attr-hidden-hidden-state
-
-1
 -
 hidden
 hidden
@@ -1156,20 +1415,9 @@ hidden
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#value-def-hidden
-1
-1
--
-hidden
-hidden
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#value-def-hidden
+https://www.w3.org/TR/CSS2/box.html#value-def-hidden
 1
 1
 -
@@ -1181,6 +1429,24 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-line-style-hidden
+1
+1
+<line-style>
+border-style
+border-top-style
+border-left-style
+border-bottom-style
+border-right-style
+border
+-
+hidden
+hidden
+value
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#valdef-line-style-hidden
 1
 1
 <line-style>
@@ -1211,6 +1477,18 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-visibility-hidden
+1
+1
+visibility
+-
+hidden
+hidden
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-visibility-hidden
 1
 1
 visibility
@@ -1318,17 +1596,6 @@ css-ruby
 1
 snapshot
 https://www.w3.org/TR/css-ruby-1/#hidden-annotation
-
-1
--
-hidden until found
-hidden until found
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/interaction.html#attr-hidden-until-found-state
 
 1
 -
@@ -1538,9 +1805,9 @@ https://drafts.csswg.org/css-ruby-1/#hidden-annotation
 hide
 hide
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-empty-cells-hide
 1
@@ -1574,17 +1841,6 @@ html-global/popovertargetaction
 hide
 hide
 dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-hide-state
-
-1
--
-hide
-hide
-dfn
 css-ruby-1
 css-ruby
 1
@@ -1602,17 +1858,6 @@ html
 current
 https://html.spec.whatwg.org/multipage/popover.html#hide-popover-algorithm
 
-1
--
-hide all popovers until
-hide all popovers until
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/popover.html#hide-all-popovers-until
-1
 1
 -
 hide from all users
@@ -1651,6 +1896,28 @@ https://www.w3.org/TR/wai-aria-1.3/#dfn-hide-from-all-users
 
 element
 -
+hide popover stack until
+hide popover stack until
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#hide-popover-stack-until
+
+1
+-
+hide popovers until
+hide popovers until
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#hide-popovers-until
+1
+1
+-
 hide()
 hide()
 method
@@ -1675,6 +1942,18 @@ https://www.w3.org/TR/virtual-keyboard/#dom-virtualkeyboard-hide
 1
 VirtualKeyboard
 -
+hide-popover
+hide-popover
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-hide-popover
+1
+1
+html-global/command
+-
 hidePopover()
 hidePopover()
 method
@@ -1687,6 +1966,17 @@ https://html.spec.whatwg.org/multipage/popover.html#dom-hidepopover
 1
 HTMLElement
 -
+hiding popover nesting count
+hiding popover nesting count
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#hiding-popover-nesting-count
+
+1
+-
 hierarchically correct main element
 hierarchically correct main element
 dfn
@@ -1697,18 +1987,6 @@ current
 https://html.spec.whatwg.org/multipage/grouping-content.html#hierarchically-correct-main-element
 
 1
--
-high
-high
-value
-css-color-hdr
-css-color-hdr
-1
-current
-https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-high
-1
-1
-dynamic-range-limit
 -
 high
 high
@@ -1810,14 +2088,39 @@ link/fetchpriority
 -
 high
 high
-dfn
-html
-html
+enum-value
+wai-aria-1.2
+wai-aria
 1
 current
-https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-fetchpriority-high-state
-
+https://w3c.github.io/aria/#dom-arianotifypriority-high
 1
+1
+AriaNotifyPriority
+-
+high
+high
+enum-value
+wai-aria-1.3
+wai-aria
+1
+current
+https://w3c.github.io/aria/#dom-arianotifypriority-high
+1
+1
+AriaNotifyPriority
+-
+high
+high
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancetimingconfidencevalue-high
+1
+1
+PerformanceTimingConfidenceValue
 -
 high
 high
@@ -1866,6 +2169,30 @@ https://www.w3.org/TR/mediaqueries-5/#valdef-media-dynamic-range-high
 1
 1
 @media/dynamic-range
+-
+high
+high
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetimingconfidencevalue-high
+1
+1
+PerformanceTimingConfidenceValue
+-
+high
+high
+enum-value
+wai-aria-1.3
+wai-aria
+1
+snapshot
+https://www.w3.org/TR/wai-aria-1.3/#dom-arianotifypriority-high
+1
+1
+AriaNotifyPriority
 -
 high
 high
@@ -1956,8 +2283,8 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-high-word
-
+https://wicg.github.io/web-smart-card/#high-word
+1
 1
 -
 high-entropy client hint
@@ -1969,6 +2296,28 @@ client-hints-infrastructure
 current
 https://wicg.github.io/client-hints-infrastructure/#high-entropy-client-hint
 1
+1
+-
+high-frequency corpus
+high-frequency corpus
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-high-frequency-corpus
+
+1
+-
+high-frequency corpus
+high-frequency corpus
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-high-frequency-corpus
+
 1
 -
 high-level
@@ -2182,77 +2531,17 @@ https://www.w3.org/TR/media-source-2/#highest-end-timestamp
 
 1
 -
-highest scoring other bid
-highest scoring other bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-highest-scoring-other-bid
-
-1
-leading bid info
--
-highest scoring other bid owner
-highest scoring other bid owner
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-highest-scoring-other-bid-owner
-
-1
-leading bid info
--
-highest scoring other bids count
-highest scoring other bids count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-highest-scoring-other-bids-count
-
-1
-leading bid info
--
-highest-scoring-other-bid
-highest-scoring-other-bid
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#signal-base-value-highest-scoring-other-bid
-
-1
-signal base value
--
-highestScoringOtherBid
-highestScoringOtherBid
+highlight
+highlight
 dict-member
-turtledove
-turtledove
+css-highlight-api-1
+css-highlight-api
 1
 current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-highestscoringotherbid
+https://drafts.csswg.org/css-highlight-api-1/#dom-highlighthitresult-highlight
 1
 1
-ReportingBrowserSignals
--
-highestScoringOtherBidCurrency
-highestScoringOtherBidCurrency
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-highestscoringotherbidcurrency
-1
-1
-ReportingBrowserSignals
+HighlightHitResult
 -
 highlight overlay
 highlight overlay
@@ -2344,10 +2633,34 @@ https://www.w3.org/TR/css-highlight-api-1/#dom-css-highlights
 1
 CSS
 -
+highlightsFromPoint(x, y)
+highlightsFromPoint(x, y)
+method
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#dom-highlightregistry-highlightsfrompoint
+1
+1
+HighlightRegistry
+-
+highlightsFromPoint(x, y, options)
+highlightsFromPoint(x, y, options)
+method
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#dom-highlightregistry-highlightsfrompoint
+1
+1
+HighlightRegistry
+-
 highpass
 highpass
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2359,11 +2672,35 @@ BiquadFilterType
 highpass
 highpass
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-highpass
+1
+1
+BiquadFilterType
+-
+highpass
+highpass
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-highpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-highpass
+1
+1
+BiquadFilterType
+-
+highpass
+highpass
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-highpass
 1
 1
 BiquadFilterType
@@ -2371,7 +2708,7 @@ BiquadFilterType
 highshelf
 highshelf
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2383,14 +2720,61 @@ BiquadFilterType
 highshelf
 highshelf
 enum-value
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-highshelf
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-highshelf
 1
 1
 BiquadFilterType
+-
+highshelf
+highshelf
+enum-value
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-highshelf
+1
+1
+BiquadFilterType
+-
+highshelf
+highshelf
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-highshelf
+1
+1
+BiquadFilterType
+-
+hint
+hint
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint
+1
+1
+html-global/popover
+-
+hint stack parent
+hint stack parent
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#hint-stack-parent
+
+1
 -
 hints
 hints
@@ -2573,6 +2957,102 @@ https://www.w3.org/TR/css-counter-styles-3/#hiragana-iroha
 1
 <counter-style-name>
 -
+histogram-index
+histogram-index
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#save-impression-histogram-index
+
+1
+save-impression
+-
+histogram-index
+histogram-index
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#save-impression-histogram-index
+
+1
+save-impression
+-
+histogram-size
+histogram-size
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#measure-conversion-histogram-size
+
+1
+measure-conversion
+-
+histogram-size
+histogram-size
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-histogram-size
+
+1
+measure-conversion
+-
+histogramIndex
+histogramIndex
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionimpressionoptions-histogramindex
+1
+1
+AttributionImpressionOptions
+-
+histogramIndex
+histogramIndex
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionimpressionoptions-histogramindex
+1
+1
+AttributionImpressionOptions
+-
+histogramSize
+histogramSize
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-histogramsize
+1
+1
+AttributionConversionOptions
+-
+histogramSize
+histogramSize
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-histogramsize
+1
+1
+AttributionConversionOptions
+-
 historical agent cluster key map
 historical agent cluster key map
 dfn
@@ -2591,7 +3071,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-historical-bytes
+https://w3c-cg.github.io/web-nfc/#dfn-historical-bytes
 
 1
 -
@@ -2655,6 +3135,18 @@ https://drafts.csswg.org/css-fonts-4/#dom-cssfontfeaturevaluesrule-historicalfor
 1
 CSSFontFeatureValuesRule
 -
+historicalForms
+historicalForms
+attribute
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#dom-cssfontfeaturevaluesrule-historicalforms
+1
+1
+CSSFontFeatureValuesRule
+-
 history
 history
 attribute
@@ -2711,6 +3203,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#document-state-history-policy-container
 
 1
+document state
 -
 history-action activation-consuming api
 history-action activation-consuming API
@@ -2758,29 +3251,16 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#uhus-historyhandlin
 
 1
 -
-hit global limit
-hit global limit
+hit test
+hit test
 dfn
-attribution-reporting-api
-attribution-reporting-api
-1
+pointerevents4
+pointerevents
+4
 current
-https://wicg.github.io/attribution-reporting-api/#destination-rate-limit-result-hit-global-limit
+https://w3c.github.io/pointerevents/#dfn-hit-test
 
 1
-destination rate-limit result
--
-hit reporting limit
-hit reporting limit
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#destination-rate-limit-result-hit-reporting-limit
-
-1
-destination rate-limit result
 -
 hit test
 hit test
@@ -2789,20 +3269,9 @@ pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-hit-test
+https://www.w3.org/TR/pointerevents3/#dfn-hit-test
 
 
--
-hit test
-hit test
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#hit-test
-
-1
 -
 hit test
 hit test
@@ -2818,11 +3287,11 @@ https://www.w3.org/TR/pointerevents3/#dfn-hit-test
 hit test
 hit test
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#hit-test
+https://www.w3.org/TR/pointerevents4/#dfn-hit-test
 
 1
 -
@@ -2866,7 +3335,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/interact.html#TermHitTesting
+https://w3c.github.io/svgwg/svg2-draft/interact.html#TermHitTesting
 1
 1
 -
@@ -2880,6 +3349,17 @@ snapshot
 https://www.w3.org/TR/SVG2/interact.html#TermHitTesting
 1
 1
+-
+hit-testing
+hit-testing
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#hit-testing
+
+
 -
 hitTestSource
 hitTestSource

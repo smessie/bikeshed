@@ -1,3 +1,27 @@
+"snorm16"
+"snorm16"
+enum-value
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpuvertexformat-snorm16
+1
+1
+GPUVertexFormat
+-
+"snorm16"
+"snorm16"
+enum-value
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpuvertexformat-snorm16
+1
+1
+GPUVertexFormat
+-
 "snorm16x2"
 "snorm16x2"
 enum-value
@@ -42,6 +66,30 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#dom-gpuvertexformat-snorm16x4
+1
+1
+GPUVertexFormat
+-
+"snorm8"
+"snorm8"
+enum-value
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpuvertexformat-snorm8
+1
+1
+GPUVertexFormat
+-
+"snorm8"
+"snorm8"
+enum-value
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpuvertexformat-snorm8
 1
 1
 GPUVertexFormat
@@ -371,7 +419,7 @@ css-values-4
 css-values
 4
 current
-https://drafts.csswg.org/css-values-4/#snap-a-length-as-a-border-width
+https://drafts.csswg.org/css-values-4/#snap-as-a-line-width
 1
 1
 -
@@ -383,6 +431,17 @@ css-values
 4
 snapshot
 https://www.w3.org/TR/css-values-4/#snap-a-length-as-a-border-width
+1
+1
+-
+snap a length as a line width
+snap a length as a line width
+dfn
+css-values-4
+css-values
+4
+current
+https://drafts.csswg.org/css-values-4/#snap-as-a-line-width
 1
 1
 -
@@ -393,7 +452,7 @@ css-values-4
 css-values
 4
 current
-https://drafts.csswg.org/css-values-4/#snap-a-length-as-a-border-width
+https://drafts.csswg.org/css-values-4/#snap-as-a-line-width
 1
 1
 -
@@ -405,6 +464,17 @@ css-values
 4
 snapshot
 https://www.w3.org/TR/css-values-4/#snap-a-length-as-a-border-width
+1
+1
+-
+snap as a line width
+snap as a line width
+dfn
+css-values-4
+css-values
+4
+current
+https://drafts.csswg.org/css-values-4/#snap-as-a-line-width
 1
 1
 -
@@ -658,6 +728,42 @@ https://drafts.csswg.org/css-conditional-5/#descdef-container-snapped
 1
 @container
 -
+snapped
+snapped
+descriptor
+css-conditional-5
+css-conditional
+5
+snapshot
+https://www.w3.org/TR/css-conditional-5/#descdef-container-snapped
+1
+1
+@container
+-
+snapshot automatic beacon store
+snapshot automatic beacon store
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#fencedframetype-snapshot-automatic-beacon-store
+
+1
+fencedframetype
+-
+snapshot automatic beacon store
+snapshot automatic beacon store
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#source-snapshot-params-snapshot-automatic-beacon-store
+
+1
+source snapshot params
+-
 snapshot containing block
 snapshot containing block
 dfn
@@ -666,6 +772,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#snapshot-containing-block
+
+1
+-
+snapshot containing block
+snapshot containing block
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#snapshot-containing-block
 
 1
 -
@@ -694,6 +811,17 @@ https://drafts.csswg.org/css-view-transitions-1/#snapshot-containing-block-origi
 snapshot containing block origin
 snapshot containing block origin
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#snapshot-containing-block-origin
+
+1
+-
+snapshot containing block origin
+snapshot containing block origin
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -710,6 +838,17 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#snapshot-containing-block-size
+
+1
+-
+snapshot containing block size
+snapshot containing block size
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#snapshot-containing-block-size
 
 1
 -
@@ -770,6 +909,17 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#snapshotting-target
 
 1
 -
+snapshot the automatic beacon data mapping
+snapshot the automatic beacon data mapping
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#snapshot-the-automatic-beacon-data-mapping
+
+1
+-
 snapshot the lock state
 snapshot the lock state
 dfn
@@ -815,17 +965,6 @@ https://dom.spec.whatwg.org/#dom-xpathresult-snapshotlength
 1
 1
 XPathResult
--
-snapshotted scroll offset
-snapshotted scroll offset
-dfn
-css-anchor-position-1
-css-anchor-position
-1
-snapshot
-https://www.w3.org/TR/css-anchor-position-1/#snapshotted-scroll-offset
-
-1
 -
 sniff-scriptable flag
 sniff-scriptable flag

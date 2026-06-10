@@ -34,6 +34,54 @@ https://www.w3.org/TR/webgpu/#dom-gpucullmode-back
 1
 GPUCullMode
 -
+"back_forward"
+"back_forward"
+enum-value
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#dom-navigationtimingtype-back_forward
+1
+1
+NavigationTimingType
+-
+"back_forward"
+"back_forward"
+enum-value
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#dom-navigationtimingtype-back_forward
+1
+1
+NavigationTimingType
+-
+"background"
+"background"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcreateparameters-background
+
+1
+browsingContext.CreateParameters
+-
+"background"
+"background"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-background
+
+1
+browsingContext.PrintParameters
+-
 "background"
 "background"
 enum-value
@@ -45,6 +93,30 @@ https://wicg.github.io/scheduling-apis/#dom-taskpriority-background
 1
 1
 TaskPriority
+-
+"background"
+"background"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcreateparameters-background
+
+1
+browsingContext.CreateParameters
+-
+"background"
+"background"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-background
+
+1
+browsingContext.PrintParameters
 -
 "backward"
 "backward"
@@ -119,18 +191,6 @@ https://www.w3.org/TR/web-animations-2/#dom-fillmode-backwards
 1
 FillMode
 -
-"bad-grammar"
-"bad-grammar"
-enum-value
-speech-api
-speech-api
-1
-current
-https://wicg.github.io/speech-api/#dom-speechrecognitionerrorcode-bad-grammar
-1
-1
-SpeechRecognitionErrorCode
--
 "bad-status"
 "bad-status"
 enum-value
@@ -146,7 +206,7 @@ BackgroundFetchFailureReason
 "balanced"
 "balanced"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -158,11 +218,35 @@ AudioContextLatencyCategory
 "balanced"
 "balanced"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontextlatencycategory-balanced
+1
+1
+AudioContextLatencyCategory
+-
+"balanced"
+"balanced"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontextlatencycategory-balanced
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontextlatencycategory-balanced
+1
+1
+AudioContextLatencyCategory
+-
+"balanced"
+"balanced"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontextlatencycategory-balanced
 1
 1
 AudioContextLatencyCategory
@@ -170,7 +254,7 @@ AudioContextLatencyCategory
 "bandpass"
 "bandpass"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -182,14 +266,86 @@ BiquadFilterType
 "bandpass"
 "bandpass"
 enum-value
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-bandpass
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-bandpass
 1
 1
 BiquadFilterType
+-
+"bandpass"
+"bandpass"
+enum-value
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-bandpass
+1
+1
+BiquadFilterType
+-
+"bandpass"
+"bandpass"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-bandpass
+1
+1
+BiquadFilterType
+-
+"base64"
+"base64"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkbase64value-type-base64
+
+1
+network.Base64Value/type
+-
+"base64"
+"base64"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-webextensionextensionbase64encoded-type-base64
+
+1
+webExtension.ExtensionBase64Encoded/type
+-
+"base64"
+"base64"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkbase64value-type-base64
+
+1
+network.Base64Value/type
+-
+"base64"
+"base64"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-webextensionextensionbase64encoded-type-base64
+
+1
+webExtension.ExtensionBase64Encoded/type
 -
 "basic"
 "basic"
@@ -211,6 +367,17 @@ css-position
 4
 current
 https://drafts.csswg.org/css-position-4/#selectordef-backdrop
+1
+1
+-
+::backdrop
+::backdrop
+selector
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#selectordef-backdrop
 1
 1
 -
@@ -255,6 +422,28 @@ css-syntax
 3
 snapshot
 https://www.w3.org/TR/css-syntax-3/#typedef-bad-url-token
+1
+1
+-
+<base-descriptor>
+<base-descriptor>
+type
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#typedef-base-descriptor
+1
+1
+-
+<baseline-metric>
+<baseline-metric>
+type
+css-inline-3
+css-inline
+3
+current
+https://drafts.csswg.org/css-inline-3/#typedef-baseline-metric
 1
 1
 -
@@ -377,7 +566,7 @@ filter-effects-2
 filter-effects
 2
 current
-https://drafts.fxtf.org/filter-effects-2/#backdrop-root
+https://drafts.csswg.org/filter-effects-2/#backdrop-root
 1
 1
 -
@@ -388,7 +577,7 @@ filter-effects-2
 filter-effects
 2
 current
-https://drafts.fxtf.org/filter-effects-2/#backdrop-root-image
+https://drafts.csswg.org/filter-effects-2/#backdrop-root-image
 
 1
 -
@@ -480,7 +669,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-in-backgroundalpha
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-in-backgroundalpha
 1
 1
 in
@@ -650,7 +839,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-in-backgroundimage
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-in-backgroundimage
 1
 1
 in
@@ -689,8 +878,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-backreference-matcher
 1
 1
 -
-BackreferenceMatcher(rer, n, direction)
-BackreferenceMatcher(rer, n, direction)
+BackreferenceMatcher(regexpRecord, ns, direction)
+BackreferenceMatcher(regexpRecord, ns, direction)
 abstract-op
 ecmascript
 ecmascript
@@ -834,6 +1023,28 @@ https://wicg.github.io/shape-detection-api/#enumdef-barcodeformat
 1
 1
 -
+base uri
+Base URI
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-base-uri
+
+
+-
+base uri
+Base URI
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-base-uri
+
+
+-
 base direction
 base direction
 dfn
@@ -856,14 +1067,25 @@ https://www.w3.org/TR/i18n-glossary/#dfn-base-direction
 1
 
 -
-base64 vlq
-Base64 VLQ
+base graph
+base graph
 dfn
-sourcemap
-sourcemap
+shacl12-rules
+shacl-rules
 1
 current
-https://tc39.es/source-map/#base64-vlq
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-base-graph
+
+1
+-
+base graph
+base graph
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-base-graph
 
 1
 -
@@ -914,7 +1136,7 @@ https://www.w3.org/TR/webauthn-3/#base64url-encoding
 BaseAudioContext
 BaseAudioContext
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -925,11 +1147,33 @@ https://webaudio.github.io/web-audio-api/#BaseAudioContext
 BaseAudioContext
 BaseAudioContext
 interface
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#BaseAudioContext
+1
+1
+-
+BaseAudioContext
+BaseAudioContext
+interface
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#baseaudiocontext
+https://www.w3.org/TR/webaudio-1.0/#baseaudiocontext
+1
+1
+-
+BaseAudioContext
+BaseAudioContext
+interface
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#BaseAudioContext
 1
 1
 -
@@ -1098,6 +1342,28 @@ https://www.w3.org/TR/i18n-glossary/#dfn-basic-multilingual-plane
 1
 
 -
+basic conformance
+basic conformance
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-basic
+1
+1
+-
+basic conformance
+basic conformance
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-basic
+1
+1
+-
 basic language range
 basic language range
 dfn
@@ -1139,17 +1405,6 @@ service-workers
 1
 snapshot
 https://www.w3.org/TR/service-workers/#batch-cache-operations
-
-1
--
-batching scope
-batching scope
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#batching-scope
 
 1
 -
@@ -1355,24 +1610,24 @@ https://www.w3.org/TR/webgpu/#back-facing
 -
 back_forward
 back_forward
-enum-value
+dfn
 navigation-timing-2
 navigation-timing
 2
 current
-https://w3c.github.io/navigation-timing/#dom-navigationtimingtype-back_forward
+https://w3c.github.io/navigation-timing/#navigationtimingtype-back_forward
 1
 1
 NavigationTimingType
 -
 back_forward
 back_forward
-enum-value
+dfn
 navigation-timing-2
 navigation-timing
 2
 snapshot
-https://www.w3.org/TR/navigation-timing-2/#dom-navigationtimingtype-back_forward
+https://www.w3.org/TR/navigation-timing-2/#navigationtimingtype-back_forward
 1
 1
 NavigationTimingType
@@ -1384,7 +1639,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#backdrop
+https://drafts.csswg.org/compositing-1/#backdrop
 1
 1
 -
@@ -1395,7 +1650,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#backdrop
+https://drafts.csswg.org/compositing-2/#backdrop
 1
 1
 -
@@ -1417,7 +1672,7 @@ filter-effects-2
 filter-effects
 2
 current
-https://drafts.fxtf.org/filter-effects-2/#propdef-backdrop-filter
+https://drafts.csswg.org/filter-effects-2/#propdef-backdrop-filter
 1
 1
 -
@@ -1457,9 +1712,20 @@ https://drafts.csswg.org/css-backgrounds-3/#propdef-background
 background
 background
 property
-css22
-css
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#propdef-background
 1
+1
+-
+background
+background
+property
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#propdef-background
 1
@@ -1501,6 +1767,30 @@ https://w3c.github.io/webcodecs/#background-codec
 -
 background
 background
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcreateparameters-background
+
+1
+browsingContext.CreateParameters
+-
+background
+background
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-background
+
+1
+browsingContext.PrintParameters
+-
+background
+background
 enum-value
 scheduling-apis
 scheduling-apis
@@ -1516,31 +1806,9 @@ background
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/colors.html#propdef-background
-1
-1
--
-background
-background
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/colors.html#propdef-background
-1
-1
--
-background
-background
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/colors.html#propdef-background
+https://www.w3.org/TR/CSS2/colors.html#propdef-background
 1
 1
 -
@@ -1557,6 +1825,17 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background
 -
 background
 background
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background
+1
+1
+-
+background
+background
 dfn
 webcodecs
 webcodecs
@@ -1565,6 +1844,30 @@ snapshot
 https://www.w3.org/TR/webcodecs/#background-codec
 
 1
+-
+background
+background
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcreateparameters-background
+
+1
+browsingContext.CreateParameters
+-
+background
+background
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-background
+
+1
+browsingContext.PrintParameters
 -
 background codec
 background codec
@@ -1602,12 +1905,34 @@ https://drafts.csswg.org/css-backgrounds-3/#background-color-layer
 background color
 background color
 dfn
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#background-color-layer
+1
+1
+-
+background color
+background color
+dfn
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#background-color-layer
 
+1
+-
+background color
+background color
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#background-color-layer
+1
 1
 -
 background fetch
@@ -1704,12 +2029,34 @@ https://drafts.csswg.org/css-backgrounds-3/#background-images
 background image
 background image
 dfn
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#background-images
+1
+1
+-
+background image
+background image
+dfn
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#background-images
 
+1
+-
+background image
+background image
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#background-images
+1
 1
 -
 background image layer
@@ -1726,12 +2073,34 @@ https://drafts.csswg.org/css-backgrounds-3/#background-image-layer
 background image layer
 background image layer
 dfn
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#background-image-layer
+1
+1
+-
+background image layer
+background image layer
+dfn
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#background-image-layer
 
+1
+-
+background image layer
+background image layer
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#background-image-layer
+1
 1
 -
 background painting area
@@ -1767,6 +2136,17 @@ https://www.w3.org/TR/css-backgrounds-3/#background-painting-area
 
 1
 -
+background painting area
+background painting area
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#background-painting-area
+1
+1
+-
 background positioning area
 background positioning area
 dfn
@@ -1781,12 +2161,34 @@ https://drafts.csswg.org/css-backgrounds-3/#background-positioning-area
 background positioning area
 background positioning area
 dfn
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#background-positioning-area
+1
+1
+-
+background positioning area
+background positioning area
+dfn
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#background-positioning-area
 
+1
+-
+background positioning area
+background positioning area
+dfn
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#background-positioning-area
+1
 1
 -
 background suitability
@@ -1836,9 +2238,20 @@ https://drafts.csswg.org/css-backgrounds-3/#propdef-background-attachment
 background-attachment
 background-attachment
 property
-css22
-css
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#propdef-background-attachment
 1
+1
+-
+background-attachment
+background-attachment
+property
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#propdef-background-attachment
 1
@@ -1849,31 +2262,9 @@ background-attachment
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-attachment
-1
-1
--
-background-attachment
-background-attachment
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-attachment
-1
-1
--
-background-attachment
-background-attachment
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/colors.html#propdef-background-attachment
+https://www.w3.org/TR/CSS2/colors.html#propdef-background-attachment
 1
 1
 -
@@ -1888,6 +2279,17 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-attachment
 1
 1
 -
+background-attachment
+background-attachment
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-attachment
+1
+1
+-
 background-blend-mode
 background-blend-mode
 property
@@ -1895,7 +2297,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#propdef-background-blend-mode
+https://drafts.csswg.org/compositing-1/#propdef-background-blend-mode
 1
 1
 -
@@ -1906,7 +2308,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#propdef-background-blend-mode
+https://drafts.csswg.org/compositing-2/#propdef-background-blend-mode
 1
 1
 -
@@ -1954,6 +2356,17 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-clip
 1
 1
 -
+background-clip
+background-clip
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-clip
+1
+1
+-
 background-color
 background-color
 property
@@ -1968,9 +2381,20 @@ https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color
 background-color
 background-color
 property
-css22
-css
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#propdef-background-color
 1
+1
+-
+background-color
+background-color
+property
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#propdef-background-color
 1
@@ -1981,31 +2405,9 @@ background-color
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-color
-1
-1
--
-background-color
-background-color
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-color
-1
-1
--
-background-color
-background-color
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/colors.html#propdef-background-color
+https://www.w3.org/TR/CSS2/colors.html#propdef-background-color
 1
 1
 -
@@ -2017,6 +2419,17 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#propdef-background-color
+1
+1
+-
+background-color
+background-color
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-color
 1
 1
 -
@@ -2034,9 +2447,20 @@ https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image
 background-image
 background-image
 property
-css22
-css
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#propdef-background-image
 1
+1
+-
+background-image
+background-image
+property
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#propdef-background-image
 1
@@ -2047,31 +2471,9 @@ background-image
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-image
-1
-1
--
-background-image
-background-image
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-image
-1
-1
--
-background-image
-background-image
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/colors.html#propdef-background-image
+https://www.w3.org/TR/CSS2/colors.html#propdef-background-image
 1
 1
 -
@@ -2083,6 +2485,17 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#propdef-background-image
+1
+1
+-
+background-image
+background-image
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-image
 1
 1
 -
@@ -2100,11 +2513,33 @@ https://drafts.csswg.org/css-backgrounds-3/#propdef-background-origin
 background-origin
 background-origin
 property
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#propdef-background-origin
+1
+1
+-
+background-origin
+background-origin
+property
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#propdef-background-origin
+1
+1
+-
+background-origin
+background-origin
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-origin
 1
 1
 -
@@ -2133,9 +2568,9 @@ https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position
 background-position
 background-position
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-background-position
 1
@@ -2146,31 +2581,9 @@ background-position
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-position
-1
-1
--
-background-position
-background-position
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-position
-1
-1
--
-background-position
-background-position
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/colors.html#propdef-background-position
+https://www.w3.org/TR/CSS2/colors.html#propdef-background-position
 1
 1
 -
@@ -2185,6 +2598,17 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-position
 1
 1
 -
+background-position
+background-position
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-position
+1
+1
+-
 background-position-block
 background-position-block
 property
@@ -2193,6 +2617,17 @@ css-backgrounds
 4
 current
 https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-block
+1
+1
+-
+background-position-block
+background-position-block
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-position-block
 1
 1
 -
@@ -2207,6 +2642,17 @@ https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-inline
 1
 1
 -
+background-position-inline
+background-position-inline
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-position-inline
+1
+1
+-
 background-position-x
 background-position-x
 property
@@ -2218,6 +2664,17 @@ https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-x
 1
 1
 -
+background-position-x
+background-position-x
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-position-x
+1
+1
+-
 background-position-y
 background-position-y
 property
@@ -2226,6 +2683,17 @@ css-backgrounds
 4
 current
 https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-y
+1
+1
+-
+background-position-y
+background-position-y
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-position-y
 1
 1
 -
@@ -2254,9 +2722,9 @@ https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat
 background-repeat
 background-repeat
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-background-repeat
 1
@@ -2267,31 +2735,9 @@ background-repeat
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-repeat
-1
-1
--
-background-repeat
-background-repeat
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/colors.html#propdef-background-repeat
-1
-1
--
-background-repeat
-background-repeat
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/colors.html#propdef-background-repeat
+https://www.w3.org/TR/CSS2/colors.html#propdef-background-repeat
 1
 1
 -
@@ -2306,6 +2752,17 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-repeat
 1
 1
 -
+background-repeat
+background-repeat
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-repeat
+1
+1
+-
 background-repeat-block
 background-repeat-block
 property
@@ -2314,6 +2771,17 @@ css-backgrounds
 4
 current
 https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-block
+1
+1
+-
+background-repeat-block
+background-repeat-block
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-repeat-block
 1
 1
 -
@@ -2328,6 +2796,17 @@ https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-inline
 1
 1
 -
+background-repeat-inline
+background-repeat-inline
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-repeat-inline
+1
+1
+-
 background-repeat-x
 background-repeat-x
 property
@@ -2339,6 +2818,17 @@ https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-x
 1
 1
 -
+background-repeat-x
+background-repeat-x
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-repeat-x
+1
+1
+-
 background-repeat-y
 background-repeat-y
 property
@@ -2347,6 +2837,17 @@ css-backgrounds
 4
 current
 https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-y
+1
+1
+-
+background-repeat-y
+background-repeat-y
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-repeat-y
 1
 1
 -
@@ -2364,11 +2865,33 @@ https://drafts.csswg.org/css-backgrounds-3/#propdef-background-size
 background-size
 background-size
 property
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#propdef-background-size
+1
+1
+-
+background-size
+background-size
+property
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#propdef-background-size
+1
+1
+-
+background-size
+background-size
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-size
 1
 1
 -
@@ -2380,6 +2903,17 @@ css-backgrounds
 4
 current
 https://drafts.csswg.org/css-backgrounds-4/#propdef-background-tbd
+1
+1
+-
+background-tbd
+background-tbd
+property
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#propdef-background-tbd
 1
 1
 -
@@ -2511,30 +3045,6 @@ https://www.w3.org/TR/mediacapture-streams/#dom-mediatracksupportedconstraints-b
 1
 1
 MediaTrackSupportedConstraints
--
-backgroundColor
-backgroundColor
-attribute
-edit-context
-edit-context
-1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-textformat-backgroundcolor
-1
-1
-TextFormat
--
-backgroundColor
-backgroundColor
-dict-member
-edit-context
-edit-context
-1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-textformatinit-backgroundcolor
-1
-1
-TextFormatInit
 -
 backgroundFetch
 backgroundFetch
@@ -2690,6 +3200,18 @@ https://wicg.github.io/background-fetch/#eventdef-serviceworkerglobalscope-backg
 1
 ServiceWorkerGlobalScope
 -
+backing buffer id
+backing buffer ID
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportcontext-backing-buffer-id
+
+1
+CrashReportContext
+-
 backing list
 backing list
 dfn
@@ -2773,9 +3295,9 @@ https://streams.spec.whatwg.org/#backpressure
 backslash escapes
 backslash escapes
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#escaped-characters
 
@@ -2786,20 +3308,9 @@ backslash escapes
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/syndata.html#escaped-characters
-1
-1
--
-backslash escapes
-backslash escapes
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/syndata.html#escaped-characters
+https://www.w3.org/TR/CSS2/syndata.html#escaped-characters
 1
 1
 -
@@ -3073,11 +3584,35 @@ notification
 balance
 balance
 value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-flex-wrap-balance
+1
+1
+flex-wrap
+-
+balance
+balance
+value
 css-multicol-1
 css-multicol
 1
 current
 https://drafts.csswg.org/css-multicol-1/#valdef-column-fill-balance
+1
+1
+column-fill
+-
+balance
+balance
+value
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#valdef-column-fill-balance
 1
 1
 column-fill
@@ -3097,11 +3632,35 @@ text-wrap-style
 balance
 balance
 value
+css-grid-3
+css-grid
+3
+snapshot
+https://www.w3.org/TR/css-grid-3/#valdef-item-pack-balance
+1
+1
+item-pack
+-
+balance
+balance
+value
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#valdef-column-fill-balance
+1
+1
+column-fill
+-
+balance
+balance
+value
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#valdef-column-fill-balance
 1
 1
 column-fill
@@ -3118,6 +3677,17 @@ https://www.w3.org/TR/css-text-4/#valdef-text-wrap-style-balance
 1
 text-wrap-style
 -
+balance flex items
+balance flex items
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#balance-flex-items
+
+1
+-
 balance-all
 balance-all
 value
@@ -3133,11 +3703,35 @@ column-fill
 balance-all
 balance-all
 value
+css-multicol-2
+css-multicol
+2
+current
+https://drafts.csswg.org/css-multicol-2/#valdef-column-fill-balance-all
+1
+1
+column-fill
+-
+balance-all
+balance-all
+value
 css-multicol-1
 css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#valdef-column-fill-balance-all
+1
+1
+column-fill
+-
+balance-all
+balance-all
+value
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#valdef-column-fill-balance-all
 1
 1
 column-fill
@@ -3169,7 +3763,19 @@ RTCBundlePolicy
 balanced
 balanced
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontextlatencycategory-balanced
+1
+1
+AudioContextLatencyCategory
+-
+balanced
+balanced
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -3193,11 +3799,23 @@ RTCDegradationPreference
 balanced
 balanced
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontextlatencycategory-balanced
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontextlatencycategory-balanced
+1
+1
+AudioContextLatencyCategory
+-
+balanced
+balanced
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontextlatencycategory-balanced
 1
 1
 AudioContextLatencyCategory
@@ -3214,10 +3832,21 @@ https://www.w3.org/TR/webrtc/#dom-rtcbundlepolicy-balanced
 1
 RTCBundlePolicy
 -
+balanced flex container
+balanced flex container
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#balanced-flex-container
+1
+1
+-
 bandpass
 bandpass
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -3229,11 +3858,35 @@ BiquadFilterType
 bandpass
 bandpass
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-bandpass
+1
+1
+BiquadFilterType
+-
+bandpass
+bandpass
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-bandpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-bandpass
+1
+1
+BiquadFilterType
+-
+bandpass
+bandpass
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-bandpass
 1
 1
 BiquadFilterType
@@ -3362,6 +4015,18 @@ RasterizationPoint
 -
 base
 base
+value
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#valdef-appearance-base
+1
+1
+appearance
+-
+base
+base
 dfn
 css-ruby-1
 css-ruby
@@ -3473,6 +4138,18 @@ decomposition
 -
 base
 base
+value
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#valdef-appearance-base
+1
+1
+appearance
+-
+base
+base
 dfn
 css-ruby-1
 css-ruby
@@ -3481,6 +4158,18 @@ snapshot
 https://www.w3.org/TR/css-ruby-1/#ruby-base-box
 1
 1
+-
+base
+base
+value
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#valdef-appearance-base
+1
+1
+appearance
 -
 base
 base
@@ -3526,6 +4215,7 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-options-base-url
 
 1
+link processing options
 -
 base url
 base URL
@@ -3594,17 +4284,6 @@ https://www.w3.org/TR/pub-manifest/#dfn-base-url
 
 1
 -
-base url change steps
-base URL change steps
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/infrastructure.html#base-url-change-steps
-
-1
--
 base appearance
 base appearance
 dfn
@@ -3613,6 +4292,17 @@ css-ui
 4
 current
 https://drafts.csswg.org/css-ui-4/#base-appearance
+1
+1
+-
+base appearance
+base appearance
+dfn
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#base-appearance
 1
 1
 -
@@ -3641,17 +4331,6 @@ https://www.w3.org/TR/css-ruby-1/#ruby-base-box
 base direction
 base direction
 dfn
-json-ld11
-json-ld
-1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-base-direction
-
-
--
-base direction
-base direction
-dfn
 pub-manifest
 pub-manifest
 1
@@ -3668,7 +4347,7 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-base-direction
-
+1
 1
 -
 base direction
@@ -3701,6 +4380,28 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-base-direction
+1
+1
+-
+base identifier
+base identifier
+dfn
+cid-1.0
+cid
+1
+current
+https://w3c.github.io/cid/#dfn-base-identifier
+
+1
+-
+base identifier
+base identifier
+dfn
+cid-1.0
+cid
+1
+snapshot
+https://www.w3.org/TR/cid-1.0/#dfn-base-identifier
 
 1
 -
@@ -3816,18 +4517,6 @@ https://www.w3.org/TR/css-typed-om-1/#cssnumericvalue-base-type
 1
 CSSNumericValue
 -
-base url
-base url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#trusted-scoring-signals-request-base-url
-
-1
-trusted scoring signals request
--
 base-palette
 base-palette
 descriptor
@@ -3852,6 +4541,30 @@ https://www.w3.org/TR/css-fonts-4/#descdef-font-palette-values-base-palette
 1
 @font-palette-values
 -
+base-select
+base-select
+value
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#valdef-appearance-base-select
+1
+1
+appearance
+-
+base-select
+base-select
+value
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#valdef-appearance-base-select
+1
+1
+appearance
+-
 base-uri
 base-uri
 dfn
@@ -3874,12 +4587,71 @@ https://www.w3.org/TR/CSP3/#base-uri
 1
 1
 -
+base64
+base64
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkbase64value-type-base64
+
+1
+network.Base64Value/type
+-
+base64
+base64
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-webextensionextensionbase64encoded-type-base64
+
+1
+webExtension.ExtensionBase64Encoded/type
+-
+base64
+base64
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkbase64value-type-base64
+
+1
+network.Base64Value/type
+-
+base64
+base64
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-webextensionextensionbase64encoded-type-base64
+
+1
+webExtension.ExtensionBase64Encoded/type
+-
+base64 vlq
+base64 VLQ
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#sec-base64-vlq
+1
+1
+-
 base64 encoding
 base64 encoding
 dfn
+sri-2
 sri
-sri
-1
+2
 current
 https://w3c.github.io/webappsec-subresource-integrity/#base64-encoding
 
@@ -3888,11 +4660,11 @@ https://w3c.github.io/webappsec-subresource-integrity/#base64-encoding
 base64 encoding
 base64 encoding
 dfn
+sri-2
 sri
-sri
-1
+2
 snapshot
-https://www.w3.org/TR/SRI/#dfn-base64-encoding
+https://www.w3.org/TR/sri-2/#base64-encoding
 
 1
 -
@@ -3973,7 +4745,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feturbulence-basefrequency
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feturbulence-basefrequency
 1
 1
 feTurbulence
@@ -3997,7 +4769,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeturbulenceelement-basefrequencyx
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeturbulenceelement-basefrequencyx
 1
 1
 SVGFETurbulenceElement
@@ -4021,7 +4793,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeturbulenceelement-basefrequencyy
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeturbulenceelement-basefrequencyy
 1
 1
 SVGFETurbulenceElement
@@ -4041,7 +4813,7 @@ SVGFETurbulenceElement
 baseLatency
 baseLatency
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4053,11 +4825,35 @@ AudioContext
 baseLatency
 baseLatency
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiocontext-baselatency
+1
+1
+AudioContext
+-
+baseLatency
+baseLatency
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiocontext-baselatency
+https://www.w3.org/TR/webaudio-1.0/#dom-audiocontext-baselatency
+1
+1
+AudioContext
+-
+baseLatency
+baseLatency
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiocontext-baselatency
 1
 1
 AudioContext
@@ -4352,7 +5148,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal
 1
 1
 SVGAnimatedPreserveAspectRatio
@@ -4364,7 +5160,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__baseVal
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__baseVal
 1
 1
 SVGAnimatedTransformList
@@ -4376,7 +5172,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedAngle__baseVal
 1
 1
 SVGAnimatedAngle
@@ -4388,7 +5184,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedBoolean__baseVal
 1
 1
 SVGAnimatedBoolean
@@ -4400,7 +5196,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__baseVal
 1
 1
 SVGAnimatedEnumeration
@@ -4412,7 +5208,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedInteger__baseVal
 1
 1
 SVGAnimatedInteger
@@ -4424,7 +5220,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLengthList__baseVal
 1
 1
 SVGAnimatedLengthList
@@ -4436,7 +5232,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedLength__baseVal
 1
 1
 SVGAnimatedLength
@@ -4448,7 +5244,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumberList__baseVal
 1
 1
 SVGAnimatedNumberList
@@ -4460,7 +5256,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedNumber__baseVal
 1
 1
 SVGAnimatedNumber
@@ -4472,7 +5268,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedRect__baseVal
 1
 1
 SVGAnimatedRect
@@ -4484,7 +5280,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__baseVal
+https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGAnimatedString__baseVal
 1
 1
 SVGAnimatedString
@@ -4633,18 +5429,6 @@ https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedString__baseVal
 1
 SVGAnimatedString
 -
-baseValue
-baseValue
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-pasignalvalue-basevalue
-1
-1
-PASignalValue
--
 baseVertex
 baseVertex
 argument
@@ -4672,11 +5456,11 @@ GPURenderCommandsMixin/drawIndexed(indexCount, instanceCount, firstIndex, baseVe
 baseaudiocontext
 baseaudiocontext
 interface
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#BaseAudioContext
+https://www.w3.org/TR/webaudio-1.0/#BaseAudioContext
 1
 1
 -
@@ -4723,6 +5507,19 @@ align-self
 -
 baseline
 baseline
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-items-baseline
+1
+1
+align-items
+align-self
+-
+baseline
+baseline
 dfn
 css-inline-3
 css-inline
@@ -4743,7 +5540,6 @@ https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline
 1
 1
 alignment-baseline
-vertical-align
 -
 baseline
 baseline
@@ -4806,9 +5602,9 @@ https://drafts.csswg.org/css-writing-modes-4/#baseline
 baseline
 baseline
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-vertical-align-baseline
 1
@@ -4822,7 +5618,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermBaseline
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermBaseline
 1
 1
 -
@@ -5033,7 +5829,7 @@ css-tables
 3
 current
 https://drafts.csswg.org/css-tables-3/#table-root-baseline
-
+1
 1
 -
 baseline of a table-root
@@ -5044,7 +5840,7 @@ css-tables
 3
 snapshot
 https://www.w3.org/TR/css-tables-3/#table-root-baseline
-
+1
 1
 -
 baseline of the row
@@ -5296,7 +6092,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermBaselineTable
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermBaselineTable
 1
 1
 -
@@ -5323,6 +6119,28 @@ https://drafts.css-houdini.org/font-metrics-api-1/#dom-fontmetrics-baselines
 1
 FontMetrics
 -
+basic rdf terms
+basic RDF terms
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-basic-rdf-term
+
+1
+-
+basic rdf terms
+basic RDF terms
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-basic-rdf-term
+
+1
+-
 basic url parser
 basic URL parser
 dfn
@@ -5332,6 +6150,28 @@ url
 current
 https://url.spec.whatwg.org/#concept-basic-url-parser
 1
+1
+-
+basic appearance
+basic appearance
+dfn
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#basic-appearance
+
+1
+-
+basic appearance
+basic appearance
+dfn
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#basic-appearance
+
 1
 -
 basic filtered response
@@ -5413,6 +6253,28 @@ https://www.w3.org/TR/window-management/#screen-basic-observable-properties
 1
 screen
 -
+basic rdf term
+basic rdf term
+dfn
+rdf12-concepts
+rdf-concepts
+1
+current
+https://w3c.github.io/rdf-concepts/spec/#dfn-basic-rdf-term
+
+1
+-
+basic rdf term
+basic rdf term
+dfn
+rdf12-concepts
+rdf-concepts
+1
+snapshot
+https://www.w3.org/TR/rdf12-concepts/#dfn-basic-rdf-term
+
+1
+-
 basic shape
 basic shape
 dfn
@@ -5420,7 +6282,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/shapes.html#basic-shape
+https://w3c.github.io/svgwg/svg2-draft/shapes.html#basic-shape
 1
 1
 -
@@ -5433,17 +6295,6 @@ svg
 snapshot
 https://www.w3.org/TR/SVG2/shapes.html#basic-shape
 1
-1
--
-batch and fetch trusted scoring signals
-batch and fetch trusted scoring signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#batch-and-fetch-trusted-scoring-signals
-
 1
 -
 batch attestation
@@ -5465,17 +6316,6 @@ webauthn
 3
 snapshot
 https://www.w3.org/TR/webauthn-3/#batch-attestation
-
-1
--
-batch or fetch trusted bidding signals
-batch or fetch trusted bidding signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#batch-or-fetch-trusted-bidding-signals
 
 1
 -
@@ -5550,42 +6390,6 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-batchnormalization
 1
 1
 MLGraphBuilder
--
-batching scope
-batching scope
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#contribution-cache-entry-batching-scope
-
-1
-contribution cache entry
--
-batching scope
-batching scope
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#on-event-contribution-cache-entry-batching-scope
-
-1
-on event contribution cache entry
--
-batching scope map
-batching scope map
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#auction-config-batching-scope-map
-
-1
-auction config
 -
 battery status task source
 battery status task source

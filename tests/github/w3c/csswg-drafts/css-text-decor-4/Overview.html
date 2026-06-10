@@ -1311,7 +1311,7 @@ Module Interactions</span><a class="self-link" href="#placement"></a></h3>
    <p>This module replaces and extends the text-decorating
 	features defined in <a data-link-type="biblio" href="#biblio-css-text-decor-3" title="CSS Text Decoration Module Level 3">[CSS-TEXT-DECOR-3]</a>.</p>
    <p>All of the properties in this module
-	can be applied to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line" id="ref-for-selectordef-first-line">::first-line</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter" id="ref-for-selectordef-first-letter">::first-letter</a> <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/selector.html#x22" id="ref-for-x22">pseudo-elements</a>.</p>
+	can be applied to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line" id="ref-for-selectordef-first-line">::first-line</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter" id="ref-for-selectordef-first-letter">::first-letter</a> <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element">pseudo-elements</a>.</p>
    <h3 class="heading settled" data-level="1.2" id="values"><span class="secno">1.2. </span><span class="content">
 Value Definitions</span><a class="self-link" href="#values"></a></h3>
    <p>This specification follows the <a href="https://www.w3.org/TR/CSS2/about.html#property-defs">CSS property definition conventions</a> from <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
@@ -1525,7 +1525,7 @@ Text Decoration Lines: the <a class="css property" data-link-type="property" hre
 	the UA <em>may</em> disregard
 	the other <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#longhand" id="ref-for-longhand②">sub-properties</a> of <a class="css property" data-link-type="property" href="#propdef-text-decoration" id="ref-for-propdef-text-decoration②">text-decoration</a>,
 	as well any other properties typically affecting the appearance of line decorations
-	(such as <a class="css property" data-link-type="property" href="#propdef-text-underline-position" id="ref-for-propdef-text-underline-position①">text-underline-position</a>, <u class="link-error property" data-lt="color" title="LINK ERROR: No &apos;property&apos; refs found for &apos;color&apos; with spec &apos;css-color-3&apos;.">color</u>, <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke">stroke</a>, or <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill">fill</a>)
+	(such as <a class="css property" data-link-type="property" href="#propdef-text-underline-position" id="ref-for-propdef-text-underline-position①">text-underline-position</a>, <u class="link-error property" data-lt="color" title="LINK ERROR: No &apos;property&apos; refs found for &apos;color&apos; with spec &apos;css-color-3&apos;.">color</u>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke">stroke</a>, or <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill">fill</a>)
 	when rendering these decorations.
 	However,
 	to the extent that honoring any of these properties
@@ -1729,7 +1729,7 @@ Determining the Position and Thickness of Line Decorations</span><a class="self-
 			The alphabetic underline position is calculated by taking
 			the ideal offset (from the alphabetic baseline) of each run of <a data-link-type="dfn" href="#considered-text" id="ref-for-considered-text②">considered text</a>,
 			averaging those, and then using the lowest alphabetic baseline to actually position the line.
-			(Alphabetic baselines can differ between <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline" id="ref-for-valdef-alignment-baseline-baseline">baseline</a>-aligned boxes
+			(Alphabetic baselines can differ between <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-vertical-align-baseline" id="ref-for-valdef-vertical-align-baseline">baseline</a>-aligned boxes
 			 if the dominant baseline is non-alphabetic.)
 			To prevent superscripts and subscripts from throwing this position off-kilter,
 			an inline with a non-initial computed <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-inline-3/#propdef-vertical-align" id="ref-for-propdef-vertical-align">vertical-align</a>
@@ -2218,7 +2218,7 @@ Text Decoration Line Uniformity</span><a class="self-link" href="#text-line-cons
    </div>
    <p>UAs <em>must</em> adjust line positions
 	to match the shifted metrics of <i>decorating boxes</i> shifted
-	with <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-inline-3/#propdef-vertical-align" id="ref-for-propdef-vertical-align②">vertical-align</a> values other than <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline" id="ref-for-valdef-alignment-baseline-baseline①">baseline</a> <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
+	with <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-inline-3/#propdef-vertical-align" id="ref-for-propdef-vertical-align②">vertical-align</a> values other than <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-vertical-align-baseline" id="ref-for-valdef-vertical-align-baseline①">baseline</a> <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
 	or subscripted/superscripted via <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-position" id="ref-for-propdef-font-variant-position">font-variant-position</a> <a data-link-type="biblio" href="#biblio-css-fonts-3" title="CSS Fonts Module Level 3">[CSS-FONTS-3]</a>,
 	but <em>must not</em> adjust the line position or thickness
 	in response to descendants of a <i>decorating box</i> that are so styled
@@ -2849,8 +2849,7 @@ Emphasis Mark Style: the <a class="css property" data-link-type="property" href=
     <li>
      Punctuation--specifically,
 			any <a data-link-type="dfn" href="#character" id="ref-for-character①">characters</a> that belong to the
-			Unicode P* <u class="link-error" data-lt="general category" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;general category&apos; that are marked for export.
-  (Possible specs this could be from: i18n-glossary)">general category</u> and
+			Unicode P* <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#unicode-general-category" id="ref-for-unicode-general-category">general category</a> and
 			do not <code>NFKD</code> normalize <a data-link-type="biblio" href="#biblio-uax15" title="Unicode Normalization Forms">[UAX15]</a> to
 			any of the following symbols:
 			
@@ -3230,8 +3229,7 @@ Emphasis Mark Skip: the <a class="css property" data-link-type="property" href="
      Skip symbols.
 			Symbols in this definition includes
 			all <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#typographic-character-unit" id="ref-for-typographic-character-unit③">typographic character units</a> belonging to
-			the Unicode S* <u class="link-error" data-lt="general category" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;general category&apos; that are marked for export.
-  (Possible specs this could be from: i18n-glossary)">general category</u>
+			the Unicode S* <a data-link-type="dfn" href="https://drafts.csswg.org/css-text-4/#unicode-general-category" id="ref-for-unicode-general-category①">general category</a>
 			as well as any which are <code>NFKD</code>-equivalent <a data-link-type="biblio" href="#biblio-uax15" title="Unicode Normalization Forms">[UAX15]</a>
 			to the following <a data-link-type="dfn" href="#character" id="ref-for-character③">characters</a> from the Unicode Po category:
 
@@ -3882,7 +3880,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-INLINE-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="9aae076b">baseline</span>
      <li><span class="dfn-paneled" id="e0b6ed58">vertical-align</span>
     </ul>
    <li>
@@ -3918,6 +3915,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <a data-link-type="biblio">[CSS-TEXT-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="5879b11d">content language</span>
+     <li><span class="dfn-paneled" id="4cb2f73c">General Category</span>
      <li><span class="dfn-paneled" id="cacc0af2">letter-spacing</span>
      <li><span class="dfn-paneled" id="237b3136">typographic character unit</span>
      <li><span class="dfn-paneled" id="16b27b2a">typographic letter unit</span>
@@ -3949,13 +3947,18 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="2161cf2b">pseudo-elements</span>
+     <li><span class="dfn-paneled" id="4f622e85">baseline</span>
     </ul>
    <li>
     <a data-link-type="biblio">[FILL-STROKE-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="890a8358">fill</span>
-     <li><span class="dfn-paneled" id="de9e224f">stroke</span>
+     <li><span class="dfn-paneled" id="8ee781f9">fill</span>
+     <li><span class="dfn-paneled" id="8ed78e42">stroke</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[SELECTORS-4]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="42b00c6e">pseudo-elements</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -3968,11 +3971,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-fonts-3">[CSS-FONTS-3]
    <dd>John Daggett; Myles Maxfield; Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-3/"><cite>CSS Fonts Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-3/">https://drafts.csswg.org/css-fonts-3/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
@@ -3984,7 +3987,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
    <dt id="biblio-css-ruby-1">[CSS-RUBY-1]
    <dd>Elika Etemad; et al. <a href="https://drafts.csswg.org/css-ruby-1/"><cite>CSS Ruby Annotation Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-ruby-1/">https://drafts.csswg.org/css-ruby-1/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
@@ -4002,17 +4005,19 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-fill-stroke-3">[FILL-STROKE-3]
-   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.fxtf.org/fill-stroke/"><cite>CSS Fill and Stroke Module Level 3</cite></a>. URL: <a href="https://drafts.fxtf.org/fill-stroke/">https://drafts.fxtf.org/fill-stroke/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/fill-stroke/"><cite>CSS Fill and Stroke Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/fill-stroke/">https://drafts.csswg.org/fill-stroke/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
+   <dt id="biblio-selectors-4">[SELECTORS-4]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-uax11">[UAX11]
-   <dd>Ken Lunde 小林劍󠄁. <a href="https://www.unicode.org/reports/tr11/tr11-43.html"><cite>East Asian Width</cite></a>. 31 July 2024. Unicode Standard Annex #11. URL: <a href="https://www.unicode.org/reports/tr11/tr11-43.html">https://www.unicode.org/reports/tr11/tr11-43.html</a>
+   <dd>Ken Lunde 小林剣. <a href="https://www.unicode.org/reports/tr11/tr11-44.html"><cite>East Asian Width</cite></a>. 24 July 2025. Unicode Standard Annex #11. URL: <a href="https://www.unicode.org/reports/tr11/tr11-44.html">https://www.unicode.org/reports/tr11/tr11-44.html</a>
    <dt id="biblio-uax15">[UAX15]
-   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr15/tr15-56.html"><cite>Unicode Normalization Forms</cite></a>. 14 August 2024. Unicode Standard Annex #15. URL: <a href="https://www.unicode.org/reports/tr15/tr15-56.html">https://www.unicode.org/reports/tr15/tr15-56.html</a>
+   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr15/tr15-57.html"><cite>Unicode Normalization Forms</cite></a>. 30 July 2025. Unicode Standard Annex #15. URL: <a href="https://www.unicode.org/reports/tr15/tr15-57.html">https://www.unicode.org/reports/tr15/tr15-57.html</a>
    <dt id="biblio-uax24">[UAX24]
-   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr24/tr24-38.html"><cite>Unicode Script Property</cite></a>. 31 July 2024. Unicode Standard Annex #24. URL: <a href="https://www.unicode.org/reports/tr24/tr24-38.html">https://www.unicode.org/reports/tr24/tr24-38.html</a>
+   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr24/tr24-39.html"><cite>Unicode Script Property</cite></a>. 31 July 2025. Unicode Standard Annex #24. URL: <a href="https://www.unicode.org/reports/tr24/tr24-39.html">https://www.unicode.org/reports/tr24/tr24-39.html</a>
    <dt id="biblio-uax44">[UAX44]
-   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr44/tr44-34.html"><cite>Unicode Character Database</cite></a>. 27 August 2024. Unicode Standard Annex #44. URL: <a href="https://www.unicode.org/reports/tr44/tr44-34.html">https://www.unicode.org/reports/tr44/tr44-34.html</a>
+   <dd>Ken Whistler. <a href="https://www.unicode.org/reports/tr44/tr44-36.html"><cite>Unicode Character Database</cite></a>. 27 August 2025. Unicode Standard Annex #44. URL: <a href="https://www.unicode.org/reports/tr44/tr44-36.html">https://www.unicode.org/reports/tr44/tr44-36.html</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -4572,11 +4577,13 @@ let dfnPanelData = {
 "1548047a": {"dfnID":"1548047a","dfnText":"<color>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-color"}],"title":"2.3. \nText Decoration Color: the text-decoration-color property"},{"refs":[{"id":"ref-for-typedef-color\u2460"}],"title":"3.2. \nEmphasis Mark Color: the text-emphasis-color property"},{"refs":[{"id":"ref-for-typedef-color\u2461"}],"title":"4. \nText Shadows: the text-shadow property"}],"url":"https://drafts.csswg.org/css-color-5/#typedef-color"},
 "15f5b381": {"dfnID":"15f5b381","dfnText":"<percentage>","external":true,"refSections":[{"refs":[{"id":"ref-for-percentage-value"},{"id":"ref-for-percentage-value\u2460"}],"title":"2.4. \nText Decoration Line Thickness: the text-decoration-thickness property"},{"refs":[{"id":"ref-for-percentage-value\u2461"},{"id":"ref-for-percentage-value\u2462"}],"title":"2.8. \nText Underline Offset: the text-underline-offset property"},{"refs":[{"id":"ref-for-percentage-value\u2463"}],"title":"\nChanges since the 13 March 2018 Working Draft"}],"url":"https://drafts.csswg.org/css-values-4/#percentage-value"},
 "16b27b2a": {"dfnID":"16b27b2a","dfnText":"typographic letter unit","external":true,"refSections":[{"refs":[{"id":"ref-for-typographic-letter-unit"}],"title":"1.3. Terminology"}],"url":"https://drafts.csswg.org/css-text-4/#typographic-letter-unit"},
-"2161cf2b": {"dfnID":"2161cf2b","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-x22"}],"title":"1.1. \nModule Interactions"}],"url":"https://www.w3.org/TR/CSS21/selector.html#x22"},
 "237b3136": {"dfnID":"237b3136","dfnText":"typographic character unit","external":true,"refSections":[{"refs":[{"id":"ref-for-typographic-character-unit"}],"title":"1.3. Terminology"},{"refs":[{"id":"ref-for-typographic-character-unit\u2460"}],"title":"2.10.4. \nSkipping Spaces: the text-decoration-skip-spaces property"},{"refs":[{"id":"ref-for-typographic-character-unit\u2461"}],"title":"3.1. \nEmphasis Mark Style: the text-emphasis-style property"},{"refs":[{"id":"ref-for-typographic-character-unit\u2462"}],"title":"3.5. \nEmphasis Mark Skip: the text-emphasis-skip property"}],"url":"https://drafts.csswg.org/css-text-4/#typographic-character-unit"},
 "33a598a0": {"dfnID":"33a598a0","dfnText":"letter","external":true,"refSections":[{"refs":[{"id":"ref-for-letter"}],"title":"1.3. Terminology"}],"url":"https://drafts.csswg.org/css-syntax-3/#letter"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.2. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "3f68fc92": {"dfnID":"3f68fc92","dfnText":"ruby","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-font-variant-east-asian-ruby"}],"title":"3.1. \nEmphasis Mark Style: the text-emphasis-style property"}],"url":"https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-east-asian-ruby"},
+"42b00c6e": {"dfnID":"42b00c6e","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"1.1. \nModule Interactions"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
+"4cb2f73c": {"dfnID":"4cb2f73c","dfnText":"General Category","external":true,"refSections":[{"refs":[{"id":"ref-for-unicode-general-category"}],"title":"3.1. \nEmphasis Mark Style: the text-emphasis-style property"},{"refs":[{"id":"ref-for-unicode-general-category\u2460"}],"title":"3.5. \nEmphasis Mark Skip: the text-emphasis-skip property"}],"url":"https://drafts.csswg.org/css-text-4/#unicode-general-category"},
+"4f622e85": {"dfnID":"4f622e85","dfnText":"baseline","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-vertical-align-baseline"}],"title":"2.5. \nDetermining the Position and Thickness of Line Decorations"},{"refs":[{"id":"ref-for-valdef-vertical-align-baseline\u2460"}],"title":"2.9. \nText Decoration Line Uniformity"}],"url":"https://drafts.csswg.org/css2/#valdef-vertical-align-baseline"},
 "537cf076": {"dfnID":"537cf076","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"}],"title":"3.4. \nEmphasis Mark Position: the text-emphasis-position property"},{"refs":[{"id":"ref-for-mult-opt\u2460"}],"title":"4. \nText Shadows: the text-shadow property"}],"url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
 "53e5391b": {"dfnID":"53e5391b","dfnText":"font-variant-position","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-variant-position"}],"title":"2.9. \nText Decoration Line Uniformity"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-position"},
 "53f8cf4c": {"dfnID":"53f8cf4c","dfnText":"ruby container","external":true,"refSections":[{"refs":[{"id":"ref-for-ruby-container"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-ruby-1/#ruby-container"},
@@ -4588,15 +4595,15 @@ let dfnPanelData = {
 "75bfa627": {"dfnID":"75bfa627","dfnText":"::first-line","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-first-line"}],"title":"1.1. \nModule Interactions"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line"},
 "8379845e": {"dfnID":"8379845e","dfnText":"block-level","external":true,"refSections":[{"refs":[{"id":"ref-for-block-level"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-display-4/#block-level"},
 "881c2f72": {"dfnID":"881c2f72","dfnText":"box","external":true,"refSections":[{"refs":[{"id":"ref-for-box"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"},{"refs":[{"id":"ref-for-box\u2460"}],"title":"5.2. \nOverflow of Text Decorations"}],"url":"https://drafts.csswg.org/css-display-4/#box"},
-"890a8358": {"dfnID":"890a8358","dfnText":"fill","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-fill"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill"},
 "8a82fda1": {"dfnID":"8a82fda1","dfnText":"||","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-any"},{"id":"ref-for-comb-any\u2460"},{"id":"ref-for-comb-any\u2461"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"},{"refs":[{"id":"ref-for-comb-any\u2462"},{"id":"ref-for-comb-any\u2463"},{"id":"ref-for-comb-any\u2464"}],"title":"2.6. \nText Decoration Shorthand: the text-decoration property"},{"refs":[{"id":"ref-for-comb-any\u2465"}],"title":"2.7. \nText Underline Position: the text-underline-position property"},{"refs":[{"id":"ref-for-comb-any\u2466"}],"title":"2.10.4. \nSkipping Spaces: the text-decoration-skip-spaces property"},{"refs":[{"id":"ref-for-comb-any\u2467"}],"title":"3.1. \nEmphasis Mark Style: the text-emphasis-style property"},{"refs":[{"id":"ref-for-comb-any\u2468"}],"title":"3.3. \nEmphasis Mark Shorthand: the text-emphasis property"},{"refs":[{"id":"ref-for-comb-any\u2460\u24ea"},{"id":"ref-for-comb-any\u2460\u2460"},{"id":"ref-for-comb-any\u2460\u2461"}],"title":"3.5. \nEmphasis Mark Skip: the text-emphasis-skip property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-any"},
+"8ed78e42": {"dfnID":"8ed78e42","dfnText":"stroke","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke"},
+"8ee781f9": {"dfnID":"8ee781f9","dfnText":"fill","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-fill"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-fill"},
 "938ba280": {"dfnID":"938ba280","dfnText":"{A,B}","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-num-range"}],"title":"4. \nText Shadows: the text-shadow property"}],"url":"https://drafts.csswg.org/css-values-4/#mult-num-range"},
 "9729fd44": {"dfnID":"9729fd44","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-fragment"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-break-3/#fragment"},
 "977d3003": {"dfnID":"977d3003","dfnText":"<string>","external":true,"refSections":[{"refs":[{"id":"ref-for-string-value"},{"id":"ref-for-string-value\u2460"}],"title":"3.1. \nEmphasis Mark Style: the text-emphasis-style property"}],"url":"https://drafts.csswg.org/css-values-4/#string-value"},
 "99cabd32": {"dfnID":"99cabd32","dfnText":"in-flow","external":true,"refSections":[{"refs":[{"id":"ref-for-in-flow"},{"id":"ref-for-in-flow\u2460"},{"id":"ref-for-in-flow\u2461"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-display-4/#in-flow"},
 "99d126af": {"dfnID":"99d126af","dfnText":"spread distance","external":true,"refSections":[{"refs":[{"id":"ref-for-box-shadow-spread-distance"}],"title":"4. \nText Shadows: the text-shadow property"},{"refs":[{"id":"ref-for-box-shadow-spread-distance\u2460"}],"title":"\nAdditions Since Level 3"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#box-shadow-spread-distance"},
 "9a7f6195": {"dfnID":"9a7f6195","dfnText":"ruby base","external":true,"refSections":[{"refs":[{"id":"ref-for-ruby-base-box"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-ruby-1/#ruby-base-box"},
-"9aae076b": {"dfnID":"9aae076b","dfnText":"baseline","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-alignment-baseline-baseline"}],"title":"2.5. \nDetermining the Position and Thickness of Line Decorations"},{"refs":[{"id":"ref-for-valdef-alignment-baseline-baseline\u2460"}],"title":"2.9. \nText Decoration Line Uniformity"}],"url":"https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline"},
 "9e066e76": {"dfnID":"9e066e76","dfnText":"longhand","external":true,"refSections":[{"refs":[{"id":"ref-for-longhand"},{"id":"ref-for-longhand\u2460"},{"id":"ref-for-longhand\u2461"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"},{"refs":[{"id":"ref-for-longhand\u2462"}],"title":"2.2. \nText Decoration Style: the text-decoration-style property"},{"refs":[{"id":"ref-for-longhand\u2463"}],"title":"2.3. \nText Decoration Color: the text-decoration-color property"},{"refs":[{"id":"ref-for-longhand\u2464"}],"title":"2.4. \nText Decoration Line Thickness: the text-decoration-thickness property"},{"refs":[{"id":"ref-for-longhand\u2465"}],"title":"2.7. \nText Underline Position: the text-underline-position property"},{"refs":[{"id":"ref-for-longhand\u2466"}],"title":"2.8. \nText Underline Offset: the text-underline-offset property"}],"url":"https://drafts.csswg.org/css-cascade-5/#longhand"},
 "9f3d4f17": {"dfnID":"9f3d4f17","dfnText":"block container","external":true,"refSections":[{"refs":[{"id":"ref-for-block-container"},{"id":"ref-for-block-container\u2460"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-display-4/#block-container"},
 "a00822b3": {"dfnID":"a00822b3","dfnText":"anonymous","external":true,"refSections":[{"refs":[{"id":"ref-for-anonymous"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-display-4/#anonymous"},
@@ -4618,7 +4625,6 @@ let dfnPanelData = {
 "considered-text": {"dfnID":"considered-text","dfnText":"considered text","external":false,"refSections":[{"refs":[{"id":"ref-for-considered-text"},{"id":"ref-for-considered-text\u2460"},{"id":"ref-for-considered-text\u2461"},{"id":"ref-for-considered-text\u2462"},{"id":"ref-for-considered-text\u2463"},{"id":"ref-for-considered-text\u2464"}],"title":"2.5. Determining the Position and Thickness of Line Decorations"}],"url":"#considered-text"},
 "d7fa3e1c": {"dfnID":"d7fa3e1c","dfnText":"inline-level","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-level"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-display-4/#inline-level"},
 "de6d76c2": {"dfnID":"de6d76c2","dfnText":"cascade","external":true,"refSections":[{"refs":[{"id":"ref-for-cascade"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"}],"url":"https://drafts.csswg.org/css-cascade-6/#cascade"},
-"de9e224f": {"dfnID":"de9e224f","dfnText":"stroke","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke"}],"title":"2.1. \nText Decoration Lines: the text-decoration-line property"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke"},
 "decorating-box": {"dfnID":"decorating-box","dfnText":"decorating box","external":false,"refSections":[{"refs":[{"id":"ref-for-decorating-box"},{"id":"ref-for-decorating-box\u2460"},{"id":"ref-for-decorating-box\u2461"}],"title":"2. Line Decoration: Underline, Overline, and Strike-Through"},{"refs":[{"id":"ref-for-decorating-box\u2462"},{"id":"ref-for-decorating-box\u2463"},{"id":"ref-for-decorating-box\u2464"},{"id":"ref-for-decorating-box\u2465"}],"title":"2.5. Determining the Position and Thickness of Line Decorations"},{"refs":[{"id":"ref-for-decorating-box\u2466"}],"title":"2.10. Text Decoration Line Continuity: the text-decoration-skip shorthand and its sub-properties"},{"refs":[{"id":"ref-for-decorating-box\u2467"}],"title":"2.10.1. Skipping Spaces: the text-decoration-skip-self property"},{"refs":[{"id":"ref-for-decorating-box\u2468"},{"id":"ref-for-decorating-box\u2460\u24ea"},{"id":"ref-for-decorating-box\u2460\u2460"}],"title":"2.10.2. Skipping Spaces: the text-decoration-skip-box property"},{"refs":[{"id":"ref-for-decorating-box\u2460\u2461"}],"title":"2.10.3. Inset Edges: the text-decoration-skip-inset property"}],"url":"#decorating-box"},
 "e0b6ed58": {"dfnID":"e0b6ed58","dfnText":"vertical-align","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-vertical-align"},{"id":"ref-for-propdef-vertical-align\u2460"}],"title":"2.5. \nDetermining the Position and Thickness of Line Decorations"},{"refs":[{"id":"ref-for-propdef-vertical-align\u2461"}],"title":"2.9. \nText Decoration Line Uniformity"}],"url":"https://drafts.csswg.org/css-inline-3/#propdef-vertical-align"},
 "e7f0dd6c": {"dfnID":"e7f0dd6c","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"}],"title":"2. \nLine Decoration: Underline, Overline, and Strike-Through"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-display"},
@@ -5235,7 +5241,6 @@ let refsData = {
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-position": {"displayText":"font-variant-position","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-variant-position","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-position"},
 "https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-east-asian-ruby": {"displayText":"ruby","export":true,"for_":["font-variant-east-asian"],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"ruby","type":"value","url":"https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-east-asian-ruby"},
 "https://drafts.csswg.org/css-inline-3/#propdef-vertical-align": {"displayText":"vertical-align","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"vertical-align","type":"property","url":"https://drafts.csswg.org/css-inline-3/#propdef-vertical-align"},
-"https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline": {"displayText":"baseline","export":true,"for_":["alignment-baseline","vertical-align"],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"baseline","type":"value","url":"https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-baseline"},
 "https://drafts.csswg.org/css-overflow-3/#ink-overflow": {"displayText":"ink overflow","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-overflow","spec":"css-overflow-3","status":"current","text":"ink overflow","type":"dfn","url":"https://drafts.csswg.org/css-overflow-3/#ink-overflow"},
 "https://drafts.csswg.org/css-overflow-3/#scrollable-overflow-region": {"displayText":"scrollable overflow region","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-overflow","spec":"css-overflow-3","status":"current","text":"scrollable overflow region","type":"dfn","url":"https://drafts.csswg.org/css-overflow-3/#scrollable-overflow-region"},
 "https://drafts.csswg.org/css-position-3/#relative-position": {"displayText":"relatively position","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-position","spec":"css-position-3","status":"current","text":"relatively position","type":"dfn","url":"https://drafts.csswg.org/css-position-3/#relative-position"},
@@ -5250,6 +5255,7 @@ let refsData = {
 "https://drafts.csswg.org/css-text-4/#propdef-word-spacing": {"displayText":"word-spacing","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text","spec":"css-text-4","status":"current","text":"word-spacing","type":"property","url":"https://drafts.csswg.org/css-text-4/#propdef-word-spacing"},
 "https://drafts.csswg.org/css-text-4/#typographic-character-unit": {"displayText":"typographic character unit","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text","spec":"css-text-4","status":"current","text":"typographic character unit","type":"dfn","url":"https://drafts.csswg.org/css-text-4/#typographic-character-unit"},
 "https://drafts.csswg.org/css-text-4/#typographic-letter-unit": {"displayText":"typographic letter unit","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text","spec":"css-text-4","status":"current","text":"typographic letter unit","type":"dfn","url":"https://drafts.csswg.org/css-text-4/#typographic-letter-unit"},
+"https://drafts.csswg.org/css-text-4/#unicode-general-category": {"displayText":"General Category","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-text","spec":"css-text-4","status":"current","text":"general category","type":"dfn","url":"https://drafts.csswg.org/css-text-4/#unicode-general-category"},
 "https://drafts.csswg.org/css-values-4/#comb-all": {"displayText":"&&","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"&&","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#comb-all"},
 "https://drafts.csswg.org/css-values-4/#comb-any": {"displayText":"||","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"||","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#comb-any"},
 "https://drafts.csswg.org/css-values-4/#comb-one": {"displayText":"|","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"|","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#comb-one"},
@@ -5265,9 +5271,10 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-4/#under": {"displayText":"under","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"under","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#under"},
 "https://drafts.csswg.org/css-writing-modes-4/#vertical-writing-mode": {"displayText":"vertical writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"vertical writing mode","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#vertical-writing-mode"},
 "https://drafts.csswg.org/css-writing-modes-4/#writing-mode": {"displayText":"writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"writing mode","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#writing-mode"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill": {"displayText":"fill","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"fill","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke": {"displayText":"stroke","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke"},
-"https://www.w3.org/TR/CSS21/selector.html#x22": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"pseudo-elements","type":"dfn","url":"https://www.w3.org/TR/CSS21/selector.html#x22"},
+"https://drafts.csswg.org/css2/#valdef-vertical-align-baseline": {"displayText":"baseline","export":true,"for_":["vertical-align"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"baseline","type":"value","url":"https://drafts.csswg.org/css2/#valdef-vertical-align-baseline"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-fill": {"displayText":"fill","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"fill","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-fill"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke": {"displayText":"stroke","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke"},
+"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-elements","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 };
 
 function mkRefHint(link, ref) {

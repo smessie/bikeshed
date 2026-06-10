@@ -164,10 +164,15 @@ def retrieveBoilerplateFile(
                     sources.append(source)
     # 2: Look in the group's folder
     if groupName and orgName:
-        sources.extend(InputSource.FileInputSource(boilerplatePath("org-"+orgName, groupName, fn), chroot=False) for fn in filenames)
+        sources.extend(
+            InputSource.FileInputSource(boilerplatePath("org-" + orgName, groupName, fn), chroot=False)
+            for fn in filenames
+        )
     # 3: Look in the org's folder
     if orgName:
-        sources.extend(InputSource.FileInputSource(boilerplatePath("org-"+orgName, fn), chroot=False) for fn in filenames)
+        sources.extend(
+            InputSource.FileInputSource(boilerplatePath("org-" + orgName, fn), chroot=False) for fn in filenames
+        )
     # 4: Look in the generic defaults
     sources.extend(InputSource.FileInputSource(boilerplatePath("default", fn), chroot=False) for fn in filenames)
 
@@ -190,7 +195,7 @@ def retrieveBoilerplateFile(
             components.append(f"Group '{groupName}'")
         if statusName:
             components.append(f"Status '{statusName}'")
-        msg = "Couldn't find an appropriate include file for the {name} inclusion"
+        msg = f"Couldn't find an appropriate include file for the '{name}' inclusion"
         if components:
             msg += ", given " + config.englishFromList(components, "and")
         else:

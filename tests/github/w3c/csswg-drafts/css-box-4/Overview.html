@@ -1077,7 +1077,7 @@ Non-experimental implementations</span></a>
 	and each string of text in a source document
 	is laid out by transforming the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-tree" id="ref-for-concept-document-tree">document tree</a>
 	into a set of <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#box" id="ref-for-box">boxes</a>,
-	whose size, position, and stacking level on the <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/intro.html#canvas" id="ref-for-canvas">canvas</a>
+	whose size, position, and stacking level on the <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/coords.html#TermCanvas" id="ref-for-TermCanvas">canvas</a>
 	depend on the values of their CSS properties.
 
 </p>
@@ -1277,14 +1277,14 @@ Module Interactions</span><a class="self-link" href="#placement"></a></h3>
     <dt><dfn class="css dfn-paneled" data-dfn-for="<box>,<shape-box>,<geometry-box>" data-dfn-type="value" data-export id="valdef-box-fill-box">fill-box</dfn>
 			
     <dd>
-				Refers to the <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/coords.html#TermObjectBoundingBox" id="ref-for-TermObjectBoundingBox">object bounding box</a> or its edges.
+				Refers to the <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/coords.html#TermObjectBoundingBox" id="ref-for-TermObjectBoundingBox">object bounding box</a> or its edges.
 				(In a CSS box context, treated as <a class="css" data-link-type="maybe" href="#valdef-box-content-box" id="ref-for-valdef-box-content-box">content-box</a>.)
 
 		
     <dt><dfn class="css dfn-paneled" data-dfn-for="<box>,<shape-box>,<geometry-box>" data-dfn-type="value" data-export id="valdef-box-stroke-box">stroke-box</dfn>
 			
     <dd>
-				Refers to the <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/coords.html#TermStrokeBoundingBox" id="ref-for-TermStrokeBoundingBox">stroke bounding box</a> or its edges.
+				Refers to the <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/coords.html#TermStrokeBoundingBox" id="ref-for-TermStrokeBoundingBox">stroke bounding box</a> or its edges.
 				(In a CSS box context, treated as <a class="css" data-link-type="maybe" href="#valdef-box-border-box" id="ref-for-valdef-box-border-box">border-box</a>.)
 
 		
@@ -1292,7 +1292,7 @@ Module Interactions</span><a class="self-link" href="#placement"></a></h3>
 			
     <dd>
      
-				Refers to the nearest <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/coords.html#TermSVGViewport" id="ref-for-TermSVGViewport">SVG viewport</a>’s
+				Refers to the nearest <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/coords.html#TermSVGViewport" id="ref-for-TermSVGViewport">SVG viewport</a>’s
 				<dfn class="dfn-paneled" data-dfn-for="<box>,<shape-box>,<geometry-box>" data-dfn-type="dfn" data-local-lt="origin box" data-lt="SVG viewport origin box" data-noexport id="box-svg-viewport-origin-box">origin box</dfn>,
 				which is a rectangle with the width and height
 				of the <span id="ref-for-TermSVGViewport①">SVG viewport</span>,
@@ -1301,7 +1301,7 @@ Module Interactions</span><a class="self-link" href="#placement"></a></h3>
 				(In a CSS box context, treated as <a class="css" data-link-type="maybe" href="#valdef-box-border-box" id="ref-for-valdef-box-border-box①">border-box</a>.)
 
 
-     <p class="note" role="note"><span class="marker">Note:</span> When the <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/coords.html#TermSVGViewport" id="ref-for-TermSVGViewport②">SVG viewport</a>
+     <p class="note" role="note"><span class="marker">Note:</span> When the <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/coords.html#TermSVGViewport" id="ref-for-TermSVGViewport②">SVG viewport</a>
 				is not itself anchored at the origin,
 				this <a data-link-type="dfn" href="#box-svg-viewport-origin-box" id="ref-for-box-svg-viewport-origin-box">origin box</a> does not actually correspond
 				to the <span id="ref-for-TermSVGViewport③">SVG viewport</span>!</p>
@@ -1442,7 +1442,7 @@ body { margin: 1em 2em 3em } /* top=1em, right=2em, bottom=3em, left=2em */
       <td>none
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#applies-to">Applies to:</a>
-      <td><a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-container" id="ref-for-block-container">block containers</a>, <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-1/#multi-column-container" id="ref-for-multi-column-container">multi-column containers</a>
+      <td><a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-container" id="ref-for-block-container">block containers</a>, <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-2/#multi-column-container" id="ref-for-multi-column-container">multi-column containers</a>
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#inherited-property">Inherited:</a>
       <td>no
@@ -1531,7 +1531,7 @@ body { margin: 1em 2em 3em } /* top=1em, right=2em, bottom=3em, left=2em */
 			of a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#block-formatting-context-root" id="ref-for-block-formatting-context-root">block formatting context root</a>.
 	
    </ul>
-   <p class="issue" id="issue-565fb2af"><a class="self-link" href="#issue-565fb2af"></a> Should this property apply to <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container">flex containers</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-grid-2/#grid-container" id="ref-for-grid-container">grid containers</a>?</p>
+   <p class="issue" id="issue-565fb2af"><a class="self-link" href="#issue-565fb2af"></a> Should this property apply to <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container" id="ref-for-flex-container">flex containers</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-grid-2/#grid-container" id="ref-for-grid-container">grid containers</a>?</p>
    <p class="issue" id="issue-9536d78c"><a class="self-link" href="#issue-9536d78c"></a> Should floats have a <span class="css">floats</span> value that only affects floats?</p>
    <p class="note" role="note"><span class="marker">Note:</span> See also the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-break-4/#propdef-margin-break" id="ref-for-propdef-margin-break">margin-break</a> property,
 	which applies to the box’s own margins
@@ -1916,9 +1916,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="a8485ff4">replaced element</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-FLEXBOX-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-FLEXBOX-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="24285d87">flex container</span>
+     <li><span class="dfn-paneled" id="128905d4">flex container</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-GRID-2]</a> defines the following terms:
@@ -1926,9 +1926,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="f005b2f6">grid container</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-MULTICOL-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-MULTICOL-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="521eb6d4">multi-column container</span>
+     <li><span class="dfn-paneled" id="396d5070">multi-column container</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-PSEUDO-4]</a> defines the following terms:
@@ -1978,11 +1978,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="a73617e0">writing mode</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="2a2f1579">canvas</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="7bf10631">document tree</span>
@@ -1990,9 +1985,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="ff72fec7">object bounding box</span>
-     <li><span class="dfn-paneled" id="19d42a6f">stroke bounding box</span>
-     <li><span class="dfn-paneled" id="45ea65d2">SVG viewports</span>
+     <li><span class="dfn-paneled" id="c981bd08">canvas</span>
+     <li><span class="dfn-paneled" id="bb12e478">object bounding box</span>
+     <li><span class="dfn-paneled" id="6d8d7180">stroke bounding box</span>
+     <li><span class="dfn-paneled" id="a82c4e79">SVG viewports</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -2005,17 +2001,17 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
-   <dt id="biblio-css-flexbox-1">[CSS-FLEXBOX-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-flexbox-1/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox-1/">https://drafts.csswg.org/css-flexbox-1/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dt id="biblio-css-flexbox-2">[CSS-FLEXBOX-2]
+   <dd><a href="https://drafts.csswg.org/css-flexbox-2/"><cite>CSS Flexible Box Layout Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-flexbox-2/">https://drafts.csswg.org/css-flexbox-2/</a>
    <dt id="biblio-css-grid-2">[CSS-GRID-2]
-   <dd>Tab Atkins Jr.; Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
    <dt id="biblio-css-logical-1">[CSS-LOGICAL-1]
-   <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-logical-1/"><cite>CSS Logical Properties and Values Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-logical-1/">https://drafts.csswg.org/css-logical-1/</a>
-   <dt id="biblio-css-multicol-1">[CSS-MULTICOL-1]
-   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol/"><cite>CSS Multi-column Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol/">https://drafts.csswg.org/css-multicol/</a>
+   <dd>Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-logical-1/"><cite>CSS Logical Properties and Values Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-logical-1/">https://drafts.csswg.org/css-logical-1/</a>
+   <dt id="biblio-css-multicol-2">[CSS-MULTICOL-2]
+   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol-2/"><cite>CSS Multi-column Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol-2/">https://drafts.csswg.org/css-multicol-2/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
    <dt id="biblio-css-ruby-1">[CSS-RUBY-1]
    <dd>Elika Etemad; et al. <a href="https://drafts.csswg.org/css-ruby-1/"><cite>CSS Ruby Annotation Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-ruby-1/">https://drafts.csswg.org/css-ruby-1/</a>
    <dt id="biblio-css-sizing-3">[CSS-SIZING-3]
@@ -2035,7 +2031,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -2173,7 +2169,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   </div>
   <h2 class="heading no-num no-ref settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
   <div style="counter-reset:issue">
-   <div class="issue"> Should this property apply to <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container">flex containers</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-grid-2/#grid-container">grid containers</a>? <a class="issue-return" href="#issue-565fb2af" title="Jump to section">↵</a></div>
+   <div class="issue"> Should this property apply to <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container">flex containers</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-grid-2/#grid-container">grid containers</a>? <a class="issue-return" href="#issue-565fb2af" title="Jump to section">↵</a></div>
    <div class="issue"> Should floats have a <span class="css">floats</span> value that only affects floats? <a class="issue-return" href="#issue-9536d78c" title="Jump to section">↵</a></div>
    <div class="issue"> Define how this property affects margins at breaks
 	if the box establishes a <a data-link-type="dfn" href="https://drafts.csswg.org/css-break-4/#fragmentation-context">fragmentation context</a>.
@@ -2399,24 +2395,22 @@ let dfnPanelData = {
 "0b8b3969": {"dfnID":"0b8b3969","dfnText":"size","external":true,"refSections":[{"refs":[{"id":"ref-for-size"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-sizing-3/#size"},
 "0cab481d": {"dfnID":"0cab481d","dfnText":"box-decoration-break","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-box-decoration-break"}],"title":"2. The CSS Box Model"}],"url":"https://drafts.csswg.org/css-break-4/#propdef-box-decoration-break"},
 "0fcbe446": {"dfnID":"0fcbe446","dfnText":"margin-break","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-break"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-break-4/#propdef-margin-break"},
+"128905d4": {"dfnID":"128905d4","dfnText":"flex container","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-container"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-container"},
 "1370dad0": {"dfnID":"1370dad0","dfnText":"block-start","external":true,"refSections":[{"refs":[{"id":"ref-for-block-start"},{"id":"ref-for-block-start\u2460"},{"id":"ref-for-block-start\u2461"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-start"},
 "18222566": {"dfnID":"18222566","dfnText":"<length-percentage>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-length-percentage"},{"id":"ref-for-typedef-length-percentage\u2460"}],"title":"3.1. Page-relative (Physical) Margin Properties: the margin-top, margin-right, margin-bottom, and margin-left properties"},{"refs":[{"id":"ref-for-typedef-length-percentage\u2461"},{"id":"ref-for-typedef-length-percentage\u2462"}],"title":"4.1. Page-relative (Physical) Padding Properties: the padding-top, padding-right, padding-bottom, and padding-left properties"}],"url":"https://drafts.csswg.org/css-values-4/#typedef-length-percentage"},
 "190183bb": {"dfnID":"190183bb","dfnText":"block size","external":true,"refSections":[{"refs":[{"id":"ref-for-block-size"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-size"},
-"19d42a6f": {"dfnID":"19d42a6f","dfnText":"stroke bounding box","external":true,"refSections":[{"refs":[{"id":"ref-for-TermStrokeBoundingBox"}],"title":"2.1. Box-edge Keywords"}],"url":"https://svgwg.org/svg2-draft/coords.html#TermStrokeBoundingBox"},
-"24285d87": {"dfnID":"24285d87","dfnText":"flex container","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-container"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-container"},
-"2a2f1579": {"dfnID":"2a2f1579","dfnText":"canvas","external":true,"refSections":[{"refs":[{"id":"ref-for-canvas"}],"title":"1. Introduction"}],"url":"https://www.w3.org/TR/CSS21/intro.html#canvas"},
 "2ebd6278": {"dfnID":"2ebd6278","dfnText":"ruby annotation container","external":true,"refSections":[{"refs":[{"id":"ref-for-ruby-annotation-container-box"}],"title":"3.1. Page-relative (Physical) Margin Properties: the margin-top, margin-right, margin-bottom, and margin-left properties"},{"refs":[{"id":"ref-for-ruby-annotation-container-box\u2460"}],"title":"3.2. Margin Shorthand: the margin property"},{"refs":[{"id":"ref-for-ruby-annotation-container-box\u2461"}],"title":"4.1. Page-relative (Physical) Padding Properties: the padding-top, padding-right, padding-bottom, and padding-left properties"},{"refs":[{"id":"ref-for-ruby-annotation-container-box\u2462"}],"title":"4.2. Padding Shorthand: the padding property"},{"refs":[{"id":"ref-for-ruby-annotation-container-box\u2463"}],"title":"7. Changes Since CSS Level 2"}],"url":"https://drafts.csswg.org/css-ruby-1/#ruby-annotation-container-box"},
 "31ccd1a9": {"dfnID":"31ccd1a9","dfnText":"longhand property","external":true,"refSections":[{"refs":[{"id":"ref-for-longhand"},{"id":"ref-for-longhand\u2460"},{"id":"ref-for-longhand\u2461"}],"title":"3. Margins"},{"refs":[{"id":"ref-for-longhand\u2462"},{"id":"ref-for-longhand\u2463"},{"id":"ref-for-longhand\u2464"}],"title":"4. Padding"},{"refs":[{"id":"ref-for-longhand\u2465"}],"title":"5. Borders"}],"url":"https://drafts.csswg.org/css-cascade-5/#longhand"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.1. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "37c3d179": {"dfnID":"37c3d179","dfnText":"block-end","external":true,"refSections":[{"refs":[{"id":"ref-for-block-end"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-end"},
+"396d5070": {"dfnID":"396d5070","dfnText":"multi-column container","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-container"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-multicol-2/#multi-column-container"},
 "3b1682d5": {"dfnID":"3b1682d5","dfnText":"background-origin","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-origin"}],"title":"4. Padding"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-origin"},
 "43667deb": {"dfnID":"43667deb","dfnText":"inline axis","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-axis"},{"id":"ref-for-inline-axis\u2460"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#inline-axis"},
-"45ea65d2": {"dfnID":"45ea65d2","dfnText":"SVG viewports","external":true,"refSections":[{"refs":[{"id":"ref-for-TermSVGViewport"},{"id":"ref-for-TermSVGViewport\u2460"},{"id":"ref-for-TermSVGViewport\u2461"},{"id":"ref-for-TermSVGViewport\u2462"}],"title":"2.1. Box-edge Keywords"}],"url":"https://svgwg.org/svg2-draft/coords.html#TermSVGViewport"},
 "466b2ed9": {"dfnID":"466b2ed9","dfnText":"inline-start","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-start"},{"id":"ref-for-inline-start\u2460"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#inline-start"},
-"521eb6d4": {"dfnID":"521eb6d4","dfnText":"multi-column container","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-container"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-multicol-1/#multi-column-container"},
 "5eff29c1": {"dfnID":"5eff29c1","dfnText":"flow-relative","external":true,"refSections":[{"refs":[{"id":"ref-for-flow-relative"}],"title":"3. Margins"},{"refs":[{"id":"ref-for-flow-relative\u2460"}],"title":"4. Padding"},{"refs":[{"id":"ref-for-flow-relative\u2461"}],"title":"5. Borders"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#flow-relative"},
 "6458a3ef": {"dfnID":"6458a3ef","dfnText":"fragmentation break","external":true,"refSections":[{"refs":[{"id":"ref-for-fragmentation-break"}],"title":"3. Margins"},{"refs":[{"id":"ref-for-fragmentation-break\u2460"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-break-4/#fragmentation-break"},
 "6d0d9897": {"dfnID":"6d0d9897","dfnText":"internal table element","external":true,"refSections":[{"refs":[{"id":"ref-for-internal-table-element"}],"title":"3.1. Page-relative (Physical) Margin Properties: the margin-top, margin-right, margin-bottom, and margin-left properties"},{"refs":[{"id":"ref-for-internal-table-element\u2460"}],"title":"3.2. Margin Shorthand: the margin property"},{"refs":[{"id":"ref-for-internal-table-element\u2461"}],"title":"4.1. Page-relative (Physical) Padding Properties: the padding-top, padding-right, padding-bottom, and padding-left properties"},{"refs":[{"id":"ref-for-internal-table-element\u2462"}],"title":"4.2. Padding Shorthand: the padding property"}],"url":"https://drafts.csswg.org/css-display-4/#internal-table-element"},
+"6d8d7180": {"dfnID":"6d8d7180","dfnText":"stroke bounding box","external":true,"refSections":[{"refs":[{"id":"ref-for-TermStrokeBoundingBox"}],"title":"2.1. Box-edge Keywords"}],"url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermStrokeBoundingBox"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"}],"title":"3.1. Page-relative (Physical) Margin Properties: the margin-top, margin-right, margin-bottom, and margin-left properties"},{"refs":[{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
 "75bfa627": {"dfnID":"75bfa627","dfnText":"::first-line","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-first-line"}],"title":"1.2. \nModule Interactions"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line"},
 "7bf10631": {"dfnID":"7bf10631","dfnText":"document tree","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document-tree"},{"id":"ref-for-concept-document-tree\u2460"}],"title":"1. Introduction"}],"url":"https://dom.spec.whatwg.org/#concept-document-tree"},
@@ -2435,8 +2429,10 @@ let dfnPanelData = {
 "a1cb86c7": {"dfnID":"a1cb86c7","dfnText":"transform-box","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-transform-box"}],"title":"2.1. Box-edge Keywords"}],"url":"https://drafts.csswg.org/css-transforms-1/#propdef-transform-box"},
 "a270c80d": {"dfnID":"a270c80d","dfnText":"fragmentation context","external":true,"refSections":[{"refs":[{"id":"ref-for-fragmentation-context"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-break-4/#fragmentation-context"},
 "a73617e0": {"dfnID":"a73617e0","dfnText":"writing mode","external":true,"refSections":[{"refs":[{"id":"ref-for-writing-mode"}],"title":"7. Changes Since CSS Level 2"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#writing-mode"},
+"a82c4e79": {"dfnID":"a82c4e79","dfnText":"SVG viewports","external":true,"refSections":[{"refs":[{"id":"ref-for-TermSVGViewport"},{"id":"ref-for-TermSVGViewport\u2460"},{"id":"ref-for-TermSVGViewport\u2461"},{"id":"ref-for-TermSVGViewport\u2462"}],"title":"2.1. Box-edge Keywords"}],"url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermSVGViewport"},
 "a8485ff4": {"dfnID":"a8485ff4","dfnText":"replaced element","external":true,"refSections":[{"refs":[{"id":"ref-for-replaced-element"}],"title":"2. The CSS Box Model"}],"url":"https://drafts.csswg.org/css-display-4/#replaced-element"},
 "a9734ee4": {"dfnID":"a9734ee4","dfnText":"border","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-propdef-border\u2460"}],"title":"2. The CSS Box Model"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border"},
+"bb12e478": {"dfnID":"bb12e478","dfnText":"object bounding box","external":true,"refSections":[{"refs":[{"id":"ref-for-TermObjectBoundingBox"}],"title":"2.1. Box-edge Keywords"}],"url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermObjectBoundingBox"},
 "border": {"dfnID":"border","dfnText":"Borders","external":false,"refSections":[],"url":"#border"},
 "border-area": {"dfnID":"border-area","dfnText":"border","external":false,"refSections":[{"refs":[{"id":"ref-for-border-area"},{"id":"ref-for-border-area\u2460"}],"title":"2. The CSS Box Model"},{"refs":[{"id":"ref-for-border-area\u2461"}],"title":"4. Padding"},{"refs":[{"id":"ref-for-border-area\u2462"},{"id":"ref-for-border-area\u2463"}],"title":"5. Borders"}],"url":"#border-area"},
 "border-box": {"dfnID":"border-box","dfnText":"border box","external":false,"refSections":[{"refs":[{"id":"ref-for-border-box"}],"title":"2. The CSS Box Model"},{"refs":[{"id":"ref-for-border-box\u2460"}],"title":"2.1. Box-edge Keywords"}],"url":"#border-box"},
@@ -2445,6 +2441,7 @@ let dfnPanelData = {
 "box-edge": {"dfnID":"box-edge","dfnText":"edge","external":false,"refSections":[{"refs":[{"id":"ref-for-box-edge"},{"id":"ref-for-box-edge\u2460"}],"title":"2. The CSS Box Model"}],"url":"#box-edge"},
 "box-svg-viewport-origin-box": {"dfnID":"box-svg-viewport-origin-box","dfnText":"origin box","external":false,"refSections":[{"refs":[{"id":"ref-for-box-svg-viewport-origin-box"}],"title":"2.1. Box-edge Keywords"}],"url":"#box-svg-viewport-origin-box"},
 "c3bd6e1d": {"dfnID":"c3bd6e1d","dfnText":"box fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-box-fragment"}],"title":"2. The CSS Box Model"}],"url":"https://drafts.csswg.org/css-break-4/#box-fragment"},
+"c981bd08": {"dfnID":"c981bd08","dfnText":"canvas","external":true,"refSections":[{"refs":[{"id":"ref-for-TermCanvas"}],"title":"1. Introduction"}],"url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermCanvas"},
 "content-area": {"dfnID":"content-area","dfnText":"content area","external":false,"refSections":[{"refs":[{"id":"ref-for-content-area"},{"id":"ref-for-content-area\u2460"},{"id":"ref-for-content-area\u2461"}],"title":"2. The CSS Box Model"}],"url":"#content-area"},
 "content-box": {"dfnID":"content-box","dfnText":"content box","external":false,"refSections":[{"refs":[{"id":"ref-for-content-box"}],"title":"2. The CSS Box Model"},{"refs":[{"id":"ref-for-content-box\u2460"}],"title":"2.1. Box-edge Keywords"}],"url":"#content-box"},
 "content-edge": {"dfnID":"content-edge","dfnText":"content edge","external":false,"refSections":[{"refs":[{"id":"ref-for-content-edge"}],"title":"2. The CSS Box Model"},{"refs":[{"id":"ref-for-content-edge\u2460"}],"title":"2.1. Box-edge Keywords"},{"refs":[{"id":"ref-for-content-edge\u2461"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"#content-edge"},
@@ -2455,7 +2452,6 @@ let dfnPanelData = {
 "f005b2f6": {"dfnID":"f005b2f6","dfnText":"grid container","external":true,"refSections":[{"refs":[{"id":"ref-for-grid-container"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-grid-2/#grid-container"},
 "f4a5f1c1": {"dfnID":"f4a5f1c1","dfnText":"inline-end","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-end"},{"id":"ref-for-inline-end\u2460"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#inline-end"},
 "f5eca8c9": {"dfnID":"f5eca8c9","dfnText":"background","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background"}],"title":"2. The CSS Box Model"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background"},
-"ff72fec7": {"dfnID":"ff72fec7","dfnText":"object bounding box","external":true,"refSections":[{"refs":[{"id":"ref-for-TermObjectBoundingBox"}],"title":"2.1. Box-edge Keywords"}],"url":"https://svgwg.org/svg2-draft/coords.html#TermObjectBoundingBox"},
 "inner-edge": {"dfnID":"inner-edge","dfnText":"inner edge","external":false,"refSections":[{"refs":[{"id":"ref-for-inner-edge"},{"id":"ref-for-inner-edge\u2460"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"#inner-edge"},
 "margin": {"dfnID":"margin","dfnText":"Margins","external":false,"refSections":[{"refs":[{"id":"ref-for-margin"}],"title":"3.1. Page-relative (Physical) Margin Properties: the margin-top, margin-right, margin-bottom, and margin-left properties"},{"refs":[{"id":"ref-for-margin\u2460"},{"id":"ref-for-margin\u2461"}],"title":"3.3. Margins at Container Edges: the margin-trim property"}],"url":"#margin"},
 "margin-area": {"dfnID":"margin-area","dfnText":"margin areas","external":false,"refSections":[{"refs":[{"id":"ref-for-margin-area"}],"title":"2. The CSS Box Model"},{"refs":[{"id":"ref-for-margin-area\u2460"}],"title":"3. Margins"}],"url":"#margin-area"},
@@ -2996,9 +2992,9 @@ let refsData = {
 "https://drafts.csswg.org/css-display-4/#containing-block": {"displayText":"containing block","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"containing block","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#containing-block"},
 "https://drafts.csswg.org/css-display-4/#internal-table-element": {"displayText":"internal table element","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"internal table element","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#internal-table-element"},
 "https://drafts.csswg.org/css-display-4/#replaced-element": {"displayText":"replaced element","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"replaced element","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#replaced-element"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-container": {"displayText":"flex container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex container","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-container"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-container": {"displayText":"flex container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex container","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-container"},
 "https://drafts.csswg.org/css-grid-2/#grid-container": {"displayText":"grid container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-grid","spec":"css-grid-2","status":"current","text":"grid container","type":"dfn","url":"https://drafts.csswg.org/css-grid-2/#grid-container"},
-"https://drafts.csswg.org/css-multicol-1/#multi-column-container": {"displayText":"multi-column container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"multi-column container","type":"dfn","url":"https://drafts.csswg.org/css-multicol-1/#multi-column-container"},
+"https://drafts.csswg.org/css-multicol-2/#multi-column-container": {"displayText":"multi-column container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"multi-column container","type":"dfn","url":"https://drafts.csswg.org/css-multicol-2/#multi-column-container"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter": {"displayText":"::first-letter","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::first-letter","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line": {"displayText":"::first-line","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::first-line","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line"},
 "https://drafts.csswg.org/css-ruby-1/#ruby-annotation-container-box": {"displayText":"ruby annotation container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-ruby","spec":"css-ruby-1","status":"current","text":"ruby annotation container","type":"dfn","url":"https://drafts.csswg.org/css-ruby-1/#ruby-annotation-container-box"},
@@ -3021,10 +3017,10 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-4/#logical-width": {"displayText":"logical width","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"logical width","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#logical-width"},
 "https://drafts.csswg.org/css-writing-modes-4/#physical": {"displayText":"physical","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"physical","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#physical"},
 "https://drafts.csswg.org/css-writing-modes-4/#writing-mode": {"displayText":"writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"writing mode","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#writing-mode"},
-"https://svgwg.org/svg2-draft/coords.html#TermObjectBoundingBox": {"displayText":"object bounding box","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"object bounding box","type":"dfn","url":"https://svgwg.org/svg2-draft/coords.html#TermObjectBoundingBox"},
-"https://svgwg.org/svg2-draft/coords.html#TermSVGViewport": {"displayText":"SVG viewports","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg viewports","type":"dfn","url":"https://svgwg.org/svg2-draft/coords.html#TermSVGViewport"},
-"https://svgwg.org/svg2-draft/coords.html#TermStrokeBoundingBox": {"displayText":"stroke bounding box","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"stroke bounding box","type":"dfn","url":"https://svgwg.org/svg2-draft/coords.html#TermStrokeBoundingBox"},
-"https://www.w3.org/TR/CSS21/intro.html#canvas": {"displayText":"canvas","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"canvas","type":"dfn","url":"https://www.w3.org/TR/CSS21/intro.html#canvas"},
+"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermCanvas": {"displayText":"canvas","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"canvas","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermCanvas"},
+"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermObjectBoundingBox": {"displayText":"object bounding box","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"object bounding box","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermObjectBoundingBox"},
+"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermSVGViewport": {"displayText":"SVG viewports","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg viewports","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermSVGViewport"},
+"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermStrokeBoundingBox": {"displayText":"stroke bounding box","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"stroke bounding box","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/coords.html#TermStrokeBoundingBox"},
 };
 
 function mkRefHint(link, ref) {

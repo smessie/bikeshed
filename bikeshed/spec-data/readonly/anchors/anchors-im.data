@@ -10,6 +10,42 @@ https://fetch.spec.whatwg.org/#dom-requestdestination-image
 1
 RequestDestination
 -
+"image"
+"image"
+enum-value
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelmessagetype-image
+1
+1
+LanguageModelMessageType
+-
+"immediate"
+"immediate"
+enum-value
+credential-management-1
+credential-management
+1
+current
+https://w3c.github.io/webappsec-credential-management/#dom-credentialuimode-immediate
+1
+1
+CredentialUiMode
+-
+"immediate"
+"immediate"
+enum-value
+credential-management-1
+credential-management
+1
+snapshot
+https://www.w3.org/TR/credential-management-1/#dom-credentialuimode-immediate
+1
+1
+CredentialUiMode
+-
 "immersive-ar"
 "immersive-ar"
 enum-value
@@ -153,11 +189,11 @@ https://www.w3.org/TR/css-images-4/#typedef-image-set-option
 <image-src>
 <image-src>
 type
-css-images-4
+css-images-5
 css-images
-4
+5
 current
-https://drafts.csswg.org/css-images-4/#typedef-image-src
+https://drafts.csswg.org/css-images-5/#typedef-image-src
 1
 1
 -
@@ -175,11 +211,11 @@ https://www.w3.org/TR/css-images-4/#typedef-image-src
 <image-tags>
 <image-tags>
 type
-css-images-4
+css-images-5
 css-images
-4
+5
 current
-https://drafts.csswg.org/css-images-4/#typedef-image-tags
+https://drafts.csswg.org/css-images-5/#typedef-image-tags
 1
 1
 -
@@ -384,9 +420,20 @@ https://drafts.csswg.org/css-cascade-5/#at-ruledef-import
 @import
 @import
 at-rule
-css22
-css
+css-cascade-6
+css-cascade
+6
+current
+https://drafts.csswg.org/css-cascade-6/#at-ruledef-import
 1
+1
+-
+@import
+@import
+at-rule
+css2
+css
+2
 current
 https://drafts.csswg.org/css2/#at-ruledef-import
 1
@@ -397,20 +444,9 @@ https://drafts.csswg.org/css2/#at-ruledef-import
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/cascade.html#x7
-1
-1
--
-@import
-@import
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/cascade.html#x7
+https://www.w3.org/TR/CSS2/cascade.html#x7
 1
 1
 -
@@ -493,6 +529,116 @@ https://www.w3.org/TR/cssom-1/#dom-cssrule-import_rule
 1
 CSSRule
 -
+imsc 1.1 image
+IMSC 1.1 Image
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-imsc-1-1-image
+
+1
+-
+imsc 1.1 image
+IMSC 1.1 Image
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-imsc-1-1-image
+
+1
+-
+imsc 1.2 text
+IMSC 1.2 Text
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-imsc-1-2-text
+
+1
+-
+imsc 1.2 text
+IMSC 1.2 Text
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-imsc-1-2-text
+
+1
+-
+imsc document instance
+IMSC Document Instance
+dfn
+imsc-hrm
+imsc-hrm
+1
+current
+https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html#dfn-imsc-document-instance
+
+1
+-
+imsc document instance
+IMSC Document Instance
+dfn
+imsc-hrm
+imsc-hrm
+1
+snapshot
+https://www.w3.org/TR/imsc-hrm/#dfn-imsc-document-instance
+
+1
+-
+imsc extension
+IMSC Extension
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-imsc-extension
+
+1
+-
+imsc extension
+IMSC Extension
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-imsc-extension
+
+1
+-
+imsc extension
+IMSC Extension
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-imsc-extension
+
+1
+-
+imsc extension
+IMSC Extension
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-imsc-extension
+
+1
+-
 image button
 Image Button
 element-state
@@ -505,25 +651,69 @@ https://html.spec.whatwg.org/multipage/input.html#image-button-state-(type%3Dima
 1
 input
 -
-image copy
-image copy
+image profile
+Image Profile
 dfn
-webgpu
-webgpu
+ttml-imsc1.2
+ttml-imsc
 1
 current
-https://gpuweb.github.io/gpuweb/#image-copy
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-profile
 
 1
 -
-image copy
-image copy
+image profile
+Image Profile
 dfn
-webgpu
-webgpu
+ttml-imsc1.2
+ttml-imsc
 1
 snapshot
-https://www.w3.org/TR/webgpu/#image-copy
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-profile
+
+1
+-
+image profile presentation processor
+Image Profile presentation processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-profile-presentation-processor
+
+1
+-
+image profile presentation processor
+Image Profile presentation processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-profile-presentation-processor
+
+1
+-
+image profile transformation processor
+Image Profile transformation processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-profile-transformation-processor
+
+1
+-
+image profile transformation processor
+Image Profile transformation processor
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-profile-transformation-processor
 
 1
 -
@@ -701,7 +891,29 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/canvas.html#imagedata
+https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagedata
+1
+1
+-
+ImageDataArray
+ImageDataArray
+typedef
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagedataarray
+1
+1
+-
+ImageDataPixelFormat
+ImageDataPixelFormat
+enum
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagedatapixelformat
 1
 1
 -
@@ -712,7 +924,7 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/canvas.html#imagedatasettings
+https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#imagedatasettings
 1
 1
 -
@@ -949,6 +1161,28 @@ https://www.w3.org/TR/webgpu/#immutable-value-example-term
 
 
 -
+implementation
+implementation
+dfn
+act-rules-format-1.1
+act-rules-format
+1
+current
+https://w3c.github.io/wcag-act/act-rules-format.html#implementation
+
+1
+-
+implementation
+implementation
+dfn
+act-rules-format-1.1
+act-rules-format
+1
+snapshot
+https://www.w3.org/TR/act-rules-format-1.1/#implementation
+
+1
+-
 implicit consent
 implicit consent
 dfn
@@ -974,11 +1208,22 @@ https://www.w3.org/TR/webxr/#implicit-consent
 implicit pointer capture
 implicit pointer capture
 dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-implicit-pointer-capture
+
+1
+-
+implicit pointer capture
+implicit pointer capture
+dfn
 pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-implicit-pointer-capture
+https://www.w3.org/TR/pointerevents3/#dfn-implicit-pointer-capture
 
 1
 -
@@ -993,12 +1238,23 @@ https://www.w3.org/TR/pointerevents3/#dfn-implicit-pointer-capture
 
 1
 -
+implicit pointer capture
+implicit pointer capture
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-implicit-pointer-capture
+
+1
+-
 implicit release of pointer capture
 implicit release of pointer capture
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-implicitly-release-the-pointer-capture
 
@@ -1010,8 +1266,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-implicitly-release-the-pointer-capture
+
+1
+-
+implicit release of pointer capture
+implicit release of pointer capture
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-implicitly-release-the-pointer-capture
+
+1
+-
+implicit release of pointer capture
+implicit release of pointer capture
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-implicitly-release-the-pointer-capture
 
 1
 -
@@ -1037,15 +1315,72 @@ https://drafts.csswg.org/css-cascade-5/#import-conditions
 1
 1
 -
+import conditions
+import conditions
+dfn
+css-cascade-6
+css-cascade
+6
+current
+https://drafts.csswg.org/css-cascade-6/#import-conditions
+1
+1
+-
 importattribute record
 ImportAttribute Record
 dfn
-tc39-import-attributes
-tc39-import-attributes
+ecmascript
+ecmascript
 1
 current
-https://tc39.es/proposal-import-attributes/#importattribute-record
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#importattribute-record
 1
+1
+ECMAScript
+-
+importattribute records
+ImportAttribute Records
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#importattribute-record
+1
+1
+ECMAScript
+-
+importcall
+ImportCall
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportCall
+
+1
+-
+importclause
+ImportClause
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ImportClause
+
+1
+-
+importdeclaration
+ImportDeclaration
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ImportDeclaration
+
 1
 -
 importentry record
@@ -1059,17 +1394,6 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#i
 1
 1
 ECMAScript
--
-importentry record
-ImportEntry Record
-dfn
-tc39-import-attributes
-tc39-import-attributes
-1
-current
-https://tc39.es/proposal-import-attributes/#importentry-record
-1
-1
 -
 importentry record
 ImportEntry Record
@@ -1115,6 +1439,144 @@ snapshot
 https://www.w3.org/TR/wasm-js-api-2/#enumdef-importexportkind
 1
 1
+-
+importmeta
+ImportMeta
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta
+
+1
+-
+ImportNodeOptions
+ImportNodeOptions
+dictionary
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#dictdef-importnodeoptions
+1
+1
+-
+importspecifier
+ImportSpecifier
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ImportSpecifier
+
+1
+-
+importedbinding
+ImportedBinding
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ImportedBinding
+
+1
+-
+importeddefaultbinding
+ImportedDefaultBinding
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ImportedDefaultBinding
+
+1
+-
+importslist
+ImportsList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ImportsList
+
+1
+-
+impression callers
+Impression Callers
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#validated-conversion-options-impression-callers
+
+1
+validated conversion options
+-
+impression callers
+Impression Callers
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-impression-callers
+
+1
+validated conversion options
+-
+impression site
+Impression Site
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-impression-site
+
+1
+impression
+-
+impression site
+Impression Site
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-impression-site
+
+1
+impression
+-
+impression sites
+Impression Sites
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#validated-conversion-options-impression-sites
+
+1
+validated conversion options
+-
+impression sites
+Impression Sites
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-impression-sites
+
+1
+validated conversion options
 -
 [[ImageDecoder]]
 [[ImageDecoder]]
@@ -1191,7 +1653,7 @@ ImageTrack
 [[imag]]
 [[imag]]
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1203,14 +1665,110 @@ PeriodicWave
 [[imag]]
 [[imag]]
 attribute
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-periodicwave-imag-slot
+current
+https://webaudio.github.io/web-audio-api/#dom-periodicwave-imag-slot
 1
 1
 PeriodicWave
+-
+[[imag]]
+[[imag]]
+attribute
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-periodicwave-imag-slot
+1
+1
+PeriodicWave
+-
+[[imag]]
+[[imag]]
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-periodicwave-imag-slot
+1
+1
+PeriodicWave
+-
+[[immediateSize]]
+[[immediateSize]]
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpupipelinelayout-immediatesize-slot
+1
+1
+GPUPipelineLayout
+-
+[[immediateSize]]
+[[immediateSize]]
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpupipelinelayout-immediatesize-slot
+1
+1
+GPUPipelineLayout
+-
+[[immediate_data]]
+[[immediate_data]]
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-immediate_data-slot
+1
+1
+GPUBindingCommandsMixin
+-
+[[immediate_data]]
+[[immediate_data]]
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpubindingcommandsmixin-immediate_data-slot
+1
+1
+GPUBindingCommandsMixin
+-
+[[immediate_slots_set]]
+[[immediate_slots_set]]
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-immediate_slots_set-slot
+1
+1
+GPUBindingCommandsMixin
+-
+[[immediate_slots_set]]
+[[immediate_slots_set]]
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpubindingcommandsmixin-immediate_slots_set-slot
+1
+1
+GPUBindingCommandsMixin
 -
 [[implementation]]
 [[implementation]]
@@ -1239,7 +1797,7 @@ MLGraph
 imag
 imag
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1251,7 +1809,32 @@ BaseAudioContext/createPeriodicWave()
 imag
 imag
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createperiodicwave-imag
+1
+1
+BaseAudioContext/createPeriodicWave()
+-
+imag
+imag
+argument
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createperiodicwave-real-imag-constraints-imag
+1
+1
+BaseAudioContext/createPeriodicWave(real, imag, constraints)
+BaseAudioContext/createPeriodicWave(real, imag)
+-
+imag
+imag
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -1264,7 +1847,19 @@ BaseAudioContext/createPeriodicWave(real, imag)
 imag
 imag
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-periodicwaveoptions-imag
+1
+1
+PeriodicWaveOptions
+-
+imag
+imag
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -1276,11 +1871,11 @@ PeriodicWaveOptions
 imag
 imag
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createperiodicwave-imag
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createperiodicwave-imag
 1
 1
 BaseAudioContext/createPeriodicWave()
@@ -1288,11 +1883,11 @@ BaseAudioContext/createPeriodicWave()
 imag
 imag
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createperiodicwave-real-imag-constraints-imag
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createperiodicwave-real-imag-constraints-imag
 1
 1
 BaseAudioContext/createPeriodicWave(real, imag, constraints)
@@ -1301,11 +1896,48 @@ BaseAudioContext/createPeriodicWave(real, imag)
 imag
 imag
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-periodicwaveoptions-imag
+https://www.w3.org/TR/webaudio-1.0/#dom-periodicwaveoptions-imag
+1
+1
+PeriodicWaveOptions
+-
+imag
+imag
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createperiodicwave-imag
+1
+1
+BaseAudioContext/createPeriodicWave()
+-
+imag
+imag
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createperiodicwave-real-imag-constraints-imag
+1
+1
+BaseAudioContext/createPeriodicWave(real, imag, constraints)
+BaseAudioContext/createPeriodicWave(real, imag)
+-
+imag
+imag
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-periodicwaveoptions-imag
 1
 1
 PeriodicWaveOptions
@@ -1353,8 +1985,19 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/embedded.html#elementdef-image
+https://w3c.github.io/svgwg/svg2-draft/embedded.html#elementdef-image
 1
+1
+-
+image
+image
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-image
+
 1
 -
 image
@@ -1433,6 +2076,17 @@ https://www.w3.org/TR/SVG2/embedded.html#elementdef-image
 -
 image
 image
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-image
+
+1
+-
+image
+image
 dict-member
 webcodecs
 webcodecs
@@ -1489,6 +2143,18 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#captured-element-image-animation-name-rule
+
+1
+captured element
+-
+image animation name rule
+image animation name rule
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#captured-element-image-animation-name-rule
 
 1
 captured element
@@ -1605,6 +2271,28 @@ https://html.spec.whatwg.org/multipage/image-maps.html#image-map
 
 1
 -
+image of text
+image of text
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-images-of-text
+
+
+-
+image of text
+image of text
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-images-of-text
+
+
+-
 image pair isolation rule
 image pair isolation rule
 dfn
@@ -1613,6 +2301,18 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#captured-element-image-pair-isolation-rule
+
+1
+captured element
+-
+image pair isolation rule
+image pair isolation rule
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#captured-element-image-pair-isolation-rule
 
 1
 captured element
@@ -1696,6 +2396,50 @@ https://www.w3.org/TR/image-resource/#dfn-image-resource
 1
 1
 -
+image resource
+image resource
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-resource
+
+1
+-
+image resource
+image resource
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-image-resource
+
+1
+-
+image role
+image role
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-image-role
+
+1
+-
+image role
+image role
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-image-role
+
+1
+-
 image source
 image source
 dfn
@@ -1704,6 +2448,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/images.html#image-source
+
+1
+-
+image type
+image type
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-image-type
+
+1
+-
+image type
+image type
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-image-type
 
 1
 -
@@ -1732,11 +2498,44 @@ https://drafts.csswg.org/css-images-4/#funcdef-image
 image()
 image()
 function
+css-images-5
+css-images
+5
+current
+https://drafts.csswg.org/css-images-5/#funcdef-image
+1
+1
+-
+image()
+image()
+function
 css-images-4
 css-images
 4
 snapshot
 https://www.w3.org/TR/css-images-4/#funcdef-image
+1
+1
+-
+image-animation
+image-animation
+property
+css-image-animation-1
+css-image-animation
+1
+current
+https://drafts.csswg.org/css-image-animation-1/#propdef-image-animation
+1
+1
+-
+image-animation
+image-animation
+property
+css-image-animation-1
+css-image-animation
+1
+snapshot
+https://www.w3.org/TR/css-image-animation-1/#propdef-image-animation
 1
 1
 -
@@ -1780,7 +2579,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#ImageRenderingProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#ImageRenderingProperty
 1
 1
 -
@@ -1813,7 +2612,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/embedded.html#TermImageRenderingRectangle
+https://w3c.github.io/svgwg/svg2-draft/embedded.html#TermImageRenderingRectangle
 1
 1
 -
@@ -1913,28 +2712,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/indices.html#image%2Fsvg%2Bxml
-
-1
--
-imagecopytexture physical subresource size
-imageCopyTexture physical subresource size
-dfn
-webgpu
-webgpu
-1
-current
-https://gpuweb.github.io/gpuweb/#imagecopytexture-physical-subresource-size
-
-1
--
-imagecopytexture physical subresource size
-imageCopyTexture physical subresource size
-dfn
-webgpu
-webgpu
-1
-snapshot
-https://www.w3.org/TR/webgpu/#imagecopytexture-physical-subresource-size
 
 1
 -
@@ -2154,6 +2931,28 @@ https://html.spec.whatwg.org/multipage/dom.html#dom-document-images
 1
 Document
 -
+images of text
+images of text
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-images-of-text
+
+
+-
+images of text
+images of text
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-images-of-text
+
+
+-
 images pending rendering
 images pending rendering
 dfn
@@ -2233,6 +3032,87 @@ https://www.w3.org/TR/CSP3/#img-src
 1
 1
 -
+immediate
+immediate
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#address-spaces-immediate
+
+1
+address spaces
+-
+immediate
+immediate
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-eagerness-immediate
+
+1
+-
+immediate
+immediate
+enum-value
+credential-management-1
+credential-management
+1
+current
+https://w3c.github.io/webappsec-credential-management/#dom-credentialuimode-immediate
+1
+1
+CredentialUiMode
+-
+immediate
+immediate
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#address-spaces-immediate
+
+1
+address spaces
+-
+immediate
+immediate
+enum-value
+credential-management-1
+credential-management
+1
+snapshot
+https://www.w3.org/TR/credential-management-1/#dom-credentialuimode-immediate
+1
+1
+CredentialUiMode
+-
+immediate data
+immediate data
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#immediate-data
+
+1
+-
+immediate data
+immediate data
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#immediate-data
+
+1
+-
 immediate pipeline creation
 immediate pipeline creation
 dfn
@@ -2265,6 +3145,54 @@ current
 https://html.spec.whatwg.org/multipage/dnd.html#immediate-user-selection
 
 1
+-
+immediateSize
+immediateSize
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpupipelinelayoutdescriptor-immediatesize
+1
+1
+GPUPipelineLayoutDescriptor
+-
+immediateSize
+immediateSize
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpupipelinelayoutdescriptor-immediatesize
+1
+1
+GPUPipelineLayoutDescriptor
+-
+immediate_address_space
+immediate_address_space
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#language_extension-immediate_address_space
+
+1
+language_extension
+-
+immediate_address_space
+immediate_address_space
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#language_extension-immediate_address_space
+
+1
+language_extension
 -
 immediately
 immediately
@@ -2528,6 +3456,17 @@ https://tc39.es/ecma262/multipage/overview.html#implementation-defined
 1
 ECMAScript
 -
+implementation-defined limit for values approaching infinity
+implementation-defined limit for values approaching infinity
+dfn
+css-values-4
+css-values
+4
+current
+https://drafts.csswg.org/css-values-4/#implementation-defined-limit-for-values-approaching-infinity
+1
+1
+-
 implementation-defined memory measurement
 implementation-defined memory measurement
 dfn
@@ -2539,6 +3478,30 @@ https://wicg.github.io/performance-measure-memory/#implementation-defined-memory
 
 1
 -
+implementation-defined presentation time
+implementation-defined presentation time
+dfn
+paint-timing
+paint-timing
+1
+current
+https://w3c.github.io/paint-timing/#paint-timing-info-implementation-defined-presentation-time
+
+1
+paint timing info
+-
+implementation-defined presentation time
+implementation-defined presentation time
+dfn
+paint-timing
+paint-timing
+1
+snapshot
+https://www.w3.org/TR/paint-timing/#paint-timing-info-implementation-defined-presentation-time
+
+1
+paint timing info
+-
 implements
 implements
 dfn
@@ -2548,6 +3511,28 @@ webidl
 current
 https://webidl.spec.whatwg.org/#implements
 1
+1
+-
+implicit api inputs
+implicit API inputs
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#implicit-api-inputs
+
+1
+-
+implicit api inputs
+implicit API inputs
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#implicit-api-inputs
+
 1
 -
 implicit anchor element
@@ -2580,6 +3565,17 @@ css-grid
 2
 current
 https://drafts.csswg.org/css-grid-2/#implicit-grid-span
+1
+1
+-
+implicit column span
+implicit column span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#implicit-grid-span
 1
 1
 -
@@ -2814,6 +3810,17 @@ https://drafts.csswg.org/css-grid-2/#implicit-grid-span
 1
 1
 -
+implicit grid span
+implicit grid span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#implicit-grid-span
+1
+1
+-
 implicit grid track
 implicit grid track
 dfn
@@ -2917,6 +3924,17 @@ https://drafts.csswg.org/css-grid-2/#implicit-grid-span
 1
 1
 -
+implicit row span
+implicit row span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#implicit-grid-span
+1
+1
+-
 implicit signals
 implicit signals
 dfn
@@ -2947,6 +3965,17 @@ css-grid
 2
 current
 https://drafts.csswg.org/css-grid-2/#implicit-grid-span
+1
+1
+-
+implicit span
+implicit span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#implicit-grid-span
 1
 1
 -
@@ -2981,7 +4010,7 @@ hr-time-3
 hr-time
 3
 current
-https://w3c.github.io/hr-time/#dfn-implicitly-convert-a-duration-to-a-timestamp
+https://w3c.github.io/hr-time/#implicitly-convert-a-duration-to-a-timestamp
 
 1
 -
@@ -2992,20 +4021,9 @@ hr-time-3
 hr-time
 3
 snapshot
-https://www.w3.org/TR/hr-time-3/#dfn-implicitly-convert-a-duration-to-a-timestamp
+https://www.w3.org/TR/hr-time-3/#implicitly-convert-a-duration-to-a-timestamp
 
 1
--
-implicitly named graph
-implicitly named graph
-dfn
-json-ld11
-json-ld
-1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-implicitly-named-graph
-
-
 -
 implicitly named graph
 implicitly named graph
@@ -3032,11 +4050,22 @@ https://html.spec.whatwg.org/multipage/urls-and-fetching.html#implicitly-potenti
 implicitly release the pointer capture
 implicitly release the pointer capture
 dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-implicitly-release-the-pointer-capture
+
+1
+-
+implicitly release the pointer capture
+implicitly release the pointer capture
+dfn
 pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-implicitly-release-the-pointer-capture
+https://www.w3.org/TR/pointerevents3/#dfn-implicitly-release-the-pointer-capture
 
 1
 -
@@ -3051,12 +4080,23 @@ https://www.w3.org/TR/pointerevents3/#dfn-implicitly-release-the-pointer-capture
 
 1
 -
+implicitly release the pointer capture
+implicitly release the pointer capture
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-implicitly-release-the-pointer-capture
+
+1
+-
 implicitly releasing pointer capture
 implicitly releasing pointer capture
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-implicitly-release-the-pointer-capture
 
@@ -3068,8 +4108,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-implicitly-release-the-pointer-capture
+
+1
+-
+implicitly releasing pointer capture
+implicitly releasing pointer capture
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-implicitly-release-the-pointer-capture
+
+1
+-
+implicitly releasing pointer capture
+implicitly releasing pointer capture
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-implicitly-release-the-pointer-capture
 
 1
 -
@@ -3256,7 +4318,7 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/webappapis.html#concept-window-import-map
+https://html.spec.whatwg.org/multipage/webappapis.html#concept-global-import-map
 
 1
 -
@@ -3304,17 +4366,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#import-map-parse-result
 
 1
 -
-import maps allowed
-import maps allowed
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/webappapis.html#import-maps-allowed
-
-1
--
 import scripts into worker global scope
 import scripts into worker global scope
 dfn
@@ -3350,23 +4401,36 @@ https://www.w3.org/TR/webgpu/#dom-gpudevice-importexternaltexture
 1
 GPUDevice
 -
-importkey
-importKey
-dfn
-webcryptoapi
-webcryptoapi
+importKey()
+importKey()
+method
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-importKey
 1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-importKey
-
 1
+SubtleCrypto
 -
 importKey()
 importKey()
 method
-webcryptoapi
-webcryptoapi
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-importKey
 1
+1
+SubtleCrypto
+-
+importKey(format, keyData, algorithm, extractable, keyUsages)
+importKey(format, keyData, algorithm, extractable, keyUsages)
+method
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-importKey
 1
@@ -3376,11 +4440,11 @@ SubtleCrypto
 importKey(format, keyData, algorithm, extractable, keyUsages)
 importKey(format, keyData, algorithm, extractable, keyUsages)
 method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-importKey
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-importKey
 1
 1
 SubtleCrypto
@@ -3397,8 +4461,8 @@ https://dom.spec.whatwg.org/#dom-document-importnode
 1
 Document
 -
-importNode(node, deep)
-importNode(node, deep)
+importNode(node, options)
+importNode(node, options)
 method
 dom
 dom
@@ -3431,9 +4495,10 @@ wasm-js-api-2
 wasm-js-api
 2
 current
-https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate-bytes-importobject-importobject
+https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate-bytes-importobject-options-importobject
 1
 1
+WebAssembly/instantiate(bytes, importObject, options)
 WebAssembly/instantiate(bytes, importObject)
 WebAssembly/instantiate(bytes)
 -
@@ -3457,9 +4522,10 @@ wasm-web-api-2
 wasm-web-api
 2
 current
-https://webassembly.github.io/spec/web-api/#dom-webassembly-instantiatestreaming-source-importobject-importobject
+https://webassembly.github.io/spec/web-api/#dom-webassembly-instantiatestreaming-source-importobject-options-importobject
 1
 1
+WebAssembly/instantiateStreaming(source, importObject, options)
 WebAssembly/instantiateStreaming(source, importObject)
 WebAssembly/instantiateStreaming(source)
 -
@@ -3485,9 +4551,10 @@ wasm-js-api-2
 wasm-js-api
 2
 snapshot
-https://www.w3.org/TR/wasm-js-api-2/#dom-webassembly-instantiate-bytes-importobject-importobject
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassembly-instantiate-bytes-importobject-options-importobject
 1
 1
+WebAssembly/instantiate(bytes, importObject, options)
 WebAssembly/instantiate(bytes, importObject)
 WebAssembly/instantiate(bytes)
 -
@@ -3511,9 +4578,10 @@ wasm-web-api-2
 wasm-web-api
 2
 snapshot
-https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-importobject
+https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-options-importobject
 1
 1
+WebAssembly/instantiateStreaming(source, importObject, options)
 WebAssembly/instantiateStreaming(source, importObject)
 WebAssembly/instantiateStreaming(source)
 -
@@ -3661,7 +4729,7 @@ cssom
 1
 current
 https://drafts.csswg.org/cssom-1/#css-declaration-important-flag
-
+1
 1
 CSS declaration
 -
@@ -3677,6 +4745,30 @@ https://www.w3.org/TR/cssom-1/#css-declaration-important-flag
 1
 CSS declaration
 -
+importedStringConstants
+importedStringConstants
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-webassemblycompileoptions-importedstringconstants
+1
+1
+WebAssemblyCompileOptions
+-
+importedStringConstants
+importedStringConstants
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassemblycompileoptions-importedstringconstants
+1
+1
+WebAssemblyCompileOptions
+-
 imports
 imports
 dfn
@@ -3685,6 +4777,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/webappapis.html#concept-import-map-imports
+
+1
+-
+imports
+imports
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-rule-imports
+
+1
+-
+imports
+imports
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-rule-imports
 
 1
 -
@@ -3740,6 +4854,212 @@ current
 https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-impp
 
 1
+-
+impression
+impression
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression
+
+1
+-
+impression
+impression
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression
+
+1
+-
+impression site
+impression site
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-site
+
+1
+-
+impression site
+impression site
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-site
+
+1
+-
+impression site quota per epoch
+impression site quota per epoch
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-site-quota-per-epoch
+
+1
+-
+impression site quota per epoch
+impression site quota per epoch
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-site-quota-per-epoch
+
+1
+-
+impression site quota store
+impression site quota store
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-site-quota-store
+
+1
+-
+impression site quota store
+impression site quota store
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-site-quota-store
+
+1
+-
+impression store
+impression store
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#impression-store
+
+1
+-
+impression store
+impression store
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-store
+
+1
+-
+impression-callers
+impression-callers
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#measure-conversion-impression-callers
+
+1
+measure-conversion
+-
+impression-callers
+impression-callers
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-impression-callers
+
+1
+measure-conversion
+-
+impression-sites
+impression-sites
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#measure-conversion-impression-sites
+
+1
+measure-conversion
+-
+impression-sites
+impression-sites
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-impression-sites
+
+1
+measure-conversion
+-
+impressionCallers
+impressionCallers
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-impressioncallers
+1
+1
+AttributionConversionOptions
+-
+impressionCallers
+impressionCallers
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-impressioncallers
+1
+1
+AttributionConversionOptions
+-
+impressionSites
+impressionSites
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-impressionsites
+1
+1
+AttributionConversionOptions
+-
+impressionSites
+impressionSites
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-impressionsites
+1
+1
+AttributionConversionOptions
 -
 imul(x, y)
 imul(x, y)

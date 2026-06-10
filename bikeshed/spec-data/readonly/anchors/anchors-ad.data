@@ -25,6 +25,42 @@ GPUBlendOperation
 -
 "add"
 "add"
+cddl-value
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulatecharacteristicparameters-type-add
+
+1
+bluetooth.SimulateCharacteristicParameters/type
+-
+"add"
+"add"
+cddl-value
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulatedescriptorparameters-type-add
+
+1
+bluetooth.SimulateDescriptorParameters/type
+-
+"add"
+"add"
+cddl-value
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulateserviceparameters-type-add
+
+1
+bluetooth.SimulateServiceParameters/type
+-
+"add"
+"add"
 enum-value
 web-animations-1
 web-animations
@@ -86,6 +122,138 @@ ContactProperty
 -
 "address"
 "address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothcharacteristiceventgeneratedparameters-address
+
+1
+bluetooth.CharacteristicEventGeneratedParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothdescriptoreventgeneratedparameters-address
+
+1
+bluetooth.DescriptorEventGeneratedParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothgattconnectionattemptedparameters-address
+
+1
+bluetooth.GattConnectionAttemptedParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatecharacteristicparameters-address
+
+1
+bluetooth.SimulateCharacteristicParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatecharacteristicresponseparameters-address
+
+1
+bluetooth.SimulateCharacteristicResponseParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatedescriptorparameters-address
+
+1
+bluetooth.SimulateDescriptorParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatedescriptorresponseparameters-address
+
+1
+bluetooth.SimulateDescriptorResponseParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulategattconnectionresponseparameters-address
+
+1
+bluetooth.SimulateGattConnectionResponseParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulategattdisconnectionparameters-address
+
+1
+bluetooth.SimulateGattDisconnectionParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatepreconnectedperipheralparameters-address
+
+1
+bluetooth.SimulatePreconnectedPeripheralParameters
+-
+"address"
+"address"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulateserviceparameters-address
+
+1
+bluetooth.SimulateServiceParameters
+-
+"address"
+"address"
 enum-value
 contact-picker
 contact-picker
@@ -129,105 +297,6 @@ web-bluetooth
 current
 https://webbluetoothcg.github.io/web-bluetooth/#ad-structure
 
-1
--
-ad-auction-additional-bid
-Ad-Auction-Additional-Bid
-http-header
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#http-headerdef-ad-auction-additional-bid
-1
-1
--
-ad-auction-allow-trusted-scoring-signals-from
-Ad-Auction-Allow-Trusted-Scoring-Signals-From
-http-header
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#http-headerdef-ad-auction-allow-trusted-scoring-signals-from
-1
-1
--
-ad-auction-allowed
-Ad-Auction-Allowed
-http-header
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#http-headerdef-ad-auction-allowed
-1
-1
--
-ad-auction-result
-Ad-Auction-Result
-http-header
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#http-headerdef-ad-auction-result
-1
-1
--
-ad-auction-signals
-Ad-Auction-Signals
-http-header
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#http-headerdef-ad-auction-signals
-1
-1
--
-AdAuctionData
-AdAuctionData
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-adauctiondata
-1
-1
--
-AdAuctionDataBuyerConfig
-AdAuctionDataBuyerConfig
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-adauctiondatabuyerconfig
-1
-1
--
-AdAuctionDataConfig
-AdAuctionDataConfig
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-adauctiondataconfig
-1
-1
--
-AdRender
-AdRender
-dictionary
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dictdef-adrender
-1
 1
 -
 Add
@@ -298,6 +367,30 @@ https://www.w3.org/TR/webauthn-3/#add-credential
 
 1
 -
+add rotations
+Add Rotations
+dfn
+webcodecs
+webcodecs
+1
+current
+https://w3c.github.io/webcodecs/#videoframe-add-rotations
+
+1
+VideoFrame
+-
+add rotations
+Add Rotations
+dfn
+webcodecs
+webcodecs
+1
+snapshot
+https://www.w3.org/TR/webcodecs/#videoframe-add-rotations
+
+1
+VideoFrame
+-
 add virtual authenticator
 Add Virtual Authenticator
 dfn
@@ -364,8 +457,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-AddRestrictedFunctionProperties(F, realm)
-AddRestrictedFunctionProperties(F, realm)
+AddRestrictedFunctionProperties(func, realm)
+AddRestrictedFunctionProperties(func, realm)
 abstract-op
 ecmascript
 ecmascript
@@ -442,8 +535,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-addwaiter
 1
 1
 -
-AddWaiter(WL, waiterRecord)
-AddWaiter(WL, waiterRecord)
+AddWaiter(waiterList, waiterRecord)
+AddWaiter(waiterList, waiterRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -451,6 +544,17 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/structured-data.html#sec-addwaiter
 1
+1
+-
+additiveexpression
+AdditiveExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-AdditiveExpression
+
 1
 -
 AddressErrors
@@ -473,6 +577,72 @@ payment-request
 snapshot
 https://www.w3.org/TR/payment-request/#dom-addresserrors
 1
+1
+-
+AddressType
+AddressType
+enum
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#enumdef-addresstype
+1
+1
+-
+AddressType
+AddressType
+enum
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#enumdef-addresstype
+1
+1
+-
+AddressValue
+AddressValue
+typedef
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#typedefdef-addressvalue
+1
+1
+-
+AddressValue
+AddressValue
+typedef
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#typedefdef-addressvalue
+1
+1
+-
+addressvaluetou64
+AddressValueToU64
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#addressvaluetou64
+
+1
+-
+addressvaluetou64
+AddressValueToU64
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#addressvaluetou64
+
 1
 -
 adjustedradicalkernafterdegree
@@ -526,7 +696,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#adopted-draft
+https://www.w3.org/policies/process/#adopted-draft
 1
 1
 -
@@ -541,8 +711,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-advancestringindex
 1
 1
 -
-AdvanceStringIndex(S, index, unicode)
-AdvanceStringIndex(S, index, unicode)
+AdvanceStringIndex(string, index, unicode)
+AdvanceStringIndex(string, index, unicode)
 abstract-op
 ecmascript
 ecmascript
@@ -570,7 +740,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-board
+https://www.w3.org/policies/process/#advisory-board
 1
 1
 -
@@ -581,7 +751,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-committee
+https://www.w3.org/policies/process/#advisory-committee
 1
 1
 -
@@ -592,7 +762,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-committee-appeal
+https://www.w3.org/policies/process/#advisory-committee-appeal
 1
 1
 -
@@ -603,7 +773,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-committee-representative
+https://www.w3.org/policies/process/#advisory-committee-representative
 1
 1
 -
@@ -614,7 +784,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#advisory-committee-review
+https://www.w3.org/policies/process/#advisory-committee-review
 1
 1
 -
@@ -666,219 +836,6 @@ https://www.w3.org/TR/webgpu/#dom-gpuadapter-adapter-slot
 1
 GPUAdapter
 -
-ad
-ad
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-ad
-1
-1
-GenerateBidOutput
--
-ad
-ad
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-ad
-
-1
-generated bid
--
-ad
-ad
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#previous-win-ad
-
-1
-previous win
--
-ad component urls
-ad component URLs
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#trusted-scoring-signals-request-ad-component-urls
-
-1
-trusted scoring signals request
--
-ad component descriptors
-ad component descriptors
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-ad-component-descriptors
-
-1
-generated bid
--
-ad components
-ad components
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ad-components
-
-1
-interest group
--
-ad components
-ad components
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-ad-components
-
-1
-server auction response
--
-ad cost
-ad cost
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-ad-cost
-
-1
-generated bid
--
-ad descriptor
-ad descriptor
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#ad-descriptor
-
-1
--
-ad descriptor
-ad descriptor
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-ad-descriptor
-
-1
-generated bid
--
-ad keyword replacement
-ad keyword replacement
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#ad-keyword-replacement
-
-1
--
-ad metadata
-ad metadata
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-ad-metadata
-
-1
-server auction response
--
-ad render id
-ad render ID
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ad-ad-render-id
-
-1
-interest group ad
--
-ad render id
-ad render ID
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-previous-win-ad-render-id
-
-1
-server auction previous win
--
-ad render url
-ad render url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-ad-render-url
-
-1
-server auction response
--
-ad size
-ad size
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#ad-size
-
-1
--
-ad sizes
-ad sizes
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ad-sizes
-
-1
-interest group
--
-ad slot
-ad slot
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#direct-from-seller-signals-key-ad-slot
-
-1
-direct from seller signals key
--
 adAuctionComponents(numAdComponents)
 adAuctionComponents(numAdComponents)
 method
@@ -890,126 +847,6 @@ https://wicg.github.io/fenced-frame/#dom-navigator-adauctioncomponents
 1
 1
 Navigator
--
-adAuctionHeaders
-adAuctionHeaders
-attribute
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-htmliframeelement-adauctionheaders
-1
-1
-HTMLIFrameElement
--
-adAuctionHeaders
-adAuctionHeaders
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-requestinit-adauctionheaders
-1
-1
-RequestInit
--
-adComponents
-adComponents
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-adcomponents
-1
-1
-GenerateBidInterestGroup
--
-adComponents
-adComponents
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-adcomponents
-1
-1
-GenerateBidOutput
--
-adComponents
-adComponents
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoringbrowsersignals-adcomponents
-1
-1
-ScoringBrowserSignals
--
-adComponentsLimit
-adComponentsLimit
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-adcomponentslimit
-1
-1
-BiddingBrowserSignals
--
-adCost
-adCost
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-adcost
-1
-1
-GenerateBidOutput
--
-adCost
-adCost
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportwinbrowsersignals-adcost
-1
-1
-ReportWinBrowserSignals
--
-adRenderId
-adRenderId
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionad-adrenderid
-1
-1
-AuctionAd
--
-adSizes
-adSizes
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-adsizes
-1
-1
-GenerateBidInterestGroup
 -
 adapter
 adapter
@@ -1044,17 +881,29 @@ https://webbluetoothcg.github.io/web-bluetooth/#adapter-state
 
 1
 -
-adauctionheaders
-adauctionheaders
-element-attr
-turtledove
-turtledove
+adapterInfo
+adapterInfo
+attribute
+webgpu
+webgpu
 1
 current
-https://wicg.github.io/turtledove/#element-attrdef-iframe-adauctionheaders
+https://gpuweb.github.io/gpuweb/#dom-gpudevice-adapterinfo
 1
 1
-iframe
+GPUDevice
+-
+adapterInfo
+adapterInfo
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpudevice-adapterinfo
+1
+1
+GPUDevice
 -
 add
 add
@@ -1070,6 +919,30 @@ AbortSignal
 -
 add
 add
+value
+css-masking-1
+css-masking
+1
+current
+https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add
+1
+1
+mask-composite
+-
+add
+add
+value
+css-page-3
+css-page
+3
+current
+https://drafts.csswg.org/css-page-3/#valdef-page-page-margin-safety-add
+1
+1
+@page/page-margin-safety
+-
+add
+add
 enum-value
 web-animations-1
 web-animations
@@ -1080,18 +953,6 @@ https://drafts.csswg.org/web-animations-1/#dom-compositeoperation-add
 1
 CompositeOperation
 CompositeOperationOrAuto
--
-add
-add
-value
-css-masking-1
-css-masking
-1
-current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-add
-1
-1
-mask-composite
 -
 add
 add
@@ -1115,6 +976,42 @@ current
 https://w3c.github.io/DOM-Parsing/#dfn-add
 
 1
+-
+add
+add
+cddl-value
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulatecharacteristicparameters-type-add
+
+1
+bluetooth.SimulateCharacteristicParameters/type
+-
+add
+add
+cddl-value
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulatedescriptorparameters-type-add
+
+1
+bluetooth.SimulateDescriptorParameters/type
+-
+add
+add
+cddl-value
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-value-bluetoothsimulateserviceparameters-type-add
+
+1
+bluetooth.SimulateServiceParameters/type
 -
 add
 add
@@ -1206,9 +1103,10 @@ resource-timing
 resource-timing
 1
 current
-https://w3c.github.io/resource-timing/#dfn-add-a-performanceresourcetiming-entry
+https://w3c.github.io/resource-timing/#dfn-add-a-PerformanceResourceTiming-entry
 
 1
+Performance
 -
 add a performanceresourcetiming entry
 add a PerformanceResourceTiming entry
@@ -1217,9 +1115,22 @@ resource-timing
 resource-timing
 1
 snapshot
-https://www.w3.org/TR/resource-timing/#dfn-add-a-performanceresourcetiming-entry
+https://www.w3.org/TR/resource-timing/#dfn-add-a-PerformanceResourceTiming-entry
 
 1
+Performance
+-
+add a blocker
+add a blocker
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#activationblockersmixin-add-a-blocker
+
+1
+ActivationBlockersMixin
 -
 add a flag
 add a flag
@@ -1228,8 +1139,8 @@ web-smart-card
 web-smart-card
 1
 current
-https://wicg.github.io/web-smart-card/#dfn-add-a-flag
-
+https://wicg.github.io/web-smart-card/#add-a-flag
+1
 1
 -
 add a part
@@ -1243,16 +1154,17 @@ https://urlpattern.spec.whatwg.org/#add-a-part
 
 1
 -
-add a platform contribution
-add a platform contribution
+add a permanent blocker
+add a permanent blocker
 dfn
-turtledove
-turtledove
+geolocation-element
+geolocation-element
 1
 current
-https://wicg.github.io/turtledove/#add-a-platform-contribution
+https://wicg.github.io/PEPC/geolocation-element.html#activationblockersmixin-add-a-permanent-blocker
 
 1
+ActivationBlockersMixin
 -
 add a priority change algorithm
 add a priority change algorithm
@@ -1277,6 +1189,18 @@ https://fetch.spec.whatwg.org/#concept-request-add-range-header
 1
 1
 request
+-
+add a temporary blocker
+add a temporary blocker
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#activationblockersmixin-add-a-temporary-blocker
+
+1
+ActivationBlockersMixin
 -
 add a token
 add a token
@@ -1379,6 +1303,17 @@ https://drafts.csswg.org/css-position-4/#add-an-element-to-the-top-layer
 1
 1
 -
+add an element to the top layer
+add an element to the top layer
+dfn
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#add-an-element-to-the-top-layer
+1
+1
+-
 add an entry
 add an entry
 dfn
@@ -1438,6 +1373,18 @@ https://dom.spec.whatwg.org/#add-an-event-listener
 1
 1
 -
+add an expiring blocker
+add an expiring blocker
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#activationblockersmixin-add-an-expiring-blocker
+
+1
+ActivationBlockersMixin
+-
 add an icalendar line
 add an iCalendar line
 dfn
@@ -1479,6 +1426,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/nav-history-apis.html#add-an-upcoming-traverse-api-method-tracker
+
+1
+-
+add corner to path
+add corner to path
+dfn
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#add-corner-to-path
 
 1
 -
@@ -1598,6 +1556,17 @@ https://w3c.github.io/mediacapture-automation/#add-mock-microphone
 1
 extension commands
 -
+add module to resolved module set
+add module to resolved module set
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/webappapis.html#add-module-to-resolved-module-set
+
+1
+-
 add or put
 add or put
 dfn
@@ -1618,6 +1587,28 @@ indexeddb
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#add-or-put
 
+1
+-
+add the debug header
+add the debug header
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#add-debug-header
+1
+1
+-
+add the debug header
+add the debug header
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#add-debug-header
+1
 1
 -
 add the entry
@@ -1701,6 +1692,17 @@ https://drafts.csswg.org/css-position-4/#add-an-element-to-the-top-layer
 1
 1
 -
+add to the top layer
+add to the top layer
+dfn
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#add-an-element-to-the-top-layer
+1
+1
+-
 add two types
 add two types
 dfn
@@ -1724,17 +1726,6 @@ https://www.w3.org/TR/css-typed-om-1/#cssnumericvalue-add-two-types
 1
 1
 CSSNumericValue
--
-add value
-add value
-dfn
-json-ld11-api
-json-ld-api
-1
-current
-https://w3c.github.io/json-ld-api/#dfn-add-value
-
-
 -
 add value
 add value
@@ -2035,6 +2026,18 @@ https://www.w3.org/TR/service-workers/#dom-cache-add
 1
 Cache
 -
+add(ta, index, value)
+add(ta, index, value)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.add
+1
+1
+Atomics
+-
 add(tokens)
 add(tokens)
 method
@@ -2070,18 +2073,6 @@ https://www.w3.org/TR/json-ld11-api/#dom-rdfgraph-add
 1
 1
 RdfGraph
--
-add(typedArray, index, value)
-add(typedArray, index, value)
-method
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.add
-1
-1
-Atomics
 -
 add(value)
 add(value)
@@ -2155,18 +2146,6 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-add
 1
 IDBObjectStore
 -
-add-new-report
-add-new-report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-report-replacement-result-add-new-report
-
-1
-event-level-report-replacement result
--
 add-ons
 add-ons
 dfn
@@ -2226,6 +2205,30 @@ https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-addcue
 1
 TextTrack
 -
+addDecryptionKey(key, keyId)
+addDecryptionKey(key, keyId)
+method
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframedecryptermanager-adddecryptionkey
+1
+1
+SFrameDecrypterManager
+-
+addDecryptionKey(key, keyId)
+addDecryptionKey(key, keyId)
+method
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+snapshot
+https://www.w3.org/TR/webrtc-encoded-transform/#dom-sframedecryptermanager-adddecryptionkey
+1
+1
+SFrameDecrypterManager
+-
 addEventListener(type, callback)
 addEventListener(type, callback)
 method
@@ -2257,7 +2260,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromstring
+https://webaudio.github.io/web-speech-api/#dom-speechgrammarlist-addfromstring
 1
 1
 SpeechGrammarList
@@ -2269,7 +2272,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromstring
+https://webaudio.github.io/web-speech-api/#dom-speechgrammarlist-addfromstring
 1
 1
 SpeechGrammarList
@@ -2281,7 +2284,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromuri
+https://webaudio.github.io/web-speech-api/#dom-speechgrammarlist-addfromuri
 1
 1
 SpeechGrammarList
@@ -2293,10 +2296,22 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromuri
+https://webaudio.github.io/web-speech-api/#dom-speechgrammarlist-addfromuri
 1
 1
 SpeechGrammarList
+-
+addHandler(handler,)
+addHandler(handler,)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationprecommitcontroller-addhandler
+1
+1
+NavigationPrecommitController
 -
 addIceCandidate!overload-1()
 addIceCandidate!overload-1()
@@ -2406,8 +2421,8 @@ https://drafts.csswg.org/cssom-view-1/#dom-mediaquerylist-addlistener
 1
 MediaQueryList
 -
-addListener(listener)
-addListener(listener)
+addListener(callback)
+addListener(callback)
 method
 cssom-view-1
 cssom-view
@@ -2417,30 +2432,6 @@ https://www.w3.org/TR/cssom-view-1/#dom-mediaquerylist-addlistener
 1
 1
 MediaQueryList
--
-addmodule initiated
-addModule initiated
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorageworklet-addmodule-initiated
-
-1
-SharedStorageWorklet
--
-addmodule success
-addModule success
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#sharedstorageworkletglobalscope-addmodule-success
-
-1
-SharedStorageWorkletGlobalScope
 -
 addModule(moduleURL, options)
 addModule(moduleURL, options)
@@ -2558,6 +2549,18 @@ service-workers
 1
 current
 https://w3c.github.io/ServiceWorker/#dom-installevent-addroutes
+1
+1
+InstallEvent
+-
+addRoutes(rules)
+addRoutes(rules)
+method
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dom-installevent-addroutes
 1
 1
 InstallEvent
@@ -3224,29 +3227,6 @@ https://www.w3.org/TR/webdriver2/#dfn-additional-webdriver-capability
 
 1
 -
-additional bid key
-additional bid key
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-additional-bid-key
-
-1
-interest group
--
-additional bids
-additional bids
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#additional-bids
-
-1
--
 additional capability deserialization algorithm
 additional capability deserialization algorithm
 dfn
@@ -3293,18 +3273,6 @@ https://www.w3.org/TR/payment-request/#dfn-additional-data-type
 
 Payment Method
 -
-additional-bid
-additional-bid
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#reporting-bid-source-additional-bid
-
-1
-reporting bid source
--
 additional-name
 additional-name
 attr-value
@@ -3334,52 +3302,41 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-n-additional-name
 
 1
 -
-additionalBidKey
-additionalBidKey
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadinterestgroup-additionalbidkey
-1
-1
-AuctionAdInterestGroup
--
-additionalBids
-additionalBids
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadconfig-additionalbids
-1
-1
-AuctionAdConfig
--
 additionalData
 additionalData
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-AesGcmParams-additionalData
 1
 1
 AesGcmParams
 -
-additionaldata
 additionalData
-dfn
-webcryptoapi
-webcryptoapi
+additionalData
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
 1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-AeadParams-additionalData
+1
+1
+AeadParams
+-
+additionalData
+additionalData
+dict-member
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-AesGcmParams-additionalData
-
+https://www.w3.org/TR/webcrypto-2/#dfn-AesGcmParams-additionalData
 1
+1
+AesGcmParams
 -
 additionalDisplayItems
 additionalDisplayItems
@@ -3793,6 +3750,162 @@ RTCIceCandidateStats
 -
 address
 address
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-memorydescriptor-address
+1
+1
+MemoryDescriptor
+-
+address
+address
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-tabledescriptor-address
+1
+1
+TableDescriptor
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothcharacteristiceventgeneratedparameters-address
+
+1
+bluetooth.CharacteristicEventGeneratedParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothdescriptoreventgeneratedparameters-address
+
+1
+bluetooth.DescriptorEventGeneratedParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothgattconnectionattemptedparameters-address
+
+1
+bluetooth.GattConnectionAttemptedParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatecharacteristicparameters-address
+
+1
+bluetooth.SimulateCharacteristicParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatecharacteristicresponseparameters-address
+
+1
+bluetooth.SimulateCharacteristicResponseParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatedescriptorparameters-address
+
+1
+bluetooth.SimulateDescriptorParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatedescriptorresponseparameters-address
+
+1
+bluetooth.SimulateDescriptorResponseParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulategattconnectionresponseparameters-address
+
+1
+bluetooth.SimulateGattConnectionResponseParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulategattdisconnectionparameters-address
+
+1
+bluetooth.SimulateGattDisconnectionParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatepreconnectedperipheralparameters-address
+
+1
+bluetooth.SimulatePreconnectedPeripheralParameters
+-
+address
+address
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulateserviceparameters-address
+
+1
+bluetooth.SimulateServiceParameters
+-
+address
+address
 dfn
 contact-picker
 contact-picker
@@ -3825,6 +3938,30 @@ snapshot
 https://www.w3.org/TR/pub-manifest/#dfn-address
 
 1
+-
+address
+address
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-memorydescriptor-address
+1
+1
+MemoryDescriptor
+-
+address
+address
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-tabledescriptor-address
+1
+1
+TableDescriptor
 -
 address
 address
@@ -4206,7 +4343,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermAddressableCharacter
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermAddressableCharacter
 1
 1
 -
@@ -4289,7 +4426,7 @@ mediacapture-streams
 1
 current
 https://w3c.github.io/mediacapture-main/#event-mediastream-addtrack
-1
+
 
 -
 addtrack
@@ -4310,27 +4447,16 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#adequate-implementation
+https://www.w3.org/policies/process/#adequate-implementation
 
 1
 -
 adjoining
 adjoining
 dfn
-css22
+css2
 css
-1
-current
-https://drafts.csswg.org/css2/#adjoining-margins
-
-1
--
-adjoining margins
-adjoining margins
-dfn
-css22
-css
-1
+2
 current
 https://drafts.csswg.org/css2/#adjoining-margins
 
@@ -4341,10 +4467,10 @@ adjoining margins
 dfn
 css2
 css
-1
+2
 current
-https://www.w3.org/TR/CSS21/box.html#x28
-1
+https://drafts.csswg.org/css2/#adjoining-margins
+
 1
 -
 adjoining margins
@@ -4352,9 +4478,9 @@ adjoining margins
 dfn
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#x28
+https://www.w3.org/TR/CSS2/box.html#x28
 1
 1
 -
@@ -4380,17 +4506,6 @@ https://html.spec.whatwg.org/multipage/parsing.html#adjust-svg-attributes
 
 1
 -
-adjust bid list based on k-anonymity
-adjust bid list based on k-anonymity
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#adjust-bid-list-based-on-k-anonymity
-
-1
--
 adjust foreign attributes
 adjust foreign attributes
 dfn
@@ -4399,6 +4514,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/parsing.html#adjust-foreign-attributes
+
+1
+-
+adjust nested view transition group transform
+adjust nested view transition group transform
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#adjust-nested-view-transition-group-transform
+
+1
+-
+adjust the nested group transform
+adjust the nested group transform
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+snapshot
+https://www.w3.org/TR/css-view-transitions-2/#adjust-the-nested-group-transform
 
 1
 -
@@ -4435,6 +4572,39 @@ https://www.w3.org/TR/compute-pressure/#dfn-adjusted-pressure-state
 
 1
 -
+adjusted radius dimension
+adjusted radius dimension
+dfn
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#adjusted-radius-dimension
+
+1
+-
+adjusted radius dimension
+adjusted radius dimension
+dfn
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#adjusted-radius-dimension
+
+1
+-
+adjusted radius dimension
+adjusted radius dimension
+dfn
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#adjusted-radius-dimension
+
+1
+-
 administratively prohibited
 administratively prohibited
 dfn
@@ -4456,6 +4626,50 @@ snapshot
 https://www.w3.org/TR/webrtc/#dfn-administratively-prohibited
 
 1
+-
+administrator
+administrator
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-administrator
+1
+
+-
+administrator
+administrator
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-administrator
+
+
+-
+administrators
+administrators
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-administrator
+1
+
+-
+administrators
+administrators
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-administrator
+
+
 -
 adopt
 adopt
@@ -4571,42 +4785,6 @@ current
 https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-adr
 
 1
--
-ads
-ads
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-ads
-1
-1
-GenerateBidInterestGroup
--
-ads
-ads
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ads
-
-1
-interest group
--
-ads
-ads
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-interest-group-ads
-
-1
-server auction interest group
 -
 adts
 adts
@@ -4836,22 +5014,22 @@ BluetoothDeviceEventHandlers
 advertising agent
 advertising agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#advertising-agent
+https://w3c.github.io/openscreenprotocol/network.html#advertising-agent
 
 1
 -
 advertising agent
 advertising agent
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#advertising-agent
+https://www.w3.org/TR/openscreen-network/#advertising-agent
 
 1
 -

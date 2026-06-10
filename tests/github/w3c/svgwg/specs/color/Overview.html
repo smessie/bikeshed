@@ -756,7 +756,7 @@ If ICC-based colors are provided,
 then the ICC-based color takes precedence over the sRGB color specification;
 otherwise, the sRGB fallback colors will be used.
 Note that, in this specification, by default color interpolation occurs in sRGB color space even if an
-ICC-based color specification is provided, but this can be changed (see <a class="css property" data-link-type="property" href="https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty" id="ref-for-ColorInterpolationProperty">color-interpolation</a>).</p>
+ICC-based color specification is provided, but this can be changed (see <a class="css property" data-link-type="property" href="https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorInterpolationProperty" id="ref-for-ColorInterpolationProperty">color-interpolation</a>).</p>
    <div class="ready-for-wider-review">
     <h2 class="heading settled" data-level="2" id="color-managed-images"><span class="secno">2. </span><span class="content">Color-managed images</span><a class="self-link" href="#color-managed-images"></a></h2>
     <p class="note" role="note">
@@ -997,9 +997,9 @@ ICC-based color specification is provided, but this can be changed (see <a class
 definition of <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color①">color</a>.
 [<a href="refs.html#ref-CSS3COLOR">CSS3COLOR</a>]</p>
     <p>The <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color②">color</a> property is used to provide a potential indirect value,
-<span class="prop-value">currentColor</span>, for the <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill">fill</a>,
-<a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke">stroke</a>, <u class="link-error property" data-lt="solid-color" title="LINK ERROR: No &apos;property&apos; refs found for &apos;solid-color&apos;.">solid-color</u>, <a class="css property" data-link-type="property" href="https://svgwg.org/svg2-draft/pservers.html#StopColorProperty" id="ref-for-StopColorProperty">stop-color</a>, <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/filter-effects-1/#propdef-flood-color" id="ref-for-propdef-flood-color">flood-color</a> and
-<a class="css property" data-link-type="property" href="https://drafts.fxtf.org/filter-effects-1/#propdef-lighting-color" id="ref-for-propdef-lighting-color">lighting-color</a> properties.  The property has no other effect
+<span class="prop-value">currentColor</span>, for the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill">fill</a>,
+<a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke">stroke</a>, <u class="link-error property" data-lt="solid-color" title="LINK ERROR: No &apos;property&apos; refs found for &apos;solid-color&apos;.">solid-color</u>, <a class="css property" data-link-type="property" href="https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty" id="ref-for-StopColorProperty">stop-color</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/filter-effects-1/#propdef-flood-color" id="ref-for-propdef-flood-color">flood-color</a> and
+<a class="css property" data-link-type="property" href="https://drafts.csswg.org/filter-effects-1/#propdef-lighting-color" id="ref-for-propdef-lighting-color">lighting-color</a> properties.  The property has no other effect
 on SVG elements.</p>
     <div class="example" id="example-39699348">
      <a class="self-link" href="#example-39699348"></a>
@@ -1115,7 +1115,7 @@ child elements.</p>
     ICC proposals, the profile’s unique ID is an MD5-encoded
     value within the profile header.)</p>
     <dt><span class="prop-value"><a class="css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#url-value" id="ref-for-url-value②">&lt;url></a></span>
-    <dd>The source profile is an <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/linking.html#TermURLReference" id="ref-for-TermURLReference">URL reference</a>
+    <dd>The source profile is an <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/linking.html#TermURLReference" id="ref-for-TermURLReference">URL reference</a>
   to a color profile.
     <dt>(<span class="prop-value">&lt;local-profile> <a class="css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#url-value" id="ref-for-url-value③">&lt;url></a>)</span>
     <dd>Two profiles are specified. If &lt;local-profile>
@@ -1143,8 +1143,8 @@ child elements.</p>
    <dl>
     <dt><span class="prop-value"><a class="css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-identifier" id="ref-for-value-def-identifier①">&lt;identifier></a></span>
     <dd>The name which is used as the first parameter for <span class="prop-value">icc-color</span> specifications within
-  <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill①">fill</a>, <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke①">stroke</a>, <a class="css property" data-link-type="property" href="https://svgwg.org/svg2-draft/pservers.html#StopColorProperty" id="ref-for-StopColorProperty①">stop-color</a>,
-  <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/filter-effects-1/#propdef-flood-color" id="ref-for-propdef-flood-color①">flood-color</a> and <a class="css property" data-link-type="property" href="https://drafts.fxtf.org/filter-effects-1/#propdef-lighting-color" id="ref-for-propdef-lighting-color①">lighting-color</a> property
+  <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill①">fill</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke①">stroke</a>, <a class="css property" data-link-type="property" href="https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty" id="ref-for-StopColorProperty①">stop-color</a>,
+  <a class="css property" data-link-type="property" href="https://drafts.csswg.org/filter-effects-1/#propdef-flood-color" id="ref-for-propdef-flood-color①">flood-color</a> and <a class="css property" data-link-type="property" href="https://drafts.csswg.org/filter-effects-1/#propdef-lighting-color" id="ref-for-propdef-lighting-color①">lighting-color</a> property
   values to identify the color profile to use for the ICC
   color specification.  Note that if <u class="link-error property" data-lt="name" title="LINK ERROR: No &apos;property&apos; refs found for &apos;name&apos;.">name</u> is not
   provided, it will be impossible to reference the given @color-profile
@@ -1355,18 +1355,10 @@ or when all rendering-intents are provided using the same table.</p>
 
 <span id="color">color</span>  ::= 
   "#" <a href="#hexdigit">hexdigit</a> <a href="#hexdigit">hexdigit</a> <a href="#hexdigit">hexdigit</a> (<a href="#hexdigit">hexdigit</a> <a href="#hexdigit">hexdigit</a> <a href="#hexdigit">hexdigit</a>)?
-  | ~"rgb(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* ")"
-  | ~"rgb(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* <a href="#integer">integer</a> "%" <a href="#comma">comma</a> <a href="#integer">integer</a> "%" <a href="#comma">comma</a> <a href="#integer">integer</a> "%" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* ")"
-  | ~"hsl(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* ")"
-  | ~"hsla(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos; that are marked for export.
-  (Possible specs this could be from: sri)">wsp</u>* ")"
+  | ~"rgb(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* ")"
+  | ~"rgb(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* <a href="#integer">integer</a> "%" <a href="#comma">comma</a> <a href="#integer">integer</a> "%" <a href="#comma">comma</a> <a href="#integer">integer</a> "%" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* ")"
+  | ~"hsl(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* ")"
+  | ~"hsla(" <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <a href="#comma">comma</a> <a href="#integer">integer</a> <u class="link-error" data-lt="wsp" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;wsp&apos;.">wsp</u>* ")"
   | <a href="#color-keyword">color-keyword</a>
 
 <span id="hexdigit">hexdigit</span> ::= 
@@ -1498,47 +1490,47 @@ or when all rendering-intents are provided using the same table.</p>
      <li><span class="dfn-paneled" id="fa293cdd">&lt;url></span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="fe1e6dc9">&lt;identifier></span>
     </ul>
    <li>
     <a data-link-type="biblio">[FILL-STROKE-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="890a8358">fill</span>
-     <li><span class="dfn-paneled" id="de9e224f">stroke</span>
+     <li><span class="dfn-paneled" id="8ee781f9">fill</span>
+     <li><span class="dfn-paneled" id="8ed78e42">stroke</span>
     </ul>
    <li>
     <a data-link-type="biblio">[FILTER-EFFECTS-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="4aadd289">flood-color</span>
-     <li><span class="dfn-paneled" id="294ef7d0">lighting-color</span>
+     <li><span class="dfn-paneled" id="08887d07">flood-color</span>
+     <li><span class="dfn-paneled" id="4e91dabb">lighting-color</span>
     </ul>
    <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="691fe546">color-interpolation</span>
-     <li><span class="dfn-paneled" id="37328630">stop-color</span>
-     <li><span class="dfn-paneled" id="5711d4c1">URL reference</span>
+     <li><span class="dfn-paneled" id="1b038dd7">color-interpolation</span>
+     <li><span class="dfn-paneled" id="db1c2eaa">stop-color</span>
+     <li><span class="dfn-paneled" id="c79c19a0">URL reference</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
+   <dt id="biblio-css2">[CSS2]
+   <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-fill-stroke-3">[FILL-STROKE-3]
-   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.fxtf.org/fill-stroke/"><cite>CSS Fill and Stroke Module Level 3</cite></a>. URL: <a href="https://drafts.fxtf.org/fill-stroke/">https://drafts.fxtf.org/fill-stroke/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/fill-stroke/"><cite>CSS Fill and Stroke Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/fill-stroke/">https://drafts.csswg.org/fill-stroke/</a>
    <dt id="biblio-filter-effects-1">[FILTER-EFFECTS-1]
-   <dd>Dirk Schulze; Dean Jackson. <a href="https://drafts.fxtf.org/filter-effects-1/"><cite>Filter Effects Module Level 1</cite></a>. URL: <a href="https://drafts.fxtf.org/filter-effects-1/">https://drafts.fxtf.org/filter-effects-1/</a>
+   <dd>Dirk Schulze; Dean Jackson. <a href="https://drafts.csswg.org/filter-effects-1/"><cite>Filter Effects Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/filter-effects-1/">https://drafts.csswg.org/filter-effects-1/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
   <div style="counter-reset:issue">
@@ -1757,15 +1749,15 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
+"08887d07": {"dfnID":"08887d07","dfnText":"flood-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-flood-color"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-flood-color\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.csswg.org/filter-effects-1/#propdef-flood-color"},
 "16310992": {"dfnID":"16310992","dfnText":"<number>","external":true,"refSections":[{"refs":[{"id":"ref-for-number-value"}],"title":"3.3. \n      ICC colors"},{"refs":[{"id":"ref-for-number-value\u2460"}],"title":"3.4. LAB color"}],"url":"https://drafts.csswg.org/css-values-4/#number-value"},
-"294ef7d0": {"dfnID":"294ef7d0","dfnText":"lighting-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-lighting-color"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-lighting-color\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.fxtf.org/filter-effects-1/#propdef-lighting-color"},
-"37328630": {"dfnID":"37328630","dfnText":"stop-color","external":true,"refSections":[{"refs":[{"id":"ref-for-StopColorProperty"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-StopColorProperty\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://svgwg.org/svg2-draft/pservers.html#StopColorProperty"},
-"4aadd289": {"dfnID":"4aadd289","dfnText":"flood-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-flood-color"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-flood-color\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.fxtf.org/filter-effects-1/#propdef-flood-color"},
-"5711d4c1": {"dfnID":"5711d4c1","dfnText":"URL reference","external":true,"refSections":[{"refs":[{"id":"ref-for-TermURLReference"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://svgwg.org/svg2-draft/linking.html#TermURLReference"},
-"691fe546": {"dfnID":"691fe546","dfnText":"color-interpolation","external":true,"refSections":[{"refs":[{"id":"ref-for-ColorInterpolationProperty"}],"title":"1. Introduction"}],"url":"https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty"},
+"1b038dd7": {"dfnID":"1b038dd7","dfnText":"color-interpolation","external":true,"refSections":[{"refs":[{"id":"ref-for-ColorInterpolationProperty"}],"title":"1. Introduction"}],"url":"https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorInterpolationProperty"},
+"4e91dabb": {"dfnID":"4e91dabb","dfnText":"lighting-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-lighting-color"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-lighting-color\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.csswg.org/filter-effects-1/#propdef-lighting-color"},
 "73ea1d43": {"dfnID":"73ea1d43","dfnText":"color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-color"},{"id":"ref-for-propdef-color\u2460"},{"id":"ref-for-propdef-color\u2461"},{"id":"ref-for-propdef-color\u2462"},{"id":"ref-for-propdef-color\u2463"}],"title":"5. The effect of the color property"}],"url":"https://drafts.csswg.org/css-color-4/#propdef-color"},
-"890a8358": {"dfnID":"890a8358","dfnText":"fill","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-fill"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-fill\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill"},
-"de9e224f": {"dfnID":"de9e224f","dfnText":"stroke","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-stroke\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke"},
+"8ed78e42": {"dfnID":"8ed78e42","dfnText":"stroke","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-stroke"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-stroke\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke"},
+"8ee781f9": {"dfnID":"8ee781f9","dfnText":"fill","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-fill"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-propdef-fill\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.csswg.org/fill-stroke-3/#propdef-fill"},
+"c79c19a0": {"dfnID":"c79c19a0","dfnText":"URL reference","external":true,"refSections":[{"refs":[{"id":"ref-for-TermURLReference"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://w3c.github.io/svgwg/svg2-draft/linking.html#TermURLReference"},
+"db1c2eaa": {"dfnID":"db1c2eaa","dfnText":"stop-color","external":true,"refSections":[{"refs":[{"id":"ref-for-StopColorProperty"}],"title":"5. The effect of the color property"},{"refs":[{"id":"ref-for-StopColorProperty\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty"},
 "fa293cdd": {"dfnID":"fa293cdd","dfnText":"<url>","external":true,"refSections":[{"refs":[{"id":"ref-for-url-value"},{"id":"ref-for-url-value\u2460"},{"id":"ref-for-url-value\u2461"},{"id":"ref-for-url-value\u2462"},{"id":"ref-for-url-value\u2463"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.csswg.org/css-values-4/#url-value"},
 "fe1e6dc9": {"dfnID":"fe1e6dc9","dfnText":"<identifier>","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-identifier"},{"id":"ref-for-value-def-identifier\u2460"}],"title":"6.2. The CSS @color-profile rule"}],"url":"https://drafts.csswg.org/css2/#value-def-identifier"},
 };
@@ -2177,14 +2169,14 @@ let refsData = {
 "https://drafts.csswg.org/css-color-4/#propdef-color": {"displayText":"color","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-color","spec":"css-color-4","status":"current","text":"color","type":"property","url":"https://drafts.csswg.org/css-color-4/#propdef-color"},
 "https://drafts.csswg.org/css-values-4/#number-value": {"displayText":"<number>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<number>","type":"type","url":"https://drafts.csswg.org/css-values-4/#number-value"},
 "https://drafts.csswg.org/css-values-4/#url-value": {"displayText":"<url>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<url>","type":"type","url":"https://drafts.csswg.org/css-values-4/#url-value"},
-"https://drafts.csswg.org/css2/#value-def-identifier": {"displayText":"<identifier>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"<identifier>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-identifier"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill": {"displayText":"fill","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"fill","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-fill"},
-"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke": {"displayText":"stroke","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke","type":"property","url":"https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke"},
-"https://drafts.fxtf.org/filter-effects-1/#propdef-flood-color": {"displayText":"flood-color","export":true,"for_":[],"level":"1","normative":true,"shortname":"filter-effects","spec":"filter-effects-1","status":"current","text":"flood-color","type":"property","url":"https://drafts.fxtf.org/filter-effects-1/#propdef-flood-color"},
-"https://drafts.fxtf.org/filter-effects-1/#propdef-lighting-color": {"displayText":"lighting-color","export":true,"for_":[],"level":"1","normative":true,"shortname":"filter-effects","spec":"filter-effects-1","status":"current","text":"lighting-color","type":"property","url":"https://drafts.fxtf.org/filter-effects-1/#propdef-lighting-color"},
-"https://svgwg.org/svg2-draft/linking.html#TermURLReference": {"displayText":"URL reference","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"url reference","type":"dfn","url":"https://svgwg.org/svg2-draft/linking.html#TermURLReference"},
-"https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty": {"displayText":"color-interpolation","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"color-interpolation","type":"property","url":"https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty"},
-"https://svgwg.org/svg2-draft/pservers.html#StopColorProperty": {"displayText":"stop-color","export":true,"for_":["stop"],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"stop-color","type":"property","url":"https://svgwg.org/svg2-draft/pservers.html#StopColorProperty"},
+"https://drafts.csswg.org/css2/#value-def-identifier": {"displayText":"<identifier>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<identifier>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-identifier"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-fill": {"displayText":"fill","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"fill","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-fill"},
+"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke": {"displayText":"stroke","export":true,"for_":[],"level":"3","normative":true,"shortname":"fill-stroke","spec":"fill-stroke-3","status":"current","text":"stroke","type":"property","url":"https://drafts.csswg.org/fill-stroke-3/#propdef-stroke"},
+"https://drafts.csswg.org/filter-effects-1/#propdef-flood-color": {"displayText":"flood-color","export":true,"for_":[],"level":"1","normative":true,"shortname":"filter-effects","spec":"filter-effects-1","status":"current","text":"flood-color","type":"property","url":"https://drafts.csswg.org/filter-effects-1/#propdef-flood-color"},
+"https://drafts.csswg.org/filter-effects-1/#propdef-lighting-color": {"displayText":"lighting-color","export":true,"for_":[],"level":"1","normative":true,"shortname":"filter-effects","spec":"filter-effects-1","status":"current","text":"lighting-color","type":"property","url":"https://drafts.csswg.org/filter-effects-1/#propdef-lighting-color"},
+"https://w3c.github.io/svgwg/svg2-draft/linking.html#TermURLReference": {"displayText":"URL reference","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"url reference","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/linking.html#TermURLReference"},
+"https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorInterpolationProperty": {"displayText":"color-interpolation","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"color-interpolation","type":"property","url":"https://w3c.github.io/svgwg/svg2-draft/painting.html#ColorInterpolationProperty"},
+"https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty": {"displayText":"stop-color","export":true,"for_":["stop"],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"stop-color","type":"property","url":"https://w3c.github.io/svgwg/svg2-draft/pservers.html#StopColorProperty"},
 };
 
 function mkRefHint(link, ref) {

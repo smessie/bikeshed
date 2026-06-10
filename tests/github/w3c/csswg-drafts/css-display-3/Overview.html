@@ -1550,14 +1550,14 @@ which dictates how the <a data-link-type="dfn" href="#principal-box" id="ref-for
 				
       <td><span class="css">block flex</span>
 				
-      <td><a data-link-type="dfn" href="#block-level" id="ref-for-block-level②">block-level</a> <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container">flex container</a>
+      <td><a data-link-type="dfn" href="#block-level" id="ref-for-block-level②">block-level</a> <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container" id="ref-for-flex-container">flex container</a>
 			
      <tr>
       <td><a class="css" data-link-type="maybe" href="#valdef-display-inline-flex" id="ref-for-valdef-display-inline-flex">inline-flex</a>
 				
       <td><span class="css">inline flex</span>
 				
-      <td><a data-link-type="dfn" href="#inline-level" id="ref-for-inline-level①">inline-level</a> <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container①">flex container</a>
+      <td><a data-link-type="dfn" href="#inline-level" id="ref-for-inline-level①">inline-level</a> <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container" id="ref-for-flex-container①">flex container</a>
 			
      <tr>
       <td><a class="css" data-link-type="maybe" href="#valdef-display-grid" id="ref-for-valdef-display-grid">grid</a>
@@ -1668,7 +1668,7 @@ Inner Display Layout Models: the <a class="css" data-link-type="maybe" href="#va
 			formatting context,
 			then it generates an <a data-link-type="dfn" href="#inline-box" id="ref-for-inline-box④">inline box</a>.</p>
      <p>Otherwise it generates a <a data-link-type="dfn" href="#block-container" id="ref-for-block-container③">block container</a> box.</p>
-     <p>Depending on the value of other properties (such as <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position">position</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float">float</a>, or <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visufx.html#propdef-overflow" id="ref-for-propdef-overflow">overflow</a>)
+     <p>Depending on the value of other properties (such as <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position">position</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float">float</a>, or <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-overflow" id="ref-for-propdef-overflow">overflow</a>)
 			and whether it is itself participating in a block or inline <a data-link-type="dfn" href="#formatting-context" id="ref-for-formatting-context①">formatting context</a>,
 			it either establishes a new <a data-link-type="dfn" href="#block-formatting-context" id="ref-for-block-formatting-context②">block formatting context</a> for its contents
 			or integrates its contents into its parent <span id="ref-for-formatting-context②">formatting context</span>.
@@ -1696,8 +1696,8 @@ Inner Display Layout Models: the <a class="css" data-link-type="maybe" href="#va
     <dt><dfn class="css dfn-paneled" data-dfn-for="display, <display-inside>" data-dfn-type="value" data-export id="valdef-display-flex">flex</dfn>
 		
     <dd>
-			The element generates a principal <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container②">flex container</a> box
-			and establishes a <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-formatting-context" id="ref-for-flex-formatting-context">flex formatting context</a>. <a data-link-type="biblio" href="#biblio-css3-flexbox" title="CSS Flexible Box Layout Module Level 1">[CSS3-FLEXBOX]</a>
+			The element generates a principal <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container" id="ref-for-flex-container②">flex container</a> box
+			and establishes a <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-formatting-context" id="ref-for-flex-formatting-context">flex formatting context</a>. <a data-link-type="biblio" href="#biblio-css3-flexbox" title="CSS Flexible Box Layout Module Level 1">[CSS3-FLEXBOX]</a>
 
 		
     <dt><dfn class="css dfn-paneled" data-dfn-for="display, <display-inside>" data-dfn-type="value" data-export id="valdef-display-grid">grid</dfn>
@@ -1728,7 +1728,7 @@ Inner Display Layout Models: the <a class="css" data-link-type="maybe" href="#va
 Generating Marker Boxes: the <a class="css" data-link-type="maybe" href="#valdef-display-list-item" id="ref-for-valdef-display-list-item②">list-item</a> keyword</span><a class="self-link" href="#list-items"></a></h3>
    <p>The <dfn class="css dfn-paneled" data-dfn-for="display, <display-list-item>" data-dfn-type="value" data-export id="valdef-display-list-item">list-item</dfn> keyword
 	causes the element to generate a <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-pseudo-4/#selectordef-marker" id="ref-for-selectordef-marker①">::marker</a> pseudo-element <a data-link-type="biblio" href="#biblio-css-pseudo-4" title="CSS Pseudo-Elements Module Level 4">[CSS-PSEUDO-4]</a>
-	with the content specified by its <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/generate.html#propdef-list-style" id="ref-for-propdef-list-style">list-style</a> properties
+	with the content specified by its <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-list-style" id="ref-for-propdef-list-style">list-style</a> properties
 	(<a href="https://www.w3.org/TR/CSS2/generate.html#lists">CSS 2.1§12.5 Lists</a>) <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
 	together with a principal box of the specified type for its own contents.</p>
    <p>If no <a data-link-type="dfn" href="#inner-display-type" id="ref-for-inner-display-type③">inner display type</a> value is specified,
@@ -2157,7 +2157,7 @@ Appendix A: Glossary</span><a class="self-link" href="#glossary"></a></h2>
 			it either establishes a new <span id="ref-for-block-formatting-context①①">block formatting context</span> for its contents
 			or continues the one in which it participates,
 			as determined by the constraints of other properties
-			(such as <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visufx.html#propdef-overflow" id="ref-for-propdef-overflow①">overflow</a> or <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-align-3/#propdef-align-content" id="ref-for-propdef-align-content">align-content</a>).</p>
+			(such as <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-overflow" id="ref-for-propdef-overflow①">overflow</a> or <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-align-3/#propdef-align-content" id="ref-for-propdef-align-content">align-content</a>).</p>
      <p class="note" role="note"><span class="marker">Note:</span> A block container box can both establish a block formatting context
 			<em>and</em> an inline formatting context simultaneously.</p>
     <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="block-box">block box</dfn>
@@ -2267,8 +2267,8 @@ Appendix A: Glossary</span><a class="self-link" href="#glossary"></a></h2>
 			into which a set of related boxes are laid out.
 			Different <span id="ref-for-formatting-context⑤">formatting contexts</span> lay out their boxes
 			according to different rules.
-			For example, a <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-formatting-context" id="ref-for-flex-formatting-context①">flex formatting context</a>
-			lays out boxes according to the <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-layout" id="ref-for-flex-layout">flex layout</a> rules <a data-link-type="biblio" href="#biblio-css3-flexbox" title="CSS Flexible Box Layout Module Level 1">[CSS3-FLEXBOX]</a>,
+			For example, a <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-formatting-context" id="ref-for-flex-formatting-context①">flex formatting context</a>
+			lays out boxes according to the <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-layout" id="ref-for-flex-layout">flex layout</a> rules <a data-link-type="biblio" href="#biblio-css3-flexbox" title="CSS Flexible Box Layout Module Level 1">[CSS3-FLEXBOX]</a>,
 			whereas a <a data-link-type="dfn" href="#block-formatting-context" id="ref-for-block-formatting-context①②">block formatting context</a>
 			lays out boxes according to the block-and-inline layout rules <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>.
 			Additionally, some types of <span id="ref-for-formatting-context⑥">formatting contexts</span> interleave and co-exist:
@@ -2347,7 +2347,7 @@ Appendix A: Glossary</span><a class="self-link" href="#glossary"></a></h2>
 			establishes a new <a data-link-type="dfn" href="#block-formatting-context" id="ref-for-block-formatting-context①⑥">block formatting context</a> for its contents.
 			In most other cases,
 			forcing a box to <span id="ref-for-establish-an-independent-formatting-context④">establish an independent formatting context</span> is a no-op—​either the box already establishes an <a data-link-type="dfn" href="#independent-formatting-context" id="ref-for-independent-formatting-context③">independent formatting context</a>
-			(e.g. <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-container" id="ref-for-flex-container③">flex containers</a>),
+			(e.g. <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-container" id="ref-for-flex-container③">flex containers</a>),
 			or it’s not possible to establish a totally independent new formatting context on that type of box
 			(e.g. non-replaced <a data-link-type="dfn" href="#inline-box" id="ref-for-inline-box⑨">inline boxes</a>).</p>
     <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="block-formatting-context">block formatting context</dfn>
@@ -2404,13 +2404,13 @@ that establishes a <a data-link-type="dfn" href="#block-formatting-context" id="
 			extracted from its expected position and interaction with surrounding content
 			and laid out using a different paradigm
 			outside the normal flow of content in its parent formatting context.
-			This occurs if the box is floated (via <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float①">float</a>)
+			This occurs if the box is floated (via <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float①">float</a>)
 			or <a data-link-type="dfn" href="https://drafts.csswg.org/css-position-3/#absolute-position" id="ref-for-absolute-position①">absolutely positioned</a> (via <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position①">position</a>).
 			A box is <a data-link-type="dfn" href="#in-flow" id="ref-for-in-flow">in-flow</a> if it is not <span id="ref-for-out-of-flow②">out-of-flow</span>.
 
 
      <p class="note" role="note"><span class="marker">Note:</span> Some <a data-link-type="dfn" href="#formatting-context" id="ref-for-formatting-context①⑤">formatting contexts</a> inhibit floating,
-			so that an element with <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-float" id="ref-for-propdef-float②">float: left</a> is not necessarily <a data-link-type="dfn" href="#out-of-flow" id="ref-for-out-of-flow③">out-of-flow</a>.</p>
+			so that an element with <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-float" id="ref-for-propdef-float②">float: left</a> is not necessarily <a data-link-type="dfn" href="#out-of-flow" id="ref-for-out-of-flow③">out-of-flow</a>.</p>
     <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="document-order">document order</dfn>
 		
     <dd>
@@ -2468,18 +2468,18 @@ and their contents render as normal.</p>
    </dl>
    <h3 class="heading settled" id="unbox-svg"><span class="content">SVG Elements</span><a class="self-link" href="#unbox-svg"></a></h3>
    <dl>
-    <dt data-md>An <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg">svg</a></code> element that has CSS box layout
-(this includes all <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg①">svg</a></code> whose parent is an HTML element,
+    <dt data-md>An <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg">svg</a></code> element that has CSS box layout
+(this includes all <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg①">svg</a></code> whose parent is an HTML element,
 as well as document root elements)
     <dd data-md>
      <p><a class="css" data-link-type="propdesc" href="#propdef-display" id="ref-for-propdef-display④②">display: contents</a> computes to <span class="css" id="ref-for-propdef-display④③">display: none</span>.</p>
-    <dt data-md>All other SVG <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/struct.html#container-element" id="ref-for-container-element">container elements</a> that are also <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermRenderableElement" id="ref-for-TermRenderableElement">renderable elements</a>
-    <dt data-md>SVG <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/text.html#TermTextContentChildElement" id="ref-for-TermTextContentChildElement">text content child elements</a>
-    <dt data-md><code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-use" id="ref-for-elementdef-use">use</a></code>
+    <dt data-md>All other SVG <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#container-element" id="ref-for-container-element">container elements</a> that are also <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderableElement" id="ref-for-TermRenderableElement">renderable elements</a>
+    <dt data-md>SVG <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/text.html#TermTextContentChildElement" id="ref-for-TermTextContentChildElement">text content child elements</a>
+    <dt data-md><code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-use" id="ref-for-elementdef-use">use</a></code>
     <dd data-md>
      <p><a class="css" data-link-type="propdesc" href="#propdef-display" id="ref-for-propdef-display④④">display: contents</a> strips the element from the formatting tree,
 and hoists its contents up to display in its place.
-These contents include the shadow-DOM content for <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-use" id="ref-for-elementdef-use①">use</a></code>.</p>
+These contents include the shadow-DOM content for <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-use" id="ref-for-elementdef-use①">use</a></code>.</p>
     <dt data-md>any other SVG elements
     <dd data-md>
      <p><a class="css" data-link-type="propdesc" href="#propdef-display" id="ref-for-propdef-display④⑤">display: contents</a> computes to <span class="css" id="ref-for-propdef-display④⑥">display: none</span>.</p>
@@ -2496,19 +2496,19 @@ These contents include the shadow-DOM content for <code><a data-link-type="eleme
 
 
     <p>For example, text content and text formatting elements in SVG
-		require a <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/text.html#elementdef-text" id="ref-for-elementdef-text">text</a></code> element context;
-		if you remove a <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/text.html#elementdef-text" id="ref-for-elementdef-text①">text</a></code>,
+		require a <code><a data-link-type="element" href="https://w3c.github.io/epub-specs/epub33/core/#dfn-text" id="ref-for-dfn-text">text</a></code> element context;
+		if you remove a <code><a data-link-type="element" href="https://w3c.github.io/epub-specs/epub33/core/#dfn-text" id="ref-for-dfn-text①">text</a></code>,
 		its child text content and elements are no longer valid.
-		For that reason, <a class="css" data-link-type="propdesc" href="#propdef-display" id="ref-for-propdef-display④⑧">display: contents</a> on <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/text.html#elementdef-text" id="ref-for-elementdef-text②">text</a></code>
+		For that reason, <a class="css" data-link-type="propdesc" href="#propdef-display" id="ref-for-propdef-display④⑧">display: contents</a> on <code><a data-link-type="element" href="https://w3c.github.io/epub-specs/epub33/core/#dfn-text" id="ref-for-dfn-text②">text</a></code>
 		prevents the entire text element from being rendered.
-		In contrast, any valid content inside a <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/text.html#elementdef-tspan" id="ref-for-elementdef-tspan">tspan</a></code> or <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/text.html#elementdef-textPath" id="ref-for-elementdef-textPath">textPath</a></code>
+		In contrast, any valid content inside a <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-tspan" id="ref-for-elementdef-tspan">tspan</a></code> or <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-textPath" id="ref-for-elementdef-textPath">textPath</a></code>
 		is also valid content inside the parent text formatting context,
 		so the hoisting behavior applies for these elements.</p>
     <p>Similarly, if hoisting would convert the children from
-		<a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermNonRenderedElement" id="ref-for-TermNonRenderedElement">non-rendered elements</a>
-		(e.g., a shape inside a <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/pservers.html#elementdef-pattern" id="ref-for-elementdef-pattern">pattern</a></code> or <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-symbol" id="ref-for-elementdef-symbol">symbol</a></code>)
-		to <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermRenderedElement" id="ref-for-TermRenderedElement">rendered elements</a>
-		(e.g., a shape that is a direct child of the <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg②">svg</a></code>),
+		<a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/render.html#TermNonRenderedElement" id="ref-for-TermNonRenderedElement">non-rendered elements</a>
+		(e.g., a shape inside a <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/pservers.html#elementdef-pattern" id="ref-for-elementdef-pattern">pattern</a></code> or <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-symbol" id="ref-for-elementdef-symbol">symbol</a></code>)
+		to <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderedElement" id="ref-for-TermRenderedElement">rendered elements</a>
+		(e.g., a shape that is a direct child of the <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg" id="ref-for-elementdef-svg②">svg</a></code>),
 		that is an invalid change of rendering context.
 		Never-rendered container elements therefore cannot be "un-boxed"
 		by <a class="css" data-link-type="propdesc" href="#propdef-display" id="ref-for-propdef-display④⑨">display: contents</a>.</p>
@@ -2517,7 +2517,7 @@ These contents include the shadow-DOM content for <code><a data-link-type="eleme
 	then any SVG attributes on that element
 	that control layout and visual formatting
 	are ignored when rendering the contents.
-	However, SVG <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute" id="ref-for-TermPresentationAttribute">presentation attributes</a>—​which map to CSS properties—​continue to affect value processing and inheritance <a data-link-type="biblio" href="#biblio-css3-cascade" title="CSS Cascading and Inheritance Level 3">[CSS3-CASCADE]</a>;
+	However, SVG <a data-link-type="dfn" href="https://w3c.github.io/svgwg/svg2-draft/styling.html#TermPresentationAttribute" id="ref-for-TermPresentationAttribute">presentation attributes</a>—​which map to CSS properties—​continue to affect value processing and inheritance <a data-link-type="biblio" href="#biblio-css3-cascade" title="CSS Cascading and Inheritance Level 3">[CSS3-CASCADE]</a>;
 	thus such attributes can affect
 	the layout and visual formatting of the element’s descendants
 	by influencing the values of such properties on those descendants.</p>
@@ -2767,7 +2767,7 @@ particularly handling of layout-internal types.
 			to better express flow layout <a data-link-type="dfn" href="#display-type" id="ref-for-display-type③">display types</a>
 			and to create an explicit switch for making an element a <a data-link-type="dfn" href="#bfc" id="ref-for-bfc①">BFC</a> root.
 			(This should eliminate the need for hacks
-			like <span class="css">::after { clear: both; }</span> and <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visufx.html#propdef-overflow" id="ref-for-propdef-overflow②">overflow: hidden</a>
+			like <span class="css">::after { clear: both; }</span> and <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-overflow" id="ref-for-propdef-overflow②">overflow: hidden</a>
 			that are intended to accomplish this purpose.)
 	
    </ul>
@@ -3062,6 +3062,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="754e7a89">contain</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[CSS-FLEXBOX-2]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="128905d4">flex container</span>
+     <li><span class="dfn-paneled" id="99fc0b6a">flex formatting context</span>
+     <li><span class="dfn-paneled" id="cb0e2903">flex layout</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[CSS-GRID-2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="f005b2f6">grid container</span>
@@ -3125,21 +3132,14 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="cdd73959">float</span>
-     <li><span class="dfn-paneled" id="48ccfe05">list-style</span>
-     <li><span class="dfn-paneled" id="244c26d9">overflow</span>
+     <li><span class="dfn-paneled" id="0570259e">float</span>
+     <li><span class="dfn-paneled" id="4dfa5c05">list-style</span>
+     <li><span class="dfn-paneled" id="c47ef3ce">overflow</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3-BREAK]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="9729fd44">fragment</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS3-FLEXBOX]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="24285d87">flex container</span>
-     <li><span class="dfn-paneled" id="d8131c14">flex formatting context</span>
-     <li><span class="dfn-paneled" id="73a98e20">flex layout</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3RUBY]</a> defines the following terms:
@@ -3152,6 +3152,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <a data-link-type="biblio">[CSSOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="b203675a">getComputedStyle(elt)</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[EPUB-33]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="8043b988">text</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -3191,24 +3196,23 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <a data-link-type="biblio">[SELECTORS-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="dcf0398d">document language</span>
-     <li><span class="dfn-paneled" id="9bfc28f6">pseudo-element</span>
+     <li><span class="dfn-paneled" id="42b00c6e">pseudo-elements</span>
     </ul>
    <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="793853ba">container element</span>
-     <li><span class="dfn-paneled" id="cc7196b9">non-rendered element</span>
-     <li><span class="dfn-paneled" id="abdfd54a">pattern</span>
-     <li><span class="dfn-paneled" id="409e2104">presentation attributes</span>
-     <li><span class="dfn-paneled" id="c0807e02">renderable element</span>
-     <li><span class="dfn-paneled" id="4766f517">rendered element</span>
-     <li><span class="dfn-paneled" id="4299a926">svg</span>
-     <li><span class="dfn-paneled" id="653040a2">symbol</span>
-     <li><span class="dfn-paneled" id="09b0661c">text</span>
-     <li><span class="dfn-paneled" id="dd41218a">text content child element</span>
-     <li><span class="dfn-paneled" id="d616644b">textPath</span>
-     <li><span class="dfn-paneled" id="e6409866">tspan</span>
-     <li><span class="dfn-paneled" id="f24162b9">use</span>
+     <li><span class="dfn-paneled" id="4233c788">container element</span>
+     <li><span class="dfn-paneled" id="5a9f740b">non-rendered element</span>
+     <li><span class="dfn-paneled" id="b8e6953d">pattern</span>
+     <li><span class="dfn-paneled" id="6d3e1ad6">presentation attributes</span>
+     <li><span class="dfn-paneled" id="d274fbc5">renderable element</span>
+     <li><span class="dfn-paneled" id="aad1689c">rendered element</span>
+     <li><span class="dfn-paneled" id="6d50fd63">svg</span>
+     <li><span class="dfn-paneled" id="fcc8ed6b">symbol</span>
+     <li><span class="dfn-paneled" id="becb5bd6">text content child element</span>
+     <li><span class="dfn-paneled" id="2bec5354">textPath</span>
+     <li><span class="dfn-paneled" id="dec30ae3">tspan</span>
+     <li><span class="dfn-paneled" id="b164cce6">use</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -3226,10 +3230,12 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-contain-2">[CSS-CONTAIN-2]
    <dd>Tab Atkins Jr.; Florian Rivoal; Vladimir Levin. <a href="https://drafts.csswg.org/css-contain-2/"><cite>CSS Containment Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-contain-2/">https://drafts.csswg.org/css-contain-2/</a>
+   <dt id="biblio-css-flexbox-2">[CSS-FLEXBOX-2]
+   <dd><a href="https://drafts.csswg.org/css-flexbox-2/"><cite>CSS Flexible Box Layout Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-flexbox-2/">https://drafts.csswg.org/css-flexbox-2/</a>
    <dt id="biblio-css-grid-1">[CSS-GRID-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid/"><cite>CSS Grid Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid/">https://drafts.csswg.org/css-grid/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-1/"><cite>CSS Grid Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-1/">https://drafts.csswg.org/css-grid-1/</a>
    <dt id="biblio-css-grid-2">[CSS-GRID-2]
-   <dd>Tab Atkins Jr.; Elika Etemad; Rossen Atanassov. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-2/"><cite>CSS Grid Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-2/">https://drafts.csswg.org/css-grid-2/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
    <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-3/"><cite>CSS Images Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-3/">https://drafts.csswg.org/css-images-3/</a>
    <dt id="biblio-css-inline-3">[CSS-INLINE-3]
@@ -3239,11 +3245,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
    <dt id="biblio-css-speech-1">[CSS-SPEECH-1]
    <dd>Léonie Watson; Elika Etemad. <a href="https://drafts.csswg.org/css-speech-1/"><cite>CSS Speech Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-speech-1/">https://drafts.csswg.org/css-speech-1/</a>
    <dt id="biblio-css-tables-3">[CSS-TABLES-3]
-   <dd>François Remy; Greg Whitworth; David Baron. <a href="https://drafts.csswg.org/css-tables-3/"><cite>CSS Table Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-tables-3/">https://drafts.csswg.org/css-tables-3/</a>
+   <dd>Keith Cirkel. <a href="https://drafts.csswg.org/css-tables-3/"><cite>CSS Table Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-tables-3/">https://drafts.csswg.org/css-tables-3/</a>
    <dt id="biblio-css-text-4">[CSS-TEXT-4]
    <dd>Elika Etemad; et al. <a href="https://drafts.csswg.org/css-text-4/"><cite>CSS Text Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-4/">https://drafts.csswg.org/css-text-4/</a>
    <dt id="biblio-css-values-3">[CSS-VALUES-3]
@@ -3259,7 +3265,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css3-cascade">[CSS3-CASCADE]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-3/"><cite>CSS Cascading and Inheritance Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-3/">https://drafts.csswg.org/css-cascade-3/</a>
    <dt id="biblio-css3-flexbox">[CSS3-FLEXBOX]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-flexbox-1/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox-1/">https://drafts.csswg.org/css-flexbox-1/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.; Rossen Atanassov. <a href="https://drafts.csswg.org/css-flexbox/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox/">https://drafts.csswg.org/css-flexbox/</a>
    <dt id="biblio-css3page">[CSS3PAGE]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-page-3/"><cite>CSS Paged Media Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-page-3/">https://drafts.csswg.org/css-page-3/</a>
    <dt id="biblio-css3ruby">[CSS3RUBY]
@@ -3269,18 +3275,20 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-selectors-4">[SELECTORS-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css3-exclusions">[CSS3-EXCLUSIONS]
    <dd>Rossen Atanassov; Vincent Hardy; Alan Stearns. <a href="https://drafts.csswg.org/css-exclusions/"><cite>CSS Exclusions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-exclusions/">https://drafts.csswg.org/css-exclusions/</a>
+   <dt id="biblio-epub-33">[EPUB-33]
+   <dd>Ivan Herman; Matt Garrish; Dave Cramer. <a href="https://w3c.github.io/epub-specs/epub33/core/"><cite>EPUB 3.3</cite></a>. URL: <a href="https://w3c.github.io/epub-specs/epub33/core/">https://w3c.github.io/epub-specs/epub33/core/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <div class="big-element-wrapper">
@@ -3559,24 +3567,23 @@ function parseHTML(markup) {
 let dfnPanelData = {
 "0008a4b3": {"dfnID":"0008a4b3","dfnText":"rendered legend","external":true,"refSections":[{"refs":[{"id":"ref-for-rendered-legend"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/rendering.html#rendered-legend"},
 "03f3b228": {"dfnID":"03f3b228","dfnText":"ruby base container","external":true,"refSections":[{"refs":[{"id":"ref-for-ruby-base-container-box"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-ruby-1/#ruby-base-container-box"},
-"09b0661c": {"dfnID":"09b0661c","dfnText":"text","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-text"},{"id":"ref-for-elementdef-text\u2460"},{"id":"ref-for-elementdef-text\u2461"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/text.html#elementdef-text"},
+"0570259e": {"dfnID":"0570259e","dfnText":"float","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-float"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-propdef-float\u2460"},{"id":"ref-for-propdef-float\u2461"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css2/#propdef-float"},
 "09e0ad83": {"dfnID":"09e0ad83","dfnText":"white space","external":true,"refSections":[{"refs":[{"id":"ref-for-white-space"}],"title":"3. \nRun-In Layout"}],"url":"https://drafts.csswg.org/css-text-4/#white-space"},
 "0fc40460": {"dfnID":"0fc40460","dfnText":"canvas","external":true,"refSections":[{"refs":[{"id":"ref-for-canvas"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/canvas.html#canvas"},
+"128905d4": {"dfnID":"128905d4","dfnText":"flex container","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-container"},{"id":"ref-for-flex-container\u2460"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-flex-container\u2461"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-flex-container\u2462"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-container"},
 "1748bbeb": {"dfnID":"1748bbeb","dfnText":"details","external":true,"refSections":[{"refs":[{"id":"ref-for-the-details-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element"},
 "1ada47b5": {"dfnID":"1ada47b5","dfnText":"overflow","external":true,"refSections":[{"refs":[{"id":"ref-for-overflow"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-overflow-3/#overflow"},
 "20fff200": {"dfnID":"20fff200","dfnText":"inheritance","external":true,"refSections":[{"refs":[{"id":"ref-for-css-inheritance"}],"title":"2.5. \nBox Generation: the none and contents keywords"}],"url":"https://drafts.csswg.org/css-cascade-5/#css-inheritance"},
 "214c6f37": {"dfnID":"214c6f37","dfnText":"first formatted line","external":true,"refSections":[{"refs":[{"id":"ref-for-first-formatted-line"},{"id":"ref-for-first-formatted-line\u2460"}],"title":"3. \nRun-In Layout"}],"url":"https://drafts.csswg.org/css-pseudo-4/#first-formatted-line"},
-"24285d87": {"dfnID":"24285d87","dfnText":"flex container","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-container"},{"id":"ref-for-flex-container\u2460"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-flex-container\u2461"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-flex-container\u2462"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-container"},
-"244c26d9": {"dfnID":"244c26d9","dfnText":"overflow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-overflow"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-propdef-overflow\u2460"}],"title":"\nAppendix A: Glossary"},{"refs":[{"id":"ref-for-propdef-overflow\u2461"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://www.w3.org/TR/CSS21/visufx.html#propdef-overflow"},
 "2496f7a0": {"dfnID":"2496f7a0","dfnText":"inherited property","external":true,"refSections":[{"refs":[{"id":"ref-for-inherited-property"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-cascade-5/#inherited-property"},
+"2bec5354": {"dfnID":"2bec5354","dfnText":"textPath","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-textPath"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-textPath"},
 "2c82d279": {"dfnID":"2c82d279","dfnText":"audio","external":true,"refSections":[{"refs":[{"id":"ref-for-audio"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/media.html#audio"},
 "2f0492ac": {"dfnID":"2f0492ac","dfnText":"body","external":true,"refSections":[{"refs":[{"id":"ref-for-the-body-element"}],"title":"\nChanges"}],"url":"https://html.spec.whatwg.org/multipage/sections.html#the-body-element"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.2. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
-"409e2104": {"dfnID":"409e2104","dfnText":"presentation attributes","external":true,"refSections":[{"refs":[{"id":"ref-for-TermPresentationAttribute"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute"},
-"4299a926": {"dfnID":"4299a926","dfnText":"svg","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-svg"},{"id":"ref-for-elementdef-svg\u2460"},{"id":"ref-for-elementdef-svg\u2461"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/struct.html#elementdef-svg"},
-"4766f517": {"dfnID":"4766f517","dfnText":"rendered element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermRenderedElement"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/render.html#TermRenderedElement"},
-"48ccfe05": {"dfnID":"48ccfe05","dfnText":"list-style","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-list-style"}],"title":"2.3. \nGenerating Marker Boxes: the list-item keyword"}],"url":"https://www.w3.org/TR/CSS21/generate.html#propdef-list-style"},
+"4233c788": {"dfnID":"4233c788","dfnText":"container element","external":true,"refSections":[{"refs":[{"id":"ref-for-container-element"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#container-element"},
+"42b00c6e": {"dfnID":"42b00c6e","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "49a6cb20": {"dfnID":"49a6cb20","dfnText":"embed","external":true,"refSections":[{"refs":[{"id":"ref-for-the-embed-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element"},
+"4dfa5c05": {"dfnID":"4dfa5c05","dfnText":"list-style","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-list-style"}],"title":"2.3. \nGenerating Marker Boxes: the list-item keyword"}],"url":"https://drafts.csswg.org/css2/#propdef-list-style"},
 "51330c07": {"dfnID":"51330c07","dfnText":"absolute position","external":true,"refSections":[{"refs":[{"id":"ref-for-absolute-position"},{"id":"ref-for-absolute-position\u2460"}],"title":"\nAppendix A: Glossary"},{"refs":[{"id":"ref-for-absolute-position\u2461"},{"id":"ref-for-absolute-position\u2462"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-position-3/#absolute-position"},
 "51fe9b84": {"dfnID":"51fe9b84","dfnText":"absolutely position","external":true,"refSections":[{"refs":[{"id":"ref-for-absolute-position"},{"id":"ref-for-absolute-position\u2460"}],"title":"\nAppendix A: Glossary"},{"refs":[{"id":"ref-for-absolute-position\u2461"},{"id":"ref-for-absolute-position\u2462"}],"title":"\nChanges"}],"url":"https://drafts.csswg.org/css-position-3/#absolute-position"},
 "52e0a60b": {"dfnID":"52e0a60b","dfnText":"box edge","external":true,"refSections":[{"refs":[{"id":"ref-for-box-box-edge"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-box-4/#box-box-edge"},
@@ -3584,17 +3591,18 @@ let dfnPanelData = {
 "53f8cf4c": {"dfnID":"53f8cf4c","dfnText":"ruby container","external":true,"refSections":[{"refs":[{"id":"ref-for-ruby-container"},{"id":"ref-for-ruby-container\u2460"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-ruby-container\u2461"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-ruby-container\u2462"}],"title":"2.7. \nAutomatic Box Type Transformations"},{"refs":[{"id":"ref-for-ruby-container\u2463"},{"id":"ref-for-ruby-container\u2464"},{"id":"ref-for-ruby-container\u2465"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-ruby-1/#ruby-container"},
 "5869f885": {"dfnID":"5869f885","dfnText":"::before","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-before"}],"title":"2.5. \nBox Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-selectordef-before\u2460"}],"title":"3. \nRun-In Layout"},{"refs":[{"id":"ref-for-selectordef-before\u2461"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
 "5875aeb9": {"dfnID":"5875aeb9","dfnText":"::marker","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-marker"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-selectordef-marker\u2460"}],"title":"2.3. \nGenerating Marker Boxes: the list-item keyword"},{"refs":[{"id":"ref-for-selectordef-marker\u2461"}],"title":"3. \nRun-In Layout"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-marker"},
+"5a9f740b": {"dfnID":"5a9f740b","dfnText":"non-rendered element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermNonRenderedElement"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/render.html#TermNonRenderedElement"},
 "5b914404": {"dfnID":"5b914404","dfnText":"fieldset","external":true,"refSections":[{"refs":[{"id":"ref-for-the-fieldset-element"}],"title":"2.5. \nBox Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-the-fieldset-element\u2460"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element"},
 "61885b99": {"dfnID":"61885b99","dfnText":"legend","external":true,"refSections":[{"refs":[{"id":"ref-for-the-legend-element"}],"title":"2.5. \nBox Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-the-legend-element\u2460"},{"id":"ref-for-the-legend-element\u2461"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element"},
-"653040a2": {"dfnID":"653040a2","dfnText":"symbol","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-symbol"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/struct.html#elementdef-symbol"},
 "6b994709": {"dfnID":"6b994709","dfnText":"table grid box","external":true,"refSections":[{"refs":[{"id":"ref-for-table-grid-box"}],"title":"1. \nIntroduction"},{"refs":[{"id":"ref-for-table-grid-box\u2460"},{"id":"ref-for-table-grid-box\u2461"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-table-grid-box\u2462"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-table-grid-box\u2463"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-tables-3/#table-grid-box"},
+"6d3e1ad6": {"dfnID":"6d3e1ad6","dfnText":"presentation attributes","external":true,"refSections":[{"refs":[{"id":"ref-for-TermPresentationAttribute"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/styling.html#TermPresentationAttribute"},
+"6d50fd63": {"dfnID":"6d50fd63","dfnText":"svg","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-svg"},{"id":"ref-for-elementdef-svg\u2460"},{"id":"ref-for-elementdef-svg\u2461"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"},{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"},{"id":"ref-for-comb-one\u2462"},{"id":"ref-for-comb-one\u2463"},{"id":"ref-for-comb-one\u2464"},{"id":"ref-for-comb-one\u2465"},{"id":"ref-for-comb-one\u2466"},{"id":"ref-for-comb-one\u2467"},{"id":"ref-for-comb-one\u2468"},{"id":"ref-for-comb-one\u2460\u24ea"},{"id":"ref-for-comb-one\u2460\u2460"},{"id":"ref-for-comb-one\u2460\u2461"},{"id":"ref-for-comb-one\u2460\u2462"},{"id":"ref-for-comb-one\u2460\u2463"},{"id":"ref-for-comb-one\u2460\u2464"},{"id":"ref-for-comb-one\u2460\u2465"},{"id":"ref-for-comb-one\u2460\u2466"},{"id":"ref-for-comb-one\u2460\u2467"},{"id":"ref-for-comb-one\u2460\u2468"},{"id":"ref-for-comb-one\u2461\u24ea"},{"id":"ref-for-comb-one\u2461\u2460"},{"id":"ref-for-comb-one\u2461\u2461"},{"id":"ref-for-comb-one\u2461\u2462"},{"id":"ref-for-comb-one\u2461\u2463"},{"id":"ref-for-comb-one\u2461\u2464"},{"id":"ref-for-comb-one\u2461\u2465"}],"title":"2. \nBox Layout Modes: the display property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
 "6f7798a0": {"dfnID":"6f7798a0","dfnText":"root inline box","external":true,"refSections":[{"refs":[{"id":"ref-for-root-inline-box"},{"id":"ref-for-root-inline-box\u2460"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-inline-3/#root-inline-box"},
-"73a98e20": {"dfnID":"73a98e20","dfnText":"flex layout","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-layout"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-layout"},
 "754e7a89": {"dfnID":"754e7a89","dfnText":"contain","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-contain"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-contain-2/#propdef-contain"},
 "758665a5": {"dfnID":"758665a5","dfnText":"paged media","external":true,"refSections":[{"refs":[{"id":"ref-for-paged-media"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/mediaqueries-5/#paged-media"},
 "75bfa627": {"dfnID":"75bfa627","dfnText":"::first-line","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-first-line"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-line"},
-"793853ba": {"dfnID":"793853ba","dfnText":"container element","external":true,"refSections":[{"refs":[{"id":"ref-for-container-element"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/struct.html#container-element"},
+"8043b988": {"dfnID":"8043b988","dfnText":"text","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-text"},{"id":"ref-for-dfn-text\u2460"},{"id":"ref-for-dfn-text\u2461"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/epub-specs/epub33/core/#dfn-text"},
 "85188fb3": {"dfnID":"85188fb3","dfnText":"select","external":true,"refSections":[{"refs":[{"id":"ref-for-the-select-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element"},
 "86923d07": {"dfnID":"86923d07","dfnText":"scroll container","external":true,"refSections":[{"refs":[{"id":"ref-for-scroll-container"},{"id":"ref-for-scroll-container\u2460"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-overflow-3/#scroll-container"},
 "87fcd40c": {"dfnID":"87fcd40c","dfnText":"iframe","external":true,"refSections":[{"refs":[{"id":"ref-for-the-iframe-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element"},
@@ -3607,21 +3615,24 @@ let dfnPanelData = {
 "9729fd44": {"dfnID":"9729fd44","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-fragment"},{"id":"ref-for-fragment\u2460"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-break-3/#fragment"},
 "994d0e36": {"dfnID":"994d0e36","dfnText":"table wrapper box","external":true,"refSections":[{"refs":[{"id":"ref-for-table-wrapper-box"}],"title":"1. \nIntroduction"},{"refs":[{"id":"ref-for-table-wrapper-box\u2460"},{"id":"ref-for-table-wrapper-box\u2461"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-table-wrapper-box\u2462"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-table-wrapper-box\u2463"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-tables-3/#table-wrapper-box"},
 "99b5cef6": {"dfnID":"99b5cef6","dfnText":"object","external":true,"refSections":[{"refs":[{"id":"ref-for-the-object-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element"},
-"9bfc28f6": {"dfnID":"9bfc28f6","dfnText":"pseudo-element","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
+"99fc0b6a": {"dfnID":"99fc0b6a","dfnText":"flex formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-formatting-context"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-flex-formatting-context\u2460"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-formatting-context"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"}],"title":"1. \nIntroduction"},{"refs":[{"id":"ref-for-computed-value\u2460"}],"title":"2.7. \nAutomatic Box Type Transformations"},{"refs":[{"id":"ref-for-computed-value\u2461"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "a1addf6c": {"dfnID":"a1addf6c","dfnText":"::first-letter","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-first-letter"}],"title":"Unnumbered Section"},{"refs":[{"id":"ref-for-selectordef-first-letter\u2460"}],"title":"3. \nRun-In Layout"},{"refs":[{"id":"ref-for-selectordef-first-letter\u2461"},{"id":"ref-for-selectordef-first-letter\u2462"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-first-letter"},
 "a9734ee4": {"dfnID":"a9734ee4","dfnText":"border","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border"},
 "aa7bbf63": {"dfnID":"aa7bbf63","dfnText":"video","external":true,"refSections":[{"refs":[{"id":"ref-for-video"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/media.html#video"},
+"aad1689c": {"dfnID":"aad1689c","dfnText":"rendered element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermRenderedElement"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderedElement"},
 "aba1ccaf": {"dfnID":"aba1ccaf","dfnText":"continuous media","external":true,"refSections":[{"refs":[{"id":"ref-for-continuous-media"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/mediaqueries-5/#continuous-media"},
-"abdfd54a": {"dfnID":"abdfd54a","dfnText":"pattern","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-pattern"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/pservers.html#elementdef-pattern"},
 "anonymous": {"dfnID":"anonymous","dfnText":"anonymous box","external":false,"refSections":[{"refs":[{"id":"ref-for-anonymous"},{"id":"ref-for-anonymous\u2460"},{"id":"ref-for-anonymous\u2461"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-anonymous\u2462"}],"title":"Appendix C: Box Construction Guidelines for Spec Authors"}],"url":"#anonymous"},
 "atomic-inline": {"dfnID":"atomic-inline","dfnText":"atomic inline","external":false,"refSections":[],"url":"#atomic-inline"},
+"b164cce6": {"dfnID":"b164cce6","dfnText":"use","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-use"},{"id":"ref-for-elementdef-use\u2460"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-use"},
 "b203675a": {"dfnID":"b203675a","dfnText":"getComputedStyle(elt)","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-window-getcomputedstyle"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle"},
 "b23654ab": {"dfnID":"b23654ab","dfnText":"meter","external":true,"refSections":[{"refs":[{"id":"ref-for-the-meter-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element"},
 "b8a0ba74": {"dfnID":"b8a0ba74","dfnText":"position","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-position"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-propdef-position\u2460"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-position"},
+"b8e6953d": {"dfnID":"b8e6953d","dfnText":"pattern","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-pattern"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/pservers.html#elementdef-pattern"},
 "b90b2ad5": {"dfnID":"b90b2ad5","dfnText":"progress","external":true,"refSections":[{"refs":[{"id":"ref-for-the-progress-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element"},
 "b996b941": {"dfnID":"b996b941","dfnText":"src","external":true,"refSections":[{"refs":[{"id":"ref-for-attr-img-src"}],"title":"\nAppendix A: Glossary"}],"url":"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src"},
 "bb9778e3": {"dfnID":"bb9778e3","dfnText":"fragmentation","external":true,"refSections":[{"refs":[{"id":"ref-for-fragmentation"},{"id":"ref-for-fragmentation\u2460"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-break-4/#fragmentation"},
+"becb5bd6": {"dfnID":"becb5bd6","dfnText":"text content child element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermTextContentChildElement"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/text.html#TermTextContentChildElement"},
 "bfc": {"dfnID":"bfc","dfnText":"BFC","external":false,"refSections":[{"refs":[{"id":"ref-for-bfc"}],"title":"2. Box Layout Modes: the display property"},{"refs":[{"id":"ref-for-bfc\u2460"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#bfc"},
 "bfff6250": {"dfnID":"bfff6250","dfnText":"button","external":true,"refSections":[{"refs":[{"id":"ref-for-the-button-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element"},
 "block": {"dfnID":"block","dfnText":"block","external":false,"refSections":[{"refs":[{"id":"ref-for-block"}],"title":"Appendix A: Glossary"}],"url":"#block"},
@@ -3634,26 +3645,23 @@ let dfnPanelData = {
 "blockify": {"dfnID":"blockify","dfnText":"blockification","external":false,"refSections":[{"refs":[{"id":"ref-for-blockify"},{"id":"ref-for-blockify\u2460"},{"id":"ref-for-blockify\u2461"},{"id":"ref-for-blockify\u2462"},{"id":"ref-for-blockify\u2463"},{"id":"ref-for-blockify\u2464"},{"id":"ref-for-blockify\u2465"}],"title":"2.7. Automatic Box Type Transformations"},{"refs":[{"id":"ref-for-blockify\u2466"}],"title":"Appendix A: Glossary"},{"refs":[{"id":"ref-for-blockify\u2467"},{"id":"ref-for-blockify\u2468"},{"id":"ref-for-blockify\u2460\u24ea"},{"id":"ref-for-blockify\u2460\u2460"}],"title":"Appendix C: Box Construction Guidelines for Spec Authors"},{"refs":[{"id":"ref-for-blockify\u2460\u2461"},{"id":"ref-for-blockify\u2460\u2462"},{"id":"ref-for-blockify\u2460\u2463"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#blockify"},
 "box": {"dfnID":"box","dfnText":"box","external":false,"refSections":[{"refs":[{"id":"ref-for-box"},{"id":"ref-for-box\u2460"},{"id":"ref-for-box\u2461"},{"id":"ref-for-box\u2462"},{"id":"ref-for-box\u2463"},{"id":"ref-for-box\u2464"},{"id":"ref-for-box\u2465"},{"id":"ref-for-box\u2466"},{"id":"ref-for-box\u2467"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-box\u2468"},{"id":"ref-for-box\u2460\u24ea"}],"title":"2.5. Box Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-box\u2460\u2460"},{"id":"ref-for-box\u2460\u2461"},{"id":"ref-for-box\u2460\u2462"},{"id":"ref-for-box\u2460\u2463"},{"id":"ref-for-box\u2460\u2464"},{"id":"ref-for-box\u2460\u2465"},{"id":"ref-for-box\u2460\u2466"}],"title":"Appendix A: Glossary"}],"url":"#box"},
 "box-tree": {"dfnID":"box-tree","dfnText":"box tree","external":false,"refSections":[{"refs":[{"id":"ref-for-box-tree"},{"id":"ref-for-box-tree\u2460"},{"id":"ref-for-box-tree\u2461"},{"id":"ref-for-box-tree\u2462"},{"id":"ref-for-box-tree\u2463"},{"id":"ref-for-box-tree\u2464"},{"id":"ref-for-box-tree\u2465"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-box-tree\u2466"},{"id":"ref-for-box-tree\u2467"}],"title":"2. Box Layout Modes: the display property"},{"refs":[{"id":"ref-for-box-tree\u2468"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#box-tree"},
-"c0807e02": {"dfnID":"c0807e02","dfnText":"renderable element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermRenderableElement"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/render.html#TermRenderableElement"},
 "c3bd6e1d": {"dfnID":"c3bd6e1d","dfnText":"box fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-box-fragment"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-break-4/#box-fragment"},
+"c47ef3ce": {"dfnID":"c47ef3ce","dfnText":"overflow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-overflow"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-propdef-overflow\u2460"}],"title":"\nAppendix A: Glossary"},{"refs":[{"id":"ref-for-propdef-overflow\u2461"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://drafts.csswg.org/css2/#propdef-overflow"},
 "c6c2ab78": {"dfnID":"c6c2ab78","dfnText":"subgrid","external":true,"refSections":[{"refs":[{"id":"ref-for-subgrid"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-grid-2/#subgrid"},
-"cc7196b9": {"dfnID":"cc7196b9","dfnText":"non-rendered element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermNonRenderedElement"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/render.html#TermNonRenderedElement"},
-"cdd73959": {"dfnID":"cdd73959","dfnText":"float","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-float"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-propdef-float\u2460"},{"id":"ref-for-propdef-float\u2461"}],"title":"\nAppendix A: Glossary"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-float"},
+"cb0e2903": {"dfnID":"cb0e2903","dfnText":"flex layout","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-layout"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-layout"},
 "ce1c3a64": {"dfnID":"ce1c3a64","dfnText":"align-content","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-align-content"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-align-3/#propdef-align-content"},
 "ce97658e": {"dfnID":"ce97658e","dfnText":"subgrid (for grid-template-rows)","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-grid-template-rows-subgrid"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"}],"url":"https://drafts.csswg.org/css-grid-2/#valdef-grid-template-rows-subgrid"},
 "cf87e3bd": {"dfnID":"cf87e3bd","dfnText":"frameset","external":true,"refSections":[{"refs":[{"id":"ref-for-frameset"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/obsolete.html#frameset"},
 "containing-block": {"dfnID":"containing-block","dfnText":"containing block","external":false,"refSections":[{"refs":[{"id":"ref-for-containing-block"},{"id":"ref-for-containing-block\u2460"},{"id":"ref-for-containing-block\u2461"},{"id":"ref-for-containing-block\u2462"},{"id":"ref-for-containing-block\u2463"},{"id":"ref-for-containing-block\u2464"},{"id":"ref-for-containing-block\u2465"},{"id":"ref-for-containing-block\u2466"},{"id":"ref-for-containing-block\u2467"},{"id":"ref-for-containing-block\u2468"},{"id":"ref-for-containing-block\u2460\u24ea"}],"title":"Appendix A: Glossary"},{"refs":[{"id":"ref-for-containing-block\u2460\u2460"}],"title":"Changes"}],"url":"#containing-block"},
 "containing-block-chain": {"dfnID":"containing-block-chain","dfnText":"containing block chain","external":false,"refSections":[],"url":"#containing-block-chain"},
 "css-parent-box": {"dfnID":"css-parent-box","dfnText":"parent box","external":false,"refSections":[{"refs":[{"id":"ref-for-css-parent-box"}],"title":"Changes"}],"url":"#css-parent-box"},
+"d274fbc5": {"dfnID":"d274fbc5","dfnText":"renderable element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermRenderableElement"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderableElement"},
 "d3936525": {"dfnID":"d3936525","dfnText":"natural dimension","external":true,"refSections":[{"refs":[{"id":"ref-for-natural-dimensions"},{"id":"ref-for-natural-dimensions\u2460"},{"id":"ref-for-natural-dimensions\u2461"},{"id":"ref-for-natural-dimensions\u2462"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-images-3/#natural-dimensions"},
-"d616644b": {"dfnID":"d616644b","dfnText":"textPath","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-textPath"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/text.html#elementdef-textPath"},
 "d7d642a2": {"dfnID":"d7d642a2","dfnText":"input","external":true,"refSections":[{"refs":[{"id":"ref-for-the-input-element"}],"title":"\nAppendix B: Effects of display: contents on Unusual Elements"},{"refs":[{"id":"ref-for-the-input-element\u2460"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/input.html#the-input-element"},
-"d8131c14": {"dfnID":"d8131c14","dfnText":"flex formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-formatting-context"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-flex-formatting-context\u2460"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-formatting-context"},
 "dcf0398d": {"dfnID":"dcf0398d","dfnText":"document language","external":true,"refSections":[{"refs":[{"id":"ref-for-document-language"}],"title":"2. \nBox Layout Modes: the display property"}],"url":"https://drafts.csswg.org/selectors-4/#document-language"},
-"dd41218a": {"dfnID":"dd41218a","dfnText":"text content child element","external":true,"refSections":[{"refs":[{"id":"ref-for-TermTextContentChildElement"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/text.html#TermTextContentChildElement"},
+"dec30ae3": {"dfnID":"dec30ae3","dfnText":"tspan","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-tspan"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-tspan"},
 "display-type": {"dfnID":"display-type","dfnText":"display type","external":false,"refSections":[{"refs":[{"id":"ref-for-display-type"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-display-type\u2460"}],"title":"2. Box Layout Modes: the display property"},{"refs":[{"id":"ref-for-display-type\u2461"}],"title":"2.7. Automatic Box Type Transformations"},{"refs":[{"id":"ref-for-display-type\u2462"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#display-type"},
 "document-order": {"dfnID":"document-order","dfnText":"document order","external":false,"refSections":[{"refs":[{"id":"ref-for-document-order"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#document-order"},
-"e6409866": {"dfnID":"e6409866","dfnText":"tspan","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-tspan"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/text.html#elementdef-tspan"},
 "efab6432": {"dfnID":"efab6432","dfnText":"br","external":true,"refSections":[{"refs":[{"id":"ref-for-the-br-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element"},
 "element-tree": {"dfnID":"element-tree","dfnText":"tree","external":false,"refSections":[{"refs":[{"id":"ref-for-element-tree"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-element-tree\u2460"}],"title":"2.5. Box Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-element-tree\u2461"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#element-tree"},
 "elements": {"dfnID":"elements","dfnText":"elements","external":false,"refSections":[{"refs":[{"id":"ref-for-elements"},{"id":"ref-for-elements\u2460"},{"id":"ref-for-elements\u2461"},{"id":"ref-for-elements\u2462"},{"id":"ref-for-elements\u2463"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-elements\u2464"}],"title":"2.5. Box Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-elements\u2465"}],"title":"Appendix A: Glossary"}],"url":"#elements"},
@@ -3661,8 +3669,8 @@ let dfnPanelData = {
 "f005b2f6": {"dfnID":"f005b2f6","dfnText":"grid container","external":true,"refSections":[{"refs":[{"id":"ref-for-grid-container"},{"id":"ref-for-grid-container\u2460"}],"title":"2. \nBox Layout Modes: the display property"},{"refs":[{"id":"ref-for-grid-container\u2461"}],"title":"2.2. \nInner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-grid-container\u2462"},{"id":"ref-for-grid-container\u2463"}],"title":"\nAppendix A: Glossary"}],"url":"https://drafts.csswg.org/css-grid-2/#grid-container"},
 "f0809abc": {"dfnID":"f0809abc","dfnText":"&&","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-all"},{"id":"ref-for-comb-all\u2460"}],"title":"2. \nBox Layout Modes: the display property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-all"},
 "f0811ff8": {"dfnID":"f0811ff8","dfnText":"img","external":true,"refSections":[{"refs":[{"id":"ref-for-the-img-element"}],"title":"\nAppendix A: Glossary"},{"refs":[{"id":"ref-for-the-img-element\u2460"}],"title":"\nAppendix B: Effects of display: contents on Unusual Elements"},{"refs":[{"id":"ref-for-the-img-element\u2461"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element"},
-"f24162b9": {"dfnID":"f24162b9","dfnText":"use","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-use"},{"id":"ref-for-elementdef-use\u2460"}],"title":"SVG Elements"}],"url":"https://svgwg.org/svg2-draft/struct.html#elementdef-use"},
 "fc736137": {"dfnID":"fc736137","dfnText":"textarea","external":true,"refSections":[{"refs":[{"id":"ref-for-the-textarea-element"}],"title":"HTML Elements"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element"},
+"fcc8ed6b": {"dfnID":"fcc8ed6b","dfnText":"symbol","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-symbol"}],"title":"SVG Elements"}],"url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-symbol"},
 "fd0c9e35": {"dfnID":"fd0c9e35","dfnText":"::after","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-after"}],"title":"2.5. \nBox Generation: the none and contents keywords"},{"refs":[{"id":"ref-for-selectordef-after\u2460"}],"title":"\nChanges Prior to Candidate Recommendation Status"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-after"},
 "flow-layout": {"dfnID":"flow-layout","dfnText":"flow layout","external":false,"refSections":[{"refs":[{"id":"ref-for-flow-layout"}],"title":"2. Box Layout Modes: the display property"},{"refs":[{"id":"ref-for-flow-layout\u2460"},{"id":"ref-for-flow-layout\u2461"},{"id":"ref-for-flow-layout\u2462"}],"title":"2.1. Outer Display Roles for Flow Layout: the block, inline, and run-in keywords"},{"refs":[{"id":"ref-for-flow-layout\u2463"}],"title":"2.2. Inner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-flow-layout\u2464"}],"title":"2.3. Generating Marker Boxes: the list-item keyword"},{"refs":[{"id":"ref-for-flow-layout\u2465"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#flow-layout"},
 "formatting-context": {"dfnID":"formatting-context","dfnText":"formatting context","external":false,"refSections":[{"refs":[{"id":"ref-for-formatting-context"}],"title":"2. Box Layout Modes: the display property"},{"refs":[{"id":"ref-for-formatting-context\u2460"},{"id":"ref-for-formatting-context\u2461"},{"id":"ref-for-formatting-context\u2462"}],"title":"2.2. Inner Display Layout Models: the flow, flow-root, table, flex, grid, and ruby keywords"},{"refs":[{"id":"ref-for-formatting-context\u2463"},{"id":"ref-for-formatting-context\u2464"},{"id":"ref-for-formatting-context\u2465"},{"id":"ref-for-formatting-context\u2466"},{"id":"ref-for-formatting-context\u2467"},{"id":"ref-for-formatting-context\u2468"},{"id":"ref-for-formatting-context\u2460\u24ea"},{"id":"ref-for-formatting-context\u2460\u2460"},{"id":"ref-for-formatting-context\u2460\u2461"},{"id":"ref-for-formatting-context\u2460\u2462"},{"id":"ref-for-formatting-context\u2460\u2463"},{"id":"ref-for-formatting-context\u2460\u2464"}],"title":"Appendix A: Glossary"},{"refs":[{"id":"ref-for-formatting-context\u2460\u2465"}],"title":"Changes Prior to Candidate Recommendation Status"}],"url":"#formatting-context"},
@@ -4273,9 +4281,9 @@ let refsData = {
 "https://drafts.csswg.org/css-cascade-5/#css-inheritance": {"displayText":"inheritance","export":true,"for_":["CSS"],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"inheritance","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#css-inheritance"},
 "https://drafts.csswg.org/css-cascade-5/#inherited-property": {"displayText":"inherited property","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-cascade","spec":"css-cascade-5","status":"current","text":"inherited property","type":"dfn","url":"https://drafts.csswg.org/css-cascade-5/#inherited-property"},
 "https://drafts.csswg.org/css-contain-2/#propdef-contain": {"displayText":"contain","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-contain","spec":"css-contain-2","status":"current","text":"contain","type":"property","url":"https://drafts.csswg.org/css-contain-2/#propdef-contain"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-container": {"displayText":"flex container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex container","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-container"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-formatting-context": {"displayText":"flex formatting context","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex formatting context","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-formatting-context"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-layout": {"displayText":"flex layout","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex layout","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-layout"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-container": {"displayText":"flex container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex container","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-container"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-formatting-context": {"displayText":"flex formatting context","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex formatting context","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-formatting-context"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-layout": {"displayText":"flex layout","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex layout","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-layout"},
 "https://drafts.csswg.org/css-grid-2/#grid-container": {"displayText":"grid container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-grid","spec":"css-grid-2","status":"current","text":"grid container","type":"dfn","url":"https://drafts.csswg.org/css-grid-2/#grid-container"},
 "https://drafts.csswg.org/css-grid-2/#grid-formatting-context": {"displayText":"grid formatting context","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-grid","spec":"css-grid-2","status":"current","text":"grid formatting context","type":"dfn","url":"https://drafts.csswg.org/css-grid-2/#grid-formatting-context"},
 "https://drafts.csswg.org/css-grid-2/#subgrid": {"displayText":"subgrid","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-grid","spec":"css-grid-2","status":"current","text":"subgrid","type":"dfn","url":"https://drafts.csswg.org/css-grid-2/#subgrid"},
@@ -4303,11 +4311,14 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#comb-one": {"displayText":"|","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"|","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#comb-one"},
 "https://drafts.csswg.org/css-values-4/#css-wide-keywords": {"displayText":"CSS-wide keywords","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"css-wide keywords","type":"dfn","url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "https://drafts.csswg.org/css-values-4/#mult-opt": {"displayText":"?","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"?","type":"grammar","url":"https://drafts.csswg.org/css-values-4/#mult-opt"},
+"https://drafts.csswg.org/css2/#propdef-float": {"displayText":"float","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"float","type":"property","url":"https://drafts.csswg.org/css2/#propdef-float"},
+"https://drafts.csswg.org/css2/#propdef-list-style": {"displayText":"list-style","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"list-style","type":"property","url":"https://drafts.csswg.org/css2/#propdef-list-style"},
+"https://drafts.csswg.org/css2/#propdef-overflow": {"displayText":"overflow","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"overflow","type":"property","url":"https://drafts.csswg.org/css2/#propdef-overflow"},
 "https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle": {"displayText":"getComputedStyle(elt)","export":true,"for_":["Window"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"getComputedStyle(elt)","type":"method","url":"https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle"},
 "https://drafts.csswg.org/mediaqueries-5/#continuous-media": {"displayText":"continuous media","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"continuous media","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#continuous-media"},
 "https://drafts.csswg.org/mediaqueries-5/#paged-media": {"displayText":"paged media","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"paged media","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#paged-media"},
 "https://drafts.csswg.org/selectors-4/#document-language": {"displayText":"document language","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"document language","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#document-language"},
-"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-element","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-element","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
+"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-elements","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "https://html.spec.whatwg.org/multipage/canvas.html#canvas": {"displayText":"canvas","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"canvas","type":"element","url":"https://html.spec.whatwg.org/multipage/canvas.html#canvas"},
 "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src": {"displayText":"src","export":true,"for_":["img"],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"src","type":"element-attr","url":"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src"},
 "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element": {"displayText":"img","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"img","type":"element","url":"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element"},
@@ -4332,22 +4343,19 @@ let refsData = {
 "https://html.spec.whatwg.org/multipage/sections.html#the-body-element": {"displayText":"body","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"body","type":"element","url":"https://html.spec.whatwg.org/multipage/sections.html#the-body-element"},
 "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element": {"displayText":"br","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"br","type":"element","url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element"},
 "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element": {"displayText":"wbr","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"wbr","type":"element","url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element"},
-"https://svgwg.org/svg2-draft/pservers.html#elementdef-pattern": {"displayText":"pattern","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"pattern","type":"element","url":"https://svgwg.org/svg2-draft/pservers.html#elementdef-pattern"},
-"https://svgwg.org/svg2-draft/render.html#TermNonRenderedElement": {"displayText":"non-rendered element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"non-rendered element","type":"dfn","url":"https://svgwg.org/svg2-draft/render.html#TermNonRenderedElement"},
-"https://svgwg.org/svg2-draft/render.html#TermRenderableElement": {"displayText":"renderable element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"renderable element","type":"dfn","url":"https://svgwg.org/svg2-draft/render.html#TermRenderableElement"},
-"https://svgwg.org/svg2-draft/render.html#TermRenderedElement": {"displayText":"rendered element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"rendered element","type":"dfn","url":"https://svgwg.org/svg2-draft/render.html#TermRenderedElement"},
-"https://svgwg.org/svg2-draft/struct.html#container-element": {"displayText":"container element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"container element","type":"dfn","url":"https://svgwg.org/svg2-draft/struct.html#container-element"},
-"https://svgwg.org/svg2-draft/struct.html#elementdef-svg": {"displayText":"svg","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg","type":"element","url":"https://svgwg.org/svg2-draft/struct.html#elementdef-svg"},
-"https://svgwg.org/svg2-draft/struct.html#elementdef-symbol": {"displayText":"symbol","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"symbol","type":"element","url":"https://svgwg.org/svg2-draft/struct.html#elementdef-symbol"},
-"https://svgwg.org/svg2-draft/struct.html#elementdef-use": {"displayText":"use","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"use","type":"element","url":"https://svgwg.org/svg2-draft/struct.html#elementdef-use"},
-"https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute": {"displayText":"presentation attributes","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"presentation attributes","type":"dfn","url":"https://svgwg.org/svg2-draft/styling.html#TermPresentationAttribute"},
-"https://svgwg.org/svg2-draft/text.html#TermTextContentChildElement": {"displayText":"text content child element","export":false,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"text content child element","type":"dfn","url":"https://svgwg.org/svg2-draft/text.html#TermTextContentChildElement"},
-"https://svgwg.org/svg2-draft/text.html#elementdef-text": {"displayText":"text","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"text","type":"element","url":"https://svgwg.org/svg2-draft/text.html#elementdef-text"},
-"https://svgwg.org/svg2-draft/text.html#elementdef-textPath": {"displayText":"textPath","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"textpath","type":"element","url":"https://svgwg.org/svg2-draft/text.html#elementdef-textPath"},
-"https://svgwg.org/svg2-draft/text.html#elementdef-tspan": {"displayText":"tspan","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"tspan","type":"element","url":"https://svgwg.org/svg2-draft/text.html#elementdef-tspan"},
-"https://www.w3.org/TR/CSS21/generate.html#propdef-list-style": {"displayText":"list-style","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"list-style","type":"property","url":"https://www.w3.org/TR/CSS21/generate.html#propdef-list-style"},
-"https://www.w3.org/TR/CSS21/visufx.html#propdef-overflow": {"displayText":"overflow","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"overflow","type":"property","url":"https://www.w3.org/TR/CSS21/visufx.html#propdef-overflow"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-float": {"displayText":"float","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"float","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-float"},
+"https://w3c.github.io/epub-specs/epub33/core/#dfn-text": {"displayText":"text","export":true,"for_":[],"level":"1","normative":true,"shortname":"epub","spec":"epub-33","status":"current","text":"text","type":"element","url":"https://w3c.github.io/epub-specs/epub33/core/#dfn-text"},
+"https://w3c.github.io/svgwg/svg2-draft/pservers.html#elementdef-pattern": {"displayText":"pattern","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"pattern","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/pservers.html#elementdef-pattern"},
+"https://w3c.github.io/svgwg/svg2-draft/render.html#TermNonRenderedElement": {"displayText":"non-rendered element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"non-rendered element","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/render.html#TermNonRenderedElement"},
+"https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderableElement": {"displayText":"renderable element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"renderable element","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderableElement"},
+"https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderedElement": {"displayText":"rendered element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"rendered element","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/render.html#TermRenderedElement"},
+"https://w3c.github.io/svgwg/svg2-draft/struct.html#container-element": {"displayText":"container element","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"container element","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#container-element"},
+"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg": {"displayText":"svg","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"svg","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-svg"},
+"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-symbol": {"displayText":"symbol","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"symbol","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-symbol"},
+"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-use": {"displayText":"use","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"use","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/struct.html#elementdef-use"},
+"https://w3c.github.io/svgwg/svg2-draft/styling.html#TermPresentationAttribute": {"displayText":"presentation attributes","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"presentation attributes","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/styling.html#TermPresentationAttribute"},
+"https://w3c.github.io/svgwg/svg2-draft/text.html#TermTextContentChildElement": {"displayText":"text content child element","export":false,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"text content child element","type":"dfn","url":"https://w3c.github.io/svgwg/svg2-draft/text.html#TermTextContentChildElement"},
+"https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-textPath": {"displayText":"textPath","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"textpath","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-textPath"},
+"https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-tspan": {"displayText":"tspan","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"tspan","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/text.html#elementdef-tspan"},
 };
 
 function mkRefHint(link, ref) {

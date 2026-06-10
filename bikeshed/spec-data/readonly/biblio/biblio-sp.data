@@ -1,22 +1,62 @@
-s:sp800-131a
+d:sp800-131a
 SP800-131A
-<a href="https://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf"><cite> Transitions: Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths, January 2011.</cite></a> SP-800-131A U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href="https://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf">https://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf</a>
+January 2011
+SP-800-131A U.S. Department of Commerce/National Institute of Standards and Technology
+Transitions: Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths, January 2011.
+https://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf
+
+
+
+
 -
-s:sp800-38d
+d:sp800-38d
 SP800-38D
-M. Dworkin. <a href="https://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf"><cite> NIST Special Publication 800-38D: Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC</cite></a>. November 2007 URL: <a href="https://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf">https://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf</a>
+November 2007
+
+NIST Special Publication 800-38D: Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC
+https://csrc.nist.gov/publications/nistpubs/800-38D/SP-800-38D.pdf
+
+
+
+
+M. Dworkin
 -
-s:sp800-56a
+d:sp800-56a
 SP800-56A
-<a href="https://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf"><cite> NIST Special Publication 800-56A: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography (Revised)</cite></a>. March 2007 URL: <a href="https://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf">https://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf</a>
+March 2007
+
+NIST Special Publication 800-56A: Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography (Revised)
+https://csrc.nist.gov/publications/nistpubs/800-56A/SP800-56A_Revision1_Mar08-2007.pdf
+
+
+
+
 -
-s:sp800-57
+d:sp800-57
 SP800-57
-<a href="https://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf"><cite>Recommendation for Key Management &#8211; Part 1: General (Revision 3)</cite></a>. SP800-57. July 2012. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href="https://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf">https://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf</a>
+July 2012
+SP800-57. U.S. Department of Commerce/National Institute of Standards and Technology
+Recommendation for Key Management – Part 1: General (Revision 3)
+https://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf
+
+
+
+
 -
-s:sp800-67
+d:sp800-67
 SP800-67
-<a href="https://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf"><cite> Recommendation for the Triple Data Encryption Algorithm (TDEA) Block Cipher, Revised January 2012.</cite></a> SP-800-67 Revision 1. U.S. Department of Commerce/National Institute of Standards and Technology. URL: <a href="https://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf">https://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf</a>
+January 2012
+SP-800-67 Revision 1. U.S. Department of Commerce/National Institute of Standards and Technology
+Recommendation for the Triple Data Encryption Algorithm (TDEA) Block Cipher, Revised January 2012.
+https://csrc.nist.gov/publications/nistpubs/800-67-Rev1/SP-800-67-Rev1.pdf
+
+
+
+
+-
+a:sparql-entailment
+sparql-entailment
+sparql11-entailment
 -
 d:sparql-features
 sparql-features
@@ -43,6 +83,26 @@ https://www.w3.org/TR/2009/WD-sparql-features-20090702/
 
 Kjetil Kjernsmo
 Alexandre Passant
+-
+a:sparql-federated-query
+sparql-federated-query
+sparql11-federated-query
+-
+a:sparql-graph-store-protocol
+sparql-graph-store-protocol
+sparql11-http-rdf-update
+-
+a:sparql-overview
+sparql-overview
+sparql11-overview
+-
+a:sparql-property-paths
+sparql-property-paths
+sparql11-property-paths
+-
+a:sparql-protocol
+sparql-protocol
+sparql11-protocol
 -
 a:sparql-query
 SPARQL-QUERY
@@ -95,6 +155,22 @@ rdf-sparql-query-20071112
 a:sparql-query-20080115
 SPARQL-QUERY-20080115
 rdf-sparql-query-20080115
+-
+a:sparql-results-csv-tsv
+sparql-results-csv-tsv
+sparql11-results-csv-tsv
+-
+a:sparql-results-json
+sparql-results-json
+sparql11-results-json
+-
+a:sparql-results-xml
+sparql-results-xml
+rdf-sparql-XMLres
+-
+a:sparql-service-description
+sparql-service-description
+sparql11-service-description
 -
 a:sparql-update
 SPARQL-UPDATE
@@ -155,8 +231,8 @@ https://www.w3.org/TR/2009/WD-sparql11-entailment-20091022/
 
 
 
+Bijan Parsia
 Birte Glimm
-Chimezie Ogbuji
 -
 d:sparql11-entailment-20100126
 sparql11-entailment-20100126
@@ -168,8 +244,8 @@ https://www.w3.org/TR/2010/WD-sparql11-entailment-20100126/
 
 
 
+Bijan Parsia
 Birte Glimm
-Chimezie Ogbuji
 -
 d:sparql11-entailment-20100601
 sparql11-entailment-20100601
@@ -181,8 +257,8 @@ https://www.w3.org/TR/2010/WD-sparql11-entailment-20100601/
 
 
 
-Birte Glimm
 Chimezie Ogbuji
+Birte Glimm
 -
 d:sparql11-entailment-20101014
 sparql11-entailment-20101014
@@ -194,34 +270,34 @@ https://www.w3.org/TR/2010/WD-sparql11-entailment-20101014/
 
 
 
-Birte Glimm
 Chimezie Ogbuji
+Birte Glimm
 -
 d:sparql11-entailment-20110512
 sparql11-entailment-20110512
 12 May 2011
-WD
+LCWD
 SPARQL 1.1 Entailment Regimes
 https://www.w3.org/TR/2011/WD-sparql11-entailment-20110512/
 https://www.w3.org/TR/2011/WD-sparql11-entailment-20110512/
 
 
 
-Birte Glimm
 Chimezie Ogbuji
+Birte Glimm
 -
 d:sparql11-entailment-20120105
 sparql11-entailment-20120105
 5 January 2012
-WD
+LCWD
 SPARQL 1.1 Entailment Regimes
 https://www.w3.org/TR/2012/WD-sparql11-entailment-20120105/
 https://www.w3.org/TR/2012/WD-sparql11-entailment-20120105/
 
 
 
-Birte Glimm
 Chimezie Ogbuji
+Birte Glimm
 -
 d:sparql11-entailment-20121108
 sparql11-entailment-20121108
@@ -233,8 +309,8 @@ https://www.w3.org/TR/2012/CR-sparql11-entailment-20121108/
 
 
 
-Birte Glimm
 Chimezie Ogbuji
+Birte Glimm
 -
 d:sparql11-entailment-20130129
 sparql11-entailment-20130129
@@ -246,8 +322,8 @@ https://www.w3.org/TR/2013/PR-sparql11-entailment-20130129/
 
 
 
-Birte Glimm
 Chimezie Ogbuji
+Birte Glimm
 -
 d:sparql11-entailment-20130321
 sparql11-entailment-20130321
@@ -279,19 +355,18 @@ d:sparql11-federated-query-20100601
 sparql11-federated-query-20100601
 1 June 2010
 WD
-SPARQL 1.1 Federated Query
+SPARQL 1.1 Federation Extensions
 https://www.w3.org/TR/2010/WD-sparql11-federated-query-20100601/
 https://www.w3.org/TR/2010/WD-sparql11-federated-query-20100601/
 
 
 
 Eric Prud'hommeaux
-Carlos Buil Aranda
 -
 d:sparql11-federated-query-20111117
 sparql11-federated-query-20111117
 17 November 2011
-WD
+LCWD
 SPARQL 1.1 Federated Query
 https://www.w3.org/TR/2011/WD-sparql11-federated-query-20111117/
 https://www.w3.org/TR/2011/WD-sparql11-federated-query-20111117/
@@ -343,7 +418,7 @@ d:sparql11-http-rdf-update-20091022
 sparql11-http-rdf-update-20091022
 22 October 2009
 WD
-SPARQL 1.1 Graph Store HTTP Protocol
+SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs
 https://www.w3.org/TR/2009/WD-sparql11-http-rdf-update-20091022/
 https://www.w3.org/TR/2009/WD-sparql11-http-rdf-update-20091022/
 
@@ -355,7 +430,7 @@ d:sparql11-http-rdf-update-20100126
 sparql11-http-rdf-update-20100126
 26 January 2010
 WD
-SPARQL 1.1 Graph Store HTTP Protocol
+SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs
 https://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20100126/
 https://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20100126/
 
@@ -367,7 +442,7 @@ d:sparql11-http-rdf-update-20100601
 sparql11-http-rdf-update-20100601
 1 June 2010
 WD
-SPARQL 1.1 Graph Store HTTP Protocol
+SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs
 https://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20100601/
 https://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20100601/
 
@@ -379,7 +454,7 @@ d:sparql11-http-rdf-update-20101014
 sparql11-http-rdf-update-20101014
 14 October 2010
 WD
-SPARQL 1.1 Graph Store HTTP Protocol
+SPARQL 1.1 Uniform HTTP Protocol for Managing RDF Graphs
 https://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20101014/
 https://www.w3.org/TR/2010/WD-sparql11-http-rdf-update-20101014/
 
@@ -390,7 +465,7 @@ Chimezie Ogbuji
 d:sparql11-http-rdf-update-20110512
 sparql11-http-rdf-update-20110512
 12 May 2011
-WD
+LCWD
 SPARQL 1.1 Graph Store HTTP Protocol
 https://www.w3.org/TR/2011/WD-sparql11-http-rdf-update-20110512/
 https://www.w3.org/TR/2011/WD-sparql11-http-rdf-update-20110512/
@@ -474,7 +549,7 @@ The W3C SPARQL Working Group
 d:sparql11-overview-20120501
 sparql11-overview-20120501
 1 May 2012
-WD
+LCWD
 SPARQL 1.1 Overview
 https://www.w3.org/TR/2012/WD-sparql11-overview-20120501/
 https://www.w3.org/TR/2012/WD-sparql11-overview-20120501/
@@ -550,36 +625,32 @@ d:sparql11-protocol-20091022
 sparql11-protocol-20091022
 22 October 2009
 WD
-SPARQL 1.1 Protocol
+SPARQL 1.1 Protocol for RDF
 https://www.w3.org/TR/2009/WD-sparql11-protocol-20091022/
 https://www.w3.org/TR/2009/WD-sparql11-protocol-20091022/
 
 
 
+Simon Johnston
 Lee Feigenbaum
-Gregory Williams
-Kendall Clark
-Elias Torres
 -
 d:sparql11-protocol-20100126
 sparql11-protocol-20100126
 26 January 2010
 WD
-SPARQL 1.1 Protocol
+SPARQL 1.1 Protocol for RDF
 https://www.w3.org/TR/2010/WD-sparql11-protocol-20100126/
 https://www.w3.org/TR/2010/WD-sparql11-protocol-20100126/
 
 
 
 Lee Feigenbaum
-Gregory Williams
-Kendall Clark
-Elias Torres
+David Charboneau
 -
 d:sparql11-protocol-20120105
 sparql11-protocol-20120105
 5 January 2012
-WD
+LCWD
 SPARQL 1.1 Protocol
 https://www.w3.org/TR/2012/WD-sparql11-protocol-20120105/
 https://www.w3.org/TR/2012/WD-sparql11-protocol-20120105/
@@ -587,9 +658,9 @@ https://www.w3.org/TR/2012/WD-sparql11-protocol-20120105/
 
 
 Lee Feigenbaum
+Elias Torres
 Gregory Williams
 Kendall Clark
-Elias Torres
 -
 d:sparql11-protocol-20121108
 sparql11-protocol-20121108
@@ -602,9 +673,9 @@ https://www.w3.org/TR/2012/CR-sparql11-protocol-20121108/
 
 
 Lee Feigenbaum
+Elias Torres
 Gregory Williams
 Kendall Clark
-Elias Torres
 -
 d:sparql11-protocol-20130129
 sparql11-protocol-20130129
@@ -617,9 +688,9 @@ https://www.w3.org/TR/2013/PR-sparql11-protocol-20130129/
 
 
 Lee Feigenbaum
+Elias Torres
 Gregory Williams
 Kendall Clark
-Elias Torres
 -
 d:sparql11-protocol-20130321
 sparql11-protocol-20130321
@@ -653,27 +724,27 @@ d:sparql11-query-20091022
 sparql11-query-20091022
 22 October 2009
 WD
-SPARQL 1.1 Query Language
+SPARQL 1.1 Query
 https://www.w3.org/TR/2009/WD-sparql11-query-20091022/
 https://www.w3.org/TR/2009/WD-sparql11-query-20091022/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20100126
 sparql11-query-20100126
 26 January 2010
 WD
-SPARQL 1.1 Query Language
+SPARQL Query Language 1.1
 https://www.w3.org/TR/2010/WD-sparql11-query-20100126/
 https://www.w3.org/TR/2010/WD-sparql11-query-20100126/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20100601
 sparql11-query-20100601
@@ -685,8 +756,8 @@ https://www.w3.org/TR/2010/WD-sparql11-query-20100601/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20101014
 sparql11-query-20101014
@@ -698,47 +769,47 @@ https://www.w3.org/TR/2010/WD-sparql11-query-20101014/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20110512
 sparql11-query-20110512
 12 May 2011
-WD
+LCWD
 SPARQL 1.1 Query Language
 https://www.w3.org/TR/2011/WD-sparql11-query-20110512/
 https://www.w3.org/TR/2011/WD-sparql11-query-20110512/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20120105
 sparql11-query-20120105
 5 January 2012
-WD
+LCWD
 SPARQL 1.1 Query Language
 https://www.w3.org/TR/2012/WD-sparql11-query-20120105/
 https://www.w3.org/TR/2012/WD-sparql11-query-20120105/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20120724
 sparql11-query-20120724
 24 July 2012
-WD
+LCWD
 SPARQL 1.1 Query Language
 https://www.w3.org/TR/2012/WD-sparql11-query-20120724/
 https://www.w3.org/TR/2012/WD-sparql11-query-20120724/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20121108
 sparql11-query-20121108
@@ -750,8 +821,8 @@ https://www.w3.org/TR/2012/PR-sparql11-query-20121108/
 
 
 
-Steven Harris
 Andy Seaborne
+Steven Harris
 -
 d:sparql11-query-20130321
 sparql11-query-20130321
@@ -793,7 +864,7 @@ Andy Seaborne
 d:sparql11-results-csv-tsv-20120501
 sparql11-results-csv-tsv-20120501
 1 May 2012
-WD
+LCWD
 SPARQL 1.1 Query Results CSV and TSV Formats
 https://www.w3.org/TR/2012/WD-sparql11-results-csv-tsv-20120501/
 https://www.w3.org/TR/2012/WD-sparql11-results-csv-tsv-20120501/
@@ -841,7 +912,7 @@ Andy Seaborne
 d:sparql11-results-json-20110913
 sparql11-results-json-20110913
 13 September 2011
-WD
+LCWD
 SPARQL 1.1 Query Results JSON Format
 https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
 https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
@@ -937,7 +1008,7 @@ Gregory Williams
 d:sparql11-service-description-20110512
 sparql11-service-description-20110512
 12 May 2011
-WD
+LCWD
 SPARQL 1.1 Service Description
 https://www.w3.org/TR/2011/WD-sparql11-service-description-20110512/
 https://www.w3.org/TR/2011/WD-sparql11-service-description-20110512/
@@ -949,7 +1020,7 @@ Gregory Williams
 d:sparql11-service-description-20120105
 sparql11-service-description-20120105
 5 January 2012
-WD
+LCWD
 SPARQL 1.1 Service Description
 https://www.w3.org/TR/2012/WD-sparql11-service-description-20120105/
 https://www.w3.org/TR/2012/WD-sparql11-service-description-20120105/
@@ -1006,9 +1077,8 @@ https://www.w3.org/TR/2009/WD-sparql11-update-20091022/
 
 
 
+Simon Schenk
 Paula Gearon
-Alexandre Passant
-Axel Polleres
 -
 d:sparql11-update-20100126
 sparql11-update-20100126
@@ -1020,9 +1090,8 @@ https://www.w3.org/TR/2010/WD-sparql11-update-20100126/
 
 
 
+Simon Schenk
 Paula Gearon
-Alexandre Passant
-Axel Polleres
 -
 d:sparql11-update-20100601
 sparql11-update-20100601
@@ -1034,9 +1103,9 @@ https://www.w3.org/TR/2010/WD-sparql11-update-20100601/
 
 
 
-Paula Gearon
 Alexandre Passant
-Axel Polleres
+Simon Schenk
+Paula Gearon
 -
 d:sparql11-update-20101014
 sparql11-update-20101014
@@ -1048,37 +1117,37 @@ https://www.w3.org/TR/2010/WD-sparql11-update-20101014/
 
 
 
-Paula Gearon
 Alexandre Passant
-Axel Polleres
+Simon Schenk
+Paula Gearon
 -
 d:sparql11-update-20110512
 sparql11-update-20110512
 12 May 2011
-WD
+LCWD
 SPARQL 1.1 Update
 https://www.w3.org/TR/2011/WD-sparql11-update-20110512/
 https://www.w3.org/TR/2011/WD-sparql11-update-20110512/
 
 
 
-Paula Gearon
-Alexandre Passant
 Axel Polleres
+Alexandre Passant
+Paula Gearon
 -
 d:sparql11-update-20120105
 sparql11-update-20120105
 5 January 2012
-WD
+LCWD
 SPARQL 1.1 Update
 https://www.w3.org/TR/2012/WD-sparql11-update-20120105/
 https://www.w3.org/TR/2012/WD-sparql11-update-20120105/
 
 
 
-Paula Gearon
-Alexandre Passant
 Axel Polleres
+Alexandre Passant
+Paula Gearon
 -
 d:sparql11-update-20121108
 sparql11-update-20121108
@@ -1090,9 +1159,9 @@ https://www.w3.org/TR/2012/PR-sparql11-update-20121108/
 
 
 
-Paula Gearon
-Alexandre Passant
 Axel Polleres
+Alexandre Passant
+Paula Gearon
 -
 d:sparql11-update-20130321
 sparql11-update-20130321
@@ -1121,7 +1190,7 @@ https://w3c.github.io/sparql-concepts/spec/
 -
 d:sparql12-entailment
 sparql12-entailment
-18 April 2024
+9 April 2026
 WD
 SPARQL 1.2 Entailment Regimes
 https://www.w3.org/TR/sparql12-entailment/
@@ -1134,7 +1203,7 @@ Peter Patel-Schneider
 d:sparql12-entailment-20230606
 sparql12-entailment-20230606
 6 June 2023
-WD
+FPWD
 SPARQL 1.2 Entailment Regimes
 https://www.w3.org/TR/2023/WD-sparql12-entailment-20230606/
 https://www.w3.org/TR/2023/WD-sparql12-entailment-20230606/
@@ -1167,9 +1236,57 @@ https://www.w3.org/TR/2024/WD-sparql12-entailment-20240418/
 
 Peter Patel-Schneider
 -
+d:sparql12-entailment-20241219
+sparql12-entailment-20241219
+19 December 2024
+WD
+SPARQL 1.2 Entailment Regimes
+https://www.w3.org/TR/2024/WD-sparql12-entailment-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-entailment-20241219/
+
+
+
+Peter Patel-Schneider
+-
+d:sparql12-entailment-20250814
+sparql12-entailment-20250814
+14 August 2025
+WD
+SPARQL 1.2 Entailment Regimes
+https://www.w3.org/TR/2025/WD-sparql12-entailment-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-entailment-20250814/
+
+
+
+Peter Patel-Schneider
+-
+d:sparql12-entailment-20260402
+sparql12-entailment-20260402
+2 April 2026
+WD
+SPARQL 1.2 Entailment Regimes
+https://www.w3.org/TR/2026/WD-sparql12-entailment-20260402/
+https://www.w3.org/TR/2026/WD-sparql12-entailment-20260402/
+
+
+
+Peter Patel-Schneider
+-
+d:sparql12-entailment-20260409
+sparql12-entailment-20260409
+9 April 2026
+WD
+SPARQL 1.2 Entailment Regimes
+https://www.w3.org/TR/2026/WD-sparql12-entailment-20260409/
+https://www.w3.org/TR/2026/WD-sparql12-entailment-20260409/
+
+
+
+Peter Patel-Schneider
+-
 d:sparql12-federated-query
 sparql12-federated-query
-12 September 2024
+23 April 2026
 WD
 SPARQL 1.2 Federated Query
 https://www.w3.org/TR/sparql12-federated-query/
@@ -1183,7 +1300,7 @@ Gregory Williams
 d:sparql12-federated-query-20230516
 sparql12-federated-query-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Federated Query
 https://www.w3.org/TR/2023/WD-sparql12-federated-query-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-federated-query-20230516/
@@ -1245,9 +1362,100 @@ https://www.w3.org/TR/2024/WD-sparql12-federated-query-20240912/
 Ruben Taelman
 Gregory Williams
 -
+d:sparql12-federated-query-20241113
+sparql12-federated-query-20241113
+13 November 2024
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2024/WD-sparql12-federated-query-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-federated-query-20241113/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-federated-query-20241219
+sparql12-federated-query-20241219
+19 December 2024
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2024/WD-sparql12-federated-query-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-federated-query-20241219/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-federated-query-20250505
+sparql12-federated-query-20250505
+5 May 2025
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2025/WD-sparql12-federated-query-20250505/
+https://www.w3.org/TR/2025/WD-sparql12-federated-query-20250505/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-federated-query-20250814
+sparql12-federated-query-20250814
+14 August 2025
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2025/WD-sparql12-federated-query-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-federated-query-20250814/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-federated-query-20260109
+sparql12-federated-query-20260109
+9 January 2026
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260109/
+https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260109/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-federated-query-20260126
+sparql12-federated-query-20260126
+26 January 2026
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260126/
+https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260126/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-federated-query-20260423
+sparql12-federated-query-20260423
+23 April 2026
+WD
+SPARQL 1.2 Federated Query
+https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260423/
+https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260423/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
 d:sparql12-graph-store-protocol
 sparql12-graph-store-protocol
-18 April 2024
+19 December 2024
 WD
 SPARQL 1.2 Graph Store Protocol
 https://www.w3.org/TR/sparql12-graph-store-protocol/
@@ -1261,7 +1469,7 @@ Thomas Pellissier Tanon
 d:sparql12-graph-store-protocol-20230516
 sparql12-graph-store-protocol-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Graph Store Protocol
 https://www.w3.org/TR/2023/WD-sparql12-graph-store-protocol-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-graph-store-protocol-20230516/
@@ -1296,9 +1504,48 @@ https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20240418/
 Andy Seaborne
 Thomas Pellissier Tanon
 -
+d:sparql12-graph-store-protocol-20241113
+sparql12-graph-store-protocol-20241113
+13 November 2024
+WD
+SPARQL 1.2 Graph Store Protocol
+https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20241113/
+
+
+
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-graph-store-protocol-20241212
+sparql12-graph-store-protocol-20241212
+12 December 2024
+WD
+SPARQL 1.2 Graph Store Protocol
+https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20241212/
+https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20241212/
+
+
+
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-graph-store-protocol-20241219
+sparql12-graph-store-protocol-20241219
+19 December 2024
+WD
+SPARQL 1.2 Graph Store Protocol
+https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-graph-store-protocol-20241219/
+
+
+
+Andy Seaborne
+Thomas Pellissier Tanon
+-
 d:sparql12-protocol
 sparql12-protocol
-29 August 2024
+26 April 2026
 WD
 SPARQL 1.2 Protocol
 https://www.w3.org/TR/sparql12-protocol/
@@ -1314,7 +1561,7 @@ Thomas Pellissier Tanon
 d:sparql12-protocol-20230516
 sparql12-protocol-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Protocol
 https://www.w3.org/TR/2023/WD-sparql12-protocol-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-protocol-20230516/
@@ -1415,9 +1662,84 @@ Ruben Taelman
 Gregory Williams
 Thomas Pellissier Tanon
 -
+d:sparql12-protocol-20241113
+sparql12-protocol-20241113
+13 November 2024
+WD
+SPARQL 1.2 Protocol
+https://www.w3.org/TR/2024/WD-sparql12-protocol-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-protocol-20241113/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-protocol-20241219
+sparql12-protocol-20241219
+19 December 2024
+WD
+SPARQL 1.2 Protocol
+https://www.w3.org/TR/2024/WD-sparql12-protocol-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-protocol-20241219/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-protocol-20250624
+sparql12-protocol-20250624
+24 June 2025
+WD
+SPARQL 1.2 Protocol
+https://www.w3.org/TR/2025/WD-sparql12-protocol-20250624/
+https://www.w3.org/TR/2025/WD-sparql12-protocol-20250624/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-protocol-20250814
+sparql12-protocol-20250814
+14 August 2025
+WD
+SPARQL 1.2 Protocol
+https://www.w3.org/TR/2025/WD-sparql12-protocol-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-protocol-20250814/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-protocol-20260426
+sparql12-protocol-20260426
+26 April 2026
+WD
+SPARQL 1.2 Protocol
+https://www.w3.org/TR/2026/WD-sparql12-protocol-20260426/
+https://www.w3.org/TR/2026/WD-sparql12-protocol-20260426/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
 d:sparql12-query
 sparql12-query
-31 October 2024
+28 May 2026
 WD
 SPARQL 1.2 Query Language
 https://www.w3.org/TR/sparql12-query/
@@ -1434,7 +1756,7 @@ Thomas Pellissier Tanon
 d:sparql12-query-20230516
 sparql12-query-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Query Language
 https://www.w3.org/TR/2023/WD-sparql12-query-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-query-20230516/
@@ -1686,6 +2008,54 @@ Ruben Taelman
 Gregory Williams
 Thomas Pellissier Tanon
 -
+d:sparql12-query-20240222
+sparql12-query-20240222
+22 February 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20240222/
+https://www.w3.org/TR/2024/WD-sparql12-query-20240222/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20240223
+sparql12-query-20240223
+23 February 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20240223/
+https://www.w3.org/TR/2024/WD-sparql12-query-20240223/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20240307
+sparql12-query-20240307
+7 March 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20240307/
+https://www.w3.org/TR/2024/WD-sparql12-query-20240307/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
 d:sparql12-query-20240321
 sparql12-query-20240321
 21 March 2024
@@ -1814,9 +2184,985 @@ Ruben Taelman
 Gregory Williams
 Thomas Pellissier Tanon
 -
+d:sparql12-query-20241107
+sparql12-query-20241107
+7 November 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20241107/
+https://www.w3.org/TR/2024/WD-sparql12-query-20241107/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20241216
+sparql12-query-20241216
+16 December 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20241216/
+https://www.w3.org/TR/2024/WD-sparql12-query-20241216/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20241219
+sparql12-query-20241219
+19 December 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-query-20241219/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20241227
+sparql12-query-20241227
+27 December 2024
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2024/WD-sparql12-query-20241227/
+https://www.w3.org/TR/2024/WD-sparql12-query-20241227/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250120
+sparql12-query-20250120
+20 January 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250120/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250120/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250124
+sparql12-query-20250124
+24 January 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250124/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250124/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250130
+sparql12-query-20250130
+30 January 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250130/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250130/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250206
+sparql12-query-20250206
+6 February 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250206/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250206/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250210
+sparql12-query-20250210
+10 February 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250210/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250210/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250228
+sparql12-query-20250228
+28 February 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250228/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250228/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250404
+sparql12-query-20250404
+4 April 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250404/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250404/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250509
+sparql12-query-20250509
+9 May 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250509/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250509/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250516
+sparql12-query-20250516
+16 May 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250516/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250516/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250617
+sparql12-query-20250617
+17 June 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250617/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250617/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250619
+sparql12-query-20250619
+19 June 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250619/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250619/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250621
+sparql12-query-20250621
+21 June 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250621/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250621/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250623
+sparql12-query-20250623
+23 June 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250623/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250623/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250627
+sparql12-query-20250627
+27 June 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250627/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250627/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250702
+sparql12-query-20250702
+2 July 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250702/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250702/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250703
+sparql12-query-20250703
+3 July 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250703/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250703/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250805
+sparql12-query-20250805
+5 August 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250805/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250805/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250811
+sparql12-query-20250811
+11 August 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250811/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250811/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250814
+sparql12-query-20250814
+14 August 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250814/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250818
+sparql12-query-20250818
+18 August 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250818/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250818/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250819
+sparql12-query-20250819
+19 August 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250819/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250819/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250907
+sparql12-query-20250907
+7 September 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250907/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250907/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250913
+sparql12-query-20250913
+13 September 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250913/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250913/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250922
+sparql12-query-20250922
+22 September 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250922/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250922/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20250925
+sparql12-query-20250925
+25 September 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20250925/
+https://www.w3.org/TR/2025/WD-sparql12-query-20250925/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251106
+sparql12-query-20251106
+6 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251106/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251106/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251112
+sparql12-query-20251112
+12 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251112/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251112/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251114
+sparql12-query-20251114
+14 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251114/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251114/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251115
+sparql12-query-20251115
+15 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251115/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251115/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251120
+sparql12-query-20251120
+20 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251120/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251120/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251122
+sparql12-query-20251122
+22 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251122/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251122/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251128
+sparql12-query-20251128
+28 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251128/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251128/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251130
+sparql12-query-20251130
+30 November 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251130/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251130/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251203
+sparql12-query-20251203
+3 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251203/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251203/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251205
+sparql12-query-20251205
+5 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251205/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251205/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251211
+sparql12-query-20251211
+11 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251211/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251211/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251218
+sparql12-query-20251218
+18 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251218/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251218/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251221
+sparql12-query-20251221
+21 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251221/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251221/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251226
+sparql12-query-20251226
+26 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251226/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251226/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251227
+sparql12-query-20251227
+27 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251227/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251227/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20251228
+sparql12-query-20251228
+28 December 2025
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2025/WD-sparql12-query-20251228/
+https://www.w3.org/TR/2025/WD-sparql12-query-20251228/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260108
+sparql12-query-20260108
+8 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260108/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260108/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260109
+sparql12-query-20260109
+9 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260109/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260109/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260115
+sparql12-query-20260115
+15 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260115/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260115/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260119
+sparql12-query-20260119
+19 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260119/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260119/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260121
+sparql12-query-20260121
+21 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260121/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260121/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260123
+sparql12-query-20260123
+23 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260123/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260123/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260129
+sparql12-query-20260129
+29 January 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260129/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260129/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260221
+sparql12-query-20260221
+21 February 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260221/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260221/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260309
+sparql12-query-20260309
+9 March 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260309/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260309/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260323
+sparql12-query-20260323
+23 March 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260323/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260323/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260409
+sparql12-query-20260409
+9 April 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260409/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260409/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260416
+sparql12-query-20260416
+16 April 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260416/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260416/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260423
+sparql12-query-20260423
+23 April 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260423/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260423/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260515
+sparql12-query-20260515
+15 May 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260515/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260515/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260521
+sparql12-query-20260521
+21 May 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260521/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260521/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-query-20260528
+sparql12-query-20260528
+28 May 2026
+WD
+SPARQL 1.2 Query Language
+https://www.w3.org/TR/2026/WD-sparql12-query-20260528/
+https://www.w3.org/TR/2026/WD-sparql12-query-20260528/
+
+
+
+Olaf Hartig
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
 d:sparql12-results-csv-tsv
 sparql12-results-csv-tsv
-29 August 2024
+28 March 2026
 WD
 SPARQL 1.2 Query Results CSV and TSV Formats
 https://www.w3.org/TR/sparql12-results-csv-tsv/
@@ -1831,7 +3177,7 @@ Thomas Pellissier Tanon
 d:sparql12-results-csv-tsv-20230516
 sparql12-results-csv-tsv-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Query Results CSV and TSV Formats
 https://www.w3.org/TR/2023/WD-sparql12-results-csv-tsv-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-results-csv-tsv-20230516/
@@ -1925,9 +3271,65 @@ Ruben Taelman
 Gregory Williams
 Thomas Pellissier Tanon
 -
+d:sparql12-results-csv-tsv-20241113
+sparql12-results-csv-tsv-20241113
+13 November 2024
+WD
+SPARQL 1.2 Query Results CSV and TSV Formats
+https://www.w3.org/TR/2024/WD-sparql12-results-csv-tsv-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-results-csv-tsv-20241113/
+
+
+
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-csv-tsv-20241219
+sparql12-results-csv-tsv-20241219
+19 December 2024
+WD
+SPARQL 1.2 Query Results CSV and TSV Formats
+https://www.w3.org/TR/2024/WD-sparql12-results-csv-tsv-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-results-csv-tsv-20241219/
+
+
+
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-csv-tsv-20250814
+sparql12-results-csv-tsv-20250814
+14 August 2025
+WD
+SPARQL 1.2 Query Results CSV and TSV Formats
+https://www.w3.org/TR/2025/WD-sparql12-results-csv-tsv-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-results-csv-tsv-20250814/
+
+
+
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-csv-tsv-20260328
+sparql12-results-csv-tsv-20260328
+28 March 2026
+WD
+SPARQL 1.2 Query Results CSV and TSV Formats
+https://www.w3.org/TR/2026/WD-sparql12-results-csv-tsv-20260328/
+https://www.w3.org/TR/2026/WD-sparql12-results-csv-tsv-20260328/
+
+
+
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
 d:sparql12-results-json
 sparql12-results-json
-29 August 2024
+28 March 2026
 WD
 SPARQL 1.2 Query Results JSON Format
 https://www.w3.org/TR/sparql12-results-json/
@@ -1943,7 +3345,7 @@ Thomas Pellissier Tanon
 d:sparql12-results-json-20230516
 sparql12-results-json-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Query Results JSON Format
 https://www.w3.org/TR/2023/WD-sparql12-results-json-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-results-json-20230516/
@@ -2074,9 +3476,99 @@ Ruben Taelman
 Gregory Williams
 Thomas Pellissier Tanon
 -
+d:sparql12-results-json-20241113
+sparql12-results-json-20241113
+13 November 2024
+WD
+SPARQL 1.2 Query Results JSON Format
+https://www.w3.org/TR/2024/WD-sparql12-results-json-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-results-json-20241113/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-json-20241214
+sparql12-results-json-20241214
+14 December 2024
+WD
+SPARQL 1.2 Query Results JSON Format
+https://www.w3.org/TR/2024/WD-sparql12-results-json-20241214/
+https://www.w3.org/TR/2024/WD-sparql12-results-json-20241214/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-json-20241219
+sparql12-results-json-20241219
+19 December 2024
+WD
+SPARQL 1.2 Query Results JSON Format
+https://www.w3.org/TR/2024/WD-sparql12-results-json-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-results-json-20241219/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-json-20250508
+sparql12-results-json-20250508
+8 May 2025
+WD
+SPARQL 1.2 Query Results JSON Format
+https://www.w3.org/TR/2025/WD-sparql12-results-json-20250508/
+https://www.w3.org/TR/2025/WD-sparql12-results-json-20250508/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-json-20250814
+sparql12-results-json-20250814
+14 August 2025
+WD
+SPARQL 1.2 Query Results JSON Format
+https://www.w3.org/TR/2025/WD-sparql12-results-json-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-results-json-20250814/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
+d:sparql12-results-json-20260328
+sparql12-results-json-20260328
+28 March 2026
+WD
+SPARQL 1.2 Query Results JSON Format
+https://www.w3.org/TR/2026/WD-sparql12-results-json-20260328/
+https://www.w3.org/TR/2026/WD-sparql12-results-json-20260328/
+
+
+
+Andy Seaborne
+Ruben Taelman
+Gregory Williams
+Thomas Pellissier Tanon
+-
 d:sparql12-results-xml
 sparql12-results-xml
-29 August 2024
+27 December 2024
 WD
 SPARQL 1.2 Query Results XML Format
 https://www.w3.org/TR/sparql12-results-xml/
@@ -2091,7 +3583,7 @@ Thomas Pellissier Tanon
 d:sparql12-results-xml-20230516
 sparql12-results-xml-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Query Results XML Format
 https://www.w3.org/TR/2023/WD-sparql12-results-xml-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-results-xml-20230516/
@@ -2199,9 +3691,79 @@ Ruben Taelman
 Dominik Tomaszuk
 Thomas Pellissier Tanon
 -
+d:sparql12-results-xml-20241113
+sparql12-results-xml-20241113
+13 November 2024
+WD
+SPARQL 1.2 Query Results XML Format
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241113/
+
+
+
+Ruben Taelman
+Dominik Tomaszuk
+Thomas Pellissier Tanon
+-
+d:sparql12-results-xml-20241214
+sparql12-results-xml-20241214
+14 December 2024
+WD
+SPARQL 1.2 Query Results XML Format
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241214/
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241214/
+
+
+
+Ruben Taelman
+Dominik Tomaszuk
+Thomas Pellissier Tanon
+-
+d:sparql12-results-xml-20241216
+sparql12-results-xml-20241216
+16 December 2024
+WD
+SPARQL 1.2 Query Results XML Format
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241216/
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241216/
+
+
+
+Ruben Taelman
+Dominik Tomaszuk
+Thomas Pellissier Tanon
+-
+d:sparql12-results-xml-20241219
+sparql12-results-xml-20241219
+19 December 2024
+WD
+SPARQL 1.2 Query Results XML Format
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241219/
+
+
+
+Ruben Taelman
+Dominik Tomaszuk
+Thomas Pellissier Tanon
+-
+d:sparql12-results-xml-20241227
+sparql12-results-xml-20241227
+27 December 2024
+WD
+SPARQL 1.2 Query Results XML Format
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241227/
+https://www.w3.org/TR/2024/WD-sparql12-results-xml-20241227/
+
+
+
+Ruben Taelman
+Dominik Tomaszuk
+Thomas Pellissier Tanon
+-
 d:sparql12-service-description
 sparql12-service-description
-29 August 2024
+23 April 2026
 WD
 SPARQL 1.2 Service Description
 https://www.w3.org/TR/sparql12-service-description/
@@ -2215,7 +3777,7 @@ Gregory Williams
 d:sparql12-service-description-20230516
 sparql12-service-description-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Service Description
 https://www.w3.org/TR/2023/WD-sparql12-service-description-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-service-description-20230516/
@@ -2290,9 +3852,87 @@ https://www.w3.org/TR/2024/WD-sparql12-service-description-20240829/
 Ruben Taelman
 Gregory Williams
 -
+d:sparql12-service-description-20241113
+sparql12-service-description-20241113
+13 November 2024
+WD
+SPARQL 1.2 Service Description
+https://www.w3.org/TR/2024/WD-sparql12-service-description-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-service-description-20241113/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-service-description-20241214
+sparql12-service-description-20241214
+14 December 2024
+WD
+SPARQL 1.2 Service Description
+https://www.w3.org/TR/2024/WD-sparql12-service-description-20241214/
+https://www.w3.org/TR/2024/WD-sparql12-service-description-20241214/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-service-description-20241219
+sparql12-service-description-20241219
+19 December 2024
+WD
+SPARQL 1.2 Service Description
+https://www.w3.org/TR/2024/WD-sparql12-service-description-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-service-description-20241219/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-service-description-20250814
+sparql12-service-description-20250814
+14 August 2025
+WD
+SPARQL 1.2 Service Description
+https://www.w3.org/TR/2025/WD-sparql12-service-description-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-service-description-20250814/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-service-description-20260319
+sparql12-service-description-20260319
+19 March 2026
+WD
+SPARQL 1.2 Service Description
+https://www.w3.org/TR/2026/WD-sparql12-service-description-20260319/
+https://www.w3.org/TR/2026/WD-sparql12-service-description-20260319/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
+d:sparql12-service-description-20260423
+sparql12-service-description-20260423
+23 April 2026
+WD
+SPARQL 1.2 Service Description
+https://www.w3.org/TR/2026/WD-sparql12-service-description-20260423/
+https://www.w3.org/TR/2026/WD-sparql12-service-description-20260423/
+
+
+
+Ruben Taelman
+Gregory Williams
+-
 d:sparql12-update
 sparql12-update
-25 October 2024
+23 April 2026
 WD
 SPARQL 1.2 Update
 https://www.w3.org/TR/sparql12-update/
@@ -2307,7 +3947,7 @@ Thomas Pellissier Tanon
 d:sparql12-update-20230516
 sparql12-update-20230516
 16 May 2023
-WD
+FPWD
 SPARQL 1.2 Update
 https://www.w3.org/TR/2023/WD-sparql12-update-20230516/
 https://www.w3.org/TR/2023/WD-sparql12-update-20230516/
@@ -2443,6 +4083,90 @@ Ruben Taelman
 Andy Seaborne
 Thomas Pellissier Tanon
 -
+d:sparql12-update-20241113
+sparql12-update-20241113
+13 November 2024
+WD
+SPARQL 1.2 Update
+https://www.w3.org/TR/2024/WD-sparql12-update-20241113/
+https://www.w3.org/TR/2024/WD-sparql12-update-20241113/
+
+
+
+Ruben Taelman
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-update-20241212
+sparql12-update-20241212
+12 December 2024
+WD
+SPARQL 1.2 Update
+https://www.w3.org/TR/2024/WD-sparql12-update-20241212/
+https://www.w3.org/TR/2024/WD-sparql12-update-20241212/
+
+
+
+Ruben Taelman
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-update-20241219
+sparql12-update-20241219
+19 December 2024
+WD
+SPARQL 1.2 Update
+https://www.w3.org/TR/2024/WD-sparql12-update-20241219/
+https://www.w3.org/TR/2024/WD-sparql12-update-20241219/
+
+
+
+Ruben Taelman
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-update-20250206
+sparql12-update-20250206
+6 February 2025
+WD
+SPARQL 1.2 Update
+https://www.w3.org/TR/2025/WD-sparql12-update-20250206/
+https://www.w3.org/TR/2025/WD-sparql12-update-20250206/
+
+
+
+Ruben Taelman
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-update-20250814
+sparql12-update-20250814
+14 August 2025
+WD
+SPARQL 1.2 Update
+https://www.w3.org/TR/2025/WD-sparql12-update-20250814/
+https://www.w3.org/TR/2025/WD-sparql12-update-20250814/
+
+
+
+Ruben Taelman
+Andy Seaborne
+Thomas Pellissier Tanon
+-
+d:sparql12-update-20260423
+sparql12-update-20260423
+23 April 2026
+WD
+SPARQL 1.2 Update
+https://www.w3.org/TR/2026/WD-sparql12-update-20260423/
+https://www.w3.org/TR/2026/WD-sparql12-update-20260423/
+
+
+
+Ruben Taelman
+Andy Seaborne
+Thomas Pellissier Tanon
+-
 d:spdx-licenses
 SPDX-LICENSES
 
@@ -2545,20 +4269,20 @@ Yuval Yarom
 d:speculation-rules
 SPECULATION-RULES
 
-Draft Community Group Report
+Editor's Draft
 Speculation Rules
 https://wicg.github.io/nav-speculation/speculation-rules.html
 
-
+prerendering-revamped
 
 
 -
 d:speech-api
 SPEECH-API
 
-cg-draft
+Draft Community Group Report
 Web Speech API
-https://wicg.github.io/speech-api/
+https://webaudio.github.io/web-speech-api/
 
 
 
@@ -2701,43 +4425,43 @@ d:speech-synthesis-20020405
 speech-synthesis-20020405
 5 April 2002
 WD
-Speech Synthesis Markup Language (SSML) Version 1.0
+Speech Synthesis Markup Language Specification
 https://www.w3.org/TR/2002/WD-speech-synthesis-20020405/
 https://www.w3.org/TR/2002/WD-speech-synthesis-20020405/
 
 
 
-Daniel Burnett
 Mark Walker
 Andrew Hunt
+Daniel Burnett
 -
 d:speech-synthesis-20021202
 speech-synthesis-20021202
 2 December 2002
-WD
-Speech Synthesis Markup Language (SSML) Version 1.0
+LCWD
+Speech Synthesis Markup Language Version 1.0
 https://www.w3.org/TR/2002/WD-speech-synthesis-20021202/
 https://www.w3.org/TR/2002/WD-speech-synthesis-20021202/
 
 
 
-Daniel Burnett
 Mark Walker
 Andrew Hunt
+Daniel Burnett
 -
 d:speech-synthesis-20031218
 speech-synthesis-20031218
 18 December 2003
 CR
-Speech Synthesis Markup Language (SSML) Version 1.0
+Speech Synthesis Markup Language Version 1.0
 https://www.w3.org/TR/2003/CR-speech-synthesis-20031218/
 https://www.w3.org/TR/2003/CR-speech-synthesis-20031218/
 
 
 
-Daniel Burnett
 Mark Walker
 Andrew Hunt
+Daniel Burnett
 -
 d:speech-synthesis-20040715
 speech-synthesis-20040715
@@ -2749,9 +4473,9 @@ https://www.w3.org/TR/2004/PR-speech-synthesis-20040715/
 
 
 
-Daniel Burnett
 Mark Walker
 Andrew Hunt
+Daniel Burnett
 -
 d:speech-synthesis-20040907
 speech-synthesis-20040907
@@ -2848,7 +4572,7 @@ Zhi Wei Shuang
 d:speech-synthesis11-20080620
 speech-synthesis11-20080620
 20 June 2008
-WD
+LCWD
 Speech Synthesis Markup Language (SSML) Version 1.1
 https://www.w3.org/TR/2008/WD-speech-synthesis11-20080620/
 https://www.w3.org/TR/2008/WD-speech-synthesis11-20080620/
@@ -2920,6 +4644,7 @@ https://www.w3.org/TR/speechobjects
 
 
 
+Daniel Burnett
 -
 d:speechobjects-20001114
 speechobjects-20001114
@@ -2931,6 +4656,7 @@ https://www.w3.org/TR/2000/NOTE-speechobjects-20001114
 
 
 
+Daniel Burnett
 -
 d:spoken-html
 spoken-html
@@ -2950,7 +4676,7 @@ Ruoxi Ran
 d:spoken-html-20210518
 spoken-html-20210518
 18 May 2021
-WD
+FPWD
 Specification for Spoken Presentation in HTML
 https://www.w3.org/TR/2021/WD-spoken-html-20210518/
 https://www.w3.org/TR/2021/WD-spoken-html-20210518/
@@ -2976,6 +4702,10 @@ Irfan Ali
 Markku Hakkinen
 Paul Grenier
 Ruoxi Ran
+-
+a:sprot
+sprot
+sprot11
 -
 d:sprot11
 sprot11

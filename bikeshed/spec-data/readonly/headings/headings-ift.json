@@ -13,12 +13,32 @@
       "url": "https://www.w3.org/TR/IFT/#abstract"
     }
   },
-  "#apply-brotli": {
-    "snapshot": {
-      "number": "6.2.1",
+  "#appendix-b-example-1": {
+    "current": {
+      "number": "",
       "spec": "Incremental Font Transfer",
-      "text": "Applying Brotli Patches",
-      "url": "https://www.w3.org/TR/IFT/#apply-brotli"
+      "text": "Example 1: Table and Glyph Keyed Patches",
+      "url": "https://w3c.github.io/IFT/Overview.html#appendix-b-example-1"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Example 1: Table and Glyph Keyed Patches",
+      "url": "https://www.w3.org/TR/IFT/#appendix-b-example-1"
+    }
+  },
+  "#appendix-b-example-2": {
+    "current": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Example 2: Glyph Keyed Patches with Child Entries",
+      "url": "https://w3c.github.io/IFT/Overview.html#appendix-b-example-2"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Example 2: Glyph Keyed Patches with Child Entries",
+      "url": "https://www.w3.org/TR/IFT/#appendix-b-example-2"
     }
   },
   "#apply-glyph-keyed": {
@@ -29,18 +49,10 @@
       "url": "https://w3c.github.io/IFT/Overview.html#apply-glyph-keyed"
     },
     "snapshot": {
-      "number": "6.4.1",
+      "number": "6.3.1",
       "spec": "Incremental Font Transfer",
       "text": "Applying Glyph Keyed Patches",
       "url": "https://www.w3.org/TR/IFT/#apply-glyph-keyed"
-    }
-  },
-  "#apply-per-table-brotli": {
-    "snapshot": {
-      "number": "6.3.1",
-      "spec": "Incremental Font Transfer",
-      "text": "Applying Per Table Brotli Patches",
-      "url": "https://www.w3.org/TR/IFT/#apply-per-table-brotli"
     }
   },
   "#apply-table-keyed": {
@@ -49,22 +61,40 @@
       "spec": "Incremental Font Transfer",
       "text": "Applying Table Keyed Patches",
       "url": "https://w3c.github.io/IFT/Overview.html#apply-table-keyed"
-    }
-  },
-  "#brotli": {
+    },
     "snapshot": {
-      "number": "6.2",
+      "number": "6.2.1",
       "spec": "Incremental Font Transfer",
-      "text": "Brotli Patch",
-      "url": "https://www.w3.org/TR/IFT/#brotli"
+      "text": "Applying Table Keyed Patches",
+      "url": "https://www.w3.org/TR/IFT/#apply-table-keyed"
     }
   },
   "#caching-incremental-fonts": {
     "current": {
-      "number": "4.7",
+      "number": "4.8",
       "spec": "Incremental Font Transfer",
       "text": "Caching Extended Incremental Fonts",
       "url": "https://w3c.github.io/IFT/Overview.html#caching-incremental-fonts"
+    },
+    "snapshot": {
+      "number": "4.8",
+      "spec": "Incremental Font Transfer",
+      "text": "Caching Extended Incremental Fonts",
+      "url": "https://www.w3.org/TR/IFT/#caching-incremental-fonts"
+    }
+  },
+  "#cff": {
+    "current": {
+      "number": "5.2",
+      "spec": "Incremental Font Transfer",
+      "text": "CFF and CFF2 Incremental Fonts",
+      "url": "https://w3c.github.io/IFT/Overview.html#cff"
+    },
+    "snapshot": {
+      "number": "5.2",
+      "spec": "Incremental Font Transfer",
+      "text": "CFF and CFF2 Incremental Fonts",
+      "url": "https://www.w3.org/TR/IFT/#cff"
     }
   },
   "#changes": {
@@ -77,7 +107,7 @@
     "snapshot": {
       "number": "",
       "spec": "Incremental Font Transfer",
-      "text": "Changes",
+      "text": "10. Changes",
       "url": "https://www.w3.org/TR/IFT/#changes"
     }
   },
@@ -89,10 +119,24 @@
       "url": "https://w3c.github.io/IFT/Overview.html#content-inference-from-character-set"
     },
     "snapshot": {
-      "number": "",
+      "number": "8.1",
       "spec": "Incremental Font Transfer",
       "text": "Content inference from character set",
       "url": "https://www.w3.org/TR/IFT/#content-inference-from-character-set"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/IFT/Overview.html#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/IFT/#toc"
     }
   },
   "#data-types": {
@@ -115,6 +159,12 @@
       "spec": "Incremental Font Transfer",
       "text": "Default Layout Features",
       "url": "https://w3c.github.io/IFT/Overview.html#default-layout-features"
+    },
+    "snapshot": {
+      "number": "4.2",
+      "spec": "Incremental Font Transfer",
+      "text": "Default Layout Features",
+      "url": "https://www.w3.org/TR/IFT/#default-layout-features"
     }
   },
   "#definitions": {
@@ -159,6 +209,20 @@
       "url": "https://www.w3.org/TR/IFT/#encoding-considerations"
     }
   },
+  "#encoding-privacy": {
+    "current": {
+      "number": "8.2",
+      "spec": "Incremental Font Transfer",
+      "text": "Encoding IFT Fonts and Privacy",
+      "url": "https://w3c.github.io/IFT/Overview.html#encoding-privacy"
+    },
+    "snapshot": {
+      "number": "8.2",
+      "spec": "Incremental Font Transfer",
+      "text": "Encoding IFT Fonts and Privacy",
+      "url": "https://www.w3.org/TR/IFT/#encoding-privacy"
+    }
+  },
   "#evaluation-report": {
     "current": {
       "number": "1.1",
@@ -181,7 +245,7 @@
       "url": "https://w3c.github.io/IFT/Overview.html#extend-font-subset"
     },
     "snapshot": {
-      "number": "4.2",
+      "number": "4.3",
       "spec": "Incremental Font Transfer",
       "text": "Incremental Font Extension Algorithm",
       "url": "https://www.w3.org/TR/IFT/#extend-font-subset"
@@ -201,12 +265,32 @@
       "url": "https://www.w3.org/TR/IFT/#extending-font-subset"
     }
   },
+  "#extension-example": {
+    "current": {
+      "number": "B",
+      "spec": "Incremental Font Transfer",
+      "text": "Extension Algorithm Example Execution",
+      "url": "https://w3c.github.io/IFT/Overview.html#extension-example"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "Incremental Font Transfer",
+      "text": "Extension Algorithm Example Execution",
+      "url": "https://www.w3.org/TR/IFT/#extension-example"
+    }
+  },
   "#feature-tag-list": {
     "current": {
       "number": "A",
       "spec": "Incremental Font Transfer",
       "text": "Default Feature Tags",
       "url": "https://w3c.github.io/IFT/Overview.html#feature-tag-list"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "Incremental Font Transfer",
+      "text": "Default Feature Tags",
+      "url": "https://www.w3.org/TR/IFT/#feature-tag-list"
     }
   },
   "#font-format-extensions": {
@@ -295,13 +379,13 @@
   },
   "#fully-expanding-a-font": {
     "current": {
-      "number": "4.6",
+      "number": "4.7",
       "spec": "Incremental Font Transfer",
       "text": "Fully Expanding a Font",
       "url": "https://w3c.github.io/IFT/Overview.html#fully-expanding-a-font"
     },
     "snapshot": {
-      "number": "4.3",
+      "number": "4.7",
       "spec": "Incremental Font Transfer",
       "text": "Fully Expanding a Font",
       "url": "https://www.w3.org/TR/IFT/#fully-expanding-a-font"
@@ -315,7 +399,7 @@
       "url": "https://w3c.github.io/IFT/Overview.html#glyph-keyed"
     },
     "snapshot": {
-      "number": "6.4",
+      "number": "6.3",
       "spec": "Incremental Font Transfer",
       "text": "Glyph Keyed",
       "url": "https://www.w3.org/TR/IFT/#glyph-keyed"
@@ -327,22 +411,26 @@
       "spec": "Incremental Font Transfer",
       "text": "Incremental Font Transfer and Font Compression Formats",
       "url": "https://w3c.github.io/IFT/Overview.html#ift-and-compression"
-    }
-  },
-  "#ift-and-woff2": {
+    },
     "snapshot": {
       "number": "5.1",
       "spec": "Incremental Font Transfer",
-      "text": "Incremental Font Transfer and WOFF2",
-      "url": "https://www.w3.org/TR/IFT/#ift-and-woff2"
+      "text": "Incremental Font Transfer and Font Compression Formats",
+      "url": "https://www.w3.org/TR/IFT/#ift-and-compression"
     }
   },
   "#ift-font-coverage": {
     "current": {
-      "number": "4.5",
+      "number": "4.6",
       "spec": "Incremental Font Transfer",
       "text": "Determining what Content a Font can Render",
       "url": "https://w3c.github.io/IFT/Overview.html#ift-font-coverage"
+    },
+    "snapshot": {
+      "number": "4.6",
+      "spec": "Incremental Font Transfer",
+      "text": "Determining what Content a Font can Render",
+      "url": "https://www.w3.org/TR/IFT/#ift-font-coverage"
     }
   },
   "#index": {
@@ -357,6 +445,20 @@
       "spec": "Incremental Font Transfer",
       "text": "Index",
       "url": "https://www.w3.org/TR/IFT/#index"
+    }
+  },
+  "#index-defined-elsewhere": {
+    "current": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Terms defined by reference",
+      "url": "https://w3c.github.io/IFT/Overview.html#index-defined-elsewhere"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "Incremental Font Transfer",
+      "text": "Terms defined by reference",
+      "url": "https://www.w3.org/TR/IFT/#index-defined-elsewhere"
     }
   },
   "#index-defined-here": {
@@ -377,7 +479,7 @@
     "current": {
       "number": "",
       "spec": "Incremental Font Transfer",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://w3c.github.io/IFT/Overview.html#informative"
     },
     "snapshot": {
@@ -389,13 +491,13 @@
   },
   "#interpreting-patch-map-format-1": {
     "current": {
-      "number": "5.2.1.1",
+      "number": "5.3.1.1",
       "spec": "Incremental Font Transfer",
       "text": "Interpreting Format 1",
       "url": "https://w3c.github.io/IFT/Overview.html#interpreting-patch-map-format-1"
     },
     "snapshot": {
-      "number": "5.2.1.1",
+      "number": "5.3.1.1",
       "spec": "Incremental Font Transfer",
       "text": "Interpreting Format 1",
       "url": "https://www.w3.org/TR/IFT/#interpreting-patch-map-format-1"
@@ -403,13 +505,13 @@
   },
   "#interpreting-patch-map-format-2": {
     "current": {
-      "number": "5.2.2.1",
+      "number": "5.3.2.1",
       "spec": "Incremental Font Transfer",
       "text": "Interpreting Format 2",
       "url": "https://w3c.github.io/IFT/Overview.html#interpreting-patch-map-format-2"
     },
     "snapshot": {
-      "number": "5.2.2.1",
+      "number": "5.3.2.1",
       "spec": "Incremental Font Transfer",
       "text": "Interpreting Format 2",
       "url": "https://www.w3.org/TR/IFT/#interpreting-patch-map-format-2"
@@ -427,6 +529,20 @@
       "spec": "Incremental Font Transfer",
       "text": "Introduction",
       "url": "https://www.w3.org/TR/IFT/#intro"
+    }
+  },
+  "#invalidating-patch-selection": {
+    "current": {
+      "number": "4.4",
+      "spec": "Incremental Font Transfer",
+      "text": "Selecting Invalidating Patches",
+      "url": "https://w3c.github.io/IFT/Overview.html#invalidating-patch-selection"
+    },
+    "snapshot": {
+      "number": "4.4",
+      "spec": "Incremental Font Transfer",
+      "text": "Selecting Invalidating Patches",
+      "url": "https://www.w3.org/TR/IFT/#invalidating-patch-selection"
     }
   },
   "#making-incremental-fonts": {
@@ -515,13 +631,13 @@
   },
   "#patch-map-format-1": {
     "current": {
-      "number": "5.2.1",
+      "number": "5.3.1",
       "spec": "Incremental Font Transfer",
       "text": "Patch Map Table: Format 1",
       "url": "https://w3c.github.io/IFT/Overview.html#patch-map-format-1"
     },
     "snapshot": {
-      "number": "5.2.1",
+      "number": "5.3.1",
       "spec": "Incremental Font Transfer",
       "text": "Patch Map Table: Format 1",
       "url": "https://www.w3.org/TR/IFT/#patch-map-format-1"
@@ -529,13 +645,13 @@
   },
   "#patch-map-format-2": {
     "current": {
-      "number": "5.2.2",
+      "number": "5.3.2",
       "spec": "Incremental Font Transfer",
       "text": "Patch Map Table: Format 2",
       "url": "https://w3c.github.io/IFT/Overview.html#patch-map-format-2"
     },
     "snapshot": {
-      "number": "5.2.2",
+      "number": "5.3.2",
       "spec": "Incremental Font Transfer",
       "text": "Patch Map Table: Format 2",
       "url": "https://www.w3.org/TR/IFT/#patch-map-format-2"
@@ -543,13 +659,13 @@
   },
   "#patch-map-table": {
     "current": {
-      "number": "5.2",
+      "number": "5.3",
       "spec": "Incremental Font Transfer",
       "text": "Patch Map Table",
       "url": "https://w3c.github.io/IFT/Overview.html#patch-map-table"
     },
     "snapshot": {
-      "number": "5.2",
+      "number": "5.3",
       "spec": "Incremental Font Transfer",
       "text": "Patch Map Table",
       "url": "https://www.w3.org/TR/IFT/#patch-map-table"
@@ -557,24 +673,16 @@
   },
   "#per-origin": {
     "current": {
-      "number": "8.2",
+      "number": "8.3",
       "spec": "Incremental Font Transfer",
       "text": "Per-origin restriction avoids fingerprinting",
       "url": "https://w3c.github.io/IFT/Overview.html#per-origin"
     },
     "snapshot": {
-      "number": "",
+      "number": "8.3",
       "spec": "Incremental Font Transfer",
       "text": "Per-origin restriction avoids fingerprinting",
       "url": "https://www.w3.org/TR/IFT/#per-origin"
-    }
-  },
-  "#per-table-brotli": {
-    "snapshot": {
-      "number": "6.3",
-      "spec": "Incremental Font Transfer",
-      "text": "Per Table Brotli",
-      "url": "https://www.w3.org/TR/IFT/#per-table-brotli"
     }
   },
   "#performance-considerations": {
@@ -599,7 +707,7 @@
       "url": "https://w3c.github.io/IFT/Overview.html#priv"
     },
     "snapshot": {
-      "number": "",
+      "number": "8",
       "spec": "Incremental Font Transfer",
       "text": "Privacy Considerations",
       "url": "https://www.w3.org/TR/IFT/#priv"
@@ -635,13 +743,13 @@
   },
   "#remove-entries-format-1": {
     "current": {
-      "number": "5.2.1.2",
+      "number": "5.3.1.2",
       "spec": "Incremental Font Transfer",
       "text": "Remove Entries from Format 1",
       "url": "https://w3c.github.io/IFT/Overview.html#remove-entries-format-1"
     },
     "snapshot": {
-      "number": "5.2.1.2",
+      "number": "5.3.1.2",
       "spec": "Incremental Font Transfer",
       "text": "Remove Entries from Format 1",
       "url": "https://www.w3.org/TR/IFT/#remove-entries-format-1"
@@ -649,13 +757,13 @@
   },
   "#remove-entries-format-2": {
     "current": {
-      "number": "5.2.2.2",
+      "number": "5.3.2.2",
       "spec": "Incremental Font Transfer",
       "text": "Remove Entries from Format 2",
       "url": "https://w3c.github.io/IFT/Overview.html#remove-entries-format-2"
     },
     "snapshot": {
-      "number": "5.2.2.2",
+      "number": "5.3.2.2",
       "spec": "Incremental Font Transfer",
       "text": "Remove Entries from Format 2",
       "url": "https://www.w3.org/TR/IFT/#remove-entries-format-2"
@@ -669,7 +777,7 @@
       "url": "https://w3c.github.io/IFT/Overview.html#sec"
     },
     "snapshot": {
-      "number": "",
+      "number": "9",
       "spec": "Incremental Font Transfer",
       "text": "Security Considerations",
       "url": "https://www.w3.org/TR/IFT/#sec"
@@ -691,13 +799,13 @@
   },
   "#sparse-bit-set-decoding": {
     "current": {
-      "number": "5.2.2.3",
+      "number": "5.3.2.3",
       "spec": "Incremental Font Transfer",
       "text": "Sparse Bit Set",
       "url": "https://w3c.github.io/IFT/Overview.html#sparse-bit-set-decoding"
     },
     "snapshot": {
-      "number": "5.2.2.3",
+      "number": "5.3.2.3",
       "spec": "Incremental Font Transfer",
       "text": "Sparse Bit Set",
       "url": "https://www.w3.org/TR/IFT/#sparse-bit-set-decoding"
@@ -709,14 +817,26 @@
       "spec": "Incremental Font Transfer",
       "text": "Table Keyed",
       "url": "https://w3c.github.io/IFT/Overview.html#table-keyed"
+    },
+    "snapshot": {
+      "number": "6.2",
+      "spec": "Incremental Font Transfer",
+      "text": "Table Keyed",
+      "url": "https://www.w3.org/TR/IFT/#table-keyed"
     }
   },
   "#target-subset-definitions": {
     "current": {
-      "number": "4.4",
+      "number": "4.5",
       "spec": "Incremental Font Transfer",
       "text": "Target Subset Definition",
       "url": "https://w3c.github.io/IFT/Overview.html#target-subset-definitions"
+    },
+    "snapshot": {
+      "number": "4.5",
+      "spec": "Incremental Font Transfer",
+      "text": "Target Subset Definition",
+      "url": "https://www.w3.org/TR/IFT/#target-subset-definitions"
     }
   },
   "#title": {
@@ -747,18 +867,18 @@
       "url": "https://www.w3.org/TR/IFT/#toc"
     }
   },
-  "#uri-templates": {
+  "#url-templates": {
     "current": {
-      "number": "5.2.3",
+      "number": "5.3.3",
       "spec": "Incremental Font Transfer",
-      "text": "URI Templates",
-      "url": "https://w3c.github.io/IFT/Overview.html#uri-templates"
+      "text": "URL Templates",
+      "url": "https://w3c.github.io/IFT/Overview.html#url-templates"
     },
     "snapshot": {
-      "number": "5.2.3",
+      "number": "5.3.3",
       "spec": "Incremental Font Transfer",
-      "text": "URI Templates",
-      "url": "https://www.w3.org/TR/IFT/#uri-templates"
+      "text": "URL Templates",
+      "url": "https://www.w3.org/TR/IFT/#url-templates"
     }
   },
   "#w3c-conformance": {

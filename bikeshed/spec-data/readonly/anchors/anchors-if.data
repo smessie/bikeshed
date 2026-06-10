@@ -40,8 +40,41 @@ type
 css-values-5
 css-values
 5
+snapshot
+https://www.w3.org/TR/css-values-5/#typedef-if
+1
+1
+-
+<if-args-branch>
+<if-args-branch>
+type
+css-values-5
+css-values
+5
 current
-https://drafts.csswg.org/css-values-5/#typedef-if
+https://drafts.csswg.org/css-values-5/#typedef-if-args-branch
+1
+1
+-
+<if-args>
+<if-args>
+type
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#typedef-if-args
+1
+1
+-
+<if-branch>
+<if-branch>
+type
+css-values-5
+css-values
+5
+current
+https://drafts.csswg.org/css-values-5/#typedef-if-branch
 1
 1
 -
@@ -56,6 +89,17 @@ https://drafts.csswg.org/css-values-5/#typedef-if-condition
 1
 1
 -
+<if-condition>
+<if-condition>
+type
+css-values-5
+css-values
+5
+snapshot
+https://www.w3.org/TR/css-values-5/#typedef-if-condition
+1
+1
+-
 <if-test>
 <if-test>
 type
@@ -67,6 +111,39 @@ https://drafts.csswg.org/css-values-5/#typedef-if-test
 1
 1
 -
+<if-test>
+<if-test>
+type
+css-values-5
+css-values
+5
+snapshot
+https://www.w3.org/TR/css-values-5/#typedef-if-test
+1
+1
+-
+IfAbruptCloseAsyncIterator
+IfAbruptCloseAsyncIterator
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ifabruptcloseasynciterator
+1
+1
+-
+IfAbruptCloseAsyncIterator(value, iteratorRecord)
+IfAbruptCloseAsyncIterator(value, iteratorRecord)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ifabruptcloseasynciterator
+1
+1
+-
 IfAbruptCloseIterator
 IfAbruptCloseIterator
 abstract-op
@@ -86,6 +163,28 @@ ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ifabruptcloseiterator
+1
+1
+-
+IfAbruptCloseIterators
+IfAbruptCloseIterators
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ifabruptcloseiterators
+1
+1
+-
+IfAbruptCloseIterators(value, iteratorRecords)
+IfAbruptCloseIterators(value, iteratorRecords)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ifabruptcloseiterators
 1
 1
 -
@@ -109,6 +208,29 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-ifabruptrejectpromise
 1
+1
+-
+ifstatement
+IfStatement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-IfStatement
+
+1
+Web browsers
+-
+ifstatement
+IfStatement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-IfStatement
+
 1
 -
 if
@@ -170,6 +292,28 @@ https://infra.spec.whatwg.org/#if-aborted
 1
 1
 -
+if expression
+if expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-if-expression
+
+1
+-
+if expression
+if expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-if-expression
+
+1
+-
 if()
 if()
 function
@@ -189,6 +333,17 @@ css-values
 5
 current
 https://drafts.csswg.org/css-values-5/#funcdef-if
+1
+1
+-
+if()
+if()
+function
+css-values-5
+css-values
+5
+snapshot
+https://www.w3.org/TR/css-values-5/#funcdef-if
 1
 1
 -
@@ -273,6 +428,29 @@ html
 current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element
 1
+1
+-
+iframe element referrer policy
+iframe element referrer policy
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-iframe-referrer-policy
+
+1
+navigation params
+-
+iframe element referrer policy
+iframe element referrer policy
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsing-the-web.html#target-snapshot-params-iframe-referrer-policy
+
 1
 -
 iframe fullscreen flag

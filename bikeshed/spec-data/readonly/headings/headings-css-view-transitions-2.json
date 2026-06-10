@@ -1,4 +1,68 @@
 {
+  "#%3A%3Aview-transition-group": {
+    "current": {
+      "number": "5.2.3",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Named Subtree Root: the ::view-transition-group() pseudo-element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#%3A%3Aview-transition-group"
+    }
+  },
+  "#%3A%3Aview-transition-group-children": {
+    "current": {
+      "number": "5.2.7",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Group Children: the ::view-transition-group-children() pseudo-element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#%3A%3Aview-transition-group-children"
+    }
+  },
+  "#%3A%3Aview-transition-image-pair": {
+    "current": {
+      "number": "5.2.4",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Image Pair Isolation: the ::view-transition-image-pair() pseudo-element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#%3A%3Aview-transition-image-pair"
+    }
+  },
+  "#%3A%3Aview-transition-new": {
+    "current": {
+      "number": "5.2.6",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition New State Image: the ::view-transition-new() pseudo-element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#%3A%3Aview-transition-new"
+    }
+  },
+  "#%3A%3Aview-transition-old": {
+    "current": {
+      "number": "5.2.5",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Old State Image: the ::view-transition-old() pseudo-element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#%3A%3Aview-transition-old"
+    }
+  },
+  "#Element-ViewTransition-prepare": {
+    "current": {
+      "number": "2.2.1",
+      "spec": "CSS View Transitions 2",
+      "text": "startViewTransition() Method Steps",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#Element-ViewTransition-prepare"
+    }
+  },
+  "#ViewTransition-prepare": {
+    "current": {
+      "number": "2.1.1",
+      "spec": "CSS View Transitions 2",
+      "text": "startViewTransition() Method Steps",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#ViewTransition-prepare"
+    }
+  },
+  "#ViewTransition-skipTransition": {
+    "current": {
+      "number": "2.3.2",
+      "spec": "CSS View Transitions 2",
+      "text": "skipTransition() Method Steps",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#ViewTransition-skipTransition"
+    }
+  },
   "#abstract": {
     "current": {
       "number": "",
@@ -15,13 +79,13 @@
   },
   "#access-view-transition-in-new-doc": {
     "current": {
-      "number": "8.5",
+      "number": "12.5.2",
       "spec": "CSS View Transitions 2",
       "text": "Activating the view transition in the new Document",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#access-view-transition-in-new-doc"
     },
     "snapshot": {
-      "number": "6.4",
+      "number": "9.5",
       "spec": "CSS View Transitions 2",
       "text": "Activating the view transition in the new Document",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#access-view-transition-in-new-doc"
@@ -29,7 +93,7 @@
   },
   "#activating-cross-document-view-transition": {
     "current": {
-      "number": "2.1.1",
+      "number": "8.1.1",
       "spec": "CSS View Transitions 2",
       "text": "Activation",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#activating-cross-document-view-transition"
@@ -43,7 +107,7 @@
   },
   "#active-view-transition-pseudo-examples": {
     "current": {
-      "number": "3.2",
+      "number": "9.2",
       "spec": "CSS View Transitions 2",
       "text": "Examples",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#active-view-transition-pseudo-examples"
@@ -55,103 +119,269 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#active-view-transition-pseudo-examples"
     }
   },
+  "#additions-to-document": {
+    "current": {
+      "number": "12.1.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Additions to Document",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#additions-to-document"
+    }
+  },
+  "#additions-to-document-api": {
+    "current": {
+      "number": "2.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Additions to Document",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#additions-to-document-api"
+    }
+  },
+  "#additions-to-element-api": {
+    "current": {
+      "number": "2.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Additions to Element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#additions-to-element-api"
+    }
+  },
   "#additions-to-vt-name": {
     "current": {
-      "number": "6.3",
+      "number": "11.3",
       "spec": "CSS View Transitions 2",
       "text": "Additions to view-transition-name",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#additions-to-vt-name"
+    },
+    "snapshot": {
+      "number": "6.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Additions to view-transition-name",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#additions-to-vt-name"
     }
   },
   "#algorithms": {
     "current": {
-      "number": "8",
+      "number": "",
       "spec": "CSS View Transitions 2",
-      "text": "Algorithms",
+      "text": "12. Algorithms",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#algorithms"
     },
     "snapshot": {
-      "number": "6",
+      "number": "9",
       "spec": "CSS View Transitions 2",
       "text": "Algorithms",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#algorithms"
     }
   },
+  "#api": {
+    "current": {
+      "number": "2",
+      "spec": "CSS View Transitions 2",
+      "text": "API",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#api"
+    }
+  },
   "#auto-vt-name": {
     "current": {
+      "number": "",
+      "spec": "CSS View Transitions 2",
+      "text": "11. Determining view-transition-name automatically",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name"
+    },
+    "snapshot": {
       "number": "6",
       "spec": "CSS View Transitions 2",
       "text": "Determining view-transition-name automatically",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name"
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#auto-vt-name"
     }
   },
   "#auto-vt-name-example": {
     "current": {
-      "number": "6.2",
+      "number": "11.2",
       "spec": "CSS View Transitions 2",
       "text": "Examples",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name-example"
+    },
+    "snapshot": {
+      "number": "6.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Examples",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#auto-vt-name-example"
     }
   },
   "#auto-vt-name-overview": {
     "current": {
-      "number": "6.1",
+      "number": "11.1",
       "spec": "CSS View Transitions 2",
       "text": "Overview",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name-overview"
+    },
+    "snapshot": {
+      "number": "6.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Overview",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#auto-vt-name-overview"
+    }
+  },
+  "#call-dom-update-callback-algorithm": {
+    "current": {
+      "number": "12.6",
+      "spec": "CSS View Transitions 2",
+      "text": "Call the update callback",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#call-dom-update-callback-algorithm"
     }
   },
   "#capture-classes-data-structure": {
-    "current": {
-      "number": "8.2.1",
-      "spec": "CSS View Transitions 2",
-      "text": "Captured elements extension",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#capture-classes-data-structure"
-    },
     "snapshot": {
-      "number": "6.1.4",
+      "number": "9.2.1",
       "spec": "CSS View Transitions 2",
       "text": "Captured elements extension",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#capture-classes-data-structure"
     }
   },
+  "#capture-image-size-algorithm": {
+    "snapshot": {
+      "number": "9.8.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Adjustment to image capture size",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#capture-image-size-algorithm"
+    }
+  },
+  "#capture-new-layered-props-algorithm": {
+    "snapshot": {
+      "number": "9.8.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Capture the old layered properties",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#capture-new-layered-props-algorithm"
+    }
+  },
+  "#capture-new-state-algorithm": {
+    "current": {
+      "number": "12.4.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Capture the new state",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#capture-new-state-algorithm"
+    }
+  },
+  "#capture-old-state-algorithm": {
+    "current": {
+      "number": "12.4.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Capture the old state",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#capture-old-state-algorithm"
+    }
+  },
+  "#capture-rendering-characteristics-algorithm": {
+    "current": {
+      "number": "12.9.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Capture rendering characteristics",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#capture-rendering-characteristics-algorithm"
+    }
+  },
+  "#capture-the-image-algorithm": {
+    "current": {
+      "number": "12.9",
+      "spec": "CSS View Transitions 2",
+      "text": "Capture the image",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#capture-the-image-algorithm"
+    }
+  },
+  "#captured-elements": {
+    "current": {
+      "number": "12.1.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Captured elements",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#captured-elements"
+    }
+  },
+  "#changes": {
+    "current": {
+      "number": "A",
+      "spec": "CSS View Transitions 2",
+      "text": "Changes",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#changes"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "CSS View Transitions 2",
+      "text": "Changes",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#changes"
+    }
+  },
+  "#changes-since-2024-05-16": {
+    "current": {
+      "number": "",
+      "spec": "CSS View Transitions 2",
+      "text": "Changes from 2024-05-16 Working Draft",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#changes-since-2024-05-16"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS View Transitions 2",
+      "text": "Changes from 2024-05-16 Working Draft",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#changes-since-2024-05-16"
+    }
+  },
   "#check-eligibility": {
     "current": {
-      "number": "8.4.1",
+      "number": "12.5.1.1",
       "spec": "CSS View Transitions 2",
       "text": "Check eligibility for outbound cross-document view transition",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#check-eligibility"
     },
     "snapshot": {
-      "number": "6.3.1",
+      "number": "9.4.1",
       "spec": "CSS View Transitions 2",
       "text": "Check eligibility for outbound cross-document view transition",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#check-eligibility"
     }
   },
+  "#clear-view-transition-algorithm": {
+    "current": {
+      "number": "12.12",
+      "spec": "CSS View Transitions 2",
+      "text": "Clear view transition",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#clear-view-transition-algorithm"
+    }
+  },
+  "#concepts": {
+    "current": {
+      "number": "12.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Data Structures",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#concepts"
+    }
+  },
+  "#contents": {
+    "current": {
+      "number": "",
+      "spec": "CSS View Transitions 2",
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS View Transitions 2",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#toc"
+    }
+  },
   "#cross-doc-after-capture": {
     "current": {
-      "number": "8.4.5",
+      "number": "12.5.1.5",
       "spec": "CSS View Transitions 2",
       "text": "Proceed with cross-document view transition after capturing the old state",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-after-capture"
     },
     "snapshot": {
-      "number": "6.3.5",
+      "number": "9.4.5",
       "spec": "CSS View Transitions 2",
       "text": "Proceed with cross-document view transition after capturing the old state",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-doc-after-capture"
     }
   },
   "#cross-doc-data-structure-document": {
-    "current": {
-      "number": "8.1.1",
-      "spec": "CSS View Transitions 2",
-      "text": "Additions to Document",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-data-structure-document"
-    },
     "snapshot": {
-      "number": "6.1.1",
+      "number": "9.1.1",
       "spec": "CSS View Transitions 2",
       "text": "Additions to Document",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-doc-data-structure-document"
@@ -159,41 +389,29 @@
   },
   "#cross-doc-data-structure-serialization": {
     "current": {
-      "number": "8.1.3",
+      "number": "12.1.4",
       "spec": "CSS View Transitions 2",
       "text": "Serializable view transition params",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-data-structure-serialization"
     },
     "snapshot": {
-      "number": "6.1.3",
+      "number": "9.1.3",
       "spec": "CSS View Transitions 2",
       "text": "Serializable view transition params",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-doc-data-structure-serialization"
     }
   },
   "#cross-doc-data-structure-vt": {
-    "current": {
-      "number": "8.1.2",
-      "spec": "CSS View Transitions 2",
-      "text": "Additions to ViewTransition",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-data-structure-vt"
-    },
     "snapshot": {
-      "number": "6.1.2",
+      "number": "9.1.2",
       "spec": "CSS View Transitions 2",
       "text": "Additions to ViewTransition",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-doc-data-structure-vt"
     }
   },
   "#cross-doc-data-structures": {
-    "current": {
-      "number": "8.1",
-      "spec": "CSS View Transitions 2",
-      "text": "Data structures",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-data-structures"
-    },
     "snapshot": {
-      "number": "6.1",
+      "number": "9.1",
       "spec": "CSS View Transitions 2",
       "text": "Data structures",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-doc-data-structures"
@@ -201,7 +419,7 @@
   },
   "#cross-doc-examples": {
     "current": {
-      "number": "2.2",
+      "number": "8.2",
       "spec": "CSS View Transitions 2",
       "text": "Examples",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-examples"
@@ -213,9 +431,17 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-doc-examples"
     }
   },
+  "#cross-doc-lifecycle": {
+    "current": {
+      "number": "8.1.4",
+      "spec": "CSS View Transitions 2",
+      "text": "Lifecycle",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-lifecycle"
+    }
+  },
   "#cross-doc-opt-in": {
     "current": {
-      "number": "2.3",
+      "number": "8.3",
       "spec": "CSS View Transitions 2",
       "text": "Opting in to cross-document view transitions",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-opt-in"
@@ -229,7 +455,7 @@
   },
   "#cross-doc-overview": {
     "current": {
-      "number": "2.1",
+      "number": "8.1",
       "spec": "CSS View Transitions 2",
       "text": "Overview",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-doc-overview"
@@ -243,7 +469,7 @@
   },
   "#cross-document-view-transitions": {
     "current": {
-      "number": "2",
+      "number": "8",
       "spec": "CSS View Transitions 2",
       "text": "Cross-document view transitions",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cross-document-view-transitions"
@@ -255,9 +481,17 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cross-document-view-transitions"
     }
   },
+  "#css-properties": {
+    "current": {
+      "number": "3",
+      "spec": "CSS View Transitions 2",
+      "text": "CSS properties",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#css-properties"
+    }
+  },
   "#cssom": {
     "current": {
-      "number": "2.3.3",
+      "number": "8.3.3",
       "spec": "CSS View Transitions 2",
       "text": "Accessing the @view-transition rule using CSSOM",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#cssom"
@@ -269,9 +503,17 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#cssom"
     }
   },
+  "#customizing": {
+    "current": {
+      "number": "1.3",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Customization",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#customizing"
+    }
+  },
   "#customizing-cross-document-view-transitions": {
     "current": {
-      "number": "2.1.3",
+      "number": "8.1.3",
       "spec": "CSS View Transitions 2",
       "text": "Customization",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#customizing-cross-document-view-transitions"
@@ -283,18 +525,52 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#customizing-cross-document-view-transitions"
     }
   },
-  "#extend-document-types": {
+  "#doc-activeviewtransition": {
     "current": {
-      "number": "5",
+      "number": "2.1.2",
       "spec": "CSS View Transitions 2",
-      "text": "Extending document.startViewTransition()",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#extend-document-types"
-    },
+      "text": "activeViewTransition Property",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#doc-activeviewtransition"
+    }
+  },
+  "#element-activeviewtransition": {
+    "current": {
+      "number": "2.2.2",
+      "spec": "CSS View Transitions 2",
+      "text": "activeViewTransition Property",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#element-activeviewtransition"
+    }
+  },
+  "#elements-concept": {
+    "current": {
+      "number": "12.1.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Additions to Elements",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#elements-concept"
+    }
+  },
+  "#examples": {
+    "current": {
+      "number": "1.7",
+      "spec": "CSS View Transitions 2",
+      "text": "Examples",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#examples"
+    }
+  },
+  "#extend-document-types": {
     "snapshot": {
       "number": "5",
       "spec": "CSS View Transitions 2",
       "text": "Extending document.startViewTransition()",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#extend-document-types"
+    }
+  },
+  "#handle-transition-frame-algorithm": {
+    "current": {
+      "number": "12.10",
+      "spec": "CSS View Transitions 2",
+      "text": "Handle transition frame",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#handle-transition-frame-algorithm"
     }
   },
   "#idl-index": {
@@ -357,7 +633,7 @@
     "current": {
       "number": "",
       "spec": "CSS View Transitions 2",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#informative"
     },
     "snapshot": {
@@ -381,6 +657,14 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#intro"
     }
   },
+  "#intro-l2": {
+    "current": {
+      "number": "1.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Level 2 Updates",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#intro-l2"
+    }
+  },
   "#issues-index": {
     "current": {
       "number": "",
@@ -395,11 +679,59 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#issues-index"
     }
   },
+  "#layered-capture": {
+    "snapshot": {
+      "number": "8",
+      "spec": "CSS View Transitions 2",
+      "text": "Layered capture",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#layered-capture"
+    }
+  },
+  "#layered-capture-algorithms": {
+    "snapshot": {
+      "number": "9.8",
+      "spec": "CSS View Transitions 2",
+      "text": "Capturing layered CSS properties",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#layered-capture-algorithms"
+    }
+  },
+  "#layered-capture-compute-style": {
+    "snapshot": {
+      "number": "9.8.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Compute the layered-capture style",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#layered-capture-compute-style"
+    }
+  },
+  "#layered-capture-overview": {
+    "snapshot": {
+      "number": "8.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Overview",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#layered-capture-overview"
+    }
+  },
+  "#layered-capture-rendering": {
+    "snapshot": {
+      "number": "9.8.4",
+      "spec": "CSS View Transitions 2",
+      "text": "Render the snapshot with layered capture",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#layered-capture-rendering"
+    }
+  },
+  "#layered-captured-css-properties": {
+    "snapshot": {
+      "number": "8.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Table of captured CSS properties {#layered-captured-css-properties}",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#layered-captured-css-properties"
+    }
+  },
   "#lifecycle": {
     "current": {
-      "number": "2.1.4",
+      "number": "1.4",
       "spec": "CSS View Transitions 2",
-      "text": "Lifecycle",
+      "text": "View Transition Lifecycle",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#lifecycle"
     },
     "snapshot": {
@@ -409,33 +741,61 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#lifecycle"
     }
   },
+  "#named-and-transitioning": {
+    "current": {
+      "number": "3.1.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Rendering Consolidation",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#named-and-transitioning"
+    }
+  },
+  "#named-view-transition-pseudo": {
+    "current": {
+      "number": "5.2.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Named View Transition Pseudo-elements",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#named-view-transition-pseudo"
+    }
+  },
   "#nested-overview": {
     "current": {
+      "number": "3.3.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Nested View Transition Group Explanation",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#nested-overview"
+    },
+    "snapshot": {
       "number": "7.1",
       "spec": "CSS View Transitions 2",
       "text": "Overview",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#nested-overview"
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#nested-overview"
     }
   },
   "#nested-view-transitions": {
-    "current": {
+    "snapshot": {
       "number": "7",
       "spec": "CSS View Transitions 2",
       "text": "Nested view-transitions",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#nested-view-transitions"
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#nested-view-transitions"
     }
   },
   "#nested-vt-example": {
     "current": {
-      "number": "7.2",
+      "number": "3.3.2",
       "spec": "CSS View Transitions 2",
       "text": "Examples",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#nested-vt-example"
+    },
+    "snapshot": {
+      "number": "7.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Examples",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#nested-vt-example"
     }
   },
   "#new-doc-event": {
     "current": {
-      "number": "2.1.3.2",
+      "number": "8.1.3.2",
       "spec": "CSS View Transitions 2",
       "text": "Handling the view transition in the new document",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#new-doc-event"
@@ -463,7 +823,7 @@
   },
   "#old-doc-event": {
     "current": {
-      "number": "2.1.3.1",
+      "number": "8.1.3.1",
       "spec": "CSS View Transitions 2",
       "text": "Handling the view transition in the old document",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#old-doc-event"
@@ -475,12 +835,28 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#old-doc-event"
     }
   },
-  "#page-visibility-change-steps-additions": {
+  "#page-visibility-change-steps": {
     "current": {
-      "number": "8.2",
+      "number": "12.8",
+      "spec": "CSS View Transitions 2",
+      "text": "View transition page-visibility change steps",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#page-visibility-change-steps"
+    }
+  },
+  "#page-visibility-change-steps-additions": {
+    "snapshot": {
+      "number": "9.2",
       "spec": "CSS View Transitions 2",
       "text": "Additions to the view transition page-visibility change steps",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#page-visibility-change-steps-additions"
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#page-visibility-change-steps-additions"
+    }
+  },
+  "#perform-pending-transition-operations-algorithm": {
+    "current": {
+      "number": "12.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Perform pending transition operations",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#perform-pending-transition-operations-algorithm"
     }
   },
   "#priv": {
@@ -499,13 +875,13 @@
   },
   "#proceed-if-skipped": {
     "current": {
-      "number": "8.4.4",
+      "number": "12.5.1.4",
       "spec": "CSS View Transitions 2",
       "text": "Proceed with navigation if view transition is skipped",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#proceed-if-skipped"
     },
     "snapshot": {
-      "number": "6.3.4",
+      "number": "9.4.4",
       "spec": "CSS View Transitions 2",
       "text": "Proceed with navigation if view transition is skipped",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#proceed-if-skipped"
@@ -525,9 +901,17 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#property-index"
     }
   },
+  "#pseudo": {
+    "current": {
+      "number": "5",
+      "spec": "CSS View Transitions 2",
+      "text": "Pseudo-elements",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#pseudo"
+    }
+  },
   "#pseudo-classes-for-selective-vt": {
     "current": {
-      "number": "3.3",
+      "number": "9.3",
       "spec": "CSS View Transitions 2",
       "text": "Selecting based on the active view transition",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#pseudo-classes-for-selective-vt"
@@ -541,7 +925,7 @@
   },
   "#pseudo-element-class-additions": {
     "current": {
-      "number": "4.4",
+      "number": "10.4",
       "spec": "CSS View Transitions 2",
       "text": "Additions to named view transition pseudo-elements",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#pseudo-element-class-additions"
@@ -551,6 +935,14 @@
       "spec": "CSS View Transitions 2",
       "text": "Additions to named view transition pseudo-elements",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#pseudo-element-class-additions"
+    }
+  },
+  "#pseudo-root": {
+    "current": {
+      "number": "5.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Pseudo-element Trees",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#pseudo-root"
     }
   },
   "#references": {
@@ -565,6 +957,30 @@
       "spec": "CSS View Transitions 2",
       "text": "References",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#references"
+    }
+  },
+  "#rendering-model": {
+    "current": {
+      "number": "1.6",
+      "spec": "CSS View Transitions 2",
+      "text": "Rendering Model",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#rendering-model"
+    }
+  },
+  "#scoped-view-transition-layout": {
+    "current": {
+      "number": "6.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Scoped View Transition Layout",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#scoped-view-transition-layout"
+    }
+  },
+  "#scoped-vt": {
+    "current": {
+      "number": "4",
+      "spec": "CSS View Transitions 2",
+      "text": "Scoped View Transitions",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#scoped-vt"
     }
   },
   "#sec": {
@@ -583,7 +999,7 @@
   },
   "#selective-vt": {
     "current": {
-      "number": "3",
+      "number": "9",
       "spec": "CSS View Transitions 2",
       "text": "Selective view transitions",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#selective-vt"
@@ -597,7 +1013,7 @@
   },
   "#selective-vt-overview": {
     "current": {
-      "number": "3.1",
+      "number": "9.1",
       "spec": "CSS View Transitions 2",
       "text": "Overview",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#selective-vt-overview"
@@ -609,15 +1025,31 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#selective-vt-overview"
     }
   },
+  "#separating-transitions": {
+    "current": {
+      "number": "1.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Separating Visual Transitions from DOM Updates",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#separating-transitions"
+    }
+  },
+  "#setup-crossdoc-view-transition-algo": {
+    "current": {
+      "number": "12.5",
+      "spec": "CSS View Transitions 2",
+      "text": "Setup cross-document view transition",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#setup-crossdoc-view-transition-algo"
+    }
+  },
   "#setup-old-document-vt": {
     "current": {
-      "number": "8.4",
+      "number": "12.5.1",
       "spec": "CSS View Transitions 2",
       "text": "Setting up the view transition in the old Document",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#setup-old-document-vt"
     },
     "snapshot": {
-      "number": "6.3",
+      "number": "9.4",
       "spec": "CSS View Transitions 2",
       "text": "Setting up the view transition in the old Document",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#setup-old-document-vt"
@@ -625,21 +1057,37 @@
   },
   "#setup-outbound-transition": {
     "current": {
-      "number": "8.4.2",
+      "number": "12.5.1.2",
       "spec": "CSS View Transitions 2",
       "text": "Setup the outbound transition when ready to swap pages",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#setup-outbound-transition"
     },
     "snapshot": {
-      "number": "6.3.2",
+      "number": "9.4.2",
       "spec": "CSS View Transitions 2",
       "text": "Setup the outbound transition when ready to swap pages",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#setup-outbound-transition"
     }
   },
+  "#setup-transition-pseudo-elements-algorithm": {
+    "current": {
+      "number": "12.4.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Setup transition pseudo-elements",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#setup-transition-pseudo-elements-algorithm"
+    }
+  },
+  "#setup-view-transition-algorithm": {
+    "current": {
+      "number": "12.4",
+      "spec": "CSS View Transitions 2",
+      "text": "Setup single-document view transition",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#setup-view-transition-algorithm"
+    }
+  },
   "#shared-style-overview": {
     "current": {
-      "number": "4.1",
+      "number": "10.1",
       "spec": "CSS View Transitions 2",
       "text": "Overview",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#shared-style-overview"
@@ -653,9 +1101,9 @@
   },
   "#shared-style-with-vt-classes": {
     "current": {
-      "number": "4",
+      "number": "",
       "spec": "CSS View Transitions 2",
-      "text": "Sharing styles between view transition pseudo-elements",
+      "text": "10. Sharing styles between view transition pseudo-elements",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#shared-style-with-vt-classes"
     },
     "snapshot": {
@@ -663,6 +1111,22 @@
       "spec": "CSS View Transitions 2",
       "text": "Sharing styles between view transition pseudo-elements",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#shared-style-with-vt-classes"
+    }
+  },
+  "#skip-the-view-transition-algorithm": {
+    "current": {
+      "number": "12.7",
+      "spec": "CSS View Transitions 2",
+      "text": "Skip the view transition",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#skip-the-view-transition-algorithm"
+    }
+  },
+  "#snapshot-containing-block-concept": {
+    "current": {
+      "number": "6.1",
+      "spec": "CSS View Transitions 2",
+      "text": "The Snapshot Containing Block",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#snapshot-containing-block-concept"
     }
   },
   "#sotd": {
@@ -679,9 +1143,17 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#sotd"
     }
   },
+  "#style-transition-pseudo-elements-algorithm": {
+    "current": {
+      "number": "12.11",
+      "spec": "CSS View Transitions 2",
+      "text": "Update pseudo-element styles",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#style-transition-pseudo-elements-algorithm"
+    }
+  },
   "#the-active-view-transition-pseudo": {
     "current": {
-      "number": "3.3.1",
+      "number": "9.3.1",
       "spec": "CSS View Transitions 2",
       "text": "The :active-view-transition pseudo-class",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo"
@@ -695,7 +1167,7 @@
   },
   "#the-active-view-transition-type-pseudo": {
     "current": {
-      "number": "3.3.2",
+      "number": "9.3.2",
       "spec": "CSS View Transitions 2",
       "text": "The :active-view-transition-type() pseudo-class",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo"
@@ -705,6 +1177,22 @@
       "spec": "CSS View Transitions 2",
       "text": "The :active-view-transition-type() pseudo-class",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#the-active-view-transition-type-pseudo"
+    }
+  },
+  "#the-domtransition-interface": {
+    "current": {
+      "number": "2.3",
+      "spec": "CSS View Transitions 2",
+      "text": "The ViewTransition interface",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#the-domtransition-interface"
+    }
+  },
+  "#the-viewtransitiontypeset-interface": {
+    "current": {
+      "number": "2.3.1",
+      "spec": "CSS View Transitions 2",
+      "text": "The ViewTransitionTypeSet Interface",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#the-viewtransitiontypeset-interface"
     }
   },
   "#title": {
@@ -735,9 +1223,17 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#toc"
     }
   },
+  "#transitions-as-enhancements": {
+    "current": {
+      "number": "1.5",
+      "spec": "CSS View Transitions 2",
+      "text": "Transitions as an enhancement",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#transitions-as-enhancements"
+    }
+  },
   "#types-cross-doc": {
     "current": {
-      "number": "3.5",
+      "number": "9.4",
       "spec": "CSS View Transitions 2",
       "text": "Activating the transition type for cross-document view transitions",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#types-cross-doc"
@@ -749,15 +1245,23 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#types-cross-doc"
     }
   },
+  "#ua-styles": {
+    "current": {
+      "number": "7",
+      "spec": "CSS View Transitions 2",
+      "text": "User Agent Stylesheet",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#ua-styles"
+    }
+  },
   "#update-opt-in": {
     "current": {
-      "number": "8.4.3",
+      "number": "12.5.1.3",
       "spec": "CSS View Transitions 2",
       "text": "Update the opt-in flag to reflect the current state",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#update-opt-in"
     },
     "snapshot": {
-      "number": "6.3.3",
+      "number": "9.4.3",
       "spec": "CSS View Transitions 2",
       "text": "Update the opt-in flag to reflect the current state",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#update-opt-in"
@@ -765,7 +1269,7 @@
   },
   "#view-transition-class-prop": {
     "current": {
-      "number": "4.3",
+      "number": "10.3",
       "spec": "CSS View Transitions 2",
       "text": "The view-transition-class property",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop"
@@ -793,15 +1297,29 @@
   },
   "#view-transition-group-prop": {
     "current": {
+      "number": "3.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Nested View Transition Groups: The view-transition-group property",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-group-prop"
+    },
+    "snapshot": {
       "number": "7.3",
       "spec": "CSS View Transitions 2",
       "text": "The view-transition-group property",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-group-prop"
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#view-transition-group-prop"
+    }
+  },
+  "#view-transition-name-prop": {
+    "current": {
+      "number": "3.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Tagging Individually Transitioning Subtrees: the view-transition-name property",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-name-prop"
     }
   },
   "#view-transition-navigation-descriptor": {
     "current": {
-      "number": "2.3.2",
+      "number": "8.3.2",
       "spec": "CSS View Transitions 2",
       "text": "The navigation descriptor",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-navigation-descriptor"
@@ -813,9 +1331,33 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#view-transition-navigation-descriptor"
     }
   },
+  "#view-transition-pseudo": {
+    "current": {
+      "number": "5.2.2",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Tree Root: the ::view-transition pseudo-element",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-pseudo"
+    }
+  },
+  "#view-transition-pseudos": {
+    "current": {
+      "number": "5.2",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Pseudo-elements",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-pseudos"
+    }
+  },
+  "#view-transition-rendering": {
+    "current": {
+      "number": "6",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Layout",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-rendering"
+    }
+  },
   "#view-transition-rule": {
     "current": {
-      "number": "2.3.1",
+      "number": "8.3.1",
       "spec": "CSS View Transitions 2",
       "text": "The @view-transition rule",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-rule"
@@ -827,13 +1369,23 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#view-transition-rule"
     }
   },
-  "#view-transitions-extension-types": {
+  "#view-transition-scope-prop": {
     "current": {
-      "number": "3.4",
+      "number": "3.2",
       "spec": "CSS View Transitions 2",
-      "text": "Changing the types of an ongoing view transition",
-      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transitions-extension-types"
-    },
+      "text": "Isolating Scoped View Transition Names: the view-transition-scope property",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-scope-prop"
+    }
+  },
+  "#view-transition-stacking-layer": {
+    "current": {
+      "number": "6.2",
+      "spec": "CSS View Transitions 2",
+      "text": "View Transition Painting Order",
+      "url": "https://drafts.csswg.org/css-view-transitions-2/#view-transition-stacking-layer"
+    }
+  },
+  "#view-transitions-extension-types": {
     "snapshot": {
       "number": "3.4",
       "spec": "CSS View Transitions 2",
@@ -841,15 +1393,23 @@
       "url": "https://www.w3.org/TR/css-view-transitions-2/#view-transitions-extension-types"
     }
   },
+  "#vt-adjust-nested-group-transform": {
+    "snapshot": {
+      "number": "9.8.5",
+      "spec": "CSS View Transitions 2",
+      "text": "Adjust the nested group transform",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-adjust-nested-group-transform"
+    }
+  },
   "#vt-class-algorithms": {
     "current": {
-      "number": "8.6",
+      "number": "12.5.3",
       "spec": "CSS View Transitions 2",
       "text": "Capturing the view-transition-class",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-class-algorithms"
     },
     "snapshot": {
-      "number": "6.5",
+      "number": "9.6",
       "spec": "CSS View Transitions 2",
       "text": "Capturing the view-transition-class",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-class-algorithms"
@@ -857,7 +1417,7 @@
   },
   "#vt-class-example": {
     "current": {
-      "number": "4.2",
+      "number": "10.2",
       "spec": "CSS View Transitions 2",
       "text": "Examples",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-class-example"
@@ -871,77 +1431,141 @@
   },
   "#vt-containing-group-name-resolve": {
     "current": {
-      "number": "8.7.2",
+      "number": "12.5.4.2",
       "spec": "CSS View Transitions 2",
       "text": "Resolving the containing group name",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-containing-group-name-resolve"
+    },
+    "snapshot": {
+      "number": "9.7.2",
+      "spec": "CSS View Transitions 2",
+      "text": "Resolving the containing group name",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-containing-group-name-resolve"
     }
   },
   "#vt-group-algorithm": {
     "current": {
-      "number": "8.7",
+      "number": "12.5.4",
       "spec": "CSS View Transitions 2",
       "text": "Capturing and applying view-transition-group",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-algorithm"
+    },
+    "snapshot": {
+      "number": "9.7",
+      "spec": "CSS View Transitions 2",
+      "text": "Capturing and applying view-transition-group",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-algorithm"
     }
   },
   "#vt-group-capture-new": {
     "current": {
-      "number": "8.7.5",
+      "number": "12.5.4.5",
       "spec": "CSS View Transitions 2",
       "text": "Compute the new view-transition-group",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-capture-new"
+    },
+    "snapshot": {
+      "number": "9.7.5",
+      "spec": "CSS View Transitions 2",
+      "text": "Compute the new view-transition-group",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-capture-new"
     }
   },
   "#vt-group-capture-old": {
     "current": {
-      "number": "8.7.4",
+      "number": "12.5.4.4",
       "spec": "CSS View Transitions 2",
       "text": "Compute the old view-transition-group",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-capture-old"
+    },
+    "snapshot": {
+      "number": "9.7.4",
+      "spec": "CSS View Transitions 2",
+      "text": "Compute the old view-transition-group",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-capture-old"
     }
   },
   "#vt-group-name-resolve": {
     "current": {
-      "number": "8.7.3",
+      "number": "12.5.4.3",
       "spec": "CSS View Transitions 2",
       "text": "Resolving the group name",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-name-resolve"
+    },
+    "snapshot": {
+      "number": "9.7.3",
+      "spec": "CSS View Transitions 2",
+      "text": "Resolving the group name",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-name-resolve"
     }
   },
   "#vt-group-reparent": {
     "current": {
-      "number": "8.7.6",
+      "number": "12.5.4.6",
       "spec": "CSS View Transitions 2",
       "text": "Reparent a ::view-transition-group() to its specified containing group",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-reparent"
+    },
+    "snapshot": {
+      "number": "9.7.6",
+      "spec": "CSS View Transitions 2",
+      "text": "Reparent a ::view-transition-group() to its specified containing group",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-reparent"
     }
   },
   "#vt-group-transform-adjust": {
     "current": {
-      "number": "8.7.7",
+      "number": "12.5.4.7",
       "spec": "CSS View Transitions 2",
       "text": "Adjust the group’s transform to be relative to its containing ::view-transition-group()",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-transform-adjust"
+    },
+    "snapshot": {
+      "number": "9.7.7",
+      "spec": "CSS View Transitions 2",
+      "text": "Adjust the group’s transform to be relative to its containing ::view-transition-group()",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-transform-adjust"
     }
   },
   "#vt-group-value-resolve": {
     "current": {
-      "number": "8.7.1",
+      "number": "12.5.4.1",
       "spec": "CSS View Transitions 2",
       "text": "Resolving the view-transition-group value",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-group-value-resolve"
+    },
+    "snapshot": {
+      "number": "9.7.1",
+      "spec": "CSS View Transitions 2",
+      "text": "Resolving the view-transition-group value",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-group-value-resolve"
+    }
+  },
+  "#vt-layered-capture-apply-keyframes": {
+    "snapshot": {
+      "number": "9.8.6",
+      "spec": "CSS View Transitions 2",
+      "text": "Apply the old layered-capture properties to ::view-transition-group() keyframes",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-layered-capture-apply-keyframes"
+    }
+  },
+  "#vt-layered-capture-apply-new-state": {
+    "snapshot": {
+      "number": "9.8.7",
+      "spec": "CSS View Transitions 2",
+      "text": "Apply the new layered-capture properties to ::view-transition-group()",
+      "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-layered-capture-apply-new-state"
     }
   },
   "#vt-rule-algo": {
     "current": {
-      "number": "8.3",
+      "number": "12.3",
       "spec": "CSS View Transitions 2",
       "text": "Resolving the @view-transition rule",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#vt-rule-algo"
     },
     "snapshot": {
-      "number": "6.2",
+      "number": "9.3",
       "spec": "CSS View Transitions 2",
       "text": "Resolving the @view-transition rule",
       "url": "https://www.w3.org/TR/css-view-transitions-2/#vt-rule-algo"
@@ -1033,7 +1657,7 @@
   },
   "#waiting-for-stable-state": {
     "current": {
-      "number": "2.1.2",
+      "number": "8.1.2",
       "spec": "CSS View Transitions 2",
       "text": "Waiting for the new state to stabilize",
       "url": "https://drafts.csswg.org/css-view-transitions-2/#waiting-for-stable-state"

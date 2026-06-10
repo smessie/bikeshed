@@ -47,31 +47,37 @@
       "spec": "CSS Values 5",
       "text": "Arbitrary Substitution Functions",
       "url": "https://drafts.csswg.org/css-values-5/#arbitrary-substitution"
+    },
+    "snapshot": {
+      "number": "A",
+      "spec": "CSS Values 5",
+      "text": "Arbitrary Substitution Functions",
+      "url": "https://www.w3.org/TR/css-values-5/#arbitrary-substitution"
     }
   },
   "#attr-notation": {
     "current": {
-      "number": "7.7",
+      "number": "8.7",
       "spec": "CSS Values 5",
       "text": "Attribute References: the attr() notation",
       "url": "https://drafts.csswg.org/css-values-5/#attr-notation"
     },
     "snapshot": {
-      "number": "7.4",
+      "number": "7.7",
       "spec": "CSS Values 5",
-      "text": "Attribute References: the attr() function",
+      "text": "Attribute References: the attr() notation",
       "url": "https://www.w3.org/TR/css-values-5/#attr-notation"
     }
   },
   "#attr-security": {
     "current": {
-      "number": "7.7.2",
+      "number": "8.7.2",
       "spec": "CSS Values 5",
       "text": "Security",
       "url": "https://drafts.csswg.org/css-values-5/#attr-security"
     },
     "snapshot": {
-      "number": "7.4.3",
+      "number": "7.7.2",
       "spec": "CSS Values 5",
       "text": "Security",
       "url": "https://www.w3.org/TR/css-values-5/#attr-security"
@@ -79,32 +85,30 @@
   },
   "#attr-substitution": {
     "current": {
-      "number": "7.7.1",
+      "number": "8.7.1",
       "spec": "CSS Values 5",
-      "text": "Attribute Value Substitution: the attr() notation",
+      "text": "Substitution",
       "url": "https://drafts.csswg.org/css-values-5/#attr-substitution"
     },
     "snapshot": {
-      "number": "7.4.2",
+      "number": "7.7.1",
       "spec": "CSS Values 5",
-      "text": "attr() Substitution",
+      "text": "Attribute Value Substitution: the attr() notation",
       "url": "https://www.w3.org/TR/css-values-5/#attr-substitution"
-    }
-  },
-  "#attr-types": {
-    "snapshot": {
-      "number": "7.4.1",
-      "spec": "CSS Values 5",
-      "text": "attr() Types",
-      "url": "https://www.w3.org/TR/css-values-5/#attr-types"
     }
   },
   "#boolean": {
     "current": {
       "number": "3.2",
       "spec": "CSS Values 5",
-      "text": "Boolean Expression Multiplier <boolean[]>",
+      "text": "Boolean Expression Multiplier <boolean-expr[]>",
       "url": "https://drafts.csswg.org/css-values-5/#boolean"
+    },
+    "snapshot": {
+      "number": "3.2",
+      "spec": "CSS Values 5",
+      "text": "Boolean Expression Multiplier <boolean-expr[]>",
+      "url": "https://www.w3.org/TR/css-values-5/#boolean"
     }
   },
   "#boolean-logic": {
@@ -113,13 +117,27 @@
       "spec": "CSS Values 5",
       "text": "Boolean Logic",
       "url": "https://drafts.csswg.org/css-values-5/#boolean-logic"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "CSS Values 5",
+      "text": "Boolean Logic",
+      "url": "https://www.w3.org/TR/css-values-5/#boolean-logic"
+    }
+  },
+  "#calc-interpolate": {
+    "current": {
+      "number": "7.4",
+      "spec": "CSS Values 5",
+      "text": "Interpolated Numeric and Dimensional Values: the calc-interpolate() notation",
+      "url": "https://drafts.csswg.org/css-values-5/#calc-interpolate"
     }
   },
   "#calc-mix": {
     "current": {
-      "number": "6.2",
+      "number": "6.3",
       "spec": "CSS Values 5",
-      "text": "Interpolated Numeric and Dimensional Values: the calc-mix() notation",
+      "text": "Weighted Average of Numeric and Dimensional Values: the calc-mix() notation",
       "url": "https://drafts.csswg.org/css-values-5/#calc-mix"
     },
     "snapshot": {
@@ -133,7 +151,7 @@
     "current": {
       "number": "",
       "spec": "CSS Values 5",
-      "text": "10. Calculating With Intrinsic Sizes: the calc-size() function",
+      "text": "11. Calculating With Intrinsic Sizes: the calc-size() function",
       "url": "https://drafts.csswg.org/css-values-5/#calc-size"
     },
     "snapshot": {
@@ -157,13 +175,23 @@
       "url": "https://www.w3.org/TR/css-values-5/#changes"
     }
   },
-  "#color-mix": {
+  "#changes-recent": {
     "current": {
-      "number": "6.3",
+      "number": "",
       "spec": "CSS Values 5",
-      "text": "Interpolated Color Values: the color-mix() notation",
-      "url": "https://drafts.csswg.org/css-values-5/#color-mix"
-    },
+      "text": "Recent Changes",
+      "url": "https://drafts.csswg.org/css-values-5/#changes-recent"
+    }
+  },
+  "#color-interpolate": {
+    "current": {
+      "number": "7.5",
+      "spec": "CSS Values 5",
+      "text": "Interpolated Color Values: the color-interpolate() notation",
+      "url": "https://drafts.csswg.org/css-values-5/#color-interpolate"
+    }
+  },
+  "#color-mix": {
     "snapshot": {
       "number": "6.3",
       "spec": "CSS Values 5",
@@ -195,7 +223,7 @@
     "snapshot": {
       "number": "3.1.1",
       "spec": "CSS Values 5",
-      "text": "Commas and Semicolons in Functions",
+      "text": "Commas in Function Arguments",
       "url": "https://www.w3.org/TR/css-values-5/#component-function-commas"
     }
   },
@@ -214,12 +242,6 @@
     }
   },
   "#container-progress-func": {
-    "current": {
-      "number": "5.3",
-      "spec": "CSS Values 5",
-      "text": "Container Query Progress Values: the container-progress() notation",
-      "url": "https://drafts.csswg.org/css-values-5/#container-progress-func"
-    },
     "snapshot": {
       "number": "5.3",
       "spec": "CSS Values 5",
@@ -227,13 +249,21 @@
       "url": "https://www.w3.org/TR/css-values-5/#container-progress-func"
     }
   },
-  "#cross-fade": {
+  "#contents": {
     "current": {
-      "number": "6.4",
+      "number": "",
       "spec": "CSS Values 5",
-      "text": "Interpolated Image Values: the cross-fade() notation",
-      "url": "https://drafts.csswg.org/css-values-5/#cross-fade"
+      "text": "Table of Contents",
+      "url": "https://drafts.csswg.org/css-values-5/#toc"
     },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/css-values-5/#toc"
+    }
+  },
+  "#cross-fade": {
     "snapshot": {
       "number": "6.4",
       "spec": "CSS Values 5",
@@ -247,11 +277,25 @@
       "spec": "CSS Values 5",
       "text": "Specifying CSS Syntax in CSS: the <syntax> type",
       "url": "https://drafts.csswg.org/css-values-5/#css-syntax"
+    },
+    "snapshot": {
+      "number": "3.3",
+      "spec": "CSS Values 5",
+      "text": "Specifying CSS Syntax in CSS: the <syntax> type",
+      "url": "https://www.w3.org/TR/css-values-5/#css-syntax"
+    }
+  },
+  "#early-resolution": {
+    "current": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Argument Grammars and Spread Syntax",
+      "url": "https://drafts.csswg.org/css-values-5/#early-resolution"
     }
   },
   "#first-valid": {
     "current": {
-      "number": "7.2",
+      "number": "8.2",
       "spec": "CSS Values 5",
       "text": "Selecting the First Supported Value: the first-valid() notation",
       "url": "https://drafts.csswg.org/css-values-5/#first-valid"
@@ -263,12 +307,26 @@
       "url": "https://www.w3.org/TR/css-values-5/#first-valid"
     }
   },
+  "#ident": {
+    "current": {
+      "number": "8.8",
+      "spec": "CSS Values 5",
+      "text": "Constructing <custom-ident> values: the ident() function",
+      "url": "https://drafts.csswg.org/css-values-5/#ident"
+    }
+  },
   "#if-notation": {
     "current": {
-      "number": "7.3",
+      "number": "8.3",
       "spec": "CSS Values 5",
       "text": "Conditional Value Selection: the if() notation",
       "url": "https://drafts.csswg.org/css-values-5/#if-notation"
+    },
+    "snapshot": {
+      "number": "7.3",
+      "spec": "CSS Values 5",
+      "text": "Conditional Value Selection: the if() notation",
+      "url": "https://www.w3.org/TR/css-values-5/#if-notation"
     }
   },
   "#index": {
@@ -317,7 +375,7 @@
     "current": {
       "number": "",
       "spec": "CSS Values 5",
-      "text": "Informative References",
+      "text": "Non-Normative References",
       "url": "https://drafts.csswg.org/css-values-5/#informative"
     },
     "snapshot": {
@@ -329,15 +387,21 @@
   },
   "#inherit-notation": {
     "current": {
-      "number": "7.6",
+      "number": "8.6",
       "spec": "CSS Values 5",
       "text": "Inherited Value References: the inherit() notation",
       "url": "https://drafts.csswg.org/css-values-5/#inherit-notation"
+    },
+    "snapshot": {
+      "number": "7.6",
+      "spec": "CSS Values 5",
+      "text": "Inherited Value References: the inherit() notation",
+      "url": "https://www.w3.org/TR/css-values-5/#inherit-notation"
     }
   },
   "#interp-calc-size": {
     "current": {
-      "number": "10.3",
+      "number": "11.3",
       "spec": "CSS Values 5",
       "text": "Interpolating calc-size()",
       "url": "https://drafts.csswg.org/css-values-5/#interp-calc-size"
@@ -351,7 +415,7 @@
   },
   "#interpolate-size": {
     "current": {
-      "number": "10.4",
+      "number": "11.4",
       "spec": "CSS Values 5",
       "text": "Interpolating sizing keywords: the interpolate-size property",
       "url": "https://drafts.csswg.org/css-values-5/#interpolate-size"
@@ -361,6 +425,94 @@
       "spec": "CSS Values 5",
       "text": "Interpolating sizing keywords: the interpolate-size property",
       "url": "https://www.w3.org/TR/css-values-5/#interpolate-size"
+    }
+  },
+  "#interpolation-dimension-normaolization": {
+    "current": {
+      "number": "7.2.3",
+      "spec": "CSS Values 5",
+      "text": "Normalizing Absolute Positions and Progress",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-dimension-normaolization"
+    }
+  },
+  "#interpolation-map-arguments": {
+    "current": {
+      "number": "7.1.2",
+      "spec": "CSS Values 5",
+      "text": "Defining the Interpolation Map",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-map-arguments"
+    }
+  },
+  "#interpolation-normalization": {
+    "current": {
+      "number": "7.2",
+      "spec": "CSS Values 5",
+      "text": "Validation and Normalization",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-normalization"
+    }
+  },
+  "#interpolation-notation": {
+    "current": {
+      "number": "7",
+      "spec": "CSS Values 5",
+      "text": "Interpolation Mapping Notations: the *-interpolate() family",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-notation"
+    }
+  },
+  "#interpolation-progress-arguments": {
+    "current": {
+      "number": "7.1.1",
+      "spec": "CSS Values 5",
+      "text": "Specifying the Interpolation Progress",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-progress-arguments"
+    }
+  },
+  "#interpolation-progress-easing": {
+    "current": {
+      "number": "7.1.1.1",
+      "spec": "CSS Values 5",
+      "text": "Easing Interpolation Progress: the by <easing-function> argument",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-progress-easing"
+    }
+  },
+  "#interpolation-range-calculation": {
+    "current": {
+      "number": "7.2.2",
+      "spec": "CSS Values 5",
+      "text": "Calculating the Absolute Interpolation Range",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-range-calculation"
+    }
+  },
+  "#interpolation-resolution": {
+    "current": {
+      "number": "7.3",
+      "spec": "CSS Values 5",
+      "text": "Interpolation Resolution",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-resolution"
+    }
+  },
+  "#interpolation-stop-fixup": {
+    "current": {
+      "number": "7.2.4",
+      "spec": "CSS Values 5",
+      "text": "Interpolation Stop Fixup",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-stop-fixup"
+    }
+  },
+  "#interpolation-syntax": {
+    "current": {
+      "number": "7.1",
+      "spec": "CSS Values 5",
+      "text": "Global Syntax of the *-interpolate() family",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-syntax"
+    }
+  },
+  "#interpolation-validity": {
+    "current": {
+      "number": "7.2.1",
+      "spec": "CSS Values 5",
+      "text": "Type Checking",
+      "url": "https://drafts.csswg.org/css-values-5/#interpolation-validity"
     }
   },
   "#intro": {
@@ -383,6 +535,12 @@
       "spec": "CSS Values 5",
       "text": "Invalid Substitution",
       "url": "https://drafts.csswg.org/css-values-5/#invalid-substitution"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Invalid Substitution",
+      "url": "https://www.w3.org/TR/css-values-5/#invalid-substitution"
     }
   },
   "#issues-index": {
@@ -419,15 +577,15 @@
       "spec": "CSS Values 5",
       "text": "Safely Handling Overly-Long Substitution",
       "url": "https://drafts.csswg.org/css-values-5/#long-substitution"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Safely Handling Overly-Long Substitution",
+      "url": "https://www.w3.org/TR/css-values-5/#long-substitution"
     }
   },
   "#media-progress-func": {
-    "current": {
-      "number": "5.2",
-      "spec": "CSS Values 5",
-      "text": "Media Query Progress Values: the media-progress() notation",
-      "url": "https://drafts.csswg.org/css-values-5/#media-progress-func"
-    },
     "snapshot": {
       "number": "5.2",
       "spec": "CSS Values 5",
@@ -437,9 +595,9 @@
   },
   "#mix": {
     "current": {
-      "number": "6.6",
+      "number": "7.7",
       "spec": "CSS Values 5",
-      "text": "Interpolated Property Values: the mix() notation",
+      "text": "Interpolated Property Values: the interpolate() notation",
       "url": "https://drafts.csswg.org/css-values-5/#mix"
     },
     "snapshot": {
@@ -449,11 +607,27 @@
       "url": "https://www.w3.org/TR/css-values-5/#mix"
     }
   },
+  "#mix-percentage-normalization": {
+    "current": {
+      "number": "6.1",
+      "spec": "CSS Values 5",
+      "text": "Normalizing Mix Percentages",
+      "url": "https://drafts.csswg.org/css-values-5/#mix-percentage-normalization"
+    }
+  },
+  "#mix-resolution": {
+    "current": {
+      "number": "6.2",
+      "spec": "CSS Values 5",
+      "text": "Mix Resolution",
+      "url": "https://drafts.csswg.org/css-values-5/#mix-resolution"
+    }
+  },
   "#mixing": {
     "current": {
       "number": "6",
       "spec": "CSS Values 5",
-      "text": "Mixing and Interpolation Notations: the *-mix() family",
+      "text": "Weighted Average Notations: the *-mix() family",
       "url": "https://drafts.csswg.org/css-values-5/#mixing"
     },
     "snapshot": {
@@ -483,6 +657,12 @@
       "spec": "CSS Values 5",
       "text": "Parsing as <syntax>",
       "url": "https://drafts.csswg.org/css-values-5/#parse-syntax"
+    },
+    "snapshot": {
+      "number": "3.3.1",
+      "spec": "CSS Values 5",
+      "text": "Parsing as <syntax>",
+      "url": "https://www.w3.org/TR/css-values-5/#parse-syntax"
     }
   },
   "#placement": {
@@ -559,7 +739,7 @@
     "current": {
       "number": "5",
       "spec": "CSS Values 5",
-      "text": "Interpolation Progress Functional Notations",
+      "text": "Interpolation Progress Calculations: the progress() notation",
       "url": "https://drafts.csswg.org/css-values-5/#progress"
     },
     "snapshot": {
@@ -570,12 +750,6 @@
     }
   },
   "#progress-func": {
-    "current": {
-      "number": "5.1",
-      "spec": "CSS Values 5",
-      "text": "Calculated Progress Values: the progress() notation",
-      "url": "https://drafts.csswg.org/css-values-5/#progress-func"
-    },
     "snapshot": {
       "number": "5.1",
       "spec": "CSS Values 5",
@@ -584,12 +758,6 @@
     }
   },
   "#progress-type": {
-    "current": {
-      "number": "6.1",
-      "spec": "CSS Values 5",
-      "text": "Representing Interpolation Progress: the <progress> type",
-      "url": "https://drafts.csswg.org/css-values-5/#progress-type"
-    },
     "snapshot": {
       "number": "6.1",
       "spec": "CSS Values 5",
@@ -613,7 +781,7 @@
   },
   "#random": {
     "current": {
-      "number": "8.1",
+      "number": "9.1",
       "spec": "CSS Values 5",
       "text": "Generating a Random Numeric Value: the random() function",
       "url": "https://drafts.csswg.org/css-values-5/#random"
@@ -627,9 +795,9 @@
   },
   "#random-caching": {
     "current": {
-      "number": "8.3",
+      "number": "9.4",
       "spec": "CSS Values 5",
-      "text": "Generating/Caching Random Values: the <random-caching-options> value",
+      "text": "Sharing (Or Not) Random Values: the <random-key> value",
       "url": "https://drafts.csswg.org/css-values-5/#random-caching"
     },
     "snapshot": {
@@ -639,9 +807,17 @@
       "url": "https://www.w3.org/TR/css-values-5/#random-caching"
     }
   },
+  "#random-evaluation": {
+    "current": {
+      "number": "9.3",
+      "spec": "CSS Values 5",
+      "text": "Evaluating Random Values",
+      "url": "https://drafts.csswg.org/css-values-5/#random-evaluation"
+    }
+  },
   "#random-infinities": {
     "current": {
-      "number": "8.1.1",
+      "number": "9.1.1",
       "spec": "CSS Values 5",
       "text": "Argument Ranges",
       "url": "https://drafts.csswg.org/css-values-5/#random-infinities"
@@ -655,7 +831,7 @@
   },
   "#random-item": {
     "current": {
-      "number": "8.2",
+      "number": "9.2",
       "spec": "CSS Values 5",
       "text": "Picking a Random Item From a List: the random-item() function",
       "url": "https://drafts.csswg.org/css-values-5/#random-item"
@@ -667,9 +843,17 @@
       "url": "https://www.w3.org/TR/css-values-5/#random-item"
     }
   },
+  "#random-simplify": {
+    "current": {
+      "number": "9.4.1",
+      "spec": "CSS Values 5",
+      "text": "Simplification of <random-key>",
+      "url": "https://drafts.csswg.org/css-values-5/#random-simplify"
+    }
+  },
   "#randomness": {
     "current": {
-      "number": "8",
+      "number": "9",
       "spec": "CSS Values 5",
       "text": "Generating Random Values",
       "url": "https://drafts.csswg.org/css-values-5/#randomness"
@@ -709,9 +893,17 @@
       "url": "https://www.w3.org/TR/css-values-5/#request-url-modifiers"
     }
   },
+  "#resolve-property": {
+    "current": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Resolving in Properties",
+      "url": "https://drafts.csswg.org/css-values-5/#resolve-property"
+    }
+  },
   "#resolving-calc-size": {
     "current": {
-      "number": "10.2",
+      "number": "11.2",
       "spec": "CSS Values 5",
       "text": "Resolving calc-size()",
       "url": "https://drafts.csswg.org/css-values-5/#resolving-calc-size"
@@ -739,7 +931,7 @@
   },
   "#simplifying-calc-size": {
     "current": {
-      "number": "10.1",
+      "number": "11.1",
       "spec": "CSS Values 5",
       "text": "Simplifying calc-size()",
       "url": "https://drafts.csswg.org/css-values-5/#simplifying-calc-size"
@@ -765,12 +957,26 @@
       "url": "https://www.w3.org/TR/css-values-5/#sotd"
     }
   },
+  "#substitution": {
+    "current": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Substitution",
+      "url": "https://drafts.csswg.org/css-values-5/#substitution"
+    }
+  },
   "#substitution-in-shorthands": {
     "current": {
       "number": "",
       "spec": "CSS Values 5",
       "text": "Substitution in Shorthand Properties",
       "url": "https://drafts.csswg.org/css-values-5/#substitution-in-shorthands"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "CSS Values 5",
+      "text": "Substitution in Shorthand Properties",
+      "url": "https://www.w3.org/TR/css-values-5/#substitution-in-shorthands"
     }
   },
   "#textual-values": {
@@ -817,23 +1023,31 @@
   },
   "#toggle-notation": {
     "current": {
-      "number": "7.4",
+      "number": "8.4",
       "spec": "CSS Values 5",
       "text": "Toggling Between Values: the toggle() notation",
       "url": "https://drafts.csswg.org/css-values-5/#toggle-notation"
     },
     "snapshot": {
-      "number": "7.3",
+      "number": "7.4",
       "spec": "CSS Values 5",
-      "text": "Toggling Between Values: toggle()",
+      "text": "Toggling Between Values: the toggle() notation",
       "url": "https://www.w3.org/TR/css-values-5/#toggle-notation"
+    }
+  },
+  "#transform-interpolate": {
+    "current": {
+      "number": "7.6",
+      "spec": "CSS Values 5",
+      "text": "Interpolated Transform Values: the transform-interpolate() notation",
+      "url": "https://drafts.csswg.org/css-values-5/#transform-interpolate"
     }
   },
   "#transform-mix": {
     "current": {
-      "number": "6.5",
+      "number": "6.4",
       "spec": "CSS Values 5",
-      "text": "Interpolated Transform Values: the transform-mix() notation",
+      "text": "Weighted Average of Transform Values: the transform-mix() notation",
       "url": "https://drafts.csswg.org/css-values-5/#transform-mix"
     },
     "snapshot": {
@@ -845,9 +1059,9 @@
   },
   "#tree-counting": {
     "current": {
-      "number": "9",
+      "number": "",
       "spec": "CSS Values 5",
-      "text": "Tree Counting Functions: the sibling-count() and sibling-index() notations",
+      "text": "10. Tree Counting Functions: the sibling-count() and sibling-index() notations",
       "url": "https://drafts.csswg.org/css-values-5/#tree-counting"
     },
     "snapshot": {
@@ -887,7 +1101,7 @@
   },
   "#value-insert": {
     "current": {
-      "number": "7",
+      "number": "8",
       "spec": "CSS Values 5",
       "text": "Miscellaneous Value Substituting Functions",
       "url": "https://drafts.csswg.org/css-values-5/#value-insert"
@@ -901,10 +1115,16 @@
   },
   "#var-notation": {
     "current": {
-      "number": "7.5",
+      "number": "8.5",
       "spec": "CSS Values 5",
       "text": "Custom Property References: the var() notation",
       "url": "https://drafts.csswg.org/css-values-5/#var-notation"
+    },
+    "snapshot": {
+      "number": "7.5",
+      "spec": "CSS Values 5",
+      "text": "Custom Property References: the var() notation",
+      "url": "https://www.w3.org/TR/css-values-5/#var-notation"
     }
   },
   "#w3c-conform-future-proofing": {
@@ -993,7 +1213,7 @@
   },
   "#whole-value": {
     "current": {
-      "number": "7.1",
+      "number": "8.1",
       "spec": "CSS Values 5",
       "text": "Representing An Entire Property Value: the <whole-value> type",
       "url": "https://drafts.csswg.org/css-values-5/#whole-value"

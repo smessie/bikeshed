@@ -1,14 +1,74 @@
-"belowThreshold"
-"belowThreshold"
-enum-value
-turtledove
-turtledove
+"beforeRequestSent"
+"beforeRequestSent"
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#dom-kanonstatus-belowthreshold
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkinterceptphase-beforerequestsent
+
 1
+network.InterceptPhase
+-
+"beforeRequestSent"
+"beforeRequestSent"
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-KAnonStatus
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkinterceptphase-beforerequestsent
+
+1
+network.InterceptPhase
+-
+"beforeUnload"
+"beforeUnload"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-beforeunload
+
+1
+session.UserPromptHandler
+-
+"beforeUnload"
+"beforeUnload"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-beforeunload
+
+1
+session.UserPromptHandler
+-
+"beforeunload"
+"beforeunload"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-beforeunload
+
+1
+browsingContext.UserPromptType
+-
+"beforeunload"
+"beforeunload"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-beforeunload
+
+1
+browsingContext.UserPromptType
 -
 ::before
 ::before
@@ -57,9 +117,9 @@ https://www.w3.org/TR/selectors-3/#sel-before
 :before
 :before
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-before
 1
@@ -68,12 +128,12 @@ https://drafts.csswg.org/css2/#selectordef-before
 :before
 :before
 dfn
-css2
-css
+owl-time
+owl-time
 1
 current
-https://www.w3.org/TR/CSS21/generate.html#x2
-1
+https://w3c.github.io/sdw/time/#dfn-before
+
 1
 -
 :before
@@ -81,9 +141,9 @@ https://www.w3.org/TR/CSS21/generate.html#x2
 dfn
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#x2
+https://www.w3.org/TR/CSS2/generate.html#x2
 1
 1
 -
@@ -92,20 +152,9 @@ https://www.w3.org/TR/CSS21/generate.html#x2
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x57
-1
-1
--
-:before
-:before
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x57
+https://www.w3.org/TR/CSS2/selector.html#x57
 1
 1
 -
@@ -210,6 +259,28 @@ https://html.spec.whatwg.org/multipage/nav-history-apis.html#beforeunloadevent
 1
 1
 -
+begin
+begin
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-begin
+
+1
+-
+begin
+begin
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-begin
+
+1
+-
 behavioral requirements
 behavioral requirements
 dfn
@@ -246,11 +317,22 @@ https://html.spec.whatwg.org/multipage/parsing.html#between-doctype-public-and-s
 be
 be
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#be
+
+1
+-
+be
+be
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#be
 
 1
 -
@@ -276,17 +358,16 @@ https://www.w3.org/TR/css-nav-1/#directionally-scroll-an-element
 
 1
 -
-beacon urls
-beacon urls
+bearer credential
+bearer credential
 dfn
-turtledove
-turtledove
+vc-data-model-2.1
+vc-data-model
 1
 current
-https://wicg.github.io/turtledove/#server-auction-reporting-info-beacon-urls
+https://w3c.github.io/vc-data-model/#dfn-bearer-credentials
 
-1
-server auction reporting info
+
 -
 bearer credential
 bearer credential
@@ -295,7 +376,7 @@ vc-data-model-2.0
 vc-data-model
 1
 current
-https://w3c.github.io/vc-data-model/#dfn-bearer-credentials
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-bearer-credentials
 
 
 -
@@ -310,10 +391,21 @@ https://www.w3.org/TR/vc-data-model-2.0/#dfn-bearer-credentials
 
 
 -
+bearer credential
+bearer credential
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-bearer-credentials
+
+
+-
 bearer credentials
 bearer credentials
 dfn
-vc-data-model-2.0
+vc-data-model-2.1
 vc-data-model
 1
 current
@@ -327,8 +419,30 @@ dfn
 vc-data-model-2.0
 vc-data-model
 1
+current
+https://www.w3.org/TR/vc-data-model-2.0/#dfn-bearer-credentials
+
+
+-
+bearer credentials
+bearer credentials
+dfn
+vc-data-model-2.0
+vc-data-model
+1
 snapshot
 https://www.w3.org/TR/vc-data-model-2.0/#dfn-bearer-credentials
+
+
+-
+bearer credentials
+bearer credentials
+dfn
+vc-data-model-2.1
+vc-data-model
+1
+snapshot
+https://www.w3.org/TR/vc-data-model-2.1/#dfn-bearer-credentials
 
 
 -
@@ -483,20 +597,9 @@ before
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#x2
-1
-1
--
-before
-before
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#x2
+https://www.w3.org/TR/CSS2/generate.html#x2
 1
 1
 -
@@ -511,6 +614,18 @@ https://www.w3.org/TR/css-content-3/#valdef-content-before
 1
 1
 content()
+-
+before
+before
+value
+css-overflow-5
+css-overflow
+5
+snapshot
+https://www.w3.org/TR/css-overflow-5/#valdef-scroll-marker-group-before
+1
+1
+scroll-marker-group
 -
 before flag
 before flag
@@ -611,6 +726,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#before-request-sent-map
+
+1
+-
+before request sent map
+before request sent map
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#before-request-sent-map
 
 1
 -
@@ -730,6 +856,78 @@ https://www.w3.org/TR/css-transitions-1/#before-change-style
 1
 1
 -
+beforeRequestSent
+beforeRequestSent
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-networkinterceptphase-beforerequestsent
+
+1
+network.InterceptPhase
+-
+beforeRequestSent
+beforeRequestSent
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-networkinterceptphase-beforerequestsent
+
+1
+network.InterceptPhase
+-
+beforeUnload
+beforeUnload
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-beforeunload
+
+1
+session.UserPromptHandler
+-
+beforeUnload
+beforeUnload
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#dom-unhandled-prompt-behavior-beforeunload-beforeunload
+1
+1
+unhandled-prompt-behavior-beforeUnload
+-
+beforeUnload
+beforeUnload
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-beforeunload
+
+1
+session.UserPromptHandler
+-
+beforeUnload
+beforeUnload
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-unhandled-prompt-behavior-beforeunload-beforeunload
+1
+1
+unhandled-prompt-behavior-beforeUnload
+-
 beforeinput
 beforeinput
 dfn
@@ -833,6 +1031,30 @@ https://html.spec.whatwg.org/multipage/indices.html#event-beforeunload
 1
 Window
 -
+beforeunload
+beforeunload
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-beforeunload
+
+1
+browsingContext.UserPromptType
+-
+beforeunload
+beforeunload
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-beforeunload
+
+1
+browsingContext.UserPromptType
+-
 beforexrselect
 beforexrselect
 dfn
@@ -867,21 +1089,10 @@ https://svgwg.org/specs/animations/#BeginAttribute
 1
 animate
 -
-begin
-begin
-dfn
-svg-animations
-svg-animations
-1
-current
-https://svgwg.org/specs/animations/#DiscardElementBeginAttribute
-
-1
--
 begin offline rendering
 begin offline rendering
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -892,11 +1103,33 @@ https://webaudio.github.io/web-audio-api/#begin-offline-rendering
 begin offline rendering
 begin offline rendering
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#begin-offline-rendering
+
+1
+-
+begin offline rendering
+begin offline rendering
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#begin-offline-rendering
+https://www.w3.org/TR/webaudio-1.0/#begin-offline-rendering
+
+1
+-
+begin offline rendering
+begin offline rendering
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#begin-offline-rendering
 
 1
 -
@@ -1035,11 +1268,23 @@ GPUCommandEncoder
 beginusingpinuvauthtoken
 beginUsingPinUvAuthToken
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#pinuvauthprotocol-beginusingpinuvauthtoken
+
+1
+pinUvAuthProtocol
+-
+beginusingpinuvauthtoken
+beginUsingPinUvAuthToken
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#pinuvauthprotocol-beginusingpinuvauthtoken
 
 1
 pinUvAuthProtocol
@@ -1218,6 +1463,30 @@ ScrollOptions
 -
 behavior
 behavior
+attribute
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtrigger-behavior
+1
+1
+AnimationTrigger
+-
+behavior
+behavior
+dict-member
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtriggeroptions-behavior
+1
+1
+AnimationTriggerOptions
+-
+behavior
+behavior
 dfn
 wgsl
 wgsl
@@ -1254,6 +1523,18 @@ HTMLMarqueeElement
 behavior
 behavior
 dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-behavior
+
+1
+migrate_from_item
+-
+behavior
+behavior
+dfn
 wgsl
 wgsl
 1
@@ -1273,6 +1554,30 @@ https://www.w3.org/TR/cssom-view-1/#dom-scrolloptions-behavior
 1
 1
 ScrollOptions
+-
+behavior
+behavior
+attribute
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtrigger-behavior
+1
+1
+AnimationTrigger
+-
+behavior
+behavior
+dict-member
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtriggeroptions-behavior
+1
+1
+AnimationTriggerOptions
 -
 beige
 beige
@@ -1593,6 +1898,32 @@ https://www.w3.org/TR/webgpu/#limit-better
 1
 limit
 -
+between
+between
+value
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-between
+1
+1
+column-rule-visibility-items
+row-rule-visibility-items
+-
+between
+between
+value
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#valdef-column-rule-visibility-items-between
+1
+1
+column-rule-visibility-items
+row-rule-visibility-items
+-
 between zero and b
 between zero and B
 dfn
@@ -1615,6 +1946,30 @@ https://www.w3.org/TR/css-values-4/#between-zero-and-b
 
 1
 -
+between-loads shared worker timeout
+between-loads shared worker timeout
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/workers.html#between-loads-shared-worker-timeout
+
+1
+-
+bevel
+bevel
+value
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-bevel
+1
+1
+<corner-shape-value>
+corner-shape
+-
 bevel
 bevel
 value
@@ -1622,10 +1977,23 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linejoin-bevel
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linejoin-bevel
 1
 1
 stroke-linejoin
+-
+bevel
+bevel
+value
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#valdef-corner-shape-value-bevel
+1
+1
+<corner-shape-value>
+corner-shape
 -
 bevel
 bevel

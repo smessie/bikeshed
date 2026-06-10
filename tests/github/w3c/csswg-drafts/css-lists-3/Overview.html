@@ -1490,7 +1490,7 @@ Properties Applying to <a class="css" data-link-type="maybe" href="https://draft
 		
     <li>the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-content-3/#propdef-content" id="ref-for-propdef-content①">content</a> property (see <a href="#content-property">§ 3.2 Generating Marker Contents</a>, below)
 		
-    <li>all animation and transition properties (see <a data-link-type="biblio" href="#biblio-css-animations-1" title="CSS Animations Level 1">[CSS-ANIMATIONS-1]</a> and <a data-link-type="biblio" href="#biblio-css-transitions-1" title="CSS Transitions">[CSS-TRANSITIONS-1]</a>)
+    <li>all animation and transition properties (see <a data-link-type="biblio" href="#biblio-css-animations-1" title="CSS Animations Level 1">[CSS-ANIMATIONS-1]</a> and <a data-link-type="biblio" href="#biblio-css-transitions-1" title="CSS Transitions Module Level 1">[CSS-TRANSITIONS-1]</a>)
 	
    </ul>
    <p>Other properties should not have an effect on the <a data-link-type="dfn" href="#marker" id="ref-for-marker⑥">marker box</a>
@@ -2350,7 +2350,8 @@ Creating and Inheriting Counters</span><a class="self-link" href="#creating-coun
 Local references:
 spec:css-lists-3; type:dfn; for:CSS counter; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name">name</u>),
 	an element (representing the counter’s <a data-link-type="dfn" href="#css-counter-creator" id="ref-for-css-counter-creator">creator</a>),
 	and an integer (representing the counter’s <a data-link-type="dfn" href="#css-counter-value" id="ref-for-css-counter-value">value</a>).
@@ -2391,7 +2392,8 @@ if <var>element counters</var> does not already contain a counter with the same 
 Local references:
 spec:css-lists-3; type:dfn; for:CSS counter; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name">name</u>,
 append a copy of <var>counter</var> to <var>element counters</var>.</p>
      <li data-md>
@@ -2403,7 +2405,8 @@ with the same <u class="link-error" data-lt="name" title="LINK ERROR: Ambiguous 
 Local references:
 spec:css-lists-3; type:dfn; for:CSS counter; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name">name</u> and <a data-link-type="dfn" href="#css-counter-creator" id="ref-for-css-counter-creator①">creator</a>,
 then set the <a data-link-type="dfn" href="#css-counter-value" id="ref-for-css-counter-value①">value</a> of that counter
 to <var>source counter</var>’s <span id="ref-for-css-counter-value②">value</span>.</p>
@@ -2508,7 +2511,7 @@ h2.secret <c- p>{</c-> <c- k>display</c-><c- p>:</c-> none<c- p>;</c-> <c- p>}</
 	and so are not excepted here.</p>
    <p>Whether a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#replaced-element" id="ref-for-replaced-element①">replaced element’s</a> descendants
 	(such as HTML <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element" id="ref-for-the-option-element">option</a></code>,
-	or SVG <code><a data-link-type="element" href="https://svgwg.org/svg2-draft/shapes.html#elementdef-rect" id="ref-for-elementdef-rect">rect</a></code>)
+	or SVG <code><a data-link-type="element" href="https://w3c.github.io/svgwg/svg2-draft/shapes.html#elementdef-rect" id="ref-for-elementdef-rect">rect</a></code>)
 	can set, reset, or increment a counter
 	is undefined.</p>
    <p class="note" role="note"><span class="marker">Note:</span> The behavior on <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#replaced-element" id="ref-for-replaced-element②">replaced element</a> descendants is currently undefined
@@ -3297,13 +3300,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <ul>
      <li><span class="dfn-paneled" id="24408a11">compound selector</span>
      <li><span class="dfn-paneled" id="82805a4e">originating element</span>
-     <li><span class="dfn-paneled" id="9bfc28f6">pseudo-element</span>
+     <li><span class="dfn-paneled" id="42b00c6e">pseudo-elements</span>
      <li><span class="dfn-paneled" id="33cbcfca">selector</span>
     </ul>
    <li>
     <a data-link-type="biblio">[SVG2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="abbd4058">rect</span>
+     <li><span class="dfn-paneled" id="6a24040c">rect</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -3314,21 +3317,21 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-6">[CSS-CASCADE-6]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-6/"><cite>CSS Cascading and Inheritance Level 6</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-6/">https://drafts.csswg.org/css-cascade-6/</a>
    <dt id="biblio-css-content-3">[CSS-CONTENT-3]
-   <dd>Elika Etemad; Dave Cramer. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
+   <dd>Elika Etemad; Mike Bremford. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
    <dt id="biblio-css-counter-styles-3">[CSS-COUNTER-STYLES-3]
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-counter-styles/"><cite>CSS Counter Styles Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-counter-styles/">https://drafts.csswg.org/css-counter-styles/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
    <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-3/"><cite>CSS Images Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-3/">https://drafts.csswg.org/css-images-3/</a>
    <dt id="biblio-css-images-4">[CSS-IMAGES-4]
-   <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-4/"><cite>CSS Images Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-4/">https://drafts.csswg.org/css-images-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-images-4/"><cite>CSS Images Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-4/">https://drafts.csswg.org/css-images-4/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
    <dd>Elika Etemad; Florian Rivoal. <a href="https://drafts.csswg.org/css-overflow-3/"><cite>CSS Overflow Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-3/">https://drafts.csswg.org/css-overflow-3/</a>
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
    <dd>Tab Atkins Jr.; Simon Sapin. <a href="https://drafts.csswg.org/css-syntax/"><cite>CSS Syntax Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-syntax/">https://drafts.csswg.org/css-syntax/</a>
    <dt id="biblio-css-text-4">[CSS-TEXT-4]
@@ -3356,7 +3359,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-selectors-4">[SELECTORS-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-svg2">[SVG2]
-   <dd>Amelia Bellamy-Royds; et al. <a href="https://svgwg.org/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://svgwg.org/svg2-draft/">https://svgwg.org/svg2-draft/</a>
+   <dd>Amelia Bellamy-Royds; et al. <a href="https://w3c.github.io/svgwg/svg2-draft/"><cite>Scalable Vector Graphics (SVG) 2</cite></a>. URL: <a href="https://w3c.github.io/svgwg/svg2-draft/">https://w3c.github.io/svgwg/svg2-draft/</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -3367,7 +3370,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-color-3">[CSS-COLOR-3]
    <dd>Tantek Çelik; Chris Lilley; David Baron. <a href="https://drafts.csswg.org/css-color-3/"><cite>CSS Color Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-3/">https://drafts.csswg.org/css-color-3/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display/"><cite>CSS Display Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-display/">https://drafts.csswg.org/css-display/</a>
    <dt id="biblio-css-fonts-3">[CSS-FONTS-3]
@@ -3377,7 +3380,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-text-3">[CSS-TEXT-3]
    <dd>Elika Etemad; Koji Ishii; Florian Rivoal. <a href="https://drafts.csswg.org/css-text-3/"><cite>CSS Text Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-text-3/">https://drafts.csswg.org/css-text-3/</a>
    <dt id="biblio-css-transitions-1">[CSS-TRANSITIONS-1]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <div class="big-element-wrapper">
@@ -3877,6 +3880,7 @@ let dfnPanelData = {
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.1. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "39e92270": {"dfnID":"39e92270","dfnText":"author origin","external":true,"refSections":[{"refs":[{"id":"ref-for-cascade-origin-author"}],"title":"3.1.1. \nProperties Applying to ::marker"}],"url":"https://drafts.csswg.org/css-cascade-5/#cascade-origin-author"},
 "3bb3a53a": {"dfnID":"3bb3a53a","dfnText":"invalid","external":true,"refSections":[{"refs":[{"id":"ref-for-css-invalid"}],"title":"4. \nAutomatic Numbering With Counters"}],"url":"https://drafts.csswg.org/css-syntax-3/#css-invalid"},
+"42b00c6e": {"dfnID":"42b00c6e","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"3.1.1. \nProperties Applying to ::marker"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "45209803": {"dfnID":"45209803","dfnText":"for each","external":true,"refSections":[{"refs":[{"id":"ref-for-map-iterate"},{"id":"ref-for-map-iterate\u2460"}],"title":"4.4.1. \nInheriting Counters"}],"url":"https://infra.spec.whatwg.org/#map-iterate"},
 "46374969": {"dfnID":"46374969","dfnText":"prefix","external":true,"refSections":[{"refs":[{"id":"ref-for-descdef-counter-style-prefix"}],"title":"3.4. \nText-based Markers: the list-style-type property"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#descdef-counter-style-prefix"},
 "466b2ed9": {"dfnID":"466b2ed9","dfnText":"inline-start","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-start"}],"title":"3.5. \nPositioning Markers: The list-style-position property"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#inline-start"},
@@ -3891,6 +3895,7 @@ let dfnPanelData = {
 "63fe4250": {"dfnID":"63fe4250","dfnText":"user-agent origin","external":true,"refSections":[{"refs":[{"id":"ref-for-cascade-origin-ua"}],"title":"3.1.1. \nProperties Applying to ::marker"}],"url":"https://drafts.csswg.org/css-cascade-5/#cascade-origin-ua"},
 "6501e5b3": {"dfnID":"6501e5b3","dfnText":"white-space","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-white-space"}],"title":"3.1.1. \nProperties Applying to ::marker"},{"refs":[{"id":"ref-for-propdef-white-space\u2460"},{"id":"ref-for-propdef-white-space\u2461"}],"title":"Changes since the 17 August 2019 WD"}],"url":"https://drafts.csswg.org/css-text-4/#propdef-white-space"},
 "65d29011": {"dfnID":"65d29011","dfnText":"text-combine-upright","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-combine-upright"}],"title":"3.1.1. \nProperties Applying to ::marker"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-text-combine-upright"},
+"6a24040c": {"dfnID":"6a24040c","dfnText":"rect","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-rect"}],"title":"4.5. \nCounters in elements that do not generate boxes"}],"url":"https://w3c.github.io/svgwg/svg2-draft/shapes.html#elementdef-rect"},
 "6b6ef55d": {"dfnID":"6b6ef55d","dfnText":"inline","external":true,"refSections":[{"refs":[{"id":"ref-for-inline"}],"title":"3.2. \nGenerating Marker Contents"}],"url":"https://drafts.csswg.org/css-display-4/#inline"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"}],"title":"3.3. \nImage Markers: the list-style-image property"},{"refs":[{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"}],"title":"3.4. \nText-based Markers: the list-style-type property"},{"refs":[{"id":"ref-for-comb-one\u2462"}],"title":"3.5. \nPositioning Markers: The list-style-position property"},{"refs":[{"id":"ref-for-comb-one\u2463"}],"title":"3.7. \nThe marker-side property"},{"refs":[{"id":"ref-for-comb-one\u2464"}],"title":"4.1. \nCreating Counters: the counter-reset property"},{"refs":[{"id":"ref-for-comb-one\u2465"},{"id":"ref-for-comb-one\u2466"}],"title":"4.2. \nManipulating Counter Values: the counter-increment and counter-set properties"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
 "70c9f859": {"dfnID":"70c9f859","dfnText":"<integer>","external":true,"refSections":[{"refs":[{"id":"ref-for-integer-value"},{"id":"ref-for-integer-value\u2460"},{"id":"ref-for-integer-value\u2461"}],"title":"4.1. \nCreating Counters: the counter-reset property"},{"refs":[{"id":"ref-for-integer-value\u2462"},{"id":"ref-for-integer-value\u2463"},{"id":"ref-for-integer-value\u2464"},{"id":"ref-for-integer-value\u2465"},{"id":"ref-for-integer-value\u2466"}],"title":"4.2. \nManipulating Counter Values: the counter-increment and counter-set properties"}],"url":"https://drafts.csswg.org/css-values-4/#integer-value"},
@@ -3908,7 +3913,6 @@ let dfnPanelData = {
 "991145b0": {"dfnID":"991145b0","dfnText":"none","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-content-none"}],"title":"3.1. \nThe ::marker Pseudo-Element"},{"refs":[{"id":"ref-for-valdef-content-none\u2460"}],"title":"4.5. \nCounters in elements that do not generate boxes"}],"url":"https://drafts.csswg.org/css-content-3/#valdef-content-none"},
 "998b9e6e": {"dfnID":"998b9e6e","dfnText":"<image>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-image"},{"id":"ref-for-typedef-image\u2460"},{"id":"ref-for-typedef-image\u2461"},{"id":"ref-for-typedef-image\u2462"},{"id":"ref-for-typedef-image\u2463"}],"title":"3.3. \nImage Markers: the list-style-image property"}],"url":"https://drafts.csswg.org/css-images-3/#typedef-image"},
 "99c988d6": {"dfnID":"99c988d6","dfnText":"remove","external":true,"refSections":[{"refs":[{"id":"ref-for-list-remove"}],"title":"4.4.2. \nInstantiating Counters"}],"url":"https://infra.spec.whatwg.org/#list-remove"},
-"9bfc28f6": {"dfnID":"9bfc28f6","dfnText":"pseudo-element","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"3.1.1. \nProperties Applying to ::marker"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"}],"title":"3.1.1. \nProperties Applying to ::marker"},{"refs":[{"id":"ref-for-computed-value\u2460"}],"title":"4.6. \nThe Implicit list-item Counter"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "9db8f8e4": {"dfnID":"9db8f8e4","dfnText":"none","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-counter-set-none"}],"title":"4.6. \nThe Implicit list-item Counter"}],"url":"https://drafts.csswg.org/css-lists-3/#valdef-counter-set-none"},
 "9f3d4f17": {"dfnID":"9f3d4f17","dfnText":"block container","external":true,"refSections":[{"refs":[{"id":"ref-for-block-container"},{"id":"ref-for-block-container\u2460"}],"title":"3.5. \nPositioning Markers: The list-style-position property"},{"refs":[{"id":"ref-for-block-container\u2461"}],"title":"Changes since the 17 August 2019 WD"}],"url":"https://drafts.csswg.org/css-display-4/#block-container"},
@@ -3919,7 +3923,6 @@ let dfnPanelData = {
 "a8485ff4": {"dfnID":"a8485ff4","dfnText":"replaced element","external":true,"refSections":[{"refs":[{"id":"ref-for-replaced-element"}],"title":"3.2. \nGenerating Marker Contents"},{"refs":[{"id":"ref-for-replaced-element\u2460"},{"id":"ref-for-replaced-element\u2461"}],"title":"4.5. \nCounters in elements that do not generate boxes"}],"url":"https://drafts.csswg.org/css-display-4/#replaced-element"},
 "a93f3bc2": {"dfnID":"a93f3bc2","dfnText":"hidden","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-visibility-hidden"}],"title":"4.5. \nCounters in elements that do not generate boxes"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-visibility-hidden"},
 "ab039d4e": {"dfnID":"ab039d4e","dfnText":"<counter-style>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-counter-style"},{"id":"ref-for-typedef-counter-style\u2460"},{"id":"ref-for-typedef-counter-style\u2461"},{"id":"ref-for-typedef-counter-style\u2462"},{"id":"ref-for-typedef-counter-style\u2463"},{"id":"ref-for-typedef-counter-style\u2464"},{"id":"ref-for-typedef-counter-style\u2465"}],"title":"3.4. \nText-based Markers: the list-style-type property"},{"refs":[{"id":"ref-for-typedef-counter-style\u2466"}],"title":"3.6. \nStyling Markers: the list-style shorthand property"},{"refs":[{"id":"ref-for-typedef-counter-style\u2467"},{"id":"ref-for-typedef-counter-style\u2468"},{"id":"ref-for-typedef-counter-style\u2460\u24ea"},{"id":"ref-for-typedef-counter-style\u2460\u2460"},{"id":"ref-for-typedef-counter-style\u2460\u2461"},{"id":"ref-for-typedef-counter-style\u2460\u2462"}],"title":"4.7. \nOutputting Counters: the counter() and counters() functions"},{"refs":[{"id":"ref-for-typedef-counter-style\u2460\u2463"}],"title":"Changes From CSS Level 2"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#typedef-counter-style"},
-"abbd4058": {"dfnID":"abbd4058","dfnText":"rect","external":true,"refSections":[{"refs":[{"id":"ref-for-elementdef-rect"}],"title":"4.5. \nCounters in elements that do not generate boxes"}],"url":"https://svgwg.org/svg2-draft/shapes.html#elementdef-rect"},
 "ae8def21": {"dfnID":"ae8def21","dfnText":"contain","external":true,"refSections":[{"refs":[{"id":"ref-for-list-contain"}],"title":"4.4.1. \nInheriting Counters"}],"url":"https://infra.spec.whatwg.org/#list-contain"},
 "aee00462": {"dfnID":"aee00462","dfnText":"option","external":true,"refSections":[{"refs":[{"id":"ref-for-the-option-element"}],"title":"4.5. \nCounters in elements that do not generate boxes"}],"url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element"},
 "b1b99838": {"dfnID":"b1b99838","dfnText":"counter style","external":true,"refSections":[{"refs":[{"id":"ref-for-counter-style"},{"id":"ref-for-counter-style\u2460"},{"id":"ref-for-counter-style\u2461"}],"title":"4.7. \nOutputting Counters: the counter() and counters() functions"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#counter-style"},
@@ -4546,7 +4549,7 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-4/#writing-mode": {"displayText":"writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"writing mode","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#writing-mode"},
 "https://drafts.csswg.org/selectors-4/#compound": {"displayText":"compound selector","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"compound selector","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#compound"},
 "https://drafts.csswg.org/selectors-4/#originating-element": {"displayText":"originating element","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"originating element","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#originating-element"},
-"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-element","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-element","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
+"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-elements","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "https://drafts.csswg.org/selectors-4/#selector": {"displayText":"selector","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"selector","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#selector"},
 "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element": {"displayText":"option","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"option","type":"element","url":"https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element"},
 "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element": {"displayText":"li","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"li","type":"element","url":"https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element"},
@@ -4559,7 +4562,7 @@ let refsData = {
 "https://infra.spec.whatwg.org/#set-append": {"displayText":"append","export":true,"for_":["set"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"append","type":"dfn","url":"https://infra.spec.whatwg.org/#set-append"},
 "https://infra.spec.whatwg.org/#string": {"displayText":"string","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"string","type":"dfn","url":"https://infra.spec.whatwg.org/#string"},
 "https://infra.spec.whatwg.org/#tuple": {"displayText":"tuple","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"tuple","type":"dfn","url":"https://infra.spec.whatwg.org/#tuple"},
-"https://svgwg.org/svg2-draft/shapes.html#elementdef-rect": {"displayText":"rect","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"rect","type":"element","url":"https://svgwg.org/svg2-draft/shapes.html#elementdef-rect"},
+"https://w3c.github.io/svgwg/svg2-draft/shapes.html#elementdef-rect": {"displayText":"rect","export":true,"for_":[],"level":"2","normative":true,"shortname":"svg","spec":"svg2","status":"current","text":"rect","type":"element","url":"https://w3c.github.io/svgwg/svg2-draft/shapes.html#elementdef-rect"},
 };
 
 function mkRefHint(link, ref) {

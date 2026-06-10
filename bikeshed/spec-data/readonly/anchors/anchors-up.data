@@ -127,17 +127,6 @@ https://wicg.github.io/shape-detection-api/#upc-a
 
 1
 -
-upcoming non-traverse api method tracker
-Upcoming non-traverse API method tracker
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/nav-history-apis.html#upcoming-non-traverse-api-method-tracker
-
-1
--
 upcoming traverse api method trackers
 Upcoming traverse API method trackers
 dfn
@@ -244,7 +233,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#update-requests
+https://www.w3.org/policies/process/#update-requests
 1
 1
 -
@@ -349,6 +338,17 @@ https://w3c.github.io/edit-context/#dfn-update-the-editcontext
 
 1
 -
+update the editcontext
+Update the EditContext
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-update-the-editcontext
+
+1
+-
 update the text edit context
 Update the Text Edit Context
 dfn
@@ -357,6 +357,17 @@ edit-context
 1
 current
 https://w3c.github.io/edit-context/#dfn-update-the-text-edit-context
+
+1
+-
+update the text edit context
+Update the Text Edit Context
+dfn
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dfn-update-the-text-edit-context
 
 1
 -
@@ -390,6 +401,39 @@ ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-updateempty
+1
+1
+-
+updateexpression
+UpdateExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-UpdateExpression
+
+1
+-
+UpdateModifiers
+UpdateModifiers
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#sec-updatemodifiers
+1
+1
+-
+UpdateModifiers(regexpRecord, add, remove)
+UpdateModifiers(regexpRecord, add, remove)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#sec-updatemodifiers
 1
 1
 -
@@ -534,6 +578,19 @@ PaymentRequest
 up
 up
 value
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#valdef-scroll-button-direction-up
+1
+1
+<scroll-button-direction>
+::scroll-button()
+-
+up
+up
+value
 css-rhythm-1
 css-rhythm
 1
@@ -558,8 +615,8 @@ https://drafts.csswg.org/css-values-4/#valdef-rounding-strategy-up
 up
 up
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getassert-up
@@ -570,11 +627,35 @@ getAssert
 up
 up
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-up
+
+1
+makeCred
+-
+up
+up
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getassert-up
+
+1
+getAssert
+-
+up
+up
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-up
 
 1
 makeCred
@@ -593,7 +674,18 @@ https://html.spec.whatwg.org/multipage/obsolete.html#attr-marquee-direction-up
 up
 up
 dfn
-webaudio
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-up-event
+
+1
+-
+up
+up
+dfn
+webaudio-1.0
 webaudio
 1
 current
@@ -601,6 +693,31 @@ https://webaudio.github.io/web-audio-api/#audiolistener-up
 
 1
 AudioListener
+-
+up
+up
+dfn
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#audiolistener-up
+
+1
+AudioListener
+-
+up
+up
+value
+css-overflow-5
+css-overflow
+5
+snapshot
+https://www.w3.org/TR/css-overflow-5/#valdef-scroll-button-direction-up
+1
+1
+<scroll-button-direction>
+::scroll-button()
 -
 up
 up
@@ -629,31 +746,75 @@ https://www.w3.org/TR/css-values-4/#valdef-rounding-strategy-up
 up
 up
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#audiolistener-up
+https://www.w3.org/TR/webaudio-1.0/#audiolistener-up
 
 1
 AudioListener
 -
 up
 up
-enum-value
-webvtt1
-webvtt
+dfn
+webaudio-1.1
+webaudio
 1
 snapshot
-https://www.w3.org/TR/webvtt1/#dom-scrollsetting-up
+https://www.w3.org/TR/webaudio-1.1/#audiolistener-up
+
 1
+AudioListener
+-
+up event
+up event
+dfn
+wcag-3.0
+wcag
 1
-ScrollSetting
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-up-event
+
+1
+-
+up event
+up event
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-up-event
+
+1
+-
+up-event
+up-event
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-up-event
+
+
+-
+up-event
+up-event
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-up-event
+
+
 -
 up-mixing
 up-mixing
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -664,18 +825,40 @@ https://webaudio.github.io/web-audio-api/#up-mixing
 up-mixing
 up-mixing
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#up-mixing
+
+1
+-
+up-mixing
+up-mixing
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#up-mixing
+https://www.w3.org/TR/webaudio-1.0/#up-mixing
+
+1
+-
+up-mixing
+up-mixing
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#up-mixing
 
 1
 -
 upX
 upX
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -687,11 +870,35 @@ AudioListener
 upX
 upX
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiolistener-upx
+1
+1
+AudioListener
+-
+upX
+upX
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiolistener-upx
+https://www.w3.org/TR/webaudio-1.0/#dom-audiolistener-upx
+1
+1
+AudioListener
+-
+upX
+upX
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiolistener-upx
 1
 1
 AudioListener
@@ -699,7 +906,7 @@ AudioListener
 upY
 upY
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -711,11 +918,35 @@ AudioListener
 upY
 upY
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiolistener-upy
+1
+1
+AudioListener
+-
+upY
+upY
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiolistener-upy
+https://www.w3.org/TR/webaudio-1.0/#dom-audiolistener-upy
+1
+1
+AudioListener
+-
+upY
+upY
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiolistener-upy
 1
 1
 AudioListener
@@ -723,7 +954,7 @@ AudioListener
 upZ
 upZ
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -735,11 +966,35 @@ AudioListener
 upZ
 upZ
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiolistener-upz
+1
+1
+AudioListener
+-
+upZ
+upZ
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiolistener-upz
+https://www.w3.org/TR/webaudio-1.0/#dom-audiolistener-upz
+1
+1
+AudioListener
+-
+upZ
+upZ
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiolistener-upz
 1
 1
 AudioListener
@@ -829,15 +1084,15 @@ https://w3c.github.io/media-source/#dfn-update
 -
 update
 update
-event
-webaudio
-webaudio
+dfn
+prefetch
+prefetch
 1
 current
-https://webaudio.github.io/web-audio-api/#eventdef-audiorendercapacity-update
+https://wicg.github.io/nav-speculation/prefetch.html#redirect-chain-update
+
 1
-1
-AudioRenderCapacity
+redirect chain
 -
 update
 update
@@ -885,6 +1140,18 @@ https://www.w3.org/TR/mediaqueries-5/#descdef-media-update
 1
 1
 @media
+-
+update
+update
+event
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#eventdef-audiorendercapacity-update
+1
+1
+AudioRenderCapacity
 -
 update a paymentrequest's details algorithm
 update a PaymentRequest's details algorithm
@@ -941,6 +1208,17 @@ https://www.w3.org/TR/css-layout-api-1/#update-a-layout-child-style
 
 1
 -
+update a select's selectedcontent
+update a select's selectedcontent
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#update-a-select's-selectedcontent
+
+1
+-
 update a style block
 update a style block
 dfn
@@ -974,6 +1252,28 @@ https://www.w3.org/TR/mediasession/#update-action-handler-algorithm
 
 1
 -
+update all audiosession states
+update all AudioSession states
+dfn
+audio-session
+audio-session
+1
+current
+https://w3c.github.io/audio-session/#update-all-audiosession-states
+
+1
+-
+update all audiosession states
+update all AudioSession states
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#update-all-audiosession-states
+
+1
+-
 update an animation's finished state
 update an animation's finished state
 dfn
@@ -993,6 +1293,39 @@ web-animations
 1
 snapshot
 https://www.w3.org/TR/web-animations-1/#update-an-animations-finished-state
+
+1
+-
+update an element
+update an element
+dfn
+audio-session
+audio-session
+1
+current
+https://w3c.github.io/audio-session/#update-an-element
+
+1
+-
+update an element
+update an element
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#update-an-element
+
+1
+-
+update an option's nearest ancestor select
+update an option's nearest ancestor select
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#update-an-option's-nearest-ancestor-select
 
 1
 -
@@ -1040,17 +1373,6 @@ https://wicg.github.io/background-fetch/#update-background-fetch-instances
 
 1
 -
-update bid count
-update bid count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#update-bid-count
-
-1
--
 update callback
 update callback
 dfn
@@ -1059,6 +1381,18 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#viewtransition-update-callback
+
+1
+ViewTransition
+-
+update callback
+update callback
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#viewtransition-update-callback
 
 1
 ViewTransition
@@ -1090,6 +1424,18 @@ ViewTransition
 update callback done promise
 update callback done promise
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#viewtransition-update-callback-done-promise
+
+1
+ViewTransition
+-
+update callback done promise
+update callback done promise
+dfn
 css-view-transitions-1
 css-view-transitions
 1
@@ -1098,6 +1444,30 @@ https://www.w3.org/TR/css-view-transitions-1/#viewtransition-update-callback-don
 
 1
 ViewTransition
+-
+update callback queue
+update callback queue
+dfn
+css-view-transitions-1
+css-view-transitions
+1
+current
+https://drafts.csswg.org/css-view-transitions-1/#document-update-callback-queue
+
+1
+document
+-
+update callback queue
+update callback queue
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#document-update-callback-queue
+1
+1
+document
 -
 update capture state algorithm
 update capture state algorithm
@@ -1121,14 +1491,25 @@ https://www.w3.org/TR/mediasession/#update-capture-state-algorithm
 
 1
 -
-update captured headers
-update captured headers
+update content relevancy for a document
+update content relevancy for a document
 dfn
-turtledove
-turtledove
-1
+css-contain-2
+css-contain
+2
 current
-https://wicg.github.io/turtledove/#concept-update-captured-headers
+https://drafts.csswg.org/css-contain-2/#update-content-relevancy-for-a-document
+1
+1
+-
+update currently relevant to the user
+update currently relevant to the user
+dfn
+css-contain-2
+css-contain
+2
+current
+https://drafts.csswg.org/css-contain-2/#update-currently-relevant-to-the-user
 
 1
 -
@@ -1152,6 +1533,28 @@ page-lifecycle
 current
 https://wicg.github.io/page-lifecycle/#update-document-frozenness-steps
 1
+1
+-
+update emulated forced colors theme
+update emulated forced colors theme
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#update-emulated-forced-colors-theme
+
+1
+-
+update emulated forced colors theme
+update emulated forced colors theme
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#update-emulated-forced-colors-theme
+
 1
 -
 update for navigable creation/destruction
@@ -1187,17 +1590,27 @@ https://www.w3.org/TR/gamepad/#dfn-update-gamepad-state
 
 1
 -
-update groups
-update groups
+update geolocation override
+update geolocation override
 dfn
-turtledove
-turtledove
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#server-auction-response-update-groups
+https://w3c.github.io/webdriver-bidi/#update-geolocation-override
 
 1
-server auction response
+-
+update geolocation override
+update geolocation override
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#update-geolocation-override
+
+1
 -
 update handling queue
 update handling queue
@@ -1211,14 +1624,25 @@ https://wicg.github.io/background-fetch/#background-fetch-update-handling-queue
 1
 background fetch
 -
-update highest scoring other bid
-update highest scoring other bid
+update headers
+update headers
 dfn
-turtledove
-turtledove
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#update-highest-scoring-other-bid
+https://w3c.github.io/webdriver-bidi/#update-headers
+
+1
+-
+update headers
+update headers
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#update-headers
 
 1
 -
@@ -1230,28 +1654,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/links.html#update-href
-
-1
--
-update k-anonymity cache for interest group
-update k-anonymity cache for interest group
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#update-k-anonymity-cache-for-interest-group
-
-1
--
-update k-anonymity cache for key
-update k-anonymity cache for key
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#update-k-anonymity-cache-for-key
 
 1
 -
@@ -1309,6 +1711,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#changing-nav-continuation-update-only
 
 1
+changing navigable continuation state
 -
 update plane object
 update plane object
@@ -1317,7 +1720,7 @@ webxr-plane-detection
 webxr-plane-detection
 1
 current
-https://immersive-web.github.io/real-world-geometry/plane-detection.html#update-plane-object
+https://immersive-web.github.io/plane-detection/#update-plane-object
 
 1
 -
@@ -1328,20 +1731,20 @@ webxr-plane-detection
 webxr-plane-detection
 1
 current
-https://immersive-web.github.io/real-world-geometry/plane-detection.html#update-planes
+https://immersive-web.github.io/plane-detection/#update-planes
 
 1
 -
-update previous wins
-update previous wins
+update playout stats
+update playout stats
 dfn
-turtledove
-turtledove
+audio-context-playout-stats
+audio-context-playout-stats
 1
 current
-https://wicg.github.io/turtledove/#update-previous-wins
+https://wicg.github.io/audio-context-playout-stats/#dfn-update-playout-stats
 
-1
+
 -
 update pseudo-element styles
 update pseudo-element styles
@@ -1357,11 +1760,66 @@ https://drafts.csswg.org/css-view-transitions-1/#update-pseudo-element-styles
 update pseudo-element styles
 update pseudo-element styles
 dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#update-pseudo-element-styles
+
+1
+-
+update pseudo-element styles
+update pseudo-element styles
+dfn
 css-view-transitions-1
 css-view-transitions
 1
 snapshot
 https://www.w3.org/TR/css-view-transitions-1/#update-pseudo-element-styles
+
+1
+-
+update request headers
+update request headers
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#update-request-headers
+
+1
+-
+update request headers
+update request headers
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#update-request-headers
+
+1
+-
+update scrollbar type override
+update scrollbar type override
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#update-scrollbar-type-override
+
+1
+-
+update scrollbar type override
+update scrollbar type override
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#update-scrollbar-type-override
 
 1
 -
@@ -1412,6 +1870,17 @@ https://www.w3.org/TR/css-scroll-snap-2/#document-update-scrollsnapchanging-targ
 1
 1
 Document
+-
+update speculation rules
+update speculation rules
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/webappapis.html#update-speculation-rules
+
+1
 -
 update steps
 update steps
@@ -1535,17 +2004,6 @@ https://www.w3.org/TR/webrtc/#dfn-update-the-data-max-message-size
 1
 1
 -
-update the event map
-update the event map
-dfn
-webdriver-bidi
-webdriver-bidi
-1
-current
-https://w3c.github.io/webdriver-bidi/#update-the-event-map
-
-1
--
 update the file selection
 update the file selection
 dfn
@@ -1565,6 +2023,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/images.html#update-the-image-data
+
+1
+-
+update the interaction contexts for an event
+update the interaction contexts for an event
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#update-the-interaction-contexts-for-an-event
 
 1
 -
@@ -1714,6 +2183,18 @@ https://w3c.github.io/long-animation-frames/#frame-timing-info-update-the-render
 1
 frame timing info
 -
+update the rendering start time
+update the rendering start time
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#frame-timing-info-update-the-rendering-start-time
+
+1
+frame timing info
+-
 update the response
 update the response
 dfn
@@ -1728,14 +2209,13 @@ https://w3c.github.io/webdriver-bidi/#update-the-response
 update the response
 update the response
 dfn
-prefetch
-prefetch
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/nav-speculation/prefetch.html#redirect-chain-update-the-response
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#update-the-response
 
 1
-redirect chain
 -
 update the search origin
 update the search origin
@@ -1756,6 +2236,28 @@ css-nav
 1
 snapshot
 https://www.w3.org/TR/css-nav-1/#update-the-search-origin
+
+1
+-
+update the selected audio session
+update the selected audio session
+dfn
+audio-session
+audio-session
+1
+current
+https://w3c.github.io/audio-session/#update-the-selected-audio-session
+
+1
+-
+update the selected audio session
+update the selected audio session
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#update-the-selected-audio-session
 
 1
 -
@@ -1801,6 +2303,28 @@ web-animations
 1
 snapshot
 https://www.w3.org/TR/web-animations-1/#update-the-timing-properties-of-an-animation-effect
+
+1
+-
+update the type
+update the type
+dfn
+audio-session
+audio-session
+1
+current
+https://w3c.github.io/audio-session/#update-the-type
+
+1
+-
+update the type
+update the type
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#update-the-type
 
 1
 -
@@ -1858,29 +2382,6 @@ current
 https://html.spec.whatwg.org/multipage/interaction.html#update-the-visibility-state
 
 1
--
-update touchevents
-update touchEvents
-dfn
-gamepad-extensions
-gamepad-extensions
-1
-current
-https://w3c.github.io/gamepad/extensions.html#dfn-updating-touchevents
-
-1
--
-update url
-update url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-update-url
-
-1
-interest group
 -
 update via cache mode
 update via cache mode
@@ -2026,18 +2527,6 @@ https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-update
 1
 IDBCursor
 -
-updateAdInterestGroups()
-updateAdInterestGroups()
-method
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-navigator-updateadinterestgroups
-1
-1
-Navigator
--
 updateCallback
 updateCallback
 argument
@@ -2072,6 +2561,18 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#dom-viewtransition-updatecallbackdone
+1
+1
+ViewTransition
+-
+updateCallbackDone
+updateCallbackDone
+attribute
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-updatecallbackdone
 1
 1
 ViewTransition
@@ -2136,32 +2637,32 @@ https://www.w3.org/TR/edit-context/#dom-editcontext-updatecharacterbounds
 1
 EditContext
 -
-updateControlBound()
-updateControlBound()
+updateControlBounds()
+updateControlBounds()
 method
 edit-context
 edit-context
 1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-editcontext-updatecontrolbound
-1
-1
-EditContext
--
-updateControlBound(controlBound)
-updateControlBound(controlBound)
-method
-edit-context
-edit-context
-1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-editcontext-updatecontrolbound
+current
+https://w3c.github.io/edit-context/#dom-editcontext-updatecontrolbounds
 1
 1
 EditContext
 -
 updateControlBounds()
 updateControlBounds()
+method
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dom-editcontext-updatecontrolbounds
+1
+1
+EditContext
+-
+updateControlBounds(controlBounds)
+updateControlBounds(controlBounds)
 method
 edit-context
 edit-context
@@ -2178,8 +2679,8 @@ method
 edit-context
 edit-context
 1
-current
-https://w3c.github.io/edit-context/#dom-editcontext-updatecontrolbounds
+snapshot
+https://www.w3.org/TR/edit-context/#dom-editcontext-updatecontrolbounds
 1
 1
 EditContext
@@ -2196,18 +2697,6 @@ https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigation-upda
 1
 Navigation
 -
-updateifolderthanms
-updateIfOlderThanMs
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bidding-signals-per-interest-group-data-updateifolderthanms
-
-1
-bidding signals per interest group data
--
 updateInkTrailStartPoint(event, style)
 updateInkTrailStartPoint(event, style)
 method
@@ -2223,11 +2712,11 @@ DelegatedInkTrailPresenter
 updateInterval
 updateInterval
 dict-member
-webaudio
+webaudio-1.1
 webaudio
 1
-current
-https://webaudio.github.io/web-audio-api/#dom-audiorendercapacityoptions-updateinterval
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiorendercapacityoptions-updateinterval
 1
 1
 AudioRenderCapacityOptions
@@ -2472,32 +2961,32 @@ https://www.w3.org/TR/edit-context/#dom-editcontext-updateselection
 1
 EditContext
 -
-updateSelectionBound()
-updateSelectionBound()
+updateSelectionBounds()
+updateSelectionBounds()
 method
 edit-context
 edit-context
 1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-editcontext-updateselectionbound
-1
-1
-EditContext
--
-updateSelectionBound(selectionBound)
-updateSelectionBound(selectionBound)
-method
-edit-context
-edit-context
-1
-snapshot
-https://www.w3.org/TR/edit-context/#dom-editcontext-updateselectionbound
+current
+https://w3c.github.io/edit-context/#dom-editcontext-updateselectionbounds
 1
 1
 EditContext
 -
 updateSelectionBounds()
 updateSelectionBounds()
+method
+edit-context
+edit-context
+1
+snapshot
+https://www.w3.org/TR/edit-context/#dom-editcontext-updateselectionbounds
+1
+1
+EditContext
+-
+updateSelectionBounds(selectionBounds)
+updateSelectionBounds(selectionBounds)
 method
 edit-context
 edit-context
@@ -2514,8 +3003,8 @@ method
 edit-context
 edit-context
 1
-current
-https://w3c.github.io/edit-context/#dom-editcontext-updateselectionbounds
+snapshot
+https://www.w3.org/TR/edit-context/#dom-editcontext-updateselectionbounds
 1
 1
 EditContext
@@ -2664,18 +3153,6 @@ https://wicg.github.io/background-fetch/#dom-backgroundfetchupdateuievent-update
 1
 BackgroundFetchUpdateUIEvent
 -
-updateURL
-updateURL
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-updateurl
-1
-1
-GenerateBidInterestGroup
--
 updateViaCache
 updateViaCache
 dict-member
@@ -2772,6 +3249,28 @@ https://www.w3.org/TR/payment-request/#dom-paymentrequestupdateevent-updatewith
 1
 PaymentRequestUpdateEvent
 -
+updated
+updated
+dfn
+did-resolution
+did-resolution
+1
+current
+https://w3c.github.io/did-resolution/#dfn-updated
+
+1
+-
+updated
+updated
+dfn
+did-resolution
+did-resolution
+1
+snapshot
+https://www.w3.org/TR/did-resolution/#dfn-updated
+
+1
+-
 updateend
 updateend
 event
@@ -2818,6 +3317,78 @@ https://www.w3.org/TR/service-workers/#service-worker-registration-updatefound-e
 1
 ServiceWorkerRegistration
 -
+updates
+updates
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-scatterelements-input-indices-updates-options-updates
+1
+1
+MLGraphBuilder/scatterElements(input, indices, updates, options)
+-
+updates
+updates
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-scatternd-input-indices-updates-options-updates
+1
+1
+MLGraphBuilder/scatterND(input, indices, updates, options)
+-
+updates
+updates
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlscattersupportlimits-updates
+1
+1
+MLScatterSupportLimits
+-
+updates
+updates
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-scatterelements-input-indices-updates-options-updates
+1
+1
+MLGraphBuilder/scatterElements(input, indices, updates, options)
+-
+updates
+updates
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-scatternd-input-indices-updates-options-updates
+1
+1
+MLGraphBuilder/scatterND(input, indices, updates, options)
+-
+updates
+updates
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlscattersupportlimits-updates
+1
+1
+MLScatterSupportLimits
+-
 updatestart
 updatestart
 event
@@ -2863,6 +3434,28 @@ https://www.w3.org/TR/media-source-2/#dom-sourcebuffer-updating
 1
 1
 SourceBuffer
+-
+updating animation trigger state
+updating animation trigger state
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#updating-animation-trigger-state
+
+1
+-
+updating animation trigger state
+updating animation trigger state
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#updating-animation-trigger-state
+
+1
 -
 updating flag
 updating flag
@@ -2929,17 +3522,6 @@ css-nav
 1
 snapshot
 https://www.w3.org/TR/css-nav-1/#update-the-search-origin
-
-1
--
-updating touchevents
-updating touchEvents
-dfn
-gamepad-extensions
-gamepad-extensions
-1
-current
-https://w3c.github.io/gamepad/extensions.html#dfn-updating-touchevents
 
 1
 -
@@ -3018,6 +3600,17 @@ upgrade-insecure-requests
 snapshot
 https://www.w3.org/TR/upgrade-insecure-requests/#upgrade-insecure-navigations-set
 1
+1
+-
+upgrade particular elements within a document
+upgrade particular elements within a document
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/custom-elements.html#upgrade-particular-elements-within-a-document
+
 1
 -
 upgrade reaction
@@ -3175,40 +3768,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#uphold
-
-1
--
-uphold
-uphold
-dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#uphold
-
-1
--
-upholding
-upholding
-dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#uphold
-
-1
--
-upholds
-upholds
-dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#uphold
+https://www.w3.org/policies/process/#upheld
 
 1
 -
@@ -3224,8 +3784,8 @@ https://xhr.spec.whatwg.org/#dom-xmlhttprequest-upload
 1
 XMLHttpRequest
 -
-upload complete flag
-upload complete flag
+upload complete
+upload complete
 dfn
 xhr
 xhr
@@ -3235,8 +3795,8 @@ https://xhr.spec.whatwg.org/#upload-complete-flag
 
 1
 -
-upload listener flag
-upload listener flag
+upload listener
+upload listener
 dfn
 xhr
 xhr
@@ -3577,9 +4137,9 @@ https://drafts.csswg.org/css-counter-styles-3/#upper-alpha
 upper-alpha
 upper-alpha
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-upper-alpha
 1
@@ -3670,9 +4230,9 @@ https://drafts.csswg.org/css-counter-styles-3/#upper-latin
 upper-latin
 upper-latin
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-upper-latin
 1
@@ -3684,20 +4244,9 @@ upper-latin
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-upper-latin
-1
-1
--
-upper-latin
-upper-latin
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-upper-latin
+https://www.w3.org/TR/CSS2/generate.html#value-def-upper-latin
 1
 1
 -
@@ -3728,9 +4277,9 @@ https://drafts.csswg.org/css-counter-styles-3/#upper-roman
 upper-roman
 upper-roman
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-upper-roman
 1
@@ -3753,20 +4302,9 @@ upper-roman
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/generate.html#value-def-upper-roman
-1
-1
--
-upper-roman
-upper-roman
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/generate.html#value-def-upper-roman
+https://www.w3.org/TR/CSS2/generate.html#value-def-upper-roman
 1
 1
 -
@@ -4025,9 +4563,9 @@ text-transform
 uppercase
 uppercase
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-text-transform-uppercase
 1

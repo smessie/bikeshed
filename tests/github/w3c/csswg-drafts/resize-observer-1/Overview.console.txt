@@ -12,4 +12,9 @@ spec:cssom-view-1; type:event; for:Window; text:resize
 spec:cssom-view-1; type:event; for:VisualViewport; text:resize
 spec:html; type:event; text:resize
 spec:picture-in-picture; type:event; text:resize
+LINE 352:1: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 WARNING: This specification has neither a 'Security Considerations' nor a 'Privacy Considerations' section. Please consider adding both, see https://w3ctag.github.io/security-questionnaire/.

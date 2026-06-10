@@ -250,6 +250,24 @@
       "shortname": "web-animations"
     }
   },
+  "AnimationTrigger()": {
+    "AnimationTrigger()": {
+      "args": [],
+      "for": [
+        "AnimationTrigger"
+      ],
+      "shortname": "web-animations"
+    },
+    "AnimationTrigger(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "AnimationTrigger"
+      ],
+      "shortname": "web-animations"
+    }
+  },
   "Array()": {
     "Array(...values)": {
       "args": [
@@ -283,9 +301,9 @@
     }
   },
   "AsyncFunction()": {
-    "AsyncFunction(...parameterArgs, bodyArg)": {
+    "AsyncFunction(...paramArgs, bodyArg)": {
       "args": [
-        "...parameterArgs",
+        "...paramArgs",
         "bodyArg"
       ],
       "for": [
@@ -295,9 +313,9 @@
     }
   },
   "AsyncGeneratorFunction()": {
-    "AsyncGeneratorFunction(...parameterArgs, bodyArg)": {
+    "AsyncGeneratorFunction(...paramArgs, bodyArg)": {
       "args": [
-        "...parameterArgs",
+        "...paramArgs",
         "bodyArg"
       ],
       "for": [
@@ -453,6 +471,27 @@
         "AudioWorkletProcessor"
       ],
       "shortname": "webaudio"
+    }
+  },
+  "AutofillEvent()": {
+    "AutofillEvent(type)": {
+      "args": [
+        "type"
+      ],
+      "for": [
+        "AutofillEvent"
+      ],
+      "shortname": "autofill-event"
+    },
+    "AutofillEvent(type, eventInitDict)": {
+      "args": [
+        "type",
+        "eventInitDict"
+      ],
+      "for": [
+        "AutofillEvent"
+      ],
+      "shortname": "autofill-event"
     }
   },
   "BackgroundFetchEvent()": {
@@ -1438,6 +1477,27 @@
       "shortname": "webaudio"
     }
   },
+  "ClipboardChangeEvent()": {
+    "ClipboardChangeEvent(type)": {
+      "args": [
+        "type"
+      ],
+      "for": [
+        "ClipboardChangeEvent"
+      ],
+      "shortname": "clipboard-apis"
+    },
+    "ClipboardChangeEvent(type, eventInitDict)": {
+      "args": [
+        "type",
+        "eventInitDict"
+      ],
+      "for": [
+        "ClipboardChangeEvent"
+      ],
+      "shortname": "clipboard-apis"
+    }
+  },
   "ClipboardEvent()": {
     "ClipboardEvent(type)": {
       "args": [
@@ -1657,7 +1717,7 @@
       "for": [
         "CookieChangeEvent"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "CookieChangeEvent(type, eventInitDict)": {
       "args": [
@@ -1667,7 +1727,7 @@
       "for": [
         "CookieChangeEvent"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     }
   },
   "CountQueuingStrategy()": {
@@ -2311,6 +2371,29 @@
       "shortname": "dom"
     }
   },
+  "Exception()": {
+    "Exception(exceptionTag, payload)": {
+      "args": [
+        "exceptionTag",
+        "payload"
+      ],
+      "for": [
+        "Exception"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "Exception(exceptionTag, payload, options)": {
+      "args": [
+        "exceptionTag",
+        "payload",
+        "options"
+      ],
+      "for": [
+        "Exception"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "ExtendableCookieChangeEvent()": {
     "ExtendableCookieChangeEvent(type)": {
       "args": [
@@ -2319,7 +2402,7 @@
       "for": [
         "ExtendableCookieChangeEvent"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "ExtendableCookieChangeEvent(type, eventInitDict)": {
       "args": [
@@ -2329,7 +2412,7 @@
       "for": [
         "ExtendableCookieChangeEvent"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     }
   },
   "ExtendableEvent()": {
@@ -2601,9 +2684,9 @@
     }
   },
   "Function()": {
-    "Function(...parameterArgs, bodyArg)": {
+    "Function(...paramArgs, bodyArg)": {
       "args": [
-        "...parameterArgs",
+        "...paramArgs",
         "bodyArg"
       ],
       "for": [
@@ -2613,12 +2696,12 @@
     }
   },
   "Function.prototype %Symbol.hasInstance% ()": {
-    "Function.prototype %Symbol.hasInstance% (V)": {
+    "Function.prototype %Symbol.hasInstance% (value)": {
       "args": [
-        "V"
+        "value"
       ],
       "for": [
-        "Function.prototype [ %Symbol.hasInstance% ] ( V )"
+        "Function.prototype [ %Symbol.hasInstance% ] ( value )"
       ],
       "shortname": "ecmascript"
     }
@@ -2719,33 +2802,15 @@
     }
   },
   "GeneratorFunction()": {
-    "GeneratorFunction(...parameterArgs, bodyArg)": {
+    "GeneratorFunction(...paramArgs, bodyArg)": {
       "args": [
-        "...parameterArgs",
+        "...paramArgs",
         "bodyArg"
       ],
       "for": [
         "GeneratorFunction"
       ],
       "shortname": "ecmascript"
-    }
-  },
-  "GeolocationSensor()": {
-    "GeolocationSensor()": {
-      "args": [],
-      "for": [
-        "GeolocationSensor"
-      ],
-      "shortname": "geolocation-sensor"
-    },
-    "GeolocationSensor(options)": {
-      "args": [
-        "options"
-      ],
-      "for": [
-        "GeolocationSensor"
-      ],
-      "shortname": "geolocation-sensor"
     }
   },
   "Global()": {
@@ -2833,6 +2898,15 @@
         "HTMLFencedFrameElement"
       ],
       "shortname": "fenced-frame"
+    }
+  },
+  "HTMLGeolocationElement()": {
+    "HTMLGeolocationElement()": {
+      "args": [],
+      "for": [
+        "HTMLGeolocationElement"
+      ],
+      "shortname": "geolocation-element"
     }
   },
   "HTMLPortalElement()": {
@@ -2934,6 +3008,34 @@
       "shortname": "webaudio"
     }
   },
+  "IdentityCredentialError()": {
+    "IdentityCredentialError()": {
+      "args": [],
+      "for": [
+        "IdentityCredentialError"
+      ],
+      "shortname": "fedcm"
+    },
+    "IdentityCredentialError(message)": {
+      "args": [
+        "message"
+      ],
+      "for": [
+        "IdentityCredentialError"
+      ],
+      "shortname": "fedcm"
+    },
+    "IdentityCredentialError(message, options)": {
+      "args": [
+        "message",
+        "options"
+      ],
+      "for": [
+        "IdentityCredentialError"
+      ],
+      "shortname": "fedcm"
+    }
+  },
   "IdleDetector()": {
     "IdleDetector()": {
       "args": [],
@@ -3020,6 +3122,16 @@
     "Instance(module, importObject)": {
       "args": [
         "module",
+        "importObject"
+      ],
+      "for": [
+        "Instance"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "Instance(moduleObject, importObject)": {
+      "args": [
+        "moduleObject",
         "importObject"
       ],
       "for": [
@@ -3373,6 +3485,17 @@
       "shortname": "webaudio"
     }
   },
+  "MediaStreamTrackHandle()": {
+    "MediaStreamTrackHandle(track)": {
+      "args": [
+        "track"
+      ],
+      "for": [
+        "MediaStreamTrackHandle"
+      ],
+      "shortname": "mediacapture-transform"
+    }
+  },
   "MediaStreamTrackProcessor()": {
     "MediaStreamTrackProcessor(init)": {
       "args": [
@@ -3404,27 +3527,16 @@
         "Module"
       ],
       "shortname": "wasm-js-api"
-    }
-  },
-  "MouseEvent()": {
-    "MouseEvent(type)": {
-      "args": [
-        "type"
-      ],
-      "for": [
-        "MouseEvent"
-      ],
-      "shortname": "uievents"
     },
-    "MouseEvent(type, eventInitDict)": {
+    "Module(bytes, options)": {
       "args": [
-        "type",
-        "eventInitDict"
+        "bytes",
+        "options"
       ],
       "for": [
-        "MouseEvent"
+        "Module"
       ],
-      "shortname": "uievents"
+      "shortname": "wasm-js-api"
     }
   },
   "MutationObserver()": {
@@ -3559,18 +3671,6 @@
       "shortname": "webaudio"
     }
   },
-  "OffscreenCanvas()": {
-    "OffscreenCanvas(width, height)": {
-      "args": [
-        "width",
-        "height"
-      ],
-      "for": [
-        "OffscreenCanvas"
-      ],
-      "shortname": "html"
-    }
-  },
   "Option()": {
     "Option(text, value, defaultSelected, selected)": {
       "args": [
@@ -3667,6 +3767,38 @@
       "shortname": "payment-request"
     }
   },
+  "PerformanceMark()": {
+    "PerformanceMark(markName)": {
+      "args": [
+        "markName"
+      ],
+      "for": [
+        "PerformanceMark"
+      ],
+      "shortname": "user-timing"
+    },
+    "PerformanceMark(markName, markOptions)": {
+      "args": [
+        "markName",
+        "markOptions"
+      ],
+      "for": [
+        "PerformanceMark"
+      ],
+      "shortname": "user-timing"
+    }
+  },
+  "PerformanceObserver()": {
+    "PerformanceObserver(callback)": {
+      "args": [
+        "callback"
+      ],
+      "for": [
+        "PerformanceObserver"
+      ],
+      "shortname": "performance-timeline"
+    }
+  },
   "PeriodicSyncEvent()": {
     "PeriodicSyncEvent(type, init)": {
       "args": [
@@ -3710,6 +3842,24 @@
         "PictureInPictureEvent"
       ],
       "shortname": "picture-in-picture"
+    }
+  },
+  "PointerTimeline()": {
+    "PointerTimeline()": {
+      "args": [],
+      "for": [
+        "PointerTimeline"
+      ],
+      "shortname": "pointer-animations"
+    },
+    "PointerTimeline(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "PointerTimeline"
+      ],
+      "shortname": "pointer-animations"
     }
   },
   "PortalActivateEvent()": {
@@ -3806,6 +3956,34 @@
       "shortname": "css-typed-om"
     }
   },
+  "QuotaExceededError()": {
+    "QuotaExceededError()": {
+      "args": [],
+      "for": [
+        "QuotaExceededError"
+      ],
+      "shortname": "webidl"
+    },
+    "QuotaExceededError(message)": {
+      "args": [
+        "message"
+      ],
+      "for": [
+        "QuotaExceededError"
+      ],
+      "shortname": "webidl"
+    },
+    "QuotaExceededError(message, options)": {
+      "args": [
+        "message",
+        "options"
+      ],
+      "for": [
+        "QuotaExceededError"
+      ],
+      "shortname": "webidl"
+    }
+  },
   "RTCEncodedAudioFrame()": {
     "RTCEncodedAudioFrame(originalFrame)": {
       "args": [
@@ -3848,19 +4026,41 @@
       "shortname": "webrtc-encoded-transform"
     }
   },
-  "RTCRtpScriptTransform()": {
-    "RTCRtpScriptTransform(worker)": {
+  "RTCRtpSFrameDecrypter()": {
+    "RTCRtpSFrameDecrypter(options)": {
       "args": [
-        "worker"
+        "options"
+      ],
+      "for": [
+        "RTCRtpSFrameDecrypter"
+      ],
+      "shortname": "webrtc-encoded-transform"
+    }
+  },
+  "RTCRtpSFrameEncrypter()": {
+    "RTCRtpSFrameEncrypter(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "RTCRtpSFrameEncrypter"
+      ],
+      "shortname": "webrtc-encoded-transform"
+    }
+  },
+  "RTCRtpScriptTransform()": {
+    "RTCRtpScriptTransform(workerOrWorkerAndParameters)": {
+      "args": [
+        "workerOrWorkerAndParameters"
       ],
       "for": [
         "RTCRtpScriptTransform"
       ],
       "shortname": "webrtc-encoded-transform"
     },
-    "RTCRtpScriptTransform(worker, options)": {
+    "RTCRtpScriptTransform(workerOrWorkerAndParameters, options)": {
       "args": [
-        "worker",
+        "workerOrWorkerAndParameters",
         "options"
       ],
       "for": [
@@ -3868,9 +4068,9 @@
       ],
       "shortname": "webrtc-encoded-transform"
     },
-    "RTCRtpScriptTransform(worker, options, transfer)": {
+    "RTCRtpScriptTransform(workerOrWorkerAndParameters, options, transfer)": {
       "args": [
-        "worker",
+        "workerOrWorkerAndParameters",
         "options",
         "transfer"
       ],
@@ -3940,9 +4140,9 @@
     }
   },
   "RegExp()": {
-    "RegExp(pattern, flags)": {
+    "RegExp(patternOrRegexp, flags)": {
       "args": [
-        "pattern",
+        "patternOrRegexp",
         "flags"
       ],
       "for": [
@@ -4129,20 +4329,24 @@
       "shortname": "fetch"
     }
   },
-  "SFrameTransform()": {
-    "SFrameTransform()": {
-      "args": [],
-      "for": [
-        "SFrameTransform"
-      ],
-      "shortname": "webrtc-encoded-transform"
-    },
-    "SFrameTransform(options)": {
+  "SFrameDecrypterStream()": {
+    "SFrameDecrypterStream(options)": {
       "args": [
         "options"
       ],
       "for": [
-        "SFrameTransform"
+        "SFrameDecrypterStream"
+      ],
+      "shortname": "webrtc-encoded-transform"
+    }
+  },
+  "SFrameEncrypterStream()": {
+    "SFrameEncrypterStream(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "SFrameEncrypterStream"
       ],
       "shortname": "webrtc-encoded-transform"
     }
@@ -4157,24 +4361,6 @@
         "SFrameTransformErrorEvent"
       ],
       "shortname": "webrtc-encoded-transform"
-    }
-  },
-  "Sanitizer()": {
-    "Sanitizer()": {
-      "args": [],
-      "for": [
-        "Sanitizer"
-      ],
-      "shortname": "sanitizer-api"
-    },
-    "Sanitizer(config)": {
-      "args": [
-        "config"
-      ],
-      "for": [
-        "Sanitizer"
-      ],
-      "shortname": "sanitizer-api"
     }
   },
   "ScrollTimeline()": {
@@ -4297,10 +4483,37 @@
         "options"
       ],
       "for": [
-        "SharedWorker",
         "StorageAccessHandle"
       ],
-      "shortname": "html"
+      "shortname": "saa-non-cookie-storage"
+    }
+  },
+  "SmartCardError()": {
+    "SmartCardError()": {
+      "args": [],
+      "for": [
+        "SmartCardError"
+      ],
+      "shortname": "web-smart-card"
+    },
+    "SmartCardError(message)": {
+      "args": [
+        "message"
+      ],
+      "for": [
+        "SmartCardError"
+      ],
+      "shortname": "web-smart-card"
+    },
+    "SmartCardError(message, options)": {
+      "args": [
+        "message",
+        "options"
+      ],
+      "for": [
+        "SmartCardError"
+      ],
+      "shortname": "web-smart-card"
     }
   },
   "SnapEvent()": {
@@ -4362,6 +4575,27 @@
       ],
       "for": [
         "SpeechRecognitionEvent"
+      ],
+      "shortname": "speech-api"
+    }
+  },
+  "SpeechRecognitionPhrase()": {
+    "SpeechRecognitionPhrase(phrase)": {
+      "args": [
+        "phrase"
+      ],
+      "for": [
+        "SpeechRecognitionPhrase"
+      ],
+      "shortname": "speech-api"
+    },
+    "SpeechRecognitionPhrase(phrase, boost)": {
+      "args": [
+        "phrase",
+        "boost"
+      ],
+      "for": [
+        "SpeechRecognitionPhrase"
       ],
       "shortname": "speech-api"
     }
@@ -4557,6 +4791,17 @@
       ],
       "for": [
         "Table"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
+  "Tag()": {
+    "Tag(type)": {
+      "args": [
+        "type"
+      ],
+      "for": [
+        "Tag"
       ],
       "shortname": "wasm-js-api"
     }
@@ -5349,39 +5594,6 @@
       "shortname": "webtransport"
     }
   },
-  "WheelEvent()": {
-    "WheelEvent(type)": {
-      "args": [
-        "type"
-      ],
-      "for": [
-        "WheelEvent"
-      ],
-      "shortname": "uievents"
-    },
-    "WheelEvent(type, eventInitDict)": {
-      "args": [
-        "type",
-        "eventInitDict"
-      ],
-      "for": [
-        "WheelEvent"
-      ],
-      "shortname": "uievents"
-    }
-  },
-  "Worker()": {
-    "Worker(scriptURL, options)": {
-      "args": [
-        "scriptURL",
-        "options"
-      ],
-      "for": [
-        "Worker"
-      ],
-      "shortname": "html"
-    }
-  },
   "WorkletAnimation()": {
     "WorkletAnimation(animatorName)": {
       "args": [
@@ -5619,6 +5831,18 @@
       "shortname": "webxr"
     }
   },
+  "XRVisibilityMaskChangeEvent()": {
+    "XRVisibilityMaskChangeEvent(type, eventInitDict)": {
+      "args": [
+        "type",
+        "eventInitDict"
+      ],
+      "for": [
+        "XRVisibilityMaskChangeEvent"
+      ],
+      "shortname": "webxr"
+    }
+  },
   "XRWebGLBinding()": {
     "XRWebGLBinding(session, context)": {
       "args": [
@@ -5673,8 +5897,7 @@
       "for": [
         "Credential",
         "FederatedCredential",
-        "PasswordCredential",
-        "PublicKeyCredential"
+        "PasswordCredential"
       ],
       "shortname": "credential-management"
     }
@@ -5693,7 +5916,7 @@
         "PasswordCredential",
         "PublicKeyCredential"
       ],
-      "shortname": "digital-credentials"
+      "shortname": "credential-management"
     }
   },
   "[[DiscoverFromExternalSource]]()": {
@@ -5710,7 +5933,7 @@
         "OTPCredential",
         "PublicKeyCredential"
       ],
-      "shortname": "digital-credentials"
+      "shortname": "web-otp"
     }
   },
   "[[Store]]()": {
@@ -5726,19 +5949,7 @@
         "PasswordCredential",
         "PublicKeyCredential"
       ],
-      "shortname": "digital-credentials"
-    }
-  },
-  "[[preventSilentAccess]]()": {
-    "[[preventSilentAccess]](credential, sameOriginWithAncestors)": {
-      "args": [
-        "credential",
-        "sameOriginWithAncestors"
-      ],
-      "for": [
-        "PublicKeyCredential"
-      ],
-      "shortname": "webauthn"
+      "shortname": "credential-management"
     }
   },
   "__getter__()": {
@@ -5974,6 +6185,17 @@
       ],
       "shortname": "service-workers"
     },
+    "add(ta, index, value)": {
+      "args": [
+        "ta",
+        "index",
+        "value"
+      ],
+      "for": [
+        "Atomics"
+      ],
+      "shortname": "ecmascript"
+    },
     "add(tokens)": {
       "args": [
         "tokens"
@@ -5991,17 +6213,6 @@
         "RdfGraph"
       ],
       "shortname": "json-ld-api"
-    },
-    "add(typedArray, index, value)": {
-      "args": [
-        "typedArray",
-        "index",
-        "value"
-      ],
-      "for": [
-        "Atomics"
-      ],
-      "shortname": "ecmascript"
     },
     "add(value)": {
       "args": [
@@ -6057,6 +6268,18 @@
         "TextTrack"
       ],
       "shortname": "html"
+    }
+  },
+  "addDecryptionKey()": {
+    "addDecryptionKey(key, keyId)": {
+      "args": [
+        "key",
+        "keyId"
+      ],
+      "for": [
+        "SFrameDecrypterManager"
+      ],
+      "shortname": "webrtc-encoded-transform"
     }
   },
   "addEventListener()": {
@@ -6124,6 +6347,18 @@
       "shortname": "speech-api"
     }
   },
+  "addHandler()": {
+    "addHandler(handler,)": {
+      "args": [
+        "handler",
+        ""
+      ],
+      "for": [
+        "NavigationPrecommitController"
+      ],
+      "shortname": "html"
+    }
+  },
   "addIceCandidate!overload-1()": {
     "addIceCandidate!overload-1()": {
       "args": [],
@@ -6166,15 +6401,6 @@
     "addListener(callback)": {
       "args": [
         "callback"
-      ],
-      "for": [
-        "MediaQueryList"
-      ],
-      "shortname": "cssom-view"
-    },
-    "addListener(listener)": {
-      "args": [
-        "listener"
       ],
       "for": [
         "MediaQueryList"
@@ -6543,6 +6769,39 @@
       "shortname": "webcodecs"
     }
   },
+  "allowAttribute()": {
+    "allowAttribute(attribute)": {
+      "args": [
+        "attribute"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
+  "allowElement()": {
+    "allowElement(element)": {
+      "args": [
+        "element"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
+  "allowProcessingInstruction()": {
+    "allowProcessingInstruction(pi)": {
+      "args": [
+        "pi"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
   "allowedFeatures()": {
     "allowedFeatures()": {
       "args": [],
@@ -6585,9 +6844,9 @@
     }
   },
   "and()": {
-    "and(typedArray, index, value)": {
+    "and(ta, index, value)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value"
       ],
@@ -6676,15 +6935,24 @@
       ],
       "shortname": "dom"
     },
-    "append(key, value)": {
+    "append(input)": {
       "args": [
-        "key",
-        "value"
+        "input"
       ],
       "for": [
-        "SharedStorage"
+        "LanguageModel"
       ],
-      "shortname": "shared-storage"
+      "shortname": "prompt-api"
+    },
+    "append(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
     },
     "append(name, blobValue)": {
       "args": [
@@ -6802,11 +7070,11 @@
     }
   },
   "apply()": {
-    "apply(target, thisArgument, argumentsList)": {
+    "apply(target, thisArg, args)": {
       "args": [
         "target",
-        "thisArgument",
-        "argumentsList"
+        "thisArg",
+        "args"
       ],
       "for": [
         "Reflect"
@@ -6919,6 +7187,34 @@
         "MLGraphBuilder"
       ],
       "shortname": "webnn"
+    }
+  },
+  "ariaNotify()": {
+    "ariaNotify()": {
+      "args": [],
+      "for": [
+        "ARIANotifyMixin"
+      ],
+      "shortname": "wai-aria"
+    },
+    "ariaNotify(announcement)": {
+      "args": [
+        "announcement"
+      ],
+      "for": [
+        "ARIANotifyMixin"
+      ],
+      "shortname": "wai-aria"
+    },
+    "ariaNotify(announcement, options)": {
+      "args": [
+        "announcement",
+        "options"
+      ],
+      "for": [
+        "ARIANotifyMixin"
+      ],
+      "shortname": "wai-aria"
     }
   },
   "arrayBuffer()": {
@@ -7163,6 +7459,45 @@
       "shortname": "edit-context"
     }
   },
+  "availability()": {
+    "availability()": {
+      "args": [],
+      "for": [
+        "LanguageDetector",
+        "LanguageModel",
+        "Rewriter",
+        "Summarizer",
+        "Writer"
+      ],
+      "shortname": "prompt-api"
+    },
+    "availability(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "LanguageDetector",
+        "LanguageModel",
+        "Rewriter",
+        "Summarizer",
+        "TextDetector",
+        "Translator",
+        "Writer"
+      ],
+      "shortname": "prompt-api"
+    }
+  },
+  "available()": {
+    "available(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "SpeechRecognition"
+      ],
+      "shortname": "speech-api"
+    }
+  },
   "averagePool2d()": {
     "averagePool2d(input)": {
       "args": [
@@ -7365,7 +7700,7 @@
     "blur()": {
       "args": [],
       "for": [
-        "HTMLOrSVGElement",
+        "HTMLOrSVGOrMathMLElement",
         "Window"
       ],
       "shortname": "html"
@@ -7415,24 +7750,6 @@
       "shortname": "indexeddb"
     }
   },
-  "browsingTopics()": {
-    "browsingTopics()": {
-      "args": [],
-      "for": [
-        "Document"
-      ],
-      "shortname": "topics"
-    },
-    "browsingTopics(options)": {
-      "args": [
-        "options"
-      ],
-      "for": [
-        "Document"
-      ],
-      "shortname": "topics"
-    }
-  },
   "btoa()": {
     "btoa(data)": {
       "args": [
@@ -7476,15 +7793,6 @@
         "Function"
       ],
       "shortname": "ecmascript"
-    }
-  },
-  "canLoadAdAuctionFencedFrame()": {
-    "canLoadAdAuctionFencedFrame()": {
-      "args": [],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
     }
   },
   "canMakePayment()": {
@@ -7726,20 +8034,20 @@
     }
   },
   "cast()": {
-    "cast(input, type)": {
+    "cast(input, dataType)": {
       "args": [
         "input",
-        "type"
+        "dataType"
       ],
       "for": [
         "MLGraphBuilder"
       ],
       "shortname": "webnn"
     },
-    "cast(input, type, options)": {
+    "cast(input, dataType, options)": {
       "args": [
         "input",
-        "type",
+        "dataType",
         "options"
       ],
       "for": [
@@ -7826,7 +8134,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "changePaymentMethod(methodName)": {
       "args": [
@@ -7835,7 +8143,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "changePaymentMethod(methodName, methodDetails)": {
       "args": [
@@ -7845,7 +8153,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     }
   },
   "changeShippingAddress()": {
@@ -7854,7 +8162,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "changeShippingAddress(shippingAddress)": {
       "args": [
@@ -7863,7 +8171,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     }
   },
   "changeShippingOption()": {
@@ -7872,7 +8180,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "changeShippingOption(shippingOption)": {
       "args": [
@@ -7881,7 +8189,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     }
   },
   "changeType()": {
@@ -7903,9 +8211,9 @@
     }
   },
   "charAt()": {
-    "charAt(pos)": {
+    "charAt(position)": {
       "args": [
-        "pos"
+        "position"
       ],
       "for": [
         "String"
@@ -7914,9 +8222,9 @@
     }
   },
   "charCodeAt()": {
-    "charCodeAt(pos)": {
+    "charCodeAt(position)": {
       "args": [
-        "pos"
+        "position"
       ],
       "for": [
         "String"
@@ -7952,6 +8260,17 @@
         "FontFaceSet"
       ],
       "shortname": "css-font-loading"
+    }
+  },
+  "checkFramebufferStatus()": {
+    "checkFramebufferStatus(target)": {
+      "args": [
+        "target"
+      ],
+      "for": [
+        "WebGLRenderingContextBase"
+      ],
+      "shortname": "webgl1"
     }
   },
   "checkValidity()": {
@@ -8043,7 +8362,6 @@
         "MIDIOutput",
         "Map",
         "Set",
-        "SharedStorage",
         "Storage",
         "StylePropertyMap",
         "console"
@@ -8171,34 +8489,13 @@
       "shortname": "user-timing"
     }
   },
-  "clearOriginJoinedAdInterestGroups()": {
-    "clearOriginJoinedAdInterestGroups(owner)": {
-      "args": [
-        "owner"
-      ],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
-    },
-    "clearOriginJoinedAdInterestGroups(owner, interestGroupsToKeep)": {
-      "args": [
-        "owner",
-        "interestGroupsToKeep"
-      ],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
-    }
-  },
   "clearOverride()": {
     "clearOverride()": {
       "args": [],
       "for": [
         "PreferenceObject"
       ],
-      "shortname": "web-preferences-api"
+      "shortname": "mediaqueries"
     }
   },
   "clearParameters()": {
@@ -8299,6 +8596,7 @@
         "AudioData",
         "BrowserCaptureMediaStreamTrack",
         "GroupEffect",
+        "LanguageModel",
         "MediaStream",
         "MediaStreamTrack",
         "Request",
@@ -8307,6 +8605,15 @@
         "VideoFrame"
       ],
       "shortname": "fetch"
+    },
+    "clone(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
     }
   },
   "cloneContents()": {
@@ -8326,9 +8633,9 @@
       ],
       "shortname": "dom"
     },
-    "cloneNode(deep)": {
+    "cloneNode(subtree)": {
       "args": [
-        "deep"
+        "subtree"
       ],
       "for": [
         "Node"
@@ -8483,9 +8790,9 @@
     }
   },
   "codePointAt()": {
-    "codePointAt(pos)": {
+    "codePointAt(position)": {
       "args": [
-        "pos"
+        "position"
       ],
       "for": [
         "String"
@@ -8553,7 +8860,8 @@
     "commit()": {
       "args": [],
       "for": [
-        "IDBTransaction"
+        "IDBTransaction",
+        "WebTransportWriter"
       ],
       "shortname": "indexeddb"
     }
@@ -8630,9 +8938,9 @@
     }
   },
   "compareExchange()": {
-    "compareExchange(typedArray, index, expectedValue, replacementValue)": {
+    "compareExchange(ta, index, expectedValue, replacementValue)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "expectedValue",
         "replacementValue"
@@ -8665,6 +8973,16 @@
       ],
       "shortname": "wasm-js-api"
     },
+    "compile(bytes, options)": {
+      "args": [
+        "bytes",
+        "options"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    },
     "compile(pattern, flags)": {
       "args": [
         "pattern",
@@ -8680,6 +8998,16 @@
     "compileStreaming(source)": {
       "args": [
         "source"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-web-api"
+    },
+    "compileStreaming(source, options)": {
+      "args": [
+        "source",
+        "options"
       ],
       "for": [
         "WebAssembly"
@@ -8725,17 +9053,39 @@
       "shortname": "dom"
     }
   },
-  "compute()": {
-    "compute(graph, inputs, outputs)": {
+  "compressedTexImage2D()": {
+    "compressedTexImage2D(target, level, internalformat, width, height, border, pixels)": {
       "args": [
-        "graph",
-        "inputs",
-        "outputs"
+        "target",
+        "level",
+        "internalformat",
+        "width",
+        "height",
+        "border",
+        "pixels"
       ],
       "for": [
-        "MLContext"
+        "WebGLRenderingContextOverloads"
       ],
-      "shortname": "webnn"
+      "shortname": "webgl1"
+    }
+  },
+  "compressedTexSubImage2D()": {
+    "compressedTexSubImage2D(target, level, xoffset, yoffset, width, height, format, pixels)": {
+      "args": [
+        "target",
+        "level",
+        "xoffset",
+        "yoffset",
+        "width",
+        "height",
+        "format",
+        "pixels"
+      ],
+      "for": [
+        "WebGLRenderingContextOverloads"
+      ],
+      "shortname": "webgl1"
     }
   },
   "computedStyleMap()": {
@@ -8762,7 +9112,8 @@
         "...items"
       ],
       "for": [
-        "Array"
+        "Array",
+        "Iterator"
       ],
       "shortname": "ecmascript"
     },
@@ -8826,8 +9177,7 @@
     "connect()": {
       "args": [],
       "for": [
-        "BluetoothRemoteGATTServer",
-        "SmartCardContext"
+        "BluetoothRemoteGATTServer"
       ],
       "shortname": "web-bluetooth"
     },
@@ -8903,20 +9253,29 @@
     }
   },
   "constant()": {
-    "constant(descriptor, bufferView)": {
+    "constant(dataType, value)": {
       "args": [
-        "descriptor",
-        "bufferView"
+        "dataType",
+        "value"
       ],
       "for": [
         "MLGraphBuilder"
       ],
       "shortname": "webnn"
     },
-    "constant(type, value)": {
+    "constant(descriptor, buffer)": {
       "args": [
-        "type",
-        "value"
+        "descriptor",
+        "buffer"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "constant(tensor)": {
+      "args": [
+        "tensor"
       ],
       "for": [
         "MLGraphBuilder"
@@ -8925,10 +9284,10 @@
     }
   },
   "construct()": {
-    "construct(target, argumentsList, newTarget)": {
+    "construct(target, args, newTarget)": {
       "args": [
         "target",
-        "argumentsList",
+        "args",
         "newTarget"
       ],
       "for": [
@@ -8992,6 +9351,7 @@
         "Accelerometer",
         "AmbientLightSensor",
         "Animation",
+        "AnimationTrigger",
         "AudioContext",
         "AudioWorkletProcessor",
         "BarcodeDetector",
@@ -9035,16 +9395,17 @@
         "FragmentResult",
         "GPUPipelineError",
         "GamepadEvent",
-        "GeolocationSensor",
         "GravitySensor",
         "Gyroscope",
         "HIDConnectionEvent",
         "HIDInputReportEvent",
         "HTMLFencedFrameElement",
+        "HTMLGeolocationElement",
         "HTMLPortalElement",
         "HandwritingStroke",
         "Headers",
         "Highlight",
+        "IdentityCredentialError",
         "IdleDetector",
         "InputDeviceCapabilities",
         "JsonLdProcessor",
@@ -9059,6 +9420,7 @@
         "MediaSource",
         "MediaStream",
         "MediaStreamTrackEvent",
+        "MouseEvent",
         "NDEFMessage",
         "NDEFReader",
         "NDEFReadingEvent",
@@ -9071,6 +9433,7 @@
         "PerformanceMark",
         "PerformanceObserver",
         "PointerEvent",
+        "PointerTimeline",
         "PresentationConnectionAvailableEvent",
         "PresentationConnectionCloseEvent",
         "PresentationRequest",
@@ -9079,6 +9442,7 @@
         "ProximitySensor",
         "PushEvent",
         "PushSubscriptionChangeEvent",
+        "QuotaExceededError",
         "RTCDTMFToneChangeEvent",
         "RTCDataChannelEvent",
         "RTCEncodedAudioFrame",
@@ -9102,8 +9466,6 @@
         "RelativeOrientationSensor",
         "RemoteDocument",
         "Response",
-        "SFrameTransform",
-        "Sanitizer",
         "ScrollTimeline",
         "SmartCardError",
         "SpeechGrammarList",
@@ -9133,10 +9495,10 @@
         "VideoTrackGenerator",
         "ViewTimeline",
         "WebTransportError",
+        "WheelEvent",
         "WindowControlsOverlayGeometryChangeEvent",
         "WritableStream",
         "XMLHttpRequest",
-        "XMLSerializer",
         "XPathEvaluator",
         "XRRay",
         "XRRigidTransform",
@@ -9321,6 +9683,16 @@
       ],
       "shortname": "wasm-js-api"
     },
+    "constructor(bytes, options)": {
+      "args": [
+        "bytes",
+        "options"
+      ],
+      "for": [
+        "Module"
+      ],
+      "shortname": "wasm-js-api"
+    },
     "constructor(callback)": {
       "args": [
         "callback"
@@ -9397,15 +9769,6 @@
         "CSSColor"
       ],
       "shortname": "css-typed-om"
-    },
-    "constructor(config)": {
-      "args": [
-        "config"
-      ],
-      "for": [
-        "Sanitizer"
-      ],
-      "shortname": "sanitizer-api"
     },
     "constructor(configuration)": {
       "args": [
@@ -9639,6 +10002,27 @@
         "Animation"
       ],
       "shortname": "web-animations"
+    },
+    "constructor(exceptionTag, payload)": {
+      "args": [
+        "exceptionTag",
+        "payload"
+      ],
+      "for": [
+        "Exception"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "constructor(exceptionTag, payload, options)": {
+      "args": [
+        "exceptionTag",
+        "payload",
+        "options"
+      ],
+      "for": [
+        "Exception"
+      ],
+      "shortname": "wasm-js-api"
     },
     "constructor(faceDetectorOptions)": {
       "args": [
@@ -10094,6 +10478,9 @@
         "GPUOutOfMemoryError",
         "GPUPipelineError",
         "GPUValidationError",
+        "IdentityCredentialError",
+        "QuotaExceededError",
+        "SmartCardError",
         "WebTransportError"
       ],
       "shortname": "webidl"
@@ -10115,9 +10502,12 @@
       ],
       "for": [
         "GPUPipelineError",
+        "IdentityCredentialError",
+        "QuotaExceededError",
+        "SmartCardError",
         "WebTransportError"
       ],
-      "shortname": "webgpu"
+      "shortname": "webidl"
     },
     "constructor(messageInit)": {
       "args": [
@@ -10236,36 +10626,26 @@
       ],
       "for": [
         "Accelerometer",
+        "AnimationTrigger",
         "AudioBuffer",
         "CSSStyleSheet",
-        "CharacterBoundsUpdateEvent",
         "DocumentTimeline",
         "EditContext",
         "FragmentResult",
-        "GeolocationSensor",
         "GravitySensor",
         "LinearAccelerationSensor",
+        "PointerTimeline",
         "Profiler",
-        "SFrameTransform",
+        "RTCRtpSFrameDecrypter",
+        "RTCRtpSFrameEncrypter",
+        "SFrameDecrypterStream",
+        "SFrameEncrypterStream",
         "ScrollTimeline",
-        "SmartCardError",
         "TextFormat",
-        "TextFormatUpdateEvent",
-        "TextUpdateEvent",
         "UDPSocket",
         "ViewTimeline"
       ],
-      "shortname": "direct-sockets"
-    },
-    "constructor(options, message)": {
-      "args": [
-        "options",
-        "message"
-      ],
-      "for": [
-        "SmartCardError"
-      ],
-      "shortname": "web-smart-card"
+      "shortname": "pointer-animations"
     },
     "constructor(origin)": {
       "args": [
@@ -10368,6 +10748,25 @@
         "USBIsochronousInTransferResult"
       ],
       "shortname": "webusb"
+    },
+    "constructor(phrase)": {
+      "args": [
+        "phrase"
+      ],
+      "for": [
+        "SpeechRecognitionPhrase"
+      ],
+      "shortname": "speech-api"
+    },
+    "constructor(phrase, boost)": {
+      "args": [
+        "phrase",
+        "boost"
+      ],
+      "for": [
+        "SpeechRecognitionPhrase"
+      ],
+      "shortname": "speech-api"
     },
     "constructor(position)": {
       "args": [
@@ -10673,6 +11072,15 @@
       ],
       "shortname": "touch-events"
     },
+    "constructor(track)": {
+      "args": [
+        "track"
+      ],
+      "for": [
+        "MediaStreamTrackHandle"
+      ],
+      "shortname": "mediacapture-transform"
+    },
     "constructor(transform)": {
       "args": [
         "transform"
@@ -10729,11 +11137,13 @@
         "AnimationEvent",
         "AnimationPlaybackEvent",
         "AudioRenderCapacityEvent",
+        "AutofillEvent",
         "BeforeInstallPromptEvent",
         "BufferedChangeEvent",
         "CanMakePaymentEvent",
         "CapturedMouseEvent",
         "CharacterBoundsUpdateEvent",
+        "ClipboardChangeEvent",
         "ClipboardEvent",
         "CloseEvent",
         "CompositionEvent",
@@ -10750,6 +11160,7 @@
         "ExtendableMessageEvent",
         "FocusEvent",
         "FontFaceSetLoadEvent",
+        "GamepadEvent",
         "IDBVersionChangeEvent",
         "InputEvent",
         "InstallEvent",
@@ -10773,6 +11184,7 @@
         "RTCPeerConnectionIceEvent",
         "SecurityPolicyViolationEvent",
         "SnapEvent",
+        "Tag",
         "TextFormatUpdateEvent",
         "TextUpdateEvent",
         "TouchEvent",
@@ -10781,7 +11193,7 @@
         "ValueEvent",
         "WheelEvent"
       ],
-      "shortname": "dom"
+      "shortname": "cookiestore"
     },
     "constructor(type, animationEventInitDict)": {
       "args": [
@@ -10812,10 +11224,12 @@
         "AnimationPlaybackEvent",
         "AudioProcessingEvent",
         "AudioRenderCapacityEvent",
+        "AutofillEvent",
         "BeforeInstallPromptEvent",
         "BlobEvent",
         "BufferedChangeEvent",
         "CapturedMouseEvent",
+        "ClipboardChangeEvent",
         "ClipboardEvent",
         "CloseEvent",
         "CompositionEvent",
@@ -10884,9 +11298,10 @@
         "XRInputSourcesChangeEvent",
         "XRLayerEvent",
         "XRReferenceSpaceEvent",
-        "XRSessionEvent"
+        "XRSessionEvent",
+        "XRVisibilityMaskChangeEvent"
       ],
-      "shortname": "dom"
+      "shortname": "cookiestore"
     },
     "constructor(type, gpuUncapturedErrorEventInitDict)": {
       "args": [
@@ -11103,18 +11518,18 @@
       ],
       "shortname": "image-capture"
     },
-    "constructor(worker)": {
+    "constructor(workerOrWorkerAndParameters)": {
       "args": [
-        "worker"
+        "workerOrWorkerAndParameters"
       ],
       "for": [
         "RTCRtpScriptTransform"
       ],
       "shortname": "webrtc-encoded-transform"
     },
-    "constructor(worker, options)": {
+    "constructor(workerOrWorkerAndParameters, options)": {
       "args": [
-        "worker",
+        "workerOrWorkerAndParameters",
         "options"
       ],
       "for": [
@@ -11122,9 +11537,9 @@
       ],
       "shortname": "webrtc-encoded-transform"
     },
-    "constructor(worker, options, transfer)": {
+    "constructor(workerOrWorkerAndParameters, options, transfer)": {
       "args": [
-        "worker",
+        "workerOrWorkerAndParameters",
         "options",
         "transfer"
       ],
@@ -11323,38 +11738,7 @@
       "shortname": "indexeddb"
     }
   },
-  "contributeToHistogram()": {
-    "contributeToHistogram(contribution)": {
-      "args": [
-        "contribution"
-      ],
-      "for": [
-        "PrivateAggregation",
-        "RealTimeReporting"
-      ],
-      "shortname": "private-aggregation-api"
-    }
-  },
-  "contributeToHistogramOnEvent()": {
-    "contributeToHistogramOnEvent(event, contribution)": {
-      "args": [
-        "event",
-        "contribution"
-      ],
-      "for": [
-        "PrivateAggregation"
-      ],
-      "shortname": "private-aggregation-api"
-    }
-  },
   "control()": {
-    "control()": {
-      "args": [],
-      "for": [
-        "SmartCardConnection"
-      ],
-      "shortname": "web-smart-card"
-    },
     "control(controlCode, data)": {
       "args": [
         "controlCode",
@@ -11526,6 +11910,39 @@
     }
   },
   "copyBufferToBuffer()": {
+    "copyBufferToBuffer(source, destination)": {
+      "args": [
+        "source",
+        "destination"
+      ],
+      "for": [
+        "GPUCommandEncoder"
+      ],
+      "shortname": "webgpu"
+    },
+    "copyBufferToBuffer(source, destination, size)": {
+      "args": [
+        "source",
+        "destination",
+        "size"
+      ],
+      "for": [
+        "GPUCommandEncoder"
+      ],
+      "shortname": "webgpu"
+    },
+    "copyBufferToBuffer(source, sourceOffset, destination, destinationOffset)": {
+      "args": [
+        "source",
+        "sourceOffset",
+        "destination",
+        "destinationOffset"
+      ],
+      "for": [
+        "GPUCommandEncoder"
+      ],
+      "shortname": "webgpu"
+    },
     "copyBufferToBuffer(source, sourceOffset, destination, destinationOffset, size)": {
       "args": [
         "source",
@@ -11835,28 +12252,41 @@
     "create()": {
       "args": [],
       "for": [
-        "CredentialsContainer"
+        "CredentialsContainer",
+        "LanguageDetector",
+        "LanguageModel",
+        "Rewriter",
+        "Summarizer",
+        "TextDetector",
+        "Writer"
       ],
-      "shortname": "credential-management"
-    },
-    "create(O, Properties)": {
-      "args": [
-        "O",
-        "Properties"
-      ],
-      "for": [
-        "Object"
-      ],
-      "shortname": "ecmascript"
+      "shortname": "prompt-api"
     },
     "create(options)": {
       "args": [
         "options"
       ],
       "for": [
-        "CredentialsContainer"
+        "CredentialsContainer",
+        "LanguageDetector",
+        "LanguageModel",
+        "Rewriter",
+        "Summarizer",
+        "TextDetector",
+        "Translator",
+        "Writer"
       ],
-      "shortname": "credential-management"
+      "shortname": "prompt-api"
+    },
+    "create(proto, properties)": {
+      "args": [
+        "proto",
+        "properties"
+      ],
+      "for": [
+        "Object"
+      ],
+      "shortname": "ecmascript"
     }
   },
   "createAnalyser()": {
@@ -11945,15 +12375,6 @@
         "Document"
       ],
       "shortname": "dom"
-    }
-  },
-  "createAuctionNonce()": {
-    "createAuctionNonce()": {
-      "args": [],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
     }
   },
   "createBidirectionalStream()": {
@@ -12165,6 +12586,18 @@
       "shortname": "webaudio"
     }
   },
+  "createConstantTensor()": {
+    "createConstantTensor(descriptor, inputData)": {
+      "args": [
+        "descriptor",
+        "inputData"
+      ],
+      "for": [
+        "MLContext"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "createContext()": {
     "createContext()": {
       "args": [],
@@ -12346,9 +12779,9 @@
     }
   },
   "createDocumentType()": {
-    "createDocumentType(qualifiedName, publicId, systemId)": {
+    "createDocumentType(name, publicId, systemId)": {
       "args": [
-        "qualifiedName",
+        "name",
         "publicId",
         "systemId"
       ],
@@ -12573,9 +13006,9 @@
     }
   },
   "createImageData()": {
-    "createImageData(imagedata)": {
+    "createImageData(imageData)": {
       "args": [
-        "imagedata"
+        "imageData"
       ],
       "for": [
         "CanvasImageData"
@@ -13218,6 +13651,17 @@
       "shortname": "html"
     }
   },
+  "createTensor()": {
+    "createTensor(descriptor)": {
+      "args": [
+        "descriptor"
+      ],
+      "for": [
+        "MLContext"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "createTextNode()": {
     "createTextNode(data)": {
       "args": [
@@ -13317,32 +13761,12 @@
       "shortname": "webaudio"
     }
   },
-  "createWorklet()": {
-    "createWorklet(moduleURL)": {
-      "args": [
-        "moduleURL"
-      ],
-      "for": [
-        "SharedStorage"
-      ],
-      "shortname": "shared-storage"
-    },
-    "createWorklet(moduleURL, options)": {
-      "args": [
-        "moduleURL",
-        "options"
-      ],
-      "for": [
-        "SharedStorage"
-      ],
-      "shortname": "shared-storage"
-    }
-  },
   "createWritable()": {
     "createWritable()": {
       "args": [],
       "for": [
-        "FileSystemFileHandle"
+        "FileSystemFileHandle",
+        "WebTransportDatagramDuplexStream"
       ],
       "shortname": "fs"
     },
@@ -13351,7 +13775,8 @@
         "options"
       ],
       "for": [
-        "FileSystemFileHandle"
+        "FileSystemFileHandle",
+        "WebTransportDatagramDuplexStream"
       ],
       "shortname": "fs"
     }
@@ -13374,6 +13799,29 @@
       "shortname": "mediacapture-region"
     }
   },
+  "cumulativeSum()": {
+    "cumulativeSum(input, axis)": {
+      "args": [
+        "input",
+        "axis"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "cumulativeSum(input, axis, options)": {
+      "args": [
+        "input",
+        "axis",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "customSections()": {
     "customSections(moduleObject, sectionName)": {
       "args": [
@@ -13384,15 +13832,6 @@
         "Module"
       ],
       "shortname": "wasm-js-api"
-    }
-  },
-  "dataType()": {
-    "dataType()": {
-      "args": [],
-      "for": [
-        "MLOperand"
-      ],
-      "shortname": "webnn"
     }
   },
   "databases()": {
@@ -13420,6 +13859,63 @@
         "console"
       ],
       "shortname": "console"
+    }
+  },
+  "decapsulateBits()": {
+    "decapsulateBits()": {
+      "args": [],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "decapsulateBits(decapsulationAlgorithm, decapsulationKey, ciphertext)": {
+      "args": [
+        "decapsulationAlgorithm",
+        "decapsulationKey",
+        "ciphertext"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    }
+  },
+  "decapsulateKey()": {
+    "decapsulateKey()": {
+      "args": [],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "decapsulateKey(decapsulationAlgorithm, decapsulationKey, ciphertext, sharedKeyAlgorithm, extractable, keyUsages)": {
+      "args": [
+        "decapsulationAlgorithm",
+        "decapsulationKey",
+        "ciphertext",
+        "sharedKeyAlgorithm",
+        "extractable",
+        "keyUsages"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "decapsulateKey(decapsulationAlgorithm, decapsulationKey, ciphertext, sharedKeyAlgorithm, extractable, usages)": {
+      "args": [
+        "decapsulationAlgorithm",
+        "decapsulationKey",
+        "ciphertext",
+        "sharedKeyAlgorithm",
+        "extractable",
+        "usages"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
     }
   },
   "decode()": {
@@ -13536,13 +14032,22 @@
       "shortname": "media-capabilities"
     }
   },
+  "decreaseZoomLevel()": {
+    "decreaseZoomLevel()": {
+      "args": [],
+      "for": [
+        "CaptureController"
+      ],
+      "shortname": "mediacapture-surface-control"
+    }
+  },
   "decrypt()": {
     "decrypt()": {
       "args": [],
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "decrypt(algorithm, key, data)": {
       "args": [
@@ -13553,7 +14058,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "define()": {
@@ -13570,10 +14075,10 @@
     }
   },
   "defineProperties()": {
-    "defineProperties(O, Properties)": {
+    "defineProperties(obj, properties)": {
       "args": [
-        "O",
-        "Properties"
+        "obj",
+        "properties"
       ],
       "for": [
         "Object"
@@ -13582,22 +14087,22 @@
     }
   },
   "defineProperty()": {
-    "defineProperty(O, P, Attributes)": {
+    "defineProperty(obj, key, attrs)": {
       "args": [
-        "O",
-        "P",
-        "Attributes"
+        "obj",
+        "key",
+        "attrs"
       ],
       "for": [
         "Object"
       ],
       "shortname": "ecmascript"
     },
-    "defineProperty(target, propertyKey, attributes)": {
+    "defineProperty(target, key, attrs)": {
       "args": [
         "target",
-        "propertyKey",
-        "attributes"
+        "key",
+        "attrs"
       ],
       "for": [
         "Reflect"
@@ -13658,8 +14163,8 @@
         "key"
       ],
       "for": [
+        "CrashReportContext",
         "Map",
-        "SharedStorage",
         "WeakMap"
       ],
       "shortname": "ecmascript"
@@ -13675,7 +14180,7 @@
         "StorageBucketManager",
         "URLSearchParams"
       ],
-      "shortname": "fetch"
+      "shortname": "cookiestore"
     },
     "delete(name, value)": {
       "args": [
@@ -13694,7 +14199,7 @@
       "for": [
         "CookieStore"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "delete(property)": {
       "args": [
@@ -13850,10 +14355,10 @@
     }
   },
   "deleteProperty()": {
-    "deleteProperty(target, propertyKey)": {
+    "deleteProperty(target, key)": {
       "args": [
         "target",
-        "propertyKey"
+        "key"
       ],
       "for": [
         "Reflect"
@@ -13880,10 +14385,9 @@
       ],
       "for": [
         "CSSGroupingRule",
-        "CSSStyleRule",
         "CSSStyleSheet"
       ],
-      "shortname": "css-nesting"
+      "shortname": "cssom"
     },
     "deleteRule(select)": {
       "args": [
@@ -13946,6 +14450,31 @@
       "shortname": "fenced-frame"
     }
   },
+  "dequantizeLinear()": {
+    "dequantizeLinear(input, scale, zeroPoint)": {
+      "args": [
+        "input",
+        "scale",
+        "zeroPoint"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "dequantizeLinear(input, scale, zeroPoint, options)": {
+      "args": [
+        "input",
+        "scale",
+        "zeroPoint",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "deref()": {
     "deref()": {
       "args": [],
@@ -13961,7 +14490,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "deriveBits(algorithm, baseKey)": {
       "args": [
@@ -13971,7 +14500,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "deriveBits(algorithm, baseKey, length)": {
       "args": [
@@ -13982,7 +14511,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "deriveKey()": {
@@ -13991,7 +14520,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "deriveKey(algorithm, baseKey, derivedKeyType, extractable, keyUsages)": {
       "args": [
@@ -14004,7 +14533,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "destroy()": {
@@ -14012,10 +14541,14 @@
       "args": [],
       "for": [
         "CloseWatcher",
+        "DestroyableModel",
         "GPUBuffer",
         "GPUDevice",
         "GPUQuerySet",
         "GPUTexture",
+        "MLContext",
+        "MLGraph",
+        "MLTensor",
         "XRCompositionLayer"
       ],
       "shortname": "html"
@@ -14042,6 +14575,25 @@
         "TextDetector"
       ],
       "shortname": "shape-detection-api"
+    },
+    "detect(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "LanguageDetector"
+      ],
+      "shortname": "translation-api"
+    },
+    "detect(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "LanguageDetector"
+      ],
+      "shortname": "translation-api"
     }
   },
   "difference()": {
@@ -14061,7 +14613,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "digest(algorithm, data)": {
       "args": [
@@ -14071,7 +14623,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "dir()": {
@@ -14127,6 +14679,15 @@
         "NavigationPreloadManager"
       ],
       "shortname": "service-workers"
+    }
+  },
+  "disableUntrustedNetwork()": {
+    "disableUntrustedNetwork()": {
+      "args": [],
+      "for": [
+        "Fence"
+      ],
+      "shortname": "fenced-frame"
     }
   },
   "disconnect()": {
@@ -14221,6 +14782,19 @@
         "AudioNode"
       ],
       "shortname": "webaudio"
+    }
+  },
+  "dispatch()": {
+    "dispatch(graph, inputs, outputs)": {
+      "args": [
+        "graph",
+        "inputs",
+        "outputs"
+      ],
+      "for": [
+        "MLContext"
+      ],
+      "shortname": "webnn"
     }
   },
   "dispatchEvent()": {
@@ -14705,31 +15279,13 @@
       "shortname": "service-workers"
     }
   },
-  "enableDebugMode()": {
-    "enableDebugMode()": {
-      "args": [],
-      "for": [
-        "PrivateAggregation"
-      ],
-      "shortname": "private-aggregation-api"
-    },
-    "enableDebugMode(options)": {
-      "args": [
-        "options"
-      ],
-      "for": [
-        "PrivateAggregation"
-      ],
-      "shortname": "private-aggregation-api"
-    }
-  },
   "enableDelegations()": {
     "enableDelegations()": {
       "args": [],
       "for": [
         "PaymentManager"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "enableDelegations(delegations)": {
       "args": [
@@ -14738,7 +15294,61 @@
       "for": [
         "PaymentManager"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
+    }
+  },
+  "encapsulateBits()": {
+    "encapsulateBits()": {
+      "args": [],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "encapsulateBits(encapsulationAlgorithm, encapsulationKey)": {
+      "args": [
+        "encapsulationAlgorithm",
+        "encapsulationKey"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    }
+  },
+  "encapsulateKey()": {
+    "encapsulateKey()": {
+      "args": [],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "encapsulateKey(encapsulationAlgorithm, encapsulationKey, sharedKeyAlgorithm, extractable, keyUsages)": {
+      "args": [
+        "encapsulationAlgorithm",
+        "encapsulationKey",
+        "sharedKeyAlgorithm",
+        "extractable",
+        "keyUsages"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "encapsulateKey(encapsulationAlgorithm, encapsulationKey, sharedKeyAlgorithm, extractable, usages)": {
+      "args": [
+        "encapsulationAlgorithm",
+        "encapsulationKey",
+        "sharedKeyAlgorithm",
+        "extractable",
+        "usages"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
     }
   },
   "encode()": {
@@ -14838,7 +15448,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "encrypt(algorithm, key, data)": {
       "args": [
@@ -14849,7 +15459,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "end()": {
@@ -14957,9 +15567,9 @@
       ],
       "shortname": "html"
     },
-    "entries(O)": {
+    "entries(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -15115,6 +15725,7 @@
         "string"
       ],
       "for": [
+        "RegExp",
         "globalThis"
       ],
       "shortname": "ecmascript"
@@ -15141,9 +15752,9 @@
     }
   },
   "eval()": {
-    "eval(x)": {
+    "eval(source)": {
       "args": [
-        "x"
+        "source"
       ],
       "for": [
         "globalThis"
@@ -15274,9 +15885,9 @@
     }
   },
   "exchange()": {
-    "exchange(typedArray, index, value)": {
+    "exchange(ta, index, value)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value"
       ],
@@ -15517,7 +16128,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "exportKey(format, key)": {
       "args": [
@@ -15527,7 +16138,39 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
+    }
+  },
+  "exportKeyingMaterial()": {
+    "exportKeyingMaterial(label)": {
+      "args": [
+        "label"
+      ],
+      "for": [
+        "WebTransport"
+      ],
+      "shortname": "webtransport"
+    },
+    "exportKeyingMaterial(label, context)": {
+      "args": [
+        "label",
+        "context"
+      ],
+      "for": [
+        "WebTransport"
+      ],
+      "shortname": "webtransport"
+    },
+    "exportKeyingMaterial(label, context, outputLength)": {
+      "args": [
+        "label",
+        "context",
+        "outputLength"
+      ],
+      "for": [
+        "WebTransport"
+      ],
+      "shortname": "webtransport"
     }
   },
   "exports()": {
@@ -15576,6 +16219,17 @@
         "Range"
       ],
       "shortname": "dom"
+    }
+  },
+  "f16round()": {
+    "f16round(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "Math"
+      ],
+      "shortname": "ecmascript"
     }
   },
   "fastSeek()": {
@@ -15636,6 +16290,27 @@
       ],
       "for": [
         "WindowOrWorkerGlobalScope"
+      ],
+      "shortname": "fetch"
+    }
+  },
+  "fetchLater()": {
+    "fetchLater(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Window"
+      ],
+      "shortname": "fetch"
+    },
+    "fetchLater(input, init)": {
+      "args": [
+        "input",
+        "init"
+      ],
+      "for": [
+        "Window"
       ],
       "shortname": "fetch"
     }
@@ -15953,9 +16628,9 @@
       ],
       "shortname": "ecmascript"
     },
-    "flatMap(mapperFunction, thisArg)": {
+    "flatMap(mapperFunc, thisArg)": {
       "args": [
-        "mapperFunction",
+        "mapperFunc",
         "thisArg"
       ],
       "for": [
@@ -16078,7 +16753,7 @@
         "options"
       ],
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "shortname": "html"
     }
@@ -16216,6 +16891,36 @@
       "shortname": "html"
     }
   },
+  "forwardWheel()": {
+    "forwardWheel()": {
+      "args": [],
+      "for": [
+        "CaptureController"
+      ],
+      "shortname": "mediacapture-surface-control"
+    },
+    "forwardWheel(element)": {
+      "args": [
+        "element"
+      ],
+      "for": [
+        "CaptureController"
+      ],
+      "shortname": "mediacapture-surface-control"
+    }
+  },
+  "foveateBoundTexture()": {
+    "foveateBoundTexture(target, fixed_foveation)": {
+      "args": [
+        "target",
+        "fixed_foveation"
+      ],
+      "for": [
+        "XRWebGLBinding"
+      ],
+      "shortname": "webxrlayers"
+    }
+  },
   "fr()": {
     "fr(value)": {
       "args": [
@@ -16258,9 +16963,9 @@
     }
   },
   "freeze()": {
-    "freeze(O)": {
+    "freeze(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -16269,15 +16974,6 @@
     }
   },
   "from()": {
-    "from(O)": {
-      "args": [
-        "O"
-      ],
-      "for": [
-        "Iterator"
-      ],
-      "shortname": "ecmascript"
-    },
     "from(asyncIterable)": {
       "args": [
         "asyncIterable"
@@ -16298,14 +16994,49 @@
       ],
       "shortname": "ecmascript"
     },
+    "from(obj)": {
+      "args": [
+        "obj"
+      ],
+      "for": [
+        "Iterator"
+      ],
+      "shortname": "ecmascript"
+    },
     "from(value)": {
       "args": [
         "value"
       ],
       "for": [
-        "Observable"
+        "Observable",
+        "Origin"
       ],
-      "shortname": "observable"
+      "shortname": "html"
+    }
+  },
+  "fromAsync()": {
+    "fromAsync(items, mapper, thisArg)": {
+      "args": [
+        "items",
+        "mapper",
+        "thisArg"
+      ],
+      "for": [
+        "Array"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "fromBase64()": {
+    "fromBase64(string, options)": {
+      "args": [
+        "string",
+        "options"
+      ],
+      "for": [
+        "Uint8Array"
+      ],
+      "shortname": "ecmascript"
     }
   },
   "fromCharCode()": {
@@ -16383,6 +17114,17 @@
         "DOMMatrixReadOnly"
       ],
       "shortname": "geometry"
+    }
+  },
+  "fromHex()": {
+    "fromHex(string)": {
+      "args": [
+        "string"
+      ],
+      "for": [
+        "Uint8Array"
+      ],
+      "shortname": "ecmascript"
     }
   },
   "fromMatrix()": {
@@ -16543,6 +17285,52 @@
       "shortname": "webrtc-ice"
     }
   },
+  "gatherElements()": {
+    "gatherElements(input, indices)": {
+      "args": [
+        "input",
+        "indices"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "gatherElements(input, indices, options)": {
+      "args": [
+        "input",
+        "indices",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "gatherND()": {
+    "gatherND(input, indices)": {
+      "args": [
+        "input",
+        "indices"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "gatherND(input, indices, options)": {
+      "args": [
+        "input",
+        "indices",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "gc()": {
     "gc()": {
       "args": [],
@@ -16620,7 +17408,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "generateKey(algorithm, extractable, keyUsages)": {
       "args": [
@@ -16631,15 +17419,14 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "generateKeyFrame()": {
     "generateKeyFrame()": {
       "args": [],
       "for": [
-        "RTCRtpScriptTransformer",
-        "RTCRtpSender"
+        "RTCRtpScriptTransformer"
       ],
       "shortname": "webrtc-encoded-transform"
     },
@@ -16648,17 +17435,7 @@
         "rid"
       ],
       "for": [
-        "RTCRtpScriptTransform",
         "RTCRtpScriptTransformer"
-      ],
-      "shortname": "webrtc-encoded-transform"
-    },
-    "generateKeyFrame(rids)": {
-      "args": [
-        "rids"
-      ],
-      "for": [
-        "RTCRtpSender"
       ],
       "shortname": "webrtc-encoded-transform"
     }
@@ -16692,7 +17469,7 @@
         "NamedFlowMap",
         "Sanitizer"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "get(id)": {
       "args": [
@@ -16718,9 +17495,10 @@
         "jointName"
       ],
       "for": [
+        "XRBody",
         "XRHand"
       ],
-      "shortname": "webxr-hand-input"
+      "shortname": "body-tracking"
     },
     "get(key)": {
       "args": [
@@ -16728,11 +17506,11 @@
       ],
       "for": [
         "Map",
-        "SharedStorage",
         "WeakMap",
+        "XRBody",
         "XRHand"
       ],
-      "shortname": "ecmascript"
+      "shortname": "body-tracking"
     },
     "get(keyId)": {
       "args": [
@@ -16754,7 +17532,7 @@
         "Headers",
         "URLSearchParams"
       ],
-      "shortname": "fetch"
+      "shortname": "cookiestore"
     },
     "get(options)": {
       "args": [
@@ -16764,7 +17542,7 @@
         "CookieStore",
         "CredentialsContainer"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "get(property)": {
       "args": [
@@ -16786,10 +17564,10 @@
       ],
       "shortname": "indexeddb"
     },
-    "get(target, propertyKey, receiver)": {
+    "get(target, key, receiver)": {
       "args": [
         "target",
-        "propertyKey",
+        "key",
         "receiver"
       ],
       "for": [
@@ -16807,7 +17585,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "content-index"
+      "shortname": "cookiestore"
     },
     "getAll(name)": {
       "args": [
@@ -16818,7 +17596,7 @@
         "FormData",
         "URLSearchParams"
       ],
-      "shortname": "url"
+      "shortname": "cookiestore"
     },
     "getAll(options)": {
       "args": [
@@ -16827,7 +17605,7 @@
       "for": [
         "CookieStore"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "getAll(property)": {
       "args": [
@@ -16839,9 +17617,9 @@
       ],
       "shortname": "css-typed-om"
     },
-    "getAll(query)": {
+    "getAll(queryOrOptions)": {
       "args": [
-        "query"
+        "queryOrOptions"
       ],
       "for": [
         "IDBIndex",
@@ -16849,9 +17627,9 @@
       ],
       "shortname": "indexeddb"
     },
-    "getAll(query, count)": {
+    "getAll(queryOrOptions, count)": {
       "args": [
-        "query",
+        "queryOrOptions",
         "count"
       ],
       "for": [
@@ -16870,9 +17648,9 @@
       ],
       "shortname": "indexeddb"
     },
-    "getAllKeys(query)": {
+    "getAllKeys(queryOrOptions)": {
       "args": [
-        "query"
+        "queryOrOptions"
       ],
       "for": [
         "IDBIndex",
@@ -16880,10 +17658,30 @@
       ],
       "shortname": "indexeddb"
     },
-    "getAllKeys(query, count)": {
+    "getAllKeys(queryOrOptions, count)": {
       "args": [
-        "query",
+        "queryOrOptions",
         "count"
+      ],
+      "for": [
+        "IDBIndex",
+        "IDBObjectStore"
+      ],
+      "shortname": "indexeddb"
+    }
+  },
+  "getAllRecords()": {
+    "getAllRecords()": {
+      "args": [],
+      "for": [
+        "IDBIndex",
+        "IDBObjectStore"
+      ],
+      "shortname": "indexeddb"
+    },
+    "getAllRecords(options)": {
+      "args": [
+        "options"
       ],
       "for": [
         "IDBIndex",
@@ -16949,6 +17747,28 @@
       "shortname": "device-attributes"
     }
   },
+  "getArg()": {
+    "getArg(exceptionTag, index)": {
+      "args": [
+        "exceptionTag",
+        "index"
+      ],
+      "for": [
+        "Exception"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
+  "getArguments()": {
+    "getArguments()": {
+      "args": [],
+      "for": [
+        "CSSApplyBlockRule",
+        "CSSApplyStatementRule"
+      ],
+      "shortname": "css-mixins"
+    }
+  },
   "getAsFile()": {
     "getAsFile()": {
       "args": [],
@@ -16979,13 +17799,6 @@
     }
   },
   "getAttribute()": {
-    "getAttribute()": {
-      "args": [],
-      "for": [
-        "SmartCardConnection"
-      ],
-      "shortname": "web-smart-card"
-    },
     "getAttribute(qualifiedName)": {
       "args": [
         "qualifiedName"
@@ -17496,7 +18309,7 @@
     "getContextAttributes()": {
       "args": [],
       "for": [
-        "CanvasRenderingContext2D"
+        "CanvasSettings"
       ],
       "shortname": "html"
     }
@@ -18035,6 +18848,18 @@
       "shortname": "webrtc"
     }
   },
+  "getFloat16()": {
+    "getFloat16(byteOffset, littleEndian)": {
+      "args": [
+        "byteOffset",
+        "littleEndian"
+      ],
+      "for": [
+        "DataView"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
   "getFloat32()": {
     "getFloat32(byteOffset, littleEndian)": {
       "args": [
@@ -18292,26 +19117,6 @@
       "shortname": "ecmascript"
     }
   },
-  "getInterestGroupAdAuctionData()": {
-    "getInterestGroupAdAuctionData(config)": {
-      "args": [
-        "config"
-      ],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
-    },
-    "getInterestGroupAdAuctionData(configIDL)": {
-      "args": [
-        "configIDL"
-      ],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
-    }
-  },
   "getItem()": {
     "getItem(key)": {
       "args": [
@@ -18370,6 +19175,15 @@
         "KeyframeEffect"
       ],
       "shortname": "web-animations"
+    }
+  },
+  "getLargestInteractionContentfulPaint()": {
+    "getLargestInteractionContentfulPaint()": {
+      "args": [],
+      "for": [
+        "PerformanceSoftNavigation"
+      ],
+      "shortname": "soft-navigations"
     }
   },
   "getLayoutMap()": {
@@ -18490,9 +19304,10 @@
     "getModifierState()": {
       "args": [],
       "for": [
+        "MouseEvent",
         "TouchEvent"
       ],
-      "shortname": "touch-events"
+      "shortname": "pointerevents"
     },
     "getModifierState(keyArg)": {
       "args": [
@@ -18503,7 +19318,7 @@
         "MouseEvent",
         "TouchEvent"
       ],
-      "shortname": "touch-events"
+      "shortname": "pointerevents"
     }
   },
   "getMonth()": {
@@ -18598,6 +19413,32 @@
       "shortname": "webxr"
     }
   },
+  "getOrInsert()": {
+    "getOrInsert(key, value)": {
+      "args": [
+        "key",
+        "value"
+      ],
+      "for": [
+        "Map",
+        "WeakMap"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "getOrInsertComputed()": {
+    "getOrInsertComputed(key, callback)": {
+      "args": [
+        "key",
+        "callback"
+      ],
+      "for": [
+        "Map",
+        "WeakMap"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
   "getOutputTimestamp()": {
     "getOutputTimestamp()": {
       "args": [],
@@ -18608,20 +19449,20 @@
     }
   },
   "getOwnPropertyDescriptor()": {
-    "getOwnPropertyDescriptor(O, P)": {
+    "getOwnPropertyDescriptor(obj, key)": {
       "args": [
-        "O",
-        "P"
+        "obj",
+        "key"
       ],
       "for": [
         "Object"
       ],
       "shortname": "ecmascript"
     },
-    "getOwnPropertyDescriptor(target, propertyKey)": {
+    "getOwnPropertyDescriptor(target, key)": {
       "args": [
         "target",
-        "propertyKey"
+        "key"
       ],
       "for": [
         "Reflect"
@@ -18630,9 +19471,9 @@
     }
   },
   "getOwnPropertyDescriptors()": {
-    "getOwnPropertyDescriptors(O)": {
+    "getOwnPropertyDescriptors(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -18641,9 +19482,9 @@
     }
   },
   "getOwnPropertyNames()": {
-    "getOwnPropertyNames(O)": {
+    "getOwnPropertyNames(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -18652,9 +19493,9 @@
     }
   },
   "getOwnPropertySymbols()": {
-    "getOwnPropertySymbols(O)": {
+    "getOwnPropertySymbols(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -18672,16 +19513,27 @@
         "XSLTProcessor"
       ],
       "shortname": "dom"
+    },
+    "getParameter(pname)": {
+      "args": [
+        "pname"
+      ],
+      "for": [
+        "WebGLRenderingContextBase"
+      ],
+      "shortname": "webgl1"
     }
   },
   "getParameters()": {
     "getParameters()": {
       "args": [],
       "for": [
+        "CSSFunctionRule",
+        "CSSMixinRule",
         "RTCRtpReceiver",
         "RTCRtpSender"
       ],
-      "shortname": "webrtc"
+      "shortname": "css-mixins"
     }
   },
   "getParent()": {
@@ -18880,9 +19732,9 @@
     }
   },
   "getPrototypeOf()": {
-    "getPrototypeOf(O)": {
+    "getPrototypeOf(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -18903,9 +19755,30 @@
     "getPublicKey()": {
       "args": [],
       "for": [
-        "AuthenticatorAttestationResponse"
+        "AuthenticatorAttestationResponse",
+        "SubtleCrypto"
       ],
-      "shortname": "webauthn"
+      "shortname": "webcrypto-modern-algos"
+    },
+    "getPublicKey(key, keyUsages)": {
+      "args": [
+        "key",
+        "keyUsages"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "getPublicKey(key, usages)": {
+      "args": [
+        "key",
+        "usages"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
     }
   },
   "getPublicKeyAlgorithm()": {
@@ -18923,7 +19796,7 @@
       "for": [
         "Crypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "getRandomValues(array)": {
       "args": [
@@ -18932,7 +19805,7 @@
       "for": [
         "Crypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "getRangeAt()": {
@@ -19139,6 +20012,15 @@
       "shortname": "ecmascript"
     }
   },
+  "getSecurePaymentConfirmationCapabilities()": {
+    "getSecurePaymentConfirmationCapabilities()": {
+      "args": [],
+      "for": [
+        "PaymentRequest"
+      ],
+      "shortname": "secure-payment-confirmation"
+    }
+  },
   "getSelectedCandidatePair()": {
     "getSelectedCandidatePair()": {
       "args": [],
@@ -19246,6 +20128,7 @@
     "getState()": {
       "args": [],
       "for": [
+        "NavigationDestination",
         "NavigationHistoryEntry",
         "NavigationPreloadManager"
       ],
@@ -19277,13 +20160,6 @@
     }
   },
   "getStatusChange()": {
-    "getStatusChange()": {
-      "args": [],
-      "for": [
-        "SmartCardContext"
-      ],
-      "shortname": "web-smart-card"
-    },
     "getStatusChange(readerStates)": {
       "args": [
         "readerStates"
@@ -19369,7 +20245,7 @@
       "for": [
         "CookieStoreManager"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     }
   },
   "getSupportedCaptureActions()": {
@@ -19397,6 +20273,15 @@
         "BarcodeDetector"
       ],
       "shortname": "shape-detection-api"
+    }
+  },
+  "getSupportedZoomLevels()": {
+    "getSupportedZoomLevels()": {
+      "args": [],
+      "for": [
+        "CaptureController"
+      ],
+      "shortname": "mediacapture-surface-control"
     }
   },
   "getSynchronizationSources()": {
@@ -19654,15 +20539,6 @@
         "DataView"
       ],
       "shortname": "ecmascript"
-    }
-  },
-  "getUnsafe()": {
-    "getUnsafe()": {
-      "args": [],
-      "for": [
-        "Sanitizer"
-      ],
-      "shortname": "sanitizer-api"
     }
   },
   "getUserData()": {
@@ -20176,10 +21052,10 @@
       ],
       "shortname": "css-typed-om"
     },
-    "has(target, propertyKey)": {
+    "has(target, key)": {
       "args": [
         "target",
-        "propertyKey"
+        "key"
       ],
       "for": [
         "Reflect"
@@ -20277,10 +21153,10 @@
     }
   },
   "hasOwn()": {
-    "hasOwn(O, P)": {
+    "hasOwn(obj, key)": {
       "args": [
-        "O",
-        "P"
+        "obj",
+        "key"
       ],
       "for": [
         "Object"
@@ -20289,9 +21165,9 @@
     }
   },
   "hasOwnProperty()": {
-    "hasOwnProperty(V)": {
+    "hasOwnProperty(value)": {
       "args": [
-        "V"
+        "value"
       ],
       "for": [
         "Object"
@@ -20375,6 +21251,29 @@
       "shortname": "html"
     }
   },
+  "highlightsFromPoint()": {
+    "highlightsFromPoint(x, y)": {
+      "args": [
+        "x",
+        "y"
+      ],
+      "for": [
+        "HighlightRegistry"
+      ],
+      "shortname": "css-highlight-api"
+    },
+    "highlightsFromPoint(x, y, options)": {
+      "args": [
+        "x",
+        "y",
+        "options"
+      ],
+      "for": [
+        "HighlightRegistry"
+      ],
+      "shortname": "css-highlight-api"
+    }
+  },
   "hypot()": {
     "hypot(...args)": {
       "args": [
@@ -20435,7 +21334,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "importKey(format, keyData, algorithm, extractable, keyUsages)": {
       "args": [
@@ -20448,7 +21347,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "importNode()": {
@@ -20461,10 +21360,10 @@
       ],
       "shortname": "dom"
     },
-    "importNode(node, deep)": {
+    "importNode(node, options)": {
       "args": [
         "node",
-        "deep"
+        "options"
       ],
       "for": [
         "Document"
@@ -20567,6 +21466,15 @@
         "String"
       ],
       "shortname": "ecmascript"
+    }
+  },
+  "increaseZoomLevel()": {
+    "increaseZoomLevel()": {
+      "args": [],
+      "for": [
+        "CaptureController"
+      ],
+      "shortname": "mediacapture-surface-control"
     }
   },
   "index()": {
@@ -20910,6 +21818,13 @@
     }
   },
   "initMouseEvent()": {
+    "initMouseEvent()": {
+      "args": [],
+      "for": [
+        "MouseEvent"
+      ],
+      "shortname": "pointerevents"
+    },
     "initMouseEvent(typeArg)": {
       "args": [
         "typeArg"
@@ -20917,7 +21832,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg)": {
       "args": [
@@ -20927,7 +21842,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg)": {
       "args": [
@@ -20938,7 +21853,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)": {
       "args": [
@@ -20950,7 +21865,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)": {
       "args": [
@@ -20963,7 +21878,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)": {
       "args": [
@@ -20977,7 +21892,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)": {
       "args": [
@@ -20992,7 +21907,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)": {
       "args": [
@@ -21008,7 +21923,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)": {
       "args": [
@@ -21025,7 +21940,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)": {
       "args": [
@@ -21043,7 +21958,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)": {
       "args": [
@@ -21062,7 +21977,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)": {
       "args": [
@@ -21082,7 +21997,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)": {
       "args": [
@@ -21103,7 +22018,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)": {
       "args": [
@@ -21125,7 +22040,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     },
     "initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)": {
       "args": [
@@ -21148,7 +22063,7 @@
       "for": [
         "MouseEvent"
       ],
-      "shortname": "uievents"
+      "shortname": "pointerevents"
     }
   },
   "initStorageEvent()": {
@@ -21281,6 +22196,26 @@
         "UIEvent"
       ],
       "shortname": "uievents"
+    }
+  },
+  "initialize()": {
+    "initialize(length)": {
+      "args": [
+        "length"
+      ],
+      "for": [
+        "CrashReportContext"
+      ],
+      "shortname": "crash-reporting"
+    },
+    "initialize(root)": {
+      "args": [
+        "root"
+      ],
+      "for": [
+        "CustomElementRegistry"
+      ],
+      "shortname": "html"
     }
   },
   "initiateRoomCapture()": {
@@ -21455,10 +22390,9 @@
       ],
       "for": [
         "CSSGroupingRule",
-        "CSSStyleRule",
         "CSSStyleSheet"
       ],
-      "shortname": "css-nesting"
+      "shortname": "cssom"
     },
     "insertRule(rule, index)": {
       "args": [
@@ -21467,10 +22401,9 @@
       ],
       "for": [
         "CSSGroupingRule",
-        "CSSStyleRule",
         "CSSStyleSheet"
       ],
-      "shortname": "css-nesting"
+      "shortname": "cssom"
     }
   },
   "inspect()": {
@@ -21489,6 +22422,17 @@
         "Observable"
       ],
       "shortname": "observable"
+    }
+  },
+  "install()": {
+    "install(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "SpeechRecognition"
+      ],
+      "shortname": "speech-api"
     }
   },
   "instanceNormalization()": {
@@ -21532,6 +22476,17 @@
       ],
       "shortname": "wasm-js-api"
     },
+    "instantiate(bytes, importObject, options)": {
+      "args": [
+        "bytes",
+        "importObject",
+        "options"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    },
     "instantiate(moduleObject)": {
       "args": [
         "moduleObject"
@@ -21566,6 +22521,17 @@
       "args": [
         "source",
         "importObject"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-web-api"
+    },
+    "instantiateStreaming(source, importObject, options)": {
+      "args": [
+        "source",
+        "importObject",
+        "options"
       ],
       "for": [
         "WebAssembly"
@@ -21634,6 +22600,15 @@
     }
   },
   "is()": {
+    "is(exceptionTag)": {
+      "args": [
+        "exceptionTag"
+      ],
+      "for": [
+        "Exception"
+      ],
+      "shortname": "wasm-js-api"
+    },
     "is(value1, value2)": {
       "args": [
         "value1",
@@ -21731,10 +22706,21 @@
       "shortname": "dom"
     }
   },
-  "isExtensible()": {
-    "isExtensible(O)": {
+  "isError()": {
+    "isError(arg)": {
       "args": [
-        "O"
+        "arg"
+      ],
+      "for": [
+        "Error"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "isExtensible()": {
+    "isExtensible(obj)": {
+      "args": [
+        "obj"
       ],
       "for": [
         "Object"
@@ -21757,16 +22743,24 @@
         "number"
       ],
       "for": [
-        "Number",
+        "Number"
+      ],
+      "shortname": "ecmascript"
+    },
+    "isFinite(value)": {
+      "args": [
+        "value"
+      ],
+      "for": [
         "globalThis"
       ],
       "shortname": "ecmascript"
     }
   },
   "isFrozen()": {
-    "isFrozen(O)": {
+    "isFrozen(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -21783,6 +22777,27 @@
         "TrustedTypePolicyFactory"
       ],
       "shortname": "trusted-types"
+    }
+  },
+  "isInfinite()": {
+    "isInfinite(a)": {
+      "args": [
+        "a"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "isInfinite(a, options)": {
+      "args": [
+        "a",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "isInputPending()": {
@@ -21826,24 +22841,42 @@
     }
   },
   "isNaN()": {
+    "isNaN(a)": {
+      "args": [
+        "a"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "isNaN(a, options)": {
+      "args": [
+        "a",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
     "isNaN(number)": {
       "args": [
         "number"
       ],
       "for": [
-        "Number",
+        "Number"
+      ],
+      "shortname": "ecmascript"
+    },
+    "isNaN(value)": {
+      "args": [
+        "value"
+      ],
+      "for": [
         "globalThis"
       ],
       "shortname": "ecmascript"
-    }
-  },
-  "isPasskeyPlatformAuthenticatorAvailable()": {
-    "isPasskeyPlatformAuthenticatorAvailable()": {
-      "args": [],
-      "for": [
-        "PublicKeyCredential"
-      ],
-      "shortname": "webauthn"
     }
   },
   "isPointInPath()": {
@@ -21907,12 +22940,23 @@
     }
   },
   "isPrototypeOf()": {
-    "isPrototypeOf(V)": {
+    "isPrototypeOf(value)": {
       "args": [
-        "V"
+        "value"
       ],
       "for": [
         "Object"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "isRawJSON()": {
+    "isRawJSON(obj)": {
+      "args": [
+        "obj"
+      ],
+      "for": [
+        "JSON"
       ],
       "shortname": "ecmascript"
     }
@@ -21950,6 +22994,28 @@
       "shortname": "dom"
     }
   },
+  "isSameOrigin()": {
+    "isSameOrigin(other)": {
+      "args": [
+        "other"
+      ],
+      "for": [
+        "Origin"
+      ],
+      "shortname": "html"
+    }
+  },
+  "isSameSite()": {
+    "isSameSite(other)": {
+      "args": [
+        "other"
+      ],
+      "for": [
+        "Origin"
+      ],
+      "shortname": "html"
+    }
+  },
   "isScript()": {
     "isScript(value)": {
       "args": [
@@ -21973,23 +23039,14 @@
     }
   },
   "isSealed()": {
-    "isSealed(O)": {
+    "isSealed(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
       ],
       "shortname": "ecmascript"
-    }
-  },
-  "isSecurePaymentConfirmationAvailable()": {
-    "isSecurePaymentConfirmationAvailable()": {
-      "args": [],
-      "for": [
-        "PaymentRequest"
-      ],
-      "shortname": "secure-payment-confirmation"
     }
   },
   "isSessionSupported()": {
@@ -22184,15 +23241,32 @@
       "shortname": "ecmascript"
     }
   },
-  "joinAdInterestGroup()": {
-    "joinAdInterestGroup(group)": {
+  "joinGroup()": {
+    "joinGroup()": {
+      "args": [],
+      "for": [
+        "MulticastController"
+      ],
+      "shortname": "direct-sockets"
+    },
+    "joinGroup(groupAddress)": {
       "args": [
-        "group"
+        "groupAddress"
       ],
       "for": [
-        "Navigator"
+        "MulticastController"
       ],
-      "shortname": "turtledove"
+      "shortname": "direct-sockets"
+    },
+    "joinGroup(groupAddress, options)": {
+      "args": [
+        "groupAddress",
+        "options"
+      ],
+      "for": [
+        "MulticastController"
+      ],
+      "shortname": "direct-sockets"
     }
   },
   "json()": {
@@ -22247,9 +23321,9 @@
     }
   },
   "keyFor()": {
-    "keyFor(sym)": {
+    "keyFor(symbol)": {
       "args": [
-        "sym"
+        "symbol"
       ],
       "for": [
         "Symbol"
@@ -22271,9 +23345,9 @@
       ],
       "shortname": "ecmascript"
     },
-    "keys(O)": {
+    "keys(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -22425,31 +23499,32 @@
       "shortname": "webnn"
     }
   },
-  "leaveAdInterestGroup()": {
-    "leaveAdInterestGroup()": {
+  "leaveGroup()": {
+    "leaveGroup()": {
       "args": [],
       "for": [
-        "Navigator"
+        "MulticastController"
       ],
-      "shortname": "turtledove"
+      "shortname": "direct-sockets"
     },
-    "leaveAdInterestGroup(group)": {
+    "leaveGroup(groupAddress)": {
       "args": [
-        "group"
+        "groupAddress"
       ],
       "for": [
-        "Navigator"
+        "MulticastController"
       ],
-      "shortname": "turtledove"
-    }
-  },
-  "length()": {
-    "length()": {
-      "args": [],
+      "shortname": "direct-sockets"
+    },
+    "leaveGroup(groupAddress, options)": {
+      "args": [
+        "groupAddress",
+        "options"
+      ],
       "for": [
-        "SharedStorage"
+        "MulticastController"
       ],
-      "shortname": "shared-storage"
+      "shortname": "direct-sockets"
     }
   },
   "lesser()": {
@@ -22630,9 +23705,9 @@
       ],
       "shortname": "encrypted-media"
     },
-    "load(typedArray, index)": {
+    "load(ta, index)": {
       "args": [
-        "typedArray",
+        "ta",
         "index"
       ],
       "for": [
@@ -22761,6 +23836,29 @@
       "shortname": "ecmascript"
     }
   },
+  "logicalAnd()": {
+    "logicalAnd(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "logicalAnd(a, b, options)": {
+      "args": [
+        "a",
+        "b",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "logicalNot()": {
     "logicalNot(a)": {
       "args": [
@@ -22774,6 +23872,52 @@
     "logicalNot(a, options)": {
       "args": [
         "a",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "logicalOr()": {
+    "logicalOr(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "logicalOr(a, b, options)": {
+      "args": [
+        "a",
+        "b",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "logicalXor()": {
+    "logicalXor(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "logicalXor(a, b, options)": {
+      "args": [
+        "a",
+        "b",
         "options"
       ],
       "for": [
@@ -22960,9 +24104,8 @@
       ],
       "shortname": "web-nfc"
     },
-    "makeReadOnly(, options)": {
+    "makeReadOnly(options)": {
       "args": [
-        "",
         "options"
       ],
       "for": [
@@ -23064,9 +24207,9 @@
     }
   },
   "match()": {
-    "match(regexp)": {
+    "match(regexpOrPattern)": {
       "args": [
-        "regexp"
+        "regexpOrPattern"
       ],
       "for": [
         "String"
@@ -23116,9 +24259,9 @@
       ],
       "shortname": "service-workers"
     },
-    "matchAll(regexp)": {
+    "matchAll(regexpOrPattern)": {
       "args": [
-        "regexp"
+        "regexpOrPattern"
       ],
       "for": [
         "String"
@@ -23318,6 +24461,38 @@
       "shortname": "user-timing"
     }
   },
+  "measureContextUsage()": {
+    "measureContextUsage(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
+    },
+    "measureContextUsage(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
+    }
+  },
+  "measureConversion()": {
+    "measureConversion(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "Attribution"
+      ],
+      "shortname": "attribution"
+    }
+  },
   "measureElement()": {
     "measureElement(element)": {
       "args": [
@@ -23327,6 +24502,37 @@
         "Document"
       ],
       "shortname": "font-metrics-api"
+    }
+  },
+  "measureInputUsage()": {
+    "measureInputUsage(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "LanguageDetector",
+        "LanguageModel",
+        "Rewriter",
+        "Summarizer",
+        "Translator",
+        "Writer"
+      ],
+      "shortname": "prompt-api"
+    },
+    "measureInputUsage(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "LanguageDetector",
+        "LanguageModel",
+        "Rewriter",
+        "Summarizer",
+        "Translator",
+        "Writer"
+      ],
+      "shortname": "prompt-api"
     }
   },
   "measureText()": {
@@ -23464,6 +24670,18 @@
         "Selection"
       ],
       "shortname": "selection-api"
+    }
+  },
+  "moveBefore()": {
+    "moveBefore(node, child)": {
+      "args": [
+        "node",
+        "child"
+      ],
+      "for": [
+        "ParentNode"
+      ],
+      "shortname": "dom"
     }
   },
   "moveBy()": {
@@ -23679,6 +24897,27 @@
       "shortname": "html"
     }
   },
+  "new OffscreenCanvas()": {
+    "new OffscreenCanvas(width, height)": {
+      "args": [
+        "width",
+        "height"
+      ],
+      "for": [
+        "OffscreenCanvas"
+      ],
+      "shortname": "html"
+    }
+  },
+  "new Origin()": {
+    "new Origin()": {
+      "args": [],
+      "for": [
+        "Origin"
+      ],
+      "shortname": "html"
+    }
+  },
   "new Profiler()": {
     "new Profiler(options)": {
       "args": [
@@ -23688,6 +24927,41 @@
         "Profiler"
       ],
       "shortname": "js-self-profiling"
+    }
+  },
+  "new Sanitizer()": {
+    "new Sanitizer(configuration)": {
+      "args": [
+        "configuration"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
+  "new SharedWorker()": {
+    "new SharedWorker(scriptURL, options)": {
+      "args": [
+        "scriptURL",
+        "options"
+      ],
+      "for": [
+        "SharedWorker"
+      ],
+      "shortname": "html"
+    }
+  },
+  "new Worker()": {
+    "new Worker(scriptURL, options)": {
+      "args": [
+        "scriptURL",
+        "options"
+      ],
+      "for": [
+        "Worker"
+      ],
+      "shortname": "html"
     }
   },
   "next()": {
@@ -23747,10 +25021,33 @@
       "shortname": "dom"
     }
   },
-  "notify()": {
-    "notify(typedArray, index, count)": {
+  "notEqual()": {
+    "notEqual(a, b)": {
       "args": [
-        "typedArray",
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "notEqual(a, b, options)": {
+      "args": [
+        "a",
+        "b",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "notify()": {
+    "notify(ta, index, count)": {
+      "args": [
+        "ta",
         "index",
         "count"
       ],
@@ -24112,7 +25409,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "openWindow(url)": {
       "args": [
@@ -24122,13 +25419,13 @@
         "Clients",
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "service-workers"
     }
   },
   "or()": {
-    "or(typedArray, index, value)": {
+    "or(ta, index, value)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value"
       ],
@@ -24207,6 +25504,15 @@
         "String"
       ],
       "shortname": "ecmascript"
+    }
+  },
+  "params()": {
+    "params()": {
+      "args": [],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
     }
   },
   "parentNode()": {
@@ -24379,15 +25685,6 @@
     }
   },
   "parseHTML()": {
-    "parseHTML(html)": {
-      "args": [
-        "html"
-      ],
-      "for": [
-        "Document"
-      ],
-      "shortname": "sanitizer-api"
-    },
     "parseHTML(html, options)": {
       "args": [
         "html",
@@ -24396,19 +25693,10 @@
       "for": [
         "Document"
       ],
-      "shortname": "sanitizer-api"
+      "shortname": "html"
     }
   },
   "parseHTMLUnsafe()": {
-    "parseHTMLUnsafe(html)": {
-      "args": [
-        "html"
-      ],
-      "for": [
-        "Document"
-      ],
-      "shortname": "html"
-    },
     "parseHTMLUnsafe(html, options)": {
       "args": [
         "html",
@@ -24417,7 +25705,7 @@
       "for": [
         "Document"
       ],
-      "shortname": "sanitizer-api"
+      "shortname": "html"
     }
   },
   "parseInt()": {
@@ -24534,11 +25822,21 @@
       "args": [],
       "for": [
         "Animation",
+        "Atomics",
         "HTMLMediaElement",
         "MediaRecorder",
         "SpeechSynthesis"
       ],
       "shortname": "html"
+    }
+  },
+  "pauseDepthSensing()": {
+    "pauseDepthSensing()": {
+      "args": [],
+      "for": [
+        "XRSession"
+      ],
+      "shortname": "webxr-depth-sensing"
     }
   },
   "pc()": {
@@ -24920,9 +26218,9 @@
     }
   },
   "preventExtensions()": {
-    "preventExtensions(O)": {
+    "preventExtensions(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -24985,6 +26283,25 @@
       ],
       "shortname": "manifest-incubations"
     },
+    "prompt(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
+    },
+    "prompt(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
+    },
     "prompt(message, default)": {
       "args": [
         "message",
@@ -24996,10 +26313,31 @@
       "shortname": "html"
     }
   },
-  "propertyIsEnumerable()": {
-    "propertyIsEnumerable(V)": {
+  "promptStreaming()": {
+    "promptStreaming(input)": {
       "args": [
-        "V"
+        "input"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
+    },
+    "promptStreaming(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "LanguageModel"
+      ],
+      "shortname": "prompt-api"
+    }
+  },
+  "propertyIsEnumerable()": {
+    "propertyIsEnumerable(value)": {
+      "args": [
+        "value"
       ],
       "for": [
         "Object"
@@ -25127,8 +26465,27 @@
     }
   },
   "putImageData()": {
-    "putImageData()": {
-      "args": [],
+    "putImageData(imageData, dx, dy)": {
+      "args": [
+        "imageData",
+        "dx",
+        "dy"
+      ],
+      "for": [
+        "CanvasImageData"
+      ],
+      "shortname": "html"
+    },
+    "putImageData(imageData, dx, dy, dirtyX, dirtyY, dirtyWidth, dirtyHeight)": {
+      "args": [
+        "imageData",
+        "dx",
+        "dy",
+        "dirtyX",
+        "dirtyY",
+        "dirtyWidth",
+        "dirtyHeight"
+      ],
       "for": [
         "CanvasImageData"
       ],
@@ -25160,6 +26517,31 @@
       "shortname": "html"
     }
   },
+  "quantizeLinear()": {
+    "quantizeLinear(input, scale, zeroPoint)": {
+      "args": [
+        "input",
+        "scale",
+        "zeroPoint"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "quantizeLinear(input, scale, zeroPoint, options)": {
+      "args": [
+        "input",
+        "scale",
+        "zeroPoint",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "query()": {
     "query()": {
       "args": [],
@@ -25177,17 +26559,6 @@
         "Permissions"
       ],
       "shortname": "permissions"
-    }
-  },
-  "queryFeatureSupport()": {
-    "queryFeatureSupport(feature)": {
-      "args": [
-        "feature"
-      ],
-      "for": [
-        "ProtectedAudience"
-      ],
-      "shortname": "turtledove"
     }
   },
   "queryHandwritingRecognizer()": {
@@ -25307,7 +26678,7 @@
       "for": [
         "Crypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "raw()": {
@@ -25318,6 +26689,17 @@
       ],
       "for": [
         "String"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "rawJSON()": {
+    "rawJSON(text)": {
+      "args": [
+        "text"
+      ],
+      "for": [
+        "JSON"
       ],
       "shortname": "ecmascript"
     }
@@ -25349,7 +26731,6 @@
       "args": [],
       "for": [
         "Clipboard",
-        "GeolocationSensor",
         "ReadableStreamDefaultReader"
       ],
       "shortname": "streams"
@@ -25391,15 +26772,6 @@
         "Clipboard"
       ],
       "shortname": "clipboard-apis"
-    },
-    "read(readOptions)": {
-      "args": [
-        "readOptions"
-      ],
-      "for": [
-        "GeolocationSensor"
-      ],
-      "shortname": "geolocation-sensor"
     },
     "read(view)": {
       "args": [
@@ -25502,6 +26874,27 @@
       "shortname": "entries-api"
     }
   },
+  "readTensor()": {
+    "readTensor(tensor)": {
+      "args": [
+        "tensor"
+      ],
+      "for": [
+        "MLContext"
+      ],
+      "shortname": "webnn"
+    },
+    "readTensor(tensor, outputData)": {
+      "args": [
+        "tensor",
+        "outputData"
+      ],
+      "for": [
+        "MLContext"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "readText()": {
     "readText()": {
       "args": [],
@@ -25601,6 +26994,16 @@
         "Response"
       ],
       "shortname": "fetch"
+    },
+    "redirect(url, options)": {
+      "args": [
+        "url",
+        "options"
+      ],
+      "for": [
+        "NavigationPrecommitController"
+      ],
+      "shortname": "html"
     },
     "redirect(url, status)": {
       "args": [
@@ -25906,16 +27309,6 @@
       ],
       "shortname": "webrtc-identity"
     },
-    "register(name, operationCtor)": {
-      "args": [
-        "name",
-        "operationCtor"
-      ],
-      "for": [
-        "SharedStorageWorkletGlobalScope"
-      ],
-      "shortname": "shared-storage"
-    },
     "register(scriptURL)": {
       "args": [
         "scriptURL"
@@ -25965,29 +27358,6 @@
         "FinalizationRegistry"
       ],
       "shortname": "ecmascript"
-    }
-  },
-  "registerAdBeacon()": {
-    "registerAdBeacon(map)": {
-      "args": [
-        "map"
-      ],
-      "for": [
-        "InterestGroupReportingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
-    }
-  },
-  "registerAdMacro()": {
-    "registerAdMacro(name, value)": {
-      "args": [
-        "name",
-        "value"
-      ],
-      "for": [
-        "InterestGroupReportingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
     }
   },
   "registerAnimator()": {
@@ -26061,10 +27431,31 @@
       "shortname": "html"
     }
   },
-  "reject()": {
-    "reject(r)": {
+  "registerTool()": {
+    "registerTool(tool)": {
       "args": [
-        "r"
+        "tool"
+      ],
+      "for": [
+        "ModelContext"
+      ],
+      "shortname": "webmcp"
+    },
+    "registerTool(tool, options)": {
+      "args": [
+        "tool",
+        "options"
+      ],
+      "for": [
+        "ModelContext"
+      ],
+      "shortname": "webmcp"
+    }
+  },
+  "reject()": {
+    "reject(reason)": {
+      "args": [
+        "reason"
       ],
       "for": [
         "Promise"
@@ -26181,15 +27572,6 @@
       "shortname": "css-typed-om"
     }
   },
-  "remainingBudget()": {
-    "remainingBudget()": {
-      "args": [],
-      "for": [
-        "SharedStorage"
-      ],
-      "shortname": "shared-storage"
-    }
-  },
   "remove()": {
     "remove()": {
       "args": [],
@@ -26252,6 +27634,15 @@
     }
   },
   "removeAttribute()": {
+    "removeAttribute(attribute)": {
+      "args": [
+        "attribute"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    },
     "removeAttribute(qualifiedName)": {
       "args": [
         "qualifiedName"
@@ -26303,6 +27694,28 @@
       ],
       "for": [
         "TextTrack"
+      ],
+      "shortname": "html"
+    }
+  },
+  "removeDecryptionKey()": {
+    "removeDecryptionKey(keyId)": {
+      "args": [
+        "keyId"
+      ],
+      "for": [
+        "SFrameDecrypterManager"
+      ],
+      "shortname": "webrtc-encoded-transform"
+    }
+  },
+  "removeElement()": {
+    "removeElement(element)": {
+      "args": [
+        "element"
+      ],
+      "for": [
+        "Sanitizer"
       ],
       "shortname": "html"
     }
@@ -26371,15 +27784,6 @@
         "MediaQueryList"
       ],
       "shortname": "cssom-view"
-    },
-    "removeListener(listener)": {
-      "args": [
-        "listener"
-      ],
-      "for": [
-        "MediaQueryList"
-      ],
-      "shortname": "cssom-view"
     }
   },
   "removeNamedItem()": {
@@ -26415,6 +27819,17 @@
         "XSLTProcessor"
       ],
       "shortname": "dom"
+    }
+  },
+  "removeProcessingInstruction()": {
+    "removeProcessingInstruction(pi)": {
+      "args": [
+        "pi"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
     }
   },
   "removeProperty()": {
@@ -26537,6 +27952,15 @@
         "Navigator"
       ],
       "shortname": "tracking-dnt"
+    }
+  },
+  "removeUnsafe()": {
+    "removeUnsafe()": {
+      "args": [],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
     }
   },
   "renameNode()": {
@@ -26670,6 +28094,17 @@
       "shortname": "dom"
     }
   },
+  "replaceElementWithChildren()": {
+    "replaceElementWithChildren(element)": {
+      "args": [
+        "element"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
   "replaceState()": {
     "replaceState(data, unused, url)": {
       "args": [
@@ -26737,28 +28172,6 @@
         "ChildNode"
       ],
       "shortname": "dom"
-    }
-  },
-  "reportAdAuctionLoss()": {
-    "reportAdAuctionLoss(url)": {
-      "args": [
-        "url"
-      ],
-      "for": [
-        "ForDebuggingOnly"
-      ],
-      "shortname": "turtledove"
-    }
-  },
-  "reportAdAuctionWin()": {
-    "reportAdAuctionWin(url)": {
-      "args": [
-        "url"
-      ],
-      "for": [
-        "ForDebuggingOnly"
-      ],
-      "shortname": "turtledove"
     }
   },
   "reportError()": {
@@ -26890,6 +28303,15 @@
       "args": [],
       "for": [
         "CloseWatcher"
+      ],
+      "shortname": "html"
+    },
+    "requestClose(returnValue)": {
+      "args": [
+        "returnValue"
+      ],
+      "for": [
+        "HTMLDialogElement"
       ],
       "shortname": "html"
     }
@@ -27092,7 +28514,7 @@
       "for": [
         "PreferenceObject"
       ],
-      "shortname": "web-preferences-api"
+      "shortname": "mediaqueries"
     }
   },
   "requestPermission()": {
@@ -27218,6 +28640,15 @@
       "shortname": "webxr"
     }
   },
+  "requestResize()": {
+    "requestResize()": {
+      "args": [],
+      "for": [
+        "Window"
+      ],
+      "shortname": "css-sizing"
+    }
+  },
   "requestSession()": {
     "requestSession(mode)": {
       "args": [
@@ -27245,7 +28676,7 @@
       "for": [
         "Document"
       ],
-      "shortname": "storage-access"
+      "shortname": "saa-non-cookie-storage"
     },
     "requestStorageAccess(types)": {
       "args": [
@@ -27257,17 +28688,6 @@
       "shortname": "saa-non-cookie-storage"
     }
   },
-  "requestStorageAccessFor()": {
-    "requestStorageAccessFor(requestedOrigin)": {
-      "args": [
-        "requestedOrigin"
-      ],
-      "for": [
-        "Document"
-      ],
-      "shortname": "requeststorageaccessfor"
-    }
-  },
   "requestSubmit()": {
     "requestSubmit(submitter)": {
       "args": [
@@ -27277,6 +28697,17 @@
         "HTMLFormElement"
       ],
       "shortname": "html"
+    }
+  },
+  "requestUserInteraction()": {
+    "requestUserInteraction(callback)": {
+      "args": [
+        "callback"
+      ],
+      "for": [
+        "ModelContextClient"
+      ],
+      "shortname": "webmcp"
     }
   },
   "requestVideoFrameCallback()": {
@@ -27358,6 +28789,16 @@
       "shortname": "dom"
     }
   },
+  "resetLatency()": {
+    "resetLatency()": {
+      "args": [],
+      "for": [
+        "AudioPlaybackStats",
+        "AudioPlayoutStats"
+      ],
+      "shortname": "audio-context-playout-stats"
+    }
+  },
   "resetTransform()": {
     "resetTransform()": {
       "args": [],
@@ -27365,6 +28806,15 @@
         "CanvasTransform"
       ],
       "shortname": "html"
+    }
+  },
+  "resetZoomLevel()": {
+    "resetZoomLevel()": {
+      "args": [],
+      "for": [
+        "CaptureController"
+      ],
+      "shortname": "mediacapture-surface-control"
     }
   },
   "reshape()": {
@@ -27423,16 +28873,6 @@
         "Window"
       ],
       "shortname": "cssom-view"
-    },
-    "resizeTo(x, y)": {
-      "args": [
-        "x",
-        "y"
-      ],
-      "for": [
-        "Window"
-      ],
-      "shortname": "cssom-view"
     }
   },
   "resolve()": {
@@ -27445,14 +28885,33 @@
       ],
       "shortname": "fs"
     },
-    "resolve(x)": {
+    "resolve(resolution)": {
       "args": [
-        "x"
+        "resolution"
       ],
       "for": [
         "Promise"
       ],
       "shortname": "ecmascript"
+    },
+    "resolve(token)": {
+      "args": [
+        "token"
+      ],
+      "for": [
+        "IdentityProvider"
+      ],
+      "shortname": "fedcm"
+    },
+    "resolve(token, options)": {
+      "args": [
+        "token",
+        "options"
+      ],
+      "for": [
+        "IdentityProvider"
+      ],
+      "shortname": "fedcm"
     }
   },
   "resolveQuerySet()": {
@@ -27488,7 +28947,7 @@
         "CanMakePaymentEvent",
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "respondWith(canMakePaymentResponse)": {
       "args": [
@@ -27497,7 +28956,7 @@
       "for": [
         "CanMakePaymentEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "respondWith(handlerResponsePromise)": {
       "args": [
@@ -27506,7 +28965,7 @@
       "for": [
         "PaymentRequestEvent"
       ],
-      "shortname": "payment-handler"
+      "shortname": "web-based-payment-handler"
     },
     "respondWith(r)": {
       "args": [
@@ -27588,6 +29047,15 @@
       "shortname": "speech-api"
     }
   },
+  "resumeDepthSensing()": {
+    "resumeDepthSensing()": {
+      "args": [],
+      "for": [
+        "XRSession"
+      ],
+      "shortname": "webxr-depth-sensing"
+    }
+  },
   "retry()": {
     "retry()": {
       "args": [],
@@ -27615,6 +29083,25 @@
         "Array"
       ],
       "shortname": "ecmascript"
+    },
+    "reverse(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reverse(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "revocable()": {
@@ -27650,6 +29137,48 @@
         "URL"
       ],
       "shortname": "saa-non-cookie-storage"
+    }
+  },
+  "rewrite()": {
+    "rewrite(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Rewriter"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
+    "rewrite(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Rewriter"
+      ],
+      "shortname": "writing-assistance-apis"
+    }
+  },
+  "rewriteStreaming()": {
+    "rewriteStreaming(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Rewriter"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
+    "rewriteStreaming(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Rewriter"
+      ],
+      "shortname": "writing-assistance-apis"
     }
   },
   "rex()": {
@@ -27941,6 +29470,27 @@
       "shortname": "ecmascript"
     }
   },
+  "roundEven()": {
+    "roundEven(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "roundEven(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "roundRect()": {
     "roundRect(x, y, w, h, radii)": {
       "args": [
@@ -27954,40 +29504,6 @@
         "CanvasPath"
       ],
       "shortname": "html"
-    }
-  },
-  "run()": {
-    "run(name)": {
-      "args": [
-        "name"
-      ],
-      "for": [
-        "SharedStorage",
-        "SharedStorageWorklet"
-      ],
-      "shortname": "shared-storage"
-    },
-    "run(name, options)": {
-      "args": [
-        "name",
-        "options"
-      ],
-      "for": [
-        "SharedStorage",
-        "SharedStorageWorklet"
-      ],
-      "shortname": "shared-storage"
-    }
-  },
-  "runAdAuction()": {
-    "runAdAuction(config)": {
-      "args": [
-        "config"
-      ],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
     }
   },
   "s()": {
@@ -28008,6 +29524,17 @@
         "CanvasState"
       ],
       "shortname": "html"
+    }
+  },
+  "saveImpression()": {
+    "saveImpression(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "Attribution"
+      ],
+      "shortname": "attribution"
     }
   },
   "scale()": {
@@ -28314,15 +29841,64 @@
       ],
       "shortname": "web-nfc"
     },
-    "scan(, options)": {
+    "scan(options)": {
       "args": [
-        "",
         "options"
       ],
       "for": [
         "NDEFReader"
       ],
       "shortname": "web-nfc"
+    }
+  },
+  "scatterElements()": {
+    "scatterElements(input, indices, updates)": {
+      "args": [
+        "input",
+        "indices",
+        "updates"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "scatterElements(input, indices, updates, options)": {
+      "args": [
+        "input",
+        "indices",
+        "updates",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "scatterND()": {
+    "scatterND(input, indices, updates)": {
+      "args": [
+        "input",
+        "indices",
+        "updates"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "scatterND(input, indices, updates, options)": {
+      "args": [
+        "input",
+        "indices",
+        "updates",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "scroll()": {
@@ -28438,9 +30014,9 @@
     }
   },
   "seal()": {
-    "seal(O)": {
+    "seal(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -28449,14 +30025,23 @@
     }
   },
   "search()": {
-    "search(regexp)": {
+    "search(regexpOrPattern)": {
       "args": [
-        "regexp"
+        "regexpOrPattern"
       ],
       "for": [
         "String"
       ],
       "shortname": "ecmascript"
+    }
+  },
+  "securePaymentConfirmationAvailability()": {
+    "securePaymentConfirmationAvailability()": {
+      "args": [],
+      "for": [
+        "PaymentRequest"
+      ],
+      "shortname": "secure-payment-confirmation"
     }
   },
   "seek()": {
@@ -28578,31 +30163,6 @@
         "Range"
       ],
       "shortname": "dom"
-    }
-  },
-  "selectURL()": {
-    "selectURL(name, urls)": {
-      "args": [
-        "name",
-        "urls"
-      ],
-      "for": [
-        "SharedStorage",
-        "SharedStorageWorklet"
-      ],
-      "shortname": "shared-storage"
-    },
-    "selectURL(name, urls, options)": {
-      "args": [
-        "name",
-        "urls",
-        "options"
-      ],
-      "for": [
-        "SharedStorage",
-        "SharedStorageWorklet"
-      ],
-      "shortname": "shared-storage"
     }
   },
   "send!overload-1()": {
@@ -28785,7 +30345,6 @@
     "sendKeyFrameRequest()": {
       "args": [],
       "for": [
-        "RTCRtpScriptTransform",
         "RTCRtpScriptTransformer"
       ],
       "shortname": "webrtc-encoded-transform"
@@ -28810,25 +30369,7 @@
       "shortname": "webhid"
     }
   },
-  "sendReportTo()": {
-    "sendReportTo(url)": {
-      "args": [
-        "url"
-      ],
-      "for": [
-        "InterestGroupReportingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
-    }
-  },
   "serializeToString()": {
-    "serializeToString()": {
-      "args": [],
-      "for": [
-        "XMLSerializer"
-      ],
-      "shortname": "dom-parsing"
-    },
     "serializeToString(root)": {
       "args": [
         "root"
@@ -28836,7 +30377,7 @@
       "for": [
         "XMLSerializer"
       ],
-      "shortname": "dom-parsing"
+      "shortname": "html"
     }
   },
   "set()": {
@@ -28882,22 +30423,11 @@
         "value"
       ],
       "for": [
+        "CrashReportContext",
         "Map",
-        "SharedStorage",
         "WeakMap"
       ],
       "shortname": "ecmascript"
-    },
-    "set(key, value, options)": {
-      "args": [
-        "key",
-        "value",
-        "options"
-      ],
-      "for": [
-        "SharedStorage"
-      ],
-      "shortname": "shared-storage"
     },
     "set(name, blobValue)": {
       "args": [
@@ -28931,7 +30461,7 @@
         "Headers",
         "URLSearchParams"
       ],
-      "shortname": "fetch"
+      "shortname": "cookiestore"
     },
     "set(options)": {
       "args": [
@@ -28940,7 +30470,7 @@
       "for": [
         "CookieStore"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     },
     "set(property)": {
       "args": [
@@ -28971,11 +30501,11 @@
       ],
       "shortname": "ecmascript"
     },
-    "set(target, propertyKey, V, receiver)": {
+    "set(target, key, value, receiver)": {
       "args": [
         "target",
-        "propertyKey",
-        "V",
+        "key",
+        "value",
         "receiver"
       ],
       "for": [
@@ -29015,13 +30545,6 @@
     }
   },
   "setAttribute()": {
-    "setAttribute()": {
-      "args": [],
-      "for": [
-        "SmartCardConnection"
-      ],
-      "shortname": "web-smart-card"
-    },
     "setAttribute(qualifiedName, value)": {
       "args": [
         "qualifiedName",
@@ -29078,17 +30601,6 @@
       "shortname": "dom"
     }
   },
-  "setAttributionReporting()": {
-    "setAttributionReporting(options)": {
-      "args": [
-        "options"
-      ],
-      "for": [
-        "XMLHttpRequest"
-      ],
-      "shortname": "attribution-reporting-api"
-    }
-  },
   "setBaseAndExtent()": {
     "setBaseAndExtent()": {
       "args": [],
@@ -29108,24 +30620,6 @@
         "Selection"
       ],
       "shortname": "selection-api"
-    }
-  },
-  "setBid()": {
-    "setBid()": {
-      "args": [],
-      "for": [
-        "InterestGroupBiddingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
-    },
-    "setBid(oneOrManyBids)": {
-      "args": [
-        "oneOrManyBids"
-      ],
-      "for": [
-        "InterestGroupBiddingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
     }
   },
   "setBigInt64()": {
@@ -29248,6 +30742,17 @@
       "shortname": "webrtc"
     }
   },
+  "setComments()": {
+    "setComments(allow)": {
+      "args": [
+        "allow"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
   "setConfiguration()": {
     "setConfiguration()": {
       "args": [],
@@ -29313,6 +30818,17 @@
       "shortname": "html"
     }
   },
+  "setDataAttributes()": {
+    "setDataAttributes(allow)": {
+      "args": [
+        "allow"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "html"
+    }
+  },
   "setDate()": {
     "setDate(date)": {
       "args": [
@@ -29338,22 +30854,13 @@
     }
   },
   "setEncryptionKey()": {
-    "setEncryptionKey(key)": {
-      "args": [
-        "key"
-      ],
-      "for": [
-        "SFrameTransform"
-      ],
-      "shortname": "webrtc-encoded-transform"
-    },
-    "setEncryptionKey(key, keyID)": {
+    "setEncryptionKey(key, keyId)": {
       "args": [
         "key",
-        "keyID"
+        "keyId"
       ],
       "for": [
-        "SFrameTransform"
+        "SFrameEncrypterManager"
       ],
       "shortname": "webrtc-encoded-transform"
     }
@@ -29401,6 +30908,19 @@
         "StorageBucket"
       ],
       "shortname": "storage-buckets"
+    }
+  },
+  "setFloat16()": {
+    "setFloat16(byteOffset, value, littleEndian)": {
+      "args": [
+        "byteOffset",
+        "value",
+        "littleEndian"
+      ],
+      "for": [
+        "DataView"
+      ],
+      "shortname": "ecmascript"
     }
   },
   "setFloat32()": {
@@ -29459,6 +30979,29 @@
       "shortname": "html"
     }
   },
+  "setFromBase64()": {
+    "setFromBase64(string, options)": {
+      "args": [
+        "string",
+        "options"
+      ],
+      "for": [
+        "Uint8Array"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "setFromHex()": {
+    "setFromHex(string)": {
+      "args": [
+        "string"
+      ],
+      "for": [
+        "Uint8Array"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
   "setFullYear()": {
     "setFullYear(year, month, date)": {
       "args": [
@@ -29473,16 +31016,6 @@
     }
   },
   "setHTML()": {
-    "setHTML(html)": {
-      "args": [
-        "html"
-      ],
-      "for": [
-        "Element",
-        "ShadowRoot"
-      ],
-      "shortname": "sanitizer-api"
-    },
     "setHTML(html, options)": {
       "args": [
         "html",
@@ -29492,20 +31025,10 @@
         "Element",
         "ShadowRoot"
       ],
-      "shortname": "sanitizer-api"
+      "shortname": "html"
     }
   },
   "setHTMLUnsafe()": {
-    "setHTMLUnsafe(html)": {
-      "args": [
-        "html"
-      ],
-      "for": [
-        "Element",
-        "ShadowRoot"
-      ],
-      "shortname": "html"
-    },
     "setHTMLUnsafe(html, options)": {
       "args": [
         "html",
@@ -29515,7 +31038,7 @@
         "Element",
         "ShadowRoot"
       ],
-      "shortname": "sanitizer-api"
+      "shortname": "html"
     }
   },
   "setHeaderValue()": {
@@ -29596,6 +31119,41 @@
         "RTCPeerConnection"
       ],
       "shortname": "webrtc-identity"
+    }
+  },
+  "setImmediates()": {
+    "setImmediates(rangeOffset, data)": {
+      "args": [
+        "rangeOffset",
+        "data"
+      ],
+      "for": [
+        "GPUBindingCommandsMixin"
+      ],
+      "shortname": "webgpu"
+    },
+    "setImmediates(rangeOffset, data, dataOffset)": {
+      "args": [
+        "rangeOffset",
+        "data",
+        "dataOffset"
+      ],
+      "for": [
+        "GPUBindingCommandsMixin"
+      ],
+      "shortname": "webgpu"
+    },
+    "setImmediates(rangeOffset, data, dataOffset, dataSize)": {
+      "args": [
+        "rangeOffset",
+        "data",
+        "dataOffset",
+        "dataSize"
+      ],
+      "for": [
+        "GPUBindingCommandsMixin"
+      ],
+      "shortname": "webgpu"
     }
   },
   "setIndexBuffer()": {
@@ -30046,31 +31604,9 @@
         "priority"
       ],
       "for": [
-        "InterestGroupBiddingScriptRunnerGlobalScope",
         "TaskController"
       ],
       "shortname": "scheduling-apis"
-    }
-  },
-  "setPrioritySignalsOverride()": {
-    "setPrioritySignalsOverride(key)": {
-      "args": [
-        "key"
-      ],
-      "for": [
-        "InterestGroupBiddingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
-    },
-    "setPrioritySignalsOverride(key, priority)": {
-      "args": [
-        "key",
-        "priority"
-      ],
-      "for": [
-        "InterestGroupBiddingScriptRunnerGlobalScope"
-      ],
-      "shortname": "turtledove"
     }
   },
   "setPrivateToken()": {
@@ -30108,9 +31644,9 @@
     }
   },
   "setPrototypeOf()": {
-    "setPrototypeOf(O, proto)": {
+    "setPrototypeOf(obj, proto)": {
       "args": [
-        "O",
+        "obj",
         "proto"
       ],
       "for": [
@@ -30213,13 +31749,6 @@
     }
   },
   "setResourceTimingBufferSize()": {
-    "setResourceTimingBufferSize()": {
-      "args": [],
-      "for": [
-        "Performance"
-      ],
-      "shortname": "resource-timing"
-    },
     "setResourceTimingBufferSize(maxSize)": {
       "args": [
         "maxSize"
@@ -30398,7 +31927,7 @@
       "for": [
         "NavigatorLogin"
       ],
-      "shortname": "fedcm"
+      "shortname": "login-status"
     }
   },
   "setStdDeviation()": {
@@ -30757,15 +32286,6 @@
       "shortname": "ecmascript"
     }
   },
-  "shape()": {
-    "shape()": {
-      "args": [],
-      "for": [
-        "MLOperand"
-      ],
-      "shortname": "webnn"
-    }
-  },
   "share()": {
     "share()": {
       "args": [],
@@ -30890,8 +32410,10 @@
     }
   },
   "showPopover()": {
-    "showPopover()": {
-      "args": [],
+    "showPopover(options)": {
+      "args": [
+        "options"
+      ],
       "for": [
         "HTMLElement"
       ],
@@ -30943,7 +32465,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "sign(algorithm, key, data)": {
       "args": [
@@ -30954,7 +32476,26 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
+    },
+    "sign(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "sign(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     },
     "sign(x)": {
       "args": [
@@ -31495,6 +33036,15 @@
       ],
       "shortname": "html"
     },
+    "start(audioTrack)": {
+      "args": [
+        "audioTrack"
+      ],
+      "for": [
+        "SpeechRecognition"
+      ],
+      "shortname": "speech-api"
+    },
     "start(index)": {
       "args": [
         "index"
@@ -31620,13 +33170,6 @@
     }
   },
   "startTransaction()": {
-    "startTransaction()": {
-      "args": [],
-      "for": [
-        "SmartCardConnection"
-      ],
-      "shortname": "web-smart-card"
-    },
     "startTransaction(transaction)": {
       "args": [
         "transaction"
@@ -31651,7 +33194,8 @@
     "startViewTransition()": {
       "args": [],
       "for": [
-        "Document"
+        "Document",
+        "Element"
       ],
       "shortname": "css-view-transitions"
     },
@@ -31660,7 +33204,8 @@
         "callbackOptions"
       ],
       "for": [
-        "Document"
+        "Document",
+        "Element"
       ],
       "shortname": "css-view-transitions"
     },
@@ -31799,9 +33344,9 @@
       ],
       "shortname": "credential-management"
     },
-    "store(typedArray, index, value)": {
+    "store(ta, index, value)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value"
       ],
@@ -31966,9 +33511,9 @@
       ],
       "shortname": "webnn"
     },
-    "sub(typedArray, index, value)": {
+    "sub(ta, index, value)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value"
       ],
@@ -32052,7 +33597,7 @@
       "for": [
         "CookieStoreManager"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     }
   },
   "substr()": {
@@ -32091,6 +33636,59 @@
       "shortname": "dom"
     }
   },
+  "sumPrecise()": {
+    "sumPrecise(items)": {
+      "args": [
+        "items"
+      ],
+      "for": [
+        "Math"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "summarize()": {
+    "summarize(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Summarizer"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
+    "summarize(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Summarizer"
+      ],
+      "shortname": "writing-assistance-apis"
+    }
+  },
+  "summarizeStreaming()": {
+    "summarizeStreaming(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Summarizer"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
+    "summarizeStreaming(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Summarizer"
+      ],
+      "shortname": "writing-assistance-apis"
+    }
+  },
   "sup()": {
     "sup()": {
       "args": [],
@@ -32100,7 +33698,34 @@
       "shortname": "ecmascript"
     }
   },
+  "supports!overload-1()": {
+    "supports!overload-1()": {
+      "args": [],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "supports!overload-1(operation, algorithm, additionalAlgorithm)": {
+      "args": [
+        "operation",
+        "algorithm",
+        "additionalAlgorithm"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    }
+  },
   "supports()": {
+    "supports()": {
+      "args": [],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
     "supports(conditionText)": {
       "args": [
         "conditionText"
@@ -32109,6 +33734,38 @@
         "CSS"
       ],
       "shortname": "css-conditional"
+    },
+    "supports(operation, algorithm)": {
+      "args": [
+        "operation",
+        "algorithm"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "supports(operation, algorithm, additionalAlgorithm)": {
+      "args": [
+        "operation",
+        "algorithm",
+        "additionalAlgorithm"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
+    },
+    "supports(operation, algorithm, length)": {
+      "args": [
+        "operation",
+        "algorithm",
+        "length"
+      ],
+      "for": [
+        "SubtleCrypto"
+      ],
+      "shortname": "webcrypto-modern-algos"
     },
     "supports(property, value)": {
       "args": [
@@ -32346,9 +34003,9 @@
     }
   },
   "takeUntil()": {
-    "takeUntil(notifier)": {
+    "takeUntil(value)": {
       "args": [
-        "notifier"
+        "value"
       ],
       "for": [
         "Observable"
@@ -32444,15 +34101,6 @@
       ],
       "shortname": "urlpattern"
     },
-    "test(S)": {
-      "args": [
-        "S"
-      ],
-      "for": [
-        "RegExp"
-      ],
-      "shortname": "ecmascript"
-    },
     "test(input)": {
       "args": [
         "input"
@@ -32471,6 +34119,82 @@
         "URLPattern"
       ],
       "shortname": "urlpattern"
+    },
+    "test(string)": {
+      "args": [
+        "string"
+      ],
+      "for": [
+        "RegExp"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "texImage2D()": {
+    "texImage2D(target, level, internalformat, format, type, source)": {
+      "args": [
+        "target",
+        "level",
+        "internalformat",
+        "format",
+        "type",
+        "source"
+      ],
+      "for": [
+        "WebGLRenderingContextOverloads"
+      ],
+      "shortname": "webgl1"
+    },
+    "texImage2D(target, level, internalformat, width, height, border, format, type, pixels)": {
+      "args": [
+        "target",
+        "level",
+        "internalformat",
+        "width",
+        "height",
+        "border",
+        "format",
+        "type",
+        "pixels"
+      ],
+      "for": [
+        "WebGLRenderingContextOverloads"
+      ],
+      "shortname": "webgl1"
+    }
+  },
+  "texSubImage2D()": {
+    "texSubImage2D(target, level, xoffset, yoffset, format, type, source)": {
+      "args": [
+        "target",
+        "level",
+        "xoffset",
+        "yoffset",
+        "format",
+        "type",
+        "source"
+      ],
+      "for": [
+        "WebGLRenderingContextOverloads"
+      ],
+      "shortname": "webgl1"
+    },
+    "texSubImage2D(target, level, xoffset, yoffset, width, height, format, type, pixels)": {
+      "args": [
+        "target",
+        "level",
+        "xoffset",
+        "yoffset",
+        "width",
+        "height",
+        "format",
+        "type",
+        "pixels"
+      ],
+      "for": [
+        "WebGLRenderingContextOverloads"
+      ],
+      "shortname": "webgl1"
     }
   },
   "text()": {
@@ -32480,6 +34204,16 @@
         "Blob",
         "Body",
         "PushMessageData"
+      ],
+      "shortname": "fetch"
+    }
+  },
+  "textStream()": {
+    "textStream()": {
+      "args": [],
+      "for": [
+        "Blob",
+        "Body"
       ],
       "shortname": "fetch"
     }
@@ -32503,6 +34237,29 @@
         "AbortSignal"
       ],
       "shortname": "dom"
+    }
+  },
+  "tile()": {
+    "tile(input, repetitions)": {
+      "args": [
+        "input",
+        "repetitions"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "tile(input, repetitions, options)": {
+      "args": [
+        "input",
+        "repetitions",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "time()": {
@@ -32619,6 +34376,17 @@
       "shortname": "observable"
     }
   },
+  "toBase64()": {
+    "toBase64(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "Uint8Array"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
   "toBlob()": {
     "toBlob(callback, type, quality)": {
       "args": [
@@ -32711,6 +34479,15 @@
       "shortname": "ecmascript"
     }
   },
+  "toHex()": {
+    "toHex()": {
+      "args": [],
+      "for": [
+        "Uint8Array"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
   "toISOString()": {
     "toISOString()": {
       "args": [],
@@ -32724,7 +34501,7 @@
     "toJSON()": {
       "args": [],
       "for": [
-        "CSPViolationReportBody",
+        "AudioPlaybackStats",
         "ContactAddress",
         "DOMMatrixReadOnly",
         "DOMPointReadOnly",
@@ -32733,6 +34510,7 @@
         "DeprecationReportBody",
         "GeolocationCoordinates",
         "GeolocationPosition",
+        "InteractionContentfulPaint",
         "InterventionReportBody",
         "LargestContentfulPaint",
         "LayoutShift",
@@ -32747,18 +34525,18 @@
         "PerformanceLongTaskTiming",
         "PerformanceNavigation",
         "PerformanceNavigationTiming",
+        "PerformancePaintTiming",
         "PerformanceResourceTiming",
         "PerformanceScriptTiming",
         "PerformanceServerTiming",
         "PerformanceTiming",
+        "PerformanceTimingConfidence",
         "PermissionsPolicyViolationReportBody",
         "PressureRecord",
         "PublicKeyCredential",
         "PushSubscription",
         "RTCIceCandidate",
         "RTCSessionDescription",
-        "Report",
-        "ReportBody",
         "ScriptingPolicyReportBody",
         "TaskAttributionTiming",
         "TrustedHTML",
@@ -33080,9 +34858,9 @@
     }
   },
   "togglePopover()": {
-    "togglePopover(force)": {
+    "togglePopover(options)": {
       "args": [
-        "force"
+        "options"
       ],
       "for": [
         "HTMLElement"
@@ -33298,6 +35076,25 @@
       ],
       "shortname": "geometry"
     },
+    "translate(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Translator"
+      ],
+      "shortname": "translation-api"
+    },
+    "translate(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Translator"
+      ],
+      "shortname": "translation-api"
+    },
     "translate(tx)": {
       "args": [
         "tx"
@@ -33378,14 +35175,28 @@
       "shortname": "geometry"
     }
   },
-  "transmit()": {
-    "transmit()": {
-      "args": [],
-      "for": [
-        "SmartCardConnection"
+  "translateStreaming()": {
+    "translateStreaming(input)": {
+      "args": [
+        "input"
       ],
-      "shortname": "web-smart-card"
+      "for": [
+        "Translator"
+      ],
+      "shortname": "translation-api"
     },
+    "translateStreaming(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Translator"
+      ],
+      "shortname": "translation-api"
+    }
+  },
+  "transmit()": {
     "transmit(sendBuffer)": {
       "args": [
         "sendBuffer"
@@ -33711,7 +35522,7 @@
       "for": [
         "CookieStoreManager"
       ],
-      "shortname": "cookie-store"
+      "shortname": "cookiestore"
     }
   },
   "unwrapKey()": {
@@ -33720,7 +35531,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "unwrapKey(format, wrappedKey, unwrappingKey, unwrapAlgorithm, unwrappedKeyAlgorithm, extractable, keyUsages)": {
       "args": [
@@ -33735,7 +35546,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "update()": {
@@ -33766,15 +35577,6 @@
       "shortname": "indexeddb"
     }
   },
-  "updateAdInterestGroups()": {
-    "updateAdInterestGroups()": {
-      "args": [],
-      "for": [
-        "Navigator"
-      ],
-      "shortname": "turtledove"
-    }
-  },
   "updateCharacterBounds()": {
     "updateCharacterBounds()": {
       "args": [],
@@ -33787,24 +35589,6 @@
       "args": [
         "rangeStart",
         "characterBounds"
-      ],
-      "for": [
-        "EditContext"
-      ],
-      "shortname": "edit-context"
-    }
-  },
-  "updateControlBound()": {
-    "updateControlBound()": {
-      "args": [],
-      "for": [
-        "EditContext"
-      ],
-      "shortname": "edit-context"
-    },
-    "updateControlBound(controlBound)": {
-      "args": [
-        "controlBound"
       ],
       "for": [
         "EditContext"
@@ -33903,24 +35687,6 @@
       "args": [
         "start",
         "end"
-      ],
-      "for": [
-        "EditContext"
-      ],
-      "shortname": "edit-context"
-    }
-  },
-  "updateSelectionBound()": {
-    "updateSelectionBound()": {
-      "args": [],
-      "for": [
-        "EditContext"
-      ],
-      "shortname": "edit-context"
-    },
-    "updateSelectionBound(selectionBound)": {
-      "args": [
-        "selectionBound"
       ],
       "for": [
         "EditContext"
@@ -34063,10 +35829,38 @@
       "shortname": "indexeddb"
     }
   },
+  "userAgentAllowsProtocol()": {
+    "userAgentAllowsProtocol()": {
+      "args": [],
+      "for": [
+        "DigitalCredential"
+      ],
+      "shortname": "digital-credentials"
+    },
+    "userAgentAllowsProtocol(protocol)": {
+      "args": [
+        "protocol"
+      ],
+      "for": [
+        "DigitalCredential"
+      ],
+      "shortname": "digital-credentials"
+    }
+  },
   "validate()": {
     "validate(bytes)": {
       "args": [
         "bytes"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "validate(bytes, options)": {
+      "args": [
+        "bytes",
+        "options"
       ],
       "for": [
         "WebAssembly"
@@ -34101,9 +35895,9 @@
       ],
       "shortname": "ecmascript"
     },
-    "values(O)": {
+    "values(obj)": {
       "args": [
-        "O"
+        "obj"
       ],
       "for": [
         "Object"
@@ -34128,7 +35922,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "verify(algorithm, key, signature, data)": {
       "args": [
@@ -34140,7 +35934,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "vh()": {
@@ -34217,9 +36011,9 @@
     }
   },
   "wait()": {
-    "wait(typedArray, index, value, timeout)": {
+    "wait(ta, index, value, timeout)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value",
         "timeout"
@@ -34231,9 +36025,9 @@
     }
   },
   "waitAsync()": {
-    "waitAsync(typedArray, index, value, timeout)": {
+    "waitAsync(ta, index, value, timeout)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value",
         "timeout"
@@ -34253,6 +36047,15 @@
         "ExtendableEvent"
       ],
       "shortname": "service-workers"
+    },
+    "waitUntil(promise)": {
+      "args": [
+        "promise"
+      ],
+      "for": [
+        "ViewTransition"
+      ],
+      "shortname": "css-view-transitions"
     }
   },
   "warn()": {
@@ -34425,15 +36228,6 @@
       "shortname": "webnn"
     }
   },
-  "willRequestConditionalCreation()": {
-    "willRequestConditionalCreation()": {
-      "args": [],
-      "for": [
-        "Credential"
-      ],
-      "shortname": "credential-management"
-    }
-  },
   "with()": {
     "with(index, value)": {
       "args": [
@@ -34462,7 +36256,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     },
     "wrapKey(format, key, wrappingKey, wrapAlgorithm)": {
       "args": [
@@ -34474,7 +36268,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "webcryptoapi"
+      "shortname": "webcrypto"
     }
   },
   "write()": {
@@ -34534,6 +36328,25 @@
       ],
       "shortname": "fs"
     },
+    "write(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Writer"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
+    "write(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Writer"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
     "write(message)": {
       "args": [
         "message"
@@ -34590,6 +36403,39 @@
         "GPUQueue"
       ],
       "shortname": "webgpu"
+    }
+  },
+  "writeStreaming()": {
+    "writeStreaming(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "Writer"
+      ],
+      "shortname": "writing-assistance-apis"
+    },
+    "writeStreaming(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "Writer"
+      ],
+      "shortname": "writing-assistance-apis"
+    }
+  },
+  "writeTensor()": {
+    "writeTensor(tensor, inputData)": {
+      "args": [
+        "tensor",
+        "inputData"
+      ],
+      "for": [
+        "MLContext"
+      ],
+      "shortname": "webnn"
     }
   },
   "writeText()": {
@@ -34652,9 +36498,9 @@
     }
   },
   "xor()": {
-    "xor(typedArray, index, value)": {
+    "xor(ta, index, value)": {
       "args": [
-        "typedArray",
+        "ta",
         "index",
         "value"
       ],
@@ -34671,6 +36517,30 @@
         "Scheduler"
       ],
       "shortname": "scheduling-apis"
+    }
+  },
+  "zip()": {
+    "zip(iterables, options)": {
+      "args": [
+        "iterables",
+        "options"
+      ],
+      "for": [
+        "Iterator"
+      ],
+      "shortname": "ecmascript"
+    }
+  },
+  "zipKeyed()": {
+    "zipKeyed(iterables, options)": {
+      "args": [
+        "iterables",
+        "options"
+      ],
+      "for": [
+        "Iterator"
+      ],
+      "shortname": "ecmascript"
     }
   }
 }

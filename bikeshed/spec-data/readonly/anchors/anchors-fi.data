@@ -24,6 +24,18 @@ MediaDecodingType
 -
 "file"
 "file"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-file
+
+1
+session.UserPromptHandler
+-
+"file"
+"file"
 enum-value
 media-capabilities
 media-capabilities
@@ -33,6 +45,18 @@ https://www.w3.org/TR/media-capabilities/#dom-mediadecodingtype-file
 1
 1
 MediaDecodingType
+-
+"file"
+"file"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-file
+
+1
+session.UserPromptHandler
 -
 "file-system"
 "file-system"
@@ -45,6 +69,102 @@ https://wicg.github.io/file-system-access/#dom-permissionname-file-system
 1
 1
 PermissionName
+-
+"filepath"
+"filepath"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextdownloadcompleteparams-filepath
+
+1
+browsingContext.DownloadCompleteParams
+-
+"filepath"
+"filepath"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextdownloadcompleteparams-filepath
+
+1
+browsingContext.DownloadCompleteParams
+-
+"files"
+"files"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputsetfilesparameters-files
+
+1
+input.SetFilesParameters
+-
+"files"
+"files"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputsetfilesparameters-files
+
+1
+input.SetFilesParameters
+-
+"filter"
+"filter"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagedeletecookiesparameters-filter
+
+1
+storage.DeleteCookiesParameters
+-
+"filter"
+"filter"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagegetcookiesparameters-filter
+
+1
+storage.GetCookiesParameters
+-
+"filter"
+"filter"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagedeletecookiesparameters-filter
+
+1
+storage.DeleteCookiesParameters
+-
+"filter"
+"filter"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagegetcookiesparameters-filter
+
+1
+storage.GetCookiesParameters
 -
 "filtering"
 "filtering"
@@ -94,6 +214,30 @@ https://www.w3.org/TR/web-animations-1/#dom-animationplaystate-finished
 1
 AnimationPlayState
 -
+"firstMatch"
+"firstMatch"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-firstmatch
+
+1
+session.CapabilitiesRequest
+-
+"firstMatch"
+"firstMatch"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-firstmatch
+
+1
+session.CapabilitiesRequest
+-
 %FinalizationRegistry%
 %FinalizationRegistry%
 interface
@@ -116,6 +260,83 @@ https://tc39.es/ecma262/multipage/managing-memory.html#sec-properties-of-the-fin
 1
 1
 -
+::field-component
+::field-component
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-field-component
+1
+1
+-
+::field-component
+::field-component
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-field-component
+1
+1
+-
+::field-separator
+::field-separator
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-field-separator
+1
+1
+-
+::field-separator
+::field-separator
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-field-separator
+1
+1
+-
+::field-text
+::field-text
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-field-text
+1
+1
+-
+::field-text
+::field-text
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-field-text
+1
+1
+-
+::file-selector-button
+::file-selector-button
+selector
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#selectordef-file-selector-button
+1
+1
+-
 ::file-selector-button
 ::file-selector-button
 selector
@@ -130,11 +351,33 @@ https://drafts.csswg.org/css-pseudo-4/#selectordef-file-selector-button
 ::file-selector-button
 ::file-selector-button
 selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-file-selector-button
+1
+1
+-
+::file-selector-button
+::file-selector-button
+selector
 css-pseudo-4
 css-pseudo
 4
 snapshot
 https://www.w3.org/TR/css-pseudo-4/#selectordef-file-selector-button
+1
+1
+-
+::fill
+::fill
+selector
+css-forms-1
+css-forms
+1
+snapshot
+https://www.w3.org/TR/css-forms-1/#selectordef-fill
 1
 1
 -
@@ -241,9 +484,9 @@ https://drafts.csswg.org/css-page-3/#valdef-page-first
 :first
 :first
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-first
 1
@@ -254,20 +497,9 @@ https://drafts.csswg.org/css2/#selectordef-first
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/page.html#x10
-1
-1
--
-:first
-:first
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/page.html#x10
+https://www.w3.org/TR/CSS2/page.html#x10
 1
 1
 -
@@ -286,9 +518,9 @@ https://www.w3.org/TR/css-page-3/#valdef-page-first
 :first-child
 :first-child
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-first-child
 1
@@ -321,20 +553,9 @@ https://drafts.csswg.org/selectors-4/#first-child-pseudo
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x24
-1
-1
--
-:first-child
-:first-child
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x24
+https://www.w3.org/TR/CSS2/selector.html#x24
 1
 1
 -
@@ -363,9 +584,9 @@ https://www.w3.org/TR/selectors-4/#first-child-pseudo
 :first-letter
 :first-letter
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-first-letter
 1
@@ -376,29 +597,18 @@ https://drafts.csswg.org/css2/#selectordef-first-letter
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x50
-1
-1
--
-:first-letter
-:first-letter
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x50
+https://www.w3.org/TR/CSS2/selector.html#x50
 1
 1
 -
 :first-line
 :first-line
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-first-line
 1
@@ -409,20 +619,9 @@ https://drafts.csswg.org/css2/#selectordef-first-line
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#first-line-pseudo
-1
-1
--
-:first-line
-:first-line
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#first-line-pseudo
+https://www.w3.org/TR/CSS2/selector.html#first-line-pseudo
 1
 1
 -
@@ -488,7 +687,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#typedef-filter-function
+https://drafts.csswg.org/filter-effects-1/#typedef-filter-function
 1
 1
 -
@@ -510,7 +709,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#typedef-result-filter-primitive-reference
+https://drafts.csswg.org/filter-effects-1/#typedef-result-filter-primitive-reference
 1
 1
 result
@@ -534,7 +733,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#typedef-filter-value-list
+https://drafts.csswg.org/filter-effects-1/#typedef-filter-value-list
 1
 1
 -
@@ -563,6 +762,17 @@ https://drafts.csswg.org/css-backgrounds-3/#typedef-final-bg-layer
 <final-bg-layer>
 <final-bg-layer>
 type
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#typedef-final-bg-layer
+1
+1
+-
+<final-bg-layer>
+<final-bg-layer>
+type
 css-backgrounds-3
 css-backgrounds
 3
@@ -571,14 +781,14 @@ https://www.w3.org/TR/css-backgrounds-3/#typedef-final-bg-layer
 1
 1
 -
-<first-valid()>
-<first-valid()>
+<final-bg-layer>
+<final-bg-layer>
 type
-css-values-5
-css-values
-5
-current
-https://drafts.csswg.org/css-values-5/#typedef-first-valid
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#typedef-final-bg-layer
 1
 1
 -
@@ -728,11 +938,22 @@ https://www.w3.org/TR/css-grid-2/#typedef-fixed-size
 fido interfaces
 FIDO interfaces
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#fido-interfaces
+
+1
+-
+fido interfaces
+FIDO interfaces
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#fido-interfaces
 
 1
 -
@@ -771,6 +992,28 @@ https://dom.spec.whatwg.org/#dom-nodefilter-filter_skip
 1
 1
 NodeFilter
+-
+fips
+FIPs
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-fips
+1
+
+-
+fips
+FIPs
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-fips
+
+
 -
 FIRST_ORDERED_NODE_TYPE
 FIRST_ORDERED_NODE_TYPE
@@ -831,6 +1074,17 @@ snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-field-based-time-format
 1
 
+-
+fielddefinition
+FieldDefinition
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FieldDefinition
+
+1
 -
 fieldtext
 FieldText
@@ -1406,6 +1660,28 @@ https://fs.spec.whatwg.org/#typedefdef-filesystemwritechunktype
 1
 1
 -
+fill
+fill
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-fill
+
+1
+-
+fill
+fill
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-fill
+
+1
+-
 fill light mode
 fill light mode
 dfn
@@ -1501,7 +1777,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-in-fillpaint
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-in-fillpaint
 1
 1
 in
@@ -1517,6 +1793,28 @@ https://www.w3.org/TR/filter-effects-1/#attr-valuedef-in-fillpaint
 1
 1
 in
+-
+final
+final
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-final
+
+1
+-
+final
+final
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-final
+
+1
 -
 FinalizationRegistry
 FinalizationRegistry
@@ -1549,6 +1847,17 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#rs-pipeTo-finalize
+
+1
+-
+finally
+finally
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-Finally
 
 1
 -
@@ -1695,8 +2004,8 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-findviapredicate
 1
 1
 -
-FindViaPredicate(O, len, direction, predicate, thisArg)
-FindViaPredicate(O, len, direction, predicate, thisArg)
+FindViaPredicate(obj, length, direction, predicate, thisArg)
+FindViaPredicate(obj, length, direction, predicate, thisArg)
 abstract-op
 ecmascript
 ecmascript
@@ -1751,8 +2060,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 1
 -
-FinishLoadingImportedModule(referrer, specifier, payload, result)
-FinishLoadingImportedModule(referrer, specifier, payload, result)
+FinishLoadingImportedModule(referrer, moduleRequest, payload, result)
+FinishLoadingImportedModule(referrer, moduleRequest, payload, result)
 abstract-op
 ecmascript
 ecmascript
@@ -1770,6 +2079,17 @@ wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#finite-math-assumption
+
+1
+-
+finite math assumption
+Finite Math Assumption
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#finite-math-assumption
 
 1
 -
@@ -1912,7 +2232,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#fpwd
+https://www.w3.org/policies/process/#fpwd
 1
 1
 -
@@ -1938,17 +2258,6 @@ https://www.w3.org/TR/paint-timing/#first-paint
 1
 1
 -
-first-factor roaming authenticator
-first-factor roaming authenticator
-dfn
-webauthn-3
-webauthn
-3
-snapshot
-https://www.w3.org/TR/webauthn-3/#first-factor-roaming-authenticator
-
-1
--
 first-strong detection
 first-strong detection
 dfn
@@ -1970,6 +2279,18 @@ snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-first-strong-detection
 1
 
+-
+firstcommentline
+FirstCommentLine
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-FirstCommentLine
+
+1
+Web browsers
 -
 [[FiredDirection]]
 [[FiredDirection]]
@@ -2093,9 +2414,9 @@ https://drafts.csswg.org/css-pseudo-4/#fictional-tag-sequence
 fictional tag sequence
 fictional tag sequence
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#fictional-tag-sequence
 
@@ -2106,20 +2427,9 @@ fictional tag sequence
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x48
-1
-1
--
-fictional tag sequence
-fictional tag sequence
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x48
+https://www.w3.org/TR/CSS2/selector.html#x48
 1
 1
 -
@@ -2181,12 +2491,58 @@ https://wicg.github.io/client-hints-infrastructure/#field-name
 field-sizing
 field-sizing
 property
-css-ui-4
-css-ui
-4
-current
-https://drafts.csswg.org/css-ui-4/#propdef-field-sizing
+css-forms-1
+css-forms
 1
+current
+https://drafts.csswg.org/css-forms-1/#propdef-field-sizing
+1
+1
+-
+fields
+fields
+argument
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-id_assertion_endpoint_request-fields
+1
+
+id_assertion_endpoint_request
+-
+fields
+fields
+dict-member
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identityproviderrequestoptions-fields
+1
+1
+IdentityProviderRequestOptions
+-
+fields
+fields
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-fields
+
+1
+-
+fields
+fields
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-fields
+
 1
 -
 fieldset
@@ -2222,6 +2578,28 @@ https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element
 1
 1
 -
+figure caption
+figure caption
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-figure-caption
+
+1
+-
+figure caption
+figure caption
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-figure-caption
+
+1
+-
 file
 file
 attr-value
@@ -2236,30 +2614,6 @@ input/type
 -
 file
 file
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#decoded-source-map-file
-
-1
-decoded source map
--
-file
-file
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#json-file
-
-1
-json
--
-file
-file
 enum-value
 media-capabilities
 media-capabilities
@@ -2269,6 +2623,30 @@ https://w3c.github.io/media-capabilities/#dom-mediadecodingtype-file
 1
 1
 MediaDecodingType
+-
+file
+file
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-file
+
+1
+session.UserPromptHandler
+-
+file
+file
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#dom-unhandled-prompt-behavior-file-file
+1
+1
+unhandled-prompt-behavior-file
 -
 file
 file
@@ -2305,6 +2683,30 @@ https://www.w3.org/TR/media-capabilities/#dom-mediadecodingtype-file
 1
 MediaDecodingType
 -
+file
+file
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-file
+
+1
+session.UserPromptHandler
+-
+file
+file
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-unhandled-prompt-behavior-file-file
+1
+1
+unhandled-prompt-behavior-file
+-
 file entry
 file entry
 dfn
@@ -2336,6 +2738,17 @@ manifest-incubations
 current
 https://wicg.github.io/manifest-incubations/#dfn-file-extension
 
+1
+-
+file field
+file field
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#json-file
+1
 1
 -
 file handler
@@ -2386,11 +2799,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-file-name
 file name
 file name
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-file-name
+1
+1
+-
+file name
+file name
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-file-name
+1
+1
+-
+file name
+file name
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-file-name
 1
 1
 -
@@ -2408,11 +2843,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-file-path
 file path
 file path
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-file-path
+1
+1
+-
+file path
+file path
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-file-path
+1
+1
+-
+file path
+file path
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-file-path
 1
 1
 -
@@ -2796,6 +3253,30 @@ https://xhr.spec.whatwg.org/#dom-formdata-set-name-blobvalue-filename-filename
 FormData/set(name, blobValue, filename)
 FormData/set(name, blobValue)
 -
+filepath
+filepath
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextdownloadcompleteparams-filepath
+
+1
+browsingContext.DownloadCompleteParams
+-
+filepath
+filepath
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextdownloadcompleteparams-filepath
+
+1
+browsingContext.DownloadCompleteParams
+-
 files
 files
 attribute
@@ -2834,6 +3315,18 @@ ShareData
 -
 files
 files
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputsetfilesparameters-files
+
+1
+input.SetFilesParameters
+-
+files
+files
 attribute
 web-app-launch
 web-app-launch
@@ -2856,6 +3349,18 @@ https://www.w3.org/TR/web-share/#dom-sharedata-files
 1
 ShareData
 -
+files
+files
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputsetfilesparameters-files
+
+1
+input.SetFilesParameters
+-
 filesystem
 filesystem
 attribute
@@ -2876,6 +3381,18 @@ css-backgrounds
 3
 current
 https://drafts.csswg.org/css-backgrounds-3/#border-image-slice-fill
+1
+1
+border-image-slice
+-
+fill
+fill
+value
+css-borders-4
+css-borders
+4
+current
+https://drafts.csswg.org/css-borders-4/#border-image-slice-fill
 1
 1
 border-image-slice
@@ -2906,6 +3423,52 @@ object-fit
 -
 fill
 fill
+value
+css-masking-1
+css-masking
+1
+current
+https://drafts.csswg.org/css-masking-1/#valdef-mask-border-slice-fill
+1
+1
+mask-border-slice
+-
+fill
+fill
+dfn
+fill-stroke-3
+fill-stroke
+3
+current
+https://drafts.csswg.org/fill-stroke-3/#fill
+
+1
+-
+fill
+fill
+property
+fill-stroke-3
+fill-stroke
+3
+current
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill
+1
+1
+-
+fill
+fill
+value
+pointer-animations-1
+pointer-animations
+1
+current
+https://drafts.csswg.org/pointer-animations-1/#valdef-animation-timeline-range-fill
+1
+1
+animation-timeline-range
+-
+fill
+fill
 dict-member
 web-animations-1
 web-animations
@@ -2927,40 +3490,6 @@ https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-fill
 1
 1
 OptionalEffectTiming
--
-fill
-fill
-value
-css-masking-1
-css-masking
-1
-current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-border-slice-fill
-1
-1
-mask-border-slice
--
-fill
-fill
-dfn
-fill-stroke-3
-fill-stroke
-3
-current
-https://drafts.fxtf.org/fill-stroke-3/#fill
-
-1
--
-fill
-fill
-property
-fill-stroke-3
-fill-stroke
-3
-current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill
-1
-1
 -
 fill
 fill
@@ -2993,7 +3522,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#FillProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#FillProperty
 1
 1
 -
@@ -3004,7 +3533,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#TermFill
+https://w3c.github.io/svgwg/svg2-draft/painting.html#TermFill
 1
 1
 -
@@ -3038,6 +3567,18 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#border-image-slice-fill
+1
+1
+border-image-slice
+-
+fill
+fill
+value
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#border-image-slice-fill
 1
 1
 border-image-slice
@@ -3124,36 +3665,25 @@ https://www.w3.org/TR/web-animations-1/#dom-optionaleffecttiming-fill
 1
 OptionalEffectTiming
 -
-fill in a pending fenced frame config
-fill in a pending fenced frame config
+fill a histogram with last-n-touch attribution
+fill a histogram with last-n-touch attribution
 dfn
-turtledove
-turtledove
+attribution
+attribution
 1
 current
-https://wicg.github.io/turtledove/#fill-in-a-pending-fenced-frame-config
+https://w3c.github.io/attribution/#fill-a-histogram-with-last-n-touch-attribution
 
 1
 -
-fill in the contribution
-fill in the contribution
+fill a histogram with last-n-touch attribution
+fill a histogram with last-n-touch attribution
 dfn
-private-aggregation-api
-private-aggregation-api
+attribution
+attribution
 1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#fill-in-the-contribution
-
-1
--
-fill in the signal value
-fill in the signal value
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#fill-in-the-signal-value
+snapshot
+https://www.w3.org/TR/attribution/#fill-a-histogram-with-last-n-touch-attribution
 
 1
 -
@@ -3186,7 +3716,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#fill-painting-area
+https://drafts.csswg.org/fill-stroke-3/#fill-painting-area
 1
 1
 -
@@ -3208,7 +3738,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#fill-positioning-area
+https://drafts.csswg.org/fill-stroke-3/#fill-positioning-area
 1
 1
 -
@@ -3337,6 +3867,42 @@ https://drafts.csswg.org/css-box-4/#valdef-box-fill-box
 fill-box
 fill-box
 value
+css-masking-1
+css-masking
+1
+current
+https://drafts.csswg.org/css-masking-1/#valdef-clip-path-fill-box
+1
+1
+clip-path
+-
+fill-box
+fill-box
+value
+css-masking-1
+css-masking
+1
+current
+https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-fill-box
+1
+1
+mask-clip
+-
+fill-box
+fill-box
+value
+css-masking-1
+css-masking
+1
+current
+https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-fill-box
+1
+1
+mask-origin
+-
+fill-box
+fill-box
+value
 css-transforms-1
 css-transforms
 1
@@ -3349,47 +3915,11 @@ transform-box
 fill-box
 fill-box
 value
-css-masking-1
-css-masking
-1
-current
-https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-fill-box
-1
-1
-clip-path
--
-fill-box
-fill-box
-value
-css-masking-1
-css-masking
-1
-current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-fill-box
-1
-1
-mask-clip
--
-fill-box
-fill-box
-value
-css-masking-1
-css-masking
-1
-current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-fill-box
-1
-1
-mask-origin
--
-fill-box
-fill-box
-value
 fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-fill-origin-fill-box
+https://drafts.csswg.org/fill-stroke-3/#valdef-fill-origin-fill-box
 1
 1
 fill-origin
@@ -3401,7 +3931,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-origin-fill-box
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-origin-fill-box
 1
 1
 stroke-origin
@@ -3515,7 +4045,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-break
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-break
 1
 1
 -
@@ -3537,7 +4067,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-color
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-color
 1
 1
 -
@@ -3559,7 +4089,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-image
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-image
 1
 1
 -
@@ -3581,7 +4111,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-opacity
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-opacity
 1
 1
 -
@@ -3592,7 +4122,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#FillOpacityProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#FillOpacityProperty
 1
 1
 -
@@ -3625,7 +4155,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-origin
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-origin
 1
 1
 -
@@ -3647,7 +4177,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-position
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-position
 1
 1
 -
@@ -3669,7 +4199,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-repeat
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-repeat
 1
 1
 -
@@ -3691,7 +4221,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-rule
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-rule
 1
 1
 -
@@ -3702,7 +4232,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#FillRuleProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#FillRuleProperty
 1
 1
 -
@@ -3735,7 +4265,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#propdef-fill-size
+https://drafts.csswg.org/fill-stroke-3/#propdef-fill-size
 1
 1
 -
@@ -3913,7 +4443,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#filled
+https://drafts.csswg.org/fill-stroke-3/#filled
 
 1
 -
@@ -4034,7 +4564,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-filter
+https://drafts.csswg.org/filter-effects-1/#elementdef-filter
 1
 1
 -
@@ -4045,7 +4575,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#propdef-filter
+https://drafts.csswg.org/filter-effects-1/#propdef-filter
 1
 1
 -
@@ -4085,6 +4615,30 @@ https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-getnotifica
 1
 ServiceWorkerRegistration/getNotifications(filter)
 ServiceWorkerRegistration/getNotifications()
+-
+filter
+filter
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagedeletecookiesparameters-filter
+
+1
+storage.DeleteCookiesParameters
+-
+filter
+filter
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagegetcookiesparameters-filter
+
+1
+storage.GetCookiesParameters
 -
 filter
 filter
@@ -4143,6 +4697,30 @@ snapshot
 https://www.w3.org/TR/filter-effects-1/#propdef-filter
 1
 1
+-
+filter
+filter
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagedeletecookiesparameters-filter
+
+1
+storage.DeleteCookiesParameters
+-
+filter
+filter
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagegetcookiesparameters-filter
+
+1
+storage.GetCookiesParameters
 -
 filter
 filter
@@ -4260,38 +4838,15 @@ https://www.w3.org/TR/css-syntax-3/#css-filter-code-points
 1
 CSS
 -
-filter config
-filter config
+filter function
+filter function
 dfn
-attribution-reporting-api
-attribution-reporting-api
+filter-effects-1
+filter-effects
 1
 current
-https://wicg.github.io/attribution-reporting-api/#filter-config
-
+https://drafts.csswg.org/filter-effects-1/#filter-function
 1
--
-filter data
-filter data
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-filter-data
-
-1
-attribution source
--
-filter map
-filter map
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#filter-map
-
 1
 -
 filter method
@@ -4323,7 +4878,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#filter-primitive
+https://drafts.csswg.org/filter-effects-1/#filter-primitive
 
 1
 -
@@ -4345,7 +4900,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#filter-primitive-attributes
+https://drafts.csswg.org/filter-effects-1/#filter-primitive-attributes
 
 1
 -
@@ -4367,7 +4922,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#filter-primitive-subregion
+https://drafts.csswg.org/filter-effects-1/#filter-primitive-subregion
 
 1
 -
@@ -4389,7 +4944,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#filter-primitive-tree
+https://drafts.csswg.org/filter-effects-1/#filter-primitive-tree
 1
 1
 -
@@ -4411,7 +4966,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#filter-region
+https://drafts.csswg.org/filter-effects-1/#filter-region
 
 1
 -
@@ -4426,14 +4981,25 @@ https://www.w3.org/TR/filter-effects-1/#filter-region
 
 1
 -
-filter value
-filter value
+filter shape expression
+filter shape expression
 dfn
-attribution-reporting-api
-attribution-reporting-api
+shacl12-node-expr
+shacl-node-expr
 1
 current
-https://wicg.github.io/attribution-reporting-api/#filter-value
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-filter-shape-expression
+
+1
+-
+filter shape expression
+filter shape expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-filter-shape-expression
 
 1
 -
@@ -4444,7 +5010,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#funcdef-filter
+https://drafts.csswg.org/filter-effects-1/#funcdef-filter
 1
 1
 -
@@ -4514,7 +5080,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#elementdef-filter-primitive
+https://drafts.csswg.org/filter-effects-1/#elementdef-filter-primitive
 1
 1
 -
@@ -4584,7 +5150,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-filter-filterres
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-filterres
 1
 1
 filter
@@ -4608,7 +5174,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfilterelement-filterunits
+https://drafts.csswg.org/filter-effects-1/#dom-svgfilterelement-filterunits
 1
 1
 SVGFilterElement
@@ -4620,7 +5186,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-filter-filterunits
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-filter-filterunits
 1
 1
 filter
@@ -4648,18 +5214,6 @@ https://www.w3.org/TR/filter-effects-1/#element-attrdef-filter-filterunits
 1
 1
 filter
--
-filter_data
-filter_data
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-filter_data
-
-1
-source-registration JSON key
 -
 filterable
 filterable
@@ -4740,114 +5294,6 @@ https://fetch.spec.whatwg.org/#concept-filtered-response
 1
 1
 -
-filtering id
-filtering ID
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-contribution-filtering-id
-
-1
-aggregatable contribution
--
-filtering id
-filtering ID
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-key-value-filtering-id
-
-1
-aggregatable key value
--
-filtering id max bytes
-filtering ID max bytes
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#aggregatable-report-filtering-id-max-bytes
-
-1
-aggregatable report
--
-filtering id max bytes
-filtering ID max bytes
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#pre-specified-report-parameters-filtering-id-max-bytes
-
-1
-pre-specified report parameters
--
-filtering id max bytes
-filtering ID max bytes
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-attribution-report-filtering-id-max-bytes
-
-1
-aggregatable attribution report
--
-filteringId
-filteringId
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-paextendedhistogramcontribution-filteringid
-1
-1
-PAExtendedHistogramContribution
--
-filteringId
-filteringId
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-pahistogramcontribution-filteringid
-1
-1
-PAHistogramContribution
--
-filteringIdMaxBytes
-filteringIdMaxBytes
-dict-member
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#dom-sharedstorageprivateaggregationconfig-filteringidmaxbytes
-1
-1
-SharedStoragePrivateAggregationConfig
--
-filtering_id
-filtering_id
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#trigger-registration-json-key-filtering_id
-
-1
-trigger-registration JSON key
--
 filters
 filters
 dict-member
@@ -4907,78 +5353,6 @@ https://webbluetoothcg.github.io/web-bluetooth/scanning.html#dom-bluetoothlescan
 1
 1
 BluetoothLEScanPermissionDescriptor
--
-filters
-filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-dedup-key-filters
-
-1
-aggregatable dedup key
--
-filters
-filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-trigger-data-filters
-
-1
-aggregatable trigger data
--
-filters
-filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-values-configuration-filters
-
-1
-aggregatable values configuration
--
-filters
-filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-trigger-filters
-
-1
-attribution trigger
--
-filters
-filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#event-level-trigger-configuration-filters
-
-1
-event-level trigger configuration
--
-filters
-filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#trigger-registration-json-key-filters
-
-1
-trigger-registration JSON key
 -
 filters
 filters
@@ -5132,6 +5506,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-sandboxing
 
 1
+navigation params
 -
 final service worker start time
 final service worker start time
@@ -5188,6 +5563,54 @@ snapshot
 https://www.w3.org/TR/webrtc/#dfn-final-steps-to-create-an-offer
 1
 1
+-
+finalResponseHeadersStart
+finalResponseHeadersStart
+attribute
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-finalresponseheadersstart
+1
+1
+PerformanceResourceTiming
+-
+finalresponseheadersstart
+finalResponseHeadersStart
+dfn
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#performanceresourcetiming-finalresponseheadersstart
+1
+1
+PerformanceResourceTiming
+-
+finalResponseHeadersStart
+finalResponseHeadersStart
+attribute
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-finalresponseheadersstart
+1
+1
+PerformanceResourceTiming
+-
+finalresponseheadersstart
+finalResponseHeadersStart
+dfn
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#performanceresourcetiming-finalresponseheadersstart
+1
+1
+PerformanceResourceTiming
 -
 finalize a cross-document navigation
 finalize a cross-document navigation
@@ -5348,6 +5771,28 @@ https://www.w3.org/TR/webdriver2/#dfn-find
 
 1
 -
+find a builtin
+find a builtin
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#find-a-builtin
+
+1
+-
+find a builtin
+find a builtin
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#find-a-builtin
+
+1
+-
 find a config
 find a config
 dfn
@@ -5404,25 +5849,25 @@ https://wicg.github.io/nav-speculation/prefetch.html#find-a-matching-complete-pr
 1
 1
 -
-find a matching complete prerender record
-find a matching complete prerender record
+find a matching prerendered prefetch record
+find a matching prerendered prefetch record
 dfn
 prerendering-revamped
 prerendering-revamped
 1
 current
-https://wicg.github.io/nav-speculation/prerendering.html#find-a-matching-complete-prerender-record
+https://wicg.github.io/nav-speculation/prerendering.html#find-a-matching-prerendered-prefetch-record
 
 1
 -
-find a matching trigger spec
-find a matching trigger spec
+find a navigable by target name
+find a navigable by target name
 dfn
-attribution-reporting-api
-attribution-reporting-api
+html
+html
 1
 current
-https://wicg.github.io/attribution-reporting-api/#find-a-matching-trigger-spec
+https://html.spec.whatwg.org/multipage/document-sequences.html#find-a-navigable-by-target-name
 
 1
 -
@@ -5478,7 +5923,7 @@ dom
 1
 current
 https://dom.spec.whatwg.org/#find-a-slot
-1
+
 1
 -
 find a string in range
@@ -5500,6 +5945,28 @@ client-hints-infrastructure
 1
 current
 https://wicg.github.io/client-hints-infrastructure/#find-client-hint-value
+
+1
+-
+find first expression
+find first expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-find-first-expression
+
+1
+-
+find first expression
+find first expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-find-first-expression
 
 1
 -
@@ -5547,36 +6014,14 @@ https://wicg.github.io/webusb/#find-if-the-interface-is-claimed
 
 1
 -
-find matching ad
-find matching ad
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#find-matching-ad
-
-1
--
 find matching links
 find matching links
 dfn
-speculation-rules
-speculation-rules
+html
+html
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#find-matching-links
-
-1
--
-find matching sources
-find matching sources
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#find-matching-sources
+https://html.spec.whatwg.org/multipage/speculative-loading.html#find-matching-links
 
 1
 -
@@ -5589,17 +6034,6 @@ dom
 current
 https://dom.spec.whatwg.org/#find-slotables
 1
-1
--
-find sources with common destinations and reporting origin
-find sources with common destinations and reporting origin
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#find-sources-with-common-destinations-and-reporting-origin
-
 1
 -
 find supported configuration combination
@@ -5621,6 +6055,17 @@ webxr-depth-sensing
 1
 snapshot
 https://www.w3.org/TR/webxr-depth-sensing-1/#find-supported-configuration-combination
+
+1
+-
+find the ipv6 address compressed piece index
+find the IPv6 address compressed piece index
+dfn
+url
+url
+1
+current
+https://url.spec.whatwg.org/#find-the-ipv6-address-compressed-piece-index
 
 1
 -
@@ -5708,7 +6153,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermFindIntersectingOrEnclosedDescendants
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermFindIntersectingOrEnclosedDescendants
 1
 1
 -
@@ -5752,7 +6197,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/struct.html#TermFindNonContainerGraphicsElements
+https://w3c.github.io/svgwg/svg2-draft/struct.html#TermFindNonContainerGraphicsElements
 1
 1
 -
@@ -5800,14 +6245,14 @@ https://www.w3.org/TR/css-nav-1/#find-the-shortest-distance
 
 1
 -
-find the topmost auto popover
-find the topmost auto popover
+find the topmost auto or hint popover
+find the topmost auto or hint popover
 dfn
 html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/popover.html#topmost-auto-popover
+https://html.spec.whatwg.org/multipage/popover.html#topmost-auto-or-hint-popover
 
 1
 -
@@ -5818,7 +6263,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermFindTypographicCharacterForCharacter
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermFindTypographicCharacterForCharacter
 1
 1
 -
@@ -6011,28 +6456,6 @@ https://www.w3.org/TR/css-animations-1/#dom-csskeyframesrule-findrule
 1
 CSSKeyframesRule
 -
-finding a slot
-finding a slot
-dfn
-dom
-dom
-1
-current
-https://dom.spec.whatwg.org/#find-a-slot
-1
-1
--
-finding flattened slottables
-finding flattened slottables
-dfn
-dom
-dom
-1
-current
-https://dom.spec.whatwg.org/#find-flattened-slotables
-1
-1
--
 finding focusable areas
 finding focusable areas
 dfn
@@ -6053,17 +6476,6 @@ css-nav
 snapshot
 https://www.w3.org/TR/css-nav-1/#find-focusable-areas
 
-1
--
-finding slottables
-finding slottables
-dfn
-dom
-dom
-1
-current
-https://dom.spec.whatwg.org/#find-slotables
-1
 1
 -
 finding the shortest distance
@@ -6138,17 +6550,6 @@ https://www.w3.org/TR/mediaqueries-5/#valdef-media-pointer-fine
 -
 fingerprint
 fingerprint
-dfn
-appmanifest
-appmanifest
-1
-current
-https://w3c.github.io/manifest/#dfn-fingerprints-0
-
-1
--
-fingerprint
-fingerprint
 dict-member
 webrtc-stats
 webrtc-stats
@@ -6162,11 +6563,11 @@ RTCCertificateStats
 fingerprint
 fingerprint
 dfn
-appmanifest
-appmanifest
+manifest-incubations
+manifest-incubations
 1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-fingerprints-0
+current
+https://wicg.github.io/manifest-incubations/#dfn-fingerprints-0
 
 1
 -
@@ -6255,48 +6656,14 @@ https://www.w3.org/TR/fingerprinting-guidance/#dfn-fingerprinting-surface
 fingerprints
 fingerprints
 dfn
-appmanifest
-appmanifest
+manifest-incubations
+manifest-incubations
 1
 current
-https://w3c.github.io/manifest/#dfn-fingerprints
+https://wicg.github.io/manifest-incubations/#dfn-fingerprints
 
 1
 external application resource
--
-fingerprints
-fingerprints
-dfn
-appmanifest
-appmanifest
-1
-current
-https://w3c.github.io/manifest/#dfn-fingerprints-0
-
-1
--
-fingerprints
-fingerprints
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-fingerprints
-
-1
-external application resource
--
-fingerprints
-fingerprints
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-fingerprints-0
-
-1
 -
 finish
 finish
@@ -6533,6 +6900,18 @@ ViewTransition
 finished
 finished
 attribute
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-finished
+1
+1
+ViewTransition
+-
+finished
+finished
+attribute
 web-animations-1
 web-animations
 1
@@ -6669,6 +7048,18 @@ css-view-transitions
 1
 current
 https://drafts.csswg.org/css-view-transitions-1/#viewtransition-finished-promise
+
+1
+ViewTransition
+-
+finished promise
+finished promise
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#viewtransition-finished-promise
 
 1
 ViewTransition
@@ -6843,6 +7234,7 @@ current
 https://w3c.github.io/resource-timing/#dfn-fire-a-buffer-full-event
 
 1
+Performance
 -
 fire a buffer full event
 fire a buffer full event
@@ -6854,15 +7246,16 @@ snapshot
 https://www.w3.org/TR/resource-timing/#dfn-fire-a-buffer-full-event
 
 1
+Performance
 -
 fire a change event
 fire a change event
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#fire-a-change-event
+https://cookiestore.spec.whatwg.org/#fire-a-change-event
 
 1
 -
@@ -6886,6 +7279,28 @@ clipboard-apis
 snapshot
 https://www.w3.org/TR/clipboard-apis/#fire-a-clipboard-event
 
+1
+-
+fire a clipboardchange event
+fire a clipboardchange event
+dfn
+clipboard-apis
+clipboard-apis
+1
+current
+https://w3c.github.io/clipboard-apis/#fire-a-clipboardchange-event
+1
+1
+-
+fire a clipboardchange event
+fire a clipboardchange event
+dfn
+clipboard-apis
+clipboard-apis
+1
+snapshot
+https://www.w3.org/TR/clipboard-apis/#fire-a-clipboardchange-event
+1
 1
 -
 fire a content delete event
@@ -6979,9 +7394,9 @@ https://wicg.github.io/periodic-background-sync/#fire-a-periodicsync-event
 fire a pointer event
 fire a pointer event
 dfn
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dfn-fire-a-pointer-event
 
@@ -6993,8 +7408,30 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dfn-fire-a-pointer-event
+
+1
+-
+fire a pointer event
+fire a pointer event
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-fire-a-pointer-event
+
+1
+-
+fire a pointer event
+fire a pointer event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-fire-a-pointer-event
 
 1
 -
@@ -7028,6 +7465,28 @@ xhr
 1
 current
 https://xhr.spec.whatwg.org/#concept-event-fire-progress
+
+1
+-
+fire a push event
+fire a push event
+dfn
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dfn-fire-a-push-event
+
+1
+-
+fire a push event
+fire a push event
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-fire-a-push-event
 
 1
 -
@@ -7150,6 +7609,17 @@ web-bluetooth
 current
 https://webbluetoothcg.github.io/web-bluetooth/#fire-an-advertisementreceived-event
 1
+1
+-
+fire an autofill event
+fire an autofill event
+dfn
+autofill-event
+autofill-event
+1
+current
+https://wicg.github.io/autofill-event/#fire-an-autofill-event
+
 1
 -
 fire an error event
@@ -7528,6 +7998,18 @@ AuthenticationExtensionsPRFValues
 -
 first
 first
+dict-member
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticationextensionsprfvaluesjson-first
+1
+1
+AuthenticationExtensionsPRFValuesJSON
+-
+first
+first
 argument
 indexeddb-3
 indexeddb
@@ -7639,6 +8121,42 @@ https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfvalues-first
 1
 1
 AuthenticationExtensionsPRFValues
+-
+first
+first
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfvaluesjson-first
+1
+1
+AuthenticationExtensionsPRFValuesJSON
+-
+first url update timestamp
+first URL update timestamp
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-first-url-update-timestamp
+
+1
+InteractionContext
+-
+first url value
+first URL value
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-first-url-value
+
+1
+InteractionContext
 -
 first available font
 first available font
@@ -7763,6 +8281,18 @@ https://wicg.github.io/scroll-to-text-fragment/#first-common-ancestor
 
 1
 -
+first contentful paint
+first contentful paint
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-first-contentful-paint
+
+1
+InteractionContext
+-
 first cross-axis baseline set
 first cross-axis baseline set
 dfn
@@ -7771,6 +8301,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#cross-axis-baseline
+1
+1
+-
+first cross-axis baseline set
+first cross-axis baseline set
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#cross-axis-baseline
 1
 1
 -
@@ -7840,6 +8381,18 @@ https://www.w3.org/TR/selectors-3/#first-formatted-line0
 
 1
 -
+first input timestamp
+first input timestamp
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-first-input-timestamp
+
+1
+InteractionContext
+-
 first interim network-response start time
 first interim network-response start time
 dfn
@@ -7888,6 +8441,17 @@ https://drafts.csswg.org/css-flexbox-1/#main-axis-baseline
 first main-axis baseline set
 first main-axis baseline set
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-axis-baseline
+1
+1
+-
+first main-axis baseline set
+first main-axis baseline set
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -7904,6 +8468,52 @@ tracking-dnt
 1
 current
 https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-first-party
+
+
+-
+first party
+first party
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-first-party
+1
+
+page
+-
+first party
+first party
+dfn
+privacy-principles
+privacy-principles
+1
+current
+https://w3ctag.github.io/privacy-principles/#dfn-first-party-0
+1
+
+-
+first party
+first party
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-first-party
+
+
+page
+-
+first party
+first party
+dfn
+privacy-principles
+privacy-principles
+1
+snapshot
+https://www.w3.org/TR/privacy-principles/#dfn-first-party-0
 
 
 -
@@ -7943,6 +8553,18 @@ https://wicg.github.io/scheduling-apis/#scheduler-task-queue-first-runnable-task
 1
 scheduler task queue
 -
+first scroll timestamp
+first scroll timestamp
+dfn
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#interactioncontext-first-scroll-timestamp
+
+1
+InteractionContext
+-
 first symbol value
 first symbol value
 dfn
@@ -7973,6 +8595,18 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#frame-timing-info-first-ui-event-timestamp
+
+1
+frame timing info
+-
+first ui event timestamp
+first ui event timestamp
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#frame-timing-info-first-ui-event-timestamp
 
 1
 frame timing info
@@ -8082,9 +8716,9 @@ https://www.w3.org/TR/css-align-3/#baseline-self-alignment
 first-child
 first-child
 selector
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#selectordef-first-child
 1
@@ -8095,20 +8729,9 @@ first-child
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x24
-1
-1
--
-first-child
-first-child
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x24
+https://www.w3.org/TR/CSS2/selector.html#x24
 1
 1
 -
@@ -8153,20 +8776,9 @@ first-letter
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x50
-1
-1
--
-first-letter
-first-letter
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x50
+https://www.w3.org/TR/CSS2/selector.html#x50
 1
 1
 -
@@ -8209,32 +8821,10 @@ first-line
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#first-line-pseudo
-1
-1
--
-first-line
-first-line
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#first-line-pseudo
+https://www.w3.org/TR/CSS2/selector.html#first-line-pseudo
 1
-1
--
-first-party-site context
-first-party-site context
-dfn
-requeststorageaccessfor
-requeststorageaccessfor
-1
-current
-https://privacycg.github.io/requestStorageAccessFor/#first-party-site-context
-
 1
 -
 first-party-site context
@@ -8400,18 +8990,6 @@ https://www.w3.org/TR/IFT/#entrymaprecord-firstentryindex
 1
 EntryMapRecord
 -
-firstentryindex
-firstEntryIndex
-dfn
-ift
-ift
-1
-snapshot
-https://www.w3.org/TR/IFT/#featurerecord-firstentryindex
-
-1
-FeatureRecord
--
 firstIndex
 firstIndex
 argument
@@ -8496,6 +9074,18 @@ https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-firstinteri
 1
 PerformanceResourceTiming
 -
+firstinterimresponsestart
+firstInterimResponseStart
+dfn
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#performanceresourcetiming-firstinterimresponsestart
+1
+1
+PerformanceResourceTiming
+-
 firstInterimResponseStart
 firstInterimResponseStart
 attribute
@@ -8504,6 +9094,18 @@ resource-timing
 1
 snapshot
 https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-firstinterimresponsestart
+1
+1
+PerformanceResourceTiming
+-
+firstinterimresponsestart
+firstInterimResponseStart
+dfn
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#performanceresourcetiming-firstinterimresponsestart
 1
 1
 PerformanceResourceTiming
@@ -8532,6 +9134,30 @@ https://www.w3.org/TR/IFT/#glyph-map-firstmappedglyph
 1
 Glyph Map
 -
+firstMatch
+firstMatch
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-firstmatch
+
+1
+session.CapabilitiesRequest
+-
+firstMatch
+firstMatch
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-firstmatch
+
+1
+session.CapabilitiesRequest
+-
 firstnewentryindex
 firstNewEntryIndex
 dfn
@@ -8540,6 +9166,18 @@ ift
 1
 current
 https://w3c.github.io/IFT/Overview.html#featurerecord-firstnewentryindex
+
+1
+FeatureRecord
+-
+firstnewentryindex
+firstNewEntryIndex
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#featurerecord-firstnewentryindex
 
 1
 FeatureRecord
@@ -8568,6 +9206,30 @@ https://www.w3.org/TR/webgpu/#dom-gpucommandencoder-resolvequeryset-queryset-fir
 1
 GPUCommandEncoder/resolveQuerySet(querySet, firstQuery, queryCount, destination, destinationOffset)
 -
+firstrendertime
+firstRenderTime
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#containertiming-firstrendertime
+
+1
+ContainerTiming
+-
+firstRenderTime
+firstRenderTime
+attribute
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#dom-performancecontainertiming-firstrendertime
+1
+1
+PerformanceContainerTiming
+-
 firstUIEventTimestamp
 firstUIEventTimestamp
 attribute
@@ -8576,6 +9238,18 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#dom-performancelonganimationframetiming-firstuieventtimestamp
+1
+1
+PerformanceLongAnimationFrameTiming
+-
+firstUIEventTimestamp
+firstUIEventTimestamp
+attribute
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-firstuieventtimestamp
 1
 1
 PerformanceLongAnimationFrameTiming
@@ -8603,6 +9277,18 @@ https://www.w3.org/TR/webgpu/#dom-gpurendercommandsmixin-draw-vertexcount-instan
 1
 1
 GPURenderCommandsMixin/draw(vertexCount, instanceCount, firstVertex, firstInstance)
+-
+fit
+fit
+value
+pointer-animations-1
+pointer-animations
+1
+current
+https://drafts.csswg.org/pointer-animations-1/#valdef-animation-timeline-range-fit
+1
+1
+animation-timeline-range
 -
 fit-content
 fit-content
@@ -8761,12 +9447,12 @@ max-height
 -
 fit-content()
 fit-content()
-value
+function
 css-grid-1
 css-grid
 1
 snapshot
-https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-fit-content
+https://www.w3.org/TR/css-grid-1/#funcdef-grid-template-columns-fit-content
 1
 1
 grid-template-columns
@@ -8774,12 +9460,12 @@ grid-template-rows
 -
 fit-content()
 fit-content()
-value
+function
 css-grid-2
 css-grid
 2
 snapshot
-https://www.w3.org/TR/css-grid-2/#valdef-grid-template-columns-fit-content
+https://www.w3.org/TR/css-grid-2/#funcdef-grid-template-columns-fit-content
 1
 1
 grid-template-columns
@@ -8874,6 +9560,18 @@ background-attachment
 fixed
 fixed
 value
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#valdef-background-attachment-fixed
+1
+1
+background-attachment
+-
+fixed
+fixed
+value
 css-counter-styles-3
 css-counter-styles
 3
@@ -8882,6 +9580,18 @@ https://drafts.csswg.org/css-counter-styles-3/#valdef-counter-style-system-fixed
 1
 1
 @counter-style/system
+-
+fixed
+fixed
+value
+css-forms-1
+css-forms
+1
+current
+https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-fixed
+1
+1
+field-sizing
 -
 fixed
 fixed
@@ -8898,21 +9608,23 @@ position
 fixed
 fixed
 value
-css-ui-4
-css-ui
-4
+css-values-5
+css-values
+5
 current
-https://drafts.csswg.org/css-ui-4/#valdef-field-sizing-fixed
+https://drafts.csswg.org/css-values-5/#valdef-random-fixed
 1
 1
-field-sizing
+random()
+random-item()
+<random-key>
 -
 fixed
 fixed
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-background-attachment-fixed
 1
@@ -8922,9 +9634,9 @@ background-attachment
 fixed
 fixed
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-position-fixed
 1
@@ -8934,14 +9646,26 @@ position
 fixed
 fixed
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-table-layout-fixed
 1
 1
 table-layout
+-
+fixed
+fixed
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#permissions-policy-behavior-fixed
+
+1
+permissions policy behavior
 -
 fixed
 fixed
@@ -8951,6 +9675,18 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-background-attachment-fixed
+1
+1
+background-attachment
+-
+fixed
+fixed
+value
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#valdef-background-attachment-fixed
 1
 1
 background-attachment
@@ -8978,6 +9714,28 @@ https://www.w3.org/TR/css-position-3/#valdef-position-fixed
 1
 1
 position
+-
+fixed containing block
+fixed containing block
+dfn
+css-position-4
+css-position
+4
+current
+https://drafts.csswg.org/css-position-4/#fixed-containing-block
+1
+1
+-
+fixed containing block
+fixed containing block
+dfn
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#fixed-containing-block
+1
+1
 -
 fixed footprint
 fixed footprint
@@ -9115,11 +9873,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-fixed-layout-document
 fixed-layout document
 fixed-layout document
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-fixed-layout-document
+1
+1
+-
+fixed-layout document
+fixed-layout document
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-fixed-layout-document
+1
+1
+-
+fixed-layout document
+fixed-layout document
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-fixed-layout-document
 1
 1
 -
@@ -9368,4 +10148,28 @@ https://www.w3.org/TR/css-layout-api-1/#dom-layoutconstraintsoptions-fixedinline
 1
 1
 LayoutConstraintsOptions
+-
+fixed_foveation
+fixed_foveation
+argument
+webxrlayers-1
+webxrlayers
+1
+current
+https://immersive-web.github.io/layers/#dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-fixed_foveation
+1
+1
+XRWebGLBinding/foveateBoundTexture(target, fixed_foveation)
+-
+fixed_foveation
+fixed_foveation
+argument
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-fixed_foveation
+1
+1
+XRWebGLBinding/foveateBoundTexture(target, fixed_foveation)
 -

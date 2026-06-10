@@ -1313,8 +1313,8 @@ navigator<c- p>.</c->bluetooth<c- p>.</c-><a data-link-type="idl" href="#dom-blu
      </div>
     </section>
     <h3 class="heading settled" data-level="4.2" id="handling-full-activity-loss"><span class="secno">4.2. </span><span class="content">Handling Document Loss of Full Activity</span><a class="self-link" href="#handling-full-activity-loss"></a></h3>
-    <p>Operations that initiate a scan for Bluetooth devices may only run in a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active">fully active</a> <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a>. When <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active①">full activity</a> is lost, scanning
-operations for that <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a> need to be aborted.</p>
+    <p>Operations that initiate a scan for Bluetooth devices may only run in a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active">fully active</a> <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a>. When <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active①">full activity</a> is lost, scanning
+operations for that <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a> need to be aborted.</p>
     <div class="algorithm" data-algorithm="handle full activity loss">
      
 When the user agent determines that a <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#current-settings-object" id="ref-for-current-settings-object">current settings object</a> is no longer <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active②">fully active</a>, it must run these steps:
@@ -1855,7 +1855,7 @@ steps:</p>
    <li>
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
     </ul>
    <li>
     <a data-link-type="biblio">[ECMAScript]</a> defines the following terms:
@@ -2286,7 +2286,7 @@ let dfnPanelData = {
 "a4c52cc3": {"dfnID":"a4c52cc3","dfnText":"BluetoothDevice","external":true,"refSections":[{"refs":[{"id":"ref-for-bluetoothdevice"}],"title":"4. Scanning for BLE advertisements"},{"refs":[{"id":"ref-for-bluetoothdevice\u2460"}],"title":"5.1. Responding to advertising events"},{"refs":[{"id":"ref-for-bluetoothdevice\u2461"}],"title":"6. Changes to existing interfaces"}],"url":"index.html#bluetoothdevice"},
 "a6da7e16": {"dfnID":"a6da7e16","dfnText":"permission result type","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-permission-result-type"}],"title":"4.3. Permission to scan"}],"url":"https://w3c.github.io/permissions/#dfn-permission-result-type"},
 "a72449dd": {"dfnID":"a72449dd","dfnText":"in parallel","external":true,"refSections":[{"refs":[{"id":"ref-for-in-parallel"}],"title":"4. Scanning for BLE advertisements"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"}],"title":"4.2. Handling Document Loss of Full Activity"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"}],"title":"4.2. Handling Document Loss of Full Activity"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "aac0d40f": {"dfnID":"aac0d40f","dfnText":"dataPrefix","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-bluetoothdatafilterinit-dataprefix"}],"title":"4.1. Controlling a BLE scan"}],"url":"https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothdatafilterinit-dataprefix"},
 "active-scanning": {"dfnID":"active-scanning","dfnText":"Active Scanning","external":false,"refSections":[{"refs":[{"id":"ref-for-active-scanning"}],"title":"2. Privacy considerations"}],"url":"#active-scanning"},
 "advertising-event": {"dfnID":"advertising-event","dfnText":"advertising events","external":false,"refSections":[{"refs":[{"id":"ref-for-advertising-event"}],"title":"5.1. Responding to advertising events"}],"url":"#advertising-event"},
@@ -2796,7 +2796,7 @@ let refsData = {
 "#service-data": {"displayText":"service data","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-bluetooth-scanning","spec":"web-bluetooth-scanning-1","status":"local","text":"service data","type":"dfn","url":"#service-data"},
 "#service-uuid": {"displayText":"service uuid","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-bluetooth-scanning","spec":"web-bluetooth-scanning-1","status":"local","text":"service uuid","type":"dfn","url":"#service-uuid"},
 "#shortened-local-name": {"displayText":"shortened local name","export":true,"for_":[],"level":"1","normative":true,"shortname":"web-bluetooth-scanning","spec":"web-bluetooth-scanning-1","status":"local","text":"shortened local name","type":"dfn","url":"#shortened-local-name"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://heycam.github.io/webidl/#dfn-get-buffer-source-copy": {"displayText":"a copy of the bytes held","export":true,"for_":[],"level":"","normative":true,"shortname":"webidl","spec":"webidl","status":"anchor-block","text":"a copy of the bytes held","type":"dfn","url":"https://heycam.github.io/webidl/#dfn-get-buffer-source-copy"},
 "https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active": {"displayText":"fully active","export":true,"for_":["Document"],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"fully active","type":"dfn","url":"https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active"},
 "https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel": {"displayText":"in parallel","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"in parallel","type":"dfn","url":"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel"},

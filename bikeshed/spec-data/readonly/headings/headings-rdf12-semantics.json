@@ -1,27 +1,41 @@
 {
   "#Acknowledgments": {
     "current": {
-      "number": "E",
+      "number": "F",
       "spec": "RDF 1.2 Semantics",
       "text": "Acknowledgments",
       "url": "https://w3c.github.io/rdf-semantics/spec/#Acknowledgments"
     },
     "snapshot": {
-      "number": "E",
+      "number": "F",
       "spec": "RDF 1.2 Semantics",
       "text": "Acknowledgments",
       "url": "https://www.w3.org/TR/rdf12-semantics/#Acknowledgments"
     }
   },
+  "#ChangeLog-11": {
+    "current": {
+      "number": "G.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive changes between RDF 1.0 and RDF 1.1",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#ChangeLog-11"
+    },
+    "snapshot": {
+      "number": "G.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive changes between RDF 1.0 and RDF 1.1",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#ChangeLog-11"
+    }
+  },
   "#ChangeLog-12": {
     "current": {
-      "number": "F",
+      "number": "G.2",
       "spec": "RDF 1.2 Semantics",
       "text": "Substantive changes since RDF 1.1",
       "url": "https://w3c.github.io/rdf-semantics/spec/#ChangeLog-12"
     },
     "snapshot": {
-      "number": "F",
+      "number": "G.2",
       "spec": "RDF 1.2 Semantics",
       "text": "Substantive changes since RDF 1.1",
       "url": "https://www.w3.org/TR/rdf12-semantics/#ChangeLog-12"
@@ -55,18 +69,46 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#D_interpretations"
     }
   },
-  "#Reif": {
+  "#a-entailment-rules": {
     "current": {
-      "number": "D.1",
+      "number": "A",
       "spec": "RDF 1.2 Semantics",
-      "text": "Reification",
-      "url": "https://w3c.github.io/rdf-semantics/spec/#Reif"
+      "text": "Entailment rules",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules"
     },
     "snapshot": {
-      "number": "D.1",
+      "number": "A",
       "spec": "RDF 1.2 Semantics",
-      "text": "Reification",
-      "url": "https://www.w3.org/TR/rdf12-semantics/#Reif"
+      "text": "Entailment rules",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#entailment_rules"
+    }
+  },
+  "#adequacy": {
+    "current": {
+      "number": "C",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Semantic Adequacy Considerations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#adequacy"
+    },
+    "snapshot": {
+      "number": "C",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Semantic Adequacy Considerations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#adequacy"
+    }
+  },
+  "#appendices": {
+    "current": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "11. Appendices",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#appendices-0"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "11. Appendices",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#appendices-0"
     }
   },
   "#appendices-0": {
@@ -83,6 +125,20 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#appendices-0"
     }
   },
+  "#b-proofs-of-some-results": {
+    "current": {
+      "number": "B",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Proofs of some results",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#proofs"
+    },
+    "snapshot": {
+      "number": "B",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Proofs of some results",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#proofs"
+    }
+  },
   "#blank_nodes": {
     "current": {
       "number": "5.1",
@@ -97,18 +153,18 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#blank_nodes"
     }
   },
-  "#collections": {
+  "#c-semantic-adequacy-considerations": {
     "current": {
-      "number": "D.3",
+      "number": "C",
       "spec": "RDF 1.2 Semantics",
-      "text": "RDF collections",
-      "url": "https://w3c.github.io/rdf-semantics/spec/#collections"
+      "text": "Semantic Adequacy Considerations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#adequacy"
     },
     "snapshot": {
-      "number": "D.3",
+      "number": "C",
       "spec": "RDF 1.2 Semantics",
-      "text": "RDF collections",
-      "url": "https://www.w3.org/TR/rdf12-semantics/#collections"
+      "text": "Semantic Adequacy Considerations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#adequacy"
     }
   },
   "#conformance": {
@@ -125,31 +181,31 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#conformance"
     }
   },
-  "#containers": {
+  "#d-privacy-considerations": {
     "current": {
-      "number": "D.2",
+      "number": "D",
       "spec": "RDF 1.2 Semantics",
-      "text": "RDF containers",
-      "url": "https://w3c.github.io/rdf-semantics/spec/#containers"
+      "text": "Privacy Considerations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#privacy"
     },
     "snapshot": {
-      "number": "D.2",
+      "number": "D",
       "spec": "RDF 1.2 Semantics",
-      "text": "RDF containers",
-      "url": "https://www.w3.org/TR/rdf12-semantics/#containers"
+      "text": "Privacy Considerations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#privacy"
     }
   },
   "#datatype_entailment_patterns": {
     "current": {
       "number": "7.2.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Patterns of datatype entailment (Informative)",
+      "text": "Patterns of datatype entailment",
       "url": "https://w3c.github.io/rdf-semantics/spec/#datatype_entailment_patterns"
     },
     "snapshot": {
       "number": "7.2.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Patterns of datatype entailment (Informative)",
+      "text": "Patterns of datatype entailment",
       "url": "https://www.w3.org/TR/rdf12-semantics/#datatype_entailment_patterns"
     }
   },
@@ -167,17 +223,31 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#datatypes"
     }
   },
+  "#e-security-considerations": {
+    "current": {
+      "number": "E",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Security Considerations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#security"
+    },
+    "snapshot": {
+      "number": "E",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Security Considerations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#security"
+    }
+  },
   "#entailment_rules": {
     "current": {
       "number": "A",
       "spec": "RDF 1.2 Semantics",
-      "text": "Entailment rules (Informative)",
+      "text": "Entailment rules",
       "url": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules"
     },
     "snapshot": {
       "number": "A",
       "spec": "RDF 1.2 Semantics",
-      "text": "Entailment rules (Informative)",
+      "text": "Entailment rules",
       "url": "https://www.w3.org/TR/rdf12-semantics/#entailment_rules"
     }
   },
@@ -195,29 +265,155 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#extensions"
     }
   },
-  "#finite_interpretations": {
+  "#f-acknowledgments": {
     "current": {
-      "number": "B",
+      "number": "F",
       "spec": "RDF 1.2 Semantics",
-      "text": "Finite interpretations",
-      "url": "https://w3c.github.io/rdf-semantics/spec/#finite_interpretations"
+      "text": "Acknowledgments",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#Acknowledgments"
     },
     "snapshot": {
-      "number": "B",
+      "number": "F",
       "spec": "RDF 1.2 Semantics",
-      "text": "Finite interpretations",
-      "url": "https://www.w3.org/TR/rdf12-semantics/#finite_interpretations"
+      "text": "Acknowledgments",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#Acknowledgments"
     }
   },
-  "#index": {
+  "#g-1-substantive-changes-between-rdf-1-0-and-rdf-1-1": {
+    "current": {
+      "number": "G.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive changes between RDF 1.0 and RDF 1.1",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#ChangeLog-11"
+    },
+    "snapshot": {
+      "number": "G.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive changes between RDF 1.0 and RDF 1.1",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#ChangeLog-11"
+    }
+  },
+  "#g-2-substantive-changes-since-rdf-1-1": {
+    "current": {
+      "number": "G.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive changes since RDF 1.1",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#ChangeLog-12"
+    },
+    "snapshot": {
+      "number": "G.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive changes since RDF 1.1",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#ChangeLog-12"
+    }
+  },
+  "#g-substantive-changes": {
     "current": {
       "number": "G",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive Changes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#section-Changes"
+    },
+    "snapshot": {
+      "number": "G",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive Changes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#section-Changes"
+    }
+  },
+  "#h-1-terms-defined-by-this-specification": {
+    "current": {
+      "number": "H.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Terms defined by this specification",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#index-defined-here"
+    },
+    "snapshot": {
+      "number": "H.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Terms defined by this specification",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#index-defined-here"
+    }
+  },
+  "#h-2-terms-defined-by-reference": {
+    "current": {
+      "number": "H.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Terms defined by reference",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#index-defined-elsewhere"
+    },
+    "snapshot": {
+      "number": "H.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Terms defined by reference",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#index-defined-elsewhere"
+    }
+  },
+  "#h-index": {
+    "current": {
+      "number": "H",
       "spec": "RDF 1.2 Semantics",
       "text": "Index",
       "url": "https://w3c.github.io/rdf-semantics/spec/#index"
     },
     "snapshot": {
-      "number": "G",
+      "number": "H",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Index",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#index"
+    }
+  },
+  "#i-1-normative-references": {
+    "current": {
+      "number": "I.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Normative references",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#normative-references"
+    },
+    "snapshot": {
+      "number": "I.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Normative references",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#normative-references"
+    }
+  },
+  "#i-2-informative-references": {
+    "current": {
+      "number": "I.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Informative references",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#informative-references"
+    },
+    "snapshot": {
+      "number": "I.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Informative references",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#informative-references"
+    }
+  },
+  "#i-references": {
+    "current": {
+      "number": "I",
+      "spec": "RDF 1.2 Semantics",
+      "text": "References",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#references"
+    },
+    "snapshot": {
+      "number": "I",
+      "spec": "RDF 1.2 Semantics",
+      "text": "References",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#references"
+    }
+  },
+  "#index": {
+    "current": {
+      "number": "H",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Index",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#index"
+    },
+    "snapshot": {
+      "number": "H",
       "spec": "RDF 1.2 Semantics",
       "text": "Index",
       "url": "https://www.w3.org/TR/rdf12-semantics/#index"
@@ -225,13 +421,13 @@
   },
   "#index-defined-elsewhere": {
     "current": {
-      "number": "G.2",
+      "number": "H.2",
       "spec": "RDF 1.2 Semantics",
       "text": "Terms defined by reference",
       "url": "https://w3c.github.io/rdf-semantics/spec/#index-defined-elsewhere"
     },
     "snapshot": {
-      "number": "G.2",
+      "number": "H.2",
       "spec": "RDF 1.2 Semantics",
       "text": "Terms defined by reference",
       "url": "https://www.w3.org/TR/rdf12-semantics/#index-defined-elsewhere"
@@ -239,13 +435,13 @@
   },
   "#index-defined-here": {
     "current": {
-      "number": "G.1",
+      "number": "H.1",
       "spec": "RDF 1.2 Semantics",
       "text": "Terms defined by this specification",
       "url": "https://w3c.github.io/rdf-semantics/spec/#index-defined-here"
     },
     "snapshot": {
-      "number": "G.1",
+      "number": "H.1",
       "spec": "RDF 1.2 Semantics",
       "text": "Terms defined by this specification",
       "url": "https://www.w3.org/TR/rdf12-semantics/#index-defined-here"
@@ -253,16 +449,30 @@
   },
   "#informative-references": {
     "current": {
-      "number": "H.2",
+      "number": "I.2",
       "spec": "RDF 1.2 Semantics",
       "text": "Informative references",
       "url": "https://w3c.github.io/rdf-semantics/spec/#informative-references"
     },
     "snapshot": {
-      "number": "H.2",
+      "number": "I.2",
       "spec": "RDF 1.2 Semantics",
       "text": "Informative references",
       "url": "https://www.w3.org/TR/rdf12-semantics/#informative-references"
+    }
+  },
+  "#introduction": {
+    "current": {
+      "number": "1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Introduction",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#introduction-0"
+    },
+    "snapshot": {
+      "number": "1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Introduction",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#introduction-0"
     }
   },
   "#introduction-0": {
@@ -281,13 +491,13 @@
   },
   "#normative-references": {
     "current": {
-      "number": "H.1",
+      "number": "I.1",
       "spec": "RDF 1.2 Semantics",
       "text": "Normative references",
       "url": "https://w3c.github.io/rdf-semantics/spec/#normative-references"
     },
     "snapshot": {
-      "number": "H.1",
+      "number": "I.1",
       "spec": "RDF 1.2 Semantics",
       "text": "Normative references",
       "url": "https://www.w3.org/TR/rdf12-semantics/#normative-references"
@@ -307,6 +517,20 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#notation"
     }
   },
+  "#notes": {
+    "current": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Notes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#notes-0"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Notes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#notes-0"
+    }
+  },
   "#notes-0": {
     "current": {
       "number": "",
@@ -321,17 +545,31 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#notes-0"
     }
   },
+  "#privacy": {
+    "current": {
+      "number": "D",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Privacy Considerations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#privacy"
+    },
+    "snapshot": {
+      "number": "D",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Privacy Considerations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#privacy"
+    }
+  },
   "#proofs": {
     "current": {
-      "number": "C",
+      "number": "B",
       "spec": "RDF 1.2 Semantics",
-      "text": "Proofs of some results (Informative)",
+      "text": "Proofs of some results",
       "url": "https://w3c.github.io/rdf-semantics/spec/#proofs"
     },
     "snapshot": {
-      "number": "C",
+      "number": "B",
       "spec": "RDF 1.2 Semantics",
-      "text": "Proofs of some results (Informative)",
+      "text": "Proofs of some results",
       "url": "https://www.w3.org/TR/rdf12-semantics/#proofs"
     }
   },
@@ -381,13 +619,13 @@
     "current": {
       "number": "8.1.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Patterns of RDF entailment (Informative)",
+      "text": "Patterns of RDF entailment",
       "url": "https://w3c.github.io/rdf-semantics/spec/#rdf_entailment_patterns"
     },
     "snapshot": {
       "number": "8.1.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Patterns of RDF entailment (Informative)",
+      "text": "Patterns of RDF entailment",
       "url": "https://www.w3.org/TR/rdf12-semantics/#rdf_entailment_patterns"
     }
   },
@@ -423,13 +661,13 @@
     "current": {
       "number": "9.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "A note on rdfs:Literal (Informative)",
+      "text": "A note on rdfs:Literal",
       "url": "https://w3c.github.io/rdf-semantics/spec/#rdfs_literal_note"
     },
     "snapshot": {
       "number": "9.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "A note on rdfs:Literal (Informative)",
+      "text": "A note on rdfs:Literal",
       "url": "https://www.w3.org/TR/rdf12-semantics/#rdfs_literal_note"
     }
   },
@@ -437,25 +675,25 @@
     "current": {
       "number": "9.2.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Patterns of RDFS entailment (Informative)",
+      "text": "Patterns of RDFS entailment",
       "url": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns"
     },
     "snapshot": {
       "number": "9.2.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Patterns of RDFS entailment (Informative)",
+      "text": "Patterns of RDFS entailment",
       "url": "https://www.w3.org/TR/rdf12-semantics/#rdfs_patterns"
     }
   },
   "#references": {
     "current": {
-      "number": "H",
+      "number": "I",
       "spec": "RDF 1.2 Semantics",
       "text": "References",
       "url": "https://w3c.github.io/rdf-semantics/spec/#references"
     },
     "snapshot": {
-      "number": "H",
+      "number": "I",
       "spec": "RDF 1.2 Semantics",
       "text": "References",
       "url": "https://www.w3.org/TR/rdf12-semantics/#references"
@@ -475,17 +713,59 @@
       "url": "https://www.w3.org/TR/rdf12-semantics/#related"
     }
   },
+  "#section-Changes": {
+    "current": {
+      "number": "G",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive Changes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#section-Changes"
+    },
+    "snapshot": {
+      "number": "G",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Substantive Changes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#section-Changes"
+    }
+  },
+  "#security": {
+    "current": {
+      "number": "E",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Security Considerations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#security"
+    },
+    "snapshot": {
+      "number": "E",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Security Considerations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#security"
+    }
+  },
+  "#set-of-documents": {
+    "current": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Set of Documents",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#related"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Set of Documents",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#related"
+    }
+  },
   "#shared_blank_nodes": {
     "current": {
       "number": "5.1.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Shared blank nodes (Informative)",
+      "text": "Shared blank nodes",
       "url": "https://w3c.github.io/rdf-semantics/spec/#shared_blank_nodes"
     },
     "snapshot": {
       "number": "5.1.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Shared blank nodes (Informative)",
+      "text": "Shared blank nodes",
       "url": "https://www.w3.org/TR/rdf12-semantics/#shared_blank_nodes"
     }
   },
@@ -507,13 +787,13 @@
     "current": {
       "number": "5.3",
       "spec": "RDF 1.2 Semantics",
-      "text": "Properties of simple entailment (Informative)",
+      "text": "Properties of simple entailment and satisfiability",
       "url": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties"
     },
     "snapshot": {
       "number": "5.3",
       "spec": "RDF 1.2 Semantics",
-      "text": "Properties of simple entailment (Informative)",
+      "text": "Properties of simple entailment and satisfiability",
       "url": "https://www.w3.org/TR/rdf12-semantics/#simple_entailment_properties"
     }
   },
@@ -535,14 +815,28 @@
     "current": {
       "number": "6",
       "spec": "RDF 1.2 Semantics",
-      "text": "Skolemization (Informative)",
+      "text": "Skolemization",
       "url": "https://w3c.github.io/rdf-semantics/spec/#skolemization"
     },
     "snapshot": {
       "number": "6",
       "spec": "RDF 1.2 Semantics",
-      "text": "Skolemization (Informative)",
+      "text": "Skolemization",
       "url": "https://www.w3.org/TR/rdf12-semantics/#skolemization"
+    }
+  },
+  "#table-of-contents": {
+    "current": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Table of Contents",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#toc"
+    },
+    "snapshot": {
+      "number": "",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Table of Contents",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#toc"
     }
   },
   "#title": {
@@ -577,28 +871,322 @@
     "current": {
       "number": "4.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Shared blank nodes, unions and merges",
+      "text": "Shared blank nodes, unions, and merges",
       "url": "https://w3c.github.io/rdf-semantics/spec/#unions_merges"
     },
     "snapshot": {
       "number": "4.1",
       "spec": "RDF 1.2 Semantics",
-      "text": "Shared blank nodes, unions and merges",
+      "text": "Shared blank nodes, unions, and merges",
       "url": "https://www.w3.org/TR/rdf12-semantics/#unions_merges"
     }
   },
-  "#whatnot": {
+  "#x10-rdf-datasets": {
     "current": {
-      "number": "D",
+      "number": "",
       "spec": "RDF 1.2 Semantics",
-      "text": "RDF reification, containers and collections (Informative)",
-      "url": "https://w3c.github.io/rdf-semantics/spec/#whatnot"
+      "text": "10. RDF Datasets",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdf_datasets"
     },
     "snapshot": {
-      "number": "D",
+      "number": "",
       "spec": "RDF 1.2 Semantics",
-      "text": "RDF reification, containers and collections (Informative)",
-      "url": "https://www.w3.org/TR/rdf12-semantics/#whatnot"
+      "text": "10. RDF Datasets",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdf_datasets"
+    }
+  },
+  "#x2-conformance": {
+    "current": {
+      "number": "2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Conformance",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#conformance"
+    },
+    "snapshot": {
+      "number": "2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Conformance",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#conformance"
+    }
+  },
+  "#x3-semantic-extensions-and-entailment-regimes": {
+    "current": {
+      "number": "3",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Semantic Extensions and Entailment Regimes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#extensions"
+    },
+    "snapshot": {
+      "number": "3",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Semantic Extensions and Entailment Regimes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#extensions"
+    }
+  },
+  "#x4-1-shared-blank-nodes-unions-and-merges": {
+    "current": {
+      "number": "4.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Shared blank nodes, unions, and merges",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#unions_merges"
+    },
+    "snapshot": {
+      "number": "4.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Shared blank nodes, unions, and merges",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#unions_merges"
+    }
+  },
+  "#x4-notation-and-terminology": {
+    "current": {
+      "number": "4",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Notation and Terminology",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#notation"
+    },
+    "snapshot": {
+      "number": "4",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Notation and Terminology",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#notation"
+    }
+  },
+  "#x5-1-1-shared-blank-nodes": {
+    "current": {
+      "number": "5.1.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Shared blank nodes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#shared_blank_nodes"
+    },
+    "snapshot": {
+      "number": "5.1.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Shared blank nodes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#shared_blank_nodes"
+    }
+  },
+  "#x5-1-blank-nodes": {
+    "current": {
+      "number": "5.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Blank nodes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#blank_nodes"
+    },
+    "snapshot": {
+      "number": "5.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Blank nodes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#blank_nodes"
+    }
+  },
+  "#x5-2-simple-entailment": {
+    "current": {
+      "number": "5.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Simple Entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#simpleentailment"
+    },
+    "snapshot": {
+      "number": "5.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Simple Entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#simpleentailment"
+    }
+  },
+  "#x5-3-properties-of-simple-entailment-and-satisfiability": {
+    "current": {
+      "number": "5.3",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Properties of simple entailment and satisfiability",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties"
+    },
+    "snapshot": {
+      "number": "5.3",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Properties of simple entailment and satisfiability",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#simple_entailment_properties"
+    }
+  },
+  "#x5-simple-interpretations": {
+    "current": {
+      "number": "5",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Simple Interpretations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#simple"
+    },
+    "snapshot": {
+      "number": "5",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Simple Interpretations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#simple"
+    }
+  },
+  "#x6-skolemization": {
+    "current": {
+      "number": "6",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Skolemization",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#skolemization"
+    },
+    "snapshot": {
+      "number": "6",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Skolemization",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#skolemization"
+    }
+  },
+  "#x7-1-d-interpretations": {
+    "current": {
+      "number": "7.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "D-interpretations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#D_interpretations"
+    },
+    "snapshot": {
+      "number": "7.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "D-interpretations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#D_interpretations"
+    }
+  },
+  "#x7-2-1-patterns-of-datatype-entailment": {
+    "current": {
+      "number": "7.2.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Patterns of datatype entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#datatype_entailment_patterns"
+    },
+    "snapshot": {
+      "number": "7.2.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Patterns of datatype entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#datatype_entailment_patterns"
+    }
+  },
+  "#x7-2-datatype-entailment": {
+    "current": {
+      "number": "7.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Datatype entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#D_entailment"
+    },
+    "snapshot": {
+      "number": "7.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Datatype entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#D_entailment"
+    }
+  },
+  "#x7-literals-and-datatypes": {
+    "current": {
+      "number": "7",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Literals and datatypes",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#datatypes"
+    },
+    "snapshot": {
+      "number": "7",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Literals and datatypes",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#datatypes"
+    }
+  },
+  "#x8-1-1-patterns-of-rdf-entailment": {
+    "current": {
+      "number": "8.1.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Patterns of RDF entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdf_entailment_patterns"
+    },
+    "snapshot": {
+      "number": "8.1.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Patterns of RDF entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdf_entailment_patterns"
+    }
+  },
+  "#x8-1-rdf-entailment": {
+    "current": {
+      "number": "8.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDF entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdf_entail"
+    },
+    "snapshot": {
+      "number": "8.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDF entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdf_entail"
+    }
+  },
+  "#x8-rdf-interpretations": {
+    "current": {
+      "number": "8",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDF Interpretations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdf_d_interpretations"
+    },
+    "snapshot": {
+      "number": "8",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDF Interpretations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdf_d_interpretations"
+    }
+  },
+  "#x9-1-a-note-on-rdfs-literal": {
+    "current": {
+      "number": "9.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "A note on rdfs:Literal",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdfs_literal_note"
+    },
+    "snapshot": {
+      "number": "9.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "A note on rdfs:Literal",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdfs_literal_note"
+    }
+  },
+  "#x9-2-1-patterns-of-rdfs-entailment": {
+    "current": {
+      "number": "9.2.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Patterns of RDFS entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns"
+    },
+    "snapshot": {
+      "number": "9.2.1",
+      "spec": "RDF 1.2 Semantics",
+      "text": "Patterns of RDFS entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdfs_patterns"
+    }
+  },
+  "#x9-2-rdfs-entailment": {
+    "current": {
+      "number": "9.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDFS entailment",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdfs_entailment"
+    },
+    "snapshot": {
+      "number": "9.2",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDFS entailment",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdfs_entailment"
+    }
+  },
+  "#x9-rdfs-interpretations": {
+    "current": {
+      "number": "9",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDFS Interpretations",
+      "url": "https://w3c.github.io/rdf-semantics/spec/#rdfs_interpretations"
+    },
+    "snapshot": {
+      "number": "9",
+      "spec": "RDF 1.2 Semantics",
+      "text": "RDFS Interpretations",
+      "url": "https://www.w3.org/TR/rdf12-semantics/#rdfs_interpretations"
     }
   }
 }

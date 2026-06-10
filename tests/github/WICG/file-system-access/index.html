@@ -1187,12 +1187,7 @@ hence the inclusion of + and . as allowed code points.</p>
 <dfn class="dfn-paneled" data-dfn-for="file entry" data-dfn-type="dfn" data-noexport id="file-entry-modification-timestamp">modification timestamp</dfn> (a number representing the number of milliseconds since the <a data-link-type="dfn" href="https://w3c.github.io/FileAPI/#UnixEpoch" id="ref-for-UnixEpoch">Unix Epoch</a>).</p>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="directory|directory entry" data-noexport id="directory">directory entry</dfn> additionally consists of a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-set" id="ref-for-ordered-set">set</a> of
 <dfn class="dfn-paneled" data-dfn-for="directory entry" data-dfn-type="dfn" data-noexport id="directory-entry-children">children</dfn>, which are themselves <a data-link-type="dfn" href="#entry" id="ref-for-entry①">entries</a>. Each member is either a <a data-link-type="dfn" href="#file" id="ref-for-file①">file</a> or a <a data-link-type="dfn" href="#directory" id="ref-for-directory①">directory</a>.</p>
-   <p>An <a data-link-type="dfn" href="#entry" id="ref-for-entry②">entry</a> <var>entry</var> should be <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-contain" id="ref-for-list-contain">contained</a> in the <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:file-system-access-1; type:dfn; for:directory entry; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of at most one
+   <p>An <a data-link-type="dfn" href="#entry" id="ref-for-entry②">entry</a> <var>entry</var> should be <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-contain" id="ref-for-list-contain">contained</a> in the <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children">children</a> of at most one
 <a data-link-type="dfn" href="#directory" id="ref-for-directory②">directory entry</a>, and that directory entry is also known as <var>entry</var>’s <dfn class="dfn-paneled" data-dfn-for="entry" data-dfn-type="dfn" data-noexport id="entry-parent">parent</dfn>.
 An <a data-link-type="dfn" href="#entry" id="ref-for-entry③">entry</a>’s <a data-link-type="dfn" href="#entry-parent" id="ref-for-entry-parent">parent</a> is null if no such directory entry exists.</p>
    <p class="note" role="note"><span class="marker">Note:</span> Two different <a data-link-type="dfn" href="#entry" id="ref-for-entry④">entries</a> can represent the same file or directory on disk, in which
@@ -1203,12 +1198,7 @@ or one of the <a data-link-type="dfn" href="#local-file-system-handle-factories"
 and an entry will have a parent in all other cases.</p>
    <p><a data-link-type="dfn" href="#entry" id="ref-for-entry⑤">Entries</a> can (but don’t have to) be backed by files on the host operating system’s local file system,
 so it is possible for the <a data-link-type="dfn" href="#file-entry-binary-data" id="ref-for-file-entry-binary-data">binary data</a>, <a data-link-type="dfn" href="#file-entry-modification-timestamp" id="ref-for-file-entry-modification-timestamp">modification timestamp</a>,
-and <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:file-system-access-1; type:dfn; for:directory entry; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u> of entries to be modified by applications outside of this specification.
+and <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children①">children</a> of entries to be modified by applications outside of this specification.
 Exactly how external changes are reflected in the data structures defined by this specification,
 as well as how changes made to the data structures defined here are reflected externally
 is left up to individual user-agent implementations.</p>
@@ -1234,12 +1224,7 @@ run the following steps:
        <li data-md>
         <p>Let <var>childPromises</var> be « ».</p>
        <li data-md>
-        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate">For each</a> <var>entry</var> of <var>root</var>’s <a data-link-type="dfn" href="#filesystemhandle-entry" id="ref-for-filesystemhandle-entry">entry</a>’s <u class="link-error" data-lt="children" title="LINK ERROR: Ambiguous for-less link for &apos;children&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
-Local references:
-spec:file-system-access-1; type:dfn; for:directory entry; text:children
-for-less references:
-spec:wai-aria-1.2; type:dfn; for:/; text:children
-spec:wai-aria-1.3; type:dfn; for:/; text:children">children</u>:</p>
+        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate">For each</a> <var>entry</var> of <var>root</var>’s <a data-link-type="dfn" href="#filesystemhandle-entry" id="ref-for-filesystemhandle-entry">entry</a>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children②">children</a>:</p>
         <ol>
          <li data-md>
           <p>Let <var>p</var> be the result of <a data-link-type="dfn" href="#entry-resolve" id="ref-for-entry-resolve">resolving</a> <var>child</var> relative to <var>entry</var>.</p>
@@ -1796,7 +1781,7 @@ and its async iterator <var>iterator</var>:
       <p>If <var>permissionStatus</var> is not <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstate-granted" id="ref-for-dom-permissionstate-granted⑤">"granted"</a></code>,
  reject <var>promise</var> with a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror③">NotAllowedError</a></code> and return <var>promise</var>.</p>
      <li data-md>
-      <p>Let <var>child</var> be an <a data-link-type="dfn" href="#entry" id="ref-for-entry①③">entry</a> in <var>directory</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children">children</a>,
+      <p>Let <var>child</var> be an <a data-link-type="dfn" href="#entry" id="ref-for-entry①③">entry</a> in <var>directory</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children③">children</a>,
  such that <var>child</var>’s <a data-link-type="dfn" href="#entry-name" id="ref-for-entry-name⑤">name</a> is not contained in <var>iterator</var>’s <a data-link-type="dfn" href="#filesystemdirectoryhandle-iterator-past-results" id="ref-for-filesystemdirectoryhandle-iterator-past-results">past results</a>,
  or <code>null</code> if no such entry exists.</p>
       <p class="note" role="note"><span class="marker">Note:</span> This is intentionally very vague about the iteration order. Different platforms
@@ -1889,7 +1874,7 @@ must run these steps:
         <p>If <var>permissionStatus</var> is not <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstate-granted" id="ref-for-dom-permissionstate-granted⑥">"granted"</a></code>,
  reject <var>result</var> with a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror④">NotAllowedError</a></code> and abort.</p>
        <li data-md>
-        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate①">For each</a> <var>child</var> of <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children①">children</a>:</p>
+        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate①">For each</a> <var>child</var> of <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children④">children</a>:</p>
         <ol>
          <li data-md>
           <p>If <var>child</var>’s <a data-link-type="dfn" href="#entry-name" id="ref-for-entry-name⑧">name</a> equals <var>name</var>:</p>
@@ -1919,7 +1904,7 @@ must run these steps:
        <li data-md>
         <p>Set <var>child</var>’s <a data-link-type="dfn" href="#file-entry-modification-timestamp" id="ref-for-file-entry-modification-timestamp②">modification timestamp</a> to the current time.</p>
        <li data-md>
-        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append①">Append</a> <var>child</var> to <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children②">children</a>.</p>
+        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append①">Append</a> <var>child</var> to <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑤">children</a>.</p>
        <li data-md>
         <p>If creating <var>child</var> in the underlying file system throws an exception,
  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject⑥">reject</a> <var>result</var> with that exception and abort.</p>
@@ -1987,7 +1972,7 @@ invoked, must run these steps:
         <p>If <var>permissionStatus</var> is not <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstate-granted" id="ref-for-dom-permissionstate-granted⑦">"granted"</a></code>,
  reject <var>result</var> with a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror⑤">NotAllowedError</a></code> and abort.</p>
        <li data-md>
-        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate②">For each</a> <var>child</var> of <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children③">children</a>:</p>
+        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate②">For each</a> <var>child</var> of <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑥">children</a>:</p>
         <ol>
          <li data-md>
           <p>If <var>child</var>’s <a data-link-type="dfn" href="#entry-name" id="ref-for-entry-name①⓪">name</a> equals <var>name</var>:</p>
@@ -2013,9 +1998,9 @@ invoked, must run these steps:
        <li data-md>
         <p>Set <var>child</var>’s <a data-link-type="dfn" href="#entry-name" id="ref-for-entry-name①①">name</a> to <var>name</var>.</p>
        <li data-md>
-        <p>Set <var>child</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children④">children</a> to an empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-set" id="ref-for-ordered-set②">set</a>.</p>
+        <p>Set <var>child</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑦">children</a> to an empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-set" id="ref-for-ordered-set②">set</a>.</p>
        <li data-md>
-        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append②">Append</a> <var>child</var> to <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑤">children</a>.</p>
+        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append②">Append</a> <var>child</var> to <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑧">children</a>.</p>
        <li data-md>
         <p>If creating <var>child</var> in the underlying file system throws an exception,
  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject①①">reject</a> <var>result</var> with that exception and abort.</p>
@@ -2069,7 +2054,7 @@ these steps:
         <p>If <var>permissionStatus</var> is not <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstate-granted" id="ref-for-dom-permissionstate-granted⑧">"granted"</a></code>,
  reject <var>result</var> with a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror⑥">NotAllowedError</a></code> and abort.</p>
        <li data-md>
-        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate③">For each</a> <var>child</var> of <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑥">children</a>:</p>
+        <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate③">For each</a> <var>child</var> of <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑨">children</a>:</p>
         <ol>
          <li data-md>
           <p>If <var>child</var>’s <a data-link-type="dfn" href="#entry-name" id="ref-for-entry-name①②">name</a> equals <var>name</var>:</p>
@@ -2078,14 +2063,14 @@ these steps:
             <p>If <var>child</var> is a <a data-link-type="dfn" href="#directory" id="ref-for-directory⑦">directory entry</a>:</p>
             <ol>
              <li data-md>
-              <p>If <var>child</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑦">children</a> is not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-is-empty" id="ref-for-list-is-empty">empty</a> and <var>options</var>.<code class="idl"><a data-link-type="idl" href="#dom-filesystemremoveoptions-recursive" id="ref-for-dom-filesystemremoveoptions-recursive②">recursive</a></code> is <code>false</code>:</p>
+              <p>If <var>child</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children①⓪">children</a> is not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-is-empty" id="ref-for-list-is-empty">empty</a> and <var>options</var>.<code class="idl"><a data-link-type="idl" href="#dom-filesystemremoveoptions-recursive" id="ref-for-dom-filesystemremoveoptions-recursive②">recursive</a></code> is <code>false</code>:</p>
               <ol>
                <li data-md>
                 <p><a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject①④">Reject</a> <var>result</var> with an <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#invalidmodificationerror" id="ref-for-invalidmodificationerror">InvalidModificationError</a></code> and abort.</p>
               </ol>
             </ol>
            <li data-md>
-            <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-remove" id="ref-for-list-remove">Remove</a> <var>child</var> from <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑧">children</a>.</p>
+            <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-remove" id="ref-for-list-remove">Remove</a> <var>child</var> from <var>entry</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children①①">children</a>.</p>
            <li data-md>
             <p>If removing <var>child</var> in the underlying file system throws an exception,
  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject①⑤">reject</a> <var>result</var> with that exception and abort.</p>
@@ -3104,7 +3089,7 @@ invoked, must run these steps:
        <li data-md>
         <p>Set <var>dir</var>’s <a data-link-type="dfn" href="#entry-name" id="ref-for-entry-name①③">name</a> to <code>""</code>.</p>
        <li data-md>
-        <p>Set <var>dir</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children⑨">children</a> to an empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-set" id="ref-for-ordered-set③">set</a>.</p>
+        <p>Set <var>dir</var>’s <a data-link-type="dfn" href="#directory-entry-children" id="ref-for-directory-entry-children①②">children</a> to an empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-set" id="ref-for-ordered-set③">set</a>.</p>
        <li data-md>
         <p>Set <var>map</var>["root"] to <var>dir</var>.</p>
       </ol>
@@ -3579,7 +3564,7 @@ use this API to write to disk.</p>
    <dt id="biblio-permissions">[PERMISSIONS]
    <dd>Marcos Caceres; Mike Taylor. <a href="https://w3c.github.io/permissions/"><cite>Permissions</cite></a>. URL: <a href="https://w3c.github.io/permissions/">https://w3c.github.io/permissions/</a>
    <dt id="biblio-permissions-request">[PERMISSIONS-REQUEST]
-   <dd><a href="https://wicg.github.io/permissions-request/"><cite>Requesting Permissions</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/permissions-request/">https://wicg.github.io/permissions-request/</a>
+   <dd><a href="https://wicg.github.io/permissions-request/"><cite>Requesting Permissions</cite></a>. Draft Community Group Report. URL: <a href="https://wicg.github.io/permissions-request/">https://wicg.github.io/permissions-request/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-storage">[STORAGE]
@@ -3592,7 +3577,7 @@ use this API to write to disk.</p>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-entries-api">[ENTRIES-API]
-   <dd><a href="https://wicg.github.io/entries-api/"><cite>File and Directory Entries API</cite></a>. cg-draft. URL: <a href="https://wicg.github.io/entries-api/">https://wicg.github.io/entries-api/</a>
+   <dd><a href="https://wicg.github.io/entries-api/"><cite>File and Directory Entries API</cite></a>. Draft Community Group Report. URL: <a href="https://wicg.github.io/entries-api/">https://wicg.github.io/entries-api/</a>
    <dt id="biblio-file-system-api">[FILE-SYSTEM-API]
    <dd>Eric Uhrhane. <a href="https://dev.w3.org/2009/dap/file-system/file-dir-sys.html"><cite>File API: Directories and System</cite></a>. URL: <a href="https://dev.w3.org/2009/dap/file-system/file-dir-sys.html">https://dev.w3.org/2009/dap/file-system/file-dir-sys.html</a>
   </dl>
@@ -4175,7 +4160,7 @@ let dfnPanelData = {
 "dictdef-savefilepickeroptions": {"dfnID":"dictdef-savefilepickeroptions","dfnText":"SaveFilePickerOptions","external":false,"refSections":[{"refs":[{"id":"ref-for-dictdef-savefilepickeroptions"}],"title":"3. Accessing Local File System"}],"url":"#dictdef-savefilepickeroptions"},
 "dictdef-writeparams": {"dfnID":"dictdef-writeparams","dfnText":"WriteParams","external":false,"refSections":[{"refs":[{"id":"ref-for-dictdef-writeparams"},{"id":"ref-for-dictdef-writeparams\u2460"},{"id":"ref-for-dictdef-writeparams\u2461"},{"id":"ref-for-dictdef-writeparams\u2462"},{"id":"ref-for-dictdef-writeparams\u2463"}],"title":"2.6. The FileSystemWritableFileStream interface"}],"url":"#dictdef-writeparams"},
 "directory": {"dfnID":"directory","dfnText":"directory entry","external":false,"refSections":[{"refs":[{"id":"ref-for-directory"},{"id":"ref-for-directory\u2460"},{"id":"ref-for-directory\u2461"},{"id":"ref-for-directory\u2462"}],"title":"2.1. Concepts"},{"refs":[{"id":"ref-for-directory\u2463"}],"title":"2.5. The FileSystemDirectoryHandle interface"},{"refs":[{"id":"ref-for-directory\u2464"}],"title":"2.5.2. The getFileHandle() method"},{"refs":[{"id":"ref-for-directory\u2465"}],"title":"2.5.3. The getDirectoryHandle() method"},{"refs":[{"id":"ref-for-directory\u2466"}],"title":"2.5.4. The removeEntry() method"},{"refs":[{"id":"ref-for-directory\u2467"}],"title":"3.5. The showDirectoryPicker() method"},{"refs":[{"id":"ref-for-directory\u2468"},{"id":"ref-for-directory\u2460\u24ea"}],"title":"3.6. Drag and Drop"},{"refs":[{"id":"ref-for-directory\u2460\u2460"}],"title":"4. Accessing the Origin Private File System"}],"url":"#directory"},
-"directory-entry-children": {"dfnID":"directory-entry-children","dfnText":"children","external":false,"refSections":[{"refs":[{"id":"ref-for-directory-entry-children"}],"title":"2.5.1. Directory iteration"},{"refs":[{"id":"ref-for-directory-entry-children\u2460"},{"id":"ref-for-directory-entry-children\u2461"}],"title":"2.5.2. The getFileHandle() method"},{"refs":[{"id":"ref-for-directory-entry-children\u2462"},{"id":"ref-for-directory-entry-children\u2463"},{"id":"ref-for-directory-entry-children\u2464"}],"title":"2.5.3. The getDirectoryHandle() method"},{"refs":[{"id":"ref-for-directory-entry-children\u2465"},{"id":"ref-for-directory-entry-children\u2466"},{"id":"ref-for-directory-entry-children\u2467"}],"title":"2.5.4. The removeEntry() method"},{"refs":[{"id":"ref-for-directory-entry-children\u2468"}],"title":"4. Accessing the Origin Private File System"}],"url":"#directory-entry-children"},
+"directory-entry-children": {"dfnID":"directory-entry-children","dfnText":"children","external":false,"refSections":[{"refs":[{"id":"ref-for-directory-entry-children"},{"id":"ref-for-directory-entry-children\u2460"},{"id":"ref-for-directory-entry-children\u2461"}],"title":"2.1. Concepts"},{"refs":[{"id":"ref-for-directory-entry-children\u2462"}],"title":"2.5.1. Directory iteration"},{"refs":[{"id":"ref-for-directory-entry-children\u2463"},{"id":"ref-for-directory-entry-children\u2464"}],"title":"2.5.2. The getFileHandle() method"},{"refs":[{"id":"ref-for-directory-entry-children\u2465"},{"id":"ref-for-directory-entry-children\u2466"},{"id":"ref-for-directory-entry-children\u2467"}],"title":"2.5.3. The getDirectoryHandle() method"},{"refs":[{"id":"ref-for-directory-entry-children\u2468"},{"id":"ref-for-directory-entry-children\u2460\u24ea"},{"id":"ref-for-directory-entry-children\u2460\u2460"}],"title":"2.5.4. The removeEntry() method"},{"refs":[{"id":"ref-for-directory-entry-children\u2460\u2461"}],"title":"4. Accessing the Origin Private File System"}],"url":"#directory-entry-children"},
 "dom-datatransferitem-getasfilesystemhandle": {"dfnID":"dom-datatransferitem-getasfilesystemhandle","dfnText":"getAsFileSystemHandle()","external":false,"refSections":[{"refs":[{"id":"ref-for-dom-datatransferitem-getasfilesystemhandle"},{"id":"ref-for-dom-datatransferitem-getasfilesystemhandle\u2460"}],"title":"3.6. Drag and Drop"}],"url":"#dom-datatransferitem-getasfilesystemhandle"},
 "dom-filepickeraccepttype-accept": {"dfnID":"dom-filepickeraccepttype-accept","dfnText":"accept","external":false,"refSections":[{"refs":[{"id":"ref-for-dom-filepickeraccepttype-accept"},{"id":"ref-for-dom-filepickeraccepttype-accept\u2460"},{"id":"ref-for-dom-filepickeraccepttype-accept\u2461"},{"id":"ref-for-dom-filepickeraccepttype-accept\u2462"},{"id":"ref-for-dom-filepickeraccepttype-accept\u2463"}],"title":"3.4. FilePickerOptions.types"}],"url":"#dom-filepickeraccepttype-accept"},
 "dom-filepickeraccepttype-description": {"dfnID":"dom-filepickeraccepttype-description","dfnText":"description","external":false,"refSections":[{"refs":[{"id":"ref-for-dom-filepickeraccepttype-description"},{"id":"ref-for-dom-filepickeraccepttype-description\u2460"},{"id":"ref-for-dom-filepickeraccepttype-description\u2461"},{"id":"ref-for-dom-filepickeraccepttype-description\u2462"}],"title":"3.4. FilePickerOptions.types"}],"url":"#dom-filepickeraccepttype-description"},
@@ -4860,7 +4845,7 @@ let refsData = {
 "https://infra.spec.whatwg.org/#ordered-set": {"displayText":"set","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"set","type":"dfn","url":"https://infra.spec.whatwg.org/#ordered-set"},
 "https://infra.spec.whatwg.org/#set-append": {"displayText":"append","export":true,"for_":["set"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"append","type":"dfn","url":"https://infra.spec.whatwg.org/#set-append"},
 "https://infra.spec.whatwg.org/#string": {"displayText":"string","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"string","type":"dfn","url":"https://infra.spec.whatwg.org/#string"},
-"https://infra.spec.whatwg.org/#string-length": {"displayText":"length","export":true,"for_":["string","JavaScript string","scalar value string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"length","type":"dfn","url":"https://infra.spec.whatwg.org/#string-length"},
+"https://infra.spec.whatwg.org/#string-length": {"displayText":"length","export":true,"for_":["string","JavaScript string","ASCII string","isomorphic string","scalar value string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"length","type":"dfn","url":"https://infra.spec.whatwg.org/#string-length"},
 "https://infra.spec.whatwg.org/#string-starts-with": {"displayText":"starts with","export":true,"for_":["string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"starts with","type":"dfn","url":"https://infra.spec.whatwg.org/#string-starts-with"},
 "https://mimesniff.spec.whatwg.org/#mime-type": {"displayText":"MIME type","export":true,"for_":[],"level":"1","normative":true,"shortname":"mimesniff","spec":"mimesniff","status":"current","text":"mime type","type":"dfn","url":"https://mimesniff.spec.whatwg.org/#mime-type"},
 "https://mimesniff.spec.whatwg.org/#mime-type-essence": {"displayText":"essence","export":true,"for_":["MIME type"],"level":"1","normative":true,"shortname":"mimesniff","spec":"mimesniff","status":"current","text":"essence","type":"dfn","url":"https://mimesniff.spec.whatwg.org/#mime-type-essence"},
@@ -4936,7 +4921,7 @@ let refsData = {
 "https://webidl.spec.whatwg.org/#new": {"displayText":"new","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"new","type":"dfn","url":"https://webidl.spec.whatwg.org/#new"},
 "https://webidl.spec.whatwg.org/#notallowederror": {"displayText":"NotAllowedError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"NotAllowedError","type":"exception","url":"https://webidl.spec.whatwg.org/#notallowederror"},
 "https://webidl.spec.whatwg.org/#notfounderror": {"displayText":"NotFoundError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"NotFoundError","type":"exception","url":"https://webidl.spec.whatwg.org/#notfounderror"},
-"https://webidl.spec.whatwg.org/#quotaexceedederror": {"displayText":"QuotaExceededError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"QuotaExceededError","type":"exception","url":"https://webidl.spec.whatwg.org/#quotaexceedederror"},
+"https://webidl.spec.whatwg.org/#quotaexceedederror": {"displayText":"QuotaExceededError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"QuotaExceededError","type":"interface","url":"https://webidl.spec.whatwg.org/#quotaexceedederror"},
 "https://webidl.spec.whatwg.org/#reject": {"displayText":"reject","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"reject","type":"dfn","url":"https://webidl.spec.whatwg.org/#reject"},
 "https://webidl.spec.whatwg.org/#resolve": {"displayText":"resolve","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"resolve","type":"dfn","url":"https://webidl.spec.whatwg.org/#resolve"},
 "https://webidl.spec.whatwg.org/#securityerror": {"displayText":"SecurityError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"SecurityError","type":"exception","url":"https://webidl.spec.whatwg.org/#securityerror"},

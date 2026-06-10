@@ -6,6 +6,11 @@ spec:html; type:attribute; text:paused
 spec:mediastream-recording; type:enum-value; text:paused
 spec:mediasession; type:enum-value; text:paused
 spec:speech-api; type:attribute; text:paused
+LINE 331:27: Multiple possible 'document' dfn refs.
+Arbitrarily chose https://dom.spec.whatwg.org/#clone-a-node-document
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:dom; type:dfn; for:clone a node; text:document
+spec:dom; type:dfn; for:/; text:document
 LINE 398:53: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
 LINE 424:11: No 'dfn' refs found for 'context object' that are marked for export.
@@ -14,14 +19,4 @@ LINE 427:25: No 'dfn' refs found for 'context object' that are marked for export
   (Possible specs this could be from: dom-parsing)
 LINE 428:27: No 'dfn' refs found for 'context object' that are marked for export.
   (Possible specs this could be from: dom-parsing)
-LINE 451:50: Multiple possible 'px' value refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#px
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:px
-spec:css22; type:value; text:px
-LINE 455:52: Multiple possible 'px' value refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#px
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:px
-spec:css22; type:value; text:px
 WARNING: This specification does not have a 'Privacy Considerations' section. Please consider adding one, see https://w3ctag.github.io/security-questionnaire/.

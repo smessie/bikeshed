@@ -1284,8 +1284,8 @@ Any <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappa
      <p>In the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsing-the-web.html#traverse-the-history" id="ref-for-traverse-the-history">traverse the history</a> algorithm, before Step #4.6.4, if the <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/browsing-the-web.html#dom-pagetransitionevent-persisted" id="ref-for-dom-pagetransitionevent-persisted①">persisted</a></code> attribute is true (i.e. we are moving out of bfcache), <a data-link-type="dfn" href="#change-the-frozenness-of-a-document" id="ref-for-change-the-frozenness-of-a-document②">change the frozenness of a document</a>, given <var>document</var> and false.</p>
    </ul>
    <h4 class="heading settled" data-level="5.2.2" id="html-html-event-loop-definitions"><span class="secno">5.2.2. </span><span class="content"><a href="https://html.spec.whatwg.org/multipage/webappapis.html#definitions-3">Event loop: definitions</a></span><a class="self-link" href="#html-html-event-loop-definitions"></a></h4>
-   <p>Replace: A <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-task" id="ref-for-concept-task">task</a> is runnable if its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> if either null or <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active">fully active</a>.</p>
-   <p>With: A <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-task" id="ref-for-concept-task①">task</a> is runnable if its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a> is either null or <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active①">fully active</a>, and is also <a data-link-type="dfn" href="#unfrozen" id="ref-for-unfrozen①">unfrozen</a>.</p>
+   <p>Replace: A <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-task" id="ref-for-concept-task">task</a> is runnable if its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> if either null or <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active">fully active</a>.</p>
+   <p>With: A <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-task" id="ref-for-concept-task①">task</a> is runnable if its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a> is either null or <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active①">fully active</a>, and is also <a data-link-type="dfn" href="#unfrozen" id="ref-for-unfrozen①">unfrozen</a>.</p>
    <h4 class="heading settled" data-level="5.2.3" id="html-event-loop"><span class="secno">5.2.3. </span><span class="content"><a href="https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model">Event loop: processing model</a></span><a class="self-link" href="#html-event-loop"></a></h4>
    <p>After Step #11 during the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#update-the-rendering" id="ref-for-update-the-rendering">Update the rendering</a> add the following step.</p>
    <p>For each <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active②">fully active</a> <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑦">Document</a></code> <var>doc</var> in <var>docs</var>, run the <a data-link-type="dfn" href="#update-document-frozenness-steps" id="ref-for-update-document-frozenness-steps">update document frozenness steps</a> given <var>doc</var>.</p>
@@ -1633,7 +1633,7 @@ for their technical input and suggestions that led to improvements to this speci
      <li><span class="dfn-paneled" id="84dda3ef">owning document</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="7ed32311">viewport</span>
     </ul>
@@ -1641,7 +1641,7 @@ for their technical input and suggestions that led to improvements to this speci
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="85394472">Document</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="5fd23811">fire an event</span>
      <li><span class="dfn-paneled" id="fd32e3c9">shadow-including descendant</span>
      <li><span class="dfn-paneled" id="fefa5851">shadow-including tree order</span>
@@ -1726,7 +1726,7 @@ for their technical input and suggestions that led to improvements to this speci
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
-   <dt id="biblio-css21">[CSS21]
+   <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
@@ -1739,7 +1739,7 @@ for their technical input and suggestions that led to improvements to this speci
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-service-workers">[SERVICE-WORKERS]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers Nightly</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
   </dl>
@@ -2028,7 +2028,7 @@ let dfnPanelData = {
 "9b3a0a68": {"dfnID":"9b3a0a68","dfnText":"media play","external":true,"refSections":[{"refs":[{"id":"ref-for-internal-play-steps"}],"title":"5.4.2. Changing the frozenness of documents"}],"url":"https://html.spec.whatwg.org/multipage/media.html#internal-play-steps"},
 "a262536f": {"dfnID":"a262536f","dfnText":"realm","external":true,"refSections":[{"refs":[{"id":"ref-for-sec-code-realms"},{"id":"ref-for-sec-code-realms\u2460"}],"title":"5.1. Modifications to worklet and worker behavior"}],"url":"https://tc39.github.io/ecma262/#sec-code-realms"},
 "a4e9d351": {"dfnID":"a4e9d351","dfnText":"persisted","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-pagetransitionevent-persisted"},{"id":"ref-for-dom-pagetransitionevent-persisted\u2460"}],"title":"5.2.1. Unloading documents and history traversal"}],"url":"https://html.spec.whatwg.org/multipage/browsing-the-web.html#dom-pagetransitionevent-persisted"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"}],"title":"5.2.2. Event loop: definitions"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"}],"title":"5.2.2. Event loop: definitions"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "ae2a6342": {"dfnID":"ae2a6342","dfnText":"top-level browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-top-level-browsing-context"}],"title":"5.4.2. Changing the frozenness of documents"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2460"}],"title":"5.4.3. Discarding"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context"},
 "b815f411": {"dfnID":"b815f411","dfnText":"Update the rendering","external":true,"refSections":[{"refs":[{"id":"ref-for-update-the-rendering"}],"title":"5.2.3. Event loop: processing model"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#update-the-rendering"},
 "b8308563": {"dfnID":"b8308563","dfnText":"DedicatedWorkerGlobalScope","external":true,"refSections":[{"refs":[{"id":"ref-for-dedicatedworkerglobalscope"},{"id":"ref-for-dedicatedworkerglobalscope\u2460"},{"id":"ref-for-dedicatedworkerglobalscope\u2461"}],"title":"5.1. Modifications to worklet and worker behavior"}],"url":"https://html.spec.whatwg.org/multipage/workers.html#dedicatedworkerglobalscope"},
@@ -2537,7 +2537,7 @@ let refsData = {
 "#resume-steps": {"displayText":"resume steps","export":true,"for_":[],"level":"1","normative":true,"shortname":"page-lifecycle","spec":"page-lifecycle-1","status":"local","text":"resume steps","type":"dfn","url":"#resume-steps"},
 "#unfrozen": {"displayText":"unfrozen","export":true,"for_":[],"level":"1","normative":true,"shortname":"page-lifecycle","spec":"page-lifecycle-1","status":"local","text":"unfrozen","type":"dfn","url":"#unfrozen"},
 "#update-document-frozenness-steps": {"displayText":"update document frozenness steps","export":true,"for_":[],"level":"1","normative":true,"shortname":"page-lifecycle","spec":"page-lifecycle-1","status":"local","text":"update document frozenness steps","type":"dfn","url":"#update-document-frozenness-steps"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-event-fire": {"displayText":"fire an event","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"fire an event","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-event-fire"},
 "https://dom.spec.whatwg.org/#concept-shadow-including-descendant": {"displayText":"shadow-including descendant","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"shadow-including descendant","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-shadow-including-descendant"},
 "https://dom.spec.whatwg.org/#concept-shadow-including-tree-order": {"displayText":"shadow-including tree order","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"shadow-including tree order","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-shadow-including-tree-order"},

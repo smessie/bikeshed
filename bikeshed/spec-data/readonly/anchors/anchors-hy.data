@@ -41,10 +41,10 @@ webauthn-3
 webauthn
 3
 snapshot
-https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhints-hybrid
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-hybrid
 1
 1
-PublicKeyCredentialHints
+PublicKeyCredentialHint
 -
 "hybridTransport"
 "hybridTransport"
@@ -54,6 +54,18 @@ webauthn
 3
 current
 https://w3c.github.io/webauthn/#dom-clientcapability-hybridtransport
+1
+1
+ClientCapability
+-
+"hybridTransport"
+"hybridTransport"
+enum-value
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-clientcapability-hybridtransport
 1
 1
 ClientCapability
@@ -68,6 +80,39 @@ current
 https://html.spec.whatwg.org/multipage/links.html#hyperlink-auditing
 
 1
+-
+HyperlinkElementUtils
+HyperlinkElementUtils
+interface
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/links.html#hyperlinkelementutils
+1
+1
+-
+hypermedia control
+Hypermedia Control
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-hypermedia-control
+
+
+-
+hypermedia control
+Hypermedia Control
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-hypermedia-control
+
+
 -
 hybrid
 hybrid
@@ -112,10 +157,10 @@ webauthn-3
 webauthn
 3
 snapshot
-https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhints-hybrid
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-hybrid
 1
 1
-PublicKeyCredentialHints
+PublicKeyCredentialHint
 -
 hybridTransport
 hybridTransport
@@ -128,6 +173,51 @@ https://w3c.github.io/webauthn/#dom-clientcapability-hybridtransport
 1
 1
 ClientCapability
+-
+hybridTransport
+hybridTransport
+enum-value
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-clientcapability-hybridtransport
+1
+1
+ClientCapability
+-
+hygienic name
+hygienic name
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#hygienic-name
+
+1
+-
+hygienic rename
+hygienic rename
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#hygienic-rename
+1
+1
+-
+hygienically rename
+hygienically rename
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#hygienic-rename
+1
+1
 -
 hyperbolic angle
 hyperbolic angle
@@ -173,6 +263,28 @@ https://html.spec.whatwg.org/multipage/links.html#hyperlink-annotation
 
 1
 -
+hyperlink element
+hyperlink element
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/links.html#hyperlink-element
+
+1
+-
+hyperlink referrer policy
+hyperlink referrer policy
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/links.html#hyperlink-referrer-policy
+
+1
+-
 hyperlinksuffix
 hyperlinkSuffix
 dfn
@@ -198,9 +310,9 @@ https://html.spec.whatwg.org/multipage/links.html#following-hyperlinksuffix
 hyphen-separated matching
 hyphen-separated matching
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#hyphen-separated-matching
 
@@ -211,20 +323,9 @@ hyphen-separated matching
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x18
-1
-1
--
-hyphen-separated matching
-hyphen-separated matching
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x18
+https://www.w3.org/TR/CSS2/selector.html#x18
 1
 1
 -
@@ -574,6 +675,17 @@ https://drafts.csswg.org/css-flexbox-1/#hypothetical-cross-size
 hypothetical cross size
 hypothetical cross size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#hypothetical-cross-size
+
+1
+-
+hypothetical cross size
+hypothetical cross size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -640,6 +752,17 @@ https://drafts.csswg.org/css-flexbox-1/#hypothetical-main-size
 hypothetical main size
 hypothetical main size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#hypothetical-main-size
+
+1
+-
+hypothetical main size
+hypothetical main size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -651,22 +774,22 @@ https://www.w3.org/TR/css-flexbox-1/#hypothetical-main-size
 hysteresis
 hysteresis
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#hysteresis
+https://w3c.github.io/pointerevents/#dfn-hysteresis
 
-1
+
 -
 hysteresis
 hysteresis
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#hysteresis
+https://www.w3.org/TR/pointerevents4/#dfn-hysteresis
 
-1
+
 -

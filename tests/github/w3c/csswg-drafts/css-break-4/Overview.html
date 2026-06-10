@@ -1412,7 +1412,7 @@ Generic Break Values</span><a class="self-link" href="#generic-break-values"></a
     <dd>
 		Always force a break before/after the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#principal-box" id="ref-for-principal-box">principal box</a>.
 		The type of this break is that of the immediately-containing <a data-link-type="dfn" href="#fragmentation-context" id="ref-for-fragmentation-context⑥">fragmentation context</a>.
-		For example, in a <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-1/#multi-column-container" id="ref-for-multi-column-container">multi-column container</a> forces a <a data-link-type="dfn" href="#column-break" id="ref-for-column-break">column break</a>;
+		For example, in a <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-2/#multi-column-container" id="ref-for-multi-column-container">multi-column container</a> forces a <a data-link-type="dfn" href="#column-break" id="ref-for-column-break">column break</a>;
 		in <a data-link-type="dfn" href="https://drafts.csswg.org/mediaqueries-5/#paged-media" id="ref-for-paged-media③">paged media</a> not inside a <span id="ref-for-multi-column-container①">multi-column container</span>,
 		forces a <a data-link-type="dfn" href="#page-break" id="ref-for-page-break">page break</a>.
 
@@ -1423,7 +1423,7 @@ Generic Break Values</span><a class="self-link" href="#generic-break-values"></a
      
 		Always force a break before/after the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#principal-box" id="ref-for-principal-box①">principal box</a>.
 		This value breaks through all containing <a data-link-type="dfn" href="#fragmentation-context" id="ref-for-fragmentation-context⑦">fragmentation contexts</a>.
-		For example, inside a <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-1/#multi-column-container" id="ref-for-multi-column-container②">multi-column container</a> in a <a data-link-type="dfn" href="https://w3c.github.io/contact-picker/#physical-address-region" id="ref-for-physical-address-region">region</a> in a <span id="ref-for-multi-column-container③">multi-column container</span> in <a data-link-type="dfn" href="https://drafts.csswg.org/mediaqueries-5/#paged-media" id="ref-for-paged-media④">paged media</a>,
+		For example, inside a <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-2/#multi-column-container" id="ref-for-multi-column-container②">multi-column container</a> in a <a data-link-type="dfn" href="https://w3c.github.io/contact-picker/#physical-address-region" id="ref-for-physical-address-region">region</a> in a <span id="ref-for-multi-column-container③">multi-column container</span> in <a data-link-type="dfn" href="https://drafts.csswg.org/mediaqueries-5/#paged-media" id="ref-for-paged-media④">paged media</a>,
 		it forces simultaneously a <a data-link-type="dfn" href="#column-break" id="ref-for-column-break①">column break</a> in the inner <span id="ref-for-multi-column-container④">multi-column container</span>,
 		a <a data-link-type="dfn" href="#region-break" id="ref-for-region-break">region break</a>, a <span id="ref-for-column-break②">column break</span> in the outer <span id="ref-for-multi-column-container⑤">multi-column container</span>,
 		and a <a data-link-type="dfn" href="#page-break" id="ref-for-page-break①">page break</a>.
@@ -2164,7 +2164,7 @@ Adjoining Margins at Breaks: the <a class="css property" data-link-type="propert
 	See <a href="https://github.com/w3c/csswg-drafts/issues/3254">discussion</a>.</p>
    <div class="example" id="example-a4281f24">
     <a class="self-link" href="#example-a4281f24"></a>
-		Consider the following <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-1/#multi-column-layout" id="ref-for-multi-column-layout">multi-column layout</a> example:
+		Consider the following <a data-link-type="dfn" href="https://drafts.csswg.org/css-multicol-2/#multi-column-layout" id="ref-for-multi-column-layout">multi-column layout</a> example:
 		
 <pre>&lt;style>
   article { columns: 16ch; border: solid silver; }
@@ -2275,7 +2275,7 @@ Fragmented Borders and Backgrounds: the <a class="css property" data-link-type="
 		
     <li>
 			how the <a data-link-type="dfn" href="https://drafts.csswg.org/css-backgrounds-3/#background-positioning-area" id="ref-for-background-positioning-area">background positioning area</a> <a data-link-type="biblio" href="#biblio-css-backgrounds-3" title="CSS Backgrounds and Borders Module Level 3">[CSS-BACKGROUNDS-3]</a>
-			(and <a data-link-type="dfn" href="https://drafts.fxtf.org/css-masking-1/#mask-positioning-area" id="ref-for-mask-positioning-area">mask positioning area</a> <a data-link-type="biblio" href="#biblio-css-masking-1" title="CSS Masking Module Level 1">[CSS-MASKING-1]</a>,
+			(and <a data-link-type="dfn" href="https://drafts.csswg.org/css-masking-1/#mask-positioning-area" id="ref-for-mask-positioning-area">mask positioning area</a> <a data-link-type="biblio" href="#biblio-css-masking-1" title="CSS Masking Module Level 1">[CSS-MASKING-1]</a>,
 			shape <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#basic-shape-reference-box" id="ref-for-basic-shape-reference-box">reference box</a> <a data-link-type="biblio" href="#biblio-css-shapes-1" title="CSS Shapes Module Level 1">[CSS-SHAPES-1]</a>, etc.)
 			is derived from or duplicated across the box fragments
 			and how the element’s background is drawn within them.
@@ -2713,13 +2713,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-MASKING-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="65b081ea">mask positioning area</span>
+     <li><span class="dfn-paneled" id="901d294e">mask positioning area</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-MULTICOL-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-MULTICOL-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="521eb6d4">multi-column container</span>
-     <li><span class="dfn-paneled" id="18499cc8">multi-column layout</span>
+     <li><span class="dfn-paneled" id="396d5070">multi-column container</span>
+     <li><span class="dfn-paneled" id="c6811fc7">multi-column layout</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-OVERFLOW-3]</a> defines the following terms:
@@ -2785,7 +2785,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="d97c40f4">principal writing mode</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="5ddc23c6">page-break-after</span>
      <li><span class="dfn-paneled" id="8f568cb6">page-break-before</span>
@@ -2815,17 +2815,19 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-masking-1">[CSS-MASKING-1]
-   <dd>Dirk Schulze; Brian Birtles; Tab Atkins Jr.. <a href="https://drafts.fxtf.org/css-masking-1/"><cite>CSS Masking Module Level 1</cite></a>. URL: <a href="https://drafts.fxtf.org/css-masking-1/">https://drafts.fxtf.org/css-masking-1/</a>
+   <dd>Dirk Schulze; Brian Birtles; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-masking-1/"><cite>CSS Masking Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-masking-1/">https://drafts.csswg.org/css-masking-1/</a>
    <dt id="biblio-css-multicol-1">[CSS-MULTICOL-1]
    <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol/"><cite>CSS Multi-column Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol/">https://drafts.csswg.org/css-multicol/</a>
+   <dt id="biblio-css-multicol-2">[CSS-MULTICOL-2]
+   <dd>Florian Rivoal; Rachel Andrew. <a href="https://drafts.csswg.org/css-multicol-2/"><cite>CSS Multi-column Layout Module Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-multicol-2/">https://drafts.csswg.org/css-multicol-2/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
    <dd>Elika Etemad; Florian Rivoal. <a href="https://drafts.csswg.org/css-overflow-3/"><cite>CSS Overflow Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-3/">https://drafts.csswg.org/css-overflow-3/</a>
    <dt id="biblio-css-page-3">[CSS-PAGE-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-page-3/"><cite>CSS Paged Media Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-page-3/">https://drafts.csswg.org/css-page-3/</a>
    <dt id="biblio-css-shapes-1">[CSS-SHAPES-1]
-   <dd>Rossen Atanassov; Alan Stearns. <a href="https://drafts.csswg.org/css-shapes/"><cite>CSS Shapes Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-shapes/">https://drafts.csswg.org/css-shapes/</a>
+   <dd>Alan Stearns; Rossen Atanassov; Noam Rosenthal. <a href="https://drafts.csswg.org/css-shapes/"><cite>CSS Shapes Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-shapes/">https://drafts.csswg.org/css-shapes/</a>
    <dt id="biblio-css-sizing-3">[CSS-SIZING-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-sizing-3/"><cite>CSS Box Sizing Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-sizing-3/">https://drafts.csswg.org/css-sizing-3/</a>
    <dt id="biblio-css-transforms-1">[CSS-TRANSFORMS-1]
@@ -2840,21 +2842,19 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-writing-modes-4/"><cite>CSS Writing Modes Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-writing-modes-4/">https://drafts.csswg.org/css-writing-modes-4/</a>
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3-regions">[CSS3-REGIONS]
    <dd>Rossen Atanassov; Alan Stearns. <a href="https://drafts.csswg.org/css-regions/"><cite>CSS Regions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-regions/">https://drafts.csswg.org/css-regions/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css-flexbox-1">[CSS-FLEXBOX-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-flexbox-1/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox-1/">https://drafts.csswg.org/css-flexbox-1/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.; Rossen Atanassov. <a href="https://drafts.csswg.org/css-flexbox/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox/">https://drafts.csswg.org/css-flexbox/</a>
    <dt id="biblio-css-grid-1">[CSS-GRID-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid/"><cite>CSS Grid Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid/">https://drafts.csswg.org/css-grid/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-grid-1/"><cite>CSS Grid Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-grid-1/">https://drafts.csswg.org/css-grid-1/</a>
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css-text-3">[CSS-TEXT-3]
@@ -3254,7 +3254,6 @@ let dfnPanelData = {
 "1364cc84": {"dfnID":"1364cc84","dfnText":"legacy shorthand","external":true,"refSections":[{"refs":[{"id":"ref-for-legacy-shorthand"}],"title":"3.4. \nPage Break Aliases: the page-break-before, page-break-after, and page-break-inside properties"}],"url":"https://drafts.csswg.org/css-cascade-5/#legacy-shorthand"},
 "1370dad0": {"dfnID":"1370dad0","dfnText":"block-start","external":true,"refSections":[{"refs":[{"id":"ref-for-block-start"}],"title":"4.4. \nUnforced Breaks"},{"refs":[{"id":"ref-for-block-start\u2460"},{"id":"ref-for-block-start\u2461"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"},{"refs":[{"id":"ref-for-block-start\u2462"}],"title":"5.5. \nTransforms, Positioning, and Pagination"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-start"},
 "175a39e9": {"dfnID":"175a39e9","dfnText":"reference box","external":true,"refSections":[{"refs":[{"id":"ref-for-basic-shape-reference-box"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-shapes-1/#basic-shape-reference-box"},
-"18499cc8": {"dfnID":"18499cc8","dfnText":"multi-column layout","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-layout"}],"title":"5.2. \nAdjoining Margins at Breaks: the margin-break property"}],"url":"https://drafts.csswg.org/css-multicol-1/#multi-column-layout"},
 "190183bb": {"dfnID":"190183bb","dfnText":"block size","external":true,"refSections":[{"refs":[{"id":"ref-for-block-size"}],"title":"4. \nRules for Breaking"},{"refs":[{"id":"ref-for-block-size\u2460"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"},{"refs":[{"id":"ref-for-block-size\u2461"},{"id":"ref-for-block-size\u2462"},{"id":"ref-for-block-size\u2463"}],"title":"5.3. \nSplitting Boxes"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-size"},
 "1fa52ca0": {"dfnID":"1fa52ca0","dfnText":"background positioning area","external":true,"refSections":[{"refs":[{"id":"ref-for-background-positioning-area"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#background-positioning-area"},
 "26a40c98": {"dfnID":"26a40c98","dfnText":"max-content size","external":true,"refSections":[{"refs":[{"id":"ref-for-max-content"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"}],"url":"https://drafts.csswg.org/css-sizing-3/#max-content"},
@@ -3262,6 +3261,7 @@ let dfnPanelData = {
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.2. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
 "37c3d179": {"dfnID":"37c3d179","dfnText":"block-end","external":true,"refSections":[{"refs":[{"id":"ref-for-block-end"}],"title":"4.4. \nUnforced Breaks"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-end"},
 "37f0daea": {"dfnID":"37f0daea","dfnText":"inline size","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-size"},{"id":"ref-for-inline-size\u2460"},{"id":"ref-for-inline-size\u2461"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#inline-size"},
+"396d5070": {"dfnID":"396d5070","dfnText":"multi-column container","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-container"},{"id":"ref-for-multi-column-container\u2460"},{"id":"ref-for-multi-column-container\u2461"},{"id":"ref-for-multi-column-container\u2462"},{"id":"ref-for-multi-column-container\u2463"},{"id":"ref-for-multi-column-container\u2464"}],"title":"\nGeneric Break Values"}],"url":"https://drafts.csswg.org/css-multicol-2/#multi-column-container"},
 "3bcf9aaa": {"dfnID":"3bcf9aaa","dfnText":"logical height","external":true,"refSections":[{"refs":[{"id":"ref-for-logical-height"}],"title":"4.1. \nPossible Break Points"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#logical-height"},
 "3f0db204": {"dfnID":"3f0db204","dfnText":"min-content size","external":true,"refSections":[{"refs":[{"id":"ref-for-min-content"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"}],"url":"https://drafts.csswg.org/css-sizing-3/#min-content"},
 "3f92298d": {"dfnID":"3f92298d","dfnText":"stretch-fit size","external":true,"refSections":[{"refs":[{"id":"ref-for-stretch-fit-size"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"}],"url":"https://drafts.csswg.org/css-sizing-3/#stretch-fit-size"},
@@ -3269,14 +3269,12 @@ let dfnPanelData = {
 "46080d3b": {"dfnID":"46080d3b","dfnText":"page progression","external":true,"refSections":[{"refs":[{"id":"ref-for-page-progression"},{"id":"ref-for-page-progression\u2460"}],"title":"\nPage Break Values"}],"url":"https://drafts.csswg.org/css-page-3/#page-progression"},
 "4a57c942": {"dfnID":"4a57c942","dfnText":"border area","external":true,"refSections":[{"refs":[{"id":"ref-for-border-area"}],"title":"2. \nFragmentation Model and Terminology"}],"url":"https://drafts.csswg.org/css-box-4/#border-area"},
 "4cf37eb4": {"dfnID":"4cf37eb4","dfnText":"region","external":true,"refSections":[{"refs":[{"id":"ref-for-physical-address-region"}],"title":"\nGeneric Break Values"}],"url":"https://w3c.github.io/contact-picker/#physical-address-region"},
-"521eb6d4": {"dfnID":"521eb6d4","dfnText":"multi-column container","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-container"},{"id":"ref-for-multi-column-container\u2460"},{"id":"ref-for-multi-column-container\u2461"},{"id":"ref-for-multi-column-container\u2462"},{"id":"ref-for-multi-column-container\u2463"},{"id":"ref-for-multi-column-container\u2464"}],"title":"\nGeneric Break Values"}],"url":"https://drafts.csswg.org/css-multicol-1/#multi-column-container"},
 "54aa64f0": {"dfnID":"54aa64f0","dfnText":"margin","external":true,"refSections":[{"refs":[{"id":"ref-for-margin"}],"title":"5.2. \nAdjoining Margins at Breaks: the margin-break property"}],"url":"https://drafts.csswg.org/css-box-4/#margin"},
 "5a6dc1f0": {"dfnID":"5a6dc1f0","dfnText":"line break","external":true,"refSections":[{"refs":[{"id":"ref-for-line-break"}],"title":"4.2. \nTypes of Breaks"}],"url":"https://drafts.csswg.org/css-text-4/#line-break"},
 "5bc8bd12": {"dfnID":"5bc8bd12","dfnText":"direction","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-direction"},{"id":"ref-for-propdef-direction\u2460"},{"id":"ref-for-propdef-direction\u2461"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"},{"refs":[{"id":"ref-for-propdef-direction\u2462"}],"title":"5.4.1. \nJoining Boxes for slice"}],"url":"https://drafts.csswg.org/css-writing-modes-3/#propdef-direction"},
 "5ddc23c6": {"dfnID":"5ddc23c6","dfnText":"page-break-after","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-page-break-after"},{"id":"ref-for-propdef-page-break-after\u2460"}],"title":"3.4. \nPage Break Aliases: the page-break-before, page-break-after, and page-break-inside properties"}],"url":"https://drafts.csswg.org/css2/#propdef-page-break-after"},
 "5f1a81e7": {"dfnID":"5f1a81e7","dfnText":"border-radius","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-radius"},{"id":"ref-for-propdef-border-radius\u2460"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius"},
 "62dcf741": {"dfnID":"62dcf741","dfnText":"margin area","external":true,"refSections":[{"refs":[{"id":"ref-for-margin-area"}],"title":"2. \nFragmentation Model and Terminology"}],"url":"https://drafts.csswg.org/css-box-4/#margin-area"},
-"65b081ea": {"dfnID":"65b081ea","dfnText":"mask positioning area","external":true,"refSections":[{"refs":[{"id":"ref-for-mask-positioning-area"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.fxtf.org/css-masking-1/#mask-positioning-area"},
 "68019d7a": {"dfnID":"68019d7a","dfnText":"height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-height"}],"title":"5.1. \nBreaking into Varying-size Fragmentainers"}],"url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
 "6916104d": {"dfnID":"6916104d","dfnText":"box-shadow","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-box-shadow"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"},{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"},{"id":"ref-for-comb-one\u2462"},{"id":"ref-for-comb-one\u2463"},{"id":"ref-for-comb-one\u2464"},{"id":"ref-for-comb-one\u2465"},{"id":"ref-for-comb-one\u2466"},{"id":"ref-for-comb-one\u2467"},{"id":"ref-for-comb-one\u2468"},{"id":"ref-for-comb-one\u2460\u24ea"},{"id":"ref-for-comb-one\u2460\u2460"},{"id":"ref-for-comb-one\u2460\u2461"}],"title":"3.1. \nBreaks Between Boxes: the break-before and break-after properties"},{"refs":[{"id":"ref-for-comb-one\u2460\u2462"},{"id":"ref-for-comb-one\u2460\u2463"},{"id":"ref-for-comb-one\u2460\u2464"},{"id":"ref-for-comb-one\u2460\u2465"}],"title":"3.2. \nBreaks Within Boxes: the break-inside property"},{"refs":[{"id":"ref-for-comb-one\u2460\u2466"},{"id":"ref-for-comb-one\u2460\u2467"}],"title":"5.2. \nAdjoining Margins at Breaks: the margin-break property"},{"refs":[{"id":"ref-for-comb-one\u2460\u2468"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
@@ -3290,6 +3288,7 @@ let dfnPanelData = {
 "88dd7551": {"dfnID":"88dd7551","dfnText":"block flow direction","external":true,"refSections":[{"refs":[{"id":"ref-for-block-flow-direction"},{"id":"ref-for-block-flow-direction\u2460"},{"id":"ref-for-block-flow-direction\u2461"}],"title":"5.4.1. \nJoining Boxes for slice"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#block-flow-direction"},
 "8b3ca704": {"dfnID":"8b3ca704","dfnText":"auto","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-overflow-auto"}],"title":"4.1. \nPossible Break Points"}],"url":"https://drafts.csswg.org/css-overflow-3/#valdef-overflow-auto"},
 "8f568cb6": {"dfnID":"8f568cb6","dfnText":"page-break-before","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-page-break-before"},{"id":"ref-for-propdef-page-break-before\u2460"}],"title":"3.4. \nPage Break Aliases: the page-break-before, page-break-after, and page-break-inside properties"}],"url":"https://drafts.csswg.org/css2/#propdef-page-break-before"},
+"901d294e": {"dfnID":"901d294e","dfnText":"mask positioning area","external":true,"refSections":[{"refs":[{"id":"ref-for-mask-positioning-area"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-masking-1/#mask-positioning-area"},
 "99cabd32": {"dfnID":"99cabd32","dfnText":"in-flow","external":true,"refSections":[{"refs":[{"id":"ref-for-in-flow"},{"id":"ref-for-in-flow\u2460"}],"title":"3.1.1. \nChild\u2192Parent Break Propagation"}],"url":"https://drafts.csswg.org/css-display-4/#in-flow"},
 "9cd25054": {"dfnID":"9cd25054","dfnText":"computed value","external":true,"refSections":[{"refs":[{"id":"ref-for-computed-value"}],"title":"3.1.1. \nChild\u2192Parent Break Propagation"}],"url":"https://drafts.csswg.org/css-cascade-5/#computed-value"},
 "9f3d4f17": {"dfnID":"9f3d4f17","dfnText":"block container","external":true,"refSections":[{"refs":[{"id":"ref-for-block-container"}],"title":"3.3. \nBreaks Between Lines: orphans, widows"},{"refs":[{"id":"ref-for-block-container\u2460"}],"title":"5.4. \nFragmented Borders and Backgrounds: the box-decoration-break property"}],"url":"https://drafts.csswg.org/css-display-4/#block-container"},
@@ -3299,6 +3298,7 @@ let dfnPanelData = {
 "b8f126f1": {"dfnID":"b8f126f1","dfnText":"inline formatting context","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-formatting-context"}],"title":"3.3. \nBreaks Between Lines: orphans, widows"}],"url":"https://drafts.csswg.org/css-display-4/#inline-formatting-context"},
 "box-fragment": {"dfnID":"box-fragment","dfnText":"box fragment","external":false,"refSections":[{"refs":[{"id":"ref-for-box-fragment"}],"title":"2. Fragmentation Model and Terminology"},{"refs":[{"id":"ref-for-box-fragment\u2460"},{"id":"ref-for-box-fragment\u2461"}],"title":"4.5. Optimizing Unforced Breaks"}],"url":"#box-fragment"},
 "break": {"dfnID":"break","dfnText":"break","external":false,"refSections":[],"url":"#break"},
+"c6811fc7": {"dfnID":"c6811fc7","dfnText":"multi-column layout","external":true,"refSections":[{"refs":[{"id":"ref-for-multi-column-layout"}],"title":"5.2. \nAdjoining Margins at Breaks: the margin-break property"}],"url":"https://drafts.csswg.org/css-multicol-2/#multi-column-layout"},
 "column-break": {"dfnID":"column-break","dfnText":"column break","external":false,"refSections":[{"refs":[{"id":"ref-for-column-break"},{"id":"ref-for-column-break\u2460"},{"id":"ref-for-column-break\u2461"}],"title":"Generic Break Values"}],"url":"#column-break"},
 "d657c27f": {"dfnID":"d657c27f","dfnText":"margin-trim","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin-trim"}],"title":"5.2. \nAdjoining Margins at Breaks: the margin-break property"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin-trim"},
 "d97c40f4": {"dfnID":"d97c40f4","dfnText":"principal writing mode","external":true,"refSections":[{"refs":[{"id":"ref-for-principal-writing-mode"}],"title":"5.4.1. \nJoining Boxes for slice"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#principal-writing-mode"},
@@ -3872,8 +3872,9 @@ let refsData = {
 "https://drafts.csswg.org/css-display-4/#principal-box": {"displayText":"principal box","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"principal box","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#principal-box"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-inline-block": {"displayText":"inline-block","export":true,"for_":["display","<display-legacy>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"inline-block","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-inline-block"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-inline-table": {"displayText":"inline-table","export":true,"for_":["display","<display-legacy>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"inline-table","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-inline-table"},
-"https://drafts.csswg.org/css-multicol-1/#multi-column-container": {"displayText":"multi-column container","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"multi-column container","type":"dfn","url":"https://drafts.csswg.org/css-multicol-1/#multi-column-container"},
-"https://drafts.csswg.org/css-multicol-1/#multi-column-layout": {"displayText":"multi-column layout","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-multicol","spec":"css-multicol-1","status":"current","text":"multi-column layout","type":"dfn","url":"https://drafts.csswg.org/css-multicol-1/#multi-column-layout"},
+"https://drafts.csswg.org/css-masking-1/#mask-positioning-area": {"displayText":"mask positioning area","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-masking","spec":"css-masking-1","status":"current","text":"mask positioning area","type":"dfn","url":"https://drafts.csswg.org/css-masking-1/#mask-positioning-area"},
+"https://drafts.csswg.org/css-multicol-2/#multi-column-container": {"displayText":"multi-column container","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"multi-column container","type":"dfn","url":"https://drafts.csswg.org/css-multicol-2/#multi-column-container"},
+"https://drafts.csswg.org/css-multicol-2/#multi-column-layout": {"displayText":"multi-column layout","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-multicol","spec":"css-multicol-2","status":"current","text":"multi-column layout","type":"dfn","url":"https://drafts.csswg.org/css-multicol-2/#multi-column-layout"},
 "https://drafts.csswg.org/css-overflow-3/#propdef-overflow": {"displayText":"overflow","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-overflow","spec":"css-overflow-3","status":"current","text":"overflow","type":"property","url":"https://drafts.csswg.org/css-overflow-3/#propdef-overflow"},
 "https://drafts.csswg.org/css-overflow-3/#valdef-overflow-auto": {"displayText":"auto","export":true,"for_":["overflow","overflow-x","overflow-y"],"level":"3","normative":true,"shortname":"css-overflow","spec":"css-overflow-3","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/css-overflow-3/#valdef-overflow-auto"},
 "https://drafts.csswg.org/css-overflow-3/#valdef-overflow-scroll": {"displayText":"scroll","export":true,"for_":["overflow","overflow-x","overflow-y"],"level":"3","normative":true,"shortname":"css-overflow","spec":"css-overflow-3","status":"current","text":"scroll","type":"value","url":"https://drafts.csswg.org/css-overflow-3/#valdef-overflow-scroll"},
@@ -3902,12 +3903,11 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-4/#logical-height": {"displayText":"logical height","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"logical height","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#logical-height"},
 "https://drafts.csswg.org/css-writing-modes-4/#principal-writing-mode": {"displayText":"principal writing mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"principal writing mode","type":"dfn","url":"https://drafts.csswg.org/css-writing-modes-4/#principal-writing-mode"},
 "https://drafts.csswg.org/css-writing-modes-4/#valdef-direction-ltr": {"displayText":"ltr","export":true,"for_":["direction"],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"ltr","type":"value","url":"https://drafts.csswg.org/css-writing-modes-4/#valdef-direction-ltr"},
-"https://drafts.csswg.org/css2/#propdef-page-break-after": {"displayText":"page-break-after","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"page-break-after","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-after"},
-"https://drafts.csswg.org/css2/#propdef-page-break-before": {"displayText":"page-break-before","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"page-break-before","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-before"},
-"https://drafts.csswg.org/css2/#propdef-page-break-inside": {"displayText":"page-break-inside","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"page-break-inside","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-inside"},
+"https://drafts.csswg.org/css2/#propdef-page-break-after": {"displayText":"page-break-after","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"page-break-after","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-after"},
+"https://drafts.csswg.org/css2/#propdef-page-break-before": {"displayText":"page-break-before","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"page-break-before","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-before"},
+"https://drafts.csswg.org/css2/#propdef-page-break-inside": {"displayText":"page-break-inside","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"page-break-inside","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-inside"},
 "https://drafts.csswg.org/mediaqueries-5/#continuous-media": {"displayText":"continuous media","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"continuous media","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#continuous-media"},
 "https://drafts.csswg.org/mediaqueries-5/#paged-media": {"displayText":"paged media","export":true,"for_":[],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"paged media","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-5/#paged-media"},
-"https://drafts.fxtf.org/css-masking-1/#mask-positioning-area": {"displayText":"mask positioning area","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-masking","spec":"css-masking-1","status":"current","text":"mask positioning area","type":"dfn","url":"https://drafts.fxtf.org/css-masking-1/#mask-positioning-area"},
 "https://w3c.github.io/contact-picker/#physical-address-region": {"displayText":"region","export":true,"for_":["physical address"],"level":"1","normative":true,"shortname":"contact-picker","spec":"contact-picker","status":"current","text":"region","type":"dfn","url":"https://w3c.github.io/contact-picker/#physical-address-region"},
 };
 

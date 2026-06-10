@@ -1,3 +1,99 @@
+"full"
+"full"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextinnertextlocator-matchtype-full
+
+1
+browsingContext.InnerTextLocator/matchType
+-
+"full"
+"full"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextinnertextlocator-matchtype-full
+
+1
+browsingContext.InnerTextLocator/matchType
+-
+"fullVersionList"
+"fullVersionList"
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-fullversionlist
+1
+1
+userAgentClientHints.ClientHintsMetadata
+-
+"fullscreen"
+"fullscreen"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-fullscreen
+
+1
+browser.ClientWindowInfo/state
+-
+"fullscreen"
+"fullscreen"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-fullscreen
+
+1
+browser.ClientWindowNamedState/state
+-
+"fullscreen"
+"fullscreen"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-fullscreen
+
+1
+browser.ClientWindowInfo/state
+-
+"fullscreen"
+"fullscreen"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-fullscreen
+
+1
+browser.ClientWindowNamedState/state
+-
+"function"
+"function"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptfunctionremotevalue-type-function
+
+1
+script.FunctionRemoteValue/type
+-
 "function"
 "function"
 enum-value
@@ -21,6 +117,90 @@ https://www.w3.org/TR/wasm-js-api-2/#dom-importexportkind-function
 1
 1
 ImportExportKind
+-
+"function"
+"function"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptfunctionremotevalue-type-function
+
+1
+script.FunctionRemoteValue/type
+-
+"functionDeclaration"
+"functionDeclaration"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptaddpreloadscriptparameters-functiondeclaration
+
+1
+script.AddPreloadScriptParameters
+-
+"functionDeclaration"
+"functionDeclaration"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-functiondeclaration
+
+1
+script.CallFunctionParameters
+-
+"functionDeclaration"
+"functionDeclaration"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptaddpreloadscriptparameters-functiondeclaration
+
+1
+script.AddPreloadScriptParameters
+-
+"functionDeclaration"
+"functionDeclaration"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-functiondeclaration
+
+1
+script.CallFunctionParameters
+-
+"functionName"
+"functionName"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptstackframe-functionname
+
+1
+script.StackFrame
+-
+"functionName"
+"functionName"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptstackframe-functionname
+
+1
+script.StackFrame
 -
 %Function%
 %Function%
@@ -80,11 +260,11 @@ https://www.w3.org/TR/selectors-4/#selectordef-fullscreen
 :future
 :future
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 current
-https://drafts.csswg.org/selectors-4/#future-pseudo
+https://drafts.csswg.org/selectors-5/#future-pseudo
 1
 1
 -
@@ -102,56 +282,23 @@ https://w3c.github.io/webvtt/#selectordef-future
 :future
 :future
 selector
-selectors-4
+selectors-5
 selectors
-4
+5
 snapshot
-https://www.w3.org/TR/selectors-4/#future-pseudo
+https://www.w3.org/TR/selectors-5/#future-pseudo
 1
 1
 -
 :future
 :future
-dfn
+selector
 webvtt1
 webvtt
 1
 snapshot
-https://www.w3.org/TR/webvtt1/#future
+https://www.w3.org/TR/webvtt1/#selectordef-future
 
-1
--
-<function-dependency-list>
-<function-dependency-list>
-type
-css-mixins-1
-css-mixins
-1
-current
-https://drafts.csswg.org/css-mixins-1/#typedef-function-dependency-list
-1
-1
--
-<function-name>
-<function-name>
-type
-css-mixins-1
-css-mixins
-1
-current
-https://drafts.csswg.org/css-mixins-1/#typedef-function-name
-1
-1
--
-<function-parameter-list>
-<function-parameter-list>
-type
-css-mixins-1
-css-mixins
-1
-current
-https://drafts.csswg.org/css-mixins-1/#typedef-function-parameter-list
-1
 1
 -
 <function-parameter>
@@ -162,6 +309,17 @@ css-mixins
 1
 current
 https://drafts.csswg.org/css-mixins-1/#typedef-function-parameter
+1
+1
+-
+<function-parameter>
+<function-parameter>
+type
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#typedef-function-parameter
 1
 1
 -
@@ -195,6 +353,17 @@ css-mixins
 1
 current
 https://drafts.csswg.org/css-mixins-1/#at-ruledef-function
+1
+1
+-
+@function
+@function
+at-rule
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#at-ruledef-function
 1
 1
 -
@@ -249,8 +418,8 @@ rdf12-concepts
 rdf-concepts
 1
 current
-https://w3c.github.io/rdf-concepts/spec/#dfn-full-conformance
-
+https://w3c.github.io/rdf-concepts/spec/#dfn-full
+1
 1
 -
 full conformance
@@ -260,8 +429,8 @@ rdf12-concepts
 rdf-concepts
 1
 snapshot
-https://www.w3.org/TR/rdf12-concepts/#dfn-full-conformance
-
+https://www.w3.org/TR/rdf12-concepts/#dfn-full
+1
 1
 -
 fullscreen window
@@ -317,6 +486,17 @@ webdriver
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-fullscreen-window-state
 
+1
+-
+FullscreenKeyboardLock
+FullscreenKeyboardLock
+enum
+fullscreen
+fullscreen
+1
+current
+https://fullscreen.spec.whatwg.org/#enumdef-fullscreenkeyboardlock
+1
 1
 -
 FullscreenNavigationUI
@@ -455,8 +635,8 @@ https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html#sec-types
 1
 ECMAScript
 -
-Function(...parameterArgs, bodyArg)
-Function(...parameterArgs, bodyArg)
+Function(...paramArgs, bodyArg)
+Function(...paramArgs, bodyArg)
 constructor
 ecmascript
 ecmascript
@@ -467,8 +647,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-p1-p2-pn
 1
 Function
 -
-Function.prototype %Symbol.hasInstance% (V)
-Function.prototype %Symbol.hasInstance% (V)
+Function.prototype %Symbol.hasInstance% (value)
+Function.prototype %Symbol.hasInstance% (value)
 method
 ecmascript
 ecmascript
@@ -477,7 +657,29 @@ current
 https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype-%25symbol.hasinstance%25
 1
 1
-Function.prototype [ %Symbol.hasInstance% ] ( V )
+Function.prototype [ %Symbol.hasInstance% ] ( value )
+-
+functionbody
+FunctionBody
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FunctionBody
+
+1
+-
+functiondeclaration
+FunctionDeclaration
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FunctionDeclaration
+
+1
 -
 FunctionDeclarationInstantiation
 FunctionDeclarationInstantiation
@@ -490,8 +692,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-FunctionDeclarationInstantiation(func, argumentsList)
-FunctionDeclarationInstantiation(func, argumentsList)
+FunctionDeclarationInstantiation(func, argList)
+FunctionDeclarationInstantiation(func, argList)
 abstract-op
 ecmascript
 ecmascript
@@ -499,6 +701,61 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-functiondeclarationinstantiation
 1
+1
+-
+functionexpression
+FunctionExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FunctionExpression
+
+1
+-
+FunctionParameter
+FunctionParameter
+dictionary
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#dictdef-functionparameter
+1
+1
+-
+FunctionParameter
+FunctionParameter
+dictionary
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#dictdef-functionparameter
+1
+1
+-
+functionrestparameter
+FunctionRestParameter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FunctionRestParameter
+
+1
+-
+functionstatementlist
+FunctionStatementList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FunctionStatementList
+
 1
 -
 FunctionStringCallback
@@ -587,9 +844,9 @@ https://drafts.csswg.org/css-color-4/#valdef-color-fuchsia
 fuchsia
 fuchsia
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-color-fuchsia
 1
@@ -719,6 +976,30 @@ https://www.w3.org/TR/webrtc/#dfn-fulfill
 
 1
 -
+full
+full
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextinnertextlocator-matchtype-full
+
+1
+browsingContext.InnerTextLocator/matchType
+-
+full
+full
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextinnertextlocator-matchtype-full
+
+1
+browsingContext.InnerTextLocator/matchType
+-
 full assignment
 full assignment
 dfn
@@ -748,7 +1029,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TermFullGlyphCell
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermFullGlyphCell
 1
 1
 -
@@ -849,10 +1130,34 @@ ua-client-hints
 ua-client-hints
 1
 current
+https://wicg.github.io/ua-client-hints/#user-agent-client-hints-full-version
+1
+1
+user agent client hints
+-
+full version
+full version
+dfn
+ua-client-hints
+ua-client-hints
+1
+current
 https://wicg.github.io/ua-client-hints/#user-agent-full-version
 1
 1
 user agent
+-
+full version list
+full version list
+dfn
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#user-agent-client-hints-full-version-list
+1
+1
+user agent client hints
 -
 full version list frozen array
 full version list frozen array
@@ -876,6 +1181,18 @@ current
 https://urlpattern.spec.whatwg.org/#full-wildcard-regexp-value
 
 1
+-
+full-address
+full-address
+attr-value
+autofill-event
+autofill-event
+1
+current
+https://wicg.github.io/autofill-event/#attr-valuedef-autocomplete-full-address
+1
+1
+autocomplete
 -
 full-range image
 full-range image
@@ -1245,6 +1562,18 @@ VideoColorSpaceInit
 -
 fullVersionList
 fullVersionList
+cddl-key
+ua-client-hints
+ua-client-hints
+1
+current
+https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-fullversionlist
+1
+1
+userAgentClientHints.ClientHintsMetadata
+-
+fullVersionList
+fullVersionList
 dict-member
 ua-client-hints
 ua-client-hints
@@ -1304,6 +1633,30 @@ https://w3c.github.io/miniapp-manifest/#dfn-fullscreen
 -
 fullscreen
 fullscreen
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-fullscreen
+
+1
+browser.ClientWindowInfo/state
+-
+fullscreen
+fullscreen
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-fullscreen
+
+1
+browser.ClientWindowNamedState/state
+-
+fullscreen
+fullscreen
 dfn
 appmanifest
 appmanifest
@@ -1316,15 +1669,15 @@ display mode
 -
 fullscreen
 fullscreen
-dfn
+value
 mediaqueries-5
 mediaqueries
 5
 snapshot
-https://www.w3.org/TR/mediaqueries-5/#display-mode-fullscreen
+https://www.w3.org/TR/mediaqueries-5/#valdef-media-display-mode-fullscreen
 1
 1
-display mode
+@media/display-mode
 -
 fullscreen
 fullscreen
@@ -1336,6 +1689,30 @@ snapshot
 https://www.w3.org/TR/miniapp-manifest/#dfn-fullscreen
 
 1
+-
+fullscreen
+fullscreen
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-fullscreen
+
+1
+browser.ClientWindowInfo/state
+-
+fullscreen
+fullscreen
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-fullscreen
+
+1
+browser.ClientWindowNamedState/state
 -
 fullscreen an element
 fullscreen an element
@@ -1583,7 +1960,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#fully-addressed
+https://www.w3.org/policies/process/#fully-addressed
 
 1
 -
@@ -1678,6 +2055,17 @@ https://drafts.csswg.org/css-flexbox-1/#fully-inflexible
 fully inflexible
 fully inflexible
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#fully-inflexible
+
+1
+-
+fully inflexible
+fully inflexible
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -1717,8 +2105,19 @@ css-pseudo-4
 css-pseudo
 4
 current
-https://drafts.csswg.org/css-pseudo-4/#fully-styleable-pseudo-elements
-
+https://drafts.csswg.org/css-pseudo-4/#fully-styleable
+1
+1
+-
+fully styleable pseudo-elements
+fully styleable pseudo-elements
+dfn
+css-pseudo-4
+css-pseudo
+4
+snapshot
+https://www.w3.org/TR/css-pseudo-4/#fully-styleable
+1
 1
 -
 fully transparent black
@@ -1811,30 +2210,6 @@ https://www.w3.org/TR/WGSL/#syntax-func_call_statement
 1
 syntax
 -
-func_call_statement.post.ident
-func_call_statement.post.ident
-dfn
-wgsl
-wgsl
-1
-current
-https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-func_call_statementpostident
-
-1
-recursive descent syntax
--
-func_call_statement.post.ident
-func_call_statement.post.ident
-dfn
-wgsl
-wgsl
-1
-snapshot
-https://www.w3.org/TR/WGSL/#recursive-descent-syntax-func_call_statementpostident
-
-1
-recursive descent syntax
--
 function
 function
 dfn
@@ -1870,6 +2245,18 @@ https://gpuweb.github.io/gpuweb/wgsl/#function-function
 
 1
 function
+-
+function
+function
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptfunctionremotevalue-type-function
+
+1
+script.FunctionRemoteValue/type
 -
 function
 function
@@ -1919,6 +2306,42 @@ https://www.w3.org/TR/css-syntax-3/#function
 1
 CSS
 -
+function
+function
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptfunctionremotevalue-type-function
+
+1
+script.FunctionRemoteValue/type
+-
+function
+function
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#stackframe-function
+
+1
+stackframe
+-
+function body
+function body
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#custom-function-function-body
+
+1
+custom function
+-
 function body
 function body
 dfn
@@ -1940,6 +2363,18 @@ snapshot
 https://www.w3.org/TR/WGSL/#function-body
 
 1
+-
+function body
+function body
+dfn
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#custom-function-function-body
+
+1
+custom function
 -
 function call
 function call
@@ -1985,17 +2420,6 @@ https://www.w3.org/TR/WGSL/#function-declaration
 
 1
 -
-function dependency
-function dependency
-dfn
-css-mixins-1
-css-mixins
-1
-current
-https://drafts.csswg.org/css-mixins-1/#function-dependency
-
-1
--
 function key
 function key
 dfn
@@ -2015,6 +2439,28 @@ uievents-code
 1
 snapshot
 https://www.w3.org/TR/uievents-code/#function-key
+
+1
+-
+function name
+function name
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-function-name
+
+1
+-
+function name
+function name
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-function-name
 
 1
 -
@@ -2050,6 +2496,17 @@ css-mixins
 1
 current
 https://drafts.csswg.org/css-mixins-1/#function-parameter
+
+1
+-
+function parameter
+function parameter
+dfn
+css-mixins-1
+css-mixins
+1
+snapshot
+https://www.w3.org/TR/css-mixins-1/#function-parameter
 
 1
 -
@@ -2118,6 +2575,90 @@ snapshot
 https://www.w3.org/TR/WGSL/#function-tag
 
 1
+-
+functionDeclaration
+functionDeclaration
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptaddpreloadscriptparameters-functiondeclaration
+
+1
+script.AddPreloadScriptParameters
+-
+functionDeclaration
+functionDeclaration
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-functiondeclaration
+
+1
+script.CallFunctionParameters
+-
+functionDeclaration
+functionDeclaration
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptaddpreloadscriptparameters-functiondeclaration
+
+1
+script.AddPreloadScriptParameters
+-
+functionDeclaration
+functionDeclaration
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-functiondeclaration
+
+1
+script.CallFunctionParameters
+-
+functionName
+functionName
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptstackframe-functionname
+
+1
+script.StackFrame
+-
+functionName
+functionName
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
+1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-CShakeParams-functionName
+1
+1
+CShakeParams
+-
+functionName
+functionName
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptstackframe-functionname
+
+1
+script.StackFrame
 -
 function_decl
 function_decl
@@ -2189,6 +2730,28 @@ https://www.w3.org/TR/uievents-code/#functional-keys
 
 1
 -
+functional need
+functional need
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-functional-need
+
+1
+-
+functional need
+functional need
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-functional-need
+
+1
+-
 functional notation
 functional notation
 dfn
@@ -2233,6 +2796,28 @@ https://www.w3.org/TR/css-values-4/#functional-notation
 1
 1
 -
+functional profile
+functional profile
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+current
+https://w3c.github.io/dx-connegp/connegp/#dfn-functional-profile
+
+1
+-
+functional profile
+functional profile
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+snapshot
+https://www.w3.org/TR/dx-prof-conneg/#dfn-functional-profile
+
+1
+-
 functional pseudo-class
 functional pseudo-class
 dfn
@@ -2266,6 +2851,61 @@ https://drafts.csswg.org/selectors-4/#functional-pseudo-element
 1
 1
 -
+functional pseudo-element
+functional pseudo-element
+dfn
+selectors-4
+selectors
+4
+snapshot
+https://www.w3.org/TR/selectors-4/#functional-pseudo-element
+1
+1
+-
+functional specification
+functional specification
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+current
+https://w3c.github.io/dx-connegp/connegp/#dfn-functional-specification
+
+1
+-
+functional specification
+functional specification
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+snapshot
+https://www.w3.org/TR/dx-prof-conneg/#dfn-functional-specification
+
+1
+-
+functionality
+functionality
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-functionality
+
+
+-
+functionality
+functionality
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-functionality
+
+
+-
 functions in a shader stage
 functions in a shader stage
 dfn
@@ -2288,6 +2928,28 @@ https://www.w3.org/TR/WGSL/#functions-in-a-shader-stage
 
 1
 -
+further testing is needed
+further testing is needed
+dfn
+act-rules-format-1.1
+act-rules-format
+1
+current
+https://w3c.github.io/wcag-act/act-rules-format.html#further-testing-is-needed
+
+1
+-
+further testing is needed
+further testing is needed
+dfn
+act-rules-format-1.1
+act-rules-format
+1
+snapshot
+https://www.w3.org/TR/act-rules-format-1.1/#further-testing-is-needed
+
+1
+-
 furthest ancestral svg viewport
 furthest ancestral SVG viewport
 dfn
@@ -2295,7 +2957,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TermFurthestAncestorSVGViewport
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermFurthestAncestorSVGViewport
 1
 1
 -

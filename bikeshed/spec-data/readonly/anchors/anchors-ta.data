@@ -1,3 +1,27 @@
+"tab"
+"tab"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextcreatetype-tab
+
+1
+browsingContext.CreateType
+-
+"tab"
+"tab"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextcreatetype-tab
+
+1
+browsingContext.CreateType
+-
 "table"
 "table"
 enum-value
@@ -21,6 +45,54 @@ https://www.w3.org/TR/wasm-js-api-2/#dom-importexportkind-table
 1
 1
 ImportExportKind
+-
+"tag"
+"tag"
+enum-value
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-importexportkind-tag
+1
+1
+ImportExportKind
+-
+"tag"
+"tag"
+enum-value
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-importexportkind-tag
+1
+1
+ImportExportKind
+-
+"tangentialPressure"
+"tangentialPressure"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointercommonproperties-tangentialpressure
+
+1
+input.PointerCommonProperties
+-
+"tangentialPressure"
+"tangentialPressure"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointercommonproperties-tangentialpressure
+
+1
+input.PointerCommonProperties
 -
 "tanh"
 "tanh"
@@ -46,12 +118,84 @@ https://www.w3.org/TR/webnn/#dom-mlrecurrentnetworkactivation-tanh
 1
 MLRecurrentNetworkActivation
 -
+"target"
+"target"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-target
+
+1
+script.CallFunctionParameters
+-
+"target"
+"target"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptdisownparameters-target
+
+1
+script.DisownParameters
+-
+"target"
+"target"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptevaluateparameters-target
+
+1
+script.EvaluateParameters
+-
+"target"
+"target"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-target
+
+1
+script.CallFunctionParameters
+-
+"target"
+"target"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptdisownparameters-target
+
+1
+script.DisownParameters
+-
+"target"
+"target"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptevaluateparameters-target
+
+1
+script.EvaluateParameters
+-
 'tactile' media group
 'tactile' media group
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#tactile-media-group
 
@@ -62,20 +206,9 @@ https://drafts.csswg.org/css2/#tactile-media-group
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/media.html#tactile-media-group
-1
-1
--
-'tactile' media group
-'tactile' media group
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/media.html#tactile-media-group
+https://www.w3.org/TR/CSS2/media.html#tactile-media-group
 1
 1
 -
@@ -156,25 +289,47 @@ https://www.w3.org/TR/selectors-4/#target-pseudo
 1
 1
 -
-:target-within
-:target-within
+:target-after
+:target-after
 selector
-selectors-4
-selectors
-4
+css-overflow-5
+css-overflow
+5
 current
-https://drafts.csswg.org/selectors-4/#target-within-pseudo
+https://drafts.csswg.org/css-overflow-5/#selectordef-target-after
 1
 1
 -
-:target-within
-:target-within
+:target-before
+:target-before
 selector
-selectors-4
-selectors
-4
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#selectordef-target-before
+1
+1
+-
+:target-current
+:target-current
+selector
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#selectordef-target-current
+1
+1
+-
+:target-current
+:target-current
+selector
+css-overflow-5
+css-overflow
+5
 snapshot
-https://www.w3.org/TR/selectors-4/#target-within-pseudo
+https://www.w3.org/TR/css-overflow-5/#selectordef-target-current
 1
 1
 -
@@ -284,18 +439,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#technical-architecture-group
-1
-1
--
-tag note
-TAG Note
-dfn
-w3c-process
-w3c-process
-1
-current
-https://www.w3.org/Consortium/Process/#WGNote
+https://www.w3.org/policies/process/#technical-architecture-group
 1
 1
 -
@@ -313,9 +457,9 @@ https://fetch.spec.whatwg.org/#concept-tao-check
 table
 table
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#table
 
@@ -351,6 +495,17 @@ ift
 1
 current
 https://w3c.github.io/IFT/Overview.html#table-keyed-patch
+
+1
+-
+table keyed patch
+table keyed patch
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#table-keyed-patch
 
 1
 -
@@ -463,6 +618,28 @@ snapshot
 https://www.w3.org/TR/permissions/#dfn-table-of-standardized-permissions-of-the-web-platform
 
 
+-
+table of supported presentation and issuance protocols
+table of supported presentation and issuance protocols
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-table-of-supported-presentation-and-issuance-protocols
+1
+1
+-
+table of supported presentation and issuance protocols
+table of supported presentation and issuance protocols
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-table-of-supported-presentation-and-issuance-protocols
+1
+1
 -
 Table(descriptor)
 Table(descriptor)
@@ -578,6 +755,28 @@ https://www.w3.org/TR/IFT/#tablepatch
 
 1
 -
+Tag
+Tag
+interface
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#tag
+1
+1
+-
+Tag
+Tag
+interface
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#tag
+1
+1
+-
 tag name
 Tag Name
 dfn
@@ -611,6 +810,28 @@ https://html.spec.whatwg.org/multipage/parsing.html#tag-name-state
 
 1
 -
+tag object cache
+tag object cache
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#tag-object-cache
+
+1
+-
+tag object cache
+tag object cache
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#tag-object-cache
+
+1
+-
 tag omission in text/html
 Tag omission in text/html
 dfn
@@ -631,6 +852,52 @@ html
 current
 https://html.spec.whatwg.org/multipage/parsing.html#tag-open-state
 
+1
+-
+Tag(type)
+Tag(type)
+constructor
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-tag-tag
+1
+1
+Tag
+-
+Tag(type)
+Tag(type)
+constructor
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-tag-tag
+1
+1
+Tag
+-
+TagType
+TagType
+dictionary
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dictdef-tagtype
+1
+1
+-
+TagType
+TagType
+dictionary
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dictdef-tagtype
+1
 1
 -
 tags
@@ -688,6 +955,28 @@ https://www.w3.org/TR/webdriver2/#dfn-take-screenshot
 
 1
 -
+talent name
+Talent Name
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-character-talent-name
+
+1
+-
+talent name
+Talent Name
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-character-talent-name
+
+1
+-
 target attribute named
 Target Attribute named
 dfn
@@ -724,17 +1013,6 @@ https://w3c.github.io/aria/#dfn-target-element
 target element
 Target Element
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-target-element
-
-
--
-target element
-Target Element
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -753,6 +1031,72 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.3/#dfn-target-element
 
 
+-
+target recording language
+Target Recording Language
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-target-recording-language
+
+1
+-
+target recording language
+Target Recording Language
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-target-recording-language
+
+1
+-
+target uri
+Target URI
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-target-uri
+
+
+-
+target uri
+Target URI
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-target-uri
+
+
+-
+target declarations
+target declarations
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-target-declaration
+
+1
+-
+target declarations
+target declarations
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-target-declaration
+
+1
 -
 tashkil
 tashkil
@@ -914,17 +1258,6 @@ https://wicg.github.io/scheduling-apis/#dictdef-tasksignalanyinit
 taxonomy
 taxonomy
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-taxonomy
-
-
--
-taxonomy
-taxonomy
-dfn
 graphics-aria-1.0
 graphics-aria
 1
@@ -967,6 +1300,30 @@ https://www.w3.org/TR/window-management/#dom-window-targetscreenfullscreen-slot
 1
 1
 Window
+-
+tab
+tab
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextcreatetype-tab
+
+1
+browsingContext.CreateType
+-
+tab
+tab
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextcreatetype-tab
+
+1
+browsingContext.CreateType
 -
 tab size
 tab size
@@ -1110,7 +1467,7 @@ current
 https://html.spec.whatwg.org/multipage/interaction.html#dom-tabindex
 1
 1
-HTMLOrSVGElement
+HTMLOrSVGOrMathMLElement
 -
 tab_strip
 tab_strip
@@ -1150,18 +1507,6 @@ htmlsvg-global
 tabindex
 tabindex
 element-attr
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/struct.html#SVGElementTabindexAttribute
-1
-1
-core-attributes
--
-tabindex
-tabindex
-element-attr
 mathml-core
 mathml-core
 1
@@ -1169,6 +1514,18 @@ current
 https://w3c.github.io/mathml-core/#dfn-tabindex
 
 1
+-
+tabindex
+tabindex
+element-attr
+svg2
+svg
+2
+current
+https://w3c.github.io/svgwg/svg2-draft/struct.html#SVGElementTabindexAttribute
+1
+1
+core-attributes
 -
 tabindex
 tabindex
@@ -1255,9 +1612,9 @@ https://drafts.csswg.org/css-tables-3/#table
 table
 table
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table
 1
@@ -1271,7 +1628,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-type-table
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-type-table
 1
 1
 type
@@ -1303,20 +1660,9 @@ table
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table
-1
-1
--
-table
-table
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table
+https://www.w3.org/TR/CSS2/tables.html#value-def-table
 1
 1
 -
@@ -1328,6 +1674,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table
+1
+1
+display
+<display-inside>
+-
+table
+table
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table
 1
 1
 display
@@ -1389,12 +1748,23 @@ https://www.w3.org/TR/css-display-3/#table-caption-box
 1
 1
 -
+table caption box
+table caption box
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#table-caption-box
+1
+1
+-
 table element
 table element
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#table-element
 
@@ -1405,20 +1775,9 @@ table element
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#x2
-1
-1
--
-table element
-table element
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#x2
+https://www.w3.org/TR/CSS2/tables.html#x2
 1
 1
 -
@@ -1480,9 +1839,9 @@ https://drafts.csswg.org/css-tables-3/#table-grid-box
 table grid box
 table grid box
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#table-grid-box
 
@@ -1587,6 +1946,18 @@ https://www.w3.org/TR/webdriver2/#dfn-endpoints
 
 1
 -
+table of extension user intents
+table of extension user intents
+dfn
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#remote-end-table-of-extension-user-intents
+
+1
+remote end
+-
 table of location strategies
 table of location strategies
 dfn
@@ -1664,6 +2035,28 @@ https://w3c.github.io/webdriver-bidi/#table-of-standard-storage-partition-key-at
 
 1
 -
+table of standard storage partition key attributes
+table of standard storage partition key attributes
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#table-of-standard-storage-partition-key-attributes
+
+1
+-
+table of standard user intents
+table of standard user intents
+dfn
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#table-of-standard-user-intents
+
+1
+-
 table of standardized permissions
 table of standardized permissions
 dfn
@@ -1672,28 +2065,6 @@ permissions-registry
 1
 current
 https://w3c.github.io/permissions-registry/#dfn-table-of-standardized-permissions-of-the-web-platform
-
-
--
-table of standardized permissions
-table of standardized permissions
-dfn
-permissions
-permissions
-1
-current
-https://w3c.github.io/permissions/#dfn-table-of-standardized-permissions-of-the-web-platform
-
-
--
-table of standardized permissions
-table of standardized permissions
-dfn
-permissions
-permissions
-1
-snapshot
-https://www.w3.org/TR/permissions/#dfn-table-of-standardized-permissions-of-the-web-platform
 
 
 -
@@ -1711,9 +2082,9 @@ https://drafts.csswg.org/css-tables-3/#table-wrapper-box
 table wrapper box
 table wrapper box
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#table-wrapper-box
 
@@ -1806,9 +2177,9 @@ https://drafts.csswg.org/css-tables-3/#table-caption
 table-caption
 table-caption
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-caption
 1
@@ -1820,20 +2191,9 @@ table-caption
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-caption
-1
-1
--
-table-caption
-table-caption
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-caption
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-caption
 1
 1
 -
@@ -1845,6 +2205,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-caption
+1
+1
+display
+<display-internal>
+-
+table-caption
+table-caption
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-caption
 1
 1
 display
@@ -1901,9 +2274,9 @@ https://drafts.csswg.org/css-tables-3/#table-cell
 table-cell
 table-cell
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-cell
 1
@@ -1915,20 +2288,9 @@ table-cell
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-cell
-1
-1
--
-table-cell
-table-cell
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-cell
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-cell
 1
 1
 -
@@ -1940,6 +2302,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-cell
+1
+1
+display
+<display-internal>
+-
+table-cell
+table-cell
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-cell
 1
 1
 display
@@ -1996,9 +2371,9 @@ https://drafts.csswg.org/css-tables-3/#table-column
 table-column
 table-column
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-column
 1
@@ -2010,20 +2385,9 @@ table-column
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-column
-1
-1
--
-table-column
-table-column
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-column
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-column
 1
 1
 -
@@ -2035,6 +2399,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-column
+1
+1
+display
+<display-internal>
+-
+table-column
+table-column
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-column
 1
 1
 display
@@ -2091,9 +2468,9 @@ https://drafts.csswg.org/css-tables-3/#table-column-group
 table-column-group
 table-column-group
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-column-group
 1
@@ -2105,20 +2482,9 @@ table-column-group
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-column-group
-1
-1
--
-table-column-group
-table-column-group
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-column-group
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-column-group
 1
 1
 -
@@ -2137,23 +2503,25 @@ display
 -
 table-column-group
 table-column-group
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-column-group
+1
+1
+display
+<display-internal>
+-
+table-column-group
+table-column-group
 dfn
 css-tables-3
 css-tables
 3
 snapshot
 https://www.w3.org/TR/css-tables-3/#table-column-group
-
-1
--
-table-created
-table-created
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/tables.html#table-created
 
 1
 -
@@ -2197,9 +2565,9 @@ https://drafts.csswg.org/css-tables-3/#table-footer-group
 table-footer-group
 table-footer-group
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-footer-group
 1
@@ -2211,20 +2579,9 @@ table-footer-group
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-footer-group
-1
-1
--
-table-footer-group
-table-footer-group
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-footer-group
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-footer-group
 1
 1
 -
@@ -2236,6 +2593,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-footer-group
+1
+1
+display
+<display-internal>
+-
+table-footer-group
+table-footer-group
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-footer-group
 1
 1
 display
@@ -2314,9 +2684,9 @@ https://drafts.csswg.org/css-tables-3/#table-header-group
 table-header-group
 table-header-group
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-header-group
 1
@@ -2328,20 +2698,9 @@ table-header-group
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-header-group
-1
-1
--
-table-header-group
-table-header-group
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-header-group
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-header-group
 1
 1
 -
@@ -2353,6 +2712,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-header-group
+1
+1
+display
+<display-internal>
+-
+table-header-group
+table-header-group
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-header-group
 1
 1
 display
@@ -2405,9 +2777,9 @@ https://drafts.csswg.org/css-tables-3/#propdef-table-layout
 table-layout
 table-layout
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-table-layout
 1
@@ -2418,31 +2790,9 @@ table-layout
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#propdef-table-layout
-1
-1
--
-table-layout
-table-layout
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#propdef-table-layout
-1
-1
--
-table-layout
-table-layout
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/tables.html#propdef-table-layout
+https://www.w3.org/TR/CSS2/tables.html#propdef-table-layout
 1
 1
 -
@@ -2541,9 +2891,9 @@ https://drafts.csswg.org/css-tables-3/#table-row
 table-row
 table-row
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-row
 1
@@ -2555,20 +2905,9 @@ table-row
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-row
-1
-1
--
-table-row
-table-row
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-row
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-row
 1
 1
 -
@@ -2580,6 +2919,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-row
+1
+1
+display
+<display-internal>
+-
+table-row
+table-row
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-row
 1
 1
 display
@@ -2636,9 +2988,9 @@ https://drafts.csswg.org/css-tables-3/#table-row-group
 table-row-group
 table-row-group
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-table-row-group
 1
@@ -2650,20 +3002,9 @@ table-row-group
 value
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-row-group
-1
-1
--
-table-row-group
-table-row-group
-value
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#value-def-table-row-group
+https://www.w3.org/TR/CSS2/tables.html#value-def-table-row-group
 1
 1
 -
@@ -2675,6 +3016,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-table-row-group
+1
+1
+display
+<display-internal>
+-
+table-row-group
+table-row-group
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-table-row-group
 1
 1
 display
@@ -2764,7 +3118,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgcomponenttransferfunctionelement-tablevalues
+https://drafts.csswg.org/filter-effects-1/#dom-svgcomponenttransferfunctionelement-tablevalues
 1
 1
 SVGComponentTransferFunctionElement
@@ -2776,7 +3130,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fecomponenttransfer-tablevalues
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-tablevalues
 1
 1
 feComponentTransfer
@@ -2822,20 +3176,9 @@ tables
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#x0
-1
-1
--
-tables
-tables
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#x0
+https://www.w3.org/TR/CSS2/tables.html#x0
 1
 1
 -
@@ -2850,6 +3193,29 @@ https://www.w3.org/TR/IFT/#glyphpatches-tables
 
 1
 GlyphPatches
+-
+tabs
+tabs
+dfn
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#tabs
+
+1
+-
+tabs
+tabs
+value
+css-overflow-5
+css-overflow
+5
+current
+https://drafts.csswg.org/css-overflow-5/#valdef-scroll-marker-group-tabs
+1
+1
+scroll-marker-group
 -
 tabs
 tabs
@@ -2909,9 +3275,9 @@ https://drafts.csswg.org/css-tables-3/#tabular-container
 tabular container
 tabular container
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#tabular-container
 
@@ -2922,20 +3288,9 @@ tabular container
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/tables.html#x20
-1
-1
--
-tabular container
-tabular container
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/tables.html#x20
+https://www.w3.org/TR/CSS2/tables.html#x20
 1
 1
 -
@@ -3217,6 +3572,30 @@ PeriodicSyncEvent
 -
 tag
 tag
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnection-getattribute-tag-tag
+1
+1
+SmartCardConnection/getAttribute(tag)
+-
+tag
+tag
+argument
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardconnection-setattribute-tag-value-tag
+1
+1
+SmartCardConnection/setAttribute(tag, value)
+-
+tag
+tag
 dfn
 ift
 ift
@@ -3264,25 +3643,38 @@ https://mimesniff.spec.whatwg.org/#tag-terminating-byte
 tagLength
 tagLength
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-AesGcmParams-tagLength
 1
 1
 AesGcmParams
 -
-taglength
 tagLength
-dfn
-webcryptoapi
-webcryptoapi
+tagLength
+dict-member
+webcrypto-modern-algos
+webcrypto-modern-algos
 1
+current
+https://wicg.github.io/webcrypto-modern-algos/#dfn-AeadParams-tagLength
+1
+1
+AeadParams
+-
+tagLength
+tagLength
+dict-member
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-AesGcmParams-tagLength
-
+https://www.w3.org/TR/webcrypto-2/#dfn-AesGcmParams-tagLength
 1
+1
+AesGcmParams
 -
 tagName
 tagName
@@ -3405,10 +3797,44 @@ https://www.w3.org/TR/mediacapture-region/#dfn-tagging
 
 1
 -
+tags
+tags
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sl-candidate-tags
+
+1
+-
+tags
+tags
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#sr-tags
+
+1
+-
+tags
+tags
+dfn
+prefetch
+prefetch
+1
+current
+https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-tags
+1
+1
+prefetch record
+-
 tail-time
 tail-time
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -3419,11 +3845,33 @@ https://webaudio.github.io/web-audio-api/#tail-time
 tail-time
 tail-time
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#tail-time
+
+1
+-
+tail-time
+tail-time
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#tail-time
+https://www.w3.org/TR/webaudio-1.0/#tail-time
+
+1
+-
+tail-time
+tail-time
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#tail-time
 
 1
 -
@@ -3653,8 +4101,8 @@ https://www.w3.org/TR/reporting-1/#dom-reportingobserver-takerecords
 1
 ReportingObserver
 -
-takeUntil(notifier)
-takeUntil(notifier)
+takeUntil(value)
+takeUntil(value)
 method
 observable
 observable
@@ -3665,6 +4113,18 @@ https://wicg.github.io/observable/#dom-observable-takeuntil
 1
 Observable
 -
+takes a decimal
+takes a decimal
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dfn-xattr-decimal
+1
+1
+extended attribute
+-
 takes a named argument list
 takes a named argument list
 dfn
@@ -3673,6 +4133,18 @@ webidl
 1
 current
 https://webidl.spec.whatwg.org/#dfn-xattr-named-argument-list
+1
+1
+extended attribute
+-
+takes a string
+takes a string
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dfn-xattr-string
 1
 1
 extended attribute
@@ -3721,6 +4193,30 @@ webidl
 1
 current
 https://webidl.spec.whatwg.org/#dfn-xattr-identifier-list
+1
+1
+extended attribute
+-
+takes an integer
+takes an integer
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dfn-xattr-integer
+1
+1
+extended attribute
+-
+takes an integer list
+takes an integer list
+dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#dfn-xattr-integer-list
 1
 1
 extended attribute
@@ -3918,9 +4414,9 @@ Math
 tangentialPressure
 tangentialPressure
 attribute
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointerevent-tangentialpressure
 1
@@ -3930,14 +4426,38 @@ PointerEvent
 tangentialPressure
 tangentialPressure
 dict-member
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointereventinit-tangentialpressure
 1
 1
 PointerEventInit
+-
+tangentialPressure
+tangentialPressure
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointercommonproperties-tangentialpressure
+
+1
+input.PointerCommonProperties
+-
+tangentialPressure
+tangentialPressure
+attribute
+pointerevents3
+pointerevents
+3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointerevent-tangentialpressure
+1
+1
+PointerEvent
 -
 tangentialPressure
 tangentialPressure
@@ -3957,11 +4477,59 @@ dict-member
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-tangentialpressure
+1
+1
+PointerEventInit
+-
+tangentialPressure
+tangentialPressure
+dict-member
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-tangentialpressure
 1
 1
 PointerEventInit
+-
+tangentialPressure
+tangentialPressure
+attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointerevent-tangentialpressure
+1
+1
+PointerEvent
+-
+tangentialPressure
+tangentialPressure
+dict-member
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointereventinit-tangentialpressure
+1
+1
+PointerEventInit
+-
+tangentialPressure
+tangentialPressure
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointercommonproperties-tangentialpressure
+
+1
+input.PointerCommonProperties
 -
 tanh
 tanh
@@ -4134,6 +4702,18 @@ Event
 -
 target
 target
+value
+pointer-animations-1
+pointer-animations
+1
+current
+https://drafts.csswg.org/pointer-animations-1/#valdef-timeline-range-center-subject-target
+1
+1
+<timeline-range-center-subject>
+-
+target
+target
 argument
 resize-observer-1
 resize-observer
@@ -4220,6 +4800,18 @@ KeyframeEffect
 -
 target
 target
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerprocessinginstruction-target
+1
+1
+SanitizerProcessingInstruction
+-
+target
+target
 element-attr
 html
 html
@@ -4238,22 +4830,10 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-target
+https://html.spec.whatwg.org/multipage/forms.html#dom-fs-target
 1
 1
 HTMLFormElement
--
-target
-target
-attribute
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/image-maps.html#dom-area-target
-1
-1
-HTMLAreaElement
 -
 target
 target
@@ -4267,6 +4847,18 @@ https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-target
 1
 a
 area
+-
+target
+target
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/links.html#dom-a-target
+1
+1
+HTMLHyperlinkElementUtils
 -
 target
 target
@@ -4318,18 +4910,6 @@ HTMLBaseElement
 -
 target
 target
-attribute
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-target
-1
-1
-HTMLAnchorElement
--
-target
-target
 dfn
 html
 html
@@ -4341,27 +4921,15 @@ https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-target
 -
 target
 target
-element-attr
-svg2
-svg
-2
+argument
+webxrlayers-1
+webxrlayers
+1
 current
-https://svgwg.org/svg2-draft/linking.html#AElementTargetAttribute
+https://immersive-web.github.io/layers/#dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-target
 1
 1
-a
--
-target
-target
-attribute
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__target
-1
-1
-SVGAElement
+XRWebGLBinding/foveateBoundTexture(target, fixed_foveation)
 -
 target
 target
@@ -4425,6 +4993,17 @@ IntersectionObserver
 -
 target
 target
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-target
+
+1
+-
+target
+target
 attribute
 event-timing
 event-timing
@@ -4437,14 +5016,15 @@ PerformanceEventTiming
 -
 target
 target
-dfn
-event-timing
-event-timing
+attribute
+mathml-core
+mathml-core
 1
 current
-https://w3c.github.io/event-timing/#target
+https://w3c.github.io/mathml-core/#dom-mathmlanchorelement-target
 1
 1
+MathMLAnchorElement
 -
 target
 target
@@ -4457,6 +5037,18 @@ https://w3c.github.io/mediasession/#media-session-action-source-target
 
 1
 media session action source
+-
+target
+target
+element-attr
+svg2
+svg
+2
+current
+https://w3c.github.io/svgwg/svg2-draft/linking.html#AElementTargetAttribute
+1
+1
+a
 -
 target
 target
@@ -4484,8 +5076,55 @@ TouchInit
 -
 target
 target
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-targets
+
+
+-
+target
+target
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-target
+
+1
+script.CallFunctionParameters
+-
+target
+target
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptdisownparameters-target
+
+1
+script.DisownParameters
+-
+target
+target
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptevaluateparameters-target
+
+1
+script.EvaluateParameters
+-
+target
+target
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4497,7 +5136,31 @@ AudioParam/setTargetAtTime()
 target
 target
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-settargetattime-target
+1
+1
+AudioParam/setTargetAtTime()
+-
+target
+target
+argument
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-settargetattime-target-starttime-timeconstant-target
+1
+1
+AudioParam/setTargetAtTime(target, startTime, timeConstant)
+-
+target
+target
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -4592,6 +5255,17 @@ SVGAElement
 -
 target
 target
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-targets
+
+
+-
+target
+target
 attribute
 event-timing
 event-timing
@@ -4601,17 +5275,6 @@ https://www.w3.org/TR/event-timing/#dom-performanceeventtiming-target
 1
 1
 PerformanceEventTiming
--
-target
-target
-dfn
-event-timing
-event-timing
-1
-snapshot
-https://www.w3.org/TR/event-timing/#target
-1
-1
 -
 target
 target
@@ -4736,6 +5399,17 @@ ResizeObserverEntry
 -
 target
 target
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-target
+
+1
+-
+target
+target
 argument
 web-animations-1
 web-animations
@@ -4761,11 +5435,11 @@ KeyframeEffect
 target
 target
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-settargetattime-target
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-settargetattime-target
 1
 1
 AudioParam/setTargetAtTime()
@@ -4773,23 +5447,95 @@ AudioParam/setTargetAtTime()
 target
 target
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-settargetattime-target-starttime-timeconstant-target
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-settargetattime-target-starttime-timeconstant-target
 1
 1
 AudioParam/setTargetAtTime(target, startTime, timeConstant)
 -
+target
+target
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-settargetattime-target
+1
+1
+AudioParam/setTargetAtTime()
+-
+target
+target
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-settargetattime-target-starttime-timeconstant-target
+1
+1
+AudioParam/setTargetAtTime(target, startTime, timeConstant)
+-
+target
+target
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptcallfunctionparameters-target
+
+1
+script.CallFunctionParameters
+-
+target
+target
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptdisownparameters-target
+
+1
+script.DisownParameters
+-
+target
+target
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptevaluateparameters-target
+
+1
+script.EvaluateParameters
+-
+target
+target
+argument
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-target
+1
+1
+XRWebGLBinding/foveateBoundTexture(target, fixed_foveation)
+-
 target ip address space
 target IP address space
 dfn
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#request-target-ip-address-space
+https://wicg.github.io/local-network-access/#request-target-ip-address-space
 1
 1
 request
@@ -4836,6 +5582,28 @@ css-color
 6
 current
 https://drafts.csswg.org/css-color-6/#target-contrast-level
+
+1
+-
+target declaration
+target declaration
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-target-declaration
+
+1
+-
+target declaration
+target declaration
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-target-declaration
 
 1
 -
@@ -4906,6 +5674,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#changing-nav-continuation-target-entry
 
 1
+changing navigable continuation state
 -
 target fenced frame config
 target fenced frame config
@@ -4965,6 +5734,30 @@ https://www.w3.org/TR/webxr/#xrwebgllayer-target-framebuffer
 1
 XRWebGLLayer
 -
+target language
+target language
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#language-arc-target-language
+
+1
+language arc
+-
+target language
+target language
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#translator-target-language
+
+1
+Translator
+-
 target main size
 target main size
 dfn
@@ -4973,6 +5766,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#target-main-size
+
+1
+-
+target main size
+target main size
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#target-main-size
 
 1
 -
@@ -5012,11 +5816,11 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#session-history-tra
 target navigable name hint
 target navigable name hint
 dfn
-speculation-rules
-speculation-rules
+prerendering-revamped
+prerendering-revamped
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#prerender-candidate-target-navigable-name-hint
+https://wicg.github.io/nav-speculation/prerendering.html#prerender-candidate-target-navigable-name-hint
 
 1
 prerender candidate
@@ -5024,26 +5828,14 @@ prerender candidate
 target navigable name hint
 target navigable name hint
 dfn
-speculation-rules
-speculation-rules
+prerendering-revamped
+prerendering-revamped
 1
 current
-https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rule-target-navigable-name-hint
+https://wicg.github.io/nav-speculation/prerendering.html#speculation-rule-target-navigable-name-hint
 
 1
 speculation rule
--
-target number of ad components
-target number of ad components
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#generated-bid-target-number-of-ad-components
-
-1
-generated bid
 -
 target object
 target object
@@ -5053,6 +5845,50 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#concept-animationframeprovider-target-object
+
+1
+-
+target of a shape
+target of a shape
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-target-of-the-shape
+
+1
+-
+target of a shape
+target of a shape
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-target-of-the-shape
+
+1
+-
+target of the shape
+target of the shape
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-target-of-the-shape
+
+1
+-
+target of the shape
+target of the shape
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-target-of-the-shape
 
 1
 -
@@ -5145,6 +5981,18 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#non-fetch-scheme-params-target-sandbox
 
 1
+non-fetch scheme navigation params
+-
+target timeline
+target timeline
+dfn
+scroll-animations-1
+scroll-animations
+1
+current
+https://drafts.csswg.org/scroll-animations-1/#target-timeline
+
+1
 -
 target-counter()
 target-counter()
@@ -5215,11 +6063,11 @@ https://www.w3.org/TR/css-content-3/#target-text-function
 targetAddressSpace
 targetAddressSpace
 attribute
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#dom-request-targetaddressspace
+https://wicg.github.io/local-network-access/#dom-request-targetaddressspace
 1
 1
 Request
@@ -5227,11 +6075,11 @@ Request
 targetAddressSpace
 targetAddressSpace
 dict-member
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#dom-requestinit-targetaddressspace
+https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace
 1
 1
 RequestInit
@@ -5239,11 +6087,11 @@ RequestInit
 targetaddressspace
 targetAddressSpace
 dfn
-private-network-access
-private-network-access
+local-network-access
+local-network-access
 1
 current
-https://wicg.github.io/private-network-access/#targetaddressspace
+https://wicg.github.io/local-network-access/#targetaddressspace
 1
 1
 -
@@ -5271,6 +6119,30 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-targetbitrate
 1
 RTCOutboundRtpStreamStats
 -
+targetLanguage
+targetLanguage
+attribute
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translator-targetlanguage
+1
+1
+Translator
+-
+targetLanguage
+targetLanguage
+dict-member
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#dom-translatorcreatecoreoptions-targetlanguage
+1
+1
+TranslatorCreateCoreOptions
+-
 targetMatrix
 targetMatrix
 argument
@@ -5294,18 +6166,6 @@ https://www.w3.org/TR/orientation-sensor/#dom-orientationsensor-populatematrix-t
 1
 1
 OrientationSensor/populateMatrix(targetMatrix)
--
-targetNumAdComponents
-targetNumAdComponents
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-targetnumadcomponents
-1
-1
-GenerateBidOutput
 -
 targetOrigin
 targetOrigin
@@ -5439,17 +6299,29 @@ https://www.w3.org/TR/webxr/#dom-xrinputsource-targetrayspace
 1
 XRInputSource
 -
-targetSize
-targetSize
-dict-member
-turtledove
-turtledove
+targetSelector
+targetSelector
+attribute
+event-timing
+event-timing
 1
 current
-https://wicg.github.io/turtledove/#dom-adauctiondatabuyerconfig-targetsize
+https://w3c.github.io/event-timing/#dom-performanceeventtiming-targetselector
 1
+
+PerformanceEventTiming
+-
+targetSelector
+targetSelector
+attribute
+event-timing
+event-timing
 1
-AdAuctionDataBuyerConfig
+snapshot
+https://www.w3.org/TR/event-timing/#dom-performanceeventtiming-targetselector
+1
+
+PerformanceEventTiming
 -
 targetTouches
 targetTouches
@@ -5494,7 +6366,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-targetx
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-targetx
 1
 1
 SVGFEConvolveMatrixElement
@@ -5506,7 +6378,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-targetx
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-targetx
 1
 1
 feConvolveMatrix
@@ -5542,7 +6414,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-targety
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-targety
 1
 1
 SVGFEConvolveMatrixElement
@@ -5554,7 +6426,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-feconvolvematrix-targety
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-feconvolvematrix-targety
 1
 1
 feConvolveMatrix
@@ -5655,6 +6527,28 @@ TrackingExData
 -
 targets
 targets
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-targets
+
+
+-
+targets
+targets
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-targets
+
+
+-
+targets
+targets
 dict-member
 webgpu
 webgpu
@@ -5699,30 +6593,6 @@ https://wicg.github.io/scheduling-apis/#task-handle-task
 1
 task handle
 -
-task
-task
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#task-scope-task
-
-1
-task scope
--
-task attribution id
-task attribution ID
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#task-task-attribution-id
-
-1
-task
--
 task complete steps
 task complete steps
 dfn
@@ -5759,6 +6629,40 @@ https://w3c.github.io/long-animation-frames/#frame-timing-info-task-durations
 1
 frame timing info
 -
+task durations
+task durations
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#frame-timing-info-task-durations
+
+1
+frame timing info
+-
+task flow
+task flow
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-task-flow
+
+1
+-
+task flow
+task flow
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-task-flow
+
+1
+-
 task handle
 task handle
 dfn
@@ -5769,18 +6673,6 @@ current
 https://wicg.github.io/scheduling-apis/#task-handle
 
 1
--
-task id to interaction task id
-task id to interaction task id
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#document-task-id-to-interaction-task-id
-
-1
-document
 -
 task queues
 task queues
@@ -5817,28 +6709,6 @@ https://www.w3.org/TR/service-workers/#dfn-service-worker-registration-task-queu
 1
 service worker registration
 -
-task scope
-task scope
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#concept-task-scope
-
-1
--
-task scope stack
-task scope stack
-dfn
-soft-navigations
-soft-navigations
-1
-current
-https://wicg.github.io/soft-navigations/#task-scope-stack
-
-1
--
 task source
 task source
 dfn
@@ -5873,88 +6743,4 @@ https://wicg.github.io/scheduling-apis/#scheduler-task-queue-tasks
 
 1
 scheduler task queue
--
-taxonomy
-taxonomy
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-taxonomy
-
-1
-browsing topics types
--
-taxonomy
-taxonomy
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#epoch-taxonomy
-
-1
-epoch
--
-taxonomy
-taxonomy
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#user-agent-taxonomy
-
-1
-user agent
--
-taxonomy version
-taxonomy version
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-taxonomy-version
-
-1
-browsing topics types
--
-taxonomy version
-taxonomy version
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#epoch-taxonomy-version
-
-1
-epoch
--
-taxonomy version
-taxonomy version
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#user-agent-taxonomy-version
-
-1
-user agent
--
-taxonomyVersion
-taxonomyVersion
-dict-member
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#dom-browsingtopic-taxonomyversion
-1
-1
-BrowsingTopic
 -

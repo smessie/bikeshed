@@ -6,8 +6,9 @@ badging
 1
 current
 https://w3c.github.io/badging/#dfn-flag
-
 1
+1
+badge
 -
 "flag"
 "flag"
@@ -17,8 +18,33 @@ badging
 1
 snapshot
 https://www.w3.org/TR/badging/#dfn-flag
+1
+1
+badge
+-
+"flags"
+"flags"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptregexpvalue-flags
 
 1
+script.RegExpValue
+-
+"flags"
+"flags"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptregexpvalue-flags
+
+1
+script.RegExpValue
 -
 "flash"
 "flash"
@@ -95,6 +121,18 @@ GPUTextureSampleType
 "float16"
 "float16"
 enum-value
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpuvertexformat-float16
+1
+1
+GPUVertexFormat
+-
+"float16"
+"float16"
+enum-value
 webnn
 webnn
 1
@@ -103,6 +141,18 @@ https://webmachinelearning.github.io/webnn/#dom-mloperanddatatype-float16
 1
 1
 MLOperandDataType
+-
+"float16"
+"float16"
+enum-value
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpuvertexformat-float16
+1
+1
+GPUVertexFormat
 -
 "float16"
 "float16"
@@ -404,6 +454,17 @@ https://www.w3.org/TR/webnn/#dom-mlroundingtype-floor
 1
 MLRoundingType
 -
+%Float16Array%
+%Float16Array%
+interface
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects
+1
+1
+-
 %Float32Array%
 %Float32Array%
 interface
@@ -441,6 +502,18 @@ flex
 <'flex-basis'>
 <'flex-basis'>
 value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-flex-flex-basis
+1
+1
+flex
+-
+<'flex-basis'>
+<'flex-basis'>
+value
 css-flexbox-1
 css-flexbox
 1
@@ -465,6 +538,18 @@ flex
 <'flex-grow'>
 <'flex-grow'>
 value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-flex-flex-grow
+1
+1
+flex
+-
+<'flex-grow'>
+<'flex-grow'>
+value
 css-flexbox-1
 css-flexbox
 1
@@ -482,6 +567,18 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#valdef-flex-flex-shrink
+1
+1
+flex
+-
+<'flex-shrink'>
+<'flex-shrink'>
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-flex-flex-shrink
 1
 1
 flex
@@ -524,6 +621,32 @@ https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-flex-0
 grid-template-columns
 grid-template-rows
 -
+<flex [0,∞]>
+<flex [0,∞]>
+value
+css-grid-1
+css-grid
+1
+snapshot
+https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-flex-0
+1
+1
+grid-template-columns
+grid-template-rows
+-
+<flex [0,∞]>
+<flex [0,∞]>
+value
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#valdef-grid-template-columns-flex-0
+1
+1
+grid-template-columns
+grid-template-rows
+-
 <flex>
 <flex>
 type
@@ -559,19 +682,6 @@ https://www.w3.org/TR/css-grid-1/#typedef-flex
 -
 <flex>
 <flex>
-value
-css-grid-1
-css-grid
-1
-snapshot
-https://www.w3.org/TR/css-grid-1/#valdef-grid-template-columns-flex
-1
-1
-grid-template-columns
-grid-template-rows
--
-<flex>
-<flex>
 type
 css-grid-2
 css-grid
@@ -580,19 +690,6 @@ snapshot
 https://www.w3.org/TR/css-grid-2/#typedef-flex
 1
 1
--
-<flex>
-<flex>
-value
-css-grid-2
-css-grid
-2
-snapshot
-https://www.w3.org/TR/css-grid-2/#valdef-grid-template-columns-flex
-1
-1
-grid-template-columns
-grid-template-rows
 -
 <floor/>
 <floor/>
@@ -660,8 +757,8 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-flattenintoarray
 1
 1
 -
-FlattenIntoArray(target, source, sourceLen, start, depth, mapperFunction, thisArg)
-FlattenIntoArray(target, source, sourceLen, start, depth, mapperFunction, thisArg)
+FlattenIntoArray(target, source, sourceLength, start, depth, mapperFunc, thisArg)
+FlattenIntoArray(target, source, sourceLength, start, depth, mapperFunc, thisArg)
 abstract-op
 ecmascript
 ecmascript
@@ -891,6 +988,30 @@ https://wicg.github.io/serial/#dom-flowcontroltype
 1
 1
 -
+[[flip]]
+[[flip]]
+attribute
+webcodecs
+webcodecs
+1
+current
+https://w3c.github.io/webcodecs/#dom-videoframe-flip-slot
+1
+1
+VideoFrame
+-
+[[flip]]
+[[flip]]
+attribute
+webcodecs
+webcodecs
+1
+snapshot
+https://www.w3.org/TR/webcodecs/#dom-videoframe-flip-slot
+1
+1
+VideoFrame
+-
 [[flushalgorithm]]
 [[flushAlgorithm]]
 dfn
@@ -957,6 +1078,30 @@ ift
 ift
 1
 current
+https://w3c.github.io/IFT/Overview.html#format-1-patch-map-flags
+
+1
+Format 1 Patch Map
+-
+flags
+flags
+dfn
+ift
+ift
+1
+current
+https://w3c.github.io/IFT/Overview.html#format-2-patch-map-flags
+
+1
+Format 2 Patch Map
+-
+flags
+flags
+dfn
+ift
+ift
+1
+current
 https://w3c.github.io/IFT/Overview.html#glyph-keyed-patch-flags
 
 1
@@ -985,6 +1130,42 @@ https://w3c.github.io/webauthn/#authdata-flags
 
 1
 authData
+-
+flags
+flags
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptregexpvalue-flags
+
+1
+script.RegExpValue
+-
+flags
+flags
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#format-1-patch-map-flags
+
+1
+Format 1 Patch Map
+-
+flags
+flags
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#format-2-patch-map-flags
+
+1
+Format 2 Patch Map
 -
 flags
 flags
@@ -1022,6 +1203,40 @@ https://www.w3.org/TR/webauthn-3/#authdata-flags
 1
 authData
 -
+flags
+flags
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptregexpvalue-flags
+
+1
+script.RegExpValue
+-
+flanked by spanning items
+flanked by spanning items
+dfn
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#flanked-by-spanning-items
+
+1
+-
+flanked by spanning items
+flanked by spanning items
+dfn
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#flanked-by-spanning-items
+
+1
+-
 flash
 flash
 enum-value
@@ -1036,6 +1251,39 @@ FillLightMode
 -
 flash
 flash
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-flashes
+
+
+-
+flash
+flash
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-flash
+
+1
+-
+flash
+flash
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-flashes
+
+
+-
+flash
+flash
 enum-value
 image-capture
 image-capture
@@ -1045,6 +1293,61 @@ https://www.w3.org/TR/image-capture/#dom-filllightmode-flash
 1
 1
 FillLightMode
+-
+flash
+flash
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-flash
+
+1
+-
+flashes
+flashes
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-flashes
+
+
+-
+flashes
+flashes
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-flashes
+
+
+-
+flashing
+flashing
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-flash
+
+1
+-
+flashing
+flashing
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-flash
+
+1
 -
 flat
 flat
@@ -1070,14 +1373,36 @@ https://www.w3.org/TR/WGSL/#interpolation-type-flat
 1
 interpolation type
 -
+flat map expression
+flat map expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-flat-map-expression
+
+1
+-
+flat map expression
+flat map expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-flat-map-expression
+
+1
+-
 flat tree
 flat tree
 dfn
-css-scoping-1
-css-scoping
+css-shadow-1
+css-shadow
 1
 current
-https://drafts.csswg.org/css-scoping-1/#flat-tree
+https://drafts.csswg.org/css-shadow-1/#flat-tree
 1
 1
 -
@@ -1117,8 +1442,8 @@ https://wicg.github.io/observable/#dom-observable-flatmap
 1
 Observable
 -
-flatMap(mapperFunction, thisArg)
-flatMap(mapperFunction, thisArg)
+flatMap(mapperFunc, thisArg)
+flatMap(mapperFunc, thisArg)
 method
 ecmascript
 ecmascript
@@ -1163,6 +1488,17 @@ https://html.spec.whatwg.org/multipage/scripting.html#dom-assignednodesoptions-f
 1
 1
 AssignedNodeOptions
+-
+flatten element creation options
+flatten element creation options
+dfn
+dom
+dom
+1
+current
+https://dom.spec.whatwg.org/#flatten-element-creation-options
+
+1
 -
 flatten more
 flatten more
@@ -1319,11 +1655,11 @@ https://www.w3.org/TR/json-ld11/#dfn-flattened-document-form
 flattened element tree
 flattened element tree
 dfn
-css-scoping-1
-css-scoping
+css-shadow-1
+css-shadow
 1
 current
-https://drafts.csswg.org/css-scoping-1/#flat-tree
+https://drafts.csswg.org/css-shadow-1/#flat-tree
 1
 1
 -
@@ -1435,6 +1771,29 @@ display
 -
 flex
 flex
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex
+1
+1
+-
+flex
+flex
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-display-flex
+1
+1
+display
+-
+flex
+flex
 value
 css-text-4
 css-text
@@ -1454,6 +1813,19 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#valdef-display-flex
+1
+1
+display
+<display-inside>
+-
+flex
+flex
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-flex
 1
 1
 display
@@ -1507,18 +1879,6 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssnumerictype-flex
 1
 CSSNumericType
 -
-flex
-flex
-value
-css-values-5
-css-values
-5
-snapshot
-https://www.w3.org/TR/css-values-5/#valdef-attr-flex
-1
-1
-attr()
--
 flex base size
 flex base size
 dfn
@@ -1527,6 +1887,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#flex-base-size
+
+1
+-
+flex base size
+flex base size
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-base-size
 
 1
 -
@@ -1549,6 +1920,18 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#flex-flex-basis
+
+1
+flex
+-
+flex basis
+flex basis
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-flex-basis
 
 1
 flex
@@ -1579,6 +1962,17 @@ https://drafts.csswg.org/css-flexbox-1/#flex-container
 flex container
 flex container
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-container
+1
+1
+-
+flex container
+flex container
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -1601,12 +1995,23 @@ https://drafts.csswg.org/css-flexbox-1/#flex-direction
 flex direction
 flex direction
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-direction
+1
+1
+-
+flex direction
+flex direction
+dfn
 css-flexbox-1
 css-flexbox
 1
 snapshot
 https://www.w3.org/TR/css-flexbox-1/#flex-direction
-
+1
 1
 -
 flex factor
@@ -1617,6 +2022,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#flex-factor
+
+1
+-
+flex factor
+flex factor
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-factor
 
 1
 -
@@ -1763,6 +2179,17 @@ https://drafts.csswg.org/css-flexbox-1/#flex-formatting-context
 flex formatting context
 flex formatting context
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-formatting-context
+1
+1
+-
+flex formatting context
+flex formatting context
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -1830,6 +2257,18 @@ flex
 flex grow factor
 flex grow factor
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-flex-grow-factor
+
+1
+flex
+-
+flex grow factor
+flex grow factor
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -1847,6 +2286,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#flex-item
+1
+1
+-
+flex item
+flex item
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-item
 1
 1
 -
@@ -1875,6 +2325,17 @@ https://drafts.csswg.org/css-flexbox-1/#flex-layout
 flex layout
 flex layout
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-layout
+1
+1
+-
+flex layout
+flex layout
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -1897,6 +2358,17 @@ https://drafts.csswg.org/css-flexbox-1/#flex-line
 flex line
 flex line
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-line
+1
+1
+-
+flex line
+flex line
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -1913,6 +2385,18 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#flex-flex-shrink-factor
+
+1
+flex
+-
+flex shrink factor
+flex shrink factor
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-flex-shrink-factor
 
 1
 flex
@@ -1965,6 +2449,17 @@ https://drafts.csswg.org/css-flexbox-1/#propdef-flex-basis
 flex-basis
 flex-basis
 property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-basis
+1
+1
+-
+flex-basis
+flex-basis
+property
 css-flexbox-1
 css-flexbox
 1
@@ -1981,6 +2476,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#propdef-flex-direction
+1
+1
+-
+flex-direction
+flex-direction
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-direction
 1
 1
 -
@@ -2045,6 +2551,43 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#valdef-justify-content-flex-end
+1
+1
+justify-content
+-
+flex-end
+flex-end
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-content-flex-end
+1
+1
+align-content
+-
+flex-end
+flex-end
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-items-flex-end
+1
+1
+align-items
+align-self
+-
+flex-end
+flex-end
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-justify-content-flex-end
 1
 1
 justify-content
@@ -2129,6 +2672,29 @@ https://drafts.csswg.org/css-flexbox-1/#propdef-flex-flow
 flex-flow
 flex-flow
 property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-flow
+1
+1
+-
+flex-flow
+flex-flow
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-reading-flow-flex-flow
+1
+1
+reading-flow
+-
+flex-flow
+flex-flow
+property
 css-flexbox-1
 css-flexbox
 1
@@ -2145,6 +2711,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#propdef-flex-grow
+1
+1
+-
+flex-grow
+flex-grow
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-grow
 1
 1
 -
@@ -2173,12 +2750,34 @@ https://drafts.csswg.org/css-flexbox-1/#flex-level
 flex-level
 flex-level
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flex-level
+1
+1
+-
+flex-level
+flex-level
+dfn
 css-flexbox-1
 css-flexbox
 1
 snapshot
 https://www.w3.org/TR/css-flexbox-1/#flex-level
-
+1
+1
+-
+flex-line-count
+flex-line-count
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-line-count
+1
 1
 -
 flex-shrink
@@ -2189,6 +2788,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#propdef-flex-shrink
+1
+1
+-
+flex-shrink
+flex-shrink
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-shrink
 1
 1
 -
@@ -2260,6 +2870,43 @@ justify-content
 flex-start
 flex-start
 value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-content-flex-start
+1
+1
+align-content
+-
+flex-start
+flex-start
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-items-flex-start
+1
+1
+align-items
+align-self
+-
+flex-start
+flex-start
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-justify-content-flex-start
+1
+1
+justify-content
+-
+flex-start
+flex-start
+value
 css-align-3
 css-align
 3
@@ -2323,6 +2970,18 @@ https://drafts.csswg.org/css-display-4/#valdef-reading-flow-flex-visual
 1
 reading-flow
 -
+flex-visual
+flex-visual
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-reading-flow-flex-visual
+1
+1
+reading-flow
+-
 flex-wrap
 flex-wrap
 property
@@ -2331,6 +2990,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#propdef-flex-wrap
+1
+1
+-
+flex-wrap
+flex-wrap
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-flex-wrap
 1
 1
 -
@@ -2355,6 +3025,29 @@ current
 https://drafts.csswg.org/css-flexbox-1/#flexible
 
 1
+-
+flexible
+flexible
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#flexible
+
+1
+-
+flexible
+flexible
+dfn
+fenced-frame
+fenced-frame
+1
+current
+https://wicg.github.io/fenced-frame/#permissions-policy-behavior-flexible
+
+1
+permissions policy behavior
 -
 flexible
 flexible
@@ -2387,17 +3080,6 @@ css-grid
 current
 https://drafts.csswg.org/css-grid-2/#flexible-length
 1
-1
--
-flexible length
-flexible length
-dfn
-css-flexbox-1
-css-flexbox
-1
-snapshot
-https://www.w3.org/TR/css-flexbox-1/#flexible-length
-
 1
 -
 flexible length
@@ -2524,6 +3206,54 @@ image-orientation
 -
 flip
 flip
+dict-member
+webcodecs
+webcodecs
+1
+current
+https://w3c.github.io/webcodecs/#dom-videodecoderconfig-flip
+1
+1
+VideoDecoderConfig
+-
+flip
+flip
+attribute
+webcodecs
+webcodecs
+1
+current
+https://w3c.github.io/webcodecs/#dom-videoframe-flip
+1
+1
+VideoFrame
+-
+flip
+flip
+dict-member
+webcodecs
+webcodecs
+1
+current
+https://w3c.github.io/webcodecs/#dom-videoframebufferinit-flip
+1
+1
+VideoFrameBufferInit
+-
+flip
+flip
+dict-member
+webcodecs
+webcodecs
+1
+current
+https://w3c.github.io/webcodecs/#dom-videoframeinit-flip
+1
+1
+VideoFrameInit
+-
+flip
+flip
 value
 css-images-3
 css-images
@@ -2533,6 +3263,54 @@ https://www.w3.org/TR/css-images-3/#valdef-image-orientation-angle
 1
 1
 image-orientation
+-
+flip
+flip
+dict-member
+webcodecs
+webcodecs
+1
+snapshot
+https://www.w3.org/TR/webcodecs/#dom-videodecoderconfig-flip
+1
+1
+VideoDecoderConfig
+-
+flip
+flip
+attribute
+webcodecs
+webcodecs
+1
+snapshot
+https://www.w3.org/TR/webcodecs/#dom-videoframe-flip
+1
+1
+VideoFrame
+-
+flip
+flip
+dict-member
+webcodecs
+webcodecs
+1
+snapshot
+https://www.w3.org/TR/webcodecs/#dom-videoframebufferinit-flip
+1
+1
+VideoFrameBufferInit
+-
+flip
+flip
+dict-member
+webcodecs
+webcodecs
+1
+snapshot
+https://www.w3.org/TR/webcodecs/#dom-videoframeinit-flip
+1
+1
+VideoFrameInit
 -
 flip-block
 flip-block
@@ -2606,6 +3384,54 @@ https://www.w3.org/TR/css-anchor-position-1/#valdef-position-try-fallbacks-flip-
 1
 position-try-fallbacks
 -
+flip-x
+flip-x
+value
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-x
+1
+1
+position-try-fallbacks
+-
+flip-x
+flip-x
+value
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#valdef-position-try-fallbacks-flip-x
+1
+1
+position-try-fallbacks
+-
+flip-y
+flip-y
+value
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-y
+1
+1
+position-try-fallbacks
+-
+flip-y
+flip-y
+value
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#valdef-position-try-fallbacks-flip-y
+1
+1
+position-try-fallbacks
+-
 flipX()
 flipX()
 method
@@ -2613,7 +3439,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-flipx
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-flipx
 1
 1
 DOMMatrixReadOnly
@@ -2637,10 +3463,10 @@ webgpu
 webgpu
 1
 current
-https://gpuweb.github.io/gpuweb/#dom-gpuimagecopyexternalimage-flipy
+https://gpuweb.github.io/gpuweb/#dom-gpucopyexternalimagesourceinfo-flipy
 1
 1
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 -
 flipY
 flipY
@@ -2661,10 +3487,10 @@ webgpu
 webgpu
 1
 snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuimagecopyexternalimage-flipy
+https://www.w3.org/TR/webgpu/#dom-gpucopyexternalimagesourceinfo-flipy
 1
 1
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 -
 flipY()
 flipY()
@@ -2673,7 +3499,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-flipy
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-flipy
 1
 1
 DOMMatrixReadOnly
@@ -2704,9 +3530,9 @@ https://drafts.csswg.org/css-page-floats-3/#propdef-float
 float
 float
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-float
 1
@@ -2725,12 +3551,12 @@ https://webidl.spec.whatwg.org/#idl-float
 -
 float
 float
-property
-css2
-css
+cddl-type
+rfc8610
+rfc8610
 1
 current
-https://www.w3.org/TR/CSS21/visuren.html#propdef-float
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
 1
 1
 -
@@ -2739,20 +3565,9 @@ float
 property
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#propdef-float
-1
-1
--
-float
-float
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visuren.html#propdef-float
+https://www.w3.org/TR/CSS2/visuren.html#propdef-float
 1
 1
 -
@@ -2781,9 +3596,9 @@ https://drafts.csswg.org/css-shapes-2/#float-area
 float rules
 float rules
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#float-rules
 
@@ -2794,20 +3609,9 @@ float rules
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#float-rules
-1
-1
--
-float rules
-float rules
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#float-rules
+https://www.w3.org/TR/CSS2/visuren.html#float-rules
 1
 1
 -
@@ -2874,6 +3678,73 @@ css-page-floats
 3
 snapshot
 https://www.w3.org/TR/css-page-floats-3/#propdef-float-reference
+1
+1
+-
+float16
+float16
+enum-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/canvas.html#dom-canvascolortype-float16
+1
+1
+CanvasColorType
+-
+float16
+float16
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+float16-32
+float16-32
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+float32
+float32
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+float32-64
+float32-64
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
+1
+1
+-
+float64
+float64
+cddl-type
+rfc8610
+rfc8610
+1
+current
+https://www.rfc-editor.org/info/rfc8610/#appendix-D
 1
 1
 -
@@ -2978,7 +3849,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#propdef-flood-color
+https://drafts.csswg.org/filter-effects-1/#propdef-flood-color
 1
 1
 -
@@ -3000,7 +3871,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#propdef-flood-opacity
+https://drafts.csswg.org/filter-effects-1/#propdef-flood-opacity
 1
 1
 -
@@ -3252,6 +4123,19 @@ https://www.w3.org/TR/css-display-3/#valdef-display-flow
 display
 <display-inside>
 -
+flow
+flow
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-flow
+1
+1
+display
+<display-inside>
+-
 flow content
 flow content
 dfn
@@ -3342,12 +4226,23 @@ https://www.w3.org/TR/css-display-3/#flow-layout
 1
 1
 -
+flow layout
+flow layout
+dfn
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#flow-layout
+1
+1
+-
 flow of an element
 flow of an element
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#flow-of-an-element
 
@@ -3358,20 +4253,9 @@ flow of an element
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#x25
-1
-1
--
-flow of an element
-flow of an element
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#x25
+https://www.w3.org/TR/CSS2/visuren.html#x25
 1
 1
 -
@@ -3546,6 +4430,41 @@ https://www.w3.org/TR/css-display-3/#valdef-display-flow-root
 display
 <display-inside>
 -
+flow-root
+flow-root
+value
+css-display-4
+css-display
+4
+snapshot
+https://www.w3.org/TR/css-display-4/#valdef-display-flow-root
+1
+1
+display
+<display-inside>
+-
+flow-tolerance
+flow-tolerance
+property
+css-grid-3
+css-grid
+3
+current
+https://drafts.csswg.org/css-grid-3/#propdef-flow-tolerance
+1
+1
+-
+flow-tolerance
+flow-tolerance
+property
+css-grid-3
+css-grid
+3
+snapshot
+https://www.w3.org/TR/css-grid-3/#propdef-flow-tolerance
+1
+1
+-
 flowControl
 flowControl
 dict-member
@@ -3660,6 +4579,28 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/parsing.html#flush-code-points-consumed-as-a-character-reference
+
+1
+-
+flush the update callback queue
+flush the update callback queue
+dfn
+css-view-transitions-1
+css-view-transitions
+1
+current
+https://drafts.csswg.org/css-view-transitions-1/#flush-the-update-callback-queue
+
+1
+-
+flush the update callback queue
+flush the update callback queue
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#flush-the-update-callback-queue
 
 1
 -

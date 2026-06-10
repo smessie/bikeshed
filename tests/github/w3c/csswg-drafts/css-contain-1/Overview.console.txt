@@ -5,7 +5,7 @@ Open tags: <ol> at 465:2, <li> at 466:3, <div> at 532:4, <blockquote> at 541:5, 
 LINE 259:4: Couldn't find WPT test 'css/css-contain/contain-layout-button-001.html' - did you misspell something?
 LINE 918:3: Couldn't find WPT test 'css/css-contain/contain-layout-button-001.html' - did you misspell something?
 LINE 1275:1: Couldn't find WPT test 'css/css-contain/content-visibility/content-visibility-059.html' - did you misspell something?
-WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' that aren't in your document and must be added. (Use a <wpt hidden> if you don't actually want them in your document.)
+WARNING: There are 316 WPT tests underneath your path prefix 'css/css-contain/' that aren't in your document and must be added. (Use a <wpt hidden> if you don't actually want them in your document.)
   css/css-contain/contain-body-bg-001.html
   css/css-contain/contain-body-bg-002.html
   css/css-contain/contain-body-bg-003.html
@@ -51,6 +51,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/contain-inline-size-fieldset.html
   css/css-contain/contain-inline-size-flex.html
   css/css-contain/contain-inline-size-flexitem.html
+  css/css-contain/contain-inline-size-grid-auto-fit.html
   css/css-contain/contain-inline-size-grid-indefinite-height-min-height-flex-row.html
   css/css-contain/contain-inline-size-grid-stretches-auto-rows.html
   css/css-contain/contain-inline-size-grid.html
@@ -65,7 +66,9 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/contain-layout-019.html
   css/css-contain/contain-layout-020.html
   css/css-contain/contain-layout-021.html
+  css/css-contain/contain-layout-baseline-006.html
   css/css-contain/contain-layout-containing-block-absolute-001.html
+  css/css-contain/contain-layout-containing-block-absolute-002.html
   css/css-contain/contain-layout-containing-block-fixed-001.html
   css/css-contain/contain-layout-dynamic-001.html
   css/css-contain/contain-layout-dynamic-004.html
@@ -108,6 +111,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/contain-paint-ignored-cases-ruby-stacking-and-clipping-001.html
   css/css-contain/contain-paint-stacking-context-001a.html
   css/css-contain/contain-paint-stacking-context-001b.html
+  css/css-contain/contain-size-014.html
   css/css-contain/contain-size-block-001.html
   css/css-contain/contain-size-block-002.html
   css/css-contain/contain-size-block-003.html
@@ -138,6 +142,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/contain-size-table-caption-001.html
   css/css-contain/contain-style-counters-005.html
   css/css-contain/contain-style-dynamic-001.html
+  css/css-contain/contain-style-dynamic-002.html
   css/css-contain/contain-style-ol-ordinal-li-container.html
   css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html
   css/css-contain/contain-style-ol-ordinal-pseudo.html
@@ -146,6 +151,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/contain-style-ol-ordinal-start.html
   css/css-contain/contain-style-ol-ordinal.html
   css/css-contain/contain-style-remove-element-crash.html
+  css/css-contain/container-iframe-resize-events.html
   css/css-contain/container-type-important.html
   css/css-contain/content-visibility/animation-display-lock.html
   css/css-contain/content-visibility/content-visibility-080.html
@@ -182,6 +188,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/content-visibility/content-visibility-animation-with-scroll-timeline-in-hidden-subtree.html
   css/css-contain/content-visibility/content-visibility-auto-applied-to-th-crash.html
   css/css-contain/content-visibility/content-visibility-auto-first-observation-immediate.html
+  css/css-contain/content-visibility/content-visibility-auto-img-001.html
   css/css-contain/content-visibility/content-visibility-auto-in-iframe.html
   css/css-contain/content-visibility/content-visibility-auto-intrinsic-width.html
   css/css-contain/content-visibility/content-visibility-auto-nested-scroll.html
@@ -193,26 +200,36 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/content-visibility/content-visibility-auto-state-changed-removed.html
   css/css-contain/content-visibility/content-visibility-auto-state-changed.html
   css/css-contain/content-visibility/content-visibility-auto-svg-image.html
+  css/css-contain/content-visibility/content-visibility-auto-svg-text.html
   css/css-contain/content-visibility/content-visibility-auto-text-fragment.html
   css/css-contain/content-visibility/content-visibility-background-clip-crash.html
   css/css-contain/content-visibility/content-visibility-canvas.html
   css/css-contain/content-visibility/content-visibility-continuations-crash.html
   css/css-contain/content-visibility/content-visibility-fieldset-size.html
   css/css-contain/content-visibility/content-visibility-forced-layout-client-rects.html
+  css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html
+  css/css-contain/content-visibility/content-visibility-hidden-boundingbox-query.html
+  css/css-contain/content-visibility/content-visibility-hidden-offsetTop-left-width-height.html
+  css/css-contain/content-visibility/content-visibility-hidden-scrollTop-left-width-height.html
+  css/css-contain/content-visibility/content-visibility-hidden-with-column-spanner.html
   css/css-contain/content-visibility/content-visibility-hit-test-contents-crash.html
   css/css-contain/content-visibility/content-visibility-img.html
+  css/css-contain/content-visibility/content-visibility-in-relpos-before-crash.html
   css/css-contain/content-visibility/content-visibility-in-svg-000-crash.html
   css/css-contain/content-visibility/content-visibility-input-image.html
   css/css-contain/content-visibility/content-visibility-interpolation.html
   css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html
   css/css-contain/content-visibility/content-visibility-layout-containment-001.html
   css/css-contain/content-visibility/content-visibility-layout-paint-containment-001.html
+  css/css-contain/content-visibility/content-visibility-on-display-contents.html
   css/css-contain/content-visibility/content-visibility-on-g.html
   css/css-contain/content-visibility/content-visibility-on-root-svg.html
+  css/css-contain/content-visibility/content-visibility-on-ruby.html
   css/css-contain/content-visibility/content-visibility-output-crash.html
   css/css-contain/content-visibility/content-visibility-paint-containment-001.html
   css/css-contain/content-visibility/content-visibility-paint-containment-002.html
   css/css-contain/content-visibility/content-visibility-paint-containment-003.html
+  css/css-contain/content-visibility/content-visibility-paint-containment-004.html
   css/css-contain/content-visibility/content-visibility-resize-observer-no-error.html
   css/css-contain/content-visibility/content-visibility-selection-crash.html
   css/css-contain/content-visibility/content-visibility-size-containment-001.html
@@ -250,6 +267,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html
   css/css-contain/content-visibility/contentvisibility-nestedslot-crash.html
   css/css-contain/content-visibility/crashtests/content-visibility-transition-finished-001.html
+  css/css-contain/content-visibility/crashtests/div-in-hidden.html
   css/css-contain/content-visibility/crashtests/fieldset.html
   css/css-contain/content-visibility/crashtests/first-line-and-inline-block.html
   css/css-contain/content-visibility/crashtests/grid-dynamic.html
@@ -257,6 +275,7 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/content-visibility/display-ruby-text-crash.html
   css/css-contain/content-visibility/document-element-computed-style.html
   css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html
+  css/css-contain/content-visibility/dynamic-change-with-slotted-text.html
   css/css-contain/content-visibility/element-reassigned-to-skipped-slot.html
   css/css-contain/content-visibility/element-reassigned-to-slot-in-skipped-subtree.html
   css/css-contain/content-visibility/hidden-execcommand-crash.html
@@ -289,11 +308,13 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/content-visibility/slot-content-visibility-9-crash.html
   css/css-contain/content-visibility/touch-action-beside-display-locked-fixedpos-iframe-crash.html
   css/css-contain/counter-scoping-004.html
+  css/css-contain/crashtests/contain-dynamic-change-crash.html
   css/css-contain/crashtests/contain-nested-crash-001.html
   css/css-contain/crashtests/contain-nested-crash-002.html
   css/css-contain/crashtests/contain-nested-crash-003.html
   css/css-contain/crashtests/contain-nested-crash-004.html
   css/css-contain/crashtests/contain-nested-relayout-boundary.html
+  css/css-contain/crashtests/flex-item-with-inline-block-with-contain.html
   css/css-contain/parsing/contain-computed-children.html
   css/css-contain/quote-scoping-empty-style-boundaries.html
   css/css-contain/quote-scoping-invalidation-001.html
@@ -301,71 +322,4 @@ WARNING: There are 295 WPT tests underneath your path prefix 'css/css-contain/' 
   css/css-contain/quote-scoping-invalidation-003.html
   css/css-contain/quote-scoping-invalidation-004.html
   css/css-contain/quote-scoping-shadow-dom-crash.html
-LINE ~102:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~102:2: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE 420:35: Multiple possible 'table' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-table
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:table
-spec:css-display-4; type:value; for:<display-inside>; text:table
-spec:css22; type:value; text:table
-LINE 774:123: Multiple possible 'none' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-none
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:none
-spec:css-display-4; type:value; for:<display-box>; text:none
-spec:css22; type:value; text:none
-LINE 775:91: Multiple possible 'table-cell' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-table-cell
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:table-cell
-spec:css-display-4; type:value; for:<display-internal>; text:table-cell
-spec:css22; type:value; text:table-cell
-LINE 869:34: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
-LINE 870:10: Multiple possible 'visible' maybe refs for '['overflow']'.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#valdef-overflow-visible
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:value; for:overflow; text:visible
-spec:css-overflow-3; type:value; for:overflow-x; text:visible
-spec:css-overflow-3; type:value; for:overflow-y; text:visible
-spec:css22; type:value; text:visible
-LINE 949:123: Multiple possible 'none' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-none
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:none
-spec:css-display-4; type:value; for:<display-box>; text:none
-spec:css22; type:value; text:none
-LINE 950:91: Multiple possible 'table-cell' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-table-cell
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:table-cell
-spec:css-display-4; type:value; for:<display-internal>; text:table-cell
-spec:css22; type:value; text:table-cell
-LINE 982:35: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
-LINE 1053:15: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
-LINE 1055:45: Multiple possible 'overflow' propdesc refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
 LINE 1065: W3C policy requires Privacy Considerations and Security Considerations to be separate sections, but you appear to have them combined into one.

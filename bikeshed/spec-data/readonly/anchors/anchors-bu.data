@@ -10,6 +10,54 @@ https://wicg.github.io/webusb/#dom-usbendpointtype-bulk
 1
 USBEndpointType
 -
+"button"
+"button"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointerdownaction-button
+
+1
+input.PointerDownAction
+-
+"button"
+"button"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointerupaction-button
+
+1
+input.PointerUpAction
+-
+"button"
+"button"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointerdownaction-button
+
+1
+input.PointerDownAction
+-
+"button"
+"button"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointerupaction-button
+
+1
+input.PointerUpAction
+-
 "buyer"
 "buyer"
 enum-value
@@ -100,17 +148,6 @@ https://webidl.spec.whatwg.org/#BufferSource
 1
 1
 -
-buffersource
-BufferSource
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#BufferSource
-
-1
--
 BufferedChangeEvent
 BufferedChangeEvent
 interface
@@ -158,11 +195,22 @@ https://www.w3.org/TR/media-source-2/#dom-bufferedchangeeventinit
 built-in user verification method
 Built-in User Verification method
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#built-in-user-verification-method
+
+1
+-
+built-in user verification method
+Built-in User Verification method
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#built-in-user-verification-method
 
 1
 -
@@ -177,8 +225,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-BuiltinCallOrConstruct(F, thisArgument, argumentsList, newTarget)
-BuiltinCallOrConstruct(F, thisArgument, argumentsList, newTarget)
+BuiltinCallOrConstruct(func, thisArg, argList, newTarget)
+BuiltinCallOrConstruct(func, thisArg, argList, newTarget)
 abstract-op
 ecmascript
 ecmascript
@@ -502,7 +550,7 @@ SourceBuffer
 [[buffer set]]
 [[buffer set]]
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -514,11 +562,35 @@ AudioBufferSourceNode
 [[buffer set]]
 [[buffer set]]
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-buffer-set-slot
+1
+1
+AudioBufferSourceNode
+-
+[[buffer set]]
+[[buffer set]]
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-buffer-set-slot
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-buffer-set-slot
+1
+1
+AudioBufferSourceNode
+-
+[[buffer set]]
+[[buffer set]]
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-buffer-set-slot
 1
 1
 AudioBufferSourceNode
@@ -796,32 +868,6 @@ uievents
 uievents
 1
 current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-bubblesarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-bubblesArg
-bubblesArg
-argument
-uievents
-uievents
-1
-current
 https://w3c.github.io/uievents/#dom-uievent-inituievent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-bubblesarg
 1
 1
@@ -875,32 +921,6 @@ uievents
 uievents
 1
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-bubblesarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-bubblesArg
-bubblesArg
-argument
-uievents
-uievents
-1
-snapshot
 https://www.w3.org/TR/uievents/#dom-uievent-inituievent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-bubblesarg
 1
 1
@@ -909,78 +929,6 @@ UIEvent/initUIEvent(typeArg, bubblesArg, cancelableArg, viewArg)
 UIEvent/initUIEvent(typeArg, bubblesArg, cancelableArg)
 UIEvent/initUIEvent(typeArg, bubblesArg)
 UIEvent/initUIEvent(typeArg)
--
-bucket
-bucket
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-auctionreportbuyersconfig-bucket
-1
-1
-AuctionReportBuyersConfig
--
-bucket
-bucket
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-paextendedhistogramcontribution-bucket
-1
-1
-PAExtendedHistogramContribution
--
-bucket
-bucket
-dict-member
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#dom-pahistogramcontribution-bucket
-1
-1
-PAHistogramContribution
--
-bucket
-bucket
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionreportbuyersconfig-bucket
-1
-1
-AuctionReportBuyersConfig
--
-bucket
-bucket
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-realtimecontribution-bucket
-1
-1
-RealTimeContribution
--
-bucket
-bucket
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#real-time-reporting-contribution-bucket
-
-1
-real time reporting contribution
 -
 bucket file system
 bucket file system
@@ -1003,18 +951,6 @@ current
 https://storage.spec.whatwg.org/#bucket-map
 
 1
--
-budget
-budget
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-budget
-
-1
-source-registration JSON key
 -
 buffer
 buffer
@@ -1080,18 +1016,6 @@ GPUCommandEncoder/clearBuffer(buffer, offset, size)
 -
 buffer
 buffer
-dict-member
-webgpu
-webgpu
-1
-current
-https://gpuweb.github.io/gpuweb/#dom-gpuimagecopybuffer-buffer
-1
-1
-GPUImageCopyBuffer
--
-buffer
-buffer
 argument
 webgpu
 webgpu
@@ -1125,6 +1049,18 @@ https://gpuweb.github.io/gpuweb/#dom-gpurendercommandsmixin-setvertexbuffer-slot
 1
 1
 GPURenderCommandsMixin/setVertexBuffer(slot, buffer, offset, size)
+-
+buffer
+buffer
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gputexelcopybufferinfo-buffer
+1
+1
+GPUTexelCopyBufferInfo
 -
 buffer
 buffer
@@ -1189,7 +1125,19 @@ Memory
 buffer
 buffer
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-buffer
+1
+1
+AudioBufferSourceNode
+-
+buffer
+buffer
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -1201,7 +1149,19 @@ AudioBufferSourceNode
 buffer
 buffer
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffersourceoptions-buffer
+1
+1
+AudioBufferSourceOptions
+-
+buffer
+buffer
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -1213,7 +1173,19 @@ AudioBufferSourceOptions
 buffer
 buffer
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-convolvernode-buffer
+1
+1
+ConvolverNode
+-
+buffer
+buffer
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -1225,7 +1197,7 @@ ConvolverNode
 buffer
 buffer
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1233,6 +1205,30 @@ https://webaudio.github.io/web-audio-api/#dom-convolveroptions-buffer
 1
 1
 ConvolverOptions
+-
+buffer
+buffer
+dict-member
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-convolveroptions-buffer
+1
+1
+ConvolverOptions
+-
+buffer
+buffer
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant-descriptor-buffer-buffer
+1
+1
+MLGraphBuilder/constant(descriptor, buffer)
 -
 buffer
 buffer
@@ -1249,11 +1245,11 @@ Memory
 buffer
 buffer
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-buffer
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourcenode-buffer
 1
 1
 AudioBufferSourceNode
@@ -1261,11 +1257,11 @@ AudioBufferSourceNode
 buffer
 buffer
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffersourceoptions-buffer
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffersourceoptions-buffer
 1
 1
 AudioBufferSourceOptions
@@ -1273,11 +1269,11 @@ AudioBufferSourceOptions
 buffer
 buffer
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-convolvernode-buffer
+https://www.w3.org/TR/webaudio-1.0/#dom-convolvernode-buffer
 1
 1
 ConvolverNode
@@ -1285,11 +1281,59 @@ ConvolverNode
 buffer
 buffer
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-convolveroptions-buffer
+https://www.w3.org/TR/webaudio-1.0/#dom-convolveroptions-buffer
+1
+1
+ConvolverOptions
+-
+buffer
+buffer
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourcenode-buffer
+1
+1
+AudioBufferSourceNode
+-
+buffer
+buffer
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffersourceoptions-buffer
+1
+1
+AudioBufferSourceOptions
+-
+buffer
+buffer
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-convolvernode-buffer
+1
+1
+ConvolverNode
+-
+buffer
+buffer
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-convolveroptions-buffer
 1
 1
 ConvolverOptions
@@ -1332,18 +1376,6 @@ GPUCommandEncoder/clearBuffer(buffer, offset, size)
 -
 buffer
 buffer
-dict-member
-webgpu
-webgpu
-1
-snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuimagecopybuffer-buffer
-1
-1
-GPUImageCopyBuffer
--
-buffer
-buffer
 argument
 webgpu
 webgpu
@@ -1378,6 +1410,30 @@ https://www.w3.org/TR/webgpu/#dom-gpurendercommandsmixin-setvertexbuffer-slot-bu
 1
 GPURenderCommandsMixin/setVertexBuffer(slot, buffer, offset, size)
 -
+buffer
+buffer
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gputexelcopybufferinfo-buffer
+1
+1
+GPUTexelCopyBufferInfo
+-
+buffer
+buffer
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant-descriptor-buffer-buffer
+1
+1
+MLGraphBuilder/constant(descriptor, buffer)
+-
 buffer a log event
 buffer a log event
 dfn
@@ -1389,10 +1445,21 @@ https://w3c.github.io/webdriver-bidi/#buffer-a-log-event
 
 1
 -
+buffer a log event
+buffer a log event
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#buffer-a-log-event
+
+1
+-
 buffer attribute
 buffer attribute
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1404,11 +1471,35 @@ ConvolverNode
 buffer attribute
 buffer attribute
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-convolvernode-buffer-attribute
+1
+1
+ConvolverNode
+-
+buffer attribute
+buffer attribute
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-convolvernode-buffer-attribute
+https://www.w3.org/TR/webaudio-1.0/#dom-convolvernode-buffer-attribute
+1
+1
+ConvolverNode
+-
+buffer attribute
+buffer attribute
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-convolvernode-buffer-attribute
 1
 1
 ConvolverNode
@@ -1424,6 +1515,18 @@ https://streams.spec.whatwg.org/#pull-into-descriptor-buffer-byte-length
 
 1
 pull-into descriptor
+-
+buffer length
+buffer length
+dfn
+crash-reporting
+crash-reporting
+1
+current
+https://wicg.github.io/crash-reporting/#crashreportcontext-buffer-length
+
+1
+CrashReportContext
 -
 buffer source types
 buffer source types
@@ -1495,7 +1598,7 @@ GPUQueue/writeBuffer(buffer, bufferOffset, data, dataOffset, size)
 bufferOffset
 bufferOffset
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1507,7 +1610,19 @@ AudioBuffer/copyFromChannel()
 bufferOffset
 bufferOffset
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-copyfromchannel-bufferoffset
+1
+1
+AudioBuffer/copyFromChannel()
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -1520,7 +1635,20 @@ AudioBuffer/copyFromChannel(destination, channelNumber)
 bufferOffset
 bufferOffset
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-copyfromchannel-destination-channelnumber-bufferoffset-bufferoffset
+1
+1
+AudioBuffer/copyFromChannel(destination, channelNumber, bufferOffset)
+AudioBuffer/copyFromChannel(destination, channelNumber)
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -1532,7 +1660,19 @@ AudioBuffer/copyToChannel()
 bufferOffset
 bufferOffset
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-copytochannel-bufferoffset
+1
+1
+AudioBuffer/copyToChannel()
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -1545,11 +1685,24 @@ AudioBuffer/copyToChannel(source, channelNumber)
 bufferOffset
 bufferOffset
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiobuffer-copytochannel-source-channelnumber-bufferoffset-bufferoffset
+1
+1
+AudioBuffer/copyToChannel(source, channelNumber, bufferOffset)
+AudioBuffer/copyToChannel(source, channelNumber)
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-copyfromchannel-bufferoffset
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-copyfromchannel-bufferoffset
 1
 1
 AudioBuffer/copyFromChannel()
@@ -1557,11 +1710,11 @@ AudioBuffer/copyFromChannel()
 bufferOffset
 bufferOffset
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-copyfromchannel-destination-channelnumber-bufferoffset-bufferoffset
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-copyfromchannel-destination-channelnumber-bufferoffset-bufferoffset
 1
 1
 AudioBuffer/copyFromChannel(destination, channelNumber, bufferOffset)
@@ -1570,11 +1723,11 @@ AudioBuffer/copyFromChannel(destination, channelNumber)
 bufferOffset
 bufferOffset
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-copytochannel-bufferoffset
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-copytochannel-bufferoffset
 1
 1
 AudioBuffer/copyToChannel()
@@ -1582,11 +1735,61 @@ AudioBuffer/copyToChannel()
 bufferOffset
 bufferOffset
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiobuffer-copytochannel-source-channelnumber-bufferoffset-bufferoffset
+https://www.w3.org/TR/webaudio-1.0/#dom-audiobuffer-copytochannel-source-channelnumber-bufferoffset-bufferoffset
+1
+1
+AudioBuffer/copyToChannel(source, channelNumber, bufferOffset)
+AudioBuffer/copyToChannel(source, channelNumber)
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-copyfromchannel-bufferoffset
+1
+1
+AudioBuffer/copyFromChannel()
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-copyfromchannel-destination-channelnumber-bufferoffset-bufferoffset
+1
+1
+AudioBuffer/copyFromChannel(destination, channelNumber, bufferOffset)
+AudioBuffer/copyFromChannel(destination, channelNumber)
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-copytochannel-bufferoffset
+1
+1
+AudioBuffer/copyToChannel()
+-
+bufferOffset
+bufferOffset
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiobuffer-copytochannel-source-channelnumber-bufferoffset-bufferoffset
 1
 1
 AudioBuffer/copyToChannel(source, channelNumber, bufferOffset)
@@ -1607,7 +1810,19 @@ GPUQueue/writeBuffer(buffer, bufferOffset, data, dataOffset, size)
 bufferSize
 bufferSize
 argument
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor-buffersize-numberofinputchannels-numberofoutputchannels-buffersize
+1
+1
+BaseAudioContext/createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
+-
+bufferSize
+bufferSize
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -1619,7 +1834,19 @@ BaseAudioContext/createScriptProcessor(bufferSize, numberOfInputChannels, number
 bufferSize
 bufferSize
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-scriptprocessornode-buffersize
+1
+1
+ScriptProcessorNode
+-
+bufferSize
+bufferSize
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -1643,11 +1870,11 @@ SerialOptions
 bufferSize
 bufferSize
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createscriptprocessor-buffersize-numberofinputchannels-numberofoutputchannels-buffersize
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createscriptprocessor-buffersize-numberofinputchannels-numberofoutputchannels-buffersize
 1
 1
 BaseAudioContext/createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
@@ -1655,38 +1882,38 @@ BaseAudioContext/createScriptProcessor(bufferSize, numberOfInputChannels, number
 bufferSize
 bufferSize
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-scriptprocessornode-buffersize
+https://www.w3.org/TR/webaudio-1.0/#dom-scriptprocessornode-buffersize
 1
 1
 ScriptProcessorNode
 -
-bufferView
-bufferView
+bufferSize
+bufferSize
 argument
-webnn
-webnn
-1
-current
-https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant-descriptor-bufferview-bufferview
-1
-1
-MLGraphBuilder/constant(descriptor, bufferView)
--
-bufferView
-bufferView
-argument
-webnn
-webnn
+webaudio-1.1
+webaudio
 1
 snapshot
-https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant-descriptor-bufferview-bufferview
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createscriptprocessor-buffersize-numberofinputchannels-numberofoutputchannels-buffersize
 1
 1
-MLGraphBuilder/constant(descriptor, bufferView)
+BaseAudioContext/createScriptProcessor(bufferSize, numberOfInputChannels, numberOfOutputChannels)
+-
+bufferSize
+bufferSize
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-scriptprocessornode-buffersize
+1
+1
+ScriptProcessorNode
 -
 buffered
 buffered
@@ -1720,6 +1947,18 @@ performance-timeline
 1
 current
 https://w3c.github.io/performance-timeline/#dom-performanceobserverinit-buffered
+1
+1
+PerformanceObserverInit
+-
+buffered
+buffered
+dfn
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#performanceobserverinit-buffered
 1
 1
 PerformanceObserverInit
@@ -1840,7 +2079,7 @@ webrtc
 1
 current
 https://w3c.github.io/webrtc-pc/#event-datachannel-bufferedamountlow
-1
+
 
 RTCDataChannel
 -
@@ -1957,38 +2196,17 @@ https://fetch.spec.whatwg.org/#build-a-content-range
 
 1
 -
-build an interest group passed to generatebid
-build an interest group passed to generateBid
+build a permission descriptor
+build a permission descriptor
 dfn
-turtledove
-turtledove
+geolocation-element
+geolocation-element
 1
 current
-https://wicg.github.io/turtledove/#build-an-interest-group-passed-to-generatebid
+https://wicg.github.io/PEPC/geolocation-element.html#powerfulfeatureobserver-build-a-permission-descriptor
 
 1
--
-build batched trusted scoring signals url
-build batched trusted scoring signals url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#build-batched-trusted-scoring-signals-url
-
-1
--
-build bid generators map
-build bid generators map
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#build-bid-generators-map
-
-1
+PowerfulFeatureObserver
 -
 build not restored reasons for a top-level traversable and its descendants
 build not restored reasons for a top-level traversable and its descendants
@@ -2023,28 +2241,6 @@ https://wicg.github.io/first-party-sets/#build-the-list-of-related-website-sets
 
 1
 -
-build trusted bidding signals url
-build trusted bidding signals url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#build-trusted-bidding-signals-url
-
-1
--
-build trusted scoring signals url
-build trusted scoring signals url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#build-trusted-scoring-signals-url
-
-1
--
 build(outputs)
 build(outputs)
 method
@@ -2069,14 +2265,14 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-build
 1
 MLGraphBuilder
 -
-built-in default config
-built-in default config
+built-in animating url attributes list
+built-in animating URL attributes list
 dfn
-sanitizer-api
-sanitizer-api
+html
+html
 1
 current
-https://wicg.github.io/sanitizer-api/#built-in-default-config
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-animating-url-attributes-list
 
 1
 -
@@ -2124,6 +2320,28 @@ https://www.w3.org/TR/WGSL/#built-in-input-value
 
 1
 -
+built-in navigating url attributes list
+built-in navigating URL attributes list
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-navigating-url-attributes-list
+
+1
+-
+built-in non-replaceable elements list
+built-in non-replaceable elements list
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-non-replaceable-elements-list
+
+1
+-
 built-in output value
 built-in output value
 dfn
@@ -2143,6 +2361,28 @@ wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#built-in-output-value
+
+1
+-
+built-in safe baseline configuration
+built-in safe baseline configuration
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-baseline-configuration
+
+1
+-
+built-in safe default configuration
+built-in safe default configuration
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-default-configuration
 
 1
 -
@@ -2267,6 +2507,18 @@ wgsl
 wgsl
 1
 current
+https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-builtin_value_name
+
+1
+recursive descent syntax
+-
+builtin_value_name
+builtin_value_name
+dfn
+wgsl
+wgsl
+1
+current
 https://gpuweb.github.io/gpuweb/wgsl/#syntax-builtin_value_name
 
 1
@@ -2279,10 +2531,46 @@ wgsl
 wgsl
 1
 snapshot
+https://www.w3.org/TR/WGSL/#recursive-descent-syntax-builtin_value_name
+
+1
+recursive descent syntax
+-
+builtin_value_name
+builtin_value_name
+dfn
+wgsl
+wgsl
+1
+snapshot
 https://www.w3.org/TR/WGSL/#syntax-builtin_value_name
 
 1
 syntax
+-
+builtins
+builtins
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-webassemblycompileoptions-builtins
+1
+1
+WebAssemblyCompileOptions
+-
+builtins
+builtins
+dict-member
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-webassemblycompileoptions-builtins
+1
+1
+WebAssemblyCompileOptions
 -
 bullets
 bullets
@@ -2477,7 +2765,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-linecap-butt
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-linecap-butt
 1
 1
 stroke-linecap
@@ -2543,12 +2831,23 @@ input/type
 -
 button
 button
-attribute
-uievents
-uievents
+dfn
+gamepad
+gamepad
 1
 current
-https://w3c.github.io/uievents/#dom-mouseevent-button
+https://w3c.github.io/gamepad/#dfn-button
+
+1
+-
+button
+button
+attribute
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-button
 1
 1
 MouseEvent
@@ -2556,14 +2855,38 @@ MouseEvent
 button
 button
 dict-member
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#dom-mouseeventinit-button
+https://w3c.github.io/pointerevents/#dom-mouseeventinit-button
 1
 1
 MouseEventInit
+-
+button
+button
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointerdownaction-button
+
+1
+input.PointerDownAction
+-
+button
+button
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointerupaction-button
+
+1
+input.PointerUpAction
 -
 button
 button
@@ -2579,12 +2902,23 @@ appearance
 -
 button
 button
-attribute
-uievents
-uievents
+dfn
+gamepad
+gamepad
 1
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-button
+https://www.w3.org/TR/gamepad/#dfn-button
+
+1
+-
+button
+button
+attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-button
 1
 1
 MouseEvent
@@ -2592,14 +2926,60 @@ MouseEvent
 button
 button
 dict-member
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseeventinit-button
+https://www.w3.org/TR/pointerevents4/#dom-mouseeventinit-button
 1
 1
 MouseEventInit
+-
+button
+button
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointerdownaction-button
+
+1
+input.PointerDownAction
+-
+button
+button
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointerupaction-button
+
+1
+input.PointerUpAction
+-
+button list
+button list
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-button-list
+
+1
+-
+button list
+button list
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-button-list
+
+1
 -
 button press threshold
 button press threshold
@@ -2623,57 +3003,27 @@ https://www.w3.org/TR/gamepad/#dfn-button-press-threshold
 
 1
 -
-buttonArg
-buttonArg
-argument
-uievents
-uievents
+button touch value
+button touch value
+dfn
+gamepad
+gamepad
 1
 current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-buttonarg
+https://w3c.github.io/gamepad/#dfn-button-touch-value
+
 1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
 -
-buttonArg
-buttonArg
-argument
-uievents
-uievents
+button touch value
+button touch value
+dfn
+gamepad
+gamepad
 1
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-buttonarg
+https://www.w3.org/TR/gamepad/#dfn-button-touch-value
+
 1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
 -
 buttons
 buttons
@@ -2712,11 +3062,11 @@ Gamepad
 buttons
 buttons
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#dom-mouseevent-buttons
+https://w3c.github.io/pointerevents/#dom-mouseevent-buttons
 1
 1
 MouseEvent
@@ -2724,11 +3074,11 @@ MouseEvent
 buttons
 buttons
 dict-member
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#dom-mouseeventinit-buttons
+https://w3c.github.io/pointerevents/#dom-mouseeventinit-buttons
 1
 1
 MouseEventInit
@@ -2748,11 +3098,11 @@ Gamepad
 buttons
 buttons
 attribute
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-buttons
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-buttons
 1
 1
 MouseEvent
@@ -2760,132 +3110,12 @@ MouseEvent
 buttons
 buttons
 dict-member
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#dom-mouseeventinit-buttons
+https://www.w3.org/TR/pointerevents4/#dom-mouseeventinit-buttons
 1
 1
 MouseEventInit
--
-buyer and seller reporting id
-buyer and seller reporting ID
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ad-buyer-and-seller-reporting-id
-
-1
-interest group ad
--
-buyer and seller reporting id
-buyer and seller reporting id
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-buyer-and-seller-reporting-id
-
-1
-server auction response
--
-buyer reporting
-buyer reporting
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-buyer-reporting
-
-1
-server auction response
--
-buyer reporting id
-buyer reporting ID
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ad-buyer-reporting-id
-
-1
-interest group ad
--
-buyer reporting id
-buyer reporting id
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-buyer-reporting-id
-
-1
-server auction response
--
-buyer reporting result
-buyer reporting result
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-buyer-reporting-result
-
-1
-leading bid info
--
-buyerAndSellerReportingId
-buyerAndSellerReportingId
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionad-buyerandsellerreportingid
-1
-1
-AuctionAd
--
-buyerAndSellerReportingId
-buyerAndSellerReportingId
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-buyerandsellerreportingid
-1
-1
-ReportingBrowserSignals
--
-buyerReportingId
-buyerReportingId
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionad-buyerreportingid
-1
-1
-AuctionAd
--
-buyerReportingId
-buyerReportingId
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportwinbrowsersignals-buyerreportingid
-1
-1
-ReportWinBrowserSignals
 -

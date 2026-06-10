@@ -96,6 +96,8 @@ lint.ignore = [
     "PLR0913",
     "PLR0915",
     "PLR5501",
+    # Eta reduction isn't a no-op due to definition scopes...
+    "PLW0108",
     # I do this on purpose a lot
     "PLW2901",
     # Disable multiline string concatenation entirely

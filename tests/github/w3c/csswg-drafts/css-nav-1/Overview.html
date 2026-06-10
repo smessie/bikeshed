@@ -1271,7 +1271,7 @@ the user agent will fire events.
 These enable the author to prevent the upcoming action
 (by calling <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#dom-event-preventdefault" id="ref-for-dom-event-preventdefault">preventDefault()</a></code>),
 and if desired to provide an alternate action,
-such as using the <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/interaction.html#dom-focus" id="ref-for-dom-focus">focus()</a></code> method on a different
+such as using the <code class="idl"><u class="link-error" data-lt="focus()" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;[&apos;HTMLOrSVGElement&apos;]&apos; in spec &apos;html&apos;.">focus()</u></code> method on a different
 element of the author’s choosing.
 
 
@@ -1508,7 +1508,7 @@ the user agent must run the steps described below:</p>
        <ol>
         <li data-md>
          <p>Return the nearest ancestor of the element that is a <a data-link-type="dfn" href="#spatial-navigation-containers" id="ref-for-spatial-navigation-containers⑧">spatial navigation container</a>,
-or the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> if the nearest <span id="ref-for-spatial-navigation-containers⑨">spatial navigation container</span> is the viewport.</p>
+or the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> if the nearest <span id="ref-for-spatial-navigation-containers⑨">spatial navigation container</span> is the viewport.</p>
        </ol>
        <p class="note" role="note"><span class="marker">Note:</span> If the element is a <a data-link-type="dfn" href="#spatial-navigation-containers" id="ref-for-spatial-navigation-containers①⓪">spatial navigation container</a>, <code class="idl"><a data-link-type="idl" href="#dom-element-getspatialnavigationcontainer" id="ref-for-dom-element-getspatialnavigationcontainer③">getSpatialNavigationContainer()</a></code> also returns
 the nearest <span id="ref-for-spatial-navigation-containers①①">spatial navigation container</span>, not the element itself.</p>
@@ -1965,7 +1965,7 @@ the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browser
 
       <p>However, the focus can still be moved outside by sequential navigation,
     mouse interaction,
-    or programmatic calls to <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/interaction.html#dom-focus" id="ref-for-dom-focus①">focus()</a></code>.</p>
+    or programmatic calls to <code class="idl"><u class="link-error" data-lt="focus()" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;HTMLOrSVGElement&apos; in spec &apos;html&apos;.">focus()</u></code>.</p>
 <pre><code class="highlight">scrollContainer<c- p>.</c->addEventListener<c- p>(</c-><c- t>'navnotarget'</c-><c- p>,</c-> e <c- p>=></c-> <c- p>{</c->
     <c- a>let</c-> nextTarget <c- o>=</c-> <c- kc>null</c-><c- p>;</c->
     <c- a>const</c-> verticalDir <c- o>=</c-> <c- p>[</c-><c- t>'up'</c-><c- p>,</c-> <c- t>'down'</c-><c- p>];</c->
@@ -2046,7 +2046,7 @@ See the links within the definitions for more information.</p>
     <li data-md>
      <p>if the object is a <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#scroll-container" id="ref-for-scroll-container②">scroll container</a>, its <a data-link-type="dfn" href="https://drafts.csswg.org/css-scroll-snap-1/#optimal-viewing-region" id="ref-for-optimal-viewing-region">optimal viewing region</a></p>
     <li data-md>
-     <p>if the object is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a>, the viewport of its <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context" id="ref-for-browsing-context">browsing context</a></p>
+     <p>if the object is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a>, the viewport of its <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context" id="ref-for-browsing-context">browsing context</a></p>
     <li data-md>
      <p>if the object is a <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#box" id="ref-for-box①">box</a> or <a data-link-type="dfn" href="https://drafts.csswg.org/css-break-4/#box-fragment" id="ref-for-box-fragment①">box fragment</a>, its <a data-link-type="dfn" href="#boundary-box" id="ref-for-boundary-box">boundary box</a></p>
     <li data-md>
@@ -2109,7 +2109,7 @@ let <var>eventTarget</var> be <var>searchOrigin</var></p>
 let <var>eventTarget</var> be the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#boundary-point-node" id="ref-for-boundary-point-node①">node</a> which contains <var>searchOrigin</var></p>
       </ul>
      <li data-md>
-      <p>If <var>eventTarget</var> is the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document②">Document</a> or the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#document-element" id="ref-for-document-element">document element</a>,
+      <p>If <var>eventTarget</var> is the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document②">Document</a> or the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#document-element" id="ref-for-document-element">document element</a>,
     set <var>eventTarget</var> be <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#the-body-element-2" id="ref-for-the-body-element-2②">the body element</a> if it is not <code>null</code>
     or to the <span id="ref-for-document-element①">document element</span> otherwise.</p>
      <li data-md>
@@ -2119,7 +2119,7 @@ let <var>eventTarget</var> be the <a data-link-type="dfn" href="https://dom.spec
         and <var>eventTarget</var> <a data-link-type="dfn" href="#can-be-manually-scrolled" id="ref-for-can-be-manually-scrolled">can be manually scrolled</a>,
         then <a data-link-type="dfn" href="#directionally-scroll-an-element" id="ref-for-directionally-scroll-an-element">directionally scroll the element</a> <var>eventTarget</var> and return.
        <li>
-        <span class="cssapi">Else,</span> if <var>eventTarget</var> is either a <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#scroll-container" id="ref-for-scroll-container⑥">scroll container</a> or the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document③">document</a>
+        <span class="cssapi">Else,</span> if <var>eventTarget</var> is either a <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#scroll-container" id="ref-for-scroll-container⑥">scroll container</a> or the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">document</a>
 
         <ol>
          <li data-md>
@@ -2217,7 +2217,7 @@ In particular, divergences in how user agents <a data-link-type="dfn" href="#fin
 may cause some elements to be focusable in some user agents but not in others,
 which would be bad for users.</p>
    <p>All geometrical operations in this section are defined to work on the result of CSS layout,
-including all graphical transformations, such as <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/visuren.html#x34" id="ref-for-x34">relative positioning</a> or <a data-link-type="biblio" href="#biblio-css-transforms-1" title="CSS Transforms Module Level 1">[CSS-TRANSFORMS-1]</a>.</p>
+including all graphical transformations, such as <a data-link-type="dfn" href="https://www.w3.org/TR/CSS2/visuren.html#x34" id="ref-for-x34">relative positioning</a> or <a data-link-type="biblio" href="#biblio-css-transforms-1" title="CSS Transforms Module Level 1">[CSS-TRANSFORMS-1]</a>.</p>
    <div class="algorithm" data-algorithm="to set the search origin">
     <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="set the search origin | setting the search origin" data-noexport id="set-the-search-origin">set the <a data-link-type="dfn" href="#search-origin" id="ref-for-search-origin">search origin</a></dfn>,
 run the following steps:</p>
@@ -2735,7 +2735,7 @@ or of its nearest <span id="ref-for-scroll-container①①">scroll container</sp
         to move the focus to a <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#scroll-container" id="ref-for-scroll-container①⑨">scroll container</a> and to scroll it,
         but not to move the focus to its descendants.
         However, if the focus is moved to a descendant by some other mean
-        (such as pressing the <span class="key">Tab</span> key or using the &lt;<code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/interaction.html#dom-focus" id="ref-for-dom-focus②">focus()</a></code>> method)
+        (such as pressing the <span class="key">Tab</span> key or using the &lt;<code class="idl"><u class="link-error" data-lt="focus()" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;[&apos;HTMLOrSVGElement&apos;]&apos; in spec &apos;html&apos;.">focus()</u></code>> method)
         spatial navigation can be used to move the focus to other focusable descendants.</p>
      <p class="note" role="note"><span class="marker">Note:</span> The <span class="css">scroll</span> value is <a data-link-type="dfn" href="#at-risk" id="ref-for-at-risk②">at-risk</a>.</p>
    </dl>
@@ -3332,7 +3332,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
     <ul>
      <li><span class="dfn-paneled" id="79e75ff8">border box</span>
      <li><span class="dfn-paneled" id="ffc19957">painting order</span>
-     <li><span class="dfn-paneled" id="b56d2f8c">relative positioning</span>
+     <li><span class="dfn-paneled" id="f285fdb1">relative positioning</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSSOM-VIEW-1]</a> defines the following terms:
@@ -3347,7 +3347,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="2bc0cdf4">EventTarget</span>
      <li><span class="dfn-paneled" id="96c16e60">Node</span>
      <li><span class="dfn-paneled" id="2e9f6464">canceled flag</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
      <li><span class="dfn-paneled" id="2f0ba72c">document element</span>
      <li><span class="dfn-paneled" id="d462b34f">node</span>
      <li><span class="dfn-paneled" id="5216e1a0">node document</span>
@@ -3371,7 +3371,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="76404f73">currently focused area of a top-level browsing context</span>
      <li><span class="dfn-paneled" id="06834943">DOM anchor</span>
      <li><span class="dfn-paneled" id="1ea14ef5">expressly inert</span>
-     <li><span class="dfn-paneled" id="d345f720">focus(options)</span>
      <li><span class="dfn-paneled" id="fad8924f">focusable area</span>
      <li><span class="dfn-paneled" id="fe07e8b2">focusing steps</span>
      <li><span class="dfn-paneled" id="086e3aff">origin</span>
@@ -3423,7 +3422,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-overflow-3">[CSS-OVERFLOW-3]
    <dd>Elika Etemad; Florian Rivoal. <a href="https://drafts.csswg.org/css-overflow-3/"><cite>CSS Overflow Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-overflow-3/">https://drafts.csswg.org/css-overflow-3/</a>
    <dt id="biblio-css-scroll-snap-1">[CSS-SCROLL-SNAP-1]
@@ -3435,7 +3434,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-cssom-view-1">[CSSOM-VIEW-1]
-   <dd>Simon Pieters. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
+   <dd>Simon Fraser; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-feature-policy">[FEATURE-POLICY]
@@ -3447,7 +3446,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-uievents">[UIEVENTS]
-   <dd>Gary Kacmarcik; Travis Leithead. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
+   <dd>Xiaoqian Wu. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
   </dl>
@@ -3801,16 +3800,14 @@ let dfnPanelData = {
 "9958418a": {"dfnID":"9958418a","dfnText":"overflow-y","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-overflow-y"}],"title":"Appendix A. Scroll extensions"}],"url":"https://drafts.csswg.org/css-overflow-3/#propdef-overflow-y"},
 "99c988d6": {"dfnID":"99c988d6","dfnText":"remove","external":true,"refSections":[{"refs":[{"id":"ref-for-list-remove"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://infra.spec.whatwg.org/#list-remove"},
 "9cce47fd": {"dfnID":"9cce47fd","dfnText":"sequence","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-sequence"},{"id":"ref-for-idl-sequence\u2460"}],"title":"5.2. \nLow level APIs"}],"url":"https://webidl.spec.whatwg.org/#idl-sequence"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"}],"title":"5.2. \nLow level APIs"},{"refs":[{"id":"ref-for-concept-document\u2460"}],"title":"8.1. \nGlossary"},{"refs":[{"id":"ref-for-concept-document\u2461"},{"id":"ref-for-concept-document\u2462"}],"title":"8.3. \nNavigation"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"}],"title":"5.2. \nLow level APIs"},{"refs":[{"id":"ref-for-clone-a-node-document\u2460"}],"title":"8.1. \nGlossary"},{"refs":[{"id":"ref-for-clone-a-node-document\u2461"},{"id":"ref-for-clone-a-node-document\u2462"}],"title":"8.3. \nNavigation"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "ae2a6342": {"dfnID":"ae2a6342","dfnText":"top-level browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-top-level-browsing-context"}],"title":"6.2.1. \nnavbeforefocus"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2460"}],"title":"6.2.2. \nnavnotarget"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2461"}],"title":"8.2. \nGroupings of elements"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2462"}],"title":"8.3. \nNavigation"},{"refs":[{"id":"ref-for-top-level-browsing-context\u2463"}],"title":"9.1. \nCreating additional spatial navigation containers: the spatial-navigation-contain property"}],"url":"https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context"},
 "at-risk": {"dfnID":"at-risk","dfnText":"at-risk","external":false,"refSections":[{"refs":[{"id":"ref-for-at-risk"}],"title":"5.2. Low level APIs"},{"refs":[{"id":"ref-for-at-risk\u2460"}],"title":"9.1. Creating additional spatial navigation containers: the spatial-navigation-contain property"},{"refs":[{"id":"ref-for-at-risk\u2461"}],"title":"9.2. Controlling the interaction with scrolling: the spatial-navigation-action property"}],"url":"#at-risk"},
-"b56d2f8c": {"dfnID":"b56d2f8c","dfnText":"relative positioning","external":true,"refSections":[{"refs":[{"id":"ref-for-x34"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#x34"},
 "bedd9d42": {"dfnID":"bedd9d42","dfnText":"+","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-one-plus"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://drafts.csswg.org/css-values-4/#mult-one-plus"},
 "boundary-box": {"dfnID":"boundary-box","dfnText":"boundary box","external":false,"refSections":[{"refs":[{"id":"ref-for-boundary-box"}],"title":"8.1. Glossary"},{"refs":[{"id":"ref-for-boundary-box\u2460"},{"id":"ref-for-boundary-box\u2461"},{"id":"ref-for-boundary-box\u2462"},{"id":"ref-for-boundary-box\u2463"},{"id":"ref-for-boundary-box\u2464"},{"id":"ref-for-boundary-box\u2465"},{"id":"ref-for-boundary-box\u2466"},{"id":"ref-for-boundary-box\u2467"},{"id":"ref-for-boundary-box\u2468"},{"id":"ref-for-boundary-box\u2460\u24ea"},{"id":"ref-for-boundary-box\u2460\u2460"},{"id":"ref-for-boundary-box\u2460\u2461"},{"id":"ref-for-boundary-box\u2460\u2462"},{"id":"ref-for-boundary-box\u2460\u2463"},{"id":"ref-for-boundary-box\u2460\u2464"},{"id":"ref-for-boundary-box\u2460\u2465"},{"id":"ref-for-boundary-box\u2460\u2466"}],"title":"8.4. Focus Navigation Heuristics"}],"url":"#boundary-box"},
 "c3bd6e1d": {"dfnID":"c3bd6e1d","dfnText":"box fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-box-fragment"},{"id":"ref-for-box-fragment\u2460"}],"title":"8.1. \nGlossary"},{"refs":[{"id":"ref-for-box-fragment\u2461"},{"id":"ref-for-box-fragment\u2462"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://drafts.csswg.org/css-break-4/#box-fragment"},
 "c51ad875": {"dfnID":"c51ad875","dfnText":"the body element","external":true,"refSections":[{"refs":[{"id":"ref-for-the-body-element-2"}],"title":"6.2.1. \nnavbeforefocus"},{"refs":[{"id":"ref-for-the-body-element-2\u2460"}],"title":"6.2.2. \nnavnotarget"},{"refs":[{"id":"ref-for-the-body-element-2\u2461"}],"title":"8.3. \nNavigation"}],"url":"https://html.spec.whatwg.org/multipage/dom.html#the-body-element-2"},
 "can-be-manually-scrolled": {"dfnID":"can-be-manually-scrolled","dfnText":"can be manually scrolled","external":false,"refSections":[{"refs":[{"id":"ref-for-can-be-manually-scrolled"},{"id":"ref-for-can-be-manually-scrolled\u2460"},{"id":"ref-for-can-be-manually-scrolled\u2461"}],"title":"8.3. Navigation"}],"url":"#can-be-manually-scrolled"},
-"d345f720": {"dfnID":"d345f720","dfnText":"focus(options)","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-focus"}],"title":"3. \nOverview"},{"refs":[{"id":"ref-for-dom-focus\u2460"}],"title":"6.2.2. \nnavnotarget"},{"refs":[{"id":"ref-for-dom-focus\u2461"}],"title":"9.2. \nControlling the interaction with scrolling: the spatial-navigation-action property"}],"url":"https://html.spec.whatwg.org/multipage/interaction.html#dom-focus"},
 "d462b34f": {"dfnID":"d462b34f","dfnText":"node","external":true,"refSections":[{"refs":[{"id":"ref-for-boundary-point-node"},{"id":"ref-for-boundary-point-node\u2460"}],"title":"8.3. \nNavigation"}],"url":"https://dom.spec.whatwg.org/#boundary-point-node"},
 "d95397a7": {"dfnID":"d95397a7","dfnText":"all","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-all"}],"title":"5.2. \nLow level APIs"}],"url":"https://drafts.csswg.org/css-cascade-5/#propdef-all"},
 "dictdef-focusableareasoption": {"dfnID":"dictdef-focusableareasoption","dfnText":"FocusableAreasOption","external":false,"refSections":[{"refs":[{"id":"ref-for-dictdef-focusableareasoption"}],"title":"5.2. Low level APIs"}],"url":"#dictdef-focusableareasoption"},
@@ -3852,6 +3849,7 @@ let dfnPanelData = {
 "enumdef-spatialnavigationdirection": {"dfnID":"enumdef-spatialnavigationdirection","dfnText":"SpatialNavigationDirection","external":false,"refSections":[{"refs":[{"id":"ref-for-enumdef-spatialnavigationdirection"}],"title":"5.1. Triggering Navigation Programmatically"},{"refs":[{"id":"ref-for-enumdef-spatialnavigationdirection\u2460"}],"title":"5.2. Low level APIs"},{"refs":[{"id":"ref-for-enumdef-spatialnavigationdirection\u2461"},{"id":"ref-for-enumdef-spatialnavigationdirection\u2462"}],"title":"6.1. Interface NavigationEvent"}],"url":"#enumdef-spatialnavigationdirection"},
 "eventdef-navigationevent-navbeforefocus": {"dfnID":"eventdef-navigationevent-navbeforefocus","dfnText":"navbeforefocus","external":false,"refSections":[{"refs":[{"id":"ref-for-eventdef-navigationevent-navbeforefocus"}],"title":"6.2.1. navbeforefocus"}],"url":"#eventdef-navigationevent-navbeforefocus"},
 "eventdef-navigationevent-navnotarget": {"dfnID":"eventdef-navigationevent-navnotarget","dfnText":"navnotarget","external":false,"refSections":[{"refs":[{"id":"ref-for-eventdef-navigationevent-navnotarget"}],"title":"6.2.2. navnotarget"},{"refs":[{"id":"ref-for-eventdef-navigationevent-navnotarget\u2460"}],"title":"9.2. Controlling the interaction with scrolling: the spatial-navigation-action property"}],"url":"#eventdef-navigationevent-navnotarget"},
+"f285fdb1": {"dfnID":"f285fdb1","dfnText":"relative positioning","external":true,"refSections":[{"refs":[{"id":"ref-for-x34"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://www.w3.org/TR/CSS2/visuren.html#x34"},
 "f8434dee": {"dfnID":"f8434dee","dfnText":"being rendered","external":true,"refSections":[{"refs":[{"id":"ref-for-being-rendered"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://html.spec.whatwg.org/multipage/rendering.html#being-rendered"},
 "fad8924f": {"dfnID":"fad8924f","dfnText":"focusable area","external":true,"refSections":[{"refs":[{"id":"ref-for-focusable-area"},{"id":"ref-for-focusable-area\u2460"}],"title":"8.1. \nGlossary"},{"refs":[{"id":"ref-for-focusable-area\u2461"}],"title":"8.4. \nFocus Navigation Heuristics"}],"url":"https://html.spec.whatwg.org/multipage/interaction.html#focusable-area"},
 "faf954d6": {"dfnID":"faf954d6","dfnText":"browsing context","external":true,"refSections":[{"refs":[{"id":"ref-for-browsing-context"}],"title":"8.1. \nGlossary"},{"refs":[{"id":"ref-for-browsing-context\u2460"}],"title":"8.2. \nGroupings of elements"},{"refs":[{"id":"ref-for-browsing-context\u2461"}],"title":"9.1. \nCreating additional spatial navigation containers: the spatial-navigation-contain property"}],"url":"https://html.spec.whatwg.org/multipage/browsers.html#browsing-context"},
@@ -4317,7 +4315,7 @@ let refsData = {
 "8c63e993_https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex": {"displayText":"tabindex","export":true,"for_":[],"level":"","normative":true,"shortname":"html","spec":"html","status":"anchor-block","text":"tabindex","type":"dfn","url":"https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex"},
 "https://dom.spec.whatwg.org/#boundary-point-node": {"displayText":"node","export":true,"for_":["boundary point"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"node","type":"dfn","url":"https://dom.spec.whatwg.org/#boundary-point-node"},
 "https://dom.spec.whatwg.org/#canceled-flag": {"displayText":"canceled flag","export":true,"for_":["Event"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"canceled flag","type":"dfn","url":"https://dom.spec.whatwg.org/#canceled-flag"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#concept-node-document": {"displayText":"node document","export":true,"for_":["Node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"node document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-node-document"},
 "https://dom.spec.whatwg.org/#document-element": {"displayText":"document element","export":true,"for_":[],"level":"","normative":true,"shortname":"dom","spec":"dom","status":"anchor-block","text":"document element","type":"dfn","url":"https://dom.spec.whatwg.org/#document-element"},
 "https://dom.spec.whatwg.org/#dom-event-preventdefault": {"displayText":"preventDefault()","export":true,"for_":["Event"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"preventDefault()","type":"method","url":"https://dom.spec.whatwg.org/#dom-event-preventdefault"},
@@ -4353,7 +4351,6 @@ let refsData = {
 "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex": {"displayText":"tabindex","export":true,"for_":["htmlsvg-global"],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"tabindex","type":"element-attr","url":"https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex"},
 "https://html.spec.whatwg.org/multipage/interaction.html#currently-focused-area-of-a-top-level-browsing-context": {"displayText":"currently focused area of a top-level browsing context","export":true,"for_":[],"level":"","normative":true,"shortname":"html","spec":"html","status":"anchor-block","text":"currently focused area of a top-level browsing context","type":"dfn","url":"https://html.spec.whatwg.org/multipage/interaction.html#currently-focused-area-of-a-top-level-browsing-context"},
 "https://html.spec.whatwg.org/multipage/interaction.html#dom-anchor": {"displayText":"DOM anchor","export":true,"for_":[],"level":"","normative":true,"shortname":"html","spec":"html","status":"anchor-block","text":"dom anchor","type":"dfn","url":"https://html.spec.whatwg.org/multipage/interaction.html#dom-anchor"},
-"https://html.spec.whatwg.org/multipage/interaction.html#dom-focus": {"displayText":"focus(options)","export":true,"for_":["HTMLOrSVGElement"],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"focus(options)","type":"method","url":"https://html.spec.whatwg.org/multipage/interaction.html#dom-focus"},
 "https://html.spec.whatwg.org/multipage/interaction.html#expressly-inert": {"displayText":"expressly inert","export":true,"for_":[],"level":"","normative":true,"shortname":"html","spec":"html","status":"anchor-block","text":"expressly inert","type":"dfn","url":"https://html.spec.whatwg.org/multipage/interaction.html#expressly-inert"},
 "https://html.spec.whatwg.org/multipage/interaction.html#focusable-area": {"displayText":"focusable area","export":true,"for_":[],"level":"","normative":true,"shortname":"html","spec":"html","status":"anchor-block","text":"focusable area","type":"dfn","url":"https://html.spec.whatwg.org/multipage/interaction.html#focusable-area"},
 "https://html.spec.whatwg.org/multipage/interaction.html#focusing-steps": {"displayText":"focusing steps","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"focusing steps","type":"dfn","url":"https://html.spec.whatwg.org/multipage/interaction.html#focusing-steps"},
@@ -4378,7 +4375,7 @@ let refsData = {
 "https://webidl.spec.whatwg.org/#idl-DOMString": {"displayText":"DOMString","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"DOMString","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-DOMString"},
 "https://webidl.spec.whatwg.org/#idl-sequence": {"displayText":"sequence","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"sequence","type":"dfn","url":"https://webidl.spec.whatwg.org/#idl-sequence"},
 "https://webidl.spec.whatwg.org/#idl-undefined": {"displayText":"undefined","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"undefined","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-undefined"},
-"https://www.w3.org/TR/CSS21/visuren.html#x34": {"displayText":"relative positioning","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"relative positioning","type":"dfn","url":"https://www.w3.org/TR/CSS21/visuren.html#x34"},
+"https://www.w3.org/TR/CSS2/visuren.html#x34": {"displayText":"relative positioning","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"snapshot","text":"relative positioning","type":"dfn","url":"https://www.w3.org/TR/CSS2/visuren.html#x34"},
 };
 
 function mkRefHint(link, ref) {

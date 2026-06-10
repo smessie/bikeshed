@@ -21,11 +21,11 @@ LINE 1896:8: Image doesn't exist, so I couldn't determine its width and height: 
 LINE 1898:8: Image doesn't exist, so I couldn't determine its width and height: 'images/radio-c83-check.png'
 LINE 1903:8: Image doesn't exist, so I couldn't determine its width and height: 'images/radio-c86-empty.png'
 LINE 1905:8: Image doesn't exist, so I couldn't determine its width and height: 'images/radio-c86-check.png'
-LINE ~236:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
+LINE 249:1 of the line's value (after the colon): Multiple possible '<line-width>' type refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#typedef-line-width
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
+spec:css-backgrounds-3; type:type; text:<line-width>
+spec:css-borders-4; type:type; text:<line-width>
 LINE 254:48 of the line's value (after the colon): Multiple possible 'none' maybe refs for '['border-style']'.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-none
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
@@ -36,175 +36,55 @@ spec:css-backgrounds-3; type:value; for:border-left-style; text:none
 spec:css-backgrounds-3; type:value; for:border-bottom-style; text:none
 spec:css-backgrounds-3; type:value; for:border-right-style; text:none
 spec:css-backgrounds-3; type:value; for:border; text:none
-spec:css22; type:value; for:<border-style>; text:none
-spec:css22; type:value; for:border-top-style; text:none
-spec:css22; type:value; for:border-right-style; text:none
-spec:css22; type:value; for:border-bottom-style; text:none
-spec:css22; type:value; for:border-left-style; text:none
-spec:css22; type:value; for:border-style; text:none
-LINE ~261:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 277:1 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE ~275:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 283:5 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
+spec:css-borders-4; type:value; for:<line-style>; text:none
+spec:css-borders-4; type:value; for:border-style; text:none
+spec:css-borders-4; type:value; for:border-top-style; text:none
+spec:css-borders-4; type:value; for:border-left-style; text:none
+spec:css-borders-4; type:value; for:border-bottom-style; text:none
+spec:css-borders-4; type:value; for:border-right-style; text:none
+spec:css-borders-4; type:value; for:border; text:none
 LINE 304:22: Multiple possible 'border-radius' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border-radius
 spec:css-borders-4; type:property; text:border-radius
-LINE ~459:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
+LINE 320:20: Multiple possible '<line-style>' type refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#typedef-line-style
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 514:25: Multiple possible 'visible' maybe refs for '['overflow']'.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#valdef-overflow-visible
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:value; for:overflow; text:visible
-spec:css-overflow-3; type:value; for:overflow-x; text:visible
-spec:css-overflow-3; type:value; for:overflow-y; text:visible
-spec:css22; type:value; text:visible
-LINE ~589:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~589:1: Multiple possible ',' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-comma
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:,
-spec:css22; type:grammar; text:,
-LINE ~589:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
+spec:css-backgrounds-3; type:type; text:<line-style>
+spec:css-borders-4; type:type; text:<line-style>
 LINE 613:89: Multiple possible 'border-radius' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border-radius
 spec:css-borders-4; type:property; text:border-radius
 LINE 926:21: No 'element' refs found for 'cursor'.
-LINE ~956:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
+LINE 1417:25: Multiple possible 'root' maybe refs.
+Arbitrarily chose https://drafts.csswg.org/pointer-animations-1/#valdef-pointer-root
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 958:8 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
+spec:pointer-animations-1; type:value; for:pointer(); text:root
+spec:pointer-animations-1; type:value; for:pointer-timeline-axis; text:root
+spec:scroll-animations-1; type:value; for:scroll(); text:root
+spec:scroll-animations-1; type:value; for:scroll-timeline-axis; text:root
+spec:scroll-animations-1; type:value; for:view-timeline-axis; text:root
+LINE 1422:15: Multiple possible 'root' maybe refs.
+Arbitrarily chose https://drafts.csswg.org/pointer-animations-1/#valdef-pointer-root
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE 964:5 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE 980:6: Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE ~1141:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1305:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~1371:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1371:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~1539:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1787:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 1789:8 of the line's value (after the colon): Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE 1818:11: Multiple possible '<color>' type refs.
-Arbitrarily chose https://drafts.csswg.org/css-color-5/#typedef-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-color-5; type:type; text:<color>
-spec:css22; type:type; text:<color>
-LINE 1830:63: Multiple possible 'background-color' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background-color
-spec:css22; type:property; text:background-color
-LINE ~1914:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 2010:54: Multiple possible 'background-color' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background-color
-spec:css22; type:property; text:background-color
+spec:pointer-animations-1; type:value; for:pointer(); text:root
+spec:pointer-animations-1; type:value; for:pointer-timeline-axis; text:root
+spec:scroll-animations-1; type:value; for:scroll(); text:root
+spec:scroll-animations-1; type:value; for:scroll-timeline-axis; text:root
+spec:scroll-animations-1; type:value; for:view-timeline-axis; text:root
 LINE 2010:78: Multiple possible 'border' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border
-spec:css22; type:property; text:border
-LINE ~2021:3: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 2086:6: Multiple possible 'position' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-position-3/#propdef-position
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-position-3; type:property; text:position
-spec:css22; type:property; text:position
-LINE 2090:6: Multiple possible 'left' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-position-3/#propdef-left
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-position-3; type:property; text:left
-spec:css22; type:property; text:left
-LINE 2093:6: Multiple possible 'margin' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-box-4/#propdef-margin
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-box-4; type:property; text:margin
-spec:css22; type:property; text:margin
+spec:css-borders-4; type:property; text:border
 LINE 2211:45: Multiple possible 'border' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border
-spec:css22; type:property; text:border
+spec:css-borders-4; type:property; text:border
 LINE 2390:1: W3C policy requires Privacy Considerations and Security Considerations to be separate sections, but you appear to have them combined into one.
 WARNING: Skipped generating some MDN panels, because the following IDs weren't present in the document. Use `Ignore MDN Failure` if this is expected.
   #pointer-events-control

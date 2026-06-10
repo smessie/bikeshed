@@ -1490,14 +1490,15 @@ Introduction</span><a class="self-link" href="#intro"></a></h2>
 	called <dfn class="dfn-paneled" data-dfn-for="CSS" data-dfn-type="dfn" data-export data-lt="property" id="css-property">properties</dfn>,
 	that direct the rendering of a document.
 	Each <a data-link-type="dfn" href="#css-property" id="ref-for-css-property">property</a> has a name
-	(e.g., <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-size" id="ref-for-propdef-font-size">font-size</a>, or <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-style" id="ref-for-propdef-border-style">border-style</a>),
+	(e.g., <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color</a>, <u class="link-error property" data-lt="font-size" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-size&apos; were in ignored specs:
+&apos;font-size&apos;">font-size</u>, or <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-style" id="ref-for-propdef-border-style">border-style</a>),
 	a value space
 	(e.g., <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-color-5/#typedef-color" id="ref-for-typedef-color">&lt;color></a>, <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#typedef-length-percentage" id="ref-for-typedef-length-percentage">&lt;length-percentage></a>, <span class="css">[ solid | dashed | dotted | … ]</span>),
 	and a defined behavior on the rendering of the document.
 	Properties values are assigned to various parts of the document
 	via <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-property-declarations" id="ref-for-css-property-declarations">property declarations</a>,
 	which assign the property a value
-	(e.g. <span class="css">red</span>, <span class="css">12pt</span>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-dotted" id="ref-for-valdef-line-style-dotted">dotted</a>)
+	(e.g. <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-color-red" id="ref-for-valdef-color-red">red</a>, <span class="css">12pt</span>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-dotted" id="ref-for-valdef-line-style-dotted">dotted</a>)
 	for the associated element or box.</p>
    <p>One of the fundamental design principles of CSS is <a data-link-type="dfn" href="#cascade" id="ref-for-cascade">cascading</a>,
 	which allows several style sheets to influence the presentation of a document.
@@ -1562,7 +1563,7 @@ it only applies between constructs in the same stylesheet.</p>
     <a class="self-link" href="#example-05c74581"></a>
 		The following <a href="#conditional-import">conditional <span class="css">@import</span> rule</a>
 		only loads the style sheet when the UA
-		<a href="https://www.w3.org/TR/css-conditional-3/#support-definition">supports</a> <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-display" id="ref-for-propdef-display">display: flex</a>,
+		<a href="https://www.w3.org/TR/css-conditional-3/#support-definition">supports</a> <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-display" id="ref-for-propdef-display">display: flex</a>,
 		and only applies the style sheet on a <a href="https://www.w3.org/TR/CSS2/media.html#media-types">handheld</a> device
 		with a <a href="https://www.w3.org/TR/mediaqueries-4/#width">maximum viewport width</a> of 400px.
 
@@ -1691,8 +1692,14 @@ Shorthand Properties</span><a class="self-link" href="#shorthand"></a></h2>
    </div>
    <div class="example" id="example-8762997a">
     <a class="self-link" href="#example-8762997a"></a>
-		For example, the CSS Level 1 <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font" id="ref-for-propdef-font">font</a> property
-		is a <a data-link-type="dfn" href="#shorthand-property" id="ref-for-shorthand-property④">shorthand</a> property for setting <a class="css" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-style" id="ref-for-propdef-font-style">font-style</a>, <a class="css" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-variant" id="ref-for-propdef-font-variant">font-variant</a>, <a class="css" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-weight" id="ref-for-propdef-font-weight">font-weight</a>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-size" id="ref-for-propdef-font-size①">font-size</a>, <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>, and <a class="css" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-family" id="ref-for-propdef-font-family">font-family</a> all at once.
+		For example, the CSS Level 1 <u class="link-error property" data-lt="font" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font&apos; were in ignored specs:
+&apos;font&apos;">font</u> property
+		is a <a data-link-type="dfn" href="#shorthand-property" id="ref-for-shorthand-property④">shorthand</a> property for setting <u class="link-error" data-lt="font-style" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-style&apos; were in ignored specs:
+<a bs-line-number=&quot;296:46&quot; data-link-type=&quot;property&quot; data-lt=&quot;font-style&quot;>font-style</a>">font-style</u>, <u class="link-error" data-lt="font-variant" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-variant&apos; were in ignored specs:
+<a bs-line-number=&quot;296:74&quot; data-link-type=&quot;property&quot; data-lt=&quot;font-variant&quot;>font-variant</a>">font-variant</u>, <u class="link-error" data-lt="font-weight" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-weight&apos; were in ignored specs:
+<a bs-line-number=&quot;296:104&quot; data-link-type=&quot;property&quot; data-lt=&quot;font-weight&quot;>font-weight</a>">font-weight</u>, <u class="link-error property" data-lt="font-size" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-size&apos; were in ignored specs:
+&apos;font-size&apos;">font-size</u>, <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>, and <u class="link-error" data-lt="font-family" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-family&apos; were in ignored specs:
+<a bs-line-number=&quot;296:165&quot; data-link-type=&quot;property&quot; data-lt=&quot;font-family&quot;>font-family</a>">font-family</u> all at once.
 		The multiple declarations of this example:
 
 		
@@ -1707,7 +1714,8 @@ Shorthand Properties</span><a class="self-link" href="#shorthand"></a></h2>
 </pre>
     <p>can therefore be rewritten as</p>
 <pre class="highlight lang-css">h1 <c- p>{</c-> <c- k>font</c-><c- p>:</c-> bold <c- m>12</c-><c- k>pt</c->/<c- m>14</c-><c- k>pt</c-> Helvetica <c- p>}</c-></pre>
-    <p>As more <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font" id="ref-for-propdef-font①">font</a> <a data-link-type="dfn" href="#longhand" id="ref-for-longhand④">sub-properties</a> are introduced into CSS,
+    <p>As more <u class="link-error property" data-lt="font" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font&apos; were in ignored specs:
+&apos;font&apos;">font</u> <a data-link-type="dfn" href="#longhand" id="ref-for-longhand④">sub-properties</a> are introduced into CSS,
 		the shorthand declaration resets those to their initial values as well.</p>
    </div>
    <p>In some cases, a <a data-link-type="dfn" href="#shorthand-property" id="ref-for-shorthand-property⑤">shorthand</a> might have different syntax
@@ -1841,14 +1849,14 @@ Resetting All Properties: the <a class="css property" data-link-type="property" 
     <p>This can be useful for the root element of a "widget" included in a page,
 		which does not wish to inherit the styles of the outer page.
 		Note, however, that any "default" style applied to that element
-		(such as, e.g. <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-display" id="ref-for-propdef-display①">display: block</a> from the UA style sheet on block elements such as <code>&lt;div></code>)
+		(such as, e.g. <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-display" id="ref-for-propdef-display①">display: block</a> from the UA style sheet on block elements such as <code>&lt;div></code>)
 		will also be blown away.</p>
    </div>
    <h2 class="heading settled" data-level="4" id="value-stages"><span class="secno">4. </span><span class="content">
 Value Processing</span><a class="self-link" href="#value-stages"></a></h2>
    <p>Once a user agent has parsed a document and constructed a document tree,
 	it must assign,
-	to every element in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>,
+	to every element in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>,
 	and correspondingly to every box in the formatting structure,
 	a value to every property that applies to the target media type.</p>
    <p>The final value of a CSS property for a given element or box
@@ -1889,7 +1897,7 @@ Value Processing</span><a class="self-link" href="#value-stages"></a></h2>
 	
    </ol>
    <p>Elements that are not <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>
-	or are not part of the document’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree①">flattened element tree</a>
+	or are not part of the document’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree①">flattened element tree</a>
 	do not participate in CSS value processing,
 	and do not have <a data-link-type="dfn" href="#declared-value" id="ref-for-declared-value②">declared</a>, <a data-link-type="dfn" href="#cascaded-value" id="ref-for-cascaded-value②">cascaded</a>, <a data-link-type="dfn" href="#specified-value" id="ref-for-specified-value③">specified</a>, <a data-link-type="dfn" href="#computed-value" id="ref-for-computed-value②">computed</a>, <a data-link-type="dfn" href="#used-value" id="ref-for-used-value③">used</a>, or <a data-link-type="dfn" href="#actual-value" id="ref-for-actual-value②">actual</a> values,
 	even if they potentially have style declarations assigned to them
@@ -1940,8 +1948,8 @@ Computed Values</span><a class="self-link" href="#computed"></a></h3>
 	but those values are nonetheless part of the <span id="ref-for-computed-value⑤">computed value</span>.</p>
    <div class="example" id="example-29410c97">
     <a class="self-link" href="#example-29410c97"></a>
-		A <a data-link-type="dfn" href="#specified-value" id="ref-for-specified-value⑨">specified value</a> can be either absolute (i.e., not relative to another value, as in <span class="css">red</span> or <span class="css">2mm</span>)
-		or relative (i.e., relative to another value, as in <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-align-3/#valdef-align-self-auto" id="ref-for-valdef-align-self-auto">auto</a>, <span class="css">2em</span>).
+		A <a data-link-type="dfn" href="#specified-value" id="ref-for-specified-value⑨">specified value</a> can be either absolute (i.e., not relative to another value, as in <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-color-red" id="ref-for-valdef-color-red①">red</a> or <span class="css">2mm</span>)
+		or relative (i.e., relative to another value, as in <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/animation-triggers-1/#valdef-timeline-trigger-active-range-auto" id="ref-for-valdef-timeline-trigger-active-range-auto">auto</a>, <span class="css">2em</span>).
 		Computing a relative value generally absolutizes it:
 
 		
@@ -1954,7 +1962,7 @@ Computed Values</span><a class="self-link" href="#computed"></a></h3>
 			
      <li>
 				certain keywords
-				(e.g., <span class="css">smaller</span>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-font-weight-bolder" id="ref-for-valdef-font-weight-bolder">bolder</a>)
+				(e.g., <span class="css">smaller</span>, <span class="css">bolder</span>)
 				must be replaced according to their definitions
 
 			
@@ -1985,12 +1993,12 @@ Used Values</span><a class="self-link" href="#used"></a></h3>
 	used in the formatting of the document.</p>
    <p class="example" id="example-aaa6b50b"><a class="self-link" href="#example-aaa6b50b"></a>
 		For example, a declaration of <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-sizing-3/#propdef-width" id="ref-for-propdef-width">width: auto</a> can’t be resolved into a length without knowing the layout of the element’s ancestors,
-		so the <a data-link-type="dfn" href="#computed-value" id="ref-for-computed-value①⓪">computed value</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-align-3/#valdef-align-self-auto" id="ref-for-valdef-align-self-auto①">auto</a>,
+		so the <a data-link-type="dfn" href="#computed-value" id="ref-for-computed-value①⓪">computed value</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/animation-triggers-1/#valdef-timeline-trigger-active-range-auto" id="ref-for-valdef-timeline-trigger-active-range-auto①">auto</a>,
 		while the <a data-link-type="dfn" href="#used-value" id="ref-for-used-value⑤">used value</a> is an absolute length, such as <span class="css">100px</span>. <a data-link-type="biblio" href="#biblio-css2" title="Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification">[CSS2]</a>
 
 	</p>
    <p class="example" id="example-aac2d669"><a class="self-link" href="#example-aac2d669"></a>
-		As another example, a <code>&lt;div></code> might have a computed <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-break-3/#propdef-break-before" id="ref-for-propdef-break-before④">break-before</a> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-align-3/#valdef-align-self-auto" id="ref-for-valdef-align-self-auto②">auto</a>,
+		As another example, a <code>&lt;div></code> might have a computed <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-break-3/#propdef-break-before" id="ref-for-propdef-break-before④">break-before</a> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/animation-triggers-1/#valdef-timeline-trigger-active-range-auto" id="ref-for-valdef-timeline-trigger-active-range-auto②">auto</a>,
 		but acquire a used <span class="property" id="ref-for-propdef-break-before⑤">break-before</span> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-break-4/#valdef-break-before-page" id="ref-for-valdef-break-before-page">page</a> by propagation from its first child. <a data-link-type="biblio" href="#biblio-css-break-3" title="CSS Fragmentation Module Level 3">[css-break-3]</a>
 
 </p>
@@ -1998,8 +2006,8 @@ Used Values</span><a class="self-link" href="#used"></a></h3>
 	this element or box type
 	then it has no <a data-link-type="dfn" href="#used-value" id="ref-for-used-value⑥">used value</a> for that property.</p>
    <p class="example" id="example-19a1092f"><a class="self-link" href="#example-19a1092f"></a>
-		For example, the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-flexbox-1/#propdef-flex" id="ref-for-propdef-flex">flex</a> property has no <a data-link-type="dfn" href="#used-value" id="ref-for-used-value⑦">used value</a>
-		on elements that aren’t <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-1/#flex-item" id="ref-for-flex-item">flex items</a>.
+		For example, the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-flexbox-2/#propdef-flex" id="ref-for-propdef-flex">flex</a> property has no <a data-link-type="dfn" href="#used-value" id="ref-for-used-value⑦">used value</a>
+		on elements that aren’t <a data-link-type="dfn" href="https://drafts.csswg.org/css-flexbox-2/#flex-item" id="ref-for-flex-item">flex items</a>.
 
 </p>
    <h4 class="heading settled" data-level="4.5.1" id="applies-to"><span class="secno">4.5.1. </span><span class="content">
@@ -2023,7 +2031,7 @@ Applicable Properties</span><a class="self-link" href="#applies-to"></a></h4>
 	</div>
    <div class="example" id="example-c1c9d619"><a class="self-link" href="#example-c1c9d619"></a>
 		Setting <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-text-4/#propdef-text-transform" id="ref-for-propdef-text-transform">text-transform</a> on an HTML <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element" id="ref-for-the-p-element">p</a></code> element
-		(which is <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-display" id="ref-for-propdef-display②">display: block</a> by default)
+		(which is <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-display" id="ref-for-propdef-display②">display: block</a> by default)
 		will have an effect,
 		even though <span class="property" id="ref-for-propdef-text-transform①">text-transform</span> only applies to <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#inline-box" id="ref-for-inline-box">inline boxes</a>,
 		because the property inherits
@@ -2039,7 +2047,7 @@ Applicable Properties</span><a class="self-link" href="#applies-to"></a></h4>
 	are defined to generate boxes almost exactly like normal elements
 	and are therefore defined accept all properties that apply to “all elements”.
 	See <a data-link-type="biblio" href="#biblio-css-pseudo-4" title="CSS Pseudo-Elements Module Level 4">[CSS-PSEUDO-4]</a>
-	for more information about <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/selector.html#x22" id="ref-for-x22">pseudo-elements</a>.</p>
+	for more information about <span id="ref-for-pseudo-element①">pseudo-elements</span>.</p>
    <h3 class="heading settled" data-level="4.6" id="actual"><span class="secno">4.6. </span><span class="content">
 Actual Values</span><a class="self-link" href="#actual"></a></h3>
    <p>A <a data-link-type="dfn" href="#used-value" id="ref-for-used-value⑧">used value</a> is in principle ready to be used,
@@ -2168,7 +2176,8 @@ Examples</span><a class="self-link" href="#stages-examples"></a></h3>
      <tr>
       <td>(f)
 				
-      <th><a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-size" id="ref-for-propdef-font-size②">font-size</a>
+      <th><u class="link-error property" data-lt="font-size" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-size&apos; were in ignored specs:
+&apos;font-size&apos;">font-size</u>
 				
       <td><code class="declaration">font-size: 1.2em</code>
 				
@@ -2323,7 +2332,7 @@ Cascade Sorting Order</span><a class="self-link" href="#cascade-sort"></a></h3>
 
 			
      <ol>
-      <li>Transition declarations <a data-link-type="biblio" href="#biblio-css-transitions-1" title="CSS Transitions">[css-transitions-1]</a>
+      <li>Transition declarations <a data-link-type="biblio" href="#biblio-css-transitions-1" title="CSS Transitions Module Level 1">[css-transitions-1]</a>
 				
       <li><a data-link-type="dfn" href="#important" id="ref-for-important①">Important</a> <a data-link-type="dfn" href="#cascade-origin-ua" id="ref-for-cascade-origin-ua">user agent</a> declarations
 				
@@ -2347,7 +2356,7 @@ Cascade Sorting Order</span><a class="self-link" href="#cascade-sort"></a></h3>
      
 			A document language can provide for blending declarations sourced
 			from different <dfn class="dfn-paneled" data-dfn-type="dfn" data-local-lt="context" data-noexport id="encapsulation-contexts">encapsulation contexts</dfn>,
-			such as the nested <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#tree-context" id="ref-for-tree-context">tree contexts</a> of <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-tree" id="ref-for-concept-shadow-tree">shadow trees</a> in the <a data-link-type="biblio" href="#biblio-dom" title="DOM Standard">[DOM]</a>.
+			such as the nested <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#tree-context" id="ref-for-tree-context">tree contexts</a> of <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-tree" id="ref-for-concept-shadow-tree">shadow trees</a> in the <a data-link-type="biblio" href="#biblio-dom" title="DOM Standard">[DOM]</a>.
 
 
      <p>When comparing two declarations
@@ -2357,7 +2366,7 @@ Cascade Sorting Order</span><a class="self-link" href="#cascade-sort"></a></h3>
 			and for <a data-link-type="dfn" href="#important" id="ref-for-important④">important</a> rules
 			the declaration from the inner context wins.
 			For this purpose,
-			<a data-link-type="biblio" href="#biblio-dom" title="DOM Standard">[DOM]</a> <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#tree-context" id="ref-for-tree-context①">tree contexts</a> are considered to be nested
+			<a data-link-type="biblio" href="#biblio-dom" title="DOM Standard">[DOM]</a> <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#tree-context" id="ref-for-tree-context①">tree contexts</a> are considered to be nested
 			in <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-including-tree-order" id="ref-for-concept-shadow-including-tree-order">shadow-including tree order</a>.</p>
      <p class="note" role="note"><span class="marker">Note:</span> This effectively means that
 			<a data-link-type="dfn" href="#normal" id="ref-for-normal④">normal</a> declarations belonging to an <a data-link-type="dfn" href="#encapsulation-contexts" id="ref-for-encapsulation-contexts①">encapsulation context</a>
@@ -2446,7 +2455,7 @@ Cascading Origins</span><a class="self-link" href="#cascading-origins"></a></h3>
     <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="cascade-origin-transition">Transition Origin</dfn>
 		
     <dd>
-			Like CSS Animations, CSS Transitions <a data-link-type="biblio" href="#biblio-css-transitions-1" title="CSS Transitions">[css-transitions-1]</a> generate “virtual” rules representing their effects when running.
+			Like CSS Animations, CSS Transitions <a data-link-type="biblio" href="#biblio-css-transitions-1" title="CSS Transitions Module Level 1">[css-transitions-1]</a> generate “virtual” rules representing their effects when running.
 	
    </dl>
    <h3 class="heading settled" data-level="6.3" id="importance"><span class="secno">6.3. </span><span class="content">
@@ -2516,19 +2525,22 @@ p <c- p>{</c-> <c- k>font-size</c-><c- p>:</c-> <c- m>24</c-><c- k>pt</c-> <c- p
        <td><span class="css">1em</span>
 				
       <tr>
-       <th><a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-style" id="ref-for-propdef-font-style①">font-style</a>
+       <th><u class="link-error property" data-lt="font-style" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-style&apos; were in ignored specs:
+&apos;font-style&apos;">font-style</u>
 					
-       <td><a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-font-style-italic" id="ref-for-valdef-font-style-italic">italic</a>
+       <td><span class="css">italic</span>
 				
       <tr>
-       <th><a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-size" id="ref-for-propdef-font-size③">font-size</a>
+       <th><u class="link-error property" data-lt="font-size" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-size&apos; were in ignored specs:
+&apos;font-size&apos;">font-size</u>
 					
        <td><span class="css">12pt</span>
 				
       <tr>
-       <th><a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-font-family" id="ref-for-propdef-font-family①">font-family</a>
+       <th><u class="link-error property" data-lt="font-family" title="LINK ERROR: The only &apos;property&apos; refs for &apos;font-family&apos; were in ignored specs:
+&apos;font-family&apos;">font-family</u>
 					
-       <td><a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-generic-family-sans-serif" id="ref-for-valdef-generic-family-sans-serif">sans-serif</a>
+       <td><span class="css">sans-serif</span>
 		
     </table>
    </div>
@@ -2575,11 +2587,11 @@ Inheritance</span><a class="self-link" href="#inheriting"></a></h3>
 	which has no parent element,
 	the <a data-link-type="dfn" href="#inherited-value" id="ref-for-inherited-value">inherited value</a> is the <a data-link-type="dfn" href="#initial-value" id="ref-for-initial-value④">initial value</a> of the property.</p>
    <p>For a <a data-link-type="biblio" href="#biblio-dom" title="DOM Standard">[DOM]</a> tree with shadows,
-	inheritance operates on the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree②">flattened element tree</a>.
+	inheritance operates on the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree②">flattened element tree</a>.
 	<span class="note">This means that slotted elements inherit from the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element" id="ref-for-the-slot-element">slot</a></code> they’re assigned to,
 	rather than directly from their <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-light-tree" id="ref-for-concept-light-tree">light tree</a> parent.</span>
-	<a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/selector.html#x22" id="ref-for-x22①">Pseudo-elements</a> inherit according to the fictional tag sequence
-	described for each <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element①">pseudo-element</a>. <a data-link-type="biblio" href="#biblio-css-pseudo-4" title="CSS Pseudo-Elements Module Level 4">[CSS-PSEUDO-4]</a></p>
+	<a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-element" id="ref-for-pseudo-element②">Pseudo-elements</a> inherit according to the fictional tag sequence
+	described for each <span id="ref-for-pseudo-element③">pseudo-element</span>. <a data-link-type="biblio" href="#biblio-css-pseudo-4" title="CSS Pseudo-Elements Module Level 4">[CSS-PSEUDO-4]</a></p>
    <p>Some properties are <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-lt="inherited property" id="inherited-property">inherited properties</dfn>,
 	as defined in their property definition table.
 	This means that,
@@ -2669,7 +2681,7 @@ Changes Since the 28 August 2018 Candidate Recommendation</span><a class="self-l
      <blockquote>
       <p>
        <ins>Elements that are not <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected①">connected</a>
-				or are not part of the document’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree③">flattened element tree</a>
+				or are not part of the document’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree③">flattened element tree</a>
 				do not participate in CSS value processing,
 				and do not have <a data-link-type="dfn" href="#declared-value" id="ref-for-declared-value⑨">declared</a>, <a data-link-type="dfn" href="#cascaded-value" id="ref-for-cascaded-value①⑤">cascaded</a>, <a data-link-type="dfn" href="#specified-value" id="ref-for-specified-value①⑦">specified</a>, <a data-link-type="dfn" href="#computed-value" id="ref-for-computed-value①④">computed</a>, <a data-link-type="dfn" href="#used-value" id="ref-for-used-value①⓪">used</a>, or <a data-link-type="dfn" href="#actual-value" id="ref-for-actual-value③">actual</a> values,
 				even if they potentially have style declarations assigned to them
@@ -2691,7 +2703,7 @@ Changes Since the 28 August 2018 Candidate Recommendation</span><a class="self-l
 		
     <li id="change-2018-shadow-inherit"><a class="self-link" href="#change-2018-shadow-inherit"></a>
 			Defined that, in consideration of <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-tree" id="ref-for-concept-shadow-tree①">shadow trees</a>,
-			<a data-link-type="dfn" href="#inheritance" id="ref-for-inheritance⑤">inheritance</a> operates over the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree④">flattened element tree</a>.
+			<a data-link-type="dfn" href="#inheritance" id="ref-for-inheritance⑤">inheritance</a> operates over the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shadow-1/#flat-tree" id="ref-for-flat-tree④">flattened element tree</a>.
 		
     <li id="change-2018-drop-scoped"><a class="self-link" href="#change-2018-drop-scoped"></a>
 			Removed scoping from the <a data-link-type="dfn" href="#cascade" id="ref-for-cascade①⓪">cascade</a> sort criteria,
@@ -2792,7 +2804,7 @@ Changes Since the 14 January 2016 Candidate Recommendation</span><a class="self-
 			Specified that text nodes are considered children of their parent element,
 			and receive styles via defaulting,
 			as their properties are now observable distinct from their inline parent’s
-			via <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-display" id="ref-for-propdef-display③">display: contents</a> <a data-link-type="biblio" href="#biblio-css-display-3" title="CSS Display Module Level 3">[css-display-3]</a>.
+			via <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-display" id="ref-for-propdef-display③">display: contents</a> <a data-link-type="biblio" href="#biblio-css-display-3" title="CSS Display Module Level 3">[css-display-3]</a>.
 			
      <blockquote>
       <ins>
@@ -3077,9 +3089,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
-    <a data-link-type="biblio">[CSS-ALIGN-3]</a> defines the following terms:
+    <a data-link-type="biblio">[ANIMATION-TRIGGERS-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="6e51b40a">auto</span>
+     <li><span class="dfn-paneled" id="5e263eb6">auto</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-BACKGROUNDS-3]</a> defines the following terms:
@@ -3141,10 +3153,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="b30820a7">text node</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-FLEXBOX-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-FLEXBOX-2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="73a16e8f">flex</span>
-     <li><span class="dfn-paneled" id="66c521a7">flex item</span>
+     <li><span class="dfn-paneled" id="73a3d5bb">flex</span>
+     <li><span class="dfn-paneled" id="da77a765">flex item</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-FONTS-5]</a> defines the following terms:
@@ -3173,11 +3185,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="5869f885">::before</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-SCOPING-1]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-SHADOW-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="22109b0e">flat tree</span>
-     <li><span class="dfn-paneled" id="732c4198">flattened element tree</span>
-     <li><span class="dfn-paneled" id="cfd2c803">tree context</span>
+     <li><span class="dfn-paneled" id="4cb3439f">flat tree</span>
+     <li><span class="dfn-paneled" id="10c8aa25">flattened element tree</span>
+     <li><span class="dfn-paneled" id="528ed77d">tree context</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-SIZING-3]</a> defines the following terms:
@@ -3244,24 +3256,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="ef9e6926">display</span>
-     <li><span class="dfn-paneled" id="f601a423">line-height</span>
-     <li><span class="dfn-paneled" id="2161cf2b">pseudo-elements</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="89a4c2c8">bolder</span>
-     <li><span class="dfn-paneled" id="968b95c6">font</span>
-     <li><span class="dfn-paneled" id="bf29f79b">font-family</span>
-     <li><span class="dfn-paneled" id="54b60dc9">font-size</span>
-     <li><span class="dfn-paneled" id="6dc55a42">font-style</span>
-     <li><span class="dfn-paneled" id="650a4c16">font-variant</span>
-     <li><span class="dfn-paneled" id="dd53ce30">font-weight</span>
-     <li><span class="dfn-paneled" id="7e1fa7a3">italic</span>
+     <li><span class="dfn-paneled" id="0936783c">display</span>
+     <li><span class="dfn-paneled" id="ac54fbff">line-height</span>
      <li><span class="dfn-paneled" id="5ddc23c6">page-break-after</span>
      <li><span class="dfn-paneled" id="8f568cb6">page-break-before</span>
-     <li><span class="dfn-paneled" id="a906d683">sans-serif</span>
+     <li><span class="dfn-paneled" id="72e873f2">red</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSSOM]</a> defines the following terms:
@@ -3302,7 +3301,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[SELECTORS-4]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="9bfc28f6">pseudo-element</span>
+     <li><span class="dfn-paneled" id="42b00c6e">pseudo-elements</span>
     </ul>
   </ul>
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
@@ -3313,27 +3312,27 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Elika Etemad; Brad Kemper. <a href="https://drafts.csswg.org/css-backgrounds/"><cite>CSS Backgrounds and Borders Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-backgrounds/">https://drafts.csswg.org/css-backgrounds/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-conditional-3">[CSS-CONDITIONAL-3]
    <dd>Chris Lilley; David Baron; Elika Etemad. <a href="https://drafts.csswg.org/css-conditional-3/"><cite>CSS Conditional Rules Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-conditional-3/">https://drafts.csswg.org/css-conditional-3/</a>
    <dt id="biblio-css-conditional-5">[CSS-CONDITIONAL-5]
-   <dd>Chris Lilley; David Baron; Elika Etemad. <a href="https://drafts.csswg.org/css-conditional-5/"><cite>CSS Conditional Rules Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-conditional-5/">https://drafts.csswg.org/css-conditional-5/</a>
+   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-conditional-5/"><cite>CSS Conditional Rules Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-conditional-5/">https://drafts.csswg.org/css-conditional-5/</a>
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display/"><cite>CSS Display Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-display/">https://drafts.csswg.org/css-display/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-namespaces-3">[CSS-NAMESPACES-3]
    <dd>Elika Etemad. <a href="https://drafts.csswg.org/css-namespaces/"><cite>CSS Namespaces Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-namespaces/">https://drafts.csswg.org/css-namespaces/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
-   <dt id="biblio-css-scoping-1">[CSS-SCOPING-1]
-   <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-scoping/"><cite>CSS Scoping Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-scoping/">https://drafts.csswg.org/css-scoping/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dt id="biblio-css-shadow-1">[CSS-SHADOW-1]
+   <dd><a href="https://drafts.csswg.org/css-shadow-1/"><cite>CSS Shadow Module Level 1</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-shadow-1/">https://drafts.csswg.org/css-shadow-1/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
    <dd>Tab Atkins Jr.; Simon Sapin. <a href="https://drafts.csswg.org/css-syntax/"><cite>CSS Syntax Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-syntax/">https://drafts.csswg.org/css-syntax/</a>
    <dt id="biblio-css-transitions-1">[CSS-TRANSITIONS-1]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
    <dt id="biblio-css-values-3">[CSS-VALUES-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-3/"><cite>CSS Values and Units Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-3/">https://drafts.csswg.org/css-values-3/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
@@ -3344,8 +3343,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Elika Etemad; Koji Ishii. <a href="https://drafts.csswg.org/css-writing-modes-3/"><cite>CSS Writing Modes Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-writing-modes-3/">https://drafts.csswg.org/css-writing-modes-3/</a>
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-fetch">[FETCH]
@@ -3353,7 +3350,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-mediaq">[MEDIAQ]
-   <dd>Florian Rivoal; Tab Atkins Jr.. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/mediaqueries-4/"><cite>Media Queries Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-4/">https://drafts.csswg.org/mediaqueries-4/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-select">[SELECT]
@@ -3363,14 +3360,14 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   </dl>
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
-   <dt id="biblio-css-align-3">[CSS-ALIGN-3]
-   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-align/"><cite>CSS Box Alignment Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-align/">https://drafts.csswg.org/css-align/</a>
+   <dt id="biblio-animation-triggers-1">[ANIMATION-TRIGGERS-1]
+   <dd><a href="https://drafts.csswg.org/animation-triggers-1/"><cite>Animation Triggers</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/animation-triggers-1/">https://drafts.csswg.org/animation-triggers-1/</a>
    <dt id="biblio-css-break-3">[CSS-BREAK-3]
    <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-break/"><cite>CSS Fragmentation Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-break/">https://drafts.csswg.org/css-break/</a>
    <dt id="biblio-css-break-4">[CSS-BREAK-4]
    <dd>Rossen Atanassov; Elika Etemad. <a href="https://drafts.csswg.org/css-break-4/"><cite>CSS Fragmentation Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-break-4/">https://drafts.csswg.org/css-break-4/</a>
-   <dt id="biblio-css-flexbox-1">[CSS-FLEXBOX-1]
-   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/css-flexbox-1/"><cite>CSS Flexible Box Layout Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-flexbox-1/">https://drafts.csswg.org/css-flexbox-1/</a>
+   <dt id="biblio-css-flexbox-2">[CSS-FLEXBOX-2]
+   <dd><a href="https://drafts.csswg.org/css-flexbox-2/"><cite>CSS Flexible Box Layout Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-flexbox-2/">https://drafts.csswg.org/css-flexbox-2/</a>
    <dt id="biblio-css-fonts-5">[CSS-FONTS-5]
    <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-5/"><cite>CSS Fonts Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-5/">https://drafts.csswg.org/css-fonts-5/</a>
    <dt id="biblio-css-inline-3">[CSS-INLINE-3]
@@ -3503,23 +3500,23 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   </details>
   <details class="caniuse-status unpositioned" data-anno-for="all-shorthand" data-deco>
    <summary>CanIUse</summary>
-   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>4.4.3+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>37+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>130+</span></span><span class="edge yes"><span>Edge</span><span>79+</span></span><span class="firefox yes"><span>Firefox</span><span>27+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>130+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>24+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>14.9+</span></span><span class="safari yes"><span>Safari</span><span>9.1+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.3+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
-   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-all">caniuse.com</a> as of 2024-10-31</p>
+   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>4.4.3+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>37+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>148+</span></span><span class="edge yes"><span>Edge</span><span>79+</span></span><span class="firefox yes"><span>Firefox</span><span>27+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>150+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>24+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>14.9+</span></span><span class="safari yes"><span>Safari</span><span>9.1+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.3+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
+   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-all">caniuse.com</a> as of 2026-06-06</p>
   </details>
   <details class="caniuse-status unpositioned" data-anno-for="valdef-all-initial" data-deco>
    <summary>CanIUse</summary>
-   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>2.3+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb yes"><span>Blackberry Browser</span><span>7+</span></span><span class="chrome yes"><span>Chrome</span><span>4+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>130+</span></span><span class="edge yes"><span>Edge</span><span>12+</span></span><span class="firefox yes"><span>Firefox</span><span>19+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>130+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>15+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>14.9+</span></span><span class="safari yes"><span>Safari</span><span>3.2+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>4.0+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
-   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-initial-value">caniuse.com</a> as of 2024-10-31</p>
+   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>2.3+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb yes"><span>Blackberry Browser</span><span>7+</span></span><span class="chrome yes"><span>Chrome</span><span>4+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>148+</span></span><span class="edge yes"><span>Edge</span><span>12+</span></span><span class="firefox yes"><span>Firefox</span><span>19+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>150+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>15+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>14.9+</span></span><span class="safari yes"><span>Safari</span><span>3.2+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>4.0+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
+   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-initial-value">caniuse.com</a> as of 2026-06-06</p>
   </details>
   <details class="caniuse-status unpositioned" data-anno-for="valdef-all-unset" data-deco>
    <summary>CanIUse</summary>
-   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>130+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>41+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>130+</span></span><span class="edge yes"><span>Edge</span><span>13+</span></span><span class="firefox yes"><span>Firefox</span><span>27+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>130+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>28+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>14.9+</span></span><span class="safari yes"><span>Safari</span><span>9.1+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.3+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
-   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-unset-value">caniuse.com</a> as of 2024-10-31</p>
+   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>148+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>41+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>148+</span></span><span class="edge yes"><span>Edge</span><span>13+</span></span><span class="firefox yes"><span>Firefox</span><span>27+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>150+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>28+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>14.9+</span></span><span class="safari yes"><span>Safari</span><span>9.1+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.3+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
+   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-unset-value">caniuse.com</a> as of 2026-06-06</p>
   </details>
   <details class="caniuse-status unpositioned" data-anno-for="valdef-all-revert" data-deco>
    <summary>CanIUse</summary>
-   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>130+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>130+</span></span><span class="edge yes"><span>Edge</span><span>84+</span></span><span class="firefox yes"><span>Firefox</span><span>67+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>130+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>3.0+</span></span><span class="opera yes"><span>Opera</span><span>73+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq no"><span>QQ Browser</span><span>None</span></span><span class="safari yes"><span>Safari</span><span>9.1+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.3+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
-   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-revert-value">caniuse.com</a> as of 2024-10-31</p>
+   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>148+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>13.52+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>148+</span></span><span class="edge yes"><span>Edge</span><span>84+</span></span><span class="firefox yes"><span>Firefox</span><span>67+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>150+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>3.0+</span></span><span class="opera yes"><span>Opera</span><span>73+</span></span><span class="no op_mini"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>80+</span></span><span class="and_qq no"><span>QQ Browser</span><span>None</span></span><span class="safari yes"><span>Safari</span><span>9.1+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.3+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>15.5+</span></span></p>
+   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-revert-value">caniuse.com</a> as of 2026-06-06</p>
   </details>
 <script>/* Boilerplate: script-dom-helper */
 "use strict";
@@ -3722,17 +3719,17 @@ function parseHTML(markup) {
 {
 let dfnPanelData = {
 "083ffe5f": {"dfnID":"083ffe5f","dfnText":"inline box","external":true,"refSections":[{"refs":[{"id":"ref-for-inline-box"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-display-4/#inline-box"},
+"0936783c": {"dfnID":"0936783c","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"}],"title":"2. \nImporting Style Sheets: the @import rule"},{"refs":[{"id":"ref-for-propdef-display\u2460"}],"title":"3.2. \nResetting All Properties: the all property"},{"refs":[{"id":"ref-for-propdef-display\u2461"}],"title":"4.5.1. \nApplicable Properties"},{"refs":[{"id":"ref-for-propdef-display\u2462"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css2/#propdef-display"},
 "09cd65e4": {"dfnID":"09cd65e4","dfnText":"display type","external":true,"refSections":[{"refs":[{"id":"ref-for-display-type"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-display-4/#display-type"},
 "0e99038a": {"dfnID":"0e99038a","dfnText":"ex","external":true,"refSections":[{"refs":[{"id":"ref-for-ex"}],"title":"4.4. \nComputed Values"}],"url":"https://drafts.csswg.org/css-values-3/#ex"},
 "0fe1fd87": {"dfnID":"0fe1fd87","dfnText":"Content-Type metadata","external":true,"refSections":[{"refs":[{"id":"ref-for-content-type"},{"id":"ref-for-content-type\u2460"}],"title":"2.3. \nContent-Type of CSS Style Sheets"},{"refs":[{"id":"5ca12a2a0"}],"title":"\nPrivacy and Security Considerations"}],"url":"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#content-type"},
+"10c8aa25": {"dfnID":"10c8aa25","dfnText":"flattened element tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"},{"id":"ref-for-flat-tree\u2460"}],"title":"4. \nValue Processing"},{"refs":[{"id":"ref-for-flat-tree\u2461"}],"title":"7.2. \nInheritance"},{"refs":[{"id":"ref-for-flat-tree\u2462"},{"id":"ref-for-flat-tree\u2463"}],"title":"8.1. \nChanges Since the 28 August 2018 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
 "11fb4d5b": {"dfnID":"11fb4d5b","dfnText":"background-color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-color"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color"},
 "1548047a": {"dfnID":"1548047a","dfnText":"<color>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-color"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-color-5/#typedef-color"},
 "16d57f47": {"dfnID":"16d57f47","dfnText":"list-style-position","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-list-style-position"},{"id":"ref-for-propdef-list-style-position\u2460"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-lists-3/#propdef-list-style-position"},
 "174d5a21": {"dfnID":"174d5a21","dfnText":"element","external":true,"refSections":[{"refs":[{"id":"ref-for-elements"}],"title":"1.1. \nModule Interactions"},{"refs":[{"id":"ref-for-elements\u2460"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-display-3/#elements"},
 "198f1537": {"dfnID":"198f1537","dfnText":"custom property","external":true,"refSections":[{"refs":[{"id":"ref-for-custom-property"}],"title":"3.2. \nResetting All Properties: the all property"},{"refs":[{"id":"ref-for-custom-property\u2460"},{"id":"ref-for-custom-property\u2461"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-variables-2/#custom-property"},
 "19f9e9df": {"dfnID":"19f9e9df","dfnText":"shadow tree","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-shadow-tree"}],"title":"6.1. \nCascade Sorting Order"},{"refs":[{"id":"ref-for-concept-shadow-tree\u2460"}],"title":"8.1. \nChanges Since the 28 August 2018 Candidate Recommendation"}],"url":"https://dom.spec.whatwg.org/#concept-shadow-tree"},
-"2161cf2b": {"dfnID":"2161cf2b","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-x22"}],"title":"4.5.1. \nApplicable Properties"},{"refs":[{"id":"ref-for-x22\u2460"}],"title":"7.2. \nInheritance"}],"url":"https://www.w3.org/TR/CSS21/selector.html#x22"},
-"22109b0e": {"dfnID":"22109b0e","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"},{"id":"ref-for-flat-tree\u2460"}],"title":"4. \nValue Processing"},{"refs":[{"id":"ref-for-flat-tree\u2461"}],"title":"7.2. \nInheritance"},{"refs":[{"id":"ref-for-flat-tree\u2462"},{"id":"ref-for-flat-tree\u2463"}],"title":"8.1. \nChanges Since the 28 August 2018 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
 "2589df91": {"dfnID":"2589df91","dfnText":"orphans","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-orphans"}],"title":"4.6. \nActual Values"},{"refs":[{"id":"ref-for-propdef-orphans\u2460"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-break-3/#propdef-orphans"},
 "29a9020b": {"dfnID":"29a9020b","dfnText":"<length-percentage>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-length-percentage"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-values-3/#typedef-length-percentage"},
 "29ebeb98": {"dfnID":"29ebeb98","dfnText":"media query","external":true,"refSections":[{"refs":[{"id":"ref-for-media-query"}],"title":"2.1. \nConditional @import Rules"}],"url":"https://drafts.csswg.org/mediaqueries-4/#media-query"},
@@ -3744,49 +3741,44 @@ let dfnPanelData = {
 "3bd4bbe9": {"dfnID":"3bd4bbe9","dfnText":"text-orientation","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-orientation"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation"},
 "3e8ed832": {"dfnID":"3e8ed832","dfnText":"vh","external":true,"refSections":[{"refs":[{"id":"ref-for-vh"}],"title":"4.4. \nComputed Values"}],"url":"https://drafts.csswg.org/css-values-3/#vh"},
 "42871fa3": {"dfnID":"42871fa3","dfnText":"border-style","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-style"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-style"},
+"42b00c6e": {"dfnID":"42b00c6e","dfnText":"pseudo-elements","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"},{"id":"ref-for-pseudo-element\u2460"}],"title":"4.5.1. \nApplicable Properties"},{"refs":[{"id":"ref-for-pseudo-element\u2461"},{"id":"ref-for-pseudo-element\u2462"}],"title":"7.2. \nInheritance"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "4356bfe3": {"dfnID":"4356bfe3","dfnText":"text-align","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-align"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-text-3/#propdef-text-align"},
 "46464297": {"dfnID":"46464297","dfnText":"dotted","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-line-style-dotted"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-dotted"},
 "4a16f115": {"dfnID":"4a16f115","dfnText":"border-top-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-top-width"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-width"},
 "4c891868": {"dfnID":"4c891868","dfnText":"<media-query-list>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-media-query-list"},{"id":"ref-for-typedef-media-query-list\u2460"}],"title":"2. \nImporting Style Sheets: the @import rule"},{"refs":[{"id":"ref-for-typedef-media-query-list\u2461"}],"title":"2.1. \nConditional @import Rules"}],"url":"https://drafts.csswg.org/mediaqueries-4/#typedef-media-query-list"},
+"4cb3439f": {"dfnID":"4cb3439f","dfnText":"flat tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"},{"id":"ref-for-flat-tree\u2460"}],"title":"4. \nValue Processing"},{"refs":[{"id":"ref-for-flat-tree\u2461"}],"title":"7.2. \nInheritance"},{"refs":[{"id":"ref-for-flat-tree\u2462"},{"id":"ref-for-flat-tree\u2463"}],"title":"8.1. \nChanges Since the 28 August 2018 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
 "51810d12": {"dfnID":"51810d12","dfnText":"s","external":true,"refSections":[{"refs":[{"id":"ref-for-the-s-element"}],"title":"6.4. \nPrecedence of Non-CSS Presentational Hints"}],"url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element"},
-"54b60dc9": {"dfnID":"54b60dc9","dfnText":"font-size","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-size"}],"title":"1. \nIntroduction"},{"refs":[{"id":"ref-for-propdef-font-size\u2460"}],"title":"3. \nShorthand Properties"},{"refs":[{"id":"ref-for-propdef-font-size\u2461"}],"title":"4.7. \nExamples"},{"refs":[{"id":"ref-for-propdef-font-size\u2462"}],"title":"6.3. \nImportant Declarations: the !important annotation"}],"url":"https://drafts.csswg.org/css2/#propdef-font-size"},
+"528ed77d": {"dfnID":"528ed77d","dfnText":"tree context","external":true,"refSections":[{"refs":[{"id":"ref-for-tree-context"},{"id":"ref-for-tree-context\u2460"}],"title":"6.1. \nCascade Sorting Order"}],"url":"https://drafts.csswg.org/css-shadow-1/#tree-context"},
 "551c9ee4": {"dfnID":"551c9ee4","dfnText":"page","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-break-before-page"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-break-4/#valdef-break-before-page"},
 "5869f885": {"dfnID":"5869f885","dfnText":"::before","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-before"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
 "5bc8bd12": {"dfnID":"5bc8bd12","dfnText":"direction","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-direction"},{"id":"ref-for-propdef-direction\u2460"}],"title":"3.2. \nResetting All Properties: the all property"},{"refs":[{"id":"ref-for-propdef-direction\u2461"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-writing-modes-3/#propdef-direction"},
 "5d973ccb": {"dfnID":"5d973ccb","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"4.3. \nSpecified Values"}],"url":"https://drafts.csswg.org/css-values-3/#css-wide-keywords"},
 "5ddc23c6": {"dfnID":"5ddc23c6","dfnText":"page-break-after","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-page-break-after"}],"title":"4.6. \nActual Values"},{"refs":[{"id":"ref-for-propdef-page-break-after\u2460"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css2/#propdef-page-break-after"},
+"5e263eb6": {"dfnID":"5e263eb6","dfnText":"auto","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-timeline-trigger-active-range-auto"}],"title":"4.4. \nComputed Values"},{"refs":[{"id":"ref-for-valdef-timeline-trigger-active-range-auto\u2460"},{"id":"ref-for-valdef-timeline-trigger-active-range-auto\u2461"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/animation-triggers-1/#valdef-timeline-trigger-active-range-auto"},
 "5f1b7f60": {"dfnID":"5f1b7f60","dfnText":"@media","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-media"}],"title":"2.1. \nConditional @import Rules"}],"url":"https://drafts.csswg.org/css-conditional-3/#at-ruledef-media"},
-"650a4c16": {"dfnID":"650a4c16","dfnText":"font-variant","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-variant"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css2/#propdef-font-variant"},
-"66c521a7": {"dfnID":"66c521a7","dfnText":"flex item","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-item"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-flexbox-1/#flex-item"},
 "68019d7a": {"dfnID":"68019d7a","dfnText":"height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-height"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
 "6a56abc9": {"dfnID":"6a56abc9","dfnText":"url()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-url"}],"title":"2. \nImporting Style Sheets: the @import rule"}],"url":"https://drafts.csswg.org/css-values-3/#funcdef-url"},
-"6dc55a42": {"dfnID":"6dc55a42","dfnText":"font-style","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-style"}],"title":"3. \nShorthand Properties"},{"refs":[{"id":"ref-for-propdef-font-style\u2460"}],"title":"6.3. \nImportant Declarations: the !important annotation"}],"url":"https://drafts.csswg.org/css2/#propdef-font-style"},
-"6e51b40a": {"dfnID":"6e51b40a","dfnText":"auto","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-align-self-auto"}],"title":"4.4. \nComputed Values"},{"refs":[{"id":"ref-for-valdef-align-self-auto\u2460"},{"id":"ref-for-valdef-align-self-auto\u2461"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-align-3/#valdef-align-self-auto"},
 "6f7798a0": {"dfnID":"6f7798a0","dfnText":"root inline box","external":true,"refSections":[{"refs":[{"id":"ref-for-root-inline-box"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-inline-3/#root-inline-box"},
-"732c4198": {"dfnID":"732c4198","dfnText":"flattened element tree","external":true,"refSections":[{"refs":[{"id":"ref-for-flat-tree"},{"id":"ref-for-flat-tree\u2460"}],"title":"4. \nValue Processing"},{"refs":[{"id":"ref-for-flat-tree\u2461"}],"title":"7.2. \nInheritance"},{"refs":[{"id":"ref-for-flat-tree\u2462"},{"id":"ref-for-flat-tree\u2463"}],"title":"8.1. \nChanges Since the 28 August 2018 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
+"72e873f2": {"dfnID":"72e873f2","dfnText":"red","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-color-red"}],"title":"1. \nIntroduction"},{"refs":[{"id":"ref-for-valdef-color-red\u2460"}],"title":"4.4. \nComputed Values"}],"url":"https://drafts.csswg.org/css2/#valdef-color-red"},
 "7393da89": {"dfnID":"7393da89","dfnText":"same origin","external":true,"refSections":[{"refs":[{"id":"ref-for-same-origin"}],"title":"2.3. \nContent-Type of CSS Style Sheets"}],"url":"https://html.spec.whatwg.org/multipage/browsers.html#same-origin"},
-"73a16e8f": {"dfnID":"73a16e8f","dfnText":"flex","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-flex"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-flexbox-1/#propdef-flex"},
+"73a3d5bb": {"dfnID":"73a3d5bb","dfnText":"flex","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-flex"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-flexbox-2/#propdef-flex"},
 "73ea1d43": {"dfnID":"73ea1d43","dfnText":"color","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-color"}],"title":"1. \nIntroduction"}],"url":"https://drafts.csswg.org/css-color-4/#propdef-color"},
-"7e1fa7a3": {"dfnID":"7e1fa7a3","dfnText":"italic","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-font-style-italic"}],"title":"6.3. \nImportant Declarations: the !important annotation"}],"url":"https://drafts.csswg.org/css2/#valdef-font-style-italic"},
 "7e4aa58b": {"dfnID":"7e4aa58b","dfnText":"environment encoding","external":true,"refSections":[{"refs":[{"id":"ref-for-environment-encoding"}],"title":"2.2. \nProcessing Stylesheet Imports"}],"url":"https://drafts.csswg.org/css-syntax-3/#environment-encoding"},
 "8000726e": {"dfnID":"8000726e","dfnText":"border-left-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-left-width"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-width"},
 "8831f13c": {"dfnID":"8831f13c","dfnText":"text-indent","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-indent"}],"title":"6.3. \nImportant Declarations: the !important annotation"}],"url":"https://drafts.csswg.org/css-text-4/#propdef-text-indent"},
 "88643fe0": {"dfnID":"88643fe0","dfnText":"width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-width"}],"title":"4.5. \nUsed Values"},{"refs":[{"id":"ref-for-propdef-width\u2460"},{"id":"ref-for-propdef-width\u2461"},{"id":"ref-for-propdef-width\u2462"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-sizing-3/#propdef-width"},
-"89a4c2c8": {"dfnID":"89a4c2c8","dfnText":"bolder","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-font-weight-bolder"}],"title":"4.4. \nComputed Values"}],"url":"https://drafts.csswg.org/css2/#valdef-font-weight-bolder"},
 "8c1eb8d0": {"dfnID":"8c1eb8d0","dfnText":"?","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-opt"},{"id":"ref-for-mult-opt\u2460"}],"title":"2. \nImporting Style Sheets: the @import rule"}],"url":"https://drafts.csswg.org/css-values-3/#mult-opt"},
 "8f568cb6": {"dfnID":"8f568cb6","dfnText":"page-break-before","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-page-break-before"},{"id":"ref-for-propdef-page-break-before\u2460"}],"title":"3.1. \nAliasing"}],"url":"https://drafts.csswg.org/css2/#propdef-page-break-before"},
 "9638f92b": {"dfnID":"9638f92b","dfnText":"connected","external":true,"refSections":[{"refs":[{"id":"ref-for-connected"}],"title":"4. \nValue Processing"},{"refs":[{"id":"ref-for-connected\u2460"}],"title":"8.1. \nChanges Since the 28 August 2018 Candidate Recommendation"}],"url":"https://dom.spec.whatwg.org/#connected"},
-"968b95c6": {"dfnID":"968b95c6","dfnText":"font","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font"},{"id":"ref-for-propdef-font\u2460"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css2/#propdef-font"},
 "977d3003": {"dfnID":"977d3003","dfnText":"<string>","external":true,"refSections":[{"refs":[{"id":"ref-for-string-value"},{"id":"ref-for-string-value\u2460"},{"id":"ref-for-string-value\u2461"}],"title":"2. \nImporting Style Sheets: the @import rule"}],"url":"https://drafts.csswg.org/css-values-4/#string-value"},
 "982e17a3": {"dfnID":"982e17a3","dfnText":"unicode-bidi","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-unicode-bidi"},{"id":"ref-for-propdef-unicode-bidi\u2460"}],"title":"3.2. \nResetting All Properties: the all property"},{"refs":[{"id":"ref-for-propdef-unicode-bidi\u2461"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-writing-modes-3/#propdef-unicode-bidi"},
 "989f9ee6": {"dfnID":"989f9ee6","dfnText":"border-right-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-right-width"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-width"},
-"9bfc28f6": {"dfnID":"9bfc28f6","dfnText":"pseudo-element","external":true,"refSections":[{"refs":[{"id":"ref-for-pseudo-element"}],"title":"4.5.1. \nApplicable Properties"},{"refs":[{"id":"ref-for-pseudo-element\u2460"}],"title":"7.2. \nInheritance"}],"url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "a15951ea": {"dfnID":"a15951ea","dfnText":"supports()","external":true,"refSections":[{"refs":[{"id":"ref-for-funcdef-supports"}],"title":"8.3. \nChanges Since the 21 April 2015 Working Draft"},{"refs":[{"id":"ref-for-funcdef-supports\u2460"}],"title":"8.4. \nAdditions Since Level 3"}],"url":"https://drafts.csswg.org/css-conditional-5/#funcdef-supports"},
 "a2a30ba8": {"dfnID":"a2a30ba8","dfnText":"CORS protocol","external":true,"refSections":[{"refs":[{"id":"ref-for-cors-protocol"}],"title":"\nPrivacy and Security Considerations"}],"url":"https://fetch.spec.whatwg.org/#cors-protocol"},
 "a4cd8a8d": {"dfnID":"a4cd8a8d","dfnText":"border-image","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-image"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image"},
-"a906d683": {"dfnID":"a906d683","dfnText":"sans-serif","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-generic-family-sans-serif"}],"title":"6.3. \nImportant Declarations: the !important annotation"}],"url":"https://drafts.csswg.org/css2/#valdef-generic-family-sans-serif"},
 "a9734ee4": {"dfnID":"a9734ee4","dfnText":"border","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border"},
 "aa67e690": {"dfnID":"aa67e690","dfnText":"vw","external":true,"refSections":[{"refs":[{"id":"ref-for-vw"}],"title":"4.4. \nComputed Values"}],"url":"https://drafts.csswg.org/css-values-3/#vw"},
+"ac54fbff": {"dfnID":"ac54fbff","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "actual-value": {"dfnID":"actual-value","dfnText":"actual value","external":false,"refSections":[{"refs":[{"id":"ref-for-actual-value"},{"id":"ref-for-actual-value\u2460"},{"id":"ref-for-actual-value\u2461"}],"title":"4. Value Processing"},{"refs":[{"id":"ref-for-actual-value\u2462"}],"title":"8.1. Changes Since the 28 August 2018 Candidate Recommendation"}],"url":"#actual-value"},
 "apply": {"dfnID":"apply","dfnText":"apply to","external":false,"refSections":[{"refs":[{"id":"ref-for-apply"}],"title":"4.4. Computed Values"},{"refs":[{"id":"ref-for-apply\u2460"}],"title":"4.5. Used Values"},{"refs":[{"id":"ref-for-apply\u2461"}],"title":"8.1. Changes Since the 28 August 2018 Candidate Recommendation"}],"url":"#apply"},
 "at-ruledef-import": {"dfnID":"at-ruledef-import","dfnText":"@import","external":false,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-import\u2460"},{"id":"ref-for-at-ruledef-import\u2461"},{"id":"ref-for-at-ruledef-import\u2462"},{"id":"ref-for-at-ruledef-import\u2463"},{"id":"ref-for-at-ruledef-import\u2464"},{"id":"ref-for-at-ruledef-import\u2465"},{"id":"ref-for-at-ruledef-import\u2466"},{"id":"ref-for-at-ruledef-import\u2467"},{"id":"ref-for-at-ruledef-import\u2468"}],"title":"2. Importing Style Sheets: the @import rule"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460\u24ea"},{"id":"ref-for-at-ruledef-import\u2460\u2460"}],"title":"2.1. Conditional @import Rules"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460\u2461"},{"id":"ref-for-at-ruledef-import\u2460\u2462"}],"title":"6.1. Cascade Sorting Order"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460\u2463"},{"id":"ref-for-at-ruledef-import\u2460\u2464"}],"title":"8.2. Changes Since the 14 January 2016 Candidate Recommendation"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460\u2465"}],"title":"8.4. Additions Since Level 3"},{"refs":[{"id":"ref-for-at-ruledef-import\u2460\u2466"},{"id":"ref-for-at-ruledef-import\u2460\u2467"}],"title":"Privacy and Security Considerations"}],"url":"#at-ruledef-import"},
@@ -3796,7 +3788,6 @@ let dfnPanelData = {
 "b928dec0": {"dfnID":"b928dec0","dfnText":"em","external":true,"refSections":[{"refs":[{"id":"ref-for-em"}],"title":"4.4. \nComputed Values"}],"url":"https://drafts.csswg.org/css-values-3/#em"},
 "b9b4e99a": {"dfnID":"b9b4e99a","dfnText":"ch","external":true,"refSections":[{"refs":[{"id":"ref-for-ch"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-values-3/#ch"},
 "bf0e8186": {"dfnID":"bf0e8186","dfnText":"@namespace","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-namespace"},{"id":"ref-for-at-ruledef-namespace\u2460"}],"title":"2. \nImporting Style Sheets: the @import rule"},{"refs":[{"id":"ref-for-at-ruledef-namespace\u2461"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-namespaces-3/#at-ruledef-namespace"},
-"bf29f79b": {"dfnID":"bf29f79b","dfnText":"font-family","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-family"}],"title":"3. \nShorthand Properties"},{"refs":[{"id":"ref-for-propdef-font-family\u2460"}],"title":"6.3. \nImportant Declarations: the !important annotation"}],"url":"https://drafts.csswg.org/css2/#propdef-font-family"},
 "c1654d36": {"dfnID":"c1654d36","dfnText":"break-before","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-break-before"},{"id":"ref-for-propdef-break-before\u2460"},{"id":"ref-for-propdef-break-before\u2461"},{"id":"ref-for-propdef-break-before\u2462"}],"title":"3.1. \nAliasing"},{"refs":[{"id":"ref-for-propdef-break-before\u2463"},{"id":"ref-for-propdef-break-before\u2464"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-break-3/#propdef-break-before"},
 "c1ebc639": {"dfnID":"c1ebc639","dfnText":"@supports","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-supports"},{"id":"ref-for-at-ruledef-supports\u2460"}],"title":"2.1. \nConditional @import Rules"}],"url":"https://drafts.csswg.org/css-conditional-3/#at-ruledef-supports"},
 "c533ddd8": {"dfnID":"c533ddd8","dfnText":"@charset","external":true,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-charset"}],"title":"2. \nImporting Style Sheets: the @import rule"},{"refs":[{"id":"ref-for-at-ruledef-charset\u2460"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://drafts.csswg.org/css-syntax-3/#at-ruledef-charset"},
@@ -3810,17 +3801,14 @@ let dfnPanelData = {
 "cascaded-value": {"dfnID":"cascaded-value","dfnText":"cascaded value","external":false,"refSections":[{"refs":[{"id":"ref-for-cascaded-value"},{"id":"ref-for-cascaded-value\u2460"},{"id":"ref-for-cascaded-value\u2461"}],"title":"4. Value Processing"},{"refs":[{"id":"ref-for-cascaded-value\u2462"}],"title":"4.2. Cascaded Values"},{"refs":[{"id":"ref-for-cascaded-value\u2463"},{"id":"ref-for-cascaded-value\u2464"},{"id":"ref-for-cascaded-value\u2465"},{"id":"ref-for-cascaded-value\u2466"}],"title":"4.3. Specified Values"},{"refs":[{"id":"ref-for-cascaded-value\u2467"}],"title":"6. Cascading"},{"refs":[{"id":"ref-for-cascaded-value\u2468"}],"title":"7.3.1. Resetting a Property: the initial keyword"},{"refs":[{"id":"ref-for-cascaded-value\u2460\u24ea"}],"title":"7.3.2. Explicit Inheritance: the inherit keyword"},{"refs":[{"id":"ref-for-cascaded-value\u2460\u2460"}],"title":"7.3.3. Erasing All Declarations: the unset keyword"},{"refs":[{"id":"ref-for-cascaded-value\u2460\u2461"},{"id":"ref-for-cascaded-value\u2460\u2462"},{"id":"ref-for-cascaded-value\u2460\u2463"}],"title":"7.3.4. Rolling Back Cascade Origins: the revert keyword"},{"refs":[{"id":"ref-for-cascaded-value\u2460\u2464"}],"title":"8.1. Changes Since the 28 August 2018 Candidate Recommendation"},{"refs":[{"id":"ref-for-cascaded-value\u2460\u2465"},{"id":"ref-for-cascaded-value\u2460\u2466"}],"title":"8.2. Changes Since the 14 January 2016 Candidate Recommendation"}],"url":"#cascaded-value"},
 "cbc54f93": {"dfnID":"cbc54f93","dfnText":"text-transform","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-text-transform"},{"id":"ref-for-propdef-text-transform\u2460"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-text-4/#propdef-text-transform"},
 "cd1cb230": {"dfnID":"cd1cb230","dfnText":"light tree","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-light-tree"}],"title":"7.2. \nInheritance"}],"url":"https://dom.spec.whatwg.org/#concept-light-tree"},
-"cfd2c803": {"dfnID":"cfd2c803","dfnText":"tree context","external":true,"refSections":[{"refs":[{"id":"ref-for-tree-context"},{"id":"ref-for-tree-context\u2460"}],"title":"6.1. \nCascade Sorting Order"}],"url":"https://drafts.csswg.org/css-scoping-1/#tree-context"},
 "computed-value": {"dfnID":"computed-value","dfnText":"computed value","external":false,"refSections":[{"refs":[{"id":"ref-for-computed-value"},{"id":"ref-for-computed-value\u2460"},{"id":"ref-for-computed-value\u2461"}],"title":"4. Value Processing"},{"refs":[{"id":"ref-for-computed-value\u2462"},{"id":"ref-for-computed-value\u2463"},{"id":"ref-for-computed-value\u2464"},{"id":"ref-for-computed-value\u2465"},{"id":"ref-for-computed-value\u2466"},{"id":"ref-for-computed-value\u2467"}],"title":"4.4. Computed Values"},{"refs":[{"id":"ref-for-computed-value\u2468"},{"id":"ref-for-computed-value\u2460\u24ea"}],"title":"4.5. Used Values"},{"refs":[{"id":"ref-for-computed-value\u2460\u2460"}],"title":"4.5.1. Applicable Properties"},{"refs":[{"id":"ref-for-computed-value\u2460\u2461"}],"title":"7.2. Inheritance"},{"refs":[{"id":"ref-for-computed-value\u2460\u2462"}],"title":"7.3.2. Explicit Inheritance: the inherit keyword"},{"refs":[{"id":"ref-for-computed-value\u2460\u2463"}],"title":"8.1. Changes Since the 28 August 2018 Candidate Recommendation"}],"url":"#computed-value"},
 "css-property": {"dfnID":"css-property","dfnText":"properties","external":false,"refSections":[{"refs":[{"id":"ref-for-css-property"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-css-property\u2460"}],"title":"8.1. Changes Since the 28 August 2018 Candidate Recommendation"}],"url":"#css-property"},
+"da77a765": {"dfnID":"da77a765","dfnText":"flex item","external":true,"refSections":[{"refs":[{"id":"ref-for-flex-item"}],"title":"4.5. \nUsed Values"}],"url":"https://drafts.csswg.org/css-flexbox-2/#flex-item"},
 "dd0f8cfb": {"dfnID":"dd0f8cfb","dfnText":"border-bottom-width","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-bottom-width"}],"title":"4.7. \nExamples"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-width"},
-"dd53ce30": {"dfnID":"dd53ce30","dfnText":"font-weight","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-weight"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css2/#propdef-font-weight"},
 "declared-value": {"dfnID":"declared-value","dfnText":"declared value","external":false,"refSections":[{"refs":[{"id":"ref-for-declared-value"},{"id":"ref-for-declared-value\u2460"},{"id":"ref-for-declared-value\u2461"}],"title":"4. Value Processing"},{"refs":[{"id":"ref-for-declared-value\u2462"}],"title":"4.2. Cascaded Values"},{"refs":[{"id":"ref-for-declared-value\u2463"},{"id":"ref-for-declared-value\u2464"}],"title":"5. Filtering"},{"refs":[{"id":"ref-for-declared-value\u2465"}],"title":"6. Cascading"},{"refs":[{"id":"ref-for-declared-value\u2466"}],"title":"6.1. Cascade Sorting Order"},{"refs":[{"id":"ref-for-declared-value\u2467"}],"title":"7.3.3. Erasing All Declarations: the unset keyword"},{"refs":[{"id":"ref-for-declared-value\u2468"}],"title":"8.1. Changes Since the 28 August 2018 Candidate Recommendation"}],"url":"#declared-value"},
 "ee7bba09": {"dfnID":"ee7bba09","dfnText":"response","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-response"}],"title":"2.3. \nContent-Type of CSS Style Sheets"}],"url":"https://fetch.spec.whatwg.org/#concept-response"},
-"ef9e6926": {"dfnID":"ef9e6926","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"}],"title":"2. \nImporting Style Sheets: the @import rule"},{"refs":[{"id":"ref-for-propdef-display\u2460"}],"title":"3.2. \nResetting All Properties: the all property"},{"refs":[{"id":"ref-for-propdef-display\u2461"}],"title":"4.5.1. \nApplicable Properties"},{"refs":[{"id":"ref-for-propdef-display\u2462"}],"title":"8.2. \nChanges Since the 14 January 2016 Candidate Recommendation"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-display"},
 "encapsulation-contexts": {"dfnID":"encapsulation-contexts","dfnText":"encapsulation contexts","external":false,"refSections":[{"refs":[{"id":"ref-for-encapsulation-contexts"},{"id":"ref-for-encapsulation-contexts\u2460"},{"id":"ref-for-encapsulation-contexts\u2461"}],"title":"6.1. Cascade Sorting Order"},{"refs":[{"id":"ref-for-encapsulation-contexts\u2462"}],"title":"8.4. Additions Since Level 3"}],"url":"#encapsulation-contexts"},
 "f5eca8c9": {"dfnID":"f5eca8c9","dfnText":"background","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background"},
-"f601a423": {"dfnID":"f601a423","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"3. \nShorthand Properties"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "f831c141": {"dfnID":"f831c141","dfnText":"background-image","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-background-image"}],"title":"3. \nShorthand Properties"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image"},
 "fa293cdd": {"dfnID":"fa293cdd","dfnText":"<url>","external":true,"refSections":[{"refs":[{"id":"ref-for-url-value"},{"id":"ref-for-url-value\u2460"},{"id":"ref-for-url-value\u2461"}],"title":"2. \nImporting Style Sheets: the @import rule"}],"url":"https://drafts.csswg.org/css-values-4/#url-value"},
 "fb030e6c": {"dfnID":"fb030e6c","dfnText":"<length>","external":true,"refSections":[{"refs":[{"id":"ref-for-length-value"}],"title":"4.5.1. \nApplicable Properties"}],"url":"https://drafts.csswg.org/css-values-4/#length-value"},
@@ -4356,7 +4344,7 @@ let refsData = {
 "https://dom.spec.whatwg.org/#concept-shadow-including-tree-order": {"displayText":"shadow-including tree order","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"shadow-including tree order","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-shadow-including-tree-order"},
 "https://dom.spec.whatwg.org/#concept-shadow-tree": {"displayText":"shadow tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"shadow tree","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-shadow-tree"},
 "https://dom.spec.whatwg.org/#connected": {"displayText":"connected","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"connected","type":"dfn","url":"https://dom.spec.whatwg.org/#connected"},
-"https://drafts.csswg.org/css-align-3/#valdef-align-self-auto": {"displayText":"auto","export":true,"for_":["align-self"],"level":"3","normative":true,"shortname":"css-align","spec":"css-align-3","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/css-align-3/#valdef-align-self-auto"},
+"https://drafts.csswg.org/animation-triggers-1/#valdef-timeline-trigger-active-range-auto": {"displayText":"auto","export":true,"for_":["timeline-trigger-active-range","timeline-trigger-active-range-start","timeline-trigger-active-range-end"],"level":"1","normative":true,"shortname":"animation-triggers","spec":"animation-triggers-1","status":"current","text":"auto","type":"value","url":"https://drafts.csswg.org/animation-triggers-1/#valdef-timeline-trigger-active-range-auto"},
 "https://drafts.csswg.org/css-backgrounds-3/#propdef-background": {"displayText":"background","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-backgrounds","spec":"css-backgrounds-3","status":"current","text":"background","type":"property","url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background"},
 "https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color": {"displayText":"background-color","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-backgrounds","spec":"css-backgrounds-3","status":"current","text":"background-color","type":"property","url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color"},
 "https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image": {"displayText":"background-image","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-backgrounds","spec":"css-backgrounds-3","status":"current","text":"background-image","type":"property","url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image"},
@@ -4380,16 +4368,16 @@ let refsData = {
 "https://drafts.csswg.org/css-display-4/#display-type": {"displayText":"display type","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"display type","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#display-type"},
 "https://drafts.csswg.org/css-display-4/#inline-box": {"displayText":"inline box","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"inline box","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#inline-box"},
 "https://drafts.csswg.org/css-display-4/#text-nodes": {"displayText":"text node","export":true,"for_":["CSS"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"text node","type":"dfn","url":"https://drafts.csswg.org/css-display-4/#text-nodes"},
-"https://drafts.csswg.org/css-flexbox-1/#flex-item": {"displayText":"flex item","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex item","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-1/#flex-item"},
-"https://drafts.csswg.org/css-flexbox-1/#propdef-flex": {"displayText":"flex","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-1","status":"current","text":"flex","type":"property","url":"https://drafts.csswg.org/css-flexbox-1/#propdef-flex"},
+"https://drafts.csswg.org/css-flexbox-2/#flex-item": {"displayText":"flex item","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex item","type":"dfn","url":"https://drafts.csswg.org/css-flexbox-2/#flex-item"},
+"https://drafts.csswg.org/css-flexbox-2/#propdef-flex": {"displayText":"flex","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-flexbox","spec":"css-flexbox-2","status":"current","text":"flex","type":"property","url":"https://drafts.csswg.org/css-flexbox-2/#propdef-flex"},
 "https://drafts.csswg.org/css-fonts-5/#propdef-font-size-adjust": {"displayText":"font-size-adjust","export":true,"for_":[],"level":"5","normative":true,"shortname":"css-fonts","spec":"css-fonts-5","status":"current","text":"font-size-adjust","type":"property","url":"https://drafts.csswg.org/css-fonts-5/#propdef-font-size-adjust"},
 "https://drafts.csswg.org/css-inline-3/#root-inline-box": {"displayText":"root inline box","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-inline","spec":"css-inline-3","status":"current","text":"root inline box","type":"dfn","url":"https://drafts.csswg.org/css-inline-3/#root-inline-box"},
 "https://drafts.csswg.org/css-lists-3/#propdef-list-style-position": {"displayText":"list-style-position","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"list-style-position","type":"property","url":"https://drafts.csswg.org/css-lists-3/#propdef-list-style-position"},
 "https://drafts.csswg.org/css-namespaces-3/#at-ruledef-namespace": {"displayText":"@namespace","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-namespaces","spec":"css-namespaces-3","status":"current","text":"@namespace","type":"at-rule","url":"https://drafts.csswg.org/css-namespaces-3/#at-ruledef-namespace"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-after": {"displayText":"::after","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::after","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-after"},
 "https://drafts.csswg.org/css-pseudo-4/#selectordef-before": {"displayText":"::before","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-pseudo","spec":"css-pseudo-4","status":"current","text":"::before","type":"selector","url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-before"},
-"https://drafts.csswg.org/css-scoping-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-scoping-1/#flat-tree"},
-"https://drafts.csswg.org/css-scoping-1/#tree-context": {"displayText":"tree context","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-scoping","spec":"css-scoping-1","status":"current","text":"tree context","type":"dfn","url":"https://drafts.csswg.org/css-scoping-1/#tree-context"},
+"https://drafts.csswg.org/css-shadow-1/#flat-tree": {"displayText":"flat tree","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"flat tree","type":"dfn","url":"https://drafts.csswg.org/css-shadow-1/#flat-tree"},
+"https://drafts.csswg.org/css-shadow-1/#tree-context": {"displayText":"tree context","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-shadow","spec":"css-shadow-1","status":"current","text":"tree context","type":"dfn","url":"https://drafts.csswg.org/css-shadow-1/#tree-context"},
 "https://drafts.csswg.org/css-sizing-3/#propdef-height": {"displayText":"height","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"height","type":"property","url":"https://drafts.csswg.org/css-sizing-3/#propdef-height"},
 "https://drafts.csswg.org/css-sizing-3/#propdef-width": {"displayText":"width","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-sizing","spec":"css-sizing-3","status":"current","text":"width","type":"property","url":"https://drafts.csswg.org/css-sizing-3/#propdef-width"},
 "https://drafts.csswg.org/css-syntax-3/#at-ruledef-charset": {"displayText":"@charset","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"@charset","type":"at-rule","url":"https://drafts.csswg.org/css-syntax-3/#at-ruledef-charset"},
@@ -4416,21 +4404,15 @@ let refsData = {
 "https://drafts.csswg.org/css-writing-modes-3/#propdef-unicode-bidi": {"displayText":"unicode-bidi","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-3","status":"current","text":"unicode-bidi","type":"property","url":"https://drafts.csswg.org/css-writing-modes-3/#propdef-unicode-bidi"},
 "https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation": {"displayText":"text-orientation","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"text-orientation","type":"property","url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-text-orientation"},
 "https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode": {"displayText":"writing-mode","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-writing-modes","spec":"css-writing-modes-4","status":"current","text":"writing-mode","type":"property","url":"https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode"},
-"https://drafts.csswg.org/css2/#propdef-font": {"displayText":"font","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font"},
-"https://drafts.csswg.org/css2/#propdef-font-family": {"displayText":"font-family","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font-family","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font-family"},
-"https://drafts.csswg.org/css2/#propdef-font-size": {"displayText":"font-size","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font-size","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font-size"},
-"https://drafts.csswg.org/css2/#propdef-font-style": {"displayText":"font-style","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font-style","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font-style"},
-"https://drafts.csswg.org/css2/#propdef-font-variant": {"displayText":"font-variant","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font-variant","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font-variant"},
-"https://drafts.csswg.org/css2/#propdef-font-weight": {"displayText":"font-weight","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"font-weight","type":"property","url":"https://drafts.csswg.org/css2/#propdef-font-weight"},
-"https://drafts.csswg.org/css2/#propdef-page-break-after": {"displayText":"page-break-after","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"page-break-after","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-after"},
-"https://drafts.csswg.org/css2/#propdef-page-break-before": {"displayText":"page-break-before","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"page-break-before","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-before"},
-"https://drafts.csswg.org/css2/#valdef-font-style-italic": {"displayText":"italic","export":true,"for_":["font-style"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"italic","type":"value","url":"https://drafts.csswg.org/css2/#valdef-font-style-italic"},
-"https://drafts.csswg.org/css2/#valdef-font-weight-bolder": {"displayText":"bolder","export":true,"for_":["font-weight"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"bolder","type":"value","url":"https://drafts.csswg.org/css2/#valdef-font-weight-bolder"},
-"https://drafts.csswg.org/css2/#valdef-generic-family-sans-serif": {"displayText":"sans-serif","export":true,"for_":["<generic-family>"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"sans-serif","type":"value","url":"https://drafts.csswg.org/css2/#valdef-generic-family-sans-serif"},
+"https://drafts.csswg.org/css2/#propdef-display": {"displayText":"display","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"display","type":"property","url":"https://drafts.csswg.org/css2/#propdef-display"},
+"https://drafts.csswg.org/css2/#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-line-height"},
+"https://drafts.csswg.org/css2/#propdef-page-break-after": {"displayText":"page-break-after","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"page-break-after","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-after"},
+"https://drafts.csswg.org/css2/#propdef-page-break-before": {"displayText":"page-break-before","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"page-break-before","type":"property","url":"https://drafts.csswg.org/css2/#propdef-page-break-before"},
+"https://drafts.csswg.org/css2/#valdef-color-red": {"displayText":"red","export":true,"for_":["<color>"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"red","type":"value","url":"https://drafts.csswg.org/css2/#valdef-color-red"},
 "https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle": {"displayText":"getComputedStyle(elt)","export":true,"for_":["Window"],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"getComputedStyle(elt)","type":"method","url":"https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle"},
 "https://drafts.csswg.org/mediaqueries-4/#media-query": {"displayText":"media query","export":true,"for_":[],"level":"4","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-4","status":"current","text":"media query","type":"dfn","url":"https://drafts.csswg.org/mediaqueries-4/#media-query"},
 "https://drafts.csswg.org/mediaqueries-4/#typedef-media-query-list": {"displayText":"<media-query-list>","export":true,"for_":[],"level":"4","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-4","status":"current","text":"<media-query-list>","type":"type","url":"https://drafts.csswg.org/mediaqueries-4/#typedef-media-query-list"},
-"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-element","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-element","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
+"https://drafts.csswg.org/selectors-4/#pseudo-element": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"4","normative":true,"shortname":"selectors","spec":"selectors-4","status":"current","text":"pseudo-elements","type":"dfn","url":"https://drafts.csswg.org/selectors-4/#pseudo-element"},
 "https://fetch.spec.whatwg.org/#concept-response": {"displayText":"response","export":true,"for_":[],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"response","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-response"},
 "https://fetch.spec.whatwg.org/#concept-response-url": {"displayText":"URL","export":true,"for_":["response"],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"url","type":"dfn","url":"https://fetch.spec.whatwg.org/#concept-response-url"},
 "https://fetch.spec.whatwg.org/#cors-protocol": {"displayText":"CORS protocol","export":true,"for_":[],"level":"1","normative":true,"shortname":"fetch","spec":"fetch","status":"current","text":"cors protocol","type":"dfn","url":"https://fetch.spec.whatwg.org/#cors-protocol"},
@@ -4439,9 +4421,6 @@ let refsData = {
 "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element": {"displayText":"slot","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"slot","type":"element","url":"https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element"},
 "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element": {"displayText":"s","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"s","type":"element","url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element"},
 "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#content-type": {"displayText":"Content-Type metadata","export":false,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"content-type metadata","type":"dfn","url":"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#content-type"},
-"https://www.w3.org/TR/CSS21/selector.html#x22": {"displayText":"pseudo-elements","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"pseudo-elements","type":"dfn","url":"https://www.w3.org/TR/CSS21/selector.html#x22"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-display": {"displayText":"display","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"display","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-display"},
 };
 
 function mkRefHint(link, ref) {

@@ -969,7 +969,7 @@ Background information, CSS 2.1</span><a class="self-link" href="#background"></
 	and defines a new “box” model specifically for the aural dimension.</p>
    <p>Content creators can include CSS properties for user agents with
 	text to speech synthesis capabilities for any media type - though
-	generally, they will only make sense for <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all" id="ref-for-valdef-anchor-scope-all">all</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css2/#valdef-media-screen" id="ref-for-valdef-media-screen">screen</a>.
+	generally, they will only make sense for <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/animation-triggers-1/#valdef-trigger-scope-all" id="ref-for-valdef-trigger-scope-all">all</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/compositing-2/#valdef-blend-mode-screen" id="ref-for-valdef-blend-mode-screen">screen</a>.
 	These styles are simply ignored by user agents that do not support
 	the Speech module.</p>
    <h2 class="heading settled" data-level="3" id="ssml-rel"><span class="secno">3. </span><span class="content">
@@ -2003,7 +2003,7 @@ The <a class="css property" data-link-type="property" href="#propdef-voice-famil
 	CSS Speech does not provide an equivalent to SSML’s sophisticated voice language selection.
 	This technical limitation may be alleviated in a future revision of the Speech module.</p>
    <dl>
-    <dt><dfn class="css dfn-paneled" data-dfn-for="voice-family" data-dfn-type="value" data-export id="valdef-voice-family-family-name"><a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-fonts-4/#family-name-value" id="ref-for-family-name-value">&lt;family-name></a></dfn>
+    <dt><dfn class="css dfn-paneled" data-dfn-for="voice-family" data-dfn-type="value" data-export id="valdef-voice-family-family-name"><a class="css production" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-family-name" id="ref-for-value-def-family-name">&lt;family-name></a></dfn>
 		
     <dd>
      
@@ -3235,9 +3235,14 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
-    <a data-link-type="biblio">[CSS-ANCHOR-POSITION-1]</a> defines the following terms:
+    <a data-link-type="biblio">[ANIMATION-TRIGGERS-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="6fe3a93b">all</span>
+     <li><span class="dfn-paneled" id="163aec3b">all</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[COMPOSITING-2]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="07fb436c">screen</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-BACKGROUNDS-3]</a> defines the following terms:
@@ -3281,7 +3286,6 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS-FONTS-4]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="ba80b0b1">&lt;family-name></span>
      <li><span class="dfn-paneled" id="d65d17df">font-family</span>
     </ul>
    <li>
@@ -3317,10 +3321,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="8a82fda1">||</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS22]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
+     <li><span class="dfn-paneled" id="cf2581ff">&lt;family-name></span>
      <li><span class="dfn-paneled" id="d6a1ad1b">&lt;uri></span>
-     <li><span class="dfn-paneled" id="fa9dd02c">screen</span>
      <li><span class="dfn-paneled" id="6019a537">speech</span>
     </ul>
    <li>
@@ -3353,8 +3357,10 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h2 class="heading no-num no-ref settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
-   <dt id="biblio-css-anchor-position-1">[CSS-ANCHOR-POSITION-1]
-   <dd>Tab Atkins Jr.; Elika Etemad; Ian Kilpatrick. <a href="https://drafts.csswg.org/css-anchor-position-1/"><cite>CSS Anchor Positioning</cite></a>. URL: <a href="https://drafts.csswg.org/css-anchor-position-1/">https://drafts.csswg.org/css-anchor-position-1/</a>
+   <dt id="biblio-animation-triggers-1">[ANIMATION-TRIGGERS-1]
+   <dd><a href="https://drafts.csswg.org/animation-triggers-1/"><cite>Animation Triggers</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/animation-triggers-1/">https://drafts.csswg.org/animation-triggers-1/</a>
+   <dt id="biblio-compositing-2">[COMPOSITING-2]
+   <dd><a href="https://drafts.csswg.org/compositing-2/"><cite>Compositing and Blending Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/compositing-2/">https://drafts.csswg.org/compositing-2/</a>
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Elika Etemad; Brad Kemper. <a href="https://drafts.csswg.org/css-backgrounds/"><cite>CSS Backgrounds and Borders Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-backgrounds/">https://drafts.csswg.org/css-backgrounds/</a>
    <dt id="biblio-css-box-4">[CSS-BOX-4]
@@ -3364,29 +3370,27 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-counter-styles-3">[CSS-COUNTER-STYLES-3]
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-counter-styles/"><cite>CSS Counter Styles Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-counter-styles/">https://drafts.csswg.org/css-counter-styles/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
    <dd>Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-4/"><cite>CSS Fonts Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-fonts-4/">https://drafts.csswg.org/css-fonts-4/</a>
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css-pseudo-4">[CSS-PSEUDO-4]
-   <dd>Daniel Glazman; Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
+   <dd>Elika Etemad; Alan Stearns. <a href="https://drafts.csswg.org/css-pseudo-4/"><cite>CSS Pseudo-Elements Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-pseudo-4/">https://drafts.csswg.org/css-pseudo-4/</a>
    <dt id="biblio-css-values-3">[CSS-VALUES-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-3/"><cite>CSS Values and Units Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-3/">https://drafts.csswg.org/css-values-3/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
-   <dt id="biblio-css22">[CSS22]
-   <dd>Bert Bos. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3gencon">[CSS3GENCON]
-   <dd>Elika Etemad; Dave Cramer. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
+   <dd>Elika Etemad; Mike Bremford. <a href="https://drafts.csswg.org/css-content-3/"><cite>CSS Generated Content Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-content-3/">https://drafts.csswg.org/css-content-3/</a>
    <dt id="biblio-css3list">[CSS3LIST]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-lists-3/"><cite>CSS Lists and Counters Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-lists-3/">https://drafts.csswg.org/css-lists-3/</a>
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
-   <dd>Dean Jackson; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
+   <dd>Tab Atkins Jr.; et al. <a href="https://drafts.csswg.org/mediaqueries-5/"><cite>Media Queries Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/mediaqueries-5/">https://drafts.csswg.org/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-ssml">[SSML]
@@ -3798,9 +3802,11 @@ function parseHTML(markup) {
 let dfnPanelData = {
 "03570f9e": {"dfnID":"03570f9e","dfnText":"<time>","external":true,"refSections":[{"refs":[{"id":"ref-for-time-value"}],"title":"8.1. \nThe pause-before and pause-after properties"},{"refs":[{"id":"ref-for-time-value\u2460"},{"id":"ref-for-time-value\u2461"}],"title":"9.1. \nThe rest-before and rest-after properties"},{"refs":[{"id":"ref-for-time-value\u2462"},{"id":"ref-for-time-value\u2463"}],"title":"12.1. \nThe voice-duration property"}],"url":"https://drafts.csswg.org/css-values-4/#time-value"},
 "0698d556": {"dfnID":"0698d556","dfnText":"string","external":true,"refSections":[{"refs":[{"id":"ref-for-string"}],"title":"11.1. \nThe voice-family property"}],"url":"https://infra.spec.whatwg.org/#string"},
+"07fb436c": {"dfnID":"07fb436c","dfnText":"screen","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-blend-mode-screen"}],"title":"2. \nBackground information, CSS 2.1"}],"url":"https://drafts.csswg.org/compositing-2/#valdef-blend-mode-screen"},
 "12f8fb07": {"dfnID":"12f8fb07","dfnText":"visibility","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-visibility"}],"title":"7.1. \nThe speak property"},{"refs":[{"id":"ref-for-propdef-visibility\u2460"}],"title":"\nAppendix E \u2014 Changes"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-visibility"},
 "15f5b381": {"dfnID":"15f5b381","dfnText":"<percentage>","external":true,"refSections":[{"refs":[{"id":"ref-for-percentage-value"},{"id":"ref-for-percentage-value\u2460"}],"title":"11.2. \nThe voice-rate property"},{"refs":[{"id":"ref-for-percentage-value\u2461"},{"id":"ref-for-percentage-value\u2462"}],"title":"11.3. \nThe voice-pitch property"},{"refs":[{"id":"ref-for-percentage-value\u2463"},{"id":"ref-for-percentage-value\u2464"}],"title":"11.4. \nThe voice-range property"}],"url":"https://drafts.csswg.org/css-values-4/#percentage-value"},
 "16310992": {"dfnID":"16310992","dfnText":"<number>","external":true,"refSections":[{"refs":[{"id":"ref-for-number-value"},{"id":"ref-for-number-value\u2460"}],"title":"6.2. \nThe voice-balance property"}],"url":"https://drafts.csswg.org/css-values-4/#number-value"},
+"163aec3b": {"dfnID":"163aec3b","dfnText":"all","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-trigger-scope-all"}],"title":"2. \nBackground information, CSS 2.1"}],"url":"https://drafts.csswg.org/animation-triggers-1/#valdef-trigger-scope-all"},
 "1f90c5c7": {"dfnID":"1f90c5c7","dfnText":"decimal-leading-zero","external":true,"refSections":[{"refs":[{"id":"ref-for-decimal-leading-zero"}],"title":"13. \nList items and counters styles"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#decimal-leading-zero"},
 "2467179e": {"dfnID":"2467179e","dfnText":"content","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-content"}],"title":"13. \nList items and counters styles"},{"refs":[{"id":"ref-for-propdef-content\u2460"}],"title":"14. \nInserted and replaced content"}],"url":"https://drafts.csswg.org/css-content-3/#propdef-content"},
 "269ee415": {"dfnID":"269ee415","dfnText":"lower-roman","external":true,"refSections":[{"refs":[{"id":"ref-for-lower-roman"}],"title":"13. \nList items and counters styles"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#lower-roman"},
@@ -3816,7 +3822,6 @@ let dfnPanelData = {
 "6420cb11": {"dfnID":"6420cb11","dfnText":"visible","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-visibility-visible"}],"title":"7.1. \nThe speak property"}],"url":"https://drafts.csswg.org/css-display-4/#valdef-visibility-visible"},
 "68150e76": {"dfnID":"68150e76","dfnText":"*","external":true,"refSections":[{"refs":[{"id":"ref-for-mult-zero-plus"}],"title":"11.1. \nThe voice-family property"}],"url":"https://drafts.csswg.org/css-values-4/#mult-zero-plus"},
 "6ec67710": {"dfnID":"6ec67710","dfnText":"|","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-one"},{"id":"ref-for-comb-one\u2460"},{"id":"ref-for-comb-one\u2461"},{"id":"ref-for-comb-one\u2462"},{"id":"ref-for-comb-one\u2463"}],"title":"6.1. \nThe voice-volume property"},{"refs":[{"id":"ref-for-comb-one\u2464"},{"id":"ref-for-comb-one\u2465"},{"id":"ref-for-comb-one\u2466"},{"id":"ref-for-comb-one\u2467"},{"id":"ref-for-comb-one\u2468"}],"title":"6.2. \nThe voice-balance property"},{"refs":[{"id":"ref-for-comb-one\u2460\u24ea"},{"id":"ref-for-comb-one\u2460\u2460"}],"title":"7.1. \nThe speak property"},{"refs":[{"id":"ref-for-comb-one\u2460\u2461"},{"id":"ref-for-comb-one\u2460\u2462"}],"title":"7.2. \nThe speak-as property"},{"refs":[{"id":"ref-for-comb-one\u2460\u2463"},{"id":"ref-for-comb-one\u2460\u2464"},{"id":"ref-for-comb-one\u2460\u2465"},{"id":"ref-for-comb-one\u2460\u2466"},{"id":"ref-for-comb-one\u2460\u2467"},{"id":"ref-for-comb-one\u2460\u2468"}],"title":"8.1. \nThe pause-before and pause-after properties"},{"refs":[{"id":"ref-for-comb-one\u2461\u24ea"},{"id":"ref-for-comb-one\u2461\u2460"},{"id":"ref-for-comb-one\u2461\u2461"},{"id":"ref-for-comb-one\u2461\u2462"},{"id":"ref-for-comb-one\u2461\u2463"},{"id":"ref-for-comb-one\u2461\u2464"}],"title":"9.1. \nThe rest-before and rest-after properties"},{"refs":[{"id":"ref-for-comb-one\u2461\u2465"}],"title":"10.1. \nThe cue-before and cue-after properties"},{"refs":[{"id":"ref-for-comb-one\u2461\u2466"},{"id":"ref-for-comb-one\u2461\u2467"},{"id":"ref-for-comb-one\u2461\u2468"}],"title":"11.1. \nThe voice-family property"},{"refs":[{"id":"ref-for-comb-one\u2462\u24ea"},{"id":"ref-for-comb-one\u2462\u2460"},{"id":"ref-for-comb-one\u2462\u2461"},{"id":"ref-for-comb-one\u2462\u2462"},{"id":"ref-for-comb-one\u2462\u2463"}],"title":"11.2. \nThe voice-rate property"},{"refs":[{"id":"ref-for-comb-one\u2462\u2464"},{"id":"ref-for-comb-one\u2462\u2465"},{"id":"ref-for-comb-one\u2462\u2466"},{"id":"ref-for-comb-one\u2462\u2467"},{"id":"ref-for-comb-one\u2462\u2468"},{"id":"ref-for-comb-one\u2463\u24ea"},{"id":"ref-for-comb-one\u2463\u2460"}],"title":"11.3. \nThe voice-pitch property"},{"refs":[{"id":"ref-for-comb-one\u2463\u2461"},{"id":"ref-for-comb-one\u2463\u2462"},{"id":"ref-for-comb-one\u2463\u2463"},{"id":"ref-for-comb-one\u2463\u2464"},{"id":"ref-for-comb-one\u2463\u2465"},{"id":"ref-for-comb-one\u2463\u2466"},{"id":"ref-for-comb-one\u2463\u2467"}],"title":"11.4. \nThe voice-range property"},{"refs":[{"id":"ref-for-comb-one\u2463\u2468"},{"id":"ref-for-comb-one\u2464\u24ea"},{"id":"ref-for-comb-one\u2464\u2460"},{"id":"ref-for-comb-one\u2464\u2461"}],"title":"11.5. \nThe voice-stress property"},{"refs":[{"id":"ref-for-comb-one\u2464\u2462"}],"title":"12.1. \nThe voice-duration property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-one"},
-"6fe3a93b": {"dfnID":"6fe3a93b","dfnText":"all","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-anchor-scope-all"}],"title":"2. \nBackground information, CSS 2.1"}],"url":"https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all"},
 "70c9f859": {"dfnID":"70c9f859","dfnText":"<integer>","external":true,"refSections":[{"refs":[{"id":"ref-for-integer-value"},{"id":"ref-for-integer-value\u2460"}],"title":"11.1. \nThe voice-family property"}],"url":"https://drafts.csswg.org/css-values-4/#integer-value"},
 "8343cc0f": {"dfnID":"8343cc0f","dfnText":"aural","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-media-aural"}],"title":"2. \nBackground information, CSS 2.1"}],"url":"https://drafts.csswg.org/mediaqueries-5/#valdef-media-aural"},
 "8a82fda1": {"dfnID":"8a82fda1","dfnText":"||","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-any"}],"title":"6.1. \nThe voice-volume property"},{"refs":[{"id":"ref-for-comb-any\u2460"},{"id":"ref-for-comb-any\u2461"}],"title":"7.2. \nThe speak-as property"},{"refs":[{"id":"ref-for-comb-any\u2462"}],"title":"11.2. \nThe voice-rate property"},{"refs":[{"id":"ref-for-comb-any\u2463"}],"title":"11.3. \nThe voice-pitch property"},{"refs":[{"id":"ref-for-comb-any\u2464"}],"title":"11.4. \nThe voice-range property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-any"},
@@ -3830,10 +3835,10 @@ let dfnPanelData = {
 "b0b8d8c0": {"dfnID":"b0b8d8c0","dfnText":"right","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-right"}],"title":"6.2. \nThe voice-balance property"}],"url":"https://drafts.csswg.org/css-position-3/#propdef-right"},
 "b32b852a": {"dfnID":"b32b852a","dfnText":"span","external":true,"refSections":[{"refs":[{"id":"ref-for-the-span-element"}],"title":"4. \nExample"}],"url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element"},
 "b5418f3e": {"dfnID":"b5418f3e","dfnText":"padding","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-padding"}],"title":"5. \nThe aural formatting model"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-padding"},
-"ba80b0b1": {"dfnID":"ba80b0b1","dfnText":"<family-name>","external":true,"refSections":[{"refs":[{"id":"ref-for-family-name-value"}],"title":"11.1. \nThe voice-family property"}],"url":"https://drafts.csswg.org/css-fonts-4/#family-name-value"},
 "c388d253": {"dfnID":"c388d253","dfnText":"inherit","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-all-inherit"}],"title":"11.1. \nThe voice-family property"}],"url":"https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit"},
 "c7965b42": {"dfnID":"c7965b42","dfnText":"percentage","external":true,"refSections":[{"refs":[{"id":"ref-for-percentage"}],"title":"11.2. \nThe voice-rate property"},{"refs":[{"id":"ref-for-percentage\u2460"}],"title":"11.3. \nThe voice-pitch property"},{"refs":[{"id":"ref-for-percentage\u2461"}],"title":"11.4. \nThe voice-range property"}],"url":"https://drafts.csswg.org/css-values-4/#percentage"},
 "cecbe9cd": {"dfnID":"cecbe9cd","dfnText":"margin","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-margin"}],"title":"5. \nThe aural formatting model"}],"url":"https://drafts.csswg.org/css-box-4/#propdef-margin"},
+"cf2581ff": {"dfnID":"cf2581ff","dfnText":"<family-name>","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-family-name"}],"title":"11.1. \nThe voice-family property"}],"url":"https://drafts.csswg.org/css2/#value-def-family-name"},
 "d4922c84": {"dfnID":"d4922c84","dfnText":"lower-latin","external":true,"refSections":[{"refs":[{"id":"ref-for-lower-latin"}],"title":"13. \nList items and counters styles"}],"url":"https://drafts.csswg.org/css-counter-styles-3/#lower-latin"},
 "d65d17df": {"dfnID":"d65d17df","dfnText":"font-family","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-font-family"},{"id":"ref-for-propdef-font-family\u2460"}],"title":"11.1. \nThe voice-family property"}],"url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-family"},
 "d6a1ad1b": {"dfnID":"d6a1ad1b","dfnText":"<uri>","external":true,"refSections":[{"refs":[{"id":"ref-for-value-def-uri"},{"id":"ref-for-value-def-uri\u2460"}],"title":"10.1. \nThe cue-before and cue-after properties"}],"url":"https://drafts.csswg.org/css2/#value-def-uri"},
@@ -3847,7 +3852,6 @@ let dfnPanelData = {
 "e7f0dd6c": {"dfnID":"e7f0dd6c","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"},{"id":"ref-for-propdef-display\u2460"},{"id":"ref-for-propdef-display\u2461"},{"id":"ref-for-propdef-display\u2462"},{"id":"ref-for-propdef-display\u2463"}],"title":"7.1. \nThe speak property"}],"url":"https://drafts.csswg.org/css-display-4/#propdef-display"},
 "f0809abc": {"dfnID":"f0809abc","dfnText":"&&","external":true,"refSections":[{"refs":[{"id":"ref-for-comb-all"}],"title":"11.3. \nThe voice-pitch property"},{"refs":[{"id":"ref-for-comb-all\u2460"}],"title":"11.4. \nThe voice-range property"}],"url":"https://drafts.csswg.org/css-values-4/#comb-all"},
 "f0ba04de": {"dfnID":"f0ba04de","dfnText":"number","external":true,"refSections":[{"refs":[{"id":"ref-for-number"}],"title":"6.2. \nThe voice-balance property"}],"url":"https://drafts.csswg.org/css-values-4/#number"},
-"fa9dd02c": {"dfnID":"fa9dd02c","dfnText":"screen","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-media-screen"}],"title":"2. \nBackground information, CSS 2.1"}],"url":"https://drafts.csswg.org/css2/#valdef-media-screen"},
 "fd0c9e35": {"dfnID":"fd0c9e35","dfnText":"::after","external":true,"refSections":[{"refs":[{"id":"ref-for-selectordef-after"}],"title":"5. \nThe aural formatting model"},{"refs":[{"id":"ref-for-selectordef-after\u2460"}],"title":"14. \nInserted and replaced content"}],"url":"https://drafts.csswg.org/css-pseudo-4/#selectordef-after"},
 "propdef-cue": {"dfnID":"propdef-cue","dfnText":"cue","external":false,"refSections":[{"refs":[{"id":"ref-for-propdef-cue"}],"title":"5. The aural formatting model"},{"refs":[{"id":"ref-for-propdef-cue\u2460"},{"id":"ref-for-propdef-cue\u2461"}],"title":"8.3. Collapsing pauses"},{"refs":[{"id":"ref-for-propdef-cue\u2462"},{"id":"ref-for-propdef-cue\u2463"}],"title":"10.3. The cue shorthand property"}],"url":"#propdef-cue"},
 "propdef-cue-after": {"dfnID":"propdef-cue-after","dfnText":"cue-after","external":false,"refSections":[{"refs":[{"id":"ref-for-propdef-cue-after"}],"title":"8.1. The pause-before and pause-after properties"},{"refs":[{"id":"ref-for-propdef-cue-after\u2460"},{"id":"ref-for-propdef-cue-after\u2461"}],"title":"8.3. Collapsing pauses"},{"refs":[{"id":"ref-for-propdef-cue-after\u2462"}],"title":"9.1. The rest-before and rest-after properties"},{"refs":[{"id":"ref-for-propdef-cue-after\u2463"},{"id":"ref-for-propdef-cue-after\u2464"}],"title":"10.1. The cue-before and cue-after properties"},{"refs":[{"id":"ref-for-propdef-cue-after\u2465"},{"id":"ref-for-propdef-cue-after\u2466"},{"id":"ref-for-propdef-cue-after\u2467"}],"title":"10.3. The cue shorthand property"}],"url":"#propdef-cue-after"},
@@ -4406,7 +4410,8 @@ let refsData = {
 "#valdef-voice-volume-x-loud": {"displayText":"x-loud","export":true,"for_":["voice-volume"],"level":"1","normative":true,"shortname":"css-speech","spec":"css-speech-1","status":"local","text":"x-loud","type":"value","url":"#valdef-voice-volume-x-loud"},
 "#valdef-voice-volume-x-soft": {"displayText":"x-soft","export":true,"for_":["voice-volume"],"level":"1","normative":true,"shortname":"css-speech","spec":"css-speech-1","status":"local","text":"x-soft","type":"value","url":"#valdef-voice-volume-x-soft"},
 "#voice-pitch-semitone": {"displayText":"semitone","export":true,"for_":["voice-pitch"],"level":"1","normative":true,"shortname":"css-speech","spec":"css-speech-1","status":"local","text":"semitone","type":"dfn","url":"#voice-pitch-semitone"},
-"https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all": {"displayText":"all","export":true,"for_":["anchor-scope"],"level":"1","normative":true,"shortname":"css-anchor-position","spec":"css-anchor-position-1","status":"current","text":"all","type":"value","url":"https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all"},
+"https://drafts.csswg.org/animation-triggers-1/#valdef-trigger-scope-all": {"displayText":"all","export":true,"for_":["trigger-scope"],"level":"1","normative":true,"shortname":"animation-triggers","spec":"animation-triggers-1","status":"current","text":"all","type":"value","url":"https://drafts.csswg.org/animation-triggers-1/#valdef-trigger-scope-all"},
+"https://drafts.csswg.org/compositing-2/#valdef-blend-mode-screen": {"displayText":"screen","export":true,"for_":["<blend-mode>"],"level":"2","normative":true,"shortname":"compositing","spec":"compositing-2","status":"current","text":"screen","type":"value","url":"https://drafts.csswg.org/compositing-2/#valdef-blend-mode-screen"},
 "https://drafts.csswg.org/css-backgrounds-3/#propdef-border": {"displayText":"border","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-backgrounds","spec":"css-backgrounds-3","status":"current","text":"border","type":"property","url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border"},
 "https://drafts.csswg.org/css-box-4/#propdef-margin": {"displayText":"margin","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"margin","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-margin"},
 "https://drafts.csswg.org/css-box-4/#propdef-padding": {"displayText":"padding","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-box","spec":"css-box-4","status":"current","text":"padding","type":"property","url":"https://drafts.csswg.org/css-box-4/#propdef-padding"},
@@ -4427,7 +4432,6 @@ let refsData = {
 "https://drafts.csswg.org/css-display-4/#propdef-visibility": {"displayText":"visibility","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"visibility","type":"property","url":"https://drafts.csswg.org/css-display-4/#propdef-visibility"},
 "https://drafts.csswg.org/css-display-4/#valdef-display-none": {"displayText":"none","export":true,"for_":["display","<display-box>"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"none","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-display-none"},
 "https://drafts.csswg.org/css-display-4/#valdef-visibility-visible": {"displayText":"visible","export":true,"for_":["visibility"],"level":"4","normative":true,"shortname":"css-display","spec":"css-display-4","status":"current","text":"visible","type":"value","url":"https://drafts.csswg.org/css-display-4/#valdef-visibility-visible"},
-"https://drafts.csswg.org/css-fonts-4/#family-name-value": {"displayText":"<family-name>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"<family-name>","type":"type","url":"https://drafts.csswg.org/css-fonts-4/#family-name-value"},
 "https://drafts.csswg.org/css-fonts-4/#propdef-font-family": {"displayText":"font-family","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-fonts","spec":"css-fonts-4","status":"current","text":"font-family","type":"property","url":"https://drafts.csswg.org/css-fonts-4/#propdef-font-family"},
 "https://drafts.csswg.org/css-lists-3/#propdef-list-style-image": {"displayText":"list-style-image","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"list-style-image","type":"property","url":"https://drafts.csswg.org/css-lists-3/#propdef-list-style-image"},
 "https://drafts.csswg.org/css-lists-3/#propdef-list-style-type": {"displayText":"list-style-type","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-lists","spec":"css-lists-3","status":"current","text":"list-style-type","type":"property","url":"https://drafts.csswg.org/css-lists-3/#propdef-list-style-type"},
@@ -4451,9 +4455,9 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#percentage": {"displayText":"percentage","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"percentage","type":"dfn","url":"https://drafts.csswg.org/css-values-4/#percentage"},
 "https://drafts.csswg.org/css-values-4/#percentage-value": {"displayText":"<percentage>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<percentage>","type":"type","url":"https://drafts.csswg.org/css-values-4/#percentage-value"},
 "https://drafts.csswg.org/css-values-4/#time-value": {"displayText":"<time>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<time>","type":"type","url":"https://drafts.csswg.org/css-values-4/#time-value"},
-"https://drafts.csswg.org/css2/#valdef-media-screen": {"displayText":"screen","export":true,"for_":["@media"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"screen","type":"value","url":"https://drafts.csswg.org/css2/#valdef-media-screen"},
-"https://drafts.csswg.org/css2/#valdef-media-speech": {"displayText":"speech","export":true,"for_":["@media"],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"speech","type":"value","url":"https://drafts.csswg.org/css2/#valdef-media-speech"},
-"https://drafts.csswg.org/css2/#value-def-uri": {"displayText":"<uri>","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css22","status":"current","text":"<uri>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-uri"},
+"https://drafts.csswg.org/css2/#valdef-media-speech": {"displayText":"speech","export":true,"for_":["@media"],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"speech","type":"value","url":"https://drafts.csswg.org/css2/#valdef-media-speech"},
+"https://drafts.csswg.org/css2/#value-def-family-name": {"displayText":"<family-name>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<family-name>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-family-name"},
+"https://drafts.csswg.org/css2/#value-def-uri": {"displayText":"<uri>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"<uri>","type":"type","url":"https://drafts.csswg.org/css2/#value-def-uri"},
 "https://drafts.csswg.org/mediaqueries-5/#valdef-media-aural": {"displayText":"aural","export":true,"for_":["@media"],"level":"5","normative":true,"shortname":"mediaqueries","spec":"mediaqueries-5","status":"current","text":"aural","type":"value","url":"https://drafts.csswg.org/mediaqueries-5/#valdef-media-aural"},
 "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element": {"displayText":"span","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"span","type":"element","url":"https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element"},
 "https://infra.spec.whatwg.org/#string": {"displayText":"string","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"string","type":"dfn","url":"https://infra.spec.whatwg.org/#string"},

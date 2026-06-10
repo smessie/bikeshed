@@ -29,7 +29,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesiserrorcode-voice-unavailable
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesiserrorcode-voice-unavailable
 1
 1
 SpeechSynthesisErrorCode
@@ -115,6 +115,18 @@ https://www.w3.org/TR/selectors-4/#selectordef-volume-locked
 1
 1
 -
+<voice-family-name>
+<voice-family-name>
+type
+css-speech-1
+css-speech
+1
+current
+https://drafts.csswg.org/css-speech-1/#typedef-voice-family-voice-family-name
+1
+1
+voice-family
+-
 vocabulary
 vocabulary
 dfn
@@ -129,6 +141,50 @@ https://w3c.github.io/i18n-glossary/#dfn-vocabulary
 vocabulary
 vocabulary
 dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-vocabulary
+
+
+-
+vocabulary
+vocabulary
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-vocabulary
+
+1
+-
+vocabulary
+vocabulary
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-vocabulary
+
+
+-
+vocabulary
+vocabulary
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-vocabulary
+
+
+-
+vocabulary
+vocabulary
+dfn
 i18n-glossary
 i18n-glossary
 1
@@ -136,6 +192,160 @@ snapshot
 https://www.w3.org/TR/i18n-glossary/#dfn-vocabulary
 1
 
+-
+vocabulary
+vocabulary
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-vocabulary
+
+
+-
+vocabulary
+vocabulary
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-vocabulary
+
+1
+-
+vocabulary
+vocabulary
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-vocabulary
+
+
+-
+vocabulary
+vocabulary
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-vocabulary
+
+
+-
+vocabulary document for a binding
+Vocabulary Document for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-vocabulary-document-for-a-binding
+
+1
+-
+vocabulary document for a binding
+Vocabulary Document for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-vocabulary-document-for-a-binding
+
+1
+-
+vocabulary term
+Vocabulary Term
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-vocabulary-term
+
+
+-
+vocabulary term
+Vocabulary Term
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-vocab-term
+
+
+-
+vocabulary term
+Vocabulary Term
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-vocab-term
+
+
+-
+vocabulary term
+Vocabulary Term
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-vocabulary-term
+
+
+-
+vocabulary term
+Vocabulary Term
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-vocab-term
+
+
+-
+vocabulary term
+Vocabulary Term
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-vocab-term
+
+
+-
+vocabulary in rdf for a binding
+Vocabulary in RDF for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-vocabulary-in-rdf-for-a-binding
+
+1
+-
+vocabulary in rdf for a binding
+Vocabulary in RDF for a Binding
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-vocabulary-in-rdf-for-a-binding
+
+1
 -
 void elements
 void elements
@@ -162,17 +372,6 @@ https://webidl.spec.whatwg.org/#VoidFunction
 vocabulary
 vocabulary
 dfn
-rdf12-concepts
-rdf-concepts
-1
-current
-https://w3c.github.io/rdf-concepts/spec/#dfn-rdf-vocabulary
-
-
--
-vocabulary
-vocabulary
-dfn
 rdf12-semantics
 rdf-semantics
 1
@@ -184,17 +383,6 @@ https://w3c.github.io/rdf-semantics/spec/#dfn-vocabulary
 vocabulary
 vocabulary
 dfn
-rdf12-concepts
-rdf-concepts
-1
-snapshot
-https://www.w3.org/TR/rdf12-concepts/#dfn-rdf-vocabulary
-
-
--
-vocabulary
-vocabulary
-dfn
 rdf12-semantics
 rdf-semantics
 1
@@ -202,17 +390,6 @@ snapshot
 https://www.w3.org/TR/rdf12-semantics/#dfn-vocabulary
 
 1
--
-vocabulary mapping
-vocabulary mapping
-dfn
-json-ld11
-json-ld
-1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-vocabulary-mapping
-
-
 -
 vocabulary mapping
 vocabulary mapping
@@ -279,7 +456,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-voice
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisutterance-voice
 1
 1
 SpeechSynthesisUtterance
@@ -356,31 +533,9 @@ voice-family
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#propdef-voice-family
-1
-1
--
-voice-family
-voice-family
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#propdef-voice-family
-1
-1
--
-voice-family
-voice-family
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/aural.html#propdef-voice-family
+https://www.w3.org/TR/CSS2/aural.html#propdef-voice-family
 1
 1
 -
@@ -512,7 +667,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-voiceuri
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisvoice-voiceuri
 1
 1
 SpeechSynthesisVoice
@@ -548,7 +703,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#eventdef-speechsynthesis-voiceschanged
+https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesis-voiceschanged
 1
 1
 SpeechSynthesis
@@ -596,7 +751,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-volume
+https://webaudio.github.io/web-speech-api/#dom-speechsynthesisutterance-volume
 1
 1
 SpeechSynthesisUtterance
@@ -606,20 +761,9 @@ volume
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#propdef-volume
-1
-1
--
-volume
-volume
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#propdef-volume
+https://www.w3.org/TR/CSS2/aural.html#propdef-volume
 1
 1
 -
@@ -628,31 +772,9 @@ volume
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/aural.html#x10
-1
-1
--
-volume
-volume
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/aural.html#x10
-1
-1
--
-volume
-volume
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/aural.html#propdef-volume
+https://www.w3.org/TR/CSS2/aural.html#x10
 1
 1
 -

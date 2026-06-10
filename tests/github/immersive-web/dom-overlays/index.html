@@ -1166,7 +1166,7 @@ The following code installs an event handler on an interactive part of the DOM o
    <p>The <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element①">overlay element</a> is a <a data-link-type="dfn" href="https://drafts.fxtf.org/filter-effects-2/#backdrop-root" id="ref-for-backdrop-root">backdrop root</a>.</p>
    <p class="note" role="note"><span class="marker">NOTE:</span> Backdrop filter effects on the DOM overlay element or its descendants do not modify the AR camera image (if applicable) or the rendered content drawn to the immersive session’s <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrwebgllayer" id="ref-for-xrwebgllayer">XRWebGLLayer</a></code>.</p>
    <p>The stacking contexts for ancestors of the overlay element, if any, do not paint to the immersive session’s display.</p>
-   <p class="note" role="note"><span class="marker">NOTE:</span> The <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element②">overlay element</a> itself is a <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/visuren.html#x43" id="ref-for-x43">stacking context</a> due to `position: fixed` styling.</p>
+   <p class="note" role="note"><span class="marker">NOTE:</span> The <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element②">overlay element</a> itself is a <a data-link-type="dfn" href="https://www.w3.org/TR/CSS2/visuren.html#x43" id="ref-for-x43">stacking context</a> due to `position: fixed` styling.</p>
    <p class="note" role="note"><span class="marker">NOTE:</span> on a multi-display system, the UA MAY paint and draw stacking contexts for ancestors or sibling trees of the overlay element on a separate display such as a desktop monitor.</p>
    <h3 class="heading settled" data-level="2.3" id="ua-style-sheet-defaults"><span class="secno">2.3. </span><span class="content">User-agent level style sheet defaults</span><a class="self-link" href="#ua-style-sheet-defaults"></a></h3>
    <p>The user-agent style sheet defaults for the <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element③">overlay element</a> are as follows:</p>
@@ -1203,7 +1203,7 @@ The following code installs an event handler on an interactive part of the DOM o
    <h3 class="heading settled" data-level="2.4" id="fullscreen-api-integration"><span class="secno">2.4. </span><span class="content">Fullscreen API integration</span><a class="self-link" href="#fullscreen-api-integration"></a></h3>
    <p>The UA MAY implement DOM Overlay as a special case of the <a data-link-type="biblio" href="#biblio-fullscreen" title="Fullscreen API Standard">[FULLSCREEN]</a> API. In this case, the UA MUST prevent changes to the active fullscreen element, rejecting <code class="idl"><a data-link-type="idl" href="https://fullscreen.spec.whatwg.org/#dom-element-requestfullscreen" id="ref-for-dom-element-requestfullscreen">requestFullscreen</a></code> requests for the duration of the immersive session.</p>
    <p class="note" role="note"><span class="marker">NOTE:</span> The DOM Overlay API requires specifying the overlay element at session start, and does not provide a mechanism to change the active overlay element during the session. Applications would behave inconsistently across platforms if they could use the Fullscreen API to indirectly change the active overlay element.</p>
-   <p>When DOM Overlay is implemented through the Fullscreen API, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#root-element" id="ref-for-root-element">root element</a> <a data-link-type="dfn" href="https://www.w3.org/TR/CSS21/visuren.html#x43" id="ref-for-x43①">stacking context</a> does not paint to the immersive display. Only the stacking contexts for the elements in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-position-4/#document-top-layer" id="ref-for-document-top-layer">top layer</a>, including the <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element④">overlay element</a>, paint to the immersive display.</p>
+   <p>When DOM Overlay is implemented through the Fullscreen API, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-4/#root-element" id="ref-for-root-element">root element</a> <a data-link-type="dfn" href="https://www.w3.org/TR/CSS2/visuren.html#x43" id="ref-for-x43①">stacking context</a> does not paint to the immersive display. Only the stacking contexts for the elements in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-position-4/#document-top-layer" id="ref-for-document-top-layer">top layer</a>, including the <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element④">overlay element</a>, paint to the immersive display.</p>
    <p class="note" role="note"><span class="marker">NOTE:</span> By default, fullscreen mode uses an opaque black backdrop. The modified paint rules ensure that this backdrop does not need to be drawn, and that ancestors of the overlay element or sibling trees aren’t visible through the transparent overlay element.</p>
    <p class="note" role="note"><span class="marker">NOTE:</span> Allowing implementation based on the Fullscreen API is primarily intended for single-display systems where the rest of the page is not visible during the immersive session. A multi-display system could technically use the Fullscreen API for the overlay element while showing the rest of the page on a separate display such as a desktop monitor, and in that case the UA MAY paint and draw stacking contexts for ancestors or sibling trees of the overlay element on the separate display.</p>
    <p>Alternatively, the UA MAY implement DOM Overlay independently of the <a data-link-type="biblio" href="#biblio-fullscreen" title="Fullscreen API Standard">[FULLSCREEN]</a> API. In this case, the <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element⑤">overlay element</a> MUST still match the <a data-link-type="dfn" href="#xr-overlay" id="ref-for-xr-overlay②">:xr-overlay</a> pseudoclass and MUST be styled in the immersive view using the <a href="#ua-style-sheet-defaults">§ 2.3 User-agent level style sheet defaults</a> for this pseudoclass. The UA MAY separately support using the fullscreen API for elements outside the <a data-link-type="dfn" href="#overlay-element" id="ref-for-overlay-element⑥">overlay element</a>, but this MUST NOT have any effect on how the DOM overlay content is displayed.</p>
@@ -1426,9 +1426,9 @@ all.</p>
      <li><span class="dfn-paneled" id="8f59bb58">top layer</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="a50c2771">stacking context</span>
+     <li><span class="dfn-paneled" id="b8c9eb8a">stacking context</span>
     </ul>
    <li>
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
@@ -1499,15 +1499,15 @@ all.</p>
    <dt id="biblio-csp3">[CSP3]
    <dd>Mike West; Antonio Sartori. <a href="https://w3c.github.io/webappsec-csp/"><cite>Content Security Policy Level 3</cite></a>. URL: <a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-position-4">[CSS-POSITION-4]
-   <dd><a href="https://drafts.csswg.org/css-position-4/"><cite>CSS Positioned Layout Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-position-4/">https://drafts.csswg.org/css-position-4/</a>
-   <dt id="biblio-css21">[CSS21]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-4/"><cite>CSS Positioned Layout Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-4/">https://drafts.csswg.org/css-position-4/</a>
+   <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-filter-effects-2">[FILTER-EFFECTS-2]
-   <dd><a href="https://drafts.fxtf.org/filter-effects-2/"><cite>Filter Effects Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.fxtf.org/filter-effects-2/">https://drafts.fxtf.org/filter-effects-2/</a>
+   <dd><a href="https://drafts.csswg.org/filter-effects-2/"><cite>Filter Effects Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/filter-effects-2/">https://drafts.csswg.org/filter-effects-2/</a>
    <dt id="biblio-fullscreen">[FULLSCREEN]
    <dd>Philip Jägenstedt. <a href="https://fullscreen.spec.whatwg.org/"><cite>Fullscreen API Standard</cite></a>. Living Standard. URL: <a href="https://fullscreen.spec.whatwg.org/">https://fullscreen.spec.whatwg.org/</a>
    <dt id="biblio-html">[HTML]
@@ -1517,7 +1517,7 @@ all.</p>
    <dt id="biblio-selectors-4">[SELECTORS-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/selectors/"><cite>Selectors Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/selectors/">https://drafts.csswg.org/selectors/</a>
    <dt id="biblio-uievents">[UIEVENTS]
-   <dd>Gary Kacmarcik; Travis Leithead. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
+   <dd>Xiaoqian Wu. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
    <dt id="biblio-webidl">[WEBIDL]
    <dd>Edgar Chen; Timothy Gu. <a href="https://webidl.spec.whatwg.org/"><cite>Web IDL Standard</cite></a>. Living Standard. URL: <a href="https://webidl.spec.whatwg.org/">https://webidl.spec.whatwg.org/</a>
    <dt id="biblio-webxr">[WEBXR]
@@ -1801,8 +1801,8 @@ let dfnPanelData = {
 "9a517a7d": {"dfnID":"9a517a7d","dfnText":"queue a task","external":true,"refSections":[{"refs":[{"id":"ref-for-queue-a-task"}],"title":"3.3. XRInputSource"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task"},
 "9db85b4a": {"dfnID":"9db85b4a","dfnText":"selectend","external":true,"refSections":[{"refs":[{"id":"ref-for-eventdef-xrsession-selectend"}],"title":"2.1. onbeforexrselect"},{"refs":[{"id":"ref-for-eventdef-xrsession-selectend\u2460"}],"title":"3.3. XRInputSource"},{"refs":[{"id":"ref-for-eventdef-xrsession-selectend\u2461"}],"title":"5. Event handling for cross-origin content"}],"url":"https://immersive-web.github.io/webxr/#eventdef-xrsession-selectend"},
 "a42ed5f1": {"dfnID":"a42ed5f1","dfnText":"optionalFeatures","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-xrsessioninit-optionalfeatures"}],"title":"3.1. XRSessionInit"}],"url":"https://immersive-web.github.io/webxr/#dom-xrsessioninit-optionalfeatures"},
-"a50c2771": {"dfnID":"a50c2771","dfnText":"stacking context","external":true,"refSections":[{"refs":[{"id":"ref-for-x43"}],"title":"2.2. CSS pseudo-class"},{"refs":[{"id":"ref-for-x43\u2460"}],"title":"2.4. Fullscreen API integration"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#x43"},
 "b23556e5": {"dfnID":"b23556e5","dfnText":"XRSession","external":true,"refSections":[{"refs":[{"id":"ref-for-xrsession"}],"title":"3. WebXR Device API Integration"},{"refs":[{"id":"ref-for-xrsession\u2460"}],"title":"3.2. XRSession"}],"url":"https://immersive-web.github.io/webxr/#xrsession"},
+"b8c9eb8a": {"dfnID":"b8c9eb8a","dfnText":"stacking context","external":true,"refSections":[{"refs":[{"id":"ref-for-x43"}],"title":"2.2. CSS pseudo-class"},{"refs":[{"id":"ref-for-x43\u2460"}],"title":"2.4. Fullscreen API integration"}],"url":"https://www.w3.org/TR/CSS2/visuren.html#x43"},
 "b9bda52b": {"dfnID":"b9bda52b","dfnText":"selectstart","external":true,"refSections":[{"refs":[{"id":"ref-for-eventdef-xrsession-selectstart"},{"id":"ref-for-eventdef-xrsession-selectstart\u2460"}],"title":"2.1. onbeforexrselect"},{"refs":[{"id":"ref-for-eventdef-xrsession-selectstart\u2461"}],"title":"3.3. XRInputSource"}],"url":"https://immersive-web.github.io/webxr/#eventdef-xrsession-selectstart"},
 "bcdb6841": {"dfnID":"bcdb6841","dfnText":"requestFullscreen()","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-element-requestfullscreen"}],"title":"2.4. Fullscreen API integration"}],"url":"https://fullscreen.spec.whatwg.org/#dom-element-requestfullscreen"},
 "beforexrselect": {"dfnID":"beforexrselect","dfnText":"beforexrselect","external":false,"refSections":[{"refs":[{"id":"ref-for-beforexrselect"}],"title":"1.1. Overview"},{"refs":[{"id":"ref-for-beforexrselect\u2460"},{"id":"ref-for-beforexrselect\u2461"},{"id":"ref-for-beforexrselect\u2462"}],"title":"2.1. onbeforexrselect"},{"refs":[{"id":"ref-for-beforexrselect\u2463"},{"id":"ref-for-beforexrselect\u2464"},{"id":"ref-for-beforexrselect\u2465"}],"title":"3.3. XRInputSource"},{"refs":[{"id":"ref-for-beforexrselect\u2466"}],"title":"5. Event handling for cross-origin content"}],"url":"#beforexrselect"},
@@ -2322,7 +2322,7 @@ let refsData = {
 "https://immersive-web.github.io/webxr/#xrwebgllayer": {"displayText":"XRWebGLLayer","export":true,"for_":[],"level":"1","normative":true,"shortname":"webxr","spec":"webxr","status":"current","text":"XRWebGLLayer","type":"interface","url":"https://immersive-web.github.io/webxr/#xrwebgllayer"},
 "https://w3c.github.io/uievents/#topmost-event-target": {"displayText":"topmost event target","export":true,"for_":[],"level":"","normative":true,"shortname":"ui-events","spec":"ui-events","status":"anchor-block","text":"topmost event target","type":"dfn","url":"https://w3c.github.io/uievents/#topmost-event-target"},
 "https://webidl.spec.whatwg.org/#notsupportederror": {"displayText":"NotSupportedError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"NotSupportedError","type":"exception","url":"https://webidl.spec.whatwg.org/#notsupportederror"},
-"https://www.w3.org/TR/CSS21/visuren.html#x43": {"displayText":"stacking context","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"stacking context","type":"dfn","url":"https://www.w3.org/TR/CSS21/visuren.html#x43"},
+"https://www.w3.org/TR/CSS2/visuren.html#x43": {"displayText":"stacking context","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"snapshot","text":"stacking context","type":"dfn","url":"https://www.w3.org/TR/CSS2/visuren.html#x43"},
 };
 
 function mkRefHint(link, ref) {

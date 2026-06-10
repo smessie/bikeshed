@@ -1196,7 +1196,7 @@ paint canvas.</p>
      <p>A <dfn class="dfn-paneled" data-dfn-for="paint definition" data-dfn-type="dfn" data-noexport id="paint-definition-paintrenderingcontext2dsettings-object">PaintRenderingContext2DSettings object</dfn>.</p>
    </ul>
    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="document-paint-definition">document paint definition</dfn> is a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#struct" id="ref-for-struct①">struct</a> which describes the information
-needed by the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> about the author defined <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-images-3/#typedef-image" id="ref-for-typedef-image③">&lt;image></a> function (which can be referenced
+needed by the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> about the author defined <a class="css production" data-link-type="type" href="https://drafts.csswg.org/css-images-3/#typedef-image" id="ref-for-typedef-image③">&lt;image></a> function (which can be referenced
 by the paint function). It consists of:</p>
    <ul>
     <li data-md>
@@ -1209,7 +1209,7 @@ by the paint function). It consists of:</p>
      <p>A <dfn class="dfn-paneled" data-dfn-for="document paint definition" data-dfn-type="dfn" data-noexport id="document-paint-definition-paintrenderingcontext2dsettings-object">PaintRenderingContext2DSettings object</dfn>.</p>
    </ul>
    <h2 class="heading settled" data-level="4" id="registering-custom-paint"><span class="secno">4. </span><span class="content">Registering Custom Paint</span><a class="self-link" href="#registering-custom-paint"></a></h2>
-   <p>The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a> has a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map">map</a> of <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="document-paint-definitions">document paint definitions</dfn>. Initially
+   <p>The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a> has a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map">map</a> of <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="document-paint-definitions">document paint definitions</dfn>. Initially
 this map is empty; it is populated when <code class="idl"><a data-link-type="idl" href="#dom-paintworkletglobalscope-registerpaint" id="ref-for-dom-paintworkletglobalscope-registerpaint①">registerPaint(name, paintCtor)</a></code> is called.</p>
    <p>A <code class="idl"><a data-link-type="idl" href="#paintworkletglobalscope" id="ref-for-paintworkletglobalscope④">PaintWorkletGlobalScope</a></code> has a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map①">map</a> of <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="paint-definitions">paint definitions</dfn>. Initially this map
 is empty; it is populated when <code class="idl"><a data-link-type="idl" href="#dom-paintworkletglobalscope-registerpaint" id="ref-for-dom-paintworkletglobalscope-registerpaint②">registerPaint(name, paintCtor)</a></code> is called.</p>
@@ -1312,7 +1312,7 @@ abort all these steps.</p>
       <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task">Queue a task</a> to run the following steps:</p>
       <ol>
        <li data-md>
-        <p>Let <var>documentPaintDefinitionMap</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document②">document’s</a> <a data-link-type="dfn" href="#document-paint-definitions" id="ref-for-document-paint-definitions">document paint definitions</a> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map③">map</a>.</p>
+        <p>Let <var>documentPaintDefinitionMap</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document②">document’s</a> <a data-link-type="dfn" href="#document-paint-definitions" id="ref-for-document-paint-definitions">document paint definitions</a> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ordered-map" id="ref-for-ordered-map③">map</a>.</p>
        <li data-md>
         <p>Let <var>documentDefinition</var> be a new <a data-link-type="dfn" href="#document-paint-definition" id="ref-for-document-paint-definition">document paint definition</a> with:</p>
         <ul>
@@ -1510,7 +1510,7 @@ draw.</p>
      <li data-md>
       <p>Let <var>name</var> be the first argument of the <var>paintFunction</var>.</p>
      <li data-md>
-      <p>Let <var>documentPaintDefinitionMap</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document③">document’s</a> <a data-link-type="dfn" href="#document-paint-definitions" id="ref-for-document-paint-definitions①">document paint definitions</a> map.</p>
+      <p>Let <var>documentPaintDefinitionMap</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">document’s</a> <a data-link-type="dfn" href="#document-paint-definitions" id="ref-for-document-paint-definitions①">document paint definitions</a> map.</p>
      <li data-md>
       <p>If <var>documentPaintDefinitionMap</var>[<var>name</var>] does not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#map-exists" id="ref-for-map-exists②">exist</a>, let the image output
 be an <a data-link-type="dfn" href="https://drafts.csswg.org/css-images-4/#invalid-image" id="ref-for-invalid-image②">invalid image</a> and abort all these steps.</p>
@@ -1585,7 +1585,7 @@ When the user agent wants to <dfn class="dfn-paneled" data-dfn-type="dfn" data-n
         <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task①">Queue a task</a> to run the following steps:</p>
         <ol>
          <li data-md>
-          <p>Let <var>documentPaintDefinitionMap</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document④">document</a>’s <a data-link-type="dfn" href="#document-paint-definitions" id="ref-for-document-paint-definitions②">document paint definitions</a> map.</p>
+          <p>Let <var>documentPaintDefinitionMap</var> be the associated <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document④">document</a>’s <a data-link-type="dfn" href="#document-paint-definitions" id="ref-for-document-paint-definitions②">document paint definitions</a> map.</p>
          <li data-md>
           <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#map-set" id="ref-for-map-set③">Set</a> <var>documentPaintDefinitionMap</var>[<var>name</var>] to <code>"invalid"</code>.</p>
          <li data-md>
@@ -2269,7 +2269,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -2345,11 +2345,11 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-5/"><cite>CSS Cascading and Inheritance Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-5/">https://drafts.csswg.org/css-cascade-5/</a>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
    <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-3/"><cite>CSS Images Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-3/">https://drafts.csswg.org/css-images-3/</a>
    <dt id="biblio-css-images-4">[CSS-IMAGES-4]
-   <dd>Tab Atkins Jr.; Elika Etemad; Lea Verou. <a href="https://drafts.csswg.org/css-images-4/"><cite>CSS Images Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-4/">https://drafts.csswg.org/css-images-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-images-4/"><cite>CSS Images Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-images-4/">https://drafts.csswg.org/css-images-4/</a>
    <dt id="biblio-css-properties-values-api-1">[CSS-PROPERTIES-VALUES-API-1]
    <dd>Tab Atkins Jr.; Alan Stearns; Greg Whitworth. <a href="https://drafts.css-houdini.org/css-properties-values-api-1/"><cite>CSS Properties and Values API Level 1</cite></a>. URL: <a href="https://drafts.css-houdini.org/css-properties-values-api-1/">https://drafts.css-houdini.org/css-properties-values-api-1/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
@@ -2357,7 +2357,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-typed-om-1">[CSS-TYPED-OM-1]
    <dd>Tab Atkins Jr.; François Remy. <a href="https://drafts.css-houdini.org/css-typed-om-1/"><cite>CSS Typed OM Level 1</cite></a>. URL: <a href="https://drafts.css-houdini.org/css-typed-om-1/">https://drafts.css-houdini.org/css-typed-om-1/</a>
    <dt id="biblio-css-ui-4">[CSS-UI-4]
-   <dd>Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
+   <dd>Tab Atkins Jr.; Florian Rivoal. <a href="https://drafts.csswg.org/css-ui-4/"><cite>CSS Basic User Interface Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-ui-4/">https://drafts.csswg.org/css-ui-4/</a>
    <dt id="biblio-css-values-4">[CSS-VALUES-4]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-4/"><cite>CSS Values and Units Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-4/">https://drafts.csswg.org/css-values-4/</a>
    <dt id="biblio-css-variables-2">[CSS-VARIABLES-2]
@@ -2365,7 +2365,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-cssom-1">[CSSOM-1]
    <dd>Daniel Glazman; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom/"><cite>CSS Object Model (CSSOM)</cite></a>. URL: <a href="https://drafts.csswg.org/cssom/">https://drafts.csswg.org/cssom/</a>
    <dt id="biblio-cssom-view-1">[CSSOM-VIEW-1]
-   <dd>Simon Pieters. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
+   <dd>Simon Fraser; Emilio Cobos Álvarez. <a href="https://drafts.csswg.org/cssom-view/"><cite>CSSOM View Module</cite></a>. URL: <a href="https://drafts.csswg.org/cssom-view/">https://drafts.csswg.org/cssom-view/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-html">[HTML]
@@ -2756,7 +2756,7 @@ let dfnPanelData = {
 "a4cd8a8d": {"dfnID":"a4cd8a8d","dfnText":"border-image","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-border-image"}],"title":"8.5. Example 5: Drawing outside an element\u2019s area"}],"url":"https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image"},
 "a5c91173": {"dfnID":"a5c91173","dfnText":"SameObject","external":true,"refSections":[{"refs":[{"id":"ref-for-SameObject"}],"title":"2. Paint Worklet"}],"url":"https://webidl.spec.whatwg.org/#SameObject"},
 "a72449dd": {"dfnID":"a72449dd","dfnText":"in parallel","external":true,"refSections":[{"refs":[{"id":"ref-for-in-parallel"},{"id":"ref-for-in-parallel\u2460"}],"title":"7. Drawing an image"}],"url":"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"}],"title":"3. Concepts"},{"refs":[{"id":"ref-for-concept-document\u2460"},{"id":"ref-for-concept-document\u2461"}],"title":"4. Registering Custom Paint"},{"refs":[{"id":"ref-for-concept-document\u2462"},{"id":"ref-for-concept-document\u2463"}],"title":"7. Drawing an image"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"}],"title":"3. Concepts"},{"refs":[{"id":"ref-for-clone-a-node-document\u2460"},{"id":"ref-for-clone-a-node-document\u2461"}],"title":"4. Registering Custom Paint"},{"refs":[{"id":"ref-for-clone-a-node-document\u2462"},{"id":"ref-for-clone-a-node-document\u2463"}],"title":"7. Drawing an image"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "a9bf6bd5": {"dfnID":"a9bf6bd5","dfnText":"callback this value","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-callback-this-value"}],"title":"7. Drawing an image"}],"url":"https://webidl.spec.whatwg.org/#dfn-callback-this-value"},
 "aa310bd6": {"dfnID":"aa310bd6","dfnText":"CanvasTransform","external":true,"refSections":[{"refs":[{"id":"ref-for-canvastransform"}],"title":"6. The 2D rendering context"}],"url":"https://html.spec.whatwg.org/multipage/canvas.html#canvastransform"},
 "ae390677": {"dfnID":"ae390677","dfnText":"object size negotiation","external":true,"refSections":[{"refs":[{"id":"ref-for-object-size-negotiation"},{"id":"ref-for-object-size-negotiation\u2460"}],"title":"7. Drawing an image"}],"url":"https://drafts.csswg.org/css-images-3/#object-size-negotiation"},
@@ -3280,7 +3280,7 @@ let refsData = {
 "#paintrenderingcontext2d-output-bitmap": {"displayText":"output bitmap","export":true,"for_":["PaintRenderingContext2D"],"level":"1","normative":true,"shortname":"css-paint-api","spec":"css-paint-api-1","status":"local","text":"output bitmap","type":"dfn","url":"#paintrenderingcontext2d-output-bitmap"},
 "#paintsize": {"displayText":"PaintSize","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-paint-api","spec":"css-paint-api-1","status":"local","text":"PaintSize","type":"interface","url":"#paintsize"},
 "#paintworkletglobalscope": {"displayText":"PaintWorkletGlobalScope","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-paint-api","spec":"css-paint-api-1","status":"local","text":"PaintWorkletGlobalScope","type":"interface","url":"#paintworkletglobalscope"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://drafts.css-houdini.org/css-properties-values-api-1/#consume-a-syntax-definition": {"displayText":"consume a syntax definition","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-properties-values-api","spec":"css-properties-values-api-1","status":"current","text":"consume a syntax definition","type":"dfn","url":"https://drafts.css-houdini.org/css-properties-values-api-1/#consume-a-syntax-definition"},
 "https://drafts.css-houdini.org/css-properties-values-api-1/#syntax-definition": {"displayText":"syntax definition","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-properties-values-api","spec":"css-properties-values-api-1","status":"current","text":"syntax definition","type":"dfn","url":"https://drafts.css-houdini.org/css-properties-values-api-1/#syntax-definition"},
 "https://drafts.css-houdini.org/css-typed-om-1/#cssimagevalue": {"displayText":"CSSImageValue","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-typed-om","spec":"css-typed-om-1","status":"current","text":"CSSImageValue","type":"interface","url":"https://drafts.css-houdini.org/css-typed-om-1/#cssimagevalue"},

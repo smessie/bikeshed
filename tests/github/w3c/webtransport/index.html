@@ -1793,20 +1793,20 @@ revised. Some of those are safe to expose for HTTP/2 and HTTP/3 connections
 (like min-RTT), while most would either result in information disclosure
 or are impossible to define for pooled connections.</p>
 <pre class="def highlight idl"><c- b>dictionary</c-> <a class="idl-code" data-link-type="dictionary" href="#dictdef-webtransportstats" id="ref-for-dictdef-webtransportstats②"><c- g>WebTransportStats</c-></a> {
-  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-timestamp" id="ref-for-dom-webtransportstats-timestamp"><c- g>timestamp</c-></a>;
+  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-timestamp" id="ref-for-dom-webtransportstats-timestamp"><c- g>timestamp</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long②"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-bytessent" id="ref-for-dom-webtransportstats-bytessent"><c- g>bytesSent</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long③"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-packetssent" id="ref-for-dom-webtransportstats-packetssent"><c- g>packetsSent</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long" href="#dom-webtransportstats-numoutgoingstreamscreated" id="ref-for-dom-webtransportstats-numoutgoingstreamscreated"><c- g>numOutgoingStreamsCreated</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①"><c- b>unsigned</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long" href="#dom-webtransportstats-numincomingstreamscreated" id="ref-for-dom-webtransportstats-numincomingstreamscreated"><c- g>numIncomingStreamsCreated</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long④"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-bytesreceived" id="ref-for-dom-webtransportstats-bytesreceived"><c- g>bytesReceived</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long⑤"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-packetsreceived" id="ref-for-dom-webtransportstats-packetsreceived"><c- g>packetsReceived</c-></a>;
-  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp①"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-minrtt" id="ref-for-dom-webtransportstats-minrtt"><c- g>minRtt</c-></a>;
+  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp①"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-minrtt" id="ref-for-dom-webtransportstats-minrtt"><c- g>minRtt</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long②"><c- b>unsigned</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long" href="#dom-webtransportstats-numreceiveddatagramsdropped" id="ref-for-dom-webtransportstats-numreceiveddatagramsdropped"><c- g>numReceivedDatagramsDropped</c-></a>;
 };
 </pre>
    <p>The dictionary SHALL have the following attributes:</p>
    <dl>
-    <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="WebTransportStats" data-dfn-type="dict-member" data-export id="dom-webtransportstats-timestamp"><code>timestamp</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp②">DOMHighResTimeStamp</a></span>
+    <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="WebTransportStats" data-dfn-type="dict-member" data-export id="dom-webtransportstats-timestamp"><code>timestamp</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp②">DOMHighResTimeStamp</a></span>
     <dd data-md>
      <p>The <code>timestamp</code> for when the stats are gathered, relative to the
  UNIX epoch (Jan 1, 1970, UTC).</p>
@@ -1831,7 +1831,7 @@ or are impossible to define for pooled connections.</p>
     <dd data-md>
      <p>The number of total packets received on the QUIC connection, including
  packets that were not processable.</p>
-    <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="WebTransportStats" data-dfn-type="dict-member" data-export id="dom-webtransportstats-minrtt"><code>minRtt</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp③">DOMHighResTimeStamp</a></span>
+    <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="WebTransportStats" data-dfn-type="dict-member" data-export id="dom-webtransportstats-minrtt"><code>minRtt</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp" id="ref-for-typedefdef-domhighrestimestamp③">DOMHighResTimeStamp</a></span>
     <dd data-md>
      <p>The minimum RTT observed on the entire connection.</p>
     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="WebTransportStats" data-dfn-type="dict-member" data-export id="dom-webtransportstats-numreceiveddatagramsdropped"><code>numReceivedDatagramsDropped</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑤">unsigned long</a></span>
@@ -2464,7 +2464,7 @@ and has been adapted for use in this specification.</p>
    <li>
     <a data-link-type="biblio">[HR-TIME-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="0e9f636b">DOMHighResTimeStamp</span>
+     <li><span class="dfn-paneled" id="00c8c5e6">DOMHighResTimeStamp</span>
     </ul>
    <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
@@ -2647,14 +2647,14 @@ and has been adapted for use in this specification.</p>
 };
 
 <c- b>dictionary</c-> <a class="idl-code" data-link-type="dictionary" href="#dictdef-webtransportstats"><c- g>WebTransportStats</c-></a> {
-  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-timestamp"><c- g>timestamp</c-></a>;
+  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-timestamp"><c- g>timestamp</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-bytessent"><c- g>bytesSent</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-packetssent"><c- g>packetsSent</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long" href="#dom-webtransportstats-numoutgoingstreamscreated"><c- g>numOutgoingStreamsCreated</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long" href="#dom-webtransportstats-numincomingstreamscreated"><c- g>numIncomingStreamsCreated</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-bytesreceived"><c- g>bytesReceived</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long"><c- b>unsigned</c-> <c- b>long</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long long" href="#dom-webtransportstats-packetsreceived"><c- g>packetsReceived</c-></a>;
-  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-minrtt"><c- g>minRtt</c-></a>;
+  <a data-link-type="idl-name" href="https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="DOMHighResTimeStamp" href="#dom-webtransportstats-minrtt"><c- g>minRtt</c-></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <a class="idl-code" data-link-type="dict-member" data-type="unsigned long" href="#dom-webtransportstats-numreceiveddatagramsdropped"><c- g>numReceivedDatagramsDropped</c-></a>;
 };
 
@@ -2892,8 +2892,8 @@ function parseHTML(markup) {
 "use strict";
 {
 let dfnPanelData = {
+"00c8c5e6": {"dfnID":"00c8c5e6","dfnText":"DOMHighResTimeStamp","external":true,"refSections":[{"refs":[{"id":"ref-for-typedefdef-domhighrestimestamp"},{"id":"ref-for-typedefdef-domhighrestimestamp\u2460"},{"id":"ref-for-typedefdef-domhighrestimestamp\u2461"},{"id":"ref-for-typedefdef-domhighrestimestamp\u2462"}],"title":"8.8. WebTransportStats Dictionary"}],"url":"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"},
 "02054956": {"dfnID":"02054956","dfnText":"algorithm","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-rtcdtlsfingerprint-algorithm"},{"id":"ref-for-dom-rtcdtlsfingerprint-algorithm\u2460"}],"title":"8.5. Configuration"}],"url":"https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint-algorithm"},
-"0e9f636b": {"dfnID":"0e9f636b","dfnText":"DOMHighResTimeStamp","external":true,"refSections":[{"refs":[{"id":"ref-for-dom-domhighrestimestamp"},{"id":"ref-for-dom-domhighrestimestamp\u2460"},{"id":"ref-for-dom-domhighrestimestamp\u2461"},{"id":"ref-for-dom-domhighrestimestamp\u2462"}],"title":"8.8. WebTransportStats Dictionary"}],"url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
 "1e249f40": {"dfnID":"1e249f40","dfnText":"TextDecoderStream","external":true,"refSections":[{"refs":[{"id":"ref-for-textdecoderstream"}],"title":"14.5. Receiving incoming streams"}],"url":"https://encoding.spec.whatwg.org/#textdecoderstream"},
 "24bd7d25": {"dfnID":"24bd7d25","dfnText":"upon fulfillment","external":true,"refSections":[{"refs":[{"id":"ref-for-upon-fulfillment"}],"title":"8.2. Constructor"}],"url":"https://webidl.spec.whatwg.org/#upon-fulfillment"},
 "26b82890": {"dfnID":"26b82890","dfnText":"event","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-event"}],"title":"3. Terminology"}],"url":"https://dom.spec.whatwg.org/#concept-event"},
@@ -3534,7 +3534,7 @@ let refsData = {
 "https://url.spec.whatwg.org/#concept-url-origin": {"displayText":"origin","export":true,"for_":["url"],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"origin","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-origin"},
 "https://url.spec.whatwg.org/#concept-url-parser": {"displayText":"URL parser","export":true,"for_":[],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"url parser","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-parser"},
 "https://url.spec.whatwg.org/#concept-url-scheme": {"displayText":"scheme","export":true,"for_":["url"],"level":"1","normative":true,"shortname":"url","spec":"url","status":"current","text":"scheme","type":"dfn","url":"https://url.spec.whatwg.org/#concept-url-scheme"},
-"https://w3c.github.io/hr-time/#dom-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#dom-domhighrestimestamp"},
+"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp": {"displayText":"DOMHighResTimeStamp","export":true,"for_":[],"level":"3","normative":true,"shortname":"hr-time","spec":"hr-time-3","status":"current","text":"DOMHighResTimeStamp","type":"typedef","url":"https://w3c.github.io/hr-time/#typedefdef-domhighrestimestamp"},
 "https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint": {"displayText":"RTCDtlsFingerprint","export":true,"for_":[],"level":"1","normative":true,"shortname":"webrtc","spec":"webrtc","status":"current","text":"RTCDtlsFingerprint","type":"dictionary","url":"https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint"},
 "https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint-algorithm": {"displayText":"algorithm","export":true,"for_":["RTCDtlsFingerprint"],"level":"1","normative":true,"shortname":"webrtc","spec":"webrtc","status":"current","text":"algorithm","type":"dict-member","url":"https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint-algorithm"},
 "https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint-value": {"displayText":"value","export":true,"for_":["RTCDtlsFingerprint"],"level":"1","normative":true,"shortname":"webrtc","spec":"webrtc","status":"current","text":"value","type":"dict-member","url":"https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint-value"},

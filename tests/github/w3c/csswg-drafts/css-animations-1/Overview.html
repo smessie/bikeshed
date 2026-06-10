@@ -1321,7 +1321,7 @@ Non-experimental implementations</span></a>
    <h2 class="heading settled" data-level="1" id="intro"><span class="secno">1. </span><span class="content">
 Introduction</span><a class="self-link" href="#intro"></a></h2>
    <p><em>This section is not normative</em></p>
-   <p>CSS Transitions <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions">[CSS3-TRANSITIONS]</a> provide a way to interpolate
+   <p>CSS Transitions <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions Module Level 1">[CSS3-TRANSITIONS]</a> provide a way to interpolate
 	CSS property values when they change as a result of underlying
 	property changes. This provides an easy way to do simple animation,
 	but the start and end states of the animation are controlled by the
@@ -1437,7 +1437,7 @@ Animations</span><a class="self-link" href="#animations"></a></h2>
 		(100px, 100px) over five seconds and repeats itself nine times
 		(for a total of ten iterations).</p>
    </div>
-   <p>Setting the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visuren.html#propdef-display" id="ref-for-propdef-display">display</a> property to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-4/#valdef-display-none" id="ref-for-valdef-display-none">none</a> will terminate any running animation applied
+   <p>Setting the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-display" id="ref-for-propdef-display">display</a> property to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-4/#valdef-display-none" id="ref-for-valdef-display-none">none</a> will terminate any running animation applied
 	to the element and its descendants. If an element has a <span class="property" id="ref-for-propdef-display①">display</span> of <span class="css" id="ref-for-valdef-display-none①">none</span>, updating
 	<span class="property" id="ref-for-propdef-display②">display</span> to a value other than <span class="css" id="ref-for-valdef-display-none②">none</span> will start all animations applied to the element
 	by the <a class="css property" data-link-type="property" href="#propdef-animation-name" id="ref-for-propdef-animation-name⑦">animation-name</a> property, as well as all animations applied to descendants
@@ -1501,12 +1501,12 @@ Keyframes</span><a class="self-link" href="#keyframes"></a></h2>
 <c- n>@keyframes</c-> <c- s>"None"</c-> <c- p>{</c-> <c- c>/* ... */</c-> <c- p>}</c->
 </pre>
    </div>
-   <p>The <a class="css production" data-link-type="type" href="#typedef-keyframe-selector" id="ref-for-typedef-keyframe-selector①">&lt;keyframe-selector></a> for a <a class="css production" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block②">&lt;keyframe-block></a> consists of a comma-separated list of percentage values or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to">to</a>. The selector is used to specify the percentage along the duration of the animation that the keyframe represents. The keyframe itself is specified by the block of property values declared on the selector. The keyword <span class="css">from</span> is equivalent to the value <span class="css">0%</span>. The keyword <span class="css" id="ref-for-valdef-shape-to①">to</span> is equivalent to the value <span class="css">100%</span>.
+   <p>The <a class="css production" data-link-type="type" href="#typedef-keyframe-selector" id="ref-for-typedef-keyframe-selector①">&lt;keyframe-selector></a> for a <a class="css production" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block②">&lt;keyframe-block></a> consists of a comma-separated list of percentage values or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to">to</a>. The selector is used to specify the percentage along the duration of the animation that the keyframe represents. The keyframe itself is specified by the block of property values declared on the selector. The keyword <span class="css">from</span> is equivalent to the value <span class="css">0%</span>. The keyword <span class="css" id="ref-for-valdef-shape-to①">to</span> is equivalent to the value <span class="css">100%</span>.
 	Values less than <span class="css">0%</span> or higher than <span class="css">100%</span> are invalid
 	and cause their <span class="production" id="ref-for-typedef-keyframe-block③">&lt;keyframe-block></span> to be ignored.</p>
    <p><span class="note">Note that the percentage unit specifier must be used on percentage values. Therefore, <span class="css">0</span> is an invalid keyframe selector.</span></p>
    <p>If a <span class="css">0%</span> or <span class="css">from</span> keyframe is not specified, then the user agent constructs a <span class="css">0%</span> keyframe
-	using the computed values of the properties being animated. If a <span class="css">100%</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to②">to</a> keyframe is not
+	using the computed values of the properties being animated. If a <span class="css">100%</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to②">to</a> keyframe is not
 	specified, then the user agent constructs a <span class="css">100%</span> keyframe using the computed values of the
 	properties being animated.</p>
    <p>The <a class="css production" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block④">&lt;keyframe-block></a> contains properties and values. The properties
@@ -1654,7 +1654,7 @@ Timing functions for keyframes</span><a class="self-link" href="#timing-function
 		its highest point then speeding up as it falls back to 100px. The second half of the animation
 		behaves in a similar manner, but only moves the element 25px up the page.</p>
    </div>
-   <p>A timing function specified on the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to③">to</a> or <span class="css">100%</span> keyframe is ignored.</p>
+   <p>A timing function specified on the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to③">to</a> or <span class="css">100%</span> keyframe is ignored.</p>
    <p>See the <a class="css property" data-link-type="property" href="#propdef-animation-timing-function" id="ref-for-propdef-animation-timing-function②">animation-timing-function</a> property for more information.</p>
    <h3 class="heading settled" data-level="3.2" id="animation-name"><span class="secno">3.2. </span><span class="content">
 The <a class="css property" data-link-type="property" href="#propdef-animation-name" id="ref-for-propdef-animation-name⑧">animation-name</a> property</span><a class="self-link" href="#animation-name"></a></h3>
@@ -2137,7 +2137,7 @@ The <a class="css property" data-link-type="property" href="#propdef-animation-f
 			During the period defined by <a class="css property" data-link-type="property" href="#propdef-animation-delay" id="ref-for-propdef-animation-delay⑧">animation-delay</a>, the animation will apply the property values
 			defined in the keyframe that will start the first iteration of the animation.
 			These are either the values of the <span class="css">from</span> keyframe (when <a class="css property" data-link-type="property" href="#propdef-animation-direction" id="ref-for-propdef-animation-direction⑥">animation-direction</a> is <a class="css" data-link-type="maybe" href="#valdef-animation-direction-normal" id="ref-for-valdef-animation-direction-normal">normal</a>
-			or <a class="css" data-link-type="maybe" href="#valdef-animation-direction-alternate" id="ref-for-valdef-animation-direction-alternate①">alternate</a>) or those of the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to④">to</a> keyframe (when <span class="property" id="ref-for-propdef-animation-direction⑦">animation-direction</span> is <a class="css" data-link-type="maybe" href="#valdef-animation-direction-reverse" id="ref-for-valdef-animation-direction-reverse">reverse</a>
+			or <a class="css" data-link-type="maybe" href="#valdef-animation-direction-alternate" id="ref-for-valdef-animation-direction-alternate①">alternate</a>) or those of the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to④">to</a> keyframe (when <span class="property" id="ref-for-propdef-animation-direction⑦">animation-direction</span> is <a class="css" data-link-type="maybe" href="#valdef-animation-direction-reverse" id="ref-for-valdef-animation-direction-reverse">reverse</a>
 			or <a class="css" data-link-type="maybe" href="#valdef-animation-direction-alternate-reverse" id="ref-for-valdef-animation-direction-alternate-reverse">alternate-reverse</a>).
 
 		
@@ -2404,7 +2404,7 @@ Attributes</span><a class="self-link" href="#interface-csskeyframerule-attribute
     <dd>
      
       This attribute represents the keyframe selector as a comma-separated list
-      of percentage values. The <span class="css">from</span> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑤">to</a> keywords map to 0% and 100%,
+      of percentage values. The <span class="css">from</span> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to⑤">to</a> keywords map to 0% and 100%,
       respectively.
 
 
@@ -2488,7 +2488,7 @@ If no matching rule exists, the method does nothing.</p>
 		
     <dd>
      
-			The keyframe selector of the rule to be deleted: a comma-separated list of percentage values between 0% and 100% or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑥">to</a> which resolve to 0% and 100%, respectively.
+			The keyframe selector of the rule to be deleted: a comma-separated list of percentage values between 0% and 100% or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to⑥">to</a> which resolve to 0% and 100%, respectively.
 
 
      <p>The number and order of the values in the specified keyframe selector must match those of the targeted keyframe rule(s).  The match is not sensitive to white space around the values in the list.</p>
@@ -2506,7 +2506,7 @@ The <code>findRule</code> method</span><a class="self-link" href="#interface-css
 		
     <dd>
      
-			The keyframe selector of the rule to be found: a comma-separated list of percentage values between 0% and 100% or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑦">to</a> which resolve to 0% and 100%, respectively.
+			The keyframe selector of the rule to be found: a comma-separated list of percentage values between 0% and 100% or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to⑦">to</a> which resolve to 0% and 100%, respectively.
 
 
      <p>The number and order of the values in the specified keyframe selector must match those of the targeted keyframe rule(s). The match is not sensitive to white space around the values in the list.</p>
@@ -2561,7 +2561,7 @@ var tenPercent = anim.findRule('10%');
     <p>will set <code>red</code> to <code>null</code>. The full selector for the red background color rule must be used instead:</p>
 <pre>var red = anim.findRule('25%,75%');
 </pre>
-    <p>Since <span class="css">from</span> maps to 0% and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑧">to</a> maps to 100%, we can find these rules using either value:</p>
+    <p>Since <span class="css">from</span> maps to 0% and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#valdef-shape-to" id="ref-for-valdef-shape-to⑧">to</a> maps to 100%, we can find these rules using either value:</p>
 <pre>var from = anim.findRule('0%'); // Returns from { left: 0; top: 0; } rule
 var to = anim.findRule('to');   // Returns 100% { left: 100px; top: 100px; } rule
 </pre>
@@ -2972,9 +2972,9 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="dde41168">left</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS-SHAPES-2]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS-SHAPES-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="38cf5d56">to</span>
+     <li><span class="dfn-paneled" id="35897eba">to</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-SYNTAX-3]</a> defines the following terms:
@@ -3007,7 +3007,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="ef9e6926">display</span>
+     <li><span class="dfn-paneled" id="0936783c">display</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSSOM-1]</a> defines the following terms:
@@ -3058,13 +3058,13 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-css-display-4">[CSS-DISPLAY-4]
-   <dd><a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-display-4/"><cite>CSS Display Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-display-4/">https://drafts.csswg.org/css-display-4/</a>
    <dt id="biblio-css-easing-1">[CSS-EASING-1]
    <dd>Brian Birtles; Dean Jackson; Matt Rakow. <a href="https://drafts.csswg.org/css-easing/"><cite>CSS Easing Functions Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-easing/">https://drafts.csswg.org/css-easing/</a>
    <dt id="biblio-css-easing-2">[CSS-EASING-2]
    <dd><a href="https://drafts.csswg.org/css-easing/"><cite>CSS Easing Functions Level 2</cite></a>. URL: <a href="https://drafts.csswg.org/css-easing/">https://drafts.csswg.org/css-easing/</a>
-   <dt id="biblio-css-shapes-2">[CSS-SHAPES-2]
-   <dd><a href="https://drafts.csswg.org/css-shapes-2/"><cite>CSS Shapes Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-shapes-2/">https://drafts.csswg.org/css-shapes-2/</a>
+   <dt id="biblio-css-shapes-1">[CSS-SHAPES-1]
+   <dd>Alan Stearns; Rossen Atanassov; Noam Rosenthal. <a href="https://drafts.csswg.org/css-shapes/"><cite>CSS Shapes Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-shapes/">https://drafts.csswg.org/css-shapes/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
    <dd>Tab Atkins Jr.; Simon Sapin. <a href="https://drafts.csswg.org/css-syntax/"><cite>CSS Syntax Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-syntax/">https://drafts.csswg.org/css-syntax/</a>
    <dt id="biblio-css-values-3">[CSS-VALUES-3]
@@ -3097,7 +3097,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-position-3">[CSS-POSITION-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-position-3/"><cite>CSS Positioned Layout Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-position-3/">https://drafts.csswg.org/css-position-3/</a>
    <dt id="biblio-css3-transitions">[CSS3-TRANSITIONS]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <div class="big-element-wrapper">
@@ -3845,13 +3845,14 @@ function parseHTML(markup) {
 {
 let dfnPanelData = {
 "0771d3e5": {"dfnID":"0771d3e5","dfnText":"CSSRuleList","external":true,"refSections":[{"refs":[{"id":"ref-for-cssrulelist"}],"title":"5.3.1. \nIDL Definition"},{"refs":[{"id":"ref-for-cssrulelist\u2460"}],"title":"5.3.2. \nAttributes"}],"url":"https://drafts.csswg.org/cssom-1/#cssrulelist"},
+"0936783c": {"dfnID":"0936783c","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"},{"id":"ref-for-propdef-display\u2460"},{"id":"ref-for-propdef-display\u2461"},{"id":"ref-for-propdef-display\u2462"}],"title":"2. \nAnimations"}],"url":"https://drafts.csswg.org/css2/#propdef-display"},
 "129bdae8": {"dfnID":"129bdae8","dfnText":"Event","external":true,"refSections":[{"refs":[{"id":"ref-for-event"}],"title":"4.1.1. \nIDL Definition"}],"url":"https://dom.spec.whatwg.org/#event"},
 "15f5b381": {"dfnID":"15f5b381","dfnText":"<percentage>","external":true,"refSections":[{"refs":[{"id":"ref-for-percentage-value"}],"title":"3. \nKeyframes"}],"url":"https://drafts.csswg.org/css-values-4/#percentage-value"},
 "16310992": {"dfnID":"16310992","dfnText":"<number>","external":true,"refSections":[{"refs":[{"id":"ref-for-number-value"},{"id":"ref-for-number-value\u2460"}],"title":"3.5. \nThe animation-iteration-count property"}],"url":"https://drafts.csswg.org/css-values-4/#number-value"},
 "21ecf38f": {"dfnID":"21ecf38f","dfnText":"PutForwards","external":true,"refSections":[{"refs":[{"id":"ref-for-PutForwards"}],"title":"5.2.1. \nIDL Definition"}],"url":"https://webidl.spec.whatwg.org/#PutForwards"},
 "34de5360": {"dfnID":"34de5360","dfnText":"will-change","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-will-change"}],"title":"2. \nAnimations"}],"url":"https://drafts.csswg.org/css-will-change-1/#propdef-will-change"},
+"35897eba": {"dfnID":"35897eba","dfnText":"to","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-shape-to"},{"id":"ref-for-valdef-shape-to\u2460"},{"id":"ref-for-valdef-shape-to\u2461"}],"title":"3. \nKeyframes"},{"refs":[{"id":"ref-for-valdef-shape-to\u2462"}],"title":"3.1. \nTiming functions for keyframes"},{"refs":[{"id":"ref-for-valdef-shape-to\u2463"}],"title":"3.9. \nThe animation-fill-mode property"},{"refs":[{"id":"ref-for-valdef-shape-to\u2464"}],"title":"5.2.2. \nAttributes"},{"refs":[{"id":"ref-for-valdef-shape-to\u2465"}],"title":"5.3.4. \nThe deleteRule method"},{"refs":[{"id":"ref-for-valdef-shape-to\u2466"},{"id":"ref-for-valdef-shape-to\u2467"}],"title":"5.3.5. \nThe findRule method"}],"url":"https://drafts.csswg.org/css-shapes-1/#valdef-shape-to"},
 "358fd6ff": {"dfnID":"358fd6ff","dfnText":"CSS-wide keywords","external":true,"refSections":[{"refs":[{"id":"ref-for-css-wide-keywords"}],"title":"1.1. \nValue Definitions"}],"url":"https://drafts.csswg.org/css-values-4/#css-wide-keywords"},
-"38cf5d56": {"dfnID":"38cf5d56","dfnText":"to","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-shape-to"},{"id":"ref-for-valdef-shape-to\u2460"},{"id":"ref-for-valdef-shape-to\u2461"}],"title":"3. \nKeyframes"},{"refs":[{"id":"ref-for-valdef-shape-to\u2462"}],"title":"3.1. \nTiming functions for keyframes"},{"refs":[{"id":"ref-for-valdef-shape-to\u2463"}],"title":"3.9. \nThe animation-fill-mode property"},{"refs":[{"id":"ref-for-valdef-shape-to\u2464"}],"title":"5.2.2. \nAttributes"},{"refs":[{"id":"ref-for-valdef-shape-to\u2465"}],"title":"5.3.4. \nThe deleteRule method"},{"refs":[{"id":"ref-for-valdef-shape-to\u2466"},{"id":"ref-for-valdef-shape-to\u2467"}],"title":"5.3.5. \nThe findRule method"}],"url":"https://drafts.csswg.org/css-shapes-2/#valdef-shape-to"},
 "44a7708c": {"dfnID":"44a7708c","dfnText":"EventInit","external":true,"refSections":[{"refs":[{"id":"ref-for-dictdef-eventinit"}],"title":"4.1.1. \nIDL Definition"}],"url":"https://dom.spec.whatwg.org/#dictdef-eventinit"},
 "44f9b14c": {"dfnID":"44f9b14c","dfnText":"step easing function","external":true,"refSections":[{"refs":[{"id":"ref-for-step-easing-function"}],"title":"3.4. \nThe animation-timing-function property"}],"url":"https://drafts.csswg.org/css-easing-2/#step-easing-function"},
 "450958f7": {"dfnID":"450958f7","dfnText":"unsigned short","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-unsigned-short"},{"id":"ref-for-idl-unsigned-short\u2460"}],"title":"5.1.1. \nIDL Definition"}],"url":"https://webidl.spec.whatwg.org/#idl-unsigned-short"},
@@ -3929,7 +3930,6 @@ let dfnPanelData = {
 "e9189aba": {"dfnID":"e9189aba","dfnText":"event handlers","external":true,"refSections":[{"refs":[{"id":"ref-for-event-handlers"},{"id":"ref-for-event-handlers\u2460"}],"title":"4.3. Event\nhandlers on elements, Document objects, and Window\nobjects"}],"url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers"},
 "eab73120": {"dfnID":"eab73120","dfnText":"owner node","external":true,"refSections":[{"refs":[{"id":"ref-for-cssstyledeclaration-owner-node"}],"title":"5.2.2. \nAttributes"}],"url":"https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node"},
 "ebaeb088": {"dfnID":"ebaeb088","dfnText":"CSSRule","external":true,"refSections":[{"refs":[{"id":"ref-for-cssrule"}],"title":"5.1. \nThe CSSRule Interface"},{"refs":[{"id":"ref-for-cssrule\u2460"}],"title":"5.1.1. \nIDL Definition"},{"refs":[{"id":"ref-for-cssrule\u2461"}],"title":"5.2.1. \nIDL Definition"},{"refs":[{"id":"ref-for-cssrule\u2462"}],"title":"5.3.1. \nIDL Definition"}],"url":"https://drafts.csswg.org/cssom-1/#cssrule"},
-"ef9e6926": {"dfnID":"ef9e6926","dfnText":"display","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-display"},{"id":"ref-for-propdef-display\u2460"},{"id":"ref-for-propdef-display\u2461"},{"id":"ref-for-propdef-display\u2462"}],"title":"2. \nAnimations"}],"url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-display"},
 "eventdef-animationevent-animationcancel": {"dfnID":"eventdef-animationevent-animationcancel","dfnText":"animationcancel","external":false,"refSections":[{"refs":[{"id":"ref-for-eventdef-animationevent-animationcancel"}],"title":"4.2. Types of AnimationEvent"},{"refs":[{"id":"ref-for-eventdef-animationevent-animationcancel\u2460"}],"title":"4.3. Event handlers on elements, Document objects, and Window objects"}],"url":"#eventdef-animationevent-animationcancel"},
 "eventdef-animationevent-animationend": {"dfnID":"eventdef-animationevent-animationend","dfnText":"animationend","external":false,"refSections":[{"refs":[{"id":"ref-for-eventdef-animationevent-animationend"}],"title":"2. Animations"},{"refs":[{"id":"ref-for-eventdef-animationevent-animationend\u2460"},{"id":"ref-for-eventdef-animationevent-animationend\u2461"}],"title":"4.2. Types of AnimationEvent"},{"refs":[{"id":"ref-for-eventdef-animationevent-animationend\u2462"}],"title":"4.3. Event handlers on elements, Document objects, and Window objects"}],"url":"#eventdef-animationevent-animationend"},
 "eventdef-animationevent-animationiteration": {"dfnID":"eventdef-animationevent-animationiteration","dfnText":"animationiteration","external":false,"refSections":[{"refs":[{"id":"ref-for-eventdef-animationevent-animationiteration"}],"title":"4.2. Types of AnimationEvent"},{"refs":[{"id":"ref-for-eventdef-animationevent-animationiteration\u2460"}],"title":"4.3. Event handlers on elements, Document objects, and Window objects"}],"url":"#eventdef-animationevent-animationiteration"},
@@ -4501,7 +4501,7 @@ let refsData = {
 "https://drafts.csswg.org/css-easing-2/#valdef-cubic-bezier-easing-function-ease-out": {"displayText":"ease-out","export":true,"for_":["<cubic-bezier-easing-function>"],"level":"2","normative":true,"shortname":"css-easing","spec":"css-easing-2","status":"current","text":"ease-out","type":"value","url":"https://drafts.csswg.org/css-easing-2/#valdef-cubic-bezier-easing-function-ease-out"},
 "https://drafts.csswg.org/css-easing-2/#valdef-step-position-start": {"displayText":"start","export":true,"for_":["<step-position>","steps()"],"level":"2","normative":true,"shortname":"css-easing","spec":"css-easing-2","status":"current","text":"start","type":"value","url":"https://drafts.csswg.org/css-easing-2/#valdef-step-position-start"},
 "https://drafts.csswg.org/css-position-3/#propdef-left": {"displayText":"left","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-position","spec":"css-position-3","status":"current","text":"left","type":"property","url":"https://drafts.csswg.org/css-position-3/#propdef-left"},
-"https://drafts.csswg.org/css-shapes-2/#valdef-shape-to": {"displayText":"to","export":true,"for_":["shape()","<by-to>"],"level":"2","normative":true,"shortname":"css-shapes","spec":"css-shapes-2","status":"current","text":"to","type":"value","url":"https://drafts.csswg.org/css-shapes-2/#valdef-shape-to"},
+"https://drafts.csswg.org/css-shapes-1/#valdef-shape-to": {"displayText":"to","export":true,"for_":["shape()","<command-end-point>"],"level":"1","normative":true,"shortname":"css-shapes","spec":"css-shapes-1","status":"current","text":"to","type":"value","url":"https://drafts.csswg.org/css-shapes-1/#valdef-shape-to"},
 "https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list": {"displayText":"<declaration-list>","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"<declaration-list>","type":"type","url":"https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list"},
 "https://drafts.csswg.org/css-syntax-3/#typedef-rule-list": {"displayText":"<rule-list>","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-syntax","spec":"css-syntax-3","status":"current","text":"<rule-list>","type":"type","url":"https://drafts.csswg.org/css-syntax-3/#typedef-rule-list"},
 "https://drafts.csswg.org/css-values-3/#time-value": {"displayText":"<time>","export":true,"for_":[],"level":"3","normative":true,"shortname":"css-values","spec":"css-values-3","status":"current","text":"<time>","type":"type","url":"https://drafts.csswg.org/css-values-3/#time-value"},
@@ -4514,6 +4514,7 @@ let refsData = {
 "https://drafts.csswg.org/css-values-4/#percentage-value": {"displayText":"<percentage>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<percentage>","type":"type","url":"https://drafts.csswg.org/css-values-4/#percentage-value"},
 "https://drafts.csswg.org/css-values-4/#string-value": {"displayText":"<string>","export":true,"for_":[],"level":"4","normative":true,"shortname":"css-values","spec":"css-values-4","status":"current","text":"<string>","type":"type","url":"https://drafts.csswg.org/css-values-4/#string-value"},
 "https://drafts.csswg.org/css-will-change-1/#propdef-will-change": {"displayText":"will-change","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-will-change","spec":"css-will-change-1","status":"current","text":"will-change","type":"property","url":"https://drafts.csswg.org/css-will-change-1/#propdef-will-change"},
+"https://drafts.csswg.org/css2/#propdef-display": {"displayText":"display","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"display","type":"property","url":"https://drafts.csswg.org/css2/#propdef-display"},
 "https://drafts.csswg.org/cssom-1/#concept-declarations-specified-order": {"displayText":"specified order","export":false,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"specified order","type":"dfn","url":"https://drafts.csswg.org/cssom-1/#concept-declarations-specified-order"},
 "https://drafts.csswg.org/cssom-1/#cssomstring": {"displayText":"CSSOMString","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSOMString","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "https://drafts.csswg.org/cssom-1/#cssrule": {"displayText":"CSSRule","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSRule","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssrule"},
@@ -4539,7 +4540,6 @@ let refsData = {
 "https://webidl.spec.whatwg.org/#idl-undefined": {"displayText":"undefined","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"undefined","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-undefined"},
 "https://webidl.spec.whatwg.org/#idl-unsigned-short": {"displayText":"unsigned short","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"unsigned short","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-unsigned-short"},
 "https://webidl.spec.whatwg.org/#syntaxerror": {"displayText":"SyntaxError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"SyntaxError","type":"exception","url":"https://webidl.spec.whatwg.org/#syntaxerror"},
-"https://www.w3.org/TR/CSS21/visuren.html#propdef-display": {"displayText":"display","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"display","type":"property","url":"https://www.w3.org/TR/CSS21/visuren.html#propdef-display"},
 };
 
 function mkRefHint(link, ref) {

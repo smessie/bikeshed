@@ -6,7 +6,8 @@ LINE 569:16: Ambiguous for-less link for 'subjects', please see <https://speced.
 Local references:
 spec:selectors-4; type:dfn; for:selector; text:subject
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:subjects
+spec:vc-data-model-2.1; type:dfn; for:/; text:subjects
+spec:vc-data-model-2.1; type:dfn; for:/; text:subjects
 spec:vc-data-model-2.0; type:dfn; for:/; text:subjects
 LINE 743:11: No 'dfn' refs found for 'identifier' with spec 'css-syntax-3'.
 LINE 814:58: No 'dfn' refs found for 'identifier' with spec 'css-syntax-3'.
@@ -14,36 +15,27 @@ LINE 1088:19: Ambiguous for-less link for 'subject', please see <https://speced.
 Local references:
 spec:selectors-4; type:dfn; for:selector; text:subject
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
 spec:vc-data-model-2.0; type:dfn; for:/; text:subject
 LINE 1150:19: Ambiguous for-less link for 'subject', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:selectors-4; type:dfn; for:selector; text:subject
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:rdf12-concepts; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
+spec:vc-data-model-2.1; type:dfn; for:/; text:subject
 spec:vc-data-model-2.0; type:dfn; for:/; text:subject
 LINE 1259:5: No 'dfn' refs found for 'identifier' with spec 'css-syntax-3'.
-LINE 2453:16: Multiple possible 'visibility' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#propdef-visibility
+LINE 1915:2: Multiple possible 'meta' element refs.
+Arbitrarily chose https://html.spec.whatwg.org/multipage/semantics.html#meta
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:property; text:visibility
-spec:css22; type:property; text:visibility
-LINE ~3369:2: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~3369:2: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
+spec:html; type:element; text:meta
+spec:epub-34; type:element; text:meta
 LINE 3443:61: No 'dfn' refs found for 'identifier' with spec 'css-syntax-3'.
-LINE 3720:4: Multiple possible 'descendants' dfn refs.
-Arbitrarily chose https://dom.spec.whatwg.org/#concept-tree-descendant
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:dom; type:dfn; text:descendant
-spec:css2; type:dfn; text:descendant
 LINE 4088: W3C policy requires Privacy Considerations and Security Considerations to be separate sections, but you appear to have them combined into one.
 WARNING: Skipped generating some MDN panels, because the following IDs weren't present in the document. Use `Ignore MDN Failure` if this is expected.
   #modal-state

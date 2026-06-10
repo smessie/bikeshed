@@ -41,11 +41,6 @@ Open tags: <dl> at 1323:1, <ol> at 1349:9
 LINE 977:1: The propdef block for 'mask-border-mode' is missing a 'Animation type' line.
 LINE 377:8: Image doesn't exist, so I couldn't determine its width and height: 'images/cliprule-nonzero.svg'
 LINE 383:8: Image doesn't exist, so I couldn't determine its width and height: 'images/cliprule-evenodd.svg'
-LINE 180:134: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
 LINE 180:161: Multiple possible 'visible' maybe refs.
 Arbitrarily chose https://drafts.csswg.org/css-contain-2/#valdef-content-visibility-visible
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
@@ -54,395 +49,141 @@ spec:css-display-4; type:value; text:visible
 spec:css-overflow-3; type:value; for:overflow; text:visible
 spec:css-overflow-3; type:value; for:overflow-x; text:visible
 spec:css-overflow-3; type:value; for:overflow-y; text:visible
-spec:css22; type:value; for:overflow; text:visible
-spec:css22; type:value; for:visibility; text:visible
-LINE ~208:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~208:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~223:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
 LINE 232:116: Multiple possible 'border-radius' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border-radius
 spec:css-borders-4; type:property; text:border-radius
 LINE 299:260: Multiple possible 'metadata' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/struct.html#elementdef-metadata
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-metadata
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:metadata
 spec:epub-33; type:element; text:metadata
+spec:epub-34; type:element; text:metadata
+spec:svg2; type:element; text:metadata
 LINE 299:450: No 'element' refs found for 'animatecolor'.
+LINE 299:763: Multiple possible 'path' element refs.
+Arbitrarily chose https://svgwg.org/specs/paths/#elementdef-path
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:svg-paths; type:element; text:path
+spec:svg2; type:element; text:path
 LINE 299:868: Multiple possible 'text' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/text.html#elementdef-text
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-text
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:text
 spec:epub-33; type:element; text:text
+spec:epub-34; type:element; text:text
+spec:svg2; type:element; text:text
 LINE 303:1590: No 'property' refs found for 'color-profile'.
-LINE 303:1626: Multiple possible 'cursor' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-ui-4/#propdef-cursor
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-ui-4; type:property; text:cursor
-spec:css22; type:property; text:cursor
 LINE 303:1681: No 'property' refs found for 'enable-background'.
-LINE 303:1781: Multiple possible 'font' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font
+LINE 303:1817: Multiple possible 'font-size-adjust' property refs.
+Arbitrarily chose https://drafts.csswg.org/css-fonts-5/#propdef-font-size-adjust
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font
-spec:css22; type:property; text:font
-LINE 303:1789: Multiple possible 'font-family' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-family
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-family
-spec:css22; type:property; text:font-family
-LINE 303:1804: Multiple possible 'font-size' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-size
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-size
-spec:css22; type:property; text:font-size
-LINE 303:1853: Multiple possible 'font-style' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-style
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-style
-spec:css22; type:property; text:font-style
-LINE 303:1867: Multiple possible 'font-variant' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-variant
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-variant
-spec:css22; type:property; text:font-variant
-LINE 303:1883: Multiple possible 'font-weight' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-weight
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-weight
-spec:css22; type:property; text:font-weight
+spec:css-fonts-5; type:property; text:font-size-adjust
+spec:design-principles; type:property; text:font-size-adjust
 LINE 303:1898: No 'property' refs found for 'glyph-orientation-horizontal'.
 LINE 303:1979: No 'property' refs found for 'kerning'.
-LINE 303:1990: Multiple possible 'letter-spacing' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-letter-spacing
+LINE 330:47: Multiple possible 'path' element refs.
+Arbitrarily chose https://svgwg.org/specs/paths/#elementdef-path
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:letter-spacing
-spec:css22; type:property; text:letter-spacing
-LINE 303:2099: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
-LINE 303:2336: Multiple possible 'text-decoration' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-decor-4; type:property; text:text-decoration
-spec:css22; type:property; text:text-decoration
-LINE 303:2389: Multiple possible 'visibility' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#propdef-visibility
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:property; text:visibility
-spec:css22; type:property; text:visibility
-LINE 303:2403: Multiple possible 'word-spacing' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-word-spacing
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:word-spacing
-spec:css22; type:property; text:word-spacing
-LINE 319:320: Multiple possible 'px' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#px
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:px
-spec:css22; type:value; text:px
-LINE 328:354: Multiple possible 'none' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-none
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:none
-spec:css-display-4; type:value; for:<display-box>; text:none
-spec:css22; type:value; text:none
-LINE 328:545: Multiple possible 'none' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-none
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:none
-spec:css-display-4; type:value; for:<display-box>; text:none
-spec:css22; type:value; text:none
+spec:svg-paths; type:element; text:path
+spec:svg2; type:element; text:path
 LINE 330:77: Multiple possible 'text' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/text.html#elementdef-text
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-text
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:text
 spec:epub-33; type:element; text:text
+spec:epub-34; type:element; text:text
+spec:svg2; type:element; text:text
+LINE 330:300: Multiple possible 'path' element refs.
+Arbitrarily chose https://svgwg.org/specs/paths/#elementdef-path
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:svg-paths; type:element; text:path
+spec:svg2; type:element; text:path
 LINE 330:321: Multiple possible 'text' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/text.html#elementdef-text
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-text
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:text
 spec:epub-33; type:element; text:text
-LINE 334:449: Multiple possible 'visibility' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#propdef-visibility
+spec:epub-34; type:element; text:text
+spec:svg2; type:element; text:text
+LINE 391:148: Multiple possible 'path' element refs.
+Arbitrarily chose https://svgwg.org/specs/paths/#elementdef-path
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:property; text:visibility
-spec:css22; type:property; text:visibility
-LINE ~349:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~434:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~486:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 547:5: Multiple possible 'background-repeat' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background-repeat
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background-repeat
-spec:css22; type:property; text:background-repeat
-LINE 576:101 of the line's value (after the colon): Multiple possible 'background-position' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background-position
-spec:css22; type:property; text:background-position
-LINE 582:9: Multiple possible 'background-position' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background-position
-spec:css22; type:property; text:background-position
-LINE ~607:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~737:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~852:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~852:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~852:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
+spec:svg-paths; type:element; text:path
+spec:svg2; type:element; text:path
 LINE 898:68: Multiple possible 'text' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/text.html#elementdef-text
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-text
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:text
 spec:epub-33; type:element; text:text
-LINE ~950:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
+spec:epub-34; type:element; text:text
+spec:svg2; type:element; text:text
+LINE 927:212: Multiple possible 'border-image' property refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~977:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
+spec:css-backgrounds-3; type:property; text:border-image
+spec:css-borders-4; type:property; text:border-image
 LINE 1007:1 of the line's value (after the colon): No 'type' refs found for '<number-percentage>'.
-LINE ~1005:1: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
+LINE 1019:9: Multiple possible 'border-image-slice' property refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image-slice
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
-LINE ~1005:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
+spec:css-backgrounds-3; type:property; text:border-image-slice
+spec:css-borders-4; type:property; text:border-image-slice
+LINE 1038:9: Multiple possible 'border-image-width' property refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image-width
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
-LINE ~1024:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1024:1: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
+spec:css-backgrounds-3; type:property; text:border-image-width
+spec:css-borders-4; type:property; text:border-image-width
 LINE 1040:61: Multiple possible 'border-width' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-width
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border-width
-spec:css22; type:property; text:border-width
-LINE ~1045:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1045:1: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
+spec:css-borders-4; type:property; text:border-width
 LINE 1059:86: Multiple possible 'border-width' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-width
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border-width
-spec:css22; type:property; text:border-width
+spec:css-borders-4; type:property; text:border-width
 LINE 1061:58: Multiple possible 'border-width' property refs.
 Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-width
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-backgrounds-3; type:property; text:border-width
-spec:css22; type:property; text:border-width
-LINE ~1066:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
+spec:css-borders-4; type:property; text:border-width
+LINE 1080:9: Multiple possible 'border-image-repeat' property refs.
+Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image-repeat
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1066:1: Multiple possible '{a,b}' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-num-range
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:{a,b}
-spec:css22; type:grammar; text:{a,b}
-LINE ~1087:1: Multiple possible '||' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-any
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:||
-spec:css22; type:grammar; text:||
-LINE ~1087:1: Multiple possible '?' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#mult-opt
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:?
-spec:css22; type:grammar; text:?
+spec:css-backgrounds-3; type:property; text:border-image-repeat
+spec:css-borders-4; type:property; text:border-image-repeat
 LINE 1128:237: No 'element' refs found for 'animatecolor'.
 LINE 1128:537: Multiple possible 'metadata' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/struct.html#elementdef-metadata
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-metadata
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:metadata
 spec:epub-33; type:element; text:metadata
+spec:epub-34; type:element; text:metadata
+spec:svg2; type:element; text:metadata
+LINE 1128:763: Multiple possible 'path' element refs.
+Arbitrarily chose https://svgwg.org/specs/paths/#elementdef-path
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:svg-paths; type:element; text:path
+spec:svg2; type:element; text:path
 LINE 1128:1371: No 'element' refs found for 'color-profile'.
 LINE 1128:1408: No 'element' refs found for 'cursor'.
 LINE 1128:1496: No 'element' refs found for 'font-face'.
 LINE 1128:1801: Multiple possible 'text' element refs.
-Arbitrarily chose https://svgwg.org/svg2-draft/text.html#elementdef-text
+Arbitrarily chose https://w3c.github.io/epub-specs/epub33/core/#dfn-text
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:svg2; type:element; text:text
 spec:epub-33; type:element; text:text
+spec:epub-34; type:element; text:text
+spec:svg2; type:element; text:text
 LINE 1128:1829: No 'element' refs found for 'altglyphdef'.
 LINE 1132:1590: No 'property' refs found for 'color-profile'.
-LINE 1132:1626: Multiple possible 'cursor' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-ui-4/#propdef-cursor
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-ui-4; type:property; text:cursor
-spec:css22; type:property; text:cursor
 LINE 1132:1681: No 'property' refs found for 'enable-background'.
-LINE 1132:1781: Multiple possible 'font' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font
+LINE 1132:1817: Multiple possible 'font-size-adjust' property refs.
+Arbitrarily chose https://drafts.csswg.org/css-fonts-5/#propdef-font-size-adjust
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font
-spec:css22; type:property; text:font
-LINE 1132:1789: Multiple possible 'font-family' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-family
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-family
-spec:css22; type:property; text:font-family
-LINE 1132:1804: Multiple possible 'font-size' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-size
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-size
-spec:css22; type:property; text:font-size
-LINE 1132:1853: Multiple possible 'font-style' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-style
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-style
-spec:css22; type:property; text:font-style
-LINE 1132:1867: Multiple possible 'font-variant' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-variant
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-variant
-spec:css22; type:property; text:font-variant
-LINE 1132:1883: Multiple possible 'font-weight' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-fonts-4/#propdef-font-weight
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-fonts-4; type:property; text:font-weight
-spec:css22; type:property; text:font-weight
+spec:css-fonts-5; type:property; text:font-size-adjust
+spec:design-principles; type:property; text:font-size-adjust
 LINE 1132:1898: No 'property' refs found for 'glyph-orientation-horizontal'.
 LINE 1132:1979: No 'property' refs found for 'kerning'.
-LINE 1132:1990: Multiple possible 'letter-spacing' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-letter-spacing
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:letter-spacing
-spec:css22; type:property; text:letter-spacing
-LINE 1132:2099: Multiple possible 'overflow' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-overflow-3/#propdef-overflow
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-overflow-3; type:property; text:overflow
-spec:css22; type:property; text:overflow
-LINE 1132:2336: Multiple possible 'text-decoration' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-decor-4; type:property; text:text-decoration
-spec:css22; type:property; text:text-decoration
-LINE 1132:2389: Multiple possible 'visibility' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#propdef-visibility
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:property; text:visibility
-spec:css22; type:property; text:visibility
-LINE 1132:2403: Multiple possible 'word-spacing' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-text-4/#propdef-word-spacing
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-text-4; type:property; text:word-spacing
-spec:css22; type:property; text:word-spacing
-LINE 1149:356: Multiple possible 'px' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#px
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:px
-spec:css22; type:value; text:px
-LINE 1160:321: Multiple possible 'px' maybe refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#px
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:value; text:px
-spec:css22; type:value; text:px
-LINE 1196:361: Multiple possible 'none' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-none
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:none
-spec:css-display-4; type:value; for:<display-box>; text:none
-spec:css22; type:value; text:none
-LINE 1196:544: Multiple possible 'none' maybe refs for '['display']'.
-Arbitrarily chose https://drafts.csswg.org/css-display-4/#valdef-display-none
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-display-4; type:value; for:display; text:none
-spec:css-display-4; type:value; for:<display-box>; text:none
-spec:css22; type:value; text:none
-LINE ~1201:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE ~1272:1: Multiple possible '|' grammar refs.
-Arbitrarily chose https://drafts.csswg.org/css-values-4/#comb-one
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-values-4; type:grammar; text:|
-spec:css22; type:grammar; text:|
-LINE 1441:86: Multiple possible 'background' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background
-spec:css22; type:property; text:background
 LINE 1462:12: Multiple possible 'child' maybe refs.
 Arbitrarily chose https://drafts.csswg.org/css-speech-1/#valdef-voice-family-child
 To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
 spec:css-speech-1; type:value; text:child
 spec:fill-stroke-3; type:value; text:child
-LINE 1466:66: Multiple possible 'background' property refs.
-Arbitrarily chose https://drafts.csswg.org/css-backgrounds-3/#propdef-background
-To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
-spec:css-backgrounds-3; type:property; text:background
-spec:css22; type:property; text:background
 LINE 1260: W3C policy requires Privacy Considerations and Security Considerations to be separate sections, but you appear to have them combined into one.

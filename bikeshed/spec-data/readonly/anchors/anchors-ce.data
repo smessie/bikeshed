@@ -191,7 +191,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#ceo
+https://www.w3.org/policies/process/#ceo
 
 1
 -
@@ -660,11 +660,35 @@ position-area
 center
 center
 value
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#valdef-position-area-query-center
+1
+1
+<position-area-query>
+-
+center
+center
+value
 css-backgrounds-3
 css-backgrounds
 3
 current
 https://drafts.csswg.org/css-backgrounds-3/#valdef-background-position-center
+1
+1
+background-position
+-
+center
+center
+value
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#valdef-background-position-center
 1
 1
 background-position
@@ -702,6 +726,43 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#valdef-justify-content-center
+1
+1
+justify-content
+-
+center
+center
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-content-center
+1
+1
+align-content
+-
+center
+center
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-align-items-center
+1
+1
+align-items
+align-self
+-
+center
+center
+value
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#valdef-justify-content-center
 1
 1
 justify-content
@@ -854,9 +915,9 @@ https://drafts.csswg.org/css-values-5/#valdef-position-center
 center
 center
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-background-position-center
 1
@@ -866,9 +927,9 @@ background-position
 center
 center
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-text-align-center
 1
@@ -882,7 +943,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-align-center
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-align-center
 1
 1
 stroke-align
@@ -979,11 +1040,35 @@ position-area
 center
 center
 value
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#valdef-position-area-query-center
+1
+1
+<position-area-query>
+-
+center
+center
+value
 css-backgrounds-3
 css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-background-position-center
+1
+1
+background-position
+-
+center
+center
+value
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#valdef-background-position-center
 1
 1
 background-position
@@ -1182,42 +1267,6 @@ https://www.w3.org/TR/fill-stroke-3/#valdef-stroke-align-center
 1
 stroke-align
 -
-center
-center
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-alignsetting-center
-1
-1
-AlignSetting
--
-center
-center
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-linealignsetting-center
-1
-1
-LineAlignSetting
--
-center
-center
-enum-value
-webvtt1
-webvtt
-1
-snapshot
-https://www.w3.org/TR/webvtt1/#dom-positionalignsetting-center
-1
-1
-PositionAlignSetting
--
 center point
 center point
 dfn
@@ -1240,18 +1289,27 @@ https://www.w3.org/TR/webdriver2/#dfn-center-point
 
 1
 -
-central
-central
-value
-css-inline-3
-css-inline
-3
+center position value
+center position value
+dfn
+gamepad
+gamepad
+1
 current
-https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-central
+https://w3c.github.io/gamepad/#dfn-center-position-value
+
 1
+-
+center position value
+center position value
+dfn
+gamepad
+gamepad
 1
-alignment-baseline
-vertical-align
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-center-position-value
+
+1
 -
 central
 central
@@ -1264,6 +1322,7 @@ https://drafts.csswg.org/css-inline-3/#valdef-dominant-baseline-central
 1
 1
 dominant-baseline
+<<baseline-metric>>
 -
 central
 central
@@ -1658,66 +1717,66 @@ exchange signature
 certificate serial number
 certificate serial number
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#certificate-serial-number
+https://w3c.github.io/openscreenprotocol/network.html#certificate-serial-number
 
 1
 -
 certificate serial number
 certificate serial number
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#certificate-serial-number
+https://www.w3.org/TR/openscreen-network/#certificate-serial-number
 
 1
 -
 certificate serial number base
 certificate serial number base
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#certificate-serial-number-base
+https://w3c.github.io/openscreenprotocol/network.html#certificate-serial-number-base
 
 1
 -
 certificate serial number base
 certificate serial number base
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#certificate-serial-number-base
+https://www.w3.org/TR/openscreen-network/#certificate-serial-number-base
 
 1
 -
 certificate serial number counter
 certificate serial number counter
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 current
-https://w3c.github.io/openscreenprotocol/#certificate-serial-number-counter
+https://w3c.github.io/openscreenprotocol/network.html#certificate-serial-number-counter
 
 1
 -
 certificate serial number counter
 certificate serial number counter
 dfn
-openscreenprotocol
-openscreenprotocol
+openscreen-network
+openscreen-network
 1
 snapshot
-https://www.w3.org/TR/openscreenprotocol/#certificate-serial-number-counter
+https://www.w3.org/TR/openscreen-network/#certificate-serial-number-counter
 
 1
 -
@@ -1748,11 +1807,23 @@ RTCConfiguration
 certifications
 certifications
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-certifications
+
+1
+getInfo
+-
+certifications
+certifications
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-certifications
 
 1
 getInfo

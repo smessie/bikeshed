@@ -2540,14 +2540,14 @@ result, the UA MUST:</p>
      <p>Set <var>report</var>’s <a data-link-type="dfn" href="#signed-exchange-report-result" id="ref-for-signed-exchange-report-result③">result</a> to <var>result</var>.</p>
     <li data-md>
      <p>Let <var>report body</var> and <var>policy</var> be the result of
-<u class="link-error" data-lt="generate a network error report" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;generate a network error report&apos;.">generate a network error report</u> with <var>report</var>’s
+<a data-link-type="dfn" href="https://www.w3.org/TR/network-error-logging/#generate-a-network-error-report" id="ref-for-generate-a-network-error-report">generate a network error report</a> with <var>report</var>’s
 <a data-link-type="dfn" href="#signed-exchange-report-outer-request" id="ref-for-signed-exchange-report-outer-request①">outer request</a>. If the result is null, abort
 these steps.</p>
     <li data-md>
      <p>If <var>report body</var>’s <code>"type"</code> is <code>"dns.address_changed"</code>, abort these steps.</p>
      <p class="note" role="note"><span class="marker">Note:</span> This means that the NEL report was downgraded because the IP addresses
 of the server and the <var>policy</var> don’t match. In this case, the UA has called
-<u class="link-error" data-lt="deliver a network report" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;deliver a network report&apos;.">deliver a network report</u> algorithm with the error report while handling
+<a data-link-type="dfn" href="https://www.w3.org/TR/network-error-logging/#deliver-a-network-report" id="ref-for-deliver-a-network-report">deliver a network report</a> algorithm with the error report while handling
 the response. So we don’t need to send the same error report while
 processing the response as a signed exchange.</p>
     <li data-md>
@@ -2598,11 +2598,11 @@ any of the IP address in <var>report</var>’s
 was served from the different server from the server of <code>"outer_url"</code>. This
 is intended to avoid leaking the information about the certificate server.</p>
     <li data-md>
-     <p><u class="link-error" data-lt="Deliver a network report" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;deliver a network report&apos;.">Deliver a network report</u> with <var>report body</var> and <var>policy</var> and
+     <p><a data-link-type="dfn" href="https://www.w3.org/TR/network-error-logging/#deliver-a-network-report" id="ref-for-deliver-a-network-report①">Deliver a network report</a> with <var>report body</var> and <var>policy</var> and
 <var>report</var>’s <a data-link-type="dfn" href="#signed-exchange-report-outer-request" id="ref-for-signed-exchange-report-outer-request④">outer request</a>.</p>
      <div class="example" id="example-network-error-log">
       <a class="self-link" href="#example-network-error-log"></a>
-If a <a data-link-type="dfn" href="https://w3c.github.io/network-error-logging/#dfn-nel-policies" id="ref-for-dfn-nel-policies">NEL policy</a> was received from the distributor’s origin,
+If a <a data-link-type="dfn" href="https://w3c.github.io/network-error-logging/#nel-policies" id="ref-for-nel-policies">NEL policy</a> was received from the distributor’s origin,
 <code>distributor.example</code>, this step  will send the following JSON data to
 describe an invalid signature:
 
@@ -3025,7 +3025,7 @@ stop the UA from trusting it no more than 7 days later.</p>
      <li><span class="dfn-paneled" id="550c8676">hash-source</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="bd9733eb">viewport</span>
     </ul>
@@ -3201,7 +3201,9 @@ stop the UA from trusting it no more than 7 days later.</p>
    <li>
     <a data-link-type="biblio">[NETWORK-ERROR-LOGGING]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="935cf05e">NEL policy</span>
+     <li><span class="dfn-paneled" id="eee62e17">deliver a network report</span>
+     <li><span class="dfn-paneled" id="842bad35">generate a network error report</span>
+     <li><span class="dfn-paneled" id="58de0d21">NEL policy</span>
     </ul>
    <li>
     <a data-link-type="biblio">[RFC3230]</a> defines the following terms:
@@ -3312,7 +3314,7 @@ stop the UA from trusting it no more than 7 days later.</p>
   <dl>
    <dt id="biblio-csp">[CSP]
    <dd>Mike West; Antonio Sartori. <a href="https://w3c.github.io/webappsec-csp/"><cite>Content Security Policy Level 3</cite></a>. URL: <a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a>
-   <dt id="biblio-css21">[CSS21]
+   <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/"><cite>DOM Standard</cite></a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
@@ -3336,6 +3338,8 @@ stop the UA from trusting it no more than 7 days later.</p>
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/"><cite>Infra Standard</cite></a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-mimesniff">[MIMESNIFF]
    <dd>Gordon P. Hemsley. <a href="https://mimesniff.spec.whatwg.org/"><cite>MIME Sniffing Standard</cite></a>. Living Standard. URL: <a href="https://mimesniff.spec.whatwg.org/">https://mimesniff.spec.whatwg.org/</a>
+   <dt id="biblio-network-error-logging">[NETWORK-ERROR-LOGGING]
+   <dd>Douglas Creager; Ian Clelland. <a href="https://w3c.github.io/network-error-logging/"><cite>Network Error Logging</cite></a>. URL: <a href="https://w3c.github.io/network-error-logging/">https://w3c.github.io/network-error-logging/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-rfc5280">[RFC5280]
@@ -3369,12 +3373,10 @@ stop the UA from trusting it no more than 7 days later.</p>
    <dd>Jeffrey Yasskin; Kouhei Ueno. <a href="https://tools.ietf.org/html/draft-yasskin-httpbis-origin-signed-exchanges-impl-03"><cite>Signed HTTP Exchanges Implementation Checkpoints</cite></a>. ED. URL: <a href="https://tools.ietf.org/html/draft-yasskin-httpbis-origin-signed-exchanges-impl-03">https://tools.ietf.org/html/draft-yasskin-httpbis-origin-signed-exchanges-impl-03</a>
    <dt id="biblio-http-dig-alg">[HTTP-DIG-ALG]
    <dd><a href="https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml"><cite>Hypertext Transfer Protocol (HTTP) Digest Algorithm Values</cite></a>. LS. URL: <a href="https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml">https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml</a>
-   <dt id="biblio-network-error-logging">[NETWORK-ERROR-LOGGING]
-   <dd>Douglas Creager; Ian Clelland. <a href="https://w3c.github.io/network-error-logging/"><cite>Network Error Logging</cite></a>. URL: <a href="https://w3c.github.io/network-error-logging/">https://w3c.github.io/network-error-logging/</a>
    <dt id="biblio-rfc3230">[RFC3230]
    <dd>J. Mogul; A. Van Hoff. <a href="https://www.rfc-editor.org/rfc/rfc3230"><cite>Instance Digests in HTTP</cite></a>. January 2002. Proposed Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc3230">https://www.rfc-editor.org/rfc/rfc3230</a>
    <dt id="biblio-service-workers">[SERVICE-WORKERS]
-   <dd>Jake Archibald; Marijn Kruisselbrink. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
+   <dd>Monica CHINTALA; Yoshisato Yanagisawa. <a href="https://w3c.github.io/ServiceWorker/"><cite>Service Workers Nightly</cite></a>. URL: <a href="https://w3c.github.io/ServiceWorker/">https://w3c.github.io/ServiceWorker/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
   <div style="counter-reset:issue">
@@ -3653,6 +3655,7 @@ let dfnPanelData = {
 "55213b5b": {"dfnID":"55213b5b","dfnText":"request","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request"}],"title":"2.1. A request\u2019s stashed exchange"},{"refs":[{"id":"ref-for-concept-request\u2460"}],"title":"4.4. Signed Exchange report"},{"refs":[{"id":"ref-for-concept-request\u2461"}],"title":"5.5.1. Handling the certificate reference"},{"refs":[{"id":"ref-for-concept-request\u2462"}],"title":"5.13. Request matching"}],"url":"https://fetch.spec.whatwg.org/#concept-request"},
 "555b1be1": {"dfnID":"555b1be1","dfnText":"clone (for response)","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-response-clone"}],"title":"2.2. Request clone"},{"refs":[{"id":"ref-for-concept-response-clone\u2460"}],"title":"3.3. Monkeypatch Link type \"prefetch\""},{"refs":[{"id":"ref-for-concept-response-clone\u2461"}],"title":"3.4. Monkeypatch process a navigate fetch"}],"url":"https://fetch.spec.whatwg.org/#concept-response-clone"},
 "57807ab9": {"dfnID":"57807ab9","dfnText":"referrer policy attribute","external":true,"refSections":[{"refs":[{"id":"ref-for-referrer-policy-attribute"}],"title":"3.5. \nMonkeypatch Page load processing model for HTML files"}],"url":"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#referrer-policy-attribute"},
+"58de0d21": {"dfnID":"58de0d21","dfnText":"NEL policy","external":true,"refSections":[{"refs":[{"id":"ref-for-nel-policies"}],"title":"5.16. Queuing signed exchange report"}],"url":"https://w3c.github.io/network-error-logging/#nel-policies"},
 "59ed4e57": {"dfnID":"59ed4e57","dfnText":"ReadableStream","external":true,"refSections":[{"refs":[{"id":"ref-for-readablestream"}],"title":"4.2. Read buffer"},{"refs":[{"id":"ref-for-readablestream\u2460"}],"title":"5.12. Creating the response stream."},{"refs":[{"id":"ref-for-readablestream\u2461"}],"title":"5.17. Stream algorithms"},{"refs":[{"id":"ref-for-readablestream\u2462"}],"title":"5.17.1. Create a read buffer"},{"refs":[{"id":"ref-for-readablestream\u2463"}],"title":"5.17.4. Dump to another stream"}],"url":"https://streams.spec.whatwg.org/#readablestream"},
 "5a9b9d4f": {"dfnID":"5a9b9d4f","dfnText":"closed","external":true,"refSections":[{"refs":[{"id":"ref-for-readablestream-closed"},{"id":"ref-for-readablestream-closed\u2460"}],"title":"5.15. Wait and queue a report"},{"refs":[{"id":"ref-for-readablestream-closed\u2461"},{"id":"ref-for-readablestream-closed\u2462"}],"title":"5.17.4. Dump to another stream"}],"url":"https://streams.spec.whatwg.org/#readablestream-closed"},
 "5afbefcd": {"dfnID":"5afbefcd","dfnText":"item","external":true,"refSections":[{"refs":[{"id":"ref-for-list-item"}],"title":"4.3. Augmented Certificate"},{"refs":[{"id":"ref-for-list-item\u2460"}],"title":"5.5.1. Handling the certificate reference"}],"url":"https://infra.spec.whatwg.org/#list-item"},
@@ -3676,6 +3679,7 @@ let dfnPanelData = {
 "79aa4f80": {"dfnID":"79aa4f80","dfnText":"Link Target","external":true,"refSections":[{"refs":[{"id":"ref-for-section-3.1"},{"id":"ref-for-section-3.1\u2460"},{"id":"ref-for-section-3.1\u2461"}],"title":"3. Subresource substitution"},{"refs":[{"id":"ref-for-section-3.1\u2462"}],"title":"3.3. Monkeypatch Link type \"prefetch\""},{"refs":[{"id":"ref-for-section-3.1\u2463"}],"title":"3.5. \nMonkeypatch Page load processing model for HTML files"},{"refs":[{"id":"ref-for-section-3.1\u2464"}],"title":"4.6. Allowed signed exchange link info"},{"refs":[{"id":"ref-for-section-3.1\u2465"}],"title":"4.7. Alternate signed exchange link info"},{"refs":[{"id":"ref-for-section-3.1\u2466"}],"title":"4.8. Alternate signed exchange preload info"},{"refs":[{"id":"ref-for-section-3.1\u2467"}],"title":"5.19. Get allowed signed exchange link info"},{"refs":[{"id":"ref-for-section-3.1\u2468"}],"title":"5.20. Get alternate signed\nexchange link info"}],"url":"https://tools.ietf.org/html/rfc8288#section-3.1"},
 "7c195f8b": {"dfnID":"7c195f8b","dfnText":"essence","external":true,"refSections":[{"refs":[{"id":"ref-for-mime-type-essence"}],"title":"5.1. Identifying signed exchanges"},{"refs":[{"id":"ref-for-mime-type-essence\u2460"}],"title":"5.5.1. Handling the certificate reference"}],"url":"https://mimesniff.spec.whatwg.org/#mime-type-essence"},
 "81a76425": {"dfnID":"81a76425","dfnText":"body (for response)","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-response-body"}],"title":"5.2. Extracting the fallback URL"},{"refs":[{"id":"ref-for-concept-response-body\u2460"}],"title":"5.3. Parsing signed exchanges"},{"refs":[{"id":"ref-for-concept-response-body\u2461"},{"id":"ref-for-concept-response-body\u2462"}],"title":"5.5.1. Handling the certificate reference"},{"refs":[{"id":"ref-for-concept-response-body\u2463"}],"title":"5.12. Creating the response stream."},{"refs":[{"id":"ref-for-concept-response-body\u2464"},{"id":"ref-for-concept-response-body\u2465"},{"id":"ref-for-concept-response-body\u2466"}],"title":"5.15. Wait and queue a report"}],"url":"https://fetch.spec.whatwg.org/#concept-response-body"},
+"842bad35": {"dfnID":"842bad35","dfnText":"generate a network error report","external":true,"refSections":[{"refs":[{"id":"ref-for-generate-a-network-error-report"}],"title":"5.16. Queuing signed exchange report"}],"url":"https://www.w3.org/TR/network-error-logging/#generate-a-network-error-report"},
 "85394472": {"dfnID":"85394472","dfnText":"Document","external":true,"refSections":[{"refs":[{"id":"ref-for-document"},{"id":"ref-for-document\u2460"}],"title":"3.1. New Document fields"}],"url":"https://dom.spec.whatwg.org/#document"},
 "857d5516": {"dfnID":"857d5516","dfnText":"client","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-client"}],"title":"2.5. Monkeypatch HTTP fetch"},{"refs":[{"id":"ref-for-concept-request-client\u2460"}],"title":"3.5. \nMonkeypatch Page load processing model for HTML files"},{"refs":[{"id":"ref-for-concept-request-client\u2461"}],"title":"5.5.1. Handling the certificate reference"}],"url":"https://fetch.spec.whatwg.org/#concept-request-client"},
 "8a608b90": {"dfnID":"8a608b90","dfnText":"value","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-header-value"}],"title":"5.11.1. Converting a map to a header list"}],"url":"https://fetch.spec.whatwg.org/#concept-header-value"},
@@ -3684,7 +3688,6 @@ let dfnPanelData = {
 "8e720892": {"dfnID":"8e720892","dfnText":"clone (for request)","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-clone"}],"title":"2.2. Request clone"}],"url":"https://fetch.spec.whatwg.org/#concept-request-clone"},
 "8e9945a0": {"dfnID":"8e9945a0","dfnText":"body (for request)","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-request-body"},{"id":"ref-for-concept-request-body\u2460"},{"id":"ref-for-concept-request-body\u2461"},{"id":"ref-for-concept-request-body\u2462"}],"title":"2.2. Request clone"}],"url":"https://fetch.spec.whatwg.org/#concept-request-body"},
 "91c016b5": {"dfnID":"91c016b5","dfnText":"identical to","external":true,"refSections":[{"refs":[{"id":"ref-for-string-is"},{"id":"ref-for-string-is\u2460"}],"title":"3.3. Monkeypatch Link type \"prefetch\""}],"url":"https://infra.spec.whatwg.org/#string-is"},
-"935cf05e": {"dfnID":"935cf05e","dfnText":"NEL policy","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-nel-policies"}],"title":"5.16. Queuing signed exchange report"}],"url":"https://w3c.github.io/network-error-logging/#dfn-nel-policies"},
 "959ad97b": {"dfnID":"959ad97b","dfnText":"origin","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-origin"}],"title":"5.3. Parsing signed exchanges"},{"refs":[{"id":"ref-for-concept-url-origin\u2460"},{"id":"ref-for-concept-url-origin\u2461"},{"id":"ref-for-concept-url-origin\u2462"}],"title":"5.8. Cross-origin trust"},{"refs":[{"id":"ref-for-concept-url-origin\u2463"},{"id":"ref-for-concept-url-origin\u2464"}],"title":"5.16. Queuing signed exchange report"}],"url":"https://url.spec.whatwg.org/#concept-url-origin"},
 "95d7775a": {"dfnID":"95d7775a","dfnText":"Uint8Array","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-Uint8Array"},{"id":"ref-for-idl-Uint8Array\u2460"}],"title":"5.17.2. Read up to bytes"},{"refs":[{"id":"ref-for-idl-Uint8Array\u2461"},{"id":"ref-for-idl-Uint8Array\u2462"},{"id":"ref-for-idl-Uint8Array\u2463"}],"title":"5.17.4. Dump to another stream"}],"url":"https://webidl.spec.whatwg.org/#idl-Uint8Array"},
 "9690c542": {"dfnID":"9690c542","dfnText":"Variants","external":true,"refSections":[{"refs":[{"id":"ref-for-variants"},{"id":"ref-for-variants\u2460"}],"title":"3. Subresource substitution"},{"refs":[{"id":"ref-for-variants\u2461"}],"title":"5.13. Request matching"}],"url":"https://httpwg.org/http-extensions/draft-ietf-httpbis-variants.html#variants"},
@@ -3779,6 +3782,7 @@ let dfnPanelData = {
 "eb1b1af3": {"dfnID":"eb1b1af3","dfnText":"network error","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-network-error"},{"id":"ref-for-concept-network-error\u2460"}],"title":"2.5. Monkeypatch HTTP fetch"},{"refs":[{"id":"ref-for-concept-network-error\u2461"}],"title":"2.6. Monkeypatch HTTP-network-or-cache fetch"}],"url":"https://fetch.spec.whatwg.org/#concept-network-error"},
 "ed948033": {"dfnID":"ed948033","dfnText":"fragment","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-url-fragment"}],"title":"5.4. Parsing the invariant prefix"},{"refs":[{"id":"ref-for-concept-url-fragment\u2460"},{"id":"ref-for-concept-url-fragment\u2461"}],"title":"5.5. Parsing a Signature Header Field"}],"url":"https://url.spec.whatwg.org/#concept-url-fragment"},
 "ee7bba09": {"dfnID":"ee7bba09","dfnText":"response","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-response"},{"id":"ref-for-concept-response\u2460"},{"id":"ref-for-concept-response\u2461"}],"title":"2.3. New response fields"},{"refs":[{"id":"ref-for-concept-response\u2462"}],"title":"2.4. Response date"},{"refs":[{"id":"ref-for-concept-response\u2463"},{"id":"ref-for-concept-response\u2464"}],"title":"3.3. Monkeypatch Link type \"prefetch\""},{"refs":[{"id":"ref-for-concept-response\u2465"}],"title":"3.5. \nMonkeypatch Page load processing model for HTML files"},{"refs":[{"id":"ref-for-concept-response\u2466"}],"title":"4.1. Exchange"},{"refs":[{"id":"ref-for-concept-response\u2467"}],"title":"4.4. Signed Exchange report"},{"refs":[{"id":"ref-for-concept-response\u2468"}],"title":"5.1. Identifying signed exchanges"},{"refs":[{"id":"ref-for-concept-response\u2460\u24ea"}],"title":"5.2. Extracting the fallback URL"},{"refs":[{"id":"ref-for-concept-response\u2460\u2460"}],"title":"5.3. Parsing signed exchanges"},{"refs":[{"id":"ref-for-concept-response\u2460\u2461"}],"title":"5.10. Parsing b2 CBOR headers"},{"refs":[{"id":"ref-for-concept-response\u2460\u2462"}],"title":"5.11. Parsing b3 CBOR headers"},{"refs":[{"id":"ref-for-concept-response\u2460\u2463"}],"title":"5.12. Creating the response stream."}],"url":"https://fetch.spec.whatwg.org/#concept-response"},
+"eee62e17": {"dfnID":"eee62e17","dfnText":"deliver a network report","external":true,"refSections":[{"refs":[{"id":"ref-for-deliver-a-network-report"},{"id":"ref-for-deliver-a-network-report\u2460"}],"title":"5.16. Queuing signed exchange report"}],"url":"https://www.w3.org/TR/network-error-logging/#deliver-a-network-report"},
 "ef28f15d": {"dfnID":"ef28f15d","dfnText":"get a reader","external":true,"refSections":[{"refs":[{"id":"ref-for-readablestream-get-a-reader"}],"title":"5.5.1. Handling the certificate reference"},{"refs":[{"id":"ref-for-readablestream-get-a-reader\u2460"}],"title":"5.17.1. Create a read buffer"}],"url":"https://streams.spec.whatwg.org/#readablestream-get-a-reader"},
 "element-attrdef-link-header-integrity": {"dfnID":"element-attrdef-link-header-integrity","dfnText":"header-integrity","external":false,"refSections":[{"refs":[{"id":"ref-for-element-attrdef-link-header-integrity"}],"title":"3. Subresource substitution"}],"url":"#element-attrdef-link-header-integrity"},
 "element-attrdef-link-variant-key": {"dfnID":"element-attrdef-link-variant-key","dfnText":"variant-key","external":false,"refSections":[{"refs":[{"id":"ref-for-element-attrdef-link-variant-key"}],"title":"3. Subresource substitution"}],"url":"#element-attrdef-link-variant-key"},
@@ -4498,7 +4502,7 @@ let refsData = {
 "https://w3c.github.io/ServiceWorker/#dom-fetchevent-request": {"displayText":"request","export":true,"for_":["FetchEvent"],"level":"1","normative":true,"shortname":"service-workers","spec":"service-workers","status":"current","text":"request","type":"attribute","url":"https://w3c.github.io/ServiceWorker/#dom-fetchevent-request"},
 "https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-navigationpreload": {"displayText":"navigationPreload","export":true,"for_":["ServiceWorkerRegistration"],"level":"1","normative":true,"shortname":"service-workers","spec":"service-workers","status":"current","text":"navigationPreload","type":"attribute","url":"https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-navigationpreload"},
 "https://w3c.github.io/ServiceWorker/#fetchevent": {"displayText":"FetchEvent","export":true,"for_":[],"level":"1","normative":true,"shortname":"service-workers","spec":"service-workers","status":"current","text":"FetchEvent","type":"interface","url":"https://w3c.github.io/ServiceWorker/#fetchevent"},
-"https://w3c.github.io/network-error-logging/#dfn-nel-policies": {"displayText":"NEL policy","export":true,"for_":[],"level":"1","normative":true,"shortname":"network-error-logging","spec":"network-error-logging","status":"current","text":"nel policy","type":"dfn","url":"https://w3c.github.io/network-error-logging/#dfn-nel-policies"},
+"https://w3c.github.io/network-error-logging/#nel-policies": {"displayText":"NEL policy","export":true,"for_":[],"level":"1","normative":true,"shortname":"network-error-logging","spec":"network-error-logging","status":"current","text":"nel policy","type":"dfn","url":"https://w3c.github.io/network-error-logging/#nel-policies"},
 "https://w3c.github.io/webappsec-csp/#grammardef-hash-source": {"displayText":"hash-source","export":true,"for_":[],"level":"3","normative":true,"shortname":"csp","spec":"csp3","status":"current","text":"hash-source","type":"grammar","url":"https://w3c.github.io/webappsec-csp/#grammardef-hash-source"},
 "https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-origin": {"displayText":"potentially trustworthy origin","export":true,"for_":[],"level":"1","normative":true,"shortname":"secure-contexts","spec":"secure-contexts","status":"current","text":"potentially trustworthy origin","type":"dfn","url":"https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-origin"},
 "https://webidl.spec.whatwg.org/#idl-ArrayBuffer": {"displayText":"ArrayBuffer","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"ArrayBuffer","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-ArrayBuffer"},
@@ -4508,6 +4512,8 @@ let refsData = {
 "https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html#uncached-headers": {"displayText":"uncached response header","export":true,"for_":[],"level":"","normative":true,"shortname":"draft-yasskin-http-origin-signed-responses","spec":"draft-yasskin-http-origin-signed-responses","status":"anchor-block","text":"uncached response header","type":"dfn","url":"https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html#uncached-headers"},
 "https://wicg.github.io/webpackage/draft-yasskin-wpack-bundled-exchanges.html#parse-known-length": {"displayText":"parsing a CBOR item","export":true,"for_":[],"level":"","normative":true,"shortname":"draft-yasskin-wpack-bundled-exchanges","spec":"draft-yasskin-wpack-bundled-exchanges","status":"anchor-block","text":"parsing a cbor item","type":"dfn","url":"https://wicg.github.io/webpackage/draft-yasskin-wpack-bundled-exchanges.html#parse-known-length"},
 "https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml#http-dig-alg-1": {"displayText":"Digest algorithm","export":true,"for_":[],"level":"","normative":true,"shortname":"http-dig-alg","spec":"http-dig-alg","status":"anchor-block","text":"digest algorithm","type":"dfn","url":"https://www.iana.org/assignments/http-dig-alg/http-dig-alg.xhtml#http-dig-alg-1"},
+"https://www.w3.org/TR/network-error-logging/#deliver-a-network-report": {"displayText":"deliver a network report","export":true,"for_":[],"level":"1","normative":true,"shortname":"network-error-logging","spec":"network-error-logging","status":"snapshot","text":"deliver a network report","type":"dfn","url":"https://www.w3.org/TR/network-error-logging/#deliver-a-network-report"},
+"https://www.w3.org/TR/network-error-logging/#generate-a-network-error-report": {"displayText":"generate a network error report","export":true,"for_":[],"level":"1","normative":true,"shortname":"network-error-logging","spec":"network-error-logging","status":"snapshot","text":"generate a network error report","type":"dfn","url":"https://www.w3.org/TR/network-error-logging/#generate-a-network-error-report"},
 };
 
 function mkRefHint(link, ref) {

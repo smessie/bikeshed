@@ -1,3 +1,51 @@
+"alert"
+"alert"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-alert
+
+1
+session.UserPromptHandler
+-
+"alert"
+"alert"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-alert
+
+1
+browsingContext.UserPromptType
+-
+"alert"
+"alert"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-alert
+
+1
+session.UserPromptHandler
+-
+"alert"
+"alert"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-alert
+
+1
+browsingContext.UserPromptType
+-
 "all"
 "all"
 enum-value
@@ -9,6 +57,18 @@ https://drafts.csswg.org/css-nav-1/#dom-focusableareasearchmode-all
 1
 1
 FocusableAreaSearchMode
+-
+"all"
+"all"
+enum-value
+cssom-view-1
+cssom-view
+1
+current
+https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewcontainer-all
+1
+1
+ScrollIntoViewContainer
 -
 "all"
 "all"
@@ -60,6 +120,18 @@ ServiceWorkerUpdateViaCache
 -
 "all"
 "all"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-all
+
+1
+script.SerializationOptions/includeShadowTree
+-
+"all"
+"all"
 enum-value
 css-nav-1
 css-nav
@@ -69,6 +141,18 @@ https://www.w3.org/TR/css-nav-1/#dom-focusableareasearchmode-all
 1
 1
 FocusableAreaSearchMode
+-
+"all"
+"all"
+enum-value
+cssom-view-1
+cssom-view
+1
+snapshot
+https://www.w3.org/TR/cssom-view-1/#dom-scrollintoviewcontainer-all
+1
+1
+ScrollIntoViewContainer
 -
 "all"
 "all"
@@ -93,6 +177,18 @@ https://www.w3.org/TR/service-workers/#dom-serviceworkerupdateviacache-all
 1
 1
 ServiceWorkerUpdateViaCache
+-
+"all"
+"all"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-all
+
+1
+script.SerializationOptions/includeShadowTree
 -
 "all"
 "all"
@@ -131,6 +227,18 @@ AutoplayPolicy
 -
 "allowed"
 "allowed"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserdownloadbehaviorallowed-type-allowed
+
+1
+browser.DownloadBehaviorAllowed/type
+-
+"allowed"
+"allowed"
 enum-value
 autoplay-detection
 autoplay-detection
@@ -140,6 +248,18 @@ https://www.w3.org/TR/autoplay-detection/#dom-autoplaypolicy-allowed
 1
 1
 AutoplayPolicy
+-
+"allowed"
+"allowed"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserdownloadbehaviorallowed-type-allowed
+
+1
+browser.DownloadBehaviorAllowed/type
 -
 "allowed-muted"
 "allowed-muted"
@@ -168,7 +288,7 @@ AutoplayPolicy
 "allpass"
 "allpass"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -180,11 +300,35 @@ BiquadFilterType
 "allpass"
 "allpass"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-allpass
+1
+1
+BiquadFilterType
+-
+"allpass"
+"allpass"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-allpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-allpass
+1
+1
+BiquadFilterType
+-
+"allpass"
+"allpass"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-allpass
 1
 1
 BiquadFilterType
@@ -228,6 +372,18 @@ PlaybackDirection
 "alternate"
 "alternate"
 enum-value
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtriggerbehavior-alternate
+1
+1
+AnimationTriggerBehavior
+-
+"alternate"
+"alternate"
+enum-value
 web-animations-1
 web-animations
 1
@@ -236,6 +392,18 @@ https://www.w3.org/TR/web-animations-1/#dom-playbackdirection-alternate
 1
 1
 PlaybackDirection
+-
+"alternate"
+"alternate"
+enum-value
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtriggerbehavior-alternate
+1
+1
+AnimationTriggerBehavior
 -
 "alternate-reverse"
 "alternate-reverse"
@@ -260,6 +428,78 @@ https://www.w3.org/TR/web-animations-1/#dom-playbackdirection-alternate-reverse
 1
 1
 PlaybackDirection
+-
+"altitude"
+"altitude"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitude
+
+1
+emulation.GeolocationCoordinates
+-
+"altitude"
+"altitude"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitude
+
+1
+emulation.GeolocationCoordinates
+-
+"altitudeAccuracy"
+"altitudeAccuracy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitudeaccuracy
+
+1
+emulation.GeolocationCoordinates
+-
+"altitudeAccuracy"
+"altitudeAccuracy"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitudeaccuracy
+
+1
+emulation.GeolocationCoordinates
+-
+"altitudeAngle"
+"altitudeAngle"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointercommonproperties-altitudeangle
+
+1
+input.PointerCommonProperties
+-
+"altitudeAngle"
+"altitudeAngle"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointercommonproperties-altitudeangle
+
+1
+input.PointerCommonProperties
 -
 "always"
 "always"
@@ -309,12 +549,48 @@ https://www.w3.org/TR/webgpu/#dom-gpucomparefunction-always
 1
 GPUCompareFunction
 -
+"alwaysMatch"
+"alwaysMatch"
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-capabilitiesrequestparameters-alwaysmatch
+
+1
+CapabilitiesRequestParameters
+-
+"alwaysMatch"
+"alwaysMatch"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-alwaysmatch
+
+1
+session.CapabilitiesRequest
+-
+"alwaysMatch"
+"alwaysMatch"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-alwaysmatch
+
+1
+session.CapabilitiesRequest
+-
 'all' media group
 'all' media group
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#all-media-group
 
@@ -325,20 +601,9 @@ https://drafts.csswg.org/css2/#all-media-group
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/media.html#all-media-group
-1
-1
--
-'all' media group
-'all' media group
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/media.html#all-media-group
+https://www.w3.org/TR/CSS2/media.html#all-media-group
 1
 1
 -
@@ -530,56 +795,67 @@ connection timing info
 Algorithm
 Algorithm
 dictionary
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-Algorithm
 1
 1
 -
-algorithm
-algorithm
-dfn
-webcryptoapi
-webcryptoapi
-1
+Algorithm
+Algorithm
+dictionary
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-Algorithm
+https://www.w3.org/TR/webcrypto-2/#dfn-Algorithm
+1
+1
+-
+algorithm normalization
+Algorithm Normalization
+dfn
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-algorithm-normalization
 
 1
 -
 algorithm normalization
 Algorithm Normalization
 dfn
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-algorithm-normalization
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-algorithm-normalization
 
 1
 -
 AlgorithmIdentifier
 AlgorithmIdentifier
 typedef
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-algorithmidentifier
 1
 1
 -
-algorithmidentifier
 AlgorithmIdentifier
-dfn
-webcryptoapi
-webcryptoapi
-1
+AlgorithmIdentifier
+typedef
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-AlgorithmIdentifier
-
+https://www.w3.org/TR/webcrypto-2/#dom-algorithmidentifier
+1
 1
 -
 alignof
@@ -659,6 +935,17 @@ https://w3c.github.io/ServiceWorker/#all-fetch-listeners-are-empty
 
 1
 -
+all fetch listeners are empty
+All Fetch Listeners Are Empty
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#all-fetch-listeners-are-empty
+
+1
+-
 AllAcceptedCredentialsOptions
 AllAcceptedCredentialsOptions
 dictionary
@@ -670,6 +957,17 @@ https://w3c.github.io/webauthn/#dictdef-allacceptedcredentialsoptions
 1
 1
 -
+AllAcceptedCredentialsOptions
+AllAcceptedCredentialsOptions
+dictionary
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dictdef-allacceptedcredentialsoptions
+1
+1
+-
 AllCharacters
 AllCharacters
 abstract-op
@@ -681,14 +979,36 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-allcharacters
 1
 1
 -
-AllCharacters(rer)
-AllCharacters(rer)
+AllCharacters(regexpRecord)
+AllCharacters(regexpRecord)
 abstract-op
 ecmascript
 ecmascript
 1
 current
 https://tc39.es/ecma262/multipage/text-processing.html#sec-allcharacters
+1
+1
+-
+AllImportAttributesSupported
+AllImportAttributesSupported
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-AllImportAttributesSupported
+1
+1
+-
+AllImportAttributesSupported(attrs)
+AllImportAttributesSupported(attrs)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-AllImportAttributesSupported
 1
 1
 -
@@ -725,8 +1045,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-allocatearraybuffer
 1
 1
 -
-AllocateArrayBuffer(constructor, byteLength, maxByteLength)
-AllocateArrayBuffer(constructor, byteLength, maxByteLength)
+AllocateArrayBuffer(ctor, byteLength, maxByteLength)
+AllocateArrayBuffer(ctor, byteLength, maxByteLength)
 abstract-op
 ecmascript
 ecmascript
@@ -747,8 +1067,8 @@ https://tc39.es/ecma262/multipage/structured-data.html#sec-allocatesharedarraybu
 1
 1
 -
-AllocateSharedArrayBuffer(constructor, byteLength, maxByteLength)
-AllocateSharedArrayBuffer(constructor, byteLength, maxByteLength)
+AllocateSharedArrayBuffer(ctor, byteLength, maxByteLength)
+AllocateSharedArrayBuffer(ctor, byteLength, maxByteLength)
 abstract-op
 ecmascript
 ecmascript
@@ -769,8 +1089,8 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-allocatetypedarra
 1
 1
 -
-AllocateTypedArray(constructorName, newTarget, defaultProto, length)
-AllocateTypedArray(constructorName, newTarget, defaultProto, length)
+AllocateTypedArray(ctorName, newTarget, defaultProto, length)
+AllocateTypedArray(ctorName, newTarget, defaultProto, length)
 abstract-op
 ecmascript
 ecmascript
@@ -791,8 +1111,8 @@ https://tc39.es/ecma262/multipage/indexed-collections.html#sec-allocatetypedarra
 1
 1
 -
-AllocateTypedArrayBuffer(O, length)
-AllocateTypedArrayBuffer(O, length)
+AllocateTypedArrayBuffer(obj, length)
+AllocateTypedArrayBuffer(obj, length)
 abstract-op
 ecmascript
 ecmascript
@@ -810,6 +1130,17 @@ csp-embedded-enforcement
 1
 current
 https://w3c.github.io/webappsec-cspee/#http-headerdef-allow-csp-from
+1
+1
+-
+allow-csp-from
+Allow-CSP-From
+http-header
+csp-embedded-enforcement
+csp-embedded-enforcement
+1
+snapshot
+https://www.w3.org/TR/csp-embedded-enforcement/#http-headerdef-allow-csp-from
 1
 1
 -
@@ -866,28 +1197,6 @@ webidl
 current
 https://webidl.spec.whatwg.org/#AllowSharedBufferSource
 1
-1
--
-allowed aggregatable budget per source
-allowed aggregatable budget per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#allowed-aggregatable-budget-per-source
-
-1
--
-allowed aggregation coordinator set
-allowed aggregation coordinator set
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#allowed-aggregation-coordinator-set
-
 1
 -
 allowed number of groups
@@ -1044,14 +1353,37 @@ https://wicg.github.io/webpackage/loading.html#alternate-signed-exchange-preload
 1
 1
 -
+alternative
+alternative
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/text-processing.html#prod-Alternative
+
+1
+-
 [[algorithm]]
 [[algorithm]]
 attribute
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKey-slot-algorithm
+
+1
+CryptoKey
+-
+[[algorithm]]
+[[algorithm]]
+attribute
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKey-slot-algorithm
 
 1
 CryptoKey
@@ -1059,11 +1391,23 @@ CryptoKey
 [[algorithm_cached]]
 [[algorithm_cached]]
 attribute
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKey-slot-algorithm_cached
+
+1
+CryptoKey
+-
+[[algorithm_cached]]
+[[algorithm_cached]]
+attribute
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKey-slot-algorithm_cached
 
 1
 CryptoKey
@@ -1212,6 +1556,78 @@ https://www.w3.org/TR/mediasession/#mediametadata-album
 1
 MediaMetadata
 -
+alert
+alert
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessionuserprompthandler-alert
+
+1
+session.UserPromptHandler
+-
+alert
+alert
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-alert
+
+1
+browsingContext.UserPromptType
+-
+alert
+alert
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#dom-unhandled-prompt-behavior-alert-alert
+1
+1
+unhandled-prompt-behavior-alert
+-
+alert
+alert
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessionuserprompthandler-alert
+
+1
+session.UserPromptHandler
+-
+alert
+alert
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browsingcontextuserprompttype-alert
+
+1
+browsingContext.UserPromptType
+-
+alert
+alert
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-unhandled-prompt-behavior-alert-alert
+1
+1
+unhandled-prompt-behavior-alert
+-
 alert steps
 alert steps
 dfn
@@ -1262,9 +1678,9 @@ PublicKeyCredentialParameters
 alg
 alg
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-alg
 1
@@ -1283,12 +1699,36 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialparameters-alg
 1
 PublicKeyCredentialParameters
 -
+alg
+alg
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-jsonwebkey-alg
+1
+1
+JsonWebKey
+-
+algorithm
+algorithm
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#webtransport-hash-algorithm
+1
+1
+WebTransport-hash
+-
 algorithm
 algorithm
 attribute
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-cryptokey-algorithm
 1
@@ -1333,14 +1773,15 @@ public key
 -
 algorithm
 algorithm
-dfn
-webcryptoapi
-webcryptoapi
-1
+attribute
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey-slot-algorithm
-
+https://www.w3.org/TR/webcrypto-2/#dom-cryptokey-algorithm
 1
+1
+CryptoKey
 -
 algorithm
 algorithm
@@ -1650,17 +2091,6 @@ mathml-core
 snapshot
 https://www.w3.org/TR/mathml-core/#dfn-algorithm-to-set-the-properties-of-an-operator-from-its-category
 1
-1
--
-algorithm_cached
-algorithm_cached
-dfn
-webcryptoapi
-webcryptoapi
-1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey-slot-algorithm_cached
-
 1
 -
 alias
@@ -2226,7 +2656,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__align
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__align
 1
 1
 SVGPreserveAspectRatio
@@ -2315,6 +2745,17 @@ https://drafts.csswg.org/css-flexbox-1/#propdef-align-content
 align-content
 align-content
 property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-align-content
+1
+1
+-
+align-content
+align-content
+property
 css-align-3
 css-align
 3
@@ -2353,6 +2794,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#propdef-align-items
+1
+1
+-
+align-items
+align-items
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-align-items
 1
 1
 -
@@ -2404,11 +2856,33 @@ CSSPositionTryDescriptors
 align-self
 align-self
 property
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#propdef-align-self
+1
+1
+-
+align-self
+align-self
+property
 css-flexbox-1
 css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#propdef-align-self
+1
+1
+-
+align-self
+align-self
+property
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#propdef-align-self
 1
 1
 -
@@ -2434,6 +2908,17 @@ https://www.w3.org/TR/css-anchor-position-1/#dom-csspositiontrydescriptors-align
 1
 1
 CSSPositionTryDescriptors
+-
+align-self
+align-self
+property
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#propdef-align-self
+1
+1
 -
 align-self
 align-self
@@ -2505,6 +2990,17 @@ https://immersive-web.github.io/raw-camera-access/#aligned
 
 
 -
+aligned corner point
+aligned corner point
+dfn
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#aligned-corner-point
+
+1
+-
 aligned subtree
 aligned subtree
 dfn
@@ -2519,9 +3015,9 @@ https://drafts.csswg.org/css-inline-3/#aligned-subtree
 aligned subtree
 aligned subtree
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#aligned-subtree
 
@@ -2613,7 +3109,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermAlignmentBaseline
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermAlignmentBaseline
 1
 1
 -
@@ -2725,7 +3221,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/text.html#TermAlignmentPoint
+https://w3c.github.io/svgwg/svg2-draft/text.html#TermAlignmentPoint
 
 1
 -
@@ -2811,6 +3307,18 @@ Document
 all
 all
 value
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#valdef-trigger-scope-all
+1
+1
+trigger-scope
+-
+all
+all
+value
 css-anchor-position-1
 css-anchor-position
 1
@@ -2877,6 +3385,19 @@ current
 https://drafts.csswg.org/css-cascade-5/#propdef-all
 1
 1
+-
+all
+all
+value
+css-gaps-1
+css-gaps
+1
+current
+https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-all
+1
+1
+column-rule-visibility-items
+row-rule-visibility-items
 -
 all
 all
@@ -2988,6 +3509,18 @@ user-select
 -
 all
 all
+dfn
+css-view-transitions-2
+css-view-transitions
+2
+current
+https://drafts.csswg.org/css-view-transitions-2/#view-transition-scope-all
+
+1
+view-transition-scope
+-
+all
+all
 value
 css-writing-modes-3
 css-writing-modes
@@ -3013,9 +3546,9 @@ text-combine-upright
 all
 all
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-media-all
 1
@@ -3096,6 +3629,30 @@ StorageAccessTypes
 all
 all
 enum-value
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dom-echocancellationmodeenum-all
+1
+1
+EchoCancellationModeEnum
+-
+all
+all
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-all
+
+1
+script.SerializationOptions/includeShadowTree
+-
+all
+all
+enum-value
 webrtc
 webrtc
 1
@@ -3116,6 +3673,18 @@ https://www.w3.org/TR/css-anchor-position-1/#valdef-anchor-scope-all
 1
 1
 anchor-scope
+-
+all
+all
+value
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#valdef-border-limit-all
+1
+1
+border-limit
 -
 all
 all
@@ -3166,6 +3735,19 @@ https://www.w3.org/TR/css-cascade-5/#propdef-all
 all
 all
 value
+css-gaps-1
+css-gaps
+1
+snapshot
+https://www.w3.org/TR/css-gaps-1/#valdef-column-rule-visibility-items-all
+1
+1
+column-rule-visibility-items
+row-rule-visibility-items
+-
+all
+all
+value
 css-inline-3
 css-inline
 3
@@ -3195,6 +3777,18 @@ css-multicol
 1
 snapshot
 https://www.w3.org/TR/css-multicol-1/#valdef-column-span-all
+1
+1
+column-span
+-
+all
+all
+value
+css-multicol-2
+css-multicol
+2
+snapshot
+https://www.w3.org/TR/css-multicol-2/#valdef-column-span-all
 1
 1
 column-span
@@ -3285,6 +3879,18 @@ text-combine-upright
 -
 all
 all
+enum-value
+mediacapture-streams
+mediacapture-streams
+1
+snapshot
+https://www.w3.org/TR/mediacapture-streams/#dom-echocancellationmodeenum-all
+1
+1
+EchoCancellationModeEnum
+-
+all
+all
 value
 mediaqueries-4
 mediaqueries
@@ -3306,6 +3912,18 @@ https://www.w3.org/TR/mediaqueries-5/#valdef-media-all
 1
 1
 @media
+-
+all
+all
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptserializationoptions-includeshadowtree-all
+
+1
+script.SerializationOptions/includeShadowTree
 -
 all
 all
@@ -3341,90 +3959,6 @@ https://www.w3.org/TR/webdriver2/#dfn-associated-cookies
 
 1
 -
-all buyer experiment group id
-all buyer experiment group id
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyer-experiment-group-id
-
-1
-auction config
--
-all buyers cumulative timeout
-all buyers cumulative timeout
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyers-cumulative-timeout
-
-1
-auction config
--
-all buyers currency
-all buyers currency
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyers-currency
-
-1
-auction config
--
-all buyers group limit
-all buyers group limit
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyers-group-limit
-
-1
-auction config
--
-all buyers multi-bid limit
-all buyers multi-bid limit
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyers-multi-bid-limit
-
-1
-auction config
--
-all buyers priority signals
-all buyers priority signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyers-priority-signals
-
-1
-auction config
--
-all buyers timeout
-all buyers timeout
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-buyers-timeout
-
-1
-auction config
--
 all fetch listeners are empty flag
 all fetch listeners are empty flag
 dfn
@@ -3437,65 +3971,17 @@ https://w3c.github.io/ServiceWorker/#service-worker-all-fetch-listeners-are-empt
 1
 service worker
 -
-all per interest group data
-all per interest group data
+all fetch listeners are empty flag
+all fetch listeners are empty flag
 dfn
-turtledove
-turtledove
+service-workers
+service-workers
 1
-current
-https://wicg.github.io/turtledove/#trusted-bidding-signals-batcher-all-per-interest-group-data
+snapshot
+https://www.w3.org/TR/service-workers/#service-worker-all-fetch-listeners-are-empty-flag
 
 1
-trusted bidding signals batcher
--
-all sellers capabilities
-all sellers capabilities
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-all-sellers-capabilities
-
-1
-interest group
--
-all slots requested sizes
-all slots requested sizes
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-all-slots-requested-sizes
-
-1
-auction config
--
-all trusted bidding signals
-all trusted bidding signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#trusted-bidding-signals-batcher-all-trusted-bidding-signals
-
-1
-trusted bidding signals batcher
--
-all trusted scoring signals
-all trusted scoring signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#trusted-scoring-signals-reply-all-trusted-scoring-signals
-
-1
-trusted scoring signals reply
+service worker
 -
 all(iterable)
 all(iterable)
@@ -3653,6 +4139,30 @@ https://w3c.github.io/webauthn/#signal-method-authenticator-actions-allacceptedc
 1
 signal method/authenticator actions
 -
+allAcceptedCredentialIds
+allAcceptedCredentialIds
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-allacceptedcredentialsoptions-allacceptedcredentialids
+1
+1
+AllAcceptedCredentialsOptions
+-
+allacceptedcredentialids
+allAcceptedCredentialIds
+dfn
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#signal-method-authenticator-actions-allacceptedcredentialids
+
+1
+signal method/authenticator actions
+-
 allSettled(iterable)
 allSettled(iterable)
 method
@@ -3664,18 +4174,6 @@ https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.a
 1
 1
 Promise
--
-allSlotsRequestedSizes
-allSlotsRequestedSizes
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionadconfig-allslotsrequestedsizes
-1
-1
-AuctionAdConfig
 -
 allocate color textures
 allocate color textures
@@ -3784,6 +4282,28 @@ webxrlayers
 1
 snapshot
 https://www.w3.org/TR/webxrlayers-1/#allocate-motion-vector-textures-for-projection-layers
+
+1
+-
+allocate size to record data
+allocate size to record data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#allocate-size-to-record-data
+
+1
+-
+allocate size to record data
+allocate size to record data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#allocate-size-to-record-data
 
 1
 -
@@ -3953,6 +4473,30 @@ HTMLIFrameElement
 -
 allow
 allow
+grammar
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#grammardef-connection-allowlist-redirects-allow
+1
+1
+Connection Allowlist/redirects
+-
+allow
+allow
+grammar
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#grammardef-connection-allowlist-webrtc-allow
+1
+1
+Connection Allowlist/webrtc
+-
+allow
+allow
 attribute
 fenced-frame
 fenced-frame
@@ -3975,6 +4519,18 @@ https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-allow
 1
 fencedframe
 -
+allow cross origin iframes navigation while prerendering
+allow cross origin iframes navigation while prerendering
+dfn
+prerendering-revamped
+prerendering-revamped
+1
+current
+https://wicg.github.io/nav-speculation/prerendering.html#document-allow-cross-origin-iframes-navigation-while-prerendering
+
+1
+Document
+-
 allow declarative shadow roots
 allow declarative shadow roots
 dfn
@@ -3987,6 +4543,17 @@ https://dom.spec.whatwg.org/#document-allow-declarative-shadow-roots
 1
 Document
 -
+allow focus steps
+allow focus steps
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#allow-focus-steps
+1
+1
+-
 allow new features
 allow new features
 dfn
@@ -3994,9 +4561,21 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#allow-new-features
+https://www.w3.org/policies/process/#allow-new-features
 
 1
+-
+allow refill flag
+allow refill flag
+dfn
+autofill-event
+autofill-event
+1
+current
+https://wicg.github.io/autofill-event/#autofillevent-allow-refill-flag
+
+1
+AutofillEvent
 -
 allow-downloads
 allow-downloads
@@ -4288,6 +4867,30 @@ attribute
 permissions-policy-1
 permissions-policy
 1
+current
+https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-allowattribute
+1
+1
+PermissionsPolicyViolationReportBody
+-
+allowattribute
+allowAttribute
+dfn
+permissions-policy-1
+permissions-policy
+1
+current
+https://w3c.github.io/webappsec-permissions-policy/#permissionspolicyviolationreportbody-allowattribute
+
+1
+PermissionsPolicyViolationReportBody
+-
+allowAttribute
+allowAttribute
+attribute
+permissions-policy-1
+permissions-policy
+1
 snapshot
 https://www.w3.org/TR/permissions-policy-1/#dom-permissionspolicyviolationreportbody-allowattribute
 1
@@ -4306,29 +4909,17 @@ https://www.w3.org/TR/permissions-policy-1/#permissionspolicyviolationreportbody
 1
 PermissionsPolicyViolationReportBody
 -
-allowComponentAuction
-allowComponentAuction
-dict-member
-turtledove
-turtledove
+allowAttribute(attribute)
+allowAttribute(attribute)
+method
+html
+html
 1
 current
-https://wicg.github.io/turtledove/#dom-generatebidoutput-allowcomponentauction
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizer-allowattribute
 1
 1
-GenerateBidOutput
--
-allowComponentAuction
-allowComponentAuction
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoreadoutput-allowcomponentauction
-1
-1
-ScoreAdOutput
+Sanitizer
 -
 allowCredentials
 allowCredentials
@@ -4378,6 +4969,18 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-allo
 1
 PublicKeyCredentialRequestOptionsJSON
 -
+allowElement(element)
+allowElement(element)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizer-allowelement
+1
+1
+Sanitizer
+-
 allowFullscreen
 allowFullscreen
 attribute
@@ -4393,11 +4996,23 @@ HTMLIFrameElement
 allowlist
 allowList
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getassert-allowlist
+
+1
+getAssert
+-
+allowlist
+allowList
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getassert-allowlist
 
 1
 getAssert
@@ -4437,6 +5052,30 @@ https://www.w3.org/TR/webtransport/#dom-webtransportoptions-allowpooling
 1
 WebTransportOptions
 -
+allowProcessingInstruction(pi)
+allowProcessingInstruction(pi)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizer-allowprocessinginstruction
+1
+1
+Sanitizer
+-
+allowRefill
+allowRefill
+dict-member
+autofill-event
+autofill-event
+1
+current
+https://wicg.github.io/autofill-event/#dom-autofilleventinit-allowrefill
+1
+1
+AutofillEventInit
+-
 allowWithoutGesture
 allowWithoutGesture
 dict-member
@@ -4463,6 +5102,17 @@ ClipboardPermissionDescriptor
 -
 allowed
 allowed
+dfn
+infra
+infra
+1
+current
+https://infra.spec.whatwg.org/#allowed
+1
+1
+-
+allowed
+allowed
 enum-value
 autoplay-detection
 autoplay-detection
@@ -4475,15 +5125,27 @@ AutoplayPolicy
 -
 allowed
 allowed
-dfn
-attribution-reporting-api
-attribution-reporting-api
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#destination-rate-limit-result-allowed
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserdownloadbehaviorallowed-type-allowed
 
 1
-destination rate-limit result
+browser.DownloadBehaviorAllowed/type
+-
+allowed
+allowed
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#download-behavior-struct-allowed
+
+1
+download-behavior-struct
 -
 allowed
 allowed
@@ -4496,6 +5158,30 @@ https://www.w3.org/TR/autoplay-detection/#dom-autoplaypolicy-allowed
 1
 1
 AutoplayPolicy
+-
+allowed
+allowed
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserdownloadbehaviorallowed-type-allowed
+
+1
+browser.DownloadBehaviorAllowed/type
+-
+allowed
+allowed
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#download-behavior-struct-allowed
+
+1
+download-behavior-struct
 -
 allowed buffer usages
 allowed buffer usages
@@ -4541,6 +5227,28 @@ https://w3c.github.io/editing/docs/execCommand/#allowed-child
 
 
 -
+allowed data types
+allowed data types
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#allowed-data-types
+
+1
+-
+allowed data types
+allowed data types
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#allowed-data-types
+
+1
+-
 allowed in the body
 allowed in the body
 dfn
@@ -4574,6 +5282,52 @@ https://www.w3.org/TR/webtransport/#allowed-public-key-algorithms
 
 1
 -
+allowed ranks
+allowed ranks
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#allowed-ranks
+
+1
+-
+allowed ranks
+allowed ranks
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#allowed-ranks
+
+1
+-
+allowed refresh initiators
+allowed refresh initiators
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#device-bound-session-allowed-refresh-initiators
+
+1
+device bound session
+-
+allowed refresh initiators
+allowed refresh initiators
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#device-bound-session-allowed-refresh-initiators
+
+1
+device bound session
+-
 allowed reporting origins
 allowed reporting origins
 dfn
@@ -4585,18 +5339,6 @@ https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-allowed-rep
 1
 1
 fenced frame reporting metadata
--
-allowed reporting origins
-allowed reporting origins
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-ad-allowed-reporting-origins
-
-1
-interest group ad
 -
 allowed required constraints for device selection
 allowed required constraints for device selection
@@ -4697,6 +5439,17 @@ https://html.spec.whatwg.org/multipage/media.html#allowed-to-play
 
 1
 -
+allowed to play media while not rendered
+allowed to play media while not rendered
+dfn
+iframe-media-pausing
+iframe-media-pausing
+1
+current
+https://wicg.github.io/iframe-media-pausing/#allowed-to-play-media-while-not-rendered
+
+1
+-
 allowed to read from clipboard
 allowed to read from clipboard
 dfn
@@ -4719,21 +5472,10 @@ https://www.w3.org/TR/clipboard-apis/#allowed-to-read-from-clipboard
 
 1
 -
-allowed to resize and move
-allowed to resize and move
-dfn
-cssom-view-1
-cssom-view
-1
-snapshot
-https://www.w3.org/TR/cssom-view-1/#allowed-to-resize-and-move
-
-1
--
 allowed to start
 allowed to start
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4744,11 +5486,33 @@ https://webaudio.github.io/web-audio-api/#allowed-to-start
 allowed to start
 allowed to start
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#allowed-to-start
+
+1
+-
+allowed to start
+allowed to start
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#allowed-to-start
+https://www.w3.org/TR/webaudio-1.0/#allowed-to-start
+
+1
+-
+allowed to start
+allowed to start
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#allowed-to-start
 
 1
 -
@@ -4762,18 +5526,6 @@ current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#allowed-to-use
 1
 1
--
-allowed to use
-allowed to use
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#privateaggregation-allowed-to-use
-
-1
-PrivateAggregation
 -
 allowed value step
 allowed value step
@@ -4894,18 +5646,6 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-allowedbluetoothdevice-allow
 1
 AllowedBluetoothDevice
 -
-allowedReportingOrigins
-allowedReportingOrigins
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-auctionad-allowedreportingorigins
-1
-1
-AuctionAd
--
 allowedServices
 allowedServices
 dict-member
@@ -4917,6 +5657,30 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-allowedbluetoothdevice-allow
 1
 1
 AllowedBluetoothDevice
+-
+allowed_refresh_initiators
+allowed_refresh_initiators
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-instructions-allowed_refresh_initiators
+
+1
+JSON session instructions
+-
+allowed_refresh_initiators
+allowed_refresh_initiators
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-instructions-allowed_refresh_initiators
+
+1
+JSON session instructions
 -
 allowfullscreen
 allowfullscreen
@@ -4940,6 +5704,30 @@ current
 https://w3c.github.io/webappsec-permissions-policy/#allowlist
 1
 1
+-
+allowlist
+allowlist
+dfn
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#connection-allowlist-allowlist
+
+1
+Connection Allowlist
+-
+allowlist
+allowlist
+dict-member
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#dom-connectionallowlistviolationreport-allowlist
+1
+1
+ConnectionAllowlistViolationReport
 -
 allowlist
 allowlist
@@ -5094,7 +5882,7 @@ iframe
 allpass
 allpass
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -5106,11 +5894,35 @@ BiquadFilterType
 allpass
 allpass
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfiltertype-allpass
+1
+1
+BiquadFilterType
+-
+allpass
+allpass
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfiltertype-allpass
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfiltertype-allpass
+1
+1
+BiquadFilterType
+-
+allpass
+allpass
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfiltertype-allpass
 1
 1
 BiquadFilterType
@@ -5362,6 +6174,18 @@ css-color-5
 css-color
 5
 current
+https://drafts.csswg.org/css-color-5/#valdef-alpha-alpha
+1
+1
+alpha()
+-
+alpha
+alpha
+value
+css-color-5
+css-color
+5
+current
 https://drafts.csswg.org/css-color-5/#valdef-color-alpha
 1
 1
@@ -5454,11 +6278,47 @@ rgb()
 alpha
 alpha
 value
+css-color-hdr-1
+css-color-hdr
+1
+current
+https://drafts.csswg.org/css-color-hdr-1/#valdef-ictcp-alpha
+1
+1
+ictcp()
+-
+alpha
+alpha
+value
+css-color-hdr-1
+css-color-hdr
+1
+current
+https://drafts.csswg.org/css-color-hdr-1/#valdef-jzazbz-alpha
+1
+1
+jzazbz()
+-
+alpha
+alpha
+value
+css-color-hdr-1
+css-color-hdr
+1
+current
+https://drafts.csswg.org/css-color-hdr-1/#valdef-jzczhz-alpha
+1
+1
+jzczhz()
+-
+alpha
+alpha
+value
 css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-border-mode-alpha
+https://drafts.csswg.org/css-masking-1/#valdef-mask-border-mode-alpha
 1
 1
 mask-border-mode
@@ -5470,7 +6330,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-mode-alpha
+https://drafts.csswg.org/css-masking-1/#valdef-mask-mode-alpha
 1
 1
 mask-mode
@@ -5482,7 +6342,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-type-alpha
+https://drafts.csswg.org/css-masking-1/#valdef-mask-type-alpha
 1
 1
 mask-type
@@ -5544,17 +6404,6 @@ https://html.spec.whatwg.org/multipage/canvas.html#dom-imagebitmaprenderingconte
 1
 1
 ImageBitmapRenderingContextSettings
--
-alpha
-alpha
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/canvas.html#offscreencontext2d-alpha
-
-1
 -
 alpha
 alpha
@@ -5742,6 +6591,18 @@ css-color-5
 css-color
 5
 snapshot
+https://www.w3.org/TR/css-color-5/#valdef-alpha-alpha
+1
+1
+alpha()
+-
+alpha
+alpha
+value
+css-color-5
+css-color
+5
+snapshot
 https://www.w3.org/TR/css-color-5/#valdef-color-alpha
 1
 1
@@ -5830,6 +6691,42 @@ https://www.w3.org/TR/css-color-5/#valdef-rgb-alpha
 1
 1
 rgb()
+-
+alpha
+alpha
+value
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#valdef-ictcp-alpha
+1
+1
+ictcp()
+-
+alpha
+alpha
+value
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#valdef-jzazbz-alpha
+1
+1
+jzazbz()
+-
+alpha
+alpha
+value
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#valdef-jzczhz-alpha
+1
+1
+jzczhz()
 -
 alpha
 alpha
@@ -6340,6 +7237,28 @@ https://www.w3.org/TR/png-3/#3alphaTable
 
 1
 -
+alpha()
+alpha()
+function
+css-color-5
+css-color
+5
+current
+https://drafts.csswg.org/css-color-5/#funcdef-alpha
+1
+1
+-
+alpha()
+alpha()
+function
+css-color-5
+css-color
+5
+snapshot
+https://www.w3.org/TR/css-color-5/#funcdef-alpha
+1
+1
+-
 alpha-blend
 alpha-blend
 enum-value
@@ -6499,23 +7418,11 @@ css-inline-3
 css-inline
 3
 current
-https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-alphabetic
-1
-1
-alignment-baseline
-vertical-align
--
-alphabetic
-alphabetic
-value
-css-inline-3
-css-inline
-3
-current
 https://drafts.csswg.org/css-inline-3/#valdef-dominant-baseline-alphabetic
 1
 1
 dominant-baseline
+<<baseline-metric>>
 -
 alphabetic
 alphabetic
@@ -6839,31 +7746,43 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#alternate-ac-representative
+https://www.w3.org/policies/process/#alternate-ac-representative
 1
 1
 -
 alt flag
 alt flag
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#alt-flag
+https://w3c.github.io/pointerevents/#dfn-alt-flag
 
 1
 -
 alt flag
 alt flag
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#alt-flag
+https://www.w3.org/TR/pointerevents4/#dfn-alt-flag
 
 1
+-
+altKey
+altKey
+attribute
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-mouseevent-altkey
+1
+1
+MouseEvent
 -
 altKey
 altKey
@@ -6925,11 +7844,11 @@ KeyboardEvent/initKeyboardEvent(typeArg)
 altKey
 altKey
 attribute
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-altkey
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-mouseevent-altkey
 1
 1
 MouseEvent
@@ -6979,70 +7898,6 @@ KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg, cancelableArg)
 KeyboardEvent/initKeyboardEvent(typeArg, bubblesArg)
 KeyboardEvent/initKeyboardEvent(typeArg)
 -
-altKey
-altKey
-attribute
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-altkey
-1
-1
-MouseEvent
--
-altKeyArg
-altKeyArg
-argument
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-altkeyarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
-altKeyArg
-altKeyArg
-argument
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#dom-mouseevent-initmouseevent-typearg-bubblesarg-cancelablearg-viewarg-detailarg-screenxarg-screenyarg-clientxarg-clientyarg-ctrlkeyarg-altkeyarg-shiftkeyarg-metakeyarg-buttonarg-relatedtargetarg-altkeyarg
-1
-1
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg, screenXArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg, detailArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg, viewArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg, cancelableArg)
-MouseEvent/initMouseEvent(typeArg, bubblesArg)
-MouseEvent/initMouseEvent(typeArg)
--
 alternate
 alternate
 value
@@ -7090,6 +7945,18 @@ https://drafts.csswg.org/web-animations-1/#playback-direction-alternate
 
 1
 playback direction
+-
+alternate
+alternate
+enum-value
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtriggerbehavior-alternate
+1
+1
+AnimationTriggerBehavior
 -
 alternate
 alternate
@@ -7165,6 +8032,18 @@ https://www.w3.org/TR/css-ruby-1/#valdef-ruby-position-alternate
 1
 ruby-position
 -
+alternate
+alternate
+enum-value
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtriggerbehavior-alternate
+1
+1
+AnimationTriggerBehavior
+-
 alternate ac representative
 alternate AC representative
 dfn
@@ -7172,7 +8051,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#alternate-ac-representative
+https://www.w3.org/policies/process/#alternate-ac-representative
 1
 1
 -
@@ -7183,7 +8062,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#alternate-ac-representative
+https://www.w3.org/policies/process/#alternate-ac-representative
 1
 1
 -
@@ -7341,6 +8220,50 @@ https://html.spec.whatwg.org/multipage/media.html#value-track-kind-alternate
 
 1
 -
+alternative for time-based media
+alternative for time-based media
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-alternative-for-time-based-media
+
+
+-
+alternative for time-based media
+alternative for time-based media
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-alternative-for-time-based-media
+
+
+-
+alternative path
+alternative path
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-alternative-path
+
+1
+-
+alternative path
+alternative path
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-alternative-path
+
+1
+-
 alternatives
 alternatives
 dict-member
@@ -7368,48 +8291,24 @@ HandwritingHintsQueryResult
 altgraph flag
 altgraph flag
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#altgraph-flag
+https://w3c.github.io/pointerevents/#dfn-altgraph-flag
 
 1
 -
 altgraph flag
 altgraph flag
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#altgraph-flag
+https://www.w3.org/TR/pointerevents4/#dfn-altgraph-flag
 
 1
--
-altitude
-altitude
-attribute
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-altitude
-1
-1
-GeolocationSensor
--
-altitude
-altitude
-dict-member
-geolocation-sensor
-geolocation-sensor
-1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensorreading-altitude
-1
-1
-GeolocationSensorReading
 -
 altitude
 altitude
@@ -7425,27 +8324,27 @@ GeolocationCoordinates
 -
 altitude
 altitude
-attribute
-geolocation-sensor
-geolocation-sensor
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-altitude
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitude
+
 1
-1
-GeolocationSensor
+emulation.GeolocationCoordinates
 -
 altitude
 altitude
-dict-member
-geolocation-sensor
-geolocation-sensor
+attribute
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensorreading-altitude
+current
+https://w3c.github.io/webdriver-bidi/#dom-geolocation-override-altitude
 1
 1
-GeolocationSensorReading
+geolocation override
 -
 altitude
 altitude
@@ -7459,29 +8358,29 @@ https://www.w3.org/TR/geolocation/#dom-geolocationcoordinates-altitude
 1
 GeolocationCoordinates
 -
-altitudeAccuracy
-altitudeAccuracy
-attribute
-geolocation-sensor
-geolocation-sensor
+altitude
+altitude
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensor-altitudeaccuracy
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitude
+
 1
-1
-GeolocationSensor
+emulation.GeolocationCoordinates
 -
-altitudeAccuracy
-altitudeAccuracy
-dict-member
-geolocation-sensor
-geolocation-sensor
+altitude
+altitude
+attribute
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://w3c.github.io/geolocation-sensor/#dom-geolocationsensorreading-altitudeaccuracy
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-geolocation-override-altitude
 1
 1
-GeolocationSensorReading
+geolocation override
 -
 altitudeAccuracy
 altitudeAccuracy
@@ -7497,27 +8396,27 @@ GeolocationCoordinates
 -
 altitudeAccuracy
 altitudeAccuracy
-attribute
-geolocation-sensor
-geolocation-sensor
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensor-altitudeaccuracy
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitudeaccuracy
+
 1
-1
-GeolocationSensor
+emulation.GeolocationCoordinates
 -
 altitudeAccuracy
 altitudeAccuracy
-dict-member
-geolocation-sensor
-geolocation-sensor
+attribute
+webdriver-bidi
+webdriver-bidi
 1
-snapshot
-https://www.w3.org/TR/geolocation-sensor/#dom-geolocationsensorreading-altitudeaccuracy
+current
+https://w3c.github.io/webdriver-bidi/#dom-geolocation-override-altitudeaccuracy
 1
 1
-GeolocationSensorReading
+geolocation override
 -
 altitudeAccuracy
 altitudeAccuracy
@@ -7531,12 +8430,36 @@ https://www.w3.org/TR/geolocation/#dom-geolocationcoordinates-altitudeaccuracy
 1
 GeolocationCoordinates
 -
+altitudeAccuracy
+altitudeAccuracy
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationgeolocationcoordinates-altitudeaccuracy
+
+1
+emulation.GeolocationCoordinates
+-
+altitudeAccuracy
+altitudeAccuracy
+attribute
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#dom-geolocation-override-altitudeaccuracy
+1
+1
+geolocation override
+-
 altitudeAngle
 altitudeAngle
 attribute
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointerevent-altitudeangle
 1
@@ -7546,9 +8469,9 @@ PointerEvent
 altitudeAngle
 altitudeAngle
 dict-member
-pointerevents3
+pointerevents4
 pointerevents
-3
+4
 current
 https://w3c.github.io/pointerevents/#dom-pointereventinit-altitudeangle
 1
@@ -7581,6 +8504,30 @@ TouchInit
 -
 altitudeAngle
 altitudeAngle
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointercommonproperties-altitudeangle
+
+1
+input.PointerCommonProperties
+-
+altitudeAngle
+altitudeAngle
+attribute
+pointerevents3
+pointerevents
+3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointerevent-altitudeangle
+1
+1
+PointerEvent
+-
+altitudeAngle
+altitudeAngle
 attribute
 pointerevents3
 pointerevents
@@ -7597,11 +8544,59 @@ dict-member
 pointerevents3
 pointerevents
 3
+current
+https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-altitudeangle
+1
+1
+PointerEventInit
+-
+altitudeAngle
+altitudeAngle
+dict-member
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dom-pointereventinit-altitudeangle
 1
 1
 PointerEventInit
+-
+altitudeAngle
+altitudeAngle
+attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointerevent-altitudeangle
+1
+1
+PointerEvent
+-
+altitudeAngle
+altitudeAngle
+dict-member
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-pointereventinit-altitudeangle
+1
+1
+PointerEventInit
+-
+altitudeAngle
+altitudeAngle
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointercommonproperties-altitudeangle
+
+1
+input.PointerCommonProperties
 -
 alttext
 alttext
@@ -7703,9 +8698,9 @@ hyphenate-limit-lines
 always
 always
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-page-break-always
 1
@@ -7835,11 +8830,47 @@ https://www.w3.org/TR/screen-capture/#idl-def-CursorCaptureConstraint.always
 1
 CursorCaptureConstraint
 -
+alwaysMatch
+alwaysMatch
+cddl-key
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-key-capabilitiesrequestparameters-alwaysmatch
+
+1
+CapabilitiesRequestParameters
+-
+alwaysMatch
+alwaysMatch
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-alwaysmatch
+
+1
+session.CapabilitiesRequest
+-
+alwaysMatch
+alwaysMatch
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-sessioncapabilitiesrequest-alwaysmatch
+
+1
+session.CapabilitiesRequest
+-
 alwaysuv
 alwaysUv
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-alwaysuv
@@ -7847,25 +8878,59 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 1
 getInfo
 -
+alwaysuv
+alwaysUv
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-alwaysuv
+
+1
+getInfo
+-
 alwaysuv feature is disabled
 alwaysUv feature is disabled
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#alwaysuv-feature-is-disabled
 
 1
 -
+alwaysuv feature is disabled
+alwaysUv feature is disabled
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#alwaysuv-feature-is-disabled
+
+1
+-
 alwaysuv feature is enabled
 alwaysUv feature is enabled
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#alwaysuv-feature-is-enabled
+
+1
+-
+alwaysuv feature is enabled
+alwaysUv feature is enabled
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#alwaysuv-feature-is-enabled
 
 1
 -

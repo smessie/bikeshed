@@ -1235,10 +1235,10 @@ This includes providing security-model opt-outs where necessary.</p>
    <p class="issue" id="issue-f67832ce"><a class="self-link" href="#issue-f67832ce"></a> TODO: Determine how the serialization should relate to the URL spec:
   https://url.spec.whatwg.org/#host-parsing</p>
    <h3 class="heading settled" data-level="3.7" id="suborigin-in-js"><span class="secno">3.7. </span><span class="content">Accessing the Suborigin in JavaScript</span><a class="self-link" href="#suborigin-in-js"></a></h3>
-   <p>A <code>suborigin</code> property is added to the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> object which
+   <p>A <code>suborigin</code> property is added to the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">document</a> object which
   <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#reflect" id="ref-for-reflect">reflects</a> the value of the suborigin namespace for the current execution
   context. If there is no suborigin namespace, the value should be undefined.</p>
-   <p>Additionally, the <code>origin</code> property of the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document①">document</a> object should reflect
+   <p>Additionally, the <code>origin</code> property of the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a> object should reflect
   the serialized value of the origin as returned by <a href="#serializing">§ 6.1.6 Serializing Suborigins</a>.</p>
    <p class="issue" id="issue-1dbd01cb"><a class="self-link" href="#issue-1dbd01cb"></a> TODO(jww): Need to write the formal IDL for this.</p>
    <h2 class="heading settled" data-level="4" id="access-control"><span class="secno">4. </span><span class="content">Access Control</span><a class="self-link" href="#access-control"></a></h2>
@@ -1780,7 +1780,7 @@ otherwise.</p>
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="85394472">Document</span>
-     <li><span class="dfn-paneled" id="a973e0fe">document</span>
+     <li><span class="dfn-paneled" id="a84c14c9">document</span>
     </ul>
    <li>
     <a data-link-type="biblio">[FETCH]</a> defines the following terms:
@@ -2211,7 +2211,7 @@ let dfnPanelData = {
 "96cae01c": {"dfnID":"96cae01c","dfnText":"cookie-averse","external":true,"refSections":[{"refs":[{"id":"ref-for-cookie-averse"},{"id":"ref-for-cookie-averse\u2460"},{"id":"ref-for-cookie-averse\u2461"},{"id":"ref-for-cookie-averse\u2462"}],"title":"6.2.1. Cookies"},{"refs":[{"id":"ref-for-cookie-averse\u2463"},{"id":"ref-for-cookie-averse\u2464"}],"title":"6.3.3. 'unsafe-cookies'"}],"url":"http://www.w3.org/TR/html51/dom.html#cookie-averse"},
 "9cce47fd": {"dfnID":"9cce47fd","dfnText":"sequence","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-sequence"},{"id":"ref-for-idl-sequence\u2460"}],"title":"4.2. postMessage"}],"url":"https://webidl.spec.whatwg.org/#idl-sequence"},
 "9f7a5afe": {"dfnID":"9f7a5afe","dfnText":"cookie setter","external":true,"refSections":[{"refs":[{"id":"ref-for-attr-meta-http-equiv-set-cookie"}],"title":"6.2.1. Cookies"}],"url":"https://html.spec.whatwg.org/multipage/#attr-meta-http-equiv-set-cookie"},
-"a973e0fe": {"dfnID":"a973e0fe","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-concept-document"},{"id":"ref-for-concept-document\u2460"}],"title":"3.7. Accessing the Suborigin in JavaScript"}],"url":"https://dom.spec.whatwg.org/#concept-document"},
+"a84c14c9": {"dfnID":"a84c14c9","dfnText":"document","external":true,"refSections":[{"refs":[{"id":"ref-for-clone-a-node-document"},{"id":"ref-for-clone-a-node-document\u2460"}],"title":"3.7. Accessing the Suborigin in JavaScript"}],"url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "b0d7f3c3": {"dfnID":"b0d7f3c3","dfnText":"USVString","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-USVString"},{"id":"ref-for-idl-USVString\u2460"},{"id":"ref-for-idl-USVString\u2461"}],"title":"4.2. postMessage"}],"url":"https://webidl.spec.whatwg.org/#idl-USVString"},
 "b3c135e0": {"dfnID":"b3c135e0","dfnText":"ASCII serialization of an origin","external":true,"refSections":[{"refs":[{"id":"ref-for-ascii-serialisation-of-an-origin"}],"title":"6.1.6.2. ASCII Serialization of a Suborigin"}],"url":"https://html.spec.whatwg.org/multipage/#ascii-serialisation-of-an-origin"},
 "b8bd9c92": {"dfnID":"b8bd9c92","dfnText":"Storage","external":true,"refSections":[{"refs":[{"id":"ref-for-storage-2"},{"id":"ref-for-storage-2\u2460"}],"title":"5.1. Storage"}],"url":"https://html.spec.whatwg.org/multipage/webstorage.html#storage-2"},
@@ -2665,7 +2665,7 @@ let refsData = {
 "e92b6cc9_https://html.spec.whatwg.org/multipage/#concept-origin-tuple": {"displayText":"origin tuple","export":true,"for_":[],"level":"","normative":true,"shortname":"html","spec":"html","status":"anchor-block","text":"origin tuple","type":"dfn","url":"https://html.spec.whatwg.org/multipage/#concept-origin-tuple"},
 "http://www.w3.org/TR/html51/dom.html#cookie-averse": {"displayText":"cookie-averse","export":true,"for_":[],"level":"","normative":true,"shortname":"html51","spec":"html51","status":"anchor-block","text":"cookie-averse","type":"dfn","url":"http://www.w3.org/TR/html51/dom.html#cookie-averse"},
 "http://www.w3.org/TR/html51/dom.html#resource-metadata-management": {"displayText":"resource metadata management","export":true,"for_":[],"level":"","normative":true,"shortname":"html51","spec":"html51","status":"anchor-block","text":"resource metadata management","type":"dfn","url":"http://www.w3.org/TR/html51/dom.html#resource-metadata-management"},
-"https://dom.spec.whatwg.org/#concept-document": {"displayText":"document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#concept-document"},
+"https://dom.spec.whatwg.org/#clone-a-node-document": {"displayText":"document","export":true,"for_":["clone a node"],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"document","type":"dfn","url":"https://dom.spec.whatwg.org/#clone-a-node-document"},
 "https://dom.spec.whatwg.org/#document": {"displayText":"Document","export":true,"for_":[],"level":"1","normative":true,"shortname":"dom","spec":"dom","status":"current","text":"Document","type":"interface","url":"https://dom.spec.whatwg.org/#document"},
 "https://fetch.spec.whatwg.org#concept-fetch": {"displayText":"fetch","export":true,"for_":[],"level":"","normative":true,"shortname":"fetch","spec":"fetch","status":"anchor-block","text":"fetch","type":"dfn","url":"https://fetch.spec.whatwg.org#concept-fetch"},
 "https://fetch.spec.whatwg.org#concept-request-credentials-mode": {"displayText":"credentials mode","export":true,"for_":[],"level":"","normative":true,"shortname":"fetch","spec":"fetch","status":"anchor-block","text":"credentials mode","type":"dfn","url":"https://fetch.spec.whatwg.org#concept-request-credentials-mode"},

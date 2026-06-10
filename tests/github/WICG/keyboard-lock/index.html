@@ -1145,7 +1145,7 @@ usual keyboard shortcut action.</p>
 		relative order that they would have been sent had they not been included in the
 		set.</p>
    <h2 class="heading settled" data-level="4" id="interactions"><span class="secno">4. </span><span class="content">Integration With Other Web Platform APIs</span><a class="self-link" href="#interactions"></a></h2>
-   <p><a data-link-type="biblio" href="#biblio-fullscreen" title="Fullscreen API Standard">[Fullscreen]</a> and <a data-link-type="biblio" href="#biblio-pointerlock" title="Pointer Lock">[PointerLock]</a> are APIs that allow the page to temporarily take
+   <p><a data-link-type="biblio" href="#biblio-fullscreen" title="Fullscreen API Standard">[Fullscreen]</a> and <a data-link-type="biblio" href="#biblio-pointerlock" title="Pointer Lock 2.0">[PointerLock]</a> are APIs that allow the page to temporarily take
 	control of part of the user’s experience (screen and mouse cursor, respectively).
 	Because of the concern for abuse of these features, they provide an "escape" or
 	"unlock" gesture that the user can rely on to exit those features. By default,
@@ -1207,7 +1207,7 @@ navigator.keyboard.unlock();
 	do so when a physical keyboard is connected.</p>
    <h2 class="heading settled" data-level="7" id="security"><span class="secno">7. </span><span class="content">Security Considerations</span><a class="self-link" href="#security"></a></h2>
    <p>One concern with this API is that it could be used to grab all of the keys
-	and (in conjunction with the <a data-link-type="biblio" href="#biblio-fullscreen" title="Fullscreen API Standard">[Fullscreen]</a> and <a data-link-type="biblio" href="#biblio-pointerlock" title="Pointer Lock">[PointerLock]</a> API) prevent
+	and (in conjunction with the <a data-link-type="biblio" href="#biblio-fullscreen" title="Fullscreen API Standard">[Fullscreen]</a> and <a data-link-type="biblio" href="#biblio-pointerlock" title="Pointer Lock 2.0">[PointerLock]</a> API) prevent
 	the user from exiting the web page.</p>
    <p>To prevent this, the user agent MUST provide a way for the user to exit from
 	keyboard lock even if all of the keys are requested by the API.</p>
@@ -1363,7 +1363,7 @@ navigator.keyboard.unlock();
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://datatracker.ietf.org/doc/html/rfc2119"><cite>Key words for use in RFCs to Indicate Requirement Levels</cite></a>. March 1997. Best Current Practice. URL: <a href="https://datatracker.ietf.org/doc/html/rfc2119">https://datatracker.ietf.org/doc/html/rfc2119</a>
    <dt id="biblio-uievents">[UIEVENTS]
-   <dd>Gary Kacmarcik; Travis Leithead. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
+   <dd>Xiaoqian Wu. <a href="https://w3c.github.io/uievents/"><cite>UI Events</cite></a>. URL: <a href="https://w3c.github.io/uievents/">https://w3c.github.io/uievents/</a>
    <dt id="biblio-uievents-code">[UIEvents-Code]
    <dd>Travis Leithead; Gary Kacmarcik. <a href="https://w3c.github.io/uievents-code/"><cite>UI Events KeyboardEvent code Values</cite></a>. URL: <a href="https://w3c.github.io/uievents-code/">https://w3c.github.io/uievents-code/</a>
    <dt id="biblio-webidl">[WEBIDL]
@@ -1376,7 +1376,7 @@ navigator.keyboard.unlock();
    <dt id="biblio-lowlevelkeyboardproc">[LowLevelKeyboardProc]
    <dd><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms644985(v=vs.85).aspx"><cite>LowLevelKeyboardProc documentation on MSDN</cite></a>. URL: <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms644985(v=vs.85).aspx">https://msdn.microsoft.com/en-us/library/windows/desktop/ms644985(v=vs.85).aspx</a>
    <dt id="biblio-pointerlock">[PointerLock]
-   <dd>Vincent Scheib. <a href="https://w3c.github.io/pointerlock/"><cite>Pointer Lock</cite></a>. URL: <a href="https://w3c.github.io/pointerlock/">https://w3c.github.io/pointerlock/</a>
+   <dd>Mustaq Ahmed; Vincent Scheib. <a href="https://w3c.github.io/pointerlock/"><cite>Pointer Lock 2.0</cite></a>. URL: <a href="https://w3c.github.io/pointerlock/">https://w3c.github.io/pointerlock/</a>
    <dt id="biblio-quartzeventservices">[QuartzEventServices]
    <dd><a href="https://developer.apple.com/reference/coregraphics/1658572-quartz_event_services"><cite>Quartz Event Services</cite></a>. URL: <a href="https://developer.apple.com/reference/coregraphics/1658572-quartz_event_services">https://developer.apple.com/reference/coregraphics/1658572-quartz_event_services</a>
   </dl>

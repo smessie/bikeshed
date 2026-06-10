@@ -1,5 +1,10 @@
 ERROR IN ? of computed-metadata.include: Found unmatched text macro [COMMIT-SHA]. Correct the macro, or escape it with a leading backslash.
 LINE 1:42 of !Commits metadata: Found unmatched text macro [COMMIT-SHA] in attribute href='...'. Correct the macro, or escape it by replacing the opening [ with &bs[;.
+LINE 161:71: Multiple possible 'break' dfn refs.
+Arbitrarily chose https://drafts.csswg.org/css-break-4/#break
+To auto-select one of the following refs, insert one of these lines into a <pre class=link-defaults> block:
+spec:css-break-4; type:dfn; text:break
+spec:infra; type:dfn; text:break
 LINE 352:11: Ambiguous for-less link for 'labels', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:encoding; type:dfn; for:encoding; text:label
@@ -22,7 +27,8 @@ LINE 365:52: Ambiguous for-less link for 'name', please see <https://speced.gith
 Local references:
 spec:encoding; type:dfn; for:encoding; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name
 LINE 366:1: Ambiguous for-less link for 'label', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
@@ -46,7 +52,8 @@ LINE 390:8: Ambiguous for-less link for 'name', please see <https://speced.githu
 Local references:
 spec:encoding; type:dfn; for:encoding; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name
 LINE 391:8: Ambiguous for-less link for 'labels', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
@@ -82,7 +89,8 @@ LINE 1363:57: Ambiguous for-less link for 'name', please see <https://speced.git
 Local references:
 spec:encoding; type:dfn; for:encoding; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name
 LINE 1576:2: No 'dfn' refs found for 'get a reference to the buffer source'.
 LINE 1679:42: Ambiguous for-less link for 'label', please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
@@ -101,7 +109,8 @@ LINE 1683:57: Ambiguous for-less link for 'name', please see <https://speced.git
 Local references:
 spec:encoding; type:dfn; for:encoding; text:name
 for-less references:
-spec:vc-data-model-2.0; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
+spec:vc-data-model-2.1; type:dfn; for:/; text:name
 spec:vc-data-model-2.0; type:dfn; for:/; text:name
 LINE 1748:2: No 'dfn' refs found for 'creating' with for='['TransformStream']'.
 LINE 1749:2: No 'dfn' refs found for 'transformalgorithm' with for='['TransformStream/create']'.

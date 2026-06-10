@@ -1,3 +1,75 @@
+"exception"
+"exception"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptexceptiondetails-exception
+
+1
+script.ExceptionDetails
+-
+"exception"
+"exception"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptevaluateresultexception-type-exception
+
+1
+script.EvaluateResultException/type
+-
+"exception"
+"exception"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptexceptiondetails-exception
+
+1
+script.ExceptionDetails
+-
+"exception"
+"exception"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptevaluateresultexception-type-exception
+
+1
+script.EvaluateResultException/type
+-
+"exceptionDetails"
+"exceptionDetails"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptevaluateresultexception-exceptiondetails
+
+1
+script.EvaluateResultException
+-
+"exceptionDetails"
+"exceptionDetails"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptevaluateresultexception-exceptiondetails
+
+1
+script.EvaluateResultException
+-
 "exclusive"
 "exclusive"
 enum-value
@@ -9,6 +81,18 @@ https://w3c.github.io/web-locks/#dom-lockmode-exclusive
 1
 1
 LockMode
+-
+"exclusive"
+"exclusive"
+enum-value
+web-smart-card
+web-smart-card
+1
+current
+https://wicg.github.io/web-smart-card/#dom-smartcardaccessmode-exclusive
+1
+1
+SmartCardAccessMode
 -
 "exclusive"
 "exclusive"
@@ -46,10 +130,106 @@ https://www.w3.org/TR/webgpu/#dom-adapter-state-expired
 1
 adapter/[[state]]
 -
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkcookie-expiry
+
+1
+network.Cookie
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networksetcookieheader-expiry
+
+1
+network.SetCookieHeader
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagecookiefilter-expiry
+
+1
+storage.CookieFilter
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagepartialcookie-expiry
+
+1
+storage.PartialCookie
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkcookie-expiry
+
+1
+network.Cookie
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networksetcookieheader-expiry
+
+1
+network.SetCookieHeader
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagecookiefilter-expiry
+
+1
+storage.CookieFilter
+-
+"expiry"
+"expiry"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagepartialcookie-expiry
+
+1
+storage.PartialCookie
+-
 "explicit"
 "explicit"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -61,11 +241,35 @@ ChannelCountMode
 "explicit"
 "explicit"
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelcountmode-explicit
+1
+1
+ChannelCountMode
+-
+"explicit"
+"explicit"
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelcountmode-explicit
+https://www.w3.org/TR/webaudio-1.0/#dom-channelcountmode-explicit
+1
+1
+ChannelCountMode
+-
+"explicit"
+"explicit"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelcountmode-explicit
 1
 1
 ChannelCountMode
@@ -73,7 +277,7 @@ ChannelCountMode
 "exponential"
 "exponential"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -85,14 +289,62 @@ DistanceModelType
 "exponential"
 "exponential"
 enum-value
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-distancemodeltype-exponential
+current
+https://webaudio.github.io/web-audio-api/#dom-distancemodeltype-exponential
 1
 1
 DistanceModelType
+-
+"exponential"
+"exponential"
+enum-value
+webaudio-1.0
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.0/#dom-distancemodeltype-exponential
+1
+1
+DistanceModelType
+-
+"exponential"
+"exponential"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-distancemodeltype-exponential
+1
+1
+DistanceModelType
+-
+"expression"
+"expression"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptevaluateparameters-expression
+
+1
+script.EvaluateParameters
+-
+"expression"
+"expression"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptevaluateparameters-expression
+
+1
+script.EvaluateParameters
 -
 "extended"
 "extended"
@@ -117,6 +369,90 @@ https://www.w3.org/TR/webgpu/#dom-gpucanvastonemappingmode-extended
 1
 1
 GPUCanvasToneMappingMode
+-
+"extendedProperties"
+"extendedProperties"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothcharacteristicproperties-extendedproperties
+
+1
+bluetooth.CharacteristicProperties
+-
+"extension"
+"extension"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-webextensioninstallresult-extension
+
+1
+webExtension.InstallResult
+-
+"extension"
+"extension"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-webextensionuninstallparameters-extension
+
+1
+webExtension.UninstallParameters
+-
+"extension"
+"extension"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-webextensioninstallresult-extension
+
+1
+webExtension.InstallResult
+-
+"extension"
+"extension"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-webextensionuninstallparameters-extension
+
+1
+webExtension.UninstallParameters
+-
+"extensionData"
+"extensionData"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-webextensioninstallparameters-extensiondata
+
+1
+webExtension.InstallParameters
+-
+"extensionData"
+"extensionData"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-webextensioninstallparameters-extensiondata
+
+1
+webExtension.InstallParameters
 -
 "externalScript"
 "externalScript"
@@ -299,36 +635,69 @@ https://drafts.csswg.org/css-extensions-1/#typedef-extension-name
 1
 1
 -
-examples
-examples
+examples of these types
+examples of these types
 dfn
-device-memory-1
-device-memory
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-credential-type-examples
+
+
+-
+examples of these types
+examples of these types
+dfn
+digital-credentials
+digital-credentials
 1
 snapshot
-https://www.w3.org/TR/device-memory-1/#examples
+https://www.w3.org/TR/digital-credentials/#dfn-credential-type-examples
+
+
+-
+Exception
+Exception
+interface
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#exception
+1
+1
+-
+Exception
+Exception
+interface
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#exception
+1
+1
+-
+exception object cache
+exception object cache
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#exception-object-cache
 
 1
 -
-examples
-examples
+exception object cache
+exception object cache
 dfn
-device-memory-1
-device-memory
-1
-current
-https://www.w3.org/TR/device-memory/#examples
-
-1
--
-examples of these types
-examples of these types
-dfn
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dfn-credential-type-examples
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#exception-object-cache
 
 1
 -
@@ -341,6 +710,76 @@ webidl
 current
 https://webidl.spec.whatwg.org/#js-exception-objects
 
+1
+-
+Exception(exceptionTag, payload)
+Exception(exceptionTag, payload)
+constructor
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-exception
+1
+1
+Exception
+-
+Exception(exceptionTag, payload)
+Exception(exceptionTag, payload)
+constructor
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-exception
+1
+1
+Exception
+-
+Exception(exceptionTag, payload, options)
+Exception(exceptionTag, payload, options)
+constructor
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-exception
+1
+1
+Exception
+-
+Exception(exceptionTag, payload, options)
+Exception(exceptionTag, payload, options)
+constructor
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-exception
+1
+1
+Exception
+-
+ExceptionOptions
+ExceptionOptions
+dictionary
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dictdef-exceptionoptions
+1
+1
+-
+ExceptionOptions
+ExceptionOptions
+dictionary
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dictdef-exceptionoptions
+1
 1
 -
 exchange
@@ -376,18 +815,6 @@ https://wicg.github.io/webpackage/loading.html#exchange-signature
 1
 1
 -
-exchange protocol
-exchange protocol
-dfn
-digital-credentials
-digital-credentials
-1
-current
-https://wicg.github.io/digital-credentials/#dfn-exchange-protocol
-
-1
-digital credential
--
 exclusion draft
 Exclusion Draft
 dfn
@@ -395,7 +822,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#exclusion-draft
+https://www.w3.org/policies/process/#exclusion-draft
 1
 1
 -
@@ -406,7 +833,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#exclusion-draft-charter
+https://www.w3.org/policies/process/#exclusion-draft-charter
 1
 1
 -
@@ -417,7 +844,7 @@ w3c-patent-policy
 w3c-patent-policy
 1
 current
-https://www.w3.org/Consortium/Patent-Policy/#exclusion-opportunity
+https://www.w3.org/policies/patent-policy/#exclusion-opportunity
 
 1
 -
@@ -565,6 +992,50 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 1
 Cyclic Module Records
 -
+execution of a binding instance
+Execution of a Binding Instance
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+current
+https://w3c.github.io/wot-binding-registry/#dfn-execution-binding-instance
+
+1
+-
+execution of a binding instance
+Execution of a Binding Instance
+dfn
+wot-binding-registry
+wot-binding-registry
+1
+snapshot
+https://www.w3.org/TR/wot-binding-registry/#dfn-execution-binding-instance
+
+1
+-
+ExecutionWorld
+ExecutionWorld
+enum
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#enumdef-executionworld
+1
+1
+-
+executionworld
+ExecutionWorld
+dfn
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#executionworld
+
+1
+-
 exit pointer lock
 Exit Pointer Lock
 dfn
@@ -585,6 +1056,28 @@ pointerlock
 snapshot
 https://www.w3.org/TR/pointerlock-2/#dfn-exit-pointer-lock
 
+1
+-
+Expand URL Template
+Expand URL Template
+abstract-op
+ift
+ift
+1
+current
+https://w3c.github.io/IFT/Overview.html#abstract-opdef-expand-url-template
+1
+1
+-
+Expand URL Template
+Expand URL Template
+abstract-op
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#abstract-opdef-expand-url-template
+1
 1
 -
 expiration time
@@ -653,6 +1146,17 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-expire-the-current-texture
 1
 1
 -
+expiring blocker
+expiring blocker
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#expiring-blocker
+
+1
+-
 explicit consent
 explicit consent
 dfn
@@ -686,6 +1190,94 @@ https://wicg.github.io/scroll-to-text-fragment/#explicitchar
 
 1
 -
+exploration
+exploration
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-wot-exploration
+
+
+-
+exploration
+exploration
+dfn
+wot-discovery
+wot-discovery
+1
+current
+https://w3c.github.io/wot-discovery/#dfn-wot-exploration
+
+
+-
+exploration
+exploration
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-wot-exploration
+
+
+-
+exploration
+exploration
+dfn
+wot-discovery
+wot-discovery
+1
+snapshot
+https://www.w3.org/TR/wot-discovery/#dfn-wot-exploration
+
+
+-
+exponentindicator
+ExponentIndicator
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-ExponentIndicator
+
+1
+-
+exponentpart
+ExponentPart
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-ExponentPart
+
+1
+-
+exponentiationexpression
+ExponentiationExpression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ExponentiationExpression
+
+1
+-
+exportdeclaration
+ExportDeclaration
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ExportDeclaration
+
+1
+-
 exportentry record
 ExportEntry Record
 dfn
@@ -709,6 +1301,28 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#e
 1
 1
 ECMAScript
+-
+exportfromclause
+ExportFromClause
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ExportFromClause
+
+1
+-
+exportspecifier
+ExportSpecifier
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ExportSpecifier
+
+1
 -
 exported function
 Exported Function
@@ -754,6 +1368,61 @@ https://www.w3.org/TR/wasm-js-api-2/#exported-function-cache
 
 1
 -
+exported gc object
+Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#exported-gc-object
+
+1
+-
+exported gc object
+Exported GC Object
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#exported-gc-object
+
+1
+-
+exported gc object cache
+Exported GC Object cache
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#exported-gc-object-cache
+
+1
+-
+exported gc object cache
+Exported GC Object cache
+dfn
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#exported-gc-object-cache
+
+1
+-
+exportslist
+ExportsList
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-ExportsList
+
+1
+-
 expose
 expose
 dfn
@@ -773,17 +1442,6 @@ wai-aria
 1
 current
 https://w3c.github.io/aria/#dfn-expose
-
-
--
-expose
-expose
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-expose
 
 
 -
@@ -820,6 +1478,28 @@ https://webidl.spec.whatwg.org/#Exposed
 1
 1
 -
+exposed thing
+Exposed Thing
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-exposed-thing
+
+
+-
+exposed thing
+Exposed Thing
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-exposed-thing
+
+
+-
 exposed for paint timing
 exposed for paint timing
 dfn
@@ -841,6 +1521,28 @@ snapshot
 https://www.w3.org/TR/paint-timing/#exposed-for-paint-timing
 1
 1
+-
+exposing a thing
+Exposing a Thing
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-exposing-a-thing
+
+
+-
+exposing a thing
+Exposing a Thing
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-exposing-a-thing
+
+
 -
 exposure
 exposure
@@ -930,6 +1632,61 @@ https://www.w3.org/TR/permissions/#dfn-express-permission
 1
 1
 -
+expression
+expression
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Expression
+
+1
+-
+expression
+expression
+dfn
+shacl12-rules
+shacl-rules
+1
+current
+https://w3c.github.io/data-shapes/shacl12-rules/#dfn-expression
+
+1
+-
+expression
+expression
+dfn
+shacl12-rules
+shacl-rules
+1
+snapshot
+https://www.w3.org/TR/shacl12-rules/#dfn-expression
+
+1
+-
+expressionbody
+ExpressionBody
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ExpressionBody
+
+1
+-
+expressionstatement
+ExpressionStatement
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-ExpressionStatement
+
+1
+-
 Extend an Incremental Font Subset
 Extend an Incremental Font Subset
 abstract-op
@@ -955,22 +1712,22 @@ https://www.w3.org/TR/IFT/#abstract-opdef-extend-an-incremental-font-subset
 ExtendableCookieChangeEvent
 ExtendableCookieChangeEvent
 interface
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#extendablecookiechangeevent
+https://cookiestore.spec.whatwg.org/#extendablecookiechangeevent
 1
 1
 -
 ExtendableCookieChangeEvent(type)
 ExtendableCookieChangeEvent(type)
 constructor
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#dom-extendablecookiechangeevent-extendablecookiechangeevent
+https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-extendablecookiechangeevent
 1
 1
 ExtendableCookieChangeEvent
@@ -978,11 +1735,11 @@ ExtendableCookieChangeEvent
 ExtendableCookieChangeEvent(type, eventInitDict)
 ExtendableCookieChangeEvent(type, eventInitDict)
 constructor
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#dom-extendablecookiechangeevent-extendablecookiechangeevent
+https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-extendablecookiechangeevent
 1
 1
 ExtendableCookieChangeEvent
@@ -990,11 +1747,11 @@ ExtendableCookieChangeEvent
 ExtendableCookieChangeEventInit
 ExtendableCookieChangeEventInit
 dictionary
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#dictdef-extendablecookiechangeeventinit
+https://cookiestore.spec.whatwg.org/#dictdef-extendablecookiechangeeventinit
 1
 1
 -
@@ -1237,6 +1994,154 @@ https://www.w3.org/TR/i18n-glossary/#dfn-extended-language-range
 1
 
 -
+extendedatom
+ExtendedAtom
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-ExtendedAtom
+
+1
+Web browsers
+-
+extendedpatterncharacter
+ExtendedPatternCharacter
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#prod-annexB-ExtendedPatternCharacter
+
+1
+Web browsers
+-
+Extensible
+Extensible
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-extensible
+
+1
+-
+Extensible
+Extensible
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-type-extensible
+
+1
+-
+Extensible
+Extensible
+cddl-type
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-type-extensible
+
+1
+-
+extension
+extension
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-extension
+
+1
+-
+extension
+extension
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-extension
+
+1
+-
+extension
+extension
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-extension
+
+1
+-
+extension
+extension
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-extension
+
+1
+-
+ExtensionIntentParameters
+ExtensionIntentParameters
+cddl-type
+at-driver
+at-driver
+1
+current
+https://w3c.github.io/at-driver/#cddl-type-extensionintentparameters
+
+1
+-
+extensions to the performance interface
+Extensions to the Performance interface
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#extensions-to-the-performance-interface
+
+1
+Performance
+-
+extensions to the performance interface
+Extensions to the Performance interface
+dfn
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#extensions-performance-interface
+
+1
+Performance
+-
+extensions to the performance interface
+Extensions to the Performance interface
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#extensions-to-the-performance-interface
+
+1
+Performance
+-
 extensions to the predefined set of link types
 extensions to the predefined set of link types
 dfn
@@ -1245,28 +2150,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/links.html#concept-rel-extensions
-
-1
--
-extern value cache
-extern value cache
-dfn
-wasm-js-api-2
-wasm-js-api
-2
-current
-https://webassembly.github.io/spec/js-api/#extern-value-cache
-
-1
--
-extern value cache
-extern value cache
-dfn
-wasm-js-api-2
-wasm-js-api
-2
-snapshot
-https://www.w3.org/TR/wasm-js-api-2/#extern-value-cache
 
 1
 -
@@ -1279,6 +2162,50 @@ html
 current
 https://html.spec.whatwg.org/multipage/obsolete.html#external
 1
+1
+-
+external data resource
+External Data Resource
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+current
+https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html#dfn-external-data-resource
+
+1
+-
+external data resource
+External Data Resource
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-external-data-resource
+
+1
+-
+external data resource
+External Data Resource
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-external-data-resource
+
+1
+-
+external data resource
+External Data Resource
+dfn
+ttml-imsc1.3
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.3/#dfn-external-data-resource
+
 1
 -
 external texture
@@ -1313,7 +2240,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#validate-and-normalize-high-water-mark
-1
+
 1
 -
 ExtractSizeAlgorithm
@@ -1324,7 +2251,7 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#make-size-algorithm-from-size-function
-1
+
 1
 -
 extracting the fallback url
@@ -1459,11 +2386,23 @@ Gamepad
 [[extractable]]
 [[extractable]]
 attribute
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKey-slot-extractable
+
+1
+CryptoKey
+-
+[[extractable]]
+[[extractable]]
+attribute
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-CryptoKey-slot-extractable
 
 1
 CryptoKey
@@ -1508,9 +2447,9 @@ https://drafts.csswg.org/css-values-4/#ex
 ex
 ex
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#ex
 1
@@ -1559,20 +2498,9 @@ ex (unit)
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/syndata.html#ex
-1
-1
--
-ex (unit)
-ex (unit)
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/syndata.html#ex
+https://www.w3.org/TR/CSS2/syndata.html#ex
 1
 1
 -
@@ -1715,6 +2643,18 @@ mediacapture-streams
 mediacapture-streams
 1
 current
+https://w3c.github.io/mediacapture-main/#dom-constrainbooleanordomstringparameters-exact
+1
+1
+ConstrainBooleanOrDOMStringParameters
+-
+exact
+exact
+dict-member
+mediacapture-streams
+mediacapture-streams
+1
+current
 https://w3c.github.io/mediacapture-main/#dom-constrainbooleanparameters-exact
 1
 1
@@ -1758,18 +2698,6 @@ ConstrainULongRange
 -
 exact
 exact
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#trigger-data-matching-mode-exact
-
-1
-trigger-data matching mode
--
-exact
-exact
 value
 css-color-adjust-1
 css-color-adjust
@@ -1791,6 +2719,18 @@ https://www.w3.org/TR/image-capture/#dom-constrainpoint2dparameters-exact
 1
 1
 ConstrainPoint2DParameters
+-
+exact
+exact
+dict-member
+mediacapture-streams
+mediacapture-streams
+1
+snapshot
+https://www.w3.org/TR/mediacapture-streams/#dom-constrainbooleanordomstringparameters-exact
+1
+1
+ConstrainBooleanOrDOMStringParameters
 -
 exact
 exact
@@ -1843,9 +2783,9 @@ ConstrainULongRange
 exact matching
 exact matching
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#exact-matching
 
@@ -1856,20 +2796,9 @@ exact matching
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x14
-1
-1
--
-exact matching
-exact matching
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x14
+https://www.w3.org/TR/CSS2/selector.html#x14
 1
 1
 -
@@ -1919,6 +2848,30 @@ https://w3c.github.io/DOM-Parsing/#dfn-throw-an-exception
 -
 exception
 exception
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptexceptiondetails-exception
+
+1
+script.ExceptionDetails
+-
+exception
+exception
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptevaluateresultexception-type-exception
+
+1
+script.EvaluateResultException/type
+-
+exception
+exception
 dfn
 webidl
 webidl
@@ -1927,6 +2880,132 @@ current
 https://webidl.spec.whatwg.org/#dfn-exception
 1
 1
+-
+exception
+exception
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptexceptiondetails-exception
+
+1
+script.ExceptionDetails
+-
+exception
+exception
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptevaluateresultexception-type-exception
+
+1
+script.EvaluateResultException/type
+-
+exceptionDetails
+exceptionDetails
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptevaluateresultexception-exceptiondetails
+
+1
+script.EvaluateResultException
+-
+exceptionDetails
+exceptionDetails
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptevaluateresultexception-exceptiondetails
+
+1
+script.EvaluateResultException
+-
+exceptionTag
+exceptionTag
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-exception-exceptiontag-payload-options-exceptiontag
+1
+1
+Exception/Exception(exceptionTag, payload, options)
+Exception/constructor(exceptionTag, payload, options)
+Exception/Exception(exceptionTag, payload)
+Exception/constructor(exceptionTag, payload)
+-
+exceptionTag
+exceptionTag
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-getarg-exceptiontag-index-exceptiontag
+1
+1
+Exception/getArg(exceptionTag, index)
+-
+exceptionTag
+exceptionTag
+argument
+wasm-js-api-2
+wasm-js-api
+2
+current
+https://webassembly.github.io/spec/js-api/#dom-exception-is-exceptiontag-exceptiontag
+1
+1
+Exception/is(exceptionTag)
+-
+exceptionTag
+exceptionTag
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-exception-exceptiontag-payload-options-exceptiontag
+1
+1
+Exception/Exception(exceptionTag, payload, options)
+Exception/constructor(exceptionTag, payload, options)
+Exception/Exception(exceptionTag, payload)
+Exception/constructor(exceptionTag, payload)
+-
+exceptionTag
+exceptionTag
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-getarg-exceptiontag-index-exceptiontag
+1
+1
+Exception/getArg(exceptionTag, index)
+-
+exceptionTag
+exceptionTag
+argument
+wasm-js-api-2
+wasm-js-api
+2
+snapshot
+https://www.w3.org/TR/wasm-js-api-2/#dom-exception-is-exceptiontag-exceptiontag
+1
+1
+Exception/is(exceptionTag)
 -
 exceptions
 exceptions
@@ -2008,8 +3087,8 @@ https://wicg.github.io/nav-speculation/prefetch.html#exchange-record
 
 1
 -
-exchange(typedArray, index, value)
-exchange(typedArray, index, value)
+exchange(ta, index, value)
+exchange(ta, index, value)
 method
 ecmascript
 ecmascript
@@ -2027,7 +3106,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-exclude
+https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-exclude
 1
 1
 mask-composite
@@ -2082,15 +3161,15 @@ SystemAudioPreferenceEnum
 -
 exclude
 exclude
-dfn
-attribution-reporting-api
-attribution-reporting-api
+enum-value
+screen-capture
+screen-capture
 1
 current
-https://wicg.github.io/attribution-reporting-api/#aggregatable-source-registration-time-configuration-exclude
-
+https://w3c.github.io/mediacapture-screen-share/#idl-def-WindowAudioPreferenceEnum.exclude
 1
-aggregatable source registration time configuration
+1
+WindowAudioPreferenceEnum
 -
 exclude
 exclude
@@ -2151,6 +3230,18 @@ https://www.w3.org/TR/screen-capture/#idl-def-SystemAudioPreferenceEnum.exclude
 1
 1
 SystemAudioPreferenceEnum
+-
+exclude
+exclude
+enum-value
+screen-capture
+screen-capture
+1
+snapshot
+https://www.w3.org/TR/screen-capture/#idl-def-WindowAudioPreferenceEnum.exclude
+1
+1
+WindowAudioPreferenceEnum
 -
 exclude fragment
 exclude fragment
@@ -2239,11 +3330,23 @@ PublicKeyCredentialCreationOptionsJSON
 excludelist
 excludeList
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-excludelist
+
+1
+makeCred
+-
+excludelist
+excludeList
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-excludelist
 
 1
 makeCred
@@ -2288,7 +3391,7 @@ compositing-1
 compositing
 1
 current
-https://drafts.fxtf.org/compositing-1/#valdef-blend-mode-exclusion
+https://drafts.csswg.org/compositing-1/#valdef-blend-mode-exclusion
 1
 1
 <blend-mode>
@@ -2300,7 +3403,7 @@ compositing-2
 compositing
 2
 current
-https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-exclusion
+https://drafts.csswg.org/compositing-2/#valdef-blend-mode-exclusion
 1
 1
 <blend-mode>
@@ -2379,6 +3482,18 @@ USBPermissionDescriptor
 exclusive
 exclusive
 dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcumulativesumoptions-exclusive
+1
+1
+MLCumulativeSumOptions
+-
+exclusive
+exclusive
+dict-member
 entries-api
 entries-api
 1
@@ -2387,18 +3502,6 @@ https://wicg.github.io/entries-api/#dom-filesystemflags-exclusive
 1
 1
 FileSystemFlags
--
-exclusive
-exclusive
-enum-value
-web-smart-card
-web-smart-card
-1
-current
-https://wicg.github.io/web-smart-card/#dom-smartcardaccessmode-exclusive
-1
-1
-SmartCardAccessMode
 -
 exclusive
 exclusive
@@ -2423,6 +3526,18 @@ https://wicg.github.io/web-smart-card/#dom-smartcardreaderstateflagsout-exclusiv
 1
 1
 SmartCardReaderStateFlagsOut
+-
+exclusive
+exclusive
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcumulativesumoptions-exclusive
+1
+1
+MLCumulativeSumOptions
 -
 exclusive text node
 exclusive Text node
@@ -2465,6 +3580,17 @@ audio-session
 1
 current
 https://w3c.github.io/audio-session/#exclusive-type
+
+1
+-
+exclusive type
+exclusive type
+dfn
+audio-session
+audio-session
+1
+snapshot
+https://www.w3.org/TR/audio-session/#exclusive-type
 
 1
 -
@@ -2586,6 +3712,30 @@ https://w3c.github.io/editing/docs/execCommand/#dom-document-execcommand
 
 Document
 -
+execute
+execute
+dict-member
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodeltool-execute
+1
+1
+LanguageModelTool
+-
+execute
+execute
+dict-member
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-execute
+1
+1
+ModelContextTool
+-
 execute a file handler launch
 execute a file handler launch
 dfn
@@ -2619,27 +3769,39 @@ https://www.w3.org/TR/webdriver2/#dfn-execute-a-function-body
 
 1
 -
-execute graph
-execute graph
+execute a try-tactic
+execute a try-tactic
 dfn
-webnn
-webnn
+css-anchor-position-1
+css-anchor-position
 1
 current
-https://webmachinelearning.github.io/webnn/#execute-graph
+https://drafts.csswg.org/css-anchor-position-1/#execute-a-try-tactic
 
 1
 -
-execute graph
-execute graph
+execute a try-tactic
+execute a try-tactic
 dfn
-webnn
-webnn
+css-anchor-position-1
+css-anchor-position
 1
 snapshot
-https://www.w3.org/TR/webnn/#execute-graph
+https://www.w3.org/TR/css-anchor-position-1/#execute-a-try-tactic
 
 1
+-
+execute steps
+execute steps
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#tool-definition-execute-steps
+
+1
+tool definition
 -
 execute the script element
 execute the script element
@@ -2748,18 +3910,6 @@ https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#se
 1
 ECMAScript
 -
-execution mode
-execution mode
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-execution-mode
-
-1
-interest group
--
 execution ready flag
 execution ready flag
 dfn
@@ -2802,6 +3952,18 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#script-timing-info-execution-start-time
+
+1
+script timing info
+-
+execution start time
+execution start time
+dfn
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#script-timing-info-execution-start-time
 
 1
 script timing info
@@ -2850,18 +4012,6 @@ https://www.w3.org/TR/clear-site-data/#grammardef-executioncontexts
 1
 1
 -
-executionMode
-executionMode
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-executionmode
-1
-1
-GenerateBidInterestGroup
--
 executionStart
 executionStart
 attribute
@@ -2870,6 +4020,18 @@ long-animation-frames
 1
 current
 https://w3c.github.io/long-animation-frames/#dom-performancescripttiming-executionstart
+1
+1
+PerformanceScriptTiming
+-
+executionStart
+executionStart
+attribute
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-executionstart
 1
 1
 PerformanceScriptTiming
@@ -2888,11 +4050,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-exempt-resource
 exempt resource
 exempt resource
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-exempt-resource
+1
+1
+-
+exempt resource
+exempt resource
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-exempt-resource
+1
+1
+-
+exempt resource
+exempt resource
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-exempt-resource
 1
 1
 -
@@ -2971,6 +4155,28 @@ https://infra.spec.whatwg.org/#map-exists
 1
 map
 -
+exists expression
+exists expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-exists-expression
+
+1
+-
+exists expression
+exists expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-exists-expression
+
+1
+-
 exit
 exit
 value
@@ -3029,6 +4235,42 @@ https://www.w3.org/TR/picture-in-picture/#exit-picture-in-picture-algorithm
 
 1
 -
+exit action
+exit action
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#event-trigger-exit-action
+1
+1
+event trigger
+-
+exit action
+exit action
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#timeline-trigger-exit-action
+1
+1
+timeline trigger
+-
+exit event
+exit event
+dfn
+animation-triggers-1
+animation-triggers
+1
+current
+https://drafts.csswg.org/animation-triggers-1/#event-trigger-exit-event
+
+1
+event trigger
+-
 exit fullscreen
 exit fullscreen
 dfn
@@ -3037,6 +4279,28 @@ fullscreen
 1
 current
 https://fullscreen.spec.whatwg.org/#exit-fullscreen
+
+1
+-
+exit range
+exit range
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#exit-range
+
+1
+-
+exit range
+exit range
+dfn
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#exit-range
 
 1
 -
@@ -3167,6 +4431,102 @@ https://www.w3.org/TR/pointerlock-2/#dom-document-exitpointerlock
 1
 1
 Document
+-
+exitRangeEnd
+exitRangeEnd
+attribute
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtrigger-exitrangeend
+1
+1
+AnimationTrigger
+-
+exitRangeEnd
+exitRangeEnd
+dict-member
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtriggeroptions-exitrangeend
+1
+1
+AnimationTriggerOptions
+-
+exitRangeEnd
+exitRangeEnd
+attribute
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtrigger-exitrangeend
+1
+1
+AnimationTrigger
+-
+exitRangeEnd
+exitRangeEnd
+dict-member
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtriggeroptions-exitrangeend
+1
+1
+AnimationTriggerOptions
+-
+exitRangeStart
+exitRangeStart
+attribute
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtrigger-exitrangestart
+1
+1
+AnimationTrigger
+-
+exitRangeStart
+exitRangeStart
+dict-member
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#dom-animationtriggeroptions-exitrangestart
+1
+1
+AnimationTriggerOptions
+-
+exitRangeStart
+exitRangeStart
+attribute
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtrigger-exitrangestart
+1
+1
+AnimationTrigger
+-
+exitRangeStart
+exitRangeStart
+dict-member
+web-animations-2
+web-animations
+2
+snapshot
+https://www.w3.org/TR/web-animations-2/#dom-animationtriggeroptions-exitrangestart
+1
+1
+AnimationTriggerOptions
 -
 exotic object
 exotic object
@@ -3330,6 +4690,39 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#expand-a-storage-partition-spec
+
+1
+-
+expand a storage partition spec
+expand a storage partition spec
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#expand-a-storage-partition-spec
+
+1
+-
+expand a web extension data spec
+expand a web extension data spec
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#expand-a-web-extension-data-spec
+
+1
+-
+expand a web extension data spec
+expand a web extension data spec
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#expand-a-web-extension-data-spec
 
 1
 -
@@ -3653,17 +5046,6 @@ dfn
 json-ld11
 json-ld
 1
-current
-https://w3c.github.io/json-ld-syntax/#dfn-expanded-term-definition
-
-
--
-expanded term definition
-expanded term definition
-dfn
-json-ld11
-json-ld
-1
 snapshot
 https://www.w3.org/TR/json-ld11/#dfn-expanded-term-definition
 
@@ -3747,17 +5129,196 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-expect
 1
 link/rel
 -
-expected currency
-expected currency
+expected
+expected
 dfn
-turtledove
-turtledove
+html
+html
 1
 current
-https://wicg.github.io/turtledove/#interestgroupbiddingscriptrunnerglobalscope-expected-currency
+https://html.spec.whatwg.org/multipage/rendering.html#expected
 
 1
-InterestGroupBiddingScriptRunnerGlobalScope
+-
+expected context languages
+expected context languages
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#rewriter-expected-context-languages
+
+1
+Rewriter
+-
+expected context languages
+expected context languages
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-expected-context-languages
+
+1
+Summarizer
+-
+expected context languages
+expected context languages
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#writer-expected-context-languages
+
+1
+Writer
+-
+expected input languages
+expected input languages
+dfn
+translation-api
+translation-api
+1
+current
+https://webmachinelearning.github.io/translation-api/#languagedetector-expected-input-languages
+
+1
+LanguageDetector
+-
+expected input languages
+expected input languages
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#rewriter-expected-input-languages
+
+1
+Rewriter
+-
+expected input languages
+expected input languages
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-expected-input-languages
+
+1
+Summarizer
+-
+expected input languages
+expected input languages
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#writer-expected-input-languages
+
+1
+Writer
+-
+expected inputs
+expected inputs
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#languagemodel-expected-inputs
+
+1
+LanguageModel
+-
+expected outputs
+expected outputs
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#languagemodel-expected-outputs
+
+1
+LanguageModel
+-
+expectedContextLanguages
+expectedContextLanguages
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-expectedcontextlanguages
+1
+1
+Rewriter
+-
+expectedContextLanguages
+expectedContextLanguages
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewritercreatecoreoptions-expectedcontextlanguages
+1
+1
+RewriterCreateCoreOptions
+-
+expectedContextLanguages
+expectedContextLanguages
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-expectedcontextlanguages
+1
+1
+Summarizer
+-
+expectedContextLanguages
+expectedContextLanguages
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizercreatecoreoptions-expectedcontextlanguages
+1
+1
+SummarizerCreateCoreOptions
+-
+expectedContextLanguages
+expectedContextLanguages
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-expectedcontextlanguages
+1
+1
+Writer
+-
+expectedContextLanguages
+expectedContextLanguages
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writercreatecoreoptions-expectedcontextlanguages
+1
+1
+WriterCreateCoreOptions
 -
 expectedDisplayTime
 expectedDisplayTime
@@ -3771,28 +5332,125 @@ https://wicg.github.io/video-rvfc/#dom-videoframecallbackmetadata-expecteddispla
 1
 VideoFrameCallbackMetadata
 -
-expects additional bids
-expects additional bids
-dfn
-turtledove
-turtledove
+expectedInputLanguages
+expectedInputLanguages
+attribute
+translation-api
+translation-api
 1
 current
-https://wicg.github.io/turtledove/#auction-config-expects-additional-bids
-
+https://webmachinelearning.github.io/translation-api/#dom-languagedetector-expectedinputlanguages
 1
-auction config
+1
+LanguageDetector
 -
-experimental flexible event support
-experimental Flexible Event support
-dfn
-attribution-reporting-api
-attribution-reporting-api
+expectedInputLanguages
+expectedInputLanguages
+dict-member
+translation-api
+translation-api
 1
 current
-https://wicg.github.io/attribution-reporting-api/#experimental-flexible-event-support
-
+https://webmachinelearning.github.io/translation-api/#dom-languagedetectorcreatecoreoptions-expectedinputlanguages
 1
+1
+LanguageDetectorCreateCoreOptions
+-
+expectedInputLanguages
+expectedInputLanguages
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-expectedinputlanguages
+1
+1
+Rewriter
+-
+expectedInputLanguages
+expectedInputLanguages
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewritercreatecoreoptions-expectedinputlanguages
+1
+1
+RewriterCreateCoreOptions
+-
+expectedInputLanguages
+expectedInputLanguages
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizer-expectedinputlanguages
+1
+1
+Summarizer
+-
+expectedInputLanguages
+expectedInputLanguages
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizercreatecoreoptions-expectedinputlanguages
+1
+1
+SummarizerCreateCoreOptions
+-
+expectedInputLanguages
+expectedInputLanguages
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-expectedinputlanguages
+1
+1
+Writer
+-
+expectedInputLanguages
+expectedInputLanguages
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writercreatecoreoptions-expectedinputlanguages
+1
+1
+WriterCreateCoreOptions
+-
+expectedInputs
+expectedInputs
+dict-member
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelcreatecoreoptions-expectedinputs
+1
+1
+LanguageModelCreateCoreOptions
+-
+expectedOutputs
+expectedOutputs
+dict-member
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelcreatecoreoptions-expectedoutputs
+1
+1
+LanguageModelCreateCoreOptions
 -
 expiration
 expiration
@@ -3863,6 +5521,30 @@ https://wicg.github.io/webpackage/loading.html#exchange-signature-expiration-tim
 
 1
 exchange signature
+-
+expiration timestamp
+expiration timestamp
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#device-bound-session-expiration-timestamp
+
+1
+device bound session
+-
+expiration timestamp
+expiration timestamp
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#device-bound-session-expiration-timestamp
+
+1
+device bound session
 -
 expirationTime
 expirationTime
@@ -3964,7 +5646,7 @@ network-error-logging
 network-error-logging
 1
 current
-https://w3c.github.io/network-error-logging/#dfn-expired
+https://w3c.github.io/network-error-logging/#expired
 
 1
 -
@@ -3979,18 +5661,6 @@ https://w3c.github.io/reporting/network-reporting.html#endpoint-group-expired
 
 1
 endpoint group
--
-expired
-expired
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#bit-debit-expired
-
-1
-bit debit
 -
 expired
 expired
@@ -4065,6 +5735,18 @@ WebTransportDatagramStats
 -
 expires
 expires
+dict-member
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookieinit-expires
+1
+1
+CookieInit
+-
+expires
+expires
 abstract-op
 webgpu
 webgpu
@@ -4097,30 +5779,6 @@ https://w3c.github.io/webrtc-pc/#dom-rtccertificateexpiration-expires
 1
 1
 RTCCertificateExpiration
--
-expires
-expires
-dict-member
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookieinit-expires
-1
-1
-CookieInit
--
-expires
-expires
-dict-member
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#dom-cookielistitem-expires
-1
-1
-CookieListItem
 -
 expires
 expires
@@ -4195,63 +5853,99 @@ StorageBucket
 -
 expiry
 expiry
-dfn
-attribution-reporting-api
-attribution-reporting-api
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-expiry
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkcookie-expiry
 
 1
-attribution source
+network.Cookie
 -
 expiry
 expiry
-dfn
-attribution-reporting-api
-attribution-reporting-api
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-expiry
+https://w3c.github.io/webdriver-bidi/#cddl-key-networksetcookieheader-expiry
 
 1
-source-registration JSON key
+network.SetCookieHeader
 -
 expiry
 expiry
-dfn
-turtledove
-turtledove
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/turtledove/#interest-group-expiry
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagecookiefilter-expiry
 
 1
-interest group
+storage.CookieFilter
 -
-expiry time
-expiry time
-dfn
-attribution-reporting-api
-attribution-reporting-api
+expiry
+expiry
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#attribution-rate-limit-record-expiry-time
+https://w3c.github.io/webdriver-bidi/#cddl-key-storagepartialcookie-expiry
 
 1
-attribution rate-limit record
+storage.PartialCookie
 -
-expiry time
-expiry time
-dfn
-attribution-reporting-api
-attribution-reporting-api
+expiry
+expiry
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-expiry-time
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkcookie-expiry
 
 1
-attribution source
+network.Cookie
+-
+expiry
+expiry
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networksetcookieheader-expiry
+
+1
+network.SetCookieHeader
+-
+expiry
+expiry
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagecookiefilter-expiry
+
+1
+storage.CookieFilter
+-
+expiry
+expiry
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-storagepartialcookie-expiry
+
+1
+storage.PartialCookie
 -
 expiry time
 expiry time
@@ -4264,18 +5958,6 @@ https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-expiry-time
 1
 1
 prefetch record
--
-expiry-time
-expiry-time
-dfn
-cookie-store
-cookie-store
-1
-current
-https://wicg.github.io/cookie-store/#cookie-expiry-time
-
-1
-cookie
 -
 explanation
 explanation
@@ -4316,7 +5998,19 @@ JsonLdOptions
 explicit
 explicit
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelcountmode-explicit
+1
+1
+ChannelCountMode
+-
+explicit
+explicit
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -4340,11 +6034,23 @@ JsonLdOptions
 explicit
 explicit
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelcountmode-explicit
+https://www.w3.org/TR/webaudio-1.0/#dom-channelcountmode-explicit
+1
+1
+ChannelCountMode
+-
+explicit
+explicit
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelcountmode-explicit
 1
 1
 ChannelCountMode
@@ -4368,6 +6074,17 @@ css-grid
 2
 current
 https://drafts.csswg.org/css-grid-2/#explicit-grid-span
+1
+1
+-
+explicit column span
+explicit column span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#explicit-grid-span
 1
 1
 -
@@ -4558,6 +6275,17 @@ https://drafts.csswg.org/css-grid-2/#explicit-grid-span
 1
 1
 -
+explicit grid span
+explicit grid span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#explicit-grid-span
+1
+1
+-
 explicit grid track
 explicit grid track
 dfn
@@ -4601,17 +6329,6 @@ snapshot
 https://www.w3.org/TR/css-grid-2/#explicit-grid-track
 
 1
--
-explicit inclusion flag
-explicit inclusion flag
-dfn
-json-ld11-framing
-json-ld-framing
-1
-current
-https://w3c.github.io/json-ld-framing/#dfn-explicit-inclusion-flag
-
-
 -
 explicit inclusion flag
 explicit inclusion flag
@@ -4681,6 +6398,39 @@ https://drafts.csswg.org/css-grid-2/#explicit-grid-span
 1
 1
 -
+explicit row span
+explicit row span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#explicit-grid-span
+1
+1
+-
+explicit shape target
+explicit shape target
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-explicit-shape-target
+
+1
+-
+explicit shape target
+explicit shape target
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-explicit-shape-target
+
+1
+-
 explicit span
 explicit span
 dfn
@@ -4689,6 +6439,17 @@ css-grid
 2
 current
 https://drafts.csswg.org/css-grid-2/#explicit-grid-span
+1
+1
+-
+explicit span
+explicit span
+dfn
+css-grid-2
+css-grid
+2
+snapshot
+https://www.w3.org/TR/css-grid-2/#explicit-grid-span
 1
 1
 -
@@ -4744,6 +6505,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#explicitly-supported-xml-mime-type
+
+1
+-
+explicitly unknown
+explicitly unknown
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#concept-explicitly-unknown
 
 1
 -
@@ -4810,7 +6582,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgcomponenttransferfunctionelement-exponent
+https://drafts.csswg.org/filter-effects-1/#dom-svgcomponenttransferfunctionelement-exponent
 1
 1
 SVGComponentTransferFunctionElement
@@ -4822,7 +6594,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-fecomponenttransfer-exponent
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-fecomponenttransfer-exponent
 1
 1
 feComponentTransfer
@@ -4902,7 +6674,7 @@ ieee754
 exponential
 exponential
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4914,11 +6686,35 @@ DistanceModelType
 exponential
 exponential
 enum-value
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-distancemodeltype-exponential
+1
+1
+DistanceModelType
+-
+exponential
+exponential
+enum-value
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-distancemodeltype-exponential
+https://www.w3.org/TR/webaudio-1.0/#dom-distancemodeltype-exponential
+1
+1
+DistanceModelType
+-
+exponential
+exponential
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-distancemodeltype-exponential
 1
 1
 DistanceModelType
@@ -4926,7 +6722,7 @@ DistanceModelType
 exponentialRampToValueAtTime(value, endTime)
 exponentialRampToValueAtTime(value, endTime)
 method
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -4938,32 +6734,69 @@ AudioParam
 exponentialRampToValueAtTime(value, endTime)
 exponentialRampToValueAtTime(value, endTime)
 method
-webaudio
+webaudio-1.1
 webaudio
 1
-snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-exponentialramptovalueattime
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime
 1
 1
 AudioParam
 -
-exportkey
-exportKey
-dfn
-webcryptoapi
-webcryptoapi
+exponentialRampToValueAtTime(value, endTime)
+exponentialRampToValueAtTime(value, endTime)
+method
+webaudio-1.0
+webaudio
 1
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-exportKey
-
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-exponentialramptovalueattime
 1
+1
+AudioParam
+-
+exponentialRampToValueAtTime(value, endTime)
+exponentialRampToValueAtTime(value, endTime)
+method
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-exponentialramptovalueattime
+1
+1
+AudioParam
 -
 exportKey()
 exportKey()
 method
-webcryptoapi
-webcryptoapi
+webcrypto-2
+webcrypto
+2
+current
+https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-exportKey
 1
+1
+SubtleCrypto
+-
+exportKey()
+exportKey()
+method
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-exportKey
+1
+1
+SubtleCrypto
+-
+exportKey(format, key)
+exportKey(format, key)
+method
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-exportKey
 1
@@ -4973,35 +6806,59 @@ SubtleCrypto
 exportKey(format, key)
 exportKey(format, key)
 method
-webcryptoapi
-webcryptoapi
-1
-current
-https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-exportKey
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dfn-SubtleCrypto-method-exportKey
 1
 1
 SubtleCrypto
 -
-exportparts
-exportparts
-element-attr
-css-shadow-parts-1
-css-shadow-parts
+exportKeyingMaterial(label)
+exportKeyingMaterial(label)
+method
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransport-exportkeyingmaterial
+1
+1
+WebTransport
+-
+exportKeyingMaterial(label, context)
+exportKeyingMaterial(label, context)
+method
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#dom-webtransport-exportkeyingmaterial
+1
+1
+WebTransport
+-
+exportKeyingMaterial(label, context, outputLength)
+exportKeyingMaterial(label, context, outputLength)
+method
+webtransport
+webtransport
 1
 current
-https://drafts.csswg.org/css-shadow-parts-1/#element-attrdef-html-global-exportparts
+https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial
 1
 1
-html-global
+WebTransport
 -
 exportparts
 exportparts
 element-attr
-css-shadow-parts-1
-css-shadow-parts
+css-shadow-1
+css-shadow
 1
-snapshot
-https://www.w3.org/TR/css-shadow-parts-1/#element-attrdef-html-global-exportparts
+current
+https://drafts.csswg.org/css-shadow-1/#element-attrdef-html-global-exportparts
 1
 1
 html-global
@@ -5133,6 +6990,30 @@ https://wicg.github.io/background-fetch/#background-fetch-response-exposed
 
 1
 background fetch response
+-
+exposed origins
+exposed origins
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#tool-definition-exposed-origins
+
+1
+tool definition
+-
+exposedTo
+exposedTo
+dict-member
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-modelcontextregistertooloptions-exposedto
+1
+1
+ModelContextRegisterToolOptions
 -
 exposing hardware is allowed
 exposing hardware is allowed
@@ -5587,6 +7468,18 @@ syntax
 -
 expression
 expression
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptevaluateparameters-expression
+
+1
+script.EvaluateParameters
+-
+expression
+expression
 dfn
 wgsl
 wgsl
@@ -5619,6 +7512,62 @@ https://www.w3.org/TR/WGSL/#syntax-expression
 
 1
 syntax
+-
+expression
+expression
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptevaluateparameters-expression
+
+1
+script.EvaluateParameters
+-
+expression constraint
+expression constraint
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-expression-constraint
+
+1
+-
+expression constraint
+expression constraint
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-expression-constraint
+
+1
+-
+expression constraints
+expression constraints
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-expression-constraint
+
+1
+-
+expression constraints
+expression constraints
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-expression-constraint
+
+1
 -
 expression_comma_list
 expression_comma_list
@@ -5669,11 +7618,23 @@ https://www.w3.org/TR/permissions-policy-1/#expressions
 ext
 ext
 dict-member
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-ext
+1
+1
+JsonWebKey
+-
+ext
+ext
+dict-member
+webcrypto-2
+webcrypto
+2
+snapshot
+https://www.w3.org/TR/webcrypto-2/#dom-jsonwebkey-ext
 1
 1
 JsonWebKey
@@ -5689,6 +7650,18 @@ https://infra.spec.whatwg.org/#list-extend
 1
 1
 list
+-
+extend
+extend
+dfn
+infra
+infra
+1
+current
+https://infra.spec.whatwg.org/#set-extend
+1
+1
+set
 -
 extend lifetime promises
 extend lifetime promises
@@ -5821,6 +7794,72 @@ https://webidl.spec.whatwg.org/#idl-type-extended-attribute-associated-with
 1
 IDL type
 -
+extended audio description
+extended audio description
+dfn
+wcag22
+wcag
+1
+current
+https://w3c.github.io/wcag/guidelines/22/#dfn-extended-audio-description
+
+
+-
+extended audio description
+extended audio description
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-extended-audio-description
+
+1
+-
+extended audio description
+extended audio description
+dfn
+wcag22
+wcag
+1
+snapshot
+https://www.w3.org/TR/WCAG22/#dfn-extended-audio-description
+
+
+-
+extended audio description
+extended audio description
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-extended-audio-description
+
+1
+-
+extended lifetime
+extended lifetime
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/workers.html#concept-sharedworkerglobalscope-extended-lifetime
+
+1
+-
+extended lifetime shared worker timeout
+extended lifetime shared worker timeout
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/workers.html#extended-lifetime-shared-worker-timeout
+
+1
+-
 extended navigation
 extended navigation
 dfn
@@ -5865,6 +7904,30 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-adr-extended-addr
 
 1
 -
+extendedLifetime
+extendedLifetime
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworkeroptions-extendedlifetime
+1
+1
+SharedWorkerOptions
+-
+extendedProperties
+extendedProperties
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothcharacteristicproperties-extendedproperties
+
+1
+bluetooth.CharacteristicProperties
+-
 extends
 extends
 value
@@ -5876,6 +7939,18 @@ https://drafts.csswg.org/css-counter-styles-3/#valdef-counter-style-system-exten
 1
 1
 @counter-style/system
+-
+extends
+extends
+dict-member
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementdefinitionoptions-extends
+1
+1
+ElementDefinitionOptions
 -
 extends
 extends
@@ -5924,6 +7999,30 @@ https://w3c.github.io/rdf-semantics/spec/#dfn-extension
 -
 extension
 extension
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-webextensioninstallresult-extension
+
+1
+webExtension.InstallResult
+-
+extension
+extension
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-webextensionuninstallparameters-extension
+
+1
+webExtension.UninstallParameters
+-
+extension
+extension
 dfn
 wgsl
 wgsl
@@ -5943,6 +8042,30 @@ snapshot
 https://www.w3.org/TR/rdf12-semantics/#dfn-extension
 
 1
+-
+extension
+extension
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-webextensioninstallresult-extension
+
+1
+webExtension.InstallResult
+-
+extension
+extension
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-webextensionuninstallparameters-extension
+
+1
+webExtension.UninstallParameters
 -
 extension capabilities
 extension capabilities
@@ -6087,6 +8210,39 @@ https://w3c.github.io/webdriver-bidi/#extension-modules
 1
 1
 -
+extension modules
+extension modules
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#extension-modules
+1
+1
+-
+extension point
+extension point
+dfn
+design-principles
+design-principles
+1
+current
+https://w3ctag.github.io/design-principles/#extension-point
+1
+1
+-
+extension point
+extension point
+dfn
+design-principles
+design-principles
+1
+snapshot
+https://www.w3.org/TR/design-principles/#extension-point
+1
+1
+-
 extension sensor interface
 extension sensor interface
 dfn
@@ -6142,6 +8298,17 @@ https://w3c.github.io/webdriver-bidi/#extension-storage-partition-key-attributes
 
 1
 -
+extension storage partition key attributes
+extension storage partition key attributes
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#extension-storage-partition-key-attributes
+
+1
+-
 extension-token
 extension-token
 grammar
@@ -6153,11 +8320,35 @@ https://w3c.github.io/webappsec-referrer-policy/#grammardef-extension-token
 1
 1
 -
+extensionData
+extensionData
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-webextensioninstallparameters-extensiondata
+
+1
+webExtension.InstallParameters
+-
+extensionData
+extensionData
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-webextensioninstallparameters-extensiondata
+
+1
+webExtension.InstallParameters
+-
 extensions
 extensions
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getassert-extensions
@@ -6168,8 +8359,8 @@ getAssert
 extensions
 extensions
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-extensions
@@ -6180,11 +8371,47 @@ getInfo
 extensions
 extensions
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#makecred-extensions
+
+1
+makeCred
+-
+extensions
+extensions
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getassert-extensions
+
+1
+getAssert
+-
+extensions
+extensions
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-extensions
+
+1
+getInfo
+-
+extensions
+extensions
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#makecred-extensions
 
 1
 makeCred
@@ -6427,63 +8654,14 @@ https://www.w3.org/TR/window-management/#external
 
 1
 -
-external id
-external ID
+external application resource
+external application resource
 dfn
-attribution-reporting-api
-attribution-reporting-api
+manifest-incubations
+manifest-incubations
 1
 current
-https://wicg.github.io/attribution-reporting-api/#attribution-report-external-id
-
-1
-attribution report
-aggregatable attribution report
-event-level report
-aggregatable report
-aggregatable debug report
--
-external application resource
-external application resource
-dfn
-appmanifest
-appmanifest
-1
-current
-https://w3c.github.io/manifest/#dfn-external-application-resource
-
-1
--
-external application resource
-external application resource
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-external-application-resource
-
-1
--
-external application resource's
-external application resource's
-dfn
-appmanifest
-appmanifest
-1
-current
-https://w3c.github.io/manifest/#dfn-external-application-resource
-
-1
--
-external application resource's
-external application resource's
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-external-application-resource
+https://wicg.github.io/manifest-incubations/#dfn-external-application-resource
 
 1
 -
@@ -6494,7 +8672,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/linking.html#TermExternalReference
+https://w3c.github.io/svgwg/svg2-draft/linking.html#TermExternalReference
 1
 1
 -
@@ -6571,7 +8749,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-external-type
+https://w3c-cg.github.io/web-nfc/#dfn-external-type
 
 
 -
@@ -6582,7 +8760,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-external-type-name
+https://w3c-cg.github.io/web-nfc/#dfn-external-type-name
 
 1
 -
@@ -6593,7 +8771,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-external-type-record
+https://w3c-cg.github.io/web-nfc/#dfn-external-type-record
 
 
 -
@@ -6620,6 +8798,30 @@ https://www.w3.org/TR/webgpu/#dom-gpubindgrouplayoutentry-externaltexture
 1
 1
 GPUBindGroupLayoutEntry
+-
+extra headers
+extra headers
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#session-extra-headers
+
+1
+session
+-
+extra headers
+extra headers
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#session-extra-headers
+
+1
+session
 -
 extra permission data
 extra permission data
@@ -6801,39 +9003,6 @@ https://fetch.spec.whatwg.org/#concept-header-extract-mime-type
 1
 header list
 -
-extract a source map url from javascript through parsing
-extract a Source Map URL from JavaScript through parsing
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#extract-a-source-map-url-from-javascript-through-parsing
-1
-1
--
-extract a source map url from javascript without parsing
-extract a Source Map URL from JavaScript without parsing
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#extract-a-source-map-url-from-javascript-without-parsing
-1
-1
--
-extract a source map url from a webassembly source
-extract a Source Map URL from a WebAssembly source
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#extract-a-source-map-url-from-a-webassembly-source
-1
-1
--
 extract a byte sequence
 extract a byte sequence
 dfn
@@ -6923,6 +9092,28 @@ https://privacycg.github.io/private-click-measurement/#extract-a-six-bit-decimal
 
 1
 -
+extract a zip archive
+extract a zip archive
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#extract-a-zip-archive
+
+1
+-
+extract a zip archive
+extract a zip archive
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#extract-a-zip-archive
+
+1
+-
 extract an action sequence
 extract an action sequence
 dfn
@@ -6944,6 +9135,18 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-extract-an-action-sequence
 
 1
+-
+extract an origin
+extract an origin
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/browsers.html#extract-an-origin
+1
+1
+platform object
 -
 extract any vcard data represented by those nodes
 extract any vCard data represented by those nodes
@@ -6975,6 +9178,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#extract-challenges
+
+1
+-
+extract challenges
+extract challenges
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#extract-challenges
 
 1
 -
@@ -7240,9 +9454,9 @@ Range
 extractable
 extractable
 attribute
-webcryptoapi
-webcryptoapi
-1
+webcrypto-2
+webcrypto
+2
 current
 https://w3c.github.io/webcrypto/#dom-cryptokey-extractable
 1
@@ -7251,14 +9465,15 @@ CryptoKey
 -
 extractable
 extractable
-dfn
-webcryptoapi
-webcryptoapi
-1
+attribute
+webcrypto-2
+webcrypto
+2
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey-slot-extractable
-
+https://www.w3.org/TR/webcrypto-2/#dom-cryptokey-extractable
 1
+1
+CryptoKey
 -
 extracting a mime type
 extracting a MIME type

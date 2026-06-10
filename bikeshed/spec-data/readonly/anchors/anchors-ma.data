@@ -1,3 +1,15 @@
+"MAIN"
+"MAIN"
+enum-value
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#dom-executionworld-main
+1
+1
+ExecutionWorld
+-
 "magnetometer"
 "magnetometer"
 permission
@@ -82,6 +94,18 @@ MeteringMode
 -
 "manual"
 "manual"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-sessionmanualproxyconfiguration-proxytype-manual
+
+1
+session.ManualProxyConfiguration/proxyType
+-
+"manual"
+"manual"
 enum-value
 css-layout-api-1
 css-layout-api
@@ -103,6 +127,90 @@ https://www.w3.org/TR/image-capture/#dom-meteringmode-manual
 1
 1
 MeteringMode
+-
+"manual"
+"manual"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-sessionmanualproxyconfiguration-proxytype-manual
+
+1
+session.ManualProxyConfiguration/proxyType
+-
+"manufacturerData"
+"manufacturerData"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothscanrecord-manufacturerdata
+
+1
+bluetooth.ScanRecord
+-
+"manufacturerData"
+"manufacturerData"
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatepreconnectedperipheralparameters-manufacturerdata
+
+1
+bluetooth.SimulatePreconnectedPeripheralParameters
+-
+"map"
+"map"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptmaplocalvalue-type-map
+
+1
+script.MapLocalValue/type
+-
+"map"
+"map"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptmapremotevalue-type-map
+
+1
+script.MapRemoteValue/type
+-
+"map"
+"map"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptmaplocalvalue-type-map
+
+1
+script.MapLocalValue/type
+-
+"map"
+"map"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptmapremotevalue-type-map
+
+1
+script.MapRemoteValue/type
 -
 "mapped"
 "mapped"
@@ -142,6 +250,18 @@ CSSBoxType
 -
 "margin"
 "margin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-margin
+
+1
+browsingContext.PrintParameters
+-
+"margin"
+"margin"
 enum-value
 cssom-view-1
 cssom-view
@@ -151,6 +271,78 @@ https://www.w3.org/TR/cssom-view-1/#dom-cssboxtype-margin
 1
 1
 CSSBoxType
+-
+"margin"
+"margin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-margin
+
+1
+browsingContext.PrintParameters
+-
+"markdown"
+"markdown"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriterformat-markdown
+1
+1
+RewriterFormat
+-
+"markdown"
+"markdown"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizerformat-markdown
+1
+1
+SummarizerFormat
+-
+"markdown"
+"markdown"
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writerformat-markdown
+1
+1
+WriterFormat
+-
+"matchType"
+"matchType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-matchtype
+
+1
+browsingContext.InnerTextLocator
+-
+"matchType"
+"matchType"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-matchtype
+
+1
+browsingContext.InnerTextLocator
 -
 "max"
 "max"
@@ -179,7 +371,19 @@ GPUBlendOperation
 "max"
 "max"
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelcountmode-max
+1
+1
+ChannelCountMode
+-
+"max"
+"max"
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -203,11 +407,23 @@ CSSMathOperator
 "max"
 "max"
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelcountmode-max
+https://www.w3.org/TR/webaudio-1.0/#dom-channelcountmode-max
+1
+1
+ChannelCountMode
+-
+"max"
+"max"
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelcountmode-max
 1
 1
 ChannelCountMode
@@ -223,6 +439,246 @@ https://www.w3.org/TR/webgpu/#dom-gpublendoperation-max
 1
 1
 GPUBlendOperation
+-
+"maxAge"
+"maxAge"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networksetcookieheader-maxage
+
+1
+network.SetCookieHeader
+-
+"maxAge"
+"maxAge"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networksetcookieheader-maxage
+
+1
+network.SetCookieHeader
+-
+"maxDepth"
+"maxDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextgettreeparameters-maxdepth
+
+1
+browsingContext.GetTreeParameters
+-
+"maxDepth"
+"maxDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-maxdepth
+
+1
+browsingContext.InnerTextLocator
+-
+"maxDepth"
+"maxDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextgettreeparameters-maxdepth
+
+1
+browsingContext.GetTreeParameters
+-
+"maxDepth"
+"maxDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-maxdepth
+
+1
+browsingContext.InnerTextLocator
+-
+"maxDomDepth"
+"maxDomDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptserializationoptions-maxdomdepth
+
+1
+script.SerializationOptions
+-
+"maxDomDepth"
+"maxDomDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptserializationoptions-maxdomdepth
+
+1
+script.SerializationOptions
+-
+"maxEncodedDataSize"
+"maxEncodedDataSize"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkadddatacollectorparameters-maxencodeddatasize
+
+1
+network.AddDataCollectorParameters
+-
+"maxEncodedDataSize"
+"maxEncodedDataSize"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkadddatacollectorparameters-maxencodeddatasize
+
+1
+network.AddDataCollectorParameters
+-
+"maxNodeCount"
+"maxNodeCount"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-maxnodecount
+
+1
+browsingContext.LocateNodesParameters
+-
+"maxNodeCount"
+"maxNodeCount"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-maxnodecount
+
+1
+browsingContext.LocateNodesParameters
+-
+"maxObjectDepth"
+"maxObjectDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptserializationoptions-maxobjectdepth
+
+1
+script.SerializationOptions
+-
+"maxObjectDepth"
+"maxObjectDepth"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptserializationoptions-maxobjectdepth
+
+1
+script.SerializationOptions
+-
+"maxTouchPoints"
+"maxTouchPoints"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsettouchoverrideparameters-maxtouchpoints
+
+1
+emulation.SetTouchOverrideParameters
+-
+"maxTouchPoints"
+"maxTouchPoints"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationsettouchoverrideparameters-maxtouchpoints
+
+1
+emulation.SetTouchOverrideParameters
+-
+"maximized"
+"maximized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-maximized
+
+1
+browser.ClientWindowInfo/state
+-
+"maximized"
+"maximized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-maximized
+
+1
+browser.ClientWindowNamedState/state
+-
+"maximized"
+"maximized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-maximized
+
+1
+browser.ClientWindowInfo/state
+-
+"maximized"
+"maximized"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-maximized
+
+1
+browser.ClientWindowNamedState/state
 -
 %Map%
 %Map%
@@ -315,9 +771,9 @@ https://www.w3.org/TR/selectors-4/#selectordef-matches
 <margin-width>
 <margin-width>
 type
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#value-def-margin-width
 1
@@ -328,20 +784,9 @@ https://drafts.csswg.org/css2/#value-def-margin-width
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#value-def-margin-width
-1
-1
--
-<margin-width>
-<margin-width>
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#value-def-margin-width
+https://www.w3.org/TR/CSS2/box.html#value-def-margin-width
 1
 1
 -
@@ -352,7 +797,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#DataTypeMarkerRef
+https://w3c.github.io/svgwg/svg2-draft/painting.html#DataTypeMarkerRef
 1
 1
 -
@@ -374,7 +819,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-mask-layer
+https://drafts.csswg.org/css-masking-1/#typedef-mask-layer
 1
 1
 -
@@ -396,7 +841,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-mask-reference
+https://drafts.csswg.org/css-masking-1/#typedef-mask-reference
 1
 1
 -
@@ -418,7 +863,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-mask-source
+https://drafts.csswg.org/css-masking-1/#typedef-mask-source
 1
 1
 -
@@ -440,7 +885,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-masking-mode
+https://drafts.csswg.org/css-masking-1/#typedef-masking-mode
 1
 1
 -
@@ -452,17 +897,6 @@ css-masking
 1
 snapshot
 https://www.w3.org/TR/css-masking-1/#typedef-masking-mode
-1
-1
--
-<masonry-auto-track-list>
-<masonry-auto-track-list>
-type
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#typedef-masonry-auto-track-list
 1
 1
 -
@@ -530,6 +964,17 @@ mathml
 snapshot
 https://www.w3.org/TR/mathml4/#contm_max
 
+1
+-
+@macro
+@macro
+at-rule
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#macro-rule
+1
 1
 -
 ma1a
@@ -655,9 +1100,9 @@ Number
 may
 MAY
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#may
 
@@ -668,20 +1113,9 @@ MAY
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/conform.html#x8
-1
-1
--
-may
-MAY
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/conform.html#x8
+https://www.w3.org/TR/CSS2/conform.html#x8
 1
 1
 -
@@ -887,6 +1321,28 @@ https://wicg.github.io/webhid/#dfn-main-items
 
 
 -
+main programme audio
+main programme audio
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-main-programme-audio
+
+
+-
+main programme audio
+main programme audio
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-main-programme-audio
+
+
+-
 MakeArgGetter
 MakeArgGetter
 abstract-op
@@ -898,8 +1354,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-MakeArgGetter(name, env)
-MakeArgGetter(name, env)
+MakeArgGetter(name, envRecord)
+MakeArgGetter(name, envRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -920,8 +1376,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-MakeArgSetter(name, env)
-MakeArgSetter(name, env)
+MakeArgSetter(name, envRecord)
+MakeArgSetter(name, envRecord)
 abstract-op
 ecmascript
 ecmascript
@@ -964,8 +1420,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-MakeClassConstructor(F)
-MakeClassConstructor(F)
+MakeClassConstructor(func)
+MakeClassConstructor(func)
 abstract-op
 ecmascript
 ecmascript
@@ -986,8 +1442,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-MakeConstructor(F, writablePrototype, prototype)
-MakeConstructor(F, writablePrototype, prototype)
+MakeConstructor(func, writableProto, proto)
+MakeConstructor(func, writableProto, proto)
 abstract-op
 ecmascript
 ecmascript
@@ -1096,8 +1552,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-makematchindicesindex
 1
 1
 -
-MakeMatchIndicesIndexPairArray(S, indices, groupNames, hasGroups)
-MakeMatchIndicesIndexPairArray(S, indices, groupNames, hasGroups)
+MakeMatchIndicesIndexPairArray(string, indices, groupNames, hasGroups)
+MakeMatchIndicesIndexPairArray(string, indices, groupNames, hasGroups)
 abstract-op
 ecmascript
 ecmascript
@@ -1118,8 +1574,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-MakeMethod(F, homeObject)
-MakeMethod(F, homeObject)
+MakeMethod(func, homeObj)
+MakeMethod(func, homeObj)
 abstract-op
 ecmascript
 ecmascript
@@ -1220,7 +1676,7 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 making a buffer available for reading
 making a buffer available for reading
 dfn
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -1231,11 +1687,33 @@ https://webaudio.github.io/web-audio-api/#available-for-reading
 making a buffer available for reading
 making a buffer available for reading
 dfn
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#available-for-reading
+
+1
+-
+making a buffer available for reading
+making a buffer available for reading
+dfn
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#available-for-reading
+https://www.w3.org/TR/webaudio-1.0/#available-for-reading
+
+1
+-
+making a buffer available for reading
+making a buffer available for reading
+dfn
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#available-for-reading
 
 1
 -
@@ -1246,7 +1724,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-making-content-read-only
+https://w3c-cg.github.io/web-nfc/#dfn-making-content-read-only
 
 1
 -
@@ -1270,17 +1748,6 @@ wai-aria
 current
 https://w3c.github.io/aria/#dfn-managed-state
 1
-
--
-managed state
-Managed State
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-managed-state
-
 
 -
 managed state
@@ -1415,6 +1882,28 @@ https://www.w3.org/TR/pub-manifest/#dfn-manifests
 
 1
 -
+manual
+manual
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#attr-popover-manual-state
+
+1
+-
+manual
+manual
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootslotassignment-manual-state
+
+1
+-
 manufacturer data blocklist
 Manufacturer Data blocklist
 dfn
@@ -1457,6 +1946,50 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map-objects
 1
+1
+-
+map
+map
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-map
+
+1
+-
+map
+map
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-map
+
+1
+-
+map
+map
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-map
+
+1
+-
+map
+map
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-map
+
 1
 -
 map iterator
@@ -1647,28 +2180,6 @@ https://html.spec.whatwg.org/multipage/parsing.html#markup-declaration-open-stat
 
 1
 -
-masonry layout
-masonry layout
-dfn
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#masonry-layout
-
-1
--
-masonry layout
-masonry layout
-dfn
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#masonry-layout
-
-1
--
 match record
 Match Record
 dfn
@@ -1704,6 +2215,17 @@ https://w3c.github.io/ServiceWorker/#match-router-condition
 
 1
 -
+match router condition
+Match Router Condition
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#match-router-condition
+
+1
+-
 match service worker registration
 Match Service Worker Registration
 dfn
@@ -1726,29 +2248,53 @@ https://www.w3.org/TR/service-workers/#match-service-worker-registration
 1
 1
 -
-matchresult
-MatchResult
+match value
+Match Value
 dfn
-ecmascript
-ecmascript
+attribution
+attribution
 1
 current
-https://tc39.es/ecma262/multipage/text-processing.html#pattern-matchresult
+https://w3c.github.io/attribution/#impression-match-value
+
 1
-1
-ECMAScript
+impression
 -
-matchresults
-MatchResults
+match value
+Match Value
 dfn
-ecmascript
-ecmascript
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#impression-match-value
+
+1
+impression
+-
+match values
+Match Values
+dfn
+attribution
+attribution
 1
 current
-https://tc39.es/ecma262/multipage/text-processing.html#pattern-matchresult
+https://w3c.github.io/attribution/#validated-conversion-options-match-values
+
 1
+validated conversion options
+-
+match values
+Match Values
+dfn
+attribution
+attribution
 1
-ECMAScript
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-match-values
+
+1
+validated conversion options
 -
 MatchSequence
 MatchSequence
@@ -1998,6 +2544,17 @@ https://html.spec.whatwg.org/multipage/parsing.html#mathml-text-integration-poin
 
 1
 -
+MathMLAnchorElement
+MathMLAnchorElement
+interface
+mathml-core
+mathml-core
+1
+current
+https://w3c.github.io/mathml-core/#dom-mathmlanchorelement
+1
+1
+-
 MathMLElement
 MathMLElement
 interface
@@ -2042,357 +2599,40 @@ https://www.w3.org/TR/mathml-core/#dfn-mathtopaccentattachment
 
 1
 -
-max aggregatable attribution reports per attribution destination
-max aggregatable attribution reports per attribution destination
+maturity level
+maturity level
 dfn
-attribution-reporting-api
-attribution-reporting-api
+w3c-process
+w3c-process
 1
 current
-https://wicg.github.io/attribution-reporting-api/#max-aggregatable-attribution-reports-per-attribution-destination
+https://www.w3.org/policies/process/#maturity-levels
 
 1
 -
-max aggregatable debug budget per rate-limit window
-max aggregatable debug budget per rate-limit window
+max value
+Max Value
 dfn
-attribution-reporting-api
-attribution-reporting-api
+attribution
+attribution
 1
 current
-https://wicg.github.io/attribution-reporting-api/#max-aggregatable-debug-budget-per-rate-limit-window
+https://w3c.github.io/attribution/#validated-conversion-options-max-value
 
 1
+validated conversion options
 -
-max aggregatable reports per source
-max aggregatable reports per source
+max value
+Max Value
 dfn
-attribution-reporting-api
-attribution-reporting-api
+attribution
+attribution
 1
-current
-https://wicg.github.io/attribution-reporting-api/#max-aggregatable-reports-per-source
+snapshot
+https://www.w3.org/TR/attribution/#validated-conversion-options-max-value
 
 1
--
-max aggregation keys per source registration
-max aggregation keys per source registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-aggregation-keys-per-source-registration
-
-1
--
-max attribution reporting origins per rate-limit window
-max attribution reporting origins per rate-limit window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-attribution-reporting-origins-per-rate-limit-window
-
-1
--
-max attribution scopes per source
-max attribution scopes per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-attribution-scopes-per-source
-
-1
--
-max attributions per rate-limit window
-max attributions per rate-limit window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-attributions-per-rate-limit-window
-
-1
--
-max contributions per aggregatable debug report
-max contributions per aggregatable debug report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-contributions-per-aggregatable-debug-report
-
-1
--
-max destinations covered by unexpired sources
-max destinations covered by unexpired sources
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-destinations-covered-by-unexpired-sources
-
-1
--
-max destinations per rate-limit window
-max destinations per rate-limit window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-destinations-per-rate-limit-window
-
-1
--
-max destinations per source
-max destinations per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-destinations-per-source
-
-1
--
-max destinations per source reporting site per day
-max destinations per source reporting site per day
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-destinations-per-source-reporting-site-per-day
-
-1
--
-max distinct trigger data per source
-max distinct trigger data per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-distinct-trigger-data-per-source
-
-1
--
-max entries per filter data
-max entries per filter data
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-entries-per-filter-data
-
-1
--
-max event-level attribution scopes channel capacity per source
-max event-level attribution scopes channel capacity per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-event-level-attribution-scopes-channel-capacity-per-source
-
-1
--
-max event-level channel capacity per source
-max event-level channel capacity per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-event-level-channel-capacity-per-source
-
-1
--
-max event-level reports per attribution destination
-max event-level reports per attribution destination
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-event-level-reports-per-attribution-destination
-
-1
--
-max interest groups total size per owner
-max interest groups total size per owner
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#max-interest-groups-total-size-per-owner
-
-1
--
-max length of attribution scope for source
-max length of attribution scope for source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-length-of-attribution-scope-for-source
-
-1
--
-max length per aggregation key identifier
-max length per aggregation key identifier
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-length-per-aggregation-key-identifier
-
-1
--
-max length per filter string
-max length per filter string
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-length-per-filter-string
-
-1
--
-max length per trigger context id
-Max length per trigger context ID
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-length-per-trigger-context-id
-
-1
--
-max negative interest groups per owner
-max negative interest groups per owner
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#max-negative-interest-groups-per-owner
-
-1
--
-max pending sources per source origin
-max pending sources per source origin
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-pending-sources-per-source-origin
-
-1
--
-max regular interest groups per owner
-max regular interest groups per owner
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#max-regular-interest-groups-per-owner
-
-1
--
-max settable event-level attributions per source
-max settable event-level attributions per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-settable-event-level-attributions-per-source
-
-1
--
-max settable event-level epsilon
-max settable event-level epsilon
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-settable-event-level-epsilon
-
-1
--
-max settable event-level report windows
-max settable event-level report windows
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-settable-event-level-report-windows
-
-1
--
-max source reporting origins per rate-limit window
-max source reporting origins per rate-limit window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-source-reporting-origins-per-rate-limit-window
-
-1
--
-max source reporting origins per source reporting site
-max source reporting origins per source reporting site
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-source-reporting-origins-per-source-reporting-site
-
-1
--
-max trigger-state cardinality
-max trigger-state cardinality
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-trigger-state-cardinality
-
-1
--
-max values per filter data entry
-max values per filter data entry
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#max-values-per-filter-data-entry
-
-1
+validated conversion options
 -
 maximize window
 Maximize Window
@@ -2438,17 +2678,6 @@ https://www.w3.org/TR/webdriver2/#dfn-maximized-window-state
 
 1
 -
-maximum report contributions
-maximum report contributions
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#maximum-report-contributions
-
-1
--
 maybenonuniform
 MayBeNonUniform
 dfn
@@ -2482,8 +2711,8 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-maybesimplecasefoldin
 1
 1
 -
-MaybeSimpleCaseFolding(rer, A)
-MaybeSimpleCaseFolding(rer, A)
+MaybeSimpleCaseFolding(regexpRecord, charSet)
+MaybeSimpleCaseFolding(regexpRecord, charSet)
 abstract-op
 ecmascript
 ecmascript
@@ -2492,6 +2721,18 @@ current
 https://tc39.es/ecma262/multipage/text-processing.html#sec-maybesimplecasefolding
 1
 1
+-
+[[MaxBufferSize]]
+[[MaxBufferSize]]
+attribute
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-maxbuffersize
+
+1
+RTCSctpTransport
 -
 [[MaxChangesThreshold]]
 [[MaxChangesThreshold]]
@@ -2709,6 +2950,42 @@ https://www.w3.org/TR/webgpu/#dom-gpurenderpassencoder-maxdrawcount-slot
 1
 GPURenderPassEncoder
 -
+[[maximum latency]]
+[[maximum latency]]
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-maximum-latency-slot
+1
+1
+AudioPlaybackStats
+-
+[[maximum latency]]
+[[maximum latency]]
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-maximum-latency-slot
+1
+1
+AudioPlaybackStats
+-
+[[maximum latency]]
+[[maximum latency]]
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dfn-maximum-latency
+1
+
+AudioPlayoutStats
+-
 machine-readable equivalent of the element's contents
 machine-readable equivalent of the element's contents
 dfn
@@ -2728,6 +3005,29 @@ encoding
 1
 current
 https://encoding.spec.whatwg.org/#macintosh
+1
+1
+-
+macro
+macro
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#css-macro
+
+1
+css
+-
+macro body
+macro body
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#macro-body
 1
 1
 -
@@ -2777,18 +3077,6 @@ https://www.w3.org/TR/css-values-4/#css-make-a-type-consistent
 1
 CSS
 -
-madeHighestScoringOtherBid
-madeHighestScoringOtherBid
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportwinbrowsersignals-madehighestscoringotherbid
-1
-1
-ReportWinBrowserSignals
--
 magFilter
 magFilter
 dict-member
@@ -2816,7 +3104,7 @@ GPUSamplerDescriptor
 magResponse
 magResponse
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -2828,7 +3116,19 @@ BiquadFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 magResponse
 magResponse
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
+1
+1
+BiquadFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+-
+magResponse
+magResponse
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -2840,7 +3140,19 @@ BiquadFilterNode/getFrequencyResponse()
 magResponse
 magResponse
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-getfrequencyresponse-magresponse
+1
+1
+BiquadFilterNode/getFrequencyResponse()
+-
+magResponse
+magResponse
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -2852,7 +3164,19 @@ IIRFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 magResponse
 magResponse
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
+1
+1
+IIRFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+-
+magResponse
+magResponse
+argument
+webaudio-1.0
 webaudio
 1
 current
@@ -2864,11 +3188,23 @@ IIRFilterNode/getFrequencyResponse()
 magResponse
 magResponse
 argument
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-iirfilternode-getfrequencyresponse-magresponse
+1
+1
+IIRFilterNode/getFrequencyResponse()
+-
+magResponse
+magResponse
+argument
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
 1
 1
 BiquadFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
@@ -2876,11 +3212,11 @@ BiquadFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 magResponse
 magResponse
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-biquadfilternode-getfrequencyresponse-magresponse
+https://www.w3.org/TR/webaudio-1.0/#dom-biquadfilternode-getfrequencyresponse-magresponse
 1
 1
 BiquadFilterNode/getFrequencyResponse()
@@ -2888,11 +3224,11 @@ BiquadFilterNode/getFrequencyResponse()
 magResponse
 magResponse
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
 1
 1
 IIRFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
@@ -2900,11 +3236,59 @@ IIRFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
 magResponse
 magResponse
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-iirfilternode-getfrequencyresponse-magresponse
+https://www.w3.org/TR/webaudio-1.0/#dom-iirfilternode-getfrequencyresponse-magresponse
+1
+1
+IIRFilterNode/getFrequencyResponse()
+-
+magResponse
+magResponse
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
+1
+1
+BiquadFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+-
+magResponse
+magResponse
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-biquadfilternode-getfrequencyresponse-magresponse
+1
+1
+BiquadFilterNode/getFrequencyResponse()
+-
+magResponse
+magResponse
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilternode-getfrequencyresponse-frequencyhz-magresponse-phaseresponse-magresponse
+1
+1
+IIRFilterNode/getFrequencyResponse(frequencyHz, magResponse, phaseResponse)
+-
+magResponse
+magResponse
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-iirfilternode-getfrequencyresponse-magresponse
 1
 1
 IIRFilterNode/getFrequencyResponse()
@@ -3048,6 +3432,17 @@ https://drafts.csswg.org/css-flexbox-1/#main-axis
 main axis
 main axis
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-axis
+1
+1
+-
+main axis
+main axis
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -3064,6 +3459,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#main-dimension
+1
+1
+-
+main dimension
+main dimension
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-dimension
 1
 1
 -
@@ -3103,6 +3509,17 @@ https://drafts.csswg.org/css-flexbox-1/#main-size
 main size
 main size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-size
+1
+1
+-
+main size
+main size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -3119,6 +3536,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#main-size-property
+1
+1
+-
+main size property
+main size property
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-size-property
 1
 1
 -
@@ -3147,6 +3575,17 @@ https://drafts.csswg.org/css-flexbox-1/#main-axis
 main-axis
 main-axis
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-axis
+1
+1
+-
+main-axis
+main-axis
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -3163,6 +3602,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#main-axis-baseline
+1
+1
+-
+main-axis baseline set
+main-axis baseline set
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-axis-baseline
 1
 1
 -
@@ -3202,22 +3652,22 @@ https://drafts.csswg.org/css-flexbox-1/#main-end
 main-end
 main-end
 dfn
-css-flexbox-1
+css-flexbox-2
 css-flexbox
-1
-snapshot
-https://www.w3.org/TR/css-flexbox-1/#main-end
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-end
 1
 1
 -
-main-size
-main-size
+main-end
+main-end
 dfn
 css-flexbox-1
 css-flexbox
 1
 snapshot
-https://www.w3.org/TR/css-flexbox-1/#main-size
+https://www.w3.org/TR/css-flexbox-1/#main-end
 1
 1
 -
@@ -3229,6 +3679,17 @@ css-flexbox
 1
 current
 https://drafts.csswg.org/css-flexbox-1/#main-start
+1
+1
+-
+main-start
+main-start
+dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#main-start
 1
 1
 -
@@ -3267,6 +3728,30 @@ https://www.w3.org/TR/mst-content-hint/#dom-rtcdegradationpreference-maintain-fr
 1
 RTCDegradationPreference
 -
+maintain-framerate-and-resolution
+maintain-framerate-and-resolution
+enum-value
+mst-content-hint
+mst-content-hint
+1
+current
+https://w3c.github.io/mst-content-hint/#dom-rtcdegradationpreference-maintain-framerate-and-resolution
+1
+1
+RTCDegradationPreference
+-
+maintain-framerate-and-resolution
+maintain-framerate-and-resolution
+enum-value
+mst-content-hint
+mst-content-hint
+1
+snapshot
+https://www.w3.org/TR/mst-content-hint/#dom-rtcdegradationpreference-maintain-framerate-and-resolution
+1
+1
+RTCDegradationPreference
+-
 maintain-resolution
 maintain-resolution
 enum-value
@@ -3299,17 +3784,6 @@ compat
 1
 current
 https://compat.spec.whatwg.org/#majorversion
-
-1
--
-make a background attributionsrc request
-make a background attributionsrc request
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#make-a-background-attributionsrc-request
 
 1
 -
@@ -3366,18 +3840,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-make-an-nfc-tag-permanently-read-only
-
-1
--
-make background attributionsrc requests
-make background attributionsrc requests
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#make-background-attributionsrc-requests
+https://w3c-cg.github.io/web-nfc/#dfn-make-an-nfc-tag-permanently-read-only
 
 1
 -
@@ -3430,11 +3893,23 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#make-document-unsal
 makecreduvnotrqd
 makeCredUvNotRqd
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-makecreduvnotrqd
+
+1
+getInfo
+-
+makecreduvnotrqd
+makeCredUvNotRqd
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-makecreduvnotrqd
 
 1
 getInfo
@@ -3446,19 +3921,19 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dom-ndefreader-makereadonly
+https://w3c-cg.github.io/web-nfc/#dom-ndefreader-makereadonly
 1
 1
 NDEFReader
 -
-makeReadOnly(, options)
-makeReadOnly(, options)
+makeReadOnly(options)
+makeReadOnly(options)
 method
 web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dom-ndefreader-makereadonly
+https://w3c-cg.github.io/web-nfc/#dom-ndefreader-makereadonly
 1
 1
 NDEFReader
@@ -3572,33 +4047,11 @@ https://wicg.github.io/WebApiDevice/managed_config/#managed-data-task-source
 managed state
 managed state
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-managed-state
-
-
--
-managed state
-managed state
-dfn
 wai-aria-1.2
 wai-aria
 1
 snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-managed-state
-
-
--
-managed states
-managed states
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-managed-state
 
 
 -
@@ -3720,6 +4173,50 @@ https://www.w3.org/TR/css-scroll-snap-1/#valdef-scroll-snap-type-mandatory
 1
 scroll-snap-type
 -
+mandatory parameter
+mandatory parameter
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-mandatory-parameter
+
+1
+-
+mandatory parameter
+mandatory parameter
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-mandatory-parameter
+
+1
+-
+mandatory parameters
+mandatory parameters
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-mandatory-parameter
+
+1
+-
+mandatory parameters
+mandatory parameters
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-mandatory-parameter
+
+1
+-
 manifest
 manifest
 attr-value
@@ -3757,6 +4254,17 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-manifest
 -
 manifest
 manifest
+element
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-manifest
+1
+1
+-
+manifest
+manifest
 dfn
 appmanifest
 appmanifest
@@ -3780,6 +4288,17 @@ https://w3c.github.io/miniapp-manifest/#dfn-miniapp-manifest-s
 manifest
 manifest
 dfn
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#manifest%E2%91%A0
+
+1
+-
+manifest
+manifest
+dfn
 appmanifest
 appmanifest
 1
@@ -3796,6 +4315,17 @@ epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-manifest
+1
+1
+-
+manifest
+manifest
+element
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-manifest
 1
 1
 -
@@ -3846,11 +4376,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-manifest-fallback-chain
 manifest fallback chain
 manifest fallback chain
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-manifest-fallback-chain
+1
+1
+-
+manifest fallback chain
+manifest fallback chain
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-manifest-fallback-chain
+1
+1
+-
+manifest fallback chain
+manifest fallback chain
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-manifest-fallback-chain
 1
 1
 -
@@ -3890,6 +4442,17 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-manifest-plane
 manifest plane
 manifest plane
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-manifest-plane
+1
+
+-
+manifest plane
+manifest plane
+dfn
 epub-33
 epub
 1
@@ -3898,27 +4461,16 @@ https://www.w3.org/TR/epub-33/#dfn-manifest-plane
 1
 
 -
-manifest's
-manifest's
+manifest plane
+manifest plane
 dfn
-appmanifest
-appmanifest
-1
-current
-https://w3c.github.io/manifest/#dfn-manifest
-1
-1
--
-manifest's
-manifest's
-dfn
-appmanifest
-appmanifest
+epub-34
+epub
 1
 snapshot
-https://www.w3.org/TR/appmanifest/#dfn-manifest
+https://www.w3.org/TR/epub-34/#dfn-manifest-plane
 1
-1
+
 -
 manifest-src
 manifest-src
@@ -4040,14 +4592,15 @@ html-global/popover
 -
 manual
 manual
-dfn
+attr-value
 html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/popover.html#attr-popover-manual-state
-
+https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootslotassignment-manual
 1
+1
+template/shadowrootslotassignment
 -
 manual
 manual
@@ -4071,6 +4624,29 @@ current
 https://w3c.github.io/virtual-keyboard/#dfn-manual
 
 1
+-
+manual
+manual
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-human-evaluation
+
+1
+-
+manual
+manual
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-sessionmanualproxyconfiguration-proxytype-manual
+
+1
+session.ManualProxyConfiguration/proxyType
 -
 manual
 manual
@@ -4122,6 +4698,18 @@ word-break
 -
 manual
 manual
+value
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#valdef-caret-animation-manual
+1
+1
+caret-animation
+-
+manual
+manual
 enum-value
 image-capture
 image-capture
@@ -4140,6 +4728,51 @@ virtual-keyboard
 1
 snapshot
 https://www.w3.org/TR/virtual-keyboard/#dfn-manual
+
+1
+-
+manual
+manual
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-human-evaluation
+
+1
+-
+manual
+manual
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-sessionmanualproxyconfiguration-proxytype-manual
+
+1
+session.ManualProxyConfiguration/proxyType
+-
+manual evaluation
+manual evaluation
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-human-evaluation
+
+1
+-
+manual evaluation
+manual evaluation
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-human-evaluation
 
 1
 -
@@ -4166,6 +4799,28 @@ https://dom.spec.whatwg.org/#slottable-manual-slot-assignment
 1
 slottable
 -
+manual testing
+manual testing
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-human-evaluation
+
+1
+-
+manual testing
+manual testing
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-human-evaluation
+
+1
+-
 manually
 manually
 dfn
@@ -4188,6 +4843,28 @@ https://html.spec.whatwg.org/multipage/scripting.html#manually-assigned-nodes
 1
 1
 HTMLSlotElement
+-
+manually tested
+manually tested
+dfn
+wcag-3.0
+wcag
+1
+current
+https://w3c.github.io/wcag3/guidelines/#dfn-human-evaluation
+
+1
+-
+manually tested
+manually tested
+dfn
+wcag-3.0
+wcag
+1
+snapshot
+https://www.w3.org/TR/wcag-3.0/#dfn-human-evaluation
+
+1
 -
 manufacturer
 manufacturer
@@ -4212,6 +4889,30 @@ https://www.w3.org/TR/webmidi/#dom-midiport-manufacturer
 1
 1
 MIDIPort
+-
+manufacturerData
+manufacturerData
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothscanrecord-manufacturerdata
+
+1
+bluetooth.ScanRecord
+-
+manufacturerData
+manufacturerData
+cddl-key
+web-bluetooth
+web-bluetooth
+1
+current
+https://webbluetoothcg.github.io/web-bluetooth/#cddl-key-bluetoothsimulatepreconnectedperipheralparameters-manufacturerdata
+
+1
+bluetooth.SimulatePreconnectedPeripheralParameters
 -
 manufacturerData
 manufacturerData
@@ -4320,39 +5021,51 @@ storage bottle
 -
 map
 map
-dfn
-sourcemap
-sourcemap
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://tc39.es/source-map/#index-map-map
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptmaplocalvalue-type-map
 
 1
-index-map
+script.MapLocalValue/type
 -
 map
 map
-dfn
-attribution-reporting-api
-attribution-reporting-api
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#filter-config-map
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptmapremotevalue-type-map
 
 1
-filter config
+script.MapRemoteValue/type
 -
 map
 map
-argument
-turtledove
-turtledove
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/turtledove/#dom-interestgroupreportingscriptrunnerglobalscope-registeradbeacon-map-map
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptmaplocalvalue-type-map
+
 1
+script.MapLocalValue/type
+-
+map
+map
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
-InterestGroupReportingScriptRunnerGlobalScope/registerAdBeacon(map)
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptmapremotevalue-type-map
+
+1
+script.MapRemoteValue/type
 -
 map a url to ndef
 map a URL to NDEF
@@ -4361,7 +5074,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-a-url-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-a-url-to-ndef
 
 1
 -
@@ -4372,7 +5085,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-absolute-url-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-absolute-url-to-ndef
 
 1
 -
@@ -4438,16 +5151,16 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-binary-data-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-binary-data-to-ndef
 
 1
 -
 map document language elements to table elements
 map document language elements to table elements
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#map-document-language-elements-to-table-elements
 
@@ -4460,7 +5173,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-empty-record-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-empty-record-to-ndef
 
 1
 -
@@ -4482,8 +5195,19 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-external-data-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-external-data-to-ndef
 
+1
+-
+map field
+map field
+dfn
+ecma-426
+ecma-426
+1
+current
+https://tc39.es/ecma426/#json-sections-map
+1
 1
 -
 map local type to ndef
@@ -4493,7 +5217,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-local-type-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-local-type-to-ndef
 
 1
 -
@@ -4519,17 +5243,6 @@ current
 https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#list-of-animation-frame-callbacks
 
 1
--
-map of flattened subjects
-map of flattened subjects
-dfn
-json-ld11-framing
-json-ld-framing
-1
-current
-https://w3c.github.io/json-ld-framing/#dfn-map-of-flattened-subjects
-
-
 -
 map of flattened subjects
 map of flattened subjects
@@ -4666,7 +5379,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-smart-poster-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-smart-poster-to-ndef
 
 1
 -
@@ -4677,7 +5390,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-map-text-to-ndef
+https://w3c-cg.github.io/web-nfc/#dfn-map-text-to-ndef
 
 1
 -
@@ -4999,41 +5712,40 @@ https://www.w3.org/TR/css-logical-1/#mapping-logic
 1
 1
 -
-mappings
-mappings
-dfn
-sourcemap
-sourcemap
+mapping-key-error
+mapping-key-error
+enum-value
+yaml-ld-10
+yaml-ld
 1
 current
-https://tc39.es/source-map/#decode-source-map-mappings-mappings
-
+https://w3c.github.io/yaml-ld/#dom-yamllderrorcode-mapping-key-error
 1
-decode source map mappings
+1
+YamlLdErrorCode
 -
-mappings
-mappings
-dfn
-sourcemap
-sourcemap
+mapping-key-error
+mapping-key-error
+enum-value
+yaml-ld-10
+yaml-ld
 1
-current
-https://tc39.es/source-map/#decoded-source-map-mappings
-
+snapshot
+https://www.w3.org/TR/yaml-ld-10/#dom-yamllderrorcode-mapping-key-error
 1
-decoded source map
+1
+YamlLdErrorCode
 -
-mappings
-mappings
+mappings field
+mappings field
 dfn
-sourcemap
-sourcemap
+ecma-426
+ecma-426
 1
 current
-https://tc39.es/source-map/#json-mappings
-
+https://tc39.es/ecma426/#json-mappings
 1
-json
+1
 -
 maps to the dimension property
 maps to the dimension property
@@ -5126,22 +5838,10 @@ https://drafts.csswg.org/css-box-4/#propdef-margin
 -
 margin
 margin
-value
-css-rhythm-1
-css-rhythm
-1
-current
-https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-margin
-1
-1
-block-step-insert
--
-margin
-margin
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#box-margin-area
 
@@ -5150,9 +5850,9 @@ https://drafts.csswg.org/css2/#box-margin-area
 margin
 margin
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-margin
 1
@@ -5172,34 +5872,24 @@ CSSPageDescriptors
 -
 margin
 margin
-property
-css2
-css
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://www.w3.org/TR/CSS21/box.html#propdef-margin
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-margin
+
 1
-1
+browsingContext.PrintParameters
 -
 margin
 margin
 property
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#propdef-margin
-1
-1
--
-margin
-margin
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/box.html#propdef-margin
+https://www.w3.org/TR/CSS2/box.html#propdef-margin
 1
 1
 -
@@ -5261,22 +5951,22 @@ https://www.w3.org/TR/css-box-4/#propdef-margin
 -
 margin
 margin
-value
-css-rhythm-1
-css-rhythm
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 snapshot
-https://www.w3.org/TR/css-rhythm-1/#valdef-block-step-insert-margin
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-margin
+
 1
-1
-block-step-insert
+browsingContext.PrintParameters
 -
 margin (of a box)
 margin (of a box)
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#box-margin-area
 
@@ -5373,9 +6063,9 @@ https://drafts.csswg.org/css-box-4/#margin-box
 margin box
 margin box
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#margin-box
 
@@ -5386,20 +6076,9 @@ margin box
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#x17
-1
-1
--
-margin box
-margin box
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#x17
+https://www.w3.org/TR/CSS2/box.html#x17
 1
 1
 -
@@ -5472,9 +6151,9 @@ https://drafts.csswg.org/css-box-4/#margin-edge
 margin edge
 margin edge
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#margin-edge
 
@@ -5485,20 +6164,9 @@ margin edge
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#margin-edge
-1
-1
--
-margin edge
-margin edge
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#margin-edge
+https://www.w3.org/TR/CSS2/box.html#margin-edge
 1
 1
 -
@@ -5522,17 +6190,6 @@ css-box
 snapshot
 https://www.w3.org/TR/css-box-4/#margin-edge
 1
-1
--
-margin edge
-margin edge
-dfn
-cssom-view-1
-cssom-view
-1
-snapshot
-https://www.w3.org/TR/cssom-view-1/#margin-edge
-
 1
 -
 margin properties
@@ -5754,9 +6411,9 @@ https://drafts.csswg.org/css-box-4/#propdef-margin-bottom
 margin-bottom
 margin-bottom
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-margin-bottom
 1
@@ -5779,31 +6436,9 @@ margin-bottom
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-bottom
-1
-1
--
-margin-bottom
-margin-bottom
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-bottom
-1
-1
--
-margin-bottom
-margin-bottom
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/box.html#propdef-margin-bottom
+https://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom
 1
 1
 -
@@ -5874,6 +6509,18 @@ https://drafts.csswg.org/css-box-4/#valdef-box-margin-box
 margin-box
 margin-box
 value
+css-rhythm-1
+css-rhythm
+1
+current
+https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-margin-box
+1
+1
+block-step-insert
+-
+margin-box
+margin-box
+value
 css-shapes-1
 css-shapes
 1
@@ -5913,6 +6560,18 @@ https://www.w3.org/TR/css-box-4/#valdef-box-margin-box
 <layout-box>
 <shape-box>
 <geometry-box>
+-
+margin-box
+margin-box
+value
+css-rhythm-1
+css-rhythm
+1
+snapshot
+https://www.w3.org/TR/css-rhythm-1/#valdef-block-step-insert-margin-box
+1
+1
+block-step-insert
 -
 margin-box
 margin-box
@@ -6124,9 +6783,9 @@ https://drafts.csswg.org/css-box-4/#propdef-margin-left
 margin-left
 margin-left
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-margin-left
 1
@@ -6149,31 +6808,9 @@ margin-left
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-left
-1
-1
--
-margin-left
-margin-left
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-left
-1
-1
--
-margin-left
-margin-left
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/box.html#propdef-margin-left
+https://www.w3.org/TR/CSS2/box.html#propdef-margin-left
 1
 1
 -
@@ -6248,9 +6885,9 @@ https://drafts.csswg.org/css-box-4/#propdef-margin-right
 margin-right
 margin-right
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-margin-right
 1
@@ -6273,31 +6910,9 @@ margin-right
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-right
-1
-1
--
-margin-right
-margin-right
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-right
-1
-1
--
-margin-right
-margin-right
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/box.html#propdef-margin-right
+https://www.w3.org/TR/CSS2/box.html#propdef-margin-right
 1
 1
 -
@@ -6372,9 +6987,9 @@ https://drafts.csswg.org/css-box-4/#propdef-margin-top
 margin-top
 margin-top
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-margin-top
 1
@@ -6397,31 +7012,9 @@ margin-top
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-top
-1
-1
--
-margin-top
-margin-top
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#propdef-margin-top
-1
-1
--
-margin-top
-margin-top
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/box.html#propdef-margin-top
+https://www.w3.org/TR/CSS2/box.html#propdef-margin-top
 1
 1
 -
@@ -6486,20 +7079,9 @@ margin::of a box
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/box.html#box-margin-area
-1
-1
--
-margin::of a box
-margin::of a box
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/box.html#box-margin-area
+https://www.w3.org/TR/CSS2/box.html#box-margin-area
 1
 1
 -
@@ -6917,21 +7499,10 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-mark
+https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-mark
 1
 1
 SpeechSynthesisUtterance
--
-mark a debug scope complete
-mark a debug scope complete
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#mark-a-debug-scope-complete
-1
-1
 -
 mark a promise as handled
 mark a promise as handled
@@ -6973,7 +7544,7 @@ resource-timing
 resource-timing
 1
 current
-https://w3c.github.io/resource-timing/#dfn-mark-resource-timing
+https://w3c.github.io/resource-timing/#mark-resource-timing
 1
 1
 -
@@ -6984,18 +7555,18 @@ resource-timing
 resource-timing
 1
 snapshot
-https://www.w3.org/TR/resource-timing/#dfn-mark-resource-timing
+https://www.w3.org/TR/resource-timing/#mark-resource-timing
 1
 1
 -
 mark()
 mark()
-method
+dfn
 user-timing
 user-timing
 1
 current
-https://w3c.github.io/user-timing/#dom-performance-mark
+https://w3c.github.io/user-timing/#performance-mark
 1
 1
 Performance
@@ -7059,6 +7630,75 @@ https://www.w3.org/TR/user-timing/#dom-performance-mark
 1
 1
 Performance
+-
+markName
+markName
+argument
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#dom-performance-clearmarks-markname-markname
+1
+1
+Performance/clearMarks(markName)
+Performance/clearMarks()
+-
+markName
+markName
+argument
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#dom-performance-mark-markname-markoptions-markname
+1
+1
+Performance/mark(markName, markOptions)
+Performance/mark(markName)
+-
+markName
+markName
+argument
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#dom-performancemark-performancemark-markname-markoptions-markname
+1
+1
+PerformanceMark/PerformanceMark(markName, markOptions)
+PerformanceMark/constructor(markName, markOptions)
+PerformanceMark/PerformanceMark(markName)
+PerformanceMark/constructor(markName)
+-
+markOptions
+markOptions
+argument
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#dom-performance-mark-markname-markoptions-markoptions
+1
+1
+Performance/mark(markName, markOptions)
+Performance/mark(markName)
+-
+markOptions
+markOptions
+argument
+user-timing
+user-timing
+1
+current
+https://w3c.github.io/user-timing/#dom-performancemark-performancemark-markname-markoptions-markoptions
+1
+1
+PerformanceMark/PerformanceMark(markName, markOptions)
+PerformanceMark/constructor(markName, markOptions)
+PerformanceMark/PerformanceMark(markName)
+PerformanceMark/constructor(markName)
 -
 mark_feature_usage
 mark_feature_usage
@@ -7067,7 +7707,7 @@ user-timing
 user-timing
 1
 current
-https://w3c.github.io/user-timing/#dfn-mark_feature_usage
+https://w3c.github.io/user-timing/#mark_feature_usage
 1
 1
 -
@@ -7089,7 +7729,7 @@ user-timing
 user-timing
 1
 current
-https://w3c.github.io/user-timing/#dfn-mark_fully_loaded
+https://w3c.github.io/user-timing/#mark_fully_loaded
 1
 1
 -
@@ -7111,7 +7751,7 @@ user-timing
 user-timing
 1
 current
-https://w3c.github.io/user-timing/#dfn-mark_fully_visible
+https://w3c.github.io/user-timing/#mark_fully_visible
 1
 1
 -
@@ -7133,7 +7773,7 @@ user-timing
 user-timing
 1
 current
-https://w3c.github.io/user-timing/#dfn-mark_interactive
+https://w3c.github.io/user-timing/#mark_interactive
 1
 1
 -
@@ -7147,6 +7787,42 @@ snapshot
 https://www.w3.org/TR/user-timing/#dfn-mark_interactive
 1
 1
+-
+markdown
+markdown
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriterformat-markdown
+1
+1
+RewriterFormat
+-
+markdown
+markdown
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-summarizerformat-markdown
+1
+1
+SummarizerFormat
+-
+markdown
+markdown
+enum-value
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writerformat-markdown
+1
+1
+WriterFormat
 -
 marked indexes
 marked indexes
@@ -7201,7 +7877,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerProperty
 1
 1
 -
@@ -7212,7 +7888,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#elementdef-marker
+https://w3c.github.io/svgwg/svg2-draft/painting.html#elementdef-marker
 1
 1
 -
@@ -7312,7 +7988,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#TermMarkerProperties
+https://w3c.github.io/svgwg/svg2-draft/painting.html#TermMarkerProperties
 1
 1
 -
@@ -7356,7 +8032,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerEndProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerEndProperty
 1
 1
 -
@@ -7378,7 +8054,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerMidProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerMidProperty
 1
 1
 -
@@ -7422,7 +8098,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerStartProperty
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerStartProperty
 1
 1
 -
@@ -7444,7 +8120,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerHeightAttribute
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerHeightAttribute
 1
 1
 marker
@@ -7456,7 +8132,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerHeight
+https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__markerHeight
 1
 1
 SVGMarkerElement
@@ -7516,7 +8192,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerUnitsAttribute
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerUnitsAttribute
 1
 1
 marker
@@ -7528,7 +8204,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerUnits
+https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__markerUnits
 1
 1
 SVGMarkerElement
@@ -7564,7 +8240,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#MarkerWidthAttribute
+https://w3c.github.io/svgwg/svg2-draft/painting.html#MarkerWidthAttribute
 1
 1
 marker
@@ -7576,7 +8252,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerWidth
+https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__markerWidth
 1
 1
 SVGMarkerElement
@@ -7679,9 +8355,9 @@ https://drafts.csswg.org/css-color-4/#valdef-color-maroon
 maroon
 maroon
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-color-maroon
 1
@@ -7774,7 +8450,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#elementdef-mask
+https://drafts.csswg.org/css-masking-1/#elementdef-mask
 1
 1
 -
@@ -7785,7 +8461,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask
+https://drafts.csswg.org/css-masking-1/#propdef-mask
 1
 1
 -
@@ -7866,7 +8542,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-border-image
+https://drafts.csswg.org/css-masking-1/#mask-border-image
 1
 1
 -
@@ -7888,7 +8564,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-border-image-area
+https://drafts.csswg.org/css-masking-1/#mask-border-image-area
 1
 1
 -
@@ -7910,7 +8586,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-image
+https://drafts.csswg.org/css-masking-1/#mask-image
 
 1
 -
@@ -7932,7 +8608,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-layer-image
+https://drafts.csswg.org/css-masking-1/#mask-layer-image
 1
 1
 -
@@ -7947,6 +8623,18 @@ https://www.w3.org/TR/css-masking-1/#mask-layer-image
 1
 1
 -
+mask length
+mask length
+dfn
+css-viewport-1
+css-viewport
+1
+current
+https://drafts.csswg.org/css-viewport/#display-feature-override-mask-length
+
+1
+display feature override
+-
 mask painting area
 mask painting area
 dfn
@@ -7954,7 +8642,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-painting-area
+https://drafts.csswg.org/css-masking-1/#mask-painting-area
 1
 1
 -
@@ -7976,7 +8664,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-positioning-area
+https://drafts.csswg.org/css-masking-1/#mask-positioning-area
 1
 1
 -
@@ -7998,7 +8686,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border
 1
 1
 -
@@ -8020,7 +8708,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-mode
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border-mode
 1
 1
 -
@@ -8042,7 +8730,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-outset
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border-outset
 1
 1
 -
@@ -8064,7 +8752,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-repeat
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border-repeat
 1
 1
 -
@@ -8086,7 +8774,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-slice
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border-slice
 1
 1
 -
@@ -8108,7 +8796,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-source
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border-source
 1
 1
 -
@@ -8130,7 +8818,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-width
+https://drafts.csswg.org/css-masking-1/#propdef-mask-border-width
 1
 1
 -
@@ -8152,7 +8840,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-clip
+https://drafts.csswg.org/css-masking-1/#propdef-mask-clip
 1
 1
 -
@@ -8174,7 +8862,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-composite
+https://drafts.csswg.org/css-masking-1/#propdef-mask-composite
 1
 1
 -
@@ -8196,7 +8884,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-image
+https://drafts.csswg.org/css-masking-1/#propdef-mask-image
 1
 1
 -
@@ -8218,7 +8906,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-mode
+https://drafts.csswg.org/css-masking-1/#propdef-mask-mode
 1
 1
 -
@@ -8240,7 +8928,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-origin
+https://drafts.csswg.org/css-masking-1/#propdef-mask-origin
 1
 1
 -
@@ -8262,7 +8950,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-position
+https://drafts.csswg.org/css-masking-1/#mask-position
 1
 1
 -
@@ -8273,7 +8961,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-position
+https://drafts.csswg.org/css-masking-1/#propdef-mask-position
 1
 1
 -
@@ -8306,7 +8994,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-repeat
+https://drafts.csswg.org/css-masking-1/#propdef-mask-repeat
 1
 1
 -
@@ -8328,7 +9016,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#mask-size
+https://drafts.csswg.org/css-masking-1/#mask-size
 1
 1
 -
@@ -8339,7 +9027,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-size
+https://drafts.csswg.org/css-masking-1/#propdef-mask-size
 1
 1
 -
@@ -8372,7 +9060,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#propdef-mask-type
+https://drafts.csswg.org/css-masking-1/#propdef-mask-type
 1
 1
 -
@@ -8394,7 +9082,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-maskcontentunits
+https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-maskcontentunits
 1
 1
 SVGMaskElement
@@ -8406,7 +9094,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-maskcontentunits
+https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-maskcontentunits
 1
 1
 mask
@@ -8442,7 +9130,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-maskunits
+https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-maskunits
 1
 1
 SVGMaskElement
@@ -8454,7 +9142,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-maskunits
+https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-maskunits
 1
 1
 mask
@@ -8515,360 +9203,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-masked
-1
-1
--
-masonry
-masonry
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry
-1
-1
--
-masonry
-masonry
-value
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#valdef-display-masonry
-1
-1
-display
--
-masonry
-masonry
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry
-1
-1
--
-masonry
-masonry
-value
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#valdef-display-masonry
-1
-1
-display
--
-masonry box
-masonry box
-dfn
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#masonry-box
-
-1
--
-masonry box
-masonry box
-dfn
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#masonry-box
-
-1
--
-masonry container
-masonry container
-dfn
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#masonry-container
-
-1
--
-masonry container
-masonry container
-dfn
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#masonry-container
-
-1
--
-masonry item
-masonry item
-dfn
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#masonry-item
-1
-1
--
-masonry item
-masonry item
-dfn
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#masonry-item
-1
-1
--
-masonry track
-masonry track
-dfn
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#masonry-track
-1
-1
--
-masonry track
-masonry track
-dfn
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#masonry-track
-1
-1
--
-masonry-auto-tracks
-masonry-auto-tracks
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-auto-tracks
-1
-1
--
-masonry-auto-tracks
-masonry-auto-tracks
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-auto-tracks
-1
-1
--
-masonry-direction
-masonry-direction
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-direction
-1
-1
--
-masonry-direction
-masonry-direction
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-direction
-1
-1
--
-masonry-fill
-masonry-fill
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-fill
-1
-1
--
-masonry-fill
-masonry-fill
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-fill
-1
-1
--
-masonry-flow
-masonry-flow
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-flow
-1
-1
--
-masonry-flow
-masonry-flow
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-flow
-1
-1
--
-masonry-slack
-masonry-slack
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-slack
-1
-1
--
-masonry-slack
-masonry-slack
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-slack
-1
-1
--
-masonry-template-areas
-masonry-template-areas
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-template-areas
-1
-1
--
-masonry-template-areas
-masonry-template-areas
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-template-areas
-1
-1
--
-masonry-template-tracks
-masonry-template-tracks
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-template-tracks
-1
-1
--
-masonry-template-tracks
-masonry-template-tracks
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-template-tracks
-1
-1
--
-masonry-track
-masonry-track
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-track
-1
-1
--
-masonry-track
-masonry-track
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-track
-1
-1
--
-masonry-track-end
-masonry-track-end
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-track-end
-1
-1
--
-masonry-track-end
-masonry-track-end
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-track-end
-1
-1
--
-masonry-track-start
-masonry-track-start
-property
-css-grid-3
-css-grid
-3
-current
-https://drafts.csswg.org/css-grid-3/#propdef-masonry-track-start
-1
-1
--
-masonry-track-start
-masonry-track-start
-property
-css-grid-3
-css-grid
-3
-snapshot
-https://www.w3.org/TR/css-grid-3/#propdef-masonry-track-start
 1
 1
 -
@@ -9283,6 +9617,18 @@ CSSNumericValue
 match
 match
 dfn
+css-navigation-1
+css-navigation
+1
+current
+https://drafts.csswg.org/css-navigation-1/#route-location-match
+
+1
+route-location
+-
+match
+match
+dfn
 css-page-3
 css-page
 3
@@ -9353,34 +9699,11 @@ BluetoothLEScanFilter
 match
 match
 dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#ad-keyword-replacement-match
-
-1
-ad keyword replacement
--
-match
-match
-dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/selector.html#x1
-1
-1
--
-match
-match
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/selector.html#x1
+https://www.w3.org/TR/CSS2/selector.html#x1
 1
 1
 -
@@ -9429,15 +9752,26 @@ https://w3c.github.io/webdriver-bidi/#match-url-pattern
 
 1
 -
-match a source map url in a comment
-match a Source Map URL in a comment
+match url pattern
+match URL pattern
 dfn
-sourcemap
-sourcemap
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#match-url-pattern
+
+1
+-
+match a URL to a Connection Allowlist
+match a URL to a Connection Allowlist
+abstract-op
+connection-allowlists
+connection-allowlists
 1
 current
-https://tc39.es/source-map/#match-a-source-map-url-in-a-comment
-
+https://wicg.github.io/connection-allowlists/#abstract-opdef-match-a-url-to-a-connection-allowlist
+1
 1
 -
 match a complex selector against an element
@@ -9507,6 +9841,17 @@ https://www.w3.org/TR/css-typed-om-1/#cssstylevalue-match-a-grammar
 1
 1
 CSSStyleValue
+-
+match a host to a Connection Allowlist
+match a host to a Connection Allowlist
+abstract-op
+connection-allowlists
+connection-allowlists
+1
+current
+https://wicg.github.io/connection-allowlists/#abstract-opdef-match-a-host-to-a-connection-allowlist
+1
+1
 -
 match a request
 match a request
@@ -9596,36 +9941,25 @@ https://www.w3.org/TR/selectors-4/#match-a-selector-against-an-element
 1
 1
 -
-match an attribution source against a filter config
-match an attribution source against a filter config
+match all expression
+match all expression
 dfn
-attribution-reporting-api
-attribution-reporting-api
+shacl12-node-expr
+shacl-node-expr
 1
 current
-https://wicg.github.io/attribution-reporting-api/#match-an-attribution-source-against-a-filter-config
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-match-all-expression
 
 1
 -
-match an attribution source against filters
-match an attribution source against filters
+match all expression
+match all expression
 dfn
-attribution-reporting-api
-attribution-reporting-api
+shacl12-node-expr
+shacl-node-expr
 1
-current
-https://wicg.github.io/attribution-reporting-api/#match-an-attribution-source-against-filters
-
-1
--
-match an attribution source against filters and negated filters
-match an attribution source against filters and negated filters
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#match-an-attribution-source-against-filters-and-negated-filters
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-match-all-expression
 
 1
 -
@@ -9684,6 +10018,28 @@ https://w3c.github.io/at-driver/#match-capabilities
 
 1
 -
+match collector for navigable
+match collector for navigable
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#match-collector-for-navigable
+
+1
+-
+match collector for navigable
+match collector for navigable
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#match-collector-for-navigable
+
+1
+-
 match cookie
 match cookie
 dfn
@@ -9695,25 +10051,14 @@ https://w3c.github.io/webdriver-bidi/#match-cookie
 
 1
 -
-match filter values
-match filter values
+match cookie
+match cookie
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/attribution-reporting-api/#match-filter-values
-
-1
--
-match filter values with negation
-match filter values with negation
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#match-filter-values-with-negation
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#match-cookie
 
 1
 -
@@ -9750,6 +10095,17 @@ https://html.spec.whatwg.org/multipage/browsers.html#matching-coop
 
 1
 -
+match pattern
+match pattern
+dfn
+webextensions
+webextensions
+1
+current
+https://w3c.github.io/webextensions/specification/#match-pattern
+
+1
+-
 match the grammar
 match the grammar
 dfn
@@ -9774,8 +10130,8 @@ https://www.w3.org/TR/css-typed-om-1/#cssstylevalue-match-a-grammar
 1
 CSSStyleValue
 -
-match(regexp)
-match(regexp)
+match(regexpOrPattern)
+match(regexpOrPattern)
 method
 ecmascript
 ecmascript
@@ -9909,6 +10265,18 @@ CacheStorage
 match-parent
 match-parent
 value
+css-anchor-position-1
+css-anchor-position
+1
+current
+https://drafts.csswg.org/css-anchor-position-1/#valdef-position-anchor-match-parent
+1
+1
+position-anchor
+-
+match-parent
+match-parent
+value
 css-content-3
 css-content
 3
@@ -9985,7 +10353,7 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-fill-origin-match-parent
+https://drafts.csswg.org/fill-stroke-3/#valdef-fill-origin-match-parent
 1
 1
 fill-origin
@@ -9997,10 +10365,34 @@ fill-stroke-3
 fill-stroke
 3
 current
-https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-origin-match-parent
+https://drafts.csswg.org/fill-stroke-3/#valdef-stroke-origin-match-parent
 1
 1
 stroke-origin
+-
+match-parent
+match-parent
+value
+css-anchor-position-1
+css-anchor-position
+1
+snapshot
+https://www.w3.org/TR/css-anchor-position-1/#valdef-position-anchor-match-parent
+1
+1
+position-anchor
+-
+match-parent
+match-parent
+value
+css-content-3
+css-content
+3
+snapshot
+https://www.w3.org/TR/css-content-3/#valdef-quotes-match-parent
+1
+1
+quotes
 -
 match-parent
 match-parent
@@ -10117,7 +10509,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-mask-mode-match-source
+https://drafts.csswg.org/css-masking-1/#valdef-mask-mode-match-source
 1
 1
 mask-mode
@@ -10133,6 +10525,54 @@ https://www.w3.org/TR/css-masking-1/#valdef-mask-mode-match-source
 1
 1
 mask-mode
+-
+match-value
+match-value
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#save-impression-match-value
+
+1
+save-impression
+-
+match-value
+match-value
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#save-impression-match-value
+
+1
+save-impression
+-
+match-values
+match-values
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#measure-conversion-match-values
+
+1
+measure-conversion
+-
+match-values
+match-values
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-match-values
+
+1
+measure-conversion
 -
 matchAll
 matchAll
@@ -10230,8 +10670,8 @@ https://www.w3.org/TR/service-workers/#dom-clients-matchall
 1
 Clients
 -
-matchAll(regexp)
-matchAll(regexp)
+matchAll(regexpOrPattern)
+matchAll(regexpOrPattern)
 method
 ecmascript
 ecmascript
@@ -10314,6 +10754,30 @@ https://www.w3.org/TR/service-workers/#dom-cache-matchall
 1
 Cache
 -
+matchDepthView
+matchDepthView
+dict-member
+webxr-depth-sensing-1
+webxr-depth-sensing
+1
+current
+https://immersive-web.github.io/depth-sensing/#dom-xrdepthstateinit-matchdepthview
+1
+1
+XRDepthStateInit
+-
+matchDepthView
+matchDepthView
+dict-member
+webxr-depth-sensing-1
+webxr-depth-sensing
+1
+snapshot
+https://www.w3.org/TR/webxr-depth-sensing-1/#dom-xrdepthstateinit-matchdepthview
+1
+1
+XRDepthStateInit
+-
 matchMedia(query)
 matchMedia(query)
 method
@@ -10337,6 +10801,78 @@ https://www.w3.org/TR/cssom-view-1/#dom-window-matchmedia
 1
 1
 Window
+-
+matchType
+matchType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-matchtype
+
+1
+browsingContext.InnerTextLocator
+-
+matchType
+matchType
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-matchtype
+
+1
+browsingContext.InnerTextLocator
+-
+matchValue
+matchValue
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionimpressionoptions-matchvalue
+1
+1
+AttributionImpressionOptions
+-
+matchValue
+matchValue
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionimpressionoptions-matchvalue
+1
+1
+AttributionImpressionOptions
+-
+matchValues
+matchValues
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-matchvalues
+1
+1
+AttributionConversionOptions
+-
+matchValues
+matchValues
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-matchvalues
+1
+1
+AttributionConversionOptions
 -
 matchable a priori
 matchable a priori
@@ -10480,6 +11016,17 @@ https://html.spec.whatwg.org/multipage/links.html#match-preload-type
 matches
 matches
 dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#dr-predicate-matches
+
+1
+-
+matches
+matches
+dfn
 permissions-policy-1
 permissions-policy
 1
@@ -10499,18 +11046,6 @@ https://webbluetoothcg.github.io/web-bluetooth/#bluetoothdatafilterinit-matches
 1
 1
 BluetoothDataFilterInit
--
-matches
-matches
-dfn
-speculation-rules
-speculation-rules
-1
-current
-https://wicg.github.io/nav-speculation/speculation-rules.html#document-rule-predicate-matches
-
-1
-document rule predicate
 -
 matches
 matches
@@ -10595,18 +11130,6 @@ https://wicg.github.io/nav-speculation/prefetch.html#prefetch-record-matches-a-u
 1
 prefetch record
 -
-matches a url
-matches a URL
-dfn
-prerendering-revamped
-prerendering-revamped
-1
-current
-https://wicg.github.io/nav-speculation/prerendering.html#prerender-record-matches-a-url
-1
-1
-prerender record
--
 matches a filter
 matches a filter
 dfn
@@ -10615,6 +11138,17 @@ web-bluetooth
 1
 current
 https://webbluetoothcg.github.io/web-bluetooth/#matches-a-filter
+
+1
+-
+matches a validated scope extension
+matches a validated scope extension
+dfn
+manifest-incubations
+manifest-incubations
+1
+current
+https://wicg.github.io/manifest-incubations/#dfn-matches-a-validated-scope-extension
 
 1
 -
@@ -10827,7 +11361,7 @@ webdriver
 2
 current
 https://w3c.github.io/webdriver/#dfn-matching-capabilities
-
+1
 1
 -
 matching capabilities
@@ -10838,7 +11372,7 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-matching-capabilities
-
+1
 1
 -
 matching transition delay
@@ -10940,7 +11474,6 @@ https://drafts.csswg.org/css-fonts-4/#valdef-font-family-math
 1
 1
 font-family
-<generic-family>
 -
 math
 math
@@ -10976,7 +11509,6 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-family-math
 1
 1
 font-family
-<generic-family>
 -
 math
 math
@@ -11230,23 +11762,11 @@ css-inline-3
 css-inline
 3
 current
-https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-mathematical
-1
-1
-alignment-baseline
-vertical-align
--
-mathematical
-mathematical
-value
-css-inline-3
-css-inline
-3
-current
 https://drafts.csswg.org/css-inline-3/#valdef-dominant-baseline-mathematical
 1
 1
 dominant-baseline
+<<baseline-metric>>
 -
 mathematical
 mathematical
@@ -11445,7 +11965,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-type-matrix
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-type-matrix
 1
 1
 type
@@ -11457,7 +11977,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dompointreadonly-matrixtransform-matrix-matrix
+https://drafts.csswg.org/geometry-1/#dom-dompointreadonly-matrixtransform-matrix-matrix
 1
 1
 DOMPointReadOnly/matrixTransform(matrix)
@@ -11470,7 +11990,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#matrix
+https://drafts.csswg.org/geometry-1/#matrix
 
 1
 -
@@ -11539,7 +12059,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__matrix
+https://w3c.github.io/svgwg/svg2-draft/coords.html#__svg__SVGTransform__matrix
 1
 1
 SVGTransform
@@ -11732,7 +12252,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TransformMatrixObject
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TransformMatrixObject
 1
 1
 -
@@ -11800,7 +12320,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dompointreadonly-matrixtransform
+https://drafts.csswg.org/geometry-1/#dom-dompointreadonly-matrixtransform
 1
 1
 DOMPointReadOnly
@@ -11824,7 +12344,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dompointreadonly-matrixtransform
+https://drafts.csswg.org/geometry-1/#dom-dompointreadonly-matrixtransform
 1
 1
 DOMPointReadOnly
@@ -11879,15 +12399,14 @@ HTMLMeterElement
 -
 max
 max
-attribute
+dfn
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/form-elements.html#dom-progress-max
+
 1
-1
-HTMLProgressElement
 -
 max
 max
@@ -11998,7 +12517,19 @@ https://w3c.github.io/webdriver/#dfn-max
 max
 max
 enum-value
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-channelcountmode-max
+1
+1
+ChannelCountMode
+-
+max
+max
+enum-value
+webaudio-1.1
 webaudio
 1
 current
@@ -12018,6 +12549,18 @@ https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-max
 1
 1
 MLOpSupportLimits
+-
+max
+max
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlrankrange-max
+1
+1
+MLRankRange
 -
 max
 max
@@ -12081,11 +12624,23 @@ https://www.w3.org/TR/proximity/#max
 max
 max
 enum-value
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-channelcountmode-max
+https://www.w3.org/TR/webaudio-1.0/#dom-channelcountmode-max
+1
+1
+ChannelCountMode
+-
+max
+max
+enum-value
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-channelcountmode-max
 1
 1
 ChannelCountMode
@@ -12113,17 +12668,17 @@ https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-max
 1
 MLOpSupportLimits
 -
-max attributions per source
-max attributions per source
-dfn
-attribution-reporting-api
-attribution-reporting-api
+max
+max
+dict-member
+webnn
+webnn
 1
-current
-https://wicg.github.io/attribution-reporting-api/#randomized-response-output-configuration-max-attributions-per-source
-
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlrankrange-max
 1
-randomized response output configuration
+1
+MLRankRange
 -
 max batch size
 max batch size
@@ -12172,6 +12727,17 @@ https://drafts.csswg.org/css-flexbox-1/#max-cross-size
 max cross size
 max cross size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#max-cross-size
+1
+1
+-
+max cross size
+max cross size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -12194,6 +12760,17 @@ https://drafts.csswg.org/css-flexbox-1/#max-cross-size-property
 max cross size property
 max cross size property
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#max-cross-size-property
+1
+1
+-
+max cross size property
+max cross size property
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -12202,17 +12779,51 @@ https://www.w3.org/TR/css-flexbox-1/#max-cross-size-property
 1
 1
 -
-max event states
-max event states
+max encoded item size
+max encoded item size
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://wicg.github.io/attribution-reporting-api/#attribution-scopes-max-event-states
+https://w3c.github.io/webdriver-bidi/#network-collector-max-encoded-item-size
 
 1
-attribution scopes
+network-collector
+-
+max encoded item size
+max encoded item size
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#network-collector-max-encoded-item-size
+
+1
+network-collector
+-
+max expression
+max expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-max-expression
+
+1
+-
+max expression
+max expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+snapshot
+https://www.w3.org/TR/shacl12-node-expr/#dfn-max-expression
+
+1
 -
 max height
 max height
@@ -12294,6 +12905,17 @@ https://drafts.csswg.org/css-flexbox-1/#max-main-size
 max main size
 max main size
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#max-main-size
+1
+1
+-
+max main size
+max main size
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -12316,6 +12938,17 @@ https://drafts.csswg.org/css-flexbox-1/#max-main-size-property
 max main size property
 max main size property
 dfn
+css-flexbox-2
+css-flexbox
+2
+current
+https://drafts.csswg.org/css-flexbox-2/#max-main-size-property
+1
+1
+-
+max main size property
+max main size property
+dfn
 css-flexbox-1
 css-flexbox
 1
@@ -12323,18 +12956,6 @@ snapshot
 https://www.w3.org/TR/css-flexbox-1/#max-main-size-property
 1
 1
--
-max number of event-level reports
-max number of event-level reports
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#attribution-source-max-number-of-event-level-reports
-
-1
-attribution source
 -
 max queued records
 max queued records
@@ -12424,6 +13045,28 @@ https://www.w3.org/TR/css-sizing-3/#max-size-properties
 1
 1
 -
+max total collected size
+max total collected size
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#max-total-collected-size
+
+1
+-
+max total collected size
+max total collected size
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#max-total-collected-size
+
+1
+-
 max track sizing function
 max track sizing function
 dfn
@@ -12468,38 +13111,26 @@ https://www.w3.org/TR/css-grid-2/#max-track-sizing-function
 
 1
 -
-max trusted bidding signals url length
-max trusted bidding signals url length
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#interest-group-max-trusted-bidding-signals-url-length
-
-1
-interest group
--
-max trusted scoring signals url length
-max trusted scoring signals url length
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#auction-config-max-trusted-scoring-signals-url-length
-
-1
-auction config
--
 max usage time period
 max usage time period
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#puatoken-max-usage-time-period
+
+1
+PUAToken
+-
+max usage time period
+max usage time period
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#puatoken-max-usage-time-period
 
 1
 PUAToken
@@ -13026,6 +13657,17 @@ https://www.w3.org/TR/css-sizing-3/#max-content-contribution
 1
 1
 -
+max-content page-margin width
+max-content page-margin width
+dfn
+css-page-3
+css-page
+3
+current
+https://drafts.csswg.org/css-page-3/#max-content-width
+1
+1
+-
 max-content size
 max-content size
 dfn
@@ -13078,7 +13720,7 @@ css-page
 3
 current
 https://drafts.csswg.org/css-page-3/#max-content-width
-
+1
 1
 -
 max-content width
@@ -13114,50 +13756,6 @@ https://www.w3.org/TR/css-tables-3/#max-content-width-of-a-column
 
 1
 -
-max-content width of a column based on cells of span up to 1
-max-content width of a column based on cells of span up to 1
-dfn
-css-tables-3
-css-tables
-3
-current
-https://drafts.csswg.org/css-tables-3/#max-content-width-of-a-column-based-on-cells-of-span-up-to-1
-
-1
--
-max-content width of a column based on cells of span up to 1
-max-content width of a column based on cells of span up to 1
-dfn
-css-tables-3
-css-tables
-3
-snapshot
-https://www.w3.org/TR/css-tables-3/#max-content-width-of-a-column-based-on-cells-of-span-up-to-1
-
-1
--
-max-content width of a column based on cells of span up to n (n > 1)
-max-content width of a column based on cells of span up to N (N > 1)
-dfn
-css-tables-3
-css-tables
-3
-current
-https://drafts.csswg.org/css-tables-3/#max-content-width-of-a-column-based-on-cells-of-span-up-to-n-n--1
-
-1
--
-max-content width of a column based on cells of span up to n (n > 1)
-max-content width of a column based on cells of span up to N (N > 1)
-dfn
-css-tables-3
-css-tables
-3
-snapshot
-https://www.w3.org/TR/css-tables-3/#max-content-width-of-a-column-based-on-cells-of-span-up-to-n-n--1
-
-1
--
 max-content width of a table
 max-content width of a table
 dfn
@@ -13166,7 +13764,7 @@ css-tables
 3
 current
 https://drafts.csswg.org/css-tables-3/#max-content-width-of-a-table
-
+1
 1
 -
 max-content width of a table
@@ -13177,7 +13775,7 @@ css-tables
 3
 snapshot
 https://www.w3.org/TR/css-tables-3/#max-content-width-of-a-table
-
+1
 1
 -
 max-height
@@ -13206,9 +13804,9 @@ https://drafts.csswg.org/css-sizing-3/#propdef-max-height
 max-height
 max-height
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-max-height
 1
@@ -13219,31 +13817,9 @@ max-height
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height
-1
-1
--
-max-height
-max-height
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visudet.html#propdef-max-height
-1
-1
--
-max-height
-max-height
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visudet.html#propdef-max-height
+https://www.w3.org/TR/CSS2/visudet.html#propdef-max-height
 1
 1
 -
@@ -13338,6 +13914,30 @@ https://www.w3.org/TR/css-overflow-4/#propdef-max-lines
 1
 1
 -
+max-value
+max-value
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#measure-conversion-max-value
+
+1
+measure-conversion
+-
+max-value
+max-value
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#measure-conversion-max-value
+
+1
+measure-conversion
+-
 max-width
 max-width
 attribute
@@ -13364,9 +13964,9 @@ https://drafts.csswg.org/css-sizing-3/#propdef-max-width
 max-width
 max-width
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-max-width
 1
@@ -13377,31 +13977,9 @@ max-width
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width
-1
-1
--
-max-width
-max-width
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visudet.html#propdef-max-width
-1
-1
--
-max-width
-max-width
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visudet.html#propdef-max-width
+https://www.w3.org/TR/CSS2/visudet.html#propdef-max-width
 1
 1
 -
@@ -13443,6 +14021,18 @@ Notification
 maxAge
 maxAge
 dict-member
+cookiestore
+cookiestore
+1
+current
+https://cookiestore.spec.whatwg.org/#dom-cookieinit-maxage
+1
+1
+CookieInit
+-
+maxAge
+maxAge
+dict-member
 tracking-dnt
 tracking-dnt
 1
@@ -13452,6 +14042,30 @@ https://w3c.github.io/dnt/drafts/tracking-dnt.html#dom-trackingexdata-maxage
 
 TrackingExData
 -
+maxAge
+maxAge
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networksetcookieheader-maxage
+
+1
+network.SetCookieHeader
+-
+maxAge
+maxAge
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networksetcookieheader-maxage
+
+1
+network.SetCookieHeader
+-
 maxAlternatives
 maxAlternatives
 attribute
@@ -13459,7 +14073,7 @@ speech-api
 speech-api
 1
 current
-https://wicg.github.io/speech-api/#dom-speechrecognition-maxalternatives
+https://webaudio.github.io/web-speech-api/#dom-speechrecognition-maxalternatives
 1
 1
 SpeechRecognition
@@ -13723,7 +14337,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-maxbuffersize
+https://w3c.github.io/performance-timeline/#maxbuffersize
 
 1
 -
@@ -13835,7 +14449,7 @@ SharedArrayBuffer
 maxChannelCount
 maxChannelCount
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 current
@@ -13847,11 +14461,35 @@ AudioDestinationNode
 maxChannelCount
 maxChannelCount
 attribute
+webaudio-1.1
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audiodestinationnode-maxchannelcount
+1
+1
+AudioDestinationNode
+-
+maxChannelCount
+maxChannelCount
+attribute
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audiodestinationnode-maxchannelcount
+https://www.w3.org/TR/webaudio-1.0/#dom-audiodestinationnode-maxchannelcount
+1
+1
+AudioDestinationNode
+-
+maxChannelCount
+maxChannelCount
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audiodestinationnode-maxchannelcount
 1
 1
 AudioDestinationNode
@@ -14315,11 +14953,23 @@ IntrinsicSizesResultOptions
 maxcredbloblength
 maxCredBlobLength
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-maxcredbloblength
+
+1
+getInfo
+-
+maxcredbloblength
+maxCredBlobLength
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-maxcredbloblength
 
 1
 getInfo
@@ -14351,7 +15001,19 @@ WebTransportDatagramDuplexStream
 maxDecibels
 maxDecibels
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analysernode-maxdecibels
+1
+1
+AnalyserNode
+-
+maxDecibels
+maxDecibels
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -14363,7 +15025,19 @@ AnalyserNode
 maxDecibels
 maxDecibels
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-analyseroptions-maxdecibels
+1
+1
+AnalyserOptions
+-
+maxDecibels
+maxDecibels
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -14375,11 +15049,11 @@ AnalyserOptions
 maxDecibels
 maxDecibels
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analysernode-maxdecibels
+https://www.w3.org/TR/webaudio-1.0/#dom-analysernode-maxdecibels
 1
 1
 AnalyserNode
@@ -14387,11 +15061,35 @@ AnalyserNode
 maxDecibels
 maxDecibels
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-analyseroptions-maxdecibels
+https://www.w3.org/TR/webaudio-1.0/#dom-analyseroptions-maxdecibels
+1
+1
+AnalyserOptions
+-
+maxDecibels
+maxDecibels
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analysernode-maxdecibels
+1
+1
+AnalyserNode
+-
+maxDecibels
+maxDecibels
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-analyseroptions-maxdecibels
 1
 1
 AnalyserOptions
@@ -14399,7 +15097,19 @@ AnalyserOptions
 maxDelayTime
 maxDelayTime
 argument
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createdelay-maxdelaytime-maxdelaytime
+1
+1
+BaseAudioContext/createDelay(maxDelayTime)
+-
+maxDelayTime
+maxDelayTime
+argument
+webaudio-1.1
 webaudio
 1
 current
@@ -14411,7 +15121,19 @@ BaseAudioContext/createDelay(maxDelayTime)
 maxDelayTime
 maxDelayTime
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-delayoptions-maxdelaytime
+1
+1
+DelayOptions
+-
+maxDelayTime
+maxDelayTime
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -14423,11 +15145,11 @@ DelayOptions
 maxDelayTime
 maxDelayTime
 argument
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createdelay-maxdelaytime-maxdelaytime
+https://www.w3.org/TR/webaudio-1.0/#dom-baseaudiocontext-createdelay-maxdelaytime-maxdelaytime
 1
 1
 BaseAudioContext/createDelay(maxDelayTime)
@@ -14435,11 +15157,35 @@ BaseAudioContext/createDelay(maxDelayTime)
 maxDelayTime
 maxDelayTime
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-delayoptions-maxdelaytime
+https://www.w3.org/TR/webaudio-1.0/#dom-delayoptions-maxdelaytime
+1
+1
+DelayOptions
+-
+maxDelayTime
+maxDelayTime
+argument
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-baseaudiocontext-createdelay-maxdelaytime-maxdelaytime
+1
+1
+BaseAudioContext/createDelay(maxDelayTime)
+-
+maxDelayTime
+maxDelayTime
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-delayoptions-maxdelaytime
 1
 1
 DelayOptions
@@ -14455,6 +15201,54 @@ https://gpuweb.github.io/gpuweb/#dom-gpurenderpassencoder-setviewport-x-y-width-
 1
 1
 GPURenderPassEncoder/setViewport(x, y, width, height, minDepth, maxDepth)
+-
+maxDepth
+maxDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextgettreeparameters-maxdepth
+
+1
+browsingContext.GetTreeParameters
+-
+maxDepth
+maxDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-maxdepth
+
+1
+browsingContext.InnerTextLocator
+-
+maxDepth
+maxDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextgettreeparameters-maxdepth
+
+1
+browsingContext.GetTreeParameters
+-
+maxDepth
+maxDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinnertextlocator-maxdepth
+
+1
+browsingContext.InnerTextLocator
 -
 maxDepth
 maxDepth
@@ -14483,7 +15277,19 @@ FaceDetectorOptions
 maxDistance
 maxDistance
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-maxdistance
+1
+1
+PannerNode
+-
+maxDistance
+maxDistance
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -14495,7 +15301,19 @@ PannerNode
 maxDistance
 maxDistance
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-panneroptions-maxdistance
+1
+1
+PannerOptions
+-
+maxDistance
+maxDistance
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -14507,11 +15325,11 @@ PannerOptions
 maxDistance
 maxDistance
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-maxdistance
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-maxdistance
 1
 1
 PannerNode
@@ -14519,14 +15337,62 @@ PannerNode
 maxDistance
 maxDistance
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-panneroptions-maxdistance
+https://www.w3.org/TR/webaudio-1.0/#dom-panneroptions-maxdistance
 1
 1
 PannerOptions
+-
+maxDistance
+maxDistance
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-maxdistance
+1
+1
+PannerNode
+-
+maxDistance
+maxDistance
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-panneroptions-maxdistance
+1
+1
+PannerOptions
+-
+maxDomDepth
+maxDomDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptserializationoptions-maxdomdepth
+
+1
+script.SerializationOptions
+-
+maxDomDepth
+maxDomDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptserializationoptions-maxdomdepth
+
+1
+script.SerializationOptions
 -
 maxDrawCount
 maxDrawCount
@@ -14648,6 +15514,30 @@ https://www.w3.org/TR/webgpu/#dom-supported-limits-maxdynamicuniformbuffersperpi
 1
 supported limits
 -
+maxEncodedDataSize
+maxEncodedDataSize
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-networkadddatacollectorparameters-maxencodeddatasize
+
+1
+network.AddDataCollectorParameters
+-
+maxEncodedDataSize
+maxEncodedDataSize
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-networkadddatacollectorparameters-maxencodeddatasize
+
+1
+network.AddDataCollectorParameters
+-
 maxentryindex
 maxEntryIndex
 dfn
@@ -14656,6 +15546,18 @@ ift
 1
 current
 https://w3c.github.io/IFT/Overview.html#format-1-patch-map-maxentryindex
+
+1
+Format 1 Patch Map
+-
+maxentryindex
+maxEntryIndex
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#format-1-patch-map-maxentryindex
 
 1
 Format 1 Patch Map
@@ -14696,6 +15598,18 @@ https://w3c.github.io/IFT/Overview.html#format-1-patch-map-maxglyphmapentryindex
 1
 Format 1 Patch Map
 -
+maxglyphmapentryindex
+maxGlyphMapEntryIndex
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#format-1-patch-map-maxglyphmapentryindex
+
+1
+Format 1 Patch Map
+-
 maxHeight
 maxHeight
 attribute
@@ -14719,6 +15633,54 @@ https://www.w3.org/TR/css-anchor-position-1/#dom-csspositiontrydescriptors-maxhe
 1
 1
 CSSPositionTryDescriptors
+-
+maxImmediateSize
+maxImmediateSize
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maximmediatesize
+1
+1
+GPUSupportedLimits
+-
+maxImmediateSize
+maxImmediateSize
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-supported-limits-maximmediatesize
+1
+1
+supported limits
+-
+maxImmediateSize
+maxImmediateSize
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpusupportedlimits-maximmediatesize
+1
+1
+GPUSupportedLimits
+-
+maxImmediateSize
+maxImmediateSize
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-supported-limits-maximmediatesize
+1
+1
+supported limits
 -
 maxInlineSize
 maxInlineSize
@@ -14840,6 +15802,66 @@ https://www.w3.org/TR/webrtc/#dom-rtcsctptransport-maxmessagesize
 1
 RTCSctpTransport
 -
+maxNodeCount
+maxNodeCount
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-maxnodecount
+
+1
+browsingContext.LocateNodesParameters
+-
+maxNodeCount
+maxNodeCount
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextlocatenodesparameters-maxnodecount
+
+1
+browsingContext.LocateNodesParameters
+-
+maxObjectDepth
+maxObjectDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptserializationoptions-maxobjectdepth
+
+1
+script.SerializationOptions
+-
+maxObjectDepth
+maxObjectDepth
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptserializationoptions-maxobjectdepth
+
+1
+script.SerializationOptions
+-
+maxpinlength
+maxPINLength
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-maxpinlength
+
+1
+getInfo
+-
 maxPacketLifeTime
 maxPacketLifeTime
 attribute
@@ -14959,6 +15981,42 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-maxpool2d
 1
 1
 MLGraphBuilder
+-
+maxrpidsforsetminpinlength
+maxRPIDsForSetMinPINLength
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-maxrpidsforsetminpinlength
+
+1
+getInfo
+-
+maxRenderLayers
+maxRenderLayers
+attribute
+webxrlayers-1
+webxrlayers
+1
+current
+https://immersive-web.github.io/layers/#dom-xrsession-maxrenderlayers
+1
+1
+XRSession
+-
+maxRenderLayers
+maxRenderLayers
+attribute
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#dom-xrsession-maxrenderlayers
+1
+1
+XRSession
 -
 maxRetransmits
 maxRetransmits
@@ -15107,14 +16165,50 @@ supported limits
 maxserializedlargeblobarray
 maxSerializedLargeBlobArray
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#getinfo-maxserializedlargeblobarray
 
 1
 getInfo
+-
+maxserializedlargeblobarray
+maxSerializedLargeBlobArray
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#getinfo-maxserializedlargeblobarray
+
+1
+getInfo
+-
+maxSize
+maxSize
+argument
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#dom-performance-setresourcetimingbuffersize-maxsize-maxsize
+1
+1
+Performance/setResourceTimingBufferSize(maxSize)
+-
+maxSize
+maxSize
+argument
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#dom-performance-setresourcetimingbuffersize-maxsize-maxsize
+1
+1
+Performance/setResourceTimingBufferSize(maxSize)
 -
 maxStorageBufferBindingSize
 maxStorageBufferBindingSize
@@ -15160,6 +16254,102 @@ webgpu
 1
 snapshot
 https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragebufferbindingsize
+1
+1
+supported limits
+-
+maxStorageBuffersInFragmentStage
+maxStorageBuffersInFragmentStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragebuffersinfragmentstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageBuffersInFragmentStage
+maxStorageBuffersInFragmentStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragebuffersinfragmentstage
+1
+1
+supported limits
+-
+maxStorageBuffersInFragmentStage
+maxStorageBuffersInFragmentStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpusupportedlimits-maxstoragebuffersinfragmentstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageBuffersInFragmentStage
+maxStorageBuffersInFragmentStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragebuffersinfragmentstage
+1
+1
+supported limits
+-
+maxStorageBuffersInVertexStage
+maxStorageBuffersInVertexStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragebuffersinvertexstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageBuffersInVertexStage
+maxStorageBuffersInVertexStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragebuffersinvertexstage
+1
+1
+supported limits
+-
+maxStorageBuffersInVertexStage
+maxStorageBuffersInVertexStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpusupportedlimits-maxstoragebuffersinvertexstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageBuffersInVertexStage
+maxStorageBuffersInVertexStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragebuffersinvertexstage
 1
 1
 supported limits
@@ -15212,6 +16402,102 @@ https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragebufferspershadersta
 1
 supported limits
 -
+maxStorageTexturesInFragmentStage
+maxStorageTexturesInFragmentStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragetexturesinfragmentstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageTexturesInFragmentStage
+maxStorageTexturesInFragmentStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragetexturesinfragmentstage
+1
+1
+supported limits
+-
+maxStorageTexturesInFragmentStage
+maxStorageTexturesInFragmentStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpusupportedlimits-maxstoragetexturesinfragmentstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageTexturesInFragmentStage
+maxStorageTexturesInFragmentStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragetexturesinfragmentstage
+1
+1
+supported limits
+-
+maxStorageTexturesInVertexStage
+maxStorageTexturesInVertexStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragetexturesinvertexstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageTexturesInVertexStage
+maxStorageTexturesInVertexStage
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragetexturesinvertexstage
+1
+1
+supported limits
+-
+maxStorageTexturesInVertexStage
+maxStorageTexturesInVertexStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpusupportedlimits-maxstoragetexturesinvertexstage
+1
+1
+GPUSupportedLimits
+-
+maxStorageTexturesInVertexStage
+maxStorageTexturesInVertexStage
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragetexturesinvertexstage
+1
+1
+supported limits
+-
 maxStorageTexturesPerShaderStage
 maxStorageTexturesPerShaderStage
 attribute
@@ -15260,16 +16546,63 @@ https://www.w3.org/TR/webgpu/#dom-supported-limits-maxstoragetexturespershaderst
 1
 supported limits
 -
+maxTemperature
+maxTemperature
+attribute
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelparams-maxtemperature
+1
+1
+LanguageModelParams
+-
 maxtemplatefriendlyname
 maxTemplateFriendlyName
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#maxtemplatefriendlyname
 
 1
+-
+maxtemplatefriendlyname
+maxTemplateFriendlyName
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#maxtemplatefriendlyname
+
+1
+-
+maxTensorByteLength
+maxTensorByteLength
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlopsupportlimits-maxtensorbytelength
+1
+1
+MLOpSupportLimits
+-
+maxTensorByteLength
+maxTensorByteLength
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlopsupportlimits-maxtensorbytelength
+1
+1
+MLOpSupportLimits
 -
 maxTextureArrayLayers
 maxTextureArrayLayers
@@ -15463,6 +16796,42 @@ https://www.w3.org/TR/webgpu/#dom-supported-limits-maxtexturedimension3d
 1
 supported limits
 -
+maxTopK
+maxTopK
+attribute
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelparams-maxtopk
+1
+1
+LanguageModelParams
+-
+maxTouchPoints
+maxTouchPoints
+attribute
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dom-navigator-maxtouchpoints
+1
+1
+Navigator
+-
+maxTouchPoints
+maxTouchPoints
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsettouchoverrideparameters-maxtouchpoints
+
+1
+emulation.SetTouchOverrideParameters
+-
 maxTouchPoints
 maxTouchPoints
 attribute
@@ -15470,7 +16839,7 @@ pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dom-navigator-maxtouchpoints
+https://www.w3.org/TR/pointerevents3/#dom-navigator-maxtouchpoints
 1
 1
 Navigator
@@ -15487,29 +16856,29 @@ https://www.w3.org/TR/pointerevents3/#dom-navigator-maxtouchpoints
 1
 Navigator
 -
-maxTrustedBiddingSignalsURLLength
-maxTrustedBiddingSignalsURLLength
-dict-member
-turtledove
-turtledove
+maxTouchPoints
+maxTouchPoints
+attribute
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dom-navigator-maxtouchpoints
 1
-current
-https://wicg.github.io/turtledove/#dom-generatebidinterestgroup-maxtrustedbiddingsignalsurllength
 1
-1
-GenerateBidInterestGroup
+Navigator
 -
-maxTrustedScoringSignalsURLLength
-maxTrustedScoringSignalsURLLength
-dict-member
-turtledove
-turtledove
+maxTouchPoints
+maxTouchPoints
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/turtledove/#dom-auctionadconfig-maxtrustedscoringsignalsurllength
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-emulationsettouchoverrideparameters-maxtouchpoints
+
 1
-1
-AuctionAdConfig
+emulation.SetTouchOverrideParameters
 -
 maxuncompressedlength
 maxUncompressedLength
@@ -15531,6 +16900,30 @@ ift
 1
 current
 https://w3c.github.io/IFT/Overview.html#tablepatch-maxuncompressedlength
+
+1
+TablePatch
+-
+maxuncompressedlength
+maxUncompressedLength
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#glyph-keyed-patch-maxuncompressedlength
+
+1
+Glyph keyed patch
+-
+maxuncompressedlength
+maxUncompressedLength
+dfn
+ift
+ift
+1
+snapshot
+https://www.w3.org/TR/IFT/#tablepatch-maxuncompressedlength
 
 1
 TablePatch
@@ -15634,29 +17027,75 @@ supported limits
 maxuvattemptsforinternalretries
 maxUvAttemptsForInternalRetries
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#maxuvattemptsforinternalretries
 
 1
 -
+maxuvattemptsforinternalretries
+maxUvAttemptsForInternalRetries
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#maxuvattemptsforinternalretries
+
+1
+-
 maxuvretries
 maxUvRetries
 dfn
-fido-v2.1
-fido
+fido-client-to-authenticator-protocol-v2.1
+fido-client-to-authenticator-protocol
 1
 current
 https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html#maxuvretries
 
 1
 -
+maxuvretries
+maxUvRetries
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#maxuvretries
+
+1
+-
+maxValue
+maxValue
+dict-member
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#dom-attributionconversionoptions-maxvalue
+1
+1
+AttributionConversionOptions
+-
 maxValue
 maxValue
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparam-maxvalue
+1
+1
+AudioParam
+-
+maxValue
+maxValue
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -15668,7 +17107,19 @@ AudioParam
 maxValue
 maxValue
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioparamdescriptor-maxvalue
+1
+1
+AudioParamDescriptor
+-
+maxValue
+maxValue
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -15691,12 +17142,24 @@ MLClampOptions
 -
 maxValue
 maxValue
+dict-member
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#dom-attributionconversionoptions-maxvalue
+1
+1
+AttributionConversionOptions
+-
+maxValue
+maxValue
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparam-maxvalue
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparam-maxvalue
 1
 1
 AudioParam
@@ -15704,11 +17167,35 @@ AudioParam
 maxValue
 maxValue
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-audioparamdescriptor-maxvalue
+https://www.w3.org/TR/webaudio-1.0/#dom-audioparamdescriptor-maxvalue
+1
+1
+AudioParamDescriptor
+-
+maxValue
+maxValue
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparam-maxvalue
+1
+1
+AudioParam
+-
+maxValue
+maxValue
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-audioparamdescriptor-maxvalue
 1
 1
 AudioParamDescriptor
@@ -15900,7 +17387,7 @@ network-error-logging
 network-error-logging
 1
 current
-https://w3c.github.io/network-error-logging/#dfn-max_age
+https://w3c.github.io/network-error-logging/#max_age
 
 1
 -
@@ -15927,30 +17414,6 @@ https://www.w3.org/TR/network-error-logging/#dfn-max_age
 
 1
 -
-max_event_level_reports
-max_event_level_reports
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-max_event_level_reports
-
-1
-source-registration JSON key
--
-max_event_states
-max_event_states
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#source-registration-json-key-max_event_states
-
-1
-source-registration JSON key
--
 maximize client window is supported
 maximize client window is supported
 dfn
@@ -15962,6 +17425,17 @@ https://w3c.github.io/webdriver-bidi/#maximize-client-window-is-supported
 
 1
 -
+maximize client window is supported
+maximize client window is supported
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#maximize-client-window-is-supported
+
+1
+-
 maximize the client window
 maximize the client window
 dfn
@@ -15970,6 +17444,17 @@ webdriver-bidi
 1
 current
 https://w3c.github.io/webdriver-bidi/#maximize-the-client-window
+
+1
+-
+maximize the client window
+maximize the client window
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#maximize-the-client-window
 
 1
 -
@@ -15994,6 +17479,54 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-maximize-the-window
 
 1
+-
+maximized
+maximized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-maximized
+
+1
+browser.ClientWindowInfo/state
+-
+maximized
+maximized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-maximized
+
+1
+browser.ClientWindowNamedState/state
+-
+maximized
+maximized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindowinfo-state-maximized
+
+1
+browser.ClientWindowInfo/state
+-
+maximized
+maximized
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-browserclientwindownamedstate-state-maximized
+
+1
+browser.ClientWindowNamedState/state
 -
 maximum
 maximum
@@ -16102,6 +17635,39 @@ https://www.w3.org/TR/webgpu/#limit-class-maximum
 1
 limit class
 -
+maximum pin length
+maximum PIN length
+dfn
+fido-client-to-authenticator-protocol-v2.2
+fido-client-to-authenticator-protocol
+1
+current
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#maximum-pin-length
+
+1
+-
+maximum aggregation-service histogram size
+maximum aggregation-service histogram size
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-aggregation-service-histogram-size
+
+1
+-
+maximum aggregation-service histogram size
+maximum aggregation-service histogram size
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-aggregation-service-histogram-size
+
+1
+-
 maximum allowed code point
 maximum allowed code point
 dfn
@@ -16160,14 +17726,36 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#maximum-
 maximum attribute value size
 maximum attribute value size
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#cookie-maximum-attribute-value-size
+https://cookiestore.spec.whatwg.org/#cookie-maximum-attribute-value-size
 
 1
 cookie
+-
+maximum epsilon
+maximum epsilon
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-epsilon
+
+
+-
+maximum epsilon
+maximum epsilon
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-epsilon
+
+
 -
 maximum far clip plane
 maximum far clip plane
@@ -16213,6 +17801,28 @@ https://www.w3.org/TR/css-sizing-3/#max-height
 1
 1
 -
+maximum histogram size
+maximum histogram size
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-histogram-size
+
+1
+-
+maximum histogram size
+maximum histogram size
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-histogram-size
+
+1
+-
 maximum inline field of view
 maximum inline field of view
 dfn
@@ -16235,29 +17845,27 @@ https://www.w3.org/TR/webxr/#maximum-inline-field-of-view
 
 1
 -
-maximum length
-maximum length
+maximum lookback
+maximum lookback
 dfn
-shared-storage
-shared-storage
+attribution
+attribution
 1
 current
-https://wicg.github.io/shared-storage/#key-maximum-length
+https://w3c.github.io/attribution/#maximum-lookback
 
 1
-key
 -
-maximum length
-maximum length
+maximum lookback
+maximum lookback
 dfn
-shared-storage
-shared-storage
+attribution
+attribution
 1
-current
-https://wicg.github.io/shared-storage/#value-maximum-length
+snapshot
+https://www.w3.org/TR/attribution/#maximum-lookback
 
 1
-value
 -
 maximum mipLevel count
 maximum mipLevel count
@@ -16295,11 +17903,11 @@ https://wicg.github.io/layout-instability/#maximum-move-distance
 maximum name/value pair size
 maximum name/value pair size
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#cookie-maximum-name-value-pair-size
+https://cookiestore.spec.whatwg.org/#cookie-maximum-name-value-pair-size
 
 1
 cookie
@@ -16326,6 +17934,138 @@ https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-maximum-number-
 
 1
 fenced frame config mapping
+-
+maximum number of conversion callers per impression
+maximum number of conversion callers per impression
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-number-of-conversion-callers-per-impression
+
+1
+-
+maximum number of conversion callers per impression
+maximum number of conversion callers per impression
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-number-of-conversion-callers-per-impression
+
+1
+-
+maximum number of conversion sites per impression
+maximum number of conversion sites per impression
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-number-of-conversion-sites-per-impression
+
+1
+-
+maximum number of conversion sites per impression
+maximum number of conversion sites per impression
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-number-of-conversion-sites-per-impression
+
+1
+-
+maximum number of credit values
+maximum number of credit values
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-number-of-credit-values
+
+1
+-
+maximum number of credit values
+maximum number of credit values
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-number-of-credit-values
+
+1
+-
+maximum number of impression callers for conversion
+maximum number of impression callers for conversion
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-number-of-impression-callers-for-conversion
+
+1
+-
+maximum number of impression callers for conversion
+maximum number of impression callers for conversion
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-number-of-impression-callers-for-conversion
+
+1
+-
+maximum number of impression sites for conversion
+maximum number of impression sites for conversion
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-number-of-impression-sites-for-conversion
+
+1
+-
+maximum number of impression sites for conversion
+maximum number of impression sites for conversion
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-number-of-impression-sites-for-conversion
+
+1
+-
+maximum number of match values
+maximum number of match values
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#maximum-number-of-match-values
+
+1
+-
+maximum number of match values
+maximum number of match values
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#maximum-number-of-match-values
+
+1
 -
 maximum number of retries
 maximum number of retries
@@ -16476,18 +18216,6 @@ https://www.w3.org/TR/webcodecs/#maximum-value
 
 1
 -
-maximum version string length
-maximum version string length
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-maximum-version-string-length
-
-1
-browsing topics types
--
 maximum width
 maximum width
 dfn
@@ -16533,6 +18261,42 @@ https://www.w3.org/TR/geolocation/#dom-positionoptions-maximumage
 1
 1
 PositionOptions
+-
+maximumLatency
+maximumLatency
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-maximumlatency
+1
+1
+AudioPlaybackStats
+-
+maximumLatency
+maximumLatency
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-maximumlatency
+1
+1
+AudioPlaybackStats
+-
+maximumLatency
+maximumLatency
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dom-audioplayoutstats-maximumlatency
+1
+
+AudioPlayoutStats
 -
 maximumValue
 maximumValue
@@ -16698,6 +18462,28 @@ https://html.spec.whatwg.org/multipage/media.html#dom-canplaytyperesult-maybe
 1
 CanPlayTypeResult
 -
+maybe abort network response body collection
+maybe abort network response body collection
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#maybe-abort-network-response-body-collection
+
+1
+-
+maybe abort network response body collection
+maybe abort network response body collection
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#maybe-abort-network-response-body-collection
+
+1
+-
 maybe add a part from the pending fixed value
 maybe add a part from the pending fixed value
 dfn
@@ -16709,223 +18495,313 @@ https://urlpattern.spec.whatwg.org/#maybe-add-a-part-from-the-pending-fixed-valu
 
 1
 -
-maybe defer and then complete trigger attribution
-maybe defer and then complete trigger attribution
+maybe autolocate
+maybe autolocate
 dfn
-attribution-reporting-api
-attribution-reporting-api
+geolocation-element
+geolocation-element
 1
 current
-https://wicg.github.io/attribution-reporting-api/#maybe-defer-and-then-complete-trigger-attribution
+https://wicg.github.io/PEPC/geolocation-element.html#htmlgeolocationelement-maybe-autolocate
 
 1
+HTMLGeolocationElement
 -
-maybe obtain an interest group
-maybe obtain an interest group
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#maybe-obtain-an-interest-group
-
-1
--
-maybe replace event-level report
-maybe replace event-level report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#maybe-replace-event-level-report
-
-1
--
-maybe send pointerdown event
-maybe send pointerdown event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointerdown-event
-
-1
--
-maybe send pointerdown event
-maybe send pointerdown event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointerdown-event
-
-1
--
-maybe send pointerenter event
-maybe send pointerenter event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointerenter-event
-
-1
--
-maybe send pointerenter event
-maybe send pointerenter event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointerenter-event
-
-1
--
-maybe send pointerleave event
-maybe send pointerleave event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointerleave-event
-
-1
--
-maybe send pointerleave event
-maybe send pointerleave event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointerleave-event
-
-1
--
-maybe send pointermove event
-maybe send pointermove event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointermove-event
-
-1
--
-maybe send pointermove event
-maybe send pointermove event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointermove-event
-
-1
--
-maybe send pointerout event
-maybe send pointerout event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointerout-event
-
-1
--
-maybe send pointerout event
-maybe send pointerout event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointerout-event
-
-1
--
-maybe send pointerover event
-maybe send pointerover event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointerover-event
-
-1
--
-maybe send pointerover event
-maybe send pointerover event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointerover-event
-
-1
--
-maybe send pointerup event
-maybe send pointerup event
-dfn
-uievents
-uievents
-1
-current
-https://w3c.github.io/uievents/#maybe-send-pointerup-event
-
-1
--
-maybe send pointerup event
-maybe send pointerup event
-dfn
-uievents
-uievents
-1
-snapshot
-https://www.w3.org/TR/uievents/#maybe-send-pointerup-event
-
-1
--
-maybe set the upcoming non-traverse api method tracker
-maybe set the upcoming non-traverse API method tracker
+maybe clone an option into selectedcontent
+maybe clone an option into selectedcontent
 dfn
 html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/nav-history-apis.html#maybe-set-the-upcoming-non-traverse-api-method-tracker
+https://html.spec.whatwg.org/multipage/form-elements.html#maybe-clone-an-option-into-selectedcontent
 
 1
 -
-maybe show context menu
-maybe show context menu
+maybe collect network data
+maybe collect network data
 dfn
-uievents
-uievents
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/uievents/#maybe-show-context-menu
+https://w3c.github.io/webdriver-bidi/#maybe-collect-network-data
+
+1
+-
+maybe collect network data
+maybe collect network data
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#maybe-collect-network-data
+
+1
+-
+maybe collect network request body
+maybe collect network request body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#maybe-collect-network-request-body
+
+1
+-
+maybe collect network request body
+maybe collect network request body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#maybe-collect-network-request-body
+
+1
+-
+maybe collect network response body
+maybe collect network response body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#maybe-collect-network-response-body
+
+1
+-
+maybe collect network response body
+maybe collect network response body
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#maybe-collect-network-response-body
+
+1
+-
+maybe dispatch onvalidstatechange
+maybe dispatch onvalidstatechange
+dfn
+geolocation-element
+geolocation-element
+1
+current
+https://wicg.github.io/PEPC/geolocation-element.html#activationblockersmixin-maybe-dispatch-onvalidstatechange
+
+1
+ActivationBlockersMixin
+-
+maybe send pointerdown event
+maybe send pointerdown event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerdown-event
+1
+1
+-
+maybe send pointerdown event
+maybe send pointerdown event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerdown-event
+1
+1
+-
+maybe send pointerenter event
+maybe send pointerenter event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerenter-event
+1
+1
+-
+maybe send pointerenter event
+maybe send pointerenter event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerenter-event
+1
+1
+-
+maybe send pointerleave event
+maybe send pointerleave event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerleave-event
+1
+1
+-
+maybe send pointerleave event
+maybe send pointerleave event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerleave-event
+1
+1
+-
+maybe send pointermove event
+maybe send pointermove event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointermove-event
+1
+1
+-
+maybe send pointermove event
+maybe send pointermove event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointermove-event
+1
+1
+-
+maybe send pointerout event
+maybe send pointerout event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerout-event
+1
+1
+-
+maybe send pointerout event
+maybe send pointerout event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerout-event
+1
+1
+-
+maybe send pointerover event
+maybe send pointerover event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerover-event
+1
+1
+-
+maybe send pointerover event
+maybe send pointerover event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerover-event
+1
+1
+-
+maybe send pointerrawupdate event
+maybe send pointerrawupdate event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerrawupdate-event
+1
+1
+-
+maybe send pointerrawupdate event
+maybe send pointerrawupdate event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerrawupdate-event
+1
+1
+-
+maybe send pointerup event
+maybe send pointerup event
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-send-pointerup-event
+1
+1
+-
+maybe send pointerup event
+maybe send pointerup event
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-send-pointerup-event
+1
+1
+-
+maybe show context menu
+maybe show context menu
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-maybe-show-context-menu
 
 1
 -
 maybe show context menu
 maybe show context menu
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#maybe-show-context-menu
+https://www.w3.org/TR/pointerevents4/#dfn-maybe-show-context-menu
+
+1
+-
+maybe update the last new painted area
+maybe update the last new painted area
+dfn
+container-timing
+container-timing
+1
+current
+https://wicg.github.io/container-timing/#maybe-update-the-last-new-painted-area
 
 1
 -

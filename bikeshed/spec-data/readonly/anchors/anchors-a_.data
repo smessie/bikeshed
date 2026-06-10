@@ -90,12 +90,24 @@ oklab()
 -
 a
 a
+value
+css-color-hdr-1
+css-color-hdr
+1
+current
+https://drafts.csswg.org/css-color-hdr-1/#valdef-jzazbz-a
+1
+1
+jzazbz()
+-
+a
+a
 dict-member
 geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix2dinit-a
+https://drafts.csswg.org/geometry-1/#dom-dommatrix2dinit-a
 1
 1
 DOMMatrix2DInit
@@ -107,7 +119,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-a
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-a
 1
 1
 DOMMatrixReadOnly
@@ -163,11 +175,22 @@ https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element
 a
 a
 element
+mathml-core
+mathml-core
+1
+current
+https://w3c.github.io/mathml-core/#dfn-a
+1
+1
+-
+a
+a
+element
 svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/linking.html#elementdef-a
+https://w3c.github.io/svgwg/svg2-draft/linking.html#elementdef-a
 1
 1
 -
@@ -224,11 +247,17 @@ https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-equal-a-b-options
 1
 1
 MLGraphBuilder/equal(a, b, options)
+MLGraphBuilder/notEqual(a, b, options)
 MLGraphBuilder/greater(a, b, options)
 MLGraphBuilder/greaterOrEqual(a, b, options)
 MLGraphBuilder/lesser(a, b, options)
 MLGraphBuilder/lesserOrEqual(a, b, options)
 MLGraphBuilder/logicalNot(a, options)
+MLGraphBuilder/logicalAnd(a, b, options)
+MLGraphBuilder/logicalOr(a, b, options)
+MLGraphBuilder/logicalXor(a, b, options)
+MLGraphBuilder/isNaN(a, options)
+MLGraphBuilder/isInfinite(a, options)
 -
 a
 a
@@ -300,6 +329,18 @@ https://www.w3.org/TR/css-color-5/#valdef-oklab-a
 1
 1
 oklab()
+-
+a
+a
+value
+css-color-hdr-1
+css-color-hdr
+1
+snapshot
+https://www.w3.org/TR/css-color-hdr-1/#valdef-jzazbz-a
+1
+1
+jzazbz()
 -
 a
 a
@@ -457,11 +498,17 @@ https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-equal-a-b-options-a
 1
 1
 MLGraphBuilder/equal(a, b, options)
+MLGraphBuilder/notEqual(a, b, options)
 MLGraphBuilder/greater(a, b, options)
 MLGraphBuilder/greaterOrEqual(a, b, options)
 MLGraphBuilder/lesser(a, b, options)
 MLGraphBuilder/lesserOrEqual(a, b, options)
 MLGraphBuilder/logicalNot(a, options)
+MLGraphBuilder/logicalAnd(a, b, options)
+MLGraphBuilder/logicalOr(a, b, options)
+MLGraphBuilder/logicalXor(a, b, options)
+MLGraphBuilder/isNaN(a, options)
+MLGraphBuilder/isInfinite(a, options)
 -
 a
 a

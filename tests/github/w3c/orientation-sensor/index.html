@@ -1075,7 +1075,7 @@ motion sensors. It can be either the <a data-link-type="dfn" href="https://w3c.g
 orientation sensor, as the sensor is not affected by magnetic fields.</p>
    <h2 class="heading settled" data-level="6" id="api"><span class="secno">6. </span><span class="content">API</span><a class="self-link" href="#api"></a></h2>
    <h3 class="heading settled" data-level="6.1" id="orientationsensor-interface"><span class="secno">6.1. </span><span class="content">The OrientationSensor Interface</span><a class="self-link" href="#orientationsensor-interface"></a></h3>
-<pre class="def highlight idl"><c- b>typedef</c-> (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array" id="ref-for-idl-Float32Array"><c- b>Float32Array</c-></a> <c- b>or</c-> <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float64Array" id="ref-for-idl-Float64Array"><c- b>Float64Array</c-></a> <c- b>or</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#dommatrix" id="ref-for-dommatrix"><c- n>DOMMatrix</c-></a>) <dfn class="dfn-paneled idl-code" data-dfn-type="typedef" data-export id="typedefdef-rotationmatrixtype"><code><c- g>RotationMatrixType</c-></code></dfn>;
+<pre class="def highlight idl"><c- b>typedef</c-> (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array" id="ref-for-idl-Float32Array"><c- b>Float32Array</c-></a> <c- b>or</c-> <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float64Array" id="ref-for-idl-Float64Array"><c- b>Float64Array</c-></a> <c- b>or</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dommatrix" id="ref-for-dommatrix"><c- n>DOMMatrix</c-></a>) <dfn class="dfn-paneled idl-code" data-dfn-type="typedef" data-export id="typedefdef-rotationmatrixtype"><code><c- g>RotationMatrixType</c-></code></dfn>;
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext"><c- g>SecureContext</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="orientationsensor"><code><c- g>OrientationSensor</c-></code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/sensors/#sensor" id="ref-for-sensor②"><c- n>Sensor</c-></a> {
@@ -1174,7 +1174,7 @@ run these steps or their <a data-link-type="dfn" href="https://w3c.github.io/sen
         <p>Set <var>targetMatrix</var>[15] = 1</p>
       </ol>
      <li data-md>
-      <p>If <var>targetMatrix</var> is of  <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry-1/#dommatrix" id="ref-for-dommatrix①">DOMMatrix</a></code> type, run these sub-steps:</p>
+      <p>If <var>targetMatrix</var> is of  <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/geometry-1/#dommatrix" id="ref-for-dommatrix①">DOMMatrix</a></code> type, run these sub-steps:</p>
       <ol>
        <li data-md>
         <p>Set <var>targetMatrix</var>.m11 = 1 - 2 * y * y - 2 * z * z</p>
@@ -1397,7 +1397,7 @@ conforming IDL fragments, as described in the Web IDL specification. <a data-lin
    <li>
     <a data-link-type="biblio">[GEOMETRY-1]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="4ffe871f">DOMMatrix</span>
+     <li><span class="dfn-paneled" id="24908a02">DOMMatrix</span>
     </ul>
    <li>
     <a data-link-type="biblio">[GYROSCOPE]</a> defines the following terms:
@@ -1456,7 +1456,7 @@ conforming IDL fragments, as described in the Web IDL specification. <a data-lin
    <dt id="biblio-generic-sensor">[GENERIC-SENSOR]
    <dd>Rick Waldron. <a href="https://w3c.github.io/sensors/"><cite>Generic Sensor API</cite></a>. URL: <a href="https://w3c.github.io/sensors/">https://w3c.github.io/sensors/</a>
    <dt id="biblio-geometry-1">[GEOMETRY-1]
-   <dd>Simon Pieters; Chris Harrelson. <a href="https://drafts.fxtf.org/geometry/"><cite>Geometry Interfaces Module Level 1</cite></a>. URL: <a href="https://drafts.fxtf.org/geometry/">https://drafts.fxtf.org/geometry/</a>
+   <dd>Sebastian Zartner; Yehonatan Daniv. <a href="https://drafts.csswg.org/geometry/"><cite>Geometry Interfaces Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/geometry/">https://drafts.csswg.org/geometry/</a>
    <dt id="biblio-gyroscope">[GYROSCOPE]
    <dd>Anssi Kostiainen. <a href="https://w3c.github.io/gyroscope/"><cite>Gyroscope</cite></a>. URL: <a href="https://w3c.github.io/gyroscope/">https://w3c.github.io/gyroscope/</a>
    <dt id="biblio-infra">[INFRA]
@@ -1480,7 +1480,7 @@ conforming IDL fragments, as described in the Web IDL specification. <a data-lin
    <dd><a href="http://www.bipm.org/en/publications/si-brochure/"><cite>SI Brochure: The International System of Units (SI), 8th edition</cite></a>. 2014. 8th Edition. URL: <a href="http://www.bipm.org/en/publications/si-brochure/">http://www.bipm.org/en/publications/si-brochure/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
-<pre class="def highlight idl"><c- b>typedef</c-> (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array"><c- b>Float32Array</c-></a> <c- b>or</c-> <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float64Array"><c- b>Float64Array</c-></a> <c- b>or</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#dommatrix"><c- n>DOMMatrix</c-></a>) <a href="#typedefdef-rotationmatrixtype"><code><c- g>RotationMatrixType</c-></code></a>;
+<pre class="def highlight idl"><c- b>typedef</c-> (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array"><c- b>Float32Array</c-></a> <c- b>or</c-> <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float64Array"><c- b>Float64Array</c-></a> <c- b>or</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dommatrix"><c- n>DOMMatrix</c-></a>) <a href="#typedefdef-rotationmatrixtype"><code><c- g>RotationMatrixType</c-></code></a>;
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext"><c- g>SecureContext</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <a href="#orientationsensor"><code><c- g>OrientationSensor</c-></code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/sensors/#sensor"><c- n>Sensor</c-></a> {
@@ -1720,11 +1720,11 @@ let dfnPanelData = {
 "1422ec4e": {"dfnID":"1422ec4e","dfnText":"interface","external":true,"refSections":[{"refs":[{"id":"ref-for-dfn-interface"},{"id":"ref-for-dfn-interface\u2460"},{"id":"ref-for-dfn-interface\u2461"}],"title":"7.1. Construct an Orientation Sensor object"}],"url":"https://webidl.spec.whatwg.org/#dfn-interface"},
 "1b956603": {"dfnID":"1b956603","dfnText":"Sensor","external":true,"refSections":[{"refs":[{"id":"ref-for-sensor"},{"id":"ref-for-sensor\u2460"}],"title":"5. Model"},{"refs":[{"id":"ref-for-sensor\u2461"}],"title":"6.1. The OrientationSensor Interface"}],"url":"https://w3c.github.io/sensors/#sensor"},
 "207de9db": {"dfnID":"207de9db","dfnText":"SensorOptions","external":true,"refSections":[{"refs":[{"id":"ref-for-dictdef-sensoroptions"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-dictdef-sensoroptions\u2460"}],"title":"6.1. The OrientationSensor Interface"}],"url":"https://w3c.github.io/sensors/#dictdef-sensoroptions"},
+"24908a02": {"dfnID":"24908a02","dfnText":"DOMMatrix","external":true,"refSections":[{"refs":[{"id":"ref-for-dommatrix"}],"title":"6.1. The OrientationSensor Interface"},{"refs":[{"id":"ref-for-dommatrix\u2460"}],"title":"6.1.2. OrientationSensor.populateMatrix()"}],"url":"https://drafts.csswg.org/geometry-1/#dommatrix"},
 "277a4c80": {"dfnID":"277a4c80","dfnText":"request sensor access","external":true,"refSections":[{"refs":[{"id":"ref-for-request-sensor-access"}],"title":"5. Model"}],"url":"https://w3c.github.io/sensors/#request-sensor-access"},
 "32e66fc3": {"dfnID":"32e66fc3","dfnText":"DeviceOrientationEvent","external":true,"refSections":[{"refs":[{"id":"ref-for-deviceorientation_event"},{"id":"ref-for-deviceorientation_event\u2460"}],"title":"1. Introduction"}],"url":"https://www.w3.org/TR/2016/CR-orientation-event-20160818/#deviceorientation_event"},
 "378064f9": {"dfnID":"378064f9","dfnText":"latest reading","external":true,"refSections":[{"refs":[{"id":"ref-for-latest-reading"},{"id":"ref-for-latest-reading\u2460"}],"title":"5. Model"},{"refs":[{"id":"ref-for-latest-reading\u2461"},{"id":"ref-for-latest-reading\u2462"}],"title":"5.1. The AbsoluteOrientationSensor Model"},{"refs":[{"id":"ref-for-latest-reading\u2463"}],"title":"5.2. The RelativeOrientationSensor Model"},{"refs":[{"id":"ref-for-latest-reading\u2464"}],"title":"6.1.2. OrientationSensor.populateMatrix()"}],"url":"https://w3c.github.io/sensors/#latest-reading"},
 "4acdbf1c": {"dfnID":"4acdbf1c","dfnText":"mock sensor reading values","external":true,"refSections":[{"refs":[{"id":"ref-for-mock-sensor-reading-values"},{"id":"ref-for-mock-sensor-reading-values\u2460"}],"title":"8.1. Mock Sensor Type"}],"url":"https://w3c.github.io/sensors/#mock-sensor-reading-values"},
-"4ffe871f": {"dfnID":"4ffe871f","dfnText":"DOMMatrix","external":true,"refSections":[{"refs":[{"id":"ref-for-dommatrix"}],"title":"6.1. The OrientationSensor Interface"},{"refs":[{"id":"ref-for-dommatrix\u2460"}],"title":"6.1.2. OrientationSensor.populateMatrix()"}],"url":"https://drafts.fxtf.org/geometry-1/#dommatrix"},
 "5822d2f3": {"dfnID":"5822d2f3","dfnText":"check sensor policy-controlled features","external":true,"refSections":[{"refs":[{"id":"ref-for-check-sensor-policy-controlled-features"}],"title":"7.1. Construct an Orientation Sensor object"}],"url":"https://w3c.github.io/sensors/#check-sensor-policy-controlled-features"},
 "5e19184b": {"dfnID":"5e19184b","dfnText":"Magnetometer","external":true,"refSections":[{"refs":[{"id":"ref-for-magnetometer"},{"id":"ref-for-magnetometer\u2460"}],"title":"5. Model"}],"url":"https://w3c.github.io/magnetometer/#magnetometer"},
 "5f90bbfb": {"dfnID":"5f90bbfb","dfnText":"undefined","external":true,"refSections":[{"refs":[{"id":"ref-for-idl-undefined"}],"title":"6.1. The OrientationSensor Interface"}],"url":"https://webidl.spec.whatwg.org/#idl-undefined"},
@@ -2186,7 +2186,7 @@ let refsData = {
 "#relativeorientationsensor": {"displayText":"RelativeOrientationSensor","export":true,"for_":[],"level":"","normative":true,"shortname":"orientation-sensor","spec":"orientation-sensor","status":"local","text":"RelativeOrientationSensor","type":"interface","url":"#relativeorientationsensor"},
 "#stationary-reference-coordinate-system": {"displayText":"stationary reference coordinate system","export":true,"for_":[],"level":"","normative":true,"shortname":"orientation-sensor","spec":"orientation-sensor","status":"local","text":"stationary reference coordinate system","type":"dfn","url":"#stationary-reference-coordinate-system"},
 "#typedefdef-rotationmatrixtype": {"displayText":"RotationMatrixType","export":true,"for_":[],"level":"","normative":true,"shortname":"orientation-sensor","spec":"orientation-sensor","status":"local","text":"RotationMatrixType","type":"typedef","url":"#typedefdef-rotationmatrixtype"},
-"https://drafts.fxtf.org/geometry-1/#dommatrix": {"displayText":"DOMMatrix","export":true,"for_":[],"level":"1","normative":true,"shortname":"geometry","spec":"geometry-1","status":"current","text":"DOMMatrix","type":"interface","url":"https://drafts.fxtf.org/geometry-1/#dommatrix"},
+"https://drafts.csswg.org/geometry-1/#dommatrix": {"displayText":"DOMMatrix","export":true,"for_":[],"level":"1","normative":true,"shortname":"geometry","spec":"geometry-1","status":"current","text":"DOMMatrix","type":"interface","url":"https://drafts.csswg.org/geometry-1/#dommatrix"},
 "https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers": {"displayText":"event handler","export":true,"for_":[],"level":"1","normative":true,"shortname":"html","spec":"html","status":"current","text":"event handler","type":"dfn","url":"https://html.spec.whatwg.org/multipage/webappapis.html#event-handlers"},
 "https://infra.spec.whatwg.org/#list": {"displayText":"list","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"list","type":"dfn","url":"https://infra.spec.whatwg.org/#list"},
 "https://infra.spec.whatwg.org/#map-entry": {"displayText":"entry","export":true,"for_":["map"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"entry","type":"dfn","url":"https://infra.spec.whatwg.org/#map-entry"},

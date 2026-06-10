@@ -1368,7 +1368,7 @@ the computed value is a list of the computed values of the base type.</p>
 the computed value is given by applying the computed-value rules
 for the first clause that matches the value.</p>
    <h3 class="heading settled" data-level="2.5" id="animation-behavior-of-custom-properties"><span class="secno">2.5. </span><span class="content">Animation Behavior</span><a class="self-link" href="#animation-behavior-of-custom-properties"></a></h3>
-   <p class="note" role="note"><span class="marker">Note:</span> As defined by <a data-link-type="biblio" href="#biblio-css3-animations" title="CSS Animations Level 1">[css3-animations]</a> and <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions">[css3-transitions]</a>, it is possible to
+   <p class="note" role="note"><span class="marker">Note:</span> As defined by <a data-link-type="biblio" href="#biblio-css3-animations" title="CSS Animations Level 1">[css3-animations]</a> and <a data-link-type="biblio" href="#biblio-css3-transitions" title="CSS Transitions Module Level 1">[css3-transitions]</a>, it is possible to
 specify animations and transitions that reference custom properties.</p>
    <p>When referenced by animations and transitions,
 custom property values <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#interpolation" id="ref-for-interpolation">interpolate</a> <a data-link-type="dfn" href="https://drafts.csswg.org/web-animations-1/#by-computed-value" id="ref-for-by-computed-value">by computed value</a>,
@@ -1438,7 +1438,7 @@ and <a href="https://drafts.csswg.org/css-syntax-3/#tokenization">tokenizing</a>
    <p>References to registered custom properties using the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-variables-2/#funcdef-var" id="ref-for-funcdef-var⑤">var()</a> function may
 provide a fallback. However, the fallback value must match the
 <a data-link-type="dfn" href="#syntax-definition" id="ref-for-syntax-definition">syntax definition</a> of the custom property being referenced, otherwise the
-declaration is <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-2/#invalid-at-computed-value-time" id="ref-for-invalid-at-computed-value-time①">invalid at computed-value time</a>.</p>
+declaration is <a data-link-type="dfn" href="https://www.w3.org/TR/css-variables-1/#invalid-at-computed-value-time" id="ref-for-invalid-at-computed-value-time①">invalid at computed-value time</a>.</p>
    <p class="note" role="note"><span class="marker">Note:</span> This applies regardless of whether or not the fallback is being used.</p>
    <h4 class="heading settled" data-level="2.7.2" id="dependency-cycles"><span class="secno">2.7.2. </span><span class="content">Dependency Cycles via Relative Units</span><a class="self-link" href="#dependency-cycles"></a></h4>
    <p><a data-link-type="dfn" href="#registered-custom-property" id="ref-for-registered-custom-property⑨">Registered custom properties</a> follow the same rules for dependency cycle resolution
@@ -1463,7 +1463,7 @@ and the <a class="css property" data-link-type="property" href="https://drafts.c
     <li data-md>
      <p>If the property contains the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#rlh" id="ref-for-rlh①">rlh</a> unit,
 add an edge between the property
-and the <a class="css property" data-link-type="property" href="https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>' of the root element.</p>
+and the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a>' of the root element.</p>
    </ul>
    <div class="example" id="example-a47a7332">
     <a class="self-link" href="#example-a47a7332"></a>
@@ -1743,7 +1743,7 @@ the property becomes <a data-link-type="dfn" href="https://drafts.csswg.org/css-
 </pre>
     <p>is to set the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color</a> property of elements of class "thing" to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit" id="ref-for-valdef-all-inherit①">inherit</a>.
 	The second <span class="css">--my-color</span> declaration overrides the first at parse time (both are valid),
-	and the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-variables-2/#funcdef-var" id="ref-for-funcdef-var⑦">var()</a> reference in the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color①">color</a> property is found to be <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-2/#invalid-at-computed-value-time" id="ref-for-invalid-at-computed-value-time③">invalid at computed-value time</a>
+	and the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-variables-2/#funcdef-var" id="ref-for-funcdef-var⑦">var()</a> reference in the <a class="css property" data-link-type="property" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color①">color</a> property is found to be <a data-link-type="dfn" href="https://www.w3.org/TR/css-variables-1/#invalid-at-computed-value-time" id="ref-for-invalid-at-computed-value-time③">invalid at computed-value time</a>
 	(because <span class="css">url("not-a-color")</span> is not a color).
 	At this stage of the CSS pipeline (computation time),
 	the only available fallback is the initial value of the property,
@@ -2568,18 +2568,22 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
      <li><span class="dfn-paneled" id="54fd6ed6">invalid at computed-value time</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[CSS-VARIABLES]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="81bc970d">invalid at computed-value time</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[CSS-VARIABLES-2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="e55dd7f2">&lt;custom-property-name></span>
      <li><span class="dfn-paneled" id="198f1537">custom property</span>
      <li><span class="dfn-paneled" id="eb7e3851">guaranteed-invalid value</span>
-     <li><span class="dfn-paneled" id="f0390851">invalid at computed-value time</span>
      <li><span class="dfn-paneled" id="dbba942a">var()</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
+    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="f601a423">line-height</span>
+     <li><span class="dfn-paneled" id="ac54fbff">line-height</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSSOM-1]</a> defines the following terms:
@@ -2646,7 +2650,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css-cascade-6">[CSS-CASCADE-6]
    <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-cascade-6/"><cite>CSS Cascading and Inheritance Level 6</cite></a>. URL: <a href="https://drafts.csswg.org/css-cascade-6/">https://drafts.csswg.org/css-cascade-6/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]
-   <dd>Chris Lilley; et al. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
+   <dd>Chris Lilley; Una Kravets; Lea Verou. <a href="https://drafts.csswg.org/css-color-5/"><cite>CSS Color Module Level 5</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-5/">https://drafts.csswg.org/css-color-5/</a>
    <dt id="biblio-css-conditional-3">[CSS-CONDITIONAL-3]
    <dd>Chris Lilley; David Baron; Elika Etemad. <a href="https://drafts.csswg.org/css-conditional-3/"><cite>CSS Conditional Rules Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-conditional-3/">https://drafts.csswg.org/css-conditional-3/</a>
    <dt id="biblio-css-fonts-4">[CSS-FONTS-4]
@@ -2667,7 +2671,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dd>Tab Atkins Jr.. <a href="https://drafts.csswg.org/css-variables/"><cite>CSS Custom Properties for Cascading Variables Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-variables/">https://drafts.csswg.org/css-variables/</a>
    <dt id="biblio-css-variables-2">[CSS-VARIABLES-2]
    <dd><a href="https://drafts.csswg.org/css-variables-2/"><cite>CSS Custom Properties for Cascading Variables Module Level 2</cite></a>. Editor's Draft. URL: <a href="https://drafts.csswg.org/css-variables-2/">https://drafts.csswg.org/css-variables-2/</a>
-   <dt id="biblio-css21">[CSS21]
+   <dt id="biblio-css2">[CSS2]
    <dd>Bert Bos; et al. <a href="https://drafts.csswg.org/css2/"><cite>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</cite></a>. URL: <a href="https://drafts.csswg.org/css2/">https://drafts.csswg.org/css2/</a>
    <dt id="biblio-css3-values">[CSS3-VALUES]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://drafts.csswg.org/css-values-3/"><cite>CSS Values and Units Module Level 3</cite></a>. URL: <a href="https://drafts.csswg.org/css-values-3/">https://drafts.csswg.org/css-values-3/</a>
@@ -2689,7 +2693,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
   <h3 class="heading no-num no-ref settled" id="informative"><span class="content">Non-Normative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Chris Lilley; Tab Atkins Jr.; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley; Lea Verou. <a href="https://drafts.csswg.org/css-color-4/"><cite>CSS Color Module Level 4</cite></a>. URL: <a href="https://drafts.csswg.org/css-color-4/">https://drafts.csswg.org/css-color-4/</a>
    <dt id="biblio-css-layout-api-1">[CSS-LAYOUT-API-1]
    <dd>Greg Whitworth; et al. <a href="https://drafts.css-houdini.org/css-layout-api-1/"><cite>CSS Layout API Level 1</cite></a>. URL: <a href="https://drafts.css-houdini.org/css-layout-api-1/">https://drafts.css-houdini.org/css-layout-api-1/</a>
    <dt id="biblio-css-paint-api-1">[CSS-PAINT-API-1]
@@ -2697,7 +2701,7 @@ Non-experimental implementations</span><a class="self-link" href="#w3c-testing">
    <dt id="biblio-css3-animations">[CSS3-ANIMATIONS]
    <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-animations/"><cite>CSS Animations Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-animations/">https://drafts.csswg.org/css-animations/</a>
    <dt id="biblio-css3-transitions">[CSS3-TRANSITIONS]
-   <dd>David Baron; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
+   <dd>Chris Marrin; et al. <a href="https://drafts.csswg.org/css-transitions/"><cite>CSS Transitions Module Level 1</cite></a>. URL: <a href="https://drafts.csswg.org/css-transitions/">https://drafts.csswg.org/css-transitions/</a>
   </dl>
   <h2 class="heading no-num no-ref settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <p>No properties defined.</p>
@@ -3154,6 +3158,7 @@ let dfnPanelData = {
 "76c4403d": {"dfnID":"76c4403d","dfnText":"parse","external":true,"refSections":[{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar"}],"title":"2.1. Determining the Registration"},{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2460"}],"title":"2.4. Computed Value-Time Behavior"},{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2461"},{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2462"}],"title":"4.1. The registerProperty() Function"},{"refs":[{"id":"ref-for-css-parse-something-according-to-a-css-grammar\u2463"}],"title":"5.4.3. Consume a Syntax Component"}],"url":"https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar"},
 "7f9469b5": {"dfnID":"7f9469b5","dfnText":"ASCII case-insensitive","external":true,"refSections":[{"refs":[{"id":"ref-for-ascii-case-insensitive"}],"title":"5.1. Supported Names"}],"url":"https://infra.spec.whatwg.org/#ascii-case-insensitive"},
 "8144e597": {"dfnID":"8144e597","dfnText":"<declaration-value>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-declaration-value"}],"title":"3.3. The initial-value Descriptor"},{"refs":[{"id":"ref-for-typedef-declaration-value\u2460"}],"title":"4.1. The registerProperty() Function"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-declaration-value"},
+"81bc970d": {"dfnID":"81bc970d","dfnText":"invalid at computed-value time","external":true,"refSections":[{"refs":[{"id":"ref-for-invalid-at-computed-value-time\u2460"}],"title":"2.7.1. Fallbacks In var() References"},{"refs":[{"id":"ref-for-invalid-at-computed-value-time\u2462"}],"title":"4.1. The registerProperty() Function"}],"url":"https://www.w3.org/TR/css-variables-1/#invalid-at-computed-value-time"},
 "82ed5c4b": {"dfnID":"82ed5c4b","dfnText":"red","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-color-red"},{"id":"ref-for-valdef-color-red\u2460"},{"id":"ref-for-valdef-color-red\u2461"}],"title":"5.1. Supported Names"},{"refs":[{"id":"ref-for-valdef-color-red\u2462"}],"title":"5.3. The '|' Combinator"}],"url":"https://drafts.csswg.org/css-color-4/#valdef-color-red"},
 "84252421": {"dfnID":"84252421","dfnText":"<declaration-list>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-declaration-list"}],"title":"3. The @property Rule"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list"},
 "85394472": {"dfnID":"85394472","dfnText":"Document","external":true,"refSections":[{"refs":[{"id":"ref-for-document"}],"title":"2. Registered Custom Properties"},{"refs":[{"id":"ref-for-document\u2460"},{"id":"ref-for-document\u2461"}],"title":"2.1. Determining the Registration"},{"refs":[{"id":"ref-for-document\u2462"}],"title":"4. Registering Custom Properties in JS"},{"refs":[{"id":"ref-for-document\u2463"}],"title":"6. CSSOM"}],"url":"https://dom.spec.whatwg.org/#document"},
@@ -3178,6 +3183,7 @@ let dfnPanelData = {
 "a3b18719": {"dfnID":"a3b18719","dfnText":"append (for set)","external":true,"refSections":[{"refs":[{"id":"ref-for-set-append"}],"title":"4.1. The registerProperty() Function"}],"url":"https://infra.spec.whatwg.org/#set-append"},
 "a43c62be": {"dfnID":"a43c62be","dfnText":"CSS","external":true,"refSections":[{"refs":[{"id":"ref-for-namespacedef-css"}],"title":"4. Registering Custom Properties in JS"}],"url":"https://drafts.csswg.org/cssom-1/#namespacedef-css"},
 "a63375cb": {"dfnID":"a63375cb","dfnText":"<dimension-token>","external":true,"refSections":[{"refs":[{"id":"ref-for-typedef-dimension-token"}],"title":"2.7. Substitution via var()"}],"url":"https://drafts.csswg.org/css-syntax-3/#typedef-dimension-token"},
+"ac54fbff": {"dfnID":"ac54fbff","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"2.7.2. Dependency Cycles via Relative Units"}],"url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "ae8def21": {"dfnID":"ae8def21","dfnText":"contain (for list)","external":true,"refSections":[{"refs":[{"id":"ref-for-list-contain"}],"title":"2.1. Determining the Registration"}],"url":"https://infra.spec.whatwg.org/#list-contain"},
 "at-ruledef-property": {"dfnID":"at-ruledef-property","dfnText":"@property","external":false,"refSections":[{"refs":[{"id":"ref-for-at-ruledef-property"}],"title":"1. Introduction"},{"refs":[{"id":"ref-for-at-ruledef-property\u2460"},{"id":"ref-for-at-ruledef-property\u2461"}],"title":"2. Registered Custom Properties"},{"refs":[{"id":"ref-for-at-ruledef-property\u2462"}],"title":"2.1. Determining the Registration"},{"refs":[{"id":"ref-for-at-ruledef-property\u2463"},{"id":"ref-for-at-ruledef-property\u2464"},{"id":"ref-for-at-ruledef-property\u2465"},{"id":"ref-for-at-ruledef-property\u2466"},{"id":"ref-for-at-ruledef-property\u2467"},{"id":"ref-for-at-ruledef-property\u2468"},{"id":"ref-for-at-ruledef-property\u2460\u24ea"},{"id":"ref-for-at-ruledef-property\u2460\u2460"},{"id":"ref-for-at-ruledef-property\u2460\u2461"}],"title":"3. The @property Rule"},{"refs":[{"id":"ref-for-at-ruledef-property\u2460\u2462"},{"id":"ref-for-at-ruledef-property\u2460\u2463"},{"id":"ref-for-at-ruledef-property\u2460\u2464"},{"id":"ref-for-at-ruledef-property\u2460\u2465"}],"title":"3.1. The syntax Descriptor"},{"refs":[{"id":"ref-for-at-ruledef-property\u2460\u2466"},{"id":"ref-for-at-ruledef-property\u2460\u2467"},{"id":"ref-for-at-ruledef-property\u2460\u2468"},{"id":"ref-for-at-ruledef-property\u2461\u24ea"}],"title":"3.2. The inherits Descriptor"},{"refs":[{"id":"ref-for-at-ruledef-property\u2461\u2460"},{"id":"ref-for-at-ruledef-property\u2461\u2461"},{"id":"ref-for-at-ruledef-property\u2461\u2462"},{"id":"ref-for-at-ruledef-property\u2461\u2463"}],"title":"3.3. The initial-value Descriptor"},{"refs":[{"id":"ref-for-at-ruledef-property\u2461\u2464"},{"id":"ref-for-at-ruledef-property\u2461\u2465"},{"id":"ref-for-at-ruledef-property\u2461\u2466"},{"id":"ref-for-at-ruledef-property\u2461\u2467"},{"id":"ref-for-at-ruledef-property\u2461\u2468"}],"title":"6.1. The CSSPropertyRule Interface"},{"refs":[{"id":"ref-for-at-ruledef-property\u2462\u24ea"}],"title":"7.2. Example 2: Using @property to register a property"}],"url":"#at-ruledef-property"},
 "b3424c1d": {"dfnID":"b3424c1d","dfnText":"black","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-color-black"},{"id":"ref-for-valdef-color-black\u2460"}],"title":"4.1. The registerProperty() Function"}],"url":"https://drafts.csswg.org/css-color-4/#valdef-color-black"},
@@ -3228,9 +3234,7 @@ let dfnPanelData = {
 "eb7e3851": {"dfnID":"eb7e3851","dfnText":"guaranteed-invalid value","external":true,"refSections":[{"refs":[{"id":"ref-for-guaranteed-invalid-value"}],"title":"2.4. Computed Value-Time Behavior"},{"refs":[{"id":"ref-for-guaranteed-invalid-value\u2460"},{"id":"ref-for-guaranteed-invalid-value\u2461"}],"title":"3.3. The initial-value Descriptor"}],"url":"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value"},
 "ebaeb088": {"dfnID":"ebaeb088","dfnText":"CSSRule","external":true,"refSections":[{"refs":[{"id":"ref-for-cssrule"}],"title":"6.1. The CSSPropertyRule Interface"}],"url":"https://drafts.csswg.org/cssom-1/#cssrule"},
 "equivalent-token-sequence": {"dfnID":"equivalent-token-sequence","dfnText":"equivalent token sequence","external":false,"refSections":[],"url":"#equivalent-token-sequence"},
-"f0390851": {"dfnID":"f0390851","dfnText":"invalid at computed-value time","external":true,"refSections":[{"refs":[{"id":"ref-for-invalid-at-computed-value-time\u2460"}],"title":"2.7.1. Fallbacks In var() References"},{"refs":[{"id":"ref-for-invalid-at-computed-value-time\u2462"}],"title":"4.1. The registerProperty() Function"}],"url":"https://drafts.csswg.org/css-variables-2/#invalid-at-computed-value-time"},
 "f17eedd8": {"dfnID":"f17eedd8","dfnText":"blue","external":true,"refSections":[{"refs":[{"id":"ref-for-valdef-color-blue"}],"title":"5.3. The '|' Combinator"}],"url":"https://drafts.csswg.org/css-color-4/#valdef-color-blue"},
-"f601a423": {"dfnID":"f601a423","dfnText":"line-height","external":true,"refSections":[{"refs":[{"id":"ref-for-propdef-line-height"}],"title":"2.7.2. Dependency Cycles via Relative Units"}],"url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
 "f96aa907": {"dfnID":"f96aa907","dfnText":"serialize an identifier","external":true,"refSections":[{"refs":[{"id":"ref-for-serialize-an-identifier"}],"title":"6.1. The CSSPropertyRule Interface"}],"url":"https://drafts.csswg.org/cssom-1/#serialize-an-identifier"},
 "fa293cdd": {"dfnID":"fa293cdd","dfnText":"<url>","external":true,"refSections":[{"refs":[{"id":"ref-for-url-value"}],"title":"5.1. Supported Names"}],"url":"https://drafts.csswg.org/css-values-4/#url-value"},
 "fb030e6c": {"dfnID":"fb030e6c","dfnText":"<length>","external":true,"refSections":[{"refs":[{"id":"ref-for-length-value"}],"title":"2.7.2. Dependency Cycles via Relative Units"},{"refs":[{"id":"ref-for-length-value\u2460"},{"id":"ref-for-length-value\u2461"},{"id":"ref-for-length-value\u2462"}],"title":"5.1. Supported Names"},{"refs":[{"id":"ref-for-length-value\u2463"}],"title":"6.2. CSSStyleValue Reification"}],"url":"https://drafts.csswg.org/css-values-4/#length-value"},
@@ -3812,8 +3816,8 @@ let refsData = {
 "https://drafts.csswg.org/css-variables-2/#custom-property": {"displayText":"custom property","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"custom property","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#custom-property"},
 "https://drafts.csswg.org/css-variables-2/#funcdef-var": {"displayText":"var()","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"var()","type":"function","url":"https://drafts.csswg.org/css-variables-2/#funcdef-var"},
 "https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value": {"displayText":"guaranteed-invalid value","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"guaranteed-invalid value","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value"},
-"https://drafts.csswg.org/css-variables-2/#invalid-at-computed-value-time": {"displayText":"invalid at computed-value time","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"invalid at computed-value time","type":"dfn","url":"https://drafts.csswg.org/css-variables-2/#invalid-at-computed-value-time"},
 "https://drafts.csswg.org/css-variables-2/#typedef-custom-property-name": {"displayText":"<custom-property-name>","export":true,"for_":[],"level":"2","normative":true,"shortname":"css-variables","spec":"css-variables-2","status":"current","text":"<custom-property-name>","type":"type","url":"https://drafts.csswg.org/css-variables-2/#typedef-custom-property-name"},
+"https://drafts.csswg.org/css2/#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"2","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://drafts.csswg.org/css2/#propdef-line-height"},
 "https://drafts.csswg.org/cssom-1/#cssomstring": {"displayText":"CSSOMString","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSOMString","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssomstring"},
 "https://drafts.csswg.org/cssom-1/#cssrule": {"displayText":"CSSRule","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSSRule","type":"interface","url":"https://drafts.csswg.org/cssom-1/#cssrule"},
 "https://drafts.csswg.org/cssom-1/#namespacedef-css": {"displayText":"CSS","export":true,"for_":[],"level":"1","normative":true,"shortname":"cssom","spec":"cssom-1","status":"current","text":"CSS","type":"namespace","url":"https://drafts.csswg.org/cssom-1/#namespacedef-css"},
@@ -3832,7 +3836,7 @@ let refsData = {
 "https://infra.spec.whatwg.org/#map-exists": {"displayText":"contain","export":true,"for_":["map"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"contain","type":"dfn","url":"https://infra.spec.whatwg.org/#map-exists"},
 "https://infra.spec.whatwg.org/#set-append": {"displayText":"append","export":true,"for_":["set"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"append","type":"dfn","url":"https://infra.spec.whatwg.org/#set-append"},
 "https://infra.spec.whatwg.org/#string": {"displayText":"string","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"string","type":"dfn","url":"https://infra.spec.whatwg.org/#string"},
-"https://infra.spec.whatwg.org/#string-length": {"displayText":"length","export":true,"for_":["string","JavaScript string","scalar value string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"length","type":"dfn","url":"https://infra.spec.whatwg.org/#string-length"},
+"https://infra.spec.whatwg.org/#string-length": {"displayText":"length","export":true,"for_":["string","JavaScript string","ASCII string","isomorphic string","scalar value string"],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"length","type":"dfn","url":"https://infra.spec.whatwg.org/#string-length"},
 "https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace": {"displayText":"strip leading and trailing ASCII whitespace","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"strip leading and trailing ascii whitespace","type":"dfn","url":"https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace"},
 "https://infra.spec.whatwg.org/#struct": {"displayText":"struct","export":true,"for_":[],"level":"1","normative":true,"shortname":"infra","spec":"infra","status":"current","text":"struct","type":"dfn","url":"https://infra.spec.whatwg.org/#struct"},
 "https://webidl.spec.whatwg.org/#Exposed": {"displayText":"Exposed","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"Exposed","type":"extended-attribute","url":"https://webidl.spec.whatwg.org/#Exposed"},
@@ -3842,7 +3846,7 @@ let refsData = {
 "https://webidl.spec.whatwg.org/#idl-undefined": {"displayText":"undefined","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"undefined","type":"interface","url":"https://webidl.spec.whatwg.org/#idl-undefined"},
 "https://webidl.spec.whatwg.org/#invalidmodificationerror": {"displayText":"InvalidModificationError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"InvalidModificationError","type":"exception","url":"https://webidl.spec.whatwg.org/#invalidmodificationerror"},
 "https://webidl.spec.whatwg.org/#syntaxerror": {"displayText":"SyntaxError","export":true,"for_":[],"level":"1","normative":true,"shortname":"webidl","spec":"webidl","status":"current","text":"SyntaxError","type":"exception","url":"https://webidl.spec.whatwg.org/#syntaxerror"},
-"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height": {"displayText":"line-height","export":true,"for_":[],"level":"1","normative":true,"shortname":"css","spec":"css2","status":"current","text":"line-height","type":"property","url":"https://www.w3.org/TR/CSS21/visudet.html#propdef-line-height"},
+"https://www.w3.org/TR/css-variables-1/#invalid-at-computed-value-time": {"displayText":"invalid at computed-value time","export":true,"for_":[],"level":"1","normative":true,"shortname":"css-variables","spec":"css-variables-1","status":"snapshot","text":"invalid at computed-value time","type":"dfn","url":"https://www.w3.org/TR/css-variables-1/#invalid-at-computed-value-time"},
 };
 
 function mkRefHint(link, ref) {

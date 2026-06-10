@@ -9,8 +9,8 @@ https://fidoalliance.org/specs/fido-appid-and-facets-ps-20150514.pdf
 
 
 -
-d:fido-v2.1
-FIDO-V2.1
+d:fido-client-to-authenticator-protocol-v2.1
+FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.1
 
 Editor's Draft
 Client to Authenticator Protocol (CTAP)
@@ -19,6 +19,21 @@ https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticato
 
 
 
+-
+d:fido-client-to-authenticator-protocol-v2.2
+FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.2
+
+Editor's Draft
+Client to Authenticator Protocol (CTAP)
+https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html
+
+
+
+
+-
+a:fido-v2.1
+FIDO-V2.1
+FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.1
 -
 d:figures
 FIGURES
@@ -128,6 +143,18 @@ a:file-api-20241024
 FILE-API-20241024
 FileAPI-20241024
 -
+a:file-api-20241122
+FILE-API-20241122
+FileAPI-20241122
+-
+a:file-api-20241204
+FILE-API-20241204
+FileAPI-20241204
+-
+a:file-api-20251203
+FILE-API-20251203
+FileAPI-20251203
+-
 a:file-system
 FILE-SYSTEM
 file-system-api
@@ -151,7 +178,7 @@ file-system-api-20140424
 d:file-system-access
 FILE-SYSTEM-ACCESS
 
-cg-draft
+Draft Community Group Report
 File System Access
 https://wicg.github.io/file-system-access/
 
@@ -315,6 +342,18 @@ a:file-upload-20241024
 file-upload-20241024
 FileAPI-20241024
 -
+a:file-upload-20241122
+file-upload-20241122
+FileAPI-20241122
+-
+a:file-upload-20241204
+file-upload-20241204
+FileAPI-20241204
+-
+a:file-upload-20251203
+file-upload-20251203
+FileAPI-20251203
+-
 a:file-writer
 FILE-WRITER
 file-writer-api
@@ -413,7 +452,7 @@ Eric Uhrhane
 -
 d:fileapi
 FileAPI
-24 October 2024
+3 December 2025
 WD
 File API
 https://www.w3.org/TR/FileAPI/
@@ -427,13 +466,13 @@ d:fileapi-20061018
 FileAPI-20061018
 18 October 2006
 WD
-File API
+File Upload
 https://www.w3.org/TR/2006/WD-file-upload-20061018/
 https://www.w3.org/TR/2006/WD-file-upload-20061018/
 
 
 
-Marijn Kruisselbrink
+Robin Berjon
 -
 d:fileapi-20091117
 FileAPI-20091117
@@ -445,7 +484,7 @@ https://www.w3.org/TR/2009/WD-FileAPI-20091117/
 
 
 
-Marijn Kruisselbrink
+Arun Ranganathan
 -
 d:fileapi-20101026
 FileAPI-20101026
@@ -457,7 +496,8 @@ https://www.w3.org/TR/2010/WD-FileAPI-20101026/
 
 
 
-Marijn Kruisselbrink
+Arun Ranganathan
+Jonas Sicking
 -
 d:fileapi-20111020
 FileAPI-20111020
@@ -469,7 +509,8 @@ https://www.w3.org/TR/2011/WD-FileAPI-20111020/
 
 
 
-Marijn Kruisselbrink
+Arun Ranganathan
+Jonas Sicking
 -
 d:fileapi-20120712
 FileAPI-20120712
@@ -481,7 +522,8 @@ https://www.w3.org/TR/2012/WD-FileAPI-20120712/
 
 
 
-Marijn Kruisselbrink
+Arun Ranganathan
+Jonas Sicking
 -
 d:fileapi-20121025
 FileAPI-20121025
@@ -708,13 +750,53 @@ https://www.w3.org/TR/2024/WD-FileAPI-20241024/
 
 Marijn Kruisselbrink
 -
+d:fileapi-20241122
+FileAPI-20241122
+22 November 2024
+WD
+File API
+https://www.w3.org/TR/2024/WD-FileAPI-20241122/
+https://www.w3.org/TR/2024/WD-FileAPI-20241122/
+
+
+
+Marijn Kruisselbrink
+-
+d:fileapi-20241204
+FileAPI-20241204
+4 December 2024
+WD
+File API
+https://www.w3.org/TR/2024/WD-FileAPI-20241204/
+https://www.w3.org/TR/2024/WD-FileAPI-20241204/
+
+
+
+Marijn Kruisselbrink
+-
+d:fileapi-20251203
+FileAPI-20251203
+3 December 2025
+WD
+File API
+https://www.w3.org/TR/2025/WD-FileAPI-20251203/
+https://www.w3.org/TR/2025/WD-FileAPI-20251203/
+
+
+
+Marijn Kruisselbrink
+-
+a:fill-stroke
+fill-stroke
+fill-stroke-3
+-
 d:fill-stroke-3
 fill-stroke-3
 13 April 2017
-WD
+FPWD
 CSS Fill and Stroke Module Level 3
 https://www.w3.org/TR/fill-stroke-3/
-https://drafts.fxtf.org/fill-stroke/
+https://drafts.csswg.org/fill-stroke/
 
 
 
@@ -724,7 +806,7 @@ Tab Atkins Jr.
 d:fill-stroke-3-20170413
 fill-stroke-3-20170413
 13 April 2017
-WD
+FPWD
 CSS Fill and Stroke Module Level 3
 https://www.w3.org/TR/2017/WD-fill-stroke-3-20170413/
 https://www.w3.org/TR/2017/WD-fill-stroke-3-20170413/
@@ -744,7 +826,7 @@ filter-effects-1
 WD
 Filter Effects Module Level 1
 https://www.w3.org/TR/filter-effects-1/
-https://drafts.fxtf.org/filter-effects-1/
+https://drafts.csswg.org/filter-effects-1/
 
 
 
@@ -839,7 +921,7 @@ FILTER-EFFECTS-2
 
 Editor's Draft
 Filter Effects Module Level 2
-https://drafts.fxtf.org/filter-effects-2/
+https://drafts.csswg.org/filter-effects-2/
 
 
 
@@ -895,7 +977,7 @@ Doug Schepers
 d:findtext-20151015
 findtext-20151015
 15 October 2015
-WD
+FPWD
 FindText API
 https://www.w3.org/TR/2015/WD-findtext-20151015/
 https://www.w3.org/TR/2015/WD-findtext-20151015/
@@ -918,7 +1000,7 @@ Doug Schepers
 -
 d:fingerprinting-guidance
 fingerprinting-guidance
-28 March 2019
+25 September 2025
 NOTE
 Mitigating Browser Fingerprinting in Web Specifications
 https://www.w3.org/TR/fingerprinting-guidance/
@@ -927,6 +1009,7 @@ https://w3c.github.io/fingerprinting-guidance/
 
 
 Nick Doty
+Tom Ritter
 -
 d:fingerprinting-guidance-20151124
 fingerprinting-guidance-20151124
@@ -951,6 +1034,70 @@ https://www.w3.org/TR/2019/NOTE-fingerprinting-guidance-20190328/
 
 
 Nick Doty
+-
+d:fingerprinting-guidance-20250320
+fingerprinting-guidance-20250320
+20 March 2025
+NOTE
+Mitigating Browser Fingerprinting in Web Specifications
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250320/
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250320/
+
+
+
+Nick Doty
+-
+d:fingerprinting-guidance-20250321
+fingerprinting-guidance-20250321
+21 March 2025
+NOTE
+Mitigating Browser Fingerprinting in Web Specifications
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250321/
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250321/
+
+
+
+Nick Doty
+Tom Ritter
+-
+d:fingerprinting-guidance-20250804
+fingerprinting-guidance-20250804
+4 August 2025
+NOTE
+Mitigating Browser Fingerprinting in Web Specifications
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250804/
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250804/
+
+
+
+Nick Doty
+Tom Ritter
+-
+d:fingerprinting-guidance-20250912
+fingerprinting-guidance-20250912
+12 September 2025
+NOTE
+Mitigating Browser Fingerprinting in Web Specifications
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250912/
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250912/
+
+
+
+Nick Doty
+Tom Ritter
+-
+d:fingerprinting-guidance-20250925
+fingerprinting-guidance-20250925
+25 September 2025
+NOTE
+Mitigating Browser Fingerprinting in Web Specifications
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250925/
+https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250925/
+
+
+
+Nick Doty
+Tom Ritter
 -
 d:fips-180-3
 FIPS-180-3

@@ -10,6 +10,54 @@ https://fetch.spec.whatwg.org/#dom-requestdestination-object
 1
 RequestDestination
 -
+"object"
+"object"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptobjectlocalvalue-type-object
+
+1
+script.ObjectLocalValue/type
+-
+"object"
+"object"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptobjectremotevalue-type-object
+
+1
+script.ObjectRemoteValue/type
+-
+"object"
+"object"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptobjectlocalvalue-type-object
+
+1
+script.ObjectLocalValue/type
+-
+"object"
+"object"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptobjectremotevalue-type-object
+
+1
+script.ObjectRemoteValue/type
+-
 %Object%
 %Object%
 interface
@@ -68,13 +116,24 @@ https://w3c.github.io/aria/#dfn-object
 object
 object
 dfn
-svg-aam-1.0
-svg-aam
+wot-thing-description-2.0
+wot-thing-description
 1
 current
-https://w3c.github.io/svg-aam/#dfn-object
+https://w3c.github.io/wot-thing-description/#dfn-object
 
+1
+-
+object
+object
+dfn
+wot-thing-description11
+wot-thing-description
+1
+current
+https://w3c.github.io/wot-thing-description/#dfn-object
 
+1
 -
 object
 object
@@ -97,6 +156,28 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.3/#dfn-object
 
 
+-
+object
+object
+dfn
+wot-thing-description-2.0
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description-2.0/#dfn-object
+
+1
+-
+object
+object
+dfn
+wot-thing-description11
+wot-thing-description
+1
+snapshot
+https://www.w3.org/TR/wot-thing-description11/#dfn-object
+
+1
 -
 object environment record
 Object Environment Record
@@ -146,6 +227,28 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-object-value
 1
 Object
 -
+objectassignmentpattern
+ObjectAssignmentPattern
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ObjectAssignmentPattern
+
+1
+-
+objectbindingpattern
+ObjectBindingPattern
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#prod-ObjectBindingPattern
+
+1
+-
 ObjectDefineProperties
 ObjectDefineProperties
 abstract-op
@@ -157,8 +260,8 @@ https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-objectdefineprope
 1
 1
 -
-ObjectDefineProperties(O, Properties)
-ObjectDefineProperties(O, Properties)
+ObjectDefineProperties(obj, properties)
+ObjectDefineProperties(obj, properties)
 abstract-op
 ecmascript
 ecmascript
@@ -166,6 +269,17 @@ ecmascript
 current
 https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-objectdefineproperties
 1
+1
+-
+objectliteral
+ObjectLiteral
+grammar
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ObjectLiteral
+
 1
 -
 Observable
@@ -279,17 +393,6 @@ https://webbluetoothcg.github.io/web-bluetooth/#observation-procedure
 
 1
 -
-observe-browsing-topics
-Observe-Browsing-Topics
-http-header
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#http-headerdef-observe-browsing-topics
-1
-1
--
 observer
 observer
 dfn
@@ -330,7 +433,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#RecsObs
+https://www.w3.org/policies/process/#RecsObs
 1
 1
 -
@@ -341,7 +444,7 @@ w3c-process
 w3c-process
 1
 current
-https://www.w3.org/Consortium/Process/#obsolete-registry
+https://www.w3.org/policies/process/#obsolete-registry
 1
 1
 -
@@ -352,7 +455,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-obtaining-permission
+https://w3c-cg.github.io/web-nfc/#dfn-obtaining-permission
 
 
 -
@@ -471,7 +574,7 @@ fileapi
 1
 current
 https://w3c.github.io/FileAPI/#blob-url-entry-object
-1
+
 1
 blob URL entry
 -
@@ -495,19 +598,32 @@ rdf-concepts
 1
 current
 https://w3c.github.io/rdf-concepts/spec/#dfn-object
-
+1
 1
 -
 object
 object
-dfn
-svg-aam-1.0
-svg-aam
+cddl-value
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://w3c.github.io/svg-aam/#dfn-object
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptobjectlocalvalue-type-object
 
+1
+script.ObjectLocalValue/type
+-
+object
+object
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-scriptobjectremotevalue-type-object
 
+1
+script.ObjectRemoteValue/type
 -
 object
 object
@@ -523,12 +639,24 @@ https://webidl.spec.whatwg.org/#idl-object
 object
 object
 dfn
+webidl
+webidl
+1
+current
+https://webidl.spec.whatwg.org/#js-async-sequence-object
+
+1
+JS async sequence
+-
+object
+object
+dfn
 fileapi
 fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#blob-url-entry-object
-1
+
 1
 blob URL entry
 -
@@ -574,18 +702,7 @@ rdf-concepts
 1
 snapshot
 https://www.w3.org/TR/rdf12-concepts/#dfn-object
-
 1
--
-object
-object
-dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-object
-
 1
 -
 object
@@ -598,6 +715,30 @@ snapshot
 https://www.w3.org/TR/wai-aria-1.2/#dfn-object
 
 
+-
+object
+object
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptobjectlocalvalue-type-object
+
+1
+script.ObjectLocalValue/type
+-
+object
+object
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-scriptobjectremotevalue-type-object
+
+1
+script.ObjectRemoteValue/type
 -
 object url
 object URL
@@ -628,7 +769,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/coords.html#TermObjectBoundingBox
+https://w3c.github.io/svgwg/svg2-draft/coords.html#TermObjectBoundingBox
 1
 1
 -
@@ -664,17 +805,6 @@ snapshot
 https://www.w3.org/TR/webgpu/#object-descriptor
 
 1
--
-object embed flag
-object embed flag
-dfn
-json-ld11-framing
-json-ld-framing
-1
-current
-https://w3c.github.io/json-ld-framing/#dfn-object-embed-flag
-
-
 -
 object embed flag
 object embed flag
@@ -966,7 +1096,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-clippathunits-objectboundingbox
+https://drafts.csswg.org/css-masking-1/#valdef-clippathunits-objectboundingbox
 1
 1
 clipPathUnits
@@ -978,7 +1108,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-maskcontentunits-objectboundingbox
+https://drafts.csswg.org/css-masking-1/#valdef-maskcontentunits-objectboundingbox
 1
 1
 maskContentUnits
@@ -990,7 +1120,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#valdef-maskunits-objectboundingbox
+https://drafts.csswg.org/css-masking-1/#valdef-maskunits-objectboundingbox
 1
 1
 maskUnits
@@ -1002,7 +1132,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-filterunits-objectboundingbox
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-filterunits-objectboundingbox
 1
 1
 filterUnits
@@ -1014,7 +1144,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-primitiveunits-objectboundingbox
+https://drafts.csswg.org/filter-effects-1/#attr-valuedef-primitiveunits-objectboundingbox
 1
 1
 primitiveUnits
@@ -1189,17 +1319,6 @@ https://drafts.csswg.org/css-images-3/#objects
 objects
 objects
 dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-object
-
-
--
-objects
-objects
-dfn
 css-images-3
 css-images
 3
@@ -1245,17 +1364,6 @@ https://www.w3.org/TR/graphics-aria-1.0/#dfn-object
 objects
 objects
 dfn
-svg-aam-1.0
-svg-aam
-1
-snapshot
-https://www.w3.org/TR/svg-aam-1.0/#dfn-object
-
-1
--
-objects
-objects
-dfn
 wai-aria-1.2
 wai-aria
 1
@@ -1264,12 +1372,34 @@ https://www.w3.org/TR/wai-aria-1.2/#dfn-object
 
 
 -
+objects-of target
+objects-of target
+dfn
+shacl12-core
+shacl-core
+1
+current
+https://w3c.github.io/data-shapes/shacl12-core/#dfn-objects-of-target
+
+1
+-
+objects-of target
+objects-of target
+dfn
+shacl12-core
+shacl-core
+1
+snapshot
+https://www.w3.org/TR/shacl12-core/#dfn-objects-of-target
+
+1
+-
 oblique
 oblique
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-font-style-oblique
 1
@@ -1299,6 +1429,30 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-style-oblique-angle--90deg-90deg
 1
 1
 font-style
+-
+oblique-only
+oblique-only
+value
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#valdef-font-synthesis-style-oblique-only
+1
+1
+font-synthesis-style
+-
+oblique-only
+oblique-only
+value
+css-fonts-4
+css-fonts
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#valdef-font-synthesis-style-oblique-only
+1
+1
+font-synthesis-style
 -
 obscured
 obscured
@@ -1391,11 +1545,11 @@ https://webidl.spec.whatwg.org/#dfn-observable-array-type
 observable changes
 observable changes
 dfn
-cookie-store
-cookie-store
+cookiestore
+cookiestore
 1
 current
-https://wicg.github.io/cookie-store/#observable-changes
+https://cookiestore.spec.whatwg.org/#observable-changes
 
 1
 -
@@ -1429,6 +1583,17 @@ permissions-policy
 1
 snapshot
 https://www.w3.org/TR/permissions-policy-1/#observable-policy
+
+1
+-
+observation
+observation
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#observation
 
 1
 -
@@ -1827,12 +1992,24 @@ https://w3c.github.io/compute-pressure/#dfn-observer
 -
 observer
 observer
+argument
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#dom-performanceobservercallback-observer
+1
+1
+PerformanceObserverCallback
+-
+observer
+observer
 dfn
 performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-observer
+https://w3c.github.io/performance-timeline/#observer
 
 1
 -
@@ -1939,7 +2116,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-observer-buffer
+https://w3c.github.io/performance-timeline/#observer-buffer
 
 1
 -
@@ -1961,7 +2138,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-observer-callback
+https://w3c.github.io/performance-timeline/#observer-callback
 
 1
 -
@@ -1983,7 +2160,7 @@ performance-timeline
 performance-timeline
 1
 current
-https://w3c.github.io/performance-timeline/#dfn-observer-type
+https://w3c.github.io/performance-timeline/#observer-type
 
 1
 -
@@ -2075,15 +2252,48 @@ https://websockets.spec.whatwg.org/#concept-websocket-connection-obtain
 1
 1
 -
-obtain a boolean parameter value
-obtain a boolean parameter value
+obtain a webtransport connection
+obtain a WebTransport connection
 dfn
-shared-storage
-shared-storage
+webtransport
+webtransport
 1
 current
-https://wicg.github.io/shared-storage/#obtain-a-boolean-parameter-value
-
+https://w3c.github.io/webtransport/#obtain-a-webtransport-connection
+1
+1
+-
+obtain a webtransport connection
+obtain a WebTransport connection
+dfn
+webtransport
+webtransport
+1
+snapshot
+https://www.w3.org/TR/webtransport/#obtain-a-webtransport-connection
+1
+1
+-
+obtain a blob object
+obtain a blob object
+dfn
+fileapi
+fileapi
+1
+current
+https://w3c.github.io/FileAPI/#blob-url-obtain-object
+1
+1
+-
+obtain a blob object
+obtain a blob object
+dfn
+fileapi
+fileapi
+1
+snapshot
+https://www.w3.org/TR/FileAPI/#blob-url-obtain-object
+1
 1
 -
 obtain a browsing context to use for a navigation response
@@ -2116,28 +2326,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/webappapis.html#obtain-a-dedicated%2Fshared-worker-agent
-
-1
--
-obtain a dictionary structured header value
-obtain a dictionary structured header value
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-dictionary-structured-header-value
-
-1
--
-obtain a fake report
-obtain a fake report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-fake-report
 
 1
 -
@@ -2185,17 +2373,6 @@ https://www.w3.org/TR/web-locks/#obtain-a-lock-manager
 
 1
 -
-obtain a null attribution report
-obtain a null attribution report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-null-attribution-report
-
-1
--
 obtain a physical form
 obtain a physical form
 dfn
@@ -2204,72 +2381,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/rendering.html#obtain-a-physical-form
-
-1
--
-obtain a randomized response
-obtain a randomized response
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-randomized-response
-
-1
--
-obtain a randomized source response
-obtain a randomized source response
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-randomized-source-response
-
-1
--
-obtain a randomized source response pick rate
-obtain a randomized source response pick rate
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-randomized-source-response-pick-rate
-
-1
--
-obtain a report delivery time
-obtain a report delivery time
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-a-report-delivery-time
-
-1
--
-obtain a report's shared info
-obtain a report's shared info
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-a-reports-shared-info
-
-1
--
-obtain a reporting endpoint
-obtain a reporting endpoint
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-a-reporting-endpoint
 
 1
 -
@@ -2296,17 +2407,6 @@ https://www.w3.org/TR/webxr/#xrview-obtain-a-scaled-viewport
 
 1
 XRView
--
-obtain a script runner agent
-obtain a script runner agent
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#obtain-a-script-runner-agent
-
-1
 -
 obtain a service worker agent
 obtain a service worker agent
@@ -2363,36 +2463,14 @@ https://w3c.github.io/webdriver-bidi/#obtain-a-set-of-event-names
 
 1
 -
-obtain a set of possible trigger states
-obtain a set of possible trigger states
+obtain a set of event names
+obtain a set of event names
 dfn
-attribution-reporting-api
-attribution-reporting-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-a-set-of-possible-trigger-states
-
-1
--
-obtain a shared storage bottle map
-obtain a shared storage bottle map
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#obtain-a-shared-storage-bottle-map
-
-1
--
-obtain a shared storage shelf
-obtain a shared storage shelf
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#obtain-a-shared-storage-shelf
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#obtain-a-set-of-event-names
 
 1
 -
@@ -2462,17 +2540,6 @@ https://storage.spec.whatwg.org/#obtain-a-storage-shelf
 
 1
 -
-obtain a string-like parameter value
-obtain a string-like parameter value
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#obtain-a-string-like-parameter-value
-
-1
--
 obtain a window memory attribution token
 obtain a window memory attribution token
 dfn
@@ -2517,50 +2584,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#obtain-a-worklet-agent
 
 1
 -
-obtain an aggregatable attribution report
-obtain an aggregatable attribution report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-an-aggregatable-attribution-report
-
-1
--
-obtain an aggregatable attribution report delivery time
-obtain an aggregatable attribution report delivery time
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-an-aggregatable-attribution-report-delivery-time
-
-1
--
-obtain an aggregatable report
-obtain an aggregatable report
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-an-aggregatable-report
-
-1
--
-obtain an aggregatable report body
-obtain an aggregatable report body
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-an-aggregatable-report-body
-
-1
--
 obtain an embedder policy
 obtain an embedder policy
 dfn
@@ -2570,39 +2593,6 @@ html
 current
 https://html.spec.whatwg.org/multipage/browsers.html#obtain-an-embedder-policy
 1
-1
--
-obtain an event-level report
-obtain an event-level report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-an-event-level-report
-
-1
--
-obtain an event-level report body
-obtain an event-level report body
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-an-event-level-report-body
-
-1
--
-obtain an event-level report delivery time
-obtain an event-level report delivery time
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-an-event-level-report-delivery-time
-
 1
 -
 obtain an expanded url
@@ -2619,11 +2609,33 @@ https://w3c.github.io/epub-specs/epub33/rs/#dfn-obtain-an-expanded-url
 obtain an expanded url
 obtain an expanded URL
 dfn
+epub-rs-34
+epub-rs
+1
+current
+https://w3c.github.io/epub-specs/epub34/rs/#dfn-obtain-an-expanded-url
+
+1
+-
+obtain an expanded url
+obtain an expanded URL
+dfn
 epub-rs-33
 epub-rs
 1
 snapshot
 https://www.w3.org/TR/epub-rs-33/#dfn-obtain-an-expanded-url
+
+1
+-
+obtain an expanded url
+obtain an expanded URL
+dfn
+epub-rs-34
+epub-rs
+1
+snapshot
+https://www.w3.org/TR/epub-rs-34/#dfn-obtain-an-expanded-url
 
 1
 -
@@ -2635,127 +2647,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/browsers.html#obtain-coop
-
-1
--
-obtain and deliver a verbose debug report
-obtain and deliver a verbose debug report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-a-verbose-debug-report
-
-1
--
-obtain and deliver a verbose debug report on source registration
-obtain and deliver a verbose debug report on source registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-a-verbose-debug-report-on-source-registration
-
-1
--
-obtain and deliver a verbose debug report on trigger registration
-obtain and deliver a verbose debug report on trigger registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-a-verbose-debug-report-on-trigger-registration
-
-1
--
-obtain and deliver an aggregatable debug report
-obtain and deliver an aggregatable debug report
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-an-aggregatable-debug-report
-
-1
--
-obtain and deliver an aggregatable debug report on registration
-obtain and deliver an aggregatable debug report on registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-an-aggregatable-debug-report-on-registration
-
-1
--
-obtain and deliver an aggregatable debug report on source registration
-obtain and deliver an aggregatable debug report on source registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-an-aggregatable-debug-report-on-source-registration
-
-1
--
-obtain and deliver an aggregatable debug report on trigger registration
-obtain and deliver an aggregatable debug report on trigger registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-an-aggregatable-debug-report-on-trigger-registration
-
-1
--
-obtain and deliver debug reports on os registrations
-obtain and deliver debug reports on OS registrations
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-debug-reports-on-os-registrations
-
-1
--
-obtain and deliver debug reports on registration header errors
-obtain and deliver debug reports on registration header errors
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-debug-reports-on-registration-header-errors
-
-1
--
-obtain and deliver debug reports on source registration
-obtain and deliver debug reports on source registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-debug-reports-on-source-registration
-
-1
--
-obtain and deliver debug reports on trigger registration
-obtain and deliver debug reports on trigger registration
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-and-deliver-debug-reports-on-trigger-registration
 
 1
 -
@@ -2781,17 +2672,6 @@ https://immersive-web.github.io/raw-camera-access/#obtain-camera-image
 
 1
 -
-obtain default effective windows
-obtain default effective windows
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-default-effective-windows
-
-1
--
 obtain depth at coordinates
 obtain depth at coordinates
 dfn
@@ -2814,50 +2694,6 @@ https://www.w3.org/TR/webxr-depth-sensing-1/#obtain-depth-at-coordinates
 
 1
 -
-obtain hit test results
-obtain hit test results
-dfn
-webxr-hit-test-1
-webxr-hit-test
-1
-current
-https://immersive-web.github.io/hit-test/#obtain-hit-test-results
-
-1
--
-obtain hit test results
-obtain hit test results
-dfn
-webxr-hit-test-1
-webxr-hit-test
-1
-snapshot
-https://www.w3.org/TR/webxr-hit-test-1/#obtain-hit-test-results
-
-1
--
-obtain hit test results for transient input
-obtain hit test results for transient input
-dfn
-webxr-hit-test-1
-webxr-hit-test
-1
-current
-https://immersive-web.github.io/hit-test/#obtain-hit-test-results-for-transient-input
-
-1
--
-obtain hit test results for transient input
-obtain hit test results for transient input
-dfn
-webxr-hit-test-1
-webxr-hit-test
-1
-snapshot
-https://www.w3.org/TR/webxr-hit-test-1/#obtain-hit-test-results-for-transient-input
-
-1
--
 obtain permission
 obtain permission
 dfn
@@ -2865,84 +2701,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dfn-obtain-permission
-
-1
--
-obtain rounded source time
-obtain rounded source time
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-rounded-source-time
-
-1
--
-obtain the private aggregation coordinator
-obtain the Private Aggregation coordinator
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-the-private-aggregation-coordinator
-1
-1
--
-obtain the aggregation coordinator
-obtain the aggregation coordinator
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#obtain-the-aggregation-coordinator
-
-1
--
-obtain the aggregation service payloads
-obtain the aggregation service payloads
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-the-aggregation-service-payloads
-
-1
--
-obtain the aggregation service payloads
-obtain the aggregation service payloads
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-the-aggregation-service-payloads
-
-1
--
-obtain the coordinator from a private aggregation config
-obtain the coordinator from a Private Aggregation config
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-the-coordinator-from-a-private-aggregation-config
-
-1
--
-obtain the coordinator from a private aggregation config
-obtain the coordinator from a Private Aggregation config
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#obtain-the-coordinator-from-a-private-aggregation-config
+https://w3c-cg.github.io/web-nfc/#dfn-obtain-permission
 
 1
 -
@@ -2968,14 +2727,25 @@ https://www.w3.org/TR/webxr/#obtain-the-current-device
 
 1
 -
-obtain the encrypted payload
-obtain the encrypted payload
+obtain the implicit api inputs
+obtain the implicit API inputs
 dfn
-attribution-reporting-api
-attribution-reporting-api
+attribution
+attribution
 1
 current
-https://wicg.github.io/attribution-reporting-api/#obtain-the-encrypted-payload
+https://w3c.github.io/attribution/#obtain-the-implicit-api-inputs
+
+1
+-
+obtain the implicit api inputs
+obtain the implicit API inputs
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#obtain-the-implicit-api-inputs
 
 1
 -
@@ -3027,28 +2797,6 @@ https://www.w3.org/TR/webxr/#xrrigidtransform-obtain-the-matrix
 1
 XRRigidTransform
 -
-obtain the plaintext payload
-obtain the plaintext payload
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-the-plaintext-payload
-
-1
--
-obtain the pre-specified report parameters
-obtain the pre-specified report parameters
-dfn
-shared-storage
-shared-storage
-1
-current
-https://wicg.github.io/shared-storage/#obtain-the-pre-specified-report-parameters
-
-1
--
 obtain the projection matrix
 obtain the projection matrix
 dfn
@@ -3056,10 +2804,10 @@ webxr
 webxr
 1
 current
-https://immersive-web.github.io/webxr/#xrview-obtain-the-projection-matrix
+https://immersive-web.github.io/webxr/#xrviewgeometry-obtain-the-projection-matrix
 
 1
-XRView
+XRViewGeometry
 -
 obtain the projection matrix
 obtain the projection matrix
@@ -3068,32 +2816,10 @@ webxr
 webxr
 1
 snapshot
-https://www.w3.org/TR/webxr/#xrview-obtain-the-projection-matrix
+https://www.w3.org/TR/webxr/#xrviewgeometry-obtain-the-projection-matrix
 
 1
-XRView
--
-obtain the public key for encryption
-obtain the public key for encryption
-dfn
-private-aggregation-api
-private-aggregation-api
-1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#obtain-the-public-key-for-encryption
-
-1
--
-obtain the public key for encryption
-obtain the public key for encryption
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#obtain-the-public-key-for-encryption
-
-1
+XRViewGeometry
 -
 obtain their numeric values
 obtain their numeric values
@@ -3106,25 +2832,25 @@ https://html.spec.whatwg.org/multipage/canvas.html#obtain-numeric-values
 
 1
 -
-obtain verbose debug data body on trigger registration
-obtain verbose debug data body on trigger registration
+obtain-coi-key
+obtain-coi-key
 dfn
-attribution-reporting-api
-attribution-reporting-api
+document-isolation-policy
+document-isolation-policy
 1
 current
-https://wicg.github.io/attribution-reporting-api/#obtain-verbose-debug-data-body-on-trigger-registration
+https://wicg.github.io/document-isolation-policy/#obtain-coi-key
 
 1
 -
-obtain verbose debug data on trigger registration
-obtain verbose debug data on trigger registration
+obtain-dip
+obtain-dip
 dfn
-attribution-reporting-api
-attribution-reporting-api
+document-isolation-policy
+document-isolation-policy
 1
 current
-https://wicg.github.io/attribution-reporting-api/#obtain-verbose-debug-data-on-trigger-registration
+https://wicg.github.io/document-isolation-policy/#obtain-dip
 
 1
 -

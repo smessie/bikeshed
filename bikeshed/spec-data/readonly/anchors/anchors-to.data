@@ -94,6 +94,54 @@ https://wicg.github.io/trust-token-api/#dom-operationtype-token-request
 1
 OperationType
 -
+"tool-call"
+"tool-call"
+enum-value
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelmessagetype-tool-call
+1
+1
+LanguageModelMessageType
+-
+"tool-response"
+"tool-response"
+enum-value
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelmessagetype-tool-response
+1
+1
+LanguageModelMessageType
+-
+"top"
+"top"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintmarginparameters-top
+
+1
+browsingContext.PrintMarginParameters
+-
+"top"
+"top"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintmarginparameters-top
+
+1
+browsingContext.PrintMarginParameters
+-
 "top-level"
 "top-level"
 enum-value
@@ -120,6 +168,18 @@ FrameType
 -
 "touch"
 "touch"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputpointertype-touch
+
+1
+input.PointerType
+-
+"touch"
+"touch"
 enum-value
 handwriting-recognition
 handwriting-recognition
@@ -129,6 +189,18 @@ https://wicg.github.io/handwriting-recognition/#dom-handwritinginputtype-touch
 1
 1
 HandwritingInputType
+-
+"touch"
+"touch"
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputpointertype-touch
+
+1
+input.PointerType
 -
 <(-token>
 <(-token>
@@ -224,30 +296,8 @@ type
 css-values-5
 css-values
 5
-current
-https://drafts.csswg.org/css-values-5/#typedef-toggle
-1
-1
--
-<toggle()>
-<toggle()>
-type
-css-values-5
-css-values
-5
 snapshot
 https://www.w3.org/TR/css-values-5/#typedef-toggle
-1
-1
--
-<top>
-<top>
-type
-css22
-css
-1
-current
-https://drafts.csswg.org/css2/#value-def-top
 1
 1
 -
@@ -258,7 +308,7 @@ css-masking-1
 css-masking
 1
 current
-https://drafts.fxtf.org/css-masking-1/#typedef-clip-top
+https://drafts.csswg.org/css-masking-1/#typedef-clip-top
 1
 1
 clip
@@ -268,9 +318,9 @@ clip
 type
 css2
 css
-1
+2
 current
-https://www.w3.org/TR/CSS21/visufx.html#value-def-top
+https://drafts.csswg.org/css2/#value-def-top
 1
 1
 -
@@ -279,9 +329,9 @@ https://www.w3.org/TR/CSS21/visufx.html#value-def-top
 type
 css2
 css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visufx.html#value-def-top
+https://www.w3.org/TR/CSS2/visufx.html#value-def-top
 1
 1
 -
@@ -462,8 +512,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tobigint
 1
 1
 -
-ToBigInt(argument)
-ToBigInt(argument)
+ToBigInt(arg)
+ToBigInt(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -484,8 +534,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tobigint64
 1
 1
 -
-ToBigInt64(argument)
-ToBigInt64(argument)
+ToBigInt64(arg)
+ToBigInt64(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -506,8 +556,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tobiguint64
 1
 1
 -
-ToBigUint64(argument)
-ToBigUint64(argument)
+ToBigUint64(arg)
+ToBigUint64(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -528,8 +578,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toboolean
 1
 1
 -
-ToBoolean(argument)
-ToBoolean(argument)
+ToBoolean(arg)
+ToBoolean(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -561,6 +611,28 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-todatestring
 1
 1
 -
+ToFixedSizeInteger
+ToFixedSizeInteger
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tofixedsizeinteger
+1
+1
+-
+ToFixedSizeInteger(int, signed, bitWidth)
+ToFixedSizeInteger(int, signed, bitWidth)
+abstract-op
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tofixedsizeinteger
+1
+1
+-
 ToIndex
 ToIndex
 abstract-op
@@ -572,8 +644,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex
 1
 1
 -
-ToIndex(value)
-ToIndex(value)
+ToIndex(arg)
+ToIndex(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -594,8 +666,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toint16
 1
 1
 -
-ToInt16(argument)
-ToInt16(argument)
+ToInt16(arg)
+ToInt16(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -616,8 +688,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toint32
 1
 1
 -
-ToInt32(argument)
-ToInt32(argument)
+ToInt32(arg)
+ToInt32(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -638,8 +710,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toint8
 1
 1
 -
-ToInt8(argument)
-ToInt8(argument)
+ToInt8(arg)
+ToInt8(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -660,8 +732,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tointegerorinfini
 1
 1
 -
-ToIntegerOrInfinity(argument)
-ToIntegerOrInfinity(argument)
+ToIntegerOrInfinity(arg)
+ToIntegerOrInfinity(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -704,8 +776,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tolength
 1
 1
 -
-ToLength(argument)
-ToLength(argument)
+ToLength(arg)
+ToLength(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -737,8 +809,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tonumber
 1
 1
 -
-ToNumber(argument)
-ToNumber(argument)
+ToNumber(arg)
+ToNumber(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -759,8 +831,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tonumeric
 1
 1
 -
-ToNumeric(value)
-ToNumeric(value)
+ToNumeric(arg)
+ToNumeric(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -781,8 +853,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toobject
 1
 1
 -
-ToObject(argument)
-ToObject(argument)
+ToObject(arg)
+ToObject(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -825,8 +897,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-topr
 1
 1
 -
-ToPropertyDescriptor(Obj)
-ToPropertyDescriptor(Obj)
+ToPropertyDescriptor(obj)
+ToPropertyDescriptor(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -847,8 +919,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-topropertykey
 1
 1
 -
-ToPropertyKey(argument)
-ToPropertyKey(argument)
+ToPropertyKey(arg)
+ToPropertyKey(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -869,8 +941,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tostring
 1
 1
 -
-ToString(argument)
-ToString(argument)
+ToString(arg)
+ToString(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -891,8 +963,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint16
 1
 1
 -
-ToUint16(argument)
-ToUint16(argument)
+ToUint16(arg)
+ToUint16(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -913,8 +985,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint32
 1
 1
 -
-ToUint32(argument)
-ToUint32(argument)
+ToUint32(arg)
+ToUint32(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -935,8 +1007,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint8
 1
 1
 -
-ToUint8(argument)
-ToUint8(argument)
+ToUint8(arg)
+ToUint8(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -957,8 +1029,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint8clamp
 1
 1
 -
-ToUint8Clamp(argument)
-ToUint8Clamp(argument)
+ToUint8Clamp(arg)
+ToUint8Clamp(arg)
 abstract-op
 ecmascript
 ecmascript
@@ -1034,6 +1106,28 @@ https://tc39.es/ecma262/multipage/text-processing.html#sec-tozeropaddeddecimalst
 1
 1
 -
+toggle
+toggle
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-toggle-state
+
+1
+-
+toggle popover
+Toggle Popover
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-toggle-popover-state
+
+1
+-
 ToggleEvent
 ToggleEvent
 interface
@@ -1053,6 +1147,17 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/interaction.html#toggleeventinit
+1
+1
+-
+TogglePopoverOptions
+TogglePopoverOptions
+dictionary
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dom.html#togglepopoveroptions
 1
 1
 -
@@ -1144,6 +1249,28 @@ https://www.w3.org/TR/FileAPI/#TooManyReadsFR
 
 1
 -
+ToolAnnotations
+ToolAnnotations
+dictionary
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dictdef-toolannotations
+1
+1
+-
+ToolExecuteCallback
+ToolExecuteCallback
+callback
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#callbackdef-toolexecutecallback
+1
+1
+-
 tooltip attribute
 tooltip attribute
 dfn
@@ -1152,17 +1279,6 @@ accname
 1
 current
 https://w3c.github.io/accname/#dfn-tooltip-attribute
-
-
--
-tooltip attribute
-tooltip attribute
-dfn
-svg-aam-1.0
-svg-aam
-1
-current
-https://w3c.github.io/svg-aam/#dfn-tooltip-attribute
 
 
 -
@@ -1188,6 +1304,30 @@ https://www.w3.org/TR/wai-aria-1.2/#dfn-tooltip-attribute
 
 
 -
+top-level site
+Top-Level Site
+dfn
+attribution
+attribution
+1
+current
+https://w3c.github.io/attribution/#implicit-api-inputs-top-level-site
+
+1
+implicit API inputs
+-
+top-level site
+Top-Level Site
+dfn
+attribution
+attribution
+1
+snapshot
+https://www.w3.org/TR/attribution/#implicit-api-inputs-top-level-site
+
+1
+implicit API inputs
+-
 top-level collections
 top-level collections
 dfn
@@ -1198,17 +1338,6 @@ current
 https://wicg.github.io/webhid/#dfn-top-level-collections
 
 
--
-TopLevelStorageAccessPermissionDescriptor
-TopLevelStorageAccessPermissionDescriptor
-dictionary
-requeststorageaccessfor
-requeststorageaccessfor
-1
-current
-https://privacycg.github.io/requestStorageAccessFor/#dictdef-toplevelstorageaccesspermissiondescriptor
-1
-1
 -
 torch
 torch
@@ -1346,17 +1475,41 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssunparsedvalue-tokens-slot
 1
 CSSUnparsedValue
 -
-[[touchevents]]
-[[touchEvents]]
-dfn
-gamepad-extensions
-gamepad-extensions
+[[total duration]]
+[[total duration]]
+attribute
+webaudio-1.0
+webaudio
 1
 current
-https://w3c.github.io/gamepad/extensions.html#dfn-touchevents
-
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-total-duration-slot
 1
-Gamepad
+1
+AudioPlaybackStats
+-
+[[total duration]]
+[[total duration]]
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-total-duration-slot
+1
+1
+AudioPlaybackStats
+-
+[[total frames duration]]
+[[total frames duration]]
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dfn-total-frames-duration
+1
+
+AudioPlayoutStats
 -
 [[touched]]
 [[touched]]
@@ -1382,18 +1535,66 @@ https://www.w3.org/TR/gamepad/#dfn-touched
 1
 GamepadButton
 -
+[[touches]]
+[[touches]]
+attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-touches
+
+1
+Gamepad
+-
+[[touches]]
+[[touches]]
+attribute
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-touches
+
+1
+Gamepad
+-
 to
 to
 value
-css-shapes-2
+css-shapes-1
 css-shapes
-2
+1
 current
-https://drafts.csswg.org/css-shapes-2/#valdef-shape-to
+https://drafts.csswg.org/css-shapes-1/#valdef-shape-to
 1
 1
 shape()
-<by-to>
+<command-end-point>
+-
+to
+to
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationtransition-to
+1
+1
+NavigationTransition
+-
+to
+to
+dfn
+infra
+infra
+1
+current
+https://infra.spec.whatwg.org/#list-slice-to
+1
+1
+list/slice
 -
 to
 to
@@ -1417,6 +1618,19 @@ current
 https://svgwg.org/specs/animations/#ToAttribute
 
 1
+-
+to
+to
+value
+css-shapes-1
+css-shapes
+1
+snapshot
+https://www.w3.org/TR/css-shapes-1/#valdef-shape-to
+1
+1
+shape()
+<command-end-point>
 -
 to WGSL type
 to WGSL type
@@ -1546,6 +1760,18 @@ https://wicg.github.io/observable/#dom-observable-toarray
 1
 Observable
 -
+toBase64(options)
+toBase64(options)
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tobase64
+1
+1
+Uint8Array
+-
 toBlob(callback, type, quality)
 toBlob(callback, type, quality)
 method
@@ -1661,7 +1887,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-tofloat32array
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-tofloat32array
 1
 1
 DOMMatrixReadOnly
@@ -1685,7 +1911,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-tofloat64array
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-tofloat64array
 1
 1
 DOMMatrixReadOnly
@@ -1714,6 +1940,18 @@ https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browser
 1
 Date
 -
+toHex()
+toHex()
+method
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tohex
+1
+1
+Uint8Array
+-
 toISOString()
 toISOString()
 method
@@ -1726,6 +1964,90 @@ https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tois
 1
 Date
 -
+tojson
+toJSON
+dfn
+paint-timing
+paint-timing
+1
+current
+https://w3c.github.io/paint-timing/#performancepainttiming-tojson
+1
+1
+PerformancePaintTiming
+-
+tojson
+toJSON
+dfn
+performance-timeline
+performance-timeline
+1
+current
+https://w3c.github.io/performance-timeline/#performanceentry-tojson
+1
+1
+PerformanceEntry
+-
+tojson
+toJSON
+dfn
+resource-timing
+resource-timing
+1
+current
+https://w3c.github.io/resource-timing/#performanceresourcetiming-tojson
+1
+1
+PerformanceResourceTiming
+-
+tojson
+toJSON
+dfn
+server-timing
+server-timing
+1
+current
+https://w3c.github.io/server-timing/#performanceservertiming-tojson
+1
+1
+PerformanceServerTiming
+-
+tojson
+toJSON
+dfn
+paint-timing
+paint-timing
+1
+snapshot
+https://www.w3.org/TR/paint-timing/#performancepainttiming-tojson
+1
+1
+PerformancePaintTiming
+-
+tojson
+toJSON
+dfn
+resource-timing
+resource-timing
+1
+snapshot
+https://www.w3.org/TR/resource-timing/#performanceresourcetiming-tojson
+1
+1
+PerformanceResourceTiming
+-
+tojson
+toJSON
+dfn
+server-timing
+server-timing
+1
+snapshot
+https://www.w3.org/TR/server-timing/#performanceservertiming-tojson
+1
+1
+PerformanceServerTiming
+-
 toJSON()
 toJSON()
 method
@@ -1733,7 +2055,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-tojson
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-tojson
 1
 1
 DOMMatrixReadOnly
@@ -1745,7 +2067,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dompointreadonly-tojson
+https://drafts.csswg.org/geometry-1/#dom-dompointreadonly-tojson
 1
 1
 DOMPointReadOnly
@@ -1757,7 +2079,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-domquad-tojson
+https://drafts.csswg.org/geometry-1/#dom-domquad-tojson
 1
 1
 DOMQuad
@@ -1769,7 +2091,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-tojson
+https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-tojson
 1
 1
 DOMRectReadOnly
@@ -1809,6 +2131,18 @@ https://w3c.github.io/contact-picker/#dom-contactaddress-tojson
 1
 1
 ContactAddress
+-
+toJSON()
+toJSON()
+method
+element-timing
+element-timing
+1
+current
+https://w3c.github.io/element-timing/#dom-performanceelementtiming-tojson
+1
+1
+PerformanceElementTiming
 -
 toJSON()
 toJSON()
@@ -1857,6 +2191,17 @@ https://w3c.github.io/hr-time/#dom-performance-tojson
 1
 1
 Performance
+-
+tojson()
+toJSON()
+dfn
+hr-time-3
+hr-time
+3
+current
+https://w3c.github.io/hr-time/#tojson
+1
+1
 -
 toJSON()
 toJSON()
@@ -1969,6 +2314,78 @@ PerformanceTiming
 toJSON()
 toJSON()
 method
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#dom-performancetimingconfidence-tojson
+1
+1
+PerformanceTimingConfidence
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancenavigation-tojson
+1
+1
+PerformanceNavigation
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancenavigationtiming-tojson
+1
+1
+PerformanceNavigationTiming
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancetiming-tojson
+1
+1
+PerformanceTiming
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+current
+https://w3c.github.io/navigation-timing/#performancetimingconfidence-tojson
+1
+1
+PerformanceTimingConfidence
+-
+toJSON()
+toJSON()
+method
+paint-timing
+paint-timing
+1
+current
+https://w3c.github.io/paint-timing/#dom-performancepainttiming-tojson
+1
+1
+PerformancePaintTiming
+-
+toJSON()
+toJSON()
+method
 performance-timeline
 performance-timeline
 1
@@ -1989,30 +2406,6 @@ https://w3c.github.io/push-api/#dom-pushsubscription-tojson
 1
 1
 PushSubscription
--
-toJSON()
-toJSON()
-method
-reporting-1
-reporting
-1
-current
-https://w3c.github.io/reporting/#dom-report-tojson
-1
-1
-Report
--
-toJSON()
-toJSON()
-method
-reporting-1
-reporting
-1
-current
-https://w3c.github.io/reporting/#dom-reportbody-tojson
-1
-1
-ReportBody
 -
 toJSON()
 toJSON()
@@ -2077,18 +2470,6 @@ TrustedScriptURL
 toJSON()
 toJSON()
 method
-csp3
-csp
-3
-current
-https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-tojson
-1
-1
-CSPViolationReportBody
--
-toJSON()
-toJSON()
-method
 permissions-policy-1
 permissions-policy
 1
@@ -2149,6 +2530,30 @@ RTCSessionDescription
 toJSON()
 toJSON()
 method
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-tojson
+1
+1
+AudioPlaybackStats
+-
+toJSON()
+toJSON()
+method
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-tojson
+1
+1
+AudioPlaybackStats
+-
+toJSON()
+toJSON()
+method
 csp-next
 csp-next
 1
@@ -2169,18 +2574,6 @@ https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-tojson
 1
 1
 DeprecationReportBody
--
-toJSON()
-toJSON()
-method
-element-timing
-element-timing
-1
-current
-https://wicg.github.io/element-timing/#dom-performanceelementtiming-tojson
-1
-1
-PerformanceElementTiming
 -
 toJSON()
 toJSON()
@@ -2209,6 +2602,18 @@ LayoutShift
 toJSON()
 toJSON()
 method
+soft-navigations
+soft-navigations
+1
+current
+https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-tojson
+1
+1
+InteractionContentfulPaint
+-
+toJSON()
+toJSON()
+method
 ua-client-hints
 ua-client-hints
 1
@@ -2229,18 +2634,6 @@ https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-tojson
 1
 1
 NavigatorUAData
--
-toJSON()
-toJSON()
-method
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#dom-cspviolationreportbody-tojson
-1
-1
-CSPViolationReportBody
 -
 toJSON()
 toJSON()
@@ -2362,6 +2755,17 @@ https://www.w3.org/TR/hr-time-3/#dom-performance-tojson
 1
 Performance
 -
+tojson()
+toJSON()
+dfn
+hr-time-3
+hr-time
+3
+snapshot
+https://www.w3.org/TR/hr-time-3/#tojson
+1
+1
+-
 toJSON()
 toJSON()
 method
@@ -2373,6 +2777,30 @@ https://www.w3.org/TR/largest-contentful-paint/#dom-largestcontentfulpaint-tojso
 1
 1
 LargestContentfulPaint
+-
+toJSON()
+toJSON()
+method
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-performancelonganimationframetiming-tojson
+1
+1
+PerformanceLongAnimationFrameTiming
+-
+toJSON()
+toJSON()
+method
+long-animation-frames
+long-animation-frames
+1
+snapshot
+https://www.w3.org/TR/long-animation-frames/#dom-performancescripttiming-tojson
+1
+1
+PerformanceScriptTiming
 -
 toJSON()
 toJSON()
@@ -2449,6 +2877,78 @@ PerformanceTiming
 toJSON()
 toJSON()
 method
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#dom-performancetimingconfidence-tojson
+1
+1
+PerformanceTimingConfidence
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancenavigation-tojson
+1
+1
+PerformanceNavigation
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancenavigationtiming-tojson
+1
+1
+PerformanceNavigationTiming
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetiming-tojson
+1
+1
+PerformanceTiming
+-
+tojson()
+toJSON()
+dfn
+navigation-timing-2
+navigation-timing
+2
+snapshot
+https://www.w3.org/TR/navigation-timing-2/#performancetimingconfidence-tojson
+1
+1
+PerformanceTimingConfidence
+-
+toJSON()
+toJSON()
+method
+paint-timing
+paint-timing
+1
+snapshot
+https://www.w3.org/TR/paint-timing/#dom-performancepainttiming-tojson
+1
+1
+PerformancePaintTiming
+-
+toJSON()
+toJSON()
+method
 performance-timeline
 performance-timeline
 1
@@ -2481,30 +2981,6 @@ https://www.w3.org/TR/push-api/#dom-pushsubscription-tojson
 1
 1
 PushSubscription
--
-toJSON()
-toJSON()
-method
-reporting-1
-reporting
-1
-snapshot
-https://www.w3.org/TR/reporting-1/#dom-report-tojson
-1
-1
-Report
--
-toJSON()
-toJSON()
-method
-reporting-1
-reporting
-1
-snapshot
-https://www.w3.org/TR/reporting-1/#dom-reportbody-tojson
-1
-1
-ReportBody
 -
 toJSON()
 toJSON()
@@ -2909,7 +3385,7 @@ web-nfc
 web-nfc
 1
 current
-https://w3c.github.io/web-nfc/#dom-ndefrecord-torecords
+https://w3c-cg.github.io/web-nfc/#dom-ndefrecord-torecords
 1
 1
 NDEFRecord
@@ -3320,17 +3796,6 @@ https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-tog
 1
 html-global/popovertargetaction
 -
-toggle
-toggle
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction-toggle-state
-
-1
--
 toggle lists
 toggle lists
 dfn
@@ -3399,6 +3864,18 @@ https://dom.spec.whatwg.org/#dom-domtokenlist-toggle
 1
 DOMTokenList
 -
+toggle-popover
+toggle-popover
+attr-value
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-toggle-popover
+1
+1
+html-global/command
+-
 toggleAttribute(qualifiedName)
 toggleAttribute(qualifiedName)
 method
@@ -3423,8 +3900,8 @@ https://dom.spec.whatwg.org/#dom-element-toggleattribute
 1
 Element
 -
-togglePopover(force)
-togglePopover(force)
+togglePopover(options)
+togglePopover(options)
 method
 html
 html
@@ -3603,6 +4080,18 @@ https://urlpattern.spec.whatwg.org/#token
 -
 token
 token
+dict-member
+fedcm-1
+fedcm
+1
+current
+https://w3c-fedid.github.io/FedCM/#dom-identityassertionresponse-token
+1
+1
+IdentityAssertionResponse
+-
+token
+token
 attribute
 fedcm-1
 fedcm
@@ -3615,15 +4104,27 @@ IdentityCredential
 -
 token
 token
-dict-member
+argument
 fedcm-1
 fedcm
 1
 current
-https://w3c-fedid.github.io/FedCM/#dom-identityprovidertoken-token
+https://w3c-fedid.github.io/FedCM/#dom-identityprovider-resolve-token-options-token
 1
 1
-IdentityProviderToken
+IdentityProvider/resolve(token, options)
+IdentityProvider/resolve(token)
+-
+token
+token
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+current
+https://w3c.github.io/dx-connegp/connegp/#dfn-token
+
+1
 -
 token
 token
@@ -3633,6 +4134,17 @@ wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#token
+
+1
+-
+token
+token
+dfn
+dx-prof-conneg
+dx-prof-conneg
+1
+snapshot
+https://www.w3.org/TR/dx-prof-conneg/#dfn-token
 
 1
 -
@@ -3840,7 +4352,7 @@ webauthn-3
 webauthn
 3
 snapshot
-https://www.w3.org/TR/webauthn-3/#collectedclientdata-tokenbinding
+https://www.w3.org/TR/webauthn-3/#dom-collectedclientdata-tokenbinding
 
 1
 CollectedClientData
@@ -3952,9 +4464,9 @@ https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-window-open
 tokenizer
 tokenizer
 dfn
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#tokenizer
 
@@ -3976,20 +4488,9 @@ tokenizer
 dfn
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/grammar.html#x3
-1
-1
--
-tokenizer
-tokenizer
-dfn
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/grammar.html#x3
+https://www.w3.org/TR/CSS2/grammar.html#x3
 1
 1
 -
@@ -4130,6 +4631,78 @@ RTCDTMFToneChangeEventInit
 tone
 tone
 attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewriter-tone
+1
+1
+Rewriter
+-
+tone
+tone
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-rewritercreatecoreoptions-tone
+1
+1
+RewriterCreateCoreOptions
+-
+tone
+tone
+attribute
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writer-tone
+1
+1
+Writer
+-
+tone
+tone
+dict-member
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#dom-writercreatecoreoptions-tone
+1
+1
+WriterCreateCoreOptions
+-
+tone
+tone
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#rewriter-tone
+
+1
+Rewriter
+-
+tone
+tone
+dfn
+writing-assistance-apis
+writing-assistance-apis
+1
+current
+https://webmachinelearning.github.io/writing-assistance-apis/#writer-tone
+
+1
+Writer
+-
+tone
+tone
+attribute
 webrtc
 webrtc
 1
@@ -4218,7 +4791,7 @@ webrtc
 1
 current
 https://w3c.github.io/webrtc-pc/#event-RTCDTMFSender-tonechange
-1
+
 
 RTCDTMFSender
 -
@@ -4270,6 +4843,65 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-vali
 1
 ValidityState
 -
+tool
+tool
+argument
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#dom-modelcontext-registertool-tool-options-tool
+1
+1
+ModelContext/registerTool(tool, options)
+ModelContext/registerTool(tool)
+-
+tool definition
+tool definition
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#tool-definition
+
+1
+-
+tool is visible to an origin
+tool is visible to an origin
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#tool-is-visible-to-an-origin
+
+1
+-
+tool map
+tool map
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#model-context-tool-map
+
+1
+model context
+-
+tool map
+tool map
+dfn
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#observation-tool-map
+
+1
+observation
+-
 toolbar
 toolbar
 attribute
@@ -4281,6 +4913,53 @@ https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-toolbar
 1
 1
 Window
+-
+toolchange
+toolchange
+event
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#eventdef-modelcontext-toolchange
+1
+1
+ModelContext
+-
+tools
+tools
+dict-member
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelcreatecoreoptions-tools
+1
+1
+LanguageModelCreateCoreOptions
+-
+tools
+tools
+dfn
+prompt-api
+prompt-api
+1
+current
+https://webmachinelearning.github.io/prompt-api/#languagemodel-tools
+
+1
+LanguageModel
+-
+tools
+tools
+permission
+webmcp
+webmcp
+1
+current
+https://webmachinelearning.github.io/webmcp/#permissiondef-tools
+1
+1
 -
 top
 top
@@ -4322,11 +5001,35 @@ position-area
 top
 top
 value
+css-anchor-position-2
+css-anchor-position
+2
+current
+https://drafts.csswg.org/css-anchor-position-2/#valdef-position-area-query-top
+1
+1
+<position-area-query>
+-
+top
+top
+value
 css-backgrounds-3
 css-backgrounds
 3
 current
 https://drafts.csswg.org/css-backgrounds-3/#valdef-background-position-top
+1
+1
+background-position
+-
+top
+top
+value
+css-backgrounds-4
+css-backgrounds
+4
+current
+https://drafts.csswg.org/css-backgrounds-4/#valdef-background-position-top
 1
 1
 background-position
@@ -4350,10 +5053,22 @@ css-conditional-5
 css-conditional
 5
 current
-https://drafts.csswg.org/css-conditional-5/#valdef-container-overflowing-top
+https://drafts.csswg.org/css-conditional-5/#valdef-container-scrollable-top
 1
 1
-@container/overflowing
+@container/scrollable
+-
+top
+top
+value
+css-conditional-5
+css-conditional
+5
+current
+https://drafts.csswg.org/css-conditional-5/#valdef-container-scrolled-top
+1
+1
+@container/scrolled
 -
 top
 top
@@ -4417,14 +5132,15 @@ https://drafts.csswg.org/css-position-3/#propdef-top
 -
 top
 top
-dfn
+value
 css-tables-3
 css-tables
 3
 current
-https://drafts.csswg.org/css-tables-3/#caption-side-top
-
+https://drafts.csswg.org/css-tables-3/#valdef-caption-side-top
 1
+1
+caption-side
 -
 top
 top
@@ -4487,9 +5203,9 @@ https://drafts.csswg.org/css-writing-modes-4/#physical-top
 top
 top
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-top
 1
@@ -4498,9 +5214,9 @@ https://drafts.csswg.org/css2/#propdef-top
 top
 top
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-background-position-top
 1
@@ -4510,9 +5226,9 @@ background-position
 top
 top
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-caption-side-top
 1
@@ -4522,9 +5238,9 @@ caption-side
 top
 top
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-vertical-align-top
 1
@@ -4562,7 +5278,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-domrect-top
+https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-domrect-top
 1
 1
 DOMRectReadOnly DOMRect
@@ -4574,7 +5290,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-top
+https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-top
 1
 1
 DOMRectReadOnly
@@ -4605,6 +5321,18 @@ Window
 -
 top
 top
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintmarginparameters-top
+
+1
+browsingContext.PrintMarginParameters
+-
+top
+top
 attribute
 window-management
 window-management
@@ -4620,31 +5348,9 @@ top
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/visuren.html#propdef-top
-1
-1
--
-top
-top
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/visuren.html#propdef-top
-1
-1
--
-top
-top
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/visuren.html#propdef-top
+https://www.w3.org/TR/CSS2/visuren.html#propdef-top
 1
 1
 -
@@ -4688,6 +5394,18 @@ position-area
 top
 top
 value
+css-anchor-position-2
+css-anchor-position
+2
+snapshot
+https://www.w3.org/TR/css-anchor-position-2/#valdef-position-area-query-top
+1
+1
+<position-area-query>
+-
+top
+top
+value
 css-backgrounds-3
 css-backgrounds
 3
@@ -4696,6 +5414,66 @@ https://www.w3.org/TR/css-backgrounds-3/#valdef-background-position-top
 1
 1
 background-position
+-
+top
+top
+value
+css-backgrounds-4
+css-backgrounds
+4
+snapshot
+https://www.w3.org/TR/css-backgrounds-4/#valdef-background-position-top
+1
+1
+background-position
+-
+top
+top
+value
+css-borders-4
+css-borders
+4
+snapshot
+https://www.w3.org/TR/css-borders-4/#valdef-border-limit-top
+1
+1
+border-limit
+-
+top
+top
+value
+css-conditional-5
+css-conditional
+5
+snapshot
+https://www.w3.org/TR/css-conditional-5/#valdef-container-scrollable-top
+1
+1
+@container/scrollable
+-
+top
+top
+value
+css-conditional-5
+css-conditional
+5
+snapshot
+https://www.w3.org/TR/css-conditional-5/#valdef-container-scrolled-top
+1
+1
+@container/scrolled
+-
+top
+top
+value
+css-conditional-5
+css-conditional
+5
+snapshot
+https://www.w3.org/TR/css-conditional-5/#valdef-container-stuck-top
+1
+1
+@container/stuck
 -
 top
 top
@@ -4747,14 +5525,15 @@ https://www.w3.org/TR/css-position-3/#propdef-top
 -
 top
 top
-dfn
+value
 css-tables-3
 css-tables
 3
 snapshot
-https://www.w3.org/TR/css-tables-3/#caption-side-top
-
+https://www.w3.org/TR/css-tables-3/#valdef-caption-side-top
 1
+1
+caption-side
 -
 top
 top
@@ -4864,6 +5643,18 @@ DOMRectReadOnly
 -
 top
 top
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintmarginparameters-top
+
+1
+browsingContext.PrintMarginParameters
+-
+top
+top
 attribute
 window-management
 window-management
@@ -4874,17 +5665,17 @@ https://www.w3.org/TR/window-management/#dom-screendetailed-top
 1
 ScreenDetailed
 -
-top 5 topics with caller domains
-top 5 topics with caller domains
+top k
+top K
 dfn
-topics
-topics
+prompt-api
+prompt-api
 1
 current
-https://patcg-individual-drafts.github.io/topics/#epoch-top-5-topics-with-caller-domains
+https://webmachinelearning.github.io/prompt-api/#languagemodel-top-k
 
 1
-epoch
+LanguageModel
 -
 top accent attachment
 top accent attachment
@@ -4908,18 +5699,6 @@ https://www.w3.org/TR/mathml-core/#dfn-top-accent-attachment
 
 1
 -
-top bids count
-top bids count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-top-bids-count
-
-1
-leading bid info
--
 top layer
 top layer
 dfn
@@ -4928,6 +5707,18 @@ css-position
 4
 current
 https://drafts.csswg.org/css-position-4/#document-top-layer
+1
+1
+Document
+-
+top layer
+top layer
+dfn
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#document-top-layer
 1
 1
 Document
@@ -4943,125 +5734,16 @@ https://drafts.csswg.org/css-position-4/#top-layer-root
 1
 1
 -
-top level context domain
-top level context domain
+top layer root
+top layer root
 dfn
-topics
-topics
+css-position-4
+css-position
+4
+snapshot
+https://www.w3.org/TR/css-position-4/#top-layer-root
 1
-current
-https://patcg-individual-drafts.github.io/topics/#topics-caller-context-top-level-context-domain
-
 1
-topics caller context
--
-top level origin
-top level origin
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#trusted-scoring-signals-request-top-level-origin
-
-1
-trusted scoring signals request
--
-top level seller
-top level seller
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-top-level-seller
-
-1
-leading bid info
--
-top level seller
-top level seller
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-top-level-seller
-
-1
-server auction response
--
-top level seller debug loss report url
-top level seller debug loss report url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-debug-reporting-info-top-level-seller-debug-loss-report-url
-
-1
-bid debug reporting info
--
-top level seller debug win report url
-top level seller debug win report url
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#bid-debug-reporting-info-top-level-seller-debug-win-report-url
-
-1
-bid debug reporting info
--
-top level seller reporting
-top level seller reporting
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#server-auction-response-top-level-seller-reporting
-
-1
-server auction response
--
-top level seller signals
-top level seller signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-top-level-seller-signals
-
-1
-leading bid info
--
-top non-k-anon-enforced bids count
-top non-k-anon-enforced bids count
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-top-non-k-anon-enforced-bids-count
-
-1
-leading bid info
--
-top non-k-anon-enforced score
-top non-k-anon-enforced score
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-top-non-k-anon-enforced-score
-
-1
-leading bid info
 -
 top of the document
 top of the document
@@ -5074,18 +5756,6 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#top-of-the-document
 
 1
 -
-top score
-top score
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#leading-bid-info-top-score
-
-1
-leading bid info
--
 top-level
 top-level
 dfn
@@ -5097,6 +5767,28 @@ https://privacycg.github.io/storage-access/#permission-key-top-level
 
 1
 permission key
+-
+top-level xml document element
+top-level XML document element
+dfn
+rdf12-xml
+rdf-xml
+1
+current
+https://w3c.github.io/rdf-xml/spec/#dfn-top-level-xml-document-element
+
+1
+-
+top-level xml document element
+top-level XML document element
+dfn
+rdf12-xml
+rdf-xml
+1
+snapshot
+https://www.w3.org/TR/rdf12-xml/#dfn-top-level-xml-document-element
+
+1
 -
 top-level browsing context
 top-level browsing context
@@ -5156,11 +5848,33 @@ https://w3c.github.io/epub-specs/epub33/core/#dfn-top-level-content-document
 top-level content document
 top-level content document
 dfn
+epub-34
+epub
+1
+current
+https://w3c.github.io/epub-specs/epub34/authoring/#dfn-top-level-content-document
+1
+1
+-
+top-level content document
+top-level content document
+dfn
 epub-33
 epub
 1
 snapshot
 https://www.w3.org/TR/epub-33/#dfn-top-level-content-document
+1
+1
+-
+top-level content document
+top-level content document
+dfn
+epub-34
+epub
+1
+snapshot
+https://www.w3.org/TR/epub-34/#dfn-top-level-content-document
 1
 1
 -
@@ -5195,17 +5909,6 @@ svg-integration
 1
 snapshot
 https://www.w3.org/TR/svg-integration/#top-level-document-mode
-1
-1
--
-top-level element
-top-level element
-dfn
-css-scoping-1
-css-scoping
-1
-snapshot
-https://www.w3.org/TR/css-scoping-1/#top-level-element
 1
 1
 -
@@ -5254,6 +5957,18 @@ https://html.spec.whatwg.org/multipage/microdata.html#top-level-microdata-items
 
 1
 -
+top-level navigation initiator origin
+top-level navigation initiator origin
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#request-top-level-navigation-initiator-origin
+1
+1
+request
+-
 top-level origin
 top-level origin
 dfn
@@ -5265,6 +5980,30 @@ https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-top-l
 1
 1
 environment
+-
+top-level origin
+top-level origin
+dfn
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dfn-top-level-origin
+
+1
+request context
+-
+top-level origin
+top-level origin
+dfn
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dfn-top-level-origin
+
+1
+request context
 -
 top-level traversable
 top-level traversable
@@ -5324,6 +6063,30 @@ https://wicg.github.io/fenced-frame/#top-level-traversable
 
 1
 -
+top-level traversable ids
+top-level traversable ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#subscription-top-level-traversable-ids
+
+1
+subscription
+-
+top-level traversable ids
+top-level traversable ids
+dfn
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#subscription-top-level-traversable-ids
+
+1
+subscription
+-
 top-level traversable set
 top-level traversable set
 dfn
@@ -5336,76 +6099,53 @@ https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-travers
 1
 user agent
 -
-top-level-storage-access
-top-level-storage-access
-permission
-requeststorageaccessfor
-requeststorageaccessfor
+top-to-bottom
+top-to-bottom
+value
+css-forms-1
+css-forms
 1
 current
-https://privacycg.github.io/requestStorageAccessFor/#permissiondef-top-level-storage-access
+https://drafts.csswg.org/css-forms-1/#valdef-slider-orientation-top-to-bottom
 1
 1
+slider-orientation
 -
-topLevelSeller
-topLevelSeller
-dict-member
-turtledove
-turtledove
+top-to-bottom
+top-to-bottom
+value
+css-forms-1
+css-forms
 1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-toplevelseller
+snapshot
+https://www.w3.org/TR/css-forms-1/#valdef-slider-orientation-top-to-bottom
 1
 1
-BiddingBrowserSignals
+slider-orientation
 -
-topLevelSeller
-topLevelSeller
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-toplevelseller
-1
-1
-ReportingBrowserSignals
--
-topLevelSellerSignals
-topLevelSellerSignals
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportresultbrowsersignals-toplevelsellersignals
-1
-1
-ReportResultBrowserSignals
--
-topOrigin
-topOrigin
+topK
+topK
 attribute
-payment-handler
-payment-handler
+prompt-api
+prompt-api
 1
 current
-https://w3c.github.io/payment-handler/#dom-paymentrequestevent-toporigin
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodel-topk
 1
 1
-PaymentRequestEvent
+LanguageModel
 -
-topOrigin
-topOrigin
+topK
+topK
 dict-member
-payment-handler
-payment-handler
+prompt-api
+prompt-api
 1
 current
-https://w3c.github.io/payment-handler/#dom-paymentrequesteventinit-toporigin
+https://webmachinelearning.github.io/prompt-api/#dom-languagemodelcreatecoreoptions-topk
 1
 1
-PaymentRequestEventInit
+LanguageModelCreateCoreOptions
 -
 topOrigin
 topOrigin
@@ -5433,6 +6173,30 @@ CollectedClientAdditionalPaymentData
 -
 topOrigin
 topOrigin
+attribute
+web-based-payment-handler
+web-based-payment-handler
+1
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestevent-toporigin
+1
+1
+PaymentRequestEvent
+-
+topOrigin
+topOrigin
+dict-member
+web-based-payment-handler
+web-based-payment-handler
+1
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequesteventinit-toporigin
+1
+1
+PaymentRequestEventInit
+-
+topOrigin
+topOrigin
 dict-member
 webauthn-3
 webauthn
@@ -5442,30 +6206,6 @@ https://w3c.github.io/webauthn/#dom-collectedclientdata-toporigin
 1
 1
 CollectedClientData
--
-topOrigin
-topOrigin
-attribute
-payment-handler
-payment-handler
-1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestevent-toporigin
-1
-1
-PaymentRequestEvent
--
-topOrigin
-topOrigin
-dict-member
-payment-handler
-payment-handler
-1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequesteventinit-toporigin
-1
-1
-PaymentRequestEventInit
 -
 topOrigin
 topOrigin
@@ -5493,6 +6233,30 @@ CollectedClientAdditionalPaymentData
 -
 topOrigin
 topOrigin
+attribute
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestevent-toporigin
+1
+1
+PaymentRequestEvent
+-
+topOrigin
+topOrigin
+dict-member
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequesteventinit-toporigin
+1
+1
+PaymentRequestEventInit
+-
+topOrigin
+topOrigin
 dict-member
 webauthn-3
 webauthn
@@ -5502,162 +6266,6 @@ https://www.w3.org/TR/webauthn-3/#dom-collectedclientdata-toporigin
 1
 1
 CollectedClientData
--
-topWindowHostname
-topWindowHostname
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-biddingbrowsersignals-topwindowhostname
-1
-1
-BiddingBrowserSignals
--
-topWindowHostname
-topWindowHostname
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-reportingbrowsersignals-topwindowhostname
-1
-1
-ReportingBrowserSignals
--
-topWindowHostname
-topWindowHostname
-dict-member
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#dom-scoringbrowsersignals-topwindowhostname
-1
-1
-ScoringBrowserSignals
--
-topic
-topic
-dict-member
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#dom-browsingtopic-topic
-1
-1
-BrowsingTopic
--
-topic id
-topic id
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#topic-with-caller-domains-topic-id
-
-1
-topic with caller domains
--
-topic ids
-topic ids
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-topic-ids
-
-1
-browsing topics types
--
-topic with caller domains
-topic with caller domains
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-topic-with-caller-domains
-
-1
-browsing topics types
--
-topics calculation input data
-topics calculation input data
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#determine-topics-calculation-input-data-header-topics-calculation-input-data
-
-1
-determine-topics-calculation-input-data-header
--
-topics calculation input data
-topics calculation input data
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#topics-history-entry-topics-calculation-input-data
-
-1
-topics history entry
--
-topics caller context
-topics caller context
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-topics-caller-context
-
-1
-browsing topics types
--
-topics caller domains
-topics caller domains
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#topics-history-entry-topics-caller-domains
-
-1
-topics history entry
--
-topics history entry
-topics history entry
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#browsing-topics-types-topics-history-entry
-
-1
-browsing topics types
--
-topics history storage
-topics history storage
-dfn
-topics
-topics
-1
-current
-https://patcg-individual-drafts.github.io/topics/#user-agent-topics-history-storage
-
-1
-user agent
 -
 topmargin
 topmargin
@@ -5685,24 +6293,24 @@ https://html.spec.whatwg.org/multipage/popover.html#topmost-clicked-popover
 topmost event target
 topmost event target
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 current
-https://w3c.github.io/uievents/#topmost-event-target
-
+https://w3c.github.io/pointerevents/#dfn-topmost-event-target
 1
+
 -
 topmost event target
 topmost event target
 dfn
-uievents
-uievents
-1
+pointerevents4
+pointerevents
+4
 snapshot
-https://www.w3.org/TR/uievents/#topmost-event-target
-
+https://www.w3.org/TR/pointerevents4/#dfn-topmost-event-target
 1
+
 -
 topmost popover ancestor
 topmost popover ancestor
@@ -5849,42 +6457,6 @@ MediaTrackSupportedConstraints
 total
 total
 dict-member
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequestdetailsupdate-total
-1
-1
-PaymentRequestDetailsUpdate
--
-total
-total
-attribute
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequestevent-total
-1
-1
-PaymentRequestEvent
--
-total
-total
-dict-member
-payment-handler
-payment-handler
-1
-current
-https://w3c.github.io/payment-handler/#dom-paymentrequesteventinit-total
-1
-1
-PaymentRequestEventInit
--
-total
-total
-dict-member
 payment-request
 payment-request
 1
@@ -5945,11 +6517,11 @@ CollectedClientAdditionalPaymentData
 total
 total
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestdetailsupdate-total
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestdetailsupdate-total
 1
 1
 PaymentRequestDetailsUpdate
@@ -5957,11 +6529,11 @@ PaymentRequestDetailsUpdate
 total
 total
 attribute
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequestevent-total
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequestevent-total
 1
 1
 PaymentRequestEvent
@@ -5969,11 +6541,11 @@ PaymentRequestEvent
 total
 total
 dict-member
-payment-handler
-payment-handler
+web-based-payment-handler
+web-based-payment-handler
 1
-snapshot
-https://www.w3.org/TR/payment-handler/#dom-paymentrequesteventinit-total
+current
+https://w3c.github.io/web-based-payment-handler/#dom-paymentrequesteventinit-total
 1
 1
 PaymentRequestEventInit
@@ -6040,6 +6612,42 @@ CollectedClientAdditionalPaymentData
 -
 total
 total
+dict-member
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestdetailsupdate-total
+1
+1
+PaymentRequestDetailsUpdate
+-
+total
+total
+attribute
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequestevent-total
+1
+1
+PaymentRequestEvent
+-
+total
+total
+dict-member
+web-based-payment-handler
+web-based-payment-handler
+1
+snapshot
+https://www.w3.org/TR/web-based-payment-handler/#dom-paymentrequesteventinit-total
+1
+1
+PaymentRequestEventInit
+-
+total
+total
 attribute
 xhr
 xhr
@@ -6091,7 +6699,7 @@ motion-1
 motion
 1
 current
-https://drafts.fxtf.org/motion-1/#total-length
+https://drafts.csswg.org/motion-1/#total-length
 
 1
 -
@@ -6106,6 +6714,39 @@ https://www.w3.org/TR/motion-1/#total-length
 
 1
 -
+total request length
+total request length
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#total-request-length
+
+1
+-
+total retrieved font size
+total retrieved font size
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+current
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-total-retrieved-font-size
+
+1
+-
+total retrieved font size
+total retrieved font size
+dfn
+ttml-imsc1.2
+ttml-imsc
+1
+snapshot
+https://www.w3.org/TR/ttml-imsc1.2/#dfn-total-retrieved-font-size
+
+1
+-
 total video frame count
 total video frame count
 dfn
@@ -6116,18 +6757,6 @@ current
 https://w3c.github.io/media-playback-quality/#dfn-total-video-frame-count
 
 1
--
-total window
-total window
-dfn
-attribution-reporting-api
-attribution-reporting-api
-1
-current
-https://wicg.github.io/attribution-reporting-api/#report-window-list-total-window
-
-1
-report window list
 -
 totalAssemblyTime
 totalAssemblyTime
@@ -6201,6 +6830,30 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcinboundrtpstreamstats-totalaudioenerg
 1
 RTCInboundRtpStreamStats
 -
+totalCorruptionProbability
+totalCorruptionProbability
+dict-member
+webrtc-stats
+webrtc-stats
+1
+current
+https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-totalcorruptionprobability
+1
+1
+RTCInboundRtpStreamStats
+-
+totalCorruptionProbability
+totalCorruptionProbability
+dict-member
+webrtc-stats
+webrtc-stats
+1
+snapshot
+https://www.w3.org/TR/webrtc-stats/#dom-rtcinboundrtpstreamstats-totalcorruptionprobability
+1
+1
+RTCInboundRtpStreamStats
+-
 totalDecodeTime
 totalDecodeTime
 dict-member
@@ -6224,6 +6877,30 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcinboundrtpstreamstats-totaldecodetime
 1
 1
 RTCInboundRtpStreamStats
+-
+totalDuration
+totalDuration
+attribute
+webaudio-1.0
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-totalduration
+1
+1
+AudioPlaybackStats
+-
+totalDuration
+totalDuration
+attribute
+webaudio-1.1
+webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-audioplaybackstats-totalduration
+1
+1
+AudioPlaybackStats
 -
 totalEncodeTime
 totalEncodeTime
@@ -6272,6 +6949,42 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-totalencodedby
 1
 1
 RTCOutboundRtpStreamStats
+-
+totalFrames
+totalFrames
+attribute
+mediacapture-transform
+mediacapture-transform
+1
+current
+https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-totalframes
+1
+1
+MediaStreamTrackProcessor
+-
+totalFrames
+totalFrames
+attribute
+mediacapture-transform
+mediacapture-transform
+1
+snapshot
+https://www.w3.org/TR/mediacapture-transform/#dom-mediastreamtrackprocessor-totalframes
+1
+1
+MediaStreamTrackProcessor
+-
+totalFramesDuration
+totalFramesDuration
+attribute
+audio-context-playout-stats
+audio-context-playout-stats
+1
+current
+https://wicg.github.io/audio-context-playout-stats/#dom-audioplayoutstats-totalframesduration
+1
+
+AudioPlayoutStats
 -
 totalFreezesDuration
 totalFreezesDuration
@@ -6609,6 +7322,30 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcinboundrtpstreamstats-totalsamplesrec
 1
 RTCInboundRtpStreamStats
 -
+totalSquaredCorruptionProbability
+totalSquaredCorruptionProbability
+dict-member
+webrtc-stats
+webrtc-stats
+1
+current
+https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-totalsquaredcorruptionprobability
+1
+1
+RTCInboundRtpStreamStats
+-
+totalSquaredCorruptionProbability
+totalSquaredCorruptionProbability
+dict-member
+webrtc-stats
+webrtc-stats
+1
+snapshot
+https://www.w3.org/TR/webrtc-stats/#dom-rtcinboundrtpstreamstats-totalsquaredcorruptionprobability
+1
+1
+RTCInboundRtpStreamStats
+-
 totalSquaredInterFrameDelay
 totalSquaredInterFrameDelay
 dict-member
@@ -6645,6 +7382,41 @@ https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-totalvide
 1
 VideoPlaybackQuality
 -
+touch
+touch
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-value-inputpointertype-touch
+
+1
+input.PointerType
+-
+touch
+touch
+cddl-value
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-value-inputpointertype-touch
+
+1
+input.PointerType
+-
+touch point
+touch point
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-touch-point
+
+1
+-
 touch point
 touch point
 dfn
@@ -6653,6 +7425,17 @@ touch-events
 1
 current
 https://w3c.github.io/touch-events/#dfn-touch-point
+
+1
+-
+touch point
+touch point
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-touch-point
 
 1
 -
@@ -6670,22 +7453,44 @@ https://www.w3.org/TR/touch-events/#dfn-touch-point
 touch surface
 touch surface
 dfn
-gamepad-extensions
-gamepad-extensions
+gamepad
+gamepad
 1
 current
-https://w3c.github.io/gamepad/extensions.html#dfn-touch-surface
+https://w3c.github.io/gamepad/#dfn-touch-surface
 
 1
 -
-touch surface enumeration order
-touch surface enumeration order
+touch surface
+touch surface
 dfn
-gamepad-extensions
-gamepad-extensions
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-touch-surface
+
+1
+-
+touch surface list
+touch surface list
+dfn
+gamepad
+gamepad
 1
 current
-https://w3c.github.io/gamepad/extensions.html#dfn-touch-surface-enumeration-order
+https://w3c.github.io/gamepad/#dfn-touch-surface-list
+
+1
+-
+touch surface list
+touch surface list
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-touch-surface-list
 
 1
 -
@@ -6713,6 +7518,50 @@ https://dom.spec.whatwg.org/#event-touch-target-list
 1
 Event
 -
+touch x coordinate
+touch x coordinate
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-touch-x-coordinate
+
+1
+-
+touch x coordinate
+touch x coordinate
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-touch-x-coordinate
+
+1
+-
+touch y coordinate
+touch y coordinate
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-touch-y-coordinate
+
+1
+-
+touch y coordinate
+touch y coordinate
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-touch-y-coordinate
+
+1
+-
 touch-action
 touch-action
 property
@@ -6727,11 +7576,22 @@ https://compat.spec.whatwg.org/#propdef-touch-action
 touch-action
 touch-action
 dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-touch-action
+
+1
+-
+touch-action
+touch-action
+dfn
 pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-touch-action
+https://www.w3.org/TR/pointerevents3/#dfn-touch-action
 
 1
 -
@@ -6746,6 +7606,28 @@ https://www.w3.org/TR/pointerevents3/#dfn-touch-action
 
 1
 -
+touch-action
+touch-action
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-touch-action
+
+1
+-
+touch-action values
+touch-action values
+dfn
+pointerevents4
+pointerevents
+4
+current
+https://w3c.github.io/pointerevents/#dfn-touch-action-values
+
+1
+-
 touch-action values
 touch-action values
 dfn
@@ -6753,7 +7635,7 @@ pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-touch-action-values
+https://www.w3.org/TR/pointerevents3/#dfn-touch-action-values
 
 1
 -
@@ -6768,26 +7650,37 @@ https://www.w3.org/TR/pointerevents3/#dfn-touch-action-values
 
 1
 -
-touchEvents
-touchEvents
-attribute
-gamepad-extensions
-gamepad-extensions
+touch-action values
+touch-action values
+dfn
+pointerevents4
+pointerevents
+4
+snapshot
+https://www.w3.org/TR/pointerevents4/#dfn-touch-action-values
+
 1
-current
-https://w3c.github.io/gamepad/extensions.html#dom-gamepad-touchevents
-1
-1
-Gamepad
 -
 touchId
 touchId
-attribute
-gamepad-extensions
-gamepad-extensions
+dict-member
+gamepad
+gamepad
 1
 current
-https://w3c.github.io/gamepad/extensions.html#dom-gamepadtouch-touchid
+https://w3c.github.io/gamepad/#dom-gamepadtouch-touchid
+1
+1
+GamepadTouch
+-
+touchId
+touchId
+dict-member
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dom-gamepadtouch-touchid
 1
 1
 GamepadTouch
@@ -6887,6 +7780,18 @@ https://www.w3.org/TR/touch-events/#dfn-touchend
 touches
 touches
 attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dom-gamepad-touches
+1
+1
+Gamepad
+-
+touches
+touches
+attribute
 touch-events
 touch-events
 1
@@ -6907,6 +7812,18 @@ https://w3c.github.io/touch-events/#dom-toucheventinit-touches
 1
 1
 TouchEventInit
+-
+touches
+touches
+attribute
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dom-gamepad-touches
+1
+1
+Gamepad
 -
 touchmove
 touchmove

@@ -1,3 +1,27 @@
+"orientation"
+"orientation"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-orientation
+
+1
+browsingContext.PrintParameters
+-
+"orientation"
+"orientation"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-orientation
+
+1
+browsingContext.PrintParameters
+-
 "origin"
 "origin"
 enum-value
@@ -23,6 +47,54 @@ https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-origin
 -
 "origin"
 "origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-origin
+
+1
+browsingContext.CaptureScreenshotParameters
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointermoveaction-origin
+
+1
+input.PointerMoveAction
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputwheelscrollaction-origin
+
+1
+input.WheelScrollAction
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptbaserealminfo-origin
+
+1
+script.BaseRealmInfo
+-
+"origin"
+"origin"
 enum-value
 referrer-policy
 referrer-policy
@@ -43,6 +115,54 @@ snapshot
 https://www.w3.org/TR/referrer-policy/#referrer-policy-origin
 1
 1
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-origin
+
+1
+browsingContext.CaptureScreenshotParameters
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointermoveaction-origin
+
+1
+input.PointerMoveAction
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputwheelscrollaction-origin
+
+1
+input.WheelScrollAction
+-
+"origin"
+"origin"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptbaserealminfo-origin
+
+1
+script.BaseRealmInfo
 -
 "origin-when-cross-origin"
 "origin-when-cross-origin"
@@ -89,6 +209,30 @@ snapshot
 https://www.w3.org/TR/referrer-policy/#referrer-policy-origin-when-cross-origin
 1
 1
+-
+"originalOpener"
+"originalOpener"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinfo-originalopener
+
+1
+browsingContext.Info
+-
+"originalOpener"
+"originalOpener"
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinfo-originalopener
+
+1
+browsingContext.Info
 -
 <or/>
 <or/>
@@ -160,6 +304,28 @@ https://dom.spec.whatwg.org/#dom-xpathresult-ordered_node_snapshot_type
 1
 XPathResult
 -
+orchestration
+orchestration
+dfn
+wot-architecture11
+wot-architecture
+1
+current
+https://w3c.github.io/wot-architecture/#dfn-orchestration
+
+
+-
+orchestration
+orchestration
+dfn
+wot-architecture11
+wot-architecture
+1
+snapshot
+https://www.w3.org/TR/wot-architecture11/#dfn-orchestration
+
+
+-
 ordinary
 ordinary
 dfn
@@ -182,8 +348,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryCallBindThis(F, calleeContext, thisArgument)
-OrdinaryCallBindThis(F, calleeContext, thisArgument)
+OrdinaryCallBindThis(func, calleeContext, thisArg)
+OrdinaryCallBindThis(func, calleeContext, thisArg)
 abstract-op
 ecmascript
 ecmascript
@@ -204,8 +370,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryCallEvaluateBody(F, argumentsList)
-OrdinaryCallEvaluateBody(F, argumentsList)
+OrdinaryCallEvaluateBody(func, argList)
+OrdinaryCallEvaluateBody(func, argList)
 abstract-op
 ecmascript
 ecmascript
@@ -226,8 +392,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryCreateFromConstructor(constructor, intrinsicDefaultProto, internalSlotsList)
-OrdinaryCreateFromConstructor(constructor, intrinsicDefaultProto, internalSlotsList)
+OrdinaryCreateFromConstructor(ctor, intrinsicDefaultProto, internalSlotsList)
+OrdinaryCreateFromConstructor(ctor, intrinsicDefaultProto, internalSlotsList)
 abstract-op
 ecmascript
 ecmascript
@@ -248,8 +414,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryDefineOwnProperty(O, P, Desc)
-OrdinaryDefineOwnProperty(O, P, Desc)
+OrdinaryDefineOwnProperty(obj, propertyKey, propertyDesc)
+OrdinaryDefineOwnProperty(obj, propertyKey, propertyDesc)
 abstract-op
 ecmascript
 ecmascript
@@ -270,8 +436,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryDelete(O, P)
-OrdinaryDelete(O, P)
+OrdinaryDelete(obj, propertyKey)
+OrdinaryDelete(obj, propertyKey)
 abstract-op
 ecmascript
 ecmascript
@@ -292,8 +458,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryFunctionCreate(functionPrototype, sourceText, ParameterList, Body, thisMode, env, privateEnv)
-OrdinaryFunctionCreate(functionPrototype, sourceText, ParameterList, Body, thisMode, env, privateEnv)
+OrdinaryFunctionCreate(proto, sourceText, paramList, body, thisMode, envRecord, privateEnv)
+OrdinaryFunctionCreate(proto, sourceText, paramList, body, thisMode, envRecord, privateEnv)
 abstract-op
 ecmascript
 ecmascript
@@ -314,8 +480,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryGet(O, P, Receiver)
-OrdinaryGet(O, P, Receiver)
+OrdinaryGet(obj, propertyKey, receiver)
+OrdinaryGet(obj, propertyKey, receiver)
 abstract-op
 ecmascript
 ecmascript
@@ -336,8 +502,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryGetOwnProperty(O, P)
-OrdinaryGetOwnProperty(O, P)
+OrdinaryGetOwnProperty(obj, propertyKey)
+OrdinaryGetOwnProperty(obj, propertyKey)
 abstract-op
 ecmascript
 ecmascript
@@ -358,8 +524,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryGetPrototypeOf(O)
-OrdinaryGetPrototypeOf(O)
+OrdinaryGetPrototypeOf(obj)
+OrdinaryGetPrototypeOf(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -380,8 +546,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ordinaryhasinstan
 1
 1
 -
-OrdinaryHasInstance(C, O)
-OrdinaryHasInstance(C, O)
+OrdinaryHasInstance(ctor, instance)
+OrdinaryHasInstance(ctor, instance)
 abstract-op
 ecmascript
 ecmascript
@@ -402,8 +568,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryHasProperty(O, P)
-OrdinaryHasProperty(O, P)
+OrdinaryHasProperty(obj, propertyKey)
+OrdinaryHasProperty(obj, propertyKey)
 abstract-op
 ecmascript
 ecmascript
@@ -424,8 +590,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryIsExtensible(O)
-OrdinaryIsExtensible(O)
+OrdinaryIsExtensible(obj)
+OrdinaryIsExtensible(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -468,8 +634,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryOwnPropertyKeys(O)
-OrdinaryOwnPropertyKeys(O)
+OrdinaryOwnPropertyKeys(obj)
+OrdinaryOwnPropertyKeys(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -490,8 +656,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinaryPreventExtensions(O)
-OrdinaryPreventExtensions(O)
+OrdinaryPreventExtensions(obj)
+OrdinaryPreventExtensions(obj)
 abstract-op
 ecmascript
 ecmascript
@@ -512,8 +678,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinarySet(O, P, V, Receiver)
-OrdinarySet(O, P, V, Receiver)
+OrdinarySet(obj, propertyKey, value, receiver)
+OrdinarySet(obj, propertyKey, value, receiver)
 abstract-op
 ecmascript
 ecmascript
@@ -534,8 +700,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinarySetPrototypeOf(O, V)
-OrdinarySetPrototypeOf(O, V)
+OrdinarySetPrototypeOf(obj, proto)
+OrdinarySetPrototypeOf(obj, proto)
 abstract-op
 ecmascript
 ecmascript
@@ -556,8 +722,8 @@ https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#se
 1
 1
 -
-OrdinarySetWithOwnDescriptor(O, P, V, Receiver, ownDesc)
-OrdinarySetWithOwnDescriptor(O, P, V, Receiver, ownDesc)
+OrdinarySetWithOwnDescriptor(obj, propertyKey, value, receiver, ownDesc)
+OrdinarySetWithOwnDescriptor(obj, propertyKey, value, receiver, ownDesc)
 abstract-op
 ecmascript
 ecmascript
@@ -578,8 +744,8 @@ https://tc39.es/ecma262/multipage/abstract-operations.html#sec-ordinarytoprimiti
 1
 1
 -
-OrdinaryToPrimitive(O, hint)
-OrdinaryToPrimitive(O, hint)
+OrdinaryToPrimitive(obj, hint)
+OrdinaryToPrimitive(obj, hint)
 abstract-op
 ecmascript
 ecmascript
@@ -732,15 +898,15 @@ https://fetch.spec.whatwg.org/#http-origin
 1
 1
 -
-origin rate-limit window
-origin rate-limit window
-dfn
-attribution-reporting-api
-attribution-reporting-api
+Origin
+Origin
+interface
+html
+html
 1
 current
-https://wicg.github.io/attribution-reporting-api/#origin-rate-limit-window
-
+https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-interface
+1
 1
 -
 origin-agent-cluster
@@ -754,14 +920,47 @@ https://html.spec.whatwg.org/multipage/browsers.html#origin-agent-cluster
 1
 1
 -
-original source
-Original Source
+original
+original
 dfn
-sourcemap
-sourcemap
+dapt
+dapt
 1
 current
-https://tc39.es/source-map/#original-source
+https://w3c.github.io/dapt/#dfn-original
+
+1
+-
+original
+original
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-original
+
+1
+-
+original language transcript
+Original Language Transcript
+dfn
+dapt
+dapt
+1
+current
+https://w3c.github.io/dapt/#dfn-original-language-transcript
+
+1
+-
+original language transcript
+Original Language Transcript
+dfn
+dapt
+dapt
+1
+snapshot
+https://www.w3.org/TR/dapt/#dfn-original-language-transcript
 
 1
 -
@@ -897,8 +1096,20 @@ https://www.w3.org/TR/WGSL/#syntax_sym-or
 1
 syntax_sym
 -
-or(typedArray, index, value)
-or(typedArray, index, value)
+or
+or
+dict-member
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers/#dom-routercondition-or
+1
+1
+RouterCondition
+-
+or(ta, index, value)
+or(ta, index, value)
 method
 ecmascript
 ecmascript
@@ -984,9 +1195,9 @@ https://drafts.csswg.org/css-color-4/#valdef-color-orange
 orange
 orange
 value
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#valdef-color-orange
 1
@@ -1065,6 +1276,28 @@ https://www.w3.org/TR/css-color-4/#valdef-color-orangered
 <color>
 <named-color>
 -
+orbit fit
+orbit fit
+dfn
+model-element
+model-element
+1
+current
+https://immersive-web.github.io/model-element/#dfn-orbit-fit
+
+1
+-
+orbit fit algorithm
+orbit fit algorithm
+dfn
+model-element
+model-element
+1
+current
+https://immersive-web.github.io/model-element/#dfn-orbit-fit-algorithm
+
+1
+-
 orchid
 orchid
 dfn
@@ -1142,7 +1375,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#element-attrdef-order
+https://drafts.csswg.org/filter-effects-1/#element-attrdef-order
 1
 1
 feConvolveMatrix
@@ -1161,11 +1394,11 @@ https://www.w3.org/TR/css-display-3/#propdef-order
 order
 order
 property
-css-flexbox-1
-css-flexbox
-1
+css-display-4
+css-display
+4
 snapshot
-https://www.w3.org/TR/css-flexbox-1/#propdef-order
+https://www.w3.org/TR/css-display-4/#propdef-order
 1
 1
 -
@@ -1180,6 +1413,17 @@ https://www.w3.org/TR/filter-effects-1/#element-attrdef-order
 1
 1
 feConvolveMatrix
+-
+order by expression
+order by expression
+dfn
+shacl12-node-expr
+shacl-node-expr
+1
+current
+https://w3c.github.io/data-shapes/shacl12-node-expr/#dfn-order-by-expression
+
+1
 -
 order-modified document order
 order-modified document order
@@ -1217,11 +1461,11 @@ https://www.w3.org/TR/css-display-3/#order-modified-document-order
 order-modified document order
 order-modified document order
 dfn
-css-flexbox-1
-css-flexbox
-1
+css-display-4
+css-display
+4
 snapshot
-https://www.w3.org/TR/css-flexbox-1/#order-modified-document-order
+https://www.w3.org/TR/css-display-4/#order-modified-document-order
 1
 1
 -
@@ -1232,7 +1476,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-orderx
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-orderx
 1
 1
 SVGFEConvolveMatrixElement
@@ -1256,7 +1500,7 @@ filter-effects-1
 filter-effects
 1
 current
-https://drafts.fxtf.org/filter-effects-1/#dom-svgfeconvolvematrixelement-ordery
+https://drafts.csswg.org/filter-effects-1/#dom-svgfeconvolvematrixelement-ordery
 1
 1
 SVGFEConvolveMatrixElement
@@ -1493,6 +1737,30 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-org
 
 1
 -
+org-iso-mdoc
+org-iso-mdoc
+enum-value
+digital-credentials
+digital-credentials
+1
+current
+https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredentialpresentationprotocol-org-iso-mdoc
+1
+1
+DigitalCredentialPresentationProtocol
+-
+org-iso-mdoc
+org-iso-mdoc
+enum-value
+digital-credentials
+digital-credentials
+1
+snapshot
+https://www.w3.org/TR/digital-credentials/#dom-digitalcredentialpresentationprotocol-org-iso-mdoc
+1
+1
+DigitalCredentialPresentationProtocol
+-
 organization
 organization
 attr-value
@@ -1630,7 +1898,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#OrientAttribute
+https://w3c.github.io/svgwg/svg2-draft/painting.html#OrientAttribute
 1
 1
 marker
@@ -1642,7 +1910,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orient
+https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__orient
 1
 1
 SVGMarkerElement
@@ -1678,7 +1946,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orientAngle
+https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__orientAngle
 1
 1
 SVGMarkerElement
@@ -1702,7 +1970,7 @@ svg2
 svg
 2
 current
-https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orientType
+https://w3c.github.io/svgwg/svg2-draft/painting.html#__svg__SVGMarkerElement__orientType
 1
 1
 SVGMarkerElement
@@ -1742,6 +2010,18 @@ https://drafts.csswg.org/css-conditional-5/#descdef-container-orientation
 1
 1
 @container
+-
+orientation
+orientation
+dfn
+css-viewport-1
+css-viewport
+1
+current
+https://drafts.csswg.org/css-viewport/#display-feature-override-orientation
+
+1
+display feature override
 -
 orientation
 orientation
@@ -1798,7 +2078,7 @@ webxr-plane-detection
 webxr-plane-detection
 1
 current
-https://immersive-web.github.io/real-world-geometry/plane-detection.html#dom-xrplane-orientation
+https://immersive-web.github.io/plane-detection/#dom-xrplane-orientation
 1
 1
 XRPlane
@@ -1878,6 +2158,18 @@ https://w3c.github.io/screen-orientation/#dom-screen-orientation
 1
 1
 Screen
+-
+orientation
+orientation
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextprintparameters-orientation
+
+1
+browsingContext.PrintParameters
 -
 orientation
 orientation
@@ -1973,6 +2265,18 @@ https://www.w3.org/TR/screen-orientation/#dom-screen-orientation
 1
 1
 Screen
+-
+orientation
+orientation
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextprintparameters-orientation
+
+1
+browsingContext.PrintParameters
 -
 orientation
 orientation
@@ -2086,7 +2390,19 @@ https://www.w3.org/TR/miniapp-manifest/#dfn-orientation-values
 orientationX
 orientationX
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationx
+1
+1
+PannerNode
+-
+orientationX
+orientationX
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -2098,7 +2414,19 @@ PannerNode
 orientationX
 orientationX
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-panneroptions-orientationx
+1
+1
+PannerOptions
+-
+orientationX
+orientationX
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -2110,11 +2438,11 @@ PannerOptions
 orientationX
 orientationX
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-orientationx
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-orientationx
 1
 1
 PannerNode
@@ -2122,11 +2450,35 @@ PannerNode
 orientationX
 orientationX
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-panneroptions-orientationx
+https://www.w3.org/TR/webaudio-1.0/#dom-panneroptions-orientationx
+1
+1
+PannerOptions
+-
+orientationX
+orientationX
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-orientationx
+1
+1
+PannerNode
+-
+orientationX
+orientationX
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-panneroptions-orientationx
 1
 1
 PannerOptions
@@ -2134,7 +2486,19 @@ PannerOptions
 orientationY
 orientationY
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationy
+1
+1
+PannerNode
+-
+orientationY
+orientationY
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -2146,7 +2510,19 @@ PannerNode
 orientationY
 orientationY
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-panneroptions-orientationy
+1
+1
+PannerOptions
+-
+orientationY
+orientationY
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -2158,11 +2534,11 @@ PannerOptions
 orientationY
 orientationY
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-orientationy
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-orientationy
 1
 1
 PannerNode
@@ -2170,11 +2546,35 @@ PannerNode
 orientationY
 orientationY
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-panneroptions-orientationy
+https://www.w3.org/TR/webaudio-1.0/#dom-panneroptions-orientationy
+1
+1
+PannerOptions
+-
+orientationY
+orientationY
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-orientationy
+1
+1
+PannerNode
+-
+orientationY
+orientationY
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-panneroptions-orientationy
 1
 1
 PannerOptions
@@ -2182,7 +2582,19 @@ PannerOptions
 orientationZ
 orientationZ
 attribute
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationz
+1
+1
+PannerNode
+-
+orientationZ
+orientationZ
+attribute
+webaudio-1.1
 webaudio
 1
 current
@@ -2194,7 +2606,19 @@ PannerNode
 orientationZ
 orientationZ
 dict-member
+webaudio-1.0
 webaudio
+1
+current
+https://webaudio.github.io/web-audio-api/#dom-panneroptions-orientationz
+1
+1
+PannerOptions
+-
+orientationZ
+orientationZ
+dict-member
+webaudio-1.1
 webaudio
 1
 current
@@ -2206,11 +2630,11 @@ PannerOptions
 orientationZ
 orientationZ
 attribute
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-pannernode-orientationz
+https://www.w3.org/TR/webaudio-1.0/#dom-pannernode-orientationz
 1
 1
 PannerNode
@@ -2218,11 +2642,35 @@ PannerNode
 orientationZ
 orientationZ
 dict-member
-webaudio
+webaudio-1.0
 webaudio
 1
 snapshot
-https://www.w3.org/TR/webaudio/#dom-panneroptions-orientationz
+https://www.w3.org/TR/webaudio-1.0/#dom-panneroptions-orientationz
+1
+1
+PannerOptions
+-
+orientationZ
+orientationZ
+attribute
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-pannernode-orientationz
+1
+1
+PannerNode
+-
+orientationZ
+orientationZ
+dict-member
+webaudio-1.1
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio-1.1/#dom-panneroptions-orientationz
 1
 1
 PannerOptions
@@ -2269,7 +2717,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#rectangle-origin
+https://drafts.csswg.org/geometry-1/#rectangle-origin
 
 1
 rectangle
@@ -2281,7 +2729,7 @@ motion-1
 motion
 1
 current
-https://drafts.fxtf.org/motion-1/#ray-origin
+https://drafts.csswg.org/motion-1/#ray-origin
 
 1
 ray()
@@ -2317,10 +2765,10 @@ webgpu
 webgpu
 1
 current
-https://gpuweb.github.io/gpuweb/#dom-gpuimagecopyexternalimage-origin
+https://gpuweb.github.io/gpuweb/#dom-gpucopyexternalimagesourceinfo-origin
 1
 1
-GPUImageCopyExternalImage
+GPUCopyExternalImageSourceInfo
 -
 origin
 origin
@@ -2329,10 +2777,10 @@ webgpu
 webgpu
 1
 current
-https://gpuweb.github.io/gpuweb/#dom-gpuimagecopytexture-origin
+https://gpuweb.github.io/gpuweb/#dom-gputexelcopytextureinfo-origin
 1
 1
-GPUImageCopyTexture
+GPUTexelCopyTextureInfo
 -
 origin
 origin
@@ -2352,9 +2800,22 @@ html
 html
 1
 current
+https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-origin
+
+1
+Origin
+-
+origin
+origin
+dfn
+html
+html
+1
+current
 https://html.spec.whatwg.org/multipage/browsers.html#coop-enforcement-origin
 
 1
+opener policy enforcement result
 -
 origin
 origin
@@ -2366,6 +2827,7 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#document-state-origin
 
 1
+document state
 -
 origin
 origin
@@ -2377,6 +2839,19 @@ current
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-origin
 
 1
+navigation params
+-
+origin
+origin
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/comms.html#concept-messageevent-origin
+1
+1
+MessageEvent
 -
 origin
 origin
@@ -2412,7 +2887,7 @@ current
 https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin
 1
 1
-HTMLHyperlinkElementUtils
+HyperlinkElementUtils
 -
 origin
 origin
@@ -2424,6 +2899,7 @@ current
 https://html.spec.whatwg.org/multipage/media.html#media-resource-origin
 
 1
+media resource
 -
 origin
 origin
@@ -2447,6 +2923,19 @@ current
 https://html.spec.whatwg.org/multipage/semantics.html#link-options-origin
 
 1
+link processing options
+-
+origin
+origin
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/speculative-loading.html#copiap-origin
+
+1
+cross-origin prefetch IP anonymization policy
 -
 origin
 origin
@@ -2616,6 +3105,18 @@ service-workers
 service-workers
 1
 current
+https://w3c.github.io/ServiceWorker/#extendablemessageevent-origin
+
+1
+ExtendableMessageEvent
+-
+origin
+origin
+dfn
+service-workers
+service-workers
+1
+current
 https://w3c.github.io/ServiceWorker/#service-worker-client-origin
 1
 1
@@ -2671,6 +3172,30 @@ PasswordCredentialData
 -
 origin
 origin
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#json-session-scope-origin
+
+1
+JSON session scope
+-
+origin
+origin
+dfn
+dbsc-1
+dbsc
+1
+current
+https://w3c.github.io/webappsec-dbsc/#session-scope-origin
+
+1
+session scope
+-
+origin
+origin
 argument
 permissions-policy-1
 permissions-policy
@@ -2720,6 +3245,54 @@ PublicKeyCredential/[[DiscoverFromExternalSource]](origin, options, sameOriginWi
 -
 origin
 origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-origin
+
+1
+browsingContext.CaptureScreenshotParameters
+-
+origin
+origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputpointermoveaction-origin
+
+1
+input.PointerMoveAction
+-
+origin
+origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-inputwheelscrollaction-origin
+
+1
+input.WheelScrollAction
+-
+origin
+origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+current
+https://w3c.github.io/webdriver-bidi/#cddl-key-scriptbaserealminfo-origin
+
+1
+script.BaseRealmInfo
+-
+origin
+origin
 dfn
 client-hints-infrastructure
 client-hints-infrastructure
@@ -2756,18 +3329,6 @@ exfiltration budget metadata reference
 -
 origin
 origin
-dfn
-prefetch
-prefetch
-1
-current
-https://wicg.github.io/nav-speculation/prefetch.html#cross-origin-prefetch-ip-anonymization-policy-origin
-1
-1
-cross-origin prefetch IP anonymization policy
--
-origin
-origin
 argument
 web-otp
 web-otp
@@ -2777,17 +3338,6 @@ https://wicg.github.io/web-otp/#dom-publickeycredential-discoverfromexternalsour
 1
 1
 PublicKeyCredential/[[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors)
--
-origin
-origin
-dfn
-sri
-sri
-1
-snapshot
-https://www.w3.org/TR/SRI/#dfn-origin
-
-1
 -
 origin
 origin
@@ -2839,6 +3389,30 @@ https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-origin
 -
 origin
 origin
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#json-session-scope-origin
+
+1
+JSON session scope
+-
+origin
+origin
+dfn
+dbsc-1
+dbsc
+1
+snapshot
+https://www.w3.org/TR/dbsc-1/#session-scope-origin
+
+1
+session scope
+-
+origin
+origin
 argument
 fedcm-1
 fedcm
@@ -2860,6 +3434,18 @@ https://www.w3.org/TR/geometry-1/#rectangle-origin
 
 1
 rectangle
+-
+origin
+origin
+dfn
+motion-1
+motion
+1
+snapshot
+https://www.w3.org/TR/motion-1/#ray-origin
+
+1
+ray()
 -
 origin
 origin
@@ -2917,6 +3503,18 @@ service-workers
 service-workers
 1
 snapshot
+https://www.w3.org/TR/service-workers/#extendablemessageevent-origin
+
+1
+ExtendableMessageEvent
+-
+origin
+origin
+dfn
+service-workers
+service-workers
+1
+snapshot
 https://www.w3.org/TR/service-workers/#service-worker-client-origin
 1
 1
@@ -2960,15 +3558,51 @@ PublicKeyCredential/[[DiscoverFromExternalSource]](origin, options, sameOriginWi
 -
 origin
 origin
-dict-member
-webgpu
-webgpu
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuimagecopyexternalimage-origin
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextcapturescreenshotparameters-origin
+
 1
+browsingContext.CaptureScreenshotParameters
+-
+origin
+origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
-GPUImageCopyExternalImage
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputpointermoveaction-origin
+
+1
+input.PointerMoveAction
+-
+origin
+origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-inputwheelscrollaction-origin
+
+1
+input.WheelScrollAction
+-
+origin
+origin
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-scriptbaserealminfo-origin
+
+1
+script.BaseRealmInfo
 -
 origin
 origin
@@ -2977,10 +3611,22 @@ webgpu
 webgpu
 1
 snapshot
-https://www.w3.org/TR/webgpu/#dom-gpuimagecopytexture-origin
+https://www.w3.org/TR/webgpu/#dom-gpucopyexternalimagesourceinfo-origin
 1
 1
-GPUImageCopyTexture
+GPUCopyExternalImageSourceInfo
+-
+origin
+origin
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gputexelcopytextureinfo-origin
+1
+1
+GPUTexelCopyTextureInfo
 -
 origin
 origin
@@ -3147,17 +3793,6 @@ https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-origin-clean
 
 1
 -
-origin-clean
-origin-clean
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/canvas.html#offscreencontext2d-origin-clean
-
-1
--
 origin-clean flag
 origin-clean flag
 dfn
@@ -3202,6 +3837,17 @@ referrer-policy
 snapshot
 https://www.w3.org/TR/referrer-policy/#origin-only-flag
 
+1
+-
+origin-or-null
+origin-or-null
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#origin-or-null
+1
 1
 -
 origin-when-cross-origin
@@ -3307,7 +3953,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-scale3dself-scale-originx-originy-originz-originx
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-scale3dself-scale-originx-originy-originz-originx
 1
 1
 DOMMatrix/scale3dSelf(scale, originX, originY, originZ)
@@ -3323,7 +3969,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-scaleself-scalex-scaley-scalez-originx-originy-originz-originx
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-scaleself-scalex-scaley-scalez-originx-originy-originz-originx
 1
 1
 DOMMatrix/scaleSelf(scaleX, scaleY, scaleZ, originX, originY, originZ)
@@ -3341,7 +3987,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-scale-scalex-scaley-scalez-originx-originy-originz-originx
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-scale-scalex-scaley-scalez-originx-originy-originz-originx
 1
 1
 DOMMatrixReadOnly/scale(scaleX, scaleY, scaleZ, originX, originY, originZ)
@@ -3359,7 +4005,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-scale3d-scale-originx-originy-originz-originx
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-scale3d-scale-originx-originy-originz-originx
 1
 1
 DOMMatrixReadOnly/scale3d(scale, originX, originY, originZ)
@@ -3443,7 +4089,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-scale3dself-scale-originx-originy-originz-originy
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-scale3dself-scale-originx-originy-originz-originy
 1
 1
 DOMMatrix/scale3dSelf(scale, originX, originY, originZ)
@@ -3459,7 +4105,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-scaleself-scalex-scaley-scalez-originx-originy-originz-originy
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-scaleself-scalex-scaley-scalez-originx-originy-originz-originy
 1
 1
 DOMMatrix/scaleSelf(scaleX, scaleY, scaleZ, originX, originY, originZ)
@@ -3477,7 +4123,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-scale-scalex-scaley-scalez-originx-originy-originz-originy
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-scale-scalex-scaley-scalez-originx-originy-originz-originy
 1
 1
 DOMMatrixReadOnly/scale(scaleX, scaleY, scaleZ, originX, originY, originZ)
@@ -3495,7 +4141,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-scale3d-scale-originx-originy-originz-originy
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-scale3d-scale-originx-originy-originz-originy
 1
 1
 DOMMatrixReadOnly/scale3d(scale, originX, originY, originZ)
@@ -3579,7 +4225,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-scale3dself-scale-originx-originy-originz-originz
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-scale3dself-scale-originx-originy-originz-originz
 1
 1
 DOMMatrix/scale3dSelf(scale, originX, originY, originZ)
@@ -3595,7 +4241,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrix-scaleself-scalex-scaley-scalez-originx-originy-originz-originz
+https://drafts.csswg.org/geometry-1/#dom-dommatrix-scaleself-scalex-scaley-scalez-originx-originy-originz-originz
 1
 1
 DOMMatrix/scaleSelf(scaleX, scaleY, scaleZ, originX, originY, originZ)
@@ -3613,7 +4259,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-scale-scalex-scaley-scalez-originx-originy-originz-originz
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-scale-scalex-scaley-scalez-originx-originy-originz-originz
 1
 1
 DOMMatrixReadOnly/scale(scaleX, scaleY, scaleZ, originX, originY, originZ)
@@ -3631,7 +4277,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry-1/#dom-dommatrixreadonly-scale3d-scale-originx-originy-originz-originz
+https://drafts.csswg.org/geometry-1/#dom-dommatrixreadonly-scale3d-scale-originx-originy-originz-originz
 1
 1
 DOMMatrixReadOnly/scale3d(scale, originX, originY, originZ)
@@ -3763,6 +4409,17 @@ https://html.spec.whatwg.org/multipage/parsing.html#original-insertion-mode
 
 1
 -
+original name
+original name
+dfn
+css-mixins-1
+css-mixins
+1
+current
+https://drafts.csswg.org/css-mixins-1/#original-name
+
+1
+-
 original opener
 original opener
 dfn
@@ -3774,17 +4431,16 @@ https://w3c.github.io/webdriver-bidi/#original-opener
 
 1
 -
-original report time
-original report time
+original opener
+original opener
 dfn
-private-aggregation-api
-private-aggregation-api
+webdriver-bidi
+webdriver-bidi
 1
-current
-https://patcg-individual-drafts.github.io/private-aggregation-api/#aggregatable-report-original-report-time
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#original-opener
 
 1
-aggregatable report
 -
 original source
 original source
@@ -3797,17 +4453,16 @@ https://streams.spec.whatwg.org/#original-source
 
 1
 -
-originalcolumn
-originalColumn
+original source
+original source
 dfn
-sourcemap
-sourcemap
+ecma-426
+ecma-426
 1
 current
-https://tc39.es/source-map/#decoded-mapping-originalcolumn
-
+https://tc39.es/ecma426/#sec-terms-and-definitions-original-source
 1
-decoded mapping
+1
 -
 originalFrame
 originalFrame
@@ -3869,21 +4524,33 @@ RTCEncodedVideoFrame/constructor(originalFrame, options)
 RTCEncodedVideoFrame/RTCEncodedVideoFrame(originalFrame)
 RTCEncodedVideoFrame/constructor(originalFrame)
 -
-originalline
-originalLine
-dfn
-sourcemap
-sourcemap
+originalOpener
+originalOpener
+cddl-key
+webdriver-bidi
+webdriver-bidi
 1
 current
-https://tc39.es/source-map/#decoded-mapping-originalline
+https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextinfo-originalopener
 
 1
-decoded mapping
+browsingContext.Info
+-
+originalOpener
+originalOpener
+cddl-key
+webdriver-bidi
+webdriver-bidi
+1
+snapshot
+https://www.w3.org/TR/webdriver-bidi/#cddl-key-browsingcontextinfo-originalopener
+
+1
+browsingContext.Info
 -
 originalPolicy
 originalPolicy
-attribute
+dict-member
 csp3
 csp
 3
@@ -3919,7 +4586,7 @@ SecurityPolicyViolationEventInit
 -
 originalPolicy
 originalPolicy
-attribute
+dict-member
 csp3
 csp
 3
@@ -3952,18 +4619,6 @@ https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-originalpolicy
 1
 1
 SecurityPolicyViolationEventInit
--
-originalsource
-originalSource
-dfn
-sourcemap
-sourcemap
-1
-current
-https://tc39.es/source-map/#decoded-mapping-originalsource
-
-1
-decoded mapping
 -
 originally specified color space
 originally specified color space
@@ -4119,18 +4774,6 @@ https://www.w3.org/TR/WGSL/#originating-variable
 
 1
 -
-origins authorized for cross origin trusted signals
-origins authorized for cross origin trusted signals
-dfn
-turtledove
-turtledove
-1
-current
-https://wicg.github.io/turtledove/#script-fetcher-origins-authorized-for-cross-origin-trusted-signals
-
-1
-script fetcher
--
 oriya
 oriya
 value
@@ -4179,8 +4822,8 @@ https://www.w3.org/TR/css-fonts-4/#dom-cssfontfeaturevaluesrule-ornaments
 1
 CSSFontFeatureValuesRule
 -
-ornaments(<feature-value-name>)
-ornaments(<feature-value-name>)
+ornaments(<font-feature-value-name>)
+ornaments(<font-feature-value-name>)
 value
 css-fonts-4
 css-fonts
@@ -4191,8 +4834,8 @@ https://drafts.csswg.org/css-fonts-4/#ornaments
 1
 font-variant-alternates
 -
-ornaments(<feature-value-name>)
-ornaments(<feature-value-name>)
+ornaments(<font-feature-value-name>)
+ornaments(<font-feature-value-name>)
 value
 css-fonts-4
 css-fonts
@@ -4228,9 +4871,9 @@ https://drafts.csswg.org/css-break-4/#propdef-orphans
 orphans
 orphans
 property
-css22
+css2
 css
-1
+2
 current
 https://drafts.csswg.org/css2/#propdef-orphans
 1
@@ -4241,31 +4884,9 @@ orphans
 property
 css2
 css
-1
-current
-https://www.w3.org/TR/CSS21/page.html#propdef-orphans
-1
-1
--
-orphans
-orphans
-property
-css2
-css
-1
+2
 snapshot
-https://www.w3.org/TR/CSS21/page.html#propdef-orphans
-1
-1
--
-orphans
-orphans
-dfn
-css22
-css
-1
-snapshot
-https://www.w3.org/TR/CSS22/page.html#propdef-orphans
+https://www.w3.org/TR/CSS2/page.html#propdef-orphans
 1
 1
 -

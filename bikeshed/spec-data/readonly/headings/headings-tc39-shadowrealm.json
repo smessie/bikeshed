@@ -51,7 +51,7 @@
     "current": {
       "number": "3.6.1",
       "spec": "ShadowRealm API",
-      "text": "HostInitializeShadowRealm ( realm )",
+      "text": "HostInitializeShadowRealm ( realm, context, O )",
       "url": "https://tc39.es/proposal-shadowrealm/#sec-hostinitializeshadowrealm"
     }
   },
@@ -141,6 +141,14 @@
       "spec": "ShadowRealm API",
       "text": "Host operations",
       "url": "https://tc39.es/proposal-shadowrealm/#sec-shadowrealm-host-operations"
+    }
+  },
+  "#sec-shadowrealm-host-requirements": {
+    "current": {
+      "number": "3.6.2",
+      "spec": "ShadowRealm API",
+      "text": "Requirements on host-defined global objects",
+      "url": "https://tc39.es/proposal-shadowrealm/#sec-shadowrealm-host-requirements"
     }
   },
   "#sec-shadowrealm-objects": {
