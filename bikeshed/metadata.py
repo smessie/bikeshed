@@ -783,8 +783,6 @@ def parseLinkedText(key: str, val: str, lineNum: str | int | None) -> list[tuple
 def parseMarkupShorthands(key: str, val: str, lineNum: str | int | None) -> config.BoolSet:
     # Format is comma-separated list of shorthand category followed by boolean.
     # Output is a boolset of the shorthand categories.
-    vals = [v.strip() for v in val.lower().split(",")]
-    ret = config.BoolSet(default=False)
     validCategories = frozenset(
         [
             "algorithm",
