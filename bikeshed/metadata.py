@@ -783,7 +783,6 @@ def parseLinkedText(key: str, val: str, lineNum: str | int | None) -> list[tuple
 def parseMarkupShorthands(key: str, val: str, lineNum: str | int | None) -> config.BoolSet:
     # Format is comma-separated list of shorthand category followed by boolean.
     # Output is a boolset of the shorthand categories.
-    # TODO: Just call parseBoolishList instead
     vals = [v.strip() for v in val.lower().split(",")]
     ret = config.BoolSet(default=False)
     validCategories = frozenset(
@@ -796,6 +795,7 @@ def parseMarkupShorthands(key: str, val: str, lineNum: str | int | None) -> conf
             "http",
             "idl",
             "macros-in-autolinks",
+            "markdown",
             "markdown-block",
             "markdown-inline",
             "markdown-escapes",
@@ -803,32 +803,13 @@ def parseMarkupShorthands(key: str, val: str, lineNum: str | int | None) -> conf
             "repository-links",
         ],
     )
-    for v in vals:
-        pieces = v.split()
-        if len(pieces) != 2:
-            m.die(
-                f"Markup Shorthand metadata pieces are a shorthand category and a boolean. Got:\n{v}",
-                lineNum=lineNum,
-            )
-            continue
-        name, boolstring = pieces
-        # markdown is an alias for markdown-inline.
-        # TODO: convert all specs to use markdown-inline, and then turn markdown
-        # into a shorthand for markdown-*.
-        if name == "markdown":
-            name = "markdown-inline"
-            assert name in validCategories
-        elif name not in validCategories:
-            m.die(f"Unknown Markup Shorthand category '{name}'.", lineNum=lineNum)
-            continue
-        onoff = boolish(boolstring)
-        if onoff is None:
-            m.die(
-                f"Markup Shorthand metadata pieces are a shorthand category and a boolean. Got:\n{v}",
-                lineNum=lineNum,
-            )
-            continue
-        ret[name] = onoff
+    ret = parseBoolishList(key, val.lower(), lineNum=lineNum, default=False, validLabels=validCategories)
+    # markdown is an alias for markdown-inline.
+    # TODO: convert all specs to use markdown-inline, and then turn markdown
+    # into a shorthand for markdown-*.
+    if ret.hasExplicit("markdown") and "markdown" in ret:
+        ret["markdown-inline"] = True
+        del ret["markdown"]
     return ret
 
 
