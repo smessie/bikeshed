@@ -12,14 +12,14 @@ from .. import messages as m
 @dataclass
 class MarkdownConfig:
     indent: int
-    features: set[str] = field(default_factory=set)
+    headings: bool = True
     blockElements: list[str] = field(default_factory=list)
 
     @staticmethod
     def fromSpec(doc: t.SpecT) -> MarkdownConfig:
         return MarkdownConfig(
             indent=doc.md.indent,
-            features={"headings"},
+            headings=True,
             blockElements=doc.md.blockElements + doc.md.opaqueElements,
         )
 
@@ -83,7 +83,6 @@ def tokenizeLines(lines: list[l.Line], config: MarkdownConfig) -> list[TokenT]:
     # which'll be turned into MD blocks later.
     # Every token *must* have 'type', 'raw', and 'prefix' keys.
 
-    featureHeadings = "headings" in config.features
     blockElements = config.blockElements + ["if-wrapper"]
 
     # Custom elements are assumed to be inline, unless they're passed in config.blockElements.
@@ -152,15 +151,15 @@ def tokenizeLines(lines: list[l.Line], config: MarkdownConfig) -> list[TokenT]:
                 "type": "blank",
             }
         # FIXME: Detect the heading ID from heading lines
-        elif featureHeadings and re.match(r"={3,}\s*$", lineText):
+        elif config.headings and re.match(r"={3,}\s*$", lineText):
             # h1 underline
             match = re.match(r"={3,}\s$", lineText)
             token = {"type": "equals-line"}
-        elif featureHeadings and re.match(r"-{3,}\s*$", lineText):
+        elif config.headings and re.match(r"-{3,}\s*$", lineText):
             # h2 underline
             match = re.match(r"-{3,}\s*$", lineText)
             token = {"type": "dash-line"}
-        elif featureHeadings and re.match(r"(#{1,5})\s+(.+?)(\1\s*\{#[^ }]+\})?\s*$", lineText):
+        elif config.headings and re.match(r"(#{1,5})\s+(.+?)(\1\s*\{#[^ }]+\})?\s*$", lineText):
             # single-line heading
             match = re.match(r"(#{1,5})\s+(.+?)(\1\s*\{#[^ }]+\})?\s*$", lineText)
             assert match is not None
