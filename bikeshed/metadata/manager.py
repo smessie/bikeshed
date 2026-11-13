@@ -37,6 +37,7 @@ class MetadataManager:
 
     def __init__(self) -> None:
         self.hasMetadata: bool = False
+        self.indentInfo: IndentInfo | None = None
 
         # All metadata ever passed to .addData()
         self.allData: t.DefaultDict[str, list[str]] = defaultdict(list)
@@ -87,7 +88,6 @@ class MetadataManager:
         self.includeCanIUsePanels: bool = False
         self.includeMdnPanels: bool = False
         self.indent: int = 4
-        self.indentInfo: IndentInfo | None = None
         self.inferCSSDfns: bool = False
         self.informativeClasses: list[str] = []
         self.inlineGithubIssues: bool = False
@@ -509,7 +509,7 @@ def parse(lines: t.Sequence[Line]) -> tuple[list[Line], MetadataManager]:
         else:
             newlines.append(line)
     indentInfo = inferIndent(newlines)
-    md.addParsedData("Indent Info", indentInfo)
+    md.indentInfo = indentInfo
     if "Indent" not in md.manuallySetKeys and indentInfo.size:
         md.indent = indentInfo.size
     return newlines, md
@@ -711,6 +711,8 @@ def join(*sources: MetadataManager | None) -> MetadataManager:
     for mdsource in sources:
         if mdsource is None:
             continue
+        if mdsource.indentInfo:
+            md.indentInfo = mdsource.indentInfo
         for k in mdsource.manuallySetKeys:
             mdentry = keys.KNOWN_KEYS[k]
             md.addParsedData(k, getattr(mdsource, mdentry.attrName))
