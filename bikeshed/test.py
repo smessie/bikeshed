@@ -2,10 +2,13 @@ from __future__ import annotations
 
 import dataclasses
 import difflib
+import http.client
 import io
 import os
 import re
+import time
 
+import kdl
 from alive_progress import alive_it
 
 from . import config, metadata, retrieve, t
@@ -17,6 +20,34 @@ if t.TYPE_CHECKING:
 
 TEST_DIR = os.path.abspath(os.path.join(config.scriptPath(), "..", "tests"))
 TEST_FILE_EXTENSIONS = (".bs", ".tar")
+
+
+@dataclasses.dataclass
+class TestMetadata:
+    networkTests: list[str] = dataclasses.field(default_factory=list)
+
+    @staticmethod
+    def fromTestDir() -> TestMetadata:
+        path = os.path.join(TEST_DIR, "metadata.kdl")
+        with open(path, encoding="utf-8") as fh:
+            data = fh.read()
+        return TestMetadata.fromKdlStr(data)
+
+    @staticmethod
+    def fromKdlStr(data: str) -> TestMetadata:
+        self = TestMetadata()
+        kdlDoc = kdl.parse(data)
+        for node in kdlDoc.getAll("network-tests"):
+            for child in node.nodes:
+                if child.name == "-" and child.args:
+                    self.networkTests.append(str(child.args[0]).strip("/"))
+                else:
+                    self.networkTests.append(child.name.strip("/"))
+        return self
+
+    def isNetworkTest(self, testName: str) -> bool:
+        normPath = "/".join(splitPath(testName))
+        return any(normPath == p or normPath.startswith(p + "/") for p in self.networkTests)
 
 
 @dataclasses.dataclass
@@ -37,7 +68,12 @@ class TestFilter:
 
 
 def testPaths(filters: TestFilter) -> list[str]:
+    testMd = TestMetadata.fromTestDir()
     tests = list(sortTests(findTestFiles(filters)))
+    if any(testMd.isNetworkTest(testNameForPath(p)) for p in tests):
+        if not probablyHaveInternet():
+            m.warn("Can't immediately see the internet, so skipping network-tests.")
+            tests = [p for p in tests if not testMd.isNetworkTest(testNameForPath(p))]
     return tests
 
 
@@ -99,6 +135,7 @@ def sortTests(tests: t.Iterable[str]) -> t.Iterable[str]:
 def run(
     filters: TestFilter,
     md: t.MetadataManager | None = None,
+    profile: bool = False,
 ) -> bool:
     paths = testPaths(filters)
     if len(paths) == 0:
@@ -107,17 +144,20 @@ def run(
     numPassed = 0
     total = 0
     fails = []
+    times: list[tuple[float, str]] = []
     pathProgress = alive_it(paths, dual_line=True, length=20)
     try:
         for path in pathProgress:
             testName = testNameForPath(path)
             pathProgress.text(testName)  # type: ignore
             total += 1
+            start = time.perf_counter()
             consoleFh = io.StringIO()
             with m.withMessageState(fh=consoleFh, printMode="plain") as _:
                 doc = processTest(path, md)
                 testConsole = consoleFh.getvalue()
             testOutput = doc.serialize()
+            times.append((time.perf_counter() - start, testName))
             if testOutput is None:
                 m.p(m.printColor("Serialization failed.", color="red"))
                 fails.append(testName)
@@ -137,6 +177,8 @@ def run(
     except Exception as e:
         print(f"Python threw an error when running '{testName}':\n{e}")  # noqa: T201
         raise e
+    if profile:
+        printProfile(times)
     if numPassed == total:
         m.p(m.printColor("✔ All tests passed.", color="green"))
         return True
@@ -150,24 +192,35 @@ def run(
 def rebase(
     filters: TestFilter,
     md: t.MetadataManager | None = None,
+    profile: bool = False,
 ) -> bool:
     paths = testPaths(filters)
     if len(paths) == 0:
         m.p("No tests were found.")
         return True
+    times: list[tuple[float, str]] = []
     pathProgress = alive_it(paths, dual_line=True, length=20)
     try:
         for path in pathProgress:
             testName = testNameForPath(path)
             pathProgress.text(testName)  # type: ignore
+            start = time.perf_counter()
             with m.withMessageState(fh=replaceExtension(path, ".console.txt"), printMode="plain") as _:
                 doc = processTest(path, md)
             with m.messagesSilent() as _:
                 doc.finish(newline="\n")
+            times.append((time.perf_counter() - start, testName))
     except Exception as e:
         print(f"Python threw an error when running '{testName}':\n{e}")  # noqa: T201
         raise e
+    if profile:
+        printProfile(times)
     return True
+
+
+def printProfile(times: list[tuple[float, str]]) -> None:
+    for dt, testName in sorted(times, reverse=True):
+        m.p(f"{dt:6.3f}s\t{testName}")
 
 
 def processTest(
@@ -220,3 +273,14 @@ def replaceExtension(path: str, newExt: str) -> str:
     assert newExt[0] == "."
     trunk = os.path.splitext(path)[0]
     return f"{trunk}{newExt}"
+
+
+def probablyHaveInternet() -> bool:
+    conn = http.client.HTTPSConnection("8.8.8.8", timeout=1)
+    try:
+        conn.request("HEAD", "/")
+        return True
+    except Exception:
+        return False
+    finally:
+        conn.close()
