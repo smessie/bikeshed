@@ -1209,7 +1209,7 @@ the user agent will fire events.
 These enable the author to prevent the upcoming action
 (by calling <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#dom-event-preventdefault" id="ref-for-dom-event-preventdefault">preventDefault()</a></code>),
 and if desired to provide an alternate action,
-such as using the <code class="idl"><u class="link-error" data-lt="focus()" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;[&apos;HTMLOrSVGElement&apos;]&apos; in spec &apos;html&apos;.">focus()</u></code> method on a different
+such as using the <code class="idl"><u class="link-error" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;[&apos;HTMLOrSVGElement&apos;]&apos; in spec &apos;html&apos;.">focus()</u></code> method on a different
 element of the author’s choosing.
 
 
@@ -1419,12 +1419,12 @@ As such, they should be easy to use by the author who wants to extend or overrid
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-focusableareasoption"><code>FocusableAreasOption</code></dfn> {
-    <a data-link-type="idl-name" href="#enumdef-focusableareasearchmode" id="ref-for-enumdef-focusableareasearchmode">FocusableAreaSearchMode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FocusableAreasOption" data-dfn-type="dict-member" data-export data-type="FocusableAreaSearchMode" id="dom-focusableareasoption-mode"><code>mode</code></dfn>;
+    <a data-link-type="idl-name" href="#enumdef-focusableareasearchmode" id="ref-for-enumdef-focusableareasearchmode">FocusableAreaSearchMode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FocusableAreasOption" data-dfn-type="dict-member" data-export id="dom-focusableareasoption-mode"><code>mode</code></dfn>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-spatialnavigationsearchoptions"><code>SpatialNavigationSearchOptions</code></dfn> {
-    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node" id="ref-for-node">Node</a>>? <dfn class="dfn-paneled idl-code" data-dfn-for="SpatialNavigationSearchOptions" data-dfn-type="dict-member" data-export data-type="sequence<Node>?" id="dom-spatialnavigationsearchoptions-candidates"><code>candidates</code></dfn>;
-    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node" id="ref-for-node①">Node</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="SpatialNavigationSearchOptions" data-dfn-type="dict-member" data-export data-type="Node?" id="dom-spatialnavigationsearchoptions-container"><code>container</code></dfn>;
+    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node" id="ref-for-node">Node</a>>? <dfn class="dfn-paneled idl-code" data-dfn-for="SpatialNavigationSearchOptions" data-dfn-type="dict-member" data-export id="dom-spatialnavigationsearchoptions-candidates"><code>candidates</code></dfn>;
+    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node" id="ref-for-node①">Node</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="SpatialNavigationSearchOptions" data-dfn-type="dict-member" data-export id="dom-spatialnavigationsearchoptions-container"><code>container</code></dfn>;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://dom.spec.whatwg.org/#element" id="ref-for-element">Element</a> {
@@ -1552,13 +1552,13 @@ passing an optional <code class="idl"><a data-link-type="idl" href="#dictdef-nav
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="navigationevent"><code>NavigationEvent</code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/uievents/#uievent" id="ref-for-uievent①">UIEvent</a> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent" data-dfn-type="constructor" data-export data-lt="NavigationEvent(type, eventInitDict)|constructor(type, eventInitDict)|NavigationEvent(type)|constructor(type)" id="dom-navigationevent-navigationevent"><code>constructor</code></dfn>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent/NavigationEvent(type, eventInitDict), NavigationEvent/constructor(type, eventInitDict), NavigationEvent/NavigationEvent(type), NavigationEvent/constructor(type)" data-dfn-type="argument" data-export id="dom-navigationevent-navigationevent-type-eventinitdict-type"><code>type</code></dfn>,
                 optional <a data-link-type="idl-name" href="#dictdef-navigationeventinit" id="ref-for-dictdef-navigationeventinit①">NavigationEventInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent/NavigationEvent(type, eventInitDict), NavigationEvent/constructor(type, eventInitDict), NavigationEvent/NavigationEvent(type), NavigationEvent/constructor(type)" data-dfn-type="argument" data-export id="dom-navigationevent-navigationevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></dfn> = {});
-    readonly attribute <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection" id="ref-for-enumdef-spatialnavigationdirection②">SpatialNavigationDirection</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent" data-dfn-type="attribute" data-export data-readonly data-type="SpatialNavigationDirection" id="dom-navigationevent-dir"><code>dir</code></dfn>;
-    readonly attribute <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget" id="ref-for-eventtarget">EventTarget</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent" data-dfn-type="attribute" data-export data-readonly data-type="EventTarget?" id="dom-navigationevent-relatedtarget"><code>relatedTarget</code></dfn>;
+    readonly attribute <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection" id="ref-for-enumdef-spatialnavigationdirection②">SpatialNavigationDirection</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent" data-dfn-type="attribute" data-export id="dom-navigationevent-dir"><code>dir</code></dfn>;
+    readonly attribute <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget" id="ref-for-eventtarget">EventTarget</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEvent" data-dfn-type="attribute" data-export id="dom-navigationevent-relatedtarget"><code>relatedTarget</code></dfn>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-navigationeventinit"><code>NavigationEventInit</code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/uievents/#dictdef-uieventinit" id="ref-for-dictdef-uieventinit">UIEventInit</a> {
-    <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection" id="ref-for-enumdef-spatialnavigationdirection③">SpatialNavigationDirection</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEventInit" data-dfn-type="dict-member" data-export data-type="SpatialNavigationDirection" id="dom-navigationeventinit-dir"><code>dir</code></dfn>;
-    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget" id="ref-for-eventtarget①">EventTarget</a>? <dfn class="dfn-paneled idl-code" data-default="null" data-dfn-for="NavigationEventInit" data-dfn-type="dict-member" data-export data-type="EventTarget?" id="dom-navigationeventinit-relatedtarget"><code>relatedTarget</code></dfn> = null;
+    <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection" id="ref-for-enumdef-spatialnavigationdirection③">SpatialNavigationDirection</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEventInit" data-dfn-type="dict-member" data-export id="dom-navigationeventinit-dir"><code>dir</code></dfn>;
+    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget" id="ref-for-eventtarget①">EventTarget</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="NavigationEventInit" data-dfn-type="dict-member" data-export id="dom-navigationeventinit-relatedtarget"><code>relatedTarget</code></dfn> = null;
 };
 </pre>
     <div class="verbose">
@@ -1622,7 +1622,7 @@ the <code class="idl"><a data-link-type="idl" href="#dom-navigationevent-related
 the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-origin" id="ref-for-concept-origin">origin</a> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document" id="ref-for-nav-document">active document</a> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context" id="ref-for-top-level-browsing-context">top-level browsing context</a>, this event won’t be dispatched.</p>
      <div class="example" id="example-f9b67f46">
       <a class="self-link" href="#example-f9b67f46"></a>
-    This example shows the <u class="link-error" data-lt="event order" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;event order&apos;.">event order</u> when pressing the <code class="key">ArrowRight</code>
+    This example shows the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;event order&apos;.">event order</u> when pressing the <code class="key">ArrowRight</code>
     key.
     For the sake of keeping the description simple,
     this example assumes a user agent where spatial navigation is triggered using arrow keys.
@@ -1765,7 +1765,7 @@ the <code class="idl"><a data-link-type="idl" href="#dom-navigationevent-related
 the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-origin" id="ref-for-concept-origin①">origin</a> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document" id="ref-for-nav-document①">active document</a> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context" id="ref-for-top-level-browsing-context①">top-level browsing context</a>, this event won’t be dispatched.</p>
      <div class="example" id="example-7982a275">
       <a class="self-link" href="#example-7982a275"></a>
-    This example shows the <u class="link-error" data-lt="event order" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;event order&apos;.">event order</u> when pressing the <code class="key">ArrowDown</code>
+    This example shows the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;event order&apos;.">event order</u> when pressing the <code class="key">ArrowDown</code>
     key in the situation like the following figure.
     For the sake of keeping the description simple,
     this example assumes a user agent where spatial navigation is triggered using arrow keys.
@@ -1903,7 +1903,7 @@ the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browser
 
       <p>However, the focus can still be moved outside by sequential navigation,
     mouse interaction,
-    or programmatic calls to <code class="idl"><u class="link-error" data-lt="focus()" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;HTMLOrSVGElement&apos; in spec &apos;html&apos;.">focus()</u></code>.</p>
+    or programmatic calls to <code class="idl"><u class="link-error" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;HTMLOrSVGElement&apos; in spec &apos;html&apos;.">focus()</u></code>.</p>
 <pre><code class="highlight" data-language="javascript">scrollContainer.addEventListener('navnotarget', e => {
     let nextTarget = null;
     const verticalDir = ['up', 'down'];
@@ -2118,10 +2118,10 @@ excluding <var>eventTarget</var>
 then return.
 The user agent may transfer focus to its own controls (if any) honouring <var>direction</var>.</p>
         <li data-md>
-         <p>Else, if <var>container</var> is the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#document-element" id="ref-for-document-element③">document element</a> of a <u class="link-error" data-lt="nested browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u> then:</p>
+         <p>Else, if <var>container</var> is the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#document-element" id="ref-for-document-element③">document element</a> of a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u> then:</p>
          <ol>
           <li data-md>
-           <p>Set <var>searchOrigin</var> to <var>container</var>’s <u class="link-error" data-lt="browsing context container" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
+           <p>Set <var>searchOrigin</var> to <var>container</var>’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
   (Possible specs this could be from: longtasks-1)">browsing context container</u></p>
           <li data-md>
            <p>Set <var>eventTarget</var> be <var>searchOrigin</var></p>
@@ -2433,7 +2433,7 @@ Suggestions for improvements or simplifications are welcome.</p>
 Controlling spatial navigation through declarative means</span><a class="self-link" href="#declarative"></a></h2>
     <h3 class="heading settled" data-level="9.1" id="container"><span class="secno">9.1. </span><span class="content">
 Creating additional spatial navigation containers: the <a class="css property" data-link-type="property" href="#propdef-spatial-navigation-contain" id="ref-for-propdef-spatial-navigation-contain③">spatial-navigation-contain</a> property</span><a class="self-link" href="#container"></a></h3>
-    <table class="def propdef" data-link-for-hint="spatial-navigation-contain">
+    <table class="def propdef">
      <tbody>
       <tr>
        <th>Name:
@@ -2593,7 +2593,7 @@ Creating additional spatial navigation containers: the <a class="css property" d
    </div>
    <h3 class="heading settled" data-level="9.2" id="css-property-spatialnavigationaction"><span class="secno">9.2. </span><span class="content">
 Controlling the interaction with scrolling: the <a class="css property" data-link-type="property" href="#propdef-spatial-navigation-action" id="ref-for-propdef-spatial-navigation-action⑦">spatial-navigation-action</a> property</span><a class="self-link" href="#css-property-spatialnavigationaction"></a></h3>
-   <table class="def propdef" data-link-for-hint="spatial-navigation-action">
+   <table class="def propdef">
     <tbody>
      <tr>
       <th>Name:
@@ -2673,7 +2673,7 @@ or of its nearest <span id="ref-for-scroll-container①①">scroll container</sp
         to move the focus to a <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#scroll-container" id="ref-for-scroll-container①⑨">scroll container</a> and to scroll it,
         but not to move the focus to its descendants.
         However, if the focus is moved to a descendant by some other mean
-        (such as pressing the <span class="key">Tab</span> key or using the &lt;<code class="idl"><u class="link-error" data-lt="focus()" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;[&apos;HTMLOrSVGElement&apos;]&apos; in spec &apos;html&apos;.">focus()</u></code>> method)
+        (such as pressing the <span class="key">Tab</span> key or using the &lt;<code class="idl"><u class="link-error" title="LINK ERROR: No &apos;method&apos; refs found for &apos;focus()&apos; with for=&apos;[&apos;HTMLOrSVGElement&apos;]&apos; in spec &apos;html&apos;.">focus()</u></code>> method)
         spatial navigation can be used to move the focus to other focusable descendants.</p>
      <p class="note" role="note"><span class="marker">Note:</span> The <span class="css">scroll</span> value is <a data-link-type="dfn" href="#at-risk" id="ref-for-at-risk②">at-risk</a>.</p>
    </dl>
@@ -2723,7 +2723,7 @@ Pressing the down arrow key moves the focus directly to it without scrolling man
    </div>
    <h3 class="heading settled" data-level="9.3" id="css-property-spatialnavigationfunction"><span class="secno">9.3. </span><span class="content">
 Selecting the navigation algorithm: the <a class="css property" data-link-type="property" href="#propdef-spatial-navigation-function" id="ref-for-propdef-spatial-navigation-function①">spatial-navigation-function</a> property</span><a class="self-link" href="#css-property-spatialnavigationfunction"></a></h3>
-   <table class="def propdef" data-link-for-hint="spatial-navigation-function">
+   <table class="def propdef">
     <tbody>
      <tr>
       <th>Name:
@@ -3456,12 +3456,12 @@ enum <a href="#enumdef-focusableareasearchmode"><code>FocusableAreaSearchMode</c
 };
 
 dictionary <a href="#dictdef-focusableareasoption"><code>FocusableAreasOption</code></a> {
-    <a data-link-type="idl-name" href="#enumdef-focusableareasearchmode">FocusableAreaSearchMode</a> <a data-type="FocusableAreaSearchMode" href="#dom-focusableareasoption-mode"><code>mode</code></a>;
+    <a data-link-type="idl-name" href="#enumdef-focusableareasearchmode">FocusableAreaSearchMode</a> <a href="#dom-focusableareasoption-mode"><code>mode</code></a>;
 };
 
 dictionary <a href="#dictdef-spatialnavigationsearchoptions"><code>SpatialNavigationSearchOptions</code></a> {
-    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node">Node</a>>? <a data-type="sequence<Node>?" href="#dom-spatialnavigationsearchoptions-candidates"><code>candidates</code></a>;
-    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node">Node</a>? <a data-type="Node?" href="#dom-spatialnavigationsearchoptions-container"><code>container</code></a>;
+    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node">Node</a>>? <a href="#dom-spatialnavigationsearchoptions-candidates"><code>candidates</code></a>;
+    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#node">Node</a>? <a href="#dom-spatialnavigationsearchoptions-container"><code>container</code></a>;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://dom.spec.whatwg.org/#element">Element</a> {
@@ -3474,13 +3474,13 @@ partial interface <a class="idl-code" data-link-type="interface" href="https://d
 interface <a href="#navigationevent"><code>NavigationEvent</code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/uievents/#uievent">UIEvent</a> {
     <a href="#dom-navigationevent-navigationevent"><code>constructor</code></a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-navigationevent-navigationevent-type-eventinitdict-type"><code>type</code></a>,
                 optional <a data-link-type="idl-name" href="#dictdef-navigationeventinit">NavigationEventInit</a> <a href="#dom-navigationevent-navigationevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></a> = {});
-    readonly attribute <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection">SpatialNavigationDirection</a> <a data-readonly data-type="SpatialNavigationDirection" href="#dom-navigationevent-dir"><code>dir</code></a>;
-    readonly attribute <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget">EventTarget</a>? <a data-readonly data-type="EventTarget?" href="#dom-navigationevent-relatedtarget"><code>relatedTarget</code></a>;
+    readonly attribute <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection">SpatialNavigationDirection</a> <a href="#dom-navigationevent-dir"><code>dir</code></a>;
+    readonly attribute <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget">EventTarget</a>? <a href="#dom-navigationevent-relatedtarget"><code>relatedTarget</code></a>;
 };
 
 dictionary <a href="#dictdef-navigationeventinit"><code>NavigationEventInit</code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/uievents/#dictdef-uieventinit">UIEventInit</a> {
-    <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection">SpatialNavigationDirection</a> <a data-type="SpatialNavigationDirection" href="#dom-navigationeventinit-dir"><code>dir</code></a>;
-    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget">EventTarget</a>? <a data-default="null" data-type="EventTarget?" href="#dom-navigationeventinit-relatedtarget"><code>relatedTarget</code></a> = null;
+    <a data-link-type="idl-name" href="#enumdef-spatialnavigationdirection">SpatialNavigationDirection</a> <a href="#dom-navigationeventinit-dir"><code>dir</code></a>;
+    <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget">EventTarget</a>? <a href="#dom-navigationeventinit-relatedtarget"><code>relatedTarget</code></a> = null;
 };
 
 </pre>
@@ -4110,7 +4110,7 @@ function genLinkingSyntaxes(dfn) {
 {
 let highlightGrammars = {
 "css": {"patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#keyframes"},{"include":"#at-rule-block"},{"include":"#at-rule-statement"},{"include":"#rule-set"}],"repository":{"at-rule-block":{"begin":"(@(?:container|counter-style|document|font-face|font-feature-values|font-palette-values|layer|media|page|position-try|scope|starting-style|supports|view-transition)\\b)[^{;]*\\{","beginCaptures":{"1":{"name":"keyword.control.at-rule"}},"end":"\\}","patterns":[{"include":"$self"}]},"at-rule-statement":{"begin":"(@(?:charset|custom-media|import|namespace|property)\\b)","beginCaptures":{"1":{"name":"keyword.control.at-rule"}},"end":";","patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#values"}]},"comments":{"begin":"/\\*","end":"\\*/","name":"comment.block"},"declarations":{"captures":{"1":{"name":"support.type.property-name"}},"match":"(--[a-zA-Z0-9_-]+|[a-zA-Z-][\\w-]*)(\\s*:)"},"keyframes":{"begin":"(@(?:-\\w+-)?keyframes)\\s+([a-zA-Z_-][\\w-]*)\\s*\\{","beginCaptures":{"1":{"name":"keyword.control.at-rule"},"2":{"name":"entity.name.animation"}},"end":"\\}","patterns":[{"include":"$self"}]},"rule-set":{"begin":"([^\\s@{};<][^@{};<]*?)\\s*\\{","beginCaptures":{"1":{"name":"entity.name.selector"}},"end":"\\}","patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#keyframes"},{"include":"#at-rule-block"},{"include":"#at-rule-statement"},{"include":"#rule-set"},{"include":"#declarations"},{"include":"#values"}]},"strings":{"match":"(['\"])(?:\\\\.|(?!\\1)[^\\\\\\r\\n])*\\1","name":"string.quoted"},"values":{"patterns":[{"match":"!important\\b","name":"keyword.other.important"},{"captures":{"1":{"name":"entity.name.function"},"2":{"name":"variable.other.custom-property"}},"match":"\\b(var)\\(\\s*(--[a-zA-Z0-9_-]+)"},{"captures":{"1":{"name":"entity.name.function"}},"match":"\\b([a-zA-Z_-][\\w-]*)(?=\\()"},{"match":"#(?:[0-9a-fA-F]{8}|[0-9a-fA-F]{6}|[0-9a-fA-F]{4}|[0-9a-fA-F]{3})\\b","name":"constant.other.color"},{"match":"(?<![\\w.-])-?(?:\\d*\\.\\d+|\\d+)(?:[eE][+-]?\\d+)?(?:%|[a-zA-Z]+)?\\b","name":"constant.numeric"},{"match":"\\b(?:auto|currentColor|inherit|initial|none|normal|revert|revert-layer|transparent|unset)\\b","name":"constant.language"},{"match":"(?:[+*/]|(?<=\\s)-(?!-))","name":"keyword.operator"}]}},"scopeName":"source.css"},
-"html": {"dependencies":["css","json","javascript"],"patterns":[{"include":"#comments"},{"include":"#doctype"},{"include":"#embedded-css"},{"include":"#embedded-json"},{"include":"#embedded-javascript"},{"include":"#raw-text"},{"include":"#tags"},{"include":"#entities"}],"repository":{"attributes":{"begin":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"string.quoted.attribute-value","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"#entities"}]},"boolean-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)(?=[ \\t]*/?>|[ \\t]+[a-zA-Z_:])"},"comments":{"begin":"<!--","end":"-->","name":"comment.block"},"doctype":{"match":"<![Dd][Oo][Cc][Tt][Yy][Pp][Ee]\\b[^>]*>","name":"keyword.control.doctype"},"embedded-css":{"begin":"<([Ss][Tt][Yy][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.css.embedded.html","end":"</([Ss][Tt][Yy][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.css"}]},"embedded-javascript":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?:(?![^>]*\\b[Tt][Yy][Pp][Ee]\\s*=)|(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:module|(?:text|application)/(?:java|ecma)script)\\2))(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.js.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.js"}]},"embedded-json":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:application/(?:ld\\+)?json|importmap|speculationrules)\\2)(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.json.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.json"}]},"entities":{"match":"&(?:#\\d+|#x[0-9a-fA-F]+|[a-zA-Z][\\w]+);","name":"constant.character.entity"},"inline-css":{"begin":"[ \\t]+(style)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.css.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.css#comments"},{"include":"source.css#strings"},{"include":"source.css#declarations"},{"include":"source.css#values"}]},"inline-javascript":{"begin":"[ \\t]+(on[a-zA-Z][\\w-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.js.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.js"}]},"raw-text":{"begin":"<([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"string.unquoted.raw-text","end":"</([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}}},"tags":{"begin":"<(/?)([a-zA-Z][\\w.-]*)","beginCaptures":{"2":{"name":"entity.name.tag"}},"end":">","patterns":[{"include":"#inline-css"},{"include":"#inline-javascript"},{"include":"#attributes"},{"include":"#unquoted-attributes"},{"include":"#boolean-attributes"}]},"unquoted-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"string.unquoted.attribute-value"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*([^\\s\"'`=<>]+)"}},"scopeName":"text.html.basic"},
+"html": {"dependencies":["css","json","javascript"],"patterns":[{"include":"#comments"},{"include":"#doctype"},{"include":"#embedded-css"},{"include":"#embedded-json"},{"include":"#embedded-javascript"},{"include":"#raw-text"},{"include":"#tags"},{"include":"#entities"}],"repository":{"attributes":{"begin":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"string.quoted.attribute-value","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"#entities"}]},"boolean-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)(?=[ \\t]*/?>|[ \\t]+[a-zA-Z_:])"},"comments":{"begin":"\u003c!--","end":"-->","name":"comment.block"},"doctype":{"match":"<![Dd][Oo][Cc][Tt][Yy][Pp][Ee]\\b[^>]*>","name":"keyword.control.doctype"},"embedded-css":{"begin":"<([Ss][Tt][Yy][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.css.embedded.html","end":"</([Ss][Tt][Yy][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.css"}]},"embedded-javascript":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?:(?![^>]*\\b[Tt][Yy][Pp][Ee]\\s*=)|(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:module|(?:text|application)/(?:java|ecma)script)\\2))(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.js.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.js"}]},"embedded-json":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:application/(?:ld\\+)?json|importmap|speculationrules)\\2)(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.json.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.json"}]},"entities":{"match":"&(?:#\\d+|#x[0-9a-fA-F]+|[a-zA-Z][\\w]+);","name":"constant.character.entity"},"inline-css":{"begin":"[ \\t]+(style)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.css.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.css#comments"},{"include":"source.css#strings"},{"include":"source.css#declarations"},{"include":"source.css#values"}]},"inline-javascript":{"begin":"[ \\t]+(on[a-zA-Z][\\w-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.js.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.js"}]},"raw-text":{"begin":"<([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"string.unquoted.raw-text","end":"</([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}}},"tags":{"begin":"<(/?)([a-zA-Z][\\w.-]*)","beginCaptures":{"2":{"name":"entity.name.tag"}},"end":">","patterns":[{"include":"#inline-css"},{"include":"#inline-javascript"},{"include":"#attributes"},{"include":"#unquoted-attributes"},{"include":"#boolean-attributes"}]},"unquoted-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"string.unquoted.attribute-value"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*([^\\s\"'`=<>]+)"}},"scopeName":"text.html.basic"},
 "javascript": {"patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#template"},{"include":"#regexp"},{"include":"#jsx-closing-tag"},{"include":"#jsx-tag"},{"include":"#class-declaration"},{"include":"#function-declaration"},{"include":"#variable-declaration"},{"include":"#keywords"},{"include":"#numbers"},{"include":"#constants"},{"include":"#decorators"},{"include":"#private-fields"},{"include":"#properties"},{"include":"#functions"},{"include":"#built-ins"},{"include":"#operators"}],"repository":{"balanced-braces":{"begin":"\\{","end":"\\}","patterns":[{"include":"#balanced-braces"},{"include":"$self"}]},"built-ins":{"match":"\\b(?:Array|BigInt|Boolean|console|customElements|Date|document|Error|JSON|Map|Math|Number|Object|Promise|Reflect|RegExp|Set|String|Symbol|WeakMap|WeakSet|window)\\b","name":"support.class"},"class-declaration":{"captures":{"1":{"name":"storage.type.class"},"2":{"name":"entity.name.type.class"}},"match":"\\b(class)\\s+([A-Za-z_$][\\w$]*)"},"comments":{"patterns":[{"match":"//.*$","name":"comment.line"},{"begin":"/\\*","end":"\\*/","name":"comment.block"}]},"constants":{"patterns":[{"match":"\\b(?:false|true)\\b","name":"constant.language.boolean"},{"match":"\\b(?:Infinity|NaN|null|undefined)\\b","name":"constant.language"}]},"decorators":{"match":"@[A-Za-z_$][\\w$]*","name":"entity.name.decorator"},"function-declaration":{"captures":{"1":{"name":"storage.modifier.async"},"2":{"name":"storage.type.function"},"4":{"name":"entity.name.function"}},"match":"\\b(?:(async)\\s+)?(function)\\s*(\\*)?\\s*([A-Za-z_$][\\w$]*)?"},"functions":{"match":"\\b[A-Za-z_$][\\w$]*(?=\\s*\\()","name":"entity.name.function"},"jsx-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"\\b([a-zA-Z_:][\\w:.-]*)(?=\\s*(?:=|/?>))"},"jsx-boolean-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"\\b([a-zA-Z_:][\\w:.-]*)(?=\\s+(?:[a-zA-Z_:][\\w:.-]*\\s*=|/?>))"},"jsx-closing-tag":{"captures":{"1":{"name":"entity.name.tag"}},"match":"</([A-Za-z][\\w.-]*)\\s*>"},"jsx-expression":{"begin":"\\{","end":"\\}","patterns":[{"include":"#balanced-braces"},{"include":"$self"}]},"jsx-tag":{"begin":"<([A-Za-z][\\w.-]*)","beginCaptures":{"1":{"name":"entity.name.tag"}},"end":"/?>","patterns":[{"include":"#jsx-expression"},{"include":"#strings"},{"include":"#jsx-boolean-attributes"},{"include":"#jsx-attributes"}]},"keywords":{"match":"\\b(?:as|assert|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|var|void|while|with|yield)\\b","name":"keyword.control"},"numbers":{"match":"(?<![\\w$])(?:0[xX][0-9a-fA-F](?:_?[0-9a-fA-F])*n?|0[bB][01](?:_?[01])*n?|0[oO][0-7](?:_?[0-7])*n?|\\d(?:_?\\d)*n|(?:\\d(?:_?\\d)*(?:\\.\\d(?:_?\\d)*)?|\\.\\d(?:_?\\d)*)(?:[eE][+-]?\\d(?:_?\\d)*)?)(?![\\w$])","name":"constant.numeric"},"operators":{"match":"(?:=>|===|!==|==|!=|<=|>=|\\?\\?|\\?\\.|\\+\\+|--|&&|\\|\\||\\*\\*|[+*%&|^!~?:-])","name":"keyword.operator"},"private-fields":{"match":"#[A-Za-z_$][\\w$]*","name":"variable.other.private"},"properties":{"match":"(?<=\\.)[A-Za-z_$][\\w$]*|[A-Za-z_$][\\w$]*(?=\\s*:)","name":"entity.name.property"},"regexp":{"match":"(?<![\\w)$\\]])/(?![/*])(?:\\\\.|\\[(?:\\\\.|[^\\]\\\\])*\\]|[^/\\\\\\r\\n])+/[dgimsuvy]*","name":"string.regexp"},"strings":{"patterns":[{"match":"'(?:\\\\.|[^'\\\\\\r\\n])*'","name":"string.quoted.single"},{"match":"\"(?:\\\\.|[^\"\\\\\\r\\n])*\"","name":"string.quoted.double"}]},"template":{"begin":"`","end":"(?<!\\\\)(?:\\\\\\\\)*`","name":"string.quoted.template","patterns":[{"include":"#template-interpolation"}]},"template-interpolation":{"begin":"\\$\\{","end":"\\}","patterns":[{"include":"#balanced-braces"},{"include":"$self"}]},"variable-declaration":{"captures":{"1":{"name":"storage.type.variable"},"2":{"name":"variable.other.readwrite"}},"match":"\\b(const|let|var)\\s+([A-Za-z_$][\\w$]*)"}},"scopeName":"source.js"},
 "json": {"patterns":[{"match":"\"(?:\\\\.|[^\"\\\\])*\"(?=\\s*:)","name":"entity.name.key"},{"match":"\"(?:\\\\.|[^\"\\\\])*\"(?=\\s*[,}\\]])","name":"string.quoted.double"},{"match":"\\b(?:true|false)\\b","name":"constant.language.boolean"},{"match":"\\bnull\\b","name":"constant.language"},{"match":"(?<![\\w.])-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b","name":"constant.numeric"}],"scopeName":"source.json"},
 "webidl": {"patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"include":"#definitions"},{"include":"#members"},{"include":"#types"},{"include":"#literals"},{"include":"#punctuation"},{"include":"#identifier"}],"repository":{"argument":{"begin":"(?=\\s*(?:optional|\\.\\.\\.|\\(|[?A-Za-z_]))","end":"(?=,|\\))","name":"meta.argument.webidl","patterns":[{"match":"\\boptional\\b","name":"storage.modifier.optional.webidl"},{"match":"\\.\\.\\.","name":"keyword.operator.variadic.webidl"},{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.parameter.webidl"}]},"argument-list":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.arguments.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"attribute-member":{"begin":"\\b(?:(readonly)\\s+)?(attribute)\\b","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.attribute.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.attribute.webidl","patterns":[{"include":"#types"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.attribute.webidl"}]},"buffer-type":{"match":"\\b(ArrayBuffer|DataView|Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|BigInt64Array|BigUint64Array|Float16Array|Float32Array|Float64Array)\\b","name":"support.type.buffer.webidl"},"callback-function-definition":{"begin":"\\b(callback)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(=)","beginCaptures":{"1":{"name":"storage.modifier.callback.webidl"},"2":{"name":"entity.name.function.callback.webidl"},"3":{"name":"keyword.operator.assignment.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.callback.function.webidl","patterns":[{"include":"#types"},{"include":"#argument-list"},{"include":"#comments"}]},"callback-interface-definition":{"begin":"\\b(callback)\\s+(interface)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.modifier.callback.webidl"},"2":{"name":"storage.type.interface.webidl"},"3":{"name":"entity.name.type.callback-interface.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.callback.interface.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"comments":{"patterns":[{"begin":"/\\*\\*","beginCaptures":{"0":{"name":"punctuation.definition.comment.begin.webidl"}},"end":"\\*/","endCaptures":{"0":{"name":"punctuation.definition.comment.end.webidl"}},"name":"comment.block.documentation.webidl"},{"begin":"/\\*","beginCaptures":{"0":{"name":"punctuation.definition.comment.begin.webidl"}},"end":"\\*/","endCaptures":{"0":{"name":"punctuation.definition.comment.end.webidl"}},"name":"comment.block.webidl"},{"match":"\\*/","name":"invalid.illegal.stray-comment-end.webidl"},{"begin":"//","beginCaptures":{"0":{"name":"punctuation.definition.comment.webidl"}},"end":"$\\n?","name":"comment.line.double-slash.webidl"}]},"const-member":{"begin":"\\b(const)\\b","beginCaptures":{"1":{"name":"storage.modifier.const.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.const.webidl","patterns":[{"include":"#types"},{"include":"#literals"},{"match":"=","name":"keyword.operator.assignment.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.constant.webidl"}]},"constructor-member":{"begin":"\\b(constructor)\\s*(\\()","beginCaptures":{"1":{"name":"entity.name.function.constructor.webidl"},"2":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.constructor.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"default-value":{"patterns":[{"match":"=","name":"keyword.operator.assignment.default.webidl"},{"include":"#literals"},{"match":"\\[\\s*\\]","name":"constant.language.empty-sequence.webidl"},{"match":"\\{\\s*\\}","name":"constant.language.empty-object.webidl"}]},"definition-block":{"begin":"\\{","beginCaptures":{"0":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.block.definition.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"include":"#members"},{"include":"#types"},{"include":"#literals"},{"include":"#punctuation"}]},"definitions":{"patterns":[{"include":"#partial-definition"},{"include":"#callback-interface-definition"},{"include":"#callback-function-definition"},{"include":"#interface-mixin-definition"},{"include":"#interface-definition"},{"include":"#namespace-definition"},{"include":"#dictionary-definition"},{"include":"#enum-definition"},{"include":"#typedef-definition"},{"include":"#includes-statement"}]},"dictionary-block":{"begin":"\\{","beginCaptures":{"0":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.block.dictionary.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"begin":"\\b(required)\\b","beginCaptures":{"1":{"name":"storage.modifier.required.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.dictionary.member.webidl","patterns":[{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.dictionary.webidl"}]},{"begin":"(?=\\s*(?:\\(|[?A-Za-z_]))","end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.dictionary.member.webidl","patterns":[{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.dictionary.webidl"}]}]},"dictionary-definition":{"begin":"\\b(dictionary)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.dictionary.webidl"},"2":{"name":"entity.name.type.dictionary.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.dictionary.webidl","patterns":[{"include":"#inheritance"},{"include":"#dictionary-block"},{"include":"#comments"}]},"enum-definition":{"begin":"\\b(enum)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(\\{)","beginCaptures":{"1":{"name":"storage.type.enum.webidl"},"2":{"name":"entity.name.type.enum.webidl"},"3":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.definition.enum.webidl","patterns":[{"include":"#comments"},{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.webidl"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.webidl"}},"name":"string.quoted.double.enum.webidl","patterns":[{"include":"#string-escapes"}]},{"match":",","name":"punctuation.separator.comma.webidl"}]},"extended-attribute":{"patterns":[{"match":"\\b(CrossOriginIsolated|Exposed|Global|LegacyFactoryFunction|LegacyNoInterfaceObject|LegacyOverrideBuiltIns|LegacyWindowAlias|SecureContext|LegacyLenientSetter|LegacyLenientThis|LenientFloat|PutForwards|Replaceable|SameObject|Unforgeable|CEReactions|HTMLConstructor|NewObject|LegacyUnforgeable|LegacyNullToEmptyString|Clamp|EnforceRange|AllowShared|Serializable|Transferable|LegacyTreatNonObjectAsNull|LegacyNamespace|LegacyWindowAlias|LegacyDefaultToJSONOperation|LegacyArrayClass)\\b","name":"support.type.extended-attribute.known.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.other.attribute-name.extended.webidl"},{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.extended-attribute.arguments.webidl","patterns":[{"include":"#argument"},{"include":"#types"},{"include":"#literals"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.other.attribute-name.extended.webidl"}]}]},"extended-attribute-list":{"begin":"\\[","beginCaptures":{"0":{"name":"punctuation.definition.metadata.begin.webidl"}},"end":"\\]","endCaptures":{"0":{"name":"punctuation.definition.metadata.end.webidl"}},"name":"meta.extended-attribute-list.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute"},{"include":"#literals"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"=","name":"keyword.operator.assignment.webidl"}]},"generic-type":{"patterns":[{"begin":"\\b(async_sequence|sequence|record|FrozenArray|ObservableArray|Promise)\\s*(<)","beginCaptures":{"1":{"name":"support.type.generic.webidl"},"2":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"}},"name":"meta.type.generic.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"},{"include":"#comments"}]}]},"identifier":{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.identifier.webidl"},"identifier-type":{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.name.type.identifier.webidl"},"includes-statement":{"captures":{"1":{"name":"entity.name.type.interface.webidl"},"2":{"name":"keyword.operator.includes.webidl"},"3":{"name":"entity.name.type.mixin.webidl"},"4":{"name":"punctuation.terminator.statement.webidl"}},"match":"\\b([_A-Za-z][_A-Za-z0-9]*)\\s+(includes)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(;)","name":"meta.definition.includes.webidl"},"inheritance":{"captures":{"1":{"name":"punctuation.separator.inheritance.webidl"},"2":{"name":"entity.other.inherited-class.webidl"}},"match":"(:)\\s*([_A-Za-z][_A-Za-z0-9]*)","name":"meta.inheritance.webidl"},"interface-definition":{"begin":"\\b(interface)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.interface.webidl"},"2":{"name":"entity.name.type.interface.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.interface.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"interface-mixin-definition":{"begin":"\\b(interface)\\s+(mixin)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.interface.webidl"},"2":{"name":"storage.modifier.mixin.webidl"},"3":{"name":"entity.name.type.mixin.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.interface.mixin.webidl","patterns":[{"include":"#definition-block"},{"include":"#comments"}]},"iterable-member":{"begin":"\\b(?:(async)\\s+)?(iterable)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.async.webidl"},"2":{"name":"storage.type.iterable.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.iterable.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"literals":{"patterns":[{"include":"#string"},{"match":"\\b(true|false)\\b","name":"constant.language.boolean.webidl"},{"match":"\\bnull\\b","name":"constant.language.null.webidl"},{"match":"[-+]?\\bInfinity\\b","name":"constant.language.infinity.webidl"},{"match":"[-+]?\\bNaN\\b","name":"constant.language.nan.webidl"},{"match":"[-+]?0[xX][0-9a-fA-F]+","name":"constant.numeric.hex.webidl"},{"match":"[-+]?((?:[0-9]+\\.[0-9]*|\\.[0-9]+)(?:[eE][-+]?[0-9]+)?|[0-9]+[eE][-+]?[0-9]+)","name":"constant.numeric.float.webidl"},{"match":"[-+]?[0-9]+","name":"constant.numeric.integer.webidl"}]},"maplike-member":{"begin":"\\b(?:(readonly)\\s+)?(maplike)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.maplike.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.maplike.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"members":{"patterns":[{"include":"#const-member"},{"include":"#attribute-member"},{"include":"#constructor-member"},{"include":"#stringifier-member"},{"include":"#iterable-member"},{"include":"#maplike-member"},{"include":"#setlike-member"},{"include":"#operation-member"}]},"namespace-definition":{"begin":"\\b(namespace)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.namespace.webidl"},"2":{"name":"entity.name.type.namespace.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.namespace.webidl","patterns":[{"include":"#definition-block"},{"include":"#comments"}]},"operation-member":{"begin":"(?=\\b(?:getter|setter|deleter|static|legacycaller|stringifier|undefined|boolean|byte|octet|bigint|float|double|short|long|unsigned|unrestricted|object|symbol|any|void|DOMString|ByteString|USVString|sequence|record|FrozenArray|ObservableArray|Promise|ArrayBuffer|DataView|Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|BigInt64Array|BigUint64Array|Float16Array|Float32Array|Float64Array|[_A-Za-z])|\\()","end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.operation.webidl","patterns":[{"include":"#operation-qualifiers"},{"include":"#operation-signature"},{"include":"#types"},{"include":"#comments"}]},"operation-qualifiers":{"patterns":[{"match":"\\b(getter|setter|deleter|static|legacycaller)\\b","name":"storage.modifier.operation.special.webidl"}]},"operation-signature":{"patterns":[{"begin":"\\b([_A-Za-z][_A-Za-z0-9]*)?\\s*(\\()","beginCaptures":{"1":{"name":"entity.name.function.operation.webidl"},"2":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.operation.signature.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]}]},"partial-definition":{"begin":"\\b(partial)\\s+(?:(interface)\\s+(mixin)\\s+|(interface|dictionary|namespace)\\s+)([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.modifier.partial.webidl"},"2":{"name":"storage.type.interface.webidl"},"3":{"name":"storage.modifier.mixin.webidl"},"4":{"name":"storage.type.definition.webidl"},"5":{"name":"entity.name.type.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.partial.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"primitive-type":{"patterns":[{"match":"\\bunsigned\\b","name":"storage.modifier.unsigned.webidl"},{"match":"\\bunrestricted\\b","name":"storage.modifier.unrestricted.webidl"},{"match":"\\b(undefined|boolean|byte|octet|bigint|float|double|short|long|object|symbol|any|void)\\b","name":"support.type.primitive.webidl"}]},"punctuation":{"patterns":[{"match":";","name":"punctuation.terminator.statement.webidl"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"=","name":"keyword.operator.assignment.webidl"},{"match":"\\.\\.\\.","name":"keyword.operator.variadic.webidl"},{"match":"<","name":"punctuation.definition.generic.begin.webidl"},{"match":">","name":"punctuation.definition.generic.end.webidl"},{"match":"\\(","name":"punctuation.definition.parameters.begin.webidl"},{"match":"\\)","name":"punctuation.definition.parameters.end.webidl"},{"match":"\\{","name":"punctuation.definition.block.begin.webidl"},{"match":"\\}","name":"punctuation.definition.block.end.webidl"}]},"setlike-member":{"begin":"\\b(?:(readonly)\\s+)?(setlike)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.setlike.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.setlike.webidl","patterns":[{"include":"#types"}]},"special-type":{"match":"\\b(BufferSource|AllowSharedBufferSource|ArrayBufferView)\\b","name":"support.type.special.webidl"},"string":{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.webidl"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.webidl"}},"name":"string.quoted.double.webidl","patterns":[{"include":"#string-escapes"}]},"string-escapes":{"patterns":[{"match":"\\\\(?:[\"'\\\\bfnrtv]|0|x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})","name":"constant.character.escape.webidl"},{"match":"\\\\.","name":"invalid.illegal.unknown-escape.webidl"}]},"string-type":{"match":"\\b(DOMString|ByteString|USVString)\\b","name":"support.type.string.webidl"},"stringifier-member":{"begin":"\\b(stringifier)\\b","beginCaptures":{"1":{"name":"storage.modifier.stringifier.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.stringifier.webidl","patterns":[{"include":"#attribute-member"},{"include":"#operation-signature"},{"include":"#types"}]},"typedef-definition":{"begin":"\\b(typedef)\\b","beginCaptures":{"1":{"name":"storage.type.typedef.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.typedef.webidl","patterns":[{"include":"#types"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.name.type.typedef.webidl"},{"include":"#comments"}]},"types":{"patterns":[{"include":"#union-type"},{"include":"#generic-type"},{"include":"#primitive-type"},{"include":"#string-type"},{"include":"#buffer-type"},{"include":"#special-type"},{"include":"#identifier-type"},{"match":"\\?","name":"keyword.operator.nullable.webidl"}]},"union-type":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.union.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.union.end.webidl"}},"name":"meta.type.union.webidl","patterns":[{"include":"#types"},{"match":"\\bor\\b","name":"keyword.operator.union.or.webidl"},{"include":"#comments"}]}},"scopeName":"source.webidl"},
@@ -4124,20 +4124,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -4230,29 +4311,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -4289,13 +4420,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -4308,6 +4432,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -4333,12 +4465,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -4386,18 +4551,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -4408,13 +4577,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -4427,7 +4609,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -4440,13 +4622,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

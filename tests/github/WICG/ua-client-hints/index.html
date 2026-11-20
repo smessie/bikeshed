@@ -479,151 +479,6 @@ a[href].issue-return {
     text-decoration: none;
 }
 </style>
-<style>/* Boilerplate: style-legacy-syntax-highlighting */
-code.highlight { padding: .1em; border-radius: .3em; }
-pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em 0; overflow: auto; border-radius: 0; }
-
-.highlight:not(.idl) { background: rgba(0, 0, 0, .03); }
-c-[a] { color: #990055 } /* Keyword.Declaration */
-c-[b] { color: #990055 } /* Keyword.Type */
-c-[c] { color: #708090 } /* Comment */
-c-[d] { color: #708090 } /* Comment.Multiline */
-c-[e] { color: #0077aa } /* Name.Attribute */
-c-[f] { color: #669900 } /* Name.Tag */
-c-[g] { color: #222222 } /* Name.Variable */
-c-[k] { color: #990055 } /* Keyword */
-c-[l] { color: #000000 } /* Literal */
-c-[m] { color: #000000 } /* Literal.Number */
-c-[n] { color: #0077aa } /* Name */
-c-[o] { color: #999999 } /* Operator */
-c-[p] { color: #999999 } /* Punctuation */
-c-[s] { color: #a67f59 } /* Literal.String */
-c-[t] { color: #a67f59 } /* Literal.String.Single */
-c-[u] { color: #a67f59 } /* Literal.String.Double */
-c-[cp] { color: #708090 } /* Comment.Preproc */
-c-[c1] { color: #708090 } /* Comment.Single */
-c-[cs] { color: #708090 } /* Comment.Special */
-c-[kc] { color: #990055 } /* Keyword.Constant */
-c-[kn] { color: #990055 } /* Keyword.Namespace */
-c-[kp] { color: #990055 } /* Keyword.Pseudo */
-c-[kr] { color: #990055 } /* Keyword.Reserved */
-c-[ld] { color: #000000 } /* Literal.Date */
-c-[nc] { color: #0077aa } /* Name.Class */
-c-[no] { color: #0077aa } /* Name.Constant */
-c-[nd] { color: #0077aa } /* Name.Decorator */
-c-[ni] { color: #0077aa } /* Name.Entity */
-c-[ne] { color: #0077aa } /* Name.Exception */
-c-[nf] { color: #0077aa } /* Name.Function */
-c-[nl] { color: #0077aa } /* Name.Label */
-c-[nn] { color: #0077aa } /* Name.Namespace */
-c-[py] { color: #0077aa } /* Name.Property */
-c-[ow] { color: #999999 } /* Operator.Word */
-c-[mb] { color: #000000 } /* Literal.Number.Bin */
-c-[mf] { color: #000000 } /* Literal.Number.Float */
-c-[mh] { color: #000000 } /* Literal.Number.Hex */
-c-[mi] { color: #000000 } /* Literal.Number.Integer */
-c-[mo] { color: #000000 } /* Literal.Number.Oct */
-c-[sb] { color: #a67f59 } /* Literal.String.Backtick */
-c-[sc] { color: #a67f59 } /* Literal.String.Char */
-c-[sd] { color: #a67f59 } /* Literal.String.Doc */
-c-[se] { color: #a67f59 } /* Literal.String.Escape */
-c-[sh] { color: #a67f59 } /* Literal.String.Heredoc */
-c-[si] { color: #a67f59 } /* Literal.String.Interpol */
-c-[sx] { color: #a67f59 } /* Literal.String.Other */
-c-[sr] { color: #a67f59 } /* Literal.String.Regex */
-c-[ss] { color: #a67f59 } /* Literal.String.Symbol */
-c-[vc] { color: #0077aa } /* Name.Variable.Class */
-c-[vg] { color: #0077aa } /* Name.Variable.Global */
-c-[vi] { color: #0077aa } /* Name.Variable.Instance */
-c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
-
-@media (prefers-color-scheme: dark) {
-    .highlight:not(.idl) { background: rgba(255, 255, 255, .05); }
-
-    c-[a] { color: #d33682 } /* Keyword.Declaration */
-    c-[b] { color: #d33682 } /* Keyword.Type */
-    c-[c] { color: #2aa198 } /* Comment */
-    c-[d] { color: #2aa198 } /* Comment.Multiline */
-    c-[e] { color: #268bd2 } /* Name.Attribute */
-    c-[f] { color: #b58900 } /* Name.Tag */
-    c-[g] { color: #cb4b16 } /* Name.Variable */
-    c-[k] { color: #d33682 } /* Keyword */
-    c-[l] { color: #657b83 } /* Literal */
-    c-[m] { color: #657b83 } /* Literal.Number */
-    c-[n] { color: #268bd2 } /* Name */
-    c-[o] { color: #657b83 } /* Operator */
-    c-[p] { color: #657b83 } /* Punctuation */
-    c-[s] { color: #6c71c4 } /* Literal.String */
-    c-[t] { color: #6c71c4 } /* Literal.String.Single */
-    c-[u] { color: #6c71c4 } /* Literal.String.Double */
-    c-[ch] { color: #2aa198 } /* Comment.Hashbang */
-    c-[cp] { color: #2aa198 } /* Comment.Preproc */
-    c-[cpf] { color: #2aa198 } /* Comment.PreprocFile */
-    c-[c1] { color: #2aa198 } /* Comment.Single */
-    c-[cs] { color: #2aa198 } /* Comment.Special */
-    c-[kc] { color: #d33682 } /* Keyword.Constant */
-    c-[kn] { color: #d33682 } /* Keyword.Namespace */
-    c-[kp] { color: #d33682 } /* Keyword.Pseudo */
-    c-[kr] { color: #d33682 } /* Keyword.Reserved */
-    c-[ld] { color: #657b83 } /* Literal.Date */
-    c-[nc] { color: #268bd2 } /* Name.Class */
-    c-[no] { color: #268bd2 } /* Name.Constant */
-    c-[nd] { color: #268bd2 } /* Name.Decorator */
-    c-[ni] { color: #268bd2 } /* Name.Entity */
-    c-[ne] { color: #268bd2 } /* Name.Exception */
-    c-[nf] { color: #268bd2 } /* Name.Function */
-    c-[nl] { color: #268bd2 } /* Name.Label */
-    c-[nn] { color: #268bd2 } /* Name.Namespace */
-    c-[py] { color: #268bd2 } /* Name.Property */
-    c-[ow] { color: #657b83 } /* Operator.Word */
-    c-[mb] { color: #657b83 } /* Literal.Number.Bin */
-    c-[mf] { color: #657b83 } /* Literal.Number.Float */
-    c-[mh] { color: #657b83 } /* Literal.Number.Hex */
-    c-[mi] { color: #657b83 } /* Literal.Number.Integer */
-    c-[mo] { color: #657b83 } /* Literal.Number.Oct */
-    c-[sa] { color: #6c71c4 } /* Literal.String.Affix */
-    c-[sb] { color: #6c71c4 } /* Literal.String.Backtick */
-    c-[sc] { color: #6c71c4 } /* Literal.String.Char */
-    c-[dl] { color: #6c71c4 } /* Literal.String.Delimiter */
-    c-[sd] { color: #6c71c4 } /* Literal.String.Doc */
-    c-[se] { color: #6c71c4 } /* Literal.String.Escape */
-    c-[sh] { color: #6c71c4 } /* Literal.String.Heredoc */
-    c-[si] { color: #6c71c4 } /* Literal.String.Interpol */
-    c-[sx] { color: #6c71c4 } /* Literal.String.Other */
-    c-[sr] { color: #6c71c4 } /* Literal.String.Regex */
-    c-[ss] { color: #6c71c4 } /* Literal.String.Symbol */
-    c-[fm] { color: #268bd2 } /* Name.Function.Magic */
-    c-[vc] { color: #cb4b16 } /* Name.Variable.Class */
-    c-[vg] { color: #cb4b16 } /* Name.Variable.Global */
-    c-[vi] { color: #cb4b16 } /* Name.Variable.Instance */
-    c-[vm] { color: #cb4b16 } /* Name.Variable.Magic */
-    c-[il] { color: #657b83 } /* Literal.Number.Integer.Long */
-}
-
-@media print {
-    /* Darken colors for print that would otherwise print too faintly */
-    c-[c]  { color: #555555 } /* Comment */
-    c-[d]  { color: #555555 } /* Comment.Multiline */
-    c-[cp] { color: #555555 } /* Comment.Preproc */
-    c-[c1] { color: #555555 } /* Comment.Single */
-    c-[cs] { color: #555555 } /* Comment.Special */
-    c-[o]  { color: #222222 } /* Operator */
-    c-[p]  { color: #222222 } /* Punctuation */
-    c-[ow] { color: #222222 } /* Operator.Word */
-    c-[s]  { color: #664400 } /* Literal.String */
-    c-[t]  { color: #664400 } /* Literal.String.Single */
-    c-[u]  { color: #664400 } /* Literal.String.Double */
-    c-[sb] { color: #664400 } /* Literal.String.Backtick */
-    c-[sc] { color: #664400 } /* Literal.String.Char */
-    c-[sd] { color: #664400 } /* Literal.String.Doc */
-    c-[se] { color: #664400 } /* Literal.String.Escape */
-    c-[sh] { color: #664400 } /* Literal.String.Heredoc */
-    c-[si] { color: #664400 } /* Literal.String.Interpol */
-    c-[sx] { color: #664400 } /* Literal.String.Other */
-    c-[sr] { color: #664400 } /* Literal.String.Regex */
-    c-[ss] { color: #664400 } /* Literal.String.Symbol */
-}
-</style>
 <style>/* Boilerplate: style-md-lists */
 /* This is a weird hack for me not yet following the commonmark spec
    regarding paragraph and lists. */
@@ -1204,12 +1059,12 @@ experience. In practice, however, this header’s value exposes far more informa
 device than seems appropriate as a default, on the one hand, and intentionally obscures the true
 user agent in order to bypass misguided server-side heuristics, on the other.</p>
    <p>For example, a recent version of Chrome on iOS identifies itself as:</p>
-<pre class="highlight language-http">User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X)
+<pre class="highlight language-http" data-language="http">User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X)
             AppleWebKit/605.1.15 (KHTML, like Gecko)
             CriOS/69.0.3497.105 Mobile/15E148 Safari/605.1
 </pre>
    <p>While a recent version of Edge identifies itself as:</p>
-<pre class="highlight language-http">User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+<pre class="highlight language-http" data-language="http">User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
             AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.2704.79
             Safari/537.36 Edge/18.014
 </pre>
@@ -1250,17 +1105,17 @@ in <a data-link-type="biblio" href="#biblio-fingerprinting-guidance" title="Miti
    <h3 class="heading settled" data-level="1.1" id="examples"><span class="secno">1.1. </span><span class="content">Examples</span><a class="self-link" href="#examples"></a></h3>
    <p>A user navigates to <code>https://example.com/</code> for the first time using the latest version of the
 "Examplary Browser". Their user agent sends the following headers along with the HTTP request:</p>
-<pre class="highlight language-http">Sec-CH-UA: "Examplary Browser"; v="73", ";Not?A.Brand"; v="27"
+<pre class="highlight language-http" data-language="http">Sec-CH-UA: "Examplary Browser"; v="73", ";Not?A.Brand"; v="27"
 Sec-CH-UA-Mobile: ?0
 Sec-CH-UA-Platform: "Windows"
 </pre>
    <p>The server is interested in rendering content consistent with the user’s underlying platform version,
 and asks for a little more information by sending an <code>Accept-CH</code> header (Section 2.2.1 of
 <a data-link-type="biblio" href="#biblio-rfc8942" title="HTTP Client Hints">[RFC8942]</a>) along with the initial response:</p>
-<pre class="highlight language-http">Accept-CH: Sec-CH-UA-Platform-Version
+<pre class="highlight language-http" data-language="http">Accept-CH: Sec-CH-UA-Platform-Version
 </pre>
    <p>In response, the user agent includes the platform version information in the next request:</p>
-<pre class="highlight language-http">Sec-CH-UA: "Examplary Browser"; v="73", ";Not?A.Brand"; v="27"
+<pre class="highlight language-http" data-language="http">Sec-CH-UA: "Examplary Browser"; v="73", ";Not?A.Brand"; v="27"
 Sec-CH-UA-Mobile: ?0
 Sec-CH-UA-Platform: "Windows"
 Sec-CH-UA-Full-Version: "10.0.19042"
@@ -1338,7 +1193,7 @@ platforms where the model is typically exposed.</p>
 <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.3" id="ref-for-section-3.3.3">string</a>. The value of each item SHOULD include a "v" parameter, indicating the
 <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#user-agent" id="ref-for-user-agent①⑨">user agent</a>’s version.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA</c-> <c- o>=</c-> <c- nc>sf-list</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA = sf-list
 </pre>
    <p class="note" role="note"><span class="marker">Note:</span> Unlike most Client Hints, since it’s included in the <a data-link-type="dfn" href="https://wicg.github.io/client-hints-infrastructure/#low-entropy-hint-table" id="ref-for-low-entropy-hint-table">low entropy hint table</a>,
 the <code>Sec-CH-UA</code> header will be sent by default, whether or not the server opted-into
@@ -1354,7 +1209,7 @@ the architecture of the platform on which a given <a data-link-type="dfn" href="
 <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#" id="ref-for-something①">Structured Header</a> whose value MUST be a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.3" id="ref-for-section-3.3.3①">string</a>
 <a data-link-type="biblio" href="#biblio-rfc8941" title="Structured Field Values for HTTP">[RFC8941]</a>.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Arch</c-> <c- o>=</c-> <c- nc>sf-string</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Arch = sf-string
 </pre>
    <h3 class="heading settled" data-level="3.3" id="sec-ch-ua-bitness"><span class="secno">3.3. </span><span class="content">The 'Sec-CH-UA-Bitness' Header Field</span><a class="self-link" href="#sec-ch-ua-bitness"></a></h3>
    <p>The <dfn class="dfn-paneled" data-dfn-type="http-header" data-export id="http-headerdef-sec-ch-ua-bitness"><code>Sec-CH-UA-Bitness</code></dfn> request header field gives a server information about
@@ -1362,21 +1217,21 @@ the bitness of the architecture of the platform on which a given <a data-link-ty
 a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#" id="ref-for-something②">Structured Header</a> whose value MUST be a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.3" id="ref-for-section-3.3.3②">string</a>
 <a data-link-type="biblio" href="#biblio-rfc8941" title="Structured Field Values for HTTP">[RFC8941]</a>.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Bitness</c-> <c- o>=</c-> <c- nc>sf-string</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Bitness = sf-string
 </pre>
    <h3 class="heading settled" data-level="3.4" id="sec-ch-ua-full-version"><span class="secno">3.4. </span><span class="content">The 'Sec-CH-UA-Full-Version' Header Field</span><a class="self-link" href="#sec-ch-ua-full-version"></a></h3>
    <p>The <dfn class="dfn-paneled" data-dfn-type="http-header" data-export id="http-headerdef-sec-ch-ua-full-version"><code>Sec-CH-UA-Full-Version</code></dfn> request header field gives a server information
 about the user agent’s <a data-link-type="dfn" href="#user-agent-full-version" id="ref-for-user-agent-full-version①">full version</a>. It is a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#" id="ref-for-something③">Structured Header</a>
 whose value MUST be a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.3" id="ref-for-section-3.3.3③">string</a> <a data-link-type="biblio" href="#biblio-rfc8941" title="Structured Field Values for HTTP">[RFC8941]</a>.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Full-Version</c-> <c- o>=</c-> <c- nc>sf-string</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Full-Version = sf-string
 </pre>
    <h3 class="heading settled" data-level="3.5" id="sec-ch-ua-mobile"><span class="secno">3.5. </span><span class="content">The 'Sec-CH-UA-Mobile' Header Field</span><a class="self-link" href="#sec-ch-ua-mobile"></a></h3>
    <p>The <dfn class="dfn-paneled" data-dfn-type="http-header" data-export id="http-headerdef-sec-ch-ua-mobile"><code>Sec-CH-UA-Mobile</code></dfn> request header field gives a server information about
 whether or not a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#user-agent" id="ref-for-user-agent②③">user agent</a> prefers a "mobile" user experience. It is a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#" id="ref-for-something④">Structured Header</a>
 whose value MUST be a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.6" id="ref-for-section-3.3.6">boolean</a> <a data-link-type="biblio" href="#biblio-rfc8941" title="Structured Field Values for HTTP">[RFC8941]</a>.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Mobile</c-> <c- o>=</c-> <c- nc>sf-boolean</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Mobile = sf-boolean
 </pre>
    <p class="note" role="note"><span class="marker">Note:</span> Like <code>Sec-CH-UA</code> above, since it’s included in the <a data-link-type="dfn" href="https://wicg.github.io/client-hints-infrastructure/#low-entropy-hint-table" id="ref-for-low-entropy-hint-table①">low entropy hint table</a>,
 the <code>Sec-CH-UA-Mobile</code> header will be sent by default, whether or not the server opted-into
@@ -1388,7 +1243,7 @@ bit of information directly controllable by the user.</p>
 the device on which a given <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#user-agent" id="ref-for-user-agent②④">user agent</a> is executing. It is a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#" id="ref-for-something⑤">Structured Header</a> whose value MUST
 be a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.3" id="ref-for-section-3.3.3④">string</a> <a data-link-type="biblio" href="#biblio-rfc8941" title="Structured Field Values for HTTP">[RFC8941]</a>.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Model</c-> <c- o>=</c-> <c- nc>sf-string</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Model = sf-string
 </pre>
    <p class="issue" id="issue-1a9c4c0c"><a class="self-link" href="#issue-1a9c4c0c"></a> Perhaps <code>Sec-CH-UA-Mobile</code> is enough, and we don’t need to expose the model?</p>
    <h3 class="heading settled" data-level="3.7" id="sec-ch-ua-platform"><span class="secno">3.7. </span><span class="content">The 'Sec-CH-UA-Platform' Header Field</span><a class="self-link" href="#sec-ch-ua-platform"></a></h3>
@@ -1398,7 +1253,7 @@ whose value MUST be a <a data-link-type="dfn" href="https://tools.ietf.org/html/
 following common platform values: "Android", "Chrome OS", "iOS", "Linux", "macOS", "Windows", or
 "Unknown".</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Platform</c-> <c- o>=</c-> <c- nc>sf-string</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Platform = sf-string
 </pre>
    <p class="note" role="note"><span class="marker">Note:</span> Like <code>Sec-CH-UA</code> above, since it’s included in the <a data-link-type="dfn" href="https://wicg.github.io/client-hints-infrastructure/#low-entropy-hint-table" id="ref-for-low-entropy-hint-table②">low entropy hint table</a>, the
 <code>Sec-CH-UA-Platform</code> header will be sent by default, whether or not the server opted-into receiving
@@ -1410,7 +1265,7 @@ information about the platform version on which a given <a data-link-type="dfn" 
 <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#" id="ref-for-something⑦">Structured Header</a> whose value MUST be a <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc8941#section-3.3.3" id="ref-for-section-3.3.3⑥">string</a>
 <a data-link-type="biblio" href="#biblio-rfc8941" title="Structured Field Values for HTTP">[RFC8941]</a>.</p>
    <p>The header’s ABNF is:</p>
-<pre class="highlight language-abnf"><c- nc>Sec-CH-UA-Platform-Version</c-> <c- o>=</c-> <c- nc>sf-string</c->
+<pre class="highlight language-abnf" data-language="abnf">Sec-CH-UA-Platform-Version = sf-string
 </pre>
    <p>To <dfn class="dfn-paneled" data-dfn-type="abstract-op" data-export data-local-lt="set-ua" id="abstract-opdef-return-the-sec-ch-ua-value-for-a-request">return the <code>Sec-CH-UA</code> value for a request</dfn>, <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#user-agent" id="ref-for-user-agent②⑦">user agents</a> MUST:</p>
    <ol>
@@ -1438,31 +1293,31 @@ information about the platform version on which a given <a data-link-type="dfn" 
 <code>Sec-CH-UA-Model</code>, <code>Sec-CH-UA-Platform</code>, <code>Sec-CH-UA-Platform-Version</code></p>
    <h2 class="heading settled" data-level="4" id="interface"><span class="secno">4. </span><span class="content">Interface</span><a class="self-link" href="#interface"></a></h2>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-navigatoruabrandversion"><code>NavigatorUABrandVersion</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUABrandVersion" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-navigatoruabrandversion-brand"><code>brand</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUABrandVersion" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-navigatoruabrandversion-version"><code>version</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUABrandVersion" data-dfn-type="dict-member" data-export id="dom-navigatoruabrandversion-brand"><code>brand</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUABrandVersion" data-dfn-type="dict-member" data-export id="dom-navigatoruabrandversion-version"><code>version</code></dfn>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-uadatavalues"><code>UADataValues</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion" id="ref-for-dictdef-navigatoruabrandversion">NavigatorUABrandVersion</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="FrozenArray<NavigatorUABrandVersion>" id="dom-uadatavalues-brands"><code>brands</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-uadatavalues-mobile"><code>mobile</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-uadatavalues-platform"><code>platform</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString③">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-uadatavalues-architecture"><code>architecture</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString④">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-uadatavalues-bitness"><code>bitness</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑤">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-uadatavalues-model"><code>model</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑥">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-uadatavalues-platformversion"><code>platformVersion</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑦">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-uadatavalues-uafullversion"><code>uaFullVersion</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion" id="ref-for-dictdef-navigatoruabrandversion">NavigatorUABrandVersion</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-brands"><code>brands</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-mobile"><code>mobile</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-platform"><code>platform</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString③">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-architecture"><code>architecture</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString④">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-bitness"><code>bitness</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑤">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-model"><code>model</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑥">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-platformversion"><code>platformVersion</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑦">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="UADataValues" data-dfn-type="dict-member" data-export id="dom-uadatavalues-uafullversion"><code>uaFullVersion</code></dfn>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed">Exposed</a>=(Window,Worker)]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="navigatoruadata"><code>NavigatorUAData</code></dfn> {
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array①">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion" id="ref-for-dictdef-navigatoruabrandversion①">NavigatorUABrandVersion</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="attribute" data-export data-readonly data-type="FrozenArray<NavigatorUABrandVersion>" id="dom-navigatoruadata-brands"><code>brands</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="attribute" data-export data-readonly data-type="boolean" id="dom-navigatoruadata-mobile"><code>mobile</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑧">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="attribute" data-export data-readonly data-type="DOMString" id="dom-navigatoruadata-platform"><code>platform</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array①">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion" id="ref-for-dictdef-navigatoruabrandversion①">NavigatorUABrandVersion</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="attribute" data-export id="dom-navigatoruadata-brands"><code>brands</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="attribute" data-export id="dom-navigatoruadata-mobile"><code>mobile</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑧">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="attribute" data-export id="dom-navigatoruadata-platform"><code>platform</code></dfn>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-promise" id="ref-for-idl-promise">Promise</a>&lt;<a data-link-type="idl-name" href="#dictdef-uadatavalues" id="ref-for-dictdef-uadatavalues">UADataValues</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData" data-dfn-type="method" data-export data-lt="getHighEntropyValues(hints)" id="dom-navigatoruadata-gethighentropyvalues"><code>getHighEntropyValues</code></dfn>(<a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence">sequence</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑨">DOMString</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUAData/getHighEntropyValues(hints)" data-dfn-type="argument" data-export id="dom-navigatoruadata-gethighentropyvalues-hints-hints"><code>hints</code></dfn>);
 };
 
 interface mixin <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="navigatorua"><code>NavigatorUA</code></dfn> {
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext">SecureContext</a>] readonly attribute <a data-link-type="idl-name" href="#navigatoruadata" id="ref-for-navigatoruadata">NavigatorUAData</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUA" data-dfn-type="attribute" data-export data-readonly data-type="NavigatorUAData" id="dom-navigatorua-useragentdata"><code>userAgentData</code></dfn>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext">SecureContext</a>] readonly attribute <a data-link-type="idl-name" href="#navigatoruadata" id="ref-for-navigatoruadata">NavigatorUAData</a> <dfn class="dfn-paneled idl-code" data-dfn-for="NavigatorUA" data-dfn-type="attribute" data-export id="dom-navigatorua-useragentdata"><code>userAgentData</code></dfn>;
 };
 
 <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/system-state.html#navigator" id="ref-for-navigator">Navigator</a> includes <a data-link-type="idl-name" href="#navigatorua" id="ref-for-navigatorua">NavigatorUA</a>;
@@ -1596,7 +1451,7 @@ to the <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#user-agent" 
        <p>If <var>hints</var> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-contain" id="ref-for-list-contain④">contains</a> "uaFullVersion", let <var>uaData</var>["<code class="idl"><a data-link-type="idl" href="#dom-uadatavalues-uafullversion" id="ref-for-dom-uadatavalues-uafullversion">uaFullVersion</a></code>"]
 be the the user agent’s <a data-link-type="dfn" href="#user-agent-full-version" id="ref-for-user-agent-full-version②">full version</a>.</p>
       <li data-md>
-       <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task">Queue a task</a> on the <u class="link-error" data-lt="permission task source" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;permission task source&apos; that are marked for export.
+       <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task">Queue a task</a> on the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;permission task source&apos; that are marked for export.
   (Possible specs this could be from: permissions)">permission task source</u> to <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#resolve" id="ref-for-resolve">resolve</a> <var>p</var> with <var>uaData</var>.</p>
      </ol>
     <li data-md>
@@ -1951,31 +1806,31 @@ for valuable feedback and contributions to this specification.</p>
   </dl>
   <h2 class="heading no-num no-ref settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="def highlight idl" data-language="webidl">dictionary <a href="#dictdef-navigatoruabrandversion"><code>NavigatorUABrandVersion</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-navigatoruabrandversion-brand"><code>brand</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-navigatoruabrandversion-version"><code>version</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-navigatoruabrandversion-brand"><code>brand</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-navigatoruabrandversion-version"><code>version</code></a>;
 };
 
 dictionary <a href="#dictdef-uadatavalues"><code>UADataValues</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion">NavigatorUABrandVersion</a>> <a data-type="FrozenArray<NavigatorUABrandVersion>" href="#dom-uadatavalues-brands"><code>brands</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-type="boolean" href="#dom-uadatavalues-mobile"><code>mobile</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-uadatavalues-platform"><code>platform</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-uadatavalues-architecture"><code>architecture</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-uadatavalues-bitness"><code>bitness</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-uadatavalues-model"><code>model</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-uadatavalues-platformversion"><code>platformVersion</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-type="DOMString" href="#dom-uadatavalues-uafullversion"><code>uaFullVersion</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion">NavigatorUABrandVersion</a>> <a href="#dom-uadatavalues-brands"><code>brands</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-uadatavalues-mobile"><code>mobile</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-uadatavalues-platform"><code>platform</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-uadatavalues-architecture"><code>architecture</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-uadatavalues-bitness"><code>bitness</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-uadatavalues-model"><code>model</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-uadatavalues-platformversion"><code>platformVersion</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-uadatavalues-uafullversion"><code>uaFullVersion</code></a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=(Window,Worker)]
 interface <a href="#navigatoruadata"><code>NavigatorUAData</code></a> {
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion">NavigatorUABrandVersion</a>> <a data-readonly data-type="FrozenArray<NavigatorUABrandVersion>" href="#dom-navigatoruadata-brands"><code>brands</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-readonly data-type="boolean" href="#dom-navigatoruadata-mobile"><code>mobile</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-readonly data-type="DOMString" href="#dom-navigatoruadata-platform"><code>platform</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#dictdef-navigatoruabrandversion">NavigatorUABrandVersion</a>> <a href="#dom-navigatoruadata-brands"><code>brands</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-navigatoruadata-mobile"><code>mobile</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-navigatoruadata-platform"><code>platform</code></a>;
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-promise">Promise</a>&lt;<a data-link-type="idl-name" href="#dictdef-uadatavalues">UADataValues</a>> <a href="#dom-navigatoruadata-gethighentropyvalues"><code>getHighEntropyValues</code></a>(<a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>> <a href="#dom-navigatoruadata-gethighentropyvalues-hints-hints"><code>hints</code></a>);
 };
 
 interface mixin <a href="#navigatorua"><code>NavigatorUA</code></a> {
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>] readonly attribute <a data-link-type="idl-name" href="#navigatoruadata">NavigatorUAData</a> <a data-readonly data-type="NavigatorUAData" href="#dom-navigatorua-useragentdata"><code>userAgentData</code></a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>] readonly attribute <a data-link-type="idl-name" href="#navigatoruadata">NavigatorUAData</a> <a href="#dom-navigatorua-useragentdata"><code>userAgentData</code></a>;
 };
 
 <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/system-state.html#navigator">Navigator</a> includes <a data-link-type="idl-name" href="#navigatorua">NavigatorUA</a>;
@@ -2819,7 +2674,13 @@ document.addEventListener('toggle', (event) => hydrateIfNeeded(event.target), tr
 "use strict";
 {
 let highlightGrammars = {
+"abnf": {"fileTypes":["abnf"],"name":"Augmented Backus-Naur Form","patterns":[{"include":"#main"}],"repository":{"assignment":{"patterns":[{"match":"=/","name":"keyword.operator.assignment.increment.abnf"},{"match":":+=","name":"keyword.operator.assignment.colon.non-standard.abnf"},{"match":"=","name":"keyword.operator.assignment.abnf"}]},"comment":{"begin":";","beginCaptures":{"0":{"name":"punctuation.definition.comment.abnf"}},"end":"$","name":"comment.line.semicolon.abnf"},"core-rules":{"match":"(?<![-A-Za-z])(?:ALPHA|BIT|CHAR|CRLF|CR|CTL|DIGIT|DQUOTE|HEXDIG|HTAB|LF|LWSP|OCTET|SP|VCHAR|WSP)\\b(?!-)","name":"support.constant.reference.core-rule.abnf"},"group":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.round.bracket.begin.abnf"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.round.bracket.end.abnf"}},"name":"meta.group.abnf","patterns":[{"include":"#rhs"}]},"main":{"patterns":[{"include":"#comment"},{"include":"#rule-lhs"},{"include":"#rhs"}]},"optional":{"begin":"\\[","beginCaptures":{"0":{"name":"punctuation.definition.square.bracket.begin.abnf"}},"end":"\\]","endCaptures":{"0":{"name":"punctuation.definition.square.bracket.end.abnf"}},"name":"meta.optional.abnf","patterns":[{"include":"#rhs"}]},"prose":{"begin":"<","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.abnf"}},"end":">","endCaptures":{"0":{"name":"punctuation.definition.string.end.abnf"}},"name":"string.other.prose.abnf"},"quantifier":{"captures":{"1":{"name":"constant.numeric.decimal.integer.int.abnf"},"2":{"name":"keyword.operator.logical.repetition.asterisk.star.abnf"},"3":{"name":"constant.numeric.decimal.integer.int.abnf"},"4":{"name":"constant.numeric.decimal.integer.int.abnf"}},"match":"([0-9]*)([*#])([0-9]*)|([0-9]+)(?=[A-Za-z(\\[\"%<])","name":"meta.quantifier.abnf"},"reference":{"match":"[A-Za-z][-A-Za-z0-9]*","name":"variable.parameter.argument.identifier.reference.abnf"},"rhs":{"patterns":[{"include":"#assignment"},{"include":"#string"},{"include":"#terminal"},{"include":"#comment"},{"include":"#quantifier"},{"include":"#group"},{"include":"#optional"},{"include":"#core-rules"},{"include":"#reference"},{"include":"#prose"},{"match":"/","name":"keyword.operator.logical.or.alternation.pipe.abnf"}]},"rule-lhs":{"captures":{"1":{"name":"entity.name.type.abnf"},"2":{"name":"keyword.operator.assignment.abnf"}},"match":"^[ \\t]*([A-Za-z][-A-Za-z0-9]*)[ \\t]*(=/|:*=)","name":"meta.lhs.abnf"},"string":{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.abnf"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.abnf"}},"name":"string.quoted.double.abnf"},"terminal":{"patterns":[{"begin":"((%)[sS])(\")","beginCaptures":{"1":{"name":"storage.modifier.case.sensitive.abnf"},"2":{"name":"punctuation.definition.terminal.percentage-sign.abnf"},"3":{"name":"punctuation.definition.string.begin.abnf"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.abnf"}},"name":"string.quoted.double.case.sensitive.abnf"},{"begin":"((%)[iI])(\")","beginCaptures":{"1":{"name":"storage.modifier.case.insensitive.abnf"},"2":{"name":"punctuation.definition.terminal.percentage-sign.abnf"},"3":{"name":"punctuation.definition.string.begin.abnf"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.abnf"}},"name":"string.quoted.double.case.insensitive.abnf"},{"begin":"(%)(d|D)","beginCaptures":{"1":{"name":"punctuation.definition.terminal.percentage-sign.abnf"},"2":{"name":"storage.type.modifier.radix.abnf"}},"end":"(?=$|[;()\\[\\]{}\\s])","name":"meta.terminal.numeric.decimal.abnf","patterns":[{"match":"[0-9A-Fa-f]*[^-\\s0-9.;()\\[\\]{}][^-.;()\\[\\]{}]*","name":"invalid.illegal.syntax.abnf"},{"match":"[0-9]+","name":"constant.numeric.integer.int.decimal.abnf"},{"match":"-","name":"punctuation.separator.range.dash.hyphen.abnf"},{"match":"\\.","name":"keyword.operator.concatenation.abnf"}]},{"begin":"(%)(x|X)","beginCaptures":{"1":{"name":"punctuation.definition.terminal.percentage-sign.abnf"},"2":{"name":"storage.type.modifier.radix.abnf"}},"end":"(?=$|[;()\\[\\]{}\\s])","name":"meta.terminal.numeric.hexadecimal.hex.abnf","patterns":[{"match":"[0-9A-Fa-f]*[^-\\s0-9A-Fa-f.;()\\[\\]{}][^-.;()\\[\\]{}]*","name":"invalid.illegal.syntax.abnf"},{"match":"[0-9A-Fa-f]+","name":"constant.numeric.integer.int.hexadecimal.hex.abnf"},{"match":"-","name":"punctuation.separator.range.dash.hyphen.abnf"},{"match":"\\.","name":"keyword.operator.concatenation.abnf"}]},{"begin":"(%)(b|B)","beginCaptures":{"1":{"name":"punctuation.definition.terminal.percentage-sign.abnf"},"2":{"name":"storage.type.modifier.radix.abnf"}},"end":"(?=$|[;()\\[\\]{}\\s])","name":"meta.terminal.numeric.binary.bin.abnf","patterns":[{"match":"[0-1]*[^-\\s0-1.;()\\[\\]{}][^-.;()\\[\\]{}]*","name":"invalid.illegal.syntax.abnf"},{"match":"[0-1]+","name":"constant.numeric.integer.int.binary.bin.abnf"},{"match":"-","name":"punctuation.separator.range.dash.hyphen.abnf"},{"match":"\\.","name":"keyword.operator.concatenation.abnf"}]}]}},"scopeName":"source.abnf"},
+"bash": {"patterns":[{"match":"^#!.*$","name":"comment.line.shebang"},{"match":"(?!^#!)#.*$","name":"comment.line.number-sign"},{"match":"'(?:[^']*)'","name":"string.quoted.single"},{"match":"\"(?:\\\\.|[^\"\\\\])*\"","name":"string.quoted.double"},{"match":"\\$[a-zA-Z_][\\w]*|\\$\\d+|\\$[?@*#$!_-]|\\$\\{[^}]+\\}","name":"entity.name.variable"},{"captures":{"1":{"name":"entity.name.variable.assignment"}},"match":"\\b([a-zA-Z_][\\w]*)(?==)"},{"match":"\\b(?:if|then|else|elif|fi|for|while|until|in|do|done|case|esac|function|select|time|coproc)\\b","name":"keyword.control"},{"match":"(?:&&|\\|\\||[|&;])","name":"keyword.operator"},{"match":"(?<![\\w-])--?[a-zA-Z][\\w-]*(?:=[^\\s]+)?","name":"constant.language.option"},{"match":"(?<![\\w.])-?\\d+(?:\\.\\d+)?\\b","name":"constant.numeric"}],"scopeName":"source.shell"},
+"graphql": {"patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#type-declaration"},{"include":"#keywords"},{"include":"#directives"},{"include":"#variables"},{"include":"#builtin-types"},{"include":"#constants"},{"include":"#numbers"},{"include":"#field-arguments"},{"include":"#field-name"}],"repository":{"builtin-types":{"match":"\\b(?:Int|Float|String|Boolean|ID)\\b","name":"support.class.builtin"},"comments":{"match":"#.*$","name":"comment.line.number-sign"},"constants":{"patterns":[{"match":"\\b(?:true|false)\\b","name":"constant.language.boolean"},{"match":"\\bnull\\b","name":"constant.language"}]},"directives":{"match":"@[A-Za-z_][\\w]*","name":"entity.name.decorator"},"field-arguments":{"match":"\\b([A-Za-z_][\\w]*)(?=\\s*:)","name":"entity.name.property"},"field-name":{"match":"\\b([A-Za-z_][\\w]*)(?=\\s*\\()","name":"entity.name.function"},"keywords":{"match":"\\b(?:implements|on|repeatable|query|mutation|subscription)\\b","name":"keyword.control"},"numbers":{"match":"(?<![\\w.])-?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b","name":"constant.numeric"},"strings":{"patterns":[{"begin":"\"\"\"","end":"\"\"\"","name":"string.quoted.triple"},{"match":"\"(?:\\\\.|[^\"\\\\\\r\\n])*\"","name":"string.quoted.double"}]},"type-declaration":{"captures":{"1":{"name":"storage.type"},"2":{"name":"entity.name.type.class"}},"match":"\\b(type|interface|input|enum|union|scalar|schema|directive|extend|fragment)\\s+([A-Za-z_][\\w]*)?"},"variables":{"match":"\\$[A-Za-z_][\\w]*","name":"entity.name.variable"}},"scopeName":"source.graphql"},
+"http": {"dependencies":["bash","graphql","json","xml"],"fileTypes":["http","rest"],"name":"http","patterns":[{"begin":"^[ \\t]*(?=curl\\b)","end":"^[ \\t]*(#{3,}.*?)?[ \\t]*$","endCaptures":{"1":{"name":"comment.line.sharp.http"}},"name":"http.request.curl","patterns":[{"include":"source.shell"}]},{"begin":"^[ \\t]*(?=\\[|\\{[^{])","end":"^[ \\t]*(#{3,}.*?)?[ \\t]*$","endCaptures":{"1":{"name":"comment.line.sharp.http"}},"name":"http.request.body.json","patterns":[{"include":"source.json"}]},{"begin":"^[ \\t]*(?=<\\S)","end":"^[ \\t]*(#{3,}.*?)?[ \\t]*$","endCaptures":{"1":{"name":"comment.line.sharp.http"}},"name":"http.request.body.xml","patterns":[{"include":"text.xml"}]},{"begin":"^[ \\t]*(?=(?:query|mutation)(?:[ \\t]+\\w+)?[ \\t]*[({])","end":"^[ \\t]*(#{3,}.*?)?[ \\t]*$|^(?=\\{[ \\t]*$)","endCaptures":{"1":{"name":"comment.line.sharp.http"}},"name":"http.request.body.graphql","patterns":[{"include":"source.graphql"}]},{"include":"#metadata"},{"include":"#comments"},{"captures":{"1":{"name":"keyword.other.http"},"2":{"name":"variable.other.http"},"3":{"name":"string.other.http"}},"match":"^[ \\t]*(@)([^\\s=]+)[ \\t]*=[ \\t]*(.*?)[ \\t]*$","name":"http.filevariable"},{"captures":{"1":{"name":"keyword.operator.http"},"2":{"name":"variable.other.http"},"3":{"name":"string.other.http"}},"match":"^[ \\t]*(\\?|&)([^=\\s]+)=(.*)$","name":"http.query"},{"captures":{"1":{"name":"entity.name.tag.http"},"2":{"name":"keyword.other.http"},"3":{"name":"string.other.http"}},"match":"^[ \\t]*(:?[\\w-]+)[ \\t]*(:)(?!//)[ \\t]*(.*?)[ \\t]*$","name":"http.headers"},{"include":"#request-line"},{"include":"#response-line"}],"repository":{"comments":{"patterns":[{"match":"^[ \\t]*#{1,}.*$","name":"comment.line.sharp.http"},{"match":"^[ \\t]*/{2,}.*$","name":"comment.line.double-slash.http"}]},"metadata":{"patterns":[{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.block.tag.metadata"},"3":{"name":"entity.name.type.http"}},"match":"^[ \\t]*#{1,}[ \\t]+(?:((@)name)[ \\t]+([^\\s.]+))$","name":"comment.line.sharp.http"},{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.block.tag.metadata"},"3":{"name":"entity.name.type.http"}},"match":"^[ \\t]*/{2,}[ \\t]+(?:((@)name)[ \\t]+([^\\s.]+))$","name":"comment.line.double-slash.http"},{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.block.tag.metadata"}},"match":"^[ \\t]*#{1,}[ \\t]+((@)note)[ \\t]*$","name":"comment.line.sharp.http"},{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.block.tag.metadata"}},"match":"^[ \\t]*/{2,}[ \\t]+((@)note)[ \\t]*$","name":"comment.line.double-slash.http"},{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.block.tag.metadata"},"3":{"name":"variable.other.http"},"4":{"name":"string.other.http"}},"match":"^[ \\t]*#{1,}[ \\t]+(?:((@)prompt)[ \\t]+([^\\s]+)(?:[ \\t]+(.*?))?[ \\t]*)$","name":"comment.line.sharp.http"},{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.block.tag.metadata"},"3":{"name":"variable.other.http"},"4":{"name":"string.other.http"}},"match":"^[ \\t]*/{2,}[ \\t]+(?:((@)prompt)[ \\t]+([^\\s]+)(?:[ \\t]+(.*?))?[ \\t]*)$","name":"comment.line.double-slash.http"}]},"request-line":{"captures":{"1":{"name":"keyword.control.http"},"2":{"name":"constant.language.http"},"3":{"name":"keyword.other.http"},"4":{"name":"constant.numeric.http"}},"match":"^[ \\t]*(GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|LOCK|UNLOCK|PROPFIND|PROPPATCH|COPY|MOVE|MKCOL|MKCALENDAR|ACL|SEARCH|get|post|put|delete|patch|head|options|connect|trace|lock|unlock|propfind|proppatch|copy|move|mkcol|mkcalendar|acl|search)[ \\t]+(.+?)(?:[ \\t]+([Hh][Tt][Tt][Pp])/(\\d+(?:\\.\\d+)?))?[ \\t]*$","name":"http.requestline"},"response-line":{"captures":{"1":{"name":"keyword.other.http"},"2":{"name":"constant.numeric.http"},"3":{"name":"constant.numeric.http"},"4":{"name":"string.other.http"}},"match":"^[ \\t]*([Hh][Tt][Tt][Pp])/(\\d+(?:\\.\\d+)?)[ \\t]+([1-5][0-9][0-9])(?:[ \\t]+(.*?))?[ \\t]*$","name":"http.responseLine"}},"scopeName":"source.http"},
+"json": {"patterns":[{"match":"\"(?:\\\\.|[^\"\\\\])*\"(?=\\s*:)","name":"entity.name.key"},{"match":"\"(?:\\\\.|[^\"\\\\])*\"(?=\\s*[,}\\]])","name":"string.quoted.double"},{"match":"\\b(?:true|false)\\b","name":"constant.language.boolean"},{"match":"\\bnull\\b","name":"constant.language"},{"match":"(?<![\\w.])-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b","name":"constant.numeric"}],"scopeName":"source.json"},
 "webidl": {"patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"include":"#definitions"},{"include":"#members"},{"include":"#types"},{"include":"#literals"},{"include":"#punctuation"},{"include":"#identifier"}],"repository":{"argument":{"begin":"(?=\\s*(?:optional|\\.\\.\\.|\\(|[?A-Za-z_]))","end":"(?=,|\\))","name":"meta.argument.webidl","patterns":[{"match":"\\boptional\\b","name":"storage.modifier.optional.webidl"},{"match":"\\.\\.\\.","name":"keyword.operator.variadic.webidl"},{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.parameter.webidl"}]},"argument-list":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.arguments.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"attribute-member":{"begin":"\\b(?:(readonly)\\s+)?(attribute)\\b","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.attribute.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.attribute.webidl","patterns":[{"include":"#types"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.attribute.webidl"}]},"buffer-type":{"match":"\\b(ArrayBuffer|DataView|Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|BigInt64Array|BigUint64Array|Float16Array|Float32Array|Float64Array)\\b","name":"support.type.buffer.webidl"},"callback-function-definition":{"begin":"\\b(callback)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(=)","beginCaptures":{"1":{"name":"storage.modifier.callback.webidl"},"2":{"name":"entity.name.function.callback.webidl"},"3":{"name":"keyword.operator.assignment.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.callback.function.webidl","patterns":[{"include":"#types"},{"include":"#argument-list"},{"include":"#comments"}]},"callback-interface-definition":{"begin":"\\b(callback)\\s+(interface)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.modifier.callback.webidl"},"2":{"name":"storage.type.interface.webidl"},"3":{"name":"entity.name.type.callback-interface.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.callback.interface.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"comments":{"patterns":[{"begin":"/\\*\\*","beginCaptures":{"0":{"name":"punctuation.definition.comment.begin.webidl"}},"end":"\\*/","endCaptures":{"0":{"name":"punctuation.definition.comment.end.webidl"}},"name":"comment.block.documentation.webidl"},{"begin":"/\\*","beginCaptures":{"0":{"name":"punctuation.definition.comment.begin.webidl"}},"end":"\\*/","endCaptures":{"0":{"name":"punctuation.definition.comment.end.webidl"}},"name":"comment.block.webidl"},{"match":"\\*/","name":"invalid.illegal.stray-comment-end.webidl"},{"begin":"//","beginCaptures":{"0":{"name":"punctuation.definition.comment.webidl"}},"end":"$\\n?","name":"comment.line.double-slash.webidl"}]},"const-member":{"begin":"\\b(const)\\b","beginCaptures":{"1":{"name":"storage.modifier.const.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.const.webidl","patterns":[{"include":"#types"},{"include":"#literals"},{"match":"=","name":"keyword.operator.assignment.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.constant.webidl"}]},"constructor-member":{"begin":"\\b(constructor)\\s*(\\()","beginCaptures":{"1":{"name":"entity.name.function.constructor.webidl"},"2":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.constructor.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"default-value":{"patterns":[{"match":"=","name":"keyword.operator.assignment.default.webidl"},{"include":"#literals"},{"match":"\\[\\s*\\]","name":"constant.language.empty-sequence.webidl"},{"match":"\\{\\s*\\}","name":"constant.language.empty-object.webidl"}]},"definition-block":{"begin":"\\{","beginCaptures":{"0":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.block.definition.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"include":"#members"},{"include":"#types"},{"include":"#literals"},{"include":"#punctuation"}]},"definitions":{"patterns":[{"include":"#partial-definition"},{"include":"#callback-interface-definition"},{"include":"#callback-function-definition"},{"include":"#interface-mixin-definition"},{"include":"#interface-definition"},{"include":"#namespace-definition"},{"include":"#dictionary-definition"},{"include":"#enum-definition"},{"include":"#typedef-definition"},{"include":"#includes-statement"}]},"dictionary-block":{"begin":"\\{","beginCaptures":{"0":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.block.dictionary.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"begin":"\\b(required)\\b","beginCaptures":{"1":{"name":"storage.modifier.required.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.dictionary.member.webidl","patterns":[{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.dictionary.webidl"}]},{"begin":"(?=\\s*(?:\\(|[?A-Za-z_]))","end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.dictionary.member.webidl","patterns":[{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.dictionary.webidl"}]}]},"dictionary-definition":{"begin":"\\b(dictionary)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.dictionary.webidl"},"2":{"name":"entity.name.type.dictionary.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.dictionary.webidl","patterns":[{"include":"#inheritance"},{"include":"#dictionary-block"},{"include":"#comments"}]},"enum-definition":{"begin":"\\b(enum)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(\\{)","beginCaptures":{"1":{"name":"storage.type.enum.webidl"},"2":{"name":"entity.name.type.enum.webidl"},"3":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.definition.enum.webidl","patterns":[{"include":"#comments"},{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.webidl"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.webidl"}},"name":"string.quoted.double.enum.webidl","patterns":[{"include":"#string-escapes"}]},{"match":",","name":"punctuation.separator.comma.webidl"}]},"extended-attribute":{"patterns":[{"match":"\\b(CrossOriginIsolated|Exposed|Global|LegacyFactoryFunction|LegacyNoInterfaceObject|LegacyOverrideBuiltIns|LegacyWindowAlias|SecureContext|LegacyLenientSetter|LegacyLenientThis|LenientFloat|PutForwards|Replaceable|SameObject|Unforgeable|CEReactions|HTMLConstructor|NewObject|LegacyUnforgeable|LegacyNullToEmptyString|Clamp|EnforceRange|AllowShared|Serializable|Transferable|LegacyTreatNonObjectAsNull|LegacyNamespace|LegacyWindowAlias|LegacyDefaultToJSONOperation|LegacyArrayClass)\\b","name":"support.type.extended-attribute.known.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.other.attribute-name.extended.webidl"},{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.extended-attribute.arguments.webidl","patterns":[{"include":"#argument"},{"include":"#types"},{"include":"#literals"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.other.attribute-name.extended.webidl"}]}]},"extended-attribute-list":{"begin":"\\[","beginCaptures":{"0":{"name":"punctuation.definition.metadata.begin.webidl"}},"end":"\\]","endCaptures":{"0":{"name":"punctuation.definition.metadata.end.webidl"}},"name":"meta.extended-attribute-list.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute"},{"include":"#literals"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"=","name":"keyword.operator.assignment.webidl"}]},"generic-type":{"patterns":[{"begin":"\\b(async_sequence|sequence|record|FrozenArray|ObservableArray|Promise)\\s*(<)","beginCaptures":{"1":{"name":"support.type.generic.webidl"},"2":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"}},"name":"meta.type.generic.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"},{"include":"#comments"}]}]},"identifier":{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.identifier.webidl"},"identifier-type":{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.name.type.identifier.webidl"},"includes-statement":{"captures":{"1":{"name":"entity.name.type.interface.webidl"},"2":{"name":"keyword.operator.includes.webidl"},"3":{"name":"entity.name.type.mixin.webidl"},"4":{"name":"punctuation.terminator.statement.webidl"}},"match":"\\b([_A-Za-z][_A-Za-z0-9]*)\\s+(includes)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(;)","name":"meta.definition.includes.webidl"},"inheritance":{"captures":{"1":{"name":"punctuation.separator.inheritance.webidl"},"2":{"name":"entity.other.inherited-class.webidl"}},"match":"(:)\\s*([_A-Za-z][_A-Za-z0-9]*)","name":"meta.inheritance.webidl"},"interface-definition":{"begin":"\\b(interface)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.interface.webidl"},"2":{"name":"entity.name.type.interface.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.interface.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"interface-mixin-definition":{"begin":"\\b(interface)\\s+(mixin)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.interface.webidl"},"2":{"name":"storage.modifier.mixin.webidl"},"3":{"name":"entity.name.type.mixin.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.interface.mixin.webidl","patterns":[{"include":"#definition-block"},{"include":"#comments"}]},"iterable-member":{"begin":"\\b(?:(async)\\s+)?(iterable)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.async.webidl"},"2":{"name":"storage.type.iterable.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.iterable.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"literals":{"patterns":[{"include":"#string"},{"match":"\\b(true|false)\\b","name":"constant.language.boolean.webidl"},{"match":"\\bnull\\b","name":"constant.language.null.webidl"},{"match":"[-+]?\\bInfinity\\b","name":"constant.language.infinity.webidl"},{"match":"[-+]?\\bNaN\\b","name":"constant.language.nan.webidl"},{"match":"[-+]?0[xX][0-9a-fA-F]+","name":"constant.numeric.hex.webidl"},{"match":"[-+]?((?:[0-9]+\\.[0-9]*|\\.[0-9]+)(?:[eE][-+]?[0-9]+)?|[0-9]+[eE][-+]?[0-9]+)","name":"constant.numeric.float.webidl"},{"match":"[-+]?[0-9]+","name":"constant.numeric.integer.webidl"}]},"maplike-member":{"begin":"\\b(?:(readonly)\\s+)?(maplike)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.maplike.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.maplike.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"members":{"patterns":[{"include":"#const-member"},{"include":"#attribute-member"},{"include":"#constructor-member"},{"include":"#stringifier-member"},{"include":"#iterable-member"},{"include":"#maplike-member"},{"include":"#setlike-member"},{"include":"#operation-member"}]},"namespace-definition":{"begin":"\\b(namespace)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.namespace.webidl"},"2":{"name":"entity.name.type.namespace.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.namespace.webidl","patterns":[{"include":"#definition-block"},{"include":"#comments"}]},"operation-member":{"begin":"(?=\\b(?:getter|setter|deleter|static|legacycaller|stringifier|undefined|boolean|byte|octet|bigint|float|double|short|long|unsigned|unrestricted|object|symbol|any|void|DOMString|ByteString|USVString|sequence|record|FrozenArray|ObservableArray|Promise|ArrayBuffer|DataView|Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|BigInt64Array|BigUint64Array|Float16Array|Float32Array|Float64Array|[_A-Za-z])|\\()","end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.operation.webidl","patterns":[{"include":"#operation-qualifiers"},{"include":"#operation-signature"},{"include":"#types"},{"include":"#comments"}]},"operation-qualifiers":{"patterns":[{"match":"\\b(getter|setter|deleter|static|legacycaller)\\b","name":"storage.modifier.operation.special.webidl"}]},"operation-signature":{"patterns":[{"begin":"\\b([_A-Za-z][_A-Za-z0-9]*)?\\s*(\\()","beginCaptures":{"1":{"name":"entity.name.function.operation.webidl"},"2":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.operation.signature.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]}]},"partial-definition":{"begin":"\\b(partial)\\s+(?:(interface)\\s+(mixin)\\s+|(interface|dictionary|namespace)\\s+)([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.modifier.partial.webidl"},"2":{"name":"storage.type.interface.webidl"},"3":{"name":"storage.modifier.mixin.webidl"},"4":{"name":"storage.type.definition.webidl"},"5":{"name":"entity.name.type.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.partial.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"primitive-type":{"patterns":[{"match":"\\bunsigned\\b","name":"storage.modifier.unsigned.webidl"},{"match":"\\bunrestricted\\b","name":"storage.modifier.unrestricted.webidl"},{"match":"\\b(undefined|boolean|byte|octet|bigint|float|double|short|long|object|symbol|any|void)\\b","name":"support.type.primitive.webidl"}]},"punctuation":{"patterns":[{"match":";","name":"punctuation.terminator.statement.webidl"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"=","name":"keyword.operator.assignment.webidl"},{"match":"\\.\\.\\.","name":"keyword.operator.variadic.webidl"},{"match":"<","name":"punctuation.definition.generic.begin.webidl"},{"match":">","name":"punctuation.definition.generic.end.webidl"},{"match":"\\(","name":"punctuation.definition.parameters.begin.webidl"},{"match":"\\)","name":"punctuation.definition.parameters.end.webidl"},{"match":"\\{","name":"punctuation.definition.block.begin.webidl"},{"match":"\\}","name":"punctuation.definition.block.end.webidl"}]},"setlike-member":{"begin":"\\b(?:(readonly)\\s+)?(setlike)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.setlike.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.setlike.webidl","patterns":[{"include":"#types"}]},"special-type":{"match":"\\b(BufferSource|AllowSharedBufferSource|ArrayBufferView)\\b","name":"support.type.special.webidl"},"string":{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.webidl"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.webidl"}},"name":"string.quoted.double.webidl","patterns":[{"include":"#string-escapes"}]},"string-escapes":{"patterns":[{"match":"\\\\(?:[\"'\\\\bfnrtv]|0|x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})","name":"constant.character.escape.webidl"},{"match":"\\\\.","name":"invalid.illegal.unknown-escape.webidl"}]},"string-type":{"match":"\\b(DOMString|ByteString|USVString)\\b","name":"support.type.string.webidl"},"stringifier-member":{"begin":"\\b(stringifier)\\b","beginCaptures":{"1":{"name":"storage.modifier.stringifier.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.stringifier.webidl","patterns":[{"include":"#attribute-member"},{"include":"#operation-signature"},{"include":"#types"}]},"typedef-definition":{"begin":"\\b(typedef)\\b","beginCaptures":{"1":{"name":"storage.type.typedef.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.typedef.webidl","patterns":[{"include":"#types"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.name.type.typedef.webidl"},{"include":"#comments"}]},"types":{"patterns":[{"include":"#union-type"},{"include":"#generic-type"},{"include":"#primitive-type"},{"include":"#string-type"},{"include":"#buffer-type"},{"include":"#special-type"},{"include":"#identifier-type"},{"match":"\\?","name":"keyword.operator.nullable.webidl"}]},"union-type":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.union.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.union.end.webidl"}},"name":"meta.type.union.webidl","patterns":[{"include":"#types"},{"match":"\\bor\\b","name":"keyword.operator.union.or.webidl"},{"include":"#comments"}]}},"scopeName":"source.webidl"},
+"xml": {"fileTypes":["xml","xsd","xsl","xslt","xhtml"],"name":"xml","patterns":[{"include":"#comments"},{"include":"#cdata"},{"include":"#processing-instruction"},{"include":"#doctype"},{"include":"#tags"},{"include":"#entities"}],"repository":{"attributes":{"begin":"\\s+(?:([a-zA-Z_][\\w.-]*)(:))?([a-zA-Z_][\\w.-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.separator.namespace.xml"},"3":{"name":"entity.other.attribute-name"},"4":{"name":"punctuation.definition.string.begin.xml"}},"contentName":"string.quoted.attribute-value.xml","end":"\\4","endCaptures":{"0":{"name":"punctuation.definition.string.end.xml"}},"patterns":[{"include":"#entities"}]},"cdata":{"begin":"<!\\[CDATA\\[","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.xml"}},"contentName":"string.unquoted.cdata.xml","end":"\\]\\]>","endCaptures":{"0":{"name":"punctuation.definition.string.end.xml"}}},"comments":{"begin":"\u003c!--","end":"-->","name":"comment.block.xml"},"doctype":{"begin":"<!DOCTYPE\\b","beginCaptures":{"0":{"name":"keyword.control.doctype"}},"end":">","patterns":[{"include":"#comments"},{"include":"#internal-subset"},{"match":"\\b(?:PUBLIC|SYSTEM)\\b","name":"keyword.other.xml"},{"include":"#strings"}]},"dtd-declarations":{"begin":"<!(?:ELEMENT|ATTLIST|ENTITY|NOTATION)\\b","beginCaptures":{"0":{"name":"keyword.control.doctype"}},"end":">","patterns":[{"include":"#strings"},{"include":"#parameter-entities"},{"match":"#(?:PCDATA|REQUIRED|IMPLIED|FIXED)\\b|\\b(?:EMPTY|ANY|CDATA|ID|IDREF|IDREFS|ENTITY|ENTITIES|NMTOKEN|NMTOKENS|NDATA|PUBLIC|SYSTEM)\\b","name":"keyword.other.xml"}]},"entities":{"match":"&(?:#\\d+|#x[0-9a-fA-F]+|[a-zA-Z_:][\\w:.-]*);","name":"constant.character.entity.xml"},"internal-subset":{"begin":"\\[","end":"\\]","patterns":[{"include":"#comments"},{"include":"#dtd-declarations"},{"include":"#strings"},{"include":"#parameter-entities"}]},"parameter-entities":{"match":"%[a-zA-Z_:][\\w:.-]*;","name":"constant.character.entity.xml"},"processing-instruction":{"begin":"<\\?([a-zA-Z_:][\\w:.-]*)","beginCaptures":{"1":{"name":"entity.name.tag.xml"}},"end":"\\?>","patterns":[{"include":"#attributes"}]},"strings":{"patterns":[{"match":"\"[^\"]*\"","name":"string.quoted.double.xml"},{"match":"'[^']*'","name":"string.quoted.single.xml"}]},"tags":{"begin":"</?(?:([a-zA-Z_][\\w.-]*)(:))?([a-zA-Z_][\\w.-]*)","beginCaptures":{"1":{"name":"entity.name.tag.namespace.xml"},"2":{"name":"punctuation.separator.namespace.xml"},"3":{"name":"entity.name.tag.localname.xml"}},"end":"/?>","patterns":[{"include":"#attributes"}]}},"scopeName":"text.xml"},
 };
 
 /*
@@ -2830,20 +2691,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -2936,29 +2878,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -2995,13 +2987,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -3014,6 +2999,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -3039,12 +3032,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -3092,18 +3118,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -3114,13 +3144,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -3133,7 +3176,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -3146,13 +3189,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

@@ -1083,11 +1083,11 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="constructor" data-export data-lt="SpeechRecognition()|constructor()" id="dom-speechrecognition-speechrecognition"><code>constructor</code></dfn>();
 
     // recognition parameters
-    attribute <a data-link-type="idl-name" href="#speechgrammarlist" id="ref-for-speechgrammarlist">SpeechGrammarList</a> <a class="idl-code" data-link-type="attribute" data-type="SpeechGrammarList" href="#dom-speechrecognition-grammars" id="ref-for-dom-speechrecognition-grammars">grammars</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechrecognition-lang" id="ref-for-dom-speechrecognition-lang">lang</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-type="boolean" href="#dom-speechrecognition-continuous" id="ref-for-dom-speechrecognition-continuous">continuous</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <a class="idl-code" data-link-type="attribute" data-type="boolean" href="#dom-speechrecognition-interimresults" id="ref-for-dom-speechrecognition-interimresults">interimResults</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-type="unsigned long" href="#dom-speechrecognition-maxalternatives" id="ref-for-dom-speechrecognition-maxalternatives">maxAlternatives</a>;
+    attribute <a data-link-type="idl-name" href="#speechgrammarlist" id="ref-for-speechgrammarlist">SpeechGrammarList</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-grammars" id="ref-for-dom-speechrecognition-grammars">grammars</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-lang" id="ref-for-dom-speechrecognition-lang">lang</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-continuous" id="ref-for-dom-speechrecognition-continuous">continuous</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-interimresults" id="ref-for-dom-speechrecognition-interimresults">interimResults</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-maxalternatives" id="ref-for-dom-speechrecognition-maxalternatives">maxAlternatives</a>;
 
     // methods to drive the speech interaction
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined" id="ref-for-idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognition-start" id="ref-for-dom-speechrecognition-start">start</a>();
@@ -1095,17 +1095,17 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined" id="ref-for-idl-undefined②">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognition-abort" id="ref-for-dom-speechrecognition-abort">abort</a>();
 
     // event methods
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onaudiostart"><code>onaudiostart</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onsoundstart"><code>onsoundstart</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler②">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onspeechstart"><code>onspeechstart</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler③">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onspeechend"><code>onspeechend</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler④">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onsoundend"><code>onsoundend</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑤">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onaudioend"><code>onaudioend</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑥">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onresult"><code>onresult</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑦">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onnomatch"><code>onnomatch</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑧">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onerror"><code>onerror</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑨">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onstart"><code>onstart</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⓪">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechrecognition-onend"><code>onend</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onaudiostart"><code>onaudiostart</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onsoundstart"><code>onsoundstart</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler②">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onspeechstart"><code>onspeechstart</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler③">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onspeechend"><code>onspeechend</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler④">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onsoundend"><code>onsoundend</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑤">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onaudioend"><code>onaudioend</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑥">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onresult"><code>onresult</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑦">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onnomatch"><code>onnomatch</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑧">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onerror"><code>onerror</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑨">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onstart"><code>onstart</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⓪">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognition" data-dfn-type="attribute" data-export id="dom-speechrecognition-onend"><code>onend</code></dfn>;
 };
 
 enum <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enumdef-speechrecognitionerrorcode"><code>SpeechRecognitionErrorCode</code></dfn> {
@@ -1122,34 +1122,34 @@ enum <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enum
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechrecognitionerrorevent"><code>SpeechRecognitionErrorEvent</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event" id="ref-for-event">Event</a> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionErrorEvent" data-dfn-type="constructor" data-export data-lt="SpeechRecognitionErrorEvent(type, eventInitDict)|constructor(type, eventInitDict)" id="dom-speechrecognitionerrorevent-speechrecognitionerrorevent"><code>constructor</code></dfn>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionErrorEvent/SpeechRecognitionErrorEvent(type, eventInitDict), SpeechRecognitionErrorEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechrecognitionerrorevent-speechrecognitionerrorevent-type-eventinitdict-type"><code>type</code></dfn>, <a data-link-type="idl-name" href="#dictdef-speechrecognitionerroreventinit" id="ref-for-dictdef-speechrecognitionerroreventinit">SpeechRecognitionErrorEventInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionErrorEvent/SpeechRecognitionErrorEvent(type, eventInitDict), SpeechRecognitionErrorEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechrecognitionerrorevent-speechrecognitionerrorevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></dfn>);
-    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode" id="ref-for-enumdef-speechrecognitionerrorcode">SpeechRecognitionErrorCode</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechRecognitionErrorCode" href="#dom-speechrecognitionerrorevent-error" id="ref-for-dom-speechrecognitionerrorevent-error">error</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechrecognitionerrorevent-message" id="ref-for-dom-speechrecognitionerrorevent-message">message</a>;
+    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode" id="ref-for-enumdef-speechrecognitionerrorcode">SpeechRecognitionErrorCode</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionerrorevent-error" id="ref-for-dom-speechrecognitionerrorevent-error">error</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionerrorevent-message" id="ref-for-dom-speechrecognitionerrorevent-message">message</a>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-speechrecognitionerroreventinit"><code>SpeechRecognitionErrorEventInit</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit" id="ref-for-dictdef-eventinit">EventInit</a> {
-    required <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode" id="ref-for-enumdef-speechrecognitionerrorcode①">SpeechRecognitionErrorCode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionErrorEventInit" data-dfn-type="dict-member" data-export data-type="SpeechRecognitionErrorCode" id="dom-speechrecognitionerroreventinit-error"><code>error</code></dfn>;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString③">DOMString</a> <dfn class="dfn-paneled idl-code" data-default="&quot;&quot;" data-dfn-for="SpeechRecognitionErrorEventInit" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-speechrecognitionerroreventinit-message"><code>message</code></dfn> = "";
+    required <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode" id="ref-for-enumdef-speechrecognitionerrorcode①">SpeechRecognitionErrorCode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionErrorEventInit" data-dfn-type="dict-member" data-export id="dom-speechrecognitionerroreventinit-error"><code>error</code></dfn>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString③">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionErrorEventInit" data-dfn-type="dict-member" data-export id="dom-speechrecognitionerroreventinit-message"><code>message</code></dfn> = "";
 };
 
 // Item in N-best list
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed②">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechrecognitionalternative"><code>SpeechRecognitionAlternative</code></dfn> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString④">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechrecognitionalternative-transcript" id="ref-for-dom-speechrecognitionalternative-transcript">transcript</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="float" href="#dom-speechrecognitionalternative-confidence" id="ref-for-dom-speechrecognitionalternative-confidence">confidence</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString④">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionalternative-transcript" id="ref-for-dom-speechrecognitionalternative-transcript">transcript</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionalternative-confidence" id="ref-for-dom-speechrecognitionalternative-confidence">confidence</a>;
 };
 
 // A complete one-shot simple response
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed③">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechrecognitionresult"><code>SpeechRecognitionResult</code></dfn> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechrecognitionresult-length" id="ref-for-dom-speechrecognitionresult-length">length</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionresult-length" id="ref-for-dom-speechrecognitionresult-length">length</a>;
     getter <a data-link-type="idl-name" href="#speechrecognitionalternative" id="ref-for-speechrecognitionalternative">SpeechRecognitionAlternative</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognitionresult-item" id="ref-for-dom-speechrecognitionresult-item">item</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long②">unsigned long</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionResult/item(index)" data-dfn-type="argument" data-export id="dom-speechrecognitionresult-item-index-index"><code>index</code></dfn>);
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean②">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechrecognitionresult-isfinal" id="ref-for-dom-speechrecognitionresult-isfinal">isFinal</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean②">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionresult-isfinal" id="ref-for-dom-speechrecognitionresult-isfinal">isFinal</a>;
 };
 
 // A collection of responses (used in continuous mode)
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed④">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechrecognitionresultlist"><code>SpeechRecognitionResultList</code></dfn> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long③">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechrecognitionresultlist-length" id="ref-for-dom-speechrecognitionresultlist-length">length</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long③">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionresultlist-length" id="ref-for-dom-speechrecognitionresultlist-length">length</a>;
     getter <a data-link-type="idl-name" href="#speechrecognitionresult" id="ref-for-speechrecognitionresult">SpeechRecognitionResult</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognitionresultlist-item" id="ref-for-dom-speechrecognitionresultlist-item">item</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long④">unsigned long</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionResultList/item(index)" data-dfn-type="argument" data-export id="dom-speechrecognitionresultlist-item-index-index"><code>index</code></dfn>);
 };
 
@@ -1157,27 +1157,27 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed⑤">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechrecognitionevent"><code>SpeechRecognitionEvent</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event" id="ref-for-event①">Event</a> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionEvent" data-dfn-type="constructor" data-export data-lt="SpeechRecognitionEvent(type, eventInitDict)|constructor(type, eventInitDict)" id="dom-speechrecognitionevent-speechrecognitionevent"><code>constructor</code></dfn>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑤">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionEvent/SpeechRecognitionEvent(type, eventInitDict), SpeechRecognitionEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechrecognitionevent-speechrecognitionevent-type-eventinitdict-type"><code>type</code></dfn>, <a data-link-type="idl-name" href="#dictdef-speechrecognitioneventinit" id="ref-for-dictdef-speechrecognitioneventinit">SpeechRecognitionEventInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionEvent/SpeechRecognitionEvent(type, eventInitDict), SpeechRecognitionEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechrecognitionevent-speechrecognitionevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></dfn>);
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑤">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechrecognitionevent-resultindex" id="ref-for-dom-speechrecognitionevent-resultindex">resultIndex</a>;
-    readonly attribute <a data-link-type="idl-name" href="#speechrecognitionresultlist" id="ref-for-speechrecognitionresultlist">SpeechRecognitionResultList</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechRecognitionResultList" href="#dom-speechrecognitionevent-results" id="ref-for-dom-speechrecognitionevent-results">results</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑤">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionevent-resultindex" id="ref-for-dom-speechrecognitionevent-resultindex">resultIndex</a>;
+    readonly attribute <a data-link-type="idl-name" href="#speechrecognitionresultlist" id="ref-for-speechrecognitionresultlist">SpeechRecognitionResultList</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionevent-results" id="ref-for-dom-speechrecognitionevent-results">results</a>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-speechrecognitioneventinit"><code>SpeechRecognitionEventInit</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit" id="ref-for-dictdef-eventinit①">EventInit</a> {
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑥">unsigned long</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="SpeechRecognitionEventInit" data-dfn-type="dict-member" data-export data-type="unsigned long" id="dom-speechrecognitioneventinit-resultindex"><code>resultIndex</code></dfn> = 0;
-    required <a data-link-type="idl-name" href="#speechrecognitionresultlist" id="ref-for-speechrecognitionresultlist①">SpeechRecognitionResultList</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionEventInit" data-dfn-type="dict-member" data-export data-type="SpeechRecognitionResultList" id="dom-speechrecognitioneventinit-results"><code>results</code></dfn>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑥">unsigned long</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionEventInit" data-dfn-type="dict-member" data-export id="dom-speechrecognitioneventinit-resultindex"><code>resultIndex</code></dfn> = 0;
+    required <a data-link-type="idl-name" href="#speechrecognitionresultlist" id="ref-for-speechrecognitionresultlist①">SpeechRecognitionResultList</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechRecognitionEventInit" data-dfn-type="dict-member" data-export id="dom-speechrecognitioneventinit-results"><code>results</code></dfn>;
 };
 
 // The object representing a speech grammar
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed⑥">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechgrammar"><code>SpeechGrammar</code></dfn> {
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑥">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechgrammar-src" id="ref-for-dom-speechgrammar-src">src</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float①">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechgrammar-weight" id="ref-for-dom-speechgrammar-weight">weight</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑥">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechgrammar-src" id="ref-for-dom-speechgrammar-src">src</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float①">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechgrammar-weight" id="ref-for-dom-speechgrammar-weight">weight</a>;
 };
 
 // The object representing a speech grammar collection
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed⑦">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechgrammarlist"><code>SpeechGrammarList</code></dfn> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechGrammarList" data-dfn-type="constructor" data-export data-lt="SpeechGrammarList()|constructor()" id="dom-speechgrammarlist-speechgrammarlist"><code>constructor</code></dfn>();
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑦">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechgrammarlist-length" id="ref-for-dom-speechgrammarlist-length">length</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑦">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechgrammarlist-length" id="ref-for-dom-speechgrammarlist-length">length</a>;
     getter <a data-link-type="idl-name" href="#speechgrammar" id="ref-for-speechgrammar">SpeechGrammar</a> <a class="idl-code" data-link-type="method" href="#dom-speechgrammarlist-item" id="ref-for-dom-speechgrammarlist-item">item</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long⑧">unsigned long</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechGrammarList/item(index)" data-dfn-type="argument" data-export id="dom-speechgrammarlist-item-index-index"><code>index</code></dfn>);
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined" id="ref-for-idl-undefined③">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechgrammarlist-addfromuri" id="ref-for-dom-speechgrammarlist-addfromuri">addFromURI</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑦">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechGrammarList/addFromURI(src, weight), SpeechGrammarList/addFromURI(src)" data-dfn-type="argument" data-export id="dom-speechgrammarlist-addfromuri-src-weight-src"><code>src</code></dfn>,
                     optional <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float②">float</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechGrammarList/addFromURI(src, weight), SpeechGrammarList/addFromURI(src)" data-dfn-type="argument" data-export id="dom-speechgrammarlist-addfromuri-src-weight-weight"><code>weight</code></dfn> = 1.0);
@@ -1408,11 +1408,11 @@ This structure has the following attributes:</p>
    <p>The SpeechSynthesis interface is the scripted web API for controlling a text-to-speech output.</p>
 <pre class="def highlight idl" data-language="webidl">[<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed⑧">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechsynthesis"><code>SpeechSynthesis</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget" id="ref-for-eventtarget①">EventTarget</a> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑥">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesis-pending" id="ref-for-dom-speechsynthesis-pending">pending</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑦">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesis-speaking" id="ref-for-dom-speechsynthesis-speaking">speaking</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑧">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesis-paused" id="ref-for-dom-speechsynthesis-paused">paused</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑥">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesis-pending" id="ref-for-dom-speechsynthesis-pending">pending</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑦">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesis-speaking" id="ref-for-dom-speechsynthesis-speaking">speaking</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑧">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesis-paused" id="ref-for-dom-speechsynthesis-paused">paused</a>;
 
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①①">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesis" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesis-onvoiceschanged"><code>onvoiceschanged</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①①">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesis" data-dfn-type="attribute" data-export id="dom-speechsynthesis-onvoiceschanged"><code>onvoiceschanged</code></dfn>;
 
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined" id="ref-for-idl-undefined⑤">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechsynthesis-speak" id="ref-for-dom-speechsynthesis-speak">speak</a>(<a data-link-type="idl-name" href="#speechsynthesisutterance" id="ref-for-speechsynthesisutterance">SpeechSynthesisUtterance</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesis/speak(utterance)" data-dfn-type="argument" data-export id="dom-speechsynthesis-speak-utterance-utterance"><code>utterance</code></dfn>);
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined" id="ref-for-idl-undefined⑥">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechsynthesis-cancel" id="ref-for-dom-speechsynthesis-cancel">cancel</a>();
@@ -1422,45 +1422,45 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#window" id="ref-for-window">Window</a> {
-    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#speechsynthesis" id="ref-for-speechsynthesis">SpeechSynthesis</a> <dfn class="dfn-paneled idl-code" data-dfn-for="Window" data-dfn-type="attribute" data-export data-readonly data-type="SpeechSynthesis" id="dom-window-speechsynthesis"><code>speechSynthesis</code></dfn>;
+    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#speechsynthesis" id="ref-for-speechsynthesis">SpeechSynthesis</a> <dfn class="dfn-paneled idl-code" data-dfn-for="Window" data-dfn-type="attribute" data-export id="dom-window-speechsynthesis"><code>speechSynthesis</code></dfn>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed⑨">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechsynthesisutterance"><code>SpeechSynthesisUtterance</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget" id="ref-for-eventtarget②">EventTarget</a> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="constructor" data-export data-lt="SpeechSynthesisUtterance(text)|constructor(text)|SpeechSynthesisUtterance()|constructor()" id="dom-speechsynthesisutterance-speechsynthesisutterance"><code>constructor</code></dfn>(optional <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①③">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance/SpeechSynthesisUtterance(text), SpeechSynthesisUtterance/constructor(text), SpeechSynthesisUtterance/SpeechSynthesisUtterance(), SpeechSynthesisUtterance/constructor()" data-dfn-type="argument" data-export id="dom-speechsynthesisutterance-speechsynthesisutterance-text-text"><code>text</code></dfn>);
 
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①④">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechsynthesisutterance-text" id="ref-for-dom-speechsynthesisutterance-text">text</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑤">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechsynthesisutterance-lang" id="ref-for-dom-speechsynthesisutterance-lang">lang</a>;
-    attribute <a data-link-type="idl-name" href="#speechsynthesisvoice" id="ref-for-speechsynthesisvoice①">SpeechSynthesisVoice</a>? <a class="idl-code" data-link-type="attribute" data-type="SpeechSynthesisVoice?" href="#dom-speechsynthesisutterance-voice" id="ref-for-dom-speechsynthesisutterance-voice">voice</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑥">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechsynthesisutterance-volume" id="ref-for-dom-speechsynthesisutterance-volume">volume</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑦">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechsynthesisutterance-rate" id="ref-for-dom-speechsynthesisutterance-rate">rate</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑧">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechsynthesisutterance-pitch" id="ref-for-dom-speechsynthesisutterance-pitch">pitch</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①④">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-text" id="ref-for-dom-speechsynthesisutterance-text">text</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑤">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-lang" id="ref-for-dom-speechsynthesisutterance-lang">lang</a>;
+    attribute <a data-link-type="idl-name" href="#speechsynthesisvoice" id="ref-for-speechsynthesisvoice①">SpeechSynthesisVoice</a>? <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-voice" id="ref-for-dom-speechsynthesisutterance-voice">voice</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑥">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-volume" id="ref-for-dom-speechsynthesisutterance-volume">volume</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑦">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-rate" id="ref-for-dom-speechsynthesisutterance-rate">rate</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑧">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-pitch" id="ref-for-dom-speechsynthesisutterance-pitch">pitch</a>;
 
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①②">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onstart"><code>onstart</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①③">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onend"><code>onend</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①④">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onerror"><code>onerror</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑤">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onpause"><code>onpause</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑥">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onresume"><code>onresume</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑦">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onmark"><code>onmark</code></dfn>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑧">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export data-type="EventHandler" id="dom-speechsynthesisutterance-onboundary"><code>onboundary</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①②">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onstart"><code>onstart</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①③">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onend"><code>onend</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①④">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onerror"><code>onerror</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑤">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onpause"><code>onpause</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑥">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onresume"><code>onresume</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑦">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onmark"><code>onmark</code></dfn>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler①⑧">EventHandler</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisUtterance" data-dfn-type="attribute" data-export id="dom-speechsynthesisutterance-onboundary"><code>onboundary</code></dfn>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①⓪">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechsynthesisevent"><code>SpeechSynthesisEvent</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event" id="ref-for-event②">Event</a> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEvent" data-dfn-type="constructor" data-export data-lt="SpeechSynthesisEvent(type, eventInitDict)|constructor(type, eventInitDict)" id="dom-speechsynthesisevent-speechsynthesisevent"><code>constructor</code></dfn>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑥">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEvent/SpeechSynthesisEvent(type, eventInitDict), SpeechSynthesisEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechsynthesisevent-speechsynthesisevent-type-eventinitdict-type"><code>type</code></dfn>, <a data-link-type="idl-name" href="#dictdef-speechsynthesiseventinit" id="ref-for-dictdef-speechsynthesiseventinit">SpeechSynthesisEventInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEvent/SpeechSynthesisEvent(type, eventInitDict), SpeechSynthesisEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechsynthesisevent-speechsynthesisevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></dfn>);
-    readonly attribute <a data-link-type="idl-name" href="#speechsynthesisutterance" id="ref-for-speechsynthesisutterance①">SpeechSynthesisUtterance</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechSynthesisUtterance" href="#dom-speechsynthesisevent-utterance" id="ref-for-dom-speechsynthesisevent-utterance">utterance</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①④">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechsynthesisevent-charindex" id="ref-for-dom-speechsynthesisevent-charindex">charIndex</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①⑤">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechsynthesisevent-charlength" id="ref-for-dom-speechsynthesisevent-charlength">charLength</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑨">float</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="float" href="#dom-speechsynthesisevent-elapsedtime" id="ref-for-dom-speechsynthesisevent-elapsedtime">elapsedTime</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑦">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisevent-name" id="ref-for-dom-speechsynthesisevent-name">name</a>;
+    readonly attribute <a data-link-type="idl-name" href="#speechsynthesisutterance" id="ref-for-speechsynthesisutterance①">SpeechSynthesisUtterance</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-utterance" id="ref-for-dom-speechsynthesisevent-utterance">utterance</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①④">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-charindex" id="ref-for-dom-speechsynthesisevent-charindex">charIndex</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①⑤">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-charlength" id="ref-for-dom-speechsynthesisevent-charlength">charLength</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float⑨">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-elapsedtime" id="ref-for-dom-speechsynthesisevent-elapsedtime">elapsedTime</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑦">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-name" id="ref-for-dom-speechsynthesisevent-name">name</a>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-speechsynthesiseventinit"><code>SpeechSynthesisEventInit</code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit" id="ref-for-dictdef-eventinit②">EventInit</a> {
-    required <a data-link-type="idl-name" href="#speechsynthesisutterance" id="ref-for-speechsynthesisutterance②">SpeechSynthesisUtterance</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export data-type="SpeechSynthesisUtterance" id="dom-speechsynthesiseventinit-utterance"><code>utterance</code></dfn>;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①⑥">unsigned long</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export data-type="unsigned long" id="dom-speechsynthesiseventinit-charindex"><code>charIndex</code></dfn> = 0;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①⑦">unsigned long</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export data-type="unsigned long" id="dom-speechsynthesiseventinit-charlength"><code>charLength</code></dfn> = 0;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float①⓪">float</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export data-type="float" id="dom-speechsynthesiseventinit-elapsedtime"><code>elapsedTime</code></dfn> = 0;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑧">DOMString</a> <dfn class="dfn-paneled idl-code" data-default="&quot;&quot;" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export data-type="DOMString" id="dom-speechsynthesiseventinit-name"><code>name</code></dfn> = "";
+    required <a data-link-type="idl-name" href="#speechsynthesisutterance" id="ref-for-speechsynthesisutterance②">SpeechSynthesisUtterance</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export id="dom-speechsynthesiseventinit-utterance"><code>utterance</code></dfn>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①⑥">unsigned long</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export id="dom-speechsynthesiseventinit-charindex"><code>charIndex</code></dfn> = 0;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long" id="ref-for-idl-unsigned-long①⑦">unsigned long</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export id="dom-speechsynthesiseventinit-charlength"><code>charLength</code></dfn> = 0;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float" id="ref-for-idl-float①⓪">float</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export id="dom-speechsynthesiseventinit-elapsedtime"><code>elapsedTime</code></dfn> = 0;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑧">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisEventInit" data-dfn-type="dict-member" data-export id="dom-speechsynthesiseventinit-name"><code>name</code></dfn> = "";
 };
 
 enum <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enumdef-speechsynthesiserrorcode"><code>SpeechSynthesisErrorCode</code></dfn> {
@@ -1481,20 +1481,20 @@ enum <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enum
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①①">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechsynthesiserrorevent"><code>SpeechSynthesisErrorEvent</code></dfn> : <a data-link-type="idl-name" href="#speechsynthesisevent" id="ref-for-speechsynthesisevent">SpeechSynthesisEvent</a> {
     <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisErrorEvent" data-dfn-type="constructor" data-export data-lt="SpeechSynthesisErrorEvent(type, eventInitDict)|constructor(type, eventInitDict)" id="dom-speechsynthesiserrorevent-speechsynthesiserrorevent"><code>constructor</code></dfn>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①⑨">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisErrorEvent/SpeechSynthesisErrorEvent(type, eventInitDict), SpeechSynthesisErrorEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechsynthesiserrorevent-speechsynthesiserrorevent-type-eventinitdict-type"><code>type</code></dfn>, <a data-link-type="idl-name" href="#dictdef-speechsynthesiserroreventinit" id="ref-for-dictdef-speechsynthesiserroreventinit">SpeechSynthesisErrorEventInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisErrorEvent/SpeechSynthesisErrorEvent(type, eventInitDict), SpeechSynthesisErrorEvent/constructor(type, eventInitDict)" data-dfn-type="argument" data-export id="dom-speechsynthesiserrorevent-speechsynthesiserrorevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></dfn>);
-    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode" id="ref-for-enumdef-speechsynthesiserrorcode">SpeechSynthesisErrorCode</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechSynthesisErrorCode" href="#dom-speechsynthesiserrorevent-error" id="ref-for-dom-speechsynthesiserrorevent-error">error</a>;
+    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode" id="ref-for-enumdef-speechsynthesiserrorcode">SpeechSynthesisErrorCode</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesiserrorevent-error" id="ref-for-dom-speechsynthesiserrorevent-error">error</a>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-speechsynthesiserroreventinit"><code>SpeechSynthesisErrorEventInit</code></dfn> : <a data-link-type="idl-name" href="#dictdef-speechsynthesiseventinit" id="ref-for-dictdef-speechsynthesiseventinit①">SpeechSynthesisEventInit</a> {
-    required <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode" id="ref-for-enumdef-speechsynthesiserrorcode①">SpeechSynthesisErrorCode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisErrorEventInit" data-dfn-type="dict-member" data-export data-type="SpeechSynthesisErrorCode" id="dom-speechsynthesiserroreventinit-error"><code>error</code></dfn>;
+    required <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode" id="ref-for-enumdef-speechsynthesiserrorcode①">SpeechSynthesisErrorCode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="SpeechSynthesisErrorEventInit" data-dfn-type="dict-member" data-export id="dom-speechsynthesiserroreventinit-error"><code>error</code></dfn>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①②">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="speechsynthesisvoice"><code>SpeechSynthesisVoice</code></dfn> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②⓪">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisvoice-voiceuri" id="ref-for-dom-speechsynthesisvoice-voiceuri">voiceURI</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②①">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisvoice-name" id="ref-for-dom-speechsynthesisvoice-name">name</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②②">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisvoice-lang" id="ref-for-dom-speechsynthesisvoice-lang">lang</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑨">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesisvoice-localservice" id="ref-for-dom-speechsynthesisvoice-localservice">localService</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①⓪">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesisvoice-default" id="ref-for-dom-speechsynthesisvoice-default">default</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②⓪">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-voiceuri" id="ref-for-dom-speechsynthesisvoice-voiceuri">voiceURI</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②①">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-name" id="ref-for-dom-speechsynthesisvoice-name">name</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString②②">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-lang" id="ref-for-dom-speechsynthesisvoice-lang">lang</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑨">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-localservice" id="ref-for-dom-speechsynthesisvoice-localservice">localService</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①⓪">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-default" id="ref-for-dom-speechsynthesisvoice-default">default</a>;
 };
 </pre>
    <h4 class="heading settled" data-level="4.2.1" id="tts-attributes"><span class="secno">4.2.1. </span><span class="content">SpeechSynthesis Attributes</span><a class="self-link" href="#tts-attributes"></a></h4>
@@ -2206,11 +2206,11 @@ interface <a href="#speechrecognition"><code>SpeechRecognition</code></a> : <a d
     <a href="#dom-speechrecognition-speechrecognition"><code>constructor</code></a>();
 
     // recognition parameters
-    attribute <a data-link-type="idl-name" href="#speechgrammarlist">SpeechGrammarList</a> <a class="idl-code" data-link-type="attribute" data-type="SpeechGrammarList" href="#dom-speechrecognition-grammars">grammars</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechrecognition-lang">lang</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-type="boolean" href="#dom-speechrecognition-continuous">continuous</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-type="boolean" href="#dom-speechrecognition-interimresults">interimResults</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-type="unsigned long" href="#dom-speechrecognition-maxalternatives">maxAlternatives</a>;
+    attribute <a data-link-type="idl-name" href="#speechgrammarlist">SpeechGrammarList</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-grammars">grammars</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-lang">lang</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-continuous">continuous</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-interimresults">interimResults</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognition-maxalternatives">maxAlternatives</a>;
 
     // methods to drive the speech interaction
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognition-start">start</a>();
@@ -2218,17 +2218,17 @@ interface <a href="#speechrecognition"><code>SpeechRecognition</code></a> : <a d
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognition-abort">abort</a>();
 
     // event methods
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onaudiostart"><code>onaudiostart</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onsoundstart"><code>onsoundstart</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onspeechstart"><code>onspeechstart</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onspeechend"><code>onspeechend</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onsoundend"><code>onsoundend</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onaudioend"><code>onaudioend</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onresult"><code>onresult</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onnomatch"><code>onnomatch</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onerror"><code>onerror</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onstart"><code>onstart</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechrecognition-onend"><code>onend</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onaudiostart"><code>onaudiostart</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onsoundstart"><code>onsoundstart</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onspeechstart"><code>onspeechstart</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onspeechend"><code>onspeechend</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onsoundend"><code>onsoundend</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onaudioend"><code>onaudioend</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onresult"><code>onresult</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onnomatch"><code>onnomatch</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onerror"><code>onerror</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onstart"><code>onstart</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechrecognition-onend"><code>onend</code></a>;
 };
 
 enum <a href="#enumdef-speechrecognitionerrorcode"><code>SpeechRecognitionErrorCode</code></a> {
@@ -2245,34 +2245,34 @@ enum <a href="#enumdef-speechrecognitionerrorcode"><code>SpeechRecognitionErrorC
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechrecognitionerrorevent"><code>SpeechRecognitionErrorEvent</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event">Event</a> {
     <a href="#dom-speechrecognitionerrorevent-speechrecognitionerrorevent"><code>constructor</code></a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechrecognitionerrorevent-speechrecognitionerrorevent-type-eventinitdict-type"><code>type</code></a>, <a data-link-type="idl-name" href="#dictdef-speechrecognitionerroreventinit">SpeechRecognitionErrorEventInit</a> <a href="#dom-speechrecognitionerrorevent-speechrecognitionerrorevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></a>);
-    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode">SpeechRecognitionErrorCode</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechRecognitionErrorCode" href="#dom-speechrecognitionerrorevent-error">error</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechrecognitionerrorevent-message">message</a>;
+    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode">SpeechRecognitionErrorCode</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionerrorevent-error">error</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionerrorevent-message">message</a>;
 };
 
 dictionary <a href="#dictdef-speechrecognitionerroreventinit"><code>SpeechRecognitionErrorEventInit</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit">EventInit</a> {
-    required <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode">SpeechRecognitionErrorCode</a> <a data-type="SpeechRecognitionErrorCode" href="#dom-speechrecognitionerroreventinit-error"><code>error</code></a>;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-default="&quot;&quot;" data-type="DOMString" href="#dom-speechrecognitionerroreventinit-message"><code>message</code></a> = "";
+    required <a data-link-type="idl-name" href="#enumdef-speechrecognitionerrorcode">SpeechRecognitionErrorCode</a> <a href="#dom-speechrecognitionerroreventinit-error"><code>error</code></a>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechrecognitionerroreventinit-message"><code>message</code></a> = "";
 };
 
 // Item in N-best list
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechrecognitionalternative"><code>SpeechRecognitionAlternative</code></a> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechrecognitionalternative-transcript">transcript</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="float" href="#dom-speechrecognitionalternative-confidence">confidence</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionalternative-transcript">transcript</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionalternative-confidence">confidence</a>;
 };
 
 // A complete one-shot simple response
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechrecognitionresult"><code>SpeechRecognitionResult</code></a> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechrecognitionresult-length">length</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionresult-length">length</a>;
     getter <a data-link-type="idl-name" href="#speechrecognitionalternative">SpeechRecognitionAlternative</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognitionresult-item">item</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a href="#dom-speechrecognitionresult-item-index-index"><code>index</code></a>);
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechrecognitionresult-isfinal">isFinal</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionresult-isfinal">isFinal</a>;
 };
 
 // A collection of responses (used in continuous mode)
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechrecognitionresultlist"><code>SpeechRecognitionResultList</code></a> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechrecognitionresultlist-length">length</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionresultlist-length">length</a>;
     getter <a data-link-type="idl-name" href="#speechrecognitionresult">SpeechRecognitionResult</a> <a class="idl-code" data-link-type="method" href="#dom-speechrecognitionresultlist-item">item</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a href="#dom-speechrecognitionresultlist-item-index-index"><code>index</code></a>);
 };
 
@@ -2280,27 +2280,27 @@ interface <a href="#speechrecognitionresultlist"><code>SpeechRecognitionResultLi
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechrecognitionevent"><code>SpeechRecognitionEvent</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event">Event</a> {
     <a href="#dom-speechrecognitionevent-speechrecognitionevent"><code>constructor</code></a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechrecognitionevent-speechrecognitionevent-type-eventinitdict-type"><code>type</code></a>, <a data-link-type="idl-name" href="#dictdef-speechrecognitioneventinit">SpeechRecognitionEventInit</a> <a href="#dom-speechrecognitionevent-speechrecognitionevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></a>);
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechrecognitionevent-resultindex">resultIndex</a>;
-    readonly attribute <a data-link-type="idl-name" href="#speechrecognitionresultlist">SpeechRecognitionResultList</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechRecognitionResultList" href="#dom-speechrecognitionevent-results">results</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionevent-resultindex">resultIndex</a>;
+    readonly attribute <a data-link-type="idl-name" href="#speechrecognitionresultlist">SpeechRecognitionResultList</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechrecognitionevent-results">results</a>;
 };
 
 dictionary <a href="#dictdef-speechrecognitioneventinit"><code>SpeechRecognitionEventInit</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit">EventInit</a> {
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a data-default="0" data-type="unsigned long" href="#dom-speechrecognitioneventinit-resultindex"><code>resultIndex</code></a> = 0;
-    required <a data-link-type="idl-name" href="#speechrecognitionresultlist">SpeechRecognitionResultList</a> <a data-type="SpeechRecognitionResultList" href="#dom-speechrecognitioneventinit-results"><code>results</code></a>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a href="#dom-speechrecognitioneventinit-resultindex"><code>resultIndex</code></a> = 0;
+    required <a data-link-type="idl-name" href="#speechrecognitionresultlist">SpeechRecognitionResultList</a> <a href="#dom-speechrecognitioneventinit-results"><code>results</code></a>;
 };
 
 // The object representing a speech grammar
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechgrammar"><code>SpeechGrammar</code></a> {
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechgrammar-src">src</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechgrammar-weight">weight</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechgrammar-src">src</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechgrammar-weight">weight</a>;
 };
 
 // The object representing a speech grammar collection
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechgrammarlist"><code>SpeechGrammarList</code></a> {
     <a href="#dom-speechgrammarlist-speechgrammarlist"><code>constructor</code></a>();
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechgrammarlist-length">length</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechgrammarlist-length">length</a>;
     getter <a data-link-type="idl-name" href="#speechgrammar">SpeechGrammar</a> <a class="idl-code" data-link-type="method" href="#dom-speechgrammarlist-item">item</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a href="#dom-speechgrammarlist-item-index-index"><code>index</code></a>);
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechgrammarlist-addfromuri">addFromURI</a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechgrammarlist-addfromuri-src-weight-src"><code>src</code></a>,
                     optional <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a href="#dom-speechgrammarlist-addfromuri-src-weight-weight"><code>weight</code></a> = 1.0);
@@ -2310,11 +2310,11 @@ interface <a href="#speechgrammarlist"><code>SpeechGrammarList</code></a> {
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechsynthesis"><code>SpeechSynthesis</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget">EventTarget</a> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesis-pending">pending</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesis-speaking">speaking</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesis-paused">paused</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesis-pending">pending</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesis-speaking">speaking</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesis-paused">paused</a>;
 
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesis-onvoiceschanged"><code>onvoiceschanged</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesis-onvoiceschanged"><code>onvoiceschanged</code></a>;
 
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechsynthesis-speak">speak</a>(<a data-link-type="idl-name" href="#speechsynthesisutterance">SpeechSynthesisUtterance</a> <a href="#dom-speechsynthesis-speak-utterance-utterance"><code>utterance</code></a>);
     <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-speechsynthesis-cancel">cancel</a>();
@@ -2324,45 +2324,45 @@ interface <a href="#speechsynthesis"><code>SpeechSynthesis</code></a> : <a data-
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#window">Window</a> {
-    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#speechsynthesis">SpeechSynthesis</a> <a data-readonly data-type="SpeechSynthesis" href="#dom-window-speechsynthesis"><code>speechSynthesis</code></a>;
+    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#speechsynthesis">SpeechSynthesis</a> <a href="#dom-window-speechsynthesis"><code>speechSynthesis</code></a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechsynthesisutterance"><code>SpeechSynthesisUtterance</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#eventtarget">EventTarget</a> {
     <a href="#dom-speechsynthesisutterance-speechsynthesisutterance"><code>constructor</code></a>(optional <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechsynthesisutterance-speechsynthesisutterance-text-text"><code>text</code></a>);
 
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechsynthesisutterance-text">text</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-type="DOMString" href="#dom-speechsynthesisutterance-lang">lang</a>;
-    attribute <a data-link-type="idl-name" href="#speechsynthesisvoice">SpeechSynthesisVoice</a>? <a class="idl-code" data-link-type="attribute" data-type="SpeechSynthesisVoice?" href="#dom-speechsynthesisutterance-voice">voice</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechsynthesisutterance-volume">volume</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechsynthesisutterance-rate">rate</a>;
-    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-type="float" href="#dom-speechsynthesisutterance-pitch">pitch</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-text">text</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-lang">lang</a>;
+    attribute <a data-link-type="idl-name" href="#speechsynthesisvoice">SpeechSynthesisVoice</a>? <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-voice">voice</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-volume">volume</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-rate">rate</a>;
+    attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisutterance-pitch">pitch</a>;
 
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onstart"><code>onstart</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onend"><code>onend</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onerror"><code>onerror</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onpause"><code>onpause</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onresume"><code>onresume</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onmark"><code>onmark</code></a>;
-    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a data-type="EventHandler" href="#dom-speechsynthesisutterance-onboundary"><code>onboundary</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onstart"><code>onstart</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onend"><code>onend</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onerror"><code>onerror</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onpause"><code>onpause</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onresume"><code>onresume</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onmark"><code>onmark</code></a>;
+    attribute <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler">EventHandler</a> <a href="#dom-speechsynthesisutterance-onboundary"><code>onboundary</code></a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechsynthesisevent"><code>SpeechSynthesisEvent</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event">Event</a> {
     <a href="#dom-speechsynthesisevent-speechsynthesisevent"><code>constructor</code></a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechsynthesisevent-speechsynthesisevent-type-eventinitdict-type"><code>type</code></a>, <a data-link-type="idl-name" href="#dictdef-speechsynthesiseventinit">SpeechSynthesisEventInit</a> <a href="#dom-speechsynthesisevent-speechsynthesisevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></a>);
-    readonly attribute <a data-link-type="idl-name" href="#speechsynthesisutterance">SpeechSynthesisUtterance</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechSynthesisUtterance" href="#dom-speechsynthesisevent-utterance">utterance</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechsynthesisevent-charindex">charIndex</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="unsigned long" href="#dom-speechsynthesisevent-charlength">charLength</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="float" href="#dom-speechsynthesisevent-elapsedtime">elapsedTime</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisevent-name">name</a>;
+    readonly attribute <a data-link-type="idl-name" href="#speechsynthesisutterance">SpeechSynthesisUtterance</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-utterance">utterance</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-charindex">charIndex</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-charlength">charLength</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-elapsedtime">elapsedTime</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisevent-name">name</a>;
 };
 
 dictionary <a href="#dictdef-speechsynthesiseventinit"><code>SpeechSynthesisEventInit</code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit">EventInit</a> {
-    required <a data-link-type="idl-name" href="#speechsynthesisutterance">SpeechSynthesisUtterance</a> <a data-type="SpeechSynthesisUtterance" href="#dom-speechsynthesiseventinit-utterance"><code>utterance</code></a>;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a data-default="0" data-type="unsigned long" href="#dom-speechsynthesiseventinit-charindex"><code>charIndex</code></a> = 0;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a data-default="0" data-type="unsigned long" href="#dom-speechsynthesiseventinit-charlength"><code>charLength</code></a> = 0;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a data-default="0" data-type="float" href="#dom-speechsynthesiseventinit-elapsedtime"><code>elapsedTime</code></a> = 0;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-default="&quot;&quot;" data-type="DOMString" href="#dom-speechsynthesiseventinit-name"><code>name</code></a> = "";
+    required <a data-link-type="idl-name" href="#speechsynthesisutterance">SpeechSynthesisUtterance</a> <a href="#dom-speechsynthesiseventinit-utterance"><code>utterance</code></a>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a href="#dom-speechsynthesiseventinit-charindex"><code>charIndex</code></a> = 0;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long">unsigned long</a> <a href="#dom-speechsynthesiseventinit-charlength"><code>charLength</code></a> = 0;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-float">float</a> <a href="#dom-speechsynthesiseventinit-elapsedtime"><code>elapsedTime</code></a> = 0;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechsynthesiseventinit-name"><code>name</code></a> = "";
 };
 
 enum <a href="#enumdef-speechsynthesiserrorcode"><code>SpeechSynthesisErrorCode</code></a> {
@@ -2383,20 +2383,20 @@ enum <a href="#enumdef-speechsynthesiserrorcode"><code>SpeechSynthesisErrorCode<
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechsynthesiserrorevent"><code>SpeechSynthesisErrorEvent</code></a> : <a data-link-type="idl-name" href="#speechsynthesisevent">SpeechSynthesisEvent</a> {
     <a href="#dom-speechsynthesiserrorevent-speechsynthesiserrorevent"><code>constructor</code></a>(<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-speechsynthesiserrorevent-speechsynthesiserrorevent-type-eventinitdict-type"><code>type</code></a>, <a data-link-type="idl-name" href="#dictdef-speechsynthesiserroreventinit">SpeechSynthesisErrorEventInit</a> <a href="#dom-speechsynthesiserrorevent-speechsynthesiserrorevent-type-eventinitdict-eventinitdict"><code>eventInitDict</code></a>);
-    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode">SpeechSynthesisErrorCode</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="SpeechSynthesisErrorCode" href="#dom-speechsynthesiserrorevent-error">error</a>;
+    readonly attribute <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode">SpeechSynthesisErrorCode</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesiserrorevent-error">error</a>;
 };
 
 dictionary <a href="#dictdef-speechsynthesiserroreventinit"><code>SpeechSynthesisErrorEventInit</code></a> : <a data-link-type="idl-name" href="#dictdef-speechsynthesiseventinit">SpeechSynthesisEventInit</a> {
-    required <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode">SpeechSynthesisErrorCode</a> <a data-type="SpeechSynthesisErrorCode" href="#dom-speechsynthesiserroreventinit-error"><code>error</code></a>;
+    required <a data-link-type="idl-name" href="#enumdef-speechsynthesiserrorcode">SpeechSynthesisErrorCode</a> <a href="#dom-speechsynthesiserroreventinit-error"><code>error</code></a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#speechsynthesisvoice"><code>SpeechSynthesisVoice</code></a> {
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisvoice-voiceuri">voiceURI</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisvoice-name">name</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMString" href="#dom-speechsynthesisvoice-lang">lang</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesisvoice-localservice">localService</a>;
-    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="boolean" href="#dom-speechsynthesisvoice-default">default</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-voiceuri">voiceURI</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-name">name</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-lang">lang</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-localservice">localService</a>;
+    readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="attribute" href="#dom-speechsynthesisvoice-default">default</a>;
 };
 
 </pre>
@@ -3605,7 +3605,7 @@ document.addEventListener('toggle', (event) => hydrateIfNeeded(event.target), tr
 {
 let highlightGrammars = {
 "css": {"patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#keyframes"},{"include":"#at-rule-block"},{"include":"#at-rule-statement"},{"include":"#rule-set"}],"repository":{"at-rule-block":{"begin":"(@(?:container|counter-style|document|font-face|font-feature-values|font-palette-values|layer|media|page|position-try|scope|starting-style|supports|view-transition)\\b)[^{;]*\\{","beginCaptures":{"1":{"name":"keyword.control.at-rule"}},"end":"\\}","patterns":[{"include":"$self"}]},"at-rule-statement":{"begin":"(@(?:charset|custom-media|import|namespace|property)\\b)","beginCaptures":{"1":{"name":"keyword.control.at-rule"}},"end":";","patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#values"}]},"comments":{"begin":"/\\*","end":"\\*/","name":"comment.block"},"declarations":{"captures":{"1":{"name":"support.type.property-name"}},"match":"(--[a-zA-Z0-9_-]+|[a-zA-Z-][\\w-]*)(\\s*:)"},"keyframes":{"begin":"(@(?:-\\w+-)?keyframes)\\s+([a-zA-Z_-][\\w-]*)\\s*\\{","beginCaptures":{"1":{"name":"keyword.control.at-rule"},"2":{"name":"entity.name.animation"}},"end":"\\}","patterns":[{"include":"$self"}]},"rule-set":{"begin":"([^\\s@{};<][^@{};<]*?)\\s*\\{","beginCaptures":{"1":{"name":"entity.name.selector"}},"end":"\\}","patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#keyframes"},{"include":"#at-rule-block"},{"include":"#at-rule-statement"},{"include":"#rule-set"},{"include":"#declarations"},{"include":"#values"}]},"strings":{"match":"(['\"])(?:\\\\.|(?!\\1)[^\\\\\\r\\n])*\\1","name":"string.quoted"},"values":{"patterns":[{"match":"!important\\b","name":"keyword.other.important"},{"captures":{"1":{"name":"entity.name.function"},"2":{"name":"variable.other.custom-property"}},"match":"\\b(var)\\(\\s*(--[a-zA-Z0-9_-]+)"},{"captures":{"1":{"name":"entity.name.function"}},"match":"\\b([a-zA-Z_-][\\w-]*)(?=\\()"},{"match":"#(?:[0-9a-fA-F]{8}|[0-9a-fA-F]{6}|[0-9a-fA-F]{4}|[0-9a-fA-F]{3})\\b","name":"constant.other.color"},{"match":"(?<![\\w.-])-?(?:\\d*\\.\\d+|\\d+)(?:[eE][+-]?\\d+)?(?:%|[a-zA-Z]+)?\\b","name":"constant.numeric"},{"match":"\\b(?:auto|currentColor|inherit|initial|none|normal|revert|revert-layer|transparent|unset)\\b","name":"constant.language"},{"match":"(?:[+*/]|(?<=\\s)-(?!-))","name":"keyword.operator"}]}},"scopeName":"source.css"},
-"html": {"dependencies":["css","json","javascript"],"patterns":[{"include":"#comments"},{"include":"#doctype"},{"include":"#embedded-css"},{"include":"#embedded-json"},{"include":"#embedded-javascript"},{"include":"#raw-text"},{"include":"#tags"},{"include":"#entities"}],"repository":{"attributes":{"begin":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"string.quoted.attribute-value","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"#entities"}]},"boolean-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)(?=[ \\t]*/?>|[ \\t]+[a-zA-Z_:])"},"comments":{"begin":"<!--","end":"-->","name":"comment.block"},"doctype":{"match":"<![Dd][Oo][Cc][Tt][Yy][Pp][Ee]\\b[^>]*>","name":"keyword.control.doctype"},"embedded-css":{"begin":"<([Ss][Tt][Yy][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.css.embedded.html","end":"</([Ss][Tt][Yy][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.css"}]},"embedded-javascript":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?:(?![^>]*\\b[Tt][Yy][Pp][Ee]\\s*=)|(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:module|(?:text|application)/(?:java|ecma)script)\\2))(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.js.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.js"}]},"embedded-json":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:application/(?:ld\\+)?json|importmap|speculationrules)\\2)(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.json.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.json"}]},"entities":{"match":"&(?:#\\d+|#x[0-9a-fA-F]+|[a-zA-Z][\\w]+);","name":"constant.character.entity"},"inline-css":{"begin":"[ \\t]+(style)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.css.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.css#comments"},{"include":"source.css#strings"},{"include":"source.css#declarations"},{"include":"source.css#values"}]},"inline-javascript":{"begin":"[ \\t]+(on[a-zA-Z][\\w-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.js.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.js"}]},"raw-text":{"begin":"<([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"string.unquoted.raw-text","end":"</([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}}},"tags":{"begin":"<(/?)([a-zA-Z][\\w.-]*)","beginCaptures":{"2":{"name":"entity.name.tag"}},"end":">","patterns":[{"include":"#inline-css"},{"include":"#inline-javascript"},{"include":"#attributes"},{"include":"#unquoted-attributes"},{"include":"#boolean-attributes"}]},"unquoted-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"string.unquoted.attribute-value"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*([^\\s\"'`=<>]+)"}},"scopeName":"text.html.basic"},
+"html": {"dependencies":["css","json","javascript"],"patterns":[{"include":"#comments"},{"include":"#doctype"},{"include":"#embedded-css"},{"include":"#embedded-json"},{"include":"#embedded-javascript"},{"include":"#raw-text"},{"include":"#tags"},{"include":"#entities"}],"repository":{"attributes":{"begin":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"string.quoted.attribute-value","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"#entities"}]},"boolean-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)(?=[ \\t]*/?>|[ \\t]+[a-zA-Z_:])"},"comments":{"begin":"\u003c!--","end":"-->","name":"comment.block"},"doctype":{"match":"<![Dd][Oo][Cc][Tt][Yy][Pp][Ee]\\b[^>]*>","name":"keyword.control.doctype"},"embedded-css":{"begin":"<([Ss][Tt][Yy][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.css.embedded.html","end":"</([Ss][Tt][Yy][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.css"}]},"embedded-javascript":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?:(?![^>]*\\b[Tt][Yy][Pp][Ee]\\s*=)|(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:module|(?:text|application)/(?:java|ecma)script)\\2))(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.js.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.js"}]},"embedded-json":{"begin":"<([Ss][Cc][Rr][Ii][Pp][Tt])\\b(?=[^>]*\\b[Tt][Yy][Pp][Ee]\\s*=\\s*(['\"])(?:application/(?:ld\\+)?json|importmap|speculationrules)\\2)(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"source.json.embedded.html","end":"</([Ss][Cc][Rr][Ii][Pp][Tt])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}},"patterns":[{"include":"source.json"}]},"entities":{"match":"&(?:#\\d+|#x[0-9a-fA-F]+|[a-zA-Z][\\w]+);","name":"constant.character.entity"},"inline-css":{"begin":"[ \\t]+(style)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.css.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.css#comments"},{"include":"source.css#strings"},{"include":"source.css#declarations"},{"include":"source.css#values"}]},"inline-javascript":{"begin":"[ \\t]+(on[a-zA-Z][\\w-]*)\\s*=\\s*(['\"])","beginCaptures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"punctuation.definition.string.begin"}},"contentName":"source.js.embedded.inline","end":"\\2","endCaptures":{"0":{"name":"punctuation.definition.string.end"}},"patterns":[{"include":"source.js"}]},"raw-text":{"begin":"<([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])\\b(?:\"[^\"]*\"|'[^']*'|[^'\">])*>","beginCaptures":{"1":{"name":"entity.name.tag"}},"contentName":"string.unquoted.raw-text","end":"</([Tt][Ee][Xx][Tt][Aa][Rr][Ee][Aa]|[Tt][Ii][Tt][Ll][Ee])[ \\t]*>","endCaptures":{"1":{"name":"entity.name.tag"}}},"tags":{"begin":"<(/?)([a-zA-Z][\\w.-]*)","beginCaptures":{"2":{"name":"entity.name.tag"}},"end":">","patterns":[{"include":"#inline-css"},{"include":"#inline-javascript"},{"include":"#attributes"},{"include":"#unquoted-attributes"},{"include":"#boolean-attributes"}]},"unquoted-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"},"2":{"name":"string.unquoted.attribute-value"}},"match":"[ \\t]+([a-zA-Z_:][\\w:.-]*)\\s*=\\s*([^\\s\"'`=<>]+)"}},"scopeName":"text.html.basic"},
 "javascript": {"patterns":[{"include":"#comments"},{"include":"#strings"},{"include":"#template"},{"include":"#regexp"},{"include":"#jsx-closing-tag"},{"include":"#jsx-tag"},{"include":"#class-declaration"},{"include":"#function-declaration"},{"include":"#variable-declaration"},{"include":"#keywords"},{"include":"#numbers"},{"include":"#constants"},{"include":"#decorators"},{"include":"#private-fields"},{"include":"#properties"},{"include":"#functions"},{"include":"#built-ins"},{"include":"#operators"}],"repository":{"balanced-braces":{"begin":"\\{","end":"\\}","patterns":[{"include":"#balanced-braces"},{"include":"$self"}]},"built-ins":{"match":"\\b(?:Array|BigInt|Boolean|console|customElements|Date|document|Error|JSON|Map|Math|Number|Object|Promise|Reflect|RegExp|Set|String|Symbol|WeakMap|WeakSet|window)\\b","name":"support.class"},"class-declaration":{"captures":{"1":{"name":"storage.type.class"},"2":{"name":"entity.name.type.class"}},"match":"\\b(class)\\s+([A-Za-z_$][\\w$]*)"},"comments":{"patterns":[{"match":"//.*$","name":"comment.line"},{"begin":"/\\*","end":"\\*/","name":"comment.block"}]},"constants":{"patterns":[{"match":"\\b(?:false|true)\\b","name":"constant.language.boolean"},{"match":"\\b(?:Infinity|NaN|null|undefined)\\b","name":"constant.language"}]},"decorators":{"match":"@[A-Za-z_$][\\w$]*","name":"entity.name.decorator"},"function-declaration":{"captures":{"1":{"name":"storage.modifier.async"},"2":{"name":"storage.type.function"},"4":{"name":"entity.name.function"}},"match":"\\b(?:(async)\\s+)?(function)\\s*(\\*)?\\s*([A-Za-z_$][\\w$]*)?"},"functions":{"match":"\\b[A-Za-z_$][\\w$]*(?=\\s*\\()","name":"entity.name.function"},"jsx-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"\\b([a-zA-Z_:][\\w:.-]*)(?=\\s*(?:=|/?>))"},"jsx-boolean-attributes":{"captures":{"1":{"name":"entity.other.attribute-name"}},"match":"\\b([a-zA-Z_:][\\w:.-]*)(?=\\s+(?:[a-zA-Z_:][\\w:.-]*\\s*=|/?>))"},"jsx-closing-tag":{"captures":{"1":{"name":"entity.name.tag"}},"match":"</([A-Za-z][\\w.-]*)\\s*>"},"jsx-expression":{"begin":"\\{","end":"\\}","patterns":[{"include":"#balanced-braces"},{"include":"$self"}]},"jsx-tag":{"begin":"<([A-Za-z][\\w.-]*)","beginCaptures":{"1":{"name":"entity.name.tag"}},"end":"/?>","patterns":[{"include":"#jsx-expression"},{"include":"#strings"},{"include":"#jsx-boolean-attributes"},{"include":"#jsx-attributes"}]},"keywords":{"match":"\\b(?:as|assert|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|var|void|while|with|yield)\\b","name":"keyword.control"},"numbers":{"match":"(?<![\\w$])(?:0[xX][0-9a-fA-F](?:_?[0-9a-fA-F])*n?|0[bB][01](?:_?[01])*n?|0[oO][0-7](?:_?[0-7])*n?|\\d(?:_?\\d)*n|(?:\\d(?:_?\\d)*(?:\\.\\d(?:_?\\d)*)?|\\.\\d(?:_?\\d)*)(?:[eE][+-]?\\d(?:_?\\d)*)?)(?![\\w$])","name":"constant.numeric"},"operators":{"match":"(?:=>|===|!==|==|!=|<=|>=|\\?\\?|\\?\\.|\\+\\+|--|&&|\\|\\||\\*\\*|[+*%&|^!~?:-])","name":"keyword.operator"},"private-fields":{"match":"#[A-Za-z_$][\\w$]*","name":"variable.other.private"},"properties":{"match":"(?<=\\.)[A-Za-z_$][\\w$]*|[A-Za-z_$][\\w$]*(?=\\s*:)","name":"entity.name.property"},"regexp":{"match":"(?<![\\w)$\\]])/(?![/*])(?:\\\\.|\\[(?:\\\\.|[^\\]\\\\])*\\]|[^/\\\\\\r\\n])+/[dgimsuvy]*","name":"string.regexp"},"strings":{"patterns":[{"match":"'(?:\\\\.|[^'\\\\\\r\\n])*'","name":"string.quoted.single"},{"match":"\"(?:\\\\.|[^\"\\\\\\r\\n])*\"","name":"string.quoted.double"}]},"template":{"begin":"`","end":"(?<!\\\\)(?:\\\\\\\\)*`","name":"string.quoted.template","patterns":[{"include":"#template-interpolation"}]},"template-interpolation":{"begin":"\\$\\{","end":"\\}","patterns":[{"include":"#balanced-braces"},{"include":"$self"}]},"variable-declaration":{"captures":{"1":{"name":"storage.type.variable"},"2":{"name":"variable.other.readwrite"}},"match":"\\b(const|let|var)\\s+([A-Za-z_$][\\w$]*)"}},"scopeName":"source.js"},
 "json": {"patterns":[{"match":"\"(?:\\\\.|[^\"\\\\])*\"(?=\\s*:)","name":"entity.name.key"},{"match":"\"(?:\\\\.|[^\"\\\\])*\"(?=\\s*[,}\\]])","name":"string.quoted.double"},{"match":"\\b(?:true|false)\\b","name":"constant.language.boolean"},{"match":"\\bnull\\b","name":"constant.language"},{"match":"(?<![\\w.])-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b","name":"constant.numeric"}],"scopeName":"source.json"},
 "webidl": {"patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"include":"#definitions"},{"include":"#members"},{"include":"#types"},{"include":"#literals"},{"include":"#punctuation"},{"include":"#identifier"}],"repository":{"argument":{"begin":"(?=\\s*(?:optional|\\.\\.\\.|\\(|[?A-Za-z_]))","end":"(?=,|\\))","name":"meta.argument.webidl","patterns":[{"match":"\\boptional\\b","name":"storage.modifier.optional.webidl"},{"match":"\\.\\.\\.","name":"keyword.operator.variadic.webidl"},{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.parameter.webidl"}]},"argument-list":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.arguments.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"attribute-member":{"begin":"\\b(?:(readonly)\\s+)?(attribute)\\b","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.attribute.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.attribute.webidl","patterns":[{"include":"#types"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.attribute.webidl"}]},"buffer-type":{"match":"\\b(ArrayBuffer|DataView|Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|BigInt64Array|BigUint64Array|Float16Array|Float32Array|Float64Array)\\b","name":"support.type.buffer.webidl"},"callback-function-definition":{"begin":"\\b(callback)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(=)","beginCaptures":{"1":{"name":"storage.modifier.callback.webidl"},"2":{"name":"entity.name.function.callback.webidl"},"3":{"name":"keyword.operator.assignment.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.callback.function.webidl","patterns":[{"include":"#types"},{"include":"#argument-list"},{"include":"#comments"}]},"callback-interface-definition":{"begin":"\\b(callback)\\s+(interface)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.modifier.callback.webidl"},"2":{"name":"storage.type.interface.webidl"},"3":{"name":"entity.name.type.callback-interface.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.callback.interface.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"comments":{"patterns":[{"begin":"/\\*\\*","beginCaptures":{"0":{"name":"punctuation.definition.comment.begin.webidl"}},"end":"\\*/","endCaptures":{"0":{"name":"punctuation.definition.comment.end.webidl"}},"name":"comment.block.documentation.webidl"},{"begin":"/\\*","beginCaptures":{"0":{"name":"punctuation.definition.comment.begin.webidl"}},"end":"\\*/","endCaptures":{"0":{"name":"punctuation.definition.comment.end.webidl"}},"name":"comment.block.webidl"},{"match":"\\*/","name":"invalid.illegal.stray-comment-end.webidl"},{"begin":"//","beginCaptures":{"0":{"name":"punctuation.definition.comment.webidl"}},"end":"$\\n?","name":"comment.line.double-slash.webidl"}]},"const-member":{"begin":"\\b(const)\\b","beginCaptures":{"1":{"name":"storage.modifier.const.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.const.webidl","patterns":[{"include":"#types"},{"include":"#literals"},{"match":"=","name":"keyword.operator.assignment.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.constant.webidl"}]},"constructor-member":{"begin":"\\b(constructor)\\s*(\\()","beginCaptures":{"1":{"name":"entity.name.function.constructor.webidl"},"2":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.constructor.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"default-value":{"patterns":[{"match":"=","name":"keyword.operator.assignment.default.webidl"},{"include":"#literals"},{"match":"\\[\\s*\\]","name":"constant.language.empty-sequence.webidl"},{"match":"\\{\\s*\\}","name":"constant.language.empty-object.webidl"}]},"definition-block":{"begin":"\\{","beginCaptures":{"0":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.block.definition.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"include":"#members"},{"include":"#types"},{"include":"#literals"},{"include":"#punctuation"}]},"definitions":{"patterns":[{"include":"#partial-definition"},{"include":"#callback-interface-definition"},{"include":"#callback-function-definition"},{"include":"#interface-mixin-definition"},{"include":"#interface-definition"},{"include":"#namespace-definition"},{"include":"#dictionary-definition"},{"include":"#enum-definition"},{"include":"#typedef-definition"},{"include":"#includes-statement"}]},"dictionary-block":{"begin":"\\{","beginCaptures":{"0":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.block.dictionary.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute-list"},{"begin":"\\b(required)\\b","beginCaptures":{"1":{"name":"storage.modifier.required.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.dictionary.member.webidl","patterns":[{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.dictionary.webidl"}]},{"begin":"(?=\\s*(?:\\(|[?A-Za-z_]))","end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.dictionary.member.webidl","patterns":[{"include":"#types"},{"include":"#default-value"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.member.dictionary.webidl"}]}]},"dictionary-definition":{"begin":"\\b(dictionary)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.dictionary.webidl"},"2":{"name":"entity.name.type.dictionary.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.dictionary.webidl","patterns":[{"include":"#inheritance"},{"include":"#dictionary-block"},{"include":"#comments"}]},"enum-definition":{"begin":"\\b(enum)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(\\{)","beginCaptures":{"1":{"name":"storage.type.enum.webidl"},"2":{"name":"entity.name.type.enum.webidl"},"3":{"name":"punctuation.definition.block.begin.webidl"}},"end":"\\}","endCaptures":{"0":{"name":"punctuation.definition.block.end.webidl"}},"name":"meta.definition.enum.webidl","patterns":[{"include":"#comments"},{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.webidl"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.webidl"}},"name":"string.quoted.double.enum.webidl","patterns":[{"include":"#string-escapes"}]},{"match":",","name":"punctuation.separator.comma.webidl"}]},"extended-attribute":{"patterns":[{"match":"\\b(CrossOriginIsolated|Exposed|Global|LegacyFactoryFunction|LegacyNoInterfaceObject|LegacyOverrideBuiltIns|LegacyWindowAlias|SecureContext|LegacyLenientSetter|LegacyLenientThis|LenientFloat|PutForwards|Replaceable|SameObject|Unforgeable|CEReactions|HTMLConstructor|NewObject|LegacyUnforgeable|LegacyNullToEmptyString|Clamp|EnforceRange|AllowShared|Serializable|Transferable|LegacyTreatNonObjectAsNull|LegacyNamespace|LegacyWindowAlias|LegacyDefaultToJSONOperation|LegacyArrayClass)\\b","name":"support.type.extended-attribute.known.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.other.attribute-name.extended.webidl"},{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.extended-attribute.arguments.webidl","patterns":[{"include":"#argument"},{"include":"#types"},{"include":"#literals"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.other.attribute-name.extended.webidl"}]}]},"extended-attribute-list":{"begin":"\\[","beginCaptures":{"0":{"name":"punctuation.definition.metadata.begin.webidl"}},"end":"\\]","endCaptures":{"0":{"name":"punctuation.definition.metadata.end.webidl"}},"name":"meta.extended-attribute-list.webidl","patterns":[{"include":"#comments"},{"include":"#extended-attribute"},{"include":"#literals"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"=","name":"keyword.operator.assignment.webidl"}]},"generic-type":{"patterns":[{"begin":"\\b(async_sequence|sequence|record|FrozenArray|ObservableArray|Promise)\\s*(<)","beginCaptures":{"1":{"name":"support.type.generic.webidl"},"2":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"}},"name":"meta.type.generic.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"},{"include":"#comments"}]}]},"identifier":{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"variable.other.identifier.webidl"},"identifier-type":{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.name.type.identifier.webidl"},"includes-statement":{"captures":{"1":{"name":"entity.name.type.interface.webidl"},"2":{"name":"keyword.operator.includes.webidl"},"3":{"name":"entity.name.type.mixin.webidl"},"4":{"name":"punctuation.terminator.statement.webidl"}},"match":"\\b([_A-Za-z][_A-Za-z0-9]*)\\s+(includes)\\s+([_A-Za-z][_A-Za-z0-9]*)\\s*(;)","name":"meta.definition.includes.webidl"},"inheritance":{"captures":{"1":{"name":"punctuation.separator.inheritance.webidl"},"2":{"name":"entity.other.inherited-class.webidl"}},"match":"(:)\\s*([_A-Za-z][_A-Za-z0-9]*)","name":"meta.inheritance.webidl"},"interface-definition":{"begin":"\\b(interface)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.interface.webidl"},"2":{"name":"entity.name.type.interface.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.interface.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"interface-mixin-definition":{"begin":"\\b(interface)\\s+(mixin)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.interface.webidl"},"2":{"name":"storage.modifier.mixin.webidl"},"3":{"name":"entity.name.type.mixin.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.interface.mixin.webidl","patterns":[{"include":"#definition-block"},{"include":"#comments"}]},"iterable-member":{"begin":"\\b(?:(async)\\s+)?(iterable)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.async.webidl"},"2":{"name":"storage.type.iterable.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.iterable.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"literals":{"patterns":[{"include":"#string"},{"match":"\\b(true|false)\\b","name":"constant.language.boolean.webidl"},{"match":"\\bnull\\b","name":"constant.language.null.webidl"},{"match":"[-+]?\\bInfinity\\b","name":"constant.language.infinity.webidl"},{"match":"[-+]?\\bNaN\\b","name":"constant.language.nan.webidl"},{"match":"[-+]?0[xX][0-9a-fA-F]+","name":"constant.numeric.hex.webidl"},{"match":"[-+]?((?:[0-9]+\\.[0-9]*|\\.[0-9]+)(?:[eE][-+]?[0-9]+)?|[0-9]+[eE][-+]?[0-9]+)","name":"constant.numeric.float.webidl"},{"match":"[-+]?[0-9]+","name":"constant.numeric.integer.webidl"}]},"maplike-member":{"begin":"\\b(?:(readonly)\\s+)?(maplike)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.maplike.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.maplike.webidl","patterns":[{"include":"#types"},{"match":",","name":"punctuation.separator.comma.webidl"}]},"members":{"patterns":[{"include":"#const-member"},{"include":"#attribute-member"},{"include":"#constructor-member"},{"include":"#stringifier-member"},{"include":"#iterable-member"},{"include":"#maplike-member"},{"include":"#setlike-member"},{"include":"#operation-member"}]},"namespace-definition":{"begin":"\\b(namespace)\\s+([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.type.namespace.webidl"},"2":{"name":"entity.name.type.namespace.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.namespace.webidl","patterns":[{"include":"#definition-block"},{"include":"#comments"}]},"operation-member":{"begin":"(?=\\b(?:getter|setter|deleter|static|legacycaller|stringifier|undefined|boolean|byte|octet|bigint|float|double|short|long|unsigned|unrestricted|object|symbol|any|void|DOMString|ByteString|USVString|sequence|record|FrozenArray|ObservableArray|Promise|ArrayBuffer|DataView|Int8Array|Int16Array|Int32Array|Uint8Array|Uint16Array|Uint32Array|Uint8ClampedArray|BigInt64Array|BigUint64Array|Float16Array|Float32Array|Float64Array|[_A-Za-z])|\\()","end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.operation.webidl","patterns":[{"include":"#operation-qualifiers"},{"include":"#operation-signature"},{"include":"#types"},{"include":"#comments"}]},"operation-qualifiers":{"patterns":[{"match":"\\b(getter|setter|deleter|static|legacycaller)\\b","name":"storage.modifier.operation.special.webidl"}]},"operation-signature":{"patterns":[{"begin":"\\b([_A-Za-z][_A-Za-z0-9]*)?\\s*(\\()","beginCaptures":{"1":{"name":"entity.name.function.operation.webidl"},"2":{"name":"punctuation.definition.parameters.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.parameters.end.webidl"}},"name":"meta.operation.signature.webidl","patterns":[{"include":"#argument"},{"include":"#comments"},{"match":",","name":"punctuation.separator.comma.webidl"}]}]},"partial-definition":{"begin":"\\b(partial)\\s+(?:(interface)\\s+(mixin)\\s+|(interface|dictionary|namespace)\\s+)([_A-Za-z][_A-Za-z0-9]*)","beginCaptures":{"1":{"name":"storage.modifier.partial.webidl"},"2":{"name":"storage.type.interface.webidl"},"3":{"name":"storage.modifier.mixin.webidl"},"4":{"name":"storage.type.definition.webidl"},"5":{"name":"entity.name.type.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.partial.webidl","patterns":[{"include":"#inheritance"},{"include":"#definition-block"},{"include":"#comments"}]},"primitive-type":{"patterns":[{"match":"\\bunsigned\\b","name":"storage.modifier.unsigned.webidl"},{"match":"\\bunrestricted\\b","name":"storage.modifier.unrestricted.webidl"},{"match":"\\b(undefined|boolean|byte|octet|bigint|float|double|short|long|object|symbol|any|void)\\b","name":"support.type.primitive.webidl"}]},"punctuation":{"patterns":[{"match":";","name":"punctuation.terminator.statement.webidl"},{"match":",","name":"punctuation.separator.comma.webidl"},{"match":"=","name":"keyword.operator.assignment.webidl"},{"match":"\\.\\.\\.","name":"keyword.operator.variadic.webidl"},{"match":"<","name":"punctuation.definition.generic.begin.webidl"},{"match":">","name":"punctuation.definition.generic.end.webidl"},{"match":"\\(","name":"punctuation.definition.parameters.begin.webidl"},{"match":"\\)","name":"punctuation.definition.parameters.end.webidl"},{"match":"\\{","name":"punctuation.definition.block.begin.webidl"},{"match":"\\}","name":"punctuation.definition.block.end.webidl"}]},"setlike-member":{"begin":"\\b(?:(readonly)\\s+)?(setlike)\\s*(<)","beginCaptures":{"1":{"name":"storage.modifier.readonly.webidl"},"2":{"name":"storage.type.setlike.webidl"},"3":{"name":"punctuation.definition.generic.begin.webidl"}},"end":">\\s*(;)","endCaptures":{"0":{"name":"punctuation.definition.generic.end.webidl"},"1":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.setlike.webidl","patterns":[{"include":"#types"}]},"special-type":{"match":"\\b(BufferSource|AllowSharedBufferSource|ArrayBufferView)\\b","name":"support.type.special.webidl"},"string":{"begin":"\"","beginCaptures":{"0":{"name":"punctuation.definition.string.begin.webidl"}},"end":"\"","endCaptures":{"0":{"name":"punctuation.definition.string.end.webidl"}},"name":"string.quoted.double.webidl","patterns":[{"include":"#string-escapes"}]},"string-escapes":{"patterns":[{"match":"\\\\(?:[\"'\\\\bfnrtv]|0|x[0-9A-Fa-f]{2}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})","name":"constant.character.escape.webidl"},{"match":"\\\\.","name":"invalid.illegal.unknown-escape.webidl"}]},"string-type":{"match":"\\b(DOMString|ByteString|USVString)\\b","name":"support.type.string.webidl"},"stringifier-member":{"begin":"\\b(stringifier)\\b","beginCaptures":{"1":{"name":"storage.modifier.stringifier.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.member.stringifier.webidl","patterns":[{"include":"#attribute-member"},{"include":"#operation-signature"},{"include":"#types"}]},"typedef-definition":{"begin":"\\b(typedef)\\b","beginCaptures":{"1":{"name":"storage.type.typedef.webidl"}},"end":";","endCaptures":{"0":{"name":"punctuation.terminator.statement.webidl"}},"name":"meta.definition.typedef.webidl","patterns":[{"include":"#types"},{"match":"\\b[_A-Za-z][_A-Za-z0-9]*\\b","name":"entity.name.type.typedef.webidl"},{"include":"#comments"}]},"types":{"patterns":[{"include":"#union-type"},{"include":"#generic-type"},{"include":"#primitive-type"},{"include":"#string-type"},{"include":"#buffer-type"},{"include":"#special-type"},{"include":"#identifier-type"},{"match":"\\?","name":"keyword.operator.nullable.webidl"}]},"union-type":{"begin":"\\(","beginCaptures":{"0":{"name":"punctuation.definition.union.begin.webidl"}},"end":"\\)","endCaptures":{"0":{"name":"punctuation.definition.union.end.webidl"}},"name":"meta.type.union.webidl","patterns":[{"include":"#types"},{"match":"\\bor\\b","name":"keyword.operator.union.or.webidl"},{"include":"#comments"}]}},"scopeName":"source.webidl"},
@@ -3619,20 +3619,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -3725,29 +3806,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -3784,13 +3915,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -3803,6 +3927,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -3828,12 +3960,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -3881,18 +4046,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -3903,13 +4072,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -3922,7 +4104,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -3935,13 +4117,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

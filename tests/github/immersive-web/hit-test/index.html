@@ -1155,9 +1155,9 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
    <h3 class="heading settled" data-level="3.2" id="hit-test-options-dictionary"><span class="secno">3.2. </span><span class="content">XRHitTestOptionsInit</span><a class="self-link" href="#hit-test-options-dictionary"></a></h3>
    <p>An <code class="idl"><a data-link-type="idl" href="#dictdef-xrhittestoptionsinit" id="ref-for-dictdef-xrhittestoptionsinit">XRHitTestOptionsInit</a></code> dictionary represents a set of configurable values that affect the behavior of the hit test being performed.</p>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-xrhittestoptionsinit"><code>XRHitTestOptionsInit</code></dfn> {
-  required <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrspace" id="ref-for-xrspace">XRSpace</a> <a class="idl-code" data-link-type="dict-member" data-type="XRSpace" href="#dom-xrhittestoptionsinit-space" id="ref-for-dom-xrhittestoptionsinit-space">space</a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype" id="ref-for-enumdef-xrhittesttrackabletype①">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" data-type="FrozenArray<XRHitTestTrackableType>" href="#dom-xrhittestoptionsinit-entitytypes" id="ref-for-dom-xrhittestoptionsinit-entitytypes">entityTypes</a>;
-  <a data-link-type="idl-name" href="#xrray" id="ref-for-xrray">XRRay</a> <a class="idl-code" data-link-type="dict-member" data-type="XRRay" href="#dom-xrhittestoptionsinit-offsetray" id="ref-for-dom-xrhittestoptionsinit-offsetray">offsetRay</a>;
+  required <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrspace" id="ref-for-xrspace">XRSpace</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrhittestoptionsinit-space" id="ref-for-dom-xrhittestoptionsinit-space">space</a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype" id="ref-for-enumdef-xrhittesttrackabletype①">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" href="#dom-xrhittestoptionsinit-entitytypes" id="ref-for-dom-xrhittestoptionsinit-entitytypes">entityTypes</a>;
+  <a data-link-type="idl-name" href="#xrray" id="ref-for-xrray">XRRay</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrhittestoptionsinit-offsetray" id="ref-for-dom-xrhittestoptionsinit-offsetray">offsetRay</a>;
 };
 </pre>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRHitTestOptionsInit" data-dfn-type="dict-member" data-export id="dom-xrhittestoptionsinit-space"><code>space</code></dfn> dictionary member specifies <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrspace" id="ref-for-xrspace①">XRSpace</a></code> relative to which the <code class="idl"><a data-link-type="idl" href="#dom-xrhittestoptionsinit-offsetray" id="ref-for-dom-xrhittestoptionsinit-offsetray①">offsetRay</a></code> is specified.</p>
@@ -1172,9 +1172,9 @@ The <code class="idl"><a data-link-type="idl" href="#dictdef-xrhittestoptionsini
    <h3 class="heading settled" data-level="3.3" id="transient-input-hit-test-options-dictionary"><span class="secno">3.3. </span><span class="content">XRTransientInputHitTestOptionsInit</span><a class="self-link" href="#transient-input-hit-test-options-dictionary"></a></h3>
    <p>An <code class="idl"><a data-link-type="idl" href="#dictdef-xrtransientinputhittestoptionsinit" id="ref-for-dictdef-xrtransientinputhittestoptionsinit">XRTransientInputHitTestOptionsInit</a></code> dictionary represents a set of configurable values that affect the behavior of the hit test for transient input that is being performed.</p>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-xrtransientinputhittestoptionsinit"><code>XRTransientInputHitTestOptionsInit</code></dfn> {
-  required <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="dict-member" data-type="DOMString" href="#dom-xrtransientinputhittestoptionsinit-profile" id="ref-for-dom-xrtransientinputhittestoptionsinit-profile">profile</a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array①">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype" id="ref-for-enumdef-xrhittesttrackabletype③">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" data-type="FrozenArray<XRHitTestTrackableType>" href="#dom-xrtransientinputhittestoptionsinit-entitytypes" id="ref-for-dom-xrtransientinputhittestoptionsinit-entitytypes">entityTypes</a>;
-  <a data-link-type="idl-name" href="#xrray" id="ref-for-xrray③">XRRay</a> <a class="idl-code" data-link-type="dict-member" data-type="XRRay" href="#dom-xrtransientinputhittestoptionsinit-offsetray" id="ref-for-dom-xrtransientinputhittestoptionsinit-offsetray">offsetRay</a>;
+  required <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrtransientinputhittestoptionsinit-profile" id="ref-for-dom-xrtransientinputhittestoptionsinit-profile">profile</a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array①">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype" id="ref-for-enumdef-xrhittesttrackabletype③">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" href="#dom-xrtransientinputhittestoptionsinit-entitytypes" id="ref-for-dom-xrtransientinputhittestoptionsinit-entitytypes">entityTypes</a>;
+  <a data-link-type="idl-name" href="#xrray" id="ref-for-xrray③">XRRay</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrtransientinputhittestoptionsinit-offsetray" id="ref-for-dom-xrtransientinputhittestoptionsinit-offsetray">offsetRay</a>;
 };
 </pre>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRTransientInputHitTestOptionsInit" data-dfn-type="dict-member" data-export id="dom-xrtransientinputhittestoptionsinit-profile"><code>profile</code></dfn> dictionary member specifies an <a data-link-type="dfn" href="https://www.w3.org/TR/webxr/#xrinputsource-input-profile-name" id="ref-for-xrinputsource-input-profile-name">input profile name</a> of the transient input source that will be used to compute hit test results.</p>
@@ -1327,8 +1327,8 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
    <h3 class="heading settled" data-level="5.2" id="xr-transient-input-hit-test-result-interface"><span class="secno">5.2. </span><span class="content">XRTransientInputHitTestResult</span><a class="self-link" href="#xr-transient-input-hit-test-result-interface"></a></h3>
 <pre class="def highlight idl" data-language="webidl">[<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext③">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed③">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="xrtransientinputhittestresult"><code>XRTransientInputHitTestResult</code></dfn> {
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①">XRInputSource</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRTransientInputHitTestResult" data-dfn-type="attribute" data-export data-readonly data-type="XRInputSource" id="dom-xrtransientinputhittestresult-inputsource"><code>inputSource</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array②">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#xrhittestresult" id="ref-for-xrhittestresult⑤">XRHitTestResult</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="XRTransientInputHitTestResult" data-dfn-type="attribute" data-export data-readonly data-type="FrozenArray<XRHitTestResult>" id="dom-xrtransientinputhittestresult-results"><code>results</code></dfn>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①">XRInputSource</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRTransientInputHitTestResult" data-dfn-type="attribute" data-export id="dom-xrtransientinputhittestresult-inputsource"><code>inputSource</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array②">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#xrhittestresult" id="ref-for-xrhittestresult⑤">XRHitTestResult</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="XRTransientInputHitTestResult" data-dfn-type="attribute" data-export id="dom-xrtransientinputhittestresult-results"><code>results</code></dfn>;
 };
 </pre>
    <p>A <code class="idl"><a data-link-type="idl" href="#xrtransientinputhittestresult" id="ref-for-xrtransientinputhittestresult">XRTransientInputHitTestResult</a></code> contains array of result of a hit test for transient input, grouped by <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource②">XRInputSource</a></code> <code class="idl"><a data-link-type="idl" href="#dom-xrtransientinputhittestresult-inputsource" id="ref-for-dom-xrtransientinputhittestresult-inputsource">inputSource</a></code>.</p>
@@ -1380,7 +1380,7 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
      <li data-md>
       <p>If <a data-link-type="dfn" href="#hit-test" id="ref-for-hit-test">hit-test</a> feature descriptor is not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-contain" id="ref-for-list-contain">contained</a> in the <var>session</var>’s <a data-link-type="dfn" href="https://www.w3.org/TR/webxr/#xrsession-list-of-enabled-features" id="ref-for-xrsession-list-of-enabled-features">list of enabled features</a>, <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject">reject</a> <var>promise</var> with <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notsupportederror" id="ref-for-notsupportederror">NotSupportedError</a></code> and abort these steps.</p>
      <li data-md>
-      <p>If <var>session</var>’s <u class="link-error" data-lt="ended" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;ended&apos; with for=&apos;[&apos;XRSession&apos;]&apos; in spec &apos;css-writing-modes-4&apos;.">ended</u> value is <code>true</code>, throw an <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#invalidstateerror" id="ref-for-invalidstateerror③">InvalidStateError</a></code> and abort these steps.</p>
+      <p>If <var>session</var>’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;ended&apos; with for=&apos;[&apos;XRSession&apos;]&apos; in spec &apos;css-writing-modes-4&apos;.">ended</u> value is <code>true</code>, throw an <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#invalidstateerror" id="ref-for-invalidstateerror③">InvalidStateError</a></code> and abort these steps.</p>
      <li data-md>
       <p>The user agent MAY <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject①">reject</a> <var>promise</var> with <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror">NotAllowedError</a></code> and abort these steps if there is a <a data-link-type="dfn" href="#unreasonable-number-of-requests" id="ref-for-unreasonable-number-of-requests">unreasonable number of requests</a>.</p>
      <li data-md>
@@ -1403,7 +1403,7 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
      <li data-md>
       <p>If <a data-link-type="dfn" href="#hit-test" id="ref-for-hit-test①">hit-test</a> feature descriptor is not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-contain" id="ref-for-list-contain①">contained</a> in the <var>session</var>’s <a data-link-type="dfn" href="https://www.w3.org/TR/webxr/#xrsession-list-of-enabled-features" id="ref-for-xrsession-list-of-enabled-features①">list of enabled features</a>, <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject③">reject</a> <var>promise</var> with <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notsupportederror" id="ref-for-notsupportederror①">NotSupportedError</a></code> and abort these steps.</p>
      <li data-md>
-      <p>If <var>session</var>’s <u class="link-error" data-lt="ended" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;ended&apos; with for=&apos;[&apos;XRSession&apos;]&apos; in spec &apos;css-writing-modes-4&apos;.">ended</u> value is <code>true</code>, throw an <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#invalidstateerror" id="ref-for-invalidstateerror④">InvalidStateError</a></code> and abort these steps.</p>
+      <p>If <var>session</var>’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;ended&apos; with for=&apos;[&apos;XRSession&apos;]&apos; in spec &apos;css-writing-modes-4&apos;.">ended</u> value is <code>true</code>, throw an <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#invalidstateerror" id="ref-for-invalidstateerror④">InvalidStateError</a></code> and abort these steps.</p>
      <li data-md>
       <p>The user agent MAY <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#reject" id="ref-for-reject④">reject</a> <var>promise</var> with <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror①">NotAllowedError</a></code> and abort these steps if there is a <a data-link-type="dfn" href="#unreasonable-number-of-requests" id="ref-for-unreasonable-number-of-requests①">unreasonable number of requests</a>.</p>
      <li data-md>
@@ -1528,10 +1528,10 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
    <h3 class="heading settled" data-level="9.1" id="xr-ray-direction-init-dictionary"><span class="secno">9.1. </span><span class="content">XRRayDirectionInit</span><a class="self-link" href="#xr-ray-direction-init-dictionary"></a></h3>
    <p>An <code class="idl"><a data-link-type="idl" href="#dictdef-xrraydirectioninit" id="ref-for-dictdef-xrraydirectioninit">XRRayDirectionInit</a></code> dictionary represents a direction vector to be passed to the <code class="idl"><a data-link-type="idl" href="#dom-xrray-xrray" id="ref-for-dom-xrray-xrray②">XRRay(origin, direction)</a></code> constructor.</p>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-xrraydirectioninit"><code>XRRayDirectionInit</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double">double</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export data-type="double" id="dom-xrraydirectioninit-x"><code>x</code></dfn> = 0;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double①">double</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export data-type="double" id="dom-xrraydirectioninit-y"><code>y</code></dfn> = 0;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double②">double</a> <dfn class="dfn-paneled idl-code" data-default="-1" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export data-type="double" id="dom-xrraydirectioninit-z"><code>z</code></dfn> = -1;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double③">double</a> <dfn class="dfn-paneled idl-code" data-default="0" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export data-type="double" id="dom-xrraydirectioninit-w"><code>w</code></dfn> = 0;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double">double</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export id="dom-xrraydirectioninit-x"><code>x</code></dfn> = 0;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double①">double</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export id="dom-xrraydirectioninit-y"><code>y</code></dfn> = 0;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double②">double</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export id="dom-xrraydirectioninit-z"><code>z</code></dfn> = -1;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double" id="ref-for-idl-double③">double</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRayDirectionInit" data-dfn-type="dict-member" data-export id="dom-xrraydirectioninit-w"><code>w</code></dfn> = 0;
 };
 </pre>
    <h3 class="heading settled" data-level="9.2" id="xrray-interface"><span class="secno">9.2. </span><span class="content">XRRay</span><a class="self-link" href="#xrray-interface"></a></h3>
@@ -1541,9 +1541,9 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="xrray"><code>XRRay</code></dfn> {
   <a class="idl-code" data-link-type="constructor" href="#dom-xrray-xrray" id="ref-for-dom-xrray-xrray③">constructor</a>(optional <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dictdef-dompointinit" id="ref-for-dictdef-dompointinit">DOMPointInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRay/XRRay(origin, direction), XRRay/constructor(origin, direction), XRRay/XRRay(origin), XRRay/constructor(origin), XRRay/XRRay(), XRRay/constructor()" data-dfn-type="argument" data-export id="dom-xrray-xrray-origin-direction-origin"><code>origin</code></dfn> = {}, optional <a data-link-type="idl-name" href="#dictdef-xrraydirectioninit" id="ref-for-dictdef-xrraydirectioninit①">XRRayDirectionInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRay/XRRay(origin, direction), XRRay/constructor(origin, direction), XRRay/XRRay(origin), XRRay/constructor(origin), XRRay/XRRay(), XRRay/constructor()" data-dfn-type="argument" data-export id="dom-xrray-xrray-origin-direction-direction"><code>direction</code></dfn> = {});
   <a class="idl-code" data-link-type="constructor" href="#dom-xrray-xrray-transform" id="ref-for-dom-xrray-xrray-transform">constructor</a>(<a data-link-type="idl-name" href="https://www.w3.org/TR/webxr/#xrrigidtransform-interface" id="ref-for-xrrigidtransform-interface">XRRigidTransform</a> <dfn class="dfn-paneled idl-code" data-dfn-for="XRRay/XRRay(transform), XRRay/constructor(transform)" data-dfn-type="argument" data-export id="dom-xrray-xrray-transform-transform"><code>transform</code></dfn>);
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject①">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly" id="ref-for-dompointreadonly">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMPointReadOnly" href="#dom-xrray-origin" id="ref-for-dom-xrray-origin①">origin</a>;
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject②">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly" id="ref-for-dompointreadonly①">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMPointReadOnly" href="#dom-xrray-direction" id="ref-for-dom-xrray-direction①">direction</a>;
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject③">SameObject</a>] readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array" id="ref-for-idl-Float32Array">Float32Array</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="Float32Array" href="#dom-xrray-matrix" id="ref-for-dom-xrray-matrix">matrix</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject①">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly" id="ref-for-dompointreadonly">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" href="#dom-xrray-origin" id="ref-for-dom-xrray-origin①">origin</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject②">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly" id="ref-for-dompointreadonly①">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" href="#dom-xrray-direction" id="ref-for-dom-xrray-direction①">direction</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject③">SameObject</a>] readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array" id="ref-for-idl-Float32Array">Float32Array</a> <a class="idl-code" data-link-type="attribute" href="#dom-xrray-matrix" id="ref-for-dom-xrray-matrix">matrix</a>;
 };
 </pre>
    <div class="algorithm" data-algorithm="construct-ray-origin-direction">
@@ -2017,15 +2017,15 @@ is allowed to deny hit test requests when it considers that an <a data-link-type
 };
 
 dictionary <a href="#dictdef-xrhittestoptionsinit"><code>XRHitTestOptionsInit</code></a> {
-  required <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrspace">XRSpace</a> <a class="idl-code" data-link-type="dict-member" data-type="XRSpace" href="#dom-xrhittestoptionsinit-space">space</a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" data-type="FrozenArray<XRHitTestTrackableType>" href="#dom-xrhittestoptionsinit-entitytypes">entityTypes</a>;
-  <a data-link-type="idl-name" href="#xrray">XRRay</a> <a class="idl-code" data-link-type="dict-member" data-type="XRRay" href="#dom-xrhittestoptionsinit-offsetray">offsetRay</a>;
+  required <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrspace">XRSpace</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrhittestoptionsinit-space">space</a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" href="#dom-xrhittestoptionsinit-entitytypes">entityTypes</a>;
+  <a data-link-type="idl-name" href="#xrray">XRRay</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrhittestoptionsinit-offsetray">offsetRay</a>;
 };
 
 dictionary <a href="#dictdef-xrtransientinputhittestoptionsinit"><code>XRTransientInputHitTestOptionsInit</code></a> {
-  required <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="dict-member" data-type="DOMString" href="#dom-xrtransientinputhittestoptionsinit-profile">profile</a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" data-type="FrozenArray<XRHitTestTrackableType>" href="#dom-xrtransientinputhittestoptionsinit-entitytypes">entityTypes</a>;
-  <a data-link-type="idl-name" href="#xrray">XRRay</a> <a class="idl-code" data-link-type="dict-member" data-type="XRRay" href="#dom-xrtransientinputhittestoptionsinit-offsetray">offsetRay</a>;
+  required <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrtransientinputhittestoptionsinit-profile">profile</a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#enumdef-xrhittesttrackabletype">XRHitTestTrackableType</a>> <a class="idl-code" data-link-type="dict-member" href="#dom-xrtransientinputhittestoptionsinit-entitytypes">entityTypes</a>;
+  <a data-link-type="idl-name" href="#xrray">XRRay</a> <a class="idl-code" data-link-type="dict-member" href="#dom-xrtransientinputhittestoptionsinit-offsetray">offsetRay</a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
@@ -2045,8 +2045,8 @@ interface <a href="#xrhittestresult"><code>XRHitTestResult</code></a> {
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#xrtransientinputhittestresult"><code>XRTransientInputHitTestResult</code></a> {
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrinputsource">XRInputSource</a> <a data-readonly data-type="XRInputSource" href="#dom-xrtransientinputhittestresult-inputsource"><code>inputSource</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#xrhittestresult">XRHitTestResult</a>> <a data-readonly data-type="FrozenArray<XRHitTestResult>" href="#dom-xrtransientinputhittestresult-results"><code>results</code></a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://immersive-web.github.io/webxr/#xrinputsource">XRInputSource</a> <a href="#dom-xrtransientinputhittestresult-inputsource"><code>inputSource</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#xrhittestresult">XRHitTestResult</a>> <a href="#dom-xrtransientinputhittestresult-results"><code>results</code></a>;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://www.w3.org/TR/webxr/#xrsession-interface">XRSession</a> {
@@ -2060,19 +2060,19 @@ partial interface <a class="idl-code" data-link-type="interface" href="https://w
 };
 
 dictionary <a href="#dictdef-xrraydirectioninit"><code>XRRayDirectionInit</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a data-default="0" data-type="double" href="#dom-xrraydirectioninit-x"><code>x</code></a> = 0;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a data-default="0" data-type="double" href="#dom-xrraydirectioninit-y"><code>y</code></a> = 0;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a data-default="-1" data-type="double" href="#dom-xrraydirectioninit-z"><code>z</code></a> = -1;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a data-default="0" data-type="double" href="#dom-xrraydirectioninit-w"><code>w</code></a> = 0;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a href="#dom-xrraydirectioninit-x"><code>x</code></a> = 0;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a href="#dom-xrraydirectioninit-y"><code>y</code></a> = 0;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a href="#dom-xrraydirectioninit-z"><code>z</code></a> = -1;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-double">double</a> <a href="#dom-xrraydirectioninit-w"><code>w</code></a> = 0;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#xrray"><code>XRRay</code></a> {
   <a class="idl-code" data-link-type="constructor" href="#dom-xrray-xrray">constructor</a>(optional <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dictdef-dompointinit">DOMPointInit</a> <a href="#dom-xrray-xrray-origin-direction-origin"><code>origin</code></a> = {}, optional <a data-link-type="idl-name" href="#dictdef-xrraydirectioninit">XRRayDirectionInit</a> <a href="#dom-xrray-xrray-origin-direction-direction"><code>direction</code></a> = {});
   <a class="idl-code" data-link-type="constructor" href="#dom-xrray-xrray-transform">constructor</a>(<a data-link-type="idl-name" href="https://www.w3.org/TR/webxr/#xrrigidtransform-interface">XRRigidTransform</a> <a href="#dom-xrray-xrray-transform-transform"><code>transform</code></a>);
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMPointReadOnly" href="#dom-xrray-origin">origin</a>;
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="DOMPointReadOnly" href="#dom-xrray-direction">direction</a>;
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array">Float32Array</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="Float32Array" href="#dom-xrray-matrix">matrix</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" href="#dom-xrray-origin">origin</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://drafts.csswg.org/geometry-1/#dompointreadonly">DOMPointReadOnly</a> <a class="idl-code" data-link-type="attribute" href="#dom-xrray-direction">direction</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-Float32Array">Float32Array</a> <a class="idl-code" data-link-type="attribute" href="#dom-xrray-matrix">matrix</a>;
 };
 
 </pre>
@@ -2990,20 +2990,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -3096,29 +3177,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -3155,13 +3286,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -3174,6 +3298,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -3199,12 +3331,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -3252,18 +3417,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -3274,13 +3443,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -3293,7 +3475,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -3306,13 +3488,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

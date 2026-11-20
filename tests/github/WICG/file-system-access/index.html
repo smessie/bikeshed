@@ -1204,8 +1204,8 @@ permission-related algorithms and types are defined as follows:</p>
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filesystempermissiondescriptor"><code>FileSystemPermissionDescriptor</code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/permissions/#dom-permissiondescriptor" id="ref-for-dom-permissiondescriptor">PermissionDescriptor</a> {
-  required <a data-link-type="idl-name" href="#filesystemhandle" id="ref-for-filesystemhandle">FileSystemHandle</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemPermissionDescriptor" data-dfn-type="dict-member" data-export data-type="FileSystemHandle" id="dom-filesystempermissiondescriptor-handle"><code>handle</code></dfn>;
-  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode" id="ref-for-enumdef-filesystempermissionmode">FileSystemPermissionMode</a> <dfn class="dfn-paneled idl-code" data-default="&quot;read&quot;" data-dfn-for="FileSystemPermissionDescriptor" data-dfn-type="dict-member" data-export data-type="FileSystemPermissionMode" id="dom-filesystempermissiondescriptor-mode"><code>mode</code></dfn> = "read";
+  required <a data-link-type="idl-name" href="#filesystemhandle" id="ref-for-filesystemhandle">FileSystemHandle</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemPermissionDescriptor" data-dfn-type="dict-member" data-export id="dom-filesystempermissiondescriptor-handle"><code>handle</code></dfn>;
+  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode" id="ref-for-enumdef-filesystempermissionmode">FileSystemPermissionMode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemPermissionDescriptor" data-dfn-type="dict-member" data-export id="dom-filesystempermissiondescriptor-mode"><code>mode</code></dfn> = "read";
 };
 </pre>
     <dt data-md><a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-permission-state-constraints" id="ref-for-dfn-permission-state-constraints">permission state constraints</a>
@@ -1249,7 +1249,7 @@ run these steps:
 
       <ol>
        <li data-md>
-        <p>Run the <u class="link-error" data-lt="boolean permission query algorithm" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;boolean permission query algorithm&apos;.">boolean permission query algorithm</u> on <var>desc</var> and <var>status</var>.</p>
+        <p>Run the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;boolean permission query algorithm&apos;.">boolean permission query algorithm</u> on <var>desc</var> and <var>status</var>.</p>
        <li data-md>
         <p>If <var>status</var>.<code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstatus-state" id="ref-for-dom-permissionstatus-state">state</a></code> is not <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstate-prompt" id="ref-for-dom-permissionstate-prompt">"prompt"</a></code>, abort.</p>
        <li data-md>
@@ -1266,7 +1266,7 @@ run these steps:
        <li data-md>
         <p><a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-request-permission-to-use" id="ref-for-dfn-request-permission-to-use">Request permission to use</a> <var>desc</var>.</p>
        <li data-md>
-        <p>Run the <u class="link-error" data-lt="boolean permission query algorithm" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;boolean permission query algorithm&apos;.">boolean permission query algorithm</u> on <var>desc</var> and <var>status</var>.</p>
+        <p>Run the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;boolean permission query algorithm&apos;.">boolean permission query algorithm</u> on <var>desc</var> and <var>status</var>.</p>
       </ol>
       <p class="issue" id="issue-88417955"><a class="self-link" href="#issue-88417955"></a> Ideally this user activation requirement would be defined upstream. <a href="https://github.com/WICG/permissions-request/issues/2">[WICG/permissions-request Issue #2]</a></p>
      </div>
@@ -1317,7 +1317,7 @@ given a <code class="idl"><a data-link-type="idl" href="#filesystemhandle" id="r
 the future we might want to add a "write" mode as well to support write-only handles. <a href="https://github.com/wicg/file-system-access/issues/119">[Issue #119]</a></p>
    <h3 class="heading settled" data-level="2.3" id="api-filesystemhandle"><span class="secno">2.3. </span><span class="content">The <code class="idl"><a data-link-type="idl" href="#filesystemhandle" id="ref-for-filesystemhandle③">FileSystemHandle</a></code> interface</span><a class="self-link" href="#api-filesystemhandle"></a></h3>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filesystemhandlepermissiondescriptor"><code>FileSystemHandlePermissionDescriptor</code></dfn> {
-  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode" id="ref-for-enumdef-filesystempermissionmode④">FileSystemPermissionMode</a> <dfn class="dfn-paneled idl-code" data-default="&quot;read&quot;" data-dfn-for="FileSystemHandlePermissionDescriptor" data-dfn-type="dict-member" data-export data-type="FileSystemPermissionMode" id="dom-filesystemhandlepermissiondescriptor-mode"><code>mode</code></dfn> = "read";
+  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode" id="ref-for-enumdef-filesystempermissionmode④">FileSystemPermissionMode</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemHandlePermissionDescriptor" data-dfn-type="dict-member" data-export id="dom-filesystemhandlepermissiondescriptor-mode"><code>mode</code></dfn> = "read";
 };
 
 enum <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enumdef-filesystemhandlekind"><code>FileSystemHandleKind</code></dfn> {
@@ -1327,8 +1327,8 @@ enum <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enum
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed">Exposed</a>=(Window,Worker), <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://html.spec.whatwg.org/multipage/structured-data.html#serializable" id="ref-for-serializable">Serializable</a>]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="filesystemhandle"><code>FileSystemHandle</code></dfn> {
-  readonly attribute <a data-link-type="idl-name" href="#enumdef-filesystemhandlekind" id="ref-for-enumdef-filesystemhandlekind">FileSystemHandleKind</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="FileSystemHandleKind" href="#dom-filesystemhandle-kind" id="ref-for-dom-filesystemhandle-kind">kind</a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString">USVString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="USVString" href="#dom-filesystemhandle-name" id="ref-for-dom-filesystemhandle-name">name</a>;
+  readonly attribute <a data-link-type="idl-name" href="#enumdef-filesystemhandlekind" id="ref-for-enumdef-filesystemhandlekind">FileSystemHandleKind</a> <a class="idl-code" data-link-type="attribute" href="#dom-filesystemhandle-kind" id="ref-for-dom-filesystemhandle-kind">kind</a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString">USVString</a> <a class="idl-code" data-link-type="attribute" href="#dom-filesystemhandle-name" id="ref-for-dom-filesystemhandle-name">name</a>;
 
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-promise" id="ref-for-idl-promise">Promise</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a>> <a class="idl-code" data-link-type="method" href="#dom-filesystemhandle-issameentry" id="ref-for-dom-filesystemhandle-issameentry">isSameEntry</a>(<a data-link-type="idl-name" href="#filesystemhandle" id="ref-for-filesystemhandle④">FileSystemHandle</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemHandle/isSameEntry(other)" data-dfn-type="argument" data-export id="dom-filesystemhandle-issameentry-other-other"><code>other</code></dfn>);
 
@@ -1508,7 +1508,7 @@ The <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemHandle" data-dfn-t
    </div>
    <h3 class="heading settled" data-level="2.4" id="api-filesystemfilehandle"><span class="secno">2.4. </span><span class="content">The <code class="idl"><a data-link-type="idl" href="#filesystemfilehandle" id="ref-for-filesystemfilehandle①">FileSystemFileHandle</a></code> interface</span><a class="self-link" href="#api-filesystemfilehandle"></a></h3>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filesystemcreatewritableoptions"><code>FileSystemCreateWritableOptions</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="FileSystemCreateWritableOptions" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-filesystemcreatewritableoptions-keepexistingdata"><code>keepExistingData</code></dfn> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemCreateWritableOptions" data-dfn-type="dict-member" data-export id="dom-filesystemcreatewritableoptions-keepexistingdata"><code>keepExistingData</code></dfn> = false;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①">Exposed</a>=(Window,Worker), <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext①">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://html.spec.whatwg.org/multipage/structured-data.html#serializable" id="ref-for-serializable①">Serializable</a>]
@@ -1635,15 +1635,15 @@ The <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemFileHandle" data-d
    </div>
    <h3 class="heading settled" data-level="2.5" id="api-filesystemdirectoryhandle"><span class="secno">2.5. </span><span class="content">The <code class="idl"><a data-link-type="idl" href="#filesystemdirectoryhandle" id="ref-for-filesystemdirectoryhandle①">FileSystemDirectoryHandle</a></code> interface</span><a class="self-link" href="#api-filesystemdirectoryhandle"></a></h3>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filesystemgetfileoptions"><code>FileSystemGetFileOptions</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean②">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="FileSystemGetFileOptions" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-filesystemgetfileoptions-create"><code>create</code></dfn> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean②">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemGetFileOptions" data-dfn-type="dict-member" data-export id="dom-filesystemgetfileoptions-create"><code>create</code></dfn> = false;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filesystemgetdirectoryoptions"><code>FileSystemGetDirectoryOptions</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean③">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="FileSystemGetDirectoryOptions" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-filesystemgetdirectoryoptions-create"><code>create</code></dfn> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean③">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemGetDirectoryOptions" data-dfn-type="dict-member" data-export id="dom-filesystemgetdirectoryoptions-create"><code>create</code></dfn> = false;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filesystemremoveoptions"><code>FileSystemRemoveOptions</code></dfn> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean④">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="FileSystemRemoveOptions" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-filesystemremoveoptions-recursive"><code>recursive</code></dfn> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean④">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FileSystemRemoveOptions" data-dfn-type="dict-member" data-export id="dom-filesystemremoveoptions-recursive"><code>recursive</code></dfn> = false;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed②">Exposed</a>=(Window,Worker), <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext" id="ref-for-SecureContext②">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://html.spec.whatwg.org/multipage/structured-data.html#serializable" id="ref-for-serializable②">Serializable</a>]
@@ -2095,10 +2095,10 @@ when invoked, must return the result of <a data-link-type="dfn" href="#entry-res
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-writeparams"><code>WriteParams</code></dfn> {
-  required <a data-link-type="idl-name" href="#enumdef-writecommandtype" id="ref-for-enumdef-writecommandtype">WriteCommandType</a> <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export data-type="WriteCommandType" id="dom-writeparams-type"><code>type</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long">unsigned long long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export data-type="unsigned long long?" id="dom-writeparams-size"><code>size</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long①">unsigned long long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export data-type="unsigned long long?" id="dom-writeparams-position"><code>position</code></dfn>;
-  (<a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#BufferSource" id="ref-for-BufferSource">BufferSource</a> or <a data-link-type="idl-name" href="https://w3c.github.io/FileAPI/#dfn-Blob" id="ref-for-dfn-Blob">Blob</a> or <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString⑥">USVString</a>)? <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export data-type="(BufferSource or Blob or USVString)?" id="dom-writeparams-data"><code>data</code></dfn>;
+  required <a data-link-type="idl-name" href="#enumdef-writecommandtype" id="ref-for-enumdef-writecommandtype">WriteCommandType</a> <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export id="dom-writeparams-type"><code>type</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long">unsigned long long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export id="dom-writeparams-size"><code>size</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long" id="ref-for-idl-unsigned-long-long①">unsigned long long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export id="dom-writeparams-position"><code>position</code></dfn>;
+  (<a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#BufferSource" id="ref-for-BufferSource">BufferSource</a> or <a data-link-type="idl-name" href="https://w3c.github.io/FileAPI/#dfn-Blob" id="ref-for-dfn-Blob">Blob</a> or <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString⑥">USVString</a>)? <dfn class="dfn-paneled idl-code" data-dfn-for="WriteParams" data-dfn-type="dict-member" data-export id="dom-writeparams-data"><code>data</code></dfn>;
 };
 
 typedef (<a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#BufferSource" id="ref-for-BufferSource①">BufferSource</a> or <a data-link-type="idl-name" href="https://w3c.github.io/FileAPI/#dfn-Blob" id="ref-for-dfn-Blob①">Blob</a> or <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString⑦">USVString</a> or <a data-link-type="idl-name" href="#dictdef-writeparams" id="ref-for-dictdef-writeparams">WriteParams</a>) <dfn class="dfn-paneled idl-code" data-dfn-type="typedef" data-export id="typedefdef-filesystemwritechunktype"><code>FileSystemWriteChunkType</code></dfn>;
@@ -2452,17 +2452,17 @@ steps:
    </div>
    <h2 class="heading settled" data-level="3" id="local-filesystem"><span class="secno">3. </span><span class="content">Accessing Local File System</span><a class="self-link" href="#local-filesystem"></a></h2>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filepickeraccepttype"><code>FilePickerAcceptType</code></dfn> {
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString⑨">USVString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerAcceptType" data-dfn-type="dict-member" data-export data-type="USVString" id="dom-filepickeraccepttype-description"><code>description</code></dfn>;
-    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-record" id="ref-for-idl-record">record</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString①⓪">USVString</a>, (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString①①">USVString</a> or <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence①">sequence</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString①②">USVString</a>>)> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerAcceptType" data-dfn-type="dict-member" data-export data-type="record<USVString, (USVString or sequence<USVString>)>" id="dom-filepickeraccepttype-accept"><code>accept</code></dfn>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString⑨">USVString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerAcceptType" data-dfn-type="dict-member" data-export id="dom-filepickeraccepttype-description"><code>description</code></dfn>;
+    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-record" id="ref-for-idl-record">record</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString①⓪">USVString</a>, (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString①①">USVString</a> or <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence①">sequence</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString" id="ref-for-idl-USVString①②">USVString</a>>)> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerAcceptType" data-dfn-type="dict-member" data-export id="dom-filepickeraccepttype-accept"><code>accept</code></dfn>;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-filepickeroptions"><code>FilePickerOptions</code></dfn> {
-    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence②">sequence</a>&lt;<a data-link-type="idl-name" href="#dictdef-filepickeraccepttype" id="ref-for-dictdef-filepickeraccepttype">FilePickerAcceptType</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerOptions" data-dfn-type="dict-member" data-export data-type="sequence<FilePickerAcceptType>" id="dom-filepickeroptions-types"><code>types</code></dfn>;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑤">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="FilePickerOptions" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-filepickeroptions-excludeacceptalloption"><code>excludeAcceptAllOption</code></dfn> = false;
+    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence②">sequence</a>&lt;<a data-link-type="idl-name" href="#dictdef-filepickeraccepttype" id="ref-for-dictdef-filepickeraccepttype">FilePickerAcceptType</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerOptions" data-dfn-type="dict-member" data-export id="dom-filepickeroptions-types"><code>types</code></dfn>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑤">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="FilePickerOptions" data-dfn-type="dict-member" data-export id="dom-filepickeroptions-excludeacceptalloption"><code>excludeAcceptAllOption</code></dfn> = false;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-openfilepickeroptions"><code>OpenFilePickerOptions</code></dfn> : <a data-link-type="idl-name" href="#dictdef-filepickeroptions" id="ref-for-dictdef-filepickeroptions">FilePickerOptions</a> {
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑥">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="OpenFilePickerOptions" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-openfilepickeroptions-multiple"><code>multiple</code></dfn> = false;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑥">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="OpenFilePickerOptions" data-dfn-type="dict-member" data-export id="dom-openfilepickeroptions-multiple"><code>multiple</code></dfn> = false;
 };
 
 dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-savefilepickeroptions"><code>SaveFilePickerOptions</code></dfn> : <a data-link-type="idl-name" href="#dictdef-filepickeroptions" id="ref-for-dictdef-filepickeroptions①">FilePickerOptions</a> {
@@ -2736,7 +2736,7 @@ run these steps:
 
     <ol>
      <li data-md>
-      <p>Let <var>accepts options</var> be a empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list②">list</a> of <u class="link-error" data-lt="pairs" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;pairs&apos;.">pairs</u>.</p>
+      <p>Let <var>accepts options</var> be a empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list②">list</a> of <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;pairs&apos;.">pairs</u>.</p>
      <li data-md>
       <p><a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-iterate" id="ref-for-list-iterate⑤">For each</a> <var>type</var> of <var>options</var>.<code class="idl"><a data-link-type="idl" href="#dom-filepickeroptions-types" id="ref-for-dom-filepickeroptions-types④">types</a></code>:</p>
       <ol>
@@ -3525,12 +3525,12 @@ use this API to write to disk.</p>
 };
 
 dictionary <a href="#dictdef-filesystempermissiondescriptor"><code>FileSystemPermissionDescriptor</code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/permissions/#dom-permissiondescriptor">PermissionDescriptor</a> {
-  required <a data-link-type="idl-name" href="#filesystemhandle">FileSystemHandle</a> <a data-type="FileSystemHandle" href="#dom-filesystempermissiondescriptor-handle"><code>handle</code></a>;
-  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode">FileSystemPermissionMode</a> <a data-default="&quot;read&quot;" data-type="FileSystemPermissionMode" href="#dom-filesystempermissiondescriptor-mode"><code>mode</code></a> = "read";
+  required <a data-link-type="idl-name" href="#filesystemhandle">FileSystemHandle</a> <a href="#dom-filesystempermissiondescriptor-handle"><code>handle</code></a>;
+  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode">FileSystemPermissionMode</a> <a href="#dom-filesystempermissiondescriptor-mode"><code>mode</code></a> = "read";
 };
 
 dictionary <a href="#dictdef-filesystemhandlepermissiondescriptor"><code>FileSystemHandlePermissionDescriptor</code></a> {
-  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode">FileSystemPermissionMode</a> <a data-default="&quot;read&quot;" data-type="FileSystemPermissionMode" href="#dom-filesystemhandlepermissiondescriptor-mode"><code>mode</code></a> = "read";
+  <a data-link-type="idl-name" href="#enumdef-filesystempermissionmode">FileSystemPermissionMode</a> <a href="#dom-filesystemhandlepermissiondescriptor-mode"><code>mode</code></a> = "read";
 };
 
 enum <a href="#enumdef-filesystemhandlekind"><code>FileSystemHandleKind</code></a> {
@@ -3540,8 +3540,8 @@ enum <a href="#enumdef-filesystemhandlekind"><code>FileSystemHandleKind</code></
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=(Window,Worker), <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://html.spec.whatwg.org/multipage/structured-data.html#serializable">Serializable</a>]
 interface <a href="#filesystemhandle"><code>FileSystemHandle</code></a> {
-  readonly attribute <a data-link-type="idl-name" href="#enumdef-filesystemhandlekind">FileSystemHandleKind</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="FileSystemHandleKind" href="#dom-filesystemhandle-kind">kind</a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="USVString" href="#dom-filesystemhandle-name">name</a>;
+  readonly attribute <a data-link-type="idl-name" href="#enumdef-filesystemhandlekind">FileSystemHandleKind</a> <a class="idl-code" data-link-type="attribute" href="#dom-filesystemhandle-kind">kind</a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> <a class="idl-code" data-link-type="attribute" href="#dom-filesystemhandle-name">name</a>;
 
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-promise">Promise</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a>> <a class="idl-code" data-link-type="method" href="#dom-filesystemhandle-issameentry">isSameEntry</a>(<a data-link-type="idl-name" href="#filesystemhandle">FileSystemHandle</a> <a href="#dom-filesystemhandle-issameentry-other-other"><code>other</code></a>);
 
@@ -3550,7 +3550,7 @@ interface <a href="#filesystemhandle"><code>FileSystemHandle</code></a> {
 };
 
 dictionary <a href="#dictdef-filesystemcreatewritableoptions"><code>FileSystemCreateWritableOptions</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-filesystemcreatewritableoptions-keepexistingdata"><code>keepExistingData</code></a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-filesystemcreatewritableoptions-keepexistingdata"><code>keepExistingData</code></a> = false;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=(Window,Worker), <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://html.spec.whatwg.org/multipage/structured-data.html#serializable">Serializable</a>]
@@ -3560,15 +3560,15 @@ interface <a href="#filesystemfilehandle"><code>FileSystemFileHandle</code></a> 
 };
 
 dictionary <a href="#dictdef-filesystemgetfileoptions"><code>FileSystemGetFileOptions</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-filesystemgetfileoptions-create"><code>create</code></a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-filesystemgetfileoptions-create"><code>create</code></a> = false;
 };
 
 dictionary <a href="#dictdef-filesystemgetdirectoryoptions"><code>FileSystemGetDirectoryOptions</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-filesystemgetdirectoryoptions-create"><code>create</code></a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-filesystemgetdirectoryoptions-create"><code>create</code></a> = false;
 };
 
 dictionary <a href="#dictdef-filesystemremoveoptions"><code>FileSystemRemoveOptions</code></a> {
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-filesystemremoveoptions-recursive"><code>recursive</code></a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-filesystemremoveoptions-recursive"><code>recursive</code></a> = false;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=(Window,Worker), <a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SecureContext">SecureContext</a>, <a class="idl-code" data-link-type="extended-attribute" href="https://html.spec.whatwg.org/multipage/structured-data.html#serializable">Serializable</a>]
@@ -3590,10 +3590,10 @@ enum <a href="#enumdef-writecommandtype"><code>WriteCommandType</code></a> {
 };
 
 dictionary <a href="#dictdef-writeparams"><code>WriteParams</code></a> {
-  required <a data-link-type="idl-name" href="#enumdef-writecommandtype">WriteCommandType</a> <a data-type="WriteCommandType" href="#dom-writeparams-type"><code>type</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long">unsigned long long</a>? <a data-type="unsigned long long?" href="#dom-writeparams-size"><code>size</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long">unsigned long long</a>? <a data-type="unsigned long long?" href="#dom-writeparams-position"><code>position</code></a>;
-  (<a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#BufferSource">BufferSource</a> or <a data-link-type="idl-name" href="https://w3c.github.io/FileAPI/#dfn-Blob">Blob</a> or <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a>)? <a data-type="(BufferSource or Blob or USVString)?" href="#dom-writeparams-data"><code>data</code></a>;
+  required <a data-link-type="idl-name" href="#enumdef-writecommandtype">WriteCommandType</a> <a href="#dom-writeparams-type"><code>type</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long">unsigned long long</a>? <a href="#dom-writeparams-size"><code>size</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-unsigned-long-long">unsigned long long</a>? <a href="#dom-writeparams-position"><code>position</code></a>;
+  (<a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#BufferSource">BufferSource</a> or <a data-link-type="idl-name" href="https://w3c.github.io/FileAPI/#dfn-Blob">Blob</a> or <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a>)? <a href="#dom-writeparams-data"><code>data</code></a>;
 };
 
 typedef (<a data-link-type="idl-name" href="https://webidl.spec.whatwg.org/#BufferSource">BufferSource</a> or <a data-link-type="idl-name" href="https://w3c.github.io/FileAPI/#dfn-Blob">Blob</a> or <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> or <a data-link-type="idl-name" href="#dictdef-writeparams">WriteParams</a>) <a href="#typedefdef-filesystemwritechunktype"><code>FileSystemWriteChunkType</code></a>;
@@ -3606,17 +3606,17 @@ interface <a href="#filesystemwritablefilestream"><code>FileSystemWritableFileSt
 };
 
 dictionary <a href="#dictdef-filepickeraccepttype"><code>FilePickerAcceptType</code></a> {
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> <a data-type="USVString" href="#dom-filepickeraccepttype-description"><code>description</code></a>;
-    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-record">record</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a>, (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> or <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a>>)> <a data-type="record<USVString, (USVString or sequence<USVString>)>" href="#dom-filepickeraccepttype-accept"><code>accept</code></a>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> <a href="#dom-filepickeraccepttype-description"><code>description</code></a>;
+    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-record">record</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a>, (<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a> or <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-USVString">USVString</a>>)> <a href="#dom-filepickeraccepttype-accept"><code>accept</code></a>;
 };
 
 dictionary <a href="#dictdef-filepickeroptions"><code>FilePickerOptions</code></a> {
-    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="#dictdef-filepickeraccepttype">FilePickerAcceptType</a>> <a data-type="sequence<FilePickerAcceptType>" href="#dom-filepickeroptions-types"><code>types</code></a>;
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-filepickeroptions-excludeacceptalloption"><code>excludeAcceptAllOption</code></a> = false;
+    <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="#dictdef-filepickeraccepttype">FilePickerAcceptType</a>> <a href="#dom-filepickeroptions-types"><code>types</code></a>;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-filepickeroptions-excludeacceptalloption"><code>excludeAcceptAllOption</code></a> = false;
 };
 
 dictionary <a href="#dictdef-openfilepickeroptions"><code>OpenFilePickerOptions</code></a> : <a data-link-type="idl-name" href="#dictdef-filepickeroptions">FilePickerOptions</a> {
-    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-openfilepickeroptions-multiple"><code>multiple</code></a> = false;
+    <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-openfilepickeroptions-multiple"><code>multiple</code></a> = false;
 };
 
 dictionary <a href="#dictdef-savefilepickeroptions"><code>SaveFilePickerOptions</code></a> : <a data-link-type="idl-name" href="#dictdef-filepickeroptions">FilePickerOptions</a> {
@@ -4637,20 +4637,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -4743,29 +4824,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -4802,13 +4933,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -4821,6 +4945,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -4846,12 +4978,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -4899,18 +5064,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -4921,13 +5090,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -4940,7 +5122,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -4953,13 +5135,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

@@ -1070,7 +1070,7 @@ context.</p>
    <div class="algorithm" data-algorithm="event is enabled">
     <p>To determine if an <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="event-is-enabled">event is enabled</dfn> given <var>session</var>,
 <var>event name</var> and <var>browsing contexts</var>:</p>
-    <p class="note" role="note"><span class="marker">Note:</span> <var>browsing contexts</var> is a set because a <u class="link-error" data-lt="shared worker" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;shared worker&apos; that are marked for export.
+    <p class="note" role="note"><span class="marker">Note:</span> <var>browsing contexts</var> is a set because a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;shared worker&apos; that are marked for export.
   (Possible specs this could be from: html)">shared worker</u> can be associated
       with multiple contexts.</p>
     <ol>
@@ -1346,11 +1346,11 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="handle-an-inco
      <li data-md>
       <p>Let <var>related browsing contexts</var> be an empty set</p>
      <li data-md>
-      <p>If the <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">Document</a>, append the
- <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#concept-document-bc" id="ref-for-concept-document-bc">browsing context</a> to <var>related browsing
+      <p>If the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document">Document</a>, append the
+ <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#concept-document-bc" id="ref-for-concept-document-bc">browsing context</a> to <var>related browsing
  contexts</var>.</p>
-      <p>Otherwise if the <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>settings</var> is a
- <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope">WorkerGlobalScope</a></code>, for each <var>owner</var> in the <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u>’s
+      <p>Otherwise if the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>settings</var> is a
+ <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope">WorkerGlobalScope</a></code>, for each <var>owner</var> in the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u>’s
  <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/workers.html#concept-WorkerGlobalScope-owner-set" id="ref-for-concept-WorkerGlobalScope-owner-set">owner set</a>, if <var>owner</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">Document</a>, append <var>owner</var>’s
  <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#concept-document-bc" id="ref-for-concept-document-bc①">browsing context</a> to <var>related browsing contexts</var>.</p>
      <li data-md>
@@ -2137,7 +2137,7 @@ events for monitoring the status of the remote end.</p>
                   <a data-link-type="cddl" href="#cddl-type-sessionsubscribecommand" id="ref-for-cddl-type-sessionsubscribecommand">SessionSubscribeCommand</a>)
 </pre>
    <p><a data-link-type="dfn" href="#local-end-definition" id="ref-for-local-end-definition③③">local end definition</a></p>
-<pre class="cddl def highlight local-cddl" data-language="cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionresult"><code>SessionResult</code></dfn> = (<u class="link-error" data-lt="StatusResult" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;StatusResult&apos;.">StatusResult</u>)
+<pre class="cddl def highlight local-cddl" data-language="cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionresult"><code>SessionResult</code></dfn> = (<u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;StatusResult&apos;.">StatusResult</u>)
 
 </pre>
    <div class="algorithm" data-algorithm="update the event map">
@@ -2314,7 +2314,7 @@ either globally or for a set of browsing contexts</p>
     <dd>
 <pre class="cddl def highlight remote-cddl" data-language="cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionsubscribecommand"><code>SessionSubscribeCommand</code></dfn> = {
   <dfn class="dfn-paneled" data-dfn-for="SessionSubscribeCommand" data-dfn-type="cddl-key" data-lt="method|&quot;method&quot;" data-noexport id="cddl-key-sessionsubscribecommand-method"><code>method</code></dfn>: <dfn class="dfn-paneled" data-dfn-for="SessionSubscribeCommand/method" data-dfn-type="cddl-value" data-lt="session.subscribe|&quot;session.subscribe&quot;" data-noexport id="cddl-value-sessionsubscribecommand-method-sessionsubscribe"><code>"session.subscribe"</code></dfn>,
-  <dfn class="dfn-paneled" data-dfn-for="SessionSubscribeCommand" data-dfn-type="cddl-key" data-lt="params|&quot;params&quot;" data-noexport id="cddl-key-sessionsubscribecommand-params"><code>params</code></dfn>: <u class="link-error" data-lt="SubscribeParameters" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
+  <dfn class="dfn-paneled" data-dfn-for="SessionSubscribeCommand" data-dfn-type="cddl-key" data-lt="params|&quot;params&quot;" data-noexport id="cddl-key-sessionsubscribecommand-params"><code>params</code></dfn>: <u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionsubscribeparameters"><code>SessionSubscribeParameters</code></dfn> = {
@@ -2387,7 +2387,7 @@ either globally or for a set of browsing contexts</p>
     <dd>
 <pre class="cddl def highlight remote-cddl" data-language="cddl"><dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-sessionunsubscribecommand"><code>SessionUnsubscribeCommand</code></dfn> = {
   <dfn class="dfn-paneled" data-dfn-for="SessionUnsubscribeCommand" data-dfn-type="cddl-key" data-lt="method|&quot;method&quot;" data-noexport id="cddl-key-sessionunsubscribecommand-method"><code>method</code></dfn>: <dfn class="dfn-paneled" data-dfn-for="SessionUnsubscribeCommand/method" data-dfn-type="cddl-value" data-lt="session.unsubscribe|&quot;session.unsubscribe&quot;" data-noexport id="cddl-value-sessionunsubscribecommand-method-sessionunsubscribe"><code>"session.unsubscribe"</code></dfn>,
-  <dfn class="dfn-paneled" data-dfn-for="SessionUnsubscribeCommand" data-dfn-type="cddl-key" data-lt="params|&quot;params&quot;" data-noexport id="cddl-key-sessionunsubscribecommand-params"><code>params</code></dfn>: <u class="link-error" data-lt="SubscribeParameters" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
+  <dfn class="dfn-paneled" data-dfn-for="SessionUnsubscribeCommand" data-dfn-type="cddl-key" data-lt="params|&quot;params&quot;" data-noexport id="cddl-key-sessionunsubscribecommand-params"><code>params</code></dfn>: <u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
 }
 </pre>
     <dt>Return Type
@@ -2477,7 +2477,7 @@ browsing context.</p>
      <li data-md>
       <p>Let <var>context id</var> be the <a data-link-type="dfn" href="#browsing-context-id" id="ref-for-browsing-context-id②">browsing context id</a> for <var>context</var>.</p>
      <li data-md>
-      <p>If <var>context</var> has a <u class="link-error" data-lt="parent browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;parent browsing context&apos;.">parent browsing context</u> let <var>parent id</var> be the
+      <p>If <var>context</var> has a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;parent browsing context&apos;.">parent browsing context</u> let <var>parent id</var> be the
   <a data-link-type="dfn" href="#browsing-context-id" id="ref-for-browsing-context-id③">browsing context id</a> of that parent. Otherwise let <var>parent id</var> be null.</p>
      <li data-md>
       <p>Let <var>document</var> be <var>context</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document" id="ref-for-nav-document">active document</a>.</p>
@@ -2513,7 +2513,7 @@ browsing context.</p>
  given <var>parent id</var>.</p>
      <li data-md>
       <p>If <var>parent</var> is null, let <var>child contexts</var> be a list containing all <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context" id="ref-for-top-level-browsing-context④">top-level browsing contexts</a>. Otherwise let <var>child contexts</var> be a list containing all
- <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context" id="ref-for-browsing-context①">browsing contexts</a> which are <u class="link-error" data-lt="child browsing contexts" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;child browsing contexts&apos;.">child browsing contexts</u> of <var>parent</var>.</p>
+ <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#browsing-context" id="ref-for-browsing-context①">browsing contexts</a> which are <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;child browsing contexts&apos;.">child browsing contexts</u> of <var>parent</var>.</p>
      <li data-md>
       <p>Let <var>contexts info</var> be a list.</p>
      <li data-md>
@@ -2670,7 +2670,7 @@ The <a data-link-type="dfn" href="#remote-end-event-trigger" id="ref-for-remote-
    <code>BrowsingContextDestroyedEvent</code> production, with the
    <code>params</code> field set to <var>params</var>.</p>
      <li data-md>
-      <p>Let <var>related browsing contexts</var> be a set containing the <u class="link-error" data-lt="parent browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;parent browsing context&apos;.">parent browsing context</u> of <var>context</var>, if that is not null, or an empty set otherwise.</p>
+      <p>Let <var>related browsing contexts</var> be a set containing the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;parent browsing context&apos;.">parent browsing context</u> of <var>context</var>, if that is not null, or an empty set otherwise.</p>
      <li data-md>
       <p><a data-link-type="dfn" href="#emit-an-event" id="ref-for-emit-an-event①">Emit an event</a> with <var>body</var> and <var>related browsing contexts</var>.</p>
     </ol>
@@ -2728,21 +2728,21 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="get-the-realm-
      <li data-md>
       <p>Run the steps under the first matching condition:</p>
       <dl>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-3/#window" id="ref-for-window">Window</a> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-3/#window" id="ref-for-window">Window</a> object
    
        <dd>
         <ol>
          <li data-md>
           <p>Let <var>type</var> be "<code>window</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#dedicatedworkerglobalscope" id="ref-for-dedicatedworkerglobalscope">DedicatedWorkerGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#dedicatedworkerglobalscope" id="ref-for-dedicatedworkerglobalscope">DedicatedWorkerGlobalScope</a></code> object
    
        <dd>
         <ol>
          <li data-md>
           <p>Let <var>type</var> be "<code>dedicated-worker</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#sharedworkerglobalscope" id="ref-for-sharedworkerglobalscope">SharedWorkerGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#sharedworkerglobalscope" id="ref-for-sharedworkerglobalscope">SharedWorkerGlobalScope</a></code> object
 
   
        <dd>
@@ -2750,7 +2750,7 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="get-the-realm-
          <li data-md>
           <p>Let <var>type</var> be "<code>shared-worker</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope" id="ref-for-serviceworkerglobalscope">ServiceWorkerGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope" id="ref-for-serviceworkerglobalscope">ServiceWorkerGlobalScope</a></code> object
 
   
        <dd>
@@ -2758,28 +2758,28 @@ To <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="get-the-realm-
          <li data-md>
           <p>Let <var>type</var> be "<code>service-worker</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope①">WorkerGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope①">WorkerGlobalScope</a></code> object
   
        <dd>
         <ol>
          <li data-md>
           <p>Let <var>type</var> be "<code>worker</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://drafts.css-houdini.org/css-paint-api-1/#paintworkletglobalscope" id="ref-for-paintworkletglobalscope">PaintWorkletGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://drafts.css-houdini.org/css-paint-api-1/#paintworkletglobalscope" id="ref-for-paintworkletglobalscope">PaintWorkletGlobalScope</a></code> object
   
        <dd>
         <ol>
          <li data-md>
           <p>Let <var>type</var> be "<code>paint-worklet</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope" id="ref-for-AudioWorkletGlobalScope">AudioWorkletGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope" id="ref-for-AudioWorkletGlobalScope">AudioWorkletGlobalScope</a></code> object
   
        <dd>
         <ol>
          <li data-md>
           <p>Let <var>type</var> be "<code>audio-worklet</code>".</p>
         </ol>
-       <dt>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/worklets.html#workletglobalscope" id="ref-for-workletglobalscope">WorkletGlobalScope</a></code> object
+       <dt>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>environment settings</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/worklets.html#workletglobalscope" id="ref-for-workletglobalscope">WorkletGlobalScope</a></code> object
   
        <dd>
         <ol>
@@ -2865,9 +2865,9 @@ The <a data-link-type="dfn" href="https://w3c.github.io/webdriver/#dfn-remote-en
           <p>If any of the following conditions hold:</p>
           <ul>
            <li data-md>
-            <p>The <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is <var>document</var></p>
+            <p>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is <var>document</var></p>
            <li data-md>
-            <p>The <u class="link-error" data-lt="global object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>settings</var> is a
+            <p>The <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;global object&apos; with for=&apos;[&apos;Realm&apos;]&apos;.">global object</u> specified by <var>settings</var> is a
 <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope③">WorkerGlobalScope</a></code> with <var>document</var> in its <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/workers.html#concept-WorkerGlobalScope-owner-set" id="ref-for-concept-WorkerGlobalScope-owner-set①">owner set</a></p>
           </ul>
           <p>Append <var>settings</var> to <var>context environment settings</var>.</p>
@@ -2915,7 +2915,7 @@ The <a data-link-type="dfn" href="#remote-end-event-trigger" id="ref-for-remote-
 
 
    <div class="algorithm" data-algorithm="remote end event trigger for script.realmCreated">
-    <p>When any of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/#set-up-a-window-environment-settings-object" id="ref-for-set-up-a-window-environment-settings-object">set up a window environment settings object</a>, <a data-link-type="dfn" href="https://html.spec.whatwg.org/#set-up-a-worker-environment-settings-object" id="ref-for-set-up-a-worker-environment-settings-object">set up a worker environment settings object</a> or <u class="link-error" data-lt="set up a worklet environment settings object" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;set up a worklet environment settings object&apos; that are marked for export.
+    <p>When any of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/#set-up-a-window-environment-settings-object" id="ref-for-set-up-a-window-environment-settings-object">set up a window environment settings object</a>, <a data-link-type="dfn" href="https://html.spec.whatwg.org/#set-up-a-worker-environment-settings-object" id="ref-for-set-up-a-worker-environment-settings-object">set up a worker environment settings object</a> or <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;set up a worklet environment settings object&apos; that are marked for export.
   (Possible specs this could be from: html)">set up a worklet environment settings object</u> algorithms are invoked, immediately prior to returning the settings
 object:</p>
     <ol>
@@ -2946,10 +2946,10 @@ object:</p>
       <p>For each <var>settings</var> of <var>environment settings</var>:</p>
       <ol>
        <li data-md>
-        <p>If the <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">Document</a>:</p>
+        <p>If the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of <var>settings</var> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document③">Document</a>:</p>
         <ol>
          <li data-md>
-          <p>Let <var>context</var> be <var>settings</var>’s <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u>’s
+          <p>Let <var>context</var> be <var>settings</var>’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u>’s
   <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#concept-document-bc" id="ref-for-concept-document-bc②">browsing context</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context" id="ref-for-top-level-browsing-context⑤">top-level browsing context</a>.</p>
          <li data-md>
           <p>If <var>context</var> is not in <var>contexts</var>, continue.</p>
@@ -3015,7 +3015,7 @@ Define the following <a data-link-type="dfn" href="https://html.spec.whatwg.org/
       </ol>
      <li data-md>
       <p>Let <var>environment settings</var> be the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object③">environment settings object</a> whose
-  <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> is <var>document</var>.</p>
+  <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> is <var>document</var>.</p>
      <li data-md>
       <p>Let <var>realm</var> be <var>environment settings</var>’ <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#realm-execution-context" id="ref-for-realm-execution-context①">realm execution context</a>’s Realm component.</p>
      <li data-md>
@@ -3129,7 +3129,7 @@ level context.</p>
   <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="type|&quot;type&quot;" data-noexport id="cddl-key-consolelogentry-type"><code>type</code></dfn>: <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry/type" data-dfn-type="cddl-value" data-lt="console|&quot;console&quot;" data-noexport id="cddl-value-consolelogentry-type-console"><code>"console"</code></dfn>,
   <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="method|&quot;method&quot;" data-noexport id="cddl-key-consolelogentry-method"><code>method</code></dfn>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D" id="ref-for-appendix-D③⓪">text</a>,
   <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="realm|&quot;realm&quot;" data-noexport id="cddl-key-consolelogentry-realm"><code>realm</code></dfn>: <a data-link-type="cddl" href="#cddl-type-realm" id="ref-for-cddl-type-realm②">Realm</a>,
-  <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="args|&quot;args&quot;" data-noexport id="cddl-key-consolelogentry-args"><code>args</code></dfn>: [*<u class="link-error" data-lt="RemoteValue" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;RemoteValue&apos;.">RemoteValue</u>],
+  <dfn class="dfn-paneled" data-dfn-for="ConsoleLogEntry" data-dfn-type="cddl-key" data-lt="args|&quot;args&quot;" data-noexport id="cddl-key-consolelogentry-args"><code>args</code></dfn>: [*<u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;RemoteValue&apos;.">RemoteValue</u>],
 }
 
 <dfn class="dfn-paneled" data-dfn-type="cddl-type" data-noexport id="cddl-type-javascriptlogentry"><code>JavascriptLogEntry</code></dfn> = {
@@ -4069,7 +4069,7 @@ end:</p>
 <a href="#cddl-type-sessioncommand"><code>SessionCommand</code></a> = (<a data-link-type="cddl" href="#cddl-type-sessionstatuscommand">SessionStatusCommand</a> //
                   <a data-link-type="cddl" href="#cddl-type-sessionsubscribecommand">SessionSubscribeCommand</a>)
 
-<a href="#cddl-type-sessionresult"><code>SessionResult</code></a> = (<u class="link-error" data-lt="StatusResult" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;StatusResult&apos;.">StatusResult</u>)
+<a href="#cddl-type-sessionresult"><code>SessionResult</code></a> = (<u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;StatusResult&apos;.">StatusResult</u>)
 
 
 <a href="#cddl-type-sessionstatuscommand"><code>SessionStatusCommand</code></a> = {
@@ -4084,7 +4084,7 @@ end:</p>
 
 <a href="#cddl-type-sessionsubscribecommand"><code>SessionSubscribeCommand</code></a> = {
   <a href="#cddl-key-sessionsubscribecommand-method"><code>method</code></a>: <a href="#cddl-value-sessionsubscribecommand-method-sessionsubscribe"><code>"session.subscribe"</code></a>,
-  <a href="#cddl-key-sessionsubscribecommand-params"><code>params</code></a>: <u class="link-error" data-lt="SubscribeParameters" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
+  <a href="#cddl-key-sessionsubscribecommand-params"><code>params</code></a>: <u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
 }
 
 <a href="#cddl-type-sessionsubscribeparameters"><code>SessionSubscribeParameters</code></a> = {
@@ -4096,7 +4096,7 @@ EmptyResult
 
 <a href="#cddl-type-sessionunsubscribecommand"><code>SessionUnsubscribeCommand</code></a> = {
   <a href="#cddl-key-sessionunsubscribecommand-method"><code>method</code></a>: <a href="#cddl-value-sessionunsubscribecommand-method-sessionunsubscribe"><code>"session.unsubscribe"</code></a>,
-  <a href="#cddl-key-sessionunsubscribecommand-params"><code>params</code></a>: <u class="link-error" data-lt="SubscribeParameters" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
+  <a href="#cddl-key-sessionunsubscribecommand-params"><code>params</code></a>: <u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;SubscribeParameters&apos;.">SubscribeParameters</u>
 }
 
 EmptyResult
@@ -4227,7 +4227,7 @@ EmptyResult
   <a href="#cddl-key-consolelogentry-type"><code>type</code></a>: <a href="#cddl-value-consolelogentry-type-console"><code>"console"</code></a>,
   <a href="#cddl-key-consolelogentry-method"><code>method</code></a>: <a data-link-type="cddl-type" href="https://www.rfc-editor.org/info/rfc8610/#appendix-D">text</a>,
   <a href="#cddl-key-consolelogentry-realm"><code>realm</code></a>: <a data-link-type="cddl" href="#cddl-type-realm">Realm</a>,
-  <a href="#cddl-key-consolelogentry-args"><code>args</code></a>: [*<u class="link-error" data-lt="RemoteValue" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;RemoteValue&apos;.">RemoteValue</u>],
+  <a href="#cddl-key-consolelogentry-args"><code>args</code></a>: [*<u class="link-error" title="LINK ERROR: No &apos;cddl&apos; refs found for &apos;RemoteValue&apos;.">RemoteValue</u>],
 }
 
 <a href="#cddl-type-javascriptlogentry"><code>JavascriptLogEntry</code></a> = {
@@ -5135,20 +5135,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -5241,29 +5322,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -5300,13 +5431,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -5319,6 +5443,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -5344,12 +5476,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -5397,18 +5562,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -5419,13 +5588,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -5438,7 +5620,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -5451,13 +5633,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

@@ -956,7 +956,7 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
       <dt>This version:
       <dd><a class="u-url" href="https://w3c.github.io/webappsec-permissions-policy/">https://w3c.github.io/webappsec-permissions-policy/</a>
       <dt>Feedback:
-      <dd><span><a href="mailto:public-webappsec@w3.org?subject=%5Bpermissions-policy%5D%20YOUR%20TOPIC%20HERE">public-webappsec@w3.org</a> with subject line “<kbd>[permissions-policy] <i data-lt>… message topic …</i></kbd>” (<a href="https://lists.w3.org/Archives/Public/public-webappsec/" rel="discussion">archives</a>)</span>
+      <dd><span><a href="mailto:public-webappsec@w3.org?subject=%5Bpermissions-policy%5D%20YOUR%20TOPIC%20HERE">public-webappsec@w3.org</a> with subject line “<kbd>[permissions-policy] <i>… message topic …</i></kbd>” (<a href="https://lists.w3.org/Archives/Public/public-webappsec/" rel="discussion">archives</a>)</span>
       <dt class="editor">Editor:
       <dd class="editor h-card p-author vcard"><a class="email fn p-name u-email" href="mailto:iclelland@google.com">Ian Clelland</a> (<span class="org p-org">Google</span>)
      </dl>
@@ -1288,8 +1288,8 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
     </p>
       <p>In a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document">Document</a></code> in a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#top-level-browsing-context" id="ref-for-top-level-browsing-context">top-level browsing context</a>, the inherited
     policy is based on defined defaults for each feature.</p>
-      <p>In a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document①">Document</a></code> in a <u class="link-error" data-lt="child browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;child browsing context&apos;.">child browsing context</u>, the inherited policy
-    is based on the parent document’s permissions policy, as well as the <u class="link-error" data-lt="child browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;child browsing context&apos;.">child browsing context</u>’s <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy">container policy</a>.
+      <p>In a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document①">Document</a></code> in a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;child browsing context&apos;.">child browsing context</u>, the inherited policy
+    is based on the parent document’s permissions policy, as well as the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;child browsing context&apos;.">child browsing context</u>’s <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy">container policy</a>.
     </p>
      </div>
     </section>
@@ -1308,12 +1308,12 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
     </section>
     <section>
      <h3 class="heading settled" data-level="4.6" id="container-policies"><span class="secno">4.6. </span><span class="content">Container policies</span><a class="self-link" href="#container-policies"></a></h3>
-     <p>In addition to the <a data-link-type="dfn" href="#header-policy" id="ref-for-header-policy">header policy</a>, each <u class="link-error" data-lt="nested browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u>
+     <p>In addition to the <a data-link-type="dfn" href="#header-policy" id="ref-for-header-policy">header policy</a>, each <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u>
     has a <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="container-policy">container policy</dfn>, which is a <a data-link-type="dfn" href="#policy-directive" id="ref-for-policy-directive②">policy directive</a>,
     which may be empty. The <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy①">container policy</a> can set by attributes on the
-    <u class="link-error" data-lt="browsing context container" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
+    <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
   (Possible specs this could be from: longtasks-1)">browsing context container</u>.</p>
-     <p>The <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy②">container policy</a> for a <u class="link-error" data-lt="nested browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u> influences
+     <p>The <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy②">container policy</a> for a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u> influences
     the <a data-link-type="dfn" href="#inherited-policy" id="ref-for-inherited-policy④">inherited policy</a> of any document loaded into that context.
     (See <a href="#algo-define-inherited-policy">§ 9.7 Define an inherited policy for feature in browsing context</a>)</p>
      <div class="note" role="note">
@@ -1450,7 +1450,7 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
     HTTP header field can be used in the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-response" id="ref-for-concept-response-response">response</a> (server to client) to
     communicate the <a data-link-type="dfn" href="#permissions-policy" id="ref-for-permissions-policy④">permissions policy</a> that should be enforced by the
     client.</p>
-     <p><u class="link-error" data-lt="Permissions-Policy" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;permissions-policy&apos;.">Permissions-Policy</u> is a structured header. Its value must be a
+     <p><u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;permissions-policy&apos;.">Permissions-Policy</u> is a structured header. Its value must be a
     dictionary. It’s ABNF is:
     </p>
 <pre class="abnf">PermissionsPolicy = <a data-link-type="dfn" href="https://httpwg.org/http-extensions/draft-ietf-httpbis-header-structure.html#dictionary" id="ref-for-dictionary①">sh-dictionary</a>
@@ -1475,7 +1475,7 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
      <p>When not empty, the "<code>allow</code>" attribute will result in adding
     an <a data-link-type="dfn" href="#allowlist" id="ref-for-allowlist⑨">allowlist</a> for each recognized
     <a data-link-type="dfn" href="#policy-controlled-feature" id="ref-for-policy-controlled-feature①②">feature</a> to the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element②">iframe</a></code>
-    element’s <u class="link-error" data-lt="nested browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u>’s <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy⑤">container policy</a>, when it is
+    element’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u>’s <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy⑤">container policy</a>, when it is
     constructed.</p>
     </section>
     <section>
@@ -1495,7 +1495,7 @@ var[data-var-color="6"] { --var-vg: #FFBCF2; }
       <p>Otherwise, the presence of an "<code>allowfullscreen</code>" attribute
       on an iframe will result in adding an <a data-link-type="dfn" href="#allowlist" id="ref-for-allowlist①⓪">allowlist</a> of <code>*</code>
       for the "<code>fullscreen</code>" feature to the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element③">iframe</a></code> element’s
-      <u class="link-error" data-lt="nested browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u>’s <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy⑥">container policy</a>, when it is
+      <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u>’s <a data-link-type="dfn" href="#container-policy" id="ref-for-container-policy⑥">container policy</a>, when it is
       constructed.</p>
       <div class="note" role="note">
         This is different from the behaviour of <code>&lt;iframe
@@ -1632,11 +1632,11 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://dom.spec.whatwg.org/#document" id="ref-for-document②">Document</a> {
-    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy" id="ref-for-permissionspolicy②">PermissionsPolicy</a> <dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="attribute" data-export data-readonly data-type="PermissionsPolicy" id="dom-document-permissionspolicy"><code>permissionsPolicy</code></dfn>;
+    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy" id="ref-for-permissionspolicy②">PermissionsPolicy</a> <dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="attribute" data-export id="dom-document-permissionspolicy"><code>permissionsPolicy</code></dfn>;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmliframeelement" id="ref-for-htmliframeelement">HTMLIFrameElement</a> {
-    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject①">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy" id="ref-for-permissionspolicy③">PermissionsPolicy</a> <dfn class="dfn-paneled idl-code" data-dfn-for="HTMLIFrameElement" data-dfn-type="attribute" data-export data-readonly data-type="PermissionsPolicy" id="dom-htmliframeelement-permissionspolicy"><code>permissionsPolicy</code></dfn>;
+    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject①">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy" id="ref-for-permissionspolicy③">PermissionsPolicy</a> <dfn class="dfn-paneled idl-code" data-dfn-for="HTMLIFrameElement" data-dfn-type="attribute" data-export id="dom-htmliframeelement-permissionspolicy"><code>permissionsPolicy</code></dfn>;
 };
 </pre>
      <p>A <code class="idl"><a data-link-type="idl" href="#permissionspolicy" id="ref-for-permissionspolicy④">PermissionsPolicy</a></code> object has an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="associated-node">associated node</dfn>, which
@@ -1826,11 +1826,11 @@ partial interface <a class="idl-code" data-link-type="interface" href="https://h
   </p>
 <pre class="def highlight idl" data-language="webidl">[<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed" id="ref-for-Exposed①">Exposed</a>=Window]
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="permissionspolicyviolationreportbody"><code>PermissionsPolicyViolationReportBody</code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/reporting/#reportbody" id="ref-for-reportbody">ReportBody</a> {
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑥">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export data-readonly data-type="DOMString" id="dom-permissionspolicyviolationreportbody-featureid"><code>featureId</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑦">DOMString</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export data-readonly data-type="DOMString?" id="dom-permissionspolicyviolationreportbody-sourcefile"><code>sourceFile</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long" id="ref-for-idl-long">long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export data-readonly data-type="long?" id="dom-permissionspolicyviolationreportbody-linenumber"><code>lineNumber</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long" id="ref-for-idl-long①">long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export data-readonly data-type="long?" id="dom-permissionspolicyviolationreportbody-columnnumber"><code>columnNumber</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑧">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export data-readonly data-type="DOMString" id="dom-permissionspolicyviolationreportbody-disposition"><code>disposition</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑥">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export id="dom-permissionspolicyviolationreportbody-featureid"><code>featureId</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑦">DOMString</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export id="dom-permissionspolicyviolationreportbody-sourcefile"><code>sourceFile</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long" id="ref-for-idl-long">long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export id="dom-permissionspolicyviolationreportbody-linenumber"><code>lineNumber</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long" id="ref-for-idl-long①">long</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export id="dom-permissionspolicyviolationreportbody-columnnumber"><code>columnNumber</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString⑧">DOMString</a> <dfn class="dfn-paneled idl-code" data-dfn-for="PermissionsPolicyViolationReportBody" data-dfn-type="attribute" data-export id="dom-permissionspolicyviolationreportbody-disposition"><code>disposition</code></dfn>;
 };
 </pre>
     <p>A <a data-link-type="dfn" href="#permissions-policy-violation-reports" id="ref-for-permissions-policy-violation-reports②">permissions policy violation report</a>’s <a data-link-type="dfn" href="https://w3c.github.io/reporting/#report-body" id="ref-for-report-body">body</a>, represented in
@@ -2128,10 +2128,10 @@ and <var>origin</var>.</p>
 
       <ol>
        <li data-md>
-        <p>If <var>browsingContext</var> is the <u class="link-error" data-lt="nested browsing context" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u> of a <u class="link-error" data-lt="browsing context container" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
+        <p>If <var>browsingContext</var> is the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;nested browsing context&apos;.">nested browsing context</u> of a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
   (Possible specs this could be from: longtasks-1)">browsing context container</u>, return the result of executing <a data-link-type="dfn" href="#define-inherited-policy-in-container" id="ref-for-define-inherited-policy-in-container①">Define an
 inherited policy for feature in container at origin</a> for <var>feature</var> in
-<var>browsingContext</var>’s <u class="link-error" data-lt="browsing context container" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
+<var>browsingContext</var>’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
   (Possible specs this could be from: longtasks-1)">browsing context container</u> at <var>origin</var>.</p>
        <li data-md>
         <p>Otherwise, return "<code>Enabled</code>".</p>
@@ -2142,7 +2142,7 @@ inherited policy for feature in container at origin</a> for <var>feature</var> i
      <h3 class="heading settled" data-level="9.8" id="algo-define-inherited-policy-in-container"><span class="secno">9.8. </span><span class="content"><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="define-inherited-policy-in-container">Define an inherited policy for feature in container at origin</dfn></span><a class="self-link" href="#algo-define-inherited-policy-in-container"></a></h3>
      <div class="algorithm" data-algorithm="define-inherited-policy-in-container">
       
-    Given a feature (<var>feature</var>) a <u class="link-error" data-lt="browsing context container" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
+    Given a feature (<var>feature</var>) a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;browsing context container&apos; that are marked for export.
   (Possible specs this could be from: longtasks-1)">browsing context container</u>
     (<var>container</var>), and an <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-origin" id="ref-for-concept-origin①①">origin</a> for a document in that container
     (<var>origin</var>), this algorithm returns the <a data-link-type="dfn" href="#inherited-policy" id="ref-for-inherited-policy⑦">inherited policy</a> for that
@@ -2259,7 +2259,7 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
        <li data-md>
         <p>If <var>group</var> is omitted, set <var>group</var> to "default".</p>
        <li data-md>
-        <p>Execute <u class="link-error" data-lt="queue" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;queue&apos; with for=&apos;[&apos;reporting&apos;]&apos;.">queue a report</u> with <var>body</var>,
+        <p>Execute <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;queue&apos; with for=&apos;[&apos;reporting&apos;]&apos;.">queue a report</u> with <var>body</var>,
 "permissions-policy-violation", <var>group</var>, and <var>settings</var>.</p>
       </ol>
      </div>
@@ -2276,7 +2276,7 @@ set <var>body</var>’s <a data-link-type="dfn" href="#permissionspolicyviolatio
 
       <ol>
        <li data-md>
-        <p>Set <var>window</var> to <var>request</var>’s <u class="link-error" data-lt="window" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;window&apos; with for=&apos;[&apos;request&apos;]&apos;.">window</u>.</p>
+        <p>Set <var>window</var> to <var>request</var>’s <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;window&apos; with for=&apos;[&apos;request&apos;]&apos;.">window</u>.</p>
        <li data-md>
         <p>If <var>window</var> is not a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#window" id="ref-for-window">Window</a></code>, return <code>false</code>.</p>
         <div class="issue" id="issue-154a63d1"><a class="self-link" href="#issue-154a63d1"></a>Permissions Policy within non-Window contexts
@@ -2738,20 +2738,20 @@ interface <a href="#permissionspolicy"><code>PermissionsPolicy</code></a> {
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://dom.spec.whatwg.org/#document">Document</a> {
-    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy">PermissionsPolicy</a> <a data-readonly data-type="PermissionsPolicy" href="#dom-document-permissionspolicy"><code>permissionsPolicy</code></a>;
+    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy">PermissionsPolicy</a> <a href="#dom-document-permissionspolicy"><code>permissionsPolicy</code></a>;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmliframeelement">HTMLIFrameElement</a> {
-    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy">PermissionsPolicy</a> <a data-readonly data-type="PermissionsPolicy" href="#dom-htmliframeelement-permissionspolicy"><code>permissionsPolicy</code></a>;
+    [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="#permissionspolicy">PermissionsPolicy</a> <a href="#dom-htmliframeelement-permissionspolicy"><code>permissionsPolicy</code></a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#Exposed">Exposed</a>=Window]
 interface <a href="#permissionspolicyviolationreportbody"><code>PermissionsPolicyViolationReportBody</code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/reporting/#reportbody">ReportBody</a> {
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-readonly data-type="DOMString" href="#dom-permissionspolicyviolationreportbody-featureid"><code>featureId</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>? <a data-readonly data-type="DOMString?" href="#dom-permissionspolicyviolationreportbody-sourcefile"><code>sourceFile</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long">long</a>? <a data-readonly data-type="long?" href="#dom-permissionspolicyviolationreportbody-linenumber"><code>lineNumber</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long">long</a>? <a data-readonly data-type="long?" href="#dom-permissionspolicyviolationreportbody-columnnumber"><code>columnNumber</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a data-readonly data-type="DOMString" href="#dom-permissionspolicyviolationreportbody-disposition"><code>disposition</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-permissionspolicyviolationreportbody-featureid"><code>featureId</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>? <a href="#dom-permissionspolicyviolationreportbody-sourcefile"><code>sourceFile</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long">long</a>? <a href="#dom-permissionspolicyviolationreportbody-linenumber"><code>lineNumber</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-long">long</a>? <a href="#dom-permissionspolicyviolationreportbody-columnnumber"><code>columnNumber</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a> <a href="#dom-permissionspolicyviolationreportbody-disposition"><code>disposition</code></a>;
 };
 
 </pre>
@@ -3589,20 +3589,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -3695,29 +3776,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -3754,13 +3885,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -3773,6 +3897,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -3798,12 +3930,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -3851,18 +4016,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -3873,13 +4042,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -3892,7 +4074,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -3905,13 +4087,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

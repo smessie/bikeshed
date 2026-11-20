@@ -860,17 +860,17 @@ pre[highlight], pre.highlight {
    <p>XR Devices often have additional controller hardware that allows users to interact with immersive experiences with button, trigger, thumbstick, or touchpad inputs. Frequently these devices are spatially tracked as well, and referred to as "motion controllers", "handheld controllers", or "tracked controllers".</p>
    <h2 class="heading settled" data-level="2" id="webxr-device-api-integration"><span class="secno">2. </span><span class="content">WebXR Device API Integration</span><a class="self-link" href="#webxr-device-api-integration"></a></h2>
    
-As defined in the <a href="https://www.w3.org/TR/webxr/">WebXR Device API API</a>, an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource">XRInputSource</a></code> represents an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="xr-input-source">XR input source</dfn>, which is any input mechanism which allows the user to perform targeted actions in the same virtual space as the <u class="link-error" data-lt="viewer" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;viewer&apos; with spec &apos;webxr-1&apos;.">viewer</u>. Example <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source">XR input source</a>s include, but are not limited to, handheld controllers, optically tracked hands, and gaze-based input methods that operate on the <u class="link-error" data-lt="viewer" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;viewer&apos; with spec &apos;webxr-1&apos;.">viewer</u>’s pose.
+As defined in the <a href="https://www.w3.org/TR/webxr/">WebXR Device API API</a>, an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource">XRInputSource</a></code> represents an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="xr-input-source">XR input source</dfn>, which is any input mechanism which allows the user to perform targeted actions in the same virtual space as the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;viewer&apos; with spec &apos;webxr-1&apos;.">viewer</u>. Example <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source">XR input source</a>s include, but are not limited to, handheld controllers, optically tracked hands, and gaze-based input methods that operate on the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;viewer&apos; with spec &apos;webxr-1&apos;.">viewer</u>’s pose.
 
 
-   <p>This document outlines the behavior of an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①">XRInputSource</a></code> when it has button, trigger, thumbstick, or touchpad data to report. This is commonly a motion controller, but may also be headset with buttons, triggers, thumbsticks, or touchpads on the <u class="link-error" data-lt="XR device" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;xr device&apos; with spec &apos;webxr-1&apos;.">XR device</u>.  As stated in the WebXR device API, input mechanisms which are not explicitly associated with the <u class="link-error" data-lt="XR Device" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;xr device&apos; with spec &apos;webxr-1&apos;.">XR Device</u>, such as traditional gamepads, MUST NOT be considered <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source①">XR input source</a>s.</p>
+   <p>This document outlines the behavior of an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①">XRInputSource</a></code> when it has button, trigger, thumbstick, or touchpad data to report. This is commonly a motion controller, but may also be headset with buttons, triggers, thumbsticks, or touchpads on the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;xr device&apos; with spec &apos;webxr-1&apos;.">XR device</u>.  As stated in the WebXR device API, input mechanisms which are not explicitly associated with the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;xr device&apos; with spec &apos;webxr-1&apos;.">XR Device</u>, such as traditional gamepads, MUST NOT be considered <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source①">XR input source</a>s.</p>
    <h3 class="heading settled" data-level="2.1" id="xrinputsource-interface"><span class="secno">2.1. </span><span class="content">XRInputSource</span><a class="self-link" href="#xrinputsource-interface"></a></h3>
    <p>Button, trigger, thumbstick, and touchpad data is reported though a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad">Gamepad</a></code> object exposed on the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource②">XRInputSource</a></code> it is associated with.</p>
 <pre class="def highlight idl" data-language="webidl">partial interface <a class="idl-code" data-link-type="interface" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource③">XRInputSource</a> {
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad①">Gamepad</a>? <a class="idl-code" data-link-type="attribute" data-readonly data-type="Gamepad?" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad">gamepad</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject" id="ref-for-SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad①">Gamepad</a>? <a class="idl-code" data-link-type="attribute" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad">gamepad</a>;
 };
 </pre>
-   <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRInputSource" data-dfn-type="attribute" data-export id="dom-xrinputsource-gamepad"><code>gamepad</code></dfn> attribute is a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad②">Gamepad</a></code> that describes the state of any buttons and axes on the <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source②">XR input source</a>. If the <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source③">XR input source</a> does not have at least one of the following properties, the <code class="idl"><u class="link-error" data-lt="gamepad" title="LINK ERROR: Ambiguous for-less link for &apos;gamepad&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
+   <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRInputSource" data-dfn-type="attribute" data-export id="dom-xrinputsource-gamepad"><code>gamepad</code></dfn> attribute is a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad②">Gamepad</a></code> that describes the state of any buttons and axes on the <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source②">XR input source</a>. If the <a data-link-type="dfn" href="#xr-input-source" id="ref-for-xr-input-source③">XR input source</a> does not have at least one of the following properties, the <code class="idl"><u class="link-error" title="LINK ERROR: Ambiguous for-less link for &apos;gamepad&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:webxr-gamepads-module-1; type:attribute; for:XRInputSource; text:gamepad
 for-less references:
@@ -885,7 +885,7 @@ spec:gamepad; type:permission; for:/; text:&quot;gamepad&quot;">gamepad</u></cod
      <p>One or more axes</p>
    </ul>
    <h3 class="heading settled" data-level="2.2" id="xrsession-interface"><span class="secno">2.2. </span><span class="content">XRSession</span><a class="self-link" href="#xrsession-interface"></a></h3>
-   <p><code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource④">XRInputSource</a></code>s are reported in the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrsession-inputsources" id="ref-for-dom-xrsession-inputsources">inputSources</a></code> array as they are connected and disconnected. When the presence of a <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①">gamepad</a></code> changes for any entry in the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrsession-inputsources" id="ref-for-dom-xrsession-inputsources①">inputSources</a></code> array, the user agent MUST invoke the WebXR Device API’s algorithm for <u class="link-error" data-lt="change input source" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;change input source&apos; with spec &apos;webxr-1&apos;.">responding to input source attribute changes</u>.</p>
+   <p><code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource④">XRInputSource</a></code>s are reported in the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrsession-inputsources" id="ref-for-dom-xrsession-inputsources">inputSources</a></code> array as they are connected and disconnected. When the presence of a <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①">gamepad</a></code> changes for any entry in the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrsession-inputsources" id="ref-for-dom-xrsession-inputsources①">inputSources</a></code> array, the user agent MUST invoke the WebXR Device API’s algorithm for <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;change input source&apos; with spec &apos;webxr-1&apos;.">responding to input source attribute changes</u>.</p>
    <p>The <a data-link-type="dfn" href="https://www.w3.org/TR/webxr/#xrsession-list-of-frame-updates" id="ref-for-xrsession-list-of-frame-updates">list of frame updates</a> is updated to include <a data-link-type="dfn" href="#xrframe-apply-gamepad-frame-updates" id="ref-for-xrframe-apply-gamepad-frame-updates">apply gamepad frame updates</a>.</p>
    <p>To <dfn class="dfn-paneled" data-dfn-for="XRFrame" data-dfn-type="dfn" data-noexport id="xrframe-apply-gamepad-frame-updates">apply gamepad frame updates</dfn> for an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrframe" id="ref-for-xrframe">XRFrame</a></code> <var>frame</var>, the user agent MUST run the following steps:</p>
    <ol>
@@ -896,12 +896,12 @@ spec:gamepad; type:permission; for:/; text:&quot;gamepad&quot;">gamepad</u></cod
        <p>Update <var>gamepad</var> to reflect the gamepad data at <var>frame</var>’s <a data-link-type="dfn" href="https://www.w3.org/TR/webxr/#xrframe-time" id="ref-for-xrframe-time">time</a>.</p>
      </ol>
    </ol>
-   <p class="note" role="note"><span class="marker">NOTE:</span> This means that the <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad③">gamepad</a></code> object is "live", and any internal state is to be updated in-place every frame. Furthermore, it doesn’t work to save a reference to an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource⑥">XRInputSource</a></code>’s <code class="idl"><u class="link-error" data-lt="gamepad" title="LINK ERROR: Ambiguous for-less link for &apos;gamepad&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
+   <p class="note" role="note"><span class="marker">NOTE:</span> This means that the <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad③">gamepad</a></code> object is "live", and any internal state is to be updated in-place every frame. Furthermore, it doesn’t work to save a reference to an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource⑥">XRInputSource</a></code>’s <code class="idl"><u class="link-error" title="LINK ERROR: Ambiguous for-less link for &apos;gamepad&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:webxr-gamepads-module-1; type:attribute; for:XRInputSource; text:gamepad
 for-less references:
 spec:gamepad; type:permission; for:/; text:&quot;gamepad&quot;
-spec:gamepad; type:permission; for:/; text:&quot;gamepad&quot;">gamepad</u></code> on one frame and compare it to the same <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource⑦">XRInputSource</a></code>’s <code class="idl"><u class="link-error" data-lt="gamepad" title="LINK ERROR: Ambiguous for-less link for &apos;gamepad&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
+spec:gamepad; type:permission; for:/; text:&quot;gamepad&quot;">gamepad</u></code> on one frame and compare it to the same <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource⑦">XRInputSource</a></code>’s <code class="idl"><u class="link-error" title="LINK ERROR: Ambiguous for-less link for &apos;gamepad&apos;, please see <https://speced.github.io/bikeshed/#ambi-for> for instructions:
 Local references:
 spec:webxr-gamepads-module-1; type:attribute; for:XRInputSource; text:gamepad
 for-less references:
@@ -919,13 +919,13 @@ spec:gamepad; type:permission; for:/; text:&quot;gamepad&quot;">gamepad</u></cod
     <li data-md>
      <p><code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad⑧">gamepad</a></code>’s <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-index" id="ref-for-dom-gamepad-index">index</a></code> attribute MUST be <code>-1</code>.</p>
     <li data-md>
-     <p><code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad⑨">gamepad</a></code>’s <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-connected" id="ref-for-dom-gamepad-connected">connected</a></code> attribute MUST be <code>true</code> until the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①①">XRInputSource</a></code> is removed from the <u class="link-error" data-lt="list of active XR input sources" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;list of active xr input sources&apos; with spec &apos;webxr-1&apos;.">list of active XR input sources</u> or the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrsession" id="ref-for-xrsession">XRSession</a></code> is ended.</p>
+     <p><code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad⑨">gamepad</a></code>’s <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-connected" id="ref-for-dom-gamepad-connected">connected</a></code> attribute MUST be <code>true</code> until the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①①">XRInputSource</a></code> is removed from the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;list of active xr input sources&apos; with spec &apos;webxr-1&apos;.">list of active XR input sources</u> or the <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrsession" id="ref-for-xrsession">XRSession</a></code> is ended.</p>
     <li data-md>
      <p>If an axis reported by the <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①⓪">gamepad</a></code>’s <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-axes" id="ref-for-dom-gamepad-axes">axes</a></code> array represents an axis of a touchpad, the value MUST be <code>0</code> when the associated <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadbutton" id="ref-for-dom-gamepadbutton">GamepadButton</a></code>’s <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadbutton-touched" id="ref-for-dom-gamepadbutton-touched">touched</a></code> is <code>false</code>.</p>
    </ul>
    <h3 class="heading settled" data-level="3.3" id="xr-standard-heading"><span class="secno">3.3. </span><span class="content"><dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="xr-standard-gamepad-mapping">"xr-standard" Gamepad Mapping</dfn></span><a class="self-link" href="#xr-standard-heading"></a></h3>
    <p>The <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard">"xr-standard"</a></code> mapping is defined in the <a href="https://www.w3.org/TR/gamepad/#dom-gamepadmappingtype">Gamepad API</a> and reserved for use by this spec. It indicates that the layout of the buttons and axes of the <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①①">gamepad</a></code> corresponds as closely as possible to the tables below.</p>
-   <p>In order to report a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-mapping" id="ref-for-dom-gamepad-mapping">mapping</a></code> of <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard①">"xr-standard"</a></code> the device MUST report a <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrinputsource-targetraymode" id="ref-for-dom-xrinputsource-targetraymode">targetRayMode</a></code> of <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrtargetraymode-tracked-pointer" id="ref-for-dom-xrtargetraymode-tracked-pointer">"tracked-pointer"</a></code> and MUST have a non-<code>null</code> <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrinputsource-gripspace" id="ref-for-dom-xrinputsource-gripspace">gripSpace</a></code>. It MUST have at least one <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="primary-trigger">primary trigger</dfn>, separate from any touchpads or thumbsticks. The <a data-link-type="dfn" href="#primary-trigger" id="ref-for-primary-trigger">primary trigger</a> MUST trigger the <u class="link-error" data-lt="primary action" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;primary action&apos; with spec &apos;webxr-1&apos;.">primary action</u> for the input source. The device MAY have a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="primary-squeeze-button">primary squeeze button</dfn>, which, if present, MUST trigger the <u class="link-error" data-lt="primary squeeze action" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;primary squeeze action&apos; with spec &apos;webxr-1&apos;.">primary squeeze action</u> for the input source. If a device does not meet the requirements for the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard②">"xr-standard"</a></code> mapping it may still expose a <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①②">gamepad</a></code> with a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-mapping" id="ref-for-dom-gamepad-mapping①">mapping</a></code> of <code>""</code> (empty string). The <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard③">"xr-standard"</a></code> mapping MUST only be used by <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad⑧">Gamepad</a></code> instances reported by an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①②">XRInputSource</a></code>.</p>
+   <p>In order to report a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-mapping" id="ref-for-dom-gamepad-mapping">mapping</a></code> of <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard①">"xr-standard"</a></code> the device MUST report a <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrinputsource-targetraymode" id="ref-for-dom-xrinputsource-targetraymode">targetRayMode</a></code> of <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrtargetraymode-tracked-pointer" id="ref-for-dom-xrtargetraymode-tracked-pointer">"tracked-pointer"</a></code> and MUST have a non-<code>null</code> <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#dom-xrinputsource-gripspace" id="ref-for-dom-xrinputsource-gripspace">gripSpace</a></code>. It MUST have at least one <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="primary-trigger">primary trigger</dfn>, separate from any touchpads or thumbsticks. The <a data-link-type="dfn" href="#primary-trigger" id="ref-for-primary-trigger">primary trigger</a> MUST trigger the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;primary action&apos; with spec &apos;webxr-1&apos;.">primary action</u> for the input source. The device MAY have a <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="primary-squeeze-button">primary squeeze button</dfn>, which, if present, MUST trigger the <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;primary squeeze action&apos; with spec &apos;webxr-1&apos;.">primary squeeze action</u> for the input source. If a device does not meet the requirements for the <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard②">"xr-standard"</a></code> mapping it may still expose a <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①②">gamepad</a></code> with a <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-mapping" id="ref-for-dom-gamepad-mapping①">mapping</a></code> of <code>""</code> (empty string). The <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepadmappingtype-xr-standard" id="ref-for-dom-gamepadmappingtype-xr-standard③">"xr-standard"</a></code> mapping MUST only be used by <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad" id="ref-for-dom-gamepad⑧">Gamepad</a></code> instances reported by an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①②">XRInputSource</a></code>.</p>
    <table class="tg">
     <thead>
      <tr>
@@ -985,7 +985,7 @@ This diagram demonstrates how two example controllers would be exposed with the 
    <h2 class="heading settled" data-level="4" id="security"><span class="secno">4. </span><span class="content">Security and Privacy</span><a class="self-link" href="#security"></a></h2>
    <p>The WebXR Device API provides powerful new features which bring with them several unique privacy, security, and comfort risks that user agents must take steps to mitigate. This topic is covered in detail as part of the <a href="https://www.w3.org/TR/webxr/">WebXR Device API</a>. This module adds additional considerations, but does not change the fundamental <a href="https://immersive-web.github.io/webxr/#security">WebXR security and privacy</a> principles.</p>
    <h3 class="heading settled" data-level="4.1" id="fingerprinting-security"><span class="secno">4.1. </span><span class="content">Fingerprinting</span><a class="self-link" href="#fingerprinting-security"></a></h3>
-   <p>Given that the API describes hardware available to the user and its capabilities it will inevitably provide additional surface area for fingerprinting. While it’s impossible to completely avoid this, user agents should take steps to mitigate the issue. As defined in the WebXR Device API, <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①③">XRInputSource</a></code>s are only reported after an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrsession" id="ref-for-xrsession①">XRSession</a></code> has been created, which requires additional protections when <u class="link-error" data-lt="sensitive information" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;sensitive information&apos; with spec &apos;webxr-1&apos;.">sensitive information</u> will be exposed. In addition, this module requires <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①④">XRInputSource</a></code>’s <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①③">gamepad</a></code>.<code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-id" id="ref-for-dom-gamepad-id①">id</a></code> to not report a string identifiers.</p>
+   <p>Given that the API describes hardware available to the user and its capabilities it will inevitably provide additional surface area for fingerprinting. While it’s impossible to completely avoid this, user agents should take steps to mitigate the issue. As defined in the WebXR Device API, <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①③">XRInputSource</a></code>s are only reported after an <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrsession" id="ref-for-xrsession①">XRSession</a></code> has been created, which requires additional protections when <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;sensitive information&apos; with spec &apos;webxr-1&apos;.">sensitive information</u> will be exposed. In addition, this module requires <code class="idl"><a data-link-type="idl" href="https://immersive-web.github.io/webxr/#xrinputsource" id="ref-for-xrinputsource①④">XRInputSource</a></code>’s <code class="idl"><a data-link-type="idl" href="#dom-xrinputsource-gamepad" id="ref-for-dom-xrinputsource-gamepad①③">gamepad</a></code>.<code class="idl"><a data-link-type="idl" href="https://w3c.github.io/gamepad/#dom-gamepad-id" id="ref-for-dom-gamepad-id①">id</a></code> to not report a string identifiers.</p>
    <h2 class="heading settled" data-level="5" id="ack"><span class="secno">5. </span><span class="content">Acknowledgements</span><a class="self-link" href="#ack"></a></h2>
    <p>The following individuals have contributed to the design of the WebXR Device API specification:</p>
    <ul>
@@ -1126,7 +1126,7 @@ This diagram demonstrates how two example controllers would be exposed with the 
   </dl>
   <h2 class="heading no-num no-ref settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="def highlight idl" data-language="webidl">partial interface <a class="idl-code" data-link-type="interface" href="https://immersive-web.github.io/webxr/#xrinputsource">XRInputSource</a> {
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://w3c.github.io/gamepad/#dom-gamepad">Gamepad</a>? <a class="idl-code" data-link-type="attribute" data-readonly data-type="Gamepad?" href="#dom-xrinputsource-gamepad">gamepad</a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://webidl.spec.whatwg.org/#SameObject">SameObject</a>] readonly attribute <a data-link-type="idl-name" href="https://w3c.github.io/gamepad/#dom-gamepad">Gamepad</a>? <a class="idl-code" data-link-type="attribute" href="#dom-xrinputsource-gamepad">gamepad</a>;
 };
 
 </pre>
@@ -1665,20 +1665,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -1771,29 +1852,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -1830,13 +1961,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -1849,6 +1973,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -1874,12 +2006,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -1927,18 +2092,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -1949,13 +2118,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -1968,7 +2150,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -1981,13 +2163,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }

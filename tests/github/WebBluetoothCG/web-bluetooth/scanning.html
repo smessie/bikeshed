@@ -917,9 +917,9 @@ navigator.bluetooth.<a data-link-type="idl" href="#dom-bluetooth-requestlescan" 
    <section>
     <h2 class="heading settled" data-level="4" id="scanning"><span class="secno">4. </span><span class="content">Scanning for BLE advertisements</span><a class="self-link" href="#scanning"></a></h2>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-bluetoothlescanoptions"><code>BluetoothLEScanOptions</code></dfn> {
-  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit" id="ref-for-dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanOptions" data-dfn-type="dict-member" data-export data-type="sequence<BluetoothLEScanFilterInit>" id="dom-bluetoothlescanoptions-filters"><code>filters</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a> <a class="idl-code" data-default="false" data-link-type="dict-member" data-type="boolean" href="#dom-bluetoothlescanoptions-keeprepeateddevices" id="ref-for-dom-bluetoothlescanoptions-keeprepeateddevices">keepRepeatedDevices</a> = false;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <a class="idl-code" data-default="false" data-link-type="dict-member" data-type="boolean" href="#dom-bluetoothlescanoptions-acceptalladvertisements" id="ref-for-dom-bluetoothlescanoptions-acceptalladvertisements">acceptAllAdvertisements</a> = false;
+  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit" id="ref-for-dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanOptions" data-dfn-type="dict-member" data-export id="dom-bluetoothlescanoptions-filters"><code>filters</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean">boolean</a> <a class="idl-code" data-link-type="dict-member" href="#dom-bluetoothlescanoptions-keeprepeateddevices" id="ref-for-dom-bluetoothlescanoptions-keeprepeateddevices">keepRepeatedDevices</a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean①">boolean</a> <a class="idl-code" data-link-type="dict-member" href="#dom-bluetoothlescanoptions-acceptalladvertisements" id="ref-for-dom-bluetoothlescanoptions-acceptalladvertisements">acceptAllAdvertisements</a> = false;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://webbluetoothcg.github.io/web-bluetooth/#bluetooth" id="ref-for-bluetooth">Bluetooth</a> {
@@ -1008,7 +1008,7 @@ partial interface <a class="idl-code" data-link-type="interface" href="https://w
        <p class="note" role="note"><span class="marker">Note:</span> This may require that this algorithm has a <a href="https://html.spec.whatwg.org/#tracking-user-activation"> transient
         activation</a> on its <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global①">relevant global object</a> when triggered.</p>
       <li>
-        If the result is <code class="idl"><u class="link-error" data-lt="&quot;denied&quot;" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;denied&quot;&apos; with spec &apos;permissions-1&apos;.">"denied"</u></code>,
+        If the result is <code class="idl"><u class="link-error" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;denied&quot;&apos; with spec &apos;permissions-1&apos;.">"denied"</u></code>,
         reject <var>promise</var> with a <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#notallowederror" id="ref-for-notallowederror">NotAllowedError</a></code> and abort these steps.
       
       <li>
@@ -1074,8 +1074,8 @@ partial interface <a class="idl-code" data-link-type="interface" href="https://w
      <h3 class="heading settled" data-level="4.1" id="scan-control"><span class="secno">4.1. </span><span class="content">Controlling a BLE scan</span><a class="self-link" href="#scan-control"></a></h3>
 <pre class="def highlight idl" data-language="webidl">interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="bluetoothdatafilter"><code>BluetoothDataFilter</code></dfn> {
   <a class="idl-code" data-link-type="constructor" href="#dom-bluetoothdatafilter-bluetoothdatafilter" id="ref-for-dom-bluetoothdatafilter-bluetoothdatafilter">constructor</a>(optional <a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothdatafilterinit" id="ref-for-dictdef-bluetoothdatafilterinit">BluetoothDataFilterInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothDataFilter/BluetoothDataFilter(init), BluetoothDataFilter/constructor(init), BluetoothDataFilter/BluetoothDataFilter(), BluetoothDataFilter/constructor()" data-dfn-type="argument" data-export id="dom-bluetoothdatafilter-bluetoothdatafilter-init-init"><code>init</code></dfn>);
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer" id="ref-for-idl-ArrayBuffer">ArrayBuffer</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothDataFilter" data-dfn-type="attribute" data-export data-readonly data-type="ArrayBuffer" id="dom-bluetoothdatafilter-dataprefix"><code>dataPrefix</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer" id="ref-for-idl-ArrayBuffer①">ArrayBuffer</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothDataFilter" data-dfn-type="attribute" data-export data-readonly data-type="ArrayBuffer" id="dom-bluetoothdatafilter-mask"><code>mask</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer" id="ref-for-idl-ArrayBuffer">ArrayBuffer</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothDataFilter" data-dfn-type="attribute" data-export id="dom-bluetoothdatafilter-dataprefix"><code>dataPrefix</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer" id="ref-for-idl-ArrayBuffer①">ArrayBuffer</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothDataFilter" data-dfn-type="attribute" data-export id="dom-bluetoothdatafilter-mask"><code>mask</code></dfn>;
 };
 
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="bluetoothmanufacturerdatafilter"><code>BluetoothManufacturerDataFilter</code></dfn> {
@@ -1090,19 +1090,19 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
 
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="bluetoothlescanfilter"><code>BluetoothLEScanFilter</code></dfn> {
   <a class="idl-code" data-link-type="constructor" href="#dom-bluetoothlescanfilter-bluetoothlescanfilter" id="ref-for-dom-bluetoothlescanfilter-bluetoothlescanfilter①">constructor</a>(optional <a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit" id="ref-for-dictdef-bluetoothlescanfilterinit①">BluetoothLEScanFilterInit</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter/BluetoothLEScanFilter(init), BluetoothLEScanFilter/constructor(init), BluetoothLEScanFilter/BluetoothLEScanFilter(), BluetoothLEScanFilter/constructor()" data-dfn-type="argument" data-export id="dom-bluetoothlescanfilter-bluetoothlescanfilter-init-init"><code>init</code></dfn>);
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export data-readonly data-type="DOMString?" id="dom-bluetoothlescanfilter-name"><code>name</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export data-readonly data-type="DOMString?" id="dom-bluetoothlescanfilter-nameprefix"><code>namePrefix</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array①">FrozenArray</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-uuid" id="ref-for-typedefdef-uuid①">UUID</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export data-readonly data-type="FrozenArray<UUID>" id="dom-bluetoothlescanfilter-services"><code>services</code></dfn>;
-  readonly attribute <a data-link-type="idl-name" href="#bluetoothmanufacturerdatafilter" id="ref-for-bluetoothmanufacturerdatafilter">BluetoothManufacturerDataFilter</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export data-readonly data-type="BluetoothManufacturerDataFilter" id="dom-bluetoothlescanfilter-manufacturerdata"><code>manufacturerData</code></dfn>;
-  readonly attribute <a data-link-type="idl-name" href="#bluetoothservicedatafilter" id="ref-for-bluetoothservicedatafilter">BluetoothServiceDataFilter</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export data-readonly data-type="BluetoothServiceDataFilter" id="dom-bluetoothlescanfilter-servicedata"><code>serviceData</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString">DOMString</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export id="dom-bluetoothlescanfilter-name"><code>name</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a>? <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export id="dom-bluetoothlescanfilter-nameprefix"><code>namePrefix</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array①">FrozenArray</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-uuid" id="ref-for-typedefdef-uuid①">UUID</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export id="dom-bluetoothlescanfilter-services"><code>services</code></dfn>;
+  readonly attribute <a data-link-type="idl-name" href="#bluetoothmanufacturerdatafilter" id="ref-for-bluetoothmanufacturerdatafilter">BluetoothManufacturerDataFilter</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export id="dom-bluetoothlescanfilter-manufacturerdata"><code>manufacturerData</code></dfn>;
+  readonly attribute <a data-link-type="idl-name" href="#bluetoothservicedatafilter" id="ref-for-bluetoothservicedatafilter">BluetoothServiceDataFilter</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanFilter" data-dfn-type="attribute" data-export id="dom-bluetoothlescanfilter-servicedata"><code>serviceData</code></dfn>;
 };
 
 interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="bluetoothlescan"><code>BluetoothLEScan</code></dfn> {
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array②">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescanfilter" id="ref-for-bluetoothlescanfilter①">BluetoothLEScanFilter</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export data-readonly data-type="FrozenArray<BluetoothLEScanFilter>" id="dom-bluetoothlescan-filters"><code>filters</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean②">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export data-readonly data-type="boolean" id="dom-bluetoothlescan-keeprepeateddevices"><code>keepRepeatedDevices</code></dfn>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean③">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export data-readonly data-type="boolean" id="dom-bluetoothlescan-acceptalladvertisements"><code>acceptAllAdvertisements</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array②">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescanfilter" id="ref-for-bluetoothlescanfilter①">BluetoothLEScanFilter</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export id="dom-bluetoothlescan-filters"><code>filters</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean②">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export id="dom-bluetoothlescan-keeprepeateddevices"><code>keepRepeatedDevices</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean③">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export id="dom-bluetoothlescan-acceptalladvertisements"><code>acceptAllAdvertisements</code></dfn>;
 
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean④">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export data-readonly data-type="boolean" id="dom-bluetoothlescan-active"><code>active</code></dfn>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean④">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScan" data-dfn-type="attribute" data-export id="dom-bluetoothlescan-active"><code>active</code></dfn>;
 
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined" id="ref-for-idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-bluetoothlescan-stop" id="ref-for-dom-bluetoothlescan-stop">stop</a>();
 };
@@ -1255,7 +1255,7 @@ interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-expor
 operations for that <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#clone-a-node-document" id="ref-for-clone-a-node-document①">document</a> need to be aborted.</p>
     <div class="algorithm" data-algorithm="handle full activity loss">
      
-When the user agent determines that a <u class="link-error" data-lt="responsible document" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#current-settings-object" id="ref-for-current-settings-object">current settings object</a> is no longer <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active②">fully active</a>, it must run these steps:
+When the user agent determines that a <u class="link-error" title="LINK ERROR: No &apos;dfn&apos; refs found for &apos;responsible document&apos;.">responsible document</u> of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#current-settings-object" id="ref-for-current-settings-object">current settings object</a> is no longer <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active" id="ref-for-fully-active②">fully active</a>, it must run these steps:
 
 
      <ol>
@@ -1282,15 +1282,15 @@ steps:</p>
       <dd>
 <pre class="def highlight idl" data-language="webidl">dictionary <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-bluetoothlescanpermissiondescriptor"><code>BluetoothLEScanPermissionDescriptor</code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/permissions/#dom-permissiondescriptor" id="ref-for-dom-permissiondescriptor">PermissionDescriptor</a> {
   // These match BluetoothLEScanOptions.
-  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence①">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit" id="ref-for-dictdef-bluetoothlescanfilterinit②">BluetoothLEScanFilterInit</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanPermissionDescriptor" data-dfn-type="dict-member" data-export data-type="sequence<BluetoothLEScanFilterInit>" id="dom-bluetoothlescanpermissiondescriptor-filters"><code>filters</code></dfn>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑤">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="BluetoothLEScanPermissionDescriptor" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-bluetoothlescanpermissiondescriptor-keeprepeateddevices"><code>keepRepeatedDevices</code></dfn> = false;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑥">boolean</a> <dfn class="dfn-paneled idl-code" data-default="false" data-dfn-for="BluetoothLEScanPermissionDescriptor" data-dfn-type="dict-member" data-export data-type="boolean" id="dom-bluetoothlescanpermissiondescriptor-acceptalladvertisements"><code>acceptAllAdvertisements</code></dfn> = false;
+  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence" id="ref-for-idl-sequence①">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit" id="ref-for-dictdef-bluetoothlescanfilterinit②">BluetoothLEScanFilterInit</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanPermissionDescriptor" data-dfn-type="dict-member" data-export id="dom-bluetoothlescanpermissiondescriptor-filters"><code>filters</code></dfn>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑤">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanPermissionDescriptor" data-dfn-type="dict-member" data-export id="dom-bluetoothlescanpermissiondescriptor-keeprepeateddevices"><code>keepRepeatedDevices</code></dfn> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean" id="ref-for-idl-boolean⑥">boolean</a> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanPermissionDescriptor" data-dfn-type="dict-member" data-export id="dom-bluetoothlescanpermissiondescriptor-acceptalladvertisements"><code>acceptAllAdvertisements</code></dfn> = false;
 };
 </pre>
       <dt><a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-permission-result-type" id="ref-for-dfn-permission-result-type">permission result type</a>
       <dd>
 <pre class="def highlight idl" data-language="webidl">interface <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="bluetoothlescanpermissionresult"><code>BluetoothLEScanPermissionResult</code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/permissions/#dom-permissionstatus" id="ref-for-dom-permissionstatus">PermissionStatus</a> {
-  attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array④">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescan" id="ref-for-bluetoothlescan④">BluetoothLEScan</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanPermissionResult" data-dfn-type="attribute" data-export data-type="FrozenArray<BluetoothLEScan>" id="dom-bluetoothlescanpermissionresult-scans"><code>scans</code></dfn>;
+  attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array④">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescan" id="ref-for-bluetoothlescan④">BluetoothLEScan</a>> <dfn class="dfn-paneled idl-code" data-dfn-for="BluetoothLEScanPermissionResult" data-dfn-type="attribute" data-export id="dom-bluetoothlescanpermissionresult-scans"><code>scans</code></dfn>;
 };
 </pre>
       <dt><a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-permission-query-algorithm" id="ref-for-dfn-permission-query-algorithm">permission query algorithm</a>
@@ -1305,7 +1305,7 @@ steps:</p>
             to <var>descriptor</var>’s <a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-permission-state" id="ref-for-dfn-permission-state">permission state</a>.
           
         <li>
-            If <code><var>result</var>.<code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstatus-state" id="ref-for-dom-permissionstatus-state①">state</a></code></code> is <code class="idl"><u class="link-error" data-lt="&quot;denied&quot;" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;denied&quot;&apos; with spec &apos;permissions-1&apos;.">"denied"</u></code>,
+            If <code><var>result</var>.<code class="idl"><a data-link-type="idl" href="https://w3c.github.io/permissions/#dom-permissionstatus-state" id="ref-for-dom-permissionstatus-state①">state</a></code></code> is <code class="idl"><u class="link-error" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;denied&quot;&apos; with spec &apos;permissions-1&apos;.">"denied"</u></code>,
             set <code><var>result</var>.scans</code> to an empty <code class="idl"><a data-link-type="idl" href="https://webidl.spec.whatwg.org/#idl-frozen-array" id="ref-for-idl-frozen-array⑤">FrozenArray</a></code>
             and abort these steps.
           
@@ -1342,7 +1342,7 @@ steps:</p>
 }
 </pre>
            
-                is not <code class="idl"><u class="link-error" data-lt="&quot;granted&quot;" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;granted&quot;&apos; with spec &apos;permissions-1&apos;.">"granted"</u></code>,
+                is not <code class="idl"><u class="link-error" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;granted&quot;&apos; with spec &apos;permissions-1&apos;.">"granted"</u></code>,
                 call <code><var>activeScan</var>.<code class="idl"><a data-link-type="idl" href="#dom-bluetoothlescan-stop" id="ref-for-dom-bluetoothlescan-stop③">stop()</a></code></code>.
               
          </ol>
@@ -1382,7 +1382,7 @@ steps:</p>
               Note: the user’s <a href="#scanning-permission">permission to scan</a>
               likely indicates that
               they intend newly-discovered devices to appear in
-              <code class="idl"><u class="link-error" data-lt="&quot;bluetooth&quot;" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;bluetooth&quot;&apos; with spec &apos;web-bluetooth&apos;.">"bluetooth"</u></code>’s <a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-extra-permission-data" id="ref-for-dfn-extra-permission-data">extra permission data</a>,
+              <code class="idl"><u class="link-error" title="LINK ERROR: No &apos;enum-value&apos; refs found for &apos;&quot;bluetooth&quot;&apos; with spec &apos;web-bluetooth&apos;.">"bluetooth"</u></code>’s <a data-link-type="dfn" href="https://w3c.github.io/permissions/#dfn-extra-permission-data" id="ref-for-dfn-extra-permission-data">extra permission data</a>,
               but possibly with <code class="idl"><a data-link-type="idl" href="https://webbluetoothcg.github.io/web-bluetooth/#dom-allowedbluetoothdevice-mayusegatt" id="ref-for-dom-allowedbluetoothdevice-mayusegatt">mayUseGATT</a></code> set to <code>false</code>.
             
          <li>
@@ -1915,9 +1915,9 @@ steps:</p>
   </dl>
   <h2 class="heading no-num no-ref settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="def highlight idl" data-language="webidl">dictionary <a href="#dictdef-bluetoothlescanoptions"><code>BluetoothLEScanOptions</code></a> {
-  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a>> <a data-type="sequence<BluetoothLEScanFilterInit>" href="#dom-bluetoothlescanoptions-filters"><code>filters</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-default="false" data-link-type="dict-member" data-type="boolean" href="#dom-bluetoothlescanoptions-keeprepeateddevices">keepRepeatedDevices</a> = false;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-default="false" data-link-type="dict-member" data-type="boolean" href="#dom-bluetoothlescanoptions-acceptalladvertisements">acceptAllAdvertisements</a> = false;
+  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a>> <a href="#dom-bluetoothlescanoptions-filters"><code>filters</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="dict-member" href="#dom-bluetoothlescanoptions-keeprepeateddevices">keepRepeatedDevices</a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a class="idl-code" data-link-type="dict-member" href="#dom-bluetoothlescanoptions-acceptalladvertisements">acceptAllAdvertisements</a> = false;
 };
 
 partial interface <a class="idl-code" data-link-type="interface" href="https://webbluetoothcg.github.io/web-bluetooth/#bluetooth">Bluetooth</a> {
@@ -1927,8 +1927,8 @@ partial interface <a class="idl-code" data-link-type="interface" href="https://w
 
 interface <a href="#bluetoothdatafilter"><code>BluetoothDataFilter</code></a> {
   <a class="idl-code" data-link-type="constructor" href="#dom-bluetoothdatafilter-bluetoothdatafilter">constructor</a>(optional <a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothdatafilterinit">BluetoothDataFilterInit</a> <a href="#dom-bluetoothdatafilter-bluetoothdatafilter-init-init"><code>init</code></a>);
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer">ArrayBuffer</a> <a data-readonly data-type="ArrayBuffer" href="#dom-bluetoothdatafilter-dataprefix"><code>dataPrefix</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer">ArrayBuffer</a> <a data-readonly data-type="ArrayBuffer" href="#dom-bluetoothdatafilter-mask"><code>mask</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer">ArrayBuffer</a> <a href="#dom-bluetoothdatafilter-dataprefix"><code>dataPrefix</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-ArrayBuffer">ArrayBuffer</a> <a href="#dom-bluetoothdatafilter-mask"><code>mask</code></a>;
 };
 
 interface <a href="#bluetoothmanufacturerdatafilter"><code>BluetoothManufacturerDataFilter</code></a> {
@@ -1943,32 +1943,32 @@ interface <a href="#bluetoothservicedatafilter"><code>BluetoothServiceDataFilter
 
 interface <a href="#bluetoothlescanfilter"><code>BluetoothLEScanFilter</code></a> {
   <a class="idl-code" data-link-type="constructor" href="#dom-bluetoothlescanfilter-bluetoothlescanfilter">constructor</a>(optional <a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a> <a href="#dom-bluetoothlescanfilter-bluetoothlescanfilter-init-init"><code>init</code></a>);
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>? <a data-readonly data-type="DOMString?" href="#dom-bluetoothlescanfilter-name"><code>name</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>? <a data-readonly data-type="DOMString?" href="#dom-bluetoothlescanfilter-nameprefix"><code>namePrefix</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-uuid">UUID</a>> <a data-readonly data-type="FrozenArray<UUID>" href="#dom-bluetoothlescanfilter-services"><code>services</code></a>;
-  readonly attribute <a data-link-type="idl-name" href="#bluetoothmanufacturerdatafilter">BluetoothManufacturerDataFilter</a> <a data-readonly data-type="BluetoothManufacturerDataFilter" href="#dom-bluetoothlescanfilter-manufacturerdata"><code>manufacturerData</code></a>;
-  readonly attribute <a data-link-type="idl-name" href="#bluetoothservicedatafilter">BluetoothServiceDataFilter</a> <a data-readonly data-type="BluetoothServiceDataFilter" href="#dom-bluetoothlescanfilter-servicedata"><code>serviceData</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>? <a href="#dom-bluetoothlescanfilter-name"><code>name</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-DOMString">DOMString</a>? <a href="#dom-bluetoothlescanfilter-nameprefix"><code>namePrefix</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#typedefdef-uuid">UUID</a>> <a href="#dom-bluetoothlescanfilter-services"><code>services</code></a>;
+  readonly attribute <a data-link-type="idl-name" href="#bluetoothmanufacturerdatafilter">BluetoothManufacturerDataFilter</a> <a href="#dom-bluetoothlescanfilter-manufacturerdata"><code>manufacturerData</code></a>;
+  readonly attribute <a data-link-type="idl-name" href="#bluetoothservicedatafilter">BluetoothServiceDataFilter</a> <a href="#dom-bluetoothlescanfilter-servicedata"><code>serviceData</code></a>;
 };
 
 interface <a href="#bluetoothlescan"><code>BluetoothLEScan</code></a> {
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescanfilter">BluetoothLEScanFilter</a>> <a data-readonly data-type="FrozenArray<BluetoothLEScanFilter>" href="#dom-bluetoothlescan-filters"><code>filters</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-readonly data-type="boolean" href="#dom-bluetoothlescan-keeprepeateddevices"><code>keepRepeatedDevices</code></a>;
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-readonly data-type="boolean" href="#dom-bluetoothlescan-acceptalladvertisements"><code>acceptAllAdvertisements</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescanfilter">BluetoothLEScanFilter</a>> <a href="#dom-bluetoothlescan-filters"><code>filters</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-bluetoothlescan-keeprepeateddevices"><code>keepRepeatedDevices</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-bluetoothlescan-acceptalladvertisements"><code>acceptAllAdvertisements</code></a>;
 
-  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-readonly data-type="boolean" href="#dom-bluetoothlescan-active"><code>active</code></a>;
+  readonly attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-bluetoothlescan-active"><code>active</code></a>;
 
   <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-undefined">undefined</a> <a class="idl-code" data-link-type="method" href="#dom-bluetoothlescan-stop">stop</a>();
 };
 
 dictionary <a href="#dictdef-bluetoothlescanpermissiondescriptor"><code>BluetoothLEScanPermissionDescriptor</code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/permissions/#dom-permissiondescriptor">PermissionDescriptor</a> {
   // These match BluetoothLEScanOptions.
-  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a>> <a data-type="sequence<BluetoothLEScanFilterInit>" href="#dom-bluetoothlescanpermissiondescriptor-filters"><code>filters</code></a>;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-bluetoothlescanpermissiondescriptor-keeprepeateddevices"><code>keepRepeatedDevices</code></a> = false;
-  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a data-default="false" data-type="boolean" href="#dom-bluetoothlescanpermissiondescriptor-acceptalladvertisements"><code>acceptAllAdvertisements</code></a> = false;
+  <a data-link-type="dfn" href="https://webidl.spec.whatwg.org/#idl-sequence">sequence</a>&lt;<a data-link-type="idl-name" href="https://webbluetoothcg.github.io/web-bluetooth/#dictdef-bluetoothlescanfilterinit">BluetoothLEScanFilterInit</a>> <a href="#dom-bluetoothlescanpermissiondescriptor-filters"><code>filters</code></a>;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-bluetoothlescanpermissiondescriptor-keeprepeateddevices"><code>keepRepeatedDevices</code></a> = false;
+  <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-boolean">boolean</a> <a href="#dom-bluetoothlescanpermissiondescriptor-acceptalladvertisements"><code>acceptAllAdvertisements</code></a> = false;
 };
 
 interface <a href="#bluetoothlescanpermissionresult"><code>BluetoothLEScanPermissionResult</code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/permissions/#dom-permissionstatus">PermissionStatus</a> {
-  attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescan">BluetoothLEScan</a>> <a data-type="FrozenArray<BluetoothLEScan>" href="#dom-bluetoothlescanpermissionresult-scans"><code>scans</code></a>;
+  attribute <a class="idl-code" data-link-type="interface" href="https://webidl.spec.whatwg.org/#idl-frozen-array">FrozenArray</a>&lt;<a data-link-type="idl-name" href="#bluetoothlescan">BluetoothLEScan</a>> <a href="#dom-bluetoothlescanpermissionresult-scans"><code>scans</code></a>;
 };
 
 </pre>
@@ -2606,20 +2606,101 @@ https://github.com/davatron5000/microlighter
 */
 
 const languageAliases = {
+  "1c": "bsl",
+  "1c-query": "sdbl",
+  actionscript: "actionscript-3",
+  adoc: "asciidoc",
+  ahk1: "ahk",
+  as3: "actionscript-3",
+  asm: "assembly",
+  batch: "bat",
+  be: "berry",
+  bison: "yacc",
+  "c#": "csharp",
+  "c++": "cpp",
+  cdc: "cadence",
+  chpl: "chapel",
+  clj: "clojure",
+  "closure-templates": "soy",
+  cmd: "bat",
+  coffeescript: "coffee",
+  console: "shellsession",
+  cql: "cypher",
+  diff: "git-diff",
   docker: "dockerfile",
+  elisp: "emacs-lisp",
+  erl: "erlang",
+  f: "fortran-fixed-form",
+  "f#": "fsharp",
+  f03: "fortran-free-form",
+  f08: "fortran-free-form",
+  f18: "fortran-free-form",
+  f77: "fortran-fixed-form",
+  f90: "fortran-free-form",
+  f95: "fortran-free-form",
+  flex: "lex",
+  for: "fortran-fixed-form",
+  fs: "fsharp",
+  fsl: "jssm",
+  ftl: "fluent",
+  gd: "gdscript",
+  gjs: "glimmer-js",
+  golang: "go",
   gql: "graphql",
+  grm: "gold",
+  gts: "glimmer-ts",
+  hbs: "handlebars",
+  hs: "haskell",
   idl: "webidl",
+  jade: "pug",
+  jl: "julia",
   js: "javascript",
   jsx: "javascript",
+  justfile: "just",
+  lean4: "lean",
+  lisp: "common-lisp",
+  makefile: "make",
+  markup: "html",
+  mbt: "moonbit",
+  mbti: "moonbit",
   md: "markdown",
+  mediawiki: "wikitext",
+  mmd: "mermaid",
+  nar: "narrat",
+  nf: "nextflow",
+  nu: "nushell",
+  peggy: "pegjs",
+  perl6: "raku",
+  protobuf: "proto",
   py: "python",
+  ql: "codeql",
   rb: "ruby",
+  regex: "regexp",
+  "ruby-signature": "rbs",
   sass: "scss",
+  scad: "openscad",
   sh: "bash",
+  shader: "shaderlab",
   shell: "bash",
+  shellscript: "bash",
+  spl: "splunk",
+  styl: "stylus",
+  surql: "surrealql",
+  svg: "html",
+  talon: "talonscript",
+  tres: "gdresource",
   ts: "typescript",
+  tscn: "gdresource",
+  tsp: "typespec",
+  typ: "typst",
+  vim: "viml",
+  vimscript: "viml",
+  vy: "vyper",
+  wiki: "wikitext",
+  wl: "wolfram",
   yml: "yaml",
-  zsh: "bash"
+  zsh: "bash",
+  "文言": "wenyan"
 };
 
 const normalizeLanguage = (language, aliases = {}) =>
@@ -2712,29 +2793,79 @@ const loadGrammars = createGrammarLoader();
 const highlights = new Map();
 const noMatch = { indices: [[Infinity, Infinity]] };
 
-const getCategory = scope => {
+const themeCategories = new Set([
+  "anchor", "animation", "at-rule", "attribute-name", "attribute-value",
+  "boolean", "character-entity", "comment", "constant", "decorator",
+  "deleted", "doctype", "entity", "function", "important", "inserted",
+  "interpolation", "key", "keyword", "link", "numeric", "operator",
+  "property", "punctuation", "quote", "raw", "regexp", "section",
+  "selector", "storage", "string", "support", "symbol", "tag", "type",
+  "variable"
+]);
+
+const entityNameAliases = {
+  class: "type", struct: "type", interface: "type", enum: "type",
+  trait: "type", module: "type", namespace: "type", record: "type",
+  alias: "type", method: "function", macro: "function",
+  constructor: "function", command: "function", label: "constant",
+  "goto-label": "constant", filename: "string", field: "property",
+  member: "property"
+};
+
+const getScopeCategory = scope => {
   const parts = scope.split(".");
   const [first, second, third] = parts;
-  const last = parts.at(-1);
 
-  if (first === "markup" && ["quote", "inserted", "deleted", "raw"].includes(second)) return second;
-  if (first === "entity" && second === "name") return third;
+  if (first === "markup") {
+    if (["quote", "inserted", "deleted", "raw"].includes(second)) return second;
+    if (second === "heading") return "section";
+    if (second === "code" || second === "inline") return "raw";
+    if (second === "underline" || second === "link") return "link";
+    if (second === "bold" || second === "italic") return "keyword";
+    if (second === "list") return "punctuation";
+  }
+  if (first === "entity" && second === "name") {
+    if (themeCategories.has(third)) return third;
+    return entityNameAliases[third] || "type";
+  }
+  if (first === "entity" && second === "other") {
+    if (third === "attribute-name") return "attribute-name";
+    if (third === "inherited-class") return "type";
+  }
   if (scope.startsWith("constant.character.entity")) return "character-entity";
   if (parts.includes("numeric")) return "numeric";
-  if (scope.startsWith("support.type.property-name")) return "property";
+  if (first === "support") {
+    if (second === "function") return "function";
+    if (second === "constant") return "constant";
+    if (second === "variable") return "variable";
+    if (scope.startsWith("support.type.property-name")) return "property";
+    return "support";
+  }
   if (parts.includes("attribute-value")) return "attribute-value";
   if (scope.startsWith("string.other.link")) return "link";
   if (parts.includes("preprocessor")) return "keyword";
 
-  if ([
+  for (const part of [
     "doctype", "at-rule", "important", "regexp", "boolean",
     "symbol", "operator", "attribute-name"
-  ].includes(last)) return last;
+  ]) {
+    if (parts.includes(part)) return part;
+  }
 
   if ([
     "comment", "string", "constant", "storage", "keyword",
     "variable", "punctuation", "entity", "support"
   ].includes(first)) return first;
+};
+
+const getCategory = scope => {
+  if (!scope) return;
+  if (!scope.includes(" ")) return getScopeCategory(scope);
+  const tokens = scope.split(/\s+/);
+  for (let i = tokens.length - 1; i >= 0; i--) {
+    const cat = getScopeCategory(tokens[i]);
+    if (cat) return cat;
+  }
 };
 
 const findNode = (textNodes, offset, isEnd) => {
@@ -2771,13 +2902,6 @@ const addRange = (textNodes, start, end, scope) => {
   highlights.get(category).add(range);
 };
 
-const addCaptures = (textNodes, match, captures = {}) => {
-  Object.entries(captures).forEach(([index, capture]) => {
-    const offsets = match.indices[+index];
-    if (offsets) addRange(textNodes, ...offsets, capture.name);
-  });
-};
-
 const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const expandEnd = (pattern, beginMatch) => pattern.replace(/\\(\d+)/g, (reference, index) => {
@@ -2790,6 +2914,14 @@ const getRules = rule => {
 
   if (rule.match || rule.begin || rule.include) return [rule];
   return rule.patterns || [];
+};
+
+const compileRegex = (pattern, flags) => {
+  try {
+    return new RegExp(pattern, flags);
+  } catch {
+    return null;
+  }
 };
 
 const highlightAll = async ({
@@ -2815,12 +2947,45 @@ const highlightAll = async ({
     ranges.clear();
   });
 
-  const exec = (pattern, text, start, end) => {
+  const exec = (pattern, text, start, end, anchor = 0) => {
+    if (/(?:^|[^\\])(?:\\\\)*\\G/.test(pattern)) {
+      let entry = regexes.get(pattern);
+      if (!entry) {
+        const atPat = pattern
+          .replace(/((?:^|[^\\])(?:\\\\)*)\(\?(?:<!|!)\\G\)/g, "$1(?!)")
+          .replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1");
+        const afterPat = pattern.replace(/((?:^|[^\\])(?:\\\\)*)\\G/g, "$1(?!)");
+        entry = {
+          at: compileRegex(atPat, "dym"),
+          after: compileRegex(afterPat, "dgm")
+        };
+        regexes.set(pattern, entry);
+      }
+      if (start === anchor && entry.at) {
+        entry.at.lastIndex = anchor;
+        const m = entry.at.exec(text);
+        if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+      }
+      if (entry.after) {
+        const searchStart = start <= anchor ? anchor + 1 : start;
+        if (searchStart < end) {
+          entry.after.lastIndex = searchStart;
+          const m = entry.after.exec(text);
+          if (m && m.indices[0][0] < end && m.indices[0][1] <= end) return m;
+        }
+      }
+      return null;
+    }
+
     let match = matches.get(pattern);
 
     if (!match || match.indices[0][0] < start) {
-      if (!regexes.has(pattern)) regexes.set(pattern, new RegExp(pattern, "dgm"));
+      if (!regexes.has(pattern)) regexes.set(pattern, compileRegex(pattern, "dgm"));
       const regex = regexes.get(pattern);
+      if (!regex) {
+        matches.set(pattern, noMatch);
+        return null;
+      }
       regex.lastIndex = start;
       match = regex.exec(text) || noMatch;
       matches.set(pattern, match);
@@ -2868,18 +3033,22 @@ const highlightAll = async ({
         return;
       }
 
-      if (rule.match || (rule.begin && rule.end)) expanded.push({ grammar, rule });
+      if (rule.match || (rule.begin && rule.end)) {
+        expanded.push({ grammar, rule });
+      } else if (rule.patterns) {
+        expanded.push(...expandRules(rule.patterns, grammar, baseGrammar, activeIncludes));
+      }
     });
 
     return expanded;
   };
 
-  const nextRule = (text, contexts, start, end) => {
+  const nextRule = (text, contexts, start, end, anchor) => {
     let winner = null;
 
     contexts.forEach(context => {
       const pattern = context.rule.match || context.rule.begin;
-      const match = exec(pattern, text, start, end);
+      const match = exec(pattern, text, start, end, anchor);
       if (!match) return;
 
       if (!winner || match.indices[0][0] < winner.match.indices[0][0]) {
@@ -2890,13 +3059,26 @@ const highlightAll = async ({
     return winner;
   };
 
-  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null) => {
+  const addCaptures = (text, textNodes, match, captures, grammar, baseGrammar, depth) => {
+    if (!captures) return;
+    Object.entries(captures).forEach(([index, capture]) => {
+      const offsets = match.indices[+index];
+      if (!offsets) return;
+      if (capture.name) addRange(textNodes, ...offsets, capture.name);
+      if (capture.patterns && offsets[0] < offsets[1]) {
+        scanRegion(text, textNodes, capture.patterns, offsets[0], offsets[1], grammar, baseGrammar, null, depth + 1);
+      }
+    });
+  };
+
+  const scanRegion = (text, textNodes, rules, start, end, grammar, baseGrammar = grammar, closing = null, depth = 0) => {
+    if (depth > 64) return { contentEnd: end, end, match: null };
     const contexts = expandRules(rules, grammar, baseGrammar);
     let cursor = start;
 
     while (cursor < end) {
-      const candidate = nextRule(text, contexts, cursor, end);
-      const endMatch = closing ? exec(closing.pattern, text, cursor, end) : null;
+      const candidate = nextRule(text, contexts, cursor, end, start);
+      const endMatch = closing ? exec(closing.pattern, text, cursor, end, start) : null;
       const candidateStart = candidate?.match.indices[0][0] ?? Infinity;
       const endStart = endMatch?.indices[0][0] ?? Infinity;
 
@@ -2909,7 +3091,7 @@ const highlightAll = async ({
       const { rule, match, grammar: ruleGrammar } = candidate;
       if (rule.match) {
         if (rule.name) addRange(textNodes, ...match.indices[0], rule.name);
-        addCaptures(textNodes, match, rule.captures);
+        addCaptures(text, textNodes, match, rule.captures, ruleGrammar, baseGrammar, depth);
         cursor = match.indices[0][1] > cursor ? match.indices[0][1] : cursor + 1;
         continue;
       }
@@ -2922,13 +3104,14 @@ const highlightAll = async ({
         end,
         ruleGrammar,
         baseGrammar,
-        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast }
+        { pattern: expandEnd(rule.end, match), applyEndPatternLast: rule.applyEndPatternLast },
+        depth + 1
       );
 
       if (rule.name) addRange(textNodes, match.indices[0][0], nested.end, rule.name);
       if (rule.contentName) addRange(textNodes, match.indices[0][1], nested.contentEnd, rule.contentName);
-      addCaptures(textNodes, match, rule.beginCaptures || rule.captures);
-      if (nested.match) addCaptures(textNodes, nested.match, rule.endCaptures || rule.captures);
+      addCaptures(text, textNodes, match, rule.beginCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
+      if (nested.match) addCaptures(text, textNodes, nested.match, rule.endCaptures || rule.captures, ruleGrammar, baseGrammar, depth);
 
       cursor = nested.end > cursor ? nested.end : cursor + 1;
     }
